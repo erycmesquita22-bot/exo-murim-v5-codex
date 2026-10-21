@@ -1,0 +1,67 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Identifier "timber" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/dungeon_renderer.gd:50)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "timber" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/dungeon_renderer.gd:57)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/runtime/dungeon_instance.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/runtime/interior_root.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_dungeon/runtime/interior_root.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "timber" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/renderer_v2.gd:41)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "timber" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/renderer_v2.gd:48)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_dungeon/runtime/renderer_v2.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+R12_NATIVE_PARSE total=461 failed=2
+ERROR: R12_NATIVE_PARSE_FAILED res://exo_dungeon/runtime/dungeon_renderer.gd
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] _execute (res://convergence/tests/qa_c03_r12_native.gd:15)
+ERROR: R12_NATIVE_PARSE_FAILED res://exo_dungeon/runtime/renderer_v2.gd
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] _execute (res://convergence/tests/qa_c03_r12_native.gd:15)

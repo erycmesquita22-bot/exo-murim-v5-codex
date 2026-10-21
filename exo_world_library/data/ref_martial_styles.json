@@ -1,0 +1,282 @@
+{
+  "domain": "ref_martial_styles",
+  "records": [
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_sword_swift",
+      "label": "Espada do Vento Cortante",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.sword_swift",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_saber_iron",
+      "label": "Sabre da Montanha",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.saber_iron",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_spear_dragon",
+      "label": "Lança do Dragão Ascendente",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.spear_dragon",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_fist_river",
+      "label": "Punhos da Corrente",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.fist_river",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_kick_crane",
+      "label": "Passos do Grou",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.kick_crane",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_shadow_steps",
+      "label": "Passos das Sombras",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.shadow_steps",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_jade_guard",
+      "label": "Guarda de Jade",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.jade_guard",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_hidden_blade",
+      "label": "Arsenal Oculto",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.hidden_blade",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_qi_serene",
+      "label": "Respiração da Serenidade",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.qi_serene",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_fire_ember",
+      "label": "Fogo da Fênix",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.fire_ember",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_winter_frost",
+      "label": "Geada Silenciosa",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.winter_frost",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_styles",
+      "excludes": [],
+      "id": "ref_martial_styles/ref_exo_martial_style_void_arts",
+      "label": "Artes do Vazio",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.style.void_arts",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/styles.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

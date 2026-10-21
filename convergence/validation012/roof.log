@@ -1,0 +1,5 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+ROOF_CASE 0 grounded=true hidden=true restored=true
+ROOF_CASE 5 grounded=true hidden=true restored=false
+ROOF012 false checks=6

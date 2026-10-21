@@ -1,0 +1,295 @@
+{
+  "base_sha256": "77fadde057e6e4c25bd9add9f2cabf9e1839e21bb203bcbb836185e19d108c8e",
+  "changes": [
+    {
+      "file": "AGENTS.md",
+      "status": "modified",
+      "sha256": "740d48e012e771deafa5ea4f3e457c2b436b897d1e6146d40a827fefb6f8fc8d",
+      "bytes": 14176
+    },
+    {
+      "file": "LEIA-ME-WORLDGENESIS-V4.txt",
+      "status": "added",
+      "sha256": "54aa6d1545eb0f07b11874216c988b3f7095d749c7d04ae33516ce70c98de0a7",
+      "bytes": 760
+    },
+    {
+      "file": "V4_CHECKPOINT/evidence/01-inicio.png.import",
+      "status": "added",
+      "sha256": "4f0311c4986824c11ad3c8579906df773024309d37106afe02bc31c1e8cdfd16",
+      "bytes": 954
+    },
+    {
+      "file": "V4_CHECKPOINT/evidence/02-criador.png.import",
+      "status": "added",
+      "sha256": "83f8354d18e37ff9021135e34931263ddd57d4803edf148c5a43f2d7cf8bfcc7",
+      "bytes": 956
+    },
+    {
+      "file": "V4_CHECKPOINT/evidence/03-campanha.png.import",
+      "status": "added",
+      "sha256": "bd508df479eedd24b18a96d49b25e9330d43805e013f4b7c930f9c89f4e00260",
+      "bytes": 960
+    },
+    {
+      "file": "V4_CHECKPOINT/evidence/04-cidade78.png.import",
+      "status": "added",
+      "sha256": "955dd6b0b9edb6ec766f708c622efdd71d4b943dd86f22e5cd1a67f3113d8ae4",
+      "bytes": 960
+    },
+    {
+      "file": "V4_CHECKPOINT/evidence/05-escola-jade.png.import",
+      "status": "added",
+      "sha256": "979c34a9b3b0473d8d9d376c4846057aa9ee5399f1a2a22d55ec4703d68f4da4",
+      "bytes": 969
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/combate-personagem-preservado.png.import",
+      "status": "added",
+      "sha256": "9e16899bc0fefb93d9ffe7e7eb9493ee9fb0092f6375ba3496abfd82f6a24a25",
+      "bytes": 1035
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/configuracoes.png.import",
+      "status": "added",
+      "sha256": "2b77644ccf78612b94c3ab7e20fe8221b891bb31f3fffdcd4bea9d5c4b3543ff",
+      "bytes": 986
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/inventario.png.import",
+      "status": "added",
+      "sha256": "75e26036b8bb7f1b3cc080aca53ef9ac6a01f8556b10f284a476d558a1e59ae7",
+      "bytes": 977
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-antes.png.import",
+      "status": "added",
+      "sha256": "1455fd93ad7d22af80779f69d545f67b27ae5e431630b99bc2ca8709c0fa3546",
+      "bytes": 984
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-concluidas.png.import",
+      "status": "added",
+      "sha256": "557703526be1406d3c1578b610cf58cda1917deb572e266d19d895660708bc80",
+      "bytes": 999
+    },
+    {
+      "file": "V4_CHECKPOINT/logs/legacy-playable-evidence/vila-completa.png.import",
+      "status": "added",
+      "sha256": "ab8cc9b5842a253740bd90fd7640b9a029f5878bb50705d4552d3846bd41fcd8",
+      "bytes": 986
+    },
+    {
+      "file": "convergence/crowd_geometry_v4.gd.uid",
+      "status": "added",
+      "sha256": "928aa8ae700d260169b13f38d845e78a72be90b44d50b7571b1f04fccdd67838",
+      "bytes": 20
+    },
+    {
+      "file": "convergence/economy_host_v4.gd.uid",
+      "status": "added",
+      "sha256": "9be0e6a254a3d019f7e5f22dacf3b22e1a33b7bf9c75b6f4429a37804ca311b7",
+      "bytes": 20
+    },
+    {
+      "file": "convergence/game.gd",
+      "status": "modified",
+      "sha256": "8b6538d6b02fa04e670a8da5b5b084c3cccde5648babc10e6fc872926dd523d4",
+      "bytes": 43122
+    },
+    {
+      "file": "convergence/state.gd",
+      "status": "modified",
+      "sha256": "74caa063b6bb79cdcbd6cc3a96b8a5d5283225a1dc7b3f55194c20d001ca3fcc",
+      "bytes": 4619
+    },
+    {
+      "file": "convergence/tests/benchmark_v4.gd.uid",
+      "status": "added",
+      "sha256": "76d467026023cccc9b4b11de167560527068bcfa753a931388f8a6fd5203e99b",
+      "bytes": 20
+    },
+    {
+      "file": "convergence/tests/capture_v4.gd.uid",
+      "status": "added",
+      "sha256": "7f2da8dfc6d361ad6b74477ce32ab2c3d79b744becbc8b981aff098bbc46f3b2",
+      "bytes": 19
+    },
+    {
+      "file": "convergence/tests/qa_skill_catalog_probe.gd.uid",
+      "status": "added",
+      "sha256": "1e54c2f9d70e61973d1b8a9a3611d90fff18f7dda07eed7c245c05019189dd5f",
+      "bytes": 20
+    },
+    {
+      "file": "convergence/tests/qa_v4_integration.gd.uid",
+      "status": "added",
+      "sha256": "4ac849fc1a75984c986993ae03287bab751710b66beffc7defa548407e40dfde",
+      "bytes": 19
+    },
+    {
+      "file": "convergence/tests/qa_v4_interior.gd.uid",
+      "status": "added",
+      "sha256": "7e107773fa96af61ec0d71de6b39f3a14a94e9f97d1e152a7399f58d8b9fdc78",
+      "bytes": 19
+    },
+    {
+      "file": "convergence/tests/qa_v4_registry.gd.uid",
+      "status": "added",
+      "sha256": "ffeae8c9a476a40827abc649219d62fa213c1d614387694353df55ff825678a6",
+      "bytes": 20
+    },
+    {
+      "file": "exo_core/integrations/terrain_r3.gd.uid",
+      "status": "added",
+      "sha256": "78ea8cb521f64d952d92bbc602cadad00fca0c18c77ad22f518d0b0ca8aff10f",
+      "bytes": 20
+    },
+    {
+      "file": "exo_terrain_forge/r3/terrain_material_resolver.gd.uid",
+      "status": "added",
+      "sha256": "3e781d622baf7169f7f59d1fcd1dd8e81d99ff2af9cfc9e1fc93322de4fc72ce",
+      "bytes": 20
+    },
+    {
+      "file": "genesis/monument_reservations_r7.gd",
+      "status": "modified",
+      "sha256": "131fc63791c5c2d06247344cb0d5d86dce621233e27b46903a7f4be2950c2f4e",
+      "bytes": 5694
+    },
+    {
+      "file": "genesis/region_data.gd",
+      "status": "modified",
+      "sha256": "6fdb945874f24c61e5333cade1e390cc36bb1b0858b5e444ef0c3bd7310e79d2",
+      "bytes": 16183
+    },
+    {
+      "file": "genesis/region_scene.gd",
+      "status": "modified",
+      "sha256": "09a3c91a70a6f9197f92ec66862dbb4951e0dcf2ef8a6e379cf326ef90a8b85a",
+      "bytes": 18624
+    },
+    {
+      "file": "genesis/v4/benchmark_compare.gd",
+      "status": "added",
+      "sha256": "16da7b103e8e8aac294f89666fab265f134c5b47a392391e5528abc3db23aca0",
+      "bytes": 3060
+    },
+    {
+      "file": "genesis/v4/benchmark_compare.gd.uid",
+      "status": "added",
+      "sha256": "99016ae349fbd9062a2209b87cb936a754adf5cc3a233bb79074fe8f9957f4c2",
+      "bytes": 20
+    },
+    {
+      "file": "genesis/v4/capture_compare.gd",
+      "status": "added",
+      "sha256": "3b8d78a42d77c7b9b5128afcf5a57ff667d8754dd27e8bf1d0e2e3d92c887886",
+      "bytes": 3062
+    },
+    {
+      "file": "genesis/v4/capture_compare.gd.uid",
+      "status": "added",
+      "sha256": "408b37d14e501b6da9aded463b93f68fe470ef82abb977520035a0d54f4bfcc5",
+      "bytes": 19
+    },
+    {
+      "file": "genesis/v4/landmarks.gd",
+      "status": "added",
+      "sha256": "560a9507dc1c2ef0d001ecebd158f83033458e683002a66647f79ac8a819a54c",
+      "bytes": 3822
+    },
+    {
+      "file": "genesis/v4/landmarks.gd.uid",
+      "status": "added",
+      "sha256": "db779a92d39f5d39bb6c820418edcf420ca88d2d0ea2041d6f1f665e5be17f8c",
+      "bytes": 20
+    },
+    {
+      "file": "genesis/v4/profiles.json",
+      "status": "added",
+      "sha256": "f0ce9a13d7847dabcbdead7bbf2d71ccda34489c38e23a7a4d9df632d90d98f8",
+      "bytes": 2577
+    },
+    {
+      "file": "genesis/v4/qa_data.gd",
+      "status": "added",
+      "sha256": "be9bbfae4137ac00802c9d1fc8ad7d8bd8320e1f8c34460c7e5fe7c4414faf76",
+      "bytes": 4119
+    },
+    {
+      "file": "genesis/v4/qa_data.gd.uid",
+      "status": "added",
+      "sha256": "c758592a826fc73f3f29c911f09057b70f70a01ce22f483dfbfce1625f1fb7e7",
+      "bytes": 20
+    },
+    {
+      "file": "genesis/v4/qa_new_campaign.gd",
+      "status": "added",
+      "sha256": "81c482cf34272aabaa67f842b98048ee50076ffb8946b830a3512fc9208258a3",
+      "bytes": 3803
+    },
+    {
+      "file": "genesis/v4/qa_new_campaign.gd.uid",
+      "status": "added",
+      "sha256": "a67171725953a2ee68a9ab927b7665020bb1c5e128b8946497af7574d5ede989",
+      "bytes": 19
+    },
+    {
+      "file": "genesis/v4/qa_physical.gd",
+      "status": "added",
+      "sha256": "988c5d0b2e475b93e5c746651e1314f6c2da4b3d5e6a76f6586fdbfca123698e",
+      "bytes": 5715
+    },
+    {
+      "file": "genesis/v4/qa_physical.gd.uid",
+      "status": "added",
+      "sha256": "ca17ce2fb0cec164beeb3dd81c136bd4d458e9b7971776e0923fb489e05c40c3",
+      "bytes": 20
+    },
+    {
+      "file": "genesis/v4/world_plan.gd",
+      "status": "added",
+      "sha256": "1b3b7127f4548519ac9408b69145a74da09d4a75cdee70fb8ae26484bff0483a",
+      "bytes": 5489
+    },
+    {
+      "file": "genesis/v4/world_plan.gd.uid",
+      "status": "added",
+      "sha256": "809e4d821102faad23bed8552ac8e145c69be42b8b0e8217a9ee078ba6909924",
+      "bytes": 20
+    },
+    {
+      "file": "murim_flow.gd",
+      "status": "modified",
+      "sha256": "3e472e8658001fa828b4f159f52fa48c83fb2cf695d67c64d73f3ad803793879",
+      "bytes": 24529
+    },
+    {
+      "file": "playable_validation.gd",
+      "status": "modified",
+      "sha256": "90e44ad7e5d0395d581ab42c0bd5fc0074e955a73a229bfbaf84395ce5b9334b",
+      "bytes": 5307
+    },
+    {
+      "file": "project.godot",
+      "status": "modified",
+      "sha256": "07bb439320f46231549736c8e7919986cfec83559f3ee48a5fdfe8d96a25e6db",
+      "bytes": 1208
+    },
+    {
+      "file": "tools/run_worldgen_v4_checks.py",
+      "status": "added",
+      "sha256": "ca2c693925c9e00dab76dea9a503ae8983f299c017d7f4e441b8e41974568d34",
+      "bytes": 1584
+    }
+  ],
+  "deleted": [],
+  "protected_files": 37,
+  "exclusions": [
+    ".godot",
+    ".git",
+    "__pycache__",
+    "WORLDGENESIS_V4 (reports/evidence listed separately)"
+  ]
+}

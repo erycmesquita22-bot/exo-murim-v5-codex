@@ -1,0 +1,416 @@
+[
+  {
+    "script": "tests.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 13.338364570000067,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://tests.gd"
+    ]
+  },
+  {
+    "script": "release_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 21.112649890000057,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://release_qa.gd"
+    ]
+  },
+  {
+    "script": "discovery_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 45.82126857100002,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://discovery_qa.gd"
+    ]
+  },
+  {
+    "script": "fidelity_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 11.070639021000034,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://fidelity_qa.gd"
+    ]
+  },
+  {
+    "script": "consolidation_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 23.490696268999955,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://consolidation_qa.gd"
+    ]
+  },
+  {
+    "script": "ruins_martial_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 11.590023839999958,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://ruins_martial_qa.gd"
+    ]
+  },
+  {
+    "script": "assets_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 8.126621199999818,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://assets_qa.gd"
+    ]
+  },
+  {
+    "script": "stabilization_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 11.56805225900007,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://stabilization_qa.gd"
+    ]
+  },
+  {
+    "script": "quality09_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 20.908067543000016,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://quality09_qa.gd"
+    ]
+  },
+  {
+    "script": "martial_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 37.53930411600004,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://martial_qa.gd"
+    ]
+  },
+  {
+    "script": "procedural_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 15.178546389999838,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://procedural_qa.gd"
+    ]
+  },
+  {
+    "script": "legacy_audio_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 5.771251665999898,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://legacy_audio_qa.gd"
+    ]
+  },
+  {
+    "script": "war_qa.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 21.37892243500005,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://war_qa.gd"
+    ]
+  },
+  {
+    "script": "exo_core/tests/qa_core.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 1.5240950859999884,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://exo_core/tests/qa_core.gd"
+    ]
+  },
+  {
+    "script": "exo_core/tests/qa_new_module.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 24.800688326,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://exo_core/tests/qa_new_module.gd"
+    ]
+  },
+  {
+    "script": "fortifications/qa_river_gate.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 8.37913927999989,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://fortifications/qa_river_gate.gd"
+    ]
+  },
+  {
+    "script": "exo_visual/tests/qa_visual.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 86.88463671099998,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://exo_visual/tests/qa_visual.gd"
+    ]
+  },
+  {
+    "script": "cidade_viva/tests/qa_live.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 84.97955733699973,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://cidade_viva/tests/qa_live.gd"
+    ]
+  },
+  {
+    "script": "exo_core/tests/qa_integration.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 107.77634112600026,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://exo_core/tests/qa_integration.gd"
+    ]
+  },
+  {
+    "script": "cidade_viva/tests/qa_cidade_viva.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 60.66209513500007,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://cidade_viva/tests/qa_cidade_viva.gd"
+    ]
+  },
+  {
+    "script": "cidade_viva/tests/qa_flat_floor.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 101.34978073299999,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://cidade_viva/tests/qa_flat_floor.gd"
+    ]
+  },
+  {
+    "script": "cidade_viva/tests/qa_day_fast.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 158.8899650129997,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "5",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://cidade_viva/tests/qa_day_fast.gd"
+    ]
+  },
+  {
+    "script": "validation_r3/npc_reopen.gd",
+    "status": "PASS",
+    "exit_code": 0,
+    "seconds": 51.41194845500013,
+    "command": [
+      "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--audio-driver",
+      "Dummy",
+      "--path",
+      "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+      "--script",
+      "res://validation_r3/npc_reopen.gd"
+    ]
+  }
+]

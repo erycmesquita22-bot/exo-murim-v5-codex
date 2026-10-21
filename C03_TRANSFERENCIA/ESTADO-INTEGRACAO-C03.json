@@ -1,0 +1,18 @@
+{
+  "version": "C03-ALFA-R7",
+  "source": "C03-ALFA-R6-SHA256_VERIFIED",
+  "module_states": {
+    "Core Persistence 01-P": "PRESERVADO_R6_QA_NATIVO_PENDENTE",
+    "Cidade Viva e NPC02 R2": "PRESERVADOS_R6_QA_NATIVO_PENDENTE",
+    "WorldGenesis monument zoning": "CODIGO_R7_IMPLEMENTADO_MAS_NAO_EXECUTADO",
+    "Forja Monumental 04 builder": "CONEXAO_R7_BUILDER_EM_RUNTIME_NAO_TESTADA",
+    "Institucional interior entry E / exit E": "CODIGO_R7_IMPLEMENTADO_TESTE_NATIVO_PENDENTE",
+    "NPC monumental stations": "EXPOSICAO_SEMANTICA_EXO_CORE_ROTINAS_NAO_HOMOLOGADAS",
+    "Dungeon 02 R2 / Itens R3": "PRESERVADO_R6_RECOMPENSAS_SEM_QA_NATIVO",
+    "Bestiario e Harmonizacao": "PRESERVADOS_R4_R5_QA_NATIVO_PENDENTE",
+    "Mestres e artes marciais": "NAO_ATIVADO_R7",
+    "Humanoides visuais": "NAO_ATIVADO_R7"
+  },
+  "claimed_native_gameplay_tests_pass": 0,
+  "release_status": "BLOCKED_PENDING_GODOT"
+}

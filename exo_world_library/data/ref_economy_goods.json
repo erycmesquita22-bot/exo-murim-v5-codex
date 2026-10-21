@@ -1,0 +1,330 @@
+{
+  "domain": "ref_economy_goods",
+  "records": [
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_bamboo",
+      "label": "bamboo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 18,
+        "content_sha256": "ca6fab95cdec56d72480468058a62601ccea8d847f46d6dbbd5691a5b89e4cf1",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "bamboo",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_copper_ore",
+      "label": "copper_ore",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 70,
+        "content_sha256": "e15b7551f69ca345314722faf4caf6fcac7f12d500d47618e00455de53c65595",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "copper_ore",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_grain",
+      "label": "grain",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 24,
+        "content_sha256": "bf005599c8ad452f23935fea82c778cc0990ce602d4b29a7fd1711c9c825c6fd",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "grain",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_healing_tonic",
+      "label": "healing_tonic",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 145,
+        "content_sha256": "07d8a909dedab5869c3271a7defac6bfeca633777a3b81122267640c40dca380",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "healing_tonic",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_herbs",
+      "label": "herbs",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 76,
+        "content_sha256": "af843206c7ee9652bbf2beb449a5f655532a4e3d3cdafd7df846dc30cd14ec89",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "herbs",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_iron",
+      "label": "iron",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 105,
+        "content_sha256": "0c436ca717bc1750cafc339bf6a30f2a1ac9946238064e2c1ca644211e76737f",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "iron",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_medicinal_root",
+      "label": "medicinal_root",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 125,
+        "content_sha256": "ebe50426da181f5d63f9d1badf22261813ce683aded9f25e1e7a5f60f87ae126",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "medicinal_root",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_rice",
+      "label": "rice",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 28,
+        "content_sha256": "3cc03b91f4b8f7fecdb22317425d112a5c504960c83c78b62afb7309f763da56",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "rice",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_silk",
+      "label": "silk",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 220,
+        "content_sha256": "14c9359dd307c62695ce97fba38f5f8cfd9a5e1ce2d7bd974558933a6b58eca6",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "silk",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_timber",
+      "label": "timber",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 40,
+        "content_sha256": "3d69e99e3fb8427b485b64fa532a3e012f53686ef580f2217267af7e4310d2c7",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "timber",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_training_supplies",
+      "label": "training_supplies",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 180,
+        "content_sha256": "f96c2c7a6103f2de8659996977fe59e673e8b8d01978d573bc5d2373165200d8",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "training_supplies",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_economy_goods",
+      "excludes": [],
+      "id": "ref_economy_goods/ref_weapon_common",
+      "label": "weapon_common",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "economy",
+        "readonly"
+      ],
+      "variables": {
+        "base_wen_reference": 440,
+        "content_sha256": "e9f374e674007ff923fb843cbb38db7d6b02cd5ed856177ee3dbe06c6e92b289",
+        "not_transaction_authority": true,
+        "reference_only": true,
+        "source_archive": "ECONOMY_R4",
+        "source_id": "weapon_common",
+        "source_path": "EXO-ECONOMY-01-R4-FINAL/fixtures/Economy_R2/exo_economy/catalog/goods.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

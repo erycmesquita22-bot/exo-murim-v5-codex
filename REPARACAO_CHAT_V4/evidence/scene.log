@@ -1,0 +1,81 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+SCENE_CHECK new_campaign/101 true
+SCENE_CHECK seed_has_actual_cities true
+SCENE_CHECK city/101/78 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_CHECK materialized_pavement_bounds true
+SCENE_CHECK canonical_texture_receipt true
+SCENE_CHECK 64_tiles_equal_live_npc_textures true
+SCENE_CHECK crowd_materialized true
+SCENE_CHECK real_route_floor_and_length true
+SCENE_RECORD {"baseline":false,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":17,"hour":12,"last_region_event":78,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":78,"visible":17,"zones":4},"exact_npc_tiles":64,"geometry":{"ok":true,"revision":"5a466f9b8b0056468ba1ef3f17f9e54cf79dce77525b38f34c2c838eccd0271c","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":35,"missing_or_wrong_floor":0,"npcs":48,"pavements":{"clipped":4,"rejected":0,"roads":35,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":78,"route_lengths":[10.5416229814291,10.3648682832718,9.02423971146345,11.2657385990024,9.78064912930131,10.1807927042246,11.2637472823262,11.6094573736191,9.75638237968087,11.4589488729835,11.3339939266443,9.41365475952625,9.44506545993499,10.7134112790227,10.0709885656834,9.89470888674259,11.1905128285289],"route_points":741,"seed":101,"vertices":3246}
+SCENE_CHECK no_permanent_hint_without_target true
+SCENE_CHECK capture/city78-wide true
+SCENE_CHECK capture/crowd-t0 true
+SCENE_CHECK capture/crowd-end true
+OBSERVATION {"actual_elapsed_ms":1029,"baseline":false,"reverse_samples":0,"samples":0,"stopped_at_destination":0}
+SCENE_CHECK replan_reuses_physical_lanes true
+SCENE_CHECK capture/real-npc true
+SCENE_CHECK save_scene true
+SCENE_CHECK city/101/14 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_CHECK materialized_pavement_bounds true
+SCENE_CHECK canonical_texture_receipt true
+SCENE_CHECK 64_tiles_equal_live_npc_textures true
+SCENE_CHECK crowd_materialized true
+SCENE_CHECK real_route_floor_and_length true
+SCENE_RECORD {"baseline":false,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":19,"hour":12,"last_region_event":14,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":14,"visible":19,"zones":4},"exact_npc_tiles":64,"geometry":{"ok":true,"revision":"6b2755d9d5d4344af8e458d8f05f6f49350e6164a5424f8adab468ddcfbf1bac","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":34,"missing_or_wrong_floor":0,"npcs":65,"pavements":{"clipped":4,"rejected":0,"roads":34,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":14,"route_lengths":[9.9925004914403,11.4981617480516,10.5177725479007,9.81136126071215,10.3215874657035,11.7898193970323,11.3596401712857,10.2005042508245,11.0462012439966,11.196229070425,10.4653617888689,10.5247388705611,9.86539560556412,11.2029445469379,10.0662876702845,11.8647568076849,10.4409188479185,11.0654490273446,9.1588534982875],"route_points":847,"seed":101,"vertices":3498}
+SCENE_CHECK save_scene true
+SCENE_CHECK wild_traversal true
+SCENE_CHECK wild_keeps_worldgen_v4 true
+SCENE_CHECK wild_no_unapproved_crowd true
+SCENE_CHECK save_wild true
+SCENE_CHECK new_campaign/707 true
+SCENE_CHECK seed_has_actual_cities true
+SCENE_CHECK city/707/7 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_CHECK materialized_pavement_bounds true
+SCENE_CHECK canonical_texture_receipt true
+SCENE_CHECK 64_tiles_equal_live_npc_textures true
+SCENE_CHECK crowd_materialized true
+SCENE_CHECK real_route_floor_and_length true
+SCENE_RECORD {"baseline":false,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":16,"hour":12,"last_region_event":7,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":7,"visible":16,"zones":4},"exact_npc_tiles":64,"geometry":{"ok":true,"revision":"db99ffaea1325e5e1456d063ff99d9bd408074ed66262d6f64b836a3ed2b273a","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":60,"missing_or_wrong_floor":0,"npcs":71,"pavements":{"clipped":3,"rejected":0,"roads":60,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":7,"route_lengths":[9.8393922150135,10.6848393268883,10.912651270628,10.915158547461,10.6702823378146,10.1313108820468,10.6594313383102,11.4666975811124,11.9505492150784,11.0894899666309,11.1731105297804,9.09864555671811,9.01921065896749,11.7683108896017,11.8335898965597,10.4876734912395],"route_points":718,"seed":707,"vertices":4080}
+SCENE_CHECK save_scene true
+SCENE_CHECK city/707/26 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_CHECK materialized_pavement_bounds true
+SCENE_CHECK canonical_texture_receipt true
+SCENE_CHECK 64_tiles_equal_live_npc_textures true
+SCENE_CHECK crowd_materialized true
+SCENE_CHECK real_route_floor_and_length true
+SCENE_RECORD {"baseline":false,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":18,"hour":12,"last_region_event":26,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":26,"visible":14,"zones":4},"exact_npc_tiles":64,"geometry":{"ok":true,"revision":"a738b0bc194369d0c960a563b3c6c5bc1ef82ec6753d40ca867d264801e3482e","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":39,"missing_or_wrong_floor":0,"npcs":57,"pavements":{"clipped":3,"rejected":0,"roads":39,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":26,"route_lengths":[10.2776412963867,11.7810821533203,9.73583221435547,10.5715026855469,9.24361801147461,10.8674430847168,11.4160652160645,9.24188995361328,11.2529449462891,9.52201461791992,11.5964393615723,10.0654029846191,11.316707611084,9.72230529785156,10.3612022399902,9.45682525634766,10.0051803588867,9.33067321777344],"route_points":781,"seed":707,"vertices":3588}
+SCENE_CHECK save_scene true
+SCENE_CHECK wild_traversal true
+SCENE_CHECK wild_keeps_worldgen_v4 true
+SCENE_CHECK wild_no_unapproved_crowd true
+SCENE_CHECK save_wild true
+SCENE_CHECK new_campaign/2026 true
+SCENE_CHECK seed_has_actual_cities true
+SCENE_CHECK city/2026/13 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_CHECK materialized_pavement_bounds true
+SCENE_CHECK canonical_texture_receipt true
+SCENE_CHECK 64_tiles_equal_live_npc_textures true
+SCENE_CHECK crowd_materialized true
+SCENE_CHECK real_route_floor_and_length true
+SCENE_RECORD {"baseline":false,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":20,"hour":12,"last_region_event":13,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":13,"visible":20,"zones":4},"exact_npc_tiles":64,"geometry":{"ok":true,"revision":"87e2ebd740131cc42efc7131f3cb6d46db1212cae0e033d40d6c214dabc75cf3","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":44,"missing_or_wrong_floor":0,"npcs":32,"pavements":{"clipped":3,"rejected":0,"roads":44,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":13,"route_lengths":[9.11708831787109,10.3070335388184,10.8993911743164,11.9961318969727,11.9014377593994,11.8284130096436,9.36696910858154,11.6470527648926,10.2389535903931,11.3747425079346,9.57658386230469,9.02336883544922,9.07678604125977,11.8711280822754,10.8966970443726,9.45690727233887,10.5512390136719,9.69446754455566,11.705267906189,10.2962675094604],"route_points":881,"seed":2026,"vertices":3420}
+SCENE_CHECK save_scene true
+SCENE_CHECK wild_traversal true
+SCENE_CHECK wild_keeps_worldgen_v4 true
+SCENE_CHECK wild_no_unapproved_crowd true
+SCENE_CHECK save_wild true
+SCENE_RESULT {"failures":[],"records":6}

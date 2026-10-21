@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "suite": "EXO Skill Forge 01 static/synthetic QA",
+  "runtime": "Python 3 (NOT Godot)",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "stress_iterations": 180000,
+  "catalog": {
+    "legacy": 16,
+    "authorial": 168,
+    "templates": 10
+  },
+  "godot_native": "NOT_RUN"
+}

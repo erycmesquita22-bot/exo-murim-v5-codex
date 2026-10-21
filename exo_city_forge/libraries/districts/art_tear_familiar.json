@@ -1,0 +1,128 @@
+{
+  "id": "art_tear_familiar",
+  "name": "Teares Familiares",
+  "category": "artisan",
+  "settlement_context": "artisan",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "artisan",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "art_tear_familiar/b00",
+      "function": "residence",
+      "archetype": "loom_house",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.3,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "dyed_cloth",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "art_tear_familiar/b01",
+      "function": "warehouse",
+      "archetype": "drying_house",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.0,
+        5.1
+      ],
+      "height": 3.65,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "dyed_cloth",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "art_tear_familiar/st00",
+      "for_building": "art_tear_familiar/b00",
+      "role": "resident"
+    },
+    {
+      "id": "art_tear_familiar/st01",
+      "for_building": "art_tear_familiar/b01",
+      "role": "worker"
+    }
+  ],
+  "open_spaces": {
+    "type": "dyed_cloth",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "dyed_cloth",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

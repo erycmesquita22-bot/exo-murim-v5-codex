@@ -1,0 +1,299 @@
+{
+  "release": "Fortificacoes 02 R2 - passagem fluvial integrada",
+  "base": "EXO-Murim-EXO-Core-01-CANDIDATO-CORRIGIDO.zip",
+  "base_sha256": "d6cae1fc95078b9b083755d68ee59c99568801e01fde8c5983366dc4c616f1ac",
+  "engine": "Godot 4.6.2 Standard Compatibility",
+  "regional_version": 6,
+  "save_root_version": 4,
+  "architecture_module_version": "1.2.0",
+  "files": [
+    {
+      "path": "MANIFESTO-MODULOS-EXO-CORE-01.json",
+      "action": "modified",
+      "sha256": "8bfeab2c3c2da1580232df41dcfcde5c37ba9f297af9e18abbc9451c765e9f0e",
+      "previous_sha256": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021"
+    },
+    {
+      "path": "RELATORIO-PASSAGEM-FLUVIAL-02-R2.md",
+      "action": "added",
+      "sha256": "27d86775006a365c853e93122def3f2707e610bb0328a2388233e4eb04c308db",
+      "previous_sha256": null
+    },
+    {
+      "path": "convergence/frontage_qa.gd",
+      "action": "modified",
+      "sha256": "e3da3496a0340d908301d2014e42da27f6d69a551058cb910cfbb55c6175cc56",
+      "previous_sha256": "de7c5cd132bf6c76d446f24c87221a725888bc10a0623c0e7d3f57c1cddb2ebc"
+    },
+    {
+      "path": "convergence/game.gd",
+      "action": "modified",
+      "sha256": "5870506ec704b41a909a935a7f4f5882cbcf4400aecb92467471b00d9386a92e",
+      "previous_sha256": "267358acbad2ad021d08571f19703e07bd340ba43ef35e32e00d959d33dc7dde"
+    },
+    {
+      "path": "convergence/state.gd",
+      "action": "modified",
+      "sha256": "e2ecdb64f2a220e4bfe3cac752d630187b59418889bddda17c8c1dce825842ec",
+      "previous_sha256": "0f29d0ec1f727f521da3225a8a96d6889296d86bce5a67d6374915d2130d7529"
+    },
+    {
+      "path": "convergence/validation_frontage/frontage-result.json",
+      "action": "modified",
+      "sha256": "87979f265c7e5bd73c8f4f1e83b260fc828f6075b6dc5d2e3ff3615d12532b10",
+      "previous_sha256": "e299bc7711980c4ed83bbe7797e708eb0c7c087ae7016d52905c9b4b69aac531"
+    },
+    {
+      "path": "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png",
+      "action": "added",
+      "sha256": "011abfbfdc4a798ffb8e01fda571368f9158fc11c5441347c8f9d327ddc90dfb",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png.import",
+      "action": "added",
+      "sha256": "710015f0c9c39231d1648c6bc4557e970ee4053254c2d80c1b29771c7923fbc1",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png",
+      "action": "added",
+      "sha256": "6fc024cd1bd62728694fac9f37aa8a0435579e43830502f905d2e4064741b9a7",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png.import",
+      "action": "added",
+      "sha256": "2e51c48f297c17b8fab84e717c665410b0a81683b8099d79b795962f5ffb54ad",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/evidence/fluvial_integrated/reload_expected.json",
+      "action": "added",
+      "sha256": "efb4e69ea1859fe1774807354bab8610677590fcab6f14ac46a29801df6e33f6",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/modules.json",
+      "action": "modified",
+      "sha256": "8bfeab2c3c2da1580232df41dcfcde5c37ba9f297af9e18abbc9451c765e9f0e",
+      "previous_sha256": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021"
+    },
+    {
+      "path": "exo_core/tests/capture_river_gate.gd.uid",
+      "action": "added",
+      "sha256": "b5243dce4d4485e700b063d4fefe107c6c70d042f8420bba86acab7ea97f1b4e",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/tests/qa_fluvial_integration.gd",
+      "action": "added",
+      "sha256": "d7faaff1d26c75a0599023836727869fd8510094ebdb10cc1e915e6631b4d223",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/tests/qa_fluvial_integration.gd.uid",
+      "action": "added",
+      "sha256": "7934dcac9cfdcfc8329d480e1352cc0cf5de32b6b50719dae40e78fb2bc85dc3",
+      "previous_sha256": null
+    },
+    {
+      "path": "exo_core/tests/qa_fluvial_reload.gd",
+      "action": "added",
+      "sha256": "86fa127ba9e970159398fed85da475badec2570c20bc4bf91f521c3829a84a54",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/planner.gd",
+      "action": "modified",
+      "sha256": "17bab861febba15ac0b3ea1a773e0f66ffd1f403e08223c223f5c81f02fde6a5",
+      "previous_sha256": "cf2f45dd36a7a56e00d198c008108ba36b995b0b066821f8521715cb4a7720b6"
+    },
+    {
+      "path": "fortifications/qa_native.gd",
+      "action": "modified",
+      "sha256": "10613c9c6d2c1fdcf24e92777eee3ad7304925aea5eb1ae79451f6636bfb41f8",
+      "previous_sha256": "ff76cdd465722e1680df49419d3f5a11a959657dd7a15a3b6ca0bd2b9897f33b"
+    },
+    {
+      "path": "fortifications/qa_river_gate.gd",
+      "action": "modified",
+      "sha256": "eea4ad45b1f6d4fb2f37c916938e5801c9335dd0d01f273c3ac8e6c624042046",
+      "previous_sha256": "860358efd4a8712d5ee5ac82afdb49580ff89692772888f4ba21bfbb04ca68ca"
+    },
+    {
+      "path": "fortifications/qa_river_gate.gd.uid",
+      "action": "added",
+      "sha256": "6a09e4dc26c35236fb39b11eced8f98a1f622627f78857bbf72344e2e4e58e04",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/results/qa_river_gate.json",
+      "action": "added",
+      "sha256": "8a5bb359e1ffff234eaec4c9a11babd30e0d35f223d0fb9fdf78cc5dcf4c5385",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/river_gate.gd",
+      "action": "modified",
+      "sha256": "c2419f1aa6b81c591a6e100facaed567bf25a7936b3741fa454bde0a0a6199ea",
+      "previous_sha256": "5821320c146e47c724bda44ec31962b371fde6472a1d279c73ca631d0f43728e"
+    },
+    {
+      "path": "fortifications/river_gate.gd.uid",
+      "action": "added",
+      "sha256": "4264a2447be3eb9a654dc2467cddf3960294b573d2e57074d1a650349eda1981",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-core.log",
+      "action": "added",
+      "sha256": "6572d5f497ce5cf3a615c431b85c46702346b083e7c5ea6110905eae53f8ea7e",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-core_integration.log",
+      "action": "added",
+      "sha256": "0f58ac3c1b45678778325d5833e5895b5a49dd11bff50d81ab0043bff2fd799a",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-extra-summary.json",
+      "action": "added",
+      "sha256": "7a5e32f70aa27937e789e4abe2a488a1cf5527ac4b68c8867b935bd6c64e2f5d",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-fortifications.log",
+      "action": "added",
+      "sha256": "38360fe9ca72847b538ff4271df43e61b411401651e267107faac470d245cdce",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-import.log",
+      "action": "added",
+      "sha256": "3c2c0700c3fac8670aa1bbcb8211029c3c7b36dfe246752bbe130c7fce8ff129",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-npc_frontages.log",
+      "action": "added",
+      "sha256": "9c47fc24f32a5b304bb704beb57cd00ac97c0410976da46f6e8428211b7424cf",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-persistence_crash.log",
+      "action": "added",
+      "sha256": "da76a36a586ec310ae98a6bf8844ab87166457610861a810027a91d273cbb93f",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-persistence_reopen.log",
+      "action": "added",
+      "sha256": "55e123f1830f439f1a4ef387a0037adf94bd3c2a6497d0accd5a3ec92bbc323c",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-river_native.log",
+      "action": "added",
+      "sha256": "f52ee711c03f155f7aec6650e4d531b43fa36a54c9ddf09bef3715e987de6ecd",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-runner.log",
+      "action": "added",
+      "sha256": "b8f413fc5fdd60a51d319fc111efc88741a2d23b880bbae5d1773e5d5cc2415f",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-settlements.log",
+      "action": "added",
+      "sha256": "220c53df0a8657b4ba62dc1b0f4e0f4efbc2a2e12da522dfe0abb92995ce20b6",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-summary.json",
+      "action": "added",
+      "sha256": "e6bfcfae28c78b9f0424c5f2240b28b3588af2c82c2b38fa38354f56a9587ad4",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-terrain_physics.log",
+      "action": "added",
+      "sha256": "103e3b2557bcd706414f8892b5592cdf8a33fc6ad490c8f31a9790d6432e62cc",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-zip-summary.json",
+      "action": "added",
+      "sha256": "4db92bc3499443984ee441edd8f59169553f9e88edf946dca67d902defe02ec3",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-zip_import.log",
+      "action": "added",
+      "sha256": "ac8909e3344f3ba0215132eafb69a96448871148f66b9eb3876acba51c7c4886",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-zip_river_native.log",
+      "action": "added",
+      "sha256": "f52ee711c03f155f7aec6650e4d531b43fa36a54c9ddf09bef3715e987de6ecd",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/final-zip_runtime_reload.log",
+      "action": "added",
+      "sha256": "64e98b45319af3288e3933a0b568414e07819ec7df41eedd0962577182e036e4",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/fluvial-integration.log",
+      "action": "added",
+      "sha256": "6fd73c2a8a77dd8736b1e65bb65e68c82624c31faa1827f5b229a9d9a4cab64c",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/fluvial-reload.log",
+      "action": "added",
+      "sha256": "64e98b45319af3288e3933a0b568414e07819ec7df41eedd0962577182e036e4",
+      "previous_sha256": null
+    },
+    {
+      "path": "fortifications/validation_r2/preservation-fluvial.json",
+      "action": "added",
+      "sha256": "3cc5b461556422b4340576b2d00fcfc5eb8a2a13b89675097e5a53a99b5d49d5",
+      "previous_sha256": null
+    },
+    {
+      "path": "genesis/region_data.gd",
+      "action": "modified",
+      "sha256": "0450b429566ce17fd1d012dffe31655b29a7bfbbd583b66b26ae75dcbe87b158",
+      "previous_sha256": "b383bfa6c7732bf339a39232994c8582c2cc08501d48e904a845d9eb3df8f935"
+    },
+    {
+      "path": "genesis/region_scene.gd",
+      "action": "modified",
+      "sha256": "1becebb66d290706c9cd0bea27a11cece6833bc8a2885cfcfb4c98336bc092c3",
+      "previous_sha256": "238a1de359feab12116f996f09917cd605853a466d881902f5e5322933b9aec6"
+    },
+    {
+      "path": "validation_r3/results/exo_core_integration.json",
+      "action": "modified",
+      "sha256": "21ed2b5bb1a38bfbb2e8ff749d7b91da90ccfdb12e3f4ba70a6613a00d43c634",
+      "previous_sha256": "577088e19f275277f9c84f2acd9e326979163ea052372262701be0d718650993"
+    },
+    {
+      "path": "validation_r3/results/fluvial_integration.json",
+      "action": "added",
+      "sha256": "a3e858ec5023bb4970cd16f98efe68056162b7493a9bf1b04c9794812c336272",
+      "previous_sha256": null
+    },
+    {
+      "path": "validation_r3/results/fluvial_reload.json",
+      "action": "added",
+      "sha256": "60201793af9a2179a1805ea5370911a1bb538a89867c4bc11e035d2ae62a0fa4",
+      "previous_sha256": null
+    }
+  ]
+}

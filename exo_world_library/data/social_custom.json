@@ -1,0 +1,486 @@
+{
+  "domain": "social_custom",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/cumprimento_com_reverencia_hierarquica",
+      "label": "Cumprimento com reverência hierárquica",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "cumprimento_com_reverencia_hierarquica"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Cumprimento com reverência hierárquica",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "cumprimento_com_reverencia_hierarquica"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/cha_antes_da_negociacao",
+      "label": "Chá antes da negociação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "cha_antes_da_negociacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Chá antes da negociação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "cha_antes_da_negociacao"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/recusa_ritual_a_duelo_publico",
+      "label": "Recusa ritual a duelo público",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "recusa_ritual_a_duelo_publico"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Recusa ritual a duelo público",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "recusa_ritual_a_duelo_publico"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/oferta_de_lanterna_aos_viajantes",
+      "label": "Oferta de lanterna aos viajantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "oferta_de_lanterna_aos_viajantes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Oferta de lanterna aos viajantes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "oferta_de_lanterna_aos_viajantes"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/hospitalidade_por_tres_noites",
+      "label": "Hospitalidade por três noites",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "hospitalidade_por_tres_noites"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Hospitalidade por três noites",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "hospitalidade_por_tres_noites"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/troca_de_poemas_entre_mestres",
+      "label": "Troca de poemas entre mestres",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "troca_de_poemas_entre_mestres"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Troca de poemas entre mestres",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "troca_de_poemas_entre_mestres"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/dia_de_silencio_no_santuario",
+      "label": "Dia de silêncio no santuário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "dia_de_silencio_no_santuario"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Dia de silêncio no santuário",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "dia_de_silencio_no_santuario"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/presentes_ao_mestre_apos_graduacao",
+      "label": "Presentes ao mestre após graduação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "presentes_ao_mestre_apos_graduacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Presentes ao mestre após graduação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "presentes_ao_mestre_apos_graduacao"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/respeito_ao_anciao_da_vila",
+      "label": "Respeito ao ancião da vila",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "respeito_ao_anciao_da_vila"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Respeito ao ancião da vila",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "respeito_ao_anciao_da_vila"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/cerimonia_de_reconciliacao",
+      "label": "Cerimônia de reconciliação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "cerimonia_de_reconciliacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Cerimônia de reconciliação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "cerimonia_de_reconciliacao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/protecao_coletiva_ao_orfao",
+      "label": "Proteção coletiva ao órfão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "protecao_coletiva_ao_orfao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Proteção coletiva ao órfão",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "protecao_coletiva_ao_orfao"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/registro_da_divida_pelo_mercador",
+      "label": "Registro da dívida pelo mercador",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "registro_da_divida_pelo_mercador"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Registro da dívida pelo mercador",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "registro_da_divida_pelo_mercador"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/oficina_aberta_a_aprendizes",
+      "label": "Oficina aberta a aprendizes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "oficina_aberta_a_aprendizes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Oficina aberta a aprendizes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "oficina_aberta_a_aprendizes"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/procissao_da_colheita",
+      "label": "Procissão da colheita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "procissao_da_colheita"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Procissão da colheita",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "procissao_da_colheita"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/torneio_sem_armas_letais",
+      "label": "Torneio sem armas letais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "torneio_sem_armas_letais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Torneio sem armas letais",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "torneio_sem_armas_letais"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "social_custom",
+      "excludes": [],
+      "id": "social_custom/peregrinos_hospedados_em_escolas",
+      "label": "Peregrinos hospedados em escolas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "culture",
+        "social",
+        "peregrinos_hospedados_em_escolas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Peregrinos hospedados em escolas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "living_world",
+        "theme_key": "peregrinos_hospedados_em_escolas"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

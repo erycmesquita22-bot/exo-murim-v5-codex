@@ -1,0 +1,514 @@
+[
+  {
+    "file": "exo_city_forge/contracts/city_placement_schema.json",
+    "sha256": "326ea5ea8dcb964a1ce721b8fb16f5e219c919f9d79bf583ea0b89c80fdc7380",
+    "bytes": 557,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_city_forge/contracts/city_society_schema.json",
+    "sha256": "311327e08fd4d8ba9dd47607a014a593fb9e99f64f14844d6a55f670f9cd1905",
+    "bytes": 342,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_city_forge/contracts/district_schema.json",
+    "sha256": "74862194262f4a2be181e1486a578733cb4cd24995a7cd4f3e824179c9d76398",
+    "bytes": 646,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_city_forge/contracts/city_blueprint_schema.json",
+    "sha256": "67588dd7af384800f900b4b8f7a2eed98ce1afa0b6cae8d5c4a76d6301c1322d",
+    "bytes": 665,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_city_forge/contracts/city_plan_export_schema.json",
+    "sha256": "54cb6c0d6273d65040bc480f2277146fcb70a9b2e8b02897bf5b08941ae69b40",
+    "bytes": 452,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_city_forge/contracts/city_profile_schema.json",
+    "sha256": "ec0cfdb042d47e80ec37b21aa99a40e33a00512f0c4c2fdf2eb875d786ecbe56",
+    "bytes": 440,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_crowd_illusion/contracts/crowd_zones_schema.json",
+    "sha256": "de79465cd20b345148f402335b4b2b50e6b1f4c609a7d6dae6f60da4210b5f9b",
+    "bytes": 1272,
+    "keys": [
+      "$schema",
+      "title",
+      "type",
+      "items",
+      "maxItems"
+    ]
+  },
+  {
+    "file": "exo_crowd_illusion/contracts/manifest.json",
+    "sha256": "b24568ba5dee8d271e81e711584b612b956ce9c64f502329a38bcc245f051273",
+    "bytes": 1398,
+    "keys": [
+      "id",
+      "version",
+      "target_engine",
+      "reference",
+      "reference_sha256",
+      "entrypoint",
+      "services",
+      "requires",
+      "optional",
+      "consumes",
+      "publishes",
+      "persistence",
+      "interaction",
+      "physics",
+      "integration_mode",
+      "verified_native_qa",
+      "avatar_visuals",
+      "limitations",
+      "provenance"
+    ]
+  },
+  {
+    "file": "exo_crowd_illusion/integration/CONTRATOS-R13.md",
+    "sha256": "a7d7ca994b24f792ec9a1777d822640021d59ffafc24d1e9e65f21cda12d6dd4",
+    "bytes": 3664,
+    "headings": [
+      "# Matriz de contratos auditados na C3 ALFA R13",
+      "## Contrato futuro com City Forge 01"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/coherence_policy.json",
+    "sha256": "0ffd9cda67456379969d8781912a772da70e058d5af25bd7851586ae7426ea0e",
+    "bytes": 2601,
+    "keys": [
+      "context_incompatibilities",
+      "mutually_exclusive_tag_sets",
+      "notes",
+      "political_story_rules",
+      "schema",
+      "scope",
+      "selected_tag_requirements",
+      "version"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/interior_context_r4.schema.json",
+    "sha256": "748ad448469826ebd5a6ea481d1e674b49184b3ddc69782d0e14fcef7d9d5745",
+    "bytes": 851,
+    "keys": [
+      "$schema",
+      "properties",
+      "required",
+      "title",
+      "type"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/record.schema.json",
+    "sha256": "0d656478e37f88fa610e9e5615d2eb139e61ef7f5d96a7f1e92060a6beec199d",
+    "bytes": 1286,
+    "keys": [
+      "$schema",
+      "$id",
+      "title",
+      "type",
+      "required",
+      "properties",
+      "additionalProperties"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/proposal_r4.schema.json",
+    "sha256": "8f727740d02dfef1e31d53e9638feab84566b5aea4412b9a132d06c05790b3e6",
+    "bytes": 585,
+    "keys": [
+      "$schema",
+      "properties",
+      "required",
+      "title",
+      "type"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/adapter_requirements.json",
+    "sha256": "18d26b2162df4492530ed631cd030b7a824bc0459cb73457d130dd556fcc1baf",
+    "bytes": 9967,
+    "keys": [
+      "appearance",
+      "audio",
+      "bestiary",
+      "city_forge",
+      "dungeon_genesis",
+      "exo_crowd_illusion",
+      "exo_economy",
+      "exo_interior_forge",
+      "exo_items",
+      "exo_martial",
+      "exo_monumental",
+      "exo_skill_forge",
+      "journey",
+      "living_world",
+      "narrative",
+      "terrain_forge",
+      "visual_vfx",
+      "world"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/recipe.schema.json",
+    "sha256": "12c44aeb89f69d315a4984201922265beb471c99d9e60e621a1b3c32dcdc3c62",
+    "bytes": 614,
+    "keys": [
+      "$schema",
+      "$id",
+      "title",
+      "type",
+      "required",
+      "properties"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/authority_matrix.json",
+    "sha256": "aa1b52480b2c98eb0f163b81615aa4bdd0a5f4d02408c4f556e8596895b437d5",
+    "bytes": 3669,
+    "keys": [
+      {
+        "content_library_scope": "input selection; NO place/save",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "world",
+        "purpose": "Regionas, biome, WorldGenesis"
+      },
+      {
+        "content_library_scope": "reference IDs; NO place/geometry",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "city_forge",
+        "purpose": "Blueprins/districts"
+      },
+      {
+        "content_library_scope": "suggest ambience; NO identity/AI",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "exo_crowd_illusion",
+        "purpose": "Crowd scenes"
+      },
+      {
+        "content_library_scope": "personality hints; NO NPC creation",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "living_world",
+        "purpose": "NPC system"
+      },
+      {
+        "content_library_scope": "seeds only; NO facts/relationships",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "narrative",
+        "purpose": "stories/events"
+      },
+      {
+        "content_library_scope": "suggest objectives; NO XP/rewards",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "journey",
+        "purpose": "quests"
+      },
+      {
+        "content_library_scope": "selection; NO training/technique unlock",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "exo_martial",
+        "purpose": "schools/masters"
+      },
+      {
+        "content_library_scope": "design only; NO enter/rewards",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "dungeon_genesis",
+        "purpose": "dungeon themes"
+      },
+      {
+        "content_library_scope": "selection; NO grant",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "inventory",
+        "purpose": "loot/theme"
+      },
+      {
+        "content_library_scope": "reference-only; NO stat generation",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "exo_items",
+        "purpose": "rarity/material/affixes"
+      },
+      {
+        "content_library_scope": "hint; NO spawn/AI/damage",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "bestiary",
+        "purpose": "encounter context"
+      },
+      {
+        "content_library_scope": "hints; NO wallet/transact",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "exo_economy",
+        "purpose": "market context"
+      },
+      {
+        "content_library_scope": "cosmetic hint; NO player render override",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "appearance",
+        "purpose": "outfit palette"
+      },
+      {
+        "content_library_scope": "no reservation/footprint",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "exo_monumental",
+        "purpose": "landmark suggestions"
+      },
+      {
+        "content_library_scope": "no replace terrain",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "terrain_forge",
+        "purpose": "terrain material IDs"
+      },
+      {
+        "content_library_scope": "no audio resource ownership",
+        "forbid_save_mutations": true,
+        "integration": "candidate_not_wired",
+        "owner": "audio",
+        "purpose": "audio cue hint"
+      },
+      {
+        "content_library_scope": "suggestion only; no footprint, prefab selection, entrance, player relocation or save",
+        "forbid_save_mutations": true,
+        "integration": "R1_EXISTS_R2_CONTRACT_PENDING",
+        "owner": "exo_interior_forge",
+        "purpose": "prewritten room/prop style metadata read-only"
+      }
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/compatibility_snapshot_r4.json",
+    "sha256": "41cdc24b5a29a7ce7f861d1b8d2b5c9c2d4d2846f371d11b19eb2156487e6e0a",
+    "bytes": 1303,
+    "keys": [
+      "description",
+      "references",
+      "required_gates",
+      "schema",
+      "unknown_final_contracts"
+    ]
+  },
+  {
+    "file": "exo_world_library/contracts/core_registration_PROPOSAL_ONLY.json",
+    "sha256": "5949a34f48621e9fe390e6346f209905fee14b6707a1a90a219ea6e86cbc05e4",
+    "bytes": 564,
+    "keys": [
+      "consumes",
+      "entrypoint",
+      "id",
+      "integration_mode",
+      "note",
+      "optional",
+      "optional_module",
+      "persistence",
+      "publishes",
+      "requires",
+      "services",
+      "version",
+      "warning"
+    ]
+  },
+  {
+    "file": "npc_system03/contracts/manifest.json",
+    "sha256": "d10d44509eece8e54ee38f3d22aefcf712909d1861225ae322dad19dfda7781d",
+    "bytes": 1393,
+    "keys": [
+      "id",
+      "version",
+      "engine",
+      "baseline",
+      "baseline_sha256",
+      "entrypoint",
+      "requires",
+      "optional",
+      "services",
+      "publishes",
+      "consumes",
+      "persistence",
+      "optional_module",
+      "integration_mode",
+      "feature_flags",
+      "contract_r4_status",
+      "owner_matrix"
+    ]
+  },
+  {
+    "file": "exo_skill_forge/docs/CONTRATO-SKILL-HOST-V2.md",
+    "sha256": "703c5adf9804a754fc6dfa8fa9036a0620cd155de1ea041750c95cad486ec6d5",
+    "bytes": 7481,
+    "headings": [
+      "# CONTRATO-SKILL-HOST-V2 — EXO-MURIM Skill Forge R3",
+      "## Status",
+      "### Serviços",
+      "### Payloads de exemplo (apenas contrato)",
+      "### Comprovações que o Core deve realizar para cada cast",
+      "### Legacy",
+      "### Compatibilidade e owners",
+      "### Limites e fallback",
+      "### Planejamento de implantação/rollback"
+    ]
+  },
+  {
+    "file": "exo_skill_forge/docs/CONTRATO-HOST-R2-HISTORICO.md",
+    "sha256": "23cc998a634dfc8ede33fff01df630ed433bca589a06190ea650e16d4e480a2f",
+    "bytes": 5288,
+    "headings": [
+      "# Contrato do host autoritativo — Skill Forge 01",
+      "## Separação obrigatória de responsabilidades",
+      "## API preparada",
+      "## Casos bloqueados",
+      "## Integração com outros sistemas",
+      "## Limites anti-abuso",
+      "## Anexo R2 — taxonomia e mecânicas que não existem no host"
+    ]
+  },
+  {
+    "file": "exo_skill_forge/docs/CONTRATO-HOST.md",
+    "sha256": "23cc998a634dfc8ede33fff01df630ed433bca589a06190ea650e16d4e480a2f",
+    "bytes": 5288,
+    "headings": [
+      "# Contrato do host autoritativo — Skill Forge 01",
+      "## Separação obrigatória de responsabilidades",
+      "## API preparada",
+      "## Casos bloqueados",
+      "## Integração com outros sistemas",
+      "## Limites anti-abuso",
+      "## Anexo R2 — taxonomia e mecânicas que não existem no host"
+    ]
+  },
+  {
+    "file": "exo_core/modules.json",
+    "bytes": 12239,
+    "sha256": "a2277d8dc9411214c98a08e9377e2730a3c6525cae2f0bc614691ba9f92fafb2"
+  },
+  {
+    "file": "exo_core/integrations/interior_candidate.gd",
+    "bytes": 497,
+    "sha256": "3ad72053e4c9c532d947506fe42caf095cfd4eabbcdb585bedaab185b258ccbe"
+  },
+  {
+    "file": "exo_core/integrations/terrain_r3.gd",
+    "bytes": 438,
+    "sha256": "0ddbfc62c7def97729934fa07b041bcffc202b89b68e7f21b45e22df27a31981"
+  },
+  {
+    "file": "exo_interior_forge/adapters/c3_work_bridge.gd",
+    "bytes": 1083,
+    "sha256": "8672fac7bff543e9e568370c4cf4ad76602a672e34fab309c0ee8bc2cb55c817"
+  },
+  {
+    "file": "exo_economy/module.gd",
+    "bytes": 21026,
+    "sha256": "03f026469455b6467d7c8868aec7a7efc98f3c60f58cffc356e168344668c555"
+  },
+  {
+    "file": "exo_economy/state.gd",
+    "bytes": 5310,
+    "sha256": "c59294078816a84b06a53c09024b688fb2e76c5ffb93f1df8cb813f13369ffbf"
+  },
+  {
+    "file": "exo_economy/trade_shop.gd",
+    "bytes": 5150,
+    "sha256": "7b3c744744518e5f52c15df36c4745cec7b42c39754fb9414f474d9f921272ca"
+  },
+  {
+    "file": "exo_terrain_forge/worldgen/terrain_texture_manifest.json",
+    "bytes": 34876,
+    "sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc"
+  },
+  {
+    "file": "exo_terrain_forge/r3/terrain_texture_manifest.json",
+    "bytes": 96320,
+    "sha256": "92fd4cca97a553712c8321ff4b96cc6fec2448421533443daabcebb3b3527531"
+  },
+  {
+    "file": "journey_dynamic/v4/schema.gd",
+    "bytes": 4775,
+    "sha256": "f466c1cf53124bdde3ba09e376416d9645e5df79bd7f129c67be856976b83286"
+  },
+  {
+    "file": "exo_vfx_forge/api/av_contract.gd",
+    "bytes": 1858,
+    "sha256": "91e5aa1c63a845b72baee6bbfa02cf7f32151a0a4fb21eb782d09f6b1c5b0bb6"
+  },
+  {
+    "file": "convergence/crowd_geometry_v4.gd",
+    "bytes": 3697,
+    "sha256": "68f7e2f7c01886fefa001654fbd6c7c4d62a7404cc4f913af908fa677ebec96f"
+  },
+  {
+    "file": "convergence/economy_host_v4.gd",
+    "bytes": 4957,
+    "sha256": "b7a5e9d9e47d5eb47a9d9b40a0406aed67b6f93d94f943f6466d9a08598a01f6"
+  },
+  {
+    "file": "V4_CHECKPOINT/CONTRATO-WORLDGENESIS-V4-PARA-PROXIMA-ETAPA.md",
+    "bytes": 3626,
+    "sha256": "f30d3727cc535e2462c1e3ecce0a4fafa6afc52287b4b8d3386947819ed78a41"
+  }
+]

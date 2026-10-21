@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "grama_prado",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      0,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      2,
+      312,
+      312
+    ],
+    "file": "textures/tiles/grama_prado.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_folhas_largas",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      0,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      2,
+      625,
+      312
+    ],
+    "file": "textures/tiles/grama_folhas_largas.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_fina_escura",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      0,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      2,
+      938,
+      312
+    ],
+    "file": "textures/tiles/grama_fina_escura.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_tufos",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      0,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      2,
+      1252,
+      312
+    ],
+    "file": "textures/tiles/grama_tufos.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_seca",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      1,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      316,
+      312,
+      625
+    ],
+    "file": "textures/tiles/grama_seca.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_umida",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      1,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      316,
+      625,
+      625
+    ],
+    "file": "textures/tiles/grama_umida.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_montanha",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      1,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      316,
+      938,
+      625
+    ],
+    "file": "textures/tiles/grama_montanha.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "grama_outono",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      1,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      316,
+      1252,
+      625
+    ],
+    "file": "textures/tiles/grama_outono.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "solo_floresta",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      2,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      629,
+      312,
+      938
+    ],
+    "file": "textures/tiles/solo_floresta.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "argila_vermelha",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      2,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      629,
+      625,
+      938
+    ],
+    "file": "textures/tiles/argila_vermelha.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "terra_castanha",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      2,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      629,
+      938,
+      938
+    ],
+    "file": "textures/tiles/terra_castanha.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "terra_arenosa",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      2,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      629,
+      1252,
+      938
+    ],
+    "file": "textures/tiles/terra_arenosa.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "terra_umida",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      3,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      942,
+      312,
+      1252
+    ],
+    "file": "textures/tiles/terra_umida.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "musgo",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      3,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      942,
+      625,
+      1252
+    ],
+    "file": "textures/tiles/musgo.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "solo_bambuzal",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      3,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      942,
+      938,
+      1252
+    ],
+    "file": "textures/tiles/solo_bambuzal.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "terra_cinza",
+    "source": "textures/originals/EXO-Texturas-Base-01-Gramas-e-Solos.png",
+    "source_sha256": "d6fb262ccc262d7d11f1ba7fcb49cd8d96811b1dc4c6811836fbf19067581f67",
+    "cell": [
+      3,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      942,
+      1252,
+      1252
+    ],
+    "file": "textures/tiles/terra_cinza.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "trilha_terra",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      0,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      2,
+      312,
+      312
+    ],
+    "file": "textures/tiles/trilha_terra.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "trilha_raizes",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      0,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      2,
+      625,
+      312
+    ],
+    "file": "textures/tiles/trilha_raizes.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "trilha_argila",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      0,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      2,
+      938,
+      312
+    ],
+    "file": "textures/tiles/trilha_argila.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "trilha_vermelha",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      0,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      2,
+      1252,
+      312
+    ],
+    "file": "textures/tiles/trilha_vermelha.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "cascalho_fino",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      1,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      316,
+      312,
+      625
+    ],
+    "file": "textures/tiles/cascalho_fino.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "cascalho_marrom",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      1,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      316,
+      625,
+      625
+    ],
+    "file": "textures/tiles/cascalho_marrom.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "seixos_rio",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      1,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      316,
+      938,
+      625
+    ],
+    "file": "textures/tiles/seixos_rio.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "cascalho_ardosia",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      1,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      316,
+      1252,
+      625
+    ],
+    "file": "textures/tiles/cascalho_ardosia.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "areia_clara",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      2,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      629,
+      312,
+      938
+    ],
+    "file": "textures/tiles/areia_clara.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "areia_umida",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      2,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      629,
+      625,
+      938
+    ],
+    "file": "textures/tiles/areia_umida.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "areia_pedras",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      2,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      629,
+      938,
+      938
+    ],
+    "file": "textures/tiles/areia_pedras.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "solo_mineral",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      2,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      629,
+      1252,
+      938
+    ],
+    "file": "textures/tiles/solo_mineral.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "calcamento_irregular",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      3,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      942,
+      312,
+      1252
+    ],
+    "file": "textures/tiles/calcamento_irregular.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "lajes_claras",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      3,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      942,
+      625,
+      1252
+    ],
+    "file": "textures/tiles/lajes_claras.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "piso_pedra_quebrada",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      3,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      942,
+      938,
+      1252
+    ],
+    "file": "textures/tiles/piso_pedra_quebrada.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "trilha_lama",
+    "source": "textures/originals/EXO-Texturas-Base-02-Caminhos-e-Cascalhos.png",
+    "source_sha256": "ddcb279999eb0e8d9e3550afebf1c700eb47e568936b0af011b61cde764af192",
+    "cell": [
+      3,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      942,
+      1252,
+      1252
+    ],
+    "file": "textures/tiles/trilha_lama.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "rocha_cinza",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      0,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      2,
+      312,
+      312
+    ],
+    "file": "textures/tiles/rocha_cinza.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "basalto",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      0,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      2,
+      625,
+      312
+    ],
+    "file": "textures/tiles/basalto.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "calcario",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      0,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      2,
+      938,
+      312
+    ],
+    "file": "textures/tiles/calcario.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "ardosia_camadas",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      0,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      2,
+      1252,
+      312
+    ],
+    "file": "textures/tiles/ardosia_camadas.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "arenito",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      1,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      316,
+      312,
+      625
+    ],
+    "file": "textures/tiles/arenito.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "rocha_musgo",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      1,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      316,
+      625,
+      625
+    ],
+    "file": "textures/tiles/rocha_musgo.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "rocha_montanha",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      1,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      316,
+      938,
+      625
+    ],
+    "file": "textures/tiles/rocha_montanha.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "rocha_caverna",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      1,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      316,
+      1252,
+      625
+    ],
+    "file": "textures/tiles/rocha_caverna.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "tijolo_vermelho",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      2,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      629,
+      312,
+      938
+    ],
+    "file": "textures/tiles/tijolo_vermelho.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "tijolo_pedra_escura",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      2,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      629,
+      625,
+      938
+    ],
+    "file": "textures/tiles/tijolo_pedra_escura.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "bloco_arenito",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      2,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      629,
+      938,
+      938
+    ],
+    "file": "textures/tiles/bloco_arenito.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "muro_pedra_bruta",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      2,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      629,
+      1252,
+      938
+    ],
+    "file": "textures/tiles/muro_pedra_bruta.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "tijolo_musgo",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      3,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      942,
+      312,
+      1252
+    ],
+    "file": "textures/tiles/tijolo_musgo.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "alvenaria_rachada",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      3,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      942,
+      625,
+      1252
+    ],
+    "file": "textures/tiles/alvenaria_rachada.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "pedra_cortada",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      3,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      942,
+      938,
+      1252
+    ],
+    "file": "textures/tiles/pedra_cortada.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "tijolo_barro",
+    "source": "textures/originals/EXO-Texturas-Base-03-Pedras-e-Tijolos.png",
+    "source_sha256": "2c7f86fa23e9e926a26ab36adb4bcee3adefed6aa78688ab22e7a7e835fc4136",
+    "cell": [
+      3,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      942,
+      1252,
+      1252
+    ],
+    "file": "textures/tiles/tijolo_barro.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_castanha",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      0,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      2,
+      312,
+      312
+    ],
+    "file": "textures/tiles/madeira_castanha.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_escura",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      0,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      2,
+      625,
+      312
+    ],
+    "file": "textures/tiles/madeira_escura.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_cinza",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      0,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      2,
+      938,
+      312
+    ],
+    "file": "textures/tiles/madeira_cinza.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_clara",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      0,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      2,
+      1252,
+      312
+    ],
+    "file": "textures/tiles/madeira_clara.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_avermelhada",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      1,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      316,
+      312,
+      625
+    ],
+    "file": "textures/tiles/madeira_avermelhada.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "madeira_musgo",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      1,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      316,
+      625,
+      625
+    ],
+    "file": "textures/tiles/madeira_musgo.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "bambu_trancado",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      1,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      316,
+      938,
+      625
+    ],
+    "file": "textures/tiles/bambu_trancado.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "bambu_parede",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      1,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      316,
+      1252,
+      625
+    ],
+    "file": "textures/tiles/bambu_parede.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "casca_escura",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      2,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      629,
+      312,
+      938
+    ],
+    "file": "textures/tiles/casca_escura.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "casca_clara",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      2,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      629,
+      625,
+      938
+    ],
+    "file": "textures/tiles/casca_clara.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "casca_pinheiro",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      2,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      629,
+      938,
+      938
+    ],
+    "file": "textures/tiles/casca_pinheiro.png",
+    "size": [
+      309,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "assoalho",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      2,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      629,
+      1252,
+      938
+    ],
+    "file": "textures/tiles/assoalho.png",
+    "size": [
+      310,
+      309
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "reboco_claro",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      3,
+      0
+    ],
+    "crop_pixels": [
+      2,
+      942,
+      312,
+      1252
+    ],
+    "file": "textures/tiles/reboco_claro.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "reboco_ocre",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      3,
+      1
+    ],
+    "crop_pixels": [
+      316,
+      942,
+      625,
+      1252
+    ],
+    "file": "textures/tiles/reboco_ocre.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "taipa",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      3,
+      2
+    ],
+    "crop_pixels": [
+      629,
+      942,
+      938,
+      1252
+    ],
+    "file": "textures/tiles/taipa.png",
+    "size": [
+      309,
+      310
+    ],
+    "seamless_certified": false
+  },
+  {
+    "id": "barro_palha",
+    "source": "textures/originals/EXO-Texturas-Base-04-Madeiras-e-Paredes.png",
+    "source_sha256": "2411a9359d1528758e0ec1fa471776c298b444bff8aebcd25ed668eb9a87c6d0",
+    "cell": [
+      3,
+      3
+    ],
+    "crop_pixels": [
+      942,
+      942,
+      1252,
+      1252
+    ],
+    "file": "textures/tiles/barro_palha.png",
+    "size": [
+      310,
+      310
+    ],
+    "seamless_certified": false
+  }
+]

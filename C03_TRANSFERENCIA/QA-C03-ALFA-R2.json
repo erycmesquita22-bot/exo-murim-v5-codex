@@ -1,0 +1,189 @@
+{
+  "status": "STATIC_QA_ONLY",
+  "counts": {
+    "PASS": 20,
+    "FAIL": 0,
+    "NOT_RUN": 5
+  },
+  "tests": [
+    {
+      "id": "R2_R1_SOURCE_IMMUTABLE",
+      "status": "PASS",
+      "evidence": {
+        "expected": "374a065d35ed5b95389a44f74b88256401b7386665c175fc0aaf49c79727fbfc",
+        "actual": "374a065d35ed5b95389a44f74b88256401b7386665c175fc0aaf49c79727fbfc"
+      },
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_R1_SOURCE_ZIP_CRC",
+      "status": "PASS",
+      "evidence": "R1 archive CRC rechecked before second round",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_NO_REBASE_OR_UNEXPLAINED_GAMEPLAY_CHANGES",
+      "status": "PASS",
+      "evidence": {
+        "changed_total": 11,
+        "gameplay_changed": [
+          "animation_library.gd",
+          "convergence/game.gd",
+          "convergence/tests/qa_rig01_eight_directions.gd",
+          "murim_flow.gd",
+          "project.godot",
+          "rig.gd"
+        ]
+      },
+      "type": "STATIC"
+    },
+    {
+      "id": "RIG01_SINGLE_OWNED_WRITE",
+      "status": "PASS",
+      "evidence": "R1 duplicate post-call elbow assignment removed",
+      "type": "STATIC"
+    },
+    {
+      "id": "RIG01_TYPED_ARRAY_GUARDS",
+      "status": "PASS",
+      "evidence": "Guard against missing rig parts",
+      "type": "STATIC"
+    },
+    {
+      "id": "RIG01_NONDIRECTIONAL_MODEL_REMOVED",
+      "status": "PASS",
+      "evidence": "No active imported external motion model",
+      "type": "STATIC"
+    },
+    {
+      "id": "RIG01_EIGHT_DIRECTION_GDSCRIPT_FIXTURE",
+      "status": "PASS",
+      "evidence": "New runnable 8-direction GDScript fixture provided, not run",
+      "type": "STATIC"
+    },
+    {
+      "id": "RIG01_CPU_LOCAL_FRAME_8DIR",
+      "status": "PASS",
+      "evidence": "8 world headings should produce consistent limb-local flexion when facing motion; CPU model only",
+      "type": "CPU_MODEL"
+    },
+    {
+      "id": "FLOW_CREATOR_MODERN_BRANCH_PRECEDES_LEGACY",
+      "status": "PASS",
+      "evidence": "Modern creator path bypasses legacy village rebuild",
+      "type": "STATIC"
+    },
+    {
+      "id": "FLOW_NO_INITIAL_LEGACY_CAMP_SPAWN",
+      "status": "PASS",
+      "evidence": "Deferred procedural entry has an explicit host",
+      "type": "STATIC"
+    },
+    {
+      "id": "FLOW_CREATION_SAVED_BEFORE_ASYNC",
+      "status": "PASS",
+      "evidence": "Existing save transaction occurs before deferred scene construction",
+      "type": "STATIC"
+    },
+    {
+      "id": "FLOW_CREATION_FAILED_NOT_SILENT",
+      "status": "PASS",
+      "evidence": "Failed first region is logged; still requires native UX verification",
+      "type": "STATIC"
+    },
+    {
+      "id": "REGION_ENTER_FAILURE_NOT_DEADLOCK",
+      "status": "PASS",
+      "evidence": "Event failure does not leave simulation disabled after old region freed",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_OWN_SAVE_NAMESPACE",
+      "status": "PASS",
+      "evidence": "Alfa R1 test saves preserved",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_BLOCKED_MODULES_STILL_UNREGISTERED",
+      "status": "PASS",
+      "evidence": "Critical staged modules remain unregistered",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_NO_LEGACY_SKINS_NEW",
+      "status": "PASS",
+      "evidence": "480 inherited humanoid legacy skins not included in new module",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_FULL_GDSCRIPT_PRELOAD_GRAPH",
+      "status": "PASS",
+      "evidence": {
+        "gd_sources": 438,
+        "literal_preload_edges": 851,
+        "missing": [
+          {
+            "source": "godot/demo.gd",
+            "target": "qa/walker.gd"
+          },
+          {
+            "source": "exo_core/module_template/test.gd",
+            "target": "example/module.gd"
+          }
+        ]
+      },
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_ALL_JSON_PARSE",
+      "status": "PASS",
+      "evidence": {
+        "parsed": 354,
+        "errors": []
+      },
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_CORE_01P_UNMODIFIED",
+      "status": "PASS",
+      "evidence": "R2 did not alter previously staged Core-P atomic patch",
+      "type": "STATIC"
+    },
+    {
+      "id": "R2_VISUAL_ASSETS_BITWISE",
+      "status": "PASS",
+      "evidence": "Visual/WorldGen R1 not repatched during R2",
+      "type": "STATIC"
+    },
+    {
+      "id": "NATIVE_GODOT_462_IMPORT",
+      "status": "NOT_RUN",
+      "type": "GODOT",
+      "evidence": "Engine executable not available to the session; no compiled GDScript/shader proof"
+    },
+    {
+      "id": "NATIVE_RIG_8DIR",
+      "status": "NOT_RUN",
+      "type": "GODOT",
+      "evidence": "New native script written but not executed"
+    },
+    {
+      "id": "NATIVE_GAMEPLAY_CREATOR",
+      "status": "NOT_RUN",
+      "type": "GODOT",
+      "evidence": "Flow needs in-engine new campaign and save/restart"
+    },
+    {
+      "id": "NATIVE_NPC_DUNGEON_WORLDGEN",
+      "status": "NOT_RUN",
+      "type": "GODOT",
+      "evidence": "Staged functions blocked; no world simulation test"
+    },
+    {
+      "id": "FPS_VEGA8",
+      "status": "NOT_RUN",
+      "type": "HARDWARE",
+      "evidence": "Ryzen 3200GE / Vega 8 test requires PC or Work environment"
+    }
+  ]
+}

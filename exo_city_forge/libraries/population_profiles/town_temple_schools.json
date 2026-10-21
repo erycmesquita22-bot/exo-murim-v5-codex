@@ -1,0 +1,30 @@
+{
+  "id": "town_temple_schools",
+  "weights": {
+    "residential": 24,
+    "mixed": 12,
+    "artisan": 7,
+    "commercial": 14,
+    "martial": 24,
+    "institutional": 12,
+    "plaza": 6,
+    "noble": 1
+  },
+  "economy": 0.4,
+  "martial_presence": 0.35,
+  "noble_probability": 0.012,
+  "maximum_influential_families": 2,
+  "ordinary_population_min_share": 0.84,
+  "guards_per_100_residents": 4,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.7,
+  "implementation": "parameterized",
+  "name": "Vila dos Templos",
+  "allowed_scales": [
+    "town"
+  ]
+}

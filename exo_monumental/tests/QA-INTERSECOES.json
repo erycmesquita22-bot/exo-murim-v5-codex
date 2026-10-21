@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "pairs_tested": 229,
+  "failure_count": 0,
+  "failures": [],
+  "scope": "Offline conservative structural AABBs excluding intended perimeter wall segment joins and tiny decoration; NOT runtime collision physics"
+}

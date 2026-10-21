@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bjw30dpi0s5k2"
+
+[deps]
+
+files=["res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.estado.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.substituicao.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.funcionalidade.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.evidencia.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.pendencia.translation"]
+
+source_file="res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.csv"
+dest_files=["res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.estado.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.substituicao.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.funcionalidade.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.evidencia.translation", "res://CONVERGENCIA_V4/MATRIZ-C3-PARA-V4.pendencia.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

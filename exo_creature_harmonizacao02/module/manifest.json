@@ -1,0 +1,18 @@
+{
+  "schema": "exo.creatures.harmonizacao02",
+  "version": "0.2.0-candidato",
+  "godot": "4.6.2 Standard Compatibility",
+  "root": "res://exo_creature_harmonizacao02/",
+  "load_policy": "opt-in; no autoload; no EXO Core modification",
+  "bestiary02_mode": "read-only visual asset mapping",
+  "counts": {
+    "unique_creature_ids": 17,
+    "unique_source_glb": 20,
+    "duplicate_species": 3,
+    "bestiary02_registered_with_visual": 13,
+    "bestiary02_registered_without_visual": 3,
+    "original_33_planned_remaining": 21
+  },
+  "provenance": "docs/PROVENIENCIA-COMERCIAL.md",
+  "qa": "tests/qa_harmonizacao.py"
+}

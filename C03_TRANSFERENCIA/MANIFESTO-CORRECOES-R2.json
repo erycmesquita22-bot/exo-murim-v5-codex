@@ -1,0 +1,50 @@
+[
+  {
+    "file": "rig.gd",
+    "before": "29e37ef5324f4ac86c75482695f0632339460e4d733c1662e9ad073b73f17c0e",
+    "after": "4c703c3172b02f2f2248fd686f92ec5911b2bfe286f6844f8cea0915f9147069",
+    "reason": "RIG01 remove double-writes to shoulders and forearms; arm local-space pose is final"
+  },
+  {
+    "file": "animation_library.gd",
+    "before": "0aa664edc18ab835f29cce2ad7fbf7f2adc91272eb970a9a69a2fdba9958d909",
+    "after": "ae5a1e0feab1ab0f98d88027de164b8abea3706043074bfdf22da0730d68bc42",
+    "reason": "RIG01 robust rig references; Variant matches runtime rig with extra fields"
+  },
+  {
+    "file": "murim_flow.gd",
+    "before": "ffcf9c1a10d9a5d068abb16620dc23e63d30cecd635cca26db512236d6c1bbde",
+    "after": "809c06e31ae1c5020a3dfe365e8578922a15a3ed41aaac4ab90f9298ec098b1b",
+    "reason": "FLOW01 create new campaign via procedural host without legacy rebuild or camp spawn"
+  },
+  {
+    "file": "convergence/game.gd",
+    "before": "2fa82df1fc27d24fce7d942b3530b58887da2fefdcfd3615a7b619bf087c5e7f",
+    "after": "77591677f09506501cd418c7cc655642eb05043ec51d43c4c533962f9794fe63",
+    "reason": "FLOW01 explicit Godot deferred startup entrypoint with fail-closed message"
+  },
+  {
+    "file": "convergence/game.gd",
+    "before": "77591677f09506501cd418c7cc655642eb05043ec51d43c4c533962f9794fe63",
+    "after": "00b635b02f4a033e94753651d3218c68f52b83fa4ee67d0ba358f39bd074b314",
+    "reason": "WORLD01 avoid permanent freeze on event publication failure; expose incomplete event state"
+  },
+  {
+    "file": "convergence/tests/qa_rig01_eight_directions.gd",
+    "before": null,
+    "after": "04cdb6b3f023ad324f4374c10e7ac13d8ad515d749d4dca60783225c4b88ddd7",
+    "reason": "Add eight-direction real GDScript native QA fixture, not executed here"
+  },
+  {
+    "file": "project.godot",
+    "before": "a8c092474d667765fc7c0d7482f4d44bbc87525f46954afe9109469e4093a281",
+    "after": "113a2c7e220c8a62ccd7800f85f1ebb20d90ceac3d7ba4d9528fdab32ce4eb6f",
+    "reason": "Build R2 unique title"
+  },
+  {
+    "file": "project.godot",
+    "before": "113a2c7e220c8a62ccd7800f85f1ebb20d90ceac3d7ba4d9528fdab32ce4eb6f",
+    "after": "f82a6cf324e7f59816c6cbfc3a14e94df8c61c42a230c4393d82e93e43205204",
+    "reason": "Isolate QA saves per Alfa generation"
+  }
+]

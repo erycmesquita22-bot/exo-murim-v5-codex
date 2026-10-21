@@ -1,0 +1,456 @@
+{
+  "domain": "conflict_spark",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/duelo_por_insulto_de_honorifico",
+      "label": "Duelo por insulto de honorífico",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "duelo_por_insulto_de_honorifico"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Duelo por insulto de honorífico",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "duelo_por_insulto_de_honorifico"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/caravana_acusada_de_roubo",
+      "label": "Caravana acusada de roubo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "caravana_acusada_de_roubo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caravana acusada de roubo",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "caravana_acusada_de_roubo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/aprendiz_perde_uma_tecnica",
+      "label": "Aprendiz perde uma técnica",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "aprendiz_perde_uma_tecnica"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aprendiz perde uma técnica",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "aprendiz_perde_uma_tecnica"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/alianca_rejeita_casamento_politico",
+      "label": "Aliança rejeita casamento político",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "alianca_rejeita_casamento_politico"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aliança rejeita casamento político",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "alianca_rejeita_casamento_politico"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/guarda_impede_entrada_de_forasteiro",
+      "label": "Guarda impede entrada de forasteiro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "guarda_impede_entrada_de_forasteiro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Guarda impede entrada de forasteiro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "guarda_impede_entrada_de_forasteiro"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/discipulos_disputam_reliquia",
+      "label": "Discípulos disputam relíquia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "discipulos_disputam_reliquia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Discípulos disputam relíquia",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "discipulos_disputam_reliquia"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/mercadores_pedem_protecao",
+      "label": "Mercadores pedem proteção",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "mercadores_pedem_protecao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mercadores pedem proteção",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mercadores_pedem_protecao"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/dois_curandeiros_discordam_sobre_tratamento",
+      "label": "Dois curandeiros discordam sobre tratamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "dois_curandeiros_discordam_sobre_tratamento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Dois curandeiros discordam sobre tratamento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "dois_curandeiros_discordam_sobre_tratamento"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/vila_recusa_cobrar_imposto_injusto",
+      "label": "Vila recusa cobrar imposto injusto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "vila_recusa_cobrar_imposto_injusto"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vila recusa cobrar imposto injusto",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "vila_recusa_cobrar_imposto_injusto"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/mestre_desaparece_durante_avaliacao",
+      "label": "Mestre desaparece durante avaliação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "mestre_desaparece_durante_avaliacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mestre desaparece durante avaliação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mestre_desaparece_durante_avaliacao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/criatura_fere_guardas_da_passagem",
+      "label": "Criatura fere guardas da passagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "criatura_fere_guardas_da_passagem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Criatura fere guardas da passagem",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "criatura_fere_guardas_da_passagem"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/cla_exige_devolucao_de_manuscrito",
+      "label": "Clã exige devolução de manuscrito",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "cla_exige_devolucao_de_manuscrito"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Clã exige devolução de manuscrito",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "cla_exige_devolucao_de_manuscrito"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/santuario_sofre_violacao_de_juramento",
+      "label": "Santuário sofre violação de juramento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "santuario_sofre_violacao_de_juramento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Santuário sofre violação de juramento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "santuario_sofre_violacao_de_juramento"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/rival_rouba_prova_de_treinamento",
+      "label": "Rival rouba prova de treinamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "rival_rouba_prova_de_treinamento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rival rouba prova de treinamento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rival_rouba_prova_de_treinamento"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "conflict_spark",
+      "excludes": [],
+      "id": "conflict_spark/mensageiro_e_emboscado",
+      "label": "Mensageiro é emboscado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "event_hint",
+        "mensageiro_e_emboscado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mensageiro é emboscado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mensageiro_e_emboscado"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

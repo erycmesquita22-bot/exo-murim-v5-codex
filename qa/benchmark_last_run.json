@@ -1,0 +1,33 @@
+{
+  "benchmarks": [
+    {
+      "assemble_ms": 70.815,
+      "count": 4,
+      "node_count": 1709,
+      "static_memory_bytes": 34833582,
+      "status": "ok"
+    },
+    {
+      "assemble_ms": 106.51,
+      "count": 8,
+      "node_count": 3446,
+      "static_memory_bytes": 43066626,
+      "status": "ok"
+    },
+    {
+      "assemble_ms": 210.442,
+      "count": 16,
+      "node_count": 6850,
+      "static_memory_bytes": 58793018,
+      "status": "ok"
+    },
+    {
+      "assemble_ms": 447.204,
+      "count": 32,
+      "node_count": 14449,
+      "static_memory_bytes": 94067942,
+      "status": "ok"
+    }
+  ],
+  "engine": "4.6.2-stable (official)"
+}

@@ -1,0 +1,24 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+CHECK create_character true
+CHECK real_city_loaded_14 true
+CHECK complete_perimeter_14 true
+CHECK genesis_constraints_14:[] true
+CHECK one_instance_per_crossing_14 true
+CHECK capture_01-passagem-fluvial-e-muralha true
+CHECK capture_02-muralha-cidade-escala-ampla true
+CHECK water_channel_clear_14:[] true
+CHECK roads_clear_14:[] true
+CHECK road_bridge_support_14:[] true
+CHECK real_city_loaded_26 true
+CHECK complete_perimeter_26 true
+CHECK genesis_constraints_26:[] true
+CHECK one_instance_per_crossing_26 true
+CHECK water_channel_clear_26:[] true
+CHECK roads_clear_26:[] true
+CHECK road_bridge_support_26:[] true
+CHECK save_real_river_city true
+R3_RESULT fluvial_integration checks=18 failures=[]

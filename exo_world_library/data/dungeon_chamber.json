@@ -1,0 +1,607 @@
+{
+  "domain": "dungeon_chamber",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/sala_de_inscricoes",
+      "label": "Sala de inscrições",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "sala_de_inscricoes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Sala de inscrições",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "sala_de_inscricoes"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/oficina_soterrada",
+      "label": "Oficina soterrada",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "oficina_soterrada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Oficina soterrada",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "oficina_soterrada"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/patio_interno_rachado",
+      "label": "Pátio interno rachado",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "patio_interno_rachado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pátio interno rachado",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "patio_interno_rachado"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/arquivo_em_nichos",
+      "label": "Arquivo em nichos",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "arquivo_em_nichos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Arquivo em nichos",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "arquivo_em_nichos"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/poco_ritual_bloqueado",
+      "label": "Poço ritual bloqueado",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "poco_ritual_bloqueado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Poço ritual bloqueado",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "poco_ritual_bloqueado"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/salao_dos_pilares",
+      "label": "Salão dos pilares",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "salao_dos_pilares"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Salão dos pilares",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "salao_dos_pilares"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/dormitorio_abandonado",
+      "label": "Dormitório abandonado",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "dormitorio_abandonado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Dormitório abandonado",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "dormitorio_abandonado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/galeria_de_tochas",
+      "label": "Galeria de tochas",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "galeria_de_tochas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Galeria de tochas",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "galeria_de_tochas"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/camara_de_ossuario",
+      "label": "Câmara de ossuário",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "camara_de_ossuario"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Câmara de ossuário",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "camara_de_ossuario"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/tunel_de_manutencao",
+      "label": "Túnel de manutenção",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "tunel_de_manutencao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Túnel de manutenção",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "tunel_de_manutencao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/sala_de_mapas",
+      "label": "Sala de mapas",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "sala_de_mapas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Sala de mapas",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "sala_de_mapas"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/capela_encoberta",
+      "label": "Capela encoberta",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "capela_encoberta"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Capela encoberta",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "capela_encoberta"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/deposito_de_suprimentos",
+      "label": "Depósito de suprimentos",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "deposito_de_suprimentos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Depósito de suprimentos",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "deposito_de_suprimentos"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/passagem_de_raizes",
+      "label": "Passagem de raízes",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "passagem_de_raizes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Passagem de raízes",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "passagem_de_raizes"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/torre_de_observacao_caida",
+      "label": "Torre de observação caída",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "torre_de_observacao_caida"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Torre de observação caída",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "torre_de_observacao_caida"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/camara_de_eco",
+      "label": "Câmara de eco",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "camara_de_eco"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Câmara de eco",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "camara_de_eco"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "rocky_highlands",
+          "alpine",
+          "wetland"
+        ]
+      },
+      "domain": "dungeon_chamber",
+      "excludes": [],
+      "id": "dungeon_chamber/caverna_de_estalactites",
+      "label": "Caverna de estalactites",
+      "links": [
+        "dungeon_theme/cave"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "architecture",
+        "caverna_de_estalactites"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caverna de estalactites",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "caverna_de_estalactites"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

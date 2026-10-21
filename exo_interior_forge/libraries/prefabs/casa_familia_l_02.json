@@ -1,0 +1,684 @@
+{
+  "schema": "exo.interior.prefab.v1",
+  "id": "casa_familia_l_02",
+  "category": "residence",
+  "shape": "L_right",
+  "width_tiles": 9,
+  "depth_tiles": 7,
+  "tile_meters": 1.6,
+  "floors": 1,
+  "palette": "clay",
+  "style": "common",
+  "notes": "Casa L espelhada com alcova",
+  "floor_cells": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ]
+  ],
+  "upper_floor_cells": [],
+  "wall_segments": [
+    {
+      "x": -0.5,
+      "z": 2,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": 1.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 3,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 4,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 5,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 6,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": 1.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": 1.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2.5,
+      "z": 0,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2.5,
+      "z": 1,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 4,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 5,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 5,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 0,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 1,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 2,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 3,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 4,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 5,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 6,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": 6.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 3.5,
+      "z": 1,
+      "axis": "z",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 3.5,
+      "z": 2,
+      "axis": "z",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 3.5,
+      "z": 4,
+      "axis": "z",
+      "level": 0,
+      "kind": "partition"
+    }
+  ],
+  "furniture": [
+    {
+      "kind": "bed",
+      "x": 7,
+      "z": 4,
+      "level": 0,
+      "rotation_quarters": 1,
+      "size": [
+        1.4,
+        0.45,
+        2.25
+      ]
+    },
+    {
+      "kind": "low_table",
+      "x": 4,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 2,
+      "size": [
+        1.2,
+        0.45,
+        0.85
+      ]
+    },
+    {
+      "kind": "chest",
+      "x": 7,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 3,
+      "size": [
+        1.1,
+        0.65,
+        0.72
+      ]
+    },
+    {
+      "kind": "stove",
+      "x": 1,
+      "z": 4,
+      "level": 0,
+      "rotation_quarters": 0,
+      "size": [
+        1.0,
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "kind": "cabinet",
+      "x": 4,
+      "z": 3,
+      "level": 0,
+      "rotation_quarters": 1,
+      "size": [
+        1.0,
+        1.75,
+        0.55
+      ]
+    },
+    {
+      "kind": "lamp",
+      "x": 3,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 2,
+      "size": [
+        0.32,
+        1.1,
+        0.32
+      ]
+    }
+  ],
+  "entrance": {
+    "x": 4,
+    "z": 6,
+    "level": 0,
+    "facing": "south",
+    "kind": "entry_exit"
+  },
+  "spawn": {
+    "x": 4,
+    "z": 6,
+    "level": 0
+  },
+  "stairs": null,
+  "provenance": "original_authorial_exo_interior_forge_01",
+  "floor_runs": [
+    {
+      "start": 3,
+      "end": 8,
+      "z": 0
+    },
+    {
+      "start": 3,
+      "end": 8,
+      "z": 1
+    },
+    {
+      "start": 0,
+      "end": 8,
+      "z": 2
+    },
+    {
+      "start": 0,
+      "end": 8,
+      "z": 3
+    },
+    {
+      "start": 0,
+      "end": 8,
+      "z": 4
+    },
+    {
+      "start": 0,
+      "end": 8,
+      "z": 5
+    },
+    {
+      "start": 0,
+      "end": 8,
+      "z": 6
+    }
+  ],
+  "upper_floor_runs": [],
+  "wall_runs": [
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": -0.5,
+      "start": 3,
+      "end": 8
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 1.5,
+      "start": 0,
+      "end": 2
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 6.5,
+      "start": 0,
+      "end": 3
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 6.5,
+      "start": 5,
+      "end": 8
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": -0.5,
+      "start": 2,
+      "end": 6
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 2.5,
+      "start": 0,
+      "end": 1
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 8.5,
+      "start": 0,
+      "end": 6
+    },
+    {
+      "level": 0,
+      "kind": "partition",
+      "axis": "z",
+      "fixed": 3.5,
+      "start": 1,
+      "end": 2
+    },
+    {
+      "level": 0,
+      "kind": "partition",
+      "axis": "z",
+      "fixed": 3.5,
+      "start": 4,
+      "end": 4
+    }
+  ]
+}

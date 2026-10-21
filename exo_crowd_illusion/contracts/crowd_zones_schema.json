@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EXO Crowd Illusion 01 Zones",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "points",
+      "capacity"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128
+      },
+      "points": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number"
+          }
+        },
+        "maxItems": 64
+      },
+      "capacity": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 60
+      },
+      "role": {
+        "enum": [
+          "resident",
+          "merchant",
+          "disciple",
+          "guard",
+          "traveler"
+        ]
+      },
+      "activity": {
+        "enum": [
+          "walk",
+          "idle",
+          "talk",
+          "observe"
+        ]
+      },
+      "lateral": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 3.5
+      },
+      "safety_radius": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 20
+      }
+    }
+  },
+  "maxItems": 512
+}

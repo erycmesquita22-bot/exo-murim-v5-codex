@@ -1,0 +1,26 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+SHOT 00-inicio
+SHOT aldeia-jogador
+SHOT aldeia-farmstead
+SHOT aldeia-moradores
+SHOT aldeia-panorama
+SHOT vila-jogador
+SHOT vila-inn
+SHOT vila-moradores
+SHOT vila-panorama
+SHOT cidade-jogador
+SHOT cidade-martial_school
+SHOT cidade-shrine
+SHOT cidade-smithy
+SHOT cidade-herbalist
+SHOT cidade-market
+SHOT cidade-administration
+SHOT cidade-warehouse
+SHOT cidade-moradores
+SHOT cidade-panorama
+SHOT relevo-jogador
+SHOT relevo-panorama

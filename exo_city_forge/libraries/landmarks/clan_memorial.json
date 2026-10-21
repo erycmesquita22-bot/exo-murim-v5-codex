@@ -1,0 +1,14 @@
+{
+  "id": "clan_memorial",
+  "name": "Memorial das Famílias",
+  "kind": "memorial",
+  "footprint": [
+    5,
+    4
+  ],
+  "asset_recipe": "memorial",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

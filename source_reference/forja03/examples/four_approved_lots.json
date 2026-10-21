@@ -1,0 +1,34 @@
+{
+  "world_seed": 880701,
+  "require_all": true,
+  "lots": [
+    {
+      "id": "village_river_01", "center_x": -30.0, "center_z": -15.0,
+      "ground_y": 0.0, "width_m": 13.0, "depth_m": 17.0,
+      "yaw_quadrants": 0, "district": "village", "role": "dwelling",
+      "max_stories": 1, "terrain_samples_y": [0.0, 0.0, 0.0, 0.0],
+      "approach_clear": true
+    },
+    {
+      "id": "village_river_02", "center_x": -10.0, "center_z": -15.0,
+      "ground_y": 0.0, "width_m": 13.0, "depth_m": 17.0,
+      "yaw_quadrants": 0, "district": "village", "role": "shop",
+      "max_stories": 1, "terrain_samples_y": [0.0, 0.0, 0.0, 0.0],
+      "approach_clear": true
+    },
+    {
+      "id": "village_river_03", "center_x": 10.0, "center_z": 15.0,
+      "ground_y": 0.0, "width_m": 13.0, "depth_m": 17.0,
+      "yaw_quadrants": 2, "district": "village", "role": "workshop",
+      "max_stories": 1, "terrain_samples_y": [0.0, 0.0, 0.0, 0.0],
+      "approach_clear": true
+    },
+    {
+      "id": "village_river_04", "center_x": 30.0, "center_z": 15.0,
+      "ground_y": 0.0, "width_m": 13.0, "depth_m": 17.0,
+      "yaw_quadrants": 2, "district": "village", "role": "tea_house",
+      "max_stories": 1, "terrain_samples_y": [0.0, 0.0, 0.0, 0.0],
+      "approach_clear": true
+    }
+  ]
+}

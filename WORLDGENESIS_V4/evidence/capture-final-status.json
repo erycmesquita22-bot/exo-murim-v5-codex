@@ -1,0 +1,8 @@
+[
+  {
+    "script": "genesis/v4/capture_compare.gd",
+    "case": "captures",
+    "code": 0,
+    "status": "PASS"
+  }
+]

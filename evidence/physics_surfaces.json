@@ -1,0 +1,19 @@
+{
+	"engine": {
+		"build": "official",
+		"hash": "71f334935c000924d403448e698df4441130df18",
+		"hex": 263682,
+		"major": 4,
+		"minor": 6,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.6.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"foundation_support_points": 216,
+	"max_triangle_surface_error_m": 0.00052763960411184,
+	"note": "Terrain layer 1, solid props layer 4, original player mask 1|4. Far-field samples lie on vertices; road samples compare full-resolution triangle interpolation.",
+	"regions": 7,
+	"terrain_raycasts": 36513
+}

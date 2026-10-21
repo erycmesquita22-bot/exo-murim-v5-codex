@@ -1,0 +1,11 @@
+exit=1
+
+STDERR:
+Traceback (most recent call last):
+  File "/mnt/data/C03_ALFA_R6_WORK/exo_dungeon/tests/qa_r2_static.py", line 8, in <module>
+    with zipfile.ZipFile(BASE) as z: old={name:z.read(name) for name in z.namelist() if name.startswith('exo_dungeon/')}
+         ~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/zipfile/__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/data/EXO-Murim-Dungeon-Genesis-02-CANDIDATO.zip'

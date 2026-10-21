@@ -1,0 +1,284 @@
+{
+  "engine": "4.6.2.stable.official.71f334935",
+  "renderer": "gl_compatibility",
+  "gpu": "Mesa llvmpipe LLVM 20.1.2 CPU",
+  "baseline_suites": [
+    {
+      "script": "convergence/tests/qa_c03_r12_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_c03_r13_bootstrap_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_core/tests/qa_persistence01p.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_items/tests/qa_atomic_r3_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_dungeon/tests/qa_c03_r6_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_campaign.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_campaign.gd",
+      "reopen": true,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_dungeon.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_dungeon.gd",
+      "reopen": true,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_jade.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_world_scan.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_road_corridors.gd",
+      "reopen": false,
+      "status": "PASS"
+    }
+  ],
+  "regression_suites": [
+    {
+      "script": "convergence/tests/qa_c03_r12_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_c03_r13_bootstrap_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_core/tests/qa_persistence01p.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_items/tests/qa_atomic_r3_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_dungeon/tests/qa_c03_r6_native.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_campaign.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_campaign.gd",
+      "reopen": true,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_dungeon.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_dungeon.gd",
+      "reopen": true,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_jade.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_world_scan.gd",
+      "reopen": false,
+      "status": "PASS"
+    },
+    {
+      "script": "convergence/tests/qa_work_road_corridors.gd",
+      "reopen": false,
+      "status": "PASS"
+    }
+  ],
+  "module_suites": [
+    {
+      "script": "exo_city_forge/qa/qa_r4_work_contracts.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_crowd_illusion/tests/qa_native_r4.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_economy/tests/qa_r5_native.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_skill_forge/tests/qa_r3_native.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_world_library/tests/qa_native.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "npc_system03/tests/qa_native.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "exo_vfx_forge/tests/qa_native.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "journey_dynamic/v4/qa_native_journey_v4.gd",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "script": "journey_dynamic/tests/qa_journey.gd",
+      "exit_code": 1,
+      "status": "SUPERSEDED_BAD_TEST_PATH",
+      "replacement": "journey_dynamic/qa_journey.gd",
+      "replacement_result": "PASS 4053 checks; logs/native/journey-legacy-final.log"
+    }
+  ],
+  "native_parser": "595 scripts; 0 falhas",
+  "integration": "36 verificações PASS na campanha; 35 PASS na reabertura em outro processo",
+  "interior": "52/52 layouts instanciados nativamente; sem transição nova",
+  "legacy_journey": "4053 verificações nativas PASS",
+  "world": "352 validações de dados em 4 seeds; não caminhada integral",
+  "crowd": "cidade 78 seed101: 1372 amostras físicas, 4 zonas, 16 figurantes",
+  "trade_fixture": "Saldo 10000 Wen exclusivamente na fixture de QA. Jogo não concede esse saldo.",
+  "not_run": [
+    "kill durante commit",
+    "dispositivo Android",
+    "Vega8",
+    "sessão humana",
+    "todas as regiões com caminhada física",
+    "audição estética",
+    "ciclo NPC03 físico e guardas/filas",
+    "casts autorais novos"
+  ],
+  "benchmark": {
+    "adapter": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "average_fps": 14.2673586494138,
+    "camera_size": 15.0,
+    "controller_displacement_m": 0.124080874025822,
+    "controller_traveled_m": 59.9666442242451,
+    "crowd": {
+      "batch_draw_groups": 24,
+      "core_bound": true,
+      "density": 1.0,
+      "ghosts": 16,
+      "hour": 10,
+      "last_region_event": 78,
+      "mobile": false,
+      "module": "crowd_illusion",
+      "notes": [],
+      "region_id": 78,
+      "visible": 14,
+      "zones": 4
+    },
+    "draw_calls_p95": 689.0,
+    "engine": "4.6.2-stable (official)",
+    "godot_static_memory_peak_bytes": 319739470,
+    "limits": "llvmpipe CPU; one candidate run; no Vega8/Android claim; 240 frames with automated input; OS static memory is not whole-process RSS",
+    "max_frame_ms": 121.899,
+    "one_percent_low_fps": 8.46859562455893,
+    "p95_frame_ms": 92.648,
+    "p99_frame_ms": 110.528,
+    "process_monitor_p95_ms": 104.463,
+    "real_npcs": 65,
+    "region": 78,
+    "renderer": "gl_compatibility",
+    "resolution": "(1152, 720)",
+    "samples": 240,
+    "seed": 101,
+    "status": "PASS_MEASUREMENT_ONLY",
+    "wall_seconds": 16.821614
+  },
+  "captures": [
+    {
+      "camera_position": "(100.0, 11.03, 17.0)",
+      "camera_size": 17.0,
+      "file": "res://V4_CHECKPOINT/evidence/01-inicio.png",
+      "region": -1,
+      "renderer": "gl_compatibility",
+      "seed": "1932474049"
+    },
+    {
+      "camera_position": "(100.0, 11.03, 17.0)",
+      "camera_size": 17.0,
+      "file": "res://V4_CHECKPOINT/evidence/02-criador.png",
+      "region": -1,
+      "renderer": "gl_compatibility",
+      "seed": "1932474049"
+    },
+    {
+      "camera_position": "(10.0, 27.64819, 10.0)",
+      "camera_size": 17.0,
+      "file": "res://V4_CHECKPOINT/evidence/03-campanha.png",
+      "region": 1,
+      "renderer": "gl_compatibility",
+      "seed": "101"
+    },
+    {
+      "camera_position": "(50.0, 88.03025, 60.0)",
+      "camera_size": 80.0,
+      "file": "res://V4_CHECKPOINT/evidence/04-cidade78.png",
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": "101"
+    },
+    {
+      "camera_position": "(-50.0, 74.25875, 150.0)",
+      "camera_size": 75.0,
+      "file": "res://V4_CHECKPOINT/evidence/05-escola-jade.png",
+      "region": 15,
+      "renderer": "gl_compatibility",
+      "seed": "101"
+    }
+  ],
+  "legacy_suite_runner": "PASS tests\nPASS release_qa\nPASS discovery_qa\nPASS fidelity_qa\nPASS consolidation_qa\nPASS ruins_martial_qa\nPASS assets_qa\nPASS stabilization_qa\nPASS quality09_qa\nPASS martial_qa\nPASS procedural_qa\nPASS legacy_audio_qa\n",
+  "diagnostics": "Tentativas com falhas mantidas em logs/native. Critério: resultado final com exit 0 e sem ERROR/SCRIPT ERROR. Falhas iniciais não são homologação.",
+  "clean_replay": {
+    "diff": "PASS: 645 changes, byte-for-byte replay",
+    "import": "PASS: clean .godot-free tree, exit 0, no ERROR/SCRIPT ERROR",
+    "boot": "PASS: 9 native checks",
+    "terrain_resolver": "PASS: deterministic grassland lookup; unknown biome fails closed"
+  },
+  "legacy_playable": "PASS: 14 rendered checks; fixture and dummy audio explicitly declared"
+}

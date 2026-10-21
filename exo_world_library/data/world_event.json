@@ -1,0 +1,526 @@
+{
+  "domain": "world_event",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/lost_convoy",
+      "label": "Caravana desaparecida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "caravan",
+        "road"
+      ],
+      "variables": {
+        "event_key": "lost_convoy",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "caravan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/festival",
+      "label": "Festival de lanternas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "social",
+        "settlement"
+      ],
+      "variables": {
+        "event_key": "festival",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "social"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "wetland"
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/flood",
+      "label": "Cheia ameaça passarela",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "environment",
+        "wetland",
+        "flood_active"
+      ],
+      "variables": {
+        "event_key": "flood",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "environment"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/sect_dispute",
+      "label": "Disputa entre discípulos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "martial",
+        "school"
+      ],
+      "variables": {
+        "event_key": "sect_dispute",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/ore_shortage",
+      "label": "Escassez de minério",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "trade",
+        "city"
+      ],
+      "variables": {
+        "event_key": "ore_shortage",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "trade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/rumor_master",
+      "label": "Boato sobre mestre oculto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "martial",
+        "wild"
+      ],
+      "variables": {
+        "event_key": "rumor_master",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/herbal_blindness",
+      "label": "Remédio adulterado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "medicine",
+        "market"
+      ],
+      "variables": {
+        "event_key": "herbal_blindness",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "medicine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/ruin_echo",
+      "label": "Ruína emite sinais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "ruins",
+        "wild"
+      ],
+      "variables": {
+        "event_key": "ruin_echo",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "ruins"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/theft",
+      "label": "Roubo na praça",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "crime",
+        "market"
+      ],
+      "variables": {
+        "event_key": "theft",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "crime"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/border_patrol",
+      "label": "Patrulha bloqueia a passagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "security",
+        "border"
+      ],
+      "variables": {
+        "event_key": "border_patrol",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "security"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "alpine"
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/winter_supply",
+      "label": "Falta de suprimentos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "economy",
+        "alpine"
+      ],
+      "variables": {
+        "event_key": "winter_supply",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "economy"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/pilgrim_help",
+      "label": "Peregrino ferido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "spiritual",
+        "road"
+      ],
+      "variables": {
+        "event_key": "pilgrim_help",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "spiritual"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/hidden_duel",
+      "label": "Duelo clandestino",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "martial",
+        "town"
+      ],
+      "variables": {
+        "event_key": "hidden_duel",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/merchant_fraud",
+      "label": "Pesagem fraudulenta",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "trade",
+        "market"
+      ],
+      "variables": {
+        "event_key": "merchant_fraud",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "trade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/sick_animals",
+      "label": "Animais adoecem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "ecology",
+        "village"
+      ],
+      "variables": {
+        "event_key": "sick_animals",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "ecology"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/lost_disciple",
+      "label": "Discípulo desaparecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "martial",
+        "forest"
+      ],
+      "variables": {
+        "event_key": "lost_disciple",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/old_debt",
+      "label": "Dívida de sangue",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "honor",
+        "settlement"
+      ],
+      "variables": {
+        "event_key": "old_debt",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "honor"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/teacher_trial",
+      "label": "Prova de mestre",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "martial",
+        "school"
+      ],
+      "variables": {
+        "event_key": "teacher_trial",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/bandit_ransom",
+      "label": "Resgate na estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "outlaw",
+        "road"
+      ],
+      "variables": {
+        "event_key": "bandit_ransom",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "outlaw"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_event",
+      "excludes": [],
+      "id": "world_event/bridge_closure",
+      "label": "Ponte interditada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "event",
+        "travel",
+        "river"
+      ],
+      "variables": {
+        "event_key": "bridge_closure",
+        "execution": "approval_required",
+        "public_event_owner": "narrative",
+        "quest_link": "travel"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

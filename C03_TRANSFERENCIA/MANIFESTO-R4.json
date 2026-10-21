@@ -1,0 +1,104 @@
+{
+  "name": "EXO-MURIM-CONVERGENCIA-03-ALFA-R4",
+  "source_zip": "EXO-MURIM-CONVERGENCIA-03-ALFA-R3.zip",
+  "source_sha256": "f96f5104bcdf69b19ec26c8eb8f59eaf19d1096c43922d39943f4a23928283b7",
+  "status": "CANDIDATO_NAO_HOMOLOGADO",
+  "scope": "Bestiary02 fauna runtime bridge via official Regional Ecology, core services and inventory",
+  "changed_files": [
+    {
+      "path": "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json",
+      "status": "modified",
+      "sha256": "e33aad588b79f0e93411ed1f62e2fd373e3be3053ab1ed99eb428ae992cc448f",
+      "bytes": 1756
+    },
+    {
+      "path": "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md",
+      "status": "modified",
+      "sha256": "66756980483fac8a54dae86be1bb272e8f0fc6126b4f20e9df83f5cc949c0b3c",
+      "bytes": 2031
+    },
+    {
+      "path": "C03_TRANSFERENCIA/LEIA-ME-PRIMEIRO-R4.md",
+      "status": "added",
+      "sha256": "14eabdb4e0ceadc0b63d05f7b45edb592f38117f4d0c6aee360120d359fde9fe",
+      "bytes": 252
+    },
+    {
+      "path": "C03_TRANSFERENCIA/QA-C03-ALFA-R4.json",
+      "status": "added",
+      "sha256": "991e15e68dcafb88e667ec577aae70c08adb95ea7a217f921cfe196136de4b41",
+      "bytes": 7813
+    },
+    {
+      "path": "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R4.md",
+      "status": "added",
+      "sha256": "f620d2034b6579cadf5446a0f76c7a4917ae8367e24cabce2266ffcea3a2c54d",
+      "bytes": 5503
+    },
+    {
+      "path": "convergence/game.gd",
+      "status": "modified",
+      "sha256": "368895c40895026c9055ae0ecc40c0c3b76c453b239f144c7840e5f9dce0d8ff",
+      "bytes": 28345
+    },
+    {
+      "path": "exo_bestiary/integration/regional_fauna_actor.gd",
+      "status": "added",
+      "sha256": "b026eb8cc002d7d23f9dc79cc162506e1a1f46502ee3e333b3539eab0b108b50",
+      "bytes": 4987
+    },
+    {
+      "path": "exo_bestiary/module/entrypoint.gd",
+      "status": "modified",
+      "sha256": "2bdaf51e2d046eff02c3a36e2d5df56351ead41c9d9b50b442d6835b02bdc272",
+      "bytes": 1972
+    },
+    {
+      "path": "exo_bestiary/tests/qa_c03_r4_regional_fauna.gd",
+      "status": "added",
+      "sha256": "f9d1bbb9a61419f7ece36816dea6985a5b481220fafe090465e7031d1fea523f",
+      "bytes": 2749
+    },
+    {
+      "path": "exo_core/modules.json",
+      "status": "modified",
+      "sha256": "623744b1682a493dcb0653ec66b822bddf27fdc1168fd1b172593298f7f4cc28",
+      "bytes": 7133
+    },
+    {
+      "path": "inventory.gd",
+      "status": "modified",
+      "sha256": "b4f1120c80d3ab57e85ab17cd59ce9ca15c2798074f2d0603083250d3a9db592",
+      "bytes": 8460
+    },
+    {
+      "path": "project.godot",
+      "status": "modified",
+      "sha256": "0d884dba3df6706b35611e2c0b03633ed8115eb7cc3d4c97d5822ffcac713b24",
+      "bytes": 687
+    },
+    {
+      "path": "regional_ecology/director.gd",
+      "status": "modified",
+      "sha256": "02dca11f521bbe8f5e2b0b7f477a7296f021315b1fcf51ba1b19f4996b7d4535",
+      "bytes": 5919
+    },
+    {
+      "path": "regional_ecology/rewards.gd",
+      "status": "modified",
+      "sha256": "9f2c30bd5f99b0ba9eacea1693497dd2aff81c22255d5974c0473998b5bd5b13",
+      "bytes": 4144
+    },
+    {
+      "path": "regional_ecology/territories.gd",
+      "status": "modified",
+      "sha256": "a7c31ae4edba1888d8183bb6d942f817af27b91d317584e15bcc4f830d627d60",
+      "bytes": 3963
+    }
+  ],
+  "static_qa": {
+    "passed": 41,
+    "failed": 0
+  },
+  "godot_native": "NOT_RUN"
+}

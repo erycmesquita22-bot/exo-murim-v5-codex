@@ -1,0 +1,75 @@
+{
+  "name": "EXO-AUDITORIA-PENDENCIAS-01",
+  "base": "EXO-MURIM-V4-REPARO-CHAT-C02-INTEGRAL.zip",
+  "base_sha256": "9a3e205d3dd7db949a93bf13a17e9bdbc61225a73eb2f22e9f2bef41dd6ccc0e",
+  "previous_patch": "CEO CP02",
+  "state": "VALIDADO_APENAS_NO_ESCOPO_DOS_TESTES; NAO_HOMOLOGADO",
+  "files": [
+    {
+      "path": "convergence/game.gd",
+      "before_sha256": "3aa30681bbb48524025c8c9387d71dc7f9aff9cb96d17b8d5e1aca57f812c6b0",
+      "after_sha256": "f2e354b9db2d44d6a104bed092950ff95318cbed6a98236e13829ce9e2a9b943",
+      "bytes": 47491
+    },
+    {
+      "path": "convergence4/interiors.gd",
+      "before_sha256": "7944116b483efe0f831617a7b84c51e75ec1ff6e9df63a87193dd0d619f71860",
+      "after_sha256": "71b5c32c1f948ecb1c74863a4fdb65ae3979105e097b7ed7b36deb6b80f055f4",
+      "bytes": 4113
+    },
+    {
+      "path": "exo_interior_forge/runtime/interior_builder.gd",
+      "before_sha256": "d5a456cb52d25c8d26575a66444984ff0be95386d6592a4938819f7e4555f858",
+      "after_sha256": "c6071bceb17255ee384dd374cf4541871681957ddffebe8e5c06ca91f5c8d6fd",
+      "bytes": 8771
+    },
+    {
+      "path": "ui/character_creation.gd",
+      "before_sha256": "694f76d09bd4281eb653f8b737d86cfb2eb146a00cd8afca4b060feb5811c922",
+      "after_sha256": "5c3a2c3372b52296263d1e28d125c3c5c91213c803cd6925eacc396e5c9d3f3c",
+      "bytes": 12558
+    },
+    {
+      "path": "qa/walker.gd",
+      "before_sha256": null,
+      "after_sha256": "b188e2395f60d63179f7493e8313afd7af6196f9efd68307b8324ef61eb10e0d",
+      "bytes": 627
+    },
+    {
+      "path": "convergence4/tests/qa_functional.gd",
+      "before_sha256": "4de585fbc413c2ccf520332b0f154e85313ee3577880a2d6700448b1f083dc9f",
+      "after_sha256": "9396bdcca8a9ccc8ee90843c47718ad2a5aed276434df2d3214f1cee2ca8faa7",
+      "bytes": 10497
+    },
+    {
+      "path": "convergence4/tests/qa_reopen.gd",
+      "before_sha256": "f28ca41425bc5181cc2b9a5f7214e2fc8281cc3c6cad3514ec2b13d7eaca8431",
+      "after_sha256": "444cdaef0a23821416f401dd2d5960f586a063d1cec148ae5c61fdc193ad7856",
+      "bytes": 1847
+    },
+    {
+      "path": "convergence4/tests/qa_audit_ui.gd",
+      "before_sha256": null,
+      "after_sha256": "a15c431c6a9a177c1f3c3fc8f55a9314780d1975995e7ee622b8f2ac8995b3c8",
+      "bytes": 2554
+    },
+    {
+      "path": "convergence4/tests/qa_audit_interiors.gd",
+      "before_sha256": null,
+      "after_sha256": "2243812ca3af4bd085b8744a155ad5b6672fd9e93de0321662fdcc54aacf8dce",
+      "bytes": 5324
+    },
+    {
+      "path": "tools/qa_ceo_cp02.py",
+      "before_sha256": null,
+      "after_sha256": "f4520a71e83f8afeedbd928cdc98c1db115de30fefc23ef9c509d01d7ae382b9",
+      "bytes": 4464
+    },
+    {
+      "path": "tools/qa_ceo_p0p1p2.py",
+      "before_sha256": null,
+      "after_sha256": "c100f6a7a33a1749658e0e53c73a29dbd4704b267c5a7eda32e34e93dcc0b947",
+      "bytes": 3416
+    }
+  ]
+}

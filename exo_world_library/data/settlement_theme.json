@@ -1,0 +1,368 @@
+{
+  "domain": "settlement_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "grassland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/fishing",
+      "label": "Comunidade de pescadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "fish",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "fish"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "grassland",
+          "mixed_woodland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/agricultural",
+      "label": "Comunidade agrícola",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "grain",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "grain"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "alpine",
+          "rocky_highlands"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/mountain",
+      "label": "Povoado serrano",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ore",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "ore"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "bamboo_forest",
+          "temperate_forest",
+          "wetland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/medicinal",
+      "label": "Refúgio de herbalistas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "herbs",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "herbs"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "grassland",
+          "mixed_woodland",
+          "rocky_highlands"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/martial",
+      "label": "Bairro marcial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "sect",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "sect"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "grassland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/roadside",
+      "label": "Parada mercantil",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "caravan",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "caravan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "temperate_forest",
+          "mixed_woodland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/forest",
+      "label": "Vila de lenhadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "wood",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "wood"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "bamboo_forest",
+          "temperate_forest"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/shrine",
+      "label": "Vila do templo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ritual",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "ritual"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "rocky_highlands",
+          "dry_valley"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/border",
+      "label": "Posto de fronteira",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "guard",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "guard"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "grassland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/river",
+      "label": "Vila ribeirinha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ferry",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "ferry"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "mixed_woodland"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/outlaw",
+      "label": "Refúgio de foragidos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "black_market",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "black_market"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "grassland",
+          "temperate_forest"
+        ],
+        "settlement_type_in": [
+          "village",
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_theme",
+      "excludes": [],
+      "id": "settlement_theme/craft",
+      "label": "Vila de artesãos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "settlement"
+      ],
+      "variables": {
+        "service_focus": "craft"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

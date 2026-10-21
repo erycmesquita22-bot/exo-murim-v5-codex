@@ -1,0 +1,13 @@
+/workspace/scratch/eb2ddd037e98/v4/DIFF-V4-PRE-WORLDGEN-01.patch:21658: trailing whitespace.
+keys,pt_BR,en,zh_CN
+/workspace/scratch/eb2ddd037e98/v4/DIFF-V4-PRE-WORLDGEN-01.patch:21659: trailing whitespace.
+ECON_CURRENCY_WEN,Wen,Wen,文钱
+/workspace/scratch/eb2ddd037e98/v4/DIFF-V4-PRE-WORLDGEN-01.patch:21660: trailing whitespace.
+ECON_CURRENCY_LIANG,Liang,Liang,两白银
+/workspace/scratch/eb2ddd037e98/v4/DIFF-V4-PRE-WORLDGEN-01.patch:21661: trailing whitespace.
+ECON_CURRENCY_GOLD,Ouro,Gold,金锭
+/workspace/scratch/eb2ddd037e98/v4/DIFF-V4-PRE-WORLDGEN-01.patch:21662: trailing whitespace.
+ECON_GOOD_GRAIN,Grãos,Grain,谷物
+warning: squelched 200 whitespace errors
+warning: 205 lines add whitespace errors.
+DIFF_REPLAY_PASS 645 changes 4920673 bytes

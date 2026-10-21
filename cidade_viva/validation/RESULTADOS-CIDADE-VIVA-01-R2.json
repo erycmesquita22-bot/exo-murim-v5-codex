@@ -1,0 +1,2261 @@
+{
+  "status": "CANDIDATO_CHECKPOINT",
+  "rendered_runs": [
+    {
+      "script": "capture_live.gd",
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--fixed-fps",
+        "60",
+        "--rendering-method",
+        "gl_compatibility",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/capture_live.gd"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 244.64789981000013,
+      "display": "Xvfb/Mesa llvmpipe"
+    },
+    {
+      "script": "benchmark_urban.gd",
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--rendering-method",
+        "gl_compatibility",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/benchmark_urban.gd"
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "seconds": 222.00721158300075,
+      "display": "Xvfb/Mesa llvmpipe"
+    }
+  ],
+  "engine": "4.6.2.stable.official.71f334935",
+  "renderer": "gl_compatibility",
+  "native_suites": [
+    {
+      "script": "tests.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 13.338364570000067,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://tests.gd"
+      ]
+    },
+    {
+      "script": "release_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 21.112649890000057,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://release_qa.gd"
+      ]
+    },
+    {
+      "script": "discovery_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 45.82126857100002,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://discovery_qa.gd"
+      ]
+    },
+    {
+      "script": "fidelity_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 11.070639021000034,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://fidelity_qa.gd"
+      ]
+    },
+    {
+      "script": "consolidation_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 23.490696268999955,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://consolidation_qa.gd"
+      ]
+    },
+    {
+      "script": "ruins_martial_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 11.590023839999958,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://ruins_martial_qa.gd"
+      ]
+    },
+    {
+      "script": "assets_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 8.126621199999818,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://assets_qa.gd"
+      ]
+    },
+    {
+      "script": "stabilization_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 11.56805225900007,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://stabilization_qa.gd"
+      ]
+    },
+    {
+      "script": "quality09_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 20.908067543000016,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://quality09_qa.gd"
+      ]
+    },
+    {
+      "script": "martial_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 37.53930411600004,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://martial_qa.gd"
+      ]
+    },
+    {
+      "script": "procedural_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 15.178546389999838,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://procedural_qa.gd"
+      ]
+    },
+    {
+      "script": "legacy_audio_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 5.771251665999898,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://legacy_audio_qa.gd"
+      ]
+    },
+    {
+      "script": "war_qa.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 21.37892243500005,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://war_qa.gd"
+      ]
+    },
+    {
+      "script": "exo_core/tests/qa_core.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 1.5240950859999884,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://exo_core/tests/qa_core.gd"
+      ]
+    },
+    {
+      "script": "exo_core/tests/qa_new_module.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 24.800688326,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://exo_core/tests/qa_new_module.gd"
+      ]
+    },
+    {
+      "script": "fortifications/qa_river_gate.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 8.37913927999989,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://fortifications/qa_river_gate.gd"
+      ]
+    },
+    {
+      "script": "exo_visual/tests/qa_visual.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 86.88463671099998,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://exo_visual/tests/qa_visual.gd"
+      ]
+    },
+    {
+      "script": "cidade_viva/tests/qa_live.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 84.97955733699973,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/qa_live.gd"
+      ]
+    },
+    {
+      "script": "exo_core/tests/qa_integration.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 107.77634112600026,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://exo_core/tests/qa_integration.gd"
+      ]
+    },
+    {
+      "script": "cidade_viva/tests/qa_cidade_viva.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 60.66209513500007,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/qa_cidade_viva.gd"
+      ]
+    },
+    {
+      "script": "cidade_viva/tests/qa_flat_floor.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 101.34978073299999,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/qa_flat_floor.gd"
+      ]
+    },
+    {
+      "script": "cidade_viva/tests/qa_day_fast.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 158.8899650129997,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "5",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://cidade_viva/tests/qa_day_fast.gd"
+      ]
+    },
+    {
+      "script": "validation_r3/npc_reopen.gd",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 51.41194845500013,
+      "command": [
+        "/workspace/scratch/19f3e29d2e70/engine/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--audio-driver",
+        "Dummy",
+        "--path",
+        "/workspace/scratch/19f3e29d2e70/project/EXO-Murim-EXO-Visual-01",
+        "--script",
+        "res://validation_r3/npc_reopen.gd"
+      ]
+    }
+  ],
+  "planner_cases": 92,
+  "flat_floor": {
+    "checks": [
+      {
+        "pass": true,
+        "test": "create_character"
+      },
+      {
+        "pass": true,
+        "test": "flat_city_loaded"
+      },
+      {
+        "pass": true,
+        "test": "flat_chunks_use_simple_collision"
+      },
+      {
+        "pass": true,
+        "test": "same_surface_height_including_chunk_seams"
+      },
+      {
+        "pass": true,
+        "test": "original_region_contract_valid"
+      }
+    ],
+    "facts": {
+      "flat_collision_chunks": 76,
+      "floor_samples": 331,
+      "generation_unchanged": true,
+      "issues": [],
+      "tolerance_m": 0.001
+    },
+    "failures": []
+  },
+  "live_city": {
+    "checks": [
+      {
+        "pass": true,
+        "test": "create_character"
+      },
+      {
+        "pass": true,
+        "test": "city_with_urban_layer"
+      },
+      {
+        "pass": true,
+        "test": "urban_rendered"
+      },
+      {
+        "pass": true,
+        "test": "city_density_increased"
+      },
+      {
+        "pass": true,
+        "test": "positive_control_detects_real_urban_solid"
+      },
+      {
+        "pass": true,
+        "test": "all_npc_routes_clear_of_urban_solids"
+      },
+      {
+        "pass": true,
+        "test": "idempotent_urban_reapply"
+      },
+      {
+        "pass": true,
+        "test": "one_urban_layer"
+      },
+      {
+        "pass": true,
+        "test": "urban_reapply_preserves_save"
+      }
+    ],
+    "facts": {
+      "blocked": [],
+      "npcs": 65,
+      "physics_samples": 2988,
+      "unique_route_points": 2988,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 6899.416,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      }
+    },
+    "failures": []
+  },
+  "npc_day": {
+    "checks": [
+      {
+        "pass": true,
+        "test": "create_character"
+      },
+      {
+        "pass": true,
+        "test": "city_65_residents"
+      },
+      {
+        "pass": true,
+        "test": "all_residents_settle_at_production_60hz"
+      },
+      {
+        "pass": true,
+        "test": "work_points_separated:1.49999725818634"
+      },
+      {
+        "pass": true,
+        "test": "day_dialogue_interruption"
+      },
+      {
+        "pass": true,
+        "test": "work_resumes_after_dialogue"
+      },
+      {
+        "pass": true,
+        "test": "all_work_arrivals:65/65"
+      },
+      {
+        "pass": true,
+        "test": "sleep_and_resume:65/65"
+      },
+      {
+        "pass": true,
+        "test": "all_residents_physically_move"
+      },
+      {
+        "pass": true,
+        "test": "no_sampled_building_penetration:{  }"
+      },
+      {
+        "pass": true,
+        "test": "dialogue_test_executed"
+      },
+      {
+        "pass": true,
+        "test": "day_preserves_identities"
+      },
+      {
+        "pass": true,
+        "test": "different_professions"
+      },
+      {
+        "pass": true,
+        "test": "save_day_state"
+      }
+    ],
+    "facts": {
+      "fixture": {
+        "continuous_npc_clock": true,
+        "physics_hz": 5,
+        "production_physics_hz": 60,
+        "real_actor_step": true,
+        "visual_subtrees_detached": true,
+        "world_player_ecology_updates": false
+      },
+      "hours": [
+        {
+          "clock": 0.2,
+          "community": 0,
+          "hour": 0,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 45.0000000000001,
+          "community": 0,
+          "hour": 0,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 90.0000000000007,
+          "community": 0,
+          "hour": 1,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 135.000000000001,
+          "community": 0,
+          "hour": 1,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 180.199999999998,
+          "community": 0,
+          "hour": 2,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 225.199999999996,
+          "community": 0,
+          "hour": 2,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 270.199999999993,
+          "community": 0,
+          "hour": 3,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 315.199999999991,
+          "community": 0,
+          "hour": 3,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 360.199999999988,
+          "community": 0,
+          "hour": 4,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 405.199999999986,
+          "community": 0,
+          "hour": 4,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 450.199999999983,
+          "community": 0,
+          "hour": 5,
+          "rest": 0,
+          "travel": 65,
+          "work": 0
+        },
+        {
+          "clock": 495.19999999998,
+          "community": 0,
+          "hour": 5,
+          "rest": 0,
+          "travel": 65,
+          "work": 0
+        },
+        {
+          "clock": 540.199999999986,
+          "community": 41,
+          "hour": 6,
+          "rest": 0,
+          "travel": 23,
+          "work": 1
+        },
+        {
+          "clock": 585.199999999996,
+          "community": 63,
+          "hour": 6,
+          "rest": 0,
+          "travel": 0,
+          "work": 2
+        },
+        {
+          "clock": 630.000000000006,
+          "community": 62,
+          "hour": 7,
+          "rest": 0,
+          "travel": 1,
+          "work": 2
+        },
+        {
+          "clock": 675.000000000016,
+          "community": 62,
+          "hour": 7,
+          "rest": 0,
+          "travel": 0,
+          "work": 3
+        },
+        {
+          "clock": 720.000000000027,
+          "community": 0,
+          "hour": 8,
+          "rest": 0,
+          "travel": 62,
+          "work": 3
+        },
+        {
+          "clock": 765.000000000037,
+          "community": 0,
+          "hour": 8,
+          "rest": 0,
+          "travel": 59,
+          "work": 6
+        },
+        {
+          "clock": 810.000000000047,
+          "community": 0,
+          "hour": 9,
+          "rest": 0,
+          "travel": 1,
+          "work": 64
+        },
+        {
+          "clock": 855.000000000057,
+          "community": 0,
+          "hour": 9,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 900.000000000068,
+          "community": 0,
+          "hour": 10,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1050.2000000001,
+          "community": 0,
+          "hour": 11,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1080.00000000011,
+          "community": 0,
+          "hour": 12,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1125.00000000012,
+          "community": 0,
+          "hour": 12,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1170.00000000013,
+          "community": 0,
+          "hour": 13,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1215.00000000014,
+          "community": 0,
+          "hour": 13,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1260.00000000015,
+          "community": 0,
+          "hour": 14,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1305.00000000016,
+          "community": 0,
+          "hour": 14,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1350.00000000017,
+          "community": 0,
+          "hour": 15,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1395.00000000018,
+          "community": 0,
+          "hour": 15,
+          "rest": 0,
+          "travel": 0,
+          "work": 65
+        },
+        {
+          "clock": 1440.00000000019,
+          "community": 0,
+          "hour": 16,
+          "rest": 0,
+          "travel": 2,
+          "work": 63
+        },
+        {
+          "clock": 1485.0000000002,
+          "community": 2,
+          "hour": 16,
+          "rest": 0,
+          "travel": 0,
+          "work": 63
+        },
+        {
+          "clock": 1530.00000000021,
+          "community": 2,
+          "hour": 17,
+          "rest": 0,
+          "travel": 0,
+          "work": 63
+        },
+        {
+          "clock": 1575.00000000022,
+          "community": 2,
+          "hour": 17,
+          "rest": 0,
+          "travel": 0,
+          "work": 63
+        },
+        {
+          "clock": 1620.00000000023,
+          "community": 2,
+          "hour": 18,
+          "rest": 0,
+          "travel": 62,
+          "work": 1
+        },
+        {
+          "clock": 1665.00000000024,
+          "community": 6,
+          "hour": 18,
+          "rest": 0,
+          "travel": 58,
+          "work": 1
+        },
+        {
+          "clock": 1710.00000000025,
+          "community": 64,
+          "hour": 19,
+          "rest": 0,
+          "travel": 1,
+          "work": 0
+        },
+        {
+          "clock": 1755.00000000026,
+          "community": 65,
+          "hour": 19,
+          "rest": 0,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 1800.00000000027,
+          "community": 65,
+          "hour": 20,
+          "rest": 0,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 1845.00000000028,
+          "community": 65,
+          "hour": 20,
+          "rest": 0,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 1890.00000000029,
+          "community": 0,
+          "hour": 21,
+          "rest": 0,
+          "travel": 65,
+          "work": 0
+        },
+        {
+          "clock": 1935.0000000003,
+          "community": 0,
+          "hour": 21,
+          "rest": 0,
+          "travel": 65,
+          "work": 0
+        },
+        {
+          "clock": 1980.00000000031,
+          "community": 0,
+          "hour": 22,
+          "rest": 39,
+          "travel": 25,
+          "work": 0
+        },
+        {
+          "clock": 2025.00000000032,
+          "community": 0,
+          "hour": 22,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 2070.00000000031,
+          "community": 0,
+          "hour": 23,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 2115.00000000027,
+          "community": 0,
+          "hour": 23,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        },
+        {
+          "clock": 2160.00000000023,
+          "community": 0,
+          "hour": 0,
+          "rest": 65,
+          "travel": 0,
+          "work": 0
+        }
+      ],
+      "interaction_fixture": {
+        "actor_distance": 0.650017857551575,
+        "paused": false,
+        "player_on_floor": true,
+        "target": "npc/r78/r78_l000"
+      },
+      "min_work_point_distance": 1.49999725818634,
+      "population": 65,
+      "roles": {
+        "courier": {
+          "activities": {
+            "descanso": true,
+            "espera": true,
+            "viagem": true
+          },
+          "cycles": 0
+        },
+        "disciple": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "meditacao": true,
+            "treino": true
+          },
+          "cycles": 155
+        },
+        "guild_agent": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "trabalho": true
+          },
+          "cycles": 142
+        },
+        "healer": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "trabalho": true
+          },
+          "cycles": 140
+        },
+        "master": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "meditacao": true,
+            "treino": true
+          },
+          "cycles": 148
+        },
+        "merchant": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "trabalho": true
+          },
+          "cycles": 143
+        },
+        "resident": {
+          "activities": {
+            "convivio": true,
+            "descanso": true,
+            "trabalho": true
+          },
+          "cycles": 142
+        }
+      },
+      "simulated_seconds": 2160.00000000023
+    },
+    "failures": []
+  },
+  "reopen": {
+    "checks": [
+      {
+        "pass": true,
+        "test": "restore_region"
+      },
+      {
+        "pass": true,
+        "test": "same_city_after_new_process"
+      },
+      {
+        "pass": true,
+        "test": "identities_homes_professions_after_new_process"
+      },
+      {
+        "pass": true,
+        "test": "no_population_duplication_after_new_process"
+      },
+      {
+        "pass": true,
+        "test": "talks_work_visits_preserved"
+      }
+    ],
+    "facts": {
+      "population": 65
+    },
+    "failures": []
+  },
+  "captures": [
+    {
+      "camera_position": "(105.0, 163.0302, 125.0)",
+      "camera_rotation": "(-0.726267, 0.69866, 0.0)",
+      "camera_size": 240.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/01-cidade-antes.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 54,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(105.0, 163.0302, 125.0)",
+      "camera_rotation": "(-0.726267, 0.69866, 0.0)",
+      "camera_size": 240.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/02-cidade-integrada.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 54,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(-6.048153, 50.03025, 0.21825)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 48.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/03-mercado.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 14,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(-26.67503, 50.03025, 7.636593)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 48.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/04-escola-marcial.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 11,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(3.325642, 50.03025, -19.68481)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 44.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/05-hospedaria.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 11,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(71.68481, 50.03025, 5.325642)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 42.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/06-medicina.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 13,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(-7.927444, 50.03025, -32.16954)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 58.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/07-moradias.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 18,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(46.67436, 50.03025, 73.68481)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 38.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/08-ferraria.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 5,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(25.0, 50.03025, 27.0)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 66.0,
+      "clock": 909.999999999991,
+      "file": "res://cidade_viva/evidence/09-rua-central.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 3,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(-6.048153, 50.03025, 0.21825)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 66.0,
+      "clock": 1801.98333333333,
+      "file": "res://cidade_viva/evidence/10-cidade-noite.png",
+      "flat_collision_chunks": 76,
+      "region": 78,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 2528.588,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 22,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(-100.3142, 45.39853, 57.97108)",
+      "camera_rotation": "(-0.715788, 0.746956, 0.0)",
+      "camera_size": 96.0,
+      "clock": 901.999999999998,
+      "file": "res://cidade_viva/evidence/11-passagem-fluvial.png",
+      "flat_collision_chunks": 61,
+      "region": 26,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "martial_edge": 1,
+          "mixed_commerce": 9,
+          "residential": 28
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "martial_edge": 1,
+            "mixed_commerce": 9,
+            "residential": 28
+          },
+          "existing_pois": 46,
+          "has_river": true,
+          "max_visuals": 180,
+          "original_lots": 46,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 180
+        },
+        "ms": 3949.875,
+        "night_lamps": 12,
+        "objects": 180,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 10,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    },
+    {
+      "camera_position": "(105.0, 163.8505, 125.0)",
+      "camera_rotation": "(-0.726267, 0.69866, 0.0)",
+      "camera_size": 240.0,
+      "clock": 901.999999999998,
+      "file": "res://cidade_viva/evidence/12-cidade-ribeirinha.png",
+      "flat_collision_chunks": 61,
+      "region": 26,
+      "renderer": "gl_compatibility",
+      "seed": 101,
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "martial_edge": 1,
+          "mixed_commerce": 9,
+          "residential": 28
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "martial_edge": 1,
+            "mixed_commerce": 9,
+            "residential": 28
+          },
+          "existing_pois": 46,
+          "has_river": true,
+          "max_visuals": 180,
+          "original_lots": 46,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 180
+        },
+        "ms": 3949.875,
+        "night_lamps": 12,
+        "objects": 180,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      },
+      "visible_npcs": 58,
+      "visual_settings": {
+        "afterimages": 1,
+        "ambient_light": 1,
+        "character_shadows": 1,
+        "detail_distance": 1,
+        "fog": 1,
+        "fps_limit": 0,
+        "fxaa": 0,
+        "glow": 0,
+        "grass_density": 3,
+        "impact_details": 1,
+        "material_detail": 1,
+        "msaa": 1,
+        "particles": 2,
+        "render_scale": 2,
+        "resolution": 0,
+        "shadow_distance": 2,
+        "shadow_quality": 0,
+        "ssao": 0,
+        "ssil": 0,
+        "ssr": 0,
+        "texture_filter": 1,
+        "upscaler": 0,
+        "vsync": 0,
+        "water_quality": 2,
+        "weapon_trails": 1,
+        "wind": 1,
+        "window_mode": 0
+      }
+    }
+  ],
+  "render_benchmark": {
+    "checks": [
+      {
+        "pass": true,
+        "test": "create_character"
+      },
+      {
+        "pass": true,
+        "test": "benchmark_city"
+      }
+    ],
+    "facts": {
+      "adapter": "llvmpipe (LLVM 20.1.2, 256 bits)",
+      "engine": "4.6.2-stable (official)",
+      "fixed_fps": false,
+      "limits": "Frozen simulation isolates rendering cost; 60 samples per condition on CPU llvmpipe, not owner hardware or live gameplay FPS.",
+      "npcs": 65,
+      "profile": "Medio",
+      "renderer": "gl_compatibility",
+      "resolution": "(1152, 720)",
+      "rows": [
+        {
+          "draw_calls": 365.0,
+          "mean_fps": 1.42668925179161,
+          "mean_frame_ms": 700.923483333333,
+          "memory_bytes": 271305278.0,
+          "nodes": 30345,
+          "p95_frame_ms": 1289.258,
+          "raw_frame_ms": [
+            1090.807,
+            1025.18,
+            2927.287,
+            1542.451,
+            1289.258,
+            1121.457,
+            1348.738,
+            820.056,
+            667.623,
+            960.385,
+            749.144,
+            731.262,
+            606.049,
+            524.245,
+            822.234,
+            535.532,
+            654.477,
+            657.437,
+            893.042,
+            664.333,
+            438.849,
+            498.181,
+            704.205,
+            494.877,
+            511.304,
+            505.941,
+            625.065,
+            668.364,
+            601.36,
+            433.163,
+            596.203,
+            428.51,
+            492.205,
+            367.148,
+            512.429,
+            455.257,
+            541.712,
+            442.492,
+            621.747,
+            592.798,
+            491.964,
+            702.528,
+            756.857,
+            903.692,
+            724.276,
+            695.415,
+            730.673,
+            612.071,
+            797.692,
+            397.176,
+            464.852,
+            556.448,
+            566.873,
+            505.036,
+            533.361,
+            631.951,
+            628.67,
+            382.603,
+            370.654,
+            439.81
+          ],
+          "urban_visible": false
+        },
+        {
+          "draw_calls": 455.0,
+          "mean_fps": 0.680736483809766,
+          "mean_frame_ms": 1468.99721666667,
+          "memory_bytes": 271375434.0,
+          "nodes": 30345,
+          "p95_frame_ms": 3456.803,
+          "raw_frame_ms": [
+            411.762,
+            322.045,
+            403.715,
+            325.565,
+            330.541,
+            391.345,
+            355.949,
+            328.702,
+            422.371,
+            370.985,
+            379.226,
+            352.457,
+            2383.21,
+            2438.201,
+            847.489,
+            6114.215,
+            629.435,
+            1203.368,
+            735.106,
+            460.372,
+            1112.346,
+            2163.496,
+            2199.024,
+            1101.17,
+            1963.786,
+            2131.931,
+            1956.095,
+            5520.802,
+            2157.97,
+            2558.223,
+            2292.288,
+            924.652,
+            1472.616,
+            4809.915,
+            1308.002,
+            3456.803,
+            2133.889,
+            1129.108,
+            1302.981,
+            2950.597,
+            2461.809,
+            1258.311,
+            1542.463,
+            1288.72,
+            790.096,
+            2108.02,
+            510.947,
+            482.722,
+            1189.788,
+            945.413,
+            749.787,
+            632.712,
+            353.703,
+            487.629,
+            1969.247,
+            857.735,
+            1696.482,
+            1386.909,
+            2690.872,
+            884.715
+          ],
+          "urban_visible": true
+        }
+      ],
+      "urban": {
+        "districts": {
+          "civic": 2,
+          "commerce": 5,
+          "martial": 1,
+          "mixed_commerce": 11,
+          "residential": 24
+        },
+        "metrics": {
+          "district_lots": {
+            "civic": 2,
+            "commerce": 5,
+            "martial": 1,
+            "mixed_commerce": 11,
+            "residential": 24
+          },
+          "existing_pois": 43,
+          "has_river": false,
+          "max_visuals": 180,
+          "original_lots": 43,
+          "roads_unchanged": true,
+          "street_profiles": {
+            "cross": 1,
+            "main": 1,
+            "market_street": 2,
+            "side_street": 2
+          },
+          "visuals": 167
+        },
+        "ms": 3599.791,
+        "night_lamps": 12,
+        "objects": 167,
+        "rendered": true,
+        "status": "ready",
+        "version": 2
+      }
+    },
+    "failures": []
+  },
+  "limits": [
+    "Automated input is not human gameplay.",
+    "Frozen render benchmark on CPU llvmpipe is not live gameplay FPS or owner hardware.",
+    "Street layout preserved; new props do not implement shops, harvesting or new interiors."
+  ]
+}

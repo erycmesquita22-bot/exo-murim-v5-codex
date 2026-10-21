@@ -1,0 +1,8 @@
+Executable Godot 4.6.2 Standard Compatibility required.
+From extracted EXO-CITY-FORGE-01-R3 root:
+  godot --headless --path . --editor --quit
+  godot --headless --path . --script res://exo_city_forge/qa/qa_run.gd
+  godot --path . --editor
+  F6 on res://exo_city_forge/preview/city_preview.tscn
+Use B/N to cycle all 14 plans, Q/E for urban profile (compatible profiles are enforced), left/right seeds, L for landmarks. Preserve logs.
+Do not run on your C3 Work folder; never infer native PASS from offline QA.

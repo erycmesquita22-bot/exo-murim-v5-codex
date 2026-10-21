@@ -1,0 +1,1481 @@
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -112,3 +112,11 @@
+ - City R4 é semântica; Crowd exige recibo físico por cena, emitido após commit. Não voltar a remover apresentação em region_exited preparado antes do save.
+ - Economy usa carteira Living World e staging do Inventory dentro de um commit; apenas três bens. Não remover verificação de comerciante físico, horário, distância, quote/revisão e recibos.
+ - Interior novo, 168 skills autorais, histórias V4 e VFX sem Bridge continuam bloqueados. NPC02 mantém movimento e UID. Terrain R3 não substituiu assets C3 aprovados.
++
++## WorldGenesis V4 — candidato integrado (20/10/2026)
++- Continuidade vigente: WORLDGENESIS_V4/RELATORIO-WORLDGENESIS-V4.md e MATRIZ-C3-V4.md. Seções anteriores são históricas.
++- Novas campanhas com flag worldgen_v4/new_campaigns_enabled usam generator 4 e regional_version 7, com atlas/perfis/templates congelados no JourneySave existente. Não remover marcadores para fazer downgrade.
++- Grafo de 88 regiões preservado. Saves anteriores continuam pela geração legada. Sem novo dono de persistência, economia, NPCs ou combate.
++- WorldGenesis confirma a geometria física; City R4 continua semântica e NPC03 consultivo. Interior novo, Terrain R3 visual, histórias/skills/VFX sem hosts continuam bloqueados segundo a matriz.
++- Runner nativo: tools/run_worldgen_v4_checks.py EXECUTAVEL_GODOT. Reaberturas precisam de processos separados. Evidência atual em WORLDGENESIS_V4/evidence; QA antigo preservado nos diretórios históricos.
++- Não iniciar Convergência V4 final sem nova etapa autorizada. Não chamar a V4 completa apenas porque o gerador novo está ativo.
+--- /dev/null
++++ b/LEIA-ME-WORLDGENESIS-V4.txt
+@@ -0,0 +1,15 @@
++EXO-MURIM — WORLDGENESIS V4 INTEGRADO — CANDIDATO 03
++Godot 4.6.2 Standard / Compatibility
++
++Este é o projeto integral, continuação do checkpoint Pré-WorldGenesis e do Candidato 01.
++Novas campanhas usam WorldGenesis V4. O grafo original de 88 regiões foi preservado.
++Campanhas antigas sem marcador V4 continuam C3; não excluir marcadores manualmente.
++
++Começar por WORLDGENESIS_V4/RELATORIO-WORLDGENESIS-V4.md.
++Matriz real: WORLDGENESIS_V4/MATRIZ-C3-V4.md.
++QA e capturas: WORLDGENESIS_V4/evidence.
++Recuperação: WORLDGENESIS_V4/ABRIR-E-ROLLBACK.md.
++Pendências: WORLDGENESIS_V4/PENDENCIAS-CONVERGENCIA.md.
++
++Não é a Convergência V4 final. City Forge físico completo, NPC03 físico,
++novos interiores e demais hosts incompletos continuam bloqueados.
+--- /dev/null
++++ b/V4_CHECKPOINT/evidence/01-inicio.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://bihhkqted3ck7"
++path="res://.godot/imported/01-inicio.png-3b9af5d7edd286b312db24f816dce2b7.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/evidence/01-inicio.png"
++dest_files=["res://.godot/imported/01-inicio.png-3b9af5d7edd286b312db24f816dce2b7.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/evidence/02-criador.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://gq57b8evwj50"
++path="res://.godot/imported/02-criador.png-50f60c41a46bd00092947d2588aaad57.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/evidence/02-criador.png"
++dest_files=["res://.godot/imported/02-criador.png-50f60c41a46bd00092947d2588aaad57.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/evidence/03-campanha.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://d3wgp55p1seqa"
++path="res://.godot/imported/03-campanha.png-40a2f5ef3e2a42dd03b2377e88a65152.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/evidence/03-campanha.png"
++dest_files=["res://.godot/imported/03-campanha.png-40a2f5ef3e2a42dd03b2377e88a65152.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/evidence/04-cidade78.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://dusp6tchjfhpd"
++path="res://.godot/imported/04-cidade78.png-fc513da86704a6e9c9949a74427db6ac.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/evidence/04-cidade78.png"
++dest_files=["res://.godot/imported/04-cidade78.png-fc513da86704a6e9c9949a74427db6ac.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/evidence/05-escola-jade.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://ctbbnmfuva3cu"
++path="res://.godot/imported/05-escola-jade.png-7ac9ebefde5f9b76b963081be2e14464.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/evidence/05-escola-jade.png"
++dest_files=["res://.godot/imported/05-escola-jade.png-7ac9ebefde5f9b76b963081be2e14464.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/combate-personagem-preservado.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://bkcafwmyoduhu"
++path="res://.godot/imported/combate-personagem-preservado.png-a3b2289314782520afad5c42c2ccf35e.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/combate-personagem-preservado.png"
++dest_files=["res://.godot/imported/combate-personagem-preservado.png-a3b2289314782520afad5c42c2ccf35e.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/configuracoes.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://dgs8gh8brvwi"
++path="res://.godot/imported/configuracoes.png-28bf004f5dba35e36ff3324ecbd26da6.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/configuracoes.png"
++dest_files=["res://.godot/imported/configuracoes.png-28bf004f5dba35e36ff3324ecbd26da6.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/inventario.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://cgx7bbmsm2le"
++path="res://.godot/imported/inventario.png-5ed57425861cce83970a5b0da03303af.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/inventario.png"
++dest_files=["res://.godot/imported/inventario.png-5ed57425861cce83970a5b0da03303af.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-antes.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://c2syuf3hrl0bl"
++path="res://.godot/imported/ruinas-antes.png-6ad5f7933bbf529eb47d43b2364fc38d.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-antes.png"
++dest_files=["res://.godot/imported/ruinas-antes.png-6ad5f7933bbf529eb47d43b2364fc38d.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-concluidas.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://bm3v76ftb74e8"
++path="res://.godot/imported/ruinas-concluidas.png-4e4106f252208aa4603c5c1885746ec9.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/ruinas-concluidas.png"
++dest_files=["res://.godot/imported/ruinas-concluidas.png-4e4106f252208aa4603c5c1885746ec9.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/V4_CHECKPOINT/logs/legacy-playable-evidence/vila-completa.png.import
+@@ -0,0 +1,40 @@
++[remap]
++
++importer="texture"
++type="CompressedTexture2D"
++uid="uid://sywnpmpru8jf"
++path="res://.godot/imported/vila-completa.png-a6b5884e83122328a449c651bfa92796.ctex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://V4_CHECKPOINT/logs/legacy-playable-evidence/vila-completa.png"
++dest_files=["res://.godot/imported/vila-completa.png-a6b5884e83122328a449c651bfa92796.ctex"]
++
++[params]
++
++compress/mode=0
++compress/high_quality=false
++compress/lossy_quality=0.7
++compress/uastc_level=0
++compress/rdo_quality_loss=0.0
++compress/hdr_compression=1
++compress/normal_map=0
++compress/channel_pack=0
++mipmaps/generate=false
++mipmaps/limit=-1
++roughness/mode=0
++roughness/src_normal=""
++process/channel_remap/red=0
++process/channel_remap/green=1
++process/channel_remap/blue=2
++process/channel_remap/alpha=3
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/normal_map_invert_y=false
++process/hdr_as_srgb=false
++process/hdr_clamp_exposure=false
++process/size_limit=0
++detect_3d/compress_to=1
+--- /dev/null
++++ b/convergence/crowd_geometry_v4.gd.uid
+@@ -0,0 +1 @@
++uid://byv0jchj803pi
+--- /dev/null
++++ b/convergence/economy_host_v4.gd.uid
+@@ -0,0 +1 @@
++uid://crr8706s7novw
+--- a/convergence/game.gd
++++ b/convergence/game.gd
+@@ -69,7 +69,7 @@
+ 		journey.data.convergence={"schema":1,"atlas_seed":str(journey.data.world.seed),"current":-1,"position":[],"visited":{},"actors":{},"clock":900.0,"clock_rate":2,"regional_version":6}
+ 	WorldClock.migrate(journey.data.convergence)
+ 	journey.data.convergence["architecture_version"]=2
+-	journey.data.convergence["regional_version"]=6
++	journey.data.convergence["regional_version"]=7 if journey.data.convergence.has("worldgen_v4") else 6
+ 	return journey.data.convergence
+ func ensure_atlas() -> bool:
+ 	var state: Dictionary=extension()
+@@ -80,7 +80,11 @@
+ 	# Persist the full deterministic graph; subsequent sessions consume this exact atlas.
+ 	if state.has("atlas"):
+ 		atlas=state.atlas
+-	else:state.atlas=atlas.duplicate(true)
++	else:
++		if state.has("worldgen_v4"):
++			atlas=preload("res://genesis/v4/world_plan.gd").decorate(atlas,str(journey.data.world.id),exo_core)
++		state.atlas=atlas.duplicate(true)
++	if state.has("worldgen_v4") and not preload("res://genesis/v4/world_plan.gd").valid_atlas(atlas):generation_failure="invalid_worldgen_v4_atlas";return false
+ 	return AtlasPlanner.validate(atlas).is_empty()
+ func legacy_active(value: bool) -> void:
+ 	for node in region_nodes:
+@@ -188,10 +192,11 @@
+ 	var desired:=Vector3(0,data.center_h+.08,0)
+ 	for gate in data.gates:
+ 		if gate.id==gate_id:
+-			var p: Vector2=gate.p-gate.p.normalized()*10
++			var p: Vector2=data.handoff_point(gate)-gate.p.normalized()*10
+ 			desired=Vector3(p.x,data.height_at(p)+.08,p.y)
+ 	var spawn: Vector3=regional_spawn(candidate,desired)
+ 	if not spawn.is_finite():candidate.free();generation_failure="arrival_blocked";message("Chegada bloqueada; região anterior preservada.");changing_region=false;simulation_enabled=true;return false
++	if data.worldgen_v4:candidate.set_meta("wg4_landmark_verification",preload("res://genesis/v4/landmarks.gd").verify(candidate))
+ 	candidate.prepare_population()
+ 	if not candidate.build_errors.is_empty():
+ 		generation_failure=str(candidate.build_errors);candidate.free();changing_region=false;simulation_enabled=true;return false
+@@ -400,6 +405,7 @@
+ 		return
+ 	var drop: String=inventory.nearby_drop()
+ 	if not drop.is_empty():inventory.collect(drop);return
++	if _worldgen_landmark_interact():return
+ 	if martial_host_r8!=null and martial_host_r8.handle_training_station():return
+ 	var interaction_order: Array=residents.duplicate()
+ 	interaction_order.sort_custom(func(a,b):return a.position.distance_squared_to(player.position)<b.position.distance_squared_to(player.position))
+@@ -570,6 +576,8 @@
+ 	if current_region<0:
+ 		if convergence_ready and flow.phase=="adventure" and player.position.distance_to(HOME_GATE)<4:return "E • Explorar as 88 regiões"
+ 		return super.interaction_hint()
++	for point in active_region.get_meta("wg4_landmarks",[]):
++		if point.get("approved",false) and player.position.distance_to(point.point)<2.8:return "E • Examinar "+str(point.title)
+ 	for actor in residents:
+ 		if actor.rig.visible and player.position.distance_to(actor.position)<3:return "E • Conversar com "+str(actor.identity.display_name)
+ 	for gate in active_region.gate_nodes:
+@@ -694,6 +702,7 @@
+ 	super.resume_checkpoint()
+ 
+ func region_title(spec: Dictionary) -> String:
++	if str(spec.get("kind",""))=="wild" and spec.has("worldgen_v4"):return str(spec.worldgen_v4.profile.get("form","Terras abertas")).replace("_"," ").capitalize()
+ 	if spec.kind=="settlement":return {"village":"Aldeia","town":"Vila","city":"Cidade"}.get(str(spec.settlement_scale),"Assentamento")
+ 	return {"wild":"Terras abertas","ruins":"Ruínas","dungeon_approach":"Entrada de masmorra"}.get(str(spec.kind),"Região")
+ func role_title(role: String) -> String:
+@@ -710,3 +719,17 @@
+ 	ecology_director.active[key]=actor
+ 	if actor not in enemies:enemies.append(actor)
+ 	inventory.rebuild_drops()
++
++func _prepare_worldgen_campaign()->bool:
++	if flow.phase!="creator" or not extension().visited.is_empty():return false
++	if bool(ProjectSettings.get_setting("exo_murim/worldgen_v4/new_campaigns_enabled",true)):
++		extension()["worldgen_v4"]={"schema":1,"generator":4}
++		extension()["regional_version"]=7
++		extension().erase("atlas");atlas={}
++	return true
++func _worldgen_landmark_interact()->bool:
++	if not is_instance_valid(active_region):return false
++	for point in active_region.get_meta("wg4_landmarks",[]):
++		if point.get("approved",false) and player.position.distance_to(point.point)<2.8:
++			ui.dialogue(str(point.title),str(point.description));return true
++	return false
+--- a/convergence/state.gd
++++ b/convergence/state.gd
+@@ -1,6 +1,11 @@
+ extends RefCounted
+ static func valid(value: Variant) -> bool:
+-	if not value is Dictionary or value.get("schema")!=1 or (value.get("regional_version")!=4 and value.get("regional_version")!=5 and value.get("regional_version")!=6):return false
++	if not value is Dictionary or value.get("schema")!=1 or (value.get("regional_version")!=4 and value.get("regional_version")!=5 and value.get("regional_version")!=6 and value.get("regional_version")!=7):return false
++	if (int(value.get("regional_version",0))==7)!=value.has("worldgen_v4"):return false
++	if value.get("atlas") is Dictionary and value.atlas.has("worldgen_v4")!=value.has("worldgen_v4"):return false
++	if value.has("worldgen_v4"):
++		if not value.worldgen_v4 is Dictionary or value.worldgen_v4.get("schema")!=1 or value.worldgen_v4.get("generator")!=4:return false
++		if value.has("atlas") and not preload("res://genesis/v4/world_plan.gd").valid_atlas(value.atlas):return false
+ 	if not value.get("atlas_seed") is String or not value.atlas_seed.is_valid_int():return false
+ 	if not (value.get("current") is int or value.get("current") is float):return false
+ 	if int(value.current)!=value.current or value.current< -1 or value.current>87:return false
+--- /dev/null
++++ b/convergence/tests/benchmark_v4.gd.uid
+@@ -0,0 +1 @@
++uid://byxy5dsjt6s38
+--- /dev/null
++++ b/convergence/tests/capture_v4.gd.uid
+@@ -0,0 +1 @@
++uid://xct2fuxj2bgq
+--- /dev/null
++++ b/convergence/tests/qa_skill_catalog_probe.gd.uid
+@@ -0,0 +1 @@
++uid://d1acew20y6h1s
+--- /dev/null
++++ b/convergence/tests/qa_v4_integration.gd.uid
+@@ -0,0 +1 @@
++uid://2sfkypokkiue
+--- /dev/null
++++ b/convergence/tests/qa_v4_interior.gd.uid
+@@ -0,0 +1 @@
++uid://8y07nuao8lp5
+--- /dev/null
++++ b/convergence/tests/qa_v4_registry.gd.uid
+@@ -0,0 +1 @@
++uid://c0hx4rck6aban
+--- /dev/null
++++ b/exo_core/integrations/terrain_r3.gd.uid
+@@ -0,0 +1 @@
++uid://cxjg4k57xb5ki
+--- /dev/null
++++ b/exo_terrain_forge/r3/terrain_material_resolver.gd.uid
+@@ -0,0 +1 @@
++uid://cphh8yqcsattd
+--- a/genesis/monument_reservations_r7.gd
++++ b/genesis/monument_reservations_r7.gd
+@@ -44,6 +44,10 @@
+  elif scale=="town":families=["martial_medium","temple_monumental"]
+  else:return response
+  var streets: Array=Settlement.future_streets(data.spec,data.gates,data.rivers) if kind=="settlement" else []
++ # WG4 rotates existing authorial families, retaining all original safety gates.
++ if bool(data.get("worldgen_v4")) and not families.is_empty():
++  var shift:int=int(data.worldgen_profile.get("site_family_shift",0))%families.size()
++  families=families.slice(shift)+families.slice(0,shift)
+  # Deterministic outskirts, no RNG state shared with lots/NPCs; no flattening.
+  var centres: Array=[Vector2(90,90),Vector2(-90,90),Vector2(90,-90),Vector2(-90,-90),Vector2(105,65),Vector2(-105,-65),Vector2(65,-105),Vector2(-65,105),Vector2(135,110),Vector2(-135,-110),Vector2(0,120),Vector2(120,0)]
+  if kind=="ruins":centres=[Vector2(0,95),Vector2(95,0),Vector2(-95,0),Vector2(0,-95),Vector2(105,105)]
+--- a/genesis/region_data.gd
++++ b/genesis/region_data.gd
+@@ -3,6 +3,10 @@
+ const Planner=preload("res://genesis/world_planner.gd")
+ const Settlement=preload("res://genesis/settlements/settlement_planner.gd")
+ const Monuments=preload("res://genesis/monument_reservations_r7.gd")
++var worldgen_v4:bool=false
++var worldgen_profile:Dictionary={}
++var landmarks:Array=[]
++var ridge_noise:=FastNoiseLite.new()
+ var atlas: Dictionary
+ var spec: Dictionary
+ var gates: Array=[]
+@@ -27,6 +31,13 @@
+ 	if w.is_empty():return
+ 	atlas=w;spec=w.regions[rid];extent=w.region_extent_m;half=extent*.5
+ 	noise.seed=Planner.seed_mod(spec.region_seed,2147483647);noise.frequency=.012
++	worldgen_v4=w.has("worldgen_v4") and spec.has("worldgen_v4")
++	if worldgen_v4:
++		worldgen_profile=spec.worldgen_v4.profile.duplicate(true)
++		ridge_noise.seed=Planner.derive(spec.region_seed,"WG4/ridge")%2147483647;ridge_noise.frequency=.008;ridge_noise.fractal_octaves=3
++		if spec.kind!="settlement":
++			var angle:float=float(worldgen_profile.yaw)
++			river_hub=Vector2(cos(angle),sin(angle))*(48.0+float(Planner.derive(spec.region_seed,"WG4/river")%30))
+ 	center_h=8+25*spec.elevation
+ 	base_color=COLORS[spec.biome]
+ 	for e in spec.entrances:
+@@ -115,11 +126,19 @@
+ 			if not clear:continue
+ 			lots.append({"p":p,"height":center_h,"yaw":atan2(-p.x,-p.y),"halfsize":pad_size})
+ 			access_roads.append({"p":p,"height":center_h,"width":4.0})
++	if worldgen_v4:landmarks=preload("res://genesis/v4/landmarks.gd").propose(self)
+ 	var density := 190 if "forest" in spec.biome or spec.biome=="mixed_woodland" else 90
++	if worldgen_v4:density=int(worldgen_profile.tree_budget)
+ 	for k in range(density*4):
+ 		if plants.size()>=density:break
+ 		var p := Vector2(rng.randf_range(-half+8,half-8),rng.randf_range(-half+8,half-8))
+ 		if road_distance(p)<12 or river_distance(p)<10 or p.length()<20 or pad_distance(p)<10:continue
++		if worldgen_v4:
++			if ridge_noise.get_noise_2d(p.x+721,p.y-235)<float(worldgen_profile.cluster_cut):continue
++			var near_landmark:bool=false
++			for point in landmarks:
++				if p.distance_to(point.p)<5.0:near_landmark=true;break
++			if near_landmark:continue
+ 		var h := height_at(p)
+ 		var slope := maxf(absf(height_at(p+Vector2(1,0))-h),absf(height_at(p+Vector2(0,1))-h))
+ 		if slope>.35:continue
+@@ -149,30 +168,45 @@
+ 		d=minf(d,p.distance_to(q))
+ 	return d
+ func height_unpadded(p: Vector2) -> float:
++	# Exact flat output of the existing final blends: avoid noise on urban footsteps.
++	if worldgen_v4 and ((spec.kind=="settlement" and p.length_squared()<=32400.0) or p.length_squared()<=256.0):return center_h
+ 	var relief := 4.0
+ 	if spec.biome=="rocky_highlands":relief=32
+ 	if spec.biome=="alpine":relief=52
+ 	var h := center_h+noise.get_noise_2d(p.x,p.y)*relief
+ 	if relief>10:h+=relief*exp(-pow((p.x-half*.58)/45,2))*(.7+.3*sin(p.y*.015))
++	if worldgen_v4:
++		relief=float(worldgen_profile.relief)
++		var yaw:float=float(worldgen_profile.yaw)
++		var q:=Vector2(p.x*cos(yaw)-p.y*sin(yaw),p.x*sin(yaw)+p.y*cos(yaw))
++		var macro:float=ridge_noise.get_noise_2d(p.x,p.y)
++		h=center_h+noise.get_noise_2d(p.x,p.y)*relief*.7+macro*relief*.24
++		if spec.biome in ["rocky_highlands","alpine"]:
++			var width:float=float(worldgen_profile.ridge_width)
++			var ridge:float=exp(-pow((q.x-float(worldgen_profile.ridge_offset))/width,2))
++			var secondary:float=exp(-pow((q.x+q.y*.38+85.0)/(width*.8),2))
++			h+=relief*(ridge*.65+secondary*.28)*(.65+.35*(1.0-absf(macro)))
+ 	for river in rivers:
+ 		var d := p.distance_to(Geometry2D.get_closest_point_to_segment(p,river_hub,river.p))
+ 		if d<9:
+ 			var level := river_level(river,p)
+-			h=lerpf(level-1.3,maxf(h,level+1),smoothstep(2.8,9,d))
++			var inner:float=river_half_width(river)+.1 if worldgen_v4 and spec.kind!="settlement" else 2.8
++			h=lerpf(level-1.3,maxf(h,level+1),smoothstep(inner,9,d))
+ 	# Engineered settlement terrace. Keeps the complete civic street network and
+ 	# all assigned parcels at one connected elevation; outer relief is preserved.
+ 	if spec.kind=="settlement":h=lerpf(center_h,h,smoothstep(180,224,p.length()))
+ 	# One weighted road surface prevents incompatible heights at shared trunks.
+ 	var sum := 0.0;var weights := 0.0;var nearest := INF
++	var shoulder:float=24.0 if worldgen_v4 and spec.kind!="settlement" and spec.biome in ["rocky_highlands","alpine"] else 14.0
+ 	for g in gates+access_roads:
+ 		var t := clampf(p.dot(g.p)/g.p.length_squared(),0,1)
+ 		var d := p.distance_to(g.p*t);nearest=minf(nearest,d)
+-		if d<14:
+-			var weight := pow(1-d/14,2)
++		if d<shoulder:
++			var weight := pow(1-d/shoulder,2)
+ 			# Flat touchdown for 12 m. Cubic ramps have zero derivative at the hub and gate.
+ 			var ramp := smoothstep(180 if spec.kind=="settlement" else 32,maxf(181 if spec.kind=="settlement" else 33,g.p.length()-12),t*g.p.length())
+ 			sum+=lerpf(center_h,g.height,ramp)*weight;weights+=weight
+-	if weights>0:h=lerpf(h,sum/weights,1-smoothstep(5,14,nearest))
++	if weights>0:h=lerpf(h,sum/weights,1-smoothstep(5,shoulder,nearest))
+ 	h=lerpf(center_h,h,smoothstep(16,24,p.length()))
+ 	return h
+ func terrain_height_at(p: Vector2) -> float:
+@@ -204,14 +238,14 @@
+ 		var d: float=p.distance_to(gates[index].p)
+ 		if d<nearest:nearest=d;selected=index
+ 	var weights := Color(0,0,0,0)
+-	if selected>=0:weights[selected]=.5*(1-smoothstep(12,48,nearest))
++	if selected>=0:weights[selected]=.5*(1-smoothstep(12,float(worldgen_profile.blend_m) if worldgen_v4 else 48.0,nearest))
+ 	return weights
+ func color_at(p: Vector2) -> Color:
+ 	var c := base_color
+ 	for g in gates:
+ 		var other: String=g.palette.b if g.palette.a==spec.biome else g.palette.a
+ 		var distance := p.distance_to(g.p)
+-		c=c.lerp(COLORS[other],.5*(1-smoothstep(12,48,distance)))
++		c=c.lerp(COLORS[other],.5*(1-smoothstep(12,float(worldgen_profile.blend_m) if worldgen_v4 else 48.0,distance)))
+ 	return c
+ func validate() -> Array:
+ 	var errors: Array=[]
+@@ -252,3 +286,10 @@
+ 	for z in range(-256,257,8):
+ 		for x in range(-256,257,8):samples.append(snappedf(height_at(Vector2(x,z)),.00001))
+ 	return JSON.stringify([spec.region_seed,samples,lots,plants,rivers,access_roads,settlement_roads,Settlement.export_contract(settlement_plan) if spec.kind=="settlement" else {}]).sha256_text()
++
++func river_half_width(river:Dictionary)->float:
++	if not worldgen_v4 or spec.kind=="settlement":return 2.7
++	return clampf(2.15+log(1.0+maxf(0.0,float(river.get("flow",1.0))))*.16,2.2,3.25)
++func handoff_point(gate:Dictionary)->Vector2:
++	if not worldgen_v4 or spec.kind=="settlement":return gate.p
++	return gate.p*float(atlas.worldgen_v4.handoff_ratio)
+--- a/genesis/region_scene.gd
++++ b/genesis/region_scene.gd
+@@ -23,6 +23,7 @@
+ 	build_river_road_decks()
+ 	build_lots()
+ 	build_plants()
++	if data.worldgen_v4:preload("res://genesis/v4/landmarks.gd").build(self)
+ 	build_plaza()
+ 	build_gates()
+ 	build_bounds()
+@@ -157,7 +158,7 @@
+ 	for river in data.rivers:
+ 		var st := SurfaceTool.new();st.begin(Mesh.PRIMITIVE_TRIANGLES)
+ 		var direction: Vector2=(river.p-data.river_hub).normalized()
+-		var perpendicular := Vector2(-direction.y,direction.x)*2.7
++		var perpendicular:Vector2 = Vector2(-direction.y,direction.x)*data.river_half_width(river)
+ 		var length: float=river.p.distance_to(data.river_hub)
+ 		var segments := int(ceil(length/2))
+ 		for k in range(segments):
+@@ -304,8 +305,9 @@
+ 		preload("res://ground_shadow.gd").place(self,pos+Vector3(0,.025,0),Vector2(2,2),.25)
+ func build_gates() -> void:
+ 	for g in data.gates:
+-		var inward: Vector2=-g.p.normalized();var point: Vector2=g.p+inward*1.5
+-		var pos := Vector3(point.x,g.height,point.y)
++		var handoff:Vector2=data.handoff_point(g)
++		var inward: Vector2=-g.p.normalized();var point: Vector2=handoff+inward*1.5
++		var pos := Vector3(point.x,data.height_at(point) if data.worldgen_v4 else g.height,point.y)
+ 		var open: bool=g.neighbor in pilot
+ 		var portal := asset("11_RUINAS_GLB/arco_portal_antigo.glb",pos,atan2(inward.x,inward.y),1.4,true)
+ 		var label := Label3D.new();label.text=("REGIÃO %02d • E"%g.neighbor) if open else ("REGIÃO %02d • FORA DO PILOTO"%g.neighbor)
+--- /dev/null
++++ b/genesis/v4/benchmark_compare.gd
+@@ -0,0 +1,37 @@
++extends SceneTree
++const Game=preload("res://convergence/game.gd")
++func _initialize():call_deferred("run")
++func run():
++ Engine.max_fps=0
++ var mode:String="C3" if "--c3" in OS.get_cmdline_user_args() else "V4"
++ ProjectSettings.set_setting("exo_murim/worldgen_v4/new_campaigns_enabled",mode=="V4")
++ var w:Node3D=Game.new();w.load_on_start=false;w.save_path="user://wg4_benchmark_"+mode+".json";w.settings_path="user://v4_benchmark.cfg";root.add_child(w);await process_frame
++ w.flow.phase="creator"
++ w.flow.create_character({"name":"Benchmark QA","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword","outfit":0},101)
++ for i in range(1600):
++  await physics_frame
++  if w.current_region>=0 and not w.changing_region:break
++ await w.change_region(78);w.ui.resume();w.graphics.set_option("vsync",0);w.camera.size=15
++ for i in range(30):await process_frame
++ var durations:Array=[];var calls:Array=[];var rss:Array=[];var cpu:Array=[]
++ var started:int=Time.get_ticks_usec();var last:int=started
++ var at:Vector3=w.player.position
++ var previous_position:Vector3=at
++ var traveled_m:float=0.0
++ Input.action_press("right")
++ for i in range(240):
++  if i==120:Input.action_release("right");Input.action_press("left")
++  await process_frame
++  traveled_m+=w.player.position.distance_to(previous_position);previous_position=w.player.position
++  var now:int=Time.get_ticks_usec();durations.append(float(now-last)/1000.0);last=now
++  calls.append(Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME))
++  rss.append(OS.get_static_memory_usage());cpu.append(Performance.get_monitor(Performance.TIME_PROCESS)*1000.0)
++ Input.action_release("left")
++ var wall:float=float(Time.get_ticks_usec()-started)/1000000.0
++ durations.sort();calls.sort();rss.sort();cpu.sort()
++ var tail:float=0.0
++ for i in range(237,240):tail+=float(durations[i])
++ var result:Dictionary={"mode":mode,"generation_metrics":w.region_metrics.duplicate(true),"status":"PASS_MEASUREMENT_ONLY","engine":Engine.get_version_info().string,"renderer":RenderingServer.get_current_rendering_method(),"adapter":RenderingServer.get_video_adapter_name(),"resolution":str(root.size),"seed":101,"region":78,"camera_size":w.camera.size,"samples":240,"wall_seconds":wall,"average_fps":240.0/wall,"one_percent_low_fps":1000.0/(tail/3.0),"p95_frame_ms":durations[227],"p99_frame_ms":durations[237],"max_frame_ms":durations[-1],"process_monitor_p95_ms":cpu[227],"draw_calls_p95":calls[227],"godot_static_memory_peak_bytes":rss[-1],"real_npcs":w.residents.size(),"crowd":w.exo_core.services.invoke("crowd.illusion","status"),"controller_displacement_m":w.player.position.distance_to(at),"controller_traveled_m":traveled_m,"limits":"llvmpipe CPU; one candidate run; no Vega8/Android claim; 240 frames with automated input; OS static memory is not whole-process RSS"}
++ FileAccess.open("res://WORLDGENESIS_V4/evidence/benchmark-"+mode+".json",FileAccess.WRITE).store_string(JSON.stringify(result,"  "))
++ print("BENCHMARK_V4 ",JSON.stringify(result))
++ w.queue_free();await process_frame;await process_frame;quit()
+--- /dev/null
++++ b/genesis/v4/benchmark_compare.gd.uid
+@@ -0,0 +1 @@
++uid://dq6av4lhd1fkh
+--- /dev/null
++++ b/genesis/v4/capture_compare.gd
+@@ -0,0 +1,52 @@
++extends SceneTree
++const Game=preload("res://convergence/game.gd")
++var w:Node3D
++var records:Array=[]
++func _initialize():call_deferred("run")
++func shot(label:String,mode:String):
++ for i in range(4):await process_frame
++ await RenderingServer.frame_post_draw
++ var path:String="res://WORLDGENESIS_V4/evidence/"+label+".png"
++ var code:int=root.get_texture().get_image().save_png(path)
++ records.append({"file":path,"result":code,"mode":mode,"seed":101,"region":w.current_region,"camera_size":w.camera.size})
++ print("WG4_CAPTURE ",label," ",code)
++func run():
++ for active in [false,true]:
++  ProjectSettings.set_setting("exo_murim/worldgen_v4/new_campaigns_enabled",active)
++  var mode:String="V4" if active else "C3"
++  w=Game.new();w.load_on_start=false;w.save_path="user://capture_"+mode+".json";w.settings_path="user://capture.cfg";root.add_child(w);await process_frame
++  w.flow.phase="creator";w.flow.create_character({"name":"World QA","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword","outfit":0},101)
++  for i in range(1800):
++   await physics_frame
++   if w.current_region>=0 and not w.changing_region:break
++  w.ui.resume();w.simulation_enabled=false
++  var selected:Dictionary={}
++  for spec in w.atlas.regions:
++   if spec.kind=="wild" and spec.biome in ["alpine","rocky_highlands"] and not selected.has("ridge"):selected.ridge=int(spec.id)
++   if spec.kind=="wild" and spec.biome in ["bamboo_forest","temperate_forest","mixed_woodland"] and not selected.has("forest"):selected.forest=int(spec.id)
++   if spec.kind=="wild" and spec.biome=="grassland" and not selected.has("trail"):selected.trail=int(spec.id)
++  for family in ["ridge","forest","trail"]:
++   await w.change_region(int(selected[family]));w.simulation_enabled=false
++   var focus:=Vector3(0,w.active_region.data.center_h,0)
++   w.camera.size=210 if family=="ridge" else 150;w.camera.position=focus+Vector3(130,190,145);w.camera.look_at(focus)
++   await shot(mode+"-"+family,mode)
++  if active:
++   var point:Dictionary={}
++   for row in w.active_region.get_meta("wg4_landmarks",[]):
++    if row.approved:point=row;break
++   if not point.is_empty():
++    w.player.position=point.point;w.player.velocity=Vector3.ZERO
++    for i in range(4):
++     await physics_frame;w.player.velocity=Vector3.DOWN*2.0;w.player.move_and_slide()
++    w.camera.size=22;w.camera.position=w.player.position+Vector3(15,22,18);w.camera.look_at(w.player.position+Vector3.UP)
++    await shot("V4-playfield",mode)
++    w.gate_cooldown=0;w.interaction_cooldown=0;w.interact()
++    if not w.ui.modal.visible:push_error("WG4 capture landmark E was not visible")
++    await shot("V4-landmark-E",mode);w.ui.resume()
++  await w.change_region(78);w.simulation_enabled=false
++  var focus:=Vector3(0,w.active_region.data.center_h,0)
++  w.camera.size=80;w.camera.position=focus+Vector3(50,70,60);w.camera.look_at(focus)
++  await shot(mode+"-city78",mode)
++  w.queue_free();await process_frame;await process_frame
++ FileAccess.open("res://WORLDGENESIS_V4/evidence/captures.json",FileAccess.WRITE).store_string(JSON.stringify(records,"  "))
++ quit()
+--- /dev/null
++++ b/genesis/v4/capture_compare.gd.uid
+@@ -0,0 +1 @@
++uid://278owkjdxis4
+--- /dev/null
++++ b/genesis/v4/landmarks.gd
+@@ -0,0 +1,57 @@
++extends RefCounted
++const Plan=preload("res://genesis/v4/world_plan.gd")
++const Planner=preload("res://genesis/world_planner.gd")
++static func propose(data:RefCounted)->Array:
++ var result:Array=[]
++ if not data.worldgen_v4 or str(data.spec.kind)=="settlement":return result
++ var library:Array=data.atlas.worldgen_v4.get("landmark_templates",[])
++ if library.is_empty():return result
++ var rng:=RandomNumberGenerator.new();rng.seed=Planner.derive(data.spec.region_seed,"WG4/landmarks")
++ for gate in data.gates:
++  if result.size()>=4:break
++  var along:Vector2=gate.p.normalized();var side:=Vector2(-along.y,along.x)
++  for distance in [54.0,82.0,112.0,142.0]:
++   var p:Vector2=along*(float(distance)+rng.randf_range(-4,4))+side*10.2*(1.0 if rng.randf()>.5 else -1.0)
++   var h:float=data.height_at(p)
++   if data.road_distance(p)<8.8 or data.river_distance(p)<15.0 or data.pad_distance(p)<10.0:continue
++   if maxf(absf(data.height_at(p+Vector2(1,0))-h),absf(data.height_at(p+Vector2(0,1))-h))>.28:continue
++   var clear:bool=true
++   for other in result:
++    if p.distance_to(other.p)<28:clear=false
++   if not clear:continue
++   var preference:int=int(data.worldgen_profile.get("landmark_preference",-1))
++   var template:Dictionary=library[preference] if preference>=0 and preference<library.size() else library[int(rng.randi())%library.size()]
++   result.append({"id":"wg4/r%02d/landmark/%02d"%[int(data.spec.id),result.size()],"p":p,"height":h,"yaw":rng.randf()*TAU,"template":template.duplicate(true),"approved":false})
++   break
++ return result
++static func build(region:Node3D)->void:
++ var nodes:Array=[]
++ for point in region.data.landmarks:
++  var at:=Vector3(point.p.x,float(point.height),point.p.y)
++  # Original low-poly geometry; no solid objects in the walking corridor.
++  var stone:Node3D=region.box(at+Vector3(0,.55,0),Vector3(.65,1.1,.5),Color("8d8c73"),true)
++  stone.name="WG4_"+str(point.template.id);stone.rotation.y=float(point.yaw)
++  var top:Node3D=region.box(at+Vector3(0,1.1,0),Vector3(.9,.16,.7),Color("605f4e"),true)
++  top.rotation.y=stone.rotation.y
++  if str(point.template.id)=="rest_stop":
++   for x in [-1.0,1.0]:
++    for z in [-.8,.8]:region.box(at+Vector3(x,1.1,z),Vector3(.1,2.2,.1),Color("725339"),true)
++   region.box(at+Vector3(0,2.25,0),Vector3(2.7,.18,2.4),Color("4f6355"),true)
++   region.box(at+Vector3(0,.42,.85),Vector3(1.7,.2,.4),Color("725339"),true)
++  preload("res://ground_shadow.gd").place(region,at+Vector3.UP*.025,Vector2(1.4,1.4),.2)
++  var label:=Label3D.new();label.text=str(point.template.title);label.font_size=24;label.pixel_size=.008;label.billboard=BaseMaterial3D.BILLBOARD_ENABLED;label.position=at+Vector3.UP*1.8;label.visibility_range_end=30.0;label.modulate=Color("e8d8a0");region.add_child(label)
++  nodes.append({"id":str(point.id),"point":at+Vector3(1.3,.05,0),"title":str(point.template.title),"description":str(point.template.description),"approved":false,"label":label})
++ region.set_meta("wg4_landmarks",nodes)
++static func verify(region:Node3D)->Dictionary:
++ var rows:Array=region.get_meta("wg4_landmarks",[])
++ var accepted:int=0
++ var capsule:=CapsuleShape3D.new();capsule.radius=.42;capsule.height=1.9
++ var space:PhysicsDirectSpaceState3D=region.get_world_3d().direct_space_state
++ for row in rows:
++  var at:Vector3=region.to_global(row.point)
++  var hit:Dictionary=space.intersect_ray(PhysicsRayQueryParameters3D.create(at+Vector3.UP*3,at-Vector3.UP*4,1))
++  if hit.is_empty():continue
++  var query:=PhysicsShapeQueryParameters3D.new();query.shape=capsule;query.collision_mask=1|4;query.transform=Transform3D(Basis.IDENTITY,hit.position+Vector3.UP*1.01)
++  row.approved=space.intersect_shape(query).is_empty()
++  if row.approved:row.point=region.to_local(hit.position)+Vector3.UP*.05;accepted+=1
++ return {"checked":rows.size(),"approved":accepted,"owner":"WorldGenesis","rewards":false}
+--- /dev/null
++++ b/genesis/v4/landmarks.gd.uid
+@@ -0,0 +1 @@
++uid://bbd65526l6lkd
+--- /dev/null
++++ b/genesis/v4/profiles.json
+@@ -0,0 +1,116 @@
++{
++  "schema": 1,
++  "generator_version": 4,
++  "biomes": {
++    "grassland": {
++      "forms": [
++        "colinas_onduladas",
++        "prado_escarpado",
++        "vale_suave"
++      ],
++      "relief": 7,
++      "trees": 95,
++      "cluster_cut": -0.28,
++      "blend_m": 80
++    },
++    "temperate_forest": {
++      "forms": [
++        "bosque_de_encosta",
++        "mata_em_ilhas",
++        "clareiras_do_vale"
++      ],
++      "relief": 10,
++      "trees": 180,
++      "cluster_cut": -0.12,
++      "blend_m": 80
++    },
++    "bamboo_forest": {
++      "forms": [
++        "bambuzal_serpente",
++        "bambu_em_terracos",
++        "vale_dos_bambus"
++      ],
++      "relief": 9,
++      "trees": 190,
++      "cluster_cut": -0.1,
++      "blend_m": 80
++    },
++    "dry_valley": {
++      "forms": [
++        "canion_suave",
++        "colinas_ocres",
++        "vale_pedregoso"
++      ],
++      "relief": 12,
++      "trees": 65,
++      "cluster_cut": -0.45,
++      "blend_m": 80
++    },
++    "wetland": {
++      "forms": [
++        "baixios",
++        "ilhas_de_vegetacao",
++        "varzea"
++      ],
++      "relief": 5,
++      "trees": 110,
++      "cluster_cut": -0.25,
++      "blend_m": 80
++    },
++    "rocky_highlands": {
++      "forms": [
++        "cristas_partidas",
++        "serras_cruzadas",
++        "escarpas_antigas"
++      ],
++      "relief": 36,
++      "trees": 95,
++      "cluster_cut": -0.3,
++      "blend_m": 80
++    },
++    "alpine": {
++      "forms": [
++        "picos_longos",
++        "cordilheira_dupla",
++        "vale_alpino"
++      ],
++      "relief": 54,
++      "trees": 100,
++      "cluster_cut": -0.28,
++      "blend_m": 80
++    },
++    "mixed_woodland": {
++      "forms": [
++        "bosques_mosaico",
++        "colinas_folhosas",
++        "vale_de_copas"
++      ],
++      "relief": 10,
++      "trees": 175,
++      "cluster_cut": -0.1,
++      "blend_m": 80
++    }
++  },
++  "landmarks": [
++    {
++      "id": "waystone",
++      "title": "Marco dos viajantes",
++      "description": "Marcas antigas indicam a direção da estrada. O caminho segue até a passagem regional."
++    },
++    {
++      "id": "lookout",
++      "title": "Mirante da trilha",
++      "description": "Um pequeno pouso para observar o vale e planejar a próxima passagem."
++    },
++    {
++      "id": "trail_shrine",
++      "title": "Oratório da estrada",
++      "description": "Pedras empilhadas guardam os votos dos viajantes. Este local não concede recompensas ou missões."
++    },
++    {
++      "id": "rest_stop",
++      "title": "Pouso de passagem",
++      "description": "Um abrigo aberto à beira da trilha. Viaje preparado: as ruínas e os povoados seguem adiante."
++    }
++  ]
++}
+--- /dev/null
++++ b/genesis/v4/qa_data.gd
+@@ -0,0 +1,53 @@
++extends SceneTree
++const Old=preload("res://genesis/world_planner.gd")
++const Plan=preload("res://genesis/v4/world_plan.gd")
++const Data=preload("res://genesis/region_data.gd")
++var failures:Array=[]
++var rows:Array=[]
++func _initialize():call_deferred("run")
++func run():
++ var host:Node3D=preload("res://convergence/game.gd").new();host.load_on_start=false;host.save_path="user://data_host.json";root.add_child(host);await process_frame
++ host.simulation_enabled=false
++ var total_reduction:float=0.0;var gate_count:int=0;var poi_count:int=0;var water_conflicts:int=0
++ for seed_text in ["101","816204","707","18026"]:
++  var old:Dictionary=Old.read_atlas("res://genesis/atlas_seed_"+seed_text+".json") if seed_text in ["101","816204"] else Old.plan(seed_text)
++  var atlas:Dictionary=Plan.decorate(old,"qa-world-"+seed_text,host.exo_core)
++  if not Old.validate(atlas).is_empty() or not Plan.valid_atlas(atlas):failures.append(seed_text+" atlas")
++  if atlas!=Plan.decorate(old,"qa-world-"+seed_text,host.exo_core):failures.append(seed_text+" determinism")
++  if atlas.portals!=Plan.freeze(old).portals or atlas.rivers_macro!=Plan.freeze(old).rivers_macro:failures.append(seed_text+" topology")
++  var forms:Dictionary={};var count:Dictionary={}
++  var delta:float=0.0;var trees_c3:int=0;var trees_v4:int=0;var families:Dictionary={}
++  for rid in range(88):
++   var d:RefCounted=Data.new(atlas,rid)
++   var c3:RefCounted=Data.new(old,rid)
++   trees_c3+=c3.plants.size();trees_v4+=d.plants.size()
++   for monument in d.monumental_plans:families[monument.kind]=int(families.get(monument.kind,0))+1
++   for x in [-180,-90,0,90,180]:
++    for z in [-180,-90,0,90,180]:delta+=absf(d.height_at(Vector2(x,z))-c3.height_at(Vector2(x,z)))
++   var errors:Array=d.validate()
++   if not errors.is_empty():failures.append({"seed":seed_text,"region":rid,"errors":errors})
++   if d.plants.size()>200:failures.append("tree_budget")
++   if d.spec.kind!="settlement":
++    for gate in d.gates:
++     for k in range(1,32):
++      var at:Vector2=d.handoff_point(gate)*float(k)/32.0
++      for river in d.rivers:
++       if at.distance_to(Geometry2D.get_closest_point_to_segment(at,d.river_hub,river.p))<d.river_half_width(river) and d.height_at(at)<d.river_level(river,at)+.15:water_conflicts+=1
++   count[str(d.spec.kind)]=int(count.get(str(d.spec.kind),0))+1
++   forms[str(d.worldgen_profile.form)]=true
++   poi_count+=d.landmarks.size()
++   var before:Array=[];var after:Array=[]
++   for g in d.gates:
++    before.append(g.p.length());after.append(d.handoff_point(g).length())
++    if d.spec.kind!="settlement":total_reduction+=g.p.length()-d.handoff_point(g).length();gate_count+=1
++   rows.append({"seed":seed_text,"region":rid,"biome":d.spec.biome,"kind":d.spec.kind,"profile":d.worldgen_profile.form,"plants":d.plants.size(),"landmarks":d.landmarks.size(),"center_gate_c3_m":before,"center_gate_v4_m":after,"errors":errors})
++  if count.get("settlement")!=23 or count.get("ruins")!=12 or count.get("dungeon_approach")!=10 or count.get("wild")!=43:failures.append("quota")
++  if forms.size()<10:failures.append("profile_diversity")
++  print("WG4_COMPARE ",JSON.stringify({"seed":seed_text,"profiles":forms.size(),"legacy_trees":trees_c3,"v4_trees":trees_v4,"mean_height_delta_m":delta/2200.0,"monuments":families}))
++ if water_conflicts>0:failures.append("road_water_conflicts")
++ var report:Dictionary={"regions":rows.size(),"road_water_conflicts":water_conflicts,"failures":failures,"landmarks_proposed":poi_count,"mean_open_gate_shortening_m":total_reduction/maxi(1,gate_count),"topology":"88 nodes, original portal/rivers preserved","rows":rows}
++ DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path("res://WORLDGENESIS_V4/evidence"))
++ FileAccess.open("res://WORLDGENESIS_V4/evidence/seed-data.json",FileAccess.WRITE).store_string(JSON.stringify(report,"  "))
++ print("WG4_DATA_RESULT ",JSON.stringify({"regions":rows.size(),"road_water_conflicts":water_conflicts,"failures":failures,"landmarks":poi_count,"shortening_m":total_reduction/maxi(1,gate_count)}))
++ host.queue_free();await process_frame;await process_frame
++ quit(0 if failures.is_empty() else 1)
+--- /dev/null
++++ b/genesis/v4/qa_data.gd.uid
+@@ -0,0 +1 @@
++uid://dr3trtaaddf8p
+--- /dev/null
++++ b/genesis/v4/qa_new_campaign.gd
+@@ -0,0 +1,61 @@
++extends SceneTree
++const Game=preload("res://convergence/game.gd")
++const Data=preload("res://genesis/region_data.gd")
++var failures:Array=[]
++var checks:int=0
++func check(ok:bool,label:String):
++ checks+=1;print("WG4_NEW_CHECK ",label," ",ok)
++ if not ok:failures.append(label)
++func _initialize():call_deferred("run")
++func run():
++ var seed_value:int=707
++ var reopen:bool="--reopen" in OS.get_cmdline_user_args()
++ for arg in OS.get_cmdline_user_args():
++  if arg.begins_with("--seed="):seed_value=int(arg.trim_prefix("--seed="))
++ if reopen:ProjectSettings.set_setting("exo_murim/worldgen_v4/new_campaigns_enabled",false)
++ var w:Node3D=Game.new();w.load_on_start=reopen;w.save_path="user://wg4_seed_%d.json"%seed_value;w.settings_path="user://wg4_seed.cfg";root.add_child(w);await process_frame
++ check(w.exo_core.ready,"core")
++ if not reopen:
++  w.flow.phase="creator"
++  check(w.flow.create_character({"name":"WG4 seed proof","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword","outfit":0},seed_value),"actual_creator")
++ if not failures.is_empty():quit(1);return
++ for i in range(2000):
++  await physics_frame
++  if w.current_region>=0 and not w.changing_region:break
++ w.ui.resume();w.simulation_enabled=false
++ check(w.current_region>=0 and not w.changing_region,"physical_boot")
++ if w.current_region<0:quit(1);return
++ check(w.extension().has("worldgen_v4") and int(w.extension().regional_version)==7,"campaign_pinned_v4")
++ check(int(w.atlas.seed)==seed_value and w.atlas.regions.size()==88,"seed_and_graph")
++ check(w.active_region.data.worldgen_v4 and w.atlas.worldgen_v4.generator==4,"physical_generator_v4")
++ var corrupt:Dictionary=w.extension().duplicate(true);corrupt.erase("worldgen_v4")
++ check(not preload("res://convergence/state.gd").valid(corrupt),"stripped_version_rejected")
++ var path:String="user://wg4_expected_%d.json"%seed_value
++ if not reopen:
++  var target:int=-1
++  for spec in w.atlas.regions:
++   if spec.kind!="settlement" and spec.biome in ["rocky_highlands","alpine"]:target=int(spec.id);break
++  check(target>=0 and await w.change_region(target),"new_seed_mountain_scene")
++  var old:Dictionary=w.atlas.duplicate(true);old.erase("worldgen_v4")
++  for spec in old.regions:spec.erase("worldgen_v4")
++  var c3:RefCounted=Data.new(old,w.current_region)
++  var delta:float=0.0
++  for x in [-170.0,-90.0,60.0,150.0]:
++   for z in [-170.0,-90.0,60.0,150.0]:delta+=absf(w.active_region.data.height_at(Vector2(x,z))-c3.height_at(Vector2(x,z)))
++  check(delta>1.0,"height_differs_from_c3")
++  check(w.active_region.has_meta("terrain_forge"),"terrain_forge_executed")
++  var forge_material:bool=false
++  for child in w.active_region.get_children():
++   if child is MeshInstance3D and child.is_in_group("exo_visual_terrain") and child.material_override is ShaderMaterial:
++    forge_material=bool(child.material_override.get_shader_parameter("forge_enabled"));break
++  check(forge_material,"terrain_forge_material_enabled")
++  print("WG4_NEW_TERRAIN ",w.active_region.get_meta("terrain_forge",{}))
++  check(w.save_progress(),"save")
++  FileAccess.open(path,FileAccess.WRITE).store_string(JSON.stringify({"region":w.current_region,"digest":w.active_region.data.digest(),"atlas":JSON.stringify(w.atlas).sha256_text()}))
++ else:
++  var expected:Dictionary=JSON.parse_string(FileAccess.get_file_as_string(path))
++  check(w.current_region==int(expected.region),"reopen_region")
++  check(w.active_region.data.digest()==str(expected.digest),"reopen_physical_digest")
++  check(JSON.stringify(w.atlas).sha256_text()==str(expected.atlas),"reopen_frozen_atlas")
++ print("WG4_NEW_CAMPAIGN_RESULT ",JSON.stringify({"checks":checks,"failures":failures,"seed":seed_value,"reopen":reopen,"region":w.current_region,"generator":4}))
++ w.queue_free();await process_frame;await process_frame;quit(0 if failures.is_empty() else 1)
+--- /dev/null
++++ b/genesis/v4/qa_new_campaign.gd.uid
+@@ -0,0 +1 @@
++uid://4q0h5jhgajip
+--- /dev/null
++++ b/genesis/v4/qa_physical.gd
+@@ -0,0 +1,106 @@
++extends SceneTree
++const Game=preload("res://convergence/game.gd")
++var w:Node3D
++var checks:int=0
++var failures:Array=[]
++func check(ok:bool,label:String):
++ checks+=1;print("WG4_CHECK ",label," ",ok)
++ if not ok:failures.append(label)
++func _initialize():call_deferred("run")
++func run():
++ Engine.max_fps=0
++ var reopen:bool="--reopen" in OS.get_cmdline_user_args()
++ var legacy:bool="--legacy" in OS.get_cmdline_user_args()
++ w=Game.new();w.load_on_start=reopen or legacy;w.save_path="user://legacy_saved.json" if legacy else "user://wg4_physical.json";w.settings_path="user://wg4_physical.cfg";root.add_child(w);await process_frame
++ check(w.exo_core.ready,"core")
++ if not reopen and not legacy:
++  w.flow.phase="creator"
++  check(w.flow.create_character({"name":"WG4 QA","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword","outfit":0},101),"creator")
++ for i in range(1800):
++  await physics_frame
++  if w.current_region>=0 and not w.changing_region:break
++ w.ui.resume();w.simulation_enabled=true
++ for i in range(20):await physics_frame
++ w.simulation_enabled=false
++ if legacy:
++  check(not w.extension().has("worldgen_v4") and not w.active_region.data.worldgen_v4,"old_save_stays_c3")
++  check(w.current_region==78 and w.martial_host_r8!=null,"old_region_and_services")
++ elif reopen:
++  check(w.extension().has("worldgen_v4") and int(w.extension().regional_version)==7,"v4_pin_reopened")
++  var expected:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("user://wg4_expected.json"))
++  check(w.current_region==int(expected.region),"reopened_region")
++  check(w.active_region.data.digest()==str(expected.digest),"reopened_physical_digest")
++  check(w.atlas.worldgen_v4==expected.worldgen,"frozen_generation_inputs")
++  check(w.player.is_on_floor(),"reopened_ground")
++ else:
++  check(w.extension().has("worldgen_v4") and int(w.extension().regional_version)==7,"new_campaign_v4")
++  var authored:int=0
++  for r in w.atlas.regions:authored+=r.worldgen_v4.authorial.size()
++  check(authored>0,"universal_library_consumed")
++  print("WG4_AUTHORIAL_PROPOSALS ",authored)
++  var target:int=-1
++  for r in w.atlas.regions:
++   if str(r.kind)=="wild" and str(r.biome)=="grassland":target=int(r.id);break
++  check(target>=0,"open_region_available")
++  check(await w.change_region(target),"open_region_build")
++  w.simulation_enabled=false
++  for i in range(5):await physics_frame
++  var region:Node3D=w.active_region
++  var d:RefCounted=region.data
++  check(d.worldgen_v4 and region.gate_nodes.size()==d.gates.size(),"same_portal_count")
++  check(not d.landmarks.is_empty(),"landmarks_proposed")
++  print("WG4_LANDMARKS ",region.get_meta("wg4_landmark_verification",{}))
++  var accepted:Dictionary={}
++  for point in region.get_meta("wg4_landmarks",[]):
++   if point.approved:accepted=point;break
++  check(not accepted.is_empty(),"landmark_physical_approval")
++  if not accepted.is_empty():
++   w.player.position=accepted.point;w.player.velocity=Vector3.ZERO
++   await physics_frame;w.player.move_and_slide();await physics_frame
++   w.gate_cooldown=0;w.interaction_cooldown=0
++   var before:Dictionary=w.journey.data.duplicate(true)
++   w.interact()
++   check(w.ui.modal.visible,"landmark_E_dialogue")
++   check(w.journey.data==before,"landmark_no_fake_rewards")
++   w.ui.resume()
++  var samples:int=0;var blocked:int=0
++  var shape:=CapsuleShape3D.new();shape.radius=.38;shape.height=1.8
++  var space:PhysicsDirectSpaceState3D=w.get_world_3d().direct_space_state
++  for gate in d.gates:
++   var end:Vector2=d.handoff_point(gate)-gate.p.normalized()*12.0
++   check(end.length()<gate.p.length()*.8,"shorter_handoff")
++   for step in range(1,int(end.length()/2)):
++    var p:Vector2=end*float(step)/float(int(end.length()/2))
++    var hit:Dictionary=space.intersect_ray(PhysicsRayQueryParameters3D.create(Vector3(p.x,d.height_at(p)+3,p.y),Vector3(p.x,d.height_at(p)-3,p.y),1))
++    samples+=1
++    if hit.is_empty():blocked+=1;continue
++    var query:=PhysicsShapeQueryParameters3D.new();query.shape=shape;query.collision_mask=1|4;query.transform=Transform3D(Basis.IDENTITY,hit.position+Vector3.UP*.98)
++    var excluded:Array[RID]=[w.player.get_rid()]
++    for enemy in w.enemies:
++     if enemy is CollisionObject3D:excluded.append(enemy.get_rid())
++    query.exclude=excluded
++    if not space.intersect_shape(query).is_empty():blocked+=1
++  print("WG4_ROAD_PHYSICS ",samples," blocked ",blocked)
++  check(blocked==0,"road_capsule_corridors")
++  # Use actual E gate handoff, not direct travel, for one connected neighbor.
++  var node:Dictionary=region.gate_nodes[0]
++  var start:Vector3=node.point-Vector3(node.point.x,0,node.point.z).normalized()*6.0
++  var safe:Vector3=w.regional_spawn(region,start)
++  check(safe.is_finite(),"gate_approach")
++  if safe.is_finite():
++   w.player.position=safe;w.player.velocity=Vector3.ZERO;await physics_frame;w.player.move_and_slide();await physics_frame
++   w.gate_cooldown=0;w.interaction_cooldown=0
++   var neighbor:int=int(node.contract.neighbor)
++   w.interact()
++   for i in range(1800):
++    await physics_frame
++    if w.current_region==neighbor and not w.changing_region:break
++   check(w.current_region==neighbor,"actual_E_neighbor_transition")
++   check(w.player.position.is_finite(),"arrival_finite")
++  check(await w.change_region(target),"return_open_region")
++  w.simulation_enabled=false
++  check(w.save_progress(),"save_v4")
++  FileAccess.open("user://wg4_expected.json",FileAccess.WRITE).store_string(JSON.stringify({"region":w.current_region,"digest":w.active_region.data.digest(),"worldgen":w.atlas.worldgen_v4}))
++ w.queue_free();await process_frame;await process_frame
++ print("WG4_PHYSICAL_RESULT ",JSON.stringify({"checks":checks,"failures":failures,"reopen":reopen,"legacy":legacy}))
++ quit(0 if failures.is_empty() else 1)
+--- /dev/null
++++ b/genesis/v4/qa_physical.gd.uid
+@@ -0,0 +1 @@
++uid://d3ah7cscp8n7m
+--- /dev/null
++++ b/genesis/v4/world_plan.gd
+@@ -0,0 +1,81 @@
++extends RefCounted
++## Versioned, additive physical planning. Never changes C3 region IDs, graph or ownership.
++const CATALOG="res://genesis/v4/profiles.json"
++const Planner=preload("res://genesis/world_planner.gd")
++static var cached:Dictionary={}
++static func catalog()->Dictionary:
++ if cached.is_empty():
++  var raw:Variant=JSON.parse_string(FileAccess.get_file_as_string(CATALOG))
++  if raw is Dictionary:cached=raw
++ return cached
++static func profile(spec:Dictionary)->Dictionary:
++ var entries:Dictionary=catalog().get("biomes",{})
++ if not entries.has(str(spec.get("biome",""))):return {}
++ var result:Dictionary=entries[str(spec.biome)].duplicate(true)
++ var number:int=Planner.derive(spec.region_seed,"WG4/profile")
++ result["form"]=result.forms[number%result.forms.size()]
++ result["yaw"]=float(number%628319)/100000.0
++ result["ridge_offset"]=float(number%51)-25.0
++ result["ridge_width"]=38.0+float(number%33)
++ result["relief"]=float(result.relief)*(0.86+float(number%29)/100.0)
++ result["tree_budget"]=int(result.trees)
++ result["site_family_shift"]=number%4
++ return result
++static func decorate(source:Dictionary,world_id:String,core:RefCounted=null)->Dictionary:
++ # Normalize through the existing JourneySave JSON representation before geometry.
++ var atlas:Dictionary=freeze(source)
++ atlas["worldgen_v4"]={"schema":1,"generator":4,"catalog_sha256":FileAccess.get_sha256(CATALOG),"handoff_ratio":0.76,"landmark_templates":catalog().get("landmarks",[]).duplicate(true)}
++ for row in atlas.regions:
++  var p:Dictionary=profile(row)
++  # Preserved authored Jade anchor from the homologated LAB2 seed.
++  if str(atlas.seed)=="101" and int(row.id)==15:p["site_family_shift"]=0
++  row["worldgen_v4"]={"schema":1,"profile":p,"authorial":[]}
++  if core!=null and core.services.has_service("content.library"):
++   var context:Dictionary={"world_id":world_id,"seed":int(str(atlas.seed)),"region_id":int(row.id),"biome":str(row.biome),"settlement_type":str(row.get("settlement_scale","none")),"flags":[],"tags":[],"player_tier":1}
++   var proposal:Variant=core.services.invoke("content.library","preview",["world",context,["biome_identity","region_theme","landmark_theme"]])
++   if proposal is Dictionary and proposal.get("status")=="PROPOSAL_ONLY":
++    row.worldgen_v4.authorial=proposal.get("proposals",[]).duplicate(true)
++    # Accept only geometric vocabulary backed by existing host builders.
++    for choice in row.worldgen_v4.authorial:
++     if str(choice.get("domain",""))=="region_theme":
++      var theme:String=str(choice.get("variables",{}).get("theme",""))
++      if theme=="martial":row.worldgen_v4.profile.site_family_shift=int(p.site_family_shift)%2
++      elif theme in ["pilgrimage","shrine"]:row.worldgen_v4.profile.site_family_shift=2
++      elif theme in ["outlaw","pass"]:row.worldgen_v4.profile.site_family_shift=3
++     elif str(choice.get("domain",""))=="landmark_theme":
++      var feature:String=str(choice.get("variables",{}).get("feature",""))
++      row.worldgen_v4.profile["landmark_preference"]={"shrine":2,"road_marker":0}.get(feature,-1)
++  if str(atlas.seed)=="101" and int(row.id)==15:row.worldgen_v4.profile.site_family_shift=0
++ return freeze(atlas)
++static func freeze(value:Dictionary)->Dictionary:
++ return JSON.parse_string(JSON.stringify(value))
++static func valid_atlas(atlas:Dictionary)->bool:
++ if not atlas.get("worldgen_v4") is Dictionary:return false
++ var meta:Dictionary=atlas.worldgen_v4
++ if meta.get("schema")!=1 or meta.get("generator")!=4 or str(meta.get("catalog_sha256","")).length()!=64:return false
++ if not (meta.get("handoff_ratio") is int or meta.get("handoff_ratio") is float):return false
++ if not meta.get("landmark_templates") is Array or meta.landmark_templates.size()!=4:return false
++ if not is_finite(float(meta.handoff_ratio)):return false
++ var template_ids:Array=[]
++ for template in meta.landmark_templates:
++  if not template is Dictionary:return false
++  if template.get("id") not in ["waystone","lookout","trail_shrine","rest_stop"] or template.id in template_ids:return false
++  if not template.get("title") is String or not template.get("description") is String:return false
++  template_ids.append(template.id)
++ if float(meta.get("handoff_ratio",0.0))<0.7 or float(meta.handoff_ratio)>1.0:return false
++ if not atlas.get("regions") is Array or atlas.regions.size()!=88:return false
++ for row in atlas.regions:
++  if not row.get("worldgen_v4") is Dictionary:return false
++  if row.worldgen_v4.get("schema")!=1 or not row.worldgen_v4.get("authorial") is Array:return false
++  var p:Variant=row.worldgen_v4.get("profile")
++  if not p is Dictionary or not p.get("form") is String:return false
++  for key in ["relief","yaw","ridge_offset","ridge_width","tree_budget","cluster_cut","blend_m"]:
++   if not (p.get(key) is int or p.get(key) is float) or not is_finite(float(p[key])):return false
++  if float(p.tree_budget)!=floor(float(p.tree_budget)):return false
++  for key in ["site_family_shift","landmark_preference"]:
++   var choice:Variant=p.get(key,-1 if key=="landmark_preference" else null)
++   if not (choice is int or choice is float) or not is_finite(float(choice)):return false
++   if float(choice)!=floor(float(choice)) or float(choice)>3.0 or float(choice)<(-1.0 if key=="landmark_preference" else 0.0):return false
++  if float(p.relief)<0.0 or float(p.relief)>75.0 or int(p.tree_budget)<0 or int(p.tree_budget)>200:return false
++  if float(p.ridge_width)<30.0 or float(p.ridge_width)>90.0 or float(p.blend_m)<48.0 or float(p.blend_m)>100.0:return false
++ return true
+--- /dev/null
++++ b/genesis/v4/world_plan.gd.uid
+@@ -0,0 +1 @@
++uid://d282k2mnsfypf
+--- a/murim_flow.gd
++++ b/murim_flow.gd
+@@ -284,6 +284,8 @@
+ 		if economy_owner!=null and not economy_owner.prepare_new_campaign_seed(str(world.journey.data.world.seed)):
+ 			world.journey.data=previous
+ 			return false
++	if world.has_method("_prepare_worldgen_campaign") and not world._prepare_worldgen_campaign():
++		world.journey.data=previous;return false
+ 	world.journey.data.world.landscape_version=2
+ 	var birthplace: Dictionary=preload("res://world/biome_plan.gd").create(world.journey.data.world)
+ 	world.journey.data.world.birthplace={"version":2,"kind":birthplace.kind,"title":birthplace.title,"roll":birthplace.roll}
+--- a/playable_validation.gd
++++ b/playable_validation.gd
+@@ -27,8 +27,13 @@
+ 	origin=w.player.position
+ 	Input.action_press("left");Input.action_press("sprint");await frames(20);Input.action_release("left");Input.action_release("sprint");await frames(8)
+ 	check(w.player.position.distance_to(origin)>1,"Corrida por entrada real")
+-	await tap("jump");await frames(8)
+-	check(w.player.position.y>.3,"Salto se afasta do solo")
++	var peak_y:float=w.player.position.y
++	Input.action_press("jump")
++	for jump_tick in range(40):
++		await physics_frame
++		peak_y=maxf(peak_y,w.player.position.y)
++		if jump_tick==2:Input.action_release("jump")
++	check(peak_y>.3,"Salto se afasta do solo")
+ 	await frames(40);await tap("dash");await frames(32)
+ 	check(w.dodges>0 and "evade" in w.audio_fx.history,"Esquiva executada com seu próprio áudio")
+ 	# Fixture: stationary training dummy at the attacker's front, with high HP to check the combo.
+--- a/project.godot
++++ b/project.godot
+@@ -45,3 +45,6 @@
+ 
+ [exo_murim/crowd]
+ enable=true
++
++[exo_murim/worldgen_v4]
++new_campaigns_enabled=true
+--- /dev/null
++++ b/tools/run_worldgen_v4_checks.py
+@@ -0,0 +1,16 @@
++from pathlib import Path
++import subprocess,os,json,sys
++W=Path(__file__).resolve().parents[1];engine=sys.argv[1]
++os.chdir(W)
++Path('WORLDGENESIS_V4/reproduced').mkdir(parents=True,exist_ok=True)
++env=os.environ.copy();env.setdefault('XDG_DATA_HOME',str(W/'WORLDGENESIS_V4/qa-userdata'));rows=[]
++steps=[('genesis/v4/qa_data.gd',[],'WG4_DATA_RESULT'),('genesis/v4/qa_physical.gd',[],'WG4_PHYSICAL_RESULT'),('genesis/v4/qa_physical.gd',['--reopen'],'WG4_PHYSICAL_RESULT')]
++for seed in [707,18026]:
++ for reopen in [False,True]:steps.append(('genesis/v4/qa_new_campaign.gd',['--seed='+str(seed)]+(['--reopen'] if reopen else []),'WG4_NEW_CAMPAIGN_RESULT'))
++steps.extend([('convergence/tests/qa_v4_integration.gd',[],'V4_RESULT'),('convergence/tests/qa_v4_integration.gd',['--reopen'],'V4_RESULT'),('convergence/tests/qa_c03_r12_native.gd',[],'R12_NATIVE_PARSE')])
++for i,(script,args,marker) in enumerate(steps):
++ r=subprocess.run([engine,'--headless','--path',str(W),'--script',script]+(['--']+args if args else []),env=env,capture_output=True,text=True,timeout=240)
++ out=r.stdout+r.stderr;ok=r.returncode==0 and marker in out and not any(t in out for t in ['ERROR:','SCRIPT ERROR','FAIL ']) and (marker=='R12_NATIVE_PARSE' or '"failures":[]' in out)
++ name='%02d-%s%s'%(i,Path(script).stem,'-reopen' if '--reopen' in args else '')
++ Path('WORLDGENESIS_V4/reproduced/'+name+'.log').write_text(out);row=dict(case=name,status='PASS' if ok else 'FAIL',code=r.returncode);rows.append(row);print(row,flush=True)
++ Path('WORLDGENESIS_V4/reproduced/summary.json').write_text(json.dumps(rows,indent=2))

@@ -1,0 +1,228 @@
+{
+	"checks": [
+		{
+			"pass": true,
+			"test": "region_86"
+		},
+		{
+			"pass": true,
+			"test": "housing_capacity_86"
+		},
+		{
+			"pass": true,
+			"test": "home_work_links_86"
+		},
+		{
+			"pass": true,
+			"test": "no_duplicate_86"
+		},
+		{
+			"pass": true,
+			"test": "physical_commute_completed_86:3/3"
+		},
+		{
+			"pass": true,
+			"test": "no_building_penetration_86"
+		},
+		{
+			"pass": true,
+			"test": "persistent_interaction_86"
+		},
+		{
+			"pass": true,
+			"test": "community_arrivals_86:6"
+		},
+		{
+			"pass": true,
+			"test": "night_entry_proxies_86:6"
+		},
+		{
+			"pass": true,
+			"test": "save_routines_86"
+		},
+		{
+			"pass": true,
+			"test": "regional_return_86"
+		},
+		{
+			"pass": true,
+			"test": "regional_identity_roundtrip_86"
+		},
+		{
+			"pass": true,
+			"test": "region_78"
+		},
+		{
+			"pass": true,
+			"test": "housing_capacity_78"
+		},
+		{
+			"pass": true,
+			"test": "home_work_links_78"
+		},
+		{
+			"pass": true,
+			"test": "no_duplicate_78"
+		},
+		{
+			"pass": true,
+			"test": "physical_commute_completed_78:42/42"
+		},
+		{
+			"pass": true,
+			"test": "no_building_penetration_78"
+		},
+		{
+			"pass": true,
+			"test": "persistent_interaction_78"
+		},
+		{
+			"pass": true,
+			"test": "community_arrivals_78:65"
+		},
+		{
+			"pass": true,
+			"test": "night_entry_proxies_78:65"
+		},
+		{
+			"pass": true,
+			"test": "save_routines_78"
+		},
+		{
+			"pass": true,
+			"test": "regional_return_78"
+		},
+		{
+			"pass": true,
+			"test": "regional_identity_roundtrip_78"
+		},
+		{
+			"pass": true,
+			"test": "blocked_route_physical_recovery"
+		},
+		{
+			"pass": true,
+			"test": "temporary_obstacle_release"
+		},
+		{
+			"pass": true,
+			"test": "save_new_process_fixture"
+		}
+	],
+	"failures": [],
+	"regions": [
+		{
+			"buildings": 4,
+			"capacity": {
+				"r86_l000": 2,
+				"r86_l001": 2,
+				"r86_l002": 3,
+				"r86_l003": 3
+			},
+			"community": 6,
+			"commutes": 3,
+			"completed": 3,
+			"occupancy": {
+				"r86_l000": 2,
+				"r86_l001": 2,
+				"r86_l002": 1,
+				"r86_l003": 1
+			},
+			"population": 6,
+			"region": 86,
+			"resting": 6
+		},
+		{
+			"buildings": 43,
+			"capacity": {
+				"r78_l000": 0,
+				"r78_l001": 0,
+				"r78_l002": 4,
+				"r78_l003": 0,
+				"r78_l004": 0,
+				"r78_l005": 0,
+				"r78_l006": 0,
+				"r78_l007": 0,
+				"r78_l008": 2,
+				"r78_l009": 4,
+				"r78_l010": 4,
+				"r78_l011": 4,
+				"r78_l012": 4,
+				"r78_l013": 4,
+				"r78_l014": 2,
+				"r78_l015": 4,
+				"r78_l016": 4,
+				"r78_l017": 4,
+				"r78_l018": 2,
+				"r78_l019": 4,
+				"r78_l020": 4,
+				"r78_l021": 4,
+				"r78_l022": 2,
+				"r78_l023": 2,
+				"r78_l024": 3,
+				"r78_l025": 4,
+				"r78_l026": 4,
+				"r78_l027": 4,
+				"r78_l028": 4,
+				"r78_l029": 4,
+				"r78_l030": 4,
+				"r78_l031": 4,
+				"r78_l032": 3,
+				"r78_l033": 4,
+				"r78_l034": 4,
+				"r78_l035": 4,
+				"r78_l036": 2,
+				"r78_l037": 4,
+				"r78_l038": 4,
+				"r78_l039": 4,
+				"r78_l040": 2,
+				"r78_l041": 2,
+				"r78_l042": 4
+			},
+			"community": 65,
+			"commutes": 42,
+			"completed": 42,
+			"occupancy": {
+				"r78_l002": 4,
+				"r78_l008": 2,
+				"r78_l009": 4,
+				"r78_l010": 4,
+				"r78_l011": 4,
+				"r78_l012": 4,
+				"r78_l013": 4,
+				"r78_l014": 2,
+				"r78_l015": 4,
+				"r78_l016": 4,
+				"r78_l017": 4,
+				"r78_l018": 1,
+				"r78_l019": 1,
+				"r78_l020": 1,
+				"r78_l021": 1,
+				"r78_l022": 1,
+				"r78_l023": 1,
+				"r78_l024": 1,
+				"r78_l025": 1,
+				"r78_l026": 1,
+				"r78_l027": 1,
+				"r78_l028": 1,
+				"r78_l029": 1,
+				"r78_l030": 1,
+				"r78_l031": 1,
+				"r78_l032": 1,
+				"r78_l033": 1,
+				"r78_l034": 1,
+				"r78_l035": 1,
+				"r78_l036": 1,
+				"r78_l037": 1,
+				"r78_l038": 1,
+				"r78_l039": 1,
+				"r78_l040": 1,
+				"r78_l041": 1,
+				"r78_l042": 1
+			},
+			"population": 65,
+			"region": 78,
+			"resting": 65
+		}
+	]
+}

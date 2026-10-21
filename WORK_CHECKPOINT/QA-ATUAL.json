@@ -1,0 +1,176 @@
+{
+  "engine": "4.6.2.stable.official.71f334935",
+  "native_suites": [
+    {
+      "script": "exo_core/tests/qa_persistence01p.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_items/tests/qa_atomic_r3_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_dungeon/tests/qa_c03_r6_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r8_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r9_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r10_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r11_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_martial/tests/qa_r2_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "npc_system02/tests/qa_r2_logic.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "tests.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "release_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "discovery_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "fidelity_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "consolidation_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "ruins_martial_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "assets_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "stabilization_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "quality09_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "martial_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "procedural_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "legacy_audio_qa.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_bestiary/tests/qa_c03_r4_regional_fauna.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_creature_harmonizacao02/tests/qa_c03_r5_visual_runtime.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_monumental/tests/qa_c03_r7_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_rig01_eight_directions.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r12_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "convergence/tests/qa_c03_r13_bootstrap_native.gd",
+      "ok": true,
+      "code": 0
+    },
+    {
+      "script": "exo_monumental/tests/qa_native.gd",
+      "ok": true,
+      "code": 0
+    }
+  ],
+  "other_evidence": [
+    "parse-final.log",
+    "boot.log",
+    "campaign-final.log",
+    "campaign-reopen.log",
+    "persistence-fixed.log",
+    "atomic-fixed.log",
+    "dungeon-fixed.log",
+    "dungeon-physical-final.log",
+    "dungeon-reopen-final.log",
+    "dungeon-visit-final.log",
+    "jade-arrival-final.log",
+    "world-scan.log",
+    "road-corridors.log",
+    "rendered-capture.log",
+    "import-final.log",
+    "discovery-final.log",
+    "assets-final.log",
+    "final_convergence_tests_qa_c03_r13_bootstrap_native.gd.log",
+    "final_convergence_tests_qa_c03_r12_native.gd.log",
+    "final_exo_items_tests_qa_atomic_r3_native.gd.log",
+    "final_exo_monumental_tests_qa_native.gd.log",
+    "final_convergence_tests_qa_c03_r9_native.gd.log",
+    "final_exo_core_tests_qa_persistence01p.gd.log",
+    "final_exo_dungeon_tests_qa_c03_r6_native.gd.log",
+    "final_assets_qa.gd.log",
+    "final_discovery_qa.gd.log"
+  ],
+  "human_gameplay": "NOT_RUN",
+  "target_hardware_performance": "NOT_RUN",
+  "consolidation": "PARTIAL_CHECKPOINT"
+}

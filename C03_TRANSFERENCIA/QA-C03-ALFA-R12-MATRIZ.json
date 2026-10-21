@@ -1,0 +1,249 @@
+{
+  "release": "EXO-MURIM-C03-ALFA-R12",
+  "kind": "STATIC_CODE_CORRECTION",
+  "base_zip": "EXO-MURIM-CONVERGENCIA-03-ALFA-R11.zip",
+  "base_sha256": "44d2408b91531ca5abe7ea3240a40445f631c5a90a26ece3c5356b09739b9a58",
+  "base_entries": 4698,
+  "corrected_source_files": {
+    "convergence/game.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 126,
+      "first_lines": [
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        417
+      ],
+      "last_lines": [
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "before_sha256": "82bf1239cc9fe5fbd7ef93e3739675d17c70c1a38c15b5064e9af9b4aaf79bd4",
+      "after_sha256": "079c0ec70b814b3e54da42e540ade132d624292f954b11295a4bfd5a3b5c0124"
+    },
+    "regional_ecology/territories.gd": {
+      "leading_spaces_per_level": 4,
+      "converted_lines": 31,
+      "first_lines": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "last_lines": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "before_sha256": "a7c31ae4edba1888d8183bb6d942f817af27b91d317584e15bcc4f830d627d60",
+      "after_sha256": "e140fb5dfc3e20097967fb063170f8188e67a7b32f9e9903bd32ab13006a7345"
+    },
+    "convergence/region.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 30,
+      "first_lines": [
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "last_lines": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "before_sha256": "d21510cc6525ac36164ae3bf2b00c4a63f8694d1de352cbf1e47d268059e4d94",
+      "after_sha256": "5f4272cbfa64fc14a1ac55416757223a631c993ca8fce016f7ffd05af0837f8a"
+    },
+    "genesis/settlements/settlement_planner.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 22,
+      "first_lines": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "last_lines": [
+        102,
+        103,
+        104,
+        105,
+        108,
+        109,
+        110
+      ],
+      "before_sha256": "573f88c91a435ad0d8638f5b4785c89ed9fd8f54ec328c1bff550ad641517d45",
+      "after_sha256": "0ea1399f4b1065ce9fbb4af736171363be969764f7d1aa871f9cf0c324effe5d"
+    },
+    "inventory.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 16,
+      "first_lines": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "last_lines": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "before_sha256": "b569e8a778d9b0c7207b2b30954bdfa0e22b21ed01599adf44306d81daa790c9",
+      "after_sha256": "6c31fa0fc55e79741bc4a1d051f2e5142904af6214beda043a56eca9742583d0"
+    },
+    "cultivation.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 6,
+      "first_lines": [
+        75,
+        76,
+        77,
+        79,
+        80,
+        81
+      ],
+      "last_lines": [
+        75,
+        76,
+        77,
+        79,
+        80,
+        81
+      ],
+      "before_sha256": "600965f172e79dd40a0bd9f94e7db09654460a487cd9a430c65c28751e20d799",
+      "after_sha256": "39d2633fa60ac057bbcb0dc15e2dc393dd835b90263b13c467f9166a12ab2835"
+    },
+    "regional_ecology/rewards.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 6,
+      "first_lines": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "last_lines": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "before_sha256": "9f2c30bd5f99b0ba9eacea1693497dd2aff81c22255d5974c0473998b5bd5b13",
+      "after_sha256": "33b298fdbca9373970655f763d95f88786cbbf3f83d88bec1a761c3bce707266"
+    },
+    "regional_ecology/director.gd": {
+      "leading_spaces_per_level": 1,
+      "converted_lines": 5,
+      "first_lines": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "last_lines": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "before_sha256": "be3e9a5ff03834ce21273b67fa54680b6042f91e5e36adb864f0c4e42e7506d6",
+      "after_sha256": "e9d919eb5618073154b07dd7e068fd44f42fe552f29626209b2b9d64bad3746c"
+    }
+  },
+  "corrected_total_lines": 242,
+  "new_qa_files": [
+    "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-R13-WORK.md",
+    "C03_TRANSFERENCIA/QA-R12-RODAR-WINDOWS.ps1",
+    "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R12.md",
+    "C03_TRANSFERENCIA/scripts_de_auditoria/qa_c03_r12_static.py",
+    "convergence/tests/qa_c03_r12_native.gd"
+  ],
+  "script_count_scanned": 461,
+  "json_docs_passed": 399,
+  "preexisting_missing_preloads": [
+    [
+      "exo_core/module_template/test.gd",
+      "example/module.gd"
+    ],
+    [
+      "godot/demo.gd",
+      "qa/walker.gd"
+    ]
+  ],
+  "source_code_content_unchanged_excluding_indentation": true,
+  "godot_4_6_2_parser": "NOT_RUN",
+  "actual_editor_import": "NOT_RUN",
+  "f5_gameplay": "NOT_RUN",
+  "r3_r11_native_regression": "NOT_RUN",
+  "vega8_benchmark": "NOT_RUN",
+  "summary": {
+    "static_checks_PASS": 25,
+    "static_checks_FAIL": 0,
+    "native_PASS": 0
+  }
+}

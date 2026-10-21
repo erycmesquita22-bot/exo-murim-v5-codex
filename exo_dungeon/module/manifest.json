@@ -1,0 +1,25 @@
+{
+  "id": "dungeon_genesis",
+  "version": "0.4.0",
+  "requires": {
+    "persistence": "1.0.0",
+    "world": "1.0.0"
+  },
+  "optional": {
+    "architecture": "1.0.0",
+    "combat": "1.0.0",
+    "inventory": "1.0.0",
+    "journey": "1.0.0",
+    "narrative": "1.0.0"
+  },
+  "services": [
+    "dungeons"
+  ],
+  "publishes": [],
+  "consumes": [],
+  "persistence": {
+    "dungeon_genesis": 1
+  },
+  "entrypoint": "res://exo_dungeon/module/entrypoint.gd",
+  "optional_module": true
+}

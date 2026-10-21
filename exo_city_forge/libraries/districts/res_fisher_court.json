@@ -1,0 +1,151 @@
+{
+  "id": "res_fisher_court",
+  "name": "Pátios dos Barqueiros",
+  "category": "residential",
+  "tags": [
+    "residential",
+    "courtyard",
+    "city_forge_r2"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.8
+    },
+    {
+      "a": [
+        0,
+        -18
+      ],
+      "b": [
+        0,
+        18
+      ],
+      "width": 3.8
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "res_fisher_court/b00",
+      "function": "residence",
+      "local_position": [
+        -12,
+        -12.49
+      ],
+      "size": [
+        6.0,
+        5.3
+      ],
+      "height": 3.8,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_fisher_court/b01",
+      "function": "residence",
+      "local_position": [
+        12,
+        -12.49
+      ],
+      "size": [
+        6.65,
+        6.6
+      ],
+      "height": 4.2,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_fisher_court/b02",
+      "function": "residence",
+      "local_position": [
+        -12,
+        11.51
+      ],
+      "size": [
+        7.3,
+        5.95
+      ],
+      "height": 4.6,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_fisher_court/b03",
+      "function": "residence",
+      "local_position": [
+        12,
+        11.51
+      ],
+      "size": [
+        6.0,
+        5.3
+      ],
+      "height": 5.0,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "res_fisher_court/st00",
+      "for_building": "res_fisher_court/b00",
+      "role": "resident"
+    },
+    {
+      "id": "res_fisher_court/st01",
+      "for_building": "res_fisher_court/b01",
+      "role": "resident"
+    },
+    {
+      "id": "res_fisher_court/st02",
+      "for_building": "res_fisher_court/b02",
+      "role": "resident"
+    },
+    {
+      "id": "res_fisher_court/st03",
+      "for_building": "res_fisher_court/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "courtyard",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "courtyard",
+  "mesh_budget_estimate": 44,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

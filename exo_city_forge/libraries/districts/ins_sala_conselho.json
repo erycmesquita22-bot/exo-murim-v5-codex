@@ -1,0 +1,128 @@
+{
+  "id": "ins_sala_conselho",
+  "name": "Conselho da Aldeia",
+  "category": "institutional",
+  "settlement_context": "institutional",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "institutional",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "ins_sala_conselho/b00",
+      "function": "administration",
+      "archetype": "council_hall",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.1
+      ],
+      "height": 3.5,
+      "door_facing": "inner",
+      "interior_slot": true,
+      "structure_details": [
+        "meeting_circle",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "ins_sala_conselho/b01",
+      "function": "residence",
+      "archetype": "timber_house",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.0,
+        5.75
+      ],
+      "height": 3.85,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "meeting_circle",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "ins_sala_conselho/st00",
+      "for_building": "ins_sala_conselho/b00",
+      "role": "worker"
+    },
+    {
+      "id": "ins_sala_conselho/st01",
+      "for_building": "ins_sala_conselho/b01",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "meeting_circle",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "meeting_circle",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

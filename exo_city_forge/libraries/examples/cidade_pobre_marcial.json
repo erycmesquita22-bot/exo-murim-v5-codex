@@ -1,0 +1,28 @@
+{
+  "region_id": 26,
+  "region_seed": "816204",
+  "kind": "settlement",
+  "settlement_scale": "city",
+  "profile_id": "poor_martial_city",
+  "blueprint_id": "irregular_hillside",
+  "half_extent": 256,
+  "gates": [
+    [
+      0,
+      -230
+    ],
+    [
+      230,
+      0
+    ]
+  ],
+  "rivers": [],
+  "monument_reservations": [],
+  "families": 3,
+  "schools": 4,
+  "budget": {
+    "mesh_instances": 10000,
+    "max_buildings": 270
+  },
+  "mode": "authored_modular"
+}

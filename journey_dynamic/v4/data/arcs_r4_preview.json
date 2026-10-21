@@ -1,0 +1,262 @@
+{
+  "schema": "exo.journey.catalog_proposals.v2",
+  "library_version": "0.3.0",
+  "arcs": [
+    {
+      "id": "story_arc/ponte_das_tres_chaves",
+      "source_catalog": "world_library_r4",
+      "source_status": "candidate",
+      "name": "A ponte das três chaves",
+      "nodes": [
+        {
+          "id": "opening",
+          "phase": "rumor",
+          "choices": [
+            {
+              "id": "listen",
+              "next": "investigation"
+            },
+            {
+              "id": "defer",
+              "next": "investigation"
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "phase": "evidence",
+          "choices": [
+            {
+              "id": "document",
+              "next": "hearing"
+            },
+            {
+              "id": "protect",
+              "next": "hearing"
+            }
+          ]
+        },
+        {
+          "id": "hearing",
+          "phase": "public_hearing",
+          "choices": [
+            {
+              "id": "negotiate",
+              "next": "decision"
+            },
+            {
+              "id": "confront",
+              "next": "decision"
+            }
+          ]
+        },
+        {
+          "id": "decision",
+          "phase": "decision",
+          "choices": [
+            {
+              "id": "reform",
+              "next": "ending_reform"
+            },
+            {
+              "id": "compromise",
+              "next": "ending_compromise"
+            },
+            {
+              "id": "rupture",
+              "next": "ending_rupture"
+            }
+          ]
+        },
+        {
+          "id": "ending_reform",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_compromise",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_rupture",
+          "phase": "terminal",
+          "choices": []
+        }
+      ],
+      "playability": "BLOCKED_PENDING_PHYSICAL_AND_NARRATIVE_OWNER",
+      "approved_rewards": false
+    },
+    {
+      "id": "story_arc/o_manual_de_papel_negro",
+      "source_catalog": "world_library_r4",
+      "source_status": "candidate",
+      "name": "O manual de papel negro",
+      "nodes": [
+        {
+          "id": "opening",
+          "phase": "rumor",
+          "choices": [
+            {
+              "id": "listen",
+              "next": "investigation"
+            },
+            {
+              "id": "defer",
+              "next": "investigation"
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "phase": "evidence",
+          "choices": [
+            {
+              "id": "document",
+              "next": "hearing"
+            },
+            {
+              "id": "protect",
+              "next": "hearing"
+            }
+          ]
+        },
+        {
+          "id": "hearing",
+          "phase": "public_hearing",
+          "choices": [
+            {
+              "id": "negotiate",
+              "next": "decision"
+            },
+            {
+              "id": "confront",
+              "next": "decision"
+            }
+          ]
+        },
+        {
+          "id": "decision",
+          "phase": "decision",
+          "choices": [
+            {
+              "id": "reform",
+              "next": "ending_reform"
+            },
+            {
+              "id": "compromise",
+              "next": "ending_compromise"
+            },
+            {
+              "id": "rupture",
+              "next": "ending_rupture"
+            }
+          ]
+        },
+        {
+          "id": "ending_reform",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_compromise",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_rupture",
+          "phase": "terminal",
+          "choices": []
+        }
+      ],
+      "playability": "BLOCKED_PENDING_PHYSICAL_AND_NARRATIVE_OWNER",
+      "approved_rewards": false
+    },
+    {
+      "id": "story_arc/escola_dos_portoes_fechados",
+      "source_catalog": "world_library_r4",
+      "source_status": "candidate",
+      "name": "O pátio de portas fechadas",
+      "nodes": [
+        {
+          "id": "opening",
+          "phase": "rumor",
+          "choices": [
+            {
+              "id": "listen",
+              "next": "investigation"
+            },
+            {
+              "id": "defer",
+              "next": "investigation"
+            }
+          ]
+        },
+        {
+          "id": "investigation",
+          "phase": "evidence",
+          "choices": [
+            {
+              "id": "document",
+              "next": "hearing"
+            },
+            {
+              "id": "protect",
+              "next": "hearing"
+            }
+          ]
+        },
+        {
+          "id": "hearing",
+          "phase": "public_hearing",
+          "choices": [
+            {
+              "id": "negotiate",
+              "next": "decision"
+            },
+            {
+              "id": "confront",
+              "next": "decision"
+            }
+          ]
+        },
+        {
+          "id": "decision",
+          "phase": "decision",
+          "choices": [
+            {
+              "id": "reform",
+              "next": "ending_reform"
+            },
+            {
+              "id": "compromise",
+              "next": "ending_compromise"
+            },
+            {
+              "id": "rupture",
+              "next": "ending_rupture"
+            }
+          ]
+        },
+        {
+          "id": "ending_reform",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_compromise",
+          "phase": "terminal",
+          "choices": []
+        },
+        {
+          "id": "ending_rupture",
+          "phase": "terminal",
+          "choices": []
+        }
+      ],
+      "playability": "BLOCKED_PENDING_PHYSICAL_AND_NARRATIVE_OWNER",
+      "approved_rewards": false
+    }
+  ],
+  "authority": "PROPOSAL_ONLY"
+}

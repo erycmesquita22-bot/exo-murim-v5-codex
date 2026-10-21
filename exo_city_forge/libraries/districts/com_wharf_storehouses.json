@@ -1,0 +1,120 @@
+{
+  "id": "com_wharf_storehouses",
+  "name": "Armazéns de Estrada",
+  "category": "commercial",
+  "tags": [
+    "commercial",
+    "terrace",
+    "city_forge_r2"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        1
+      ],
+      "b": [
+        18,
+        1
+      ],
+      "width": 3.4
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_wharf_storehouses/b00",
+      "function": "warehouse",
+      "local_position": [
+        -12.0,
+        -10.51
+      ],
+      "size": [
+        6.65,
+        5.95
+      ],
+      "height": 4.2,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_wharf_storehouses/b01",
+      "function": "warehouse",
+      "local_position": [
+        12.0,
+        -12.51
+      ],
+      "size": [
+        7.3,
+        5.3
+      ],
+      "height": 4.6,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_wharf_storehouses/b02",
+      "function": "warehouse",
+      "local_position": [
+        -13.0,
+        11.49
+      ],
+      "size": [
+        6.0,
+        6.6
+      ],
+      "height": 5.0,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_wharf_storehouses/st00",
+      "for_building": "com_wharf_storehouses/b00",
+      "role": "resident"
+    },
+    {
+      "id": "com_wharf_storehouses/st01",
+      "for_building": "com_wharf_storehouses/b01",
+      "role": "resident"
+    },
+    {
+      "id": "com_wharf_storehouses/st02",
+      "for_building": "com_wharf_storehouses/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "terrace",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "terrace",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

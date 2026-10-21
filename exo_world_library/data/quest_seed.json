@@ -1,0 +1,226 @@
+{
+  "domain": "quest_seed",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/escort",
+      "label": "Escoltar o viajante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "travel"
+      ],
+      "variables": {
+        "objective_proposal": "escort",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/medicinal",
+      "label": "Reunir remédios",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "medicine"
+      ],
+      "variables": {
+        "objective_proposal": "collect",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/duel",
+      "label": "Provar técnica",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "martial"
+      ],
+      "variables": {
+        "objective_proposal": "trial",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/forged_seal",
+      "label": "Investigar selo falso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "crime"
+      ],
+      "variables": {
+        "objective_proposal": "investigate",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/clan_message",
+      "label": "Levar mensagem de clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "clan"
+      ],
+      "variables": {
+        "objective_proposal": "deliver",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/missing_scout",
+      "label": "Localizar batedor",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "security"
+      ],
+      "variables": {
+        "objective_proposal": "explore",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/trade_lost",
+      "label": "Recuperar bens",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "trade"
+      ],
+      "variables": {
+        "objective_proposal": "recover",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/old_rumor",
+      "label": "Confrontar rumor",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "knowledge"
+      ],
+      "variables": {
+        "objective_proposal": "social",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/temple_pilgrimage",
+      "label": "Peregrinação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "spiritual"
+      ],
+      "variables": {
+        "objective_proposal": "explore",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_seed",
+      "excludes": [],
+      "id": "quest_seed/apprentice",
+      "label": "Ser avaliado por mestre",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "future_design",
+        "martial"
+      ],
+      "variables": {
+        "objective_proposal": "trial",
+        "status": "requires_owner_implementation"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

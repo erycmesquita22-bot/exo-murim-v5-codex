@@ -1,0 +1,187 @@
+[
+  {
+    "file": "inventory.gd",
+    "sha256": "71debcd20db54e19c5bbc3fa48637648b5264b98b2497c9caa3088e026463753",
+    "same": true
+  },
+  {
+    "file": "journey_save.gd",
+    "sha256": "ad628e6e3a926cff49eaac4094649f64045ce396922fa2403cd696241470e16f",
+    "same": true
+  },
+  {
+    "file": "techniques.gd",
+    "sha256": "a3c9d89a279bbd912124219f1c4451a41fc1818dab7fc87a5b791c66425dd4c0",
+    "same": true
+  },
+  {
+    "file": "main.gd",
+    "sha256": "29775e0c69d7fb9aa5f698981f8f21bab5961b773f13338e1ad3d481a30c2d55",
+    "same": true
+  },
+  {
+    "file": "combat/player_combat.gd",
+    "sha256": "ac5408b0af84c390faf1b88b9aea50c83077ab77521468dee54890f5dee2bc3d",
+    "same": true
+  },
+  {
+    "file": "combat/martial_motion.gd.uid",
+    "sha256": "1e33b0cb34ef90d08132e32631a1f6350dc8316013382aabd91e6e382b5e774f",
+    "same": true
+  },
+  {
+    "file": "combat/unarmed.gd.uid",
+    "sha256": "247c218557dc22e74e06b7c536f15c0dcaaa9408c3439a11ae5392701af132ea",
+    "same": true
+  },
+  {
+    "file": "combat/martial_motion.gd",
+    "sha256": "3e69c914edef767b322f8e513ae37bca657f6f4ead00fb00fcaaf6a6c86eb04c",
+    "same": true
+  },
+  {
+    "file": "combat/unarmed.gd",
+    "sha256": "26489c72bf9b29333240a77a312ffad85d4b8bb95c04841635f1bf6477083ef1",
+    "same": true
+  },
+  {
+    "file": "combat/player_combat.gd.uid",
+    "sha256": "b67f13185ac57e44368cc047e15dbc75bec8ffa3f2b7f60c195dcc86fa2bb35b",
+    "same": true
+  },
+  {
+    "file": "genesis/atlas_seed_101.json",
+    "sha256": "3d7459b587022af00500af930fca7dae91100f5f443b328c4169432975a29715",
+    "same": true
+  },
+  {
+    "file": "genesis/atlas_seed_816204.json",
+    "sha256": "abafd957b9858af384d5fe342a60f3fe48ae5be6fe4306769b2f56614a442857",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/MANIFEST.json",
+    "sha256": "e4f8209e011a5b5c2ee7cfe4088de3dbd0bfccb7e8e013a967de8ca0a78fb4ae",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/solo_floresta.png.import",
+    "sha256": "b78f6f02dae60484732c65c4a24298de241ffdfc549522bfcedbf442ca26cd1a",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/trilha_terra.png.import",
+    "sha256": "f0cbf6a738fce7d347528e2c217794d43bacd72e4f2c02e724c73f901b70c15e",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/rocha_cinza.png.import",
+    "sha256": "98c8149d21d02b11f661a4ff87beae398a905769f365e01b2935be86c9817442",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/solo_floresta.png",
+    "sha256": "8f59bc9fdfa4c52508177660c340b75139c164db18b4a0c85911cc7256e305a4",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_montanha.png.import",
+    "sha256": "f37c2643fa3c0527481d5cf0e64a530717a4e3357868cac8ad59e6e6b7b00cd2",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_seca.png",
+    "sha256": "e97ca9634fa326462b3583f2d28b221c97e1ddba087c3d302972ef415b9dfc66",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_prado.png",
+    "sha256": "05d2ec1948acd7ddc664af930f41834734ec629c9fc04bf56ba270ea4c5dddb2",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_umida.png",
+    "sha256": "3acd7d5e9027c11a8b1fe31ce74dbdfce54c331ae64c9bae1f811e79793e9b65",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_seca.png.import",
+    "sha256": "cae1705d58ceaa37af88c717eea66e7cc1ab5bb631efbb55d151b2eecafb55bf",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_umida.png.import",
+    "sha256": "f2e435293668892a3823efa1a1957caba6936fc4013e3951498cc368a2fe2a66",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/trilha_terra.png",
+    "sha256": "75482ce867f137360418701107f38693ff393679670dcdfcd7f021b1477215fc",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_prado.png.import",
+    "sha256": "d5899580bc94248e2a45a116ce3c9a9a641db3a5eaee9517db71b6f853286fd6",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_folhas_largas.png.import",
+    "sha256": "aac5fb03863e5bc99d09dd1bf74ac4bd8d6d74c11309f780e5c65297da7f7ae1",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/solo_bambuzal.png",
+    "sha256": "c924f4182b029ad459c4808a38e2b0870436897b2a14692c29703439b7d8d25b",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/solo_bambuzal.png.import",
+    "sha256": "00c63c9cdc3b6eec9756750d5aaf6a8d059a412cb9711d5d9fb3d5b209408098",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_folhas_largas.png",
+    "sha256": "9ba22c7162630b142964f46326acff74fdd3f3fcbdd16b675f2a78ee8b2f2677",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/rocha_cinza.png",
+    "sha256": "e209b6df00d79ecb923934d87f60f66b8f011cbd994ca2d81267961c251e56bc",
+    "same": true
+  },
+  {
+    "file": "textures/terrain_approved/grama_montanha.png",
+    "sha256": "ef21f28664ef4a1c4ede4abd10ed84f62a45117bf2392b86ffbedf9d62c9d66b",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/migration_registry.gd",
+    "sha256": "f82111081b0278f46047fbf7c1eb23aee03e21f3dc933d4e2ceb84b329457d5c",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/migration_registry.gd.uid",
+    "sha256": "79cb171ba2d73a04a25862e082973e98b2a101561b085f7e22ae502ed3460aea",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/save_coordinator.gd",
+    "sha256": "b7433f54c06fbf29fa6028c65ca29c336b9117e544928d8f3ecbd1e62dc515e5",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/save_coordinator.gd.uid",
+    "sha256": "4c142b1fd8240b9759864f4e4879a8e7d4baaa06605c7836dcc63a8dfd859230",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/receipt_ledger.gd",
+    "sha256": "ce965b041252beadf6809db7d2966dc624ea56cc17567885e2138d454767092a",
+    "same": true
+  },
+  {
+    "file": "exo_core/persistence/receipt_ledger.gd.uid",
+    "sha256": "abe299cd34b4856990b17d43c181cffa8284e1f98290397f95e105f566175d1d",
+    "same": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "manifest": "v4/audit/EXO-CROWD-ILLUSION-01-R4-CORRIGIDO/R4-FILE-MANIFEST.json",
+    "checked": 47,
+    "failures": []
+  },
+  {
+    "manifest": "v4/audit/EXO-ECONOMY-01-R5-MODULO/MANIFESTO-SHA256-R5.json",
+    "checked": 53,
+    "failures": []
+  },
+  {
+    "manifest": "v4/audit/EXO-INTERIOR-FORGE-01-R2-CORRIGIDO/EXO-INTERIOR-FORGE-01-R2-CORRIGIDO/MANIFESTO-INTERIOR-R2-CORRIGIDO.json",
+    "checked": 83,
+    "failures": []
+  },
+  {
+    "manifest": "v4/audit/EXO-MURIM-BIBLIOTECA-UNIVERSAL-01-R4/FILE-SHA256-MANIFEST-R4.json",
+    "checked": 138,
+    "failures": []
+  },
+  {
+    "manifest": "v4/audit/EXO-NPC-SYSTEM-03-R1-CANDIDATO/SHA256-ARQUIVOS.json",
+    "checked": 26,
+    "failures": []
+  },
+  {
+    "manifest": "v4/audit/EXO-SKILL-FORGE-01-R3-CORRIGIDO/SHA256SUMS-INTERNAL.txt",
+    "checked": 56,
+    "failures": []
+  }
+]

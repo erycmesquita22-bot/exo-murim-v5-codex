@@ -1,0 +1,451 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+WG4_COMPARE {"legacy_trees":12619,"mean_height_delta_m":2.0598388114611,"monuments":{"martial_medium":5,"temple_monumental":2},"profiles":17,"seed":"101","v4_trees":12258}
+WG4_COMPARE {"legacy_trees":12785,"mean_height_delta_m":2.10106219909453,"monuments":{"martial_medium":5,"temple_monumental":2},"profiles":18,"seed":"816204","v4_trees":12445}
+WG4_COMPARE {"legacy_trees":13286,"mean_height_delta_m":1.72994672963382,"monuments":{"martial_medium":4,"temple_monumental":3},"profiles":17,"seed":"707","v4_trees":12895}
+WG4_COMPARE {"legacy_trees":14793,"mean_height_delta_m":1.53730046177106,"monuments":{"martial_medium":2,"temple_monumental":5},"profiles":15,"seed":"18026","v4_trees":14246}
+WG4_DATA_RESULT {"failures":[],"landmarks":586,"regions":352,"road_water_conflicts":0,"shortening_m":62.1013985988072}
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:orthogonal_market/s08"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:orthogonal_market/s08"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:waterless_terrace/s01", "river_conflict:waterless_terrace/s04", "river_conflict:waterless_terrace/s07", "river_conflict:waterless_terrace/s10", "river_conflict:waterless_terrace/s12"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:waterless_terrace/s01", "river_conflict:waterless_terrace/s04", "river_conflict:waterless_terrace/s07", "river_conflict:waterless_terrace/s10", "river_conflict:waterless_terrace/s12"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s00", "river_conflict:vila_feira_ribeirinha/s02", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_pomar_cruz/s01", "river_conflict:aldeia_pomar_cruz/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_pomar_cruz/s01", "river_conflict:aldeia_pomar_cruz/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_estrada_chas/s02", "river_conflict:aldeia_estrada_chas/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_estrada_chas/s02", "river_conflict:aldeia_estrada_chas/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:waterless_terrace/s04", "river_conflict:waterless_terrace/s07", "river_conflict:waterless_terrace/s10", "river_conflict:waterless_terrace/s12"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:waterless_terrace/s04", "river_conflict:waterless_terrace/s07", "river_conflict:waterless_terrace/s10", "river_conflict:waterless_terrace/s12"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s02"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s02"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:caravan_ring/s08", "river_conflict:caravan_ring/s09"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:caravan_ring/s08", "river_conflict:caravan_ring/s09"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s00"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s00"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_fronteira_palissada/s02", "river_conflict:aldeia_fronteira_palissada/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_fronteira_palissada/s02", "river_conflict:aldeia_fronteira_palissada/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:cidade_duas_pracas/s06", "river_conflict:cidade_duas_pracas/s07", "river_conflict:cidade_duas_pracas/s08"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:cidade_duas_pracas/s06", "river_conflict:cidade_duas_pracas/s07", "river_conflict:cidade_duas_pracas/s08"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_fronteira_palissada/s02", "river_conflict:aldeia_fronteira_palissada/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:aldeia_fronteira_palissada/s02", "river_conflict:aldeia_fronteira_palissada/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s03"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_passo_montanhoso/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["monument_conflict:vila_moinho_cereais/s00", "river_conflict:vila_moinho_cereais/s01", "river_conflict:vila_moinho_cereais/s02", "river_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:21)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_moinho_cereais/s01", "monument_conflict:vila_moinho_cereais/s02", "river_conflict:vila_moinho_cereais/s02", "river_conflict:vila_moinho_cereais/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://genesis/v4/qa_data.gd:22)

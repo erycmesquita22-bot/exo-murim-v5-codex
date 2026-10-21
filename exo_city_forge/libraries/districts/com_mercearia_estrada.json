@@ -1,0 +1,128 @@
+{
+  "id": "com_mercearia_estrada",
+  "name": "Mercadores de Estrada",
+  "category": "commercial",
+  "settlement_context": "commercial",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "commercial",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_mercearia_estrada/b00",
+      "function": "market",
+      "archetype": "road_stall",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.0,
+        5.75
+      ],
+      "height": 3.3,
+      "door_facing": "inner",
+      "interior_slot": true,
+      "structure_details": [
+        "trade_bales",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "com_mercearia_estrada/b01",
+      "function": "warehouse",
+      "archetype": "storehouse",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.45,
+        5.1
+      ],
+      "height": 3.65,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "trade_bales",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_mercearia_estrada/st00",
+      "for_building": "com_mercearia_estrada/b00",
+      "role": "worker"
+    },
+    {
+      "id": "com_mercearia_estrada/st01",
+      "for_building": "com_mercearia_estrada/b01",
+      "role": "worker"
+    }
+  ],
+  "open_spaces": {
+    "type": "trade_bales",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "trade_bales",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

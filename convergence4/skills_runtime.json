@@ -1,0 +1,3541 @@
+[
+  {
+    "id": "exo.sf.sete_cortes_do_vento",
+    "forge_id": "exo.sf.sete_cortes_do_vento",
+    "name": "Sete Cortes do Vento",
+    "kind": "area",
+    "element": 0,
+    "mana": 20,
+    "stamina": 18,
+    "damage": 12,
+    "cooldown": 6.7,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de seita bambu",
+    "level": 8,
+    "range": 4.1,
+    "radius": 0.0,
+    "forge_template": "fan_slash",
+    "tags": {
+      "weapon_poses": [
+        "blade",
+        "draw"
+      ],
+      "weapon_ids": [
+        "sword",
+        "katana"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 8,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 0
+    }
+  },
+  {
+    "id": "exo.sf.quebra_rocha",
+    "forge_id": "exo.sf.quebra_rocha",
+    "name": "Quebra-Rocha",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 28,
+    "damage": 32,
+    "cooldown": 5.5,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de cla montanha",
+    "level": 3,
+    "range": 3.5,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "heavy"
+      ],
+      "weapon_ids": [
+        "greatsword"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 3,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.muralha_da_montanha",
+    "forge_id": "exo.sf.muralha_da_montanha",
+    "name": "Muralha da Montanha",
+    "kind": "shield",
+    "element": 11,
+    "mana": 26,
+    "stamina": 12,
+    "damage": 0,
+    "cooldown": 14.0,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de cla montanha",
+    "level": 12,
+    "range": 0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "heavy"
+      ],
+      "weapon_ids": [
+        "greatsword"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 12,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.terremoto_do_sabre",
+    "forge_id": "exo.sf.terremoto_do_sabre",
+    "name": "Terremoto do Sabre",
+    "kind": "area",
+    "element": 11,
+    "mana": 38,
+    "stamina": 18,
+    "damage": 45,
+    "cooldown": 12.5,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de cla montanha",
+    "level": 28,
+    "range": 5.2,
+    "radius": 5.2,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "heavy"
+      ],
+      "weapon_ids": [
+        "greatsword"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 28,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.chuva_de_lancas",
+    "forge_id": "exo.sf.chuva_de_lancas",
+    "name": "Chuva de Lanças",
+    "kind": "area",
+    "element": 11,
+    "mana": 35,
+    "stamina": 25,
+    "damage": 32,
+    "cooldown": 14.0,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de pavilhao lanca",
+    "level": 29,
+    "range": 6.0,
+    "radius": 5.5,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "pole"
+      ],
+      "weapon_ids": [
+        "halberd"
+      ],
+      "styles": [
+        "exo_martial.style.spear_dragon"
+      ],
+      "schools": [
+        "exo_martial.school.pavilhao_lanca"
+      ],
+      "min_level": 29,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.punho_do_rio",
+    "forge_id": "exo.sf.punho_do_rio",
+    "name": "Punho do Rio",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 18,
+    "cooldown": 3.4,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de templo corrente",
+    "level": 1,
+    "range": 2.7,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.onda_reversa",
+    "forge_id": "exo.sf.onda_reversa",
+    "name": "Onda Reversa",
+    "kind": "area",
+    "element": 11,
+    "mana": 14,
+    "stamina": 18,
+    "damage": 12,
+    "cooldown": 8.5,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de templo corrente",
+    "level": 10,
+    "range": 3.7,
+    "radius": 3.7,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 10,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.chute_crescente",
+    "forge_id": "exo.sf.chute_crescente",
+    "name": "Chute Crescente",
+    "kind": "area",
+    "element": 11,
+    "mana": 5,
+    "stamina": 20,
+    "damage": 23,
+    "cooldown": 6.2,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de vale grou",
+    "level": 11,
+    "range": 2.9,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 11,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.asas_do_grou",
+    "forge_id": "exo.sf.asas_do_grou",
+    "name": "Asas do Grou",
+    "kind": "area",
+    "element": 11,
+    "mana": 28,
+    "stamina": 24,
+    "damage": 28,
+    "cooldown": 10.7,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de vale grou",
+    "level": 25,
+    "range": 4.9,
+    "radius": 4.9,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 25,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.sopro_de_jade",
+    "forge_id": "exo.sf.sopro_de_jade",
+    "name": "Sopro de Jade",
+    "kind": "heal",
+    "element": 11,
+    "mana": 22,
+    "stamina": 0,
+    "damage": 0,
+    "cooldown": 7.8,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 1,
+    "range": 0,
+    "radius": 0.0,
+    "forge_template": "heal",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.circulo_de_jade",
+    "forge_id": "exo.sf.circulo_de_jade",
+    "name": "Círculo de Jade",
+    "kind": "shield",
+    "element": 11,
+    "mana": 30,
+    "stamina": 0,
+    "damage": 0,
+    "cooldown": 13.0,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 12,
+    "range": 0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 12,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11
+    }
+  },
+  {
+    "id": "exo.sf.renascer_das_cinzas",
+    "forge_id": "exo.sf.renascer_das_cinzas",
+    "name": "Renascer das Cinzas",
+    "kind": "shield",
+    "element": 5,
+    "mana": 50,
+    "stamina": 0,
+    "damage": 0,
+    "cooldown": 35.0,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 34,
+    "range": 0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 34,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 5
+    }
+  },
+  {
+    "id": "exo.sf.prisao_de_neve",
+    "forge_id": "exo.sf.prisao_de_neve",
+    "name": "Prisão de Neve",
+    "kind": "area",
+    "element": 6,
+    "mana": 33,
+    "stamina": 0,
+    "damage": 10,
+    "cooldown": 10.0,
+    "cast": 0.48,
+    "release": 0.24,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 18,
+    "range": 4.0,
+    "radius": 4.0,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "wand"
+      ],
+      "weapon_ids": [
+        "wand"
+      ],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 18,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 6,
+      "lineage": "wandering_technique_until_assigned"
+    }
+  },
+  {
+    "id": "exo.sf.r2.punho_da_aurora_fraturada",
+    "forge_id": "exo.sf.r2.punho_da_aurora_fraturada",
+    "name": "Punho da Aurora Fraturada",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 12.41,
+    "cooldown": 2.95,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de vale grou",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "corpo",
+      "combat_role": "disruption",
+      "rarity_tier": 1,
+      "world_tags": [
+        "corpo",
+        "anime",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.passo_dos_nove_pulsares",
+    "forge_id": "exo.sf.r2.passo_dos_nove_pulsares",
+    "name": "Passo dos Nove Pulsares",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 9.29,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de vale grou",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "corpo",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "corpo",
+        "anime",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.palma_do_horizonte_reverso",
+    "forge_id": "exo.sf.r2.palma_do_horizonte_reverso",
+    "name": "Palma do Horizonte Reverso",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 57.52,
+    "cooldown": 12.98,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "corpo",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "corpo",
+        "anime",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.punho_das_tres_respiracoes",
+    "forge_id": "exo.sf.r2.punho_das_tres_respiracoes",
+    "name": "Punho das Três Respirações",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 13.02,
+    "cooldown": 2.97,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de templo corrente",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "corpo",
+      "combat_role": "disruption",
+      "rarity_tier": 1,
+      "world_tags": [
+        "corpo",
+        "manhwa",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.joelho_da_balanca_oculta",
+    "forge_id": "exo.sf.r2.joelho_da_balanca_oculta",
+    "name": "Joelho da Balança Oculta",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 9.29,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de templo corrente",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "corpo",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "corpo",
+        "manhwa",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.passos_do_ultimo_desafio",
+    "forge_id": "exo.sf.r2.passos_do_ultimo_desafio",
+    "name": "Passos do Último Desafio",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 58.28,
+    "cooldown": 13.34,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de vale grou",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "corpo",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "corpo",
+        "manhwa",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.palma_do_tigre_de_bronze",
+    "forge_id": "exo.sf.r2.palma_do_tigre_de_bronze",
+    "name": "Palma do Tigre de Bronze",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 12.99,
+    "cooldown": 2.99,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "corpo",
+      "combat_role": "disruption",
+      "rarity_tier": 1,
+      "world_tags": [
+        "corpo",
+        "lendas",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.selo_da_tartaruga_antiga",
+    "forge_id": "exo.sf.r2.selo_da_tartaruga_antiga",
+    "name": "Selo da Tartaruga Antiga",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 9.41,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "corpo",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "corpo",
+        "lendas",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.passo_do_veado_das_nuvens",
+    "forge_id": "exo.sf.r2.passo_do_veado_das_nuvens",
+    "name": "Passo do Veado das Nuvens",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 56.04,
+    "cooldown": 12.93,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de templo corrente",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "corpo",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "corpo",
+        "lendas",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.punho_da_camera_vazia",
+    "forge_id": "exo.sf.r2.punho_da_camera_vazia",
+    "name": "Punho da Câmera Vazia",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 12.6,
+    "cooldown": 3.03,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de vale grou",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "corpo",
+      "combat_role": "disruption",
+      "rarity_tier": 1,
+      "world_tags": [
+        "corpo",
+        "cinema",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.guarda_da_ultima_ponte",
+    "forge_id": "exo.sf.r2.guarda_da_ultima_ponte",
+    "name": "Guarda da Última Ponte",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 9.01,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de vale grou",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "corpo",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "corpo",
+        "cinema",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.passo_do_duelo_ao_entardecer",
+    "forge_id": "exo.sf.r2.passo_do_duelo_ao_entardecer",
+    "name": "Passo do Duelo ao Entardecer",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 58.89,
+    "cooldown": 13.15,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "corpo",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "corpo",
+        "cinema",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_da_lua_cintilante",
+    "forge_id": "exo.sf.r2.corte_da_lua_cintilante",
+    "name": "Corte da Lua Cintilante",
+    "kind": "area",
+    "element": 11,
+    "mana": 5,
+    "stamina": 13,
+    "damage": 20.49,
+    "cooldown": 4.3,
+    "cast": 0.48,
+    "release": 0.235,
+    "description": "Técnica autoral de seita bambu",
+    "level": 6,
+    "range": 4.52,
+    "radius": 0.0,
+    "forge_template": "fan_slash",
+    "tags": {
+      "weapon_poses": [
+        "draw"
+      ],
+      "weapon_ids": [
+        "katana"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 6,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "armas",
+      "combat_role": "cleave",
+      "rarity_tier": 2,
+      "world_tags": [
+        "armas",
+        "anime",
+        "authorial",
+        "cleave"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "chaser"
+    }
+  },
+  {
+    "id": "exo.sf.r2.agulha_da_casa_oculta",
+    "forge_id": "exo.sf.r2.agulha_da_casa_oculta",
+    "name": "Agulha da Casa Oculta",
+    "kind": "area",
+    "element": 11,
+    "mana": 4,
+    "stamina": 13,
+    "damage": 21.38,
+    "cooldown": 4.32,
+    "cast": 0.48,
+    "release": 0.235,
+    "description": "Técnica autoral de seita bambu",
+    "level": 6,
+    "range": 5.08,
+    "radius": 0.0,
+    "forge_template": "line_slash",
+    "tags": {
+      "weapon_poses": [
+        "thrust"
+      ],
+      "weapon_ids": [
+        "rapier"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 6,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "armas",
+      "combat_role": "precision",
+      "rarity_tier": 2,
+      "world_tags": [
+        "armas",
+        "manhwa",
+        "authorial",
+        "precision"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "chaser"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_do_herdeiro_sem_nome",
+    "forge_id": "exo.sf.r2.corte_do_herdeiro_sem_nome",
+    "name": "Corte do Herdeiro sem Nome",
+    "kind": "area",
+    "element": 11,
+    "mana": 17,
+    "stamina": 25,
+    "damage": 63.67,
+    "cooldown": 12.99,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de seita bambu",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "armas",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "armas",
+        "manhwa",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.alabarda_do_guardiao_de_sal",
+    "forge_id": "exo.sf.r2.alabarda_do_guardiao_de_sal",
+    "name": "Alabarda do Guardião de Sal",
+    "kind": "area",
+    "element": 11,
+    "mana": 5,
+    "stamina": 13,
+    "damage": 19.47,
+    "cooldown": 4.34,
+    "cast": 0.48,
+    "release": 0.235,
+    "description": "Técnica autoral de pavilhao lanca",
+    "level": 6,
+    "range": 4.52,
+    "radius": 0.0,
+    "forge_template": "fan_slash",
+    "tags": {
+      "weapon_poses": [
+        "pole"
+      ],
+      "weapon_ids": [
+        "halberd"
+      ],
+      "styles": [
+        "exo_martial.style.spear_dragon"
+      ],
+      "schools": [
+        "exo_martial.school.pavilhao_lanca"
+      ],
+      "min_level": 6,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "armas",
+      "combat_role": "cleave",
+      "rarity_tier": 2,
+      "world_tags": [
+        "armas",
+        "lendas",
+        "authorial",
+        "cleave"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "chaser"
+    }
+  },
+  {
+    "id": "exo.sf.r2.golpe_da_bigorna_antiga",
+    "forge_id": "exo.sf.r2.golpe_da_bigorna_antiga",
+    "name": "Golpe da Bigorna Antiga",
+    "kind": "area",
+    "element": 11,
+    "mana": 18,
+    "stamina": 25,
+    "damage": 62.28,
+    "cooldown": 12.97,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de cla montanha",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "crush"
+      ],
+      "weapon_ids": [
+        "battle_mace"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "armas",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "armas",
+        "lendas",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.punhal_da_janela_aberta",
+    "forge_id": "exo.sf.r2.punhal_da_janela_aberta",
+    "name": "Punhal da Janela Aberta",
+    "kind": "area",
+    "element": 11,
+    "mana": 4,
+    "stamina": 13,
+    "damage": 19.51,
+    "cooldown": 4.34,
+    "cast": 0.48,
+    "release": 0.235,
+    "description": "Técnica autoral de mercadores sombra",
+    "level": 6,
+    "range": 4.52,
+    "radius": 0.0,
+    "forge_template": "fan_slash",
+    "tags": {
+      "weapon_poses": [
+        "dual"
+      ],
+      "weapon_ids": [
+        "twin_daggers"
+      ],
+      "styles": [
+        "exo_martial.style.hidden_blade"
+      ],
+      "schools": [
+        "exo_martial.school.mercadores_sombra"
+      ],
+      "min_level": 6,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "armas",
+      "combat_role": "cleave",
+      "rarity_tier": 2,
+      "world_tags": [
+        "armas",
+        "cinema",
+        "authorial",
+        "cleave"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "chaser"
+    }
+  },
+  {
+    "id": "exo.sf.r2.montante_do_patio_deserto",
+    "forge_id": "exo.sf.r2.montante_do_patio_deserto",
+    "name": "Montante do Pátio Deserto",
+    "kind": "area",
+    "element": 11,
+    "mana": 17,
+    "stamina": 25,
+    "damage": 62.01,
+    "cooldown": 13.01,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de cla montanha",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "heavy"
+      ],
+      "weapon_ids": [
+        "greatsword"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "armas",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "armas",
+        "cinema",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.raio_do_nucleo_sereno",
+    "forge_id": "exo.sf.r2.raio_do_nucleo_sereno",
+    "name": "Raio do Núcleo Sereno",
+    "kind": "area",
+    "element": 11,
+    "mana": 25,
+    "stamina": 9,
+    "damage": 28.32,
+    "cooldown": 5.63,
+    "cast": 0.5800000000000001,
+    "release": 0.28,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 14,
+    "range": 5.67,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 14,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "qi",
+      "combat_role": "disruption",
+      "rarity_tier": 3,
+      "world_tags": [
+        "qi",
+        "anime",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "finisher"
+    }
+  },
+  {
+    "id": "exo.sf.r2.circulo_do_pulso_solar",
+    "forge_id": "exo.sf.r2.circulo_do_pulso_solar",
+    "name": "Círculo do Pulso Solar",
+    "kind": "area",
+    "element": 11,
+    "mana": 33,
+    "stamina": 11,
+    "damage": 40.59,
+    "cooldown": 8.9,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "wand"
+      ],
+      "weapon_ids": [
+        "wand"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "qi",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "qi",
+        "anime",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.veu_da_pressao_azul",
+    "forge_id": "exo.sf.r2.veu_da_pressao_azul",
+    "name": "Véu da Pressão Azul",
+    "kind": "shield",
+    "element": 11,
+    "mana": 45,
+    "stamina": 14,
+    "damage": 0.0,
+    "cooldown": 12.96,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "qi",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "qi",
+        "anime",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.pulso_do_dantian_velado",
+    "forge_id": "exo.sf.r2.pulso_do_dantian_velado",
+    "name": "Pulso do Dantian Velado",
+    "kind": "area",
+    "element": 11,
+    "mana": 22,
+    "stamina": 9,
+    "damage": 28.14,
+    "cooldown": 5.43,
+    "cast": 0.5800000000000001,
+    "release": 0.28,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 14,
+    "range": 5.67,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 14,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "qi",
+      "combat_role": "disruption",
+      "rarity_tier": 3,
+      "world_tags": [
+        "qi",
+        "manhwa",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "finisher"
+    }
+  },
+  {
+    "id": "exo.sf.r2.onda_do_mestre_itinerante",
+    "forge_id": "exo.sf.r2.onda_do_mestre_itinerante",
+    "name": "Onda do Mestre Itinerante",
+    "kind": "area",
+    "element": 11,
+    "mana": 30,
+    "stamina": 11,
+    "damage": 39.29,
+    "cooldown": 9.45,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "qi",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "qi",
+        "manhwa",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.muralha_da_setima_circulacao",
+    "forge_id": "exo.sf.r2.muralha_da_setima_circulacao",
+    "name": "Muralha da Sétima Circulação",
+    "kind": "shield",
+    "element": 11,
+    "mana": 42,
+    "stamina": 14,
+    "damage": 0.0,
+    "cooldown": 13.65,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "wand"
+      ],
+      "weapon_ids": [
+        "wand"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "qi",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "qi",
+        "manhwa",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.orvalho_da_flor_imortal",
+    "forge_id": "exo.sf.r2.orvalho_da_flor_imortal",
+    "name": "Orvalho da Flor Imortal",
+    "kind": "area",
+    "element": 11,
+    "mana": 25,
+    "stamina": 9,
+    "damage": 28.09,
+    "cooldown": 5.46,
+    "cast": 0.5800000000000001,
+    "release": 0.28,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 14,
+    "range": 5.67,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "wand"
+      ],
+      "weapon_ids": [
+        "wand"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 14,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "qi",
+      "combat_role": "disruption",
+      "rarity_tier": 3,
+      "world_tags": [
+        "qi",
+        "lendas",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "finisher"
+    }
+  },
+  {
+    "id": "exo.sf.r2.ressonancia_do_sino_lunar",
+    "forge_id": "exo.sf.r2.ressonancia_do_sino_lunar",
+    "name": "Ressonância do Sino Lunar",
+    "kind": "area",
+    "element": 11,
+    "mana": 33,
+    "stamina": 11,
+    "damage": 37.14,
+    "cooldown": 8.99,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "qi",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "qi",
+        "lendas",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.veu_da_montanha_sagrada",
+    "forge_id": "exo.sf.r2.veu_da_montanha_sagrada",
+    "name": "Véu da Montanha Sagrada",
+    "kind": "shield",
+    "element": 11,
+    "mana": 45,
+    "stamina": 14,
+    "damage": 0.0,
+    "cooldown": 13.02,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "qi",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "qi",
+        "lendas",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.pulso_da_lampada_vazia",
+    "forge_id": "exo.sf.r2.pulso_da_lampada_vazia",
+    "name": "Pulso da Lâmpada Vazia",
+    "kind": "area",
+    "element": 11,
+    "mana": 22,
+    "stamina": 9,
+    "damage": 26.91,
+    "cooldown": 5.57,
+    "cast": 0.5800000000000001,
+    "release": 0.28,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 14,
+    "range": 5.67,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 14,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "qi",
+      "combat_role": "disruption",
+      "rarity_tier": 3,
+      "world_tags": [
+        "qi",
+        "cinema",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "finisher"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corrente_do_lago_de_vidro",
+    "forge_id": "exo.sf.r2.corrente_do_lago_de_vidro",
+    "name": "Corrente do Lago de Vidro",
+    "kind": "area",
+    "element": 11,
+    "mana": 30,
+    "stamina": 11,
+    "damage": 41.38,
+    "cooldown": 9.13,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "wand"
+      ],
+      "weapon_ids": [
+        "wand"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "qi",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "qi",
+        "cinema",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.reflexo_da_porta_do_ceu",
+    "forge_id": "exo.sf.r2.reflexo_da_porta_do_ceu",
+    "name": "Reflexo da Porta do Céu",
+    "kind": "shield",
+    "element": 11,
+    "mana": 42,
+    "stamina": 14,
+    "damage": 0.0,
+    "cooldown": 13.54,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de tradição aberta",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "qi",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "qi",
+        "cinema",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.circulo_do_juramento_carmim",
+    "forge_id": "exo.sf.r2.circulo_do_juramento_carmim",
+    "name": "Círculo do Juramento Carmim",
+    "kind": "area",
+    "element": 11,
+    "mana": 31,
+    "stamina": 20,
+    "damage": 58.64,
+    "cooldown": 13.07,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ermitagem vazio",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "reap"
+      ],
+      "weapon_ids": [
+        "scythe"
+      ],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "sangue",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "sangue",
+        "anime",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.lamina_do_pacto_desfeito",
+    "forge_id": "exo.sf.r2.lamina_do_pacto_desfeito",
+    "name": "Lâmina do Pacto Desfeito",
+    "kind": "area",
+    "element": 11,
+    "mana": 29,
+    "stamina": 20,
+    "damage": 58.37,
+    "cooldown": 13.31,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de seita bambu",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "sangue",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "sangue",
+        "manhwa",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.sombra_do_tigre_escarlate",
+    "forge_id": "exo.sf.r2.sombra_do_tigre_escarlate",
+    "name": "Sombra do Tigre Escarlate",
+    "kind": "area",
+    "element": 11,
+    "mana": 31,
+    "stamina": 20,
+    "damage": 59.67,
+    "cooldown": 13.26,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de templo corrente",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "sangue",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "sangue",
+        "lendas",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.marca_da_ultima_promessa",
+    "forge_id": "exo.sf.r2.marca_da_ultima_promessa",
+    "name": "Marca da Última Promessa",
+    "kind": "area",
+    "element": 11,
+    "mana": 29,
+    "stamina": 20,
+    "damage": 60.04,
+    "cooldown": 12.92,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de seita bambu",
+    "level": 42,
+    "range": 0.0,
+    "radius": 2.62,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "sangue",
+      "combat_role": "area_control",
+      "rarity_tier": 5,
+      "world_tags": [
+        "sangue",
+        "cinema",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.cupula_do_crepusculo_negro",
+    "forge_id": "exo.sf.r2.cupula_do_crepusculo_negro",
+    "name": "Cúpula do Crepúsculo Negro",
+    "kind": "shield",
+    "element": 11,
+    "mana": 46,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.32,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ermitagem vazio",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "reap"
+      ],
+      "weapon_ids": [
+        "scythe"
+      ],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "demonica",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "demonica",
+        "anime",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.selo_do_mestre_sem_rosto",
+    "forge_id": "exo.sf.r2.selo_do_mestre_sem_rosto",
+    "name": "Selo do Mestre Sem Rosto",
+    "kind": "shield",
+    "element": 11,
+    "mana": 44,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.67,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ermitagem vazio",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "heavy"
+      ],
+      "weapon_ids": [
+        "greatsword"
+      ],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "demonica",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "demonica",
+        "manhwa",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.barreira_dos_portoes_inferiores",
+    "forge_id": "exo.sf.r2.barreira_dos_portoes_inferiores",
+    "name": "Barreira dos Portões Inferiores",
+    "kind": "shield",
+    "element": 11,
+    "mana": 46,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 12.88,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ordem cinza",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "pole"
+      ],
+      "weapon_ids": [
+        "halberd"
+      ],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "demonica",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "demonica",
+        "lendas",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_do_ultimo_vigia",
+    "forge_id": "exo.sf.r2.corte_do_ultimo_vigia",
+    "name": "Corte do Último Vigia",
+    "kind": "shield",
+    "element": 11,
+    "mana": 44,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.55,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de ermitagem vazio",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "demonica",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "demonica",
+        "cinema",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.arco_da_luz_infinita",
+    "forge_id": "exo.sf.r2.arco_da_luz_infinita",
+    "name": "Arco da Luz Infinita",
+    "kind": "area",
+    "element": 11,
+    "mana": 34,
+    "stamina": 16,
+    "damage": 42.48,
+    "cooldown": 8.95,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "celestial",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "celestial",
+        "anime",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.protecao_do_firmamento_vivo",
+    "forge_id": "exo.sf.r2.protecao_do_firmamento_vivo",
+    "name": "Proteção do Firmamento Vivo",
+    "kind": "shield",
+    "element": 11,
+    "mana": 46,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.64,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "celestial",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "celestial",
+        "anime",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.passo_da_escadaria_celeste",
+    "forge_id": "exo.sf.r2.passo_da_escadaria_celeste",
+    "name": "Passo da Escadaria Celeste",
+    "kind": "area",
+    "element": 11,
+    "mana": 32,
+    "stamina": 16,
+    "damage": 42.01,
+    "cooldown": 9.18,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de pavilhao lanca",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "thrust"
+      ],
+      "weapon_ids": [
+        "spear"
+      ],
+      "styles": [
+        "exo_martial.style.spear_dragon"
+      ],
+      "schools": [
+        "exo_martial.school.pavilhao_lanca"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "celestial",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "celestial",
+        "manhwa",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.selo_da_virtude_radiante",
+    "forge_id": "exo.sf.r2.selo_da_virtude_radiante",
+    "name": "Selo da Virtude Radiante",
+    "kind": "shield",
+    "element": 11,
+    "mana": 44,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.29,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "celestial",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "celestial",
+        "manhwa",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.flor_da_lua_imaculada",
+    "forge_id": "exo.sf.r2.flor_da_lua_imaculada",
+    "name": "Flor da Lua Imaculada",
+    "kind": "area",
+    "element": 11,
+    "mana": 34,
+    "stamina": 16,
+    "damage": 42.08,
+    "cooldown": 9.31,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de seita bambu",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "celestial",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "celestial",
+        "lendas",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.cupula_da_tartaruga_celeste",
+    "forge_id": "exo.sf.r2.cupula_da_tartaruga_celeste",
+    "name": "Cúpula da Tartaruga Celeste",
+    "kind": "shield",
+    "element": 11,
+    "mana": 46,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 13.56,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de templo corrente",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "celestial",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "celestial",
+        "lendas",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.danca_do_sino_do_ceu",
+    "forge_id": "exo.sf.r2.danca_do_sino_do_ceu",
+    "name": "Dança do Sino do Céu",
+    "kind": "area",
+    "element": 11,
+    "mana": 32,
+    "stamina": 16,
+    "damage": 41.98,
+    "cooldown": 9.15,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de templo corrente",
+    "level": 26,
+    "range": 0.0,
+    "radius": 2.34,
+    "forge_template": "ring",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "celestial",
+      "combat_role": "area_control",
+      "rarity_tier": 4,
+      "world_tags": [
+        "celestial",
+        "cinema",
+        "authorial",
+        "area_control"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.barreira_do_patio_de_ouro",
+    "forge_id": "exo.sf.r2.barreira_do_patio_de_ouro",
+    "name": "Barreira do Pátio de Ouro",
+    "kind": "shield",
+    "element": 11,
+    "mana": 44,
+    "stamina": 20,
+    "damage": 0.0,
+    "cooldown": 12.82,
+    "cast": 1.1,
+    "release": 0.37,
+    "description": "Técnica autoral de mosteiro jade",
+    "level": 42,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "focus"
+      ],
+      "weapon_ids": [
+        "arcane_staff"
+      ],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "celestial",
+      "combat_role": "defense",
+      "rarity_tier": 5,
+      "world_tags": [
+        "celestial",
+        "cinema",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_de_tres_tempos",
+    "forge_id": "exo.sf.r2.corte_de_tres_tempos",
+    "name": "Corte de Três Tempos",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 10.41,
+    "cooldown": 2.94,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de seita bambu",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "line_slash",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "mundana",
+      "combat_role": "precision",
+      "rarity_tier": 1,
+      "world_tags": [
+        "mundana",
+        "anime",
+        "authorial",
+        "precision"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.guarda_dos_calcanhares",
+    "forge_id": "exo.sf.r2.guarda_dos_calcanhares",
+    "name": "Guarda dos Calcanhares",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 9.24,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de templo corrente",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "mundana",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "mundana",
+        "anime",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.golpe_da_brecha_curta",
+    "forge_id": "exo.sf.r2.golpe_da_brecha_curta",
+    "name": "Golpe da Brecha Curta",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 43.18,
+    "cooldown": 11.44,
+    "cast": 0.78,
+    "release": 0.37,
+    "description": "Técnica autoral de cla montanha",
+    "level": 42,
+    "range": 6.84,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "crush"
+      ],
+      "weapon_ids": [
+        "battle_mace"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "anime",
+      "power_family": "mundana",
+      "combat_role": "disruption",
+      "rarity_tier": 5,
+      "world_tags": [
+        "mundana",
+        "anime",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "contraste_cinetico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_do_aprendiz_paciente",
+    "forge_id": "exo.sf.r2.corte_do_aprendiz_paciente",
+    "name": "Corte do Aprendiz Paciente",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 10.63,
+    "cooldown": 3.11,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de seita bambu",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "line_slash",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "mundana",
+      "combat_role": "precision",
+      "rarity_tier": 1,
+      "world_tags": [
+        "mundana",
+        "manhwa",
+        "authorial",
+        "precision"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.guarda_da_escola_pequena",
+    "forge_id": "exo.sf.r2.guarda_da_escola_pequena",
+    "name": "Guarda da Escola Pequena",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 46.64,
+    "cooldown": 11.11,
+    "cast": 0.78,
+    "release": 0.37,
+    "description": "Técnica autoral de templo corrente",
+    "level": 42,
+    "range": 6.84,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "manhwa",
+      "power_family": "mundana",
+      "combat_role": "disruption",
+      "rarity_tier": 5,
+      "world_tags": [
+        "mundana",
+        "manhwa",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "hierarquia_marcial",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.punho_do_oleiro_antigo",
+    "forge_id": "exo.sf.r2.punho_do_oleiro_antigo",
+    "name": "Punho do Oleiro Antigo",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 10.8,
+    "cooldown": 2.99,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de templo corrente",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "line_slash",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "mundana",
+      "combat_role": "precision",
+      "rarity_tier": 1,
+      "world_tags": [
+        "mundana",
+        "lendas",
+        "authorial",
+        "precision"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.balanco_do_martelo_simples",
+    "forge_id": "exo.sf.r2.balanco_do_martelo_simples",
+    "name": "Balanço do Martelo Simples",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 42.39,
+    "cooldown": 11.37,
+    "cast": 0.78,
+    "release": 0.37,
+    "description": "Técnica autoral de cla montanha",
+    "level": 42,
+    "range": 6.84,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "crush"
+      ],
+      "weapon_ids": [
+        "battle_mace"
+      ],
+      "styles": [
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "lendas",
+      "power_family": "mundana",
+      "combat_role": "disruption",
+      "rarity_tier": 5,
+      "world_tags": [
+        "mundana",
+        "lendas",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "simbolismo_folclorico",
+      "combo_role": "defensive"
+    }
+  },
+  {
+    "id": "exo.sf.r2.golpe_da_feira_fechada",
+    "forge_id": "exo.sf.r2.golpe_da_feira_fechada",
+    "name": "Golpe da Feira Fechada",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 12,
+    "damage": 10.84,
+    "cooldown": 2.98,
+    "cast": 0.38,
+    "release": 0.19,
+    "description": "Técnica autoral de templo corrente",
+    "level": 1,
+    "range": 4.5,
+    "radius": 0.0,
+    "forge_template": "line_slash",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [
+        "gauntlets"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "mundana",
+      "combat_role": "precision",
+      "rarity_tier": 1,
+      "world_tags": [
+        "mundana",
+        "cinema",
+        "authorial",
+        "precision"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "opener"
+    }
+  },
+  {
+    "id": "exo.sf.r2.bloqueio_do_portao_rural",
+    "forge_id": "exo.sf.r2.bloqueio_do_portao_rural",
+    "name": "Bloqueio do Portão Rural",
+    "kind": "shield",
+    "element": 11,
+    "mana": 0,
+    "stamina": 24,
+    "damage": 0.0,
+    "cooldown": 8.96,
+    "cast": 1.0,
+    "release": 0.325,
+    "description": "Técnica autoral de templo corrente",
+    "level": 26,
+    "range": 0.0,
+    "radius": 0.0,
+    "forge_template": "ward",
+    "tags": {
+      "weapon_poses": [
+        "staff"
+      ],
+      "weapon_ids": [
+        "quarterstaff"
+      ],
+      "styles": [
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 26,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "mundana",
+      "combat_role": "defense",
+      "rarity_tier": 4,
+      "world_tags": [
+        "mundana",
+        "cinema",
+        "authorial",
+        "defense"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "counter"
+    }
+  },
+  {
+    "id": "exo.sf.r2.corte_do_ferreiro_exausto",
+    "forge_id": "exo.sf.r2.corte_do_ferreiro_exausto",
+    "name": "Corte do Ferreiro Exausto",
+    "kind": "area",
+    "element": 11,
+    "mana": 0,
+    "stamina": 30,
+    "damage": 42.45,
+    "cooldown": 10.83,
+    "cast": 0.78,
+    "release": 0.37,
+    "description": "Técnica autoral de seita bambu",
+    "level": 42,
+    "range": 6.84,
+    "radius": 0.0,
+    "forge_template": "cone",
+    "tags": {
+      "weapon_poses": [
+        "blade"
+      ],
+      "weapon_ids": [
+        "sword"
+      ],
+      "styles": [
+        "exo_martial.style.sword_swift"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 42,
+      "min_cultivation_rank": 0,
+      "cultivation_stage": "proposed_requires_mapping",
+      "actor_types": [
+        "player",
+        "npc",
+        "enemy"
+      ],
+      "element": 11,
+      "inspiration_origin": "cinema",
+      "power_family": "mundana",
+      "combat_role": "disruption",
+      "rarity_tier": 5,
+      "world_tags": [
+        "mundana",
+        "cinema",
+        "authorial",
+        "disruption"
+      ],
+      "visual_language": "coreografia_fisica",
+      "combo_role": "defensive"
+    }
+  }
+]

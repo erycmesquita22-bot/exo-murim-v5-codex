@@ -1,0 +1,129 @@
+--- R2/regional_ecology/director.gd
++++ corrigida/regional_ecology/director.gd
+@@ -8,6 +8,13 @@
+ var active: Dictionary={}
+ var timer:=0.0
+ var region_id: int=-1
++func dead_members(record: Dictionary) -> Array[int]:
++	# JSON numbers load as floats; membership must use canonical integer IDs.
++	var result: Array[int]=[]
++	for value in record.get("members_dead",[]):
++		var member:=int(value)
++		if member>=0 and not result.has(member):result.append(member)
++	return result
+ const SPAWN_MIN_DISTANCE:=19.0
+ const SPAWN_MAX_DISTANCE:=85.0
+ const DESPAWN_DISTANCE:=105.0
+@@ -59,7 +66,7 @@
+ 		var distance: float=point.distance_to(world.player.position)
+ 		if distance<SPAWN_MIN_DISTANCE or distance>SPAWN_MAX_DISTANCE:continue
+ 		if visible_spawn(point):continue
+-		var dead: Array=record.get("members_dead",[])
++		var dead: Array[int]=dead_members(record)
+ 		for member in range(int(site.group_size)):
+ 			if total>=MAX_ACTIVE:break
+ 			if member in dead:continue
+@@ -90,7 +97,7 @@
+ 	var member: int=int(actor.get_meta("ecology_member",-1))
+ 	var key: String=site+"/m%d"%member
+ 	if member<0 or str(actor.uid)!=key+"/g%04d"%int(record.generation):return 0
+-	var dead: Array=record.get("members_dead",[])
++	var dead: Array[int]=dead_members(record)
+ 	if member in dead:return 0
+ 	dead.append(member);record["members_dead"]=dead
+ 	record.kills=int(record.kills)+1
+--- R2/convergence/region.gd
++++ corrigida/convergence/region.gd
+@@ -57,22 +57,9 @@
+ 	var ids: Array=[str(person.home_slot),str(person.work_slot),"@square","@activity"]
+ 	var stations: Dictionary={}
+ 	for id in ids:
+-		var base: Vector3=route_points[person.work_slot][0] if id=="@activity" else route_points[id][0]
+-		if id=="@activity":
+-			var lot: Dictionary={}
+-			for parcel in data.lots:
+-				if str(parcel.id)==str(person.work_slot):lot=parcel;break
+-			if lot.is_empty():stations[id]=route_points[person.work_slot][0]
+-			else:
+-				# Work happens at an external service POI, not in a door queue.
+-				# Preserve the original geometry and the walkable public foreground.
+-				var forward:=Vector3(sin(lot.yaw),0,cos(lot.yaw))
+-				var side:=Vector3(forward.z,0,-forward.x)
+-				var shift: float=2.8+float(abs(str(person.id).hash())%3)*0.6
+-				var candidate: Vector3=base+side*shift+forward*0.5
+-				candidate.y=data.height_at(Vector2(candidate.x,candidate.z))+.08
+-				stations[id]=candidate
+-		elif id=="@square":
++		if id=="@activity":continue
++		var base: Vector3=route_points[id][0]
++		if id=="@square":
+ 			# Disperse the community across the existing street axis, not one tight group.
+ 			var k: int=maxi(0,people.find(person))
+ 			var street: Dictionary=data.settlement_roads[k%2]
+@@ -98,6 +85,8 @@
+ 			var flat:=Vector2(candidate.x,candidate.z)
+ 			candidate.y=data.height_at(flat)+.08
+ 			stations[id]=candidate
++	# Reuse each worker's distinct facade station for the external service POI.
++	stations["@activity"]=stations[str(person.work_slot)]
+ 	var result: Dictionary={}
+ 	for a in ids:
+ 		for b in ids:
+--- R2/convergence/routine_qa.gd
++++ corrigida/convergence/routine_qa.gd
+@@ -10,6 +10,17 @@
+ 	if not ok:failures.append(label)
+ func frames(n: int):
+ 	for i in range(n):await physics_frame
++func frames_at_hour(hour: int,n: int):
++	# Contract fixture: hold one schedule while testing physical route completion.
++	# The separate npc_day test advances the uninterrupted default 24h clock.
++	for i in range(n):
++		w.extension().clock=hour*preload("res://ai_core/world_clock.gd").SECONDS_PER_HOUR
++		await physics_frame
++		var complete:=i>3
++		for actor in w.residents:
++			complete=complete and actor.arrived and actor.to_slot==actor.desired_slot(hour)
++			if hour==23:complete=complete and actor.sheltered
++		if complete:return
+ func run():
+ 	w=Game.new();w.load_on_start=false;w.world_seed_override=101;w.save_path="user://convergence012_routines.json";root.add_child(w);await process_frame
+ 	w.flow.phase="creator";w.flow.create_character({"name":"Routine QA","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0});w.ui.resume()
+@@ -23,12 +34,12 @@
+ 			links_ok=links_ok and r.route_points.has(actor.identity.home_slot) and r.route_points.has(actor.identity.work_slot) and not actor.routes.is_empty()
+ 		check(occupancy_ok,"housing_capacity_"+str(rid));check(links_ok,"home_work_links_"+str(rid));check(ids.size()==w.residents.size(),"no_duplicate_"+str(rid))
+ 		var commutes:=0;var completed:=0;var intersections:=0
+-		w.extension().clock=10*3600
+-		await frames(11000)
++		w.extension().clock=10*90
++		await frames_at_hour(10,11000)
+ 		for actor in w.residents:
+ 			if actor.identity.home_slot!=actor.identity.work_slot:
+ 				commutes+=1
+-				if actor.arrived and actor.to_slot==actor.identity.work_slot:completed+=1
++				if actor.arrived and actor.to_slot=="@activity":completed+=1
+ 			var q:=PhysicsShapeQueryParameters3D.new();q.shape=actor.get_child(0).shape;q.collision_mask=4;q.transform=actor.get_child(0).global_transform
+ 			if not w.get_world_3d().direct_space_state.intersect_shape(q).is_empty():intersections+=1
+ 		check(commutes>0 and commutes==completed,"physical_commute_completed_%d:%d/%d"%[rid,completed,commutes])
+@@ -37,18 +48,18 @@
+ 		w.player.position=resident.position+Vector3(0,0,.8);w.player.velocity=Vector3.ZERO;await frames(18)
+ 		w.gate_cooldown=0;w.interaction_cooldown=0;var talks_before: int=resident.talks;w.interact()
+ 		check(resident.talks==talks_before+1,"persistent_interaction_"+str(rid));w.ui.resume()
+-		w.extension().clock=19*3600;await frames(11000)
++		w.extension().clock=19*90;await frames_at_hour(19,11000)
+ 		var square:=0
+ 		for actor in w.residents:
+ 			if actor.arrived and actor.to_slot=="@square":square+=1
+ 		check(square==w.residents.size(),"community_arrivals_%d:%d"%[rid,square])
+-		w.extension().clock=23*3600;await frames(11000)
++		w.extension().clock=23*90;await frames_at_hour(23,11000)
+ 		var resting:=0
+ 		for actor in w.residents:
+ 			if actor.arrived and actor.sheltered and actor.to_slot==actor.identity.home_slot:resting+=1
+ 		check(resting==w.residents.size(),"night_entry_proxies_%d:%d"%[rid,resting])
+ 		rows.append({"region":rid,"buildings":r.props.size(),"population":w.residents.size(),"commutes":commutes,"completed":completed,"community":square,"resting":resting,"capacity":cap,"occupancy":used})
+-		w.extension().clock=10*3600;await frames(5)
++		w.extension().clock=10*90;await frames(5)
+ 		check(w.save_progress(),"save_routines_"+str(rid))
+ 		var identities: Dictionary=w.journey.data.living_world.npcs.duplicate(true);var count: int=w.residents.size()
+ 		w.return_home();check(await w.change_region(rid),"regional_return_"+str(rid))

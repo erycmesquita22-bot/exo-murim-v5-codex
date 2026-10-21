@@ -1,0 +1,172 @@
+[
+  {
+    "file": "assets/foley/impactPunch_medium_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "486988aa2d6440ffc4c62a0e8ccf3c23673ba84424bd4723378d451b7255eb5c"
+  },
+  {
+    "file": "assets/foley/impactPunch_medium_001.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "e71d23abcc3f10d9d6bc9615b2a431fff70b12333a5fcdd9964457564ace4349"
+  },
+  {
+    "file": "assets/foley/impactPunch_heavy_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8"
+  },
+  {
+    "file": "assets/foley/impactPunch_heavy_001.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "f92f5cb6ba4ff2766497292ffd90865654317eeca976f5652e0708dbdcdc0dd9"
+  },
+  {
+    "file": "assets/foley/impactSoft_medium_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3"
+  },
+  {
+    "file": "assets/foley/impactSoft_medium_001.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "7642a4fd43e547afe4f7adfadb3dabb681c0ff512f52c1674bae30a726841faf"
+  },
+  {
+    "file": "assets/foley/impactMetal_light_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d"
+  },
+  {
+    "file": "assets/foley/impactMetal_medium_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "a96f879fec0864a8938e0c745b6996a6c5679c16a234ce31a01cc995e8401003"
+  },
+  {
+    "file": "assets/foley/impactWood_medium_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5"
+  },
+  {
+    "file": "assets/foley/knifeSlice.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+  },
+  {
+    "file": "assets/foley/knifeSlice2.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "6c2064d0ef988d1ec3d56868e823ea8823a5cac00f2742560052633529407def"
+  },
+  {
+    "file": "assets/foley/cloth1.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+  },
+  {
+    "file": "assets/foley/cloth2.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201"
+  },
+  {
+    "file": "assets/foley/cloth3.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b"
+  },
+  {
+    "file": "assets/foley/footstep00.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
+  },
+  {
+    "file": "assets/foley/footstep01.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "313472dba31fd0c855376069fa368bb5a198c27251cc8398ef464578b7047a4c"
+  },
+  {
+    "file": "assets/foley/footstep02.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "2d9575b7dead6e1217ca113991fc5229e9b6d998ea0726ebbb277e7398ab888f"
+  },
+  {
+    "file": "assets/foley/footstep03.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "a86756b9af9f370455ab47844239bb07fd1bee7a113068c91f0fcd9b72703fae"
+  },
+  {
+    "file": "assets/foley/metalLatch.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+  },
+  {
+    "file": "assets/foley/drawKnife1.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "276403e72c3b71c47bc24db3083970c23f8e5551ffa78f436f83483c56f3f0bb"
+  },
+  {
+    "file": "assets/foley/bookFlip1.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0-1.0",
+    "sha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d"
+  },
+  {
+    "file": "assets/foley/bow_release_1.ogg",
+    "author": "Joseph SARDIN",
+    "source": "https://bigsoundbank.com/archery-s0549.html",
+    "license": "CC0-1.0",
+    "adaptation": "single release extracted; short fade-out; OGG re-encode",
+    "sha256": "6fceb958080eb46780669131a7d250c43ebb84353f0b82f1adfea193af496de8"
+  },
+  {
+    "file": "assets/foley/bow_release_2.ogg",
+    "author": "Joseph SARDIN",
+    "source": "https://bigsoundbank.com/archery-s0549.html",
+    "license": "CC0-1.0",
+    "adaptation": "single release extracted; short fade-out; OGG re-encode",
+    "sha256": "c0dcac1130a0d11214a62365a7d67b654ec074da972f7101c87786b0a01da81a"
+  },
+  {
+    "file": "assets/foley/impactSoft_heavy_000.ogg",
+    "author": "Kenney",
+    "source": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0-1.0",
+    "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1"
+  }
+]

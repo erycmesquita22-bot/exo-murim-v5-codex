@@ -1,0 +1,426 @@
+{
+  "domain": "npc_motivation",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/seek_teacher",
+      "label": "Procura um mestre",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "outlaw",
+        "goal": "seek_teacher"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/protect_family",
+      "label": "Protege a família",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "family",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "betrayal",
+        "goal": "protect_family"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/pay_debt",
+      "label": "Quitar uma dívida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "wealthy",
+        "goal": "pay_debt"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/repair_honor",
+      "label": "Recuperar a honra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "honor",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "dishonorable",
+        "goal": "repair_honor"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/find_herb",
+      "label": "Encontrar uma erva rara",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "medicine",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "desert_only",
+        "goal": "find_herb"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/trade_route",
+      "label": "Reabrir rota comercial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "trade",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "isolation",
+        "goal": "trade_route"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/recover_manual",
+      "label": "Recuperar um manual",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "illiterate",
+        "goal": "recover_manual"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/return_home",
+      "label": "Retornar ao lar",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "settled",
+        "goal": "return_home"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/find_missing",
+      "label": "Buscar desaparecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "family",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "find_missing"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/prove_skill",
+      "label": "Vencer prova marcial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "pacifist",
+        "goal": "prove_skill"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/protect_sect",
+      "label": "Proteger escola",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "sect",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "hostile_to_sect",
+        "goal": "protect_sect"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/warn_village",
+      "label": "Avisar aldeia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "security",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "warn_village"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/sell_heirloom",
+      "label": "Vender herança",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "sell_heirloom"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/escape_clan",
+      "label": "Fugir de um clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "clan",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "loyalist",
+        "goal": "escape_clan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/atone",
+      "label": "Redimir-se",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "honor",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "atone"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/investigate_ruin",
+      "label": "Investigar ruína",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ruins",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "investigate_ruin"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/healing",
+      "label": "Curar parente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "medicine",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "healing"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/expose_fraud",
+      "label": "Expor fraude",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "trade",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "expose_fraud"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/deliver_message",
+      "label": "Entregar mensagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "deliver_message"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_motivation",
+      "excludes": [],
+      "id": "npc_motivation/challenge_rival",
+      "label": "Desafiar rival",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "motivation"
+      ],
+      "variables": {
+        "conflict_hint": "none",
+        "goal": "challenge_rival"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

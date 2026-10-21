@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "files": 47,
+  "matches": "all declared changed files byte-identical from base+patch"
+}

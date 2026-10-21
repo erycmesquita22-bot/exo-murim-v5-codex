@@ -1,0 +1,550 @@
+{
+  "domain": "region_legacy",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/fronteira_dividida_entre_familias",
+      "label": "Fronteira dividida entre famílias",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "fronteira_dividida_entre_familias"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Fronteira dividida entre famílias",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "fronteira_dividida_entre_familias"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/pacto_antigo_de_passagem",
+      "label": "Pacto antigo de passagem",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "pacto_antigo_de_passagem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pacto antigo de passagem",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "pacto_antigo_de_passagem"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/santuario_abandonado_por_uma_seita",
+      "label": "Santuário abandonado por uma seita",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "santuario_abandonado_por_uma_seita"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Santuário abandonado por uma seita",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "santuario_abandonado_por_uma_seita"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/estrada_aberta_apos_uma_guerra",
+      "label": "Estrada aberta após uma guerra",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "estrada_aberta_apos_uma_guerra"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Estrada aberta após uma guerra",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "estrada_aberta_apos_uma_guerra"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/rebeliao_de_coletores_de_impostos",
+      "label": "Rebelião de coletores de impostos",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "rebeliao_de_coletores_de_impostos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rebelião de coletores de impostos",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rebeliao_de_coletores_de_impostos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/tratado_de_protecao_de_aldeias",
+      "label": "Tratado de proteção de aldeias",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "tratado_de_protecao_de_aldeias"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Tratado de proteção de aldeias",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "tratado_de_protecao_de_aldeias"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/peregrinacao_a_um_mestre_perdido",
+      "label": "Peregrinação a um mestre perdido",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "peregrinacao_a_um_mestre_perdido"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Peregrinação a um mestre perdido",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "peregrinacao_a_um_mestre_perdido"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/ruinas_de_um_cla_comerciante",
+      "label": "Ruínas de um clã comerciante",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "ruinas_de_um_cla_comerciante"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ruínas de um clã comerciante",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "ruinas_de_um_cla_comerciante"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/epidemia_curada_por_eremitas",
+      "label": "Epidemia curada por eremitas",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "epidemia_curada_por_eremitas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Epidemia curada por eremitas",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "epidemia_curada_por_eremitas"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/juramento_rompido_entre_discipulos",
+      "label": "Juramento rompido entre discípulos",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "juramento_rompido_entre_discipulos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Juramento rompido entre discípulos",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "juramento_rompido_entre_discipulos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/descoberta_de_uma_fonte_de_qi",
+      "label": "Descoberta de uma fonte de Qi",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "descoberta_de_uma_fonte_de_qi"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Descoberta de uma fonte de Qi",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "descoberta_de_uma_fonte_de_qi"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/migracao_de_artesaos_por_seca",
+      "label": "Migração de artesãos por seca",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "migracao_de_artesaos_por_seca"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Migração de artesãos por seca",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "migracao_de_artesaos_por_seca"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/refugio_de_guardas_desertores",
+      "label": "Refúgio de guardas desertores",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "refugio_de_guardas_desertores"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Refúgio de guardas desertores",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "refugio_de_guardas_desertores"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/incendio_que_apagou_registros",
+      "label": "Incêndio que apagou registros",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "incendio_que_apagou_registros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Incêndio que apagou registros",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "incendio_que_apagou_registros"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/festival_criado_apos_uma_vitoria",
+      "label": "Festival criado após uma vitória",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "festival_criado_apos_uma_vitoria"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Festival criado após uma vitória",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "festival_criado_apos_uma_vitoria"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_legacy",
+      "excludes": [],
+      "id": "region_legacy/mosteiro_fundado_por_refugiados",
+      "label": "Mosteiro fundado por refugiados",
+      "links": [
+        "region_theme/frontier"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "world",
+        "mosteiro_fundado_por_refugiados"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mosteiro fundado por refugiados",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mosteiro_fundado_por_refugiados"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

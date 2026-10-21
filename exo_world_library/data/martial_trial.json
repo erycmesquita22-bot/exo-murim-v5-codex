@@ -1,0 +1,583 @@
+{
+  "domain": "martial_trial",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/repetir_golpes_com_equilibrio",
+      "label": "Repetir golpes com equilíbrio",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "repetir_golpes_com_equilibrio",
+        "master_evaluation"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Repetir golpes com equilíbrio",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "repetir_golpes_com_equilibrio"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/meditar_sob_distracoes",
+      "label": "Meditar sob distrações",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "meditar_sob_distracoes"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Meditar sob distrações",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "meditar_sob_distracoes"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/conter_forca_sem_ferir_aliado",
+      "label": "Conter força sem ferir aliado",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "conter_forca_sem_ferir_aliado"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Conter força sem ferir aliado",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "conter_forca_sem_ferir_aliado"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/percorrer_trilha_dificil",
+      "label": "Percorrer trilha difícil",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "percorrer_trilha_dificil"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Percorrer trilha difícil",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "percorrer_trilha_dificil"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/reconhecer_postura_de_mestre",
+      "label": "Reconhecer postura de mestre",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "reconhecer_postura_de_mestre"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Reconhecer postura de mestre",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "reconhecer_postura_de_mestre"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/defender_aprendiz_desarmado",
+      "label": "Defender aprendiz desarmado",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "defender_aprendiz_desarmado"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Defender aprendiz desarmado",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "defender_aprendiz_desarmado"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/levar_carta_sem_usar_violencia",
+      "label": "Levar carta sem usar violência",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "levar_carta_sem_usar_violencia"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Levar carta sem usar violência",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "levar_carta_sem_usar_violencia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/desviar_de_ataque_anunciado",
+      "label": "Desviar de ataque anunciado",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "desviar_de_ataque_anunciado"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Desviar de ataque anunciado",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "desviar_de_ataque_anunciado"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/consertar_arma_antes_de_duelo",
+      "label": "Consertar arma antes de duelo",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "consertar_arma_antes_de_duelo"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Consertar arma antes de duelo",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "consertar_arma_antes_de_duelo"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/aplicar_tecnica_com_qi_limitado",
+      "label": "Aplicar técnica com Qi limitado",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "aplicar_tecnica_com_qi_limitado"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aplicar técnica com Qi limitado",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "aplicar_tecnica_com_qi_limitado"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/vencer_sem_perseguir_inimigo_rendido",
+      "label": "Vencer sem perseguir inimigo rendido",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "vencer_sem_perseguir_inimigo_rendido"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vencer sem perseguir inimigo rendido",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "vencer_sem_perseguir_inimigo_rendido"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/escolher_entre_honra_e_conveniencia",
+      "label": "Escolher entre honra e conveniência",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "escolher_entre_honra_e_conveniencia"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Escolher entre honra e conveniência",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "escolher_entre_honra_e_conveniencia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/treinar_respiracao_com_fadiga",
+      "label": "Treinar respiração com fadiga",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "treinar_respiracao_com_fadiga"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Treinar respiração com fadiga",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "treinar_respiracao_com_fadiga"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/resistir_a_provocacao_no_torneio",
+      "label": "Resistir a provocação no torneio",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "resistir_a_provocacao_no_torneio"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Resistir a provocação no torneio",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "resistir_a_provocacao_no_torneio"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/demonstrar_dominio_de_distancia",
+      "label": "Demonstrar domínio de distância",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "demonstrar_dominio_de_distancia"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Demonstrar domínio de distância",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "demonstrar_dominio_de_distancia"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_trial",
+      "excludes": [],
+      "id": "martial_trial/proteger_ponte_durante_retirada",
+      "label": "Proteger ponte durante retirada",
+      "links": [
+        "ref_martial_schools/ref_exo_martial_school_seita_bambu"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "training",
+        "trial",
+        "proteger_ponte_durante_retirada"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Proteger ponte durante retirada",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "proteger_ponte_durante_retirada"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

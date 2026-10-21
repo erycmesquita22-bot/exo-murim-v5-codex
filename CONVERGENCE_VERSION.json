@@ -1,0 +1,13 @@
+{
+  "release": "Convergencia 01.2",
+  "base": "Convergencia 01 / C01.1",
+  "engine": "4.6.2 Standard",
+  "renderer": "gl_compatibility",
+  "save_root": 4,
+  "convergence_schema": 1,
+  "regional_version": 4,
+  "settlement_version": 3,
+  "architecture_version": 2,
+  "routine_version": 2,
+  "occupancy_binding_migration": 3
+}

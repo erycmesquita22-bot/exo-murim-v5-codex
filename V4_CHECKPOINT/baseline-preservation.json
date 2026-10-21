@@ -1,0 +1,8 @@
+{
+  "baseline": "PASS",
+  "working_matches_original": "PASS",
+  "entries": 5266,
+  "mutations_to_C3": 0,
+  "native_godot_runs": 0,
+  "engine_version_only": "4.6.2.stable.official.71f334935"
+}

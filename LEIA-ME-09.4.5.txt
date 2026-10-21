@@ -1,0 +1,10 @@
+EXO-MURIM 09.4.5 — LEVEL DESIGN
+
+1) Extrair o ZIP em pasta nova.
+2) Abrir project.godot no Godot 4.6.x; não sobrescrever o save de produção sem backup.
+3) Testar a vila com seed 101 e depois com seed 202. Partidas antigas V2 mantêm edifícios nos mesmos lugares e recebem novas ruas e decoração.
+4) Caminhar do centro para bambuzal (leste), montanhas (oeste) e ruínas (norte).
+5) Verificar movimento e estabilidade do chão no jogo real.
+6) Relatório: RELATORIO-09.4.5.md
+
+Limitação: a engine Godot não estava instalada no ambiente de criação, portanto esta é uma CANDIDATA para testes, não uma versão validada em gameplay.

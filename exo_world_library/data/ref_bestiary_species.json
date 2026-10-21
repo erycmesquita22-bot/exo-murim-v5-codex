@@ -1,0 +1,374 @@
+{
+  "domain": "ref_bestiary_species",
+  "records": [
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_deer",
+      "label": "Cervo da Floresta",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "deer",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_rabbit",
+      "label": "Coelho Selvagem",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "rabbit",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_mountain_goat",
+      "label": "Cabra da Montanha",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "mountain_goat",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_wild_ox",
+      "label": "Boi Selvagem",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "wild_ox",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_boar",
+      "label": "Javali",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "boar",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_bear",
+      "label": "Urso",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "bear",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_wild_buffalo",
+      "label": "Búfalo Selvagem",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "wild_buffalo",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_wolf",
+      "label": "Lobo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "wolf",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_tiger",
+      "label": "Tigre",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "tiger",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_leopard",
+      "label": "Leopardo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "leopard",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_snake",
+      "label": "Serpente",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "snake",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_fox",
+      "label": "Raposa",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "fox",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_corrupted_wolf",
+      "label": "Lobo Corrompido",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "corrupted_wolf",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_spirit_deer",
+      "label": "Cervo Espiritual",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "spirit_deer",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_stone_guardian",
+      "label": "Guardião Rochoso",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_guardian",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_species",
+      "excludes": [],
+      "id": "ref_bestiary_species/ref_qi_serpent",
+      "label": "Serpente de Qi",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593",
+        "source_archive": "C3_R13_1",
+        "source_id": "qi_serpent",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/species.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

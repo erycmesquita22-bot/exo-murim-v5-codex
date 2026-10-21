@@ -1,0 +1,252 @@
+{
+  "id": "aldeia_vale_bambu",
+  "name": "Aldeia do Vale de Bambu",
+  "shape": "terraced",
+  "wall": false,
+  "half_extent": 96,
+  "gates": [
+    [
+      -84,
+      0
+    ],
+    [
+      84,
+      0
+    ],
+    [
+      0,
+      -84
+    ],
+    [
+      0,
+      84
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -84,
+        0
+      ],
+      "b": [
+        84,
+        0
+      ],
+      "width": 5.5,
+      "kind": "main"
+    },
+    {
+      "a": [
+        0,
+        -84
+      ],
+      "b": [
+        0,
+        84
+      ],
+      "width": 3.5,
+      "kind": "stair_candidate"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "aldeia_vale_bambu/s00",
+      "center": [
+        -36,
+        -33
+      ],
+      "footprint": [
+        [
+          -58.0,
+          -52.0
+        ],
+        [
+          -16.0,
+          -52.0
+        ],
+        [
+          -14.0,
+          -14.0
+        ],
+        [
+          -56.0,
+          -14.0
+        ]
+      ],
+      "size": [
+        42,
+        38
+      ],
+      "connectors": [
+        [
+          -37.0,
+          -52.0
+        ],
+        [
+          -15.0,
+          -33.0
+        ],
+        [
+          -35.0,
+          -14.0
+        ],
+        [
+          -57.0,
+          -33.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_vale_bambu/s01",
+      "center": [
+        34,
+        -33
+      ],
+      "footprint": [
+        [
+          14.0,
+          -52.0
+        ],
+        [
+          56.0,
+          -52.0
+        ],
+        [
+          54.0,
+          -14.0
+        ],
+        [
+          12.0,
+          -14.0
+        ]
+      ],
+      "size": [
+        42,
+        38
+      ],
+      "connectors": [
+        [
+          35.0,
+          -52.0
+        ],
+        [
+          55.0,
+          -33.0
+        ],
+        [
+          33.0,
+          -14.0
+        ],
+        [
+          13.0,
+          -33.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_vale_bambu/s02",
+      "center": [
+        -36,
+        34
+      ],
+      "footprint": [
+        [
+          -56.0,
+          15.0
+        ],
+        [
+          -14.0,
+          15.0
+        ],
+        [
+          -16.0,
+          53.0
+        ],
+        [
+          -58.0,
+          53.0
+        ]
+      ],
+      "size": [
+        42,
+        38
+      ],
+      "connectors": [
+        [
+          -35.0,
+          15.0
+        ],
+        [
+          -15.0,
+          34.0
+        ],
+        [
+          -37.0,
+          53.0
+        ],
+        [
+          -57.0,
+          34.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_vale_bambu/s03",
+      "center": [
+        34,
+        34
+      ],
+      "footprint": [
+        [
+          12.0,
+          15.0
+        ],
+        [
+          54.0,
+          15.0
+        ],
+        [
+          56.0,
+          53.0
+        ],
+        [
+          14.0,
+          53.0
+        ]
+      ],
+      "size": [
+        42,
+        38
+      ],
+      "connectors": [
+        [
+          33.0,
+          15.0
+        ],
+        [
+          55.0,
+          34.0
+        ],
+        [
+          35.0,
+          53.0
+        ],
+        [
+          13.0,
+          34.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "village"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

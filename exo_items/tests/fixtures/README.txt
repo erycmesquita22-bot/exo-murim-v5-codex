@@ -1,0 +1,1 @@
+Fixture QA APENAS: snapshots oficiais dos catálogos e contratos GDScript do EXO Core candidato corrigido, SHA-256 d6cae1fc95078b9b083755d68ee59c99568801e01fde8c5983366dc4c616f1ac. Usar somente para teste offline Python. O jogo deve usar arquivos autoritativos em res://data e res://procedural; não carregar estas cópias em runtime.

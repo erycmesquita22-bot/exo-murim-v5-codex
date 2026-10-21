@@ -1,0 +1,52 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+V4_CHECK core_boot true
+V4_CHECK service_city_forge.plans true
+V4_CHECK service_crowd.illusion true
+V4_CHECK service_content.library true
+V4_CHECK service_economy true
+V4_CHECK service_skill_forge true
+V4_CHECK service_npc03.agenda true
+V4_CHECK service_interior_forge.candidates true
+V4_CHECK service_exo_vfx_forge true
+V4_LIBRARY {"counts":{"appearance_theme":12,"audio_theme":12,"ballot_rule":12,"biome_identity":8,"civic_institution":18,"climate_phenomenon":14,"commodity_flow":16,"conflict_spark":15,"council_motion":24,"craft_tradition":12,"crowd_scene":12,"dialogue_tone":12,"diplomatic_offer":12,"dungeon_chamber":17,"dungeon_complication":15,"dungeon_theme":10,"ecological_pressure":12,"economy_theme":12,"election_campaign":16,"encounter_theme":12,"event_outcome":15,"evidence_class":12,"faction_agenda":16,"historical_chronicle":18,"interior_scene_hint":10,"landmark_theme":12,"loot_theme":12,"lore_fragment":20,"martial_legend":12,"martial_trial":16,"name_family":30,"name_given":32,"narrative_motif":16,"npc_archetype":20,"npc_background":20,"npc_motivation":20,"npc_relationship_seed":16,"npc_secret":16,"parallel_arc":96,"peace_treaty":12,"personality":6,"quest_pattern":7,"quest_seed":10,"ref_bestiary_humanoids":8,"ref_bestiary_species":16,"ref_city_blueprints":5,"ref_city_districts":36,"ref_city_landmarks":10,"ref_city_profiles":8,"ref_city_social_profiles":8,"ref_economy_goods":12,"ref_item_affixes":17,"ref_item_materials":7,"ref_item_rarities":6,"ref_martial_schools":9,"ref_martial_styles":12,"ref_martial_techniques":16,"ref_narrative_factions":6,"region_legacy":16,"region_tension":15,"region_theme":12,"regional_policy":12,"revolution_cause":20,"rumor":20,"rumor_source":12,"settlement_service":16,"settlement_theme":12,"shrine_belief":10,"social_custom":16,"story_arc":48,"technique_affinity":14,"terrain_texture":36,"travel_incident":14,"war_casus":30,"world_consequence":12,"world_event":20},"domains":76,"errors":[],"integration":"NOT_WIRED","loaded":true,"read_only":true,"records":1228}
+V4_CHECK library_r4_1228_76 true
+V4_CHECK economy_creator_seed_survives true
+V4_CHECK vfx_untrusted_blocked true
+V4_CHECK trusted_skill_host_bound true
+V4_CHECK crowd_physically_attached true
+V4_CITY {"blueprint_id":"orthogonal_market","compression":0.82,"frontage_fit":true,"profile_id":"rich_commercial_city","rotation":2.0943951023932,"sectors":[{"bounds":{"max_x":-23.4,"max_z":-23.4,"min_x":-66.6,"min_z":-66.6},"category":"residential","center":[50.4063377380371,-13.5063343048096],"connectors":[[-45.0,-66.6],[-23.4,-45.0],[-45.0,-23.4],[-66.6,-45.0]],"district_id":"res_pine_village","footprint":[[-66.6,-66.6],[-23.4,-66.6],[-23.4,-23.4],[-66.6,-23.4]],"id":"orthogonal_market/s00","internal_streets":[{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.0},{"a":[1.0,-18.0],"b":[1.0,18.0],"width":3.0}],"zone":"outer"},{"bounds":{"max_x":-23.4,"max_z":21.6,"min_x":-66.6,"min_z":-21.6},"category":"commercial","center":[18.4500007629395,-31.956335067749],"connectors":[[-45.0,-21.6],[-23.4,0.0],[-45.0,21.6],[-66.6,0.0]],"district_id":"com_bazaar","footprint":[[-66.6,-21.6],[-23.4,-21.6],[-23.4,21.6],[-66.6,21.6]],"id":"orthogonal_market/s01","internal_streets":[{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.5},{"a":[0.0,-18.0],"b":[0.0,18.0],"width":3.5}],"zone":"outer"},{"bounds":{"max_x":-23.4,"max_z":66.6,"min_x":-66.6,"min_z":23.4},"category":"martial","center":[-13.5063343048096,-50.4063377380371],"connectors":[[-45.0,23.4],[-23.4,45.0],[-45.0,66.6],[-66.6,45.0]],"district_id":"mar_hill_stair_training","footprint":[[-66.6,23.4],[-23.4,23.4],[-23.4,66.6],[-66.6,66.6]],"id":"orthogonal_market/s02","internal_streets":[{"a":[-18.0,1.0],"b":[18.0,1.0],"width":3.4}],"zone":"outer"},{"bounds":{"max_x":21.6,"max_z":-23.4,"min_x":-21.6,"min_z":-66.6},"category":"commercial","center":[31.956335067749,18.4500007629395],"connectors":[[0.0,-66.6],[21.6,-45.0],[0.0,-23.4],[-21.6,-45.0]],"district_id":"com_wharf_storehouses","footprint":[[-21.6,-66.6],[21.6,-66.6],[21.6,-23.4],[-21.6,-23.4]],"id":"orthogonal_market/s03","internal_streets":[{"a":[-18.0,1.0],"b":[18.0,1.0],"width":3.4}],"zone":"outer"},{"bounds":{"max_x":21.6,"max_z":21.6,"min_x":-21.6,"min_z":-21.6},"category":"residential","center":[0.0,0.0],"connectors":[[0.0,-21.6],[21.6,0.0],[0.0,21.6],[-21.6,0.0]],"district_id":"res_fisher_court","footprint":[[-21.6,-21.6],[21.6,-21.6],[21.6,21.6],[-21.6,21.6]],"id":"orthogonal_market/s04","internal_streets":[{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.8},{"a":[0.0,-18.0],"b":[0.0,18.0],"width":3.8}],"zone":"center"},{"bounds":{"max_x":21.6,"max_z":66.6,"min_x":-21.6,"min_z":23.4},"category":"residential","center":[-31.956335067749,-18.4500007629395],"connectors":[[0.0,23.4],[21.6,45.0],[0.0,66.6],[-21.6,45.0]],"district_id":"res_family_court","footprint":[[-21.6,23.4],[21.6,23.4],[21.6,66.6],[-21.6,66.6]],"id":"orthogonal_market/s05","internal_streets":[{"a":[0.0,-18.0],"b":[0.0,18.0],"width":3.5},{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.5}],"zone":"outer"},{"bounds":{"max_x":66.6,"max_z":-23.4,"min_x":23.4,"min_z":-66.6},"category":"martial","center":[13.5063343048096,50.4063377380371],"connectors":[[45.0,-66.6],[66.6,-45.0],[45.0,-23.4],[23.4,-45.0]],"district_id":"mar_gate_watch","footprint":[[23.4,-66.6],[66.6,-66.6],[66.6,-23.4],[23.4,-23.4]],"id":"orthogonal_market/s06","internal_streets":[{"a":[-1.0,-18.0],"b":[-1.0,18.0],"width":3.8}],"zone":"outer"},{"bounds":{"max_x":66.6,"max_z":21.6,"min_x":23.4,"min_z":-21.6},"category":"residential","center":[-18.4500007629395,31.956335067749],"connectors":[[45.0,-21.6],[66.6,0.0],[45.0,21.6],[23.4,0.0]],"district_id":"res_fisher_court","footprint":[[23.4,-21.6],[66.6,-21.6],[66.6,21.6],[23.4,21.6]],"id":"orthogonal_market/s07","internal_streets":[{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.8},{"a":[0.0,-18.0],"b":[0.0,18.0],"width":3.8}],"zone":"outer"},{"bounds":{"max_x":66.6,"max_z":66.6,"min_x":23.4,"min_z":23.4},"category":"commercial","center":[-50.4063377380371,13.5063343048096],"connectors":[[45.0,23.4],[66.6,45.0],[45.0,66.6],[23.4,45.0]],"district_id":"com_bazaar","footprint":[[23.4,23.4],[66.6,23.4],[66.6,66.6],[23.4,66.6]],"id":"orthogonal_market/s08","internal_streets":[{"a":[-18.0,0.0],"b":[18.0,0.0],"width":3.5},{"a":[0.0,-18.0],"b":[0.0,18.0],"width":3.5}],"zone":"outer"}],"semantic_only":false,"shift":[0.0,0.0]}
+V4_CROWD_GEOMETRY {"ok":true,"revision":"dace582a54b331245755666001ab0d68205da6b86132ce8e065aa46b373280ef","samples":1372,"zones":4}
+V4_CROWD_ATTACH {"ghosts":16,"independent":true,"ok":true,"region_id":78,"source":"city_forge_authorized_geometry","urban_areas":{"cf/r4_verified_00":{"district":"residential","sector_id":""},"cf/r4_verified_01":{"district":"residential","sector_id":""},"cf/r4_verified_02":{"district":"residential","sector_id":""},"cf/r4_verified_03":{"district":"residential","sector_id":""}},"zones":4}
+V4_CROWD_STATUS {"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":16,"hour":10,"last_region_event":78,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":78,"visible":4,"zones":4}
+V4_CHECK trade_receipts_reopen true
+V4_CHECK physical_existing_merchant true
+V4_VENDOR npc/r78/cf/r78/s01/b02 (56.21167, 18.02109, -4.387769)
+V4_CHECK physical_merchant_ui true
+V4_CHECK real_shop_quote true
+V4_TRADE { "ok": true, "duplicate": false, "committed": true, "receipt": "trade/qa_7920900", "wallet_after": 9831, "total_wen": 136, "vendor_revision": 5 }
+V4_CHECK buy_atomic true
+V4_CHECK duplicate_exactly_once true
+V4_CHECK stale_quote_rollback true
+V4_CHECK second_trade_existing_shop true
+V4_CHECK trade_save_failure_rollback true
+V4_CHECK trade_save_failure_disk true
+V4_CHECK insufficient_funds_rollback true
+V4_CHECK inventory24_fixture_valid true
+V4_CHECK inventory24_rollback true
+V4_CHECK trade_after_failure true
+V4_CHECK real_sale true
+V4_CHECK nine_unmapped_goods_blocked true
+V4_CHECK legacy_coins_preserved true
+V4_CHECK receipt_collision true
+V4_CHECK merchant_distance_denied true
+V4_CHECK v4_save true
+WARNING: R9 master site unoccupied, unsafe route: 101:101:r14:r14_martial_medium_v1 no_physical_gate_approach
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] _bind_verified_martial_occupancy (res://convergence/region.gd:81)
+         [1] prepare_population (res://convergence/region.gd:52)
+         [2] change_region (res://convergence/game.gd:206)
+V4_CHECK v4_failed_travel true
+V4_CHECK crowd_preserved_failed_travel true
+V4_RESULT {"checks":36,"failures":[],"reopen":true}

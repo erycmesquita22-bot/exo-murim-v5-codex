@@ -1,0 +1,30 @@
+{
+  "id": "rural_martial_village",
+  "weights": {
+    "residential": 37,
+    "mixed": 19,
+    "artisan": 9,
+    "commercial": 5,
+    "martial": 22,
+    "institutional": 4,
+    "plaza": 4,
+    "noble": 0
+  },
+  "economy": 0.4,
+  "martial_presence": 0.35,
+  "noble_probability": 0.004,
+  "maximum_influential_families": 1,
+  "ordinary_population_min_share": 0.93,
+  "guards_per_100_residents": 2,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.7,
+  "implementation": "parameterized",
+  "name": "Aldeia Marcial",
+  "allowed_scales": [
+    "village"
+  ]
+}

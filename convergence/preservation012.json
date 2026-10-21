@@ -1,0 +1,72 @@
+{
+  "base_archive": "EXO-Murim-Convergencia-01.zip",
+  "base_sha256": "a89ce6b3291fd7a55ef385b71d60754f651e387d8bdb263e8064db1bad307a2b",
+  "protected": [
+    {
+      "file": "main.gd",
+      "base_sha256": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+      "current_sha256": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+      "unchanged": true
+    },
+    {
+      "file": "rig.gd",
+      "base_sha256": "370d7d1f64091db72e76e58e26782b0a46a61adae3aec290d858023f1bfefceb",
+      "current_sha256": "370d7d1f64091db72e76e58e26782b0a46a61adae3aec290d858023f1bfefceb",
+      "unchanged": true
+    },
+    {
+      "file": "arsenal.gd",
+      "base_sha256": "0fdcff226825c808cdc523073fe72e5ad30b02bddf536ed570381384b8fd3332",
+      "current_sha256": "0fdcff226825c808cdc523073fe72e5ad30b02bddf536ed570381384b8fd3332",
+      "unchanged": true
+    },
+    {
+      "file": "animation_library.gd",
+      "base_sha256": "6d99c8510e66ff18d721bd6a32f4bd1da8090774dc8a637cdd68a88fa26b3651",
+      "current_sha256": "6d99c8510e66ff18d721bd6a32f4bd1da8090774dc8a637cdd68a88fa26b3651",
+      "unchanged": true
+    },
+    {
+      "file": "wardrobe.gd",
+      "base_sha256": "4ba2d658d4914d036619e6ffcca935b8ef087da77021de75fa316ab61fa1d88f",
+      "current_sha256": "4ba2d658d4914d036619e6ffcca935b8ef087da77021de75fa316ab61fa1d88f",
+      "unchanged": true
+    },
+    {
+      "file": "combat/player_combat.gd",
+      "base_sha256": "c0e1e90ed5487abdab6f94d7faefe070e3e587c031fbbe8d83d6315c1842a820",
+      "current_sha256": "c0e1e90ed5487abdab6f94d7faefe070e3e587c031fbbe8d83d6315c1842a820",
+      "unchanged": true
+    },
+    {
+      "file": "catalog.gd",
+      "base_sha256": "b9d728a98c26a5e82545538ff852d8f71f82327f837a0c34f63a6ea2068ea843",
+      "current_sha256": "b9d728a98c26a5e82545538ff852d8f71f82327f837a0c34f63a6ea2068ea843",
+      "unchanged": true
+    },
+    {
+      "file": "inventory.gd",
+      "base_sha256": "3070b67c4c7f4cb5319488ba56a6d6778560133bddfa7faa327071a1b6855b3a",
+      "current_sha256": "3070b67c4c7f4cb5319488ba56a6d6778560133bddfa7faa327071a1b6855b3a",
+      "unchanged": true
+    },
+    {
+      "file": "journey_save.gd",
+      "base_sha256": "30a0bda227557fc5354a7efd150030a1de336111ac3760815e6c65ad18399e7c",
+      "current_sha256": "30a0bda227557fc5354a7efd150030a1de336111ac3760815e6c65ad18399e7c",
+      "unchanged": true
+    },
+    {
+      "file": "murim_flow.gd",
+      "base_sha256": "e18c00673251539997fdc3bb54707f2f4009a328813bed401d79821ad6265019",
+      "current_sha256": "e18c00673251539997fdc3bb54707f2f4009a328813bed401d79821ad6265019",
+      "unchanged": true
+    },
+    {
+      "file": "techniques.gd",
+      "base_sha256": "1125c5ce8832ce55ddcf64a5ce6100bf689e0f908f7f4995d10f85a9402c5732",
+      "current_sha256": "1125c5ce8832ce55ddcf64a5ce6100bf689e0f908f7f4995d10f85a9402c5732",
+      "unchanged": true
+    }
+  ]
+}

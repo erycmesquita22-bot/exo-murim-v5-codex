@@ -1,0 +1,1 @@
+Biblioteca usada exclusivamente para clipes de animação. Removidas referências a materiais, imagens e texturas não incluídas no pacote original. Nós, malhas, animações e buffer binário preservados. Nenhuma curva de movimento alterada. Origem e licença CC0: License.txt.

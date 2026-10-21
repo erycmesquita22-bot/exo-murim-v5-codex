@@ -1,0 +1,2872 @@
+[
+  {
+    "path": "exo_core/event_bus.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "27d8df76f11872496004582387d9878fa4b6381089613c3ac47fe7f8e9c8d551",
+    "after": "9637a4935cf198ad266806e00b91ea26426dedf440b7b4a03ce787a9cd20cff0"
+  },
+  {
+    "path": "exo_core/persistence/migration_registry.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "7e2e615ce26dd7ca23daee5f38185efe738bbd40185ff9fe4210de94684a2a69",
+    "after": "130e56d247619e53b69ce4812f96e5bf3aa4e98ae725248f42a59c731cf54c72"
+  },
+  {
+    "path": "exo_core/persistence/receipt_ledger.gd",
+    "action": "added",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": null,
+    "after": "ce965b041252beadf6809db7d2966dc624ea56cc17567885e2138d454767092a"
+  },
+  {
+    "path": "exo_core/persistence/save_coordinator.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "85c8fb218a8c6569af0ee63478509f47be032dec55401f7896b769b07a6888e5",
+    "after": "31eaf12573f01473487015b2d35ef00051060a791b32e71e391553393a40d9d8"
+  },
+  {
+    "path": "exo_core/tests/qa_persistence01p.gd",
+    "action": "added",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": null,
+    "after": "e0bab605ee0f831ed433c9b2e91f09b5fa4520db24944629836a1d19592b5409"
+  },
+  {
+    "path": "inventory.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "6fdb920be3f84df804410df6227157de0c7fa05ad98d85cee455507b4d040a45",
+    "after": "f4c8c7e42915ea00bd8addf637a9a3ecdab5c1f7e2b3fa60efe123824b436df7"
+  },
+  {
+    "path": "living_world/quests.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "c5c900bf8d43229debd438c5429d0be8b7a837258b68f46f77ceebe29bd07460",
+    "after": "30169c68798617fb99873b4a09be4bb0458a0b49ecb763c49f65c4fde9e2c535"
+  },
+  {
+    "path": "living_world/state.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "221f6f1214ddfeea4b8e2309f2d08f273fee3e2b2a4cd28bf8adaf731719e6a7",
+    "after": "591b5707135b942808db2867197156a6bfdb8456f1f3c885f94d5e571da01986"
+  },
+  {
+    "path": "main.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+    "after": "29775e0c69d7fb9aa5f698981f8f21bab5961b773f13338e1ad3d481a30c2d55"
+  },
+  {
+    "path": "map_view.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "1ad5c167b582433d27433dc40d3f2c4686b76d97ecc1f10e64b973b505eae8d3",
+    "after": "9ec472d1462d952e228e865a13fd56851f7a5004e8e485c894802208d261de9e"
+  },
+  {
+    "path": "narrative/core/narrative_events.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "bb22d8ba26c98104ce2fe640d552022b36bcbbf7610bc0dfd4f97b3f76a03301",
+    "after": "8b7d40b7f0d5f78c4fba60b9a1d9e3ed05d30b02609bb13bec3bbdb75f4fc644"
+  },
+  {
+    "path": "narrative/core/narrative_scheduler.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "6dfdfd8c6a96a8e15028388d26237dc7b49ed63a4c6af622513502d912354e61",
+    "after": "e9a40d9dfcc859a77a64c38d3474093e91192178e22b730d9113e22a4bd8edb6"
+  },
+  {
+    "path": "narrative/core/narrative_state.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "ab99f2a64afc45dbbc4984f6b8f4c4114f65c0d5adc86f8232d282f9da8d9170",
+    "after": "7d6279e94f6d7058a3337fd44964f9f7b7068fb6c1600a29df528d9318ec228e"
+  },
+  {
+    "path": "procedural/world_state.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "57bed72688206144a367b906dacadc79a751798b72c10fba1760e492df84b079",
+    "after": "12dc3d1291bd7b6fe0857b51441f0a3778209fcfa5ca553d193f8e4543dfed12"
+  },
+  {
+    "path": "procedural_qa.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "55dd8c60e3402b3d4fdec8e8a2e568d1e9b54bc533c771e961a365707534b6e9",
+    "after": "55d786f399d9352d550d646a59e34dcd7ad6da1b417633b0bc8f8ca30c0f23c0"
+  },
+  {
+    "path": "regional_ecology/qa_massive.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "854a563887016c17a54ec2a87db45bcd12c6ed5a4e9bffe8489a85b7b5086dd1",
+    "after": "ea0a08a772d351541210be4576d5dca8662789e3426851b4ef192e7c0980d245"
+  },
+  {
+    "path": "regional_ecology/rewards.gd",
+    "action": "modified",
+    "reason": "C02 Core Persistence 01P atomic patch",
+    "before": "67f51bb52d18920befa97e689428973f35e76acd7114a79a8e8111f227af2a9c",
+    "after": "95342f713465516c4b970cf48b1513826a722978b0e0c561aab7414086a0c1cb"
+  },
+  {
+    "path": "exo_core/persistence/save_coordinator.gd",
+    "action": "modified",
+    "reason": "C02 validate pre-existing nonempty migration backup against source world identity/schema/data structure",
+    "before": "31eaf12573f01473487015b2d35ef00051060a791b32e71e391553393a40d9d8",
+    "after": "e125866527c78e481c60f23d3d492b88563dcee6160b5cd6be3f6df5df642f68"
+  },
+  {
+    "path": "exo_ui/LEIA-ME-HUD-01.md",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "c3fd277c5013be65b7636ed329b0ac5973e4c7724e4ece6c36113b518fd9382a"
+  },
+  {
+    "path": "exo_ui/RESULTADOS-QA-HUD-01.json",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "bf23c96210ea383297bf5b4d24132b6330f8873f459e288c8eaa8cc8d9555020"
+  },
+  {
+    "path": "exo_ui/hud_aprovado_referencia.png",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "33c57dadfdebd865958e2d65192a591cabcda9a522d1f42f23f77c8a19a5cef8"
+  },
+  {
+    "path": "exo_ui/hud_murim.gd",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "616e354d951b42645e7c8da50a5d3737320ea373a7cd230b271a9a97486b4313"
+  },
+  {
+    "path": "exo_ui/tests/hud_static_qa.py",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "c6208ac11ce95e66e55f6d9352e860c7c16aba081aff61227b0cd730124bc03d"
+  },
+  {
+    "path": "exo_ui/tests/qa_hud_01.gd",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "7a806a4342ce6ac1dcccec54b79dcb3af348cd8929c107da107e2387b211851d"
+  },
+  {
+    "path": "exo_ui/MANIFESTO-HUD-01.json",
+    "action": "added",
+    "reason": "C03 native EXO HUD widget",
+    "before": null,
+    "after": "ce7b775bb8339a168b9bad4326b2c76c3ac4bb5e9448f6944150147eca605828"
+  },
+  {
+    "path": "exo_hud.gd",
+    "action": "modified",
+    "reason": "C03 HUD Qi and official style",
+    "before": "c00f066c837993c2e28094d8bbde25364d8306ab52267a0ed0bfee72a36adf21",
+    "after": "b8515666ab78b92f2fcd4bfd3439d0cb17519fdba1145fc35ad4ebdc6fbb65aa"
+  },
+  {
+    "path": "exo_hud.gd",
+    "action": "modified",
+    "reason": "C03 HUD Qi and official style",
+    "before": "b8515666ab78b92f2fcd4bfd3439d0cb17519fdba1145fc35ad4ebdc6fbb65aa",
+    "after": "687798ad7ddbf4e80176df207fa479945a42ff0a85bc45072d40b68fc5192790"
+  },
+  {
+    "path": "exo_hud.gd",
+    "action": "modified",
+    "reason": "C03 HUD Qi and official style",
+    "before": "687798ad7ddbf4e80176df207fa479945a42ff0a85bc45072d40b68fc5192790",
+    "after": "1624cae2e3eae0be33df337fac54f8d6301672d451a9cb8c8e8ba4ad6256cb86"
+  },
+  {
+    "path": "exo_hud.gd",
+    "action": "modified",
+    "reason": "C03 HUD Qi and official style",
+    "before": "1624cae2e3eae0be33df337fac54f8d6301672d451a9cb8c8e8ba4ad6256cb86",
+    "after": "b8a4e0bcc6ebd7ab0813a568f19e38350b7343f9f0000e23a03c0a424187973d"
+  },
+  {
+    "path": "exo_menu.gd",
+    "action": "modified",
+    "reason": "C03 HUD Qi and official style",
+    "before": "52a050c7266cb0f89bc1b93767954de07ed7102d13dd43f24dac7770c41e965b",
+    "after": "2e94018e50e48fe47d857652f01b7e1cca094259c05f7f21d5e953b4a2491c76"
+  },
+  {
+    "path": "pause_ui.gd",
+    "action": "modified",
+    "reason": "C03 patch native HUD, inventory hotkey, keep current pause flow",
+    "before": "3742210e466f0b42d8932cbae2ab01902eda798fa1de19248cf76b7f6791bd06",
+    "after": "723d0b5becd55ab1882e906cf7bea0879b1fdf9320e40e105a39540461c8e874"
+  },
+  {
+    "path": "ui/pages/settings.gd",
+    "action": "modified",
+    "reason": "C03 HUD input key guidance; keep EXO Visual settings",
+    "before": "5a558adbcfa56b521d957d17f4c59e0489a8868da580d90a4c7c45ca40215769",
+    "after": "55fe8ec0aad875df919ab9b0c5a3a590d1b63a849b8ef5eb54cf49ded7a92c4c"
+  },
+  {
+    "path": "npc_system02/planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "908d306b66f1fcaad3ff39b9bc7f43cdf0fa5437712485a5f20a0614d3e5fbbb"
+  },
+  {
+    "path": "npc_system02/director.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "e8336c05d54f2df54d7e3ce8a5585aeb82c3e6e098c0ee0a095a1080f4d983d8"
+  },
+  {
+    "path": "npc_system02/profile.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "ef8bbebbce27bd2e418b554bdad9ab0fac72f7cda15228e54e78fd6b7666e262"
+  },
+  {
+    "path": "npc_system02/crowd.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "adb148e795d2899e6324b9a9d80767e64f2c0e1db98516aaf280f530d188378b"
+  },
+  {
+    "path": "npc_system02/tests/qa_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "116287a26567d07fcc45b170d7a4019d4f2609b813b08a82a6a7e7c38b835f62"
+  },
+  {
+    "path": "npc_system02/tests/qa_world.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "5622f3aead8cdfac404d9fc5edb93903af0b74138e015cdec224eaa46308e232"
+  },
+  {
+    "path": "npc_system02/tests/qa_offline_results.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "77b1b8d6a2c43bf7edaffb032380939dc1c07ba9ff0d6f2f10bcf70fa3245aef"
+  },
+  {
+    "path": "npc_system02/tests/qa_logic.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-NPC-System-02-PATCH-CANDIDATO.zip",
+    "before": null,
+    "after": "4ae60877dcf8c1d527eab92366aa0f740a942361245f383e28d904742cde646c"
+  },
+  {
+    "path": "npc_system02/profile.gd",
+    "action": "modified",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": "ef8bbebbce27bd2e418b554bdad9ab0fac72f7cda15228e54e78fd6b7666e262",
+    "after": "448bbb8134de4a5d58d924e0bc112acfcf03a3f4df3b8a2f99a16ab525c54e41"
+  },
+  {
+    "path": "npc_system02/planner.gd",
+    "action": "modified",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": "908d306b66f1fcaad3ff39b9bc7f43cdf0fa5437712485a5f20a0614d3e5fbbb",
+    "after": "254d61cbef2bd85277ca8a5b45cf35540d71f68fccf918bb10c1e4371fa023c4"
+  },
+  {
+    "path": "npc_system02/director.gd",
+    "action": "modified",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": "e8336c05d54f2df54d7e3ce8a5585aeb82c3e6e098c0ee0a095a1080f4d983d8",
+    "after": "de83777af03c540e6bbadd7732d15c1a2ba5c94de730ee35e13e01b997a41f38"
+  },
+  {
+    "path": "npc_system02/social.gd",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "34d96952442d03d1cf7c883df1b1d1501460c47f31a075c9011f7ab98c51df7f"
+  },
+  {
+    "path": "npc_system02/stations.gd",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "f4c9ecf1816c79533acf7e9c6be761f6e861e51ef38241e8b660503d27db327d"
+  },
+  {
+    "path": "npc_system02/tests/qa_r2_logic.gd",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "edbeba24045aae3cf4d028ea7e3712af35ea70f92313ed115d0d5cfa8fe8754c"
+  },
+  {
+    "path": "npc_system02/tests/qa_r2_world.gd",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "8ac505faf3606758d0397919d1ccf2a9c153cbc2f91fb0deb7021d9da89aa597"
+  },
+  {
+    "path": "npc_system02/tests/qa_r2_offline.py",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "579586c06094f4ed34a43d492211e568b622ee960f0d5c0bdba22fb07068df0c"
+  },
+  {
+    "path": "npc_system02/tests/qa_r2_offline_results.json",
+    "action": "added",
+    "reason": "C04 NPC 02 R2 replacing corresponding R1 component",
+    "before": null,
+    "after": "bc39f17133723cd27ed65dbbe67e69a9a97937df92e914b11e433f02404fcdf3"
+  },
+  {
+    "path": "living_world/bridge.gd",
+    "action": "modified",
+    "reason": "C04 NPC personalities",
+    "before": "da9c06b66e63a71b85ab5501e7de1b97065e9fd36865c8759fb0627e1a2d500e",
+    "after": "8365f540a8b62a4351d68258776cab1b89a5306ca92447dec542f65a4337e7d2"
+  },
+  {
+    "path": "living_world/bridge.gd",
+    "action": "modified",
+    "reason": "C04 NPC roster profile enrich",
+    "before": "8365f540a8b62a4351d68258776cab1b89a5306ca92447dec542f65a4337e7d2",
+    "after": "ff6f8819c512747807799e656ee0db39aaf473dee2e694b7aaa60c5ac1f9fcd0"
+  },
+  {
+    "path": "living_world/bridge.gd",
+    "action": "modified",
+    "reason": "C04 NPC social network validation",
+    "before": "ff6f8819c512747807799e656ee0db39aaf473dee2e694b7aaa60c5ac1f9fcd0",
+    "after": "4bc39cc315dc543038f700e6e3aceb80bda379002f1a3b1e0ce530d05777d85e"
+  },
+  {
+    "path": "convergence/resident.gd",
+    "action": "modified",
+    "reason": "C04 NPC R2 resident directional routines/social/patrol",
+    "before": "715a5e6b8a623bfa92022fe703928dbb91ab3e872df60c2393504437ff7fedf9",
+    "after": "11eaa216362811df43bcf7c5f52b9784f26b62ddf4e546ca7defae1835870f43"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC Director service reference",
+    "before": "6165db5c12f4fdb2e6af9a605eb10ee30a08a161023cb079fa06c7f0c6666d5f",
+    "after": "a53e46fdf643a7060d445ba17e66fa693dafa4d9355509f4bde4adefd14df00a"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC manager",
+    "before": "a53e46fdf643a7060d445ba17e66fa693dafa4d9355509f4bde4adefd14df00a",
+    "after": "4dc78f84cca1fd5a515d721bab81fa90655e7fff3b84d5cbb680f94cb9b7f8be"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC init and bidirectional collision",
+    "before": "4dc78f84cca1fd5a515d721bab81fa90655e7fff3b84d5cbb680f94cb9b7f8be",
+    "after": "b45c3dcfeba73b75e25567fa085c62c20f34283493791b5f72daeb90c714bb59"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 snapshot NPC sim clock",
+    "before": "b45c3dcfeba73b75e25567fa085c62c20f34283493791b5f72daeb90c714bb59",
+    "after": "0644c39c5fa4d57c7e4f7b5ca4dd12952346b1b78cb42d7379bf4e5ca866844b"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC clock on loading",
+    "before": "0644c39c5fa4d57c7e4f7b5ca4dd12952346b1b78cb42d7379bf4e5ca866844b",
+    "after": "51c1de91fd30ff209a9380c5b7b46653b4506d7d1f3c797069445e08a27bce48"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC spatial neighborhood",
+    "before": "51c1de91fd30ff209a9380c5b7b46653b4506d7d1f3c797069445e08a27bce48",
+    "after": "11cad6bafd21aa3733ba5fd5f10ab8a8d8eaf74745c2997391d50928d65b17c0"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C04 NPC spatial tick",
+    "before": "11cad6bafd21aa3733ba5fd5f10ab8a8d8eaf74745c2997391d50928d65b17c0",
+    "after": "de388217192ae886d38b4ce4267cfd5b040d426c2c9ff08bf374164d8f3059e5"
+  },
+  {
+    "path": "murim_flow.gd",
+    "action": "modified",
+    "reason": "C03 boot creator to procedural atlas after creation",
+    "before": "0335fb44c1dccb2ae6b7dadd73dddaa3463c7d399a92b3bbc43cd0351482fcc4",
+    "after": "ffcf9c1a10d9a5d068abb16620dc23e63d30cecd635cca26db512236d6c1bbde"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C03 regional checkpoint recovery to seeded region (legacy respawn remains temporary fallback)",
+    "before": "de388217192ae886d38b4ce4267cfd5b040d426c2c9ff08bf374164d8f3059e5",
+    "after": "ce7e6f24dd7a71c383d46774e61667f05411bb32f4708abc8737cd82c48c41d4"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C03 rename legacy return gate visible text",
+    "before": "ce7e6f24dd7a71c383d46774e61667f05411bb32f4708abc8737cd82c48c41d4",
+    "after": "bbb7ebfe8be3bdf8d52158824d8469eac3d5a89338af47172aff7a500d54fabf"
+  },
+  {
+    "path": "genesis/dressing_billboard_r1.gdshader",
+    "action": "added",
+    "reason": "C05 Terrain R1 new owned dressing/foliage assets",
+    "before": null,
+    "after": "f72001b3522a64532382ad8b667ad71411a1b772a461970f0c3ee6f0389d82aa"
+  },
+  {
+    "path": "genesis/dressing_r1/ORIGEM.md",
+    "action": "added",
+    "reason": "C05 Terrain R1 new owned dressing/foliage assets",
+    "before": null,
+    "after": "accb4d71a714c533d247cf6ec7f2f349e2747cd1ed9cc4733e65a824217f70e0"
+  },
+  {
+    "path": "genesis/dressing_r1/foliage_original.png",
+    "action": "added",
+    "reason": "C05 Terrain R1 new owned dressing/foliage assets",
+    "before": null,
+    "after": "e4d341ae7406586c1088a265d5301c96733ed843313502f508ad1d946a36a3eb"
+  },
+  {
+    "path": "genesis/terrain_dressing_r1.gd",
+    "action": "added",
+    "reason": "C05 Terrain R1 new owned dressing/foliage assets",
+    "before": null,
+    "after": "a645fb37dd9ea84523cc9298b10dc9ff7034cc88abb05afcd2423c30ebfe6850"
+  },
+  {
+    "path": "genesis/terrain_r1_native_probe.gd",
+    "action": "added",
+    "reason": "C05 Terrain R1 new owned dressing/foliage assets",
+    "before": null,
+    "after": "d7503ae823416ec4e8f8c00b70b47ceb75a4f5c1359319acf72a6566cde6540a"
+  },
+  {
+    "path": "genesis/region_scene.gd",
+    "action": "modified",
+    "reason": "C05 Terrain R1 scene dependency",
+    "before": "7a9de6eabaf5aad9d79f077550d7307b7cae824029323370d23717a52a87043f",
+    "after": "4a8fc4b0a10e6a4aef873780f8d3668e5e6c2d08717e297051dde405f9089beb"
+  },
+  {
+    "path": "genesis/region_scene.gd",
+    "action": "modified",
+    "reason": "C05 Terrain shader seed per region",
+    "before": "4a8fc4b0a10e6a4aef873780f8d3668e5e6c2d08717e297051dde405f9089beb",
+    "after": "d48e7b93787a8253439639d3f40f4852e0a38ae629cfbb83a271f8f2779cf1a3"
+  },
+  {
+    "path": "genesis/region_scene.gd",
+    "action": "modified",
+    "reason": "C05 Terrain WorldGen overlay after existing roadside grass",
+    "before": "d48e7b93787a8253439639d3f40f4852e0a38ae629cfbb83a271f8f2779cf1a3",
+    "after": "4b084de7136fb8f3f8d2dadeb763913c845fb29fba10c09f2690a37fa9c85210"
+  },
+  {
+    "path": "genesis/terrain.gdshader",
+    "action": "modified",
+    "reason": "C05 Terrain R1 low frequency anti-tiling shader; Visual R2 uniforms retained",
+    "before": "e7826ad074eee47c9478dfb753c25875354275ad111649f262ad693fe9947649",
+    "after": "49b6db1ffb676b47e1d67ebabee251e2428b0b568930e6c8797c50e7613ad8bd"
+  },
+  {
+    "path": "exo_dungeon/assets/ASSETS-ORIGINAIS.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "64c3526abe16a1e49a8024bbff00376c413767e9dc9eb46526d9a977341bdd62"
+  },
+  {
+    "path": "exo_dungeon/assets/ORIGEM-RECURSOS-02.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "973459ffaaa2b5cab9ba43ddb48686733d9a5886e0d82340d770a891ab70695e"
+  },
+  {
+    "path": "exo_dungeon/assets/generate_textures.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "f324d430d8aecb70185f81f9ad98088418d0b60152df870c94c042b302eb5add"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/cave_rock.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "79fac5b5dcdd21aebe4ed224000cfc25616790fd1ed8cac8f88c4dce3ce5b5b5"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/roof_tile.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "b9581b8c438b68219ff0c862f5a031920510b6d920ddd28ada6eea6cd935d924"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/stone_tile.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "32489d0c0ebf903a1fa2de7e5fd40980b31ebe709128b377d6b20015d3d6629b"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/temple_paving.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "24c6ccdb7fa1ff81f5fd579651d04c1e5d57bfb6c746e95f98411084a10a0443"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/timber_grain.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "274cd5d368942a166570414be6ac79b4f0aedf4144349eef2bc5d4bb45595df3"
+  },
+  {
+    "path": "exo_dungeon/assets/materials/tomb_relief.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "a82013457ee5b91a34d5ec77bbdf6aa4d221037cf907613aebd88ae945152afe"
+  },
+  {
+    "path": "exo_dungeon/docs/README.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "4a65d91ca8d4e4018170961665506c87f3c2ecb14b0af4ef096ec12d5a85a2e7"
+  },
+  {
+    "path": "exo_dungeon/docs/historico_r2/INTEGRACAO-DUNGEON-GENESIS-01.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "f882aea3000710fe5e7247a5842b9efbea9f2abf13b9b804226682ed2d9391df"
+  },
+  {
+    "path": "exo_dungeon/docs/historico_r2/MANIFESTO-DUNGEON-GENESIS-01.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "00a0088f7ab334f2f432e3b1389abed418cc7975ca8ab10620585aef2b9b1cbe"
+  },
+  {
+    "path": "exo_dungeon/docs/historico_r2/README.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "0cc14203485302999ad5b15778f07a9dd5dd92af7f1db085eed379739b2c0121"
+  },
+  {
+    "path": "exo_dungeon/docs/historico_r2/RELATORIO-DUNGEON-GENESIS-01.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "390a625719e02b450cd5184b03a3a9c63856299df9bea9a1ea759ee796d6d3df"
+  },
+  {
+    "path": "exo_dungeon/encounters/encounter_planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "498b63a63a02c13fa476b895daa20295827b38458b3153e94c17978d133bee35"
+  },
+  {
+    "path": "exo_dungeon/encounters/reward_placement.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "14a5eb2a5191aae1ece7cfda44458ac6abaff6cf02be82c97ccc2d9503db5081"
+  },
+  {
+    "path": "exo_dungeon/encounters/trap_planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "d86c785b22055fefd603c6f19448c8b7f9dcd4916faab13e4f94450935c87d3b"
+  },
+  {
+    "path": "exo_dungeon/environments/biome_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "9e32f9e12bd389161a4a63ecd576c4f08841ae6a47bc72d8d5dd1d55f89e71fb"
+  },
+  {
+    "path": "exo_dungeon/environments/dungeon_themes.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "a098dfd36f32031483beaed4a96c902412a49916aeefcb1222c05f3f5369f54e"
+  },
+  {
+    "path": "exo_dungeon/exploration/progression_rules.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "caf396f39aefb4f446b9f99fe3551d2f6eed57bacb2c299d4df54874a253d81f"
+  },
+  {
+    "path": "exo_dungeon/exploration/secret_discovery.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "bf7ad3199ba4ae84621cef336c75e8fd0ba71c798b41e6b2fa18c490060167f6"
+  },
+  {
+    "path": "exo_dungeon/generator/connectivity_validator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "6c9a32446984895f91cea7bfe1f11c0cd90b73839a616603f10c250497649dc6"
+  },
+  {
+    "path": "exo_dungeon/generator/dungeon_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "b0c98df43576988c2f84e51db6ae4d6b346297172e58e5351f82d226965fd8a4"
+  },
+  {
+    "path": "exo_dungeon/generator/generator_v2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "84929d1f0a7f156f8e15eec1ed4dadaa6888e8b2cfdd55d80e367c0ebfcc625d"
+  },
+  {
+    "path": "exo_dungeon/generator/generator_v3.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "5913e9491bcbed0be1ca49f10591d3409f15ed6f76caade780ac8809c6aaa8c5"
+  },
+  {
+    "path": "exo_dungeon/generator/room_planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "b1f47344511f18949e0ef1715b9740eb9c28d1283b1522d81a8709293a642cb2"
+  },
+  {
+    "path": "exo_dungeon/generator/validator_v2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "6d442bf36e09400749dac9c65ba968d7fa894d954d1659545669e160cf51d3e8"
+  },
+  {
+    "path": "exo_dungeon/generator/validator_v3.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "866450eac9560b6a3baa5394e642c2c206b177410fb8defc8ba31bdd0dfc79d0"
+  },
+  {
+    "path": "exo_dungeon/integration/combat_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "1457f0fdccee90b091db21eed1f8f7981e6208ea6633a52cc60d3cf0fce0d17f"
+  },
+  {
+    "path": "exo_dungeon/integration/core_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "6ccb9d0e3347f71b1f27b45a38a1af25f3d78c734f5c1353d8f7d9da0efce954"
+  },
+  {
+    "path": "exo_dungeon/integration/entrance_footprint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "0066d76eea18317d104efee695f7e9629a38267c3ea18305d86610f11d5139d8"
+  },
+  {
+    "path": "exo_dungeon/integration/exterior_entrance.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "e366849004bfdf2b0eda0d56ffcef56a8ffb6041ffedcf61692d6f1bfed84b9e"
+  },
+  {
+    "path": "exo_dungeon/integration/forja_visual_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "ef1f0be2affa6cb8560e3b9331ba7741a3377feb1deb962766b200778b91b80b"
+  },
+  {
+    "path": "exo_dungeon/integration/narrative_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "91bfb80dce8ca9d4d085a207b4dfad423760b2d13805affd546f89952fc61883"
+  },
+  {
+    "path": "exo_dungeon/integration/world_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "9b1fbf201051da9f9c43ddd0a0970b03f5869fc36176496ebe57d12ec191662c"
+  },
+  {
+    "path": "exo_dungeon/lab/main.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "22a677cbbb044b2d6bbf5be5135f93008ce3bf26fc0ba790c3b25c9069178ab2"
+  },
+  {
+    "path": "exo_dungeon/lab/main.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "cf9d9a533040a81b4616f050e964768c3fbb327cd944fc7774f03a82e8dc3c11"
+  },
+  {
+    "path": "exo_dungeon/lab/physical_mocks.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "64043a5ad16d54c537958eb43176ee31bde063571d3d1cf5c2ba1977a404d6d7"
+  },
+  {
+    "path": "exo_dungeon/lab/playtest.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "99c83f5982928c1c50c7ca88530333401ebe9ccabb70a307cfed1129224deaa7"
+  },
+  {
+    "path": "exo_dungeon/lab/playtest.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "bbfdc868f4267035aaedcc93afbe12ae09e4338adaa9fdf4a6eaacf7100c964e"
+  },
+  {
+    "path": "exo_dungeon/layouts/architectural_blueprint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "9891159a5481d056e36cd35650a027e045266a03b72e0c8133da8eeba2e0d2d6"
+  },
+  {
+    "path": "exo_dungeon/layouts/room_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "2078c72167653a3df71eb9628de22c4ae0fcb51679b0a09b8eae046586e58f65"
+  },
+  {
+    "path": "exo_dungeon/module/entrypoint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "4452b2c54b0307ff501849be53487ebe2a2005fbeb6e3fe41948044a2f4c87e7"
+  },
+  {
+    "path": "exo_dungeon/module/manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "a274cca7da4bdf7c8616e4c39c2e10168aa4b934c059f11526103ff73bf959fc"
+  },
+  {
+    "path": "exo_dungeon/persistence/dungeon_state.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "13dfb2a9a9f4438cb6b6cacb6a428bb20e05dd28936ee81706f30986e300af5b"
+  },
+  {
+    "path": "exo_dungeon/persistence/visit_recovery.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "cb29d7fcc4aa50c1198736ce2a318e7329d4f369e88de6801853bb4c42a7a61e"
+  },
+  {
+    "path": "exo_dungeon/runtime/architecture_kit.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "bafb876447fc7df013f916fb3a48e57ab001cfe147b62c8ea2df4158b22ef4fc"
+  },
+  {
+    "path": "exo_dungeon/runtime/batched_geometry.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "b3ba87f66cba7fb8717b0ef1976c0ecb4bc0a092fa3c25f19f36970a8d928f0f"
+  },
+  {
+    "path": "exo_dungeon/runtime/dungeon_instance.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "6265bc01070c5a9025afa24e27f6d903b261022273237f413adc440951afa284"
+  },
+  {
+    "path": "exo_dungeon/runtime/dungeon_renderer.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "5c6a5deb6a71b5a979264e33e6c80840aef1da199f10b5403fe12845e3745202"
+  },
+  {
+    "path": "exo_dungeon/runtime/exploration_logic.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "24019b335c91d285c4783c8287adb14d0d99a1f3ce5f2a84695a224d94f07af9"
+  },
+  {
+    "path": "exo_dungeon/runtime/interior_root.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "64a2981436e808110cc4740a99e58703764153e6993c58acffa5c580a48d0193"
+  },
+  {
+    "path": "exo_dungeon/runtime/interior_root.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "227b20d47e8f022d45a09494f62db1b64ba4c2fc934f9e3afbe2a75b5777fcda"
+  },
+  {
+    "path": "exo_dungeon/runtime/renderer_r2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "ade1fd45362e7962bafaeb8f498e3602971ceffdf1715d0d0a33f4611a2fd901"
+  },
+  {
+    "path": "exo_dungeon/runtime/renderer_v2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "f321e119f037ed516096404e3df5eef57635030e5084b43230b4348ac6fbcf22"
+  },
+  {
+    "path": "exo_dungeon/runtime/streaming.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "393ba592ec92197f42f305619ec1a7a5ed8919fa0691554c3d0da969b7da1c4f"
+  },
+  {
+    "path": "exo_dungeon/runtime/transition_service.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "2a63645d158499db3078124ce3d71fe5a0fb4903af68f290bf7cb81fe36463d2"
+  },
+  {
+    "path": "exo_dungeon/tests/qa_r2_reference.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "dfba22a693aa2b108873d31c3fb72be8a633d8d793dfc16fc9b87fad7096293d"
+  },
+  {
+    "path": "exo_dungeon/tests/qa_r2_static.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "48af043b3ea0ef254856397cb7efc2648442f7cac66d376b4a541cb542dc6682"
+  },
+  {
+    "path": "exo_dungeon/tests/run_instance_qa.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "d13d7dcc85d1155d9eaa2c664404f207ea15e8e2636a25ac59b04a5f3037d8ed"
+  },
+  {
+    "path": "exo_dungeon/tests/run_mechanics_qa.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "5fa48d2719222360ce0890cfbdfcf332429c9f7bfcbc662c7406ba658a3fe339"
+  },
+  {
+    "path": "exo_dungeon/tests/run_qa.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "23ecb96dbd8e4ad09f9acd1975ffa2e1cf768ca0f2b1012d48b4bbb475ca3b74"
+  },
+  {
+    "path": "exo_dungeon/tests/run_r2_architecture_qa.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "17b534dca9dd4f1ef96eb754fdd4ac083de2cf20612f0adcb92626935a7c4980"
+  },
+  {
+    "path": "exo_dungeon/tests/run_r2_visit_qa.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "5973de97150b88429177366006059e247de1d52256ba0397975ca7987d2e75c6"
+  },
+  {
+    "path": "exo_dungeon/tests/run_render_smoke.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "09a651e9cd40d6c16ef291dff5313622ec858d9a201e86da213e7d97977a7c0c"
+  },
+  {
+    "path": "exo_dungeon/tests/static_audit.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "046a8e6b2d1fb08af2c08a9c7f667b9210d0b0ff71e3fa4edfca30d468db73a3"
+  },
+  {
+    "path": "exo_dungeon/tests/static_audit_v3.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "6149ea41d4dc8e93882e15d95e0a7bfe9b24b7f78618f6d0374678ea7a4bdfec"
+  },
+  {
+    "path": "exo_dungeon/tests/stress_reference.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "1a566294eb88a53a2983ff4feb6f8fe6aa94cabd84bcc8ab93d07ceb0359b527"
+  },
+  {
+    "path": "exo_dungeon/tests/stress_v3_geometry.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "f50f447a2db3a4200a657e33ca01b2ee2979ee40b6dea8a87d7b4a000690521b"
+  },
+  {
+    "path": "exo_dungeon/tests/test_core_contract.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Dungeon-Genesis-02-R2-POLIDO-CANDIDATO.zip",
+    "before": null,
+    "after": "04494e058b19310b498815aff470d910fc4581b38801f7d2f1bd91d68fbaa587"
+  },
+  {
+    "path": "exo_items/balance/balance_rules.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "1a54add8e0f46512e58eda1d57cedebdb0b433996fc1b901049480c18b86fadd"
+  },
+  {
+    "path": "exo_items/balance/power_budget.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "e8767b6ce356c7751e4d545e083672a1342d681d404fe8470dcdd1efcca5fd85"
+  },
+  {
+    "path": "exo_items/balance/stat_validator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "d62da1dc69f6129747670e6c7b4b73fccf4b4e54fde548c6b7328c1300df66ea"
+  },
+  {
+    "path": "exo_items/catalog/equipment_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "77795e3e50f0bc94739a9935d0e01fe5d89936bfe6f6a0fd4b007d35b474777c"
+  },
+  {
+    "path": "exo_items/catalog/item_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "6892289cc5693e68c7819f9d987b9c7f690117f77bbf8e2bca836cf79793bb63"
+  },
+  {
+    "path": "exo_items/catalog/material_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "63bae458bf75b5d108dacf663689024f0483eaf1071b0bf7af06c8efe3c2a735"
+  },
+  {
+    "path": "exo_items/data/affixes.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8"
+  },
+  {
+    "path": "exo_items/data/legacy_reference.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "04084101831fcd112b27a491cc277267a0df9c3644280ab1026ca5571a9b7be4"
+  },
+  {
+    "path": "exo_items/data/materials.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508"
+  },
+  {
+    "path": "exo_items/data/profiles.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "7f83981e2f8531ee514b0b74dbaf6de3b4de55a17837af788118924ded98937e"
+  },
+  {
+    "path": "exo_items/data/rarities.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298"
+  },
+  {
+    "path": "exo_items/docs/CONTRATOS-EXO-ITENS-02.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "593f569bb8239e9f2a6c548ecb42398ce0650810c0b3391ddca3c05a88b849e5"
+  },
+  {
+    "path": "exo_items/equipment/accessory_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "6f2969c7dcc64afba8dae8ee7b513aa66de4bc9367b11234500879d7534551f5"
+  },
+  {
+    "path": "exo_items/equipment/armor_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "887259ce67da9f64373a87ca9bef09773a3ac7d3ac3832a365aa780958cb1b9d"
+  },
+  {
+    "path": "exo_items/equipment/weapon_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "8d20b8afedf04ebdaec9cc8ca80a0aa24782da7a89027933aea72c27c81e7abf"
+  },
+  {
+    "path": "exo_items/generation/affix_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "32871b9c18f2d281fdb1b27ebb60c5787ef46eb096b4572127b67ec98fcf0c85"
+  },
+  {
+    "path": "exo_items/generation/item_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "9b4b0373891f098c3e77882410a1a0e81d300d6bdd6777e48e08e2479e686ad2"
+  },
+  {
+    "path": "exo_items/generation/name_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "ae3c8ddeced249b06cc0aca8ab0c7a585f7e7c6e2ef12105981dd07e3317593f"
+  },
+  {
+    "path": "exo_items/generation/rarity_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "0416c6117dda8cdaaf483292d32ae3b1a9325d083b6a41c6a4c818d5cb773a69"
+  },
+  {
+    "path": "exo_items/generation/stat_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "ff9c048f9c36fa29488202b52bee964a1759fc2a620935b0b9df4d30d7cc19de"
+  },
+  {
+    "path": "exo_items/integration/atomic_reward_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "745f3f688adb40aa1e0a81ed020e7adcc8def1c48572c94615827659a38a2bdc"
+  },
+  {
+    "path": "exo_items/integration/combat_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "eb889ea2a1ac1d1bdc7d23382c11c859df0230478a1903a060c9bd4b641b4478"
+  },
+  {
+    "path": "exo_items/integration/core_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "10342863345dd17ad693109cd1a59e083c6fa9d55baf31cc4d31337cccbebf44"
+  },
+  {
+    "path": "exo_items/integration/economy_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "d15d226ce52896978ea03aa2d9366a328346d28b0839fa8c0bc1d8ac45750e59"
+  },
+  {
+    "path": "exo_items/integration/inventory_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "f2c32aa6238233ad9ff15c3baa0cac171f67613e590d3ed34648c66ef5575774"
+  },
+  {
+    "path": "exo_items/integration/loot_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "11e54f3f974598bc28c6e4770f6d7d5daa502f97a7a51d553afacec1d4236e58"
+  },
+  {
+    "path": "exo_items/module/entrypoint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "e2114f377b0f4cda31a25e896a40f73c723898cb5c40385d10016f1f4b64b64f"
+  },
+  {
+    "path": "exo_items/module/manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "775e266b8ca4ad3b901f62560bacabf5806b6ef06c2e950d0d723320b85d030d"
+  },
+  {
+    "path": "exo_items/persistence/item_serialization.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "703a1df9d948cba7722ef01d8aa0d0c0fa67d0169956793a89b91726e8ffe209"
+  },
+  {
+    "path": "exo_items/persistence/item_validation.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "c2fe1b40021c3144df16f5a6c12b34e14870ec1b7c0aecdd1d8145e3da12b821"
+  },
+  {
+    "path": "exo_items/tests/fixtures/README.txt",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "b3f49d29eb228525617b8bf7db3ee5bdd8ac07e56563c8fc15fa98dc4ea0bec8"
+  },
+  {
+    "path": "exo_items/tests/fixtures/core/data/loot_rules.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "aa7276d325c9a765baa4362c34bfa0cffa8063f0bea04ab76485f296dbe5e4ca"
+  },
+  {
+    "path": "exo_items/tests/fixtures/core/data/weapons.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "889bbaedc1b760da8be1f64420e012a4294913d1ff54999faeba931b05ec6647"
+  },
+  {
+    "path": "exo_items/tests/fixtures/core/procedural/seed_stream.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "148a4e4e3e02e3b0f4e9cd9ea12cf8467f524043ef2aa695c83691b3a5d684a3"
+  },
+  {
+    "path": "exo_items/tests/fixtures/core/procedural/world_state.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "57bed72688206144a367b906dacadc79a751798b72c10fba1760e492df84b079"
+  },
+  {
+    "path": "exo_items/tests/laboratorio_itens.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "e862189358cdb2706811adf6f436dda2aba19155ec1084dc1bf8c6310a23928a"
+  },
+  {
+    "path": "exo_items/tests/laboratorio_itens.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "6b401367d4f7ddce72586f10691deb38e0b9a600d61f85cb2fa2d4477ca88b96"
+  },
+  {
+    "path": "exo_items/tests/offline_qa.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "fdba9a0a97fae811600fc17be9aab990763286ddfdef36e37889fe27929f4475"
+  },
+  {
+    "path": "exo_items/tests/qa_atomic_r3_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "d7f48fa82bb1bb07775cc03700e9ac70c9a82dd375aef6784a28c2a824f43195"
+  },
+  {
+    "path": "exo_items/tests/qa_atomic_r3_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "ea2e90ad6c4326f9985b7bcd3b76444e0bd4a64377393d2b9b1e57d5059cd6f7"
+  },
+  {
+    "path": "exo_items/tests/qa_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "5cbceb29c5ff20f041ffc4b7367865b2272e897cc929f6325e905d03a75f3d54"
+  },
+  {
+    "path": "exo_items/tests/qa_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "1ab2b3503ba458ae51d540191b5975ce7c7e4b67c1325d9a3cb34a21cf5b9de1"
+  },
+  {
+    "path": "exo_items/tests/qa_scenarios_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "e0956339ef402db90b127f1802e272e2ec4c87e6e72621968225edf4e5e39391"
+  },
+  {
+    "path": "exo_items/visuals/appearance_descriptors.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Itens-Procedurais-02-R3-CANDIDATO.zip",
+    "before": null,
+    "after": "cfdc64b6a1a7f2846ff8ae9cfa21c578273da7b078e09f776ba1c5d0b1a8afbb"
+  },
+  {
+    "path": "exo_monumental/assets/glb/abyss_gate.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "c879de53a915d99abb47605305d5a5d2da382166b1f3e5226493f2e31b24a2b8"
+  },
+  {
+    "path": "exo_monumental/assets/glb/ancestral_temple.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "b4d9e2c9da07a8327cb9dbed506e2765480a48ee99f492ace0e3f9f10f367182"
+  },
+  {
+    "path": "exo_monumental/assets/glb/ancient_ruin_hall.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "368747718dfaf8340947e0ddf5610a0057126e0427bab735a7423c3dc1f5733d"
+  },
+  {
+    "path": "exo_monumental/assets/glb/cavern_gate.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "fde01f73c1bf23d2d1d1b40c7e585bc257d0d6f3085965a994a1ac1ab4662132"
+  },
+  {
+    "path": "exo_monumental/assets/glb/fortress_gate.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "2e85495e4726946f8262e9ceb371ca57b67a01a378f479d2945e1bd54776a661"
+  },
+  {
+    "path": "exo_monumental/assets/glb/grand_hall.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "2d161402793fb41da192b102d040ba1dfbc47d7da88b22f0991251d2fa9ff0b1"
+  },
+  {
+    "path": "exo_monumental/assets/glb/long_pavilion.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "07549f65421ec33b7e207e40a5fd4b17a7725c5288678b8f2170944c4c047fb2"
+  },
+  {
+    "path": "exo_monumental/assets/glb/martial_gate.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "b775e76b95e82b4221e6c694fd91ad1c1882a348c9a846fd9d2cabe5dae7cd8b"
+  },
+  {
+    "path": "exo_monumental/assets/glb/martial_hall.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "44338e076311cfb849df1f1a0bc0e5b0d23bc435fcd25bd771771991ecb729d7"
+  },
+  {
+    "path": "exo_monumental/assets/glb/monastery_gate.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "001b73c5af76281826cfac5affa49e386d387063c2ad35bc8fa4e2f718708525"
+  },
+  {
+    "path": "exo_monumental/assets/glb/practice_dummy.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "13d7c1c1b67af6fd0696540be9632f0618a7ec6966ca803102fcc536dfbf3d66"
+  },
+  {
+    "path": "exo_monumental/assets/glb/ruin_arch.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "5dfa097967925fabadec268c26594d039460704a0f32f1afaf73eadc81d31737"
+  },
+  {
+    "path": "exo_monumental/assets/glb/stone_lantern.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "51ced9b2de9894ec182c7f31db818264017880ec1fb43a7540780870c45432b4"
+  },
+  {
+    "path": "exo_monumental/assets/glb/stone_stairs.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "31946014ba908374c3105d31fec57f1e89d95221fd0efaae469b4213b17958d9"
+  },
+  {
+    "path": "exo_monumental/assets/glb/training_arena.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "0a0c2b5ae6064e17a23a3e4442e6f0dcbb9a9917dad0757890f4db2766cc84de"
+  },
+  {
+    "path": "exo_monumental/assets/glb/wall_stone_8m.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "6cd5c1495eb654d21609391a7f0d60cd26eb537b32d7b302bca7d6e9f543f0bf"
+  },
+  {
+    "path": "exo_monumental/assets/glb/watchtower.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "c82982024c1d1d0abf2264aa45827e367688404e01f8400dff339b6600df63c3"
+  },
+  {
+    "path": "exo_monumental/assets/glb/wood_pavilion.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "cbed4937eecdfae0be84f6552545977293a084d79d60017bebde07dbb173f5df"
+  },
+  {
+    "path": "exo_monumental/assets/textures/exo_monumental_floor.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "88fd016e1c9554a57778b0b3e8329d3f947ab953ee5356f20e8051bb24c26355"
+  },
+  {
+    "path": "exo_monumental/assets/textures/exo_monumental_roof.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "af2fa7bd4edd7a279b57a5d4a85205e9b0f5f37da22cb8da652b6776c235f233"
+  },
+  {
+    "path": "exo_monumental/assets/textures/exo_monumental_stone.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "4df6232c14c30d3541c44c087a1f3bdbce0adacb8a4a8730b9a1170b14421672"
+  },
+  {
+    "path": "exo_monumental/assets/textures/exo_monumental_wood.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "d4cc76361fc173f3e4d41ed825ca71a1cbd855891e464c9d7a8faee2ac8ced7d"
+  },
+  {
+    "path": "exo_monumental/catalog/asset_catalog.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "517006a42cf723d6c26a9763220d18de6e346aa3578e5bc909ff34d6c79652a4"
+  },
+  {
+    "path": "exo_monumental/catalog/hitboxes.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "9df8373f1aa3be0cc3d8119709453aab9620537ef7e8e761a31ec62a013ee73d"
+  },
+  {
+    "path": "exo_monumental/catalog/layouts.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "05f22f10575d6af665ee27fca4a0c94ed8cfe06be198d2d0d40e9acca8fe7a80"
+  },
+  {
+    "path": "exo_monumental/catalog/module_manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "416aacb7477949c6770648c8547e22481af5d1dd714b692774d082742c2b4ef2"
+  },
+  {
+    "path": "exo_monumental/catalog/reuse_forja03_audit.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "52d73416ee60d5cc33531381ce8c8c6317cfa6d6bbca743144dc3a256995a0c4"
+  },
+  {
+    "path": "exo_monumental/catalog/school_styles.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "2672f475eb7c987b267afd905e719232dc5eb274a61098798214b0dbee8b904d"
+  },
+  {
+    "path": "exo_monumental/catalog/site_contracts.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "628b6d5a00d470b25324fa8852dfd79553069da22ee0d39010b6dddeb5c2f044"
+  },
+  {
+    "path": "exo_monumental/generation/planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "8e6ac8ec32858ca4262202bf19eeb8d59bdc00561a5a095c9532f3fd4b0e920e"
+  },
+  {
+    "path": "exo_monumental/integration/dungeon_bridge.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "3abeab0e56a873f9f0879a12610fcebbc07ba4ffa057210176a46af230693df5"
+  },
+  {
+    "path": "exo_monumental/integration/exo_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "d0180556087a519213e679eab5ac965c5c69dd36d86ec77d868a13a2a6b2f36a"
+  },
+  {
+    "path": "exo_monumental/integration/interior_bridge.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "f0a29c51b0bf3e957b53d9f83c551415fd398d6fd440159e06596b340fb667ae"
+  },
+  {
+    "path": "exo_monumental/runtime/builder.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "302721e67465e603205f77fa2bdffb1e0fe1c634e913028f9a314a31e4a6dc80"
+  },
+  {
+    "path": "exo_monumental/runtime/interior_builder.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "d464105107668a4255a1d75406252fe0c53ce8e00fe3b5e44d4096a81595f1d8"
+  },
+  {
+    "path": "exo_monumental/scenes/hall_interior.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "1a91f59e41c6d22129410d67c22a372c51b17d5b02f498df83bc50966f95b95d"
+  },
+  {
+    "path": "exo_monumental/tests/ADENDO-FILE-SHA256.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "d009678accc0e6497e87cef3715511357628d619f47fa7ba5b4fe88ddabac650"
+  },
+  {
+    "path": "exo_monumental/tests/ORCAMENTO-ESTATICO.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "fdaded29499f1646ff12ab340c9da92b89f3324b8c21a1dd09e07f156ba00231"
+  },
+  {
+    "path": "exo_monumental/tests/QA-ADENDO-RESULTADOS.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "1cdc6df0ac5b0b09b0d74ad5efcf65a4230d872e649a8dde2283dcc9fc249549"
+  },
+  {
+    "path": "exo_monumental/tests/QA-INTERSECOES.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "481579ca2eea22a70ea35bff6c7c716264c1f6ed756b2fea67877d93f1b4f337"
+  },
+  {
+    "path": "exo_monumental/tests/QA-OFFLINE-RESULTADOS.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "a1f52705aea916751543994db45c8bf45dfafe972c77f662a3f403c498a56970"
+  },
+  {
+    "path": "exo_monumental/tests/native_gpu_benchmark.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "533910ed145953d2de516f6f242466f8711647d827135ed9e26ff1301522fbc2"
+  },
+  {
+    "path": "exo_monumental/tests/qa_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Forja-Monumental-04-CANDIDATO-REVISADO.zip",
+    "before": null,
+    "after": "a756c5c702176dc693e6572acd6324012ef8841f428dff3e2bda58b91e6ad948"
+  },
+  {
+    "path": "exo_martial/contracts/INTEGRATION-CONTRACT.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "38a8ff0eaa270c591f53ed259128cc82f9e8ddc36978df3cf1ab8f3018b130ef"
+  },
+  {
+    "path": "exo_martial/data/school_activities.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "6d84c3b936abe358e7748bd7a68d129d34cda91329b13f9c5946b1f8bac5c15b"
+  },
+  {
+    "path": "exo_martial/data/schools.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532"
+  },
+  {
+    "path": "exo_martial/data/source_core_skills_sha256.txt",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "426f27ee49c13c7be2135156d75aec4cf37b7817c5adb9a7d1864cf314b091de"
+  },
+  {
+    "path": "exo_martial/data/styles.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac"
+  },
+  {
+    "path": "exo_martial/data/techniques.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42"
+  },
+  {
+    "path": "exo_martial/data/training_methods.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "4c74cdb32677a9dfb47f9d6df273e18f51c31113859328419726140271d2227f"
+  },
+  {
+    "path": "exo_martial/integration/mock_narrative_r2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "f5f03161aba61e8ffac5b9036940eaf353b17c6f468ad102c310b509c67bff1a"
+  },
+  {
+    "path": "exo_martial/manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "b85b1c4a1fb1de9e8af4fd02a018d21abf5e95504ee94602bf07ccc5e74b58b1"
+  },
+  {
+    "path": "exo_martial/masters/martial_engine.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "b7735f95974117abf71a0f4411f4b7b25da3f40110523e4ffcd07d3dbec019e8"
+  },
+  {
+    "path": "exo_martial/module.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "96ad086f03104df5764834bf0752fbb3f4532d96a727a3042dc7039fcac393b5"
+  },
+  {
+    "path": "exo_martial/progression/martial_state.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "59b1e968d3b08b1c031e268ce0d4ff50ab0796e8b36f0d9fe9c29b68069fddef"
+  },
+  {
+    "path": "exo_martial/r2/engine_r2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "ede3a955a2a3f87cfdfb5f8a133c325bce648d37cad144d0b73d70ae3d738cb4"
+  },
+  {
+    "path": "exo_martial/r2/state_r2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "5a401e362decfe344aa61d9fe1e8b0c72e05784558544fb1742fe9ac02c83f11"
+  },
+  {
+    "path": "exo_martial/scenarios/EXEMPLOS-FUNCIONAIS.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "c70c7a05edf70f3d06e1bce65895ef0252d2899bf01236fb10b3faea36e520e1"
+  },
+  {
+    "path": "exo_martial/styles/martial_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "eba4f7e3dabdb2fe08bd831573d4ca3faba0ff4cc5e02603155e35f2fc1773f0"
+  },
+  {
+    "path": "exo_martial/techniques/variants.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "5f667f5d779533d76248f91f6bbb689afbfa43f5092bf294c416547c798c1b20"
+  },
+  {
+    "path": "exo_martial/tests/QA-OFFLINE-RESULTS.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "e45ebe1dc190d56ae10442897aa3879329ad6bdd30c9606aa4db711d1eeeea3a"
+  },
+  {
+    "path": "exo_martial/tests/QA-R2-OFFLINE-RESULTS.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "9a9e67e48af214bf2d44acce5e9ca14dc209750ff2a92050640d32a0c348e1d6"
+  },
+  {
+    "path": "exo_martial/tests/README.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "b715648f0a2b58594557ead623a241bf8680128415dcd0b253d76da2d445fed3"
+  },
+  {
+    "path": "exo_martial/tests/fixtures/core_skills_01.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "598d37bd80ebfb7bddfbb0b786e8aed8dba438073efb71bb25310df1f073e6e5"
+  },
+  {
+    "path": "exo_martial/tests/fixtures/core_weapons_01.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "889bbaedc1b760da8be1f64420e012a4294913d1ff54999faeba931b05ec6647"
+  },
+  {
+    "path": "exo_martial/tests/qa_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "4ebe0b6247447a98f5ca96784bc2ed00c7e9fd69786dedfda160c7cab09f933a"
+  },
+  {
+    "path": "exo_martial/tests/qa_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "981c488f311a182834f2311f81f8a1c48ab7ac3cc9c54ee1913ef07bf61f9ba4"
+  },
+  {
+    "path": "exo_martial/tests/qa_r2_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "ce5560e2166ffde843eb97c39c78b1d5d44e1aa38cf2f65c551359dbb4f5e2ee"
+  },
+  {
+    "path": "exo_martial/tests/qa_r2_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Mestres-Artes-Marciais-01-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "10518eaadd7306079f2b3405946a404f66990fe0901e60337e205a810d8d338d"
+  },
+  {
+    "path": "exo_bestiary/ai/behavior_controller.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "c14c23f61cf0211042879e1f1cab8167d4092dc24e0d1976da8c47faf3da4a5f"
+  },
+  {
+    "path": "exo_bestiary/ai/behavior_states.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "7c9a505a0cd490486258bd3ee46d2adb11ada235e5bec9ced5b91091d1e94f18"
+  },
+  {
+    "path": "exo_bestiary/ai/group_coordinator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "5c84de7d36bf224e816292db0916b43148687c69b2d7621314cb74283b7974ad"
+  },
+  {
+    "path": "exo_bestiary/ai/perception.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "d28a62ca629e87930cd82a90345039ba980afe8daf603c23e2febc38c565e1db"
+  },
+  {
+    "path": "exo_bestiary/ai/threat_evaluator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "ea6ae1c859a7dcd51202e059d771dad0f82d863aa2207815f06c9d1e0817f2c9"
+  },
+  {
+    "path": "exo_bestiary/ai/utility_selector.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "20a7d1b3c9bb09f7d1843ef72be290b4583e08f1190bb60b1349e79299cef54f"
+  },
+  {
+    "path": "exo_bestiary/assets/PROVENIENCIA.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "c9ad1f115757fa30f39e7022c50364999e37c0110cec0c647b292148dd7cdf07"
+  },
+  {
+    "path": "exo_bestiary/catalog/enemy_archetypes.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "bce7cd69d7bac8af2a48203205683efc99c83063525aebb137bad9f6a6d2d203"
+  },
+  {
+    "path": "exo_bestiary/catalog/species_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "60e63cef076781c6d6e34e047bfd833adeeabc1eccb1c464bbd93301bbdcfad0"
+  },
+  {
+    "path": "exo_bestiary/catalog/variant_generator.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "84985fa97aeb4ec18ba22a0ce68e0bc3172a19751011e81f8101f3b5e7294e63"
+  },
+  {
+    "path": "exo_bestiary/combat/attack_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "76ef8108df3b85af5b7b53e08b97fc8a1c2d76abc30f54d477d1e052f64f9091"
+  },
+  {
+    "path": "exo_bestiary/combat/attack_selector.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "f5a86acc41b10dd78989083ebdf0b34fd2dfc932dc8686c75042c6bcc05b4980"
+  },
+  {
+    "path": "exo_bestiary/combat/combat_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "ce7baf405a9b691113a17b49f8c9c9caf82953ea75d9320eebee886b92fac420"
+  },
+  {
+    "path": "exo_bestiary/creatures/animal_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4b0e8e14846d7e48e19c6c816b1bfb0c254c7ce3b64f2ea3331d7a4a8a636c71"
+  },
+  {
+    "path": "exo_bestiary/creatures/beast_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "3c020e97d7f132a9396620caba4298920ba2848303c7dccd8543cc4b99eef769"
+  },
+  {
+    "path": "exo_bestiary/creatures/creature_actor.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "ff7979601d2cc1fd4c7c3df47fc1320ac0169f57d7a791fd459691eb189ba763"
+  },
+  {
+    "path": "exo_bestiary/creatures/humanoid_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "b08e12f759c6bba1dc12e64aa0a7c93c5746dc032c7fb3929bc192053528668b"
+  },
+  {
+    "path": "exo_bestiary/data/attacks.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "1fedcd0e0be9a3effb708eb02c95a21114702beedbd4258ed2da66ca33c25d15"
+  },
+  {
+    "path": "exo_bestiary/data/elites_bosses.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "67f60e546c70e8f780855b32fa8700ef86fbeb8a01678d727e0fa3a7b0dac78b"
+  },
+  {
+    "path": "exo_bestiary/data/humanoids.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b"
+  },
+  {
+    "path": "exo_bestiary/data/species.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593"
+  },
+  {
+    "path": "exo_bestiary/docs/QA-NATIVO-PENDENTE.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "0c20adda46e007527a14f2738b7d0b14d078913b7c26480ef50c08dfb67f80b4"
+  },
+  {
+    "path": "exo_bestiary/ecology/ecosystem_rules.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "462a666619c82f16fe786f6132ddf9b47ab10fb4249d90a41b90c76afceba70c"
+  },
+  {
+    "path": "exo_bestiary/ecology/encounter_planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4f2b3f09fb4e9683cef68592d899ccbe85d58b2a3eff602c3c571fb2a861364f"
+  },
+  {
+    "path": "exo_bestiary/ecology/population_planner.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "c953c2151cbe1af2673cfe5a5986c16e3dc1c8308c3074d34c4bbcb8cfd08f86"
+  },
+  {
+    "path": "exo_bestiary/integration/bestiary01_bridge.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "a6b6398ee68da47e0f85eeec0fc488c3b1ccd90af77a49a7da780ba10c40486f"
+  },
+  {
+    "path": "exo_bestiary/integration/core_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "7af49c48775fbed9f4a294c47fe491babd638ab4e00a64cd6c1f149564cc9df7"
+  },
+  {
+    "path": "exo_bestiary/integration/dungeon_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "8a6535ef02f15d27e20a7d99e787578295f68e599fa0022d80e29e3ec5435ac7"
+  },
+  {
+    "path": "exo_bestiary/integration/ecology_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "1579086e6ed5d75d07871dd1965ba457b7cd8da355f6eda0d11476c77b7d0ab3"
+  },
+  {
+    "path": "exo_bestiary/integration/narrative_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4b57cc93bb33578718482c750ca95fd0335089d427b593cc6b0289d48bd59250"
+  },
+  {
+    "path": "exo_bestiary/lab/laboratory.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "549bd2955674e71038781bf267e9fa02df104219fa8b946def7cd34c7281c01d"
+  },
+  {
+    "path": "exo_bestiary/lab/laboratory.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "0351b3c60fa5e7c533fc334a941f4e070f0aa80d3b5796382db4e622099a31a2"
+  },
+  {
+    "path": "exo_bestiary/module/entrypoint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "a4e405f66ff023d2f10f650bf96c6647fc98ee1d44c0f84f689f5dd6d65dff30"
+  },
+  {
+    "path": "exo_bestiary/module/manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "788dcf0122d38d1605cce9b2e43044eb28626fa4d251e2ed9d9620a874ebd4f6"
+  },
+  {
+    "path": "exo_bestiary/persistence/bestiary_state.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "47192af49350b513daaf5a7478f83d270c209d8a50d7a00847930abd8c41802e"
+  },
+  {
+    "path": "exo_bestiary/persistence/validators.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "12f07bbf863ef5dcad797d2e56c05e0088a696f073f430d896f065ec2ee2eaf7"
+  },
+  {
+    "path": "exo_bestiary/progression/difficulty_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "154afb4e54fcc20b87afdea0b6bdf6c8a8adbf3c1f9387b97795c2e5cb7c2f34"
+  },
+  {
+    "path": "exo_bestiary/progression/reward_descriptors.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "8859ffe9bebf90e10ba286889e16ba702d6e1ce8aab2c55b3d35313606d9e320"
+  },
+  {
+    "path": "exo_bestiary/rendering/animation_profiles.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4657e700524a5fd428040ca6c68829e864ea748f5197ef9129f2566cb8371345"
+  },
+  {
+    "path": "exo_bestiary/rendering/creature_visuals.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4bb58269ff555a75cbce5ad0774435a465d5e94a9ad89fa8d8856a4dc304b094"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_all_scripts.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "2cb082e84d07f7db99c1889b66f007b8cf5313f91c44e4b43b7d87b9c2ad4cc2"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_bestiary.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "4eaf380a096f112aa8ce8b562ee59dde9d36bb267185c6482ffc1e577965d61b"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_integration_contract.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "21d14d9c0b1ca05be3e7af8b4133288caedfd1e7a56901c59cc31129049e1ccf"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_massive.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "2bb151a696588f9bfe6dc0800f7fca5aeccd1a7fb123c9fed146ffb4db16110f"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_static.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "745d4c46c3ec11748710ea015298a2060ee81eca92effad86d955b56dda33dda"
+  },
+  {
+    "path": "exo_bestiary/tests/qa_structure.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Bestiario-Inimigos-02-PATCH.zip",
+    "before": null,
+    "after": "da00a0524a3ed62d3a9838cce36ae66b8bd30e96a4044058131f88f615732fa6"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/data/CATALOGO-CRIATURAS-UNIFICADO.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "80c9eae3727d058e3b23728c1fb7c613d0b6320b45aec7f77b0fc494c1a60499"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/data/QA-HARMONIZACAO-02-OUTPUT.txt",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "54506a22945c26b1771a6a33280bceb276bcfa2fdf1f1e06b9b9c0ab84afe73f"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/data/qa_offline.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "f0eca4e6b479d0a7a6d1b22f80f8e1e6eef30b4565f1cc05519b3d5f89faee9c"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/data/roster_bestiary02.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a522569cb23eb6428b081ee027ec8cd590025338e480d37fd6267c581d2a0769"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/docs/CONTRATO-VISUAL-BESTIARIO.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "95a174e80bc9b8220145538a0549c29b4c2420442f0c41180a5c2f05f5ddbe57"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/docs/ESPECIES-PENDENTES.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "0f6d7c4c86a5c06d44ad5a53b2ecc017b2773701ce292fb0b35923bf937dad2f"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/docs/PROVENIENCIA-COMERCIAL.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "9e285303b7c833dae96efa64c34dd2e5e5ae5331fd0b55faabda4e612f7c8075"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/docs/README-INTEGRACAO.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "1005f2f668bf96a23068cec59a24a60ccbe10e1f8870e7ea7f03a5d9a2ba69e7"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/docs/RELATORIO-ARTE-CRIATURAS-02.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a831b75172eee7d08cc34debeaefea0396d659156386e9ec34de6249a589faf2"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/GALERIA-MODELOS-REAIS-17-ESPECIES.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "ac6a4e3ebe70bd9011dae4a673dcc46baa25e351172a1f3258397e541f527a98"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/MULTIANGULOS-8-ESPECIES.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "577086209d4607127f3cfbb941e79979a4b1fb13fba65e192a3e7381453414f9"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/bear_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "98413e263c5fa29a91901c65a27221c20250819a5e86b88141ba47c666f47ccf"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/boar-walk-ANIMACAO-GLB.gif",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a3e75469dbaa0cce9357df77be827b97646da9f8d01b423aa239b3d213761bac"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/boar-walk-FRAME04.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "ee315c58813dc2abf39fda04dcf25a8b6fd224e1f239378172c83955eb202702"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/boar_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "683cc28423a233ba14e9d888d2a0b0b60259b8ea6740f1c14dfd4eed195572df"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/corrupted_wolf_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "4122975a0284d08d65dfb93b6200bff28aaab31cf1af033cc760480df202888d"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/deer_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "0bc9e7bf6d4cc23aea336bbb39dd305d51a9ae21479b95d4e1b0b484ca48faee"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/demon_boar_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "65e43f901a041023b1a45b08143ecbb663e0465bfff72a26e874f3a5f2994880"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/desert_monitor_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "d793e37098a5c6e2c03aea1f2ad506326968e3fdce95af951598720ca2d27ce8"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/desert_scorpion_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "94ffd34ca41f558026dd4c66aafdb9906df8b654b725ebbe3b945d77d52a74b7"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/fox_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "329b5b9eee56f5cc0caa52c55fd6cbd46826a7b7153a40d39ef3aa37f9539cf0"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/kitsune_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "466c0362b0a60915a04681e300ae7d38b4d96b5d6a98d9a946704b8dc831bdb7"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/leopard_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c46c7bb15b6c9f2ab765ef3ff2cdfad1042ea985e502712983b2ef9188a8a67d"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/mountain_goat_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "6cbed253f547141df68b2d279634e6d91fad7259e23ea1b985284eb0144c3ce5"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/rabbit_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "13842a10253f469ebbdb018f50053e0cdc05cac66cda1e576896c183b6dc0e81"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/snake-walk-ANIMACAO-GLB.gif",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "e646311605865c5698a1ceb351b40b901c2083ec0c431575e29a5503fcf436f2"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/snake-walk-FRAME04.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "4d3df6c443d20e7b75c5a2f3bd5cfba864cb93e3eef9645e3f5718aaa1fe5856"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/snake_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "7d63f1c034845dadaa02bc329a643950b2885207736ae3d596584d431d880c7d"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/spirit_deer_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a2f0c32c35ff0af489d024bd47cedb32beb8a876e1e2a8051880e57e5e880081"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/stone_guardian_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "ead5872a3f2a5c06034835b968a350c74807bb840893aee479be02c594b0cd4c"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/tiger-attack-ANIMACAO-GLB.gif",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "ff8118b0cd0a542fae1cc55a0d7d3a2b1f3ef6486886260f38eed250d0db1b55"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/tiger-attack-FRAME04.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "98737d142b03942a71f1cba1e8ec9de0e9b87c6c1c56cdb17040a5965ba74992"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/tiger_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "f7cac9ef5e8cd1e3e2de399a39a6ada8df2635c99570ec93e0cfe3d5e97f9755"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/wolf-walk-ANIMACAO-GLB.gif",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "e7a32dcbc173a7e68910a6a06de3668fd4f464f85f21c8b0161e5bdd074317b7"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/wolf-walk-FRAME04.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "772a86bce7eb8c9f5c2293e4fe8419b64c89fa9868f1ed36abff984194eeb5d1"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/evidencias/wolf_frente_isometrica.png",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "452af54412d6ef85bd268003bd70cdb62167785396773b0ccd103d7348601042"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/integration/bestiary_binding_example.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a96c4c5edb2c9621047bd908ba8c1778cdb10fb6ed87402a72a6e10d6f8d3ee8"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/integration/visual_catalog.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "0215470c96aebc5791249ff5cfe118b896121bbbbff66f32448810d9a92a311f"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/lab/harmonizacao_lab.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c903d7f2bf6147c8d09b66ac7b048d2aebfe41502ec212dc259eb83026e6cf32"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/lab/harmonizacao_lab.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "cbd2ea51c4a8eb57d6654d8edd87b0f30711d5341f8c68a893f6b478d22b5205"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/bear/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "3d0cf0bc3cc7283b1e24ca8b6f335bd4d2d4a277fe5a1fd3ee42523fb4f591f4"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/boar/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "7bb6b8886168f109f4950ce412f5de71f6c92beb1e56684ac413d7eb49d25348"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/boar/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "db01cfcf8ad3167a1214e5bd9e5f649ad10edac8ade9b2c762ea76b0e7766faa"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "5fcbcd9f36f4b5cab03641d37f5bc8efc1adc9ad6c29e74a0ab08e8ab8697a03"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/deer/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "7fd24bed05d2bc27d7ee9157f4358a63c29fbde92ef438dec23618e1c79fc493"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/demon_boar/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "7e2866b53a113b9486bbaf4ce3cc0c59815dc726a430878b8d9e0295a86285f7"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/desert_monitor/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "0e433bc64ad02ce662c48b506ee3450a2a8c850f19fc04c89e742e81de96f1c6"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/desert_scorpion/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "89b67e325231ad9ebd5cc20e808d3f431cb6ee6ff051b862f78e3b511d5dfabb"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/fox/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a2a02ac187d30bb4f19cf7e371a9216f009585e433cc0a4640f3bec4998fdb28"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/kitsune/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "e52a88a202f77574e1d69079244b209cfe92af807039b604bcd8f6eeb861ab3d"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/leopard/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "90f48a193646d66efac03615632522bbbad5360602c886b22b49a3a02d37ee13"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "693ebb0a1d1c6d963909bf0374df9b8ad0d734e7da275c129a9c87cf8ab022de"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/rabbit/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "6a14d1ed5a34db148f36d6510c8a3ac5000fcb1cb5674bb35ca01d21c3d93444"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/snake/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "16a13d0bd08386c032cc84153c6f785c4e276ac53320f05055bec28dda5cf558"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "3747ba0966469894fa2c1fe984dbc3ab3ded5d7fbefb199f9db71ad5e2b700ea"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "20cbc304618f4c1d63e0d2576dc846bd6f85f458edf995ab27f01e2b267cc891"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/tiger/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "f2fe19532b8524607c373b171ecba87e3238fdf228dffab9694b2d918f1522a2"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/tiger/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "5eb2c75a73ce6648d41c54c494e88c413417660e914eb3aed1df333f2b44c3d5"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/wolf/art02.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "6d05a1e6949bd793c696a54e11af8a8561ef107480ac3f3f78ceaebe8b7c6d20"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/models/wolf/forge.glb",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "9cf77b729b4388586a6a67efa868b912da43b5201af2fd84792d2ffc1836370e"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/module/entrypoint.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "dfdde285ddeb7a39db88732a30d123ff39b121ece67f06ddebf241d514b0b0e1"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/module/manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "d9e563937636808d9472dc20a7fe1c4466ca3aede7e55195511d1b8d261b683a"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/bear/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c43a5ee1680627650886fc63a95d72638503b08211d78298f31187e097a43bc3"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/boar/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "490399feccbc958a9178104e873fc3d3e941f3b39eff7bf2c4dfd067494a8b64"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/boar/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "310e6fb9f8dec6e23f09fa39a0598e2f945852dc6142b549c6e6e5b6f8ce272b"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "1468b252f7264d95bc1a62aaac5b0582730970d1914ac587098158b3414a51ef"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/deer/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c961ab9098aba3bd80d0f1d6500e5780e2d5d25a1cdd061fea0e6c2273920eaa"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/demon_boar/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c715b4dbbfd3884bb665d30b959c2ced68712fd2062af800b608efe8645bed86"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/desert_monitor/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "509f8d5f943fbce407645611303649c31f4c822d0b25e0c191b7b0fe56f1be4b"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/desert_scorpion/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "3e1e53c57be7925969641436426ec1f1df8503a8a922f41e94bd9ab693ffecfc"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/fox/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "248be20d7f40648261bcfdd9329d1d9b6b3c370a8a2e5d21ab4051647efa7303"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/kitsune/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "2d801d231a8865b24b5cbae37c484404ad8475355901adbcafd377870ee24dc8"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "5e088d2ea44978be50bc22dbfbac5eb0c4cdc8d4105df530c232f40ca62da23b"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c494b2c0ff67eb2c171ac5f50db1d500375e14352b2dfae047eebe66b864c4be"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "6b291dbab3baa3f0a0f885d5c8b7bc3d8106a9115760b6cf127077a186acc956"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/snake/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "d1e152678b29e639b6390d7792e52cb6934f041b86dd0eabf6c337c71e2bd2b3"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "292b534038b7eeb95bd634ef1b1a1ec73a11f2c734d849155d71c4a67460021a"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "28981efbffd6b6ef3facdfc0b66656b6761dd9876be65e946a21034525968c8b"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "f1a54e1fc1ea8f63c04a0ef4fc32bfac2aba66844d230564e16e6e8609074a04"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/tiger/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "dfb30974254dbf7d3288f80d888b36a3f762e0afd3e3f9c0f73da6303bbafce8"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "a8d622b16287e4ab65a2d3c4c71fbb3ac51746a7ffe46618956f7663326dce13"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/scenes/wolf/forge.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "3790e6e3c963d2b1d5dba65f18c8c7dc653c7e1e88e1408ff219acec5cef60a5"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tests/qa_harmonizacao.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "6e195e9f026088fe25574cc6d4dd7f2a5827ff801b2509394b6ba860a1421188"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tools/README.md",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "c595a37b177503a2c774da6153f7d23a360a04d04483ad514e3ba5d24e4f8cdf"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tools/build_harmonizacao.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "4dad8d3278d673820a468999a0286580fed1e2a12c5170a47002feb6011e06b1"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tools/finalizar.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "217b9e2404f6fed730444bae804751c86bf632fbbe13f702d0103499d87923f2"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tools/render_glb.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "0c6f9ce1b42a8e8aaeeecb018424ad21b88547a3784ce42b63864db2732bd309"
+  },
+  {
+    "path": "exo_creature_harmonizacao02/tools/render_motion.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Creature-Harmonizacao-02-CANDIDATO.zip",
+    "before": null,
+    "after": "d2fb5ef2a0b55689a8732b2357058d5aa65254a0c727e466c052b99aafdb8302"
+  },
+  {
+    "path": "exo_humanoids03_r2/data/CATALOGO-VESTUARIO-MURIM.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "f28ac37ddac4c27944b954439b9569aa2f2f57243736687a4ae63e16f8eafcac"
+  },
+  {
+    "path": "exo_humanoids03_r2/module_manifest.json",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "19c79f45bc5db71ee9b0db3a22dbb1e496a7f48acc436bb0f354a69cc9cd8908"
+  },
+  {
+    "path": "exo_humanoids03_r2/scenes/galeria_qa_r2.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "e40921b3d9ca6f67c9950b56165fec2434dba566c1668aa819b5b163ab31554b"
+  },
+  {
+    "path": "exo_humanoids03_r2/scenes/galeria_qa_r2.tscn",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "2a9a510bb61fb6d5e6b7058c532610591420cc28bb676b636a4545ef8643368c"
+  },
+  {
+    "path": "exo_humanoids03_r2/scripts/actor_visual_adapter.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "be693c419ae23fa723d753bcca54c7ef34bca06f06ca92b58c2ca423f112f3e9"
+  },
+  {
+    "path": "exo_humanoids03_r2/scripts/murim_wardrobe.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "a41d629825f269b61642bf313e3a70c3999981fbd1beded8726da80ed9d126dd"
+  },
+  {
+    "path": "exo_humanoids03_r2/scripts/preset_selector.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "d3699507d1c88501f7bec40d756f7ed27fd8fcecd8cc37186cee7aef509edf28"
+  },
+  {
+    "path": "exo_humanoids03_r2/scripts/voxel_geometry.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "2418ca6b6460d33275644e9abdec19c8d04f4ac13ba4e8d008d72b491561326b"
+  },
+  {
+    "path": "exo_humanoids03_r2/tests/qa_native.gd",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "3aae4fe7024098277a1e3ee9b92e0d57f7d996fb532e03a9dbf7d265046a5113"
+  },
+  {
+    "path": "exo_humanoids03_r2/tests/qa_offline.py",
+    "action": "added",
+    "reason": "C03 fonte candidata: EXO-Murim-Humanoides-03-R2-CANDIDATO.zip",
+    "before": null,
+    "after": "2656ce873508f934151b9b9a61cc3654619a4bade84988d888c8825ffe787683"
+  },
+  {
+    "path": "exo_martial/integration/mock_narrative_r2.gd",
+    "action": "quarantined",
+    "reason": "Lab fake narratives not permitted as production service",
+    "before": "f5f03161aba61e8ffac5b9036940eaf353b17c6f468ad102c310b509c67bff1a",
+    "after": null
+  },
+  {
+    "path": "project.godot",
+    "action": "modified",
+    "reason": "C03 candidate identity",
+    "before": "5e0cf001726360b1e8c95e20cbc4202b86493a080e0824a4e2cbbb3d702635aa",
+    "after": "895b6b5aaf5ef595168d5281d9b6173ebdaba7bf6945b93e85f4a926398c91c0"
+  },
+  {
+    "path": "project.godot",
+    "action": "modified",
+    "reason": "C03 isolate saves from actual game",
+    "before": "895b6b5aaf5ef595168d5281d9b6173ebdaba7bf6945b93e85f4a926398c91c0",
+    "after": "a8c092474d667765fc7c0d7482f4d44bbc87525f46954afe9109469e4093a281"
+  },
+  {
+    "path": "animation_library.gd",
+    "action": "modified",
+    "reason": "RIG-01 replace external forward-only animation with original local-space eight-direction swing",
+    "before": "6d99c8510e66ff18d721bd6a32f4bd1da8090774dc8a637cdd68a88fa26b3651",
+    "after": "0aa664edc18ab835f29cce2ad7fbf7f2adc91272eb970a9a69a2fdba9958d909"
+  },
+  {
+    "path": "rig.gd",
+    "action": "modified",
+    "reason": "RIG-01 pass lateral direction into elbow animation",
+    "before": "see unmodified baseline",
+    "after": "29e37ef5324f4ac86c75482695f0632339460e4d733c1662e9ad073b73f17c0e"
+  },
+  {
+    "path": "assets/kenney/character-a.glb",
+    "action": "removed_from_candidate",
+    "reason": "Unused external imported motion model; no active runtime references after RIG-01",
+    "before": null,
+    "after": null
+  },
+  {
+    "path": "assets/kenney/character-a.glb.import",
+    "action": "removed_from_candidate",
+    "reason": "Unused external imported motion model; no active runtime references after RIG-01",
+    "before": null,
+    "after": null
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C03 safe respawn without transient legacy save or losing current region",
+    "before": "bbb7ebfe8be3bdf8d52158824d8469eac3d5a89338af47172aff7a500d54fabf",
+    "after": "e970dd651baa891b2539435de2fde40293f6c353e9bfa7d67db9ab92bb38d5fd"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C03 disable interactive legacy initial enclosure return",
+    "before": "e970dd651baa891b2539435de2fde40293f6c353e9bfa7d67db9ab92bb38d5fd",
+    "after": "377fd8672a042f8b3625e7ad6738799cfc66a572eefb617cce6efe7e11f06173"
+  },
+  {
+    "path": "convergence/game.gd",
+    "action": "modified",
+    "reason": "C03 no obsolete return hint",
+    "before": "377fd8672a042f8b3625e7ad6738799cfc66a572eefb617cce6efe7e11f06173",
+    "after": "2fa82df1fc27d24fce7d942b3530b58887da2fefdcfd3615a7b619bf087c5e7f"
+  },
+  {
+    "path": "exo_core/persistence/save_coordinator.gd",
+    "action": "modified",
+    "reason": "C02 validate existing migration backup schemas 1/2, seed, identity and receipts",
+    "before": "e125866527c78e481c60f23d3d492b88563dcee6160b5cd6be3f6df5df642f68",
+    "after": "4952e3200b7bde3f972f293e7d93c1006008dd249271376636b410e54f70011b"
+  }
+]

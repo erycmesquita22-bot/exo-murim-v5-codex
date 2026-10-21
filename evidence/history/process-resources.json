@@ -1,0 +1,8 @@
+{
+  "max_rss_kib": 397260,
+  "cpu_user_s": 51.469696,
+  "cpu_system_s": 1.148026,
+  "wall_s": 23.952114294000012,
+  "exit_code": 0,
+  "scope": "Godot process only; Xvfb is a sibling process. Linux ru_maxrss units KiB."
+}

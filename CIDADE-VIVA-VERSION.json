@@ -1,0 +1,11 @@
+{
+  "status": "CANDIDATO_CHECKPOINT",
+  "release": "Cidade Viva 01 R2",
+  "engine": "4.6.2 Standard",
+  "renderer": "gl_compatibility",
+  "urban_version": 2,
+  "regional_version": 6,
+  "settlement_version": 4,
+  "save_root": 4,
+  "base": "EXO Visual 01 + Core 01 corrigido + Fortificacoes 02 R2"
+}

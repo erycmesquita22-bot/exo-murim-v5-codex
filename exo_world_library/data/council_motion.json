@@ -1,0 +1,943 @@
+{
+  "domain": "council_motion",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/abrir_celeiros",
+      "label": "Abrir reservas municipais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "famine"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "grain_audit"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre abrir reservas municipais, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "public_food",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "lower_hunger",
+        "win_tradeoff": "drain_treasury"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/suspender_pedagio",
+      "label": "Suspender pedágio da ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "trade"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "merchant_testimony"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre suspender pedágio da ponte, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "bridge_tariff",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "lower_prices",
+        "win_tradeoff": "guard_budget_loss"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/vigia_noturna",
+      "label": "Autorizar patrulha noturna",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "security"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "incident_logs"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre autorizar patrulha noturna, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "night_patrol",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "lower_bandit_risk",
+        "win_tradeoff": "higher_costs"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/corredor_refugiados",
+      "label": "Criar corredor seguro para refugiados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "relief"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "refugee_registry"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre criar corredor seguro para refugiados, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "refugee_route",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "reduce_displacement",
+        "win_tradeoff": "public_opposition"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/agua_prioritaria",
+      "label": "Priorizar irrigação dos campos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "water"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "dry_field_report"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre priorizar irrigação dos campos, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "canal_priority",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "food_security",
+        "win_tradeoff": "boatmen_dispute"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/eleger_mediador",
+      "label": "Escolher mediador entre famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "clan"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "verified_candidates"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre escolher mediador entre famílias, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "mediator",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "reduce_hostility",
+        "win_tradeoff": "faction_resentment"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/reparar_dique",
+      "label": "Reparar diques antes do festival",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "infrastructure"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "engineer_report"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre reparar diques antes do festival, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "embankments",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "reduce_flood_risk",
+        "win_tradeoff": "festival_delay"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/taxa_ferraria",
+      "label": "Revogar taxa de aprendizes ferreiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "labor"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "apprentice_petition"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre revogar taxa de aprendizes ferreiros, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "smith_license",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "artisan_growth",
+        "win_tradeoff": "guild_revenue_loss"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/ensino_aberto",
+      "label": "Abrir pátio de treino aos sem clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "martial"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "master_proposal"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre abrir pátio de treino aos sem clã, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "training_access",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "martial_inclusion",
+        "win_tradeoff": "discipline_conflict"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/punir_suborno",
+      "label": "Instaurar investigação de suborno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "justice"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "ledger_trace"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre instaurar investigação de suborno, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "corruption_inquiry",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "accountability",
+        "win_tradeoff": "powerful_opponents"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/licenca_barqueiros",
+      "label": "Revisar licenças de barqueiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "transport"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "boatmen_petition"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre revisar licenças de barqueiros, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "ferry_licenses",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "river_access",
+        "win_tradeoff": "merchant_lobby"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/abrigo_inverno",
+      "label": "Destinar templo ao abrigo de inverno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "relief"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "cold_snap"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre destinar templo ao abrigo de inverno, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "temple_shelter",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "fewer_exposure_deaths",
+        "win_tradeoff": "ritual_conflict"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/mudar_comando",
+      "label": "Substituir capitão da patrulha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "military"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "formal_charge"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre substituir capitão da patrulha, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "captain_review",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "reliable_guard",
+        "win_tradeoff": "loyalist_backlash"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/regular_vendas",
+      "label": "Inspecionar pesos no mercado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "trade"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "market_complaints"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre inspecionar pesos no mercado, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "market_scales",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "fair_prices",
+        "win_tradeoff": "merchant_cost"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/proteger_manuscrito",
+      "label": "Criar custódia neutra de manual",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "martial"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "lineage_proof"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre criar custódia neutra de manual, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "manual_custody",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "fewer_duels",
+        "win_tradeoff": "sect_resistance"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/proibir_duelos",
+      "label": "Suspender duelos dentro dos portões",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "security"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "public_death_toll"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre suspender duelos dentro dos portões, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "duel_curfew",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "fewer_bystanders",
+        "win_tradeoff": "martial_unrest"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/corrigir_voto",
+      "label": "Ampliar voto da liga aos jovens mestres",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "electoral"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "registration_list"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre ampliar voto da liga aos jovens mestres, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "guild_membership",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "new_representation",
+        "win_tradeoff": "old_guard_opposition"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/recontar_urnas",
+      "label": "Determinar recontagem pública",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "electoral"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "seal_dispute"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre determinar recontagem pública, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "ballot_recount",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "legitimacy",
+        "win_tradeoff": "delay"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/reconhecer_familia",
+      "label": "Reconhecer terceiro ramo familiar",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "succession"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "genealogy_evidence"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre reconhecer terceiro ramo familiar, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "family_registry",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "less_injustice",
+        "win_tradeoff": "elder_resistance"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/financiar_cura",
+      "label": "Financiar boticários itinerantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "health"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "healer_statement"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre financiar boticários itinerantes, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "medical_fund",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "better_health",
+        "win_tradeoff": "higher_tax"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/ponte_publica",
+      "label": "Retirar portão privado da ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "transport"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "land_deeds"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre retirar portão privado da ponte, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "public_right_of_way",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "open_access",
+        "win_tradeoff": "clan_debt"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/festival_paz",
+      "label": "Patrocinar festival de reconciliação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "social"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "signed_truce"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre patrocinar festival de reconciliação, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "truce_festival",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "social_trust",
+        "win_tradeoff": "budget_pressure"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/juizes_itinerantes",
+      "label": "Convidar juízes itinerantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "justice"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "complaints"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre convidar juízes itinerantes, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "appeal_court",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "fair_review",
+        "win_tradeoff": "elite_resentment"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "council_motion",
+      "excludes": [],
+      "id": "council_motion/troca_prisioneiros",
+      "label": "Votar troca de prisioneiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "voting",
+        "motion",
+        "diplomacy"
+      ],
+      "variables": {
+        "council_owner": "narrative_authorized_host",
+        "eligible_institutions": [
+          "civic_institution/conselho_dos_oficios",
+          "civic_institution/camara_dos_mercadores",
+          "civic_institution/conselho_das_quadras",
+          "civic_institution/assembleia_de_anciaos",
+          "civic_institution/conclave_de_escolas"
+        ],
+        "loss_consequence": "public_frustration",
+        "minimum_evidence": [
+          "name_lists"
+        ],
+        "motion_text_pt_BR": "Que o conselho delibere sobre votar troca de prisioneiros, depois de ouvir os envolvidos e registrar votos conforme seu regimento.",
+        "persist_vote_result": true,
+        "subject": "prisoner_exchange",
+        "vote_rule_must_come_from_institution": true,
+        "win_benefit": "deescalation",
+        "win_tradeoff": "hardliner_anger"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

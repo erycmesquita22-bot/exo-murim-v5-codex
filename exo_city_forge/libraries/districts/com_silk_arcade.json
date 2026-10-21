@@ -1,0 +1,140 @@
+{
+  "id": "com_silk_arcade",
+  "name": "Galeria de Seda",
+  "category": "commercial",
+  "tags": [
+    "commercial",
+    "arcade",
+    "guilds"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_silk_arcade/b00",
+      "function": "market",
+      "local_position": [
+        -12,
+        -12
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_silk_arcade/b01",
+      "function": "market",
+      "local_position": [
+        0,
+        -12
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_silk_arcade/b02",
+      "function": "warehouse",
+      "local_position": [
+        12,
+        -12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "com_silk_arcade/b03",
+      "function": "administration",
+      "local_position": [
+        0,
+        13
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 6,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_silk_arcade/st00",
+      "for_building": "com_silk_arcade/b00",
+      "role": "merchant"
+    },
+    {
+      "id": "com_silk_arcade/st01",
+      "for_building": "com_silk_arcade/b01",
+      "role": "merchant"
+    },
+    {
+      "id": "com_silk_arcade/st02",
+      "for_building": "com_silk_arcade/b02",
+      "role": "courier"
+    },
+    {
+      "id": "com_silk_arcade/st03",
+      "for_building": "com_silk_arcade/b03",
+      "role": "guild_agent"
+    }
+  ],
+  "open_spaces": {
+    "type": "arcade",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "arcade",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

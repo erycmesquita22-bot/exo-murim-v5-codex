@@ -1,0 +1,29 @@
+{
+  "status": "CANDIDATE",
+  "model_groups": 48000,
+  "assertions": 144050,
+  "groups_by_type": {
+    "module_identity": 1,
+    "module_version": 1,
+    "services_declared": 1,
+    "v3_service_api": 5,
+    "v3_sources_present": 5,
+    "catalog_json_valid": 4,
+    "catalog_preserved": 1,
+    "no_parallel_authority": 32,
+    "slot_cap_uniqueness": 48000,
+    "slots_only_eligible": 48000,
+    "member_indices": 48000
+  },
+  "godot_native": "NOT_RUN",
+  "reference_checkpoint": "EXO-MURIM-WORLDGENESIS-V4-CANDIDATO-02-CHECKPOINT.zip",
+  "reference_sha256": "1ce7733f8ea29fd1f062401cf1e17e0be7ea9a7903ccfb5be5a12e8a3050115b",
+  "godot_available": false,
+  "parser": "NOT_RUN",
+  "integration_real_v4": "NOT_APPLIED",
+  "interactive_combat": "NOT_RUN",
+  "legacy_files_changed": [
+    "exo_bestiary/module/entrypoint.gd",
+    "exo_bestiary/module/manifest.json"
+  ]
+}

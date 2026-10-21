@@ -1,0 +1,27 @@
+{
+  "base": "EXO-Murim-Convergencia-01.2-Terreno-Aprovado.zip",
+  "base_sha256": "da1644649e0605ae7534380a336e90bdc25ec4b2d24aec195fd26b9415f5b022",
+  "version": "Convergencia-01.2-refino-visual-02",
+  "modified_existing": [
+    "convergence/game.gd",
+    "convergence/region.gd",
+    "convergence/resident.gd",
+    "genesis/region_scene.gd",
+    "genesis/terrain.gdshader"
+  ],
+  "added": [
+    "MANIFESTO-REFINO-VISUAL-02.json",
+    "RELATORIO-REFINO-VISUAL-02.md",
+    "convergence/visual_refinement_offline_qa.json",
+    "tools/check_visual_refinement.py"
+  ],
+  "tests": {
+    "previous_offline": 85,
+    "new_offline": 60,
+    "fail": 0,
+    "godot": "NOT_RUN"
+  },
+  "seed_terrain_structure_unmodified": true,
+  "preserve_approved_dirt_road": true,
+  "provisionally_approved_other_systems_unchanged": true
+}

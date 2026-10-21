@@ -1,0 +1,35 @@
+{
+  "module_id": "exo_monumental",
+  "version": "0.4.1-preintegration",
+  "status": "CANDIDATE_REVIEW_OFFLINE_QA_ONLY",
+  "engine_target": "Godot 4.6.2 Standard / Compatibility",
+  "mount_path": "res://exo_monumental/",
+  "entrypoints": {
+    "planner": "res://exo_monumental/generation/planner.gd",
+    "renderer": "res://exo_monumental/runtime/builder.gd",
+    "world_adapter": "res://exo_monumental/integration/exo_adapter.gd",
+    "dungeon_bridge": "res://exo_monumental/integration/dungeon_bridge.gd",
+    "interior_scene": "res://exo_monumental/scenes/hall_interior.tscn",
+    "interior_bridge": "res://exo_monumental/integration/interior_bridge.gd",
+    "roof_visibility": "res://exo_monumental/runtime/builder.gd::set_roofs_visible"
+  },
+  "new_models_glb": 18,
+  "new_layout_families": 11,
+  "martial_school_id_mappings": 9,
+  "ownership": {
+    "world_reservation": "WorldGenesis/CidadeViva owner, must confirm BEFORE instantiate",
+    "persistent_world_state": "EXO Core original coordinator (NOT owned)",
+    "martial_techniques_and_NPCs": "Mestres e Artes Marciais 01 / NPC System 02 (NOT owned)",
+    "dungeon_interiors": "Dungeon Genesis 02 (NOT owned)",
+    "interior_transitions": "shared Core / Dungeon transition service (NOT owned)"
+  },
+  "no_core_modified": true,
+  "no_eventbus_or_parallel_save": true,
+  "external_modules_bundled": false,
+  "commercial_origin": "all new GLBs and textures generated from own code; no external meshes or downloaded art",
+  "core_integration": "NOT_RUN",
+  "godot_native_tests": "NOT_RUN_ENGINE_MISSING",
+  "local_qa": "tests/QA-OFFLINE-RESULTADOS.json",
+  "contract_schema": 5,
+  "notes": "Requires typed owner reservation receipt. QA_LAB_ONLY never valid evidence of world reservation."
+}

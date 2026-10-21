@@ -1,0 +1,99 @@
+[
+  {
+    "test": "numeric",
+    "status": "PASS",
+    "returncode": 0
+  },
+  {
+    "test": "crowd-native",
+    "status": "PASS",
+    "returncode": 0
+  },
+  {
+    "test": "crowd-r4",
+    "status": "PASS",
+    "returncode": 0
+  },
+  {
+    "test": "reload",
+    "status": "PASS",
+    "returncode": 0
+  },
+  {
+    "test": "functional",
+    "status": "PASS",
+    "returncode": 0
+  },
+  {
+    "test": "tests",
+    "status": "FAIL",
+    "returncode": 1,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "release_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "discovery_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "fidelity_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "consolidation_qa",
+    "status": "FAIL",
+    "returncode": 1,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "ruins_martial_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "assets_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "stabilization_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "quality09_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "martial_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "procedural_qa",
+    "status": "PASS",
+    "returncode": 0,
+    "scope": "historical_suite"
+  },
+  {
+    "test": "legacy_audio_qa",
+    "status": "FAIL",
+    "returncode": 1,
+    "scope": "historical_suite"
+  }
+]

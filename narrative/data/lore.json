@@ -1,0 +1,9 @@
+{
+ "schema":1,
+ "canon":{"divinities":12,"heroes":12,"distinct_entities":true,"events":["guerra_panteao","decreto_queda","ancoras_divinas","primeiro_ascendente"],"protagonist_mandatory_link":false},
+ "knowledge":[
+  {"id":"guerra_panteao","classification":"historical","truth":"historical_event"},
+  {"id":"decreto_queda","classification":"historical","truth":"historical_event"},
+  {"id":"manual_perdido","classification":"rumor","truth":"unconfirmed"}
+ ]
+}

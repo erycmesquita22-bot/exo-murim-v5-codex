@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "new_module_manifest"
+    },
+    {
+      "pass": true,
+      "test": "new_module_loaded_without_legacy_changes"
+    },
+    {
+      "pass": true,
+      "test": "new_service"
+    },
+    {
+      "pass": true,
+      "test": "consume_real_core_event"
+    },
+    {
+      "pass": true,
+      "test": "duplicate_safe"
+    },
+    {
+      "pass": true,
+      "test": "single_effect"
+    },
+    {
+      "pass": true,
+      "test": "registered_domain_saved"
+    },
+    {
+      "pass": true,
+      "test": "new_domain_reload"
+    },
+    {
+      "pass": true,
+      "test": "optional_failure_manifest"
+    },
+    {
+      "pass": true,
+      "test": "optional_initializer_refused"
+    },
+    {
+      "pass": true,
+      "test": "optional_initializer_rollback"
+    }
+  ],
+  "facts": {
+
+  },
+  "failures": []
+}

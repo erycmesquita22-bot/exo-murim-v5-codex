@@ -1,0 +1,354 @@
+{
+  "id": "vila_passo_montanhoso",
+  "name": "Vila do Passo Montanhoso",
+  "shape": "two_terraces",
+  "wall": true,
+  "half_extent": 112,
+  "gates": [
+    [
+      -100,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -100,
+        0
+      ],
+      "b": [
+        100,
+        0
+      ],
+      "width": 7.0,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -26,
+        -80
+      ],
+      "b": [
+        -26,
+        80
+      ],
+      "width": 4.2,
+      "kind": "lane"
+    },
+    {
+      "a": [
+        26,
+        -80
+      ],
+      "b": [
+        26,
+        80
+      ],
+      "width": 4.2,
+      "kind": "lane"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "vila_passo_montanhoso/s00",
+      "center": [
+        -53,
+        -36
+      ],
+      "footprint": [
+        [
+          -73.0,
+          -56.0
+        ],
+        [
+          -33.0,
+          -56.0
+        ],
+        [
+          -33.0,
+          -16.0
+        ],
+        [
+          -73.0,
+          -16.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -53.0,
+          -56.0
+        ],
+        [
+          -33.0,
+          -36.0
+        ],
+        [
+          -53.0,
+          -16.0
+        ],
+        [
+          -73.0,
+          -36.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_passo_montanhoso/s01",
+      "center": [
+        0,
+        -36
+      ],
+      "footprint": [
+        [
+          -20.0,
+          -56.0
+        ],
+        [
+          20.0,
+          -56.0
+        ],
+        [
+          20.0,
+          -16.0
+        ],
+        [
+          -20.0,
+          -16.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          -56.0
+        ],
+        [
+          20.0,
+          -36.0
+        ],
+        [
+          0.0,
+          -16.0
+        ],
+        [
+          -20.0,
+          -36.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_passo_montanhoso/s02",
+      "center": [
+        53,
+        -36
+      ],
+      "footprint": [
+        [
+          33.0,
+          -56.0
+        ],
+        [
+          73.0,
+          -56.0
+        ],
+        [
+          73.0,
+          -16.0
+        ],
+        [
+          33.0,
+          -16.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          53.0,
+          -56.0
+        ],
+        [
+          73.0,
+          -36.0
+        ],
+        [
+          53.0,
+          -16.0
+        ],
+        [
+          33.0,
+          -36.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_passo_montanhoso/s03",
+      "center": [
+        -53,
+        36
+      ],
+      "footprint": [
+        [
+          -73.0,
+          16.0
+        ],
+        [
+          -33.0,
+          16.0
+        ],
+        [
+          -33.0,
+          56.0
+        ],
+        [
+          -73.0,
+          56.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -53.0,
+          16.0
+        ],
+        [
+          -33.0,
+          36.0
+        ],
+        [
+          -53.0,
+          56.0
+        ],
+        [
+          -73.0,
+          36.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_passo_montanhoso/s04",
+      "center": [
+        0,
+        36
+      ],
+      "footprint": [
+        [
+          -20.0,
+          16.0
+        ],
+        [
+          20.0,
+          16.0
+        ],
+        [
+          20.0,
+          56.0
+        ],
+        [
+          -20.0,
+          56.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          16.0
+        ],
+        [
+          20.0,
+          36.0
+        ],
+        [
+          0.0,
+          56.0
+        ],
+        [
+          -20.0,
+          36.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_passo_montanhoso/s05",
+      "center": [
+        53,
+        36
+      ],
+      "footprint": [
+        [
+          33.0,
+          16.0
+        ],
+        [
+          73.0,
+          16.0
+        ],
+        [
+          73.0,
+          56.0
+        ],
+        [
+          33.0,
+          56.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          53.0,
+          16.0
+        ],
+        [
+          73.0,
+          36.0
+        ],
+        [
+          53.0,
+          56.0
+        ],
+        [
+          33.0,
+          36.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "town"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [
+    "hill_view_no_terrain_edit"
+  ],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

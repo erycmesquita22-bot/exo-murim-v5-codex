@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "enter_wild"
+    },
+    {
+      "pass": true,
+      "test": "native_group_spawn"
+    },
+    {
+      "pass": true,
+      "test": "enemy_inflicts_damage"
+    },
+    {
+      "pass": true,
+      "test": "defeat_eco/r52/t00/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "xp_eco/r52/t00/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "collect_partial_group_loot"
+    },
+    {
+      "pass": true,
+      "test": "partial_group_record"
+    },
+    {
+      "pass": true,
+      "test": "save_partial_group"
+    }
+  ],
+  "facts": {
+    "first_fight": {
+      "defeated": true,
+      "frames": 110,
+      "hp": 60,
+      "uid": "eco/r52/t00/m0/g0000",
+      "xp": 16
+    },
+    "received_damage": 9
+  },
+  "failures": []
+}

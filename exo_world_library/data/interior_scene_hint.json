@@ -1,0 +1,983 @@
+{
+  "domain": "interior_scene_hint",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "administration"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/administration",
+      "label": "Sala de audiência e registros",
+      "label_key": "world_library.interior_scene_hint.administration.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_administration"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "administration",
+        "geometry_generated": false,
+        "importance_class_hint": "context_required",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "stone",
+          "wood"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "civic",
+        "occupancy_range_hint": [
+          2,
+          12
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable",
+          "wealthy"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "administration",
+        "save_write": false,
+        "schooling_hint": "formal",
+        "schooling_required_for_proposal": "owner_verified",
+        "suggested_props": [
+          "registro",
+          "mesa_conselho",
+          "selo"
+        ],
+        "wealth_hint": "medium"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "farmstead"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/farmstead",
+      "label": "Cozinha rural e armazenamento",
+      "label_key": "world_library.interior_scene_hint.farmstead.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_farmstead"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "farmstead",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "earth"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "agrarian",
+        "occupancy_range_hint": [
+          2,
+          8
+        ],
+        "permitted_wealth_tiers_hint": [
+          "poor",
+          "modest"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "residence",
+        "save_write": false,
+        "schooling_hint": "informal",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "fogao",
+          "cestos",
+          "mesa"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "herbalist"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/herbalist",
+      "label": "Sala de ervas e atendimento",
+      "label_key": "world_library.interior_scene_hint.herbalist.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_herbalist"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "herbalist",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "bamboo"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "healing",
+        "occupancy_range_hint": [
+          1,
+          5
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "shop",
+        "save_write": false,
+        "schooling_hint": "apprentice",
+        "schooling_required_for_proposal": "owner_verified",
+        "suggested_props": [
+          "prateleira_ervas",
+          "balcao",
+          "mesa_preparo"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "inn"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/inn",
+      "label": "Estalagem e hospedaria",
+      "label_key": "world_library.interior_scene_hint.inn.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_inn"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "inn",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "stone"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "travel",
+        "occupancy_range_hint": [
+          4,
+          28
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable",
+          "wealthy"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "inn",
+        "save_write": false,
+        "schooling_hint": "basic",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "mesa_comum",
+          "banco",
+          "quartos"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "market"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/market",
+      "label": "Banca coberta e loja",
+      "label_key": "world_library.interior_scene_hint.market.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_market"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "market",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "cloth"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "trade",
+        "occupancy_range_hint": [
+          1,
+          12
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "shop",
+        "save_write": false,
+        "schooling_hint": "merchant",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "balcao",
+          "balanca",
+          "caixas"
+        ],
+        "wealth_hint": "medium"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "martial_school"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/martial_school",
+      "label": "Pavilhão de treinamento",
+      "label_key": "world_library.interior_scene_hint.martial_school.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_martial_school"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "martial_school",
+        "geometry_generated": false,
+        "importance_class_hint": "context_required",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "stone"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "training",
+        "occupancy_range_hint": [
+          5,
+          48
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable",
+          "wealthy"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "martial_school",
+        "save_write": false,
+        "schooling_hint": "martial",
+        "schooling_required_for_proposal": "owner_verified",
+        "suggested_props": [
+          "suportes_treino",
+          "bancos",
+          "estandarte"
+        ],
+        "wealth_hint": "medium"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "residence"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/residence",
+      "label": "Sala familiar",
+      "label_key": "world_library.interior_scene_hint.residence.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_residence"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "residence",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "cloth"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "domestic",
+        "occupancy_range_hint": [
+          1,
+          8
+        ],
+        "permitted_wealth_tiers_hint": [
+          "poor",
+          "modest",
+          "comfortable",
+          "wealthy"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "residence",
+        "save_write": false,
+        "schooling_hint": "family",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "mesa_familia",
+          "esteiras",
+          "armario"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "shrine"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/shrine",
+      "label": "Salão de respeito ancestral",
+      "label_key": "world_library.interior_scene_hint.shrine.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_shrine"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "shrine",
+        "geometry_generated": false,
+        "importance_class_hint": "context_required",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "stone"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "faith",
+        "occupancy_range_hint": [
+          1,
+          14
+        ],
+        "permitted_wealth_tiers_hint": [
+          "modest",
+          "comfortable"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "shrine",
+        "save_write": false,
+        "schooling_hint": "ritual",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "altar",
+          "incensario",
+          "assentos"
+        ],
+        "wealth_hint": "medium"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "smithy"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/smithy",
+      "label": "Oficina de ferraria",
+      "label_key": "world_library.interior_scene_hint.smithy.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_smithy"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "smithy",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "stone",
+          "iron"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "craft",
+        "occupancy_range_hint": [
+          1,
+          6
+        ],
+        "permitted_wealth_tiers_hint": [
+          "poor",
+          "modest",
+          "comfortable"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "smithy",
+        "save_write": false,
+        "schooling_hint": "artisan",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "bigorna",
+          "fornalha",
+          "suportes"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "building_function": "warehouse"
+      },
+      "domain": "interior_scene_hint",
+      "excludes": [],
+      "id": "interior_scene_hint/warehouse",
+      "label": "Depósito organizado",
+      "label_key": "world_library.interior_scene_hint.warehouse.title",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "interior",
+        "read_only",
+        "function_warehouse"
+      ],
+      "variables": {
+        "biome_adaptation_tags_by_verified_biome": {
+          "alpine": [
+            "lenha",
+            "isolamento"
+          ],
+          "bamboo_forest": [
+            "bambu",
+            "esteiras"
+          ],
+          "dry_valley": [
+            "barro",
+            "jarras_agua"
+          ],
+          "grassland": [
+            "fibras",
+            "ceramica"
+          ],
+          "mixed_woodland": [
+            "madeira_clara",
+            "cestos"
+          ],
+          "rocky_highlands": [
+            "pedra",
+            "mantas"
+          ],
+          "temperate_forest": [
+            "madeira_escura",
+            "ervas"
+          ],
+          "wetland": [
+            "junco",
+            "estrados_altos"
+          ]
+        },
+        "biome_rule": "respect_verified_host_biome",
+        "building_instance_binding": false,
+        "entrance_permission": false,
+        "function": "warehouse",
+        "geometry_generated": false,
+        "importance_class_hint": "ordinary_or_host_promoted",
+        "importance_hint": "host_verified_only",
+        "material_palettes": [
+          "wood",
+          "stone"
+        ],
+        "no_authority_over_occupants": true,
+        "no_implicit_entry_even_if_slot_true": true,
+        "not_existing_building": true,
+        "occupancy_profile": "storage",
+        "occupancy_range_hint": [
+          0,
+          10
+        ],
+        "permitted_wealth_tiers_hint": [
+          "poor",
+          "modest",
+          "comfortable"
+        ],
+        "prefab_id": null,
+        "provenance": {
+          "author": "EXO-Murim world library",
+          "kind": "new_original_metadata",
+          "licensed_assets_included": false,
+          "reference": "Interior Forge R1 categories, NOT copied layouts"
+        },
+        "room_role": "warehouse",
+        "save_write": false,
+        "schooling_hint": "basic",
+        "schooling_required_for_proposal": "none",
+        "suggested_props": [
+          "prateleiras",
+          "caixas",
+          "inventario_papel"
+        ],
+        "wealth_hint": "low"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

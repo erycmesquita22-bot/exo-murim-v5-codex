@@ -1,0 +1,12 @@
+main.gd — reconstrução regional, sítios e recompensa persistente
+murim_flow.gd — origem, materiais iniciais, salvamento, interação
+region.gd — vila variável, terreno conectado, sem muros
+world/biome_plan.gd — NOVO gerador lógico determinístico
+world/landscape.gd — NOVO terreno, trilhas, biomas, marcos
+world/village_composition.gd — bambus afastados dos lotes
+exo_menu.gd — mapa/origem
+map_view.gd — mapa com regiões e sítios de exploração
+qa094.gd — NOVO QA determinístico para Godot
+qa094_playable.gd — NOVO QA de cena real para Godot
+tools/check_094_static.py — NOVA auditoria estática verificável
+VERSION.json, RELATORIO-09.4.md, AGENTS.md, LEIA-ME-09.4.txt — documentação

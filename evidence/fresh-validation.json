@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "fresh-import",
+    "exit_code": 0,
+    "errors": []
+  },
+  {
+    "stage": "fresh-boot",
+    "exit_code": 0,
+    "errors": []
+  }
+]

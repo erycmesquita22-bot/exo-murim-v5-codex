@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "attacks": {
+    "kick": {
+      "id": "kick",
+      "kind": "melee",
+      "range": 1.45,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.2,
+      "cooldown": 1.2
+    },
+    "headbutt": {
+      "id": "headbutt",
+      "kind": "melee",
+      "range": 1.55,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.35,
+      "cooldown": 1.2
+    },
+    "charge": {
+      "id": "charge",
+      "kind": "melee",
+      "range": 3.6,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.7,
+      "cooldown": 1.2
+    },
+    "tusk_charge": {
+      "id": "tusk_charge",
+      "kind": "melee",
+      "range": 3.5,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.6,
+      "cooldown": 1.2
+    },
+    "paw_slam": {
+      "id": "paw_slam",
+      "kind": "melee",
+      "range": 2.0,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.72,
+      "cooldown": 1.2
+    },
+    "bite": {
+      "id": "bite",
+      "kind": "melee",
+      "range": 1.25,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.23,
+      "cooldown": 1.2
+    },
+    "lunge": {
+      "id": "lunge",
+      "kind": "melee",
+      "range": 2.8,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.4,
+      "cooldown": 1.2
+    },
+    "pounce": {
+      "id": "pounce",
+      "kind": "melee",
+      "range": 3.8,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.65,
+      "cooldown": 1.2
+    },
+    "quick_bite": {
+      "id": "quick_bite",
+      "kind": "melee",
+      "range": 1.35,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.12,
+      "cooldown": 1.2
+    },
+    "short_slash": {
+      "id": "short_slash",
+      "kind": "melee",
+      "range": 2.0,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.3,
+      "cooldown": 1.2
+    },
+    "spear_thrust": {
+      "id": "spear_thrust",
+      "kind": "melee",
+      "range": 3.9,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.37,
+      "cooldown": 1.2
+    },
+    "quick_slash": {
+      "id": "quick_slash",
+      "kind": "melee",
+      "range": 1.35,
+      "style": "attack",
+      "requires": "melee",
+      "windup": 0.16,
+      "cooldown": 1.2
+    },
+    "block": {
+      "id": "block",
+      "kind": "defend",
+      "range": 1,
+      "style": "defend",
+      "requires": "existing_guard",
+      "windup": 0.2,
+      "cooldown": 1.2
+    },
+    "counter": {
+      "id": "counter",
+      "kind": "counter",
+      "range": 2.2,
+      "style": "counter",
+      "requires": "existing_counter",
+      "windup": 0.3,
+      "cooldown": 1.2
+    },
+    "dodge": {
+      "id": "dodge",
+      "kind": "evade",
+      "range": 2.0,
+      "style": "evade",
+      "requires": "existing_dodge",
+      "windup": 0.18,
+      "cooldown": 1.2
+    },
+    "arrow": {
+      "id": "arrow",
+      "kind": "ranged",
+      "range": 11.0,
+      "style": "attack",
+      "requires": "existing_bow",
+      "windup": 0.5,
+      "cooldown": 1.75
+    },
+    "qi_palm": {
+      "id": "qi_palm",
+      "kind": "technique",
+      "range": 4.0,
+      "style": "attack",
+      "requires": "existing_technique",
+      "windup": 0.45,
+      "cooldown": 2.4
+    }
+  }
+}

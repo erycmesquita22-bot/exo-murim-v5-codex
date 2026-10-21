@@ -1,0 +1,270 @@
+{
+  "domain": "landmark_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/watchtower",
+      "label": "Torre de vigia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "security"
+      ],
+      "variables": {
+        "feature": "watchtower",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/shrine",
+      "label": "Santuário rural",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "spiritual"
+      ],
+      "variables": {
+        "feature": "shrine",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/bridge",
+      "label": "Ponte antiga",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "travel"
+      ],
+      "variables": {
+        "feature": "bridge",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/road_marker",
+      "label": "Marco de estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "travel"
+      ],
+      "variables": {
+        "feature": "road_marker",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/clan_court",
+      "label": "Pátio de clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "clan"
+      ],
+      "variables": {
+        "feature": "clan_court",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/tea_stall",
+      "label": "Barraca de chá",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "trade"
+      ],
+      "variables": {
+        "feature": "tea_stall",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/monument",
+      "label": "Monumento esquecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "ruins"
+      ],
+      "variables": {
+        "feature": "monument",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/ancient_tree",
+      "label": "Árvore ancestral",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "forest"
+      ],
+      "variables": {
+        "feature": "ancient_tree",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/spring",
+      "label": "Nascente de água",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "water"
+      ],
+      "variables": {
+        "feature": "spring",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/training_area",
+      "label": "Pátio de treino",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "martial"
+      ],
+      "variables": {
+        "feature": "training_area",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/archive",
+      "label": "Arquivo de cidade",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "knowledge"
+      ],
+      "variables": {
+        "feature": "archive",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "landmark_theme",
+      "excludes": [],
+      "id": "landmark_theme/caravan_yard",
+      "label": "Pátio de caravanas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "landmark",
+        "trade"
+      ],
+      "variables": {
+        "feature": "caravan_yard",
+        "footprint_approval_required": true,
+        "world_placement_owner": "world"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

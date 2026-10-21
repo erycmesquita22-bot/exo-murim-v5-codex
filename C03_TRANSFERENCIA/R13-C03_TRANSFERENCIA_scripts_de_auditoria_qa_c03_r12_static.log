@@ -1,0 +1,147 @@
+{
+  "kind": "STATIC_SOURCE_ONLY_NOT_NATIVE_GODOT",
+  "checks": [
+    {
+      "name": "R11_SHA",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "R11_CRC",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "R12_CRC",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ALL_R11_PATHS_PRESERVED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ONLY_NINE_ALLOWED_SOURCE_FILES_CHANGED",
+      "status": "PASS",
+      "detail": [
+        "convergence/game.gd",
+        "convergence/region.gd",
+        "cultivation.gd",
+        "genesis/settlements/settlement_planner.gd",
+        "inventory.gd",
+        "project.godot",
+        "regional_ecology/director.gd",
+        "regional_ecology/rewards.gd",
+        "regional_ecology/territories.gd"
+      ]
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_convergence/game.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_convergence/game.gd",
+      "status": "PASS",
+      "detail": 126
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_regional_ecology/territories.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_regional_ecology/territories.gd",
+      "status": "PASS",
+      "detail": 31
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_convergence/region.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_convergence/region.gd",
+      "status": "PASS",
+      "detail": 30
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_genesis/settlements/settlement_planner.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_genesis/settlements/settlement_planner.gd",
+      "status": "PASS",
+      "detail": 22
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_inventory.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_inventory.gd",
+      "status": "PASS",
+      "detail": 16
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_cultivation.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_cultivation.gd",
+      "status": "PASS",
+      "detail": 6
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_regional_ecology/rewards.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_regional_ecology/rewards.gd",
+      "status": "PASS",
+      "detail": 6
+    },
+    {
+      "name": "IDENTICAL_CODE_TOKENS_regional_ecology/director.gd",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "CORRECTED_INDENT_regional_ecology/director.gd",
+      "status": "PASS",
+      "detail": 5
+    },
+    {
+      "name": "EXACTLY_242_LINES_CONVERTED",
+      "status": "PASS",
+      "detail": 242
+    },
+    {
+      "name": "R12_SEPARATE_QA_NAMESPACE",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "ACTIVE_MAIN_SCENE_PRESERVED",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "JSON_AND_SCRIPT_INDENT_SCAN",
+      "status": "PASS",
+      "detail": {
+        "json_documents": 401,
+        "gdscripts": 462,
+        "issues": []
+      }
+    }
+  ],
+  "errors": [],
+  "passed": 25,
+  "failed": 0
+}

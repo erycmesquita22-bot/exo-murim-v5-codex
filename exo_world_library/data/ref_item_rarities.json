@@ -1,0 +1,144 @@
+{
+  "domain": "ref_item_rarities",
+  "records": [
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_common",
+      "label": "common",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "common",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_uncommon",
+      "label": "uncommon",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "uncommon",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_rare",
+      "label": "rare",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "rare",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_epic",
+      "label": "epic",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "epic",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_legendary",
+      "label": "legendary",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "legendary",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_rarities",
+      "excludes": [],
+      "id": "ref_item_rarities/ref_ancestral",
+      "label": "ancestral",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298",
+        "source_archive": "C3_R13_1",
+        "source_id": "ancestral",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/rarities.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

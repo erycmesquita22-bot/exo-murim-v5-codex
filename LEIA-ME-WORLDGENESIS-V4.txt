@@ -1,0 +1,15 @@
+EXO-MURIM — WORLDGENESIS V4 INTEGRADO — CANDIDATO 03
+Godot 4.6.2 Standard / Compatibility
+
+Este é o projeto integral, continuação do checkpoint Pré-WorldGenesis e do Candidato 01.
+Novas campanhas usam WorldGenesis V4. O grafo original de 88 regiões foi preservado.
+Campanhas antigas sem marcador V4 continuam C3; não excluir marcadores manualmente.
+
+Começar por WORLDGENESIS_V4/RELATORIO-WORLDGENESIS-V4.md.
+Matriz real: WORLDGENESIS_V4/MATRIZ-C3-V4.md.
+QA e capturas: WORLDGENESIS_V4/evidence.
+Recuperação: WORLDGENESIS_V4/ABRIR-E-ROLLBACK.md.
+Pendências: WORLDGENESIS_V4/PENDENCIAS-CONVERGENCIA.md.
+
+Não é a Convergência V4 final. City Forge físico completo, NPC03 físico,
+novos interiores e demais hosts incompletos continuam bloqueados.

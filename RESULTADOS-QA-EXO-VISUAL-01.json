@@ -1,0 +1,265 @@
+{
+  "status_geral": "CANDIDATO_NAO_VALIDADO_NATIVE",
+  "motor_pretendido": "Godot 4.6.2 Standard Compatibility",
+  "ambiente": "Edição de arquivos e verificacoes estaticas; Godot nao encontrado no ambiente atual",
+  "totais": {
+    "PASS_STATIC": 23,
+    "FAIL_STATIC": 0,
+    "NOT_RUN_NATIVE": 19
+  },
+  "testes": [
+    {
+      "test": "modules_10",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": "count=10"
+    },
+    {
+      "test": "unique_module_ids",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": "['persistence', 'world', 'living_world', 'inventory', 'combat', 'journey', 'narrative', 'appearance', 'architecture', 'visual']"
+    },
+    {
+      "test": "unique_services",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": "['persistence', 'regions', 'npcs', 'inventory', 'combat', 'quests', 'progression', 'narrative', 'appearance', 'architecture', 'exo_visual']"
+    },
+    {
+      "test": "original_modules_present",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": "['persistence', 'world', 'living_world', 'inventory', 'combat', 'journey', 'narrative', 'appearance', 'architecture', 'visual']"
+    },
+    {
+      "test": "visual_contract",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "dependencies_exist",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "settings_schema_present",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "legacy_hud_preserved",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "advanced_ui_uses_schema",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "no_save_domain_added",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "renderer_capability_gate",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "same_ground_textures",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "river_direction_data_used",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "collision_and_worldgen_not_duplicated",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "river_gate_r2_present",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "core_saved_file_exists",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "afterimage_snapshot_real_rig",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "visual_preloaded_resources_exist",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": "[]"
+    },
+    {
+      "test": "shader_source_water",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "shader_source_grass_wind",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "shader_source_terrain_pixel",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "shader_source_terrain_pixel_mips",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "shader_source_terrain_linear",
+      "status": "PASS",
+      "kind": "STATIC",
+      "evidence": ""
+    },
+    {
+      "test": "startup_clean_import_462_compatibility",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "Godot 4.6.2 nao instalado neste ambiente"
+    },
+    {
+      "test": "shader_compile_all",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "precisa abrir com renderizador Compatibility"
+    },
+    {
+      "test": "shader_forward_plus",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "renderizacao Forward+ requer engine e GPU real"
+    },
+    {
+      "test": "core_visual_registration_runtime",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "teste nativo criado; nao executado"
+    },
+    {
+      "test": "graphics_ui_presets_apply",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "abrir a pagina de configuracoes e alternar perfis"
+    },
+    {
+      "test": "graphics_invalid_config_and_reload",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "teste nativo criado; nao executado"
+    },
+    {
+      "test": "terrain_approved_uv_textures",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "QA visual exige cena real e comparacao"
+    },
+    {
+      "test": "river_gate_r2_procedure",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "portao fluvial integrado, passagem real nao verificada nesta versao"
+    },
+    {
+      "test": "river_water_flow_under_gates",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "material referenciado; nenhum frame real gerado"
+    },
+    {
+      "test": "vegetation_wind_and_collision",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "necessita teste de colisao/gameplay real"
+    },
+    {
+      "test": "character_skin_3d_hybrid",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "testar skins/armaduras/outer layers"
+    },
+    {
+      "test": "combat_afterimages_trails",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "verificar leitura isometrica em jogo"
+    },
+    {
+      "test": "world_88_seed_navigation_save",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "testes end-to-end de regiao e reabertura"
+    },
+    {
+      "test": "benchmark_city_4_profiles",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "instrumentacao escrita mas nao medida"
+    },
+    {
+      "test": "benchmark_forest_4_profiles",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "cenario adicional ainda nao instrumentado"
+    },
+    {
+      "test": "benchmark_river_4_profiles",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "cenario adicional ainda nao instrumentado"
+    },
+    {
+      "test": "benchmark_combat_4_profiles",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "cenario adicional ainda nao instrumentado"
+    },
+    {
+      "test": "pilot_screenshot_true",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "captura real apenas via script no modo Work"
+    },
+    {
+      "test": "user_visual_acceptance",
+      "status": "NOT_RUN",
+      "kind": "GODOT_NATIVE_OR_HUMAN",
+      "evidence": "inspecao criativa humana nao executada"
+    }
+  ],
+  "observacao": "PASS estatico nao demonstra compilacao GDScript, renderizacao, desempenho, nem regressoes jogaveis. Capturas do Core/fortificacoes anteriores nao contam como validacao desta versao."
+}

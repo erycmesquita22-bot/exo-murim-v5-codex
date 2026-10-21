@@ -1,0 +1,4096 @@
+{
+  "version": "0.4.1-adendo",
+  "origin": "original EXO designs",
+  "orientation": "+Z",
+  "layouts": {
+    "martial_medium": {
+      "size_m": [
+        70,
+        72
+      ],
+      "category": "martial",
+      "required": true,
+      "assets": [
+        {
+          "asset": "martial_gate",
+          "x": 0,
+          "z": 31,
+          "yaw": 0,
+          "y": 0,
+          "role": "martial_gate"
+        },
+        {
+          "asset": "martial_hall",
+          "x": 0,
+          "z": -19,
+          "yaw": 0,
+          "y": 0,
+          "role": "martial_hall",
+          "interior": "martial_hall"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": -22,
+          "z": -22,
+          "yaw": 0,
+          "y": 0,
+          "role": "library"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": 22,
+          "z": -22,
+          "yaw": 0,
+          "y": 0,
+          "role": "master_house"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -22,
+          "z": -4,
+          "yaw": 0,
+          "y": 0,
+          "role": "disciples_dorm"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 22,
+          "z": -9,
+          "yaw": 0,
+          "y": 0,
+          "role": "disciples_dorm"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": -22,
+          "z": 16,
+          "yaw": 0,
+          "y": 0,
+          "role": "armory"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": 22,
+          "z": 16,
+          "yaw": 0,
+          "y": 0,
+          "role": "refectory"
+        },
+        {
+          "asset": "training_arena",
+          "x": 18,
+          "z": 4,
+          "yaw": 0,
+          "y": 0,
+          "role": "duel_stage"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -8,
+          "z": 1,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 8,
+          "z": 1,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -8,
+          "z": 12,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 8,
+          "z": 12,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -12,
+          "z": 27,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 12,
+          "z": 27,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -12,
+          "z": -11,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 12,
+          "z": -11,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -31,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -31,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -23,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -23,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -15,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -15,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -7,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 1,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 9,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 9,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 17,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 17,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 25,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 25,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33,
+          "z": -34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33,
+          "z": 34.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": -31,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": -31,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": -23,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": -23,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": -15,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": -15,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": -7,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": -7,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": 1,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": 1,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": 9,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": 9,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": 17,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": 17,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -33.0,
+          "z": 25,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 33.0,
+          "z": 25,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        }
+      ],
+      "areas": [
+        {
+          "id": "main_hall",
+          "center": [
+            0,
+            -19
+          ],
+          "size": [
+            15,
+            12
+          ],
+          "kind": "assembly"
+        },
+        {
+          "id": "training_court",
+          "center": [
+            0,
+            7
+          ],
+          "size": [
+            22,
+            22
+          ],
+          "kind": "training"
+        },
+        {
+          "id": "duel",
+          "center": [
+            18,
+            4
+          ],
+          "size": [
+            14,
+            14
+          ],
+          "kind": "duel"
+        },
+        {
+          "id": "master_zone",
+          "center": [
+            22,
+            -22
+          ],
+          "size": [
+            8,
+            8
+          ],
+          "kind": "restricted"
+        },
+        {
+          "id": "entry_reception",
+          "center": [
+            0,
+            24
+          ],
+          "size": [
+            18,
+            8
+          ],
+          "kind": "reception"
+        }
+      ],
+      "paths": [
+        {
+          "id": "main_procession",
+          "points": [
+            [
+              0,
+              35
+            ],
+            [
+              0,
+              22
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              0,
+              -12
+            ]
+          ],
+          "width_m": 5
+        },
+        {
+          "id": "west_wing",
+          "points": [
+            [
+              -18,
+              -19
+            ],
+            [
+              -18,
+              18
+            ]
+          ],
+          "width_m": 3
+        }
+      ],
+      "return": [
+        0,
+        0,
+        39.0
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            35.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            39.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "training_courtyard",
+          "kind": "training_courtyard",
+          "local": [
+            -2.0,
+            0.2,
+            7.0
+          ],
+          "radius_m": 9,
+          "capacity": 8
+        },
+        {
+          "id": "martial_hall",
+          "kind": "martial_hall",
+          "local": [
+            0.0,
+            0.2,
+            -11.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "master_station",
+          "kind": "master_station",
+          "local": [
+            0.0,
+            0.2,
+            -10.1
+          ],
+          "radius_m": 1.5,
+          "capacity": 1
+        },
+        {
+          "id": "disciple_station",
+          "kind": "disciple_station",
+          "local": [
+            -7.0,
+            0.2,
+            12.0
+          ],
+          "radius_m": 2.5,
+          "capacity": 5
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            8.0,
+            0.2,
+            28.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            9.0,
+            0.2,
+            27.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            12.0,
+            0.2,
+            14.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            21.0
+          ],
+          "radius_m": 4,
+          "capacity": 6
+        },
+        {
+          "id": "duel_observer",
+          "kind": "duel_observer",
+          "local": [
+            9.0,
+            0.2,
+            -6.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 4
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        35.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          39.0
+        ],
+        "to": [
+          0,
+          0,
+          35.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "martial_grand": {
+      "size_m": [
+        146,
+        142
+      ],
+      "category": "martial",
+      "required": true,
+      "assets": [
+        {
+          "asset": "martial_gate",
+          "x": 0,
+          "z": 65,
+          "yaw": 0,
+          "y": 0,
+          "role": "grand_gate"
+        },
+        {
+          "asset": "grand_hall",
+          "x": 0,
+          "z": -46,
+          "yaw": 0,
+          "y": 0,
+          "role": "grand_hall",
+          "interior": "grand_hall"
+        },
+        {
+          "asset": "training_arena",
+          "x": 41,
+          "z": 30,
+          "yaw": 0,
+          "y": 0,
+          "role": "tournament_arena"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -44,
+          "z": -47,
+          "yaw": 0,
+          "y": 0,
+          "role": "elders"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 44,
+          "z": -47,
+          "yaw": 0,
+          "y": 0,
+          "role": "archive"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -45,
+          "z": -20,
+          "yaw": 0,
+          "y": 0,
+          "role": "master_pavilion"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 45,
+          "z": -20,
+          "yaw": 0,
+          "y": 0,
+          "role": "master_pavilion"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -46,
+          "z": 15,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_wing"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 46,
+          "z": 15,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_wing"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -45,
+          "z": 44,
+          "yaw": 0,
+          "y": 0,
+          "role": "disciple_housing"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 45,
+          "z": 48,
+          "yaw": 0,
+          "y": 0,
+          "role": "disciple_housing"
+        },
+        {
+          "asset": "watchtower",
+          "x": -60,
+          "z": -58,
+          "yaw": 0,
+          "y": 0,
+          "role": "lookout"
+        },
+        {
+          "asset": "watchtower",
+          "x": -60,
+          "z": 56,
+          "yaw": 0,
+          "y": 0,
+          "role": "lookout"
+        },
+        {
+          "asset": "watchtower",
+          "x": 60,
+          "z": -58,
+          "yaw": 0,
+          "y": 0,
+          "role": "lookout"
+        },
+        {
+          "asset": "watchtower",
+          "x": 60,
+          "z": 56,
+          "yaw": 0,
+          "y": 0,
+          "role": "lookout"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -21,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -21,
+          "z": 26,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -12,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -12,
+          "z": 26,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 12,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 12,
+          "z": 26,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 21,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": 21,
+          "z": 26,
+          "yaw": 0,
+          "y": 0,
+          "role": "training_equipment"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -10,
+          "z": 58,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -10,
+          "z": -25,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 10,
+          "z": 58,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 10,
+          "z": -25,
+          "yaw": 0,
+          "y": 0,
+          "role": "lighting"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -69,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -69,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -61,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -61,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -53,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -53,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -45,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -45,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -37,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -37,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -29,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -29,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -21,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -21,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -13,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -13,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -5,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 3,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 11,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 11,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 19,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 19,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 27,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 27,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 35,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 35,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 43,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 43,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 51,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 51,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 59,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 59,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 67,
+          "z": -69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 67,
+          "z": 69.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -66,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -66,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -58,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -58,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -50,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -50,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -42,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -42,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -34,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -34,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -26,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -26,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -18,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -18,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -10,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -10,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": -2,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": -2,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 6,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 6,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 14,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 14,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 22,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 22,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 30,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 30,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 38,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 38,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 46,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 46,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 54,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 54,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -71.0,
+          "z": 62,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 71.0,
+          "z": 62,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        }
+      ],
+      "areas": [
+        {
+          "id": "grand_assembly",
+          "center": [
+            0,
+            -46
+          ],
+          "size": [
+            26,
+            18
+          ],
+          "kind": "assembly"
+        },
+        {
+          "id": "ceremonial_square",
+          "center": [
+            0,
+            -13
+          ],
+          "size": [
+            43,
+            23
+          ],
+          "kind": "ceremony"
+        },
+        {
+          "id": "training_east",
+          "center": [
+            30,
+            13
+          ],
+          "size": [
+            34,
+            28
+          ],
+          "kind": "training"
+        },
+        {
+          "id": "training_west",
+          "center": [
+            -28,
+            16
+          ],
+          "size": [
+            38,
+            30
+          ],
+          "kind": "training"
+        },
+        {
+          "id": "tournament_arena",
+          "center": [
+            41,
+            30
+          ],
+          "size": [
+            15,
+            15
+          ],
+          "kind": "duel"
+        },
+        {
+          "id": "meditation_garden",
+          "center": [
+            -37,
+            -4
+          ],
+          "size": [
+            20,
+            15
+          ],
+          "kind": "cultivation"
+        },
+        {
+          "id": "restricted_archive",
+          "center": [
+            44,
+            -47
+          ],
+          "size": [
+            12,
+            8
+          ],
+          "kind": "restricted"
+        }
+      ],
+      "paths": [
+        {
+          "id": "grand_axis",
+          "points": [
+            [
+              0,
+              70
+            ],
+            [
+              0,
+              43
+            ],
+            [
+              0,
+              9
+            ],
+            [
+              0,
+              -31
+            ]
+          ],
+          "width_m": 7
+        },
+        {
+          "id": "east_branch",
+          "points": [
+            [
+              0,
+              12
+            ],
+            [
+              35,
+              12
+            ],
+            [
+              43,
+              30
+            ]
+          ],
+          "width_m": 4
+        },
+        {
+          "id": "west_branch",
+          "points": [
+            [
+              0,
+              19
+            ],
+            [
+              -40,
+              19
+            ]
+          ],
+          "width_m": 4
+        }
+      ],
+      "return": [
+        0,
+        0,
+        74.0
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            70.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            74.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "training_courtyard_east",
+          "kind": "training_courtyard",
+          "local": [
+            27.0,
+            0.2,
+            13.0
+          ],
+          "radius_m": 12,
+          "capacity": 12
+        },
+        {
+          "id": "training_courtyard_west",
+          "kind": "training_courtyard",
+          "local": [
+            -28.0,
+            0.2,
+            16.0
+          ],
+          "radius_m": 12,
+          "capacity": 12
+        },
+        {
+          "id": "martial_hall",
+          "kind": "martial_hall",
+          "local": [
+            0.0,
+            0.2,
+            -35.0
+          ],
+          "radius_m": 2.5,
+          "capacity": 1
+        },
+        {
+          "id": "master_station",
+          "kind": "master_station",
+          "local": [
+            0.0,
+            0.2,
+            -34.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "disciple_station",
+          "kind": "disciple_station",
+          "local": [
+            -20.0,
+            0.2,
+            15.0
+          ],
+          "radius_m": 3,
+          "capacity": 8
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            9.0,
+            0.2,
+            61.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            14.0,
+            0.2,
+            57.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            13.0,
+            0.2,
+            28.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_2",
+          "kind": "patrol_waypoint",
+          "local": [
+            -12.0,
+            0.2,
+            -20.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            -12.0
+          ],
+          "radius_m": 8,
+          "capacity": 20
+        },
+        {
+          "id": "tournament_assembly",
+          "kind": "duel_observer",
+          "local": [
+            31.0,
+            0.2,
+            34.0
+          ],
+          "radius_m": 3,
+          "capacity": 10
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        70.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          74.0
+        ],
+        "to": [
+          0,
+          0,
+          70.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "temple_monumental": {
+      "size_m": [
+        84,
+        80
+      ],
+      "category": "temple",
+      "required": true,
+      "assets": [
+        {
+          "asset": "monastery_gate",
+          "x": 0,
+          "z": 35,
+          "yaw": 0,
+          "y": 0,
+          "role": "monastery_gate"
+        },
+        {
+          "asset": "ancestral_temple",
+          "x": 0,
+          "z": -19,
+          "yaw": 0,
+          "y": 0,
+          "role": "ancestral_temple",
+          "interior": "temple_sanctum"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -26,
+          "z": -16,
+          "yaw": 0,
+          "y": 0,
+          "role": "meditation"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 26,
+          "z": -16,
+          "yaw": 0,
+          "y": 0,
+          "role": "monk_housing"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": -24,
+          "z": 14,
+          "yaw": 0,
+          "y": 0,
+          "role": "incense"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": 24,
+          "z": 14,
+          "yaw": 0,
+          "y": 0,
+          "role": "prayer"
+        },
+        {
+          "asset": "stone_stairs",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "pilgrimage_stairs"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -15,
+          "z": 22,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 15,
+          "z": 22,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -16,
+          "z": -2,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 16,
+          "z": -2,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -38,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -38,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -30,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -30,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -22,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -22,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -14,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -14,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -6,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 2,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 10,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 10,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 18,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 18,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 26,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 26,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 34,
+          "z": -38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 34,
+          "z": 38.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": -35,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": -35,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": -27,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": -27,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": -19,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": -19,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": -11,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": -11,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": -3,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": -3,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": 5,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": 5,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": 13,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": 13,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": 21,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": 21,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -40.0,
+          "z": 29,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 40.0,
+          "z": 29,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        }
+      ],
+      "areas": [
+        {
+          "id": "sanctum",
+          "center": [
+            0,
+            -19
+          ],
+          "size": [
+            15,
+            13
+          ],
+          "kind": "ceremony"
+        },
+        {
+          "id": "pilgrim_court",
+          "center": [
+            0,
+            10
+          ],
+          "size": [
+            26,
+            17
+          ],
+          "kind": "ceremony"
+        },
+        {
+          "id": "meditation",
+          "center": [
+            -26,
+            -16
+          ],
+          "size": [
+            13,
+            10
+          ],
+          "kind": "meditation"
+        }
+      ],
+      "paths": [
+        {
+          "id": "pilgrimage",
+          "points": [
+            [
+              0,
+              43
+            ],
+            [
+              0,
+              26
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              0,
+              -9
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        43.0
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            39.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            43.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 6,
+          "capacity": 10
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            10.0,
+            0.2,
+            30.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            10.0,
+            0.2,
+            25.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        39.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          43.0
+        ],
+        "to": [
+          0,
+          0,
+          39.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "fortress": {
+      "size_m": [
+        100,
+        100
+      ],
+      "category": "fortress",
+      "required": true,
+      "assets": [
+        {
+          "asset": "fortress_gate",
+          "x": 0,
+          "z": 45,
+          "yaw": 0,
+          "y": 0,
+          "role": "fortress_gate"
+        },
+        {
+          "asset": "grand_hall",
+          "x": 0,
+          "z": -30,
+          "yaw": 0,
+          "y": 0,
+          "role": "grand_hall",
+          "interior": "fortress_command"
+        },
+        {
+          "asset": "training_arena",
+          "x": 19,
+          "z": 17,
+          "yaw": 0,
+          "y": 0,
+          "role": "drill_arena"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -33,
+          "z": -31,
+          "yaw": 0,
+          "y": 0,
+          "role": "barracks"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 33,
+          "z": -31,
+          "yaw": 0,
+          "y": 0,
+          "role": "barracks"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": -33,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "barracks"
+        },
+        {
+          "asset": "long_pavilion",
+          "x": 33,
+          "z": 10,
+          "yaw": 0,
+          "y": 0,
+          "role": "barracks"
+        },
+        {
+          "asset": "watchtower",
+          "x": -44,
+          "z": -44,
+          "yaw": 0,
+          "y": 0,
+          "role": "tower"
+        },
+        {
+          "asset": "watchtower",
+          "x": -44,
+          "z": 44,
+          "yaw": 0,
+          "y": 0,
+          "role": "tower"
+        },
+        {
+          "asset": "watchtower",
+          "x": 44,
+          "z": -44,
+          "yaw": 0,
+          "y": 0,
+          "role": "tower"
+        },
+        {
+          "asset": "watchtower",
+          "x": 44,
+          "z": 44,
+          "yaw": 0,
+          "y": 0,
+          "role": "tower"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -46,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -46,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -38,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -38,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -30,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -30,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -22,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -22,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -14,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -14,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -6,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 2,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 10,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 10,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 18,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 18,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 26,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 26,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 34,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 34,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 42,
+          "z": -48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 42,
+          "z": 48.0,
+          "yaw": 0,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -45,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -45,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -37,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -37,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -29,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -29,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -21,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -21,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -13,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -13,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": -5,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": -5,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 3,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 3,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 11,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 11,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 19,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 19,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 27,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 27,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 35,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 35,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": -48.0,
+          "z": 43,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        },
+        {
+          "asset": "wall_stone_8m",
+          "x": 48.0,
+          "z": 43,
+          "yaw": 1,
+          "y": 0,
+          "role": "perimeter"
+        }
+      ],
+      "areas": [
+        {
+          "id": "barracks_west",
+          "center": [
+            -33,
+            10
+          ],
+          "size": [
+            13,
+            9
+          ],
+          "kind": "barracks"
+        },
+        {
+          "id": "parade_ground",
+          "center": [
+            0,
+            10
+          ],
+          "size": [
+            25,
+            25
+          ],
+          "kind": "drill"
+        },
+        {
+          "id": "command",
+          "center": [
+            0,
+            -30
+          ],
+          "size": [
+            25,
+            18
+          ],
+          "kind": "command"
+        }
+      ],
+      "paths": [
+        {
+          "id": "parade_route",
+          "points": [
+            [
+              0,
+              52
+            ],
+            [
+              0,
+              25
+            ],
+            [
+              0,
+              -20
+            ]
+          ],
+          "width_m": 6
+        }
+      ],
+      "return": [
+        0,
+        0,
+        53.0
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            49.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            53.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            10.0,
+            0.2,
+            41.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            15.0,
+            0.2,
+            40.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            35.0,
+            0.2,
+            15.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            12.0
+          ],
+          "radius_m": 7,
+          "capacity": 12
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        49.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          53.0
+        ],
+        "to": [
+          0,
+          0,
+          49.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "ancestral_ruins": {
+      "size_m": [
+        80,
+        76
+      ],
+      "category": "ruin",
+      "required": true,
+      "assets": [
+        {
+          "asset": "ruin_arch",
+          "x": 0,
+          "z": 30,
+          "yaw": 0,
+          "y": 0,
+          "role": "ruin_arch"
+        },
+        {
+          "asset": "ancient_ruin_hall",
+          "x": 0,
+          "z": -18,
+          "yaw": 0,
+          "y": 0,
+          "role": "ancient_ruin_hall",
+          "interior": "ruin_remains"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": -23,
+          "z": -7,
+          "yaw": 1,
+          "y": 0,
+          "role": "ruin_arch"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": 23,
+          "z": -7,
+          "yaw": 3,
+          "y": 0,
+          "role": "ruin_arch"
+        },
+        {
+          "asset": "stone_stairs",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_stairs"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 9,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 9,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        }
+      ],
+      "areas": [
+        {
+          "id": "ruins_plaza",
+          "center": [
+            0,
+            10
+          ],
+          "size": [
+            23,
+            22
+          ],
+          "kind": "exploration"
+        },
+        {
+          "id": "hall_remains",
+          "center": [
+            0,
+            -18
+          ],
+          "size": [
+            18,
+            14
+          ],
+          "kind": "exploration"
+        }
+      ],
+      "paths": [
+        {
+          "id": "ruin_approach",
+          "points": [
+            [
+              0,
+              40
+            ],
+            [
+              0,
+              25
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              -8
+            ]
+          ],
+          "width_m": 4
+        }
+      ],
+      "return": [
+        0,
+        0,
+        41.0
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            37.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            41.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 5,
+          "capacity": 6
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        37.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          41.0
+        ],
+        "to": [
+          0,
+          0,
+          37.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "dungeon_school_ruin": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "ruin_arch",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "practice_dummy",
+          "x": -8,
+          "z": -15,
+          "yaw": 0,
+          "y": 0,
+          "role": "practice_dummy"
+        },
+        {
+          "asset": "ancient_ruin_hall",
+          "x": 0,
+          "z": -25,
+          "yaw": 0,
+          "y": 0,
+          "role": "ancient_ruin_hall"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "ruins",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_cavern": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "cavern_gate",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": -16,
+          "z": -13,
+          "yaw": 1,
+          "y": 0,
+          "role": "ruin_arch"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "cavern",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_tomb": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "ruin_arch",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_stairs",
+          "x": 0,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_stairs"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": -12,
+          "z": -20,
+          "yaw": 1,
+          "y": 0,
+          "role": "ruin_arch"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "tomb",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_fortress": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "fortress_gate",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "watchtower",
+          "x": -14,
+          "z": -19,
+          "yaw": 0,
+          "y": 0,
+          "role": "watchtower"
+        },
+        {
+          "asset": "watchtower",
+          "x": 14,
+          "z": -19,
+          "yaw": 0,
+          "y": 0,
+          "role": "watchtower"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "sect_hideout",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_hidden_temple": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "monastery_gate",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": -15,
+          "z": -22,
+          "yaw": 0,
+          "y": 0,
+          "role": "wood_pavilion"
+        },
+        {
+          "asset": "wood_pavilion",
+          "x": 15,
+          "z": -22,
+          "yaw": 0,
+          "y": 0,
+          "role": "wood_pavilion"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "temple",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_abyss": {
+      "size_m": [
+        54,
+        68
+      ],
+      "category": "dungeon",
+      "required": true,
+      "assets": [
+        {
+          "asset": "abyss_gate",
+          "x": 0,
+          "z": -7,
+          "yaw": 0,
+          "y": 0,
+          "role": "dungeon_portal"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": -11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "stone_lantern",
+          "x": 11,
+          "z": 5,
+          "yaw": 0,
+          "y": 0,
+          "role": "stone_lantern"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": -15,
+          "z": -20,
+          "yaw": 1,
+          "y": 0,
+          "role": "ruin_arch"
+        },
+        {
+          "asset": "ruin_arch",
+          "x": 15,
+          "z": -20,
+          "yaw": 3,
+          "y": 0,
+          "role": "ruin_arch"
+        }
+      ],
+      "areas": [
+        {
+          "id": "portal",
+          "center": [
+            0,
+            -7
+          ],
+          "size": [
+            5,
+            6
+          ],
+          "kind": "dungeon_portal"
+        },
+        {
+          "id": "safe_approach",
+          "center": [
+            0,
+            11
+          ],
+          "size": [
+            10,
+            16
+          ],
+          "kind": "safe_approach"
+        }
+      ],
+      "paths": [
+        {
+          "id": "to_dungeon",
+          "points": [
+            [
+              0,
+              36
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              0,
+              -3
+            ]
+          ],
+          "width_m": 5
+        }
+      ],
+      "return": [
+        0,
+        0,
+        19
+      ],
+      "dungeon_family": "cavern",
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    }
+  }
+}

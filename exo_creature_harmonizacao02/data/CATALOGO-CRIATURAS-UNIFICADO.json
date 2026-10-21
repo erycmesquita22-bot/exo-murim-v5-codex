@@ -1,0 +1,3045 @@
+{
+  "schema": "exo.visual.harmonizacao02.v1",
+  "date": "2026-10-19",
+  "engine_target": "Godot 4.6.2 Standard Compatibility",
+  "source_archives_sha256": {
+    "Creature Forge 01": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+    "Creature Art 02": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662"
+  },
+  "count": {
+    "unique_creature_ids": 17,
+    "unique_source_glb": 20,
+    "duplicate_species": 3,
+    "bestiary02_registered_with_visual": 13,
+    "bestiary02_registered_without_visual": 3,
+    "original_33_planned_remaining": 21
+  },
+  "assets_by_species": {
+    "bear": {
+      "canonical_id": "bear",
+      "display_name": "Urso",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "bear",
+      "bestiary02_attacks": [
+        "paw_slam",
+        "bite"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "mountain"
+      ],
+      "variants": [
+        {
+          "id": "bear",
+          "source_id": "bear",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/bear.glb",
+          "original_sha256": "a748d026548219a4a1d05a0be4540095be38607d4348dbe1abc9f37b68ccc661",
+          "harmonized_sha256": "3d0cf0bc3cc7283b1e24ca8b6f335bd4d2d4a277fe5a1fd3ee42523fb4f591f4",
+          "model": "res://exo_creature_harmonizacao02/models/bear/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/bear/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1176,
+          "triangles": 588,
+          "source_bounds_xyz": [
+            2.6058,
+            2.1624,
+            1.144
+          ],
+          "scene_scale_proposed": 0.9,
+          "scene_bounds_xyz": [
+            2.3452,
+            1.9462,
+            1.0296
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              1.5478,
+              1.7126,
+              0.7722
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.7722,
+              1.7126,
+              1.5478
+            ],
+            "body_offset_xyz": [
+              0,
+              0.8563,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/bear/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/bear/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "boar": {
+      "canonical_id": "boar",
+      "display_name": "Javali",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "boar",
+      "bestiary02_attacks": [
+        "tusk_charge",
+        "headbutt"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "meadow"
+      ],
+      "variants": [
+        {
+          "id": "boar",
+          "source_id": "boar",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/boar.glb",
+          "original_sha256": "8dccc66aa41a091fc0cf334d4e5e662516db6d715b7b70390196bc4f7b1139fc",
+          "harmonized_sha256": "db01cfcf8ad3167a1214e5bd9e5f649ad10edac8ade9b2c762ea76b0e7766faa",
+          "model": "res://exo_creature_harmonizacao02/models/boar/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/boar/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1392,
+          "triangles": 696,
+          "source_bounds_xyz": [
+            2.70853,
+            1.7253,
+            1.0324
+          ],
+          "scene_scale_proposed": 0.8,
+          "scene_bounds_xyz": [
+            2.1668,
+            1.3802,
+            0.8259
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.4301,
+              1.2146,
+              0.6194
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.6194,
+              1.2146,
+              1.4301
+            ],
+            "body_offset_xyz": [
+              0,
+              0.6073,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        },
+        {
+          "id": "boar",
+          "source_id": "boar",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/boar.glb",
+          "original_sha256": "5392af5211e49f90b3bcddbfc5e9adf445011c383a08f8c522135cb493b2a0f3",
+          "harmonized_sha256": "7bb6b8886168f109f4950ce412f5de71f6c92beb1e56684ac413d7eb49d25348",
+          "model": "res://exo_creature_harmonizacao02/models/boar/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/boar/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 10188,
+          "triangles": 5094,
+          "source_bounds_xyz": [
+            3.2402,
+            1.6438,
+            1.309
+          ],
+          "scene_scale_proposed": 0.8,
+          "scene_bounds_xyz": [
+            2.5922,
+            1.315,
+            1.0472
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.7108,
+              1.1572,
+              0.7854
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.7854,
+              1.1572,
+              1.7108
+            ],
+            "body_offset_xyz": [
+              0,
+              0.5786,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/boar/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/boar/art02.tscn",
+        "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
+      },
+      "species_count": 1,
+      "model_variant_count": 2,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "corrupted_wolf": {
+      "canonical_id": "corrupted_wolf",
+      "display_name": "Lobo Corrompido",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "corrupted_wolf",
+      "bestiary02_attacks": [
+        "bite",
+        "lunge"
+      ],
+      "bestiary02_biomes": [
+        "ruins",
+        "corrupted_forest"
+      ],
+      "variants": [
+        {
+          "id": "corrupted_wolf",
+          "source_id": "shadow_wolf",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/corrupted/shadow_wolf.glb",
+          "original_sha256": "47277eb9f8aaea1e5ab82571c69314e4fbe4f3d2bb5ce6d6361fffd0105d870a",
+          "harmonized_sha256": "5fcbcd9f36f4b5cab03641d37f5bc8efc1adc9ad6c29e74a0ab08e8ab8697a03",
+          "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1584,
+          "triangles": 792,
+          "source_bounds_xyz": [
+            3.12117,
+            1.98727,
+            0.764
+          ],
+          "scene_scale_proposed": 0.81,
+          "scene_bounds_xyz": [
+            2.5281,
+            1.6097,
+            0.6188
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.6686,
+              1.4165,
+              0.4641
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.4641,
+              1.4165,
+              1.6686
+            ],
+            "body_offset_xyz": [
+              0,
+              0.7083,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "deer": {
+      "canonical_id": "deer",
+      "display_name": "Cervo da Floresta",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "deer",
+      "bestiary02_attacks": [
+        "kick"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "meadow"
+      ],
+      "variants": [
+        {
+          "id": "deer",
+          "source_id": "deer",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/deer.glb",
+          "original_sha256": "2973ffb5c49982c14b72b936379522256c6108b73b99724d409ed9e81d3f375e",
+          "harmonized_sha256": "7fd24bed05d2bc27d7ee9157f4358a63c29fbde92ef438dec23618e1c79fc493",
+          "model": "res://exo_creature_harmonizacao02/models/deer/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/deer/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1392,
+          "triangles": 696,
+          "source_bounds_xyz": [
+            2.22925,
+            2.28664,
+            0.63482
+          ],
+          "scene_scale_proposed": 0.9,
+          "scene_bounds_xyz": [
+            2.0063,
+            2.058,
+            0.5713
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.3242,
+              1.811,
+              0.4285
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.4285,
+              1.811,
+              1.3242
+            ],
+            "body_offset_xyz": [
+              0,
+              0.9055,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/deer/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/deer/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "demon_boar": {
+      "canonical_id": "demon_boar",
+      "display_name": "Javali Demoníaco",
+      "gameplay_authority": "requires_bestiary02_approval",
+      "bestiary02_id": null,
+      "bestiary02_attacks": [],
+      "bestiary02_biomes": [],
+      "variants": [
+        {
+          "id": "demon_boar",
+          "source_id": "demon_boar",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/corrupted/demon_boar.glb",
+          "original_sha256": "ab01ad118dd82465145c4a701de992af095bf4553077c841a3940d4122c23fd2",
+          "harmonized_sha256": "7e2866b53a113b9486bbaf4ce3cc0c59815dc726a430878b8d9e0295a86285f7",
+          "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/demon_boar/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1752,
+          "triangles": 876,
+          "source_bounds_xyz": [
+            3.13506,
+            2.0027,
+            1.1808
+          ],
+          "scene_scale_proposed": 0.8,
+          "scene_bounds_xyz": [
+            2.508,
+            1.6022,
+            0.9446
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.6553,
+              1.4099,
+              0.7085
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.7085,
+              1.4099,
+              1.6553
+            ],
+            "body_offset_xyz": [
+              0,
+              0.705,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/demon_boar/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "desert_monitor": {
+      "canonical_id": "desert_monitor",
+      "display_name": "Varano das Dunas",
+      "gameplay_authority": "requires_bestiary02_approval",
+      "bestiary02_id": null,
+      "bestiary02_attacks": [],
+      "bestiary02_biomes": [],
+      "variants": [
+        {
+          "id": "desert_monitor",
+          "source_id": "desert_monitor",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/desert_monitor.glb",
+          "original_sha256": "6a17ec47e533344fca664b194eae3bd5aaf1f9d0e49394902e6f9161fc25d19b",
+          "harmonized_sha256": "0e433bc64ad02ce662c48b506ee3450a2a8c850f19fc04c89e742e81de96f1c6",
+          "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/desert_monitor/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 6536,
+          "triangles": 3268,
+          "source_bounds_xyz": [
+            3.5322,
+            1.1706,
+            0.8608
+          ],
+          "scene_scale_proposed": 0.72,
+          "scene_bounds_xyz": [
+            2.5432,
+            0.8428,
+            0.6198
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.6785,
+              0.7417,
+              0.4648
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.4648,
+              0.7417,
+              1.6785
+            ],
+            "body_offset_xyz": [
+              0,
+              0.3708,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/desert_monitor/art02.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "desert_scorpion": {
+      "canonical_id": "desert_scorpion",
+      "display_name": "Escorpião das Dunas",
+      "gameplay_authority": "requires_bestiary02_approval",
+      "bestiary02_id": null,
+      "bestiary02_attacks": [],
+      "bestiary02_biomes": [],
+      "variants": [
+        {
+          "id": "desert_scorpion",
+          "source_id": "desert_scorpion",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/desert_scorpion.glb",
+          "original_sha256": "70310af1ae787f54d8b3994a7897bd19415ef87e8ff7500f29fa75f38072da0c",
+          "harmonized_sha256": "89b67e325231ad9ebd5cc20e808d3f431cb6ee6ff051b862f78e3b511d5dfabb",
+          "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/desert_scorpion/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 28,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 11840,
+          "triangles": 5920,
+          "source_bounds_xyz": [
+            2.587,
+            1.596,
+            2.259
+          ],
+          "scene_scale_proposed": 0.8,
+          "scene_bounds_xyz": [
+            2.0696,
+            1.2768,
+            1.8072
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.6143,
+              0.9193,
+              1.4458
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              1.4458,
+              0.9193,
+              1.6143
+            ],
+            "body_offset_xyz": [
+              0,
+              0.4596,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "root",
+              "node_index": 29,
+              "translation": [
+                0.13,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 30,
+              "translation": [
+                0,
+                0.35,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 31,
+              "translation": [
+                0,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [],
+          "track_count_before": 162,
+          "track_count_after": 162,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/desert_scorpion/art02.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "fox": {
+      "canonical_id": "fox",
+      "display_name": "Raposa",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "fox",
+      "bestiary02_attacks": [
+        "bite"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "meadow"
+      ],
+      "variants": [
+        {
+          "id": "fox",
+          "source_id": "fox",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/fox.glb",
+          "original_sha256": "cbb04419503430e9942054825feea128d2d96f1545000c7b70297b2136ab7e3b",
+          "harmonized_sha256": "a2a02ac187d30bb4f19cf7e371a9216f009585e433cc0a4640f3bec4998fdb28",
+          "model": "res://exo_creature_harmonizacao02/models/fox/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/fox/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1176,
+          "triangles": 588,
+          "source_bounds_xyz": [
+            2.6825,
+            1.4477,
+            0.54782
+          ],
+          "scene_scale_proposed": 0.79,
+          "scene_bounds_xyz": [
+            2.1192,
+            1.1437,
+            0.4328
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.3987,
+              1.0064,
+              0.3246
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.3246,
+              1.0064,
+              1.3987
+            ],
+            "body_offset_xyz": [
+              0,
+              0.5032,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/fox/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/fox/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "kitsune": {
+      "canonical_id": "kitsune",
+      "display_name": "Kitsune Selvagem",
+      "gameplay_authority": "requires_bestiary02_approval",
+      "bestiary02_id": null,
+      "bestiary02_attacks": [],
+      "bestiary02_biomes": [],
+      "variants": [
+        {
+          "id": "kitsune",
+          "source_id": "kitsune",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/legendary/kitsune.glb",
+          "original_sha256": "02f854fc67f75e9909ce0ddfc43158cd71520e293ebee729dcfbf6f61770d0d6",
+          "harmonized_sha256": "e52a88a202f77574e1d69079244b209cfe92af807039b604bcd8f6eeb861ab3d",
+          "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/kitsune/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 28,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1584,
+          "triangles": 792,
+          "source_bounds_xyz": [
+            3.0913,
+            1.6001,
+            1.9436
+          ],
+          "scene_scale_proposed": 0.83,
+          "scene_bounds_xyz": [
+            2.5658,
+            1.3281,
+            1.6132
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.6934,
+              1.1687,
+              1.2099
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              1.2099,
+              1.1687,
+              1.6934
+            ],
+            "body_offset_xyz": [
+              0,
+              0.5844,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 29,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 30,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 31,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 96,
+          "track_count_after": 96,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/kitsune/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "leopard": {
+      "canonical_id": "leopard",
+      "display_name": "Leopardo",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "leopard",
+      "bestiary02_attacks": [
+        "pounce",
+        "bite"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "mountain"
+      ],
+      "variants": [
+        {
+          "id": "leopard",
+          "source_id": "leopard",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/leopard.glb",
+          "original_sha256": "49a33d923339d7fa751b675de89be4c4eb58a892d78746dc8432c218820bc2f1",
+          "harmonized_sha256": "90f48a193646d66efac03615632522bbbad5360602c886b22b49a3a02d37ee13",
+          "model": "res://exo_creature_harmonizacao02/models/leopard/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 9464,
+          "triangles": 4732,
+          "source_bounds_xyz": [
+            3.7428,
+            1.4993,
+            1.001
+          ],
+          "scene_scale_proposed": 0.82,
+          "scene_bounds_xyz": [
+            3.0691,
+            1.2294,
+            0.8208
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              2.0256,
+              1.0819,
+              0.6156
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.6156,
+              1.0819,
+              2.0256
+            ],
+            "body_offset_xyz": [
+              0,
+              0.5409,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/leopard/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "mountain_goat": {
+      "canonical_id": "mountain_goat",
+      "display_name": "Cabra da Montanha",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "mountain_goat",
+      "bestiary02_attacks": [
+        "headbutt"
+      ],
+      "bestiary02_biomes": [
+        "mountain",
+        "cliff"
+      ],
+      "variants": [
+        {
+          "id": "mountain_goat",
+          "source_id": "mountain_goat",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/mountain_goat.glb",
+          "original_sha256": "c071aed3c86462ade945e091a3ced5333150b68a765a476161741bcbd4c34268",
+          "harmonized_sha256": "693ebb0a1d1c6d963909bf0374df9b8ad0d734e7da275c129a9c87cf8ab022de",
+          "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 8720,
+          "triangles": 4360,
+          "source_bounds_xyz": [
+            2.5434,
+            1.9662,
+            1.001
+          ],
+          "scene_scale_proposed": 0.87,
+          "scene_bounds_xyz": [
+            2.2128,
+            1.7106,
+            0.8709
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.4604,
+              1.5053,
+              0.6532
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.6532,
+              1.5053,
+              1.4604
+            ],
+            "body_offset_xyz": [
+              0,
+              0.7527,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "rabbit": {
+      "canonical_id": "rabbit",
+      "display_name": "Coelho Selvagem",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "rabbit",
+      "bestiary02_attacks": [
+        "kick"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "meadow"
+      ],
+      "variants": [
+        {
+          "id": "rabbit",
+          "source_id": "rabbit",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/rabbit.glb",
+          "original_sha256": "443b4e9ba715fe384d6b740838531d28b3d514d7027da4258f6434d500bd1b25",
+          "harmonized_sha256": "6a14d1ed5a34db148f36d6510c8a3ac5000fcb1cb5674bb35ca01d21c3d93444",
+          "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1200,
+          "triangles": 600,
+          "source_bounds_xyz": [
+            1.21505,
+            1.0359,
+            0.46547
+          ],
+          "scene_scale_proposed": 0.62,
+          "scene_bounds_xyz": [
+            0.7533,
+            0.6423,
+            0.2886
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              0.4972,
+              0.5652,
+              0.24
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.24,
+              0.5652,
+              0.4972
+            ],
+            "body_offset_xyz": [
+              0,
+              0.2826,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "snake": {
+      "canonical_id": "snake",
+      "display_name": "Serpente",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "snake",
+      "bestiary02_attacks": [
+        "quick_bite"
+      ],
+      "bestiary02_biomes": [
+        "wetland",
+        "forest",
+        "rock"
+      ],
+      "variants": [
+        {
+          "id": "snake",
+          "source_id": "serpent",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/reptiles/serpent.glb",
+          "original_sha256": "6e44666a6a876d2510bba768fe9b25666ee5296b87dd45ea23f972b21cf18680",
+          "harmonized_sha256": "16a13d0bd08386c032cc84153c6f785c4e276ac53320f05055bec28dda5cf558",
+          "model": "res://exo_creature_harmonizacao02/models/snake/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/snake/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 912,
+          "triangles": 456,
+          "source_bounds_xyz": [
+            4.0625,
+            0.415,
+            0.523
+          ],
+          "scene_scale_proposed": 0.88,
+          "scene_bounds_xyz": [
+            3.575,
+            0.3652,
+            0.4602
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              3.0388,
+              0.3068,
+              0.359
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.359,
+              0.3068,
+              3.0388
+            ],
+            "body_offset_xyz": [
+              0,
+              0.1534,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.13,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.35,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "spine_04",
+              "node_index": 19,
+              "translation": [
+                0,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [],
+          "track_count_before": 65,
+          "track_count_after": 65,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/snake/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/snake/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "spirit_deer": {
+      "canonical_id": "spirit_deer",
+      "display_name": "Cervo Espiritual",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "spirit_deer",
+      "bestiary02_attacks": [
+        "kick"
+      ],
+      "bestiary02_biomes": [
+        "sacred_forest",
+        "qi_high"
+      ],
+      "variants": [
+        {
+          "id": "spirit_deer",
+          "source_id": "spirit_deer",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/spiritual/spirit_deer.glb",
+          "original_sha256": "aebc31d4e2cfc9f4cb4e2c109ed799b8d8df646977bd08853a33a0bed0ee89fa",
+          "harmonized_sha256": "3747ba0966469894fa2c1fe984dbc3ab3ded5d7fbefb199f9db71ad5e2b700ea",
+          "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1944,
+          "triangles": 972,
+          "source_bounds_xyz": [
+            2.35155,
+            2.50489,
+            0.83887
+          ],
+          "scene_scale_proposed": 0.87,
+          "scene_bounds_xyz": [
+            2.0458,
+            2.1793,
+            0.7298
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "box_proxy",
+            "body_extent_xyz_raw_plus_x": [
+              1.3503,
+              1.9177,
+              0.5474
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.5474,
+              1.9177,
+              1.3503
+            ],
+            "body_offset_xyz": [
+              0,
+              0.9589,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "forge",
+        "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "stone_guardian": {
+      "canonical_id": "stone_guardian",
+      "display_name": "Guardião Rochoso",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "stone_guardian",
+      "bestiary02_attacks": [
+        "paw_slam"
+      ],
+      "bestiary02_biomes": [
+        "ruins",
+        "mountain"
+      ],
+      "variants": [
+        {
+          "id": "stone_guardian",
+          "source_id": "stone_guardian",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/stone_guardian.glb",
+          "original_sha256": "1b1677e89b0a72c7e49933fbfd0b98544421f4e9cbd069e26f3a919dcdb97f23",
+          "harmonized_sha256": "20cbc304618f4c1d63e0d2576dc846bd6f85f458edf995ab27f01e2b267cc891",
+          "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 9956,
+          "triangles": 4978,
+          "source_bounds_xyz": [
+            3.2968,
+            1.976,
+            1.463
+          ],
+          "scene_scale_proposed": 0.92,
+          "scene_bounds_xyz": [
+            3.0331,
+            1.8179,
+            1.346
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              2.0018,
+              1.5998,
+              1.0095
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              1.0095,
+              1.5998,
+              2.0018
+            ],
+            "body_offset_xyz": [
+              0,
+              0.7999,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "fl_upper",
+              "node_index": 17,
+              "translation": [
+                0,
+                -0.25,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "body",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.1,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.1,
+                0.15,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
+        "reason": "Only authored asset currently available"
+      },
+      "species_count": 1,
+      "model_variant_count": 1,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "tiger": {
+      "canonical_id": "tiger",
+      "display_name": "Tigre",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "tiger",
+      "bestiary02_attacks": [
+        "pounce",
+        "bite"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "bamboo"
+      ],
+      "variants": [
+        {
+          "id": "tiger",
+          "source_id": "tiger",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/tiger.glb",
+          "original_sha256": "e44bf86035b0b955444ec61750e09703e96950b244e29be034ee53047e521d07",
+          "harmonized_sha256": "5eb2c75a73ce6648d41c54c494e88c413417660e914eb3aed1df333f2b44c3d5",
+          "model": "res://exo_creature_harmonizacao02/models/tiger/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/tiger/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1920,
+          "triangles": 960,
+          "source_bounds_xyz": [
+            3.6736,
+            1.8926,
+            0.86694
+          ],
+          "scene_scale_proposed": 0.86,
+          "scene_bounds_xyz": [
+            3.1593,
+            1.6276,
+            0.7456
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              2.0851,
+              1.4323,
+              0.5592
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.5592,
+              1.4323,
+              2.0851
+            ],
+            "body_offset_xyz": [
+              0,
+              0.7162,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        },
+        {
+          "id": "tiger",
+          "source_id": "tiger",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/tiger.glb",
+          "original_sha256": "eb63e868833e63fe590a795802fb07c8e0eeee5e0a4725fec1379c810d628e30",
+          "harmonized_sha256": "f2fe19532b8524607c373b171ecba87e3238fdf228dffab9694b2d918f1522a2",
+          "model": "res://exo_creature_harmonizacao02/models/tiger/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 10896,
+          "triangles": 5448,
+          "source_bounds_xyz": [
+            3.931,
+            1.6008,
+            1.009
+          ],
+          "scene_scale_proposed": 0.86,
+          "scene_bounds_xyz": [
+            3.3807,
+            1.3767,
+            0.8677
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              2.2312,
+              1.2115,
+              0.6508
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.6508,
+              1.2115,
+              2.2312
+            ],
+            "body_offset_xyz": [
+              0,
+              0.6057,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/tiger/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
+        "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
+      },
+      "species_count": 1,
+      "model_variant_count": 2,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    },
+    "wolf": {
+      "canonical_id": "wolf",
+      "display_name": "Lobo",
+      "gameplay_authority": "bestiary02",
+      "bestiary02_id": "wolf",
+      "bestiary02_attacks": [
+        "bite",
+        "lunge"
+      ],
+      "bestiary02_biomes": [
+        "forest",
+        "mountain"
+      ],
+      "variants": [
+        {
+          "id": "wolf",
+          "source_id": "wolf",
+          "source": "forge",
+          "source_glb_path": "exo_creatures/models/common/wolf.glb",
+          "original_sha256": "eac59017a4f98630ee7d08f43ab6abac44e35cf41048aa5235d19f18668285d2",
+          "harmonized_sha256": "9cf77b729b4388586a6a67efa868b912da43b5201af2fd84792d2ffc1836370e",
+          "model": "res://exo_creature_harmonizacao02/models/wolf/forge.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/wolf/forge.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 1320,
+          "triangles": 660,
+          "source_bounds_xyz": [
+            2.90458,
+            1.8039,
+            0.72282
+          ],
+          "scene_scale_proposed": 0.77,
+          "scene_bounds_xyz": [
+            2.2365,
+            1.389,
+            0.5566
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              1.4761,
+              1.2223,
+              0.4174
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.4174,
+              1.2223,
+              1.4761
+            ],
+            "body_offset_xyz": [
+              0,
+              0.6112,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        },
+        {
+          "id": "wolf",
+          "source_id": "wolf",
+          "source": "art02",
+          "source_glb_path": "exo_creature_art02/models/biomes/wolf.glb",
+          "original_sha256": "39c343ac5561ec4aac04cdf5a4756d8d1fd351ce023174805c19cca2d5571fa4",
+          "harmonized_sha256": "6d05a1e6949bd793c696a54e11af8a8561ef107480ac3f3f78ceaebe8b7c6d20",
+          "model": "res://exo_creature_harmonizacao02/models/wolf/art02.glb",
+          "scene": "res://exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
+          "atlas": "embedded in GLB (unchanged)",
+          "material_count": 1,
+          "texture_count": 1,
+          "rig": "EXO_Skeleton",
+          "bones": 16,
+          "clip_names": [
+            "idle",
+            "walk",
+            "run",
+            "attack",
+            "hit",
+            "death"
+          ],
+          "clips_count": 6,
+          "vertices": 9828,
+          "triangles": 4914,
+          "source_bounds_xyz": [
+            3.7988,
+            1.8612,
+            1.001
+          ],
+          "scene_scale_proposed": 0.77,
+          "scene_bounds_xyz": [
+            2.9251,
+            1.4331,
+            0.7708
+          ],
+          "orientation_source": "+X forward +Y up",
+          "orientation_scene": "-Z forward +Y up via 90deg wrapper",
+          "collision_profile": {
+            "type": "capsule_group",
+            "body_extent_xyz_raw_plus_x": [
+              1.9306,
+              1.2611,
+              0.5781
+            ],
+            "body_extent_xyz_scene_minus_z": [
+              0.5781,
+              1.2611,
+              1.9306
+            ],
+            "body_offset_xyz": [
+              0,
+              0.6306,
+              0
+            ],
+            "units": "Godot meters; scene wrapper scale applied",
+            "provisional": true,
+            "damage_zone": null,
+            "physics_owner": "Bestiary02/EXO Core"
+          },
+          "sockets": [
+            {
+              "name": "SOCKET_ATTACK_ORIGIN",
+              "parent": "head",
+              "node_index": 17,
+              "translation": [
+                0.18,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_VFX_CENTER",
+              "parent": "root",
+              "node_index": 18,
+              "translation": [
+                0,
+                0.45,
+                0
+              ]
+            },
+            {
+              "name": "SOCKET_BACK",
+              "parent": "body",
+              "node_index": 19,
+              "translation": [
+                -0.08,
+                0.1,
+                0
+              ]
+            }
+          ],
+          "animation_modification": [
+            "walk:fl_upper",
+            "walk:fl_lower",
+            "walk:fr_upper",
+            "walk:fr_lower",
+            "walk:rl_upper",
+            "walk:rl_lower",
+            "walk:rr_upper",
+            "walk:rr_lower",
+            "walk:root",
+            "run:fl_upper",
+            "run:fl_lower",
+            "run:fr_upper",
+            "run:fr_lower",
+            "run:rl_upper",
+            "run:rl_lower",
+            "run:rr_upper",
+            "run:rr_lower",
+            "run:root",
+            "attack:root_lunge"
+          ],
+          "track_count_before": 48,
+          "track_count_after": 48,
+          "status": "candidate_offline_glb_validation_no_native_godot",
+          "licensing": "EXO original project; commercial chain-of-title pending final verification",
+          "model_geometry": "source unchanged"
+        }
+      ],
+      "recommended_variant": {
+        "source": "art02",
+        "model": "res://exo_creature_harmonizacao02/models/wolf/art02.glb",
+        "scene": "res://exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
+        "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
+      },
+      "species_count": 1,
+      "model_variant_count": 2,
+      "status": "CANDIDATO_OFFLINE; requires Godot visual and animation QA"
+    }
+  },
+  "original_33_pending": [
+    {
+      "catalog_number": "06",
+      "name": "Macaco",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "07",
+      "name": "Faisão",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "08",
+      "name": "Garça",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "09",
+      "name": "Pavão",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "10",
+      "name": "Búfalo",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "12",
+      "name": "Pantera",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "14",
+      "name": "Leopardo da Neve",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "16",
+      "name": "Naja",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "17",
+      "name": "Serpente Venenosa",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "18",
+      "name": "Crocodilo",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "19",
+      "name": "Lagarto Espinhoso",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "21",
+      "name": "Garça Celestial",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "22",
+      "name": "Tartaruga Anciã",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "23",
+      "name": "Lobo Celestial",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "26",
+      "name": "Cervo Corrompido",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "27",
+      "name": "Golem da Floresta",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "28",
+      "name": "Espírito da Árvore",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "29",
+      "name": "Fera de Pedra",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "30",
+      "name": "Capra Rochosa",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "31",
+      "name": "Fera Rubra",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    },
+    {
+      "catalog_number": "33",
+      "name": "Dragão Selvagem",
+      "status": "PENDING_FROM_ORIGINAL_33",
+      "clarification": "Species from original Forge scope; must not auto-map to Bestiary entry with different canonical ID"
+    }
+  ],
+  "bestiary02_missing": [
+    {
+      "id": "wild_ox",
+      "name": "Boi Selvagem",
+      "status": "BESTIARY02_REGISTERED_NO_SUITABLE_FIXED_MODEL",
+      "why": "No authored GLB for exact canonical ID"
+    },
+    {
+      "id": "wild_buffalo",
+      "name": "Búfalo Selvagem",
+      "status": "BESTIARY02_REGISTERED_NO_SUITABLE_FIXED_MODEL",
+      "why": "No authored GLB for exact canonical ID"
+    },
+    {
+      "id": "qi_serpent",
+      "name": "Serpente de Qi",
+      "status": "BESTIARY02_REGISTERED_NO_SUITABLE_FIXED_MODEL",
+      "why": "No authored GLB for exact canonical ID"
+    }
+  ],
+  "visual_only_proposals": [
+    {
+      "id": "demon_boar",
+      "name": "Javali Demoníaco",
+      "status": "ART_ONLY_NOT_REGISTERED_BESTIARY02"
+    },
+    {
+      "id": "desert_monitor",
+      "name": "Varano das Dunas",
+      "status": "ART_ONLY_NOT_REGISTERED_BESTIARY02"
+    },
+    {
+      "id": "desert_scorpion",
+      "name": "Escorpião das Dunas",
+      "status": "ART_ONLY_NOT_REGISTERED_BESTIARY02"
+    },
+    {
+      "id": "kitsune",
+      "name": "Kitsune Selvagem",
+      "status": "ART_ONLY_NOT_REGISTERED_BESTIARY02"
+    }
+  ],
+  "original_sources": {
+    "forge:wolf": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/wolf.glb",
+      "original_sha256": "eac59017a4f98630ee7d08f43ab6abac44e35cf41048aa5235d19f18668285d2"
+    },
+    "forge:deer": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/deer.glb",
+      "original_sha256": "2973ffb5c49982c14b72b936379522256c6108b73b99724d409ed9e81d3f375e"
+    },
+    "forge:boar": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/boar.glb",
+      "original_sha256": "8dccc66aa41a091fc0cf334d4e5e662516db6d715b7b70390196bc4f7b1139fc"
+    },
+    "forge:fox": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/fox.glb",
+      "original_sha256": "cbb04419503430e9942054825feea128d2d96f1545000c7b70297b2136ab7e3b"
+    },
+    "forge:rabbit": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/rabbit.glb",
+      "original_sha256": "443b4e9ba715fe384d6b740838531d28b3d514d7027da4258f6434d500bd1b25"
+    },
+    "forge:tiger": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/tiger.glb",
+      "original_sha256": "e44bf86035b0b955444ec61750e09703e96950b244e29be034ee53047e521d07"
+    },
+    "forge:bear": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/common/bear.glb",
+      "original_sha256": "a748d026548219a4a1d05a0be4540095be38607d4348dbe1abc9f37b68ccc661"
+    },
+    "forge:spirit_deer": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/spiritual/spirit_deer.glb",
+      "original_sha256": "aebc31d4e2cfc9f4cb4e2c109ed799b8d8df646977bd08853a33a0bed0ee89fa"
+    },
+    "forge:shadow_wolf": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/corrupted/shadow_wolf.glb",
+      "original_sha256": "47277eb9f8aaea1e5ab82571c69314e4fbe4f3d2bb5ce6d6361fffd0105d870a"
+    },
+    "forge:demon_boar": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/corrupted/demon_boar.glb",
+      "original_sha256": "ab01ad118dd82465145c4a701de992af095bf4553077c841a3940d4122c23fd2"
+    },
+    "forge:kitsune": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/legendary/kitsune.glb",
+      "original_sha256": "02f854fc67f75e9909ce0ddfc43158cd71520e293ebee729dcfbf6f61770d0d6"
+    },
+    "forge:serpent": {
+      "archive": "EXO-Murim-Creature-Forge-01.zip",
+      "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
+      "member": "exo_creatures/models/reptiles/serpent.glb",
+      "original_sha256": "6e44666a6a876d2510bba768fe9b25666ee5296b87dd45ea23f972b21cf18680"
+    },
+    "art02:wolf": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/wolf.glb",
+      "original_sha256": "39c343ac5561ec4aac04cdf5a4756d8d1fd351ce023174805c19cca2d5571fa4"
+    },
+    "art02:boar": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/boar.glb",
+      "original_sha256": "5392af5211e49f90b3bcddbfc5e9adf445011c383a08f8c522135cb493b2a0f3"
+    },
+    "art02:tiger": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/tiger.glb",
+      "original_sha256": "eb63e868833e63fe590a795802fb07c8e0eeee5e0a4725fec1379c810d628e30"
+    },
+    "art02:leopard": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/leopard.glb",
+      "original_sha256": "49a33d923339d7fa751b675de89be4c4eb58a892d78746dc8432c218820bc2f1"
+    },
+    "art02:mountain_goat": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/mountain_goat.glb",
+      "original_sha256": "c071aed3c86462ade945e091a3ced5333150b68a765a476161741bcbd4c34268"
+    },
+    "art02:desert_monitor": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/desert_monitor.glb",
+      "original_sha256": "6a17ec47e533344fca664b194eae3bd5aaf1f9d0e49394902e6f9161fc25d19b"
+    },
+    "art02:desert_scorpion": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/desert_scorpion.glb",
+      "original_sha256": "70310af1ae787f54d8b3994a7897bd19415ef87e8ff7500f29fa75f38072da0c"
+    },
+    "art02:stone_guardian": {
+      "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
+      "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
+      "member": "exo_creature_art02/models/biomes/stone_guardian.glb",
+      "original_sha256": "1b1677e89b0a72c7e49933fbfd0b98544421f4e9cbd069e26f3a919dcdb97f23"
+    }
+  },
+  "authority_rules": {
+    "species_ids": "Bestiary 02",
+    "spawn_biome_ecology_rewards_damage": "Bestiary 02 / EXO Core",
+    "visuals_and_sockets_only": "Harmonizacao02"
+  },
+  "status": "OFFLINE_QA_PASSED_NATIVE_GODOT_NOT_RUN"
+}

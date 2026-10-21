@@ -1,0 +1,167 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "open_86:"
+    },
+    {
+      "pass": true,
+      "test": "facade_parallel_single_row_86"
+    },
+    {
+      "pass": true,
+      "test": "distinct_stations_86:1.49999892711639"
+    },
+    {
+      "pass": true,
+      "test": "station_collisions_86:[]"
+    },
+    {
+      "pass": true,
+      "test": "old_station_relocated_86"
+    },
+    {
+      "pass": true,
+      "test": "identity_and_talks_preserved_86"
+    },
+    {
+      "pass": true,
+      "test": "occluded_body_hidden_86"
+    },
+    {
+      "pass": true,
+      "test": "roof_without_collider_hidden_86"
+    },
+    {
+      "pass": true,
+      "test": "clear_body_visible_86"
+    },
+    {
+      "pass": true,
+      "test": "offscreen_body_hidden_86"
+    },
+    {
+      "pass": true,
+      "test": "open_15:"
+    },
+    {
+      "pass": true,
+      "test": "facade_parallel_single_row_15"
+    },
+    {
+      "pass": true,
+      "test": "distinct_stations_15:1.49999916553497"
+    },
+    {
+      "pass": true,
+      "test": "station_collisions_15:[]"
+    },
+    {
+      "pass": true,
+      "test": "old_station_relocated_15"
+    },
+    {
+      "pass": true,
+      "test": "identity_and_talks_preserved_15"
+    },
+    {
+      "pass": true,
+      "test": "occluded_body_hidden_15"
+    },
+    {
+      "pass": true,
+      "test": "roof_without_collider_hidden_15"
+    },
+    {
+      "pass": true,
+      "test": "clear_body_visible_15"
+    },
+    {
+      "pass": true,
+      "test": "offscreen_body_hidden_15"
+    },
+    {
+      "pass": true,
+      "test": "open_78:"
+    },
+    {
+      "pass": true,
+      "test": "facade_parallel_single_row_78"
+    },
+    {
+      "pass": true,
+      "test": "distinct_stations_78:1.49999725818634"
+    },
+    {
+      "pass": true,
+      "test": "station_collisions_78:[]"
+    },
+    {
+      "pass": true,
+      "test": "old_station_relocated_78"
+    },
+    {
+      "pass": true,
+      "test": "identity_and_talks_preserved_78"
+    },
+    {
+      "pass": true,
+      "test": "occluded_body_hidden_78"
+    },
+    {
+      "pass": true,
+      "test": "roof_without_collider_hidden_78"
+    },
+    {
+      "pass": true,
+      "test": "clear_body_visible_78"
+    },
+    {
+      "pass": true,
+      "test": "offscreen_body_hidden_78"
+    },
+    {
+      "pass": true,
+      "test": "json_layout_version_4.0"
+    },
+    {
+      "pass": true,
+      "test": "json_layout_version_5.0"
+    },
+    {
+      "pass": true,
+      "test": "json_layout_version_6.0"
+    },
+    {
+      "pass": true,
+      "test": "json_layout_version_7.0"
+    }
+  ],
+  "failures": [],
+  "regions": [
+    {
+      "buildings": 4,
+      "depth_range": 0.000000834465026855469,
+      "intersections": [],
+      "min_station_distance": 1.49999892711639,
+      "npcs": 6,
+      "rid": 86
+    },
+    {
+      "buildings": 13,
+      "depth_range": 0.00000280141830444336,
+      "intersections": [],
+      "min_station_distance": 1.49999916553497,
+      "npcs": 20,
+      "rid": 15
+    },
+    {
+      "buildings": 43,
+      "depth_range": 0.00000584125518798828,
+      "intersections": [],
+      "min_station_distance": 1.49999725818634,
+      "npcs": 65,
+      "rid": 78
+    }
+  ]
+}

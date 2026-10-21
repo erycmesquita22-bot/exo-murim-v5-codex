@@ -1,0 +1,73 @@
+{
+  "checks": 52,
+  "facts": {
+    "blocked_river_cities": [],
+    "city_78": {
+      "crossings": 0,
+      "status": "ready"
+    },
+    "engine": "4.6.2-stable (official)",
+    "real_river_cities": [
+      {
+        "bridges": 1,
+        "region": 14.0,
+        "seed": "101",
+        "variants": [
+          "medium"
+        ]
+      },
+      {
+        "bridges": 1,
+        "region": 26.0,
+        "seed": "101",
+        "variants": [
+          "small"
+        ]
+      },
+      {
+        "bridges": 1,
+        "region": 7,
+        "seed": "707",
+        "variants": [
+          "medium"
+        ]
+      },
+      {
+        "bridges": 1,
+        "region": 56,
+        "seed": "707",
+        "variants": [
+          "medium"
+        ]
+      },
+      {
+        "bridges": 1,
+        "region": 48,
+        "seed": "9007199254740993",
+        "variants": [
+          "medium"
+        ]
+      }
+    ],
+    "seed_checks": 16,
+    "variants": {
+      "medium": {
+        "chunks": 42,
+        "physics_shapes": 42,
+        "width": 38.0
+      },
+      "monumental": {
+        "chunks": 60,
+        "physics_shapes": 60,
+        "width": 55.0
+      },
+      "small": {
+        "chunks": 30,
+        "physics_shapes": 30,
+        "width": 26.0
+      }
+    }
+  },
+  "failures": [],
+  "status": "PASS"
+}

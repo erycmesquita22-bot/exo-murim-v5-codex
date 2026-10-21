@@ -1,0 +1,405 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "wall_collision" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://genesis/region_data.gd:72)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://journey_dynamic/quest_generator.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://journey_dynamic/quest_manager.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://journey_save.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://main.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://martial_lab_demo.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://martial_lab_demo.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "has_method()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/integration/atomic_reward_adapter.gd:204)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "call()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/integration/atomic_reward_adapter.gd:206)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not preload resource script "res://exo_martial/techniques/variants.gd".
+          at: GDScript::reload (res://exo_martial/masters/martial_engine.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://exo_martial/techniques/variants.gd".
+          at: GDScript::reload (res://exo_martial/masters/martial_engine.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_core/core.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_core/core.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "next" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://exo_dungeon/generator/room_planner.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/generator/generator_v2.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/generator/dungeon_generator.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "wood" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/dungeon_renderer.gd:132)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/runtime/dungeon_instance.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/runtime/interior_root.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_dungeon/runtime/interior_root.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_dungeon/module/entrypoint.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_dungeon/module/entrypoint.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "wood" not declared in the current scope.
+          at: GDScript::reload (res://exo_dungeon/runtime/renderer_v2.gd:117)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_dungeon/runtime/renderer_v2.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Static function "ensure()" not found in base "res://animation_library.gd".
+          at: GDScript::reload (res://assets_qa.gd:29)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot find member "clips" in base "res://animation_library.gd".
+          at: GDScript::reload (res://assets_qa.gd:29)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot find member "clips" in base "res://animation_library.gd".
+          at: GDScript::reload (res://assets_qa.gd:29)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://assets_qa.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not preload resource script "res://npc_system02/planner.gd".
+          at: GDScript::reload (res://convergence/resident.gd:5)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://npc_system02/planner.gd".
+          at: GDScript::reload (res://convergence/resident.gd:5)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://npc_system02/planner.gd".
+          at: GDScript::reload (res://npc_system02/director.gd:4)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "profile" not declared in the current scope.
+          at: GDScript::reload (res://convergence/martial_host_r8.gd:252)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Identifier "profile" not declared in the current scope.
+          at: GDScript::reload (res://convergence/martial_host_r8.gd:259)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://convergence/game.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://tools/fixtures/migration012_seed.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://tools/fixtures/migration012_seed.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "has_method()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/generation/item_generator.gd:21)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "call()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/generation/item_generator.gd:22)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "has_method()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/integration/inventory_adapter.gd:17)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "call()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/integration/inventory_adapter.gd:18)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://exo_items/module/entrypoint.gd:0)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_items/module/entrypoint.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "has_method()" on the class "res://procedural/world_state.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://exo_items/tests/qa_atomic_r3_native.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_items/tests/qa_atomic_r3_native.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: The member "Engine" shadows a native class.
+          at: GDScript::reload (res://exo_martial/module.gd:4)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_martial/module.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Expected variable name after "var".
+          at: GDScript::reload (res://exo_martial/techniques/variants.gd:14)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_martial/techniques/variants.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: The member "Engine" shadows a native class.
+          at: GDScript::reload (res://exo_martial/tests/qa_native.gd:3)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://exo_martial/techniques/variants.gd".
+          at: GDScript::reload (res://exo_martial/tests/qa_native.gd:6)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_martial/tests/qa_native.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: The member "Engine" shadows a native class.
+          at: GDScript::reload (res://exo_martial/tests/qa_r2_native.gd:3)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://exo_martial/tests/qa_r2_native.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: The member "Engine" shadows a native class.
+          at: GDScript::reload (res://convergence/tests/qa_c03_r9_native.gd:8)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Cannot call non-static function "has_method()" on the class "res://exo_martial/r2/engine_r2.gd" directly. Make an instance instead.
+          at: GDScript::reload (res://convergence/tests/qa_c03_r9_native.gd:25)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://convergence/tests/qa_c03_r9_native.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Expected function name after "func".
+          at: GDScript::reload (res://npc_system02/planner.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://npc_system02/planner.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://npc_system02/planner.gd".
+          at: GDScript::reload (res://npc_system02/tests/qa_r2_logic.gd:5)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://npc_system02/tests/qa_r2_logic.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://npc_system02/planner.gd".
+          at: GDScript::reload (res://npc_system02/tests/qa_logic.gd:4)
+          GDScript backtrace (most recent call first):
+              [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+              [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+              [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+ERROR: Failed to load script "res://npc_system02/tests/qa_logic.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2907)
+   GDScript backtrace (most recent call first):
+       [0] _scan (res://convergence/tests/qa_c03_r12_native.gd:35)
+       [1] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [2] _scan (res://convergence/tests/qa_c03_r12_native.gd:32)
+       [3] _execute (res://convergence/tests/qa_c03_r12_native.gd:12)
+R12_NATIVE_PARSE total=461 failed=0

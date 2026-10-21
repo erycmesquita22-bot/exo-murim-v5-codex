@@ -1,0 +1,135 @@
+{
+  "version": "0.4",
+  "authoring": "Procedural primitives authored for EXO-Murim in this package",
+  "up_axis": "Y",
+  "units": "m",
+  "forward": "+Z",
+  "assets": {
+    "martial_hall": {
+      "file": "assets/glb/martial_hall.glb",
+      "pieces": 27,
+      "triangles": 324,
+      "sha256": "44338e076311cfb849df1f1a0bc0e5b0d23bc435fcd25bd771771991ecb729d7",
+      "size_bytes": 12676
+    },
+    "grand_hall": {
+      "file": "assets/glb/grand_hall.glb",
+      "pieces": 31,
+      "triangles": 372,
+      "sha256": "2d161402793fb41da192b102d040ba1dfbc47d7da88b22f0991251d2fa9ff0b1",
+      "size_bytes": 14096
+    },
+    "martial_gate": {
+      "file": "assets/glb/martial_gate.glb",
+      "pieces": 17,
+      "triangles": 204,
+      "sha256": "b775e76b95e82b4221e6c694fd91ad1c1882a348c9a846fd9d2cabe5dae7cd8b",
+      "size_bytes": 8568
+    },
+    "fortress_gate": {
+      "file": "assets/glb/fortress_gate.glb",
+      "pieces": 17,
+      "triangles": 204,
+      "sha256": "2e85495e4726946f8262e9ceb371ca57b67a01a378f479d2945e1bd54776a661",
+      "size_bytes": 8616
+    },
+    "wood_pavilion": {
+      "file": "assets/glb/wood_pavilion.glb",
+      "pieces": 18,
+      "triangles": 216,
+      "sha256": "cbed4937eecdfae0be84f6552545977293a084d79d60017bebde07dbb173f5df",
+      "size_bytes": 8716
+    },
+    "long_pavilion": {
+      "file": "assets/glb/long_pavilion.glb",
+      "pieces": 18,
+      "triangles": 216,
+      "sha256": "07549f65421ec33b7e207e40a5fd4b17a7725c5288678b8f2170944c4c047fb2",
+      "size_bytes": 8716
+    },
+    "training_arena": {
+      "file": "assets/glb/training_arena.glb",
+      "pieces": 6,
+      "triangles": 72,
+      "sha256": "0a0c2b5ae6064e17a23a3e4442e6f0dcbb9a9917dad0757890f4db2766cc84de",
+      "size_bytes": 3888
+    },
+    "wall_stone_8m": {
+      "file": "assets/glb/wall_stone_8m.glb",
+      "pieces": 6,
+      "triangles": 72,
+      "sha256": "6cd5c1495eb654d21609391a7f0d60cd26eb537b32d7b302bca7d6e9f543f0bf",
+      "size_bytes": 3872
+    },
+    "watchtower": {
+      "file": "assets/glb/watchtower.glb",
+      "pieces": 16,
+      "triangles": 192,
+      "sha256": "c82982024c1d1d0abf2264aa45827e367688404e01f8400dff339b6600df63c3",
+      "size_bytes": 8420
+    },
+    "practice_dummy": {
+      "file": "assets/glb/practice_dummy.glb",
+      "pieces": 5,
+      "triangles": 60,
+      "sha256": "13d7c1c1b67af6fd0696540be9632f0618a7ec6966ca803102fcc536dfbf3d66",
+      "size_bytes": 3960
+    },
+    "stone_lantern": {
+      "file": "assets/glb/stone_lantern.glb",
+      "pieces": 4,
+      "triangles": 48,
+      "sha256": "51ced9b2de9894ec182c7f31db818264017880ec1fb43a7540780870c45432b4",
+      "size_bytes": 3512
+    },
+    "stone_stairs": {
+      "file": "assets/glb/stone_stairs.glb",
+      "pieces": 6,
+      "triangles": 72,
+      "sha256": "31946014ba908374c3105d31fec57f1e89d95221fd0efaae469b4213b17958d9",
+      "size_bytes": 2588
+    },
+    "ruin_arch": {
+      "file": "assets/glb/ruin_arch.glb",
+      "pieces": 15,
+      "triangles": 180,
+      "sha256": "5dfa097967925fabadec268c26594d039460704a0f32f1afaf73eadc81d31737",
+      "size_bytes": 7788
+    },
+    "ancient_ruin_hall": {
+      "file": "assets/glb/ancient_ruin_hall.glb",
+      "pieces": 29,
+      "triangles": 348,
+      "sha256": "368747718dfaf8340947e0ddf5610a0057126e0427bab735a7423c3dc1f5733d",
+      "size_bytes": 13276
+    },
+    "cavern_gate": {
+      "file": "assets/glb/cavern_gate.glb",
+      "pieces": 12,
+      "triangles": 144,
+      "sha256": "fde01f73c1bf23d2d1d1b40c7e585bc257d0d6f3085965a994a1ac1ab4662132",
+      "size_bytes": 6204
+    },
+    "abyss_gate": {
+      "file": "assets/glb/abyss_gate.glb",
+      "pieces": 14,
+      "triangles": 168,
+      "sha256": "c879de53a915d99abb47605305d5a5d2da382166b1f3e5226493f2e31b24a2b8",
+      "size_bytes": 6812
+    },
+    "ancestral_temple": {
+      "file": "assets/glb/ancestral_temple.glb",
+      "pieces": 23,
+      "triangles": 276,
+      "sha256": "b4d9e2c9da07a8327cb9dbed506e2765480a48ee99f492ace0e3f9f10f367182",
+      "size_bytes": 11028
+    },
+    "monastery_gate": {
+      "file": "assets/glb/monastery_gate.glb",
+      "pieces": 17,
+      "triangles": 204,
+      "sha256": "001b73c5af76281826cfac5affa49e386d387063c2ad35bc8fa4e2f718708525",
+      "size_bytes": 8632
+    }
+  }
+}

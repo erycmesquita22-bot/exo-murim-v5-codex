@@ -1,0 +1,166 @@
+{
+  "swing": [
+    "martial_audio/katana_1",
+    "martial_audio/kungfu_air_4",
+    "martial_audio/katana_2",
+    "martial_audio/kungfu_air_8",
+    "martial_audio/katana_3"
+  ],
+  "punch": [
+    "martial_audio/kungfu_air_1",
+    "martial_audio/kungfu_air_2",
+    "martial_audio/kungfu_air_5",
+    "martial_audio/kungfu_air_6"
+  ],
+  "arrow": [
+    "foley/bow_release_1",
+    "foley/bow_release_2"
+  ],
+  "body_hit": [
+    "martial_audio/palm_a",
+    "martial_audio/palm_b"
+  ],
+  "fist_hit": [
+    "martial_audio/palm_a",
+    "martial_audio/palm_b",
+    "martial_audio/palm_c"
+  ],
+  "metal_hit": [
+    "foley/impactMetal_light_000",
+    "foley/impactMetal_medium_000"
+  ],
+  "wood_hit": [
+    "martial_audio/wood_punch"
+  ],
+  "hurt": [
+    "martial_audio/hurt_male"
+  ],
+  "step": [
+    "foley/footstep00",
+    "foley/footstep01",
+    "foley/footstep02",
+    "foley/footstep03"
+  ],
+  "ui": [
+    "foley/bookFlip1"
+  ],
+  "crossbow": [
+    "foley/bow_release_2"
+  ],
+  "equip": [
+    "foley/drawKnife1"
+  ],
+  "skill_windup": [
+    "audio09/qi_prepare"
+  ],
+  "ice_release": [
+    "martial_audio/ice_cast"
+  ],
+  "fogo": [
+    "martial_audio/fire_cast"
+  ],
+  "gelo": [
+    "martial_audio/ice_cast"
+  ],
+  "vento": [
+    "martial_audio/wind_qi"
+  ],
+  "magia": [
+    "audio09/qi_release"
+  ],
+  "summon": [
+    "audio09/summon"
+  ],
+  "leap": [
+    "martial_audio/kungfu_air_6"
+  ],
+  "landing": [
+    "foley/impactSoft_heavy_000"
+  ],
+  "boss_entry": [
+    "audio09/boss_entry"
+  ],
+  "boss_phase": [
+    "audio09/boss_phase"
+  ],
+  "hit": [
+    "martial_audio/dry_punch"
+  ],
+  "mechanism": [
+    "foley/metalLatch"
+  ],
+  "blunt_swing": [
+    "martial_audio/kungfu_air_3",
+    "martial_audio/kungfu_air_7"
+  ],
+  "strong_hit": [
+    "martial_audio/heavy_a",
+    "martial_audio/heavy_b"
+  ],
+  "critical_hit": [
+    "martial_audio/critical_a"
+  ],
+  "fatal_hit": [
+    "martial_audio/fatal_a"
+  ],
+  "blade_hit": [
+    "martial_audio/blade_a",
+    "martial_audio/blade_b"
+  ],
+  "hurt_male": [
+    "martial_audio/hurt_male"
+  ],
+  "hurt_female": [
+    "martial_audio/hurt_female"
+  ],
+  "attack_male": [
+    "martial_audio/attack_male_a",
+    "martial_audio/attack_male_b"
+  ],
+  "chronicle_koto": [
+    "martial_audio/chronicle_koto"
+  ],
+  "quest_complete": [
+    "audio09/quest_complete"
+  ],
+  "qi_hit": [
+    "martial_audio/qi_contact"
+  ],
+  "qi": [
+    "audio09/qi_release"
+  ],
+  "terra": [
+    "martial_audio/earth_cast"
+  ],
+  "evade": [
+    "martial_audio/kungfu_air_7"
+  ],
+  "boss_prepare": [
+    "audio09/boss_prepare"
+  ],
+  "boss_release": [
+    "audio09/boss_release"
+  ],
+  "boss_impact": [
+    "martial_audio/heavy_a",
+    "martial_audio/heavy_b"
+  ],
+  "exo_salto_cast": [
+    "exo_legacy/salto_cast"
+  ],
+  "exo_salto_impact": [
+    "exo_legacy/salto_impact"
+  ],
+  "exo_salto_movement": [
+    "exo_audio/wind_break"
+  ],
+  "god_descent_low": [
+    "exo_legacy/astral_rupture"
+  ],
+  "god_descent_impact": [
+    "exo_legacy/energy_impact"
+  ],
+  "god_descent_echo": [
+    "exo_audio/eco_eco_boss"
+  ]
+}

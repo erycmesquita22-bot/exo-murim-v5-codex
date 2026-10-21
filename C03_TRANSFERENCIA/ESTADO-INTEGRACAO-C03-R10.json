@@ -1,0 +1,11 @@
+{
+  "base": "C03-ALFA-R9",
+  "status": "CANDIDATO_CODE_NOT_NATIVE_VALIDATED",
+  "humanoids_runtime": "player_residents_existing_enemies_partial",
+  "rig": "original preserved, R10 event sync",
+  "wardrobe": "R10 cosmetic geometry behind official Skin3D",
+  "r9_navigation": "route graph + ray segments, native not validated",
+  "r9_energy": "journey.convergence.r10_energy optional persisted, native not validated",
+  "bestiary_humanoid_8": "catalogue only; not all bound to spawn",
+  "terrains": "R6 Terrain Forge independent branch"
+}

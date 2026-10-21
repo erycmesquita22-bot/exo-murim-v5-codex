@@ -1,0 +1,13 @@
+EXO-MURIM 09.4.2 — VILAS PROCEDURAIS
+
+Abra project.godot na Godot 4.6.2 (Compatibility).
+Para ver o NOVO gerador, clique em Nova jornada e confirme um personagem.
+Use duas seeds diferentes, por exemplo 101 e 202, e compare Guilda, pousada, pátio, casas e ruas.
+Mundos 09.4.1 já salvos mantêm o layout anterior por segurança.
+
+Testes automatizados (necessitam Godot):
+ godot --headless --path . --script res://qa0942.gd
+ godot --headless --path . --script res://qa0942_playable.gd
+
+Leia RELATORIO-09.4.2.md para diferenças, verificações e limitações.
+Esta é uma CANDIDATA para teste: ainda não foi executada na engine.

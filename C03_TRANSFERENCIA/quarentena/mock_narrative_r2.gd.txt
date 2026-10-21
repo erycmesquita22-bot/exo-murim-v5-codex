@@ -1,0 +1,22 @@
+extends RefCounted
+# TEST-ONLY authority mock. Not part of any production service registration.
+const Bonds=preload("res://narrative/society/relationship_system.gd")
+static func authorize(state: Dictionary,a: String,b: String,request_id: String) -> Dictionary:
+	if a.is_empty() or b.is_empty() or a==b or request_id.is_empty():return {"ok":false,"reason":"invalid"}
+	var k: String=Bonds.pair(a,b)
+	var already: Dictionary=state.get("relationships",{}).get(k,{})
+	if not already.is_empty():
+		return {"ok":str(already.get("kind",""))=="master_disciple" and str(already.get("event",""))==request_id,"changed":false,"reason":"idempotent_same_request_or_conflict"}
+	for other in state.get("relationships",{}).values():
+		if not other is Dictionary:continue
+		if str(other.get("kind",""))=="master_disciple" and a in [str(other.get("a","")),str(other.get("b",""))]:return {"ok":false,"reason":"already_has_master"}
+	var success: bool=Bonds.establish(state,a,b,"master_disciple",request_id,0.0)
+	return {"ok":success,"changed":success,"reason":"test_authorized" if success else "limit"}
+static func release(state: Dictionary,a: String,b: String,request_id: String) -> Dictionary:
+	var k: String=Bonds.pair(a,b)
+	if not state.get("relationships",{}).has(k):return {"ok":true,"changed":false,"reason":"already_released"}
+	var existing: Dictionary=state.relationships[k]
+	if str(existing.get("kind",""))!="master_disciple":return {"ok":false,"reason":"unexpected_relationship"}
+	if request_id.is_empty():return {"ok":false,"reason":"missing_request"}
+	state.relationships.erase(k)
+	return {"ok":true,"changed":true,"reason":"test_released"}

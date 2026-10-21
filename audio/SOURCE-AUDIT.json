@@ -1,0 +1,57 @@
+{
+  "source_archive": "EXO-Central-e-Identidade-Fontes.zip",
+  "modules_present": [
+    "exo",
+    "visual",
+    "arsenal",
+    "origens",
+    "bosses",
+    "jornada"
+  ],
+  "reviewed": [
+    {
+      "path": "exo-rpg/codigo/chain/exo/src/main/java/br/exomod/skills/ActiveSkillService.java",
+      "sha256": "180acd8e3c715ef1a68ef2719fdeadaa104ac970d560512b61d5945dd8b8fdc4"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/exo/src/main/java/br/exomod/skills/SkillSounds.java",
+      "sha256": "e32798cdd363af0f66aa0d9c0c912d386ae98c453efec07f88a6713d5142c8f9"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/SkillCue.java",
+      "sha256": "68fe6fbe7c9f1d0bc483fa34df5139637046e527afccd5e227f5bb345924a783"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/TenPresentation.java",
+      "sha256": "05fd6ec6f77beb4899772c96a5552c1b910505478ed7254cd23f9029a28c8b79"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/VisualBudget.java",
+      "sha256": "36f3263b3afcc448823b862bcb8bc66e858597186e401d3a274dc6e2e2b461cc"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/audio/AudioPolicy.java",
+      "sha256": "28938aa33ac2602d5f6c7982f8b93ab33dd4685d41e29e4da268dd229d5f9076"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/audio/IdentityAudio.java",
+      "sha256": "9fc41458fbbfddef90f0e52fb00ea10ec8bc4aec3b4337b9bb5e555b0fa55f6f"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/audio/LayeredAudio.java",
+      "sha256": "6ee19757561f3d56b426237893d18f4c946c4375a8f194f0ec2867a24e7c8775"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/particles/ParticleSpawners.java",
+      "sha256": "d1bb924a9c341aef0b0b31a5af4e44d34c2c5e3bdc7ac5f1c6f595363665f54f"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/render/CombatGeometry.java",
+      "sha256": "1b9e2bd10437198926d729c40e64b5635e6798c0006427e4deebddd2be019bcf"
+    },
+    {
+      "path": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/render/CutEchoes.java",
+      "sha256": "bcdf837c64c14dfb872d1c872b641eefa9cabe2a6d178b4e7978268458c7081d"
+    }
+  ]
+}

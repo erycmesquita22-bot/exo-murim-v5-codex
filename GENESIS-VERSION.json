@@ -1,0 +1,23 @@
+{
+  "demo": "03",
+  "engine": "Godot 4.6.2 Standard / Compatibility",
+  "base": "EXO-Murim 09.4.6, gameplay code frozen",
+  "atlas_import_versions": [
+    2,
+    3
+  ],
+  "native_planner_version": 3,
+  "regional_generator_version": 3,
+  "pilot_seed": "101",
+  "pilot_external_ids": [
+    32,
+    46,
+    52,
+    61,
+    63,
+    78,
+    86
+  ],
+  "playable_external_regions": 7,
+  "planned_external_regions_per_world": 88
+}

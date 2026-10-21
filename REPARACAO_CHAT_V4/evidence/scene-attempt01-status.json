@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "reason": "QA assumed region 78/15 were cities in every seed. They are not. Fixed fixture selects real cities. No product change required.",
+  "passed_subtest": "181781 ms of rendered crowd observation in seed101/r78, 2873 samples, zero reversals, 17 stopped.",
+  "source": "scene-attempt01-fixture-fail.log"
+}

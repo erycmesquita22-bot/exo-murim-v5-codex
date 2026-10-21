@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "real_city"
+    },
+    {
+      "pass": true,
+      "test": "capture_11-cidade-muralhas"
+    },
+    {
+      "pass": true,
+      "test": "capture_11b-portao-real"
+    }
+  ],
+  "facts": {
+
+  },
+  "failures": []
+}

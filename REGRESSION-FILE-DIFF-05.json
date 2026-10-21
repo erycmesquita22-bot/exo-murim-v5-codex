@@ -1,0 +1,32 @@
+{
+  "baseline": "EXO-WorldGenesis-04",
+  "candidate": "EXO-WorldGenesis-05",
+  "modified_existing_files": [
+    "SETTLEMENT-VERSION.json",
+    "genesis/settlements/settlement_planner.gd"
+  ],
+  "new_files": [
+    "SETTLEMENT-STATIC-05.json",
+    "evidence/settlement_v05_synthetic/aggregate_final_56000.json",
+    "evidence/settlement_v05_synthetic/baseline_04_10000.json",
+    "evidence/settlement_v05_synthetic/final_00000_07000.json",
+    "evidence/settlement_v05_synthetic/final_07000_14000.json",
+    "evidence/settlement_v05_synthetic/final_14000_21000.json",
+    "evidence/settlement_v05_synthetic/final_21000_28000.json",
+    "evidence/settlement_v05_synthetic/final_28000_35000.json",
+    "evidence/settlement_v05_synthetic/final_35000_42000.json",
+    "evidence/settlement_v05_synthetic/final_42000_49000.json",
+    "evidence/settlement_v05_synthetic/final_49000_56000.json",
+    "evidence/settlement_v05_synthetic/properties_final_3500.json",
+    "evidence/settlement_v05_synthetic/properties_final_5000.json",
+    "tests/settlement_extreme.gd",
+    "tests/settlement_grades.gd",
+    "tools/check_settlement_static_05.py",
+    "tools/external_settlement_qa/probe.py",
+    "tools/external_settlement_qa/property_qa.py",
+    "tools/run_settlement_qa.py"
+  ],
+  "deleted_files": [],
+  "source_excluded_compiled_pycache": true,
+  "gameplay_protected_files_unchanged": true
+}

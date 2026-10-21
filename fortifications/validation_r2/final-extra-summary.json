@@ -1,0 +1,12 @@
+[
+  {
+    "suite": "terrain_physics",
+    "status": "PASS",
+    "seconds": 15.977
+  },
+  {
+    "suite": "npc_frontages",
+    "status": "PASS",
+    "seconds": 12.255
+  }
+]

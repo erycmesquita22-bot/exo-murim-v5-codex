@@ -1,0 +1,621 @@
+{
+  "suite": "EXO Martial 01 R2 offline",
+  "execution": "PYTHON_OFFLINE_ONLY",
+  "native_godot": "NOT_RUN",
+  "core_save_v4_roundtrip": "NOT_RUN",
+  "checks_total": 152,
+  "passed": 152,
+  "failed": [],
+  "stress_masters": 12000,
+  "stress_pair_keys": 10000,
+  "tests": [
+    {
+      "name": "9_schools",
+      "status": "PASS"
+    },
+    {
+      "name": "12_styles",
+      "status": "PASS"
+    },
+    {
+      "name": "16_core_techniques",
+      "status": "PASS"
+    },
+    {
+      "name": "core_catalog_available",
+      "status": "PASS"
+    },
+    {
+      "name": "no_duplicate_catalog_ids",
+      "status": "PASS"
+    },
+    {
+      "name": "nine_mechanically_distinct_teaching_profiles",
+      "status": "PASS"
+    },
+    {
+      "name": "nine_distinct_action_sequences",
+      "status": "PASS"
+    },
+    {
+      "name": "27_typed_action_specs",
+      "status": "PASS"
+    },
+    {
+      "name": "official_skill_identity",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_corte_inicial",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_corte_inicial",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_corte_inicial",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_bola_de_gelo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_bola_de_gelo",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_bola_de_gelo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_salto_impetuoso",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_salto_impetuoso",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_salto_impetuoso",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_golpe_circular",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_golpe_circular",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_golpe_circular",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_nova_glacial",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_nova_glacial",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_nova_glacial",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_atracao_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_atracao_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_atracao_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_investida_brutal",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_investida_brutal",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_investida_brutal",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_jato_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_jato_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_jato_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_barreira_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_barreira_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_barreira_arcana",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_cura",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_cura",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_cura",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_cripta_espinhos_1",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_cripta_espinhos_1",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_cripta_espinhos_1",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_guardiao_ancestral",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_guardiao_ancestral",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_guardiao_ancestral",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_rajada_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_rajada_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_rajada_de_fogo",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_rajada_de_vento",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_rajada_de_vento",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_rajada_de_vento",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_dardo_arcano",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_dardo_arcano",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_dardo_arcano",
+      "status": "PASS"
+    },
+    {
+      "name": "core_costs_onda_de_repulsao",
+      "status": "PASS"
+    },
+    {
+      "name": "core_cooldown_onda_de_repulsao",
+      "status": "PASS"
+    },
+    {
+      "name": "official_styles_onda_de_repulsao",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_style",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "seita_bambu_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_style",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "cla_montanha_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_style",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "pavilhao_lanca_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_style",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "templo_corrente_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_style",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "vale_grou_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_style",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "mercadores_sombra_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_style",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "mosteiro_jade_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_style",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "ordem_cinza_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_style",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_methods",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_practice_count",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_balanced_costs",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_single_primary",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_exams_thresholds",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_actions",
+      "status": "PASS"
+    },
+    {
+      "name": "ermitagem_vazio_has_teachable_core_technique",
+      "status": "PASS"
+    },
+    {
+      "name": "weapon_pose_reference_present",
+      "status": "PASS"
+    },
+    {
+      "name": "12000_masters_repeatable",
+      "status": "PASS"
+    },
+    {
+      "name": "12000_masters_unique",
+      "status": "PASS"
+    },
+    {
+      "name": "all_schools_emerge_in_stress",
+      "status": "PASS"
+    },
+    {
+      "name": "seed_changes_school_placement",
+      "status": "PASS"
+    },
+    {
+      "name": "10000_pair_key_uniqueness",
+      "status": "PASS"
+    },
+    {
+      "name": "exam_before_observation_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "observe_action",
+      "status": "PASS"
+    },
+    {
+      "name": "observation_replay_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "practice_1",
+      "status": "PASS"
+    },
+    {
+      "name": "practice_duplicate_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "practice_completed",
+      "status": "PASS"
+    },
+    {
+      "name": "exam_completed",
+      "status": "PASS"
+    },
+    {
+      "name": "lesson_completed",
+      "status": "PASS"
+    },
+    {
+      "name": "no_repeated_reward",
+      "status": "PASS"
+    },
+    {
+      "name": "exam_receipt_replay_blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "core_unlock_readback",
+      "status": "PASS"
+    },
+    {
+      "name": "trusted_proof_required",
+      "status": "PASS"
+    },
+    {
+      "name": "narrative_no_direct_mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "exams_and_unlock_state_machine",
+      "status": "PASS"
+    },
+    {
+      "name": "does_not_forge_core_unlock",
+      "status": "PASS"
+    },
+    {
+      "name": "r1_upgrade_discards_untrusted_open_lessons",
+      "status": "PASS"
+    },
+    {
+      "name": "typed_markers_and_actual_resources",
+      "status": "PASS"
+    }
+  ]
+}

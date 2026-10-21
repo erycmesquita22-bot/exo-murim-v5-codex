@@ -1,0 +1,306 @@
+{
+  "domain": "shrine_belief",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/honra_aos_antepassados",
+      "label": "Honra aos antepassados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "honra_aos_antepassados"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Honra aos antepassados",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "honra_aos_antepassados"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/vento_como_sinal_de_mudanca",
+      "label": "Vento como sinal de mudança",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "vento_como_sinal_de_mudanca"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vento como sinal de mudança",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "vento_como_sinal_de_mudanca"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/agua_guarda_lembrancas",
+      "label": "Água guarda lembranças",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "agua_guarda_lembrancas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Água guarda lembranças",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "agua_guarda_lembrancas"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/montanha_abriga_retiro",
+      "label": "Montanha abriga retiro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "montanha_abriga_retiro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Montanha abriga retiro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "montanha_abriga_retiro"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/luz_de_lanternas_orienta_viajantes",
+      "label": "Luz de lanternas orienta viajantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "luz_de_lanternas_orienta_viajantes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Luz de lanternas orienta viajantes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "luz_de_lanternas_orienta_viajantes"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/silencio_protege_o_aprendizado",
+      "label": "Silêncio protege o aprendizado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "silencio_protege_o_aprendizado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Silêncio protege o aprendizado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "silencio_protege_o_aprendizado"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/arvores_antigas_guardam_promessas",
+      "label": "Árvores antigas guardam promessas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "arvores_antigas_guardam_promessas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Árvores antigas guardam promessas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "arvores_antigas_guardam_promessas"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/pedras_marcam_juramentos",
+      "label": "Pedras marcam juramentos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "pedras_marcam_juramentos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pedras marcam juramentos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "pedras_marcam_juramentos"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/caminho_dificil_fortalece_o_espirito",
+      "label": "Caminho difícil fortalece o espírito",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "caminho_dificil_fortalece_o_espirito"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caminho difícil fortalece o espírito",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "caminho_dificil_fortalece_o_espirito"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "shrine_belief",
+      "excludes": [],
+      "id": "shrine_belief/cha_compartilhado_sela_paz",
+      "label": "Chá compartilhado sela paz",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "tradition",
+        "cha_compartilhado_sela_paz"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Chá compartilhado sela paz",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "cha_compartilhado_sela_paz"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

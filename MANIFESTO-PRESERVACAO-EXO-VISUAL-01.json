@@ -1,0 +1,598 @@
+{
+  "versao": "01",
+  "base_obrigatoria": "EXO-Murim-EXO-Core-01-CANDIDATO-CORRIGIDO.zip",
+  "overlay_pre_visual": "EXO-Murim-Fortificacoes-02-R2-PATCH.zip",
+  "construcao": "base + R2 oficial + EXO Visual 01",
+  "renderizador_padrao": "Compatibility",
+  "modulos_originais": [
+    {
+      "id": "persistence",
+      "versao": "1.0.0",
+      "servicos": [
+        "persistence"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "world",
+      "versao": "1.0.0",
+      "servicos": [
+        "regions"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "living_world",
+      "versao": "1.0.0",
+      "servicos": [
+        "npcs"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "inventory",
+      "versao": "1.0.0",
+      "servicos": [
+        "inventory"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "combat",
+      "versao": "1.0.0",
+      "servicos": [
+        "combat"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "journey",
+      "versao": "1.0.0",
+      "servicos": [
+        "quests",
+        "progression"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "narrative",
+      "versao": "1.0.0",
+      "servicos": [
+        "narrative"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "appearance",
+      "versao": "1.0.0",
+      "servicos": [
+        "appearance"
+      ],
+      "contrato_original_preservado": true
+    },
+    {
+      "id": "architecture",
+      "versao": "1.2.0",
+      "servicos": [
+        "architecture"
+      ],
+      "contrato_original_preservado": true
+    }
+  ],
+  "novo_modulo": {
+    "id": "visual",
+    "versao": "1.0.0",
+    "servico": "exo_visual",
+    "persistencia_gameplay": null
+  },
+  "arquivos_base": 3912,
+  "arquivos_finais": 3966,
+  "removidos": [],
+  "overlay_r2_sem_alteracoes_visuais": [
+    "MANIFESTO-MODULOS-EXO-CORE-01.json",
+    "MANIFESTO-PASSAGEM-FLUVIAL-02-R2.json",
+    "RELATORIO-PASSAGEM-FLUVIAL-02-R2.md",
+    "convergence/frontage_qa.gd",
+    "convergence/state.gd",
+    "convergence/validation_frontage/frontage-result.json",
+    "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png",
+    "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png.import",
+    "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png",
+    "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png.import",
+    "exo_core/evidence/fluvial_integrated/reload_expected.json",
+    "exo_core/tests/capture_river_gate.gd.uid",
+    "exo_core/tests/qa_fluvial_integration.gd",
+    "exo_core/tests/qa_fluvial_integration.gd.uid",
+    "exo_core/tests/qa_fluvial_reload.gd",
+    "fortifications/planner.gd",
+    "fortifications/qa_native.gd",
+    "fortifications/qa_river_gate.gd",
+    "fortifications/qa_river_gate.gd.uid",
+    "fortifications/results/qa_river_gate.json",
+    "fortifications/river_gate.gd",
+    "fortifications/river_gate.gd.uid",
+    "fortifications/validation_r2/final-core.log",
+    "fortifications/validation_r2/final-core_integration.log",
+    "fortifications/validation_r2/final-extra-summary.json",
+    "fortifications/validation_r2/final-fortifications.log",
+    "fortifications/validation_r2/final-import.log",
+    "fortifications/validation_r2/final-npc_frontages.log",
+    "fortifications/validation_r2/final-persistence_crash.log",
+    "fortifications/validation_r2/final-persistence_reopen.log",
+    "fortifications/validation_r2/final-river_native.log",
+    "fortifications/validation_r2/final-runner.log",
+    "fortifications/validation_r2/final-settlements.log",
+    "fortifications/validation_r2/final-summary.json",
+    "fortifications/validation_r2/final-terrain_physics.log",
+    "fortifications/validation_r2/final-zip-summary.json",
+    "fortifications/validation_r2/final-zip_import.log",
+    "fortifications/validation_r2/final-zip_river_native.log",
+    "fortifications/validation_r2/final-zip_runtime_reload.log",
+    "fortifications/validation_r2/fluvial-integration.log",
+    "fortifications/validation_r2/fluvial-reload.log",
+    "fortifications/validation_r2/preservation-fluvial.json",
+    "genesis/region_data.gd",
+    "validation_r3/results/exo_core_integration.json",
+    "validation_r3/results/fluvial_integration.json",
+    "validation_r3/results/fluvial_reload.json"
+  ],
+  "alterados_ou_criados_por_visual": [
+    "AGENTS.md",
+    "combat/player_combat.gd",
+    "convergence/game.gd",
+    "encounters.gd",
+    "exo_core/modules.json",
+    "exo_visual/afterimage.gd",
+    "exo_visual/docs/ROTEIRO-WORK-QA-01.md",
+    "exo_visual/driver.gd",
+    "exo_visual/module.gd",
+    "exo_visual/shaders/grass_wind.gdshader",
+    "exo_visual/shaders/terrain_linear.gdshader",
+    "exo_visual/shaders/terrain_pixel.gdshader",
+    "exo_visual/shaders/terrain_pixel_mips.gdshader",
+    "exo_visual/shaders/water.gdshader",
+    "exo_visual/spec.gd",
+    "exo_visual/tests/benchmark_visual.gd",
+    "exo_visual/tests/capture_pilot.gd",
+    "exo_visual/tests/qa_visual.gd",
+    "genesis/region_scene.gd",
+    "genesis/terrain.gdshader",
+    "graphics.gd",
+    "techniques.gd",
+    "textures/terrain_approved/grama_folhas_largas.png.import",
+    "textures/terrain_approved/grama_montanha.png.import",
+    "textures/terrain_approved/grama_prado.png.import",
+    "textures/terrain_approved/grama_seca.png.import",
+    "textures/terrain_approved/grama_umida.png.import",
+    "textures/terrain_approved/rocha_cinza.png.import",
+    "textures/terrain_approved/solo_bambuzal.png.import",
+    "textures/terrain_approved/solo_floresta.png.import",
+    "textures/terrain_approved/trilha_terra.png.import",
+    "tools/qa_visual_static.py",
+    "ui/pages/settings.gd"
+  ],
+  "contagem": {
+    "upstream_r2": 46,
+    "visual_codigo": 33,
+    "relatorios": 4,
+    "total_patch": 83
+  },
+  "sha256_relatorios_fora_do_proprio_manifesto": {
+    "RELATORIO-EXO-VISUAL-01.md": "781572d2d6c0792416403c995b56b4ae5604fd209a3c6f8d557f339db35e5151",
+    "RESULTADOS-QA-EXO-VISUAL-01.json": "9705a8b14c59da76da4600ee9e87ae9543fc1fbe2e6be20bcbf3028766e86ea5",
+    "INVENTARIO-GRAFICO-EXO-VISUAL-01.json": "7ab82f53230c424632e62261e4c326d45d670fd67b6c816e41f8f7320ea1b82b"
+  },
+  "sha256_origem_destino": {
+    "AGENTS.md": {
+      "antes_sha256": "b92e5f88c533ef7bbe1290c146eee1b66993910bcc9201f369877eac0f6c8232",
+      "depois_sha256": "ed82f2f9be1697137e7769c0bbcd1d7231910629642e5fb62e547abf6f9bc194",
+      "camada": "EXO_VISUAL_01"
+    },
+    "MANIFESTO-MODULOS-EXO-CORE-01.json": {
+      "antes_sha256": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021",
+      "depois_sha256": "8bfeab2c3c2da1580232df41dcfcde5c37ba9f297af9e18abbc9451c765e9f0e",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "MANIFESTO-PASSAGEM-FLUVIAL-02-R2.json": {
+      "antes_sha256": null,
+      "depois_sha256": "f1d5bd68b0b098f002fa64f4e0926bf23648840b11e7ee2c571564697785c7ea",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "RELATORIO-PASSAGEM-FLUVIAL-02-R2.md": {
+      "antes_sha256": null,
+      "depois_sha256": "27d86775006a365c853e93122def3f2707e610bb0328a2388233e4eb04c308db",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "combat/player_combat.gd": {
+      "antes_sha256": "c0e1e90ed5487abdab6f94d7faefe070e3e587c031fbbe8d83d6315c1842a820",
+      "depois_sha256": "84a9a8aed402a4a354eb23cfc54dd2e90443cfd0f090cb60878c1cef1c9ee9bd",
+      "camada": "EXO_VISUAL_01"
+    },
+    "convergence/frontage_qa.gd": {
+      "antes_sha256": "de7c5cd132bf6c76d446f24c87221a725888bc10a0623c0e7d3f57c1cddb2ebc",
+      "depois_sha256": "e3da3496a0340d908301d2014e42da27f6d69a551058cb910cfbb55c6175cc56",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "convergence/game.gd": {
+      "antes_sha256": "267358acbad2ad021d08571f19703e07bd340ba43ef35e32e00d959d33dc7dde",
+      "depois_sha256": "efd4efbff7301b82b04d3f685c8b0ce1db4ff38c53b816303715912a7a33479a",
+      "camada": "EXO_VISUAL_01"
+    },
+    "convergence/state.gd": {
+      "antes_sha256": "0f29d0ec1f727f521da3225a8a96d6889296d86bce5a67d6374915d2130d7529",
+      "depois_sha256": "e2ecdb64f2a220e4bfe3cac752d630187b59418889bddda17c8c1dce825842ec",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "convergence/validation_frontage/frontage-result.json": {
+      "antes_sha256": "e299bc7711980c4ed83bbe7797e708eb0c7c087ae7016d52905c9b4b69aac531",
+      "depois_sha256": "87979f265c7e5bd73c8f4f1e83b260fc828f6075b6dc5d2e3ff3615d12532b10",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "encounters.gd": {
+      "antes_sha256": "c8125d31817186134e0e4d89da39beb7b3fca93bf32308a5008bb3e924c060d9",
+      "depois_sha256": "ed21a03fa530635c7fd4465fba122f7e2a4b51180bd73051a4f12be8ccbabe9b",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png": {
+      "antes_sha256": null,
+      "depois_sha256": "011abfbfdc4a798ffb8e01fda571368f9158fc11c5441347c8f9d327ddc90dfb",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/evidence/fluvial_integrated/01-passagem-fluvial-e-muralha.png.import": {
+      "antes_sha256": null,
+      "depois_sha256": "710015f0c9c39231d1648c6bc4557e970ee4053254c2d80c1b29771c7923fbc1",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png": {
+      "antes_sha256": null,
+      "depois_sha256": "6fc024cd1bd62728694fac9f37aa8a0435579e43830502f905d2e4064741b9a7",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/evidence/fluvial_integrated/02-muralha-cidade-escala-ampla.png.import": {
+      "antes_sha256": null,
+      "depois_sha256": "2e51c48f297c17b8fab84e717c665410b0a81683b8099d79b795962f5ffb54ad",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/evidence/fluvial_integrated/reload_expected.json": {
+      "antes_sha256": null,
+      "depois_sha256": "efb4e69ea1859fe1774807354bab8610677590fcab6f14ac46a29801df6e33f6",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/modules.json": {
+      "antes_sha256": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021",
+      "depois_sha256": "eada2188c23159c034f7ff403dbaa52ab975105dbc272a328e26a826a0e773c7",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_core/tests/capture_river_gate.gd.uid": {
+      "antes_sha256": null,
+      "depois_sha256": "b5243dce4d4485e700b063d4fefe107c6c70d042f8420bba86acab7ea97f1b4e",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/tests/qa_fluvial_integration.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "d7faaff1d26c75a0599023836727869fd8510094ebdb10cc1e915e6631b4d223",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/tests/qa_fluvial_integration.gd.uid": {
+      "antes_sha256": null,
+      "depois_sha256": "7934dcac9cfdcfc8329d480e1352cc0cf5de32b6b50719dae40e78fb2bc85dc3",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_core/tests/qa_fluvial_reload.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "86fa127ba9e970159398fed85da475badec2570c20bc4bf91f521c3829a84a54",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "exo_visual/afterimage.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "4d5d24849efafa1fe6b408d9770c3c86d90d10c14e4c33f0be19136d39f60e48",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/docs/ROTEIRO-WORK-QA-01.md": {
+      "antes_sha256": null,
+      "depois_sha256": "418341a6a0fc7a5c2d2a17a2c6e3c3b438ec4cad1b6f14281f80153ad8b8bbdb",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/driver.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "71ec61e2061fa1056aec8ef108d295df794944c05da5a8b3e94d4133fee087d8",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/module.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "88caf4306c6dfe9236625e14c1aa07f2d1d299a3465b79628f6e474a5bdb08d5",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/shaders/grass_wind.gdshader": {
+      "antes_sha256": null,
+      "depois_sha256": "1dfc1f030cf17a350d2b20a8e5453e99f1c4377eb48288c3d56d4e17159189a9",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/shaders/terrain_linear.gdshader": {
+      "antes_sha256": null,
+      "depois_sha256": "e7826ad074eee47c9478dfb753c25875354275ad111649f262ad693fe9947649",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/shaders/terrain_pixel.gdshader": {
+      "antes_sha256": null,
+      "depois_sha256": "0a2d195ff778dd0f772a402413daf00e2d4b36cb1d02dd368274dd7d271b099b",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/shaders/terrain_pixel_mips.gdshader": {
+      "antes_sha256": null,
+      "depois_sha256": "9032ce021f312d2cc50e39c9481269317b3c8e33149a6146c626f0415113d47b",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/shaders/water.gdshader": {
+      "antes_sha256": null,
+      "depois_sha256": "dcd627d2d653936259a53e4e3d8d8d092873fe7e7de02c0148a1a8743351160b",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/spec.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "7662de08a74d38d704443a3660def1f59f50e124bee203190642f3e53c9ac6b6",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/tests/benchmark_visual.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "c091e47404ebcb89bcd221f75f1c85bbf7a9f9799642aa6aaead0cc9f5c25a35",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/tests/capture_pilot.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "18b920b9b1ac2faa208e2c9fb517262df0917936dcd3ee8a0c808135f8ea5b24",
+      "camada": "EXO_VISUAL_01"
+    },
+    "exo_visual/tests/qa_visual.gd": {
+      "antes_sha256": null,
+      "depois_sha256": "21fd8ddf5080de0dc23cecd63fd1b937e779d8b7457f79cfe7612f6ea9fe6760",
+      "camada": "EXO_VISUAL_01"
+    },
+    "fortifications/planner.gd": {
+      "antes_sha256": "cf2f45dd36a7a56e00d198c008108ba36b995b0b066821f8521715cb4a7720b6",
+      "depois_sha256": "17bab861febba15ac0b3ea1a773e0f66ffd1f403e08223c223f5c81f02fde6a5",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/qa_native.gd": {
+      "antes_sha256": "ff76cdd465722e1680df49419d3f5a11a959657dd7a15a3b6ca0bd2b9897f33b",
+      "depois_sha256": "10613c9c6d2c1fdcf24e92777eee3ad7304925aea5eb1ae79451f6636bfb41f8",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/qa_river_gate.gd": {
+      "antes_sha256": "860358efd4a8712d5ee5ac82afdb49580ff89692772888f4ba21bfbb04ca68ca",
+      "depois_sha256": "eea4ad45b1f6d4fb2f37c916938e5801c9335dd0d01f273c3ac8e6c624042046",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/qa_river_gate.gd.uid": {
+      "antes_sha256": null,
+      "depois_sha256": "6a09e4dc26c35236fb39b11eced8f98a1f622627f78857bbf72344e2e4e58e04",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/results/qa_river_gate.json": {
+      "antes_sha256": null,
+      "depois_sha256": "8a5bb359e1ffff234eaec4c9a11babd30e0d35f223d0fb9fdf78cc5dcf4c5385",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/river_gate.gd": {
+      "antes_sha256": "5821320c146e47c724bda44ec31962b371fde6472a1d279c73ca631d0f43728e",
+      "depois_sha256": "c2419f1aa6b81c591a6e100facaed567bf25a7936b3741fa454bde0a0a6199ea",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/river_gate.gd.uid": {
+      "antes_sha256": null,
+      "depois_sha256": "4264a2447be3eb9a654dc2467cddf3960294b573d2e57074d1a650349eda1981",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-core.log": {
+      "antes_sha256": null,
+      "depois_sha256": "6572d5f497ce5cf3a615c431b85c46702346b083e7c5ea6110905eae53f8ea7e",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-core_integration.log": {
+      "antes_sha256": null,
+      "depois_sha256": "0f58ac3c1b45678778325d5833e5895b5a49dd11bff50d81ab0043bff2fd799a",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-extra-summary.json": {
+      "antes_sha256": null,
+      "depois_sha256": "7a5e32f70aa27937e789e4abe2a488a1cf5527ac4b68c8867b935bd6c64e2f5d",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-fortifications.log": {
+      "antes_sha256": null,
+      "depois_sha256": "38360fe9ca72847b538ff4271df43e61b411401651e267107faac470d245cdce",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-import.log": {
+      "antes_sha256": null,
+      "depois_sha256": "3c2c0700c3fac8670aa1bbcb8211029c3c7b36dfe246752bbe130c7fce8ff129",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-npc_frontages.log": {
+      "antes_sha256": null,
+      "depois_sha256": "9c47fc24f32a5b304bb704beb57cd00ac97c0410976da46f6e8428211b7424cf",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-persistence_crash.log": {
+      "antes_sha256": null,
+      "depois_sha256": "da76a36a586ec310ae98a6bf8844ab87166457610861a810027a91d273cbb93f",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-persistence_reopen.log": {
+      "antes_sha256": null,
+      "depois_sha256": "55e123f1830f439f1a4ef387a0037adf94bd3c2a6497d0accd5a3ec92bbc323c",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-river_native.log": {
+      "antes_sha256": null,
+      "depois_sha256": "f52ee711c03f155f7aec6650e4d531b43fa36a54c9ddf09bef3715e987de6ecd",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-runner.log": {
+      "antes_sha256": null,
+      "depois_sha256": "b8f413fc5fdd60a51d319fc111efc88741a2d23b880bbae5d1773e5d5cc2415f",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-settlements.log": {
+      "antes_sha256": null,
+      "depois_sha256": "220c53df0a8657b4ba62dc1b0f4e0f4efbc2a2e12da522dfe0abb92995ce20b6",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-summary.json": {
+      "antes_sha256": null,
+      "depois_sha256": "e6bfcfae28c78b9f0424c5f2240b28b3588af2c82c2b38fa38354f56a9587ad4",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-terrain_physics.log": {
+      "antes_sha256": null,
+      "depois_sha256": "103e3b2557bcd706414f8892b5592cdf8a33fc6ad490c8f31a9790d6432e62cc",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-zip-summary.json": {
+      "antes_sha256": null,
+      "depois_sha256": "4db92bc3499443984ee441edd8f59169553f9e88edf946dca67d902defe02ec3",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-zip_import.log": {
+      "antes_sha256": null,
+      "depois_sha256": "ac8909e3344f3ba0215132eafb69a96448871148f66b9eb3876acba51c7c4886",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-zip_river_native.log": {
+      "antes_sha256": null,
+      "depois_sha256": "f52ee711c03f155f7aec6650e4d531b43fa36a54c9ddf09bef3715e987de6ecd",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/final-zip_runtime_reload.log": {
+      "antes_sha256": null,
+      "depois_sha256": "64e98b45319af3288e3933a0b568414e07819ec7df41eedd0962577182e036e4",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/fluvial-integration.log": {
+      "antes_sha256": null,
+      "depois_sha256": "6fd73c2a8a77dd8736b1e65bb65e68c82624c31faa1827f5b229a9d9a4cab64c",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/fluvial-reload.log": {
+      "antes_sha256": null,
+      "depois_sha256": "64e98b45319af3288e3933a0b568414e07819ec7df41eedd0962577182e036e4",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "fortifications/validation_r2/preservation-fluvial.json": {
+      "antes_sha256": null,
+      "depois_sha256": "3cc5b461556422b4340576b2d00fcfc5eb8a2a13b89675097e5a53a99b5d49d5",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "genesis/region_data.gd": {
+      "antes_sha256": "b383bfa6c7732bf339a39232994c8582c2cc08501d48e904a845d9eb3df8f935",
+      "depois_sha256": "0450b429566ce17fd1d012dffe31655b29a7bfbbd583b66b26ae75dcbe87b158",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "genesis/region_scene.gd": {
+      "antes_sha256": "238a1de359feab12116f996f09917cd605853a466d881902f5e5322933b9aec6",
+      "depois_sha256": "cf1da93d22e187219026036a373b71a011fd58f0a4f4354b7b9aa8d0243c7034",
+      "camada": "EXO_VISUAL_01"
+    },
+    "genesis/terrain.gdshader": {
+      "antes_sha256": "8cc3adfd929024073b8f6fde5b5c8a2666db778a463b5b2edf804d8e0ab9a972",
+      "depois_sha256": "e7826ad074eee47c9478dfb753c25875354275ad111649f262ad693fe9947649",
+      "camada": "EXO_VISUAL_01"
+    },
+    "graphics.gd": {
+      "antes_sha256": "eff5062620c98569441eb2fac6b66d96764283cdbb589862478f70c7aa9bf09f",
+      "depois_sha256": "2f46a015b5b43b3fa7f793666a8a2018eb30fc0e4c1d4f7b344790bee69e511b",
+      "camada": "EXO_VISUAL_01"
+    },
+    "techniques.gd": {
+      "antes_sha256": "1125c5ce8832ce55ddcf64a5ce6100bf689e0f908f7f4995d10f85a9402c5732",
+      "depois_sha256": "a3c9d89a279bbd912124219f1c4451a41fc1818dab7fc87a5b791c66425dd4c0",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/grama_folhas_largas.png.import": {
+      "antes_sha256": "42bbef3b3589779eec760517bf1fbc525a550919cc16277783bb6fd748f2dae4",
+      "depois_sha256": "aac5fb03863e5bc99d09dd1bf74ac4bd8d6d74c11309f780e5c65297da7f7ae1",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/grama_montanha.png.import": {
+      "antes_sha256": "9f65ac412550a3f0b6392db54fe28d77643b3517ed42f4bdc78ae4693cbc386a",
+      "depois_sha256": "f37c2643fa3c0527481d5cf0e64a530717a4e3357868cac8ad59e6e6b7b00cd2",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/grama_prado.png.import": {
+      "antes_sha256": "69e24153e262a46e28c5e84e2736a538fdf8917e07391c6224e71ea1c3ff848c",
+      "depois_sha256": "d5899580bc94248e2a45a116ce3c9a9a641db3a5eaee9517db71b6f853286fd6",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/grama_seca.png.import": {
+      "antes_sha256": "2380a1a1f61ca48a755dd63e98bf9e966b997aeb76c589e2b7b0cc6dd778f61e",
+      "depois_sha256": "cae1705d58ceaa37af88c717eea66e7cc1ab5bb631efbb55d151b2eecafb55bf",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/grama_umida.png.import": {
+      "antes_sha256": "0597d358779775779c6a19e42573f72cb683552d545d1d973262175e6e16ecd6",
+      "depois_sha256": "f2e435293668892a3823efa1a1957caba6936fc4013e3951498cc368a2fe2a66",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/rocha_cinza.png.import": {
+      "antes_sha256": "37128698ae662e42bbb237595bfbc9ec0beefffdcd09f9241e83d81b34e45fdc",
+      "depois_sha256": "98c8149d21d02b11f661a4ff87beae398a905769f365e01b2935be86c9817442",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/solo_bambuzal.png.import": {
+      "antes_sha256": "5298b16f284613f49404eea494bcbe199e43c266d4f91a69e87c73a32e0c12f3",
+      "depois_sha256": "00c63c9cdc3b6eec9756750d5aaf6a8d059a412cb9711d5d9fb3d5b209408098",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/solo_floresta.png.import": {
+      "antes_sha256": "66f0bcb54fd495f1775dbf1ce5a0fe2e45aaa710c877b0348b7543725e990bbc",
+      "depois_sha256": "b78f6f02dae60484732c65c4a24298de241ffdfc549522bfcedbf442ca26cd1a",
+      "camada": "EXO_VISUAL_01"
+    },
+    "textures/terrain_approved/trilha_terra.png.import": {
+      "antes_sha256": "7f952b1e38108f831ce50834c809a9439ba3b28330b71897f6347c0d1e30af35",
+      "depois_sha256": "f0cbf6a738fce7d347528e2c217794d43bacd72e4f2c02e724c73f901b70c15e",
+      "camada": "EXO_VISUAL_01"
+    },
+    "tools/qa_visual_static.py": {
+      "antes_sha256": null,
+      "depois_sha256": "1b0ab4692f51d7f98803b6433f09c95498ca87751f4762a02a67141f489da064",
+      "camada": "EXO_VISUAL_01"
+    },
+    "ui/pages/settings.gd": {
+      "antes_sha256": "013d64acd40471b487cbffda2e5725911d007134c0b966819863b9d26c22ab79",
+      "depois_sha256": "44d7dcb2924e10a753a6f6ec4f26b3b7dcb6b91afe2f1154662cadb8943c85cd",
+      "camada": "EXO_VISUAL_01"
+    },
+    "validation_r3/results/exo_core_integration.json": {
+      "antes_sha256": "577088e19f275277f9c84f2acd9e326979163ea052372262701be0d718650993",
+      "depois_sha256": "21ed2b5bb1a38bfbb2e8ff749d7b91da90ccfdb12e3f4ba70a6613a00d43c634",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "validation_r3/results/fluvial_integration.json": {
+      "antes_sha256": null,
+      "depois_sha256": "a3e858ec5023bb4970cd16f98efe68056162b7493a9bf1b04c9794812c336272",
+      "camada": "FORTIFICACOES_R2"
+    },
+    "validation_r3/results/fluvial_reload.json": {
+      "antes_sha256": null,
+      "depois_sha256": "60201793af9a2179a1805ea5370911a1bb538a89867c4bc11e035d2ae62a0fa4",
+      "camada": "FORTIFICACOES_R2"
+    }
+  },
+  "componentes_criticos_preservados": {
+    "exo_core/core.gd": true,
+    "exo_core/service_registry.gd": true,
+    "exo_core/module_registry.gd": true,
+    "exo_core/persistence/save_coordinator.gd": true,
+    "journey_save.gd": true,
+    "world/biome_plan.gd": true,
+    "genesis/world_planner.gd": true,
+    "genesis/terrain.gdshader.uid": true
+  },
+  "observacoes": [
+    "Nao foram removidos arquivos da base.",
+    "R2 foi incluído para atualizar portoes fluviais; seu código foi distinguido do modulo Visual.",
+    "As texturas PNG aprovadas permaneceram identicas; 9 metadados de importacao solicitaram mipmaps.",
+    "Nao existem capturas EXO Visual capturadas pela Godot nesta entrega."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "village_bell",
+  "name": "Sino Comunitário",
+  "recipe": "bell",
+  "implementation": "instantiable_procedural_voxel_gallery",
+  "source": "original_city_forge_r3",
+  "placement": "reserved_only_not_host_approved",
+  "footprint": [
+    6,
+    6
+  ]
+}

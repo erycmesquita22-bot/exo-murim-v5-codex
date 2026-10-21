@@ -1,0 +1,160 @@
+{
+  "domain": "quest_pattern",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/eliminate_enemy",
+      "label": "Eliminate Enemy",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "eliminate_enemy",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/clear_group",
+      "label": "Clear Group",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "clear_group",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/explore_region",
+      "label": "Explore Region",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "explore_region",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/collect_iron",
+      "label": "Collect Iron",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "collect_iron",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/deliver_iron",
+      "label": "Deliver Iron",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "deliver_iron",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/speak_npc",
+      "label": "Speak Npc",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "speak_npc",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "quest_pattern",
+      "excludes": [],
+      "id": "quest_pattern/investigate_ruin",
+      "label": "Investigate Ruin",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "quest",
+        "existing_type"
+      ],
+      "variables": {
+        "canonical_objective_hint": "investigate_ruin",
+        "owner": "journey",
+        "reward_claim": "never_direct"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

@@ -1,0 +1,397 @@
+{
+  "domain": "ref_item_affixes",
+  "records": [
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_temperada",
+      "label": "temperada",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "temperada",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_ligeira",
+      "label": "ligeira",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "ligeira",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_guardia",
+      "label": "guardia",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "guardia",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_canalizadora",
+      "label": "canalizadora",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "canalizadora",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_vigorosa",
+      "label": "vigorosa",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "vigorosa",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_vendaval",
+      "label": "vendaval",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "vendaval",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_geada",
+      "label": "geada",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "geada",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_chama",
+      "label": "chama",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "chama",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_folego",
+      "label": "folego",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "folego",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_baluarte",
+      "label": "baluarte",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "baluarte",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_estudo",
+      "label": "estudo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "estudo",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_afiada_v2",
+      "label": "afiada_v2",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "afiada_v2",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_firme_v2",
+      "label": "firme_v2",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "firme_v2",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_silenciosa_v2",
+      "label": "silenciosa_v2",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "silenciosa_v2",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_do_pulso_sereno",
+      "label": "do_pulso_sereno",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "do_pulso_sereno",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_da_vigia",
+      "label": "da_vigia",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "da_vigia",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_affixes",
+      "excludes": [],
+      "id": "ref_item_affixes/ref_da_perseveranca",
+      "label": "da_perseveranca",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8",
+        "source_archive": "C3_R13_1",
+        "source_id": "da_perseveranca",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/affixes.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

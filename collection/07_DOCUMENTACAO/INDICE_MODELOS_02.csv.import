@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dqwbtohybtx37"
+
+[deps]
+
+files=["res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.category.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.GLB.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.width.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.height.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.depth.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.triangles.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.collider.translation"]
+
+source_file="res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.csv"
+dest_files=["res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.category.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.GLB.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.width.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.height.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.depth.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.triangles.translation", "res://collection/07_DOCUMENTACAO/INDICE_MODELOS_02.collider.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

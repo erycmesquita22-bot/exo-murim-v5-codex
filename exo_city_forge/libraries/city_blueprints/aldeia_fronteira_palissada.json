@@ -1,0 +1,252 @@
+{
+  "id": "aldeia_fronteira_palissada",
+  "name": "Aldeia da Paliçada",
+  "shape": "quadrangular_palisade",
+  "wall": true,
+  "half_extent": 90,
+  "gates": [
+    [
+      -78,
+      0
+    ],
+    [
+      78,
+      0
+    ],
+    [
+      0,
+      -78
+    ],
+    [
+      0,
+      78
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -78,
+        0
+      ],
+      "b": [
+        78,
+        0
+      ],
+      "width": 5.4,
+      "kind": "main"
+    },
+    {
+      "a": [
+        0,
+        -78
+      ],
+      "b": [
+        0,
+        78
+      ],
+      "width": 4.2,
+      "kind": "main"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "aldeia_fronteira_palissada/s00",
+      "center": [
+        -32,
+        -32
+      ],
+      "footprint": [
+        [
+          -52.0,
+          -52.0
+        ],
+        [
+          -12.0,
+          -52.0
+        ],
+        [
+          -12.0,
+          -12.0
+        ],
+        [
+          -52.0,
+          -12.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -32.0,
+          -52.0
+        ],
+        [
+          -12.0,
+          -32.0
+        ],
+        [
+          -32.0,
+          -12.0
+        ],
+        [
+          -52.0,
+          -32.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_fronteira_palissada/s01",
+      "center": [
+        32,
+        -32
+      ],
+      "footprint": [
+        [
+          12.0,
+          -52.0
+        ],
+        [
+          52.0,
+          -52.0
+        ],
+        [
+          52.0,
+          -12.0
+        ],
+        [
+          12.0,
+          -12.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          32.0,
+          -52.0
+        ],
+        [
+          52.0,
+          -32.0
+        ],
+        [
+          32.0,
+          -12.0
+        ],
+        [
+          12.0,
+          -32.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_fronteira_palissada/s02",
+      "center": [
+        -32,
+        32
+      ],
+      "footprint": [
+        [
+          -52.0,
+          12.0
+        ],
+        [
+          -12.0,
+          12.0
+        ],
+        [
+          -12.0,
+          52.0
+        ],
+        [
+          -52.0,
+          52.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -32.0,
+          12.0
+        ],
+        [
+          -12.0,
+          32.0
+        ],
+        [
+          -32.0,
+          52.0
+        ],
+        [
+          -52.0,
+          32.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_fronteira_palissada/s03",
+      "center": [
+        32,
+        32
+      ],
+      "footprint": [
+        [
+          12.0,
+          12.0
+        ],
+        [
+          52.0,
+          12.0
+        ],
+        [
+          52.0,
+          52.0
+        ],
+        [
+          12.0,
+          52.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          32.0,
+          12.0
+        ],
+        [
+          52.0,
+          32.0
+        ],
+        [
+          32.0,
+          52.0
+        ],
+        [
+          12.0,
+          32.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "village"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

@@ -1,0 +1,1 @@
+Historical R2 tests (reference only). They target R13, expect manifest 1.1.0 and byte-exact R1 candidate tags. R3 intentionally moves to C3 Work, manifest 1.2.0 and corrects two katana/draw tag mistakes. Do not interpret R2 test failures as R3 failures. Do not run the historical R2 installer on C3 Work.

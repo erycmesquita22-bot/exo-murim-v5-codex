@@ -1,0 +1,28 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+WALK 86 arrival_to_center
+WALK 86 center_to_gate
+WALK 52 arrival_to_center
+WALK 52 center_to_gate
+WALK 46 arrival_to_center
+WALK 46 center_to_gate
+WALK 61 arrival_to_center
+WALK 61 center_to_gate
+WALK 32 arrival_to_center
+WALK 32 return_to_gate
+WALK 61 return_to_center
+WALK 61 return_to_gate
+WALK 46 return_to_center
+WALK 46 return_to_gate
+WALK 52 return_to_center
+WALK 52 return_to_gate
+WALK 86 return_to_center
+WALK 86 center_to_gate
+WALK 78 arrival_to_center
+WALK 78 center_to_gate
+WALK 63 arrival_to_center
+WALK 63 return_to_gate
+WALK 78 return_to_center
+WALK 78 return_to_gate
+WALK 86 return_to_center
+PILOT_WALK_RESULT {"failures":[],"fixture":"Original player capsule, move_and_slide at 60Hz; direct velocity, no teleport except verified region arrival. All pilot portal edges both directions; integrated buildings checked separately.","visited":{"32":true,"46":true,"52":true,"61":true,"63":true,"78":true,"86":true},"walks":[{"distance":0.0,"frames":0,"label":"arrival_to_center","region":86},{"distance":262.636322021484,"frames":2424,"label":"center_to_gate","region":86},{"distance":256.721710205078,"frames":2375,"label":"arrival_to_center","region":52},{"distance":255.419342041016,"frames":2357,"label":"center_to_gate","region":52},{"distance":248.858795166016,"frames":2302,"label":"arrival_to_center","region":46},{"distance":249.402633666992,"frames":2301,"label":"center_to_gate","region":46},{"distance":243.505661010742,"frames":2249,"label":"arrival_to_center","region":61},{"distance":256.604187011719,"frames":2368,"label":"center_to_gate","region":61},{"distance":250.502990722656,"frames":2314,"label":"arrival_to_center","region":32},{"distance":256.003967285156,"frames":2362,"label":"return_to_gate","region":32},{"distance":250.488403320312,"frames":2313,"label":"return_to_center","region":61},{"distance":249.587539672852,"frames":2303,"label":"return_to_gate","region":61},{"distance":243.515151977539,"frames":2250,"label":"return_to_center","region":46},{"distance":254.762252807617,"frames":2350,"label":"return_to_gate","region":46},{"distance":248.84635925293,"frames":2298,"label":"return_to_center","region":52},{"distance":263.21923828125,"frames":2428,"label":"return_to_gate","region":52},{"distance":256.715179443359,"frames":2371,"label":"return_to_center","region":86},{"distance":251.407745361328,"frames":2320,"label":"center_to_gate","region":86},{"distance":244.998626708984,"frames":2263,"label":"arrival_to_center","region":78},{"distance":276.319244384766,"frames":2550,"label":"center_to_gate","region":78},{"distance":269.879333496094,"frames":2492,"label":"arrival_to_center","region":63},{"distance":275.33984375,"frames":2541,"label":"return_to_gate","region":63},{"distance":269.891448974609,"frames":2493,"label":"return_to_center","region":78},{"distance":251.464141845703,"frames":2321,"label":"return_to_gate","region":78},{"distance":244.996139526367,"frames":2264,"label":"return_to_center","region":86}]}

@@ -1,0 +1,11 @@
+{
+  "input_archives": {
+    "EXO-Murim-09.4.6-Base-de-Assets.zip": "81cb68feb3ec71db029b2c27552d67359e8ae66df013e1b5fd0ed2bae5b63c8c",
+    "EXO-WorldGenesis-Forjamento-02.zip": "562174da3615fbd29daddb794a362250cf579b00dd3b1f8d9f38d6d4d1bbc37a",
+    "EXO-Murim-Colecao-Ambiental-02.zip": "8b48e413292c72d581f9a5fcacc9a9559ae7e86e44b516b0467184ffed5b009f"
+  },
+  "frozen_scripts_and_scenes": {
+    "total": 105,
+    "mismatches": []
+  }
+}

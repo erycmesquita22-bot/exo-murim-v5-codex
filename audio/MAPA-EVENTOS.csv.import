@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c18apdgnv7njv"
+
+[deps]
+
+files=["res://audio/MAPA-EVENTOS.arquivo.translation", "res://audio/MAPA-EVENTOS.origem.translation", "res://audio/MAPA-EVENTOS.licença.translation"]
+
+source_file="res://audio/MAPA-EVENTOS.csv"
+dest_files=["res://audio/MAPA-EVENTOS.arquivo.translation", "res://audio/MAPA-EVENTOS.origem.translation", "res://audio/MAPA-EVENTOS.licença.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

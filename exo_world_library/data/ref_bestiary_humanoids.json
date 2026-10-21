@@ -1,0 +1,190 @@
+{
+  "domain": "ref_bestiary_humanoids",
+  "records": [
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_bandit_swordsman",
+      "label": "Bandido de Espada Curta",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "bandit_swordsman",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_bandit_archer",
+      "label": "Bandido Arqueiro",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "bandit_archer",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_bandit_spearman",
+      "label": "Bandido Lanceiro",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "bandit_spearman",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_dagger_raider",
+      "label": "Salteador de Adagas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "dagger_raider",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_defensive_mercenary",
+      "label": "Mercenário Defensivo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "defensive_mercenary",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_hostile_wanderer",
+      "label": "Espadachim Errante Hostil",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "hostile_wanderer",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_aggressive_cultivator",
+      "label": "Cultivador Agressivo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "aggressive_cultivator",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "bestiary",
+      "conditions": {},
+      "domain": "ref_bestiary_humanoids",
+      "excludes": [],
+      "id": "ref_bestiary_humanoids/ref_rival_disciple",
+      "label": "Discípulo de Seita Rival",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b",
+        "source_archive": "C3_R13_1",
+        "source_id": "rival_disciple",
+        "source_owner": "bestiary",
+        "source_path": "exo_bestiary/data/humanoids.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

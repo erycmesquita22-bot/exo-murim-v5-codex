@@ -1,0 +1,120 @@
+{
+  "id": "mar_training_yard",
+  "name": "Pátio de Treino",
+  "category": "martial",
+  "tags": [
+    "martial",
+    "training",
+    "disciples"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "mar_training_yard/b00",
+      "function": "martial_school",
+      "local_position": [
+        0,
+        -12
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 6,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "mar_training_yard/b01",
+      "function": "residence",
+      "local_position": [
+        -13,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mar_training_yard/b02",
+      "function": "residence",
+      "local_position": [
+        13,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "mar_training_yard/st00",
+      "for_building": "mar_training_yard/b00",
+      "role": "disciple"
+    },
+    {
+      "id": "mar_training_yard/st01",
+      "for_building": "mar_training_yard/b01",
+      "role": "resident"
+    },
+    {
+      "id": "mar_training_yard/st02",
+      "for_building": "mar_training_yard/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "training",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "training",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

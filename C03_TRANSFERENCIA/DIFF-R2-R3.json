@@ -1,0 +1,30 @@
+{
+  "base": "ALFA_R2",
+  "changed": [
+    "project.godot",
+    "C03_TRANSFERENCIA/DIFF-R2-R3.json",
+    "C03_TRANSFERENCIA/QA-C03-ALFA-R3.json",
+    "exo_core/core.gd",
+    "exo_core/modules.json",
+    "convergence/game.gd",
+    "genesis/region_scene.gd",
+    "narrative/society/authorized_master_disciple.gd",
+    "exo_core/integrations/humanoid_presets.gd",
+    "exo_core/integrations/monumental_plans.gd",
+    "exo_core/integrations/creature_visuals.gd",
+    "exo_core/integrations/martial_catalog.gd",
+    "exo_core/persistence/save_coordinator.gd",
+    "exo_core/tests/qa_core_integrations_r3.gd",
+    "exo_dungeon/module/entrypoint.gd"
+  ],
+  "added": [
+    "C03_TRANSFERENCIA/DIFF-R2-R3.json",
+    "C03_TRANSFERENCIA/QA-C03-ALFA-R3.json",
+    "narrative/society/authorized_master_disciple.gd",
+    "exo_core/integrations/humanoid_presets.gd",
+    "exo_core/integrations/monumental_plans.gd",
+    "exo_core/integrations/creature_visuals.gd",
+    "exo_core/integrations/martial_catalog.gd",
+    "exo_core/tests/qa_core_integrations_r3.gd"
+  ]
+}

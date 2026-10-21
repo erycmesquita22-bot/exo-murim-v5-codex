@@ -1,0 +1,3 @@
+Python 3.10+
+pip install pillow numpy trimesh reportlab
+Execute: python gerar_acervo_01.py

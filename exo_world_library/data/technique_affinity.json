@@ -1,0 +1,468 @@
+{
+  "domain": "technique_affinity",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/precisao_de_corte",
+      "label": "Precisão de corte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "precisao_de_corte"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Precisão de corte",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "precisao_de_corte"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/defesa_por_bloqueio",
+      "label": "Defesa por bloqueio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "defesa_por_bloqueio"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Defesa por bloqueio",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "defesa_por_bloqueio"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/controle_de_qi_continuo",
+      "label": "Controle de Qi contínuo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "controle_de_qi_continuo"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Controle de Qi contínuo",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "controle_de_qi_continuo"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/arrancada_de_curto_alcance",
+      "label": "Arrancada de curto alcance",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "arrancada_de_curto_alcance"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Arrancada de curto alcance",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "arrancada_de_curto_alcance"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/passos_evasivos",
+      "label": "Passos evasivos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "passos_evasivos"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Passos evasivos",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "passos_evasivos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/impacto_de_punho",
+      "label": "Impacto de punho",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "impacto_de_punho"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Impacto de punho",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "impacto_de_punho"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/ataque_de_lanca_em_linha",
+      "label": "Ataque de lança em linha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "ataque_de_lanca_em_linha"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ataque de lança em linha",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "ataque_de_lanca_em_linha"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/supressao_de_area",
+      "label": "Supressão de área",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "supressao_de_area"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Supressão de área",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "supressao_de_area"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/ritmo_de_combos",
+      "label": "Ritmo de combos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "ritmo_de_combos"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ritmo de combos",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "ritmo_de_combos"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/canalizacao_de_cura",
+      "label": "Canalização de cura",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "canalizacao_de_cura"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Canalização de cura",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "canalizacao_de_cura"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/postura_de_contra_ataque",
+      "label": "Postura de contra-ataque",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "postura_de_contra_ataque"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Postura de contra-ataque",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "postura_de_contra_ataque"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/movimento_aereo_controlado",
+      "label": "Movimento aéreo controlado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "movimento_aereo_controlado"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Movimento aéreo controlado",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "movimento_aereo_controlado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/intimidacao_de_adversario",
+      "label": "Intimidação de adversário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "intimidacao_de_adversario"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Intimidação de adversário",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "intimidacao_de_adversario"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "technique_affinity",
+      "excludes": [],
+      "id": "technique_affinity/respiracao_de_resistencia",
+      "label": "Respiração de resistência",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "combat_hint",
+        "respiracao_de_resistencia"
+      ],
+      "variables": {
+        "Qi_cost_override": false,
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Respiração de resistência",
+        "evidence_validator_required": true,
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_martial",
+        "technique_unlock": false,
+        "theme_key": "respiracao_de_resistencia"
+      },
+      "weight": 12
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

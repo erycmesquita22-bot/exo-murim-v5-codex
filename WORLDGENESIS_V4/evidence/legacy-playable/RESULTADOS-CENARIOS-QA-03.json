@@ -1,0 +1,99 @@
+{
+  "status": "FAIL_OFFLINE_MODEL",
+  "classification": "OFFLINE_REFERENCE_AND_STATIC_ONLY",
+  "native_godot": "NOT_RUN",
+  "gameplay_live": "NOT_RUN",
+  "core_unchanged": true,
+  "cases": [
+    {
+      "scenario": "catalogos_e_contratos",
+      "result": "PASS",
+      "assertions": 21,
+      "duration_s": 0.0
+    },
+    {
+      "scenario": "88_regioes_loot_variado",
+      "result": "PASS",
+      "assertions": 726,
+      "duration_s": 0.008
+    },
+    {
+      "scenario": "20k_loot_real_referencia",
+      "result": "PASS",
+      "assertions": 60328,
+      "duration_s": 0.732
+    },
+    {
+      "scenario": "30k_pools_naturais",
+      "result": "PASS",
+      "assertions": 90328,
+      "duration_s": 0.425
+    },
+    {
+      "scenario": "30k_orcamento_adversarial",
+      "result": "PASS",
+      "assertions": 180328,
+      "duration_s": 0.68
+    },
+    {
+      "scenario": "inventario_24_e_loot_composto",
+      "result": "PASS",
+      "assertions": 180336,
+      "duration_s": 0.001
+    },
+    {
+      "scenario": "duplicatas_e_sequencias",
+      "result": "PASS",
+      "assertions": 180346,
+      "duration_s": 0.0
+    },
+    {
+      "scenario": "equipar_trocar_armas",
+      "result": "PASS",
+      "assertions": 180350,
+      "duration_s": 0.0
+    },
+    {
+      "scenario": "persistencia_88_regioes",
+      "result": "PASS",
+      "assertions": 180527,
+      "duration_s": 0.002
+    },
+    {
+      "scenario": "limite_eventos_2048",
+      "result": "PASS",
+      "assertions": 180529,
+      "duration_s": 0.001
+    },
+    {
+      "scenario": "integridade_codigo_preloads",
+      "result": "FAIL",
+      "assertions": 180795,
+      "duration_s": 0.004
+    }
+  ],
+  "counters": {
+    "assertions": 180795,
+    "real_legacy_reference_generated": 20352,
+    "unsupported_override_rejected": 199,
+    "serialized_legacy_reference": 20000,
+    "rarity_observed": 20000,
+    "natural_pool_generations": 30000,
+    "power_fit_reference_cases": 30000
+  },
+  "failures": [
+    {
+      "test": "protected_files_not_copied",
+      "detail": ""
+    }
+  ],
+  "findings": [
+    {
+      "severity": "ALTO",
+      "owner": "EXO Core / Persistência",
+      "finding": "O WorldState oficial limita events a 2048; sem compactação segura, campanhas longas podem atingir o limite de saves. Não foi alterado porque pertence ao Core."
+    }
+  ],
+  "duration_s": 1.852,
+  "explanation": "Legacy generator is faithfully modeled from audited source, but Python simulation does NOT execute GDScript or world live runtime."
+}

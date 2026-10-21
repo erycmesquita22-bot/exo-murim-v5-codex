@@ -1,0 +1,17 @@
+{
+  "consumes": [],
+  "entrypoint": "res://exo_world_library/module_candidate.gd",
+  "id": "world_content_library",
+  "integration_mode": "proposal_read_only_opt_in_not_applied",
+  "note": "No auth on content.library; NEVER expose mutating methods. Module has no save domain.",
+  "optional": {},
+  "optional_module": true,
+  "persistence": {},
+  "publishes": [],
+  "requires": {},
+  "services": [
+    "content.library"
+  ],
+  "version": "0.4.0",
+  "warning": "DO NOT add to exo_core/modules.json until core initialize_module and owner approval are implemented."
+}

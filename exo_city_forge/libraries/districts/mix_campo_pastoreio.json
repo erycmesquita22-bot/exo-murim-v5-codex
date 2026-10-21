@@ -1,0 +1,128 @@
+{
+  "id": "mix_campo_pastoreio",
+  "name": "Pátio de Pastoreio",
+  "category": "mixed",
+  "settlement_context": "agricultural",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "mixed",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "mix_campo_pastoreio/b00",
+      "function": "farmstead",
+      "archetype": "farmstead_hut",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.45,
+        5.1
+      ],
+      "height": 3.5,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "fence_pen",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "mix_campo_pastoreio/b01",
+      "function": "farmstead",
+      "archetype": "animal_shed",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.85,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "fence_pen",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "mix_campo_pastoreio/st00",
+      "for_building": "mix_campo_pastoreio/b00",
+      "role": "resident"
+    },
+    {
+      "id": "mix_campo_pastoreio/st01",
+      "for_building": "mix_campo_pastoreio/b01",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "fence_pen",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "fence_pen",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

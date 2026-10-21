@@ -1,0 +1,67 @@
+{
+  "vfx_id": "vfx.dash.afterimage.jade.v1",
+  "version": "1.0.0-candidate",
+  "family": "dash",
+  "tags": [
+    "step",
+    "speed",
+    "wind"
+  ],
+  "asset_origin": "authored_in_chat_gdscript_geometry",
+  "license_state": "ORIGINAL_PROJECT",
+  "quality_profiles": {
+    "low": {
+      "detail": 4,
+      "mobile": true
+    },
+    "medium": {
+      "detail": 9,
+      "mobile": true
+    },
+    "high": {
+      "detail": 18,
+      "mobile": false
+    }
+  },
+  "geometry_passes": [
+    {
+      "kind": "dash",
+      "color": "#50DCC5",
+      "shader": "res://exo_vfx_forge/shaders/energy.gdshader"
+    }
+  ],
+  "sprite_passes": [],
+  "particle_passes": [
+    {
+      "kind": "low_poly_cpu",
+      "max": 18,
+      "rng": "visual_seed"
+    }
+  ],
+  "shader_params": {
+    "color": "#50DCC5",
+    "glow": 1.0
+  },
+  "timing": {
+    "duration": 0.32,
+    "phase": "launch",
+    "damage_event": "never"
+  },
+  "anchor": "caster_root",
+  "orientation_policy": "host_direction_vector",
+  "random_seed_policy": "local_rng_only",
+  "cleanup": {
+    "on_finished": true,
+    "interrupt": true,
+    "unload": true
+  },
+  "fallback": {
+    "type": "reduce_geometry_detail",
+    "minimum_effect_visible": true
+  },
+  "preview": {
+    "status": "offline_python_reference_only",
+    "legacy_vfx02_ref": "passo_rapido"
+  },
+  "status": "CANDIDATE_NOT_ENGINE_VALIDATED"
+}

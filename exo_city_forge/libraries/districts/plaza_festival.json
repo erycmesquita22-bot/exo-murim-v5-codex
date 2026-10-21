@@ -1,0 +1,120 @@
+{
+  "id": "plaza_festival",
+  "name": "Praça de Celebrações",
+  "category": "plaza",
+  "tags": [
+    "plaza",
+    "festival",
+    "crowds"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "plaza_festival/b00",
+      "function": "market",
+      "local_position": [
+        0,
+        -13
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "plaza_festival/b01",
+      "function": "shrine",
+      "local_position": [
+        -13,
+        12
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "plaza_festival/b02",
+      "function": "administration",
+      "local_position": [
+        13,
+        12
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 6,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "plaza_festival/st00",
+      "for_building": "plaza_festival/b00",
+      "role": "merchant"
+    },
+    {
+      "id": "plaza_festival/st01",
+      "for_building": "plaza_festival/b01",
+      "role": "master"
+    },
+    {
+      "id": "plaza_festival/st02",
+      "for_building": "plaza_festival/b02",
+      "role": "guild_agent"
+    }
+  ],
+  "open_spaces": {
+    "type": "festival",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "festival",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

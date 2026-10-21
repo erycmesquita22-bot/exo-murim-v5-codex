@@ -1,0 +1,370 @@
+{
+  "domain": "region_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "rocky_highlands",
+          "mixed_woodland",
+          "alpine"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/frontier",
+      "label": "Fronteira de seitas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "rocky_highlands",
+          "mixed_woodland",
+          "alpine"
+        ],
+        "theme": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "grassland",
+          "temperate_forest"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/river_trade",
+      "label": "Entreposto fluvial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "trade",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "wetland",
+          "grassland",
+          "temperate_forest"
+        ],
+        "theme": "trade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "rocky_highlands",
+          "bamboo_forest"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/silent_ruins",
+      "label": "Ruínas esquecidas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ruins",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "dry_valley",
+          "rocky_highlands",
+          "bamboo_forest"
+        ],
+        "theme": "ruins"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "grassland",
+          "mixed_woodland"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/fertile_valley",
+      "label": "Vale cultivado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "agriculture",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "grassland",
+          "mixed_woodland"
+        ],
+        "theme": "agriculture"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "alpine",
+          "bamboo_forest",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/pilgrimage",
+      "label": "Estrada de peregrinos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "pilgrimage",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "alpine",
+          "bamboo_forest",
+          "rocky_highlands"
+        ],
+        "theme": "pilgrimage"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/exile",
+      "label": "Terra de exílio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "outlaw",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "dry_valley",
+          "rocky_highlands"
+        ],
+        "theme": "outlaw"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "temperate_forest",
+          "bamboo_forest",
+          "wetland"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/herbal_haven",
+      "label": "Santuário de ervas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "medicine",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "temperate_forest",
+          "bamboo_forest",
+          "wetland"
+        ],
+        "theme": "medicine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "alpine",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/mountain_pass",
+      "label": "Passagem de montanha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "pass",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "alpine",
+          "rocky_highlands"
+        ],
+        "theme": "pass"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "grassland",
+          "mixed_woodland",
+          "temperate_forest"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/clan_border",
+      "label": "Fronteira de clãs",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "clan",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "grassland",
+          "mixed_woodland",
+          "temperate_forest"
+        ],
+        "theme": "clan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "bamboo_forest",
+          "temperate_forest"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/forgotten_shrine",
+      "label": "Santuário abandonado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "shrine",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "wetland",
+          "bamboo_forest",
+          "temperate_forest"
+        ],
+        "theme": "shrine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "grassland",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/caravan_road",
+      "label": "Estrada das caravanas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "caravan",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "dry_valley",
+          "grassland",
+          "rocky_highlands"
+        ],
+        "theme": "caravan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "bamboo_forest"
+        ]
+      },
+      "domain": "region_theme",
+      "excludes": [],
+      "id": "region_theme/mist_basin",
+      "label": "Bacia das névoas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "fog",
+        "regional"
+      ],
+      "variables": {
+        "biome_candidates": [
+          "wetland",
+          "bamboo_forest"
+        ],
+        "theme": "fog"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

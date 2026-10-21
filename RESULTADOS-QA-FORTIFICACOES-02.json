@@ -1,0 +1,78 @@
+{
+  "release_status": "CANDIDATO-CORRIGIDO",
+  "official_promotion": false,
+  "critical_engine_validation": "NOT_RUN",
+  "reason": "No Godot executable found in this runtime; external retrieval failed due blocked DNS/network. No runtime execution or viewport image is claimed.",
+  "checks": {
+    "source_archive_valid": "PASS",
+    "all_baseline_files_present": "PASS",
+    "only_expected_original_files_changed": "PASS",
+    "preserved_baseline_files_verified_sha256": "PASS",
+    "core_nine_modules_and_manifest_match": "PASS",
+    "architecture_version_minor_bump": "PASS",
+    "new_component_files_present": "PASS",
+    "gdscript_delimiter_balance_static": "PASS",
+    "godot_4_6_2_import": "NOT_RUN",
+    "godot_4_6_2_execution": "NOT_RUN",
+    "native_bridge_unit_physics": "NOT_RUN",
+    "real_world_genesis_city_crossing": "NOT_RUN",
+    "native_city_78_regression": "NOT_RUN",
+    "native_core_and_legacy_regression": "NOT_RUN",
+    "NPC_navigation_road_gate_physics": "NOT_RUN",
+    "save_close_reopen": "NOT_RUN",
+    "performance_fps_memory_nodes": "NOT_RUN",
+    "six_real_godot_screenshots": "NOT_RUN",
+    "visual_review": "NOT_RUN",
+    "official_promotion": "NOT_RUN"
+  },
+  "change_inventory": [
+    "MANIFESTO-MODULOS-EXO-CORE-01.json",
+    "exo_core/adapters_architecture.gd",
+    "exo_core/modules.json",
+    "fortifications/planner.gd",
+    "fortifications/river_gate.gd",
+    "fortifications/qa_river_gate.gd",
+    "exo_core/tests/capture_river_gate.gd"
+  ],
+  "native_qa_commands": [
+    "godot --headless --editor --path . --quit",
+    "godot --headless --path . --script res://fortifications/qa_river_gate.gd",
+    "godot --headless --path . --script res://fortifications/qa_native.gd",
+    "godot --headless --path . --script res://exo_core/tests/qa_core.gd",
+    "godot --headless --path . --script res://exo_core/tests/qa_integration.gd",
+    "godot --path . --script res://exo_core/tests/capture_river_gate.gd"
+  ],
+  "captures": [
+    {
+      "id": "city_river",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "small",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "medium",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "monumental",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "panorama",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "water_bank_connections",
+      "status": "NOT_RUN"
+    }
+  ],
+  "limits": [
+    "Real Genesis seed acceptance unverified",
+    "Monumental multi-span only where naturally supported dry islands exist; no artificial islands",
+    "Adjacent overlapping road/river openings remain blocked for safety",
+    "Renderer lacks measured FPS/physics and visual QA",
+    "Existing Genesis town terrace may conceal water below terrain even with intact river mesh"
+  ]
+}

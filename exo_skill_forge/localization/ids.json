@@ -1,0 +1,1290 @@
+{
+  "corte_inicial": {
+    "key": "exo.skill.corte_inicial",
+    "source_locale": "pt-BR",
+    "source_name": "Corte Inicial",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "bola_de_gelo": {
+    "key": "exo.skill.bola_de_gelo",
+    "source_locale": "pt-BR",
+    "source_name": "Bola de Gelo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "salto_impetuoso": {
+    "key": "exo.skill.salto_impetuoso",
+    "source_locale": "pt-BR",
+    "source_name": "Salto Impetuoso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "golpe_circular": {
+    "key": "exo.skill.golpe_circular",
+    "source_locale": "pt-BR",
+    "source_name": "Golpe Circular",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "nova_glacial": {
+    "key": "exo.skill.nova_glacial",
+    "source_locale": "pt-BR",
+    "source_name": "Nova Glacial",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "atracao_arcana": {
+    "key": "exo.skill.atracao_arcana",
+    "source_locale": "pt-BR",
+    "source_name": "Atracao Arcana",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "investida_brutal": {
+    "key": "exo.skill.investida_brutal",
+    "source_locale": "pt-BR",
+    "source_name": "Investida Brutal",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "jato_de_fogo": {
+    "key": "exo.skill.jato_de_fogo",
+    "source_locale": "pt-BR",
+    "source_name": "Jato de Fogo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "barreira_arcana": {
+    "key": "exo.skill.barreira_arcana",
+    "source_locale": "pt-BR",
+    "source_name": "Barreira Arcana",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "cura": {
+    "key": "exo.skill.cura",
+    "source_locale": "pt-BR",
+    "source_name": "Cura",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "cripta_espinhos_1": {
+    "key": "exo.skill.cripta_espinhos_1",
+    "source_locale": "pt-BR",
+    "source_name": "Cripta de Espinhos",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "guardiao_ancestral": {
+    "key": "exo.skill.guardiao_ancestral",
+    "source_locale": "pt-BR",
+    "source_name": "Guardiao Ancestral",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "rajada_de_fogo": {
+    "key": "exo.skill.rajada_de_fogo",
+    "source_locale": "pt-BR",
+    "source_name": "Rajada de Fogo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "rajada_de_vento": {
+    "key": "exo.skill.rajada_de_vento",
+    "source_locale": "pt-BR",
+    "source_name": "Rajada de Vento",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "dardo_arcano": {
+    "key": "exo.skill.dardo_arcano",
+    "source_locale": "pt-BR",
+    "source_name": "Dardo Arcano",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "onda_de_repulsao": {
+    "key": "exo.skill.onda_de_repulsao",
+    "source_locale": "pt-BR",
+    "source_name": "Onda de Repulsao",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.fio_do_bambu": {
+    "key": "exo.skill.exo.sf.fio_do_bambu",
+    "source_locale": "pt-BR",
+    "source_name": "Fio do Bambu",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.sete_cortes_do_vento": {
+    "key": "exo.skill.exo.sf.sete_cortes_do_vento",
+    "source_locale": "pt-BR",
+    "source_name": "Sete Cortes do Vento",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.lamina_do_crepusculo": {
+    "key": "exo.skill.exo.sf.lamina_do_crepusculo",
+    "source_locale": "pt-BR",
+    "source_name": "Lâmina do Crepúsculo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.quebra_rocha": {
+    "key": "exo.skill.exo.sf.quebra_rocha",
+    "source_locale": "pt-BR",
+    "source_name": "Quebra-Rocha",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.muralha_da_montanha": {
+    "key": "exo.skill.exo.sf.muralha_da_montanha",
+    "source_locale": "pt-BR",
+    "source_name": "Muralha da Montanha",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.terremoto_do_sabre": {
+    "key": "exo.skill.exo.sf.terremoto_do_sabre",
+    "source_locale": "pt-BR",
+    "source_name": "Terremoto do Sabre",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.ponta_do_dragao": {
+    "key": "exo.skill.exo.sf.ponta_do_dragao",
+    "source_locale": "pt-BR",
+    "source_name": "Ponta do Dragão",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.serpente_de_nove_passos": {
+    "key": "exo.skill.exo.sf.serpente_de_nove_passos",
+    "source_locale": "pt-BR",
+    "source_name": "Serpente de Nove Passos",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.chuva_de_lancas": {
+    "key": "exo.skill.exo.sf.chuva_de_lancas",
+    "source_locale": "pt-BR",
+    "source_name": "Chuva de Lanças",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.punho_do_rio": {
+    "key": "exo.skill.exo.sf.punho_do_rio",
+    "source_locale": "pt-BR",
+    "source_name": "Punho do Rio",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.onda_reversa": {
+    "key": "exo.skill.exo.sf.onda_reversa",
+    "source_locale": "pt-BR",
+    "source_name": "Onda Reversa",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.cem_correntes": {
+    "key": "exo.skill.exo.sf.cem_correntes",
+    "source_locale": "pt-BR",
+    "source_name": "Cem Correntes",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.passo_da_garca": {
+    "key": "exo.skill.exo.sf.passo_da_garca",
+    "source_locale": "pt-BR",
+    "source_name": "Passo da Garça",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.chute_crescente": {
+    "key": "exo.skill.exo.sf.chute_crescente",
+    "source_locale": "pt-BR",
+    "source_name": "Chute Crescente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.asas_do_grou": {
+    "key": "exo.skill.exo.sf.asas_do_grou",
+    "source_locale": "pt-BR",
+    "source_name": "Asas do Grou",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.agulha_sombria": {
+    "key": "exo.skill.exo.sf.agulha_sombria",
+    "source_locale": "pt-BR",
+    "source_name": "Agulha Sombria",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.nuvem_de_fumo": {
+    "key": "exo.skill.exo.sf.nuvem_de_fumo",
+    "source_locale": "pt-BR",
+    "source_name": "Nuvem de Fumo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.mil_laminas_ocultas": {
+    "key": "exo.skill.exo.sf.mil_laminas_ocultas",
+    "source_locale": "pt-BR",
+    "source_name": "Mil Lâminas Ocultas",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.sopro_de_jade": {
+    "key": "exo.skill.exo.sf.sopro_de_jade",
+    "source_locale": "pt-BR",
+    "source_name": "Sopro de Jade",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.circulo_de_jade": {
+    "key": "exo.skill.exo.sf.circulo_de_jade",
+    "source_locale": "pt-BR",
+    "source_name": "Círculo de Jade",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.purificacao_primordial": {
+    "key": "exo.skill.exo.sf.purificacao_primordial",
+    "source_locale": "pt-BR",
+    "source_name": "Purificação Primordial",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.brasas_da_fenix": {
+    "key": "exo.skill.exo.sf.brasas_da_fenix",
+    "source_locale": "pt-BR",
+    "source_name": "Brasas da Fênix",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.circulo_cinzento": {
+    "key": "exo.skill.exo.sf.circulo_cinzento",
+    "source_locale": "pt-BR",
+    "source_name": "Círculo Cinzento",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.renascer_das_cinzas": {
+    "key": "exo.skill.exo.sf.renascer_das_cinzas",
+    "source_locale": "pt-BR",
+    "source_name": "Renascer das Cinzas",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.flecha_de_geada": {
+    "key": "exo.skill.exo.sf.flecha_de_geada",
+    "source_locale": "pt-BR",
+    "source_name": "Flecha de Geada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.prisao_de_neve": {
+    "key": "exo.skill.exo.sf.prisao_de_neve",
+    "source_locale": "pt-BR",
+    "source_name": "Prisão de Neve",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.selo_do_vazio": {
+    "key": "exo.skill.exo.sf.selo_do_vazio",
+    "source_locale": "pt-BR",
+    "source_name": "Selo do Vazio",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.golpe_do_vazio": {
+    "key": "exo.skill.exo.sf.golpe_do_vazio",
+    "source_locale": "pt-BR",
+    "source_name": "Golpe do Vazio",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punho_da_aurora_fraturada": {
+    "key": "exo.skill.exo.sf.r2.punho_da_aurora_fraturada",
+    "source_locale": "pt-BR",
+    "source_name": "Punho da Aurora Fraturada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.joelho_do_eco_ascendente": {
+    "key": "exo.skill.exo.sf.r2.joelho_do_eco_ascendente",
+    "source_locale": "pt-BR",
+    "source_name": "Joelho do Eco Ascendente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cotovelo_da_estrela_cadente": {
+    "key": "exo.skill.exo.sf.r2.cotovelo_da_estrela_cadente",
+    "source_locale": "pt-BR",
+    "source_name": "Cotovelo da Estrela Cadente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_dos_nove_pulsares": {
+    "key": "exo.skill.exo.sf.r2.passo_dos_nove_pulsares",
+    "source_locale": "pt-BR",
+    "source_name": "Passo dos Nove Pulsares",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.palma_do_horizonte_reverso": {
+    "key": "exo.skill.exo.sf.r2.palma_do_horizonte_reverso",
+    "source_locale": "pt-BR",
+    "source_name": "Palma do Horizonte Reverso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punho_das_tres_respiracoes": {
+    "key": "exo.skill.exo.sf.r2.punho_das_tres_respiracoes",
+    "source_locale": "pt-BR",
+    "source_name": "Punho das Três Respirações",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cotovelada_do_discipulo_errante": {
+    "key": "exo.skill.exo.sf.r2.cotovelada_do_discipulo_errante",
+    "source_locale": "pt-BR",
+    "source_name": "Cotovelada do Discípulo Errante",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.guarda_do_rio_silencioso": {
+    "key": "exo.skill.exo.sf.r2.guarda_do_rio_silencioso",
+    "source_locale": "pt-BR",
+    "source_name": "Guarda do Rio Silencioso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.joelho_da_balanca_oculta": {
+    "key": "exo.skill.exo.sf.r2.joelho_da_balanca_oculta",
+    "source_locale": "pt-BR",
+    "source_name": "Joelho da Balança Oculta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passos_do_ultimo_desafio": {
+    "key": "exo.skill.exo.sf.r2.passos_do_ultimo_desafio",
+    "source_locale": "pt-BR",
+    "source_name": "Passos do Último Desafio",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.palma_do_tigre_de_bronze": {
+    "key": "exo.skill.exo.sf.r2.palma_do_tigre_de_bronze",
+    "source_locale": "pt-BR",
+    "source_name": "Palma do Tigre de Bronze",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.danca_da_garca_cinzenta": {
+    "key": "exo.skill.exo.sf.r2.danca_da_garca_cinzenta",
+    "source_locale": "pt-BR",
+    "source_name": "Dança da Garça Cinzenta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punho_do_trovao_seco": {
+    "key": "exo.skill.exo.sf.r2.punho_do_trovao_seco",
+    "source_locale": "pt-BR",
+    "source_name": "Punho do Trovão Seco",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.selo_da_tartaruga_antiga": {
+    "key": "exo.skill.exo.sf.r2.selo_da_tartaruga_antiga",
+    "source_locale": "pt-BR",
+    "source_name": "Selo da Tartaruga Antiga",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_do_veado_das_nuvens": {
+    "key": "exo.skill.exo.sf.r2.passo_do_veado_das_nuvens",
+    "source_locale": "pt-BR",
+    "source_name": "Passo do Veado das Nuvens",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punho_da_camera_vazia": {
+    "key": "exo.skill.exo.sf.r2.punho_da_camera_vazia",
+    "source_locale": "pt-BR",
+    "source_name": "Punho da Câmera Vazia",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.chute_do_patio_chuvoso": {
+    "key": "exo.skill.exo.sf.r2.chute_do_patio_chuvoso",
+    "source_locale": "pt-BR",
+    "source_name": "Chute do Pátio Chuvoso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cotovelada_da_porta_estreita": {
+    "key": "exo.skill.exo.sf.r2.cotovelada_da_porta_estreita",
+    "source_locale": "pt-BR",
+    "source_name": "Cotovelada da Porta Estreita",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.guarda_da_ultima_ponte": {
+    "key": "exo.skill.exo.sf.r2.guarda_da_ultima_ponte",
+    "source_locale": "pt-BR",
+    "source_name": "Guarda da Última Ponte",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_do_duelo_ao_entardecer": {
+    "key": "exo.skill.exo.sf.r2.passo_do_duelo_ao_entardecer",
+    "source_locale": "pt-BR",
+    "source_name": "Passo do Duelo ao Entardecer",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lamina_do_ceu_dividido": {
+    "key": "exo.skill.exo.sf.r2.lamina_do_ceu_dividido",
+    "source_locale": "pt-BR",
+    "source_name": "Lâmina do Céu Dividido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_da_lua_cintilante": {
+    "key": "exo.skill.exo.sf.r2.corte_da_lua_cintilante",
+    "source_locale": "pt-BR",
+    "source_name": "Corte da Lua Cintilante",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.flecha_do_rastro_carmesim": {
+    "key": "exo.skill.exo.sf.r2.flecha_do_rastro_carmesim",
+    "source_locale": "pt-BR",
+    "source_name": "Flecha do Rastro Carmesim",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.investida_do_ferro_sonoro": {
+    "key": "exo.skill.exo.sf.r2.investida_do_ferro_sonoro",
+    "source_locale": "pt-BR",
+    "source_name": "Investida do Ferro Sonoro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.arco_da_tempestade_rasa": {
+    "key": "exo.skill.exo.sf.r2.arco_da_tempestade_rasa",
+    "source_locale": "pt-BR",
+    "source_name": "Arco da Tempestade Rasa",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.sabre_dos_cem_juramentos": {
+    "key": "exo.skill.exo.sf.r2.sabre_dos_cem_juramentos",
+    "source_locale": "pt-BR",
+    "source_name": "Sabre dos Cem Juramentos",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.agulha_da_casa_oculta": {
+    "key": "exo.skill.exo.sf.r2.agulha_da_casa_oculta",
+    "source_locale": "pt-BR",
+    "source_name": "Agulha da Casa Oculta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lanca_da_divida_marcial": {
+    "key": "exo.skill.exo.sf.r2.lanca_da_divida_marcial",
+    "source_locale": "pt-BR",
+    "source_name": "Lança da Dívida Marcial",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cajado_do_pavilhao_partido": {
+    "key": "exo.skill.exo.sf.r2.cajado_do_pavilhao_partido",
+    "source_locale": "pt-BR",
+    "source_name": "Cajado do Pavilhão Partido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_herdeiro_sem_nome": {
+    "key": "exo.skill.exo.sf.r2.corte_do_herdeiro_sem_nome",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Herdeiro sem Nome",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.gume_da_serpente_de_jade": {
+    "key": "exo.skill.exo.sf.r2.gume_da_serpente_de_jade",
+    "source_locale": "pt-BR",
+    "source_name": "Gume da Serpente de Jade",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.alabarda_do_guardiao_de_sal": {
+    "key": "exo.skill.exo.sf.r2.alabarda_do_guardiao_de_sal",
+    "source_locale": "pt-BR",
+    "source_name": "Alabarda do Guardião de Sal",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.dardo_do_corvo_lunar": {
+    "key": "exo.skill.exo.sf.r2.dardo_do_corvo_lunar",
+    "source_locale": "pt-BR",
+    "source_name": "Dardo do Corvo Lunar",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ceifa_das_folhas_do_outono": {
+    "key": "exo.skill.exo.sf.r2.ceifa_das_folhas_do_outono",
+    "source_locale": "pt-BR",
+    "source_name": "Ceifa das Folhas do Outono",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.golpe_da_bigorna_antiga": {
+    "key": "exo.skill.exo.sf.r2.golpe_da_bigorna_antiga",
+    "source_locale": "pt-BR",
+    "source_name": "Golpe da Bigorna Antiga",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espada_do_beco_encharcado": {
+    "key": "exo.skill.exo.sf.r2.espada_do_beco_encharcado",
+    "source_locale": "pt-BR",
+    "source_name": "Espada do Beco Encharcado",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punhal_da_janela_aberta": {
+    "key": "exo.skill.exo.sf.r2.punhal_da_janela_aberta",
+    "source_locale": "pt-BR",
+    "source_name": "Punhal da Janela Aberta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.haste_do_portao_final": {
+    "key": "exo.skill.exo.sf.r2.haste_do_portao_final",
+    "source_locale": "pt-BR",
+    "source_name": "Haste do Portão Final",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.tiro_da_ponte_de_pedra": {
+    "key": "exo.skill.exo.sf.r2.tiro_da_ponte_de_pedra",
+    "source_locale": "pt-BR",
+    "source_name": "Tiro da Ponte de Pedra",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.montante_do_patio_deserto": {
+    "key": "exo.skill.exo.sf.r2.montante_do_patio_deserto",
+    "source_locale": "pt-BR",
+    "source_name": "Montante do Pátio Deserto",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.arco_de_qi_prismatico": {
+    "key": "exo.skill.exo.sf.r2.arco_de_qi_prismatico",
+    "source_locale": "pt-BR",
+    "source_name": "Arco de Qi Prismático",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espiral_dos_sete_fluxos": {
+    "key": "exo.skill.exo.sf.r2.espiral_dos_sete_fluxos",
+    "source_locale": "pt-BR",
+    "source_name": "Espiral dos Sete Fluxos",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.raio_do_nucleo_sereno": {
+    "key": "exo.skill.exo.sf.r2.raio_do_nucleo_sereno",
+    "source_locale": "pt-BR",
+    "source_name": "Raio do Núcleo Sereno",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.circulo_do_pulso_solar": {
+    "key": "exo.skill.exo.sf.r2.circulo_do_pulso_solar",
+    "source_locale": "pt-BR",
+    "source_name": "Círculo do Pulso Solar",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.veu_da_pressao_azul": {
+    "key": "exo.skill.exo.sf.r2.veu_da_pressao_azul",
+    "source_locale": "pt-BR",
+    "source_name": "Véu da Pressão Azul",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.selo_do_meridiano_perdido": {
+    "key": "exo.skill.exo.sf.r2.selo_do_meridiano_perdido",
+    "source_locale": "pt-BR",
+    "source_name": "Selo do Meridiano Perdido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.vortice_do_manual_incompleto": {
+    "key": "exo.skill.exo.sf.r2.vortice_do_manual_incompleto",
+    "source_locale": "pt-BR",
+    "source_name": "Vórtice do Manual Incompleto",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.pulso_do_dantian_velado": {
+    "key": "exo.skill.exo.sf.r2.pulso_do_dantian_velado",
+    "source_locale": "pt-BR",
+    "source_name": "Pulso do Dantian Velado",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.onda_do_mestre_itinerante": {
+    "key": "exo.skill.exo.sf.r2.onda_do_mestre_itinerante",
+    "source_locale": "pt-BR",
+    "source_name": "Onda do Mestre Itinerante",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.muralha_da_setima_circulacao": {
+    "key": "exo.skill.exo.sf.r2.muralha_da_setima_circulacao",
+    "source_locale": "pt-BR",
+    "source_name": "Muralha da Sétima Circulação",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.sopro_da_perola_da_mare": {
+    "key": "exo.skill.exo.sf.r2.sopro_da_perola_da_mare",
+    "source_locale": "pt-BR",
+    "source_name": "Sopro da Pérola da Maré",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espiral_do_dragao_de_nevoa": {
+    "key": "exo.skill.exo.sf.r2.espiral_do_dragao_de_nevoa",
+    "source_locale": "pt-BR",
+    "source_name": "Espiral do Dragão de Névoa",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.orvalho_da_flor_imortal": {
+    "key": "exo.skill.exo.sf.r2.orvalho_da_flor_imortal",
+    "source_locale": "pt-BR",
+    "source_name": "Orvalho da Flor Imortal",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ressonancia_do_sino_lunar": {
+    "key": "exo.skill.exo.sf.r2.ressonancia_do_sino_lunar",
+    "source_locale": "pt-BR",
+    "source_name": "Ressonância do Sino Lunar",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.veu_da_montanha_sagrada": {
+    "key": "exo.skill.exo.sf.r2.veu_da_montanha_sagrada",
+    "source_locale": "pt-BR",
+    "source_name": "Véu da Montanha Sagrada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.rajada_do_corredor_de_seda": {
+    "key": "exo.skill.exo.sf.r2.rajada_do_corredor_de_seda",
+    "source_locale": "pt-BR",
+    "source_name": "Rajada do Corredor de Seda",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.eco_da_sala_de_treino": {
+    "key": "exo.skill.exo.sf.r2.eco_da_sala_de_treino",
+    "source_locale": "pt-BR",
+    "source_name": "Eco da Sala de Treino",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.pulso_da_lampada_vazia": {
+    "key": "exo.skill.exo.sf.r2.pulso_da_lampada_vazia",
+    "source_locale": "pt-BR",
+    "source_name": "Pulso da Lâmpada Vazia",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corrente_do_lago_de_vidro": {
+    "key": "exo.skill.exo.sf.r2.corrente_do_lago_de_vidro",
+    "source_locale": "pt-BR",
+    "source_name": "Corrente do Lago de Vidro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.reflexo_da_porta_do_ceu": {
+    "key": "exo.skill.exo.sf.r2.reflexo_da_porta_do_ceu",
+    "source_locale": "pt-BR",
+    "source_name": "Reflexo da Porta do Céu",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.fio_rubro_das_sombras": {
+    "key": "exo.skill.exo.sf.r2.fio_rubro_das_sombras",
+    "source_locale": "pt-BR",
+    "source_name": "Fio Rubro das Sombras",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.pulso_escarlate_reverso": {
+    "key": "exo.skill.exo.sf.r2.pulso_escarlate_reverso",
+    "source_locale": "pt-BR",
+    "source_name": "Pulso Escarlate Reverso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.dardo_da_veia_silenciosa": {
+    "key": "exo.skill.exo.sf.r2.dardo_da_veia_silenciosa",
+    "source_locale": "pt-BR",
+    "source_name": "Dardo da Veia Silenciosa",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_da_cicatriz_ardente": {
+    "key": "exo.skill.exo.sf.r2.passo_da_cicatriz_ardente",
+    "source_locale": "pt-BR",
+    "source_name": "Passo da Cicatriz Ardente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.circulo_do_juramento_carmim": {
+    "key": "exo.skill.exo.sf.r2.circulo_do_juramento_carmim",
+    "source_locale": "pt-BR",
+    "source_name": "Círculo do Juramento Carmim",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punhal_do_herdeiro_ferido": {
+    "key": "exo.skill.exo.sf.r2.punhal_do_herdeiro_ferido",
+    "source_locale": "pt-BR",
+    "source_name": "Punhal do Herdeiro Ferido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.marca_da_divida_sangrenta": {
+    "key": "exo.skill.exo.sf.r2.marca_da_divida_sangrenta",
+    "source_locale": "pt-BR",
+    "source_name": "Marca da Dívida Sangrenta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.selo_da_linhagem_velada": {
+    "key": "exo.skill.exo.sf.r2.selo_da_linhagem_velada",
+    "source_locale": "pt-BR",
+    "source_name": "Selo da Linhagem Velada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.danca_das_veias_seladas": {
+    "key": "exo.skill.exo.sf.r2.danca_das_veias_seladas",
+    "source_locale": "pt-BR",
+    "source_name": "Dança das Veias Seladas",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lamina_do_pacto_desfeito": {
+    "key": "exo.skill.exo.sf.r2.lamina_do_pacto_desfeito",
+    "source_locale": "pt-BR",
+    "source_name": "Lâmina do Pacto Desfeito",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.gota_do_sol_sepultado": {
+    "key": "exo.skill.exo.sf.r2.gota_do_sol_sepultado",
+    "source_locale": "pt-BR",
+    "source_name": "Gota do Sol Sepultado",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espinho_do_coracao_de_ferro": {
+    "key": "exo.skill.exo.sf.r2.espinho_do_coracao_de_ferro",
+    "source_locale": "pt-BR",
+    "source_name": "Espinho do Coração de Ferro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ritual_da_rosa_rubra": {
+    "key": "exo.skill.exo.sf.r2.ritual_da_rosa_rubra",
+    "source_locale": "pt-BR",
+    "source_name": "Ritual da Rosa Rubra",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.caminho_do_corvo_ferido": {
+    "key": "exo.skill.exo.sf.r2.caminho_do_corvo_ferido",
+    "source_locale": "pt-BR",
+    "source_name": "Caminho do Corvo Ferido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.sombra_do_tigre_escarlate": {
+    "key": "exo.skill.exo.sf.r2.sombra_do_tigre_escarlate",
+    "source_locale": "pt-BR",
+    "source_name": "Sombra do Tigre Escarlate",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.talho_do_lenco_vermelho": {
+    "key": "exo.skill.exo.sf.r2.talho_do_lenco_vermelho",
+    "source_locale": "pt-BR",
+    "source_name": "Talho do Lenço Vermelho",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ferida_do_salao_vazio": {
+    "key": "exo.skill.exo.sf.r2.ferida_do_salao_vazio",
+    "source_locale": "pt-BR",
+    "source_name": "Ferida do Salão Vazio",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.dardo_da_nevoa_rubra": {
+    "key": "exo.skill.exo.sf.r2.dardo_da_nevoa_rubra",
+    "source_locale": "pt-BR",
+    "source_name": "Dardo da Névoa Rubra",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_da_taca_quebrada": {
+    "key": "exo.skill.exo.sf.r2.passo_da_taca_quebrada",
+    "source_locale": "pt-BR",
+    "source_name": "Passo da Taça Quebrada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.marca_da_ultima_promessa": {
+    "key": "exo.skill.exo.sf.r2.marca_da_ultima_promessa",
+    "source_locale": "pt-BR",
+    "source_name": "Marca da Última Promessa",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_abismo_pulsante": {
+    "key": "exo.skill.exo.sf.r2.corte_do_abismo_pulsante",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Abismo Pulsante",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.mandibula_da_chama_sombria": {
+    "key": "exo.skill.exo.sf.r2.mandibula_da_chama_sombria",
+    "source_locale": "pt-BR",
+    "source_name": "Mandíbula da Chama Sombria",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espiral_do_vazio_faminto": {
+    "key": "exo.skill.exo.sf.r2.espiral_do_vazio_faminto",
+    "source_locale": "pt-BR",
+    "source_name": "Espiral do Vazio Faminto",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_do_eclipse_rachado": {
+    "key": "exo.skill.exo.sf.r2.passo_do_eclipse_rachado",
+    "source_locale": "pt-BR",
+    "source_name": "Passo do Eclipse Rachado",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cupula_do_crepusculo_negro": {
+    "key": "exo.skill.exo.sf.r2.cupula_do_crepusculo_negro",
+    "source_locale": "pt-BR",
+    "source_name": "Cúpula do Crepúsculo Negro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.sabre_do_exilado_do_norte": {
+    "key": "exo.skill.exo.sf.r2.sabre_do_exilado_do_norte",
+    "source_locale": "pt-BR",
+    "source_name": "Sabre do Exilado do Norte",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.marca_do_culto_caido": {
+    "key": "exo.skill.exo.sf.r2.marca_do_culto_caido",
+    "source_locale": "pt-BR",
+    "source_name": "Marca do Culto Caído",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_da_heranca_profana": {
+    "key": "exo.skill.exo.sf.r2.corte_da_heranca_profana",
+    "source_locale": "pt-BR",
+    "source_name": "Corte da Herança Profana",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.investida_do_discipulo_rejeitado": {
+    "key": "exo.skill.exo.sf.r2.investida_do_discipulo_rejeitado",
+    "source_locale": "pt-BR",
+    "source_name": "Investida do Discípulo Rejeitado",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.selo_do_mestre_sem_rosto": {
+    "key": "exo.skill.exo.sf.r2.selo_do_mestre_sem_rosto",
+    "source_locale": "pt-BR",
+    "source_name": "Selo do Mestre Sem Rosto",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.garra_do_leao_do_submundo": {
+    "key": "exo.skill.exo.sf.r2.garra_do_leao_do_submundo",
+    "source_locale": "pt-BR",
+    "source_name": "Garra do Leão do Submundo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ceifa_do_lotus_noturno": {
+    "key": "exo.skill.exo.sf.r2.ceifa_do_lotus_noturno",
+    "source_locale": "pt-BR",
+    "source_name": "Ceifa do Lótus Noturno",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.fogo_da_montanha_oca": {
+    "key": "exo.skill.exo.sf.r2.fogo_da_montanha_oca",
+    "source_locale": "pt-BR",
+    "source_name": "Fogo da Montanha Oca",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.danca_da_raposa_de_cinzas": {
+    "key": "exo.skill.exo.sf.r2.danca_da_raposa_de_cinzas",
+    "source_locale": "pt-BR",
+    "source_name": "Dança da Raposa de Cinzas",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.barreira_dos_portoes_inferiores": {
+    "key": "exo.skill.exo.sf.r2.barreira_dos_portoes_inferiores",
+    "source_locale": "pt-BR",
+    "source_name": "Barreira dos Portões Inferiores",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lamina_sob_a_lua_vermelha": {
+    "key": "exo.skill.exo.sf.r2.lamina_sob_a_lua_vermelha",
+    "source_locale": "pt-BR",
+    "source_name": "Lâmina sob a Lua Vermelha",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.investida_da_cripta_fechada": {
+    "key": "exo.skill.exo.sf.r2.investida_da_cripta_fechada",
+    "source_locale": "pt-BR",
+    "source_name": "Investida da Cripta Fechada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.rugido_do_sino_partido": {
+    "key": "exo.skill.exo.sf.r2.rugido_do_sino_partido",
+    "source_locale": "pt-BR",
+    "source_name": "Rugido do Sino Partido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passos_da_fortaleza_negra": {
+    "key": "exo.skill.exo.sf.r2.passos_da_fortaleza_negra",
+    "source_locale": "pt-BR",
+    "source_name": "Passos da Fortaleza Negra",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_ultimo_vigia": {
+    "key": "exo.skill.exo.sf.r2.corte_do_ultimo_vigia",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Último Vigia",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.espada_da_constelacao_clara": {
+    "key": "exo.skill.exo.sf.r2.espada_da_constelacao_clara",
+    "source_locale": "pt-BR",
+    "source_name": "Espada da Constelação Clara",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.asas_do_cometa_silencioso": {
+    "key": "exo.skill.exo.sf.r2.asas_do_cometa_silencioso",
+    "source_locale": "pt-BR",
+    "source_name": "Asas do Cometa Silencioso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lanca_da_orbita_dourada": {
+    "key": "exo.skill.exo.sf.r2.lanca_da_orbita_dourada",
+    "source_locale": "pt-BR",
+    "source_name": "Lança da Órbita Dourada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.arco_da_luz_infinita": {
+    "key": "exo.skill.exo.sf.r2.arco_da_luz_infinita",
+    "source_locale": "pt-BR",
+    "source_name": "Arco da Luz Infinita",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.protecao_do_firmamento_vivo": {
+    "key": "exo.skill.exo.sf.r2.protecao_do_firmamento_vivo",
+    "source_locale": "pt-BR",
+    "source_name": "Proteção do Firmamento Vivo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.julgamento_do_mestre_das_nuvens": {
+    "key": "exo.skill.exo.sf.r2.julgamento_do_mestre_das_nuvens",
+    "source_locale": "pt-BR",
+    "source_name": "Julgamento do Mestre das Nuvens",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.mantra_do_pico_esquecido": {
+    "key": "exo.skill.exo.sf.r2.mantra_do_pico_esquecido",
+    "source_locale": "pt-BR",
+    "source_name": "Mantra do Pico Esquecido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_discipulo_ascendido": {
+    "key": "exo.skill.exo.sf.r2.corte_do_discipulo_ascendido",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Discípulo Ascendido",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_da_escadaria_celeste": {
+    "key": "exo.skill.exo.sf.r2.passo_da_escadaria_celeste",
+    "source_locale": "pt-BR",
+    "source_name": "Passo da Escadaria Celeste",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.selo_da_virtude_radiante": {
+    "key": "exo.skill.exo.sf.r2.selo_da_virtude_radiante",
+    "source_locale": "pt-BR",
+    "source_name": "Selo da Virtude Radiante",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.pluma_da_fenix_alva": {
+    "key": "exo.skill.exo.sf.r2.pluma_da_fenix_alva",
+    "source_locale": "pt-BR",
+    "source_name": "Pluma da Fênix Alva",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.resplendor_do_qilin_pacifico": {
+    "key": "exo.skill.exo.sf.r2.resplendor_do_qilin_pacifico",
+    "source_locale": "pt-BR",
+    "source_name": "Resplendor do Qilin Pacífico",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.sopro_do_dragao_da_manha": {
+    "key": "exo.skill.exo.sf.r2.sopro_do_dragao_da_manha",
+    "source_locale": "pt-BR",
+    "source_name": "Sopro do Dragão da Manhã",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.flor_da_lua_imaculada": {
+    "key": "exo.skill.exo.sf.r2.flor_da_lua_imaculada",
+    "source_locale": "pt-BR",
+    "source_name": "Flor da Lua Imaculada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cupula_da_tartaruga_celeste": {
+    "key": "exo.skill.exo.sf.r2.cupula_da_tartaruga_celeste",
+    "source_locale": "pt-BR",
+    "source_name": "Cúpula da Tartaruga Celeste",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_sol_na_janela": {
+    "key": "exo.skill.exo.sf.r2.corte_do_sol_na_janela",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Sol na Janela",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lanca_do_templo_suspenso": {
+    "key": "exo.skill.exo.sf.r2.lanca_do_templo_suspenso",
+    "source_locale": "pt-BR",
+    "source_name": "Lança do Templo Suspenso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.pulso_da_manha_branca": {
+    "key": "exo.skill.exo.sf.r2.pulso_da_manha_branca",
+    "source_locale": "pt-BR",
+    "source_name": "Pulso da Manhã Branca",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.danca_do_sino_do_ceu": {
+    "key": "exo.skill.exo.sf.r2.danca_do_sino_do_ceu",
+    "source_locale": "pt-BR",
+    "source_name": "Dança do Sino do Céu",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.barreira_do_patio_de_ouro": {
+    "key": "exo.skill.exo.sf.r2.barreira_do_patio_de_ouro",
+    "source_locale": "pt-BR",
+    "source_name": "Barreira do Pátio de Ouro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_de_tres_tempos": {
+    "key": "exo.skill.exo.sf.r2.corte_de_tres_tempos",
+    "source_locale": "pt-BR",
+    "source_name": "Corte de Três Tempos",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.esquiva_da_poeira_rente": {
+    "key": "exo.skill.exo.sf.r2.esquiva_da_poeira_rente",
+    "source_locale": "pt-BR",
+    "source_name": "Esquiva da Poeira Rente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.arremesso_do_olho_firme": {
+    "key": "exo.skill.exo.sf.r2.arremesso_do_olho_firme",
+    "source_locale": "pt-BR",
+    "source_name": "Arremesso do Olho Firme",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.guarda_dos_calcanhares": {
+    "key": "exo.skill.exo.sf.r2.guarda_dos_calcanhares",
+    "source_locale": "pt-BR",
+    "source_name": "Guarda dos Calcanhares",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.golpe_da_brecha_curta": {
+    "key": "exo.skill.exo.sf.r2.golpe_da_brecha_curta",
+    "source_locale": "pt-BR",
+    "source_name": "Golpe da Brecha Curta",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_aprendiz_paciente": {
+    "key": "exo.skill.exo.sf.r2.corte_do_aprendiz_paciente",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Aprendiz Paciente",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.passo_da_estrada_de_pedra": {
+    "key": "exo.skill.exo.sf.r2.passo_da_estrada_de_pedra",
+    "source_locale": "pt-BR",
+    "source_name": "Passo da Estrada de Pedra",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.lanca_do_guarda_de_vila": {
+    "key": "exo.skill.exo.sf.r2.lanca_do_guarda_de_vila",
+    "source_locale": "pt-BR",
+    "source_name": "Lança do Guarda de Vila",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.tiro_do_cacador_sem_nome": {
+    "key": "exo.skill.exo.sf.r2.tiro_do_cacador_sem_nome",
+    "source_locale": "pt-BR",
+    "source_name": "Tiro do Caçador Sem Nome",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.guarda_da_escola_pequena": {
+    "key": "exo.skill.exo.sf.r2.guarda_da_escola_pequena",
+    "source_locale": "pt-BR",
+    "source_name": "Guarda da Escola Pequena",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.punho_do_oleiro_antigo": {
+    "key": "exo.skill.exo.sf.r2.punho_do_oleiro_antigo",
+    "source_locale": "pt-BR",
+    "source_name": "Punho do Oleiro Antigo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.cajado_da_colheita_tardia": {
+    "key": "exo.skill.exo.sf.r2.cajado_da_colheita_tardia",
+    "source_locale": "pt-BR",
+    "source_name": "Cajado da Colheita Tardia",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.ponta_do_carpinteiro": {
+    "key": "exo.skill.exo.sf.r2.ponta_do_carpinteiro",
+    "source_locale": "pt-BR",
+    "source_name": "Ponta do Carpinteiro",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.arco_do_lenhador_silencioso": {
+    "key": "exo.skill.exo.sf.r2.arco_do_lenhador_silencioso",
+    "source_locale": "pt-BR",
+    "source_name": "Arco do Lenhador Silencioso",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.balanco_do_martelo_simples": {
+    "key": "exo.skill.exo.sf.r2.balanco_do_martelo_simples",
+    "source_locale": "pt-BR",
+    "source_name": "Balanço do Martelo Simples",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.golpe_da_feira_fechada": {
+    "key": "exo.skill.exo.sf.r2.golpe_da_feira_fechada",
+    "source_locale": "pt-BR",
+    "source_name": "Golpe da Feira Fechada",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.esquiva_do_mercado_estreito": {
+    "key": "exo.skill.exo.sf.r2.esquiva_do_mercado_estreito",
+    "source_locale": "pt-BR",
+    "source_name": "Esquiva do Mercado Estreito",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.tiro_do_muro_baixo": {
+    "key": "exo.skill.exo.sf.r2.tiro_do_muro_baixo",
+    "source_locale": "pt-BR",
+    "source_name": "Tiro do Muro Baixo",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.bloqueio_do_portao_rural": {
+    "key": "exo.skill.exo.sf.r2.bloqueio_do_portao_rural",
+    "source_locale": "pt-BR",
+    "source_name": "Bloqueio do Portão Rural",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  },
+  "exo.sf.r2.corte_do_ferreiro_exausto": {
+    "key": "exo.skill.exo.sf.r2.corte_do_ferreiro_exausto",
+    "source_locale": "pt-BR",
+    "source_name": "Corte do Ferreiro Exausto",
+    "en-US": "PENDING_TRANSLATION",
+    "zh-CN": "PENDING_TRANSLATION"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "warning": "MAPPING_ONLY audio is owned by Sound Forge/Bridge; VFX does not load/play audio",
+  "cues": [
+    {
+      "skill_id": "corte_inicial",
+      "phase": "draw",
+      "event_ids": [
+        "weapon.sword.draw"
+      ]
+    },
+    {
+      "skill_id": "corte_inicial",
+      "phase": "launch",
+      "event_ids": [
+        "weapon.sword.swing_light"
+      ]
+    },
+    {
+      "skill_id": "corte_inicial",
+      "phase": "impact",
+      "event_ids": [
+        "weapon.sword.hit_body"
+      ]
+    },
+    {
+      "skill_id": "bola_de_gelo",
+      "phase": "launch",
+      "event_ids": [
+        "ice.cast"
+      ]
+    },
+    {
+      "skill_id": "bola_de_gelo",
+      "phase": "impact",
+      "event_ids": [
+        "ice.impact"
+      ]
+    }
+  ]
+}

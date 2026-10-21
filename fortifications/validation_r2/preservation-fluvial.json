@@ -1,0 +1,15 @@
+{
+  "binary_assets_checked": 1303,
+  "changed_binary_assets": [],
+  "changed_existing_scripts": [
+    "convergence/frontage_qa.gd",
+    "convergence/game.gd",
+    "convergence/state.gd",
+    "fortifications/planner.gd",
+    "fortifications/qa_native.gd",
+    "fortifications/qa_river_gate.gd",
+    "fortifications/river_gate.gd",
+    "genesis/region_data.gd",
+    "genesis/region_scene.gd"
+  ]
+}

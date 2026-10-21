@@ -1,0 +1,294 @@
+{
+  "domain": "dialogue_tone",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/formal",
+      "label": "Formal e comedido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "formal"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/impatient",
+      "label": "Impaciente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "impatient"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/warm",
+      "label": "Caloroso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "warm"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/guarded",
+      "label": "Desconfiado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "guarded"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/direct",
+      "label": "Objetivo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "direct"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/ceremonial",
+      "label": "Cerimonial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "ceremonial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/rural",
+      "label": "Camponês",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "rural"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/merchant",
+      "label": "Negociador",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "merchant"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/master",
+      "label": "Didático",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "master"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/vagrant",
+      "label": "Vagante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "vagrant"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/noble",
+      "label": "Aristocrático",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "noble"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dialogue_tone",
+      "excludes": [],
+      "id": "dialogue_tone/enigmatic",
+      "label": "Enigmático",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dialogue"
+      ],
+      "variables": {
+        "language": "pt-BR",
+        "localization_pending": [
+          "en",
+          "zh-Hans"
+        ],
+        "tone": "enigmatic"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

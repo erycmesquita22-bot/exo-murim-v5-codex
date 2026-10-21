@@ -1,0 +1,47 @@
+{
+  "build": "C03_ALPHA_R6",
+  "source": "R5 preserved unchanged except declared diffs",
+  "systems": {
+    "EXO Core 01P": {
+      "state": "PATCH_CODE",
+      "native": "NOT_RUN"
+    },
+    "HUD + Terrain R1 + NPC R2": {
+      "state": "INHERITED_R5",
+      "native": "NOT_RUN"
+    },
+    "Bestiario fauna + Creature Harmonizacao R5": {
+      "state": "INHERITED_R5",
+      "native": "NOT_RUN"
+    },
+    "Dungeon Genesis R2": {
+      "state": "R6_RUNTIME_WIRED",
+      "limitations": [
+        "native not executed",
+        "physics/combat unverified",
+        "traps visual only",
+        "specialized boss AI pending"
+      ]
+    },
+    "Itens Procedurais R3": {
+      "state": "R6_ATOMIC_MATERIAL_ONLY",
+      "limitations": [
+        "other items/afixos preview only",
+        "native commit and crash QA pending"
+      ]
+    },
+    "Forja Monumental 04": {
+      "state": "STAGING",
+      "native": "NOT_RUN"
+    },
+    "Mestres Artes Marciais R2": {
+      "state": "PARTIAL_API",
+      "native": "NOT_RUN"
+    },
+    "Humanoides 03 R2": {
+      "state": "STAGING",
+      "native": "NOT_RUN"
+    }
+  },
+  "commercial_assets": "Legacy 480 skins quarantined; commercial provenance requires final human audit"
+}

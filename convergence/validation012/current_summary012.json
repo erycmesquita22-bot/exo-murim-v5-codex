@@ -1,0 +1,604 @@
+{
+  "scope": "Executed final results; earlier failing attempts remain in their original logs.",
+  "results": [
+    {
+      "suite": "tests",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 2.574174034999942,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests.gd"
+      ]
+    },
+    {
+      "suite": "release_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.117805481999767,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://release_qa.gd"
+      ]
+    },
+    {
+      "suite": "discovery_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.2180272149998927,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://discovery_qa.gd"
+      ],
+      "latest_log": "convergence/validation012/discovery_qa.log",
+      "previous_attempt_log": "convergence/validation012/final/discovery_qa.log"
+    },
+    {
+      "suite": "fidelity_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.2172961510000277,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://fidelity_qa.gd"
+      ]
+    },
+    {
+      "suite": "consolidation_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.3191789000002245,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://consolidation_qa.gd"
+      ]
+    },
+    {
+      "suite": "ruins_martial_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.1172236329998668,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://ruins_martial_qa.gd"
+      ]
+    },
+    {
+      "suite": "stabilization_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.1168642709999403,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://stabilization_qa.gd"
+      ]
+    },
+    {
+      "suite": "quality09_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.2173009360003562,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://quality09_qa.gd"
+      ],
+      "latest_log": "convergence/validation012/quality09_qa.log",
+      "previous_attempt_log": "convergence/validation012/final/quality09_qa.log"
+    },
+    {
+      "suite": "martial_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.5694933970003149,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://martial_qa.gd"
+      ]
+    },
+    {
+      "suite": "procedural_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.367643231999864,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://procedural_qa.gd"
+      ]
+    },
+    {
+      "suite": "legacy_audio_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.2177182400000675,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://legacy_audio_qa.gd"
+      ]
+    },
+    {
+      "suite": "war_qa",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 2.974124426999879,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://war_qa.gd"
+      ]
+    },
+    {
+      "suite": "qa093",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.26469073400039633,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa093.gd"
+      ]
+    },
+    {
+      "suite": "qa0932",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.2650111990001278,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0932.gd"
+      ]
+    },
+    {
+      "suite": "qa0933",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.2650124959995992,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0933.gd"
+      ]
+    },
+    {
+      "suite": "qa094",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.26502585999969597,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa094.gd"
+      ]
+    },
+    {
+      "suite": "qa0942",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.2646784869998555,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0942.gd"
+      ]
+    },
+    {
+      "suite": "qa0943",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.1168139070000507,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0943.gd"
+      ]
+    },
+    {
+      "suite": "qa0944",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.3180472229996667,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0944.gd"
+      ]
+    },
+    {
+      "suite": "qa0945",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.1278384560000632,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0945.gd"
+      ]
+    },
+    {
+      "suite": "qa0946",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.217145741999957,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa0946.gd"
+      ]
+    },
+    {
+      "suite": "living",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.465337549999731,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://living_world/tests/qa_living_world.gd"
+      ]
+    },
+    {
+      "suite": "forja",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 1.1169096570001784,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://qa/run_headless.gd"
+      ]
+    },
+    {
+      "suite": "atlas",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 73.57559501199967,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests/plan_stress.gd"
+      ]
+    },
+    {
+      "suite": "settlements",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 16.469450400999904,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests/settlement_core.gd",
+        "--",
+        "50"
+      ]
+    },
+    {
+      "suite": "extremes",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 23.84188418299982,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests/settlement_extreme.gd",
+        "--",
+        "10000"
+      ]
+    },
+    {
+      "suite": "surfaces",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 12.748457650000091,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests/physics_surfaces.gd"
+      ]
+    },
+    {
+      "suite": "grades",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 0.4663012229998458,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://tests/settlement_grades.gd"
+      ]
+    },
+    {
+      "suite": "integration",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 112.72169473300028,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://convergence/qa.gd"
+      ]
+    },
+    {
+      "suite": "reopen",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 4.6296670149999954,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://convergence/reopen.gd"
+      ]
+    },
+    {
+      "suite": "encounter",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 2.672136258000137,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://convergence/encounter_qa.gd"
+      ]
+    },
+    {
+      "suite": "pilots",
+      "status": "PASS",
+      "exit": 0,
+      "seconds": 119.31233758999952,
+      "command": [
+        "/workspace/scratch/1d18e9a8f297/asset_tools/Godot_v4.6.2-stable_linux.x86_64",
+        "--headless",
+        "--fixed-fps",
+        "60",
+        "--path",
+        "/workspace/scratch/7eb713849e80/work/EXO-Murim-Convergencia-01.2",
+        "--script",
+        "res://convergence/pilot_walk.gd"
+      ]
+    },
+    {
+      "suite": "assets_rendered",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/assets-final.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "playable_rendered",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/playable-final.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "routines_optimized",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/routines-optimized.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "routine_reopen",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/convergence_routine_reopen.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "migration_C01",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/convergence_migration012.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "architecture_semantics",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/convergence_architecture_qa.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "expanded_roof_occlusion",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/roof-final.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "geometry_extended_reservations",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/geometry.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "material_cache",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/material-final.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "physical_extremes",
+      "status": "PASS",
+      "exit": 0,
+      "latest_log": "convergence/validation012/extreme-physical.log",
+      "process_exit_verified": true
+    },
+    {
+      "suite": "fresh_extract_import_render",
+      "status": "PASS",
+      "exit": 0,
+      "logs": [
+        "convergence/validation012/fresh-import.log",
+        "convergence/validation012/fresh-boot.log"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "integrity_checks": {
+    "all_texture_borders_identical": true,
+    "all_255_masks_valid": true,
+    "all_125_individual_GLBS_parse": true,
+    "four_assembly_GLBS_parse": true,
+    "godot_runtime_tested": false
+  },
+  "assets_counted": {
+    "01_SOLOS": 36,
+    "02_PAREDES_RUINAS": 32,
+    "03_PISOS": 22,
+    "05_DECALQUES": 24,
+    "04_TRANSICOES": 256
+  },
+  "glb_tests": {
+    "individual": 125,
+    "scene": 4
+  },
+  "errors": []
+}

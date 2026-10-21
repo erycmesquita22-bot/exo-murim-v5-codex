@@ -1,0 +1,13 @@
+seed,region,stage,errors,fix
+40,40,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+159,71,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+183,7,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+305,41,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+462,22,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+754,50,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+994,26,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+1066,10,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+1697,25,regional,foundation,Separação de pads e suas faixas de suavização; distância de reserva ampliada
+101,66,lane_grade,gate_45_66,"Reserva física das faixas laterais das estradas, além da linha central"
+101,82,lane_grade,gate_32_82,"Reserva física das faixas laterais das estradas, além da linha central"
+816204,87,lane_grade,gate_51_87,"Reserva física das faixas laterais das estradas, além da linha central"

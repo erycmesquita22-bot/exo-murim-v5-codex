@@ -1,0 +1,18 @@
+{
+  "EXO-Murim-09.4.6-Base-de-Assets.zip": {
+    "bytes": 10668679,
+    "sha256": "81cb68feb3ec71db029b2c27552d67359e8ae66df013e1b5fd0ed2bae5b63c8c"
+  },
+  "EXO-LivingWorld-01-Nucleo-Compatibilidade.zip": {
+    "bytes": 24510,
+    "sha256": "2edad052f6a3bf8d0c8702f6113adb04f3ed6047fd91f88fb0306f7b47d6d20f"
+  },
+  "EXO-Forja-Arquitetonica-02.zip": {
+    "bytes": 26645006,
+    "sha256": "7b3b1f7b552f35c321154ff7d7e3775cfc2e024053f88d18b365cfc073d34c4b"
+  },
+  "EXO-WorldGenesis-05-STRESS-FULL.zip": {
+    "bytes": 64410196,
+    "sha256": "daed4318cb0117a1a427ab92234c7fd94696352b93bb4824575dc736e1fedc0b"
+  }
+}

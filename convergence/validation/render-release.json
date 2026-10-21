@@ -1,0 +1,26 @@
+[
+  {
+    "name": "render-boot-final.log",
+    "pass": true
+  },
+  {
+    "name": "captures-release.log",
+    "pass": true
+  },
+  {
+    "name": "benchmark-release-base.log",
+    "pass": true
+  },
+  {
+    "name": "benchmark-release-home.log",
+    "pass": true
+  },
+  {
+    "name": "benchmark-release-village.log",
+    "pass": true
+  },
+  {
+    "name": "benchmark-release-city.log",
+    "pass": true
+  }
+]

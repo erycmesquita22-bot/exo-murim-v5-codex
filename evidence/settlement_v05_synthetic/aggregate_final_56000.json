@@ -1,0 +1,124 @@
+{
+  "kind": "EXTERNAL_SYNTHETIC_APPROXIMATION_NOT_GODOT",
+  "input_count": 56000,
+  "counts": {
+    "total": 56000,
+    "town_total": 18696,
+    "normal_total": 27957,
+    "ready": 55998,
+    "town_ready": 18696,
+    "normal_ready": 27956,
+    "village_total": 18768,
+    "village_ready": 18767,
+    "city_total": 18536,
+    "city_ready": 18535,
+    "moderate_total": 9220,
+    "moderate_ready": 9220,
+    "flat_total": 4619,
+    "flat_ready": 4619,
+    "extreme_total": 4689,
+    "extreme_ready": 4688,
+    "steep_total": 9515,
+    "steep_ready": 9515,
+    "invalid": 2,
+    "village_invalid": 1,
+    "normal_invalid": 1,
+    "missing_lots": 2,
+    "city_invalid": 1,
+    "extreme_invalid": 1
+  },
+  "reject_reasons": {
+    "bounds": 318232,
+    "gates": 1101636,
+    "street": 1441596,
+    "slope": 1595399,
+    "occupied": 91287,
+    "rivers": 528578,
+    "well_overlap": 18536,
+    "well_access": 30
+  },
+  "examples": [
+    {
+      "case": "synth_7270",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "normal",
+      "gates": [
+        [
+          -38.890409585123436,
+          254
+        ],
+        [
+          -254,
+          -53.675839613075894
+        ]
+      ],
+      "rivers": [
+        [
+          -100.08308620228044,
+          -254
+        ]
+      ],
+      "target": 8,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "gates": 60,
+        "rivers": 54,
+        "slope": 28,
+        "street": 267,
+        "occupied": 4
+      }
+    },
+    {
+      "case": "synth_17189",
+      "scale": "city",
+      "biome": "temperate_forest",
+      "mode": "extreme",
+      "gates": [
+        [
+          -14.465203367666902,
+          -254
+        ],
+        [
+          254,
+          -124.01488691962744
+        ],
+        [
+          -254,
+          65.82476758098025
+        ],
+        [
+          -94.69490506448605,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          114.10559342264071
+        ],
+        [
+          -254,
+          -109.55970718659765
+        ],
+        [
+          -124.77716985232342,
+          254
+        ]
+      ],
+      "target": 48,
+      "actual": 47,
+      "rejects": {
+        "bounds": 12,
+        "gates": 120,
+        "well_overlap": 3,
+        "rivers": 117,
+        "slope": 98,
+        "street": 159,
+        "occupied": 32
+      }
+    }
+  ],
+  "duration_sum_sec": 113.32000000000001
+}

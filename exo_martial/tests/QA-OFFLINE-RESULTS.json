@@ -1,0 +1,210 @@
+{
+  "result": "PASS",
+  "method": "INDEPENDENT_PYTHON_REFERENCE_AND_STATIC_ONLY",
+  "godot_native": "NOT_RUN",
+  "integrated_save_v4": "NOT_RUN",
+  "core_combat_regression": "NOT_RUN",
+  "seed": 21474837,
+  "reference_masters": 12000,
+  "reference_relationship_pairs": 12000,
+  "tests_passed": 36,
+  "tests_failed": 0,
+  "failed_tests": [],
+  "elapsed_seconds": 0.668,
+  "checks": [
+    {
+      "name": "base_core_sha256_verified",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "catalogue_exactly_core_skills",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "catalogue_actual_costs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "catalogue_cooldown_match",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "core_source_digest_match",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "core_registry_can_load_external_entrypoint",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "core_services_method_matches",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no_arbitrary_core_events",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no_module_or_service_id_collision",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_dependencies_satisfiable",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "root_martial_domain_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "unchanged_central_files",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "core_existing_poses",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "global_unique_catalogue_ids",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "catalogue_counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "style_refs_valid",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "school_refs_valid",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "technique_style_refs_valid",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "all_techniques_bounded",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "rank_policy_consistent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "server_side_proof_gate_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "narrative_bond_authority",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "save_coordinator_only",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no_new_qi_reserve",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "no_combat_damage_modification",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "zero_interruption_of_legacy",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stress_12000_deterministic_masters",
+      "status": "PASS",
+      "detail": 12000
+    },
+    {
+      "name": "cross_seed_non_identical",
+      "status": "PASS",
+      "detail": 10689
+    },
+    {
+      "name": "master_ids_unique",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "school_spread",
+      "status": "PASS",
+      "detail": {
+        "exo_martial.school.vale_grou": 1310,
+        "exo_martial.school.mosteiro_jade": 1353,
+        "exo_martial.school.seita_bambu": 1325,
+        "exo_martial.school.ermitagem_vazio": 1357,
+        "exo_martial.school.templo_corrente": 1333,
+        "exo_martial.school.mercadores_sombra": 1315,
+        "exo_martial.school.ordem_cinza": 1339,
+        "exo_martial.school.cla_montanha": 1368,
+        "exo_martial.school.pavilhao_lanca": 1300
+      }
+    },
+    {
+      "name": "stress_12000_unique_martial_pair_keys",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "narrative_bond_pair_commutativity",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "preexisting_npc_identity_stable",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "receipt_replay_6000_practices",
+      "status": "PASS",
+      "detail": {
+        "xp": 66000,
+        "practices": 6000,
+        "awards": 6000
+      }
+    },
+    {
+      "name": "idempotent_reward_oracle",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "gdscript_lexical_balanced_not_parse",
+      "status": "PASS",
+      "detail": []
+    }
+  ]
+}

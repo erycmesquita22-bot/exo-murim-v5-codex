@@ -1,0 +1,13 @@
+{
+  "version": "ALFA-R11",
+  "base": "ALFA-R10",
+  "base_sha256": "b72301454d0ccc7a1d7634371ff4e4a01a26f28f11648f9a4ba0e535c5c357d0",
+  "patch_sha256": "98cd167de10aaba71494c5023750420ea36e588bc7c8201ea03010ecaaaee841",
+  "integration": "terrain_forge_shader_mixes_and_cosmetic_foliage_runtime_wired",
+  "validation": "CANDIDATE_STATIC_ONLY",
+  "qa_static_pass": 4909,
+  "qa_static_fail": 0,
+  "qa_native": "NOT_RUN",
+  "gameplay_homologated": false,
+  "future_base": "ALFA-R11"
+}

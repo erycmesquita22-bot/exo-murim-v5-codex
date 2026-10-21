@@ -1,0 +1,57 @@
+{
+  "production_gd_changes": [
+    "convergence/region.gd",
+    "regional_ecology/director.gd"
+  ],
+  "protected": {
+    "main.gd": {
+      "sha256": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+      "unchanged": true
+    },
+    "rig.gd": {
+      "sha256": "370d7d1f64091db72e76e58e26782b0a46a61adae3aec290d858023f1bfefceb",
+      "unchanged": true
+    },
+    "arsenal.gd": {
+      "sha256": "0fdcff226825c808cdc523073fe72e5ad30b02bddf536ed570381384b8fd3332",
+      "unchanged": true
+    },
+    "inventory.gd": {
+      "sha256": "3070b67c4c7f4cb5319488ba56a6d6778560133bddfa7faa327071a1b6855b3a",
+      "unchanged": true
+    },
+    "journey_save.gd": {
+      "sha256": "6a55af22333dcea12e79eab4c56b7aede43bda7c4c859aaf0643fa8a5ce42339",
+      "unchanged": true
+    },
+    "combat/player_combat.gd": {
+      "sha256": "c0e1e90ed5487abdab6f94d7faefe070e3e587c031fbbe8d83d6315c1842a820",
+      "unchanged": true
+    },
+    "combat/martial_motion.gd": {
+      "sha256": "3e69c914edef767b322f8e513ae37bca657f6f4ead00fb00fcaaf6a6c86eb04c",
+      "unchanged": true
+    },
+    "convergence/game.gd": {
+      "sha256": "60cc727721fcf42681c09b6b70c58cbb9915cc185b68f674c53f44750e307d54",
+      "unchanged": true
+    },
+    "convergence/resident.gd": {
+      "sha256": "fb160a02c2e4c4f6d5777fa3849b35d33cb687252405a61d86225abda7e3816b",
+      "unchanged": true
+    }
+  },
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu_visible": 9,
+    "cpu_quota": "800000 100000",
+    "memory_limit": "8589934592"
+  },
+  "qa_changes": [
+    "convergence/routine_qa.gd"
+  ],
+  "benchmark_scripts_equal": {
+    "support.gd": true,
+    "benchmark.gd": true
+  }
+}

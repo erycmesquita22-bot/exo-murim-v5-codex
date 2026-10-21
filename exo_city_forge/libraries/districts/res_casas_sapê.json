@@ -1,0 +1,128 @@
+{
+  "id": "res_casas_sapê",
+  "name": "Pátios de Sapê",
+  "category": "residential",
+  "settlement_context": "agricultural",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "residential",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "res_casas_sapê/b00",
+      "function": "residence",
+      "archetype": "straw_hut",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.1
+      ],
+      "height": 3.5,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "straw_plots",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "res_casas_sapê/b01",
+      "function": "residence",
+      "archetype": "straw_hut",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.0,
+        5.75
+      ],
+      "height": 3.85,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "straw_plots",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "res_casas_sapê/st00",
+      "for_building": "res_casas_sapê/b00",
+      "role": "resident"
+    },
+    {
+      "id": "res_casas_sapê/st01",
+      "for_building": "res_casas_sapê/b01",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "straw_plots",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "straw_plots",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

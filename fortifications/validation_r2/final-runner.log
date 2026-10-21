@@ -1,0 +1,8 @@
+{'suite': 'import', 'status': 'PASS', 'seconds': 5.013}
+{'suite': 'river_native', 'status': 'PASS', 'seconds': 1.484}
+{'suite': 'fortifications', 'status': 'PASS', 'seconds': 2.694}
+{'suite': 'core', 'status': 'PASS', 'seconds': 0.48}
+{'suite': 'settlements', 'status': 'PASS', 'seconds': 21.488}
+{'suite': 'persistence_crash', 'status': 'PASS', 'seconds': 0.39}
+{'suite': 'persistence_reopen', 'status': 'PASS', 'seconds': 0.462}
+{'suite': 'core_integration', 'status': 'PASS', 'seconds': 9.278}

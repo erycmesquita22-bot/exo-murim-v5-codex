@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://exo_city_forge/preview/preview_controller.gd" id="1_preview"]
+[node name="CityForgePreview" type="Node3D"]
+script = ExtResource("1_preview")
+[node name="Camera" type="Camera3D" parent="."]
+transform = Transform3D(0.707107, 0.408248, -0.57735, 0, 0.816497, 0.57735, 0.707107, -0.408248, 0.57735, -95, 160, 150)
+projection = 1
+size = 270.0
+current = true
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-60, -35, 0)
+light_energy = 0.95
+shadow_enabled = false
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="Generated" type="Node3D" parent="."]
+[node name="Overlay" type="CanvasLayer" parent="."]
+[node name="Legend" type="Label" parent="Overlay"]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 1300.0
+offset_bottom = 108.0
+theme_override_font_sizes/font_size = 18

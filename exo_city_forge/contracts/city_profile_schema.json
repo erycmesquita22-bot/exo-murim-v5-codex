@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "city_profile_schema",
+  "type": "object",
+  "required": [
+    "id",
+    "weights",
+    "ordinary_population_min_share"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "weights": {
+      "type": "object"
+    },
+    "noble_probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "additionalProperties": true
+}

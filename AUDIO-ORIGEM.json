@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "assets/exo_audio/spell_charge.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/spell_charge.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/spell_impact.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/spell_impact.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/energy_impact.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/energy_impact.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/wind_break.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/wind_break.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/summon_call.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/summon_call.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/eco_eco_boss.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_boss.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/eco_eco_miniboss.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_miniboss.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/eco_eco_gelo.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_gelo.ogg"
+  },
+  {
+    "asset": "assets/exo_audio/eco_eco_fogo.ogg",
+    "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_fogo.ogg"
+  }
+]

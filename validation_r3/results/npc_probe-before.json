@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "city_65_residents"
+    },
+    {
+      "pass": false,
+      "test": "work_points_separated:0.0"
+    }
+  ],
+  "facts": {
+    "min_work_point_distance": 0.0
+  },
+  "failures": [
+    "work_points_separated:0.0"
+  ]
+}

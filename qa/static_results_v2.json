@@ -1,0 +1,13 @@
+{
+  "kind": "forja_02_integrity_and_static",
+  "passed": 963,
+  "failed": [],
+  "measures": {
+    "inherited_preserved": 387,
+    "legacy_catalog_intentionally_extended": true,
+    "catalog_models": 121,
+    "new_models": 34,
+    "total_new_triangles": 6068,
+    "godot_engine_executed": false
+  }
+}

@@ -1,0 +1,7 @@
+Data da sessão: 2026-10-19 (data de contexto; timezone America/Sao_Paulo)
+which godot / godot4: NOT_FOUND
+find em /opt, /usr/local, /usr/bin, /home/oai: NOT_FOUND (exceto arquivos .gd e pastas godot do próprio projeto)
+curl -I -L https://github.com/godotengine/godot/releases/download/4.6.2-stable/Godot_v4.6.2-stable_linux.x86_64.zip
+Resultado: curl: (6) Could not resolve host: github.com
+Estado: Godot import/parser/shader F5 GPU/QA nativo NOT_RUN.
+Nenhum screenshot/fps/frametime é atribuído a essa sessão.

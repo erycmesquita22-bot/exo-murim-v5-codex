@@ -1,0 +1,78 @@
+{
+  "version": "0.4",
+  "source_school_catalog_sha256": "4564c856ff1bf31e50f33ad9d4226bfdf4b544d56a7245cd03e64991acd815e5",
+  "mapping": {
+    "exo_martial.school.seita_bambu": {
+      "display_name": "Seita do Bambu",
+      "style_id": "exo_martial.style.sword_swift",
+      "architectural_style": "bamboo_jade",
+      "accent": "#238e60",
+      "preferred_gate": "monastery_gate",
+      "training_emphasis": 3
+    },
+    "exo_martial.school.cla_montanha": {
+      "display_name": "Clã da Montanha",
+      "style_id": "exo_martial.style.saber_iron",
+      "architectural_style": "mountain_iron",
+      "accent": "#596678",
+      "preferred_gate": "fortress_gate",
+      "training_emphasis": 1
+    },
+    "exo_martial.school.pavilhao_lanca": {
+      "display_name": "Pavilhão da Lança",
+      "style_id": "exo_martial.style.spear_dragon",
+      "architectural_style": "spear_crimson",
+      "accent": "#bf4336",
+      "preferred_gate": "martial_gate",
+      "training_emphasis": 4
+    },
+    "exo_martial.school.templo_corrente": {
+      "display_name": "Templo da Corrente",
+      "style_id": "exo_martial.style.fist_river",
+      "architectural_style": "river_blue",
+      "accent": "#24859b",
+      "preferred_gate": "monastery_gate",
+      "training_emphasis": 2
+    },
+    "exo_martial.school.vale_grou": {
+      "display_name": "Vale do Grou",
+      "style_id": "exo_martial.style.kick_crane",
+      "architectural_style": "crane_ivory",
+      "accent": "#dbb95f",
+      "preferred_gate": "martial_gate",
+      "training_emphasis": 2
+    },
+    "exo_martial.school.mercadores_sombra": {
+      "display_name": "Pavilhão da Sombra",
+      "style_id": "exo_martial.style.hidden_blade",
+      "architectural_style": "shadow_indigo",
+      "accent": "#67448c",
+      "preferred_gate": "fortress_gate",
+      "training_emphasis": 1
+    },
+    "exo_martial.school.mosteiro_jade": {
+      "display_name": "Mosteiro de Jade",
+      "style_id": "exo_martial.style.qi_serene",
+      "architectural_style": "jade_gold",
+      "accent": "#2fa58a",
+      "preferred_gate": "monastery_gate",
+      "training_emphasis": 2
+    },
+    "exo_martial.school.ordem_cinza": {
+      "display_name": "Ordem da Cinza",
+      "style_id": "exo_martial.style.fire_ember",
+      "architectural_style": "ash_flame",
+      "accent": "#cb613d",
+      "preferred_gate": "fortress_gate",
+      "training_emphasis": 3
+    },
+    "exo_martial.school.ermitagem_vazio": {
+      "display_name": "Ermitagem do Vazio",
+      "style_id": "exo_martial.style.void_arts",
+      "architectural_style": "void_night",
+      "accent": "#555f98",
+      "preferred_gate": "martial_gate",
+      "training_emphasis": 1
+    }
+  }
+}

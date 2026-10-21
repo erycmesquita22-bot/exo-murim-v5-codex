@@ -1,0 +1,366 @@
+{
+  "domain": "craft_tradition",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/ferro_tratado_com_carvao_fino",
+      "label": "Ferro tratado com carvão fino",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "ferro_tratado_com_carvao_fino"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ferro tratado com carvão fino",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "ferro_tratado_com_carvao_fino"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/bainha_com_madeira_resistente",
+      "label": "Bainha com madeira resistente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "bainha_com_madeira_resistente"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Bainha com madeira resistente",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "bainha_com_madeira_resistente"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/fio_de_costura_duplo",
+      "label": "Fio de costura duplo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "fio_de_costura_duplo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Fio de costura duplo",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "fio_de_costura_duplo"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/pintura_de_escudos_de_cla",
+      "label": "Pintura de escudos de clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "pintura_de_escudos_de_cla"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pintura de escudos de clã",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "pintura_de_escudos_de_cla"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/gravura_de_identificacao",
+      "label": "Gravura de identificação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "gravura_de_identificacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Gravura de identificação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "gravura_de_identificacao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/martelagem_de_ponta_de_lanca",
+      "label": "Martelagem de ponta de lança",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "martelagem_de_ponta_de_lanca"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Martelagem de ponta de lança",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "martelagem_de_ponta_de_lanca"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/polimento_de_lamina_cerimonial",
+      "label": "Polimento de lâmina cerimonial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "polimento_de_lamina_cerimonial"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Polimento de lâmina cerimonial",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "polimento_de_lamina_cerimonial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/recipientes_de_ervas_selados",
+      "label": "Recipientes de ervas selados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "recipientes_de_ervas_selados"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Recipientes de ervas selados",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "recipientes_de_ervas_selados"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/cordas_trancadas_a_mao",
+      "label": "Cordas trançadas à mão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "cordas_trancadas_a_mao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Cordas trançadas à mão",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "cordas_trancadas_a_mao"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/lanternas_de_oleo_refinado",
+      "label": "Lanternas de óleo refinado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "lanternas_de_oleo_refinado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Lanternas de óleo refinado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "lanternas_de_oleo_refinado"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/amuleto_de_aprendiz",
+      "label": "Amuleto de aprendiz",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "amuleto_de_aprendiz"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Amuleto de aprendiz",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "amuleto_de_aprendiz"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "craft_tradition",
+      "excludes": [],
+      "id": "craft_tradition/ceramica_cozida_lentamente",
+      "label": "Cerâmica cozida lentamente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "knowledge",
+        "ceramica_cozida_lentamente"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Cerâmica cozida lentamente",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "exo_items",
+        "theme_key": "ceramica_cozida_lentamente"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

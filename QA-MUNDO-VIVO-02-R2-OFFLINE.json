@@ -1,0 +1,22 @@
+{
+  "title": "MUNDO VIVO 02 — R2 MASSIVE OFFLINE REFERENCE QA",
+  "result": "PASS",
+  "scope": "Independent Python model and textual contracts, NOT Godot physics/runtime",
+  "assertions": 1585084,
+  "failures": 0,
+  "examples": [],
+  "measurements": {
+    "plans": 32000,
+    "territories": 88000,
+    "drop_ids": 183040,
+    "xp_events": 86400,
+    "compaction_scenarios": 6,
+    "respawn_generations": 52800,
+    "spawn_member_checks": 40000,
+    "clock_instants": 15320,
+    "source_contracts": 32
+  },
+  "elapsed_seconds": 1.47,
+  "godot_executed": false,
+  "native_test_status": "NOT_RUN"
+}

@@ -1,0 +1,374 @@
+{
+  "domain": "ref_martial_techniques",
+  "records": [
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_corte_inicial",
+      "label": "Corte Inicial",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.corte_inicial",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_bola_de_gelo",
+      "label": "Bola de Gelo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.bola_de_gelo",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_salto_impetuoso",
+      "label": "Salto Impetuoso",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.salto_impetuoso",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_golpe_circular",
+      "label": "Golpe Circular",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.golpe_circular",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_nova_glacial",
+      "label": "Nova Glacial",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.nova_glacial",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_atracao_arcana",
+      "label": "Atracao Arcana",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.atracao_arcana",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_investida_brutal",
+      "label": "Investida Brutal",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.investida_brutal",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_jato_de_fogo",
+      "label": "Jato de Fogo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.jato_de_fogo",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_barreira_arcana",
+      "label": "Barreira Arcana",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.barreira_arcana",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_cura",
+      "label": "Cura",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.cura",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_cripta_espinhos_1",
+      "label": "Cripta de Espinhos",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.cripta_espinhos_1",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_guardiao_ancestral",
+      "label": "Guardiao Ancestral",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.guardiao_ancestral",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_rajada_de_fogo",
+      "label": "Rajada de Fogo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.rajada_de_fogo",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_rajada_de_vento",
+      "label": "Rajada de Vento",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.rajada_de_vento",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_dardo_arcano",
+      "label": "Dardo Arcano",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.dardo_arcano",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_techniques",
+      "excludes": [],
+      "id": "ref_martial_techniques/ref_exo_martial_technique_onda_de_repulsao",
+      "label": "Onda de Repulsao",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.technique.onda_de_repulsao",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/techniques.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

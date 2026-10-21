@@ -1,0 +1,15 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+ROAD_CORRIDORS {"failures":[],"samples":1845}
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://convergence/tests/qa_work_road_corridors.gd:12)
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:vila_feira_ribeirinha/s02", "monument_conflict:vila_feira_ribeirinha/s03", "river_conflict:vila_feira_ribeirinha/s05"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:100)
+         [2] run (res://convergence/tests/qa_work_road_corridors.gd:12)

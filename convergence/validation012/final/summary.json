@@ -1,0 +1,614 @@
+[
+  {
+    "suite": "tests",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 3.12224060799997,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests.gd"
+    ]
+  },
+  {
+    "suite": "release_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4680162860000223,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://release_qa.gd"
+    ]
+  },
+  {
+    "suite": "discovery_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.5681999529999757,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://discovery_qa.gd"
+    ]
+  },
+  {
+    "suite": "fidelity_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4178229739999892,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://fidelity_qa.gd"
+    ]
+  },
+  {
+    "suite": "consolidation_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.5727230050000003,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://consolidation_qa.gd"
+    ]
+  },
+  {
+    "suite": "ruins_martial_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4680984750000334,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://ruins_martial_qa.gd"
+    ]
+  },
+  {
+    "suite": "stabilization_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4719955959999993,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://stabilization_qa.gd"
+    ]
+  },
+  {
+    "suite": "quality09_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4690906089999771,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://quality09_qa.gd"
+    ]
+  },
+  {
+    "suite": "martial_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.8769361049999702,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://martial_qa.gd"
+    ]
+  },
+  {
+    "suite": "procedural_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.568458248000013,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://procedural_qa.gd"
+    ]
+  },
+  {
+    "suite": "legacy_audio_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.3697546989999978,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://legacy_audio_qa.gd"
+    ]
+  },
+  {
+    "suite": "war_qa",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 3.5797075380000365,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://war_qa.gd"
+    ]
+  },
+  {
+    "suite": "qa093",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.26504242900000463,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa093.gd"
+    ]
+  },
+  {
+    "suite": "qa0932",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.3661443780000013,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0932.gd"
+    ]
+  },
+  {
+    "suite": "qa0933",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.26453493799999706,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0933.gd"
+    ]
+  },
+  {
+    "suite": "qa094",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.26505005000001347,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa094.gd"
+    ]
+  },
+  {
+    "suite": "qa0942",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.2647581950000131,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0942.gd"
+    ]
+  },
+  {
+    "suite": "qa0943",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4196327079999946,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0943.gd"
+    ]
+  },
+  {
+    "suite": "qa0944",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4186195699999757,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0944.gd"
+    ]
+  },
+  {
+    "suite": "qa0945",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.5687983290000034,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0945.gd"
+    ]
+  },
+  {
+    "suite": "qa0946",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4695860940000216,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa0946.gd"
+    ]
+  },
+  {
+    "suite": "living",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.666098207999994,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://living_world/tests/qa_living_world.gd"
+    ]
+  },
+  {
+    "suite": "forja",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4777689109999983,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://qa/run_headless.gd"
+    ]
+  },
+  {
+    "suite": "atlas",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 85.93611460799997,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests/plan_stress.gd"
+    ]
+  },
+  {
+    "suite": "settlements",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 16.581574695000086,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests/settlement_core.gd",
+      "--",
+      "50"
+    ]
+  },
+  {
+    "suite": "extremes",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 31.60959509500003,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests/settlement_extreme.gd",
+      "--",
+      "10000"
+    ]
+  },
+  {
+    "suite": "surfaces",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 13.74916885999994,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests/physics_surfaces.gd"
+    ]
+  },
+  {
+    "suite": "grades",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.46495148199994674,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://tests/settlement_grades.gd"
+    ]
+  },
+  {
+    "suite": "integration",
+    "status": "FAIL",
+    "exit": 0,
+    "seconds": 77.974451896,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/qa.gd"
+    ]
+  },
+  {
+    "suite": "reopen",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 5.777650305999941,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/reopen.gd"
+    ]
+  },
+  {
+    "suite": "encounter",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 2.971314352000036,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/encounter_qa.gd"
+    ]
+  },
+  {
+    "suite": "pilots",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 92.97986406200005,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/pilot_walk.gd"
+    ]
+  },
+  {
+    "suite": "architecture012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 7.187461009999993,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/architecture_qa.gd"
+    ]
+  },
+  {
+    "suite": "roof012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 7.0824319790000345,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/roof_qa.gd"
+    ]
+  },
+  {
+    "suite": "geometry012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 1.4691682080000419,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/geometry012.gd"
+    ]
+  },
+  {
+    "suite": "materials012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 0.16436668199992255,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/material_qa.gd"
+    ]
+  },
+  {
+    "suite": "routines012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 86.96862305700006,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/routine_qa.gd"
+    ]
+  },
+  {
+    "suite": "routine_reopen012",
+    "status": "PASS",
+    "exit": 0,
+    "seconds": 6.544370987000093,
+    "command": [
+      "/workspace/scratch/0a480188b8b5/runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/0a480188b8b5/project",
+      "--script",
+      "res://convergence/routine_reopen.gd"
+    ]
+  }
+]

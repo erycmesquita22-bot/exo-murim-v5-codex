@@ -1,0 +1,26 @@
+[
+  {
+    "script": "genesis/v4/capture_compare.gd",
+    "case": "captures",
+    "code": 0,
+    "status": "PASS"
+  },
+  {
+    "script": "genesis/v4/benchmark_compare.gd",
+    "case": "benchmark-v4",
+    "code": 0,
+    "status": "PASS"
+  },
+  {
+    "script": "genesis/v4/benchmark_compare.gd",
+    "case": "benchmark-c3",
+    "code": 0,
+    "status": "PASS"
+  },
+  {
+    "script": "playable_validation.gd",
+    "case": "playable",
+    "code": 0,
+    "status": "PASS"
+  }
+]

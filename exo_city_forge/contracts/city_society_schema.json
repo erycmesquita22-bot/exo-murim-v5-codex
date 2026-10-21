@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "city_society_schema",
+  "type": "object",
+  "required": [
+    "families",
+    "situations",
+    "role_weights"
+  ],
+  "properties": {
+    "families": {
+      "type": "array"
+    },
+    "situations": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

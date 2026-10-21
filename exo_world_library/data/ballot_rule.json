@@ -1,0 +1,367 @@
+{
+  "domain": "ballot_rule",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/consenso_unanime",
+      "label": "Consenso unânime",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "consensus"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "every_valid_voter",
+        "decision_method": "consensus",
+        "eligibility": "all_participants",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "objection_reopens_hearing",
+        "vote_security": "object_or_abstain"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/maioria_simples",
+      "label": "Maioria simples",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "delegate_vote"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "more_yes_than_no",
+        "decision_method": "delegate_vote",
+        "eligibility": "present_eligible",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_fail",
+        "vote_security": "abstention_ignored"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/maioria_absoluta",
+      "label": "Maioria absoluta",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "delegate_vote"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "more_than_half_total",
+        "decision_method": "delegate_vote",
+        "eligibility": "all_eligible",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_fail",
+        "vote_security": "abstention_counts_against"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/dois_tercos",
+      "label": "Quórum qualificado de dois terços",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "supermajority"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "two_thirds_yes",
+        "decision_method": "supermajority",
+        "eligibility": "present_eligible",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_fail",
+        "vote_security": "abstention_counts_against"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/voto_de_oficio",
+      "label": "Voto por ofício",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "weighted_delegates"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "weights_persisted",
+        "decision_method": "weighted_delegates",
+        "eligibility": "licensed_guilds",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_fail",
+        "vote_security": "no_proxy_without_mandate"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/voto_de_familia",
+      "label": "Voto das famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "weighted_delegates"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "weights_persisted",
+        "decision_method": "weighted_delegates",
+        "eligibility": "recognized_clans",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_refer_mediator",
+        "vote_security": "delegation_record"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/sorteio_em_empate",
+      "label": "Desempate por sorteio público",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "member_ballot"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "equal_ballots",
+        "decision_method": "member_ballot",
+        "eligibility": "verified_members",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "needs_recorded_seed",
+        "vote_security": "sealed_lots"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/eleicao_dois_turnos",
+      "label": "Eleição em dois turnos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "member_ballot"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "majority_then_runoff",
+        "decision_method": "member_ballot",
+        "eligibility": "verified_members",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_repeat",
+        "vote_security": "no_delegated_proxy"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/voto_secreto",
+      "label": "Voto secreto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "member_ballot"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "plurality",
+        "decision_method": "member_ballot",
+        "eligibility": "verified_members",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "ties_repeat",
+        "vote_security": "protected_ballot"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/peticao_publica",
+      "label": "Petição consultiva",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "open_petition"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "advisory_threshold",
+        "decision_method": "open_petition",
+        "eligibility": "residents",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "official_must_reply",
+        "vote_security": "nonbinding"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/audiencia_probatoria",
+      "label": "Audiência probatória",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "hearing"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "evidence_then_reasoned_verdict",
+        "decision_method": "hearing",
+        "eligibility": "appointed_official",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "no_election",
+        "vote_security": "appeal_permitted"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ballot_rule",
+      "excludes": [],
+      "id": "ballot_rule/comando_formal",
+      "label": "Ordem formal",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "procedure",
+        "command_decision"
+      ],
+      "variables": {
+        "anti_double_vote": "persistent_voter_recognition",
+        "audit": "immutable_ballot_reconciliation_required",
+        "ballots": "host_owned",
+        "counting": "senior_authority_signoff",
+        "decision_method": "command_decision",
+        "eligibility": "appointed_officers",
+        "proxy": "not_assumed",
+        "quorum": "documented_by_host",
+        "tie_rule": "no_election",
+        "vote_security": "service_obligation"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

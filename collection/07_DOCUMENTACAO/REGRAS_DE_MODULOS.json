@@ -1,0 +1,1390 @@
+{
+  "version": 2,
+  "grid_world_units": 4.0,
+  "y_up": true,
+  "coordinate_units": "proportional to metres",
+  "modules": {
+    "penhasco_baixo_reto": {
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "bounds_m": [
+        5.4,
+        2.831,
+        3.419
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "penhasco_alto_reto": {
+      "file": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "bounds_m": [
+        5.4,
+        4.84,
+        3.421
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "penhasco_baixo_musgoso": {
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.glb",
+      "bounds_m": [
+        5.4,
+        2.872,
+        3.448
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "penhasco_canto_interno": {
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "bounds_m": [
+        5.55,
+        4.4,
+        5.678
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "penhasco_canto_externo": {
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_externo.glb",
+      "bounds_m": [
+        5.55,
+        4.4,
+        5.743
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "encosta_escarpada": {
+      "file": "09_TOPOGRAFIA_GLB/encosta_escarpada.glb",
+      "bounds_m": [
+        5.4,
+        3.448,
+        3.326
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "encosta_pedregosa": {
+      "file": "09_TOPOGRAFIA_GLB/encosta_pedregosa.glb",
+      "bounds_m": [
+        5.4,
+        3.438,
+        3.398
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rocha_pilha_grande": {
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_grande.glb",
+      "bounds_m": [
+        4.388,
+        1.607,
+        3.514
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rocha_pilha_baixa": {
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "bounds_m": [
+        3.681,
+        1.555,
+        4.144
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rocha_monolito": {
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito.glb",
+      "bounds_m": [
+        4.431,
+        5.064,
+        3.497
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rocha_monolito_musgo": {
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito_musgo.glb",
+      "bounds_m": [
+        2.8,
+        5.149,
+        3.904
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "pedra_xisto_grupo": {
+      "file": "09_TOPOGRAFIA_GLB/pedra_xisto_grupo.glb",
+      "bounds_m": [
+        3.706,
+        1.5,
+        2.743
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "estrato_pedra_montanha": {
+      "file": "09_TOPOGRAFIA_GLB/estrato_pedra_montanha.glb",
+      "bounds_m": [
+        3.434,
+        1.475,
+        3.767
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "margem_rio_grama": {
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_grama.glb",
+      "bounds_m": [
+        4.1,
+        1.005,
+        2.765
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "margem_rio_pedra": {
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_pedra.glb",
+      "bounds_m": [
+        4.1,
+        1.005,
+        2.765
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "plataforma_rochosa": {
+      "file": "09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "bounds_m": [
+        4.2,
+        0.81,
+        4.2
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "walkable_top_and_blocking_sides",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "patamar_montanha": {
+      "file": "09_TOPOGRAFIA_GLB/patamar_montanha.glb",
+      "bounds_m": [
+        4.2,
+        0.81,
+        4.2
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rampa_escadaria_pedra": {
+      "file": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "bounds_m": [
+        3.4,
+        1.65,
+        3.95
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "entrada_caverna_rochosa": {
+      "file": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "bounds_m": [
+        5.202,
+        4.309,
+        3.254
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_reboco_claro": {
+      "file": "10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_reboco_ocre": {
+      "file": "10_ARQUITETURA_GLB/parede_reboco_ocre.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_madeira_laca": {
+      "file": "10_ARQUITETURA_GLB/parede_madeira_laca.glb",
+      "bounds_m": [
+        4.25,
+        3.32,
+        0.56
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_pedra_templo": {
+      "file": "10_ARQUITETURA_GLB/parede_pedra_templo.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.58
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "painel_janela_lattice": {
+      "file": "10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "painel_porta_livre": {
+      "file": "10_ARQUITETURA_GLB/painel_porta_livre.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "divisoria_papel_janela": {
+      "file": "10_ARQUITETURA_GLB/divisoria_papel_janela.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "fundacao_pedra": {
+      "file": "10_ARQUITETURA_GLB/fundacao_pedra.glb",
+      "bounds_m": [
+        4.1,
+        0.81,
+        4.105
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "base_madeira_templo": {
+      "file": "10_ARQUITETURA_GLB/base_madeira_templo.glb",
+      "bounds_m": [
+        4.1,
+        0.81,
+        4.105
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "pilar_madeira_dourado": {
+      "file": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "bounds_m": [
+        1.0,
+        3.535,
+        1.0
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "coluna_madeira_escura": {
+      "file": "10_ARQUITETURA_GLB/coluna_madeira_escura.glb",
+      "bounds_m": [
+        1.0,
+        3.535,
+        1.0
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "telhado_vermelho_4m": {
+      "file": "10_ARQUITETURA_GLB/telhado_vermelho_4m.glb",
+      "bounds_m": [
+        4.8,
+        1.17,
+        4.75
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "telhado_teal_4m": {
+      "file": "10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "bounds_m": [
+        4.8,
+        1.17,
+        4.75
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "telhado_canto_vermelho": {
+      "file": "10_ARQUITETURA_GLB/telhado_canto_vermelho.glb",
+      "bounds_m": [
+        2.45,
+        1.17,
+        4.75
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "telhado_canto_jade": {
+      "file": "10_ARQUITETURA_GLB/telhado_canto_jade.glb",
+      "bounds_m": [
+        2.45,
+        1.17,
+        4.75
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "cumeeira_vermelha": {
+      "file": "10_ARQUITETURA_GLB/cumeeira_vermelha.glb",
+      "bounds_m": [
+        4.2,
+        0.425,
+        0.4
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "cumeeira_jade": {
+      "file": "10_ARQUITETURA_GLB/cumeeira_jade.glb",
+      "bounds_m": [
+        4.2,
+        0.425,
+        0.4
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "beiral_vermelho": {
+      "file": "10_ARQUITETURA_GLB/beiral_vermelho.glb",
+      "bounds_m": [
+        4.4,
+        0.959,
+        0.955
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "beiral_teal": {
+      "file": "10_ARQUITETURA_GLB/beiral_teal.glb",
+      "bounds_m": [
+        4.4,
+        0.959,
+        0.955
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "visual_overhang_separate_supports",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "porta_madeira_dupla": {
+      "file": "10_ARQUITETURA_GLB/porta_madeira_dupla.glb",
+      "bounds_m": [
+        2.2,
+        3.11,
+        0.3
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "porta_laca_jade": {
+      "file": "10_ARQUITETURA_GLB/porta_laca_jade.glb",
+      "bounds_m": [
+        2.2,
+        3.11,
+        0.3
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "escada_madeira_templo": {
+      "file": "10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "bounds_m": [
+        3.1,
+        1.36,
+        3.14
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "degrau_pedra_cidade": {
+      "file": "10_ARQUITETURA_GLB/degrau_pedra_cidade.glb",
+      "bounds_m": [
+        3.1,
+        1.36,
+        3.14
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "passarela_guarda": {
+      "file": "10_ARQUITETURA_GLB/passarela_guarda.glb",
+      "bounds_m": [
+        2.3,
+        1.525,
+        4.45
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "janela_lattice_quadrada": {
+      "file": "10_ARQUITETURA_GLB/janela_lattice_quadrada.glb",
+      "bounds_m": [
+        2.6,
+        2.4,
+        0.2
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "vila",
+        "cidade"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "muro_ruina_cinza": {
+      "file": "11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "muro_ruina_arenito": {
+      "file": "11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_ruina_destruido": {
+      "file": "11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_ruina_canto": {
+      "file": "11_RUINAS_GLB/parede_ruina_canto.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        2.27
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "parede_ruina_T_juncao": {
+      "file": "11_RUINAS_GLB/parede_ruina_T_juncao.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        2.27
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "corredor_ruina_reto": {
+      "file": "11_RUINAS_GLB/corredor_ruina_reto.glb",
+      "bounds_m": [
+        4.36,
+        2.865,
+        4.17
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "corredor_ruina_T_juncao": {
+      "file": "11_RUINAS_GLB/corredor_ruina_T_juncao.glb",
+      "bounds_m": [
+        4.78,
+        2.865,
+        5.9
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "arco_portal_antigo": {
+      "file": "11_RUINAS_GLB/arco_portal_antigo.glb",
+      "bounds_m": [
+        4.3,
+        3.755,
+        1.16
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "arco_portal_musgo": {
+      "file": "11_RUINAS_GLB/arco_portal_musgo.glb",
+      "bounds_m": [
+        4.3,
+        3.91,
+        1.16
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "portal_ruina_cinza": {
+      "file": "11_RUINAS_GLB/portal_ruina_cinza.glb",
+      "bounds_m": [
+        4.3,
+        3.755,
+        1.16
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "coluna_ruina_inteiro": {
+      "file": "11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "bounds_m": [
+        1.15,
+        3.95,
+        1.1
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "coluna_ruina_musgo": {
+      "file": "11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "bounds_m": [
+        1.15,
+        2.329,
+        1.1
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "pilar_ruina_quebrado": {
+      "file": "11_RUINAS_GLB/pilar_ruina_quebrado.glb",
+      "bounds_m": [
+        1.15,
+        2.905,
+        1.1
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "laje_ruina_inteira": {
+      "file": "11_RUINAS_GLB/laje_ruina_inteira.glb",
+      "bounds_m": [
+        3.96,
+        0.27,
+        3.95
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "walkable_top_and_blocking_sides",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "laje_ruina_partida": {
+      "file": "11_RUINAS_GLB/laje_ruina_partida.glb",
+      "bounds_m": [
+        3.96,
+        0.27,
+        3.95
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "walkable_top_and_blocking_sides",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "escada_ruina_inteira": {
+      "file": "11_RUINAS_GLB/escada_ruina_inteira.glb",
+      "bounds_m": [
+        3.8,
+        2.08,
+        4.23
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "escada_ruina_quebrada": {
+      "file": "11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "bounds_m": [
+        3.8,
+        2.08,
+        4.23
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "altar_ruina_antigo": {
+      "file": "11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "bounds_m": [
+        3.0,
+        2.5,
+        3.0
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "entulho_ruina_grande": {
+      "file": "11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "bounds_m": [
+        3.78,
+        0.594,
+        3.446
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "barricada_ruina_madeira": {
+      "file": "11_RUINAS_GLB/barricada_ruina_madeira.glb",
+      "bounds_m": [
+        2.715,
+        1.818,
+        1.174
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "static_simplified_compound",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "portao_ruina_ferro": {
+      "file": "11_RUINAS_GLB/portao_ruina_ferro.glb",
+      "bounds_m": [
+        3.9,
+        3.805,
+        0.9
+      ],
+      "grid_m": 4.0,
+      "collision_profile": "compound_2_sides_and_lintel",
+      "suggested_biomes": [
+        "ruinas",
+        "masmorra"
+      ],
+      "allow_random_rotation": false,
+      "requires_walkable_foundation": true,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "bambu_alto_folhas": {
+      "file": "12_NATUREZA_GLB/bambu_alto_folhas.glb",
+      "bounds_m": [
+        2.11,
+        3.461,
+        0.38
+      ],
+      "grid_m": 0,
+      "collision_profile": "trunk_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "bambu_grupo_rio": {
+      "file": "12_NATUREZA_GLB/bambu_grupo_rio.glb",
+      "bounds_m": [
+        2.707,
+        4.573,
+        0.939
+      ],
+      "grid_m": 0,
+      "collision_profile": "trunk_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "arvore_alta_sombria": {
+      "file": "12_NATUREZA_GLB/arvore_alta_sombria.glb",
+      "bounds_m": [
+        2.934,
+        6.223,
+        2.488
+      ],
+      "grid_m": 0,
+      "collision_profile": "trunk_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "arvore_baixa_prado": {
+      "file": "12_NATUREZA_GLB/arvore_baixa_prado.glb",
+      "bounds_m": [
+        2.986,
+        4.265,
+        2.703
+      ],
+      "grid_m": 0,
+      "collision_profile": "trunk_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "pinheiro_escarpado": {
+      "file": "12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "bounds_m": [
+        2.7,
+        5.45,
+        2.7
+      ],
+      "grid_m": 0,
+      "collision_profile": "trunk_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    },
+    "rochedo_rio_musgoso": {
+      "file": "12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "bounds_m": [
+        3.147,
+        2.852,
+        3.29
+      ],
+      "grid_m": 0,
+      "collision_profile": "rock_simplified",
+      "suggested_biomes": [
+        "floresta",
+        "montanha",
+        "vale"
+      ],
+      "allow_random_rotation": true,
+      "requires_walkable_foundation": false,
+      "has_functional_collider": false,
+      "has_navigation_mesh": false,
+      "has_LOD": false
+    }
+  },
+  "constraints": [
+    "Do not spawn buildings over roads, spawn points, mission markers or cliffs.",
+    "Door and arch openings need compound colliders; do not block the aperture.",
+    "Generate and validate a navmesh from effective colliders before approving a region.",
+    "Persist world seed and static placements independently of reward/item RNG.",
+    "Preload next region before moving player; never expose an unprotected infinite fall at region edges.",
+    "Terrain transition masks require matching shared vertex types on adjacent tiles."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "module_id": "exo_vfx_forge",
+  "version": "1.0.0",
+  "engine": "Godot 4.6.2 Standard / Compatibility",
+  "entrypoint": "res://exo_vfx_forge/module.gd",
+  "status": "CANDIDATE_NOT_INTEGRATED",
+  "authority": "visual_only",
+  "bridge_contract": "exo.vfx.events/1",
+  "requires_trusted_bridge": true,
+  "external_source_code_copied": false,
+  "audio_assets_embedded": false,
+  "gameplay_save_domain": null,
+  "recipe_count": 10,
+  "approval_gates": ["native_godot_import", "bridge_executable", "real_skill_events", "android_performance", "rights_review"]
+}

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://exo_items/tests/laboratorio_itens.gd" id="1"]
+
+[node name="EXOItensLaboratorio" type="Node3D"]
+script = ExtResource("1")

@@ -1,0 +1,331 @@
+{
+  "domain": "world_consequence",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/prestigio_cla",
+      "label": "Prestígio do clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "faction"
+      ],
+      "variables": {
+        "proposal": "reputation_gain",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "faction",
+        "tradeoff": "jealousy_of_rivals",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/confianca_bairro",
+      "label": "Confiança dos moradores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "social"
+      ],
+      "variables": {
+        "proposal": "trust_gain",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "social",
+        "tradeoff": "expectation_of_accountability",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/rota_segura",
+      "label": "Segurança nas rotas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "world"
+      ],
+      "variables": {
+        "proposal": "safer_travel",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "world",
+        "tradeoff": "higher_patrol_cost",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/estoque_mercado",
+      "label": "Estoque e preços",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "economy"
+      ],
+      "variables": {
+        "proposal": "supply_improvement",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "economy",
+        "tradeoff": "merchant_profit_loss",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/rivalidade_marcial",
+      "label": "Rivalidade entre escolas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "martial"
+      ],
+      "variables": {
+        "proposal": "rivalry_increase",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "martial",
+        "tradeoff": "higher_duel_risk",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/disciplina_escola",
+      "label": "Disciplina da escola",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "martial"
+      ],
+      "variables": {
+        "proposal": "discipline_change",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "martial",
+        "tradeoff": "dissatisfied_novices",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/deslocamento",
+      "label": "Deslocamento de famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "population"
+      ],
+      "variables": {
+        "proposal": "migration_pressure",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "population",
+        "tradeoff": "new_relief_demands",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/legitimidade_conselho",
+      "label": "Legitimidade do conselho",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "politics"
+      ],
+      "variables": {
+        "proposal": "legitimacy_change",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "politics",
+        "tradeoff": "new_election_pressure",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/credito_mercantil",
+      "label": "Crédito mercantil",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "economy"
+      ],
+      "variables": {
+        "proposal": "credit_change",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "economy",
+        "tradeoff": "default_risk",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/tregua_local",
+      "label": "Trégua entre facções",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "politics"
+      ],
+      "variables": {
+        "proposal": "treaty_truce",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "politics",
+        "tradeoff": "fragile_trust",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/saude_local",
+      "label": "Saúde e tratamentos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "health"
+      ],
+      "variables": {
+        "proposal": "care_availability",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "health",
+        "tradeoff": "herb_shortage",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "world_consequence",
+      "excludes": [],
+      "id": "world_consequence/tributo_local",
+      "label": "Tributo e tributação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "persistence",
+        "consequence",
+        "economy"
+      ],
+      "variables": {
+        "proposal": "tariff_change",
+        "receipt_needed_for_reward": true,
+        "rollback_owner": "narrative_or_domain_host",
+        "target_owner": "economy",
+        "tradeoff": "uneven_burden",
+        "world_state_mutation": "PROHIBITED_IN_LIBRARY"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

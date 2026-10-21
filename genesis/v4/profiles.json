@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "generator_version": 4,
+  "biomes": {
+    "grassland": {
+      "forms": [
+        "colinas_onduladas",
+        "prado_escarpado",
+        "vale_suave"
+      ],
+      "relief": 7,
+      "trees": 95,
+      "cluster_cut": -0.28,
+      "blend_m": 80
+    },
+    "temperate_forest": {
+      "forms": [
+        "bosque_de_encosta",
+        "mata_em_ilhas",
+        "clareiras_do_vale"
+      ],
+      "relief": 10,
+      "trees": 180,
+      "cluster_cut": -0.12,
+      "blend_m": 80
+    },
+    "bamboo_forest": {
+      "forms": [
+        "bambuzal_serpente",
+        "bambu_em_terracos",
+        "vale_dos_bambus"
+      ],
+      "relief": 9,
+      "trees": 190,
+      "cluster_cut": -0.1,
+      "blend_m": 80
+    },
+    "dry_valley": {
+      "forms": [
+        "canion_suave",
+        "colinas_ocres",
+        "vale_pedregoso"
+      ],
+      "relief": 12,
+      "trees": 65,
+      "cluster_cut": -0.45,
+      "blend_m": 80
+    },
+    "wetland": {
+      "forms": [
+        "baixios",
+        "ilhas_de_vegetacao",
+        "varzea"
+      ],
+      "relief": 5,
+      "trees": 110,
+      "cluster_cut": -0.25,
+      "blend_m": 80
+    },
+    "rocky_highlands": {
+      "forms": [
+        "cristas_partidas",
+        "serras_cruzadas",
+        "escarpas_antigas"
+      ],
+      "relief": 36,
+      "trees": 95,
+      "cluster_cut": -0.3,
+      "blend_m": 80
+    },
+    "alpine": {
+      "forms": [
+        "picos_longos",
+        "cordilheira_dupla",
+        "vale_alpino"
+      ],
+      "relief": 54,
+      "trees": 100,
+      "cluster_cut": -0.28,
+      "blend_m": 80
+    },
+    "mixed_woodland": {
+      "forms": [
+        "bosques_mosaico",
+        "colinas_folhosas",
+        "vale_de_copas"
+      ],
+      "relief": 10,
+      "trees": 175,
+      "cluster_cut": -0.1,
+      "blend_m": 80
+    }
+  },
+  "landmarks": [
+    {
+      "id": "waystone",
+      "title": "Marco dos viajantes",
+      "description": "Marcas antigas indicam a direção da estrada. O caminho segue até a passagem regional."
+    },
+    {
+      "id": "lookout",
+      "title": "Mirante da trilha",
+      "description": "Um pequeno pouso para observar o vale e planejar a próxima passagem."
+    },
+    {
+      "id": "trail_shrine",
+      "title": "Oratório da estrada",
+      "description": "Pedras empilhadas guardam os votos dos viajantes. Este local não concede recompensas ou missões."
+    },
+    {
+      "id": "rest_stop",
+      "title": "Pouso de passagem",
+      "description": "Um abrigo aberto à beira da trilha. Viaje preparado: as ruínas e os povoados seguem adiante."
+    }
+  ]
+}

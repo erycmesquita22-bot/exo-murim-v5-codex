@@ -1,0 +1,406 @@
+{
+  "domain": "npc_background",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_01",
+      "label": "Discípulo expulso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "discípulo expulso"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_02",
+      "label": "Filho de mercador",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "filho de mercador"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_03",
+      "label": "Órfão da estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "órfão da estrada"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_04",
+      "label": "Curandeiro itinerante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "curandeiro itinerante"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_05",
+      "label": "Ex-soldado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "ex-soldado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_06",
+      "label": "Guarda aposentado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "guarda aposentado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_07",
+      "label": "Aprendiz de ferreiro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "aprendiz de ferreiro"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_08",
+      "label": "Estudioso de pergaminhos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "estudioso de pergaminhos"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_09",
+      "label": "Peregrino das montanhas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "peregrino das montanhas"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_10",
+      "label": "Sobrevivente de conflito",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "sobrevivente de conflito"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_11",
+      "label": "Mensageiro de clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "mensageiro de clã"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_12",
+      "label": "Antigo morador de ruínas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "antigo morador de ruínas"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_13",
+      "label": "Agricultor refugiado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "agricultor refugiado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_14",
+      "label": "Herdeiro sem fortuna",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "herdeiro sem fortuna"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_15",
+      "label": "Eremita reservado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "eremita reservado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_16",
+      "label": "Caçador da fronteira",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "caçador da fronteira"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_17",
+      "label": "Marinheiro do rio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "marinheiro do rio"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_18",
+      "label": "Escriba do magistrado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "escriba do magistrado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_19",
+      "label": "Mestre desacreditado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "mestre desacreditado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_background",
+      "excludes": [],
+      "id": "npc_background/bg_20",
+      "label": "Guardiã de santuário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "background",
+        "npc"
+      ],
+      "variables": {
+        "biography_seed": "guardiã de santuário"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "noble_clan_court",
+  "name": "Residência do Clã",
+  "category": "noble",
+  "tags": [
+    "noble",
+    "noble",
+    "clans"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "noble_clan_court/b00",
+      "function": "administration",
+      "local_position": [
+        0,
+        -11
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 6,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "noble_clan_court/b01",
+      "function": "residence",
+      "local_position": [
+        -13,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "noble_clan_court/b02",
+      "function": "residence",
+      "local_position": [
+        13,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "noble_clan_court/st00",
+      "for_building": "noble_clan_court/b00",
+      "role": "guild_agent"
+    },
+    {
+      "id": "noble_clan_court/st01",
+      "for_building": "noble_clan_court/b01",
+      "role": "resident"
+    },
+    {
+      "id": "noble_clan_court/st02",
+      "for_building": "noble_clan_court/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "noble",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "noble",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

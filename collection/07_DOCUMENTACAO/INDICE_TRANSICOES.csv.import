@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b0fhiyj7kqejl"
+
+[deps]
+
+files=["res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.material.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.caminho.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.variantes.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.MSC4.translation"]
+
+source_file="res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.csv"
+dest_files=["res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.material.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.caminho.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.variantes.translation", "res://collection/07_DOCUMENTACAO/INDICE_TRANSICOES.MSC4.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,29 @@
+{
+  "id": "administrative_trade_city",
+  "weights": {
+    "residential": 21,
+    "commercial": 26,
+    "martial": 7,
+    "institutional": 25,
+    "mixed": 8,
+    "noble": 7,
+    "artisan": 3,
+    "plaza": 3
+  },
+  "economy": 0.72,
+  "martial_presence": 0.45,
+  "noble_probability": 0.15,
+  "maximum_influential_families": 2,
+  "ordinary_population_min_share": 0.78,
+  "guards_per_100_residents": 4,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.9,
+  "implementation": "parameterized",
+  "allowed_scales": [
+    "city"
+  ]
+}

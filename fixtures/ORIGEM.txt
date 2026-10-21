@@ -1,0 +1,4 @@
+save-091.json foi gravado pela engine executando o projeto 09.1 original,
+com personagem Legado 09.1 e mãos livres ativo. Fixture de migração; não é
+um save usado na jornada normal. SHA-256:
+9c6c8ddcd7039356420fd831c1d2c000026668f9d198e54fb090bacb4bbab71c

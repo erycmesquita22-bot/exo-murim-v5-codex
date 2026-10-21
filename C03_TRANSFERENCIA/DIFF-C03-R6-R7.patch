@@ -1,0 +1,1379 @@
+--- R6/C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json
++++ R7/C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json
+@@ -1,47 +1,18 @@
+ {
+-  "build": "C03_ALPHA_R6",
+-  "source": "R5 preserved unchanged except declared diffs",
+-  "systems": {
+-    "EXO Core 01P": {
+-      "state": "PATCH_CODE",
+-      "native": "NOT_RUN"
+-    },
+-    "HUD + Terrain R1 + NPC R2": {
+-      "state": "INHERITED_R5",
+-      "native": "NOT_RUN"
+-    },
+-    "Bestiario fauna + Creature Harmonizacao R5": {
+-      "state": "INHERITED_R5",
+-      "native": "NOT_RUN"
+-    },
+-    "Dungeon Genesis R2": {
+-      "state": "R6_RUNTIME_WIRED",
+-      "limitations": [
+-        "native not executed",
+-        "physics/combat unverified",
+-        "traps visual only",
+-        "specialized boss AI pending"
+-      ]
+-    },
+-    "Itens Procedurais R3": {
+-      "state": "R6_ATOMIC_MATERIAL_ONLY",
+-      "limitations": [
+-        "other items/afixos preview only",
+-        "native commit and crash QA pending"
+-      ]
+-    },
+-    "Forja Monumental 04": {
+-      "state": "STAGING",
+-      "native": "NOT_RUN"
+-    },
+-    "Mestres Artes Marciais R2": {
+-      "state": "PARTIAL_API",
+-      "native": "NOT_RUN"
+-    },
+-    "Humanoides 03 R2": {
+-      "state": "STAGING",
+-      "native": "NOT_RUN"
+-    }
++  "version": "C03-ALFA-R7",
++  "source": "C03-ALFA-R6-SHA256_VERIFIED",
++  "module_states": {
++    "Core Persistence 01-P": "PRESERVADO_R6_QA_NATIVO_PENDENTE",
++    "Cidade Viva e NPC02 R2": "PRESERVADOS_R6_QA_NATIVO_PENDENTE",
++    "WorldGenesis monument zoning": "CODIGO_R7_IMPLEMENTADO_MAS_NAO_EXECUTADO",
++    "Forja Monumental 04 builder": "CONEXAO_R7_BUILDER_EM_RUNTIME_NAO_TESTADA",
++    "Institucional interior entry E / exit E": "CODIGO_R7_IMPLEMENTADO_TESTE_NATIVO_PENDENTE",
++    "NPC monumental stations": "EXPOSICAO_SEMANTICA_EXO_CORE_ROTINAS_NAO_HOMOLOGADAS",
++    "Dungeon 02 R2 / Itens R3": "PRESERVADO_R6_RECOMPENSAS_SEM_QA_NATIVO",
++    "Bestiario e Harmonizacao": "PRESERVADOS_R4_R5_QA_NATIVO_PENDENTE",
++    "Mestres e artes marciais": "NAO_ATIVADO_R7",
++    "Humanoides visuais": "NAO_ATIVADO_R7"
+   },
+-  "commercial_assets": "Legacy 480 skins quarantined; commercial provenance requires final human audit"
++  "claimed_native_gameplay_tests_pass": 0,
++  "release_status": "BLOCKED_PENDING_GODOT"
+ }--- R6/C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md
++++ R7/C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md
+@@ -1,27 +1,15 @@
+-# EXO-MURIM — CONTINUAÇÃO DA CONVERGÊNCIA 03, APÓS ALFA R6
++# EXO-MURIM / R7 → R8 / Work
+ 
+-**Base exclusiva:** `EXO-MURIM-CONVERGENCIA-03-ALFA-R6.zip` (SHAs em `C03_TRANSFERENCIA/MANIFESTO-ARQUIVOS-R6.json` e TXT do ZIP). Descompacte em cópia isolada com `project.godot` na raiz; preserve a R5 e saves pessoais. NÃO recomeçar da R1/Cidade Viva e NÃO iniciar Convergência 04.
++**ÚNICA BASE:** `EXO-MURIM-CONVERGENCIA-03-ALFA-R7.zip` produzida neste chat. Confirmar SHA-256 em `EXO-MURIM-C03-ALFA-R7-SHA256.txt` antes de extrair. Nunca recomeçar da R6/Cidade Viva. Não criar Convergência 04.
+ 
+-Leia em ordem: `RELATORIO-C03-ALFA-R6.md`, `ESTADO-INTEGRACAO-C03-R6.json`, `QA-C03-ALFA-R6-MATRIZ.json`, `DIFF-C03-R5-R6.patch`, e documentação R3/R4/R5 preservada na pasta de transferência.
++1. Abrir uma **cópia** do projeto em Godot 4.6.2 Standard/Compatibility. Não modificar ou apagar `user://` dos jogadores. Conferir `C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R7.md`, `QA-C03-ALFA-R7-MATRIZ.json`, `RESERVAS-E-COMPLEXOS-R7.json` e `DIFF-C03-R6-R7.patch`.
++2. `godot --headless --editor --path <raiz> --import --rendering-method gl_compatibility` com log de erro e exit code; corrigir parser/GLB nativos sem trocar scripts por versões anteriores.
++3. `godot --headless --path <raiz> --script res://exo_monumental/tests/qa_c03_r7_native.gd` e `res://exo_monumental/tests/qa_native.gd`. Inspecionar resultados PASS/FAIL, logs físicos e erros de import.
++4. Reexecutar `res://exo_dungeon/tests/qa_c03_r6_native.gd`, `res://exo_core/tests/qa_core_integrations_r3.gd`, `res://exo_items/tests/qa_atomic_r3_native.gd` e as suites City Viva R2; não declarar sucesso sem rodar.
++5. Nova campanha seeds 101, 816204, 707, 18026; testar cidades 78, rios 14/26, centros urbanos e ruínas. Contar e capturar sítios aceitos e rejeitados. Não inventar métricas para seeds não testadas.
++6. Interiores: testar quatro orientações, E para entrar/sair, física da porta, player único, salvamento e reinício dentro e fora, morte, falha de escrita, não persistência de coordenadas interiores como exteriores. Garantir retorno ao mesmo edifício.
++7. Aulas/matrículas e NPCs ainda não estão homologados em monumentos: estação semanticamente publicada não implica rota física funcional. Só integrar ao módulo Mestre com pathfinding e QA.
++8. Bench comparativo na Vega 8 (p50/p95/p99 frametimes, memória, load), reportar equipamento real.
++9. Corrigir bugs no R8 incrementalmente, com novo ZIP integral, hashes, log, QA, diff e rollback pareado. Preservar R7 imutável.
+ 
+-**ATENÇÃO:** R6 não foi executada no motor por ausência de Godot 4.6.2 e DNS. Tratar código novo como hipótese até importação, parser, F5, testes/rollback. Os `PASS` são Python estático/modelos de referência; nenhum `PASS` de gameplay foi emitido.
+-
+-## Procedimento na Godot 4.6.2 Compatibility
+-
+-Em um clone sem os saves do usuário, executar:
+-
+-```sh
+-GODOT=/caminho/Godot_v4.6.2-stable_linux.x86_64
+-ROOT=/caminho/EXO-C03-ALFA-R6-TESTE
+-"$GODOT" --headless --editor --path "$ROOT" --import --rendering-method gl_compatibility > qa-import-r6.log 2>&1
+-"$GODOT" --headless --path "$ROOT" --script res://exo_dungeon/tests/qa_c03_r6_native.gd > qa-dungeon-r6-native.log 2>&1
+-"$GODOT" --headless --path "$ROOT" --script res://exo_dungeon/tests/run_instance_qa.gd > qa-dungeon-instance.log 2>&1
+-"$GODOT" --headless --path "$ROOT" --script res://exo_items/tests/qa_atomic_r3_native.gd > qa-atomic-r3.log 2>&1
+-"$GODOT" --headless --path "$ROOT" --script res://exo_core/tests/qa_core_integrations_r3.gd > qa-core-r3.log 2>&1
+-```
+-
+-Verificar **códigos de saída e logs**, inclusive warnings/errors, não apenas exit code. Depois iniciar F5 e testar Dungeon, interação E, persistência, fauna, HUD, FPS, mapa, NPCs e equipamentos. Corrigir todas as falhas reais e reexecutar regressões.
+-
+-As funções R6 são desativáveis no `project.godot` (`r6/dungeon_encounters_enabled` e `r6/dungeon_atomic_rewards_enabled`). Se parser ou integridade falhar, desligar **as funções experimentais** antes de depurar; preservar código e checkpoints. R6 dá somente materiais ferro, não habilita equipamento procedural premium. Bosses/armadilhas completas e testes crash permanecem pendentes.
+-
+-Entregar R7 ZIP integral, relatório, diff/hash, nativo PASS/FAIL/NOT_RUN, evidência real e lista de bloqueios. Nunca afirmar uma versão pronta para comercialização por testes estáticos.
++**Feature flags:** `[exo_murim] r7/monuments_enabled=true`, `r7/institutional_interiors_enabled=true`. Reservas persistidas não devem ser redistribuídas quando feature flag é desligada.
+--- R6/convergence/game.gd
++++ R7/convergence/game.gd
+@@ -29,6 +29,11 @@
+ var ecology_director: RefCounted
+ var journey_manager: RefCounted
+ const HOME_GATE=Vector3(0,.1,43)
++const INSTITUTIONAL_SCENE=preload("res://exo_monumental/scenes/hall_interior.tscn")
++var institutional_root: Node3D
++var institutional_portal: Dictionary={}
++var institutional_cooldown:float=0.0
++var restoring_region:bool=false
+ func _ready() -> void:
+ 	super._ready()
+ 	npc_director=NPCDirector.new(self)
+@@ -81,7 +86,9 @@
+ 	if not ensure_atlas():return
+ 	var state: Dictionary=extension();var rid: int=int(state.current);var point: Array=state.position.duplicate()
+ 	if rid>=0:
++		restoring_region=true
+ 		var opened: bool=await change_region(rid,"")
++		restoring_region=false
+ 		if not opened or not is_instance_valid(active_region):return
+ 		if point.size()==3:
+ 			var saved:=Vector3(point[0],point[1],point[2])
+@@ -90,10 +97,11 @@
+ 		# Pending dungeon visits always recover to an EXTERIOR raycast+capsule
+ 		# validated anchor before normal exploration; no interior respawn shortcut.
+ 		_recover_dungeon_visit_after_region_load()
++		_restore_institutional_after_region_load()
+ func snapshot_region() -> void:
+ 	# NEVER persist interior coordinates as exterior coordinates. Also do not
+ 	# overwrite a stored checkpoint while current_region is still the legacy boot.
+-	if not convergence_ready or current_region<0 or _dungeon_inside():return
++	if not convergence_ready or current_region<0 or _dungeon_inside() or _institutional_inside():return
+ 	var state: Dictionary=extension()
+ 	state.current=current_region;state.position=[player.position.x,player.position.y,player.position.z]
+ 	for actor in residents:state.actors[actor.identity.id]=actor.snapshot(float(state.clock))
+@@ -115,12 +123,17 @@
+ 	if not get_world_3d().direct_space_state.intersect_shape(probe).is_empty():return Vector3.INF
+ 	return result-region.position
+ func change_region(rid: int,gate_id: String="") -> bool:
+-	if _dungeon_inside():return false
++	if _dungeon_inside() or _institutional_inside():return false
+ 	if changing_region or flow.phase!="adventure" or not ensure_atlas():return false
+ 	if rid<0 or rid>=88:return false
+ 	changing_region=true;simulation_enabled=false
+ 	var started:=Time.get_ticks_usec()
+-	var data:=RegionalData.new(atlas,rid)
++	var monument_storage:Dictionary=extension().get("monumental_r7",{})
++	var pinned:Dictionary=monument_storage.get("regions",{}).get(str(rid),{})
++	if pinned.is_empty() and bool(extension().get("visited",{}).get(str(rid),false)):
++		# Historic campaigns are pinned: never retroactively introduce new monuments.
++		pinned={"mode":"legacy","schema":1,"plans":[],"receipts":[]}
++	var data:=RegionalData.new(atlas,rid,pinned)
+ 	var errors: Array=data.validate()
+ 	if not errors.is_empty():
+ 		generation_failure=str(errors);message("Falha de geração: "+generation_failure);changing_region=false;simulation_enabled=true;return false
+@@ -177,6 +190,12 @@
+ 	# NPC Director updates nearby residents spatially instead of global O(N^2).
+ 	if graphics!=null:graphics.apply()
+ 	var back:=Label3D.new();back.text="PORTAL DE RETORNO • E";back.font_size=28;back.pixel_size=.01;back.billboard=BaseMaterial3D.BILLBOARD_ENABLED;back.position=Vector3(0,data.center_h+2.7,6);active_region.add_child(back)
++	# Pin the accepted zoning result on the same authorized JourneySave write.
++	var mstate:Dictionary=extension().get("monumental_r7",{"schema":1,"regions":{},"active_interior":{}})
++	if not mstate.regions.has(str(rid)):
++		mstate.regions[str(rid)]={"mode":data.monumental_mode if data.monumental_mode!="none" else "legacy","schema":1,
++			"plans":data.monumental_plans.duplicate(true),"receipts":data.monumental_receipts.duplicate(true),"rejections":data.monumental_rejections.duplicate(true)}
++	extension()["monumental_r7"]=mstate
+ 	extension().visited[str(rid)]=true
+ 	if exo_core!=null:
+ 		var dispatched: Dictionary=exo_core.publish("region_entered","travel/region/%02d/"%rid+str(journey.data.exo_core.sequence),{},rid)
+@@ -192,11 +211,11 @@
+ 			return false
+ 	gate_cooldown=1.0;generation_failure="";changing_region=false;simulation_enabled=true
+ 	region_metrics.append({"rid":rid,"seed":str(atlas.seed),"generation_ms":(Time.get_ticks_usec()-started)/1000.0,"scene_ms":candidate.build_ms,"houses":candidate.props.size(),"target":data.settlement_plan.get("target",0),"npcs":residents.size(),"static_memory_bytes":Performance.get_monitor(Performance.MEMORY_STATIC)})
+-	if not save_progress():generation_failure="save_failed";message("Região aberta, mas o salvamento falhou. "+journey.status)
++	if not restoring_region and not save_progress():generation_failure="save_failed";message("Região aberta, mas o salvamento falhou. "+journey.status)
+ 	update_camera();message("Região %02d • %s • %d construções"%[rid,region_title(data.spec),candidate.props.size()])
+ 	return true
+ func return_home() -> void:
+-	if changing_region:return
++	if changing_region or _institutional_inside():return
+ 	snapshot_region()
+ 	if exo_core!=null and current_region>=0:
+ 		exo_core.publish("region_exited","exit/%02d/"%current_region+str(journey.data.exo_core.sequence),{},current_region)
+@@ -213,6 +232,14 @@
+ 	if graphics!=null:graphics.tick(delta)
+ 	if not convergence_ready or flow.phase!="adventure":return
+ 	gate_cooldown=maxf(0,gate_cooldown-delta)
++	institutional_cooldown=maxf(0.0,institutional_cooldown-delta)
++	if _institutional_inside():
++		if player.position.y<institutional_root.position.y-12.0:
++			push_warning("R7 interior fall recovered to authored entrance")
++			var local_entry:Array=institutional_portal.get("interior_entry_local",[0.0,0.4,4.7])
++			player.position=institutional_root.position+Vector3(float(local_entry[0]),float(local_entry[1]),float(local_entry[2]))
++			player.velocity=Vector3.ZERO
++		return
+ 	if _dungeon_inside():
+ 		if exo_core!=null:exo_core.services.invoke("dungeons","tick_active",[delta])
+ 		autosave_time+=delta
+@@ -283,6 +310,12 @@
+ 		super.interact();return
+ 	if get_tree().paused or not player.is_on_floor() or attack_time>=0 or roll_time>=0 or techniques.busy() or interaction_cooldown>0:return
+ 	if gate_cooldown>0:return
++	if _institutional_inside():
++		interaction_cooldown=.5
++		if institutional_cooldown<=0.0:
++			var result:Dictionary=_exit_institutional_interior()
++			if not bool(result.get("ok",false)):message("Saída bloqueada: "+str(result.get("code","unknown")))
++		return
+ 	if current_region<0:
+ 		if player.position.distance_to(HOME_GATE)<4:
+ 			if combat_timer>0:message("Afaste-se do combate antes de viajar.");return
+@@ -293,6 +326,11 @@
+ 		var interaction: Variant=exo_core.services.invoke("dungeons","interact_active") if exo_core!=null else null
+ 		if interaction is Dictionary and bool(interaction.get("ok",false)):
+ 			message("Exploração: "+str(interaction.get("action","ação concluída")))
++		return
++	var institutional:Dictionary=_near_institutional_portal()
++	if not institutional.is_empty():
++		var enter:Dictionary=_enter_institutional_interior(institutional)
++		message("Interior institucional" if bool(enter.get("ok",false)) else "Entrada bloqueada: "+str(enter.get("code","unknown")))
+ 		return
+ 	var dungeon_entrance: Dictionary=_near_dungeon_entrance()
+ 	if not dungeon_entrance.is_empty():
+@@ -338,6 +376,85 @@
+   message("Falha ao iniciar mundo procedural. Não foi realizado retorno automático à vila antiga.")
+ 
+ 
++# Institutional halls use the existing Convergence/EXO JourneySave, never Dungeon authority.
++func _institutional_inside() -> bool:
++ return is_instance_valid(institutional_root)
++
++func _near_institutional_portal() -> Dictionary:
++ if not bool(ProjectSettings.get_setting("exo_murim/r7/institutional_interiors_enabled",true)):return {}
++ if current_region<0 or not is_instance_valid(active_region) or not is_instance_valid(player) or _institutional_inside() or _dungeon_inside():return {}
++ for portal in active_region.monument_portals:
++  var at:Vector3=portal.get("entrance_world",Vector3.INF)
++  if at.is_finite() and player.position.distance_to(at)<3.7:return portal
++ return {}
++
++func _institutional_cleanup() -> void:
++ if is_instance_valid(institutional_root):institutional_root.queue_free()
++ institutional_root=null
++ institutional_portal={}
++
++func _enter_institutional_interior(portal:Dictionary,restoring:bool=false) -> Dictionary:
++ if _institutional_inside() or _dungeon_inside() or current_region<0:return {"ok":false,"code":"another_visit_active"}
++ if int(portal.get("region_id",-1))!=current_region:return {"ok":false,"code":"wrong_region"}
++ var arrival:Vector3=portal.get("entrance_world",Vector3.INF)
++ if not restoring and (not arrival.is_finite() or player.position.distance_to(arrival)>3.7):return {"ok":false,"code":"door_unreachable"}
++ var before_data:Dictionary=journey.data.duplicate(true)
++ var outside:Vector3=player.position
++ snapshot_region()
++ var hall:Node3D=INSTITUTIONAL_SCENE.instantiate()
++ hall.set("interior_id",str(portal.get("interior_id","martial_hall")))
++ hall.set("parent_site_id",str(portal.get("site_id","")))
++ hall.position=Vector3(1080.0,32.0,0.0)
++ add_child(hall)
++ if not is_instance_valid(hall):journey.data=before_data;return {"ok":false,"code":"scene_invalid"}
++ institutional_root=hall
++ institutional_portal=portal.duplicate(true)
++ var local_entry:Array=portal.get("interior_entry_local",[0.0,0.4,4.7])
++ player.position=hall.position+Vector3(float(local_entry[0]),float(local_entry[1]),float(local_entry[2]))
++ player.velocity=Vector3.ZERO
++ institutional_cooldown=0.8
++ var m:Dictionary=extension().get("monumental_r7",{"schema":1,"regions":{},"active_interior":{}})
++ m["active_interior"]={"region_id":current_region,"persistent_id":str(portal.persistent_id),
++  "outside_position":[outside.x,outside.y,outside.z],"interior_position":[player.position.x,player.position.y,player.position.z]}
++ extension()["monumental_r7"]=m
++ if not restoring and not save_progress():
++  _institutional_cleanup();player.position=outside;player.velocity=Vector3.ZERO;journey.data=before_data
++  return {"ok":false,"code":"save_entry_failed"}
++ return {"ok":true,"persistent_id":str(portal.persistent_id)}
++
++func _exit_institutional_interior() -> Dictionary:
++ if not _institutional_inside():return {"ok":false,"code":"no_interior"}
++ var exterior:Vector3=institutional_portal.get("return_world",Vector3.INF)
++ if not exterior.is_finite():return {"ok":false,"code":"no_return"}
++ var safe:Vector3=regional_spawn(active_region,exterior)
++ if not safe.is_finite():return {"ok":false,"code":"return_collision"}
++ var before_data:Dictionary=journey.data.duplicate(true)
++ var before_position:Vector3=player.position
++ var m:Dictionary=extension().get("monumental_r7",{})
++ m["active_interior"]={}
++ extension()["monumental_r7"]=m
++ # Exterior checkpoint is staged explicitly because _institutional_inside keeps
++ # normal snapshot_region() from copying arbitrary interior coordinates.
++ extension()["position"]=[safe.x,safe.y,safe.z]
++ if not save_progress():
++  journey.data=before_data;player.position=before_position
++  return {"ok":false,"code":"save_return_failed"}
++ _institutional_cleanup()
++ player.position=safe;player.velocity=Vector3.ZERO
++ institutional_cooldown=0.8
++ return {"ok":true}
++
++func _restore_institutional_after_region_load() -> void:
++ var m:Dictionary=extension().get("monumental_r7",{})
++ var visit:Dictionary=m.get("active_interior",{})
++ if visit.is_empty() or int(visit.get("region_id",-1))!=current_region:return
++ for portal in active_region.monument_portals:
++  if str(portal.get("persistent_id",""))==str(visit.get("persistent_id","")):
++   var outcome:Dictionary=_enter_institutional_interior(portal,true)
++   if bool(outcome.get("ok",false)):return
++   break
++ push_error("R7 institutional recovery refused: portal absent, exterior saved checkpoint retained")
++
+ # Convergência 03 — WorldGen-to-Dungeon host, no secondary map/save/inventory.
+ func _dungeon_inside() -> bool:
+  if exo_core==null or not exo_core.ready or not exo_core.services.has_service("dungeons"):return false
+@@ -380,6 +497,8 @@
+ 		if spec.kind=="settlement" and spec.settlement_scale=="village":return int(spec.id)
+ 	return 0
+ func interaction_hint() -> String:
++	if _institutional_inside():return "E • Sair do interior"
++	if not _near_institutional_portal().is_empty():return "E • Entrar no edifício"
+ 	if _dungeon_inside():
+ 		var hint: Variant=exo_core.services.invoke("dungeons","interaction_hint")
+ 		return str(hint) if hint!=null else "Explore o interior"
+@@ -400,6 +519,11 @@
+ 	if current_region>=0:return active_region.data.spec.kind=="settlement"
+ 	return super.is_safe(point)
+ func new_journey() -> void:
++	if _institutional_inside():
++		var outside:Variant=extension().get("position",[])
++		if outside is Array and outside.size()==3:
++			player.position=Vector3(float(outside[0]),float(outside[1]),float(outside[2]))
++		_institutional_cleanup()
+ 	if current_region>=0:return_home()
+ 	atlas.clear();super.new_journey()
+ 	if journey_manager!=null:journey_manager.state()
+@@ -408,6 +532,11 @@
+ # exterior; the combat module remains owner of HP/death/pause and the Core
+ # remains owner of checkpoint persistence.
+ func on_fatal_dungeon_damage() -> void:
++ if _institutional_inside():
++  var result_inside:Dictionary=_exit_institutional_interior()
++  if not bool(result_inside.get("ok",false)):
++   push_error("R7 institutional death recovery blocked: "+str(result_inside))
++  return
+  if not _dungeon_inside():return
+  var result: Variant=exo_core.services.invoke("dungeons","interrupt_active_visit",["death"])
+  if result!=true:push_error("C03 R6: death checkpoint failed; pending recovery must remain")
+--- R6/convergence/region.gd
++++ R7/convergence/region.gd
+@@ -7,6 +7,10 @@
+ var blueprints: Array=[]
+ var build_errors: Array=[]
+ var assigned_slots: Array=[]
++var monument_roots: Array=[]
++var monument_portals: Array=[]
++var monument_stations: Array=[]
++var monument_build_summary: Array=[]
+ var urban_enabled := true # apresentação somente; desligar não altera saves nem as regiões
+ func integrate_perimeter() -> Dictionary:
+ 	var report: Dictionary=preload("res://exo_core/adapters_architecture.gd").apply(self)
+@@ -21,7 +25,7 @@
+ var route_points: Dictionary={}
+ func build_lots() -> void:
+ 	if data.spec.kind!="settlement":
+-		super.build_lots();return
++		super.build_lots();_build_monuments();return
+ 	if data.settlement_plan.get("status")!="ready":
+ 		build_errors.append("genesis_plan_invalid");return
+ 	for lot in data.lots:
+@@ -52,6 +56,7 @@
+ 		var job: String={"farmstead":"farmer","market":"merchant","inn":"merchant","smithy":"resident","herbalist":"healer","administration":"guild_agent","martial_school":"disciple","shrine":"master","warehouse":"courier"}.get(lot.function,"resident")
+ 		assigned_slots.append({"id":lot.id,"role":job,"work_slot":lot.id,"home_slot":lot.id})
+ 	if props.size()!=int(data.settlement_plan.target):build_errors.append("COUNT_MISMATCH:%d/%d"%[props.size(),int(data.settlement_plan.target)])
++	_build_monuments()
+ 
+ func prepare_population() -> void:
+ 	if data.spec.kind!="settlement":return
+@@ -107,3 +112,34 @@
+ 			else:path.push_front(stations[a]);path.append(stations[b])
+ 			result[a+">"+b]=path
+ 	return result
++
++# WorldGenesis has already issued an actual reservation receipt before this code runs.
++# No proposed plan or QA_LAB_ONLY may materialize in the real game.
++func _build_monuments() -> void:
++ if not bool(ProjectSettings.get_setting("exo_murim/r7/monuments_enabled",true)):return
++ var Builder=preload("res://exo_monumental/runtime/builder.gd")
++ var Bridge=preload("res://exo_monumental/integration/interior_bridge.gd")
++ var Spatial=preload("res://exo_monumental/integration/exo_adapter.gd")
++ for index in range(data.monumental_plans.size()):
++  var plan:Dictionary=data.monumental_plans[index]
++  if index>=data.monumental_receipts.size():build_errors.append("r7_reservation_missing:"+str(plan.get("id","")));continue
++  var receipt:Dictionary=data.monumental_receipts[index]
++  if str(receipt.get("authority",""))!="WorldGenesis" or not Builder.validate_receipt(plan,receipt):
++   build_errors.append("r7_reservation_unverified:"+str(plan.get("id","")));continue
++  var result:Dictionary=Builder.build(self,plan,receipt)
++  if not bool(result.get("ok",false)):
++   build_errors.append("r7_monument_build_failed:"+str(result.get("code","unknown")));continue
++  var root:Node3D=result.node
++  monument_roots.append(root)
++  monument_build_summary.append({"site_id":str(plan.id),"kind":str(plan.kind),"instances":int(result.instances),"stations":int(result.semantic_stations),"receipt_id":str(receipt.reservation_id)})
++  var transitions:Dictionary=Bridge.from_plan(plan)
++  if not bool(transitions.get("ok",false)):
++   build_errors.append("r7_interior_portals:"+str(transitions.get("code","invalid")));continue
++  for portal in transitions.portals:
++   portal["region_id"]=int(data.spec.id)
++   portal["site_id"]=str(plan.id)
++   monument_portals.append(portal)
++  for anchor in root.find_children("*","Marker3D",true,false):
++   if not anchor.is_in_group("exo_monument_gameplay_station"):continue
++   monument_stations.append({"site_id":str(plan.id),"station_id":str(anchor.get_meta("station_id","")),"kind":str(anchor.get_meta("station_kind","")),
++     "capacity":int(anchor.get_meta("capacity",1)),"world_position":anchor.global_position})
+--- R6/exo_core/integrations/monumental_plans.gd
++++ R7/exo_core/integrations/monumental_plans.gd
+@@ -1,12 +1,24 @@
+ extends RefCounted
++## Core read-only service. WorldGenesis remains the only reservation/placement owner.
+ const Planner=preload("res://exo_monumental/generation/planner.gd")
+-var context: RefCounted
+-func initialize(core: RefCounted) -> bool:
++var context:RefCounted
++func initialize(core:RefCounted)->bool:
+  context=core
+- return core.services.register_service("monuments.plans","monumental_plans",self,["footprint","status"],"1.0.0")
+-func footprint(kind: String,yaw_quadrants: int=0) -> Dictionary:
++ return core.services.register_service("monuments.plans","monumental_plans",self,["footprint","status","regional_receipts","available_stations"],"1.1.0")
++func footprint(kind:String,yaw_quadrants:int=0)->Dictionary:
+  return Planner.footprint(kind,yaw_quadrants)
+-func status() -> Dictionary:
+- return {"registered":true,"construction_authorized":false,"reservation_host":"WORLDGEN_NOT_BOUND","safe_for_gameplay":false}
+-func shutdown() -> void:
++func status()->Dictionary:
++ var active:bool=context!=null and context.world!=null and is_instance_valid(context.world.active_region)
++ var can_build:bool=bool(ProjectSettings.get_setting("exo_murim/r7/monuments_enabled",true))
++ return {"registered":true,"worldgen_owner":"WorldGenesis","reservation_host":"WorldGenesis/RegionalData R7",
++  "construction_authorized":can_build,"currently_loaded":active,"native_qa_approved":false,
++  "approved_only_after_verified_receipt":true,"safe_for_commercial_release":false}
++func regional_receipts(region_id:int)->Dictionary:
++ if context==null or context.world==null or region_id<0 or region_id>=88:return {}
++ var extension:Dictionary=context.world.extension().get("monumental_r7",{})
++ return extension.get("regions",{}).get(str(region_id),{}).duplicate(true)
++func available_stations()->Array:
++ if context==null or context.world==null or not is_instance_valid(context.world.active_region):return []
++ return context.world.active_region.monument_stations.duplicate(true)
++func shutdown()->void:
+  context=null
+--- R6/exo_monumental/integration/interior_bridge.gd
++++ R7/exo_monumental/integration/interior_bridge.gd
+@@ -15,17 +15,21 @@
+ 		if kind not in SUPPORTED: return {"ok":false,"code":"interior_id_unhandled"}
+ 		var front: float = 9.2 if kind in ["grand_hall", "fortress_command"] else (6.7 if kind == "temple_sanctum" else 6.4)
+ 		var facing: int = int(item.get("yaw", 0))
+-		var v: Array = [float(item["x"]), float(item.get("y", 0.0)) + 0.55, float(item["z"]) + front]
+-		# Forja 04 institutional halls currently face +Z: reject reoriented pieces
+-		# instead of publishing a false door position.
+-		if facing != 0: return {"ok":false,"code":"hall_entrance_orientation_not_supported"}
+-		var v_return: Array = [v[0], v[1], float(v[2]) + 3.5]
++		# Rotate the piece-local door BEFORE applying the complex's world yaw.
++		var dx: float=0.0;var dz: float=front
++		match posmod(facing,4):
++			1:dx=front;dz=0.0
++			2:dx=0.0;dz=-front
++			3:dx=-front;dz=0.0
++		var v: Array=[float(item["x"])+dx,float(item.get("y",0.0))+0.55,float(item["z"])+dz]
++		var direction: Vector2=Vector2(dx,dz).normalized()
++		var v_return: Array=[v[0]+direction.x*3.5,v[1],v[2]+direction.y*3.5]
+ 		portals.append({"interior_id":kind,"scene_path":INTERIOR_SCENE,
+ 			"persistent_id":str(plan["id"])+":interior:"+kind,
+ 			"entrance_world":ExteriorAdapter.local_to_world(plan,v),
+ 			"return_world":ExteriorAdapter.local_to_world(plan,v_return),
+ 			"return_requires_ground_snap_and_capsule_check":true,
+ 			"interior_entry_local":[0.0,0.4,7.7 if kind in ["grand_hall", "fortress_command"] else (5.2 if kind == "temple_sanctum" else 4.7)],
+-			"ownership":"Core shared transition service — to be bound"})
++			"ownership":"Convergence R7 host, single JourneySave"})
+ 	return {"ok":true,"site_id":str(plan["id"]),"portals":portals,
+ 		"warning":"Do not call dungeon transition_service.enter() for an institutional hall without a specific host integration"}
+--- R6/genesis/region_data.gd
++++ R7/genesis/region_data.gd
+@@ -2,12 +2,17 @@
+ const REGIONAL_VERSION=6
+ const Planner=preload("res://genesis/world_planner.gd")
+ const Settlement=preload("res://genesis/settlements/settlement_planner.gd")
++const Monuments=preload("res://genesis/monument_reservations_r7.gd")
+ var atlas: Dictionary
+ var spec: Dictionary
+ var gates: Array=[]
+ var access_roads: Array=[]
+ var settlement_roads: Array=[]
+ var settlement_plan: Dictionary={}
++var monumental_plans: Array=[]
++var monumental_receipts: Array=[]
++var monumental_rejections: Array=[]
++var monumental_mode: String="none"
+ var lots: Array=[]
+ var plants: Array=[]
+ var rivers: Array=[]
+@@ -18,7 +23,7 @@
+ var extent: float
+ var base_color: Color
+ const COLORS={"grassland":Color("4b6544"),"temperate_forest":Color("3a5140"),"bamboo_forest":Color("435c3f"),"dry_valley":Color("8a7950"),"wetland":Color("395552"),"rocky_highlands":Color("5b6467"),"alpine":Color("79888d"),"mixed_woodland":Color("515d42")}
+-func _init(w: Dictionary={},rid: int=0) -> void:
++func _init(w: Dictionary={},rid: int=0,pinned_monuments: Dictionary={}) -> void:
+ 	if w.is_empty():return
+ 	atlas=w;spec=w.regions[rid];extent=w.region_extent_m;half=extent*.5
+ 	noise.seed=Planner.seed_mod(spec.region_seed,2147483647);noise.frequency=.012
+@@ -40,10 +45,43 @@
+ 		endpoint[1-axis]=clampf(delta[1-axis]/absf(delta[axis])*100,-148,148)
+ 		var shared_height: float=4+25*(spec.elevation+other.elevation)*.5
+ 		rivers.append({"neighbor":neighbor,"p":endpoint,"height":shared_height,"hub_height":4+25*spec.elevation,"flow":edge.flow,"from":int(edge.from),"to":int(edge.to)})
++	# R7 zoning precedes ordinary small-parcel allocation. Existing campaigns are pinned:
++	# legacy visited regions never gain a new monument silently.
++	if not pinned_monuments.is_empty() or bool(ProjectSettings.get_setting("exo_murim/r7/monuments_enabled",true)):
++		var zoning: Dictionary={}
++		if not pinned_monuments.is_empty():zoning=pinned_monuments.duplicate(true)
++		else:zoning=Monuments.plan_new(self)
++		monumental_mode=str(zoning.get("mode","legacy"))
++		if monumental_mode=="r7":
++			monumental_plans=zoning.get("plans",[]).duplicate(true)
++			monumental_receipts=zoning.get("receipts",[]).duplicate(true)
++			monumental_rejections=zoning.get("rejections",[]).duplicate(true)
+ 	# Settlement Genesis: functional parcels first, no asset instantiation here.
+ 	var rng := RandomNumberGenerator.new();rng.seed=Planner.derive(spec.region_seed,"lots")
+ 	if spec.kind=="settlement":
+-		settlement_plan=Settlement.plan(spec,gates,rivers,half,Callable(self,"height_unpadded"),river_hub)
++		settlement_plan=Settlement.plan(spec,gates,rivers,half,Callable(self,"height_unpadded"),river_hub,monumental_plans.map(func(pl):return pl["bounds"]))
++		if settlement_plan.get("status","")=="invalid" and not monumental_plans.is_empty() and pinned_monuments.is_empty():
++			# Do not sacrifice the historical civic network for an unplaceable monument.
++			monumental_rejections.append({"code":"settlement_plan_rejected_reserved_site"})
++			monumental_plans.clear();monumental_receipts.clear()
++			settlement_plan=Settlement.plan(spec,gates,rivers,half,Callable(self,"height_unpadded"),river_hub)
++		if settlement_plan.get("status","")=="ready" and str(spec.get("settlement_scale",""))=="city" and not monumental_plans.is_empty():
++			lots=settlement_plan.lots
++			var wall_plan:Dictionary=preload("res://fortifications/planner.gd").plan_region(self)
++			lots=[]
++			var wall_collision:=wall_plan.get("status","")!="ready"
++			if not wall_collision:
++				for monument in monumental_plans:
++					for wall in wall_plan.get("segments",[]):
++						if Monuments._segment_crosses(wall.a,wall.b,monument["bounds"],3.0):wall_collision=true;break
++					if wall_collision:break
++			if wall_collision:
++				# A previously frozen map is not silently rerolled: fail closed instead.
++				if not pinned_monuments.is_empty():settlement_plan={"status":"invalid","errors":["pinned_monument_perimeter_conflict"]}
++				else:
++					monumental_rejections.append({"code":"city_perimeter_collision"})
++					monumental_plans.clear();monumental_receipts.clear()
++					settlement_plan=Settlement.plan(spec,gates,rivers,half,Callable(self,"height_unpadded"),river_hub)
+ 		if settlement_plan.status=="ready":
+ 			lots=settlement_plan.lots
+ 			for lot in lots:lot.height=center_h;lot.terraced=true
+@@ -60,6 +98,11 @@
+ 			var p := Vector2(cos(a),sin(a))*(26+floorf(k/12.0)*9)
+ 			var pad_size := 10.0 if spec.kind=="dungeon_approach" else 5.5
+ 			if road_distance(p)<pad_size+12 or river_distance(p)<pad_size+12:continue
++			var protected_site:=false
++			for monument in monumental_plans:
++				var rect:Dictionary=monument["bounds"]
++				if p.x+pad_size>float(rect.min_x) and p.x-pad_size<float(rect.max_x) and p.y+pad_size>float(rect.min_z) and p.y-pad_size<float(rect.max_z):protected_site=true;break
++			if protected_site:continue
+ 			var clear := true
+ 			for lot in lots:
+ 				if p.distance_to(lot.p)<pad_size+lot.halfsize+14:clear=false
+@@ -95,6 +138,10 @@
+ func pad_distance(p: Vector2) -> float:
+ 	var d := INF
+ 	for lot in lots:d=minf(d,p.distance_to(lot.p)-lot.halfsize)
++	for monument in monumental_plans:
++		var rect:Dictionary=monument["bounds"]
++		var q:=Vector2(clampf(p.x,float(rect.min_x),float(rect.max_x)),clampf(p.y,float(rect.min_z),float(rect.max_z)))
++		d=minf(d,p.distance_to(q))
+ 	return d
+ func height_unpadded(p: Vector2) -> float:
+ 	var relief := 4.0
+--- R6/genesis/settlements/settlement_planner.gd
++++ R7/genesis/settlements/settlement_planner.gd
+@@ -58,13 +58,13 @@
+ 		return false
+ 	return _terrain_spread(p, sampler) <= 8.0
+ 
+-static func _reserve_well(forward: Vector2, side: Vector2, gates: Array, rivers: Array, streets: Array, half_extent: float, sampler: Callable, river_hub: Vector2) -> Dictionary:
++static func _reserve_well(forward: Vector2, side: Vector2, gates: Array, rivers: Array, streets: Array, half_extent: float, sampler: Callable, river_hub: Vector2, reservations: Array = []) -> Dictionary:
+ 	# Candidate order is fixed. A failed reservation produces an explicit invalid plan.
+ 	for radius in [28.0, 35.0, 44.0, 54.0, 65.0, 76.0, 88.0]:
+ 		for k in range(16):
+ 			var angle := PI * 0.25 + TAU * float(k) / 16.0
+ 			var p: Vector2 = forward * (radius * cos(angle)) + side * (radius * sin(angle))
+-			if _fixture_valid(p, gates, rivers, streets, half_extent, sampler, river_hub):
++			if _fixture_valid(p, gates, rivers, streets, half_extent, sampler, river_hub) and not _reserved_hit(p, 5.0, reservations):
+ 				var road := _nearest_point(p, streets)
+ 				return {"kind":"well", "p":p, "height":float(sampler.call(p)), "street_point":road["point"], "halfsize":2.5}
+ 	return {}
+@@ -83,7 +83,33 @@
+ static func _add_street(roads: Array, a: Vector2, b: Vector2, width: float, kind: String) -> void:
+ 	roads.append({"a": a, "b": b, "width": width, "kind": kind})
+ 
+-static func plan(spec: Dictionary, gates: Array, rivers: Array, half_extent: float, sampler: Callable, river_hub: Vector2 = Vector2(72,72)) -> Dictionary:
++static func future_streets(spec: Dictionary, gates: Array, rivers: Array) -> Array:
++ if gates.is_empty() or str(spec.get("kind",""))!="settlement":return []
++ var scale: String=str(spec.get("settlement_scale","village"))
++ if scale not in SCALE_COUNTS:return []
++ var forward: Vector2=gates[0]["p"].normalized()
++ var side: Vector2=Vector2(-forward.y,forward.x)
++ var spacing: float=18.0 if scale in ["village","town"] else 22.0
++ var reach: float=145.0 if scale=="city" else (72.0 if scale=="town" else 54.0)
++ var streets: Array=[]
++ _add_street(streets,-forward*reach,forward*reach,7.0,"main")
++ _add_street(streets,-side*reach,side*reach,5.0,"cross")
++ if scale in ["town","city"] or (scale=="village" and (gates.size()>=3 or rivers.size()>=2)):
++  for direction in [-1.0,1.0]:
++   var offset: Vector2=side*spacing*2.0*direction
++   _add_street(streets,offset-forward*reach,offset+forward*reach,4.5,"side_street")
++ if scale=="city":
++  for direction in [-1.0,1.0]:
++   var offset: Vector2=forward*spacing*2.0*direction
++   _add_street(streets,offset-side*reach,offset+side*reach,4.5,"market_street")
++ return streets
++
++static func _reserved_hit(p: Vector2, radius: float, reservations: Array) -> bool:
++ for rect in reservations:
++  if p.x+radius>float(rect.min_x) and p.x-radius<float(rect.max_x) and p.y+radius>float(rect.min_z) and p.y-radius<float(rect.max_z):return true
++ return false
++
++static func plan(spec: Dictionary, gates: Array, rivers: Array, half_extent: float, sampler: Callable, river_hub: Vector2 = Vector2(72,72), monument_reservations: Array = []) -> Dictionary:
+ 	var invalid := {"status": "invalid", "version": VERSION, "errors": [], "lots": [], "streets": [], "fixtures": [], "target": 0}
+ 	if str(spec.get("kind", "")) != "settlement":
+ 		invalid["errors"].append("not_a_settlement")
+@@ -107,19 +133,9 @@
+ 	var gate_buffer: float=8.0 if compact else 12.0
+ 	var spacing := 18.0 if compact else 22.0
+ 	var reach := 145.0 if scale == "city" else 72.0 if scale == "town" else 54.0
+-	var streets: Array = []
+-	_add_street(streets, -forward * reach, forward * reach, 7.0, "main")
+-	_add_street(streets, -side * reach, side * reach, 5.0, "cross")
+-	if scale == "town" or scale == "city" or (scale == "village" and (gates.size() >= 3 or rivers.size() >= 2)):
+-		for direction in [-1.0, 1.0]:
+-			var offset: Vector2 = side * spacing * 2.0 * direction
+-			_add_street(streets, offset - forward * reach, offset + forward * reach, 4.5, "side_street")
+-	if scale == "city":
+-		for direction in [-1.0, 1.0]:
+-			var offset: Vector2 = forward * spacing * 2.0 * direction
+-			_add_street(streets, offset - side * reach, offset + side * reach, 4.5, "market_street")
++	var streets: Array=future_streets(spec,gates,rivers)
+ 	# Reserve critical civic infrastructure before placing residences.
+-	var well: Dictionary = _reserve_well(forward, side, gates, rivers, streets, half_extent, sampler, river_hub)
++	var well: Dictionary = _reserve_well(forward, side, gates, rivers, streets, half_extent, sampler, river_hub, monument_reservations)
+ 	if well.is_empty():
+ 		invalid["errors"].append("no_safe_well_site")
+ 		invalid["streets"] = streets
+@@ -153,6 +169,8 @@
+ 			if lots.size() >= target:
+ 				break
+ 			var p: Vector2 = candidate["p"]
++			if _reserved_hit(p, pad + 4.0, monument_reservations):
++				continue
+ 			if p.length() < (16.0 if compact else 22.0) or absf(p.x) > half_extent - 24 or absf(p.y) > half_extent - 24:
+ 				continue
+ 			if _gate_distance(p, gates) < pad + gate_buffer or _river_distance(p, rivers, river_hub) < pad + 11.0:
+--- R6/project.godot
++++ R7/project.godot
+@@ -1,9 +1,9 @@
+ config_version=5
+ 
+ [application]
+-config/name="EXO-Murim — Convergencia 03 ALFA R6 QA"
++config/name="EXO-Murim — Convergencia 03 ALFA R7 QA"
+ config/use_custom_user_dir=true
+-config/custom_user_dir_name="EXO-Murim-Convergencia-03-ALFA-R6-QA"
++config/custom_user_dir_name="EXO-Murim-Convergencia-03-ALFA-R7-QA"
+ run/main_scene="res://convergence/game.tscn"
+ 
+ [display]
+@@ -24,3 +24,5 @@
+ r5/harmonized_creatures_enabled=true
+ r6/dungeon_encounters_enabled=true
+ r6/dungeon_atomic_rewards_enabled=true
++r7/monuments_enabled=true
++r7/institutional_interiors_enabled=true
+--- R6/C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03-R7.json
++++ R7/C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03-R7.json
+@@ -0,0 +1,18 @@
++{
++  "version": "C03-ALFA-R7",
++  "source": "C03-ALFA-R6-SHA256_VERIFIED",
++  "module_states": {
++    "Core Persistence 01-P": "PRESERVADO_R6_QA_NATIVO_PENDENTE",
++    "Cidade Viva e NPC02 R2": "PRESERVADOS_R6_QA_NATIVO_PENDENTE",
++    "WorldGenesis monument zoning": "CODIGO_R7_IMPLEMENTADO_MAS_NAO_EXECUTADO",
++    "Forja Monumental 04 builder": "CONEXAO_R7_BUILDER_EM_RUNTIME_NAO_TESTADA",
++    "Institucional interior entry E / exit E": "CODIGO_R7_IMPLEMENTADO_TESTE_NATIVO_PENDENTE",
++    "NPC monumental stations": "EXPOSICAO_SEMANTICA_EXO_CORE_ROTINAS_NAO_HOMOLOGADAS",
++    "Dungeon 02 R2 / Itens R3": "PRESERVADO_R6_RECOMPENSAS_SEM_QA_NATIVO",
++    "Bestiario e Harmonizacao": "PRESERVADOS_R4_R5_QA_NATIVO_PENDENTE",
++    "Mestres e artes marciais": "NAO_ATIVADO_R7",
++    "Humanoides visuais": "NAO_ATIVADO_R7"
++  },
++  "claimed_native_gameplay_tests_pass": 0,
++  "release_status": "BLOCKED_PENDING_GODOT"
++}--- R6/C03_TRANSFERENCIA/MANIFESTO-C03-ALFA-R7.json
++++ R7/C03_TRANSFERENCIA/MANIFESTO-C03-ALFA-R7.json
+@@ -0,0 +1,24 @@
++{
++  "version": "ALFA-R7",
++  "base_sha256": "74badc58c82e417aa8b50f3a39fa93959a2c2dea6e4846c44e74a1b78ebf0957",
++  "status": "BLOCKED_PENDING_GODOT",
++  "modified_from_R6": [
++    "convergence/game.gd",
++    "convergence/region.gd",
++    "exo_core/integrations/monumental_plans.gd",
++    "exo_monumental/integration/interior_bridge.gd",
++    "genesis/region_data.gd",
++    "genesis/settlements/settlement_planner.gd",
++    "project.godot"
++  ],
++  "added_since_R6": [
++    "C03_TRANSFERENCIA/QA-C03-ALFA-R7-MATRIZ.json",
++    "C03_TRANSFERENCIA/qa_r7_static.py",
++    "exo_monumental/tests/qa_c03_r7_native.gd",
++    "genesis/monument_reservations_r7.gd"
++  ],
++  "removed_since_R6": [],
++  "layout_families": 11,
++  "semantic_stations": 62,
++  "native_test_status": "NOT_RUN"
++}--- R6/C03_TRANSFERENCIA/QA-C03-ALFA-R7-MATRIZ.json
++++ R7/C03_TRANSFERENCIA/QA-C03-ALFA-R7-MATRIZ.json
+@@ -0,0 +1,328 @@
++{
++  "kind": "SOURCE_ONLY_NOT_GODOT",
++  "tests": [
++    {
++      "id": "R7_EXISTS_monument_reservations_r7",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "genesis/monument_reservations_r7.gd"
++    },
++    {
++      "id": "R7_EXISTS_qa_c03_r7_native",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_monumental/tests/qa_c03_r7_native.gd"
++    },
++    {
++      "id": "R7_EXISTS_project",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "project.godot"
++    },
++    {
++      "id": "R7_EXISTS_game",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "convergence/game.gd"
++    },
++    {
++      "id": "R7_EXISTS_region",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "convergence/region.gd"
++    },
++    {
++      "id": "R7_EXISTS_region_data",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "genesis/region_data.gd"
++    },
++    {
++      "id": "R7_EXISTS_settlement_planner",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "genesis/settlements/settlement_planner.gd"
++    },
++    {
++      "id": "R7_EXISTS_interior_bridge",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_monumental/integration/interior_bridge.gd"
++    },
++    {
++      "id": "R7_EXISTS_monumental_plans",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_core/integrations/monumental_plans.gd"
++    },
++    {
++      "id": "JSON_PROJECT",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "All JSON documents parsed"
++    },
++    {
++      "id": "NO_DELETIONS",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "R6 files 4520"
++    },
++    {
++      "id": "R6_DIFF_SCOPE",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "changed:project.godot,C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md,C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json,convergence/game.gd,convergence/region.gd,genesis/region_data.gd,genesis/settlements/settlement_planner.gd,exo_monumental/integration/interior_bridge.gd,exo_core/integrations/monumental_plans.gd"
++    },
++    {
++      "id": "OWNER_UNCHANGED_exo_dungeon/module/entrypoint.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_dungeon/module/entrypoint.gd"
++    },
++    {
++      "id": "OWNER_UNCHANGED_exo_items/integration/atomic_reward_adapter.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_items/integration/atomic_reward_adapter.gd"
++    },
++    {
++      "id": "OWNER_UNCHANGED_inventory.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "inventory.gd"
++    },
++    {
++      "id": "OWNER_UNCHANGED_exo_core/core.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "exo_core/core.gd"
++    },
++    {
++      "id": "OWNER_UNCHANGED_regional_ecology/director.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "regional_ecology/director.gd"
++    },
++    {
++      "id": "WORLDGEN_FIRST_RESERVATION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "SETTLEMENT_WELL_RESERVATION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "SETTLEMENT_LOT_RESERVATION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "SETTLEMENT_STREET_SINGLE_OWNER",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "REGIONAL_PINNED",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "LEGACY_VISITED_SKIP",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "REGIONAL_FLAG_OPT_OUT",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "ACTUAL_WORLD_RECEIPT",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "FOOTPRINT_STREET_TEST",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "FOOTPRINT_WATER_TEST",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "CITY_PERIMETER_PROTECTION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "ROLLBACK_FAILED_SETTLEMENT",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "NO_EXTRA_ATLAS_GENERATOR",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "BUILDER_EXISTING",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "BUILDER_RECEIPT_VALIDATION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "ROTATION_Q123",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTIONAL_SCENE",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "PORTAL_E_INTERACTION",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTION_SAVE_ENTRY_ROLLBACK",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTION_SAVE_EXIT_ROLLBACK",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTION_NO_EXTERIOR_SNAPSHOT",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTION_RESTORE_FROM_PERSISTENCE",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "INSTITUTION_RECOVERY_NO_OVERWRITE",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "NPC_STATION_CATALOG",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "CORE_READONLY_RESERVATIONS",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "NO_QA_LAB_RECEIPT_IN_GAME",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "NATIVE_QA_INSTRUCTIONS",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "FAMILIES_5",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "ELEVEN_LAYOUTS",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": 11
++    },
++    {
++      "id": "SIXTY_TWO_STATIONS",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": 62
++    },
++    {
++      "id": "AUTHOR_ORIGINAL_builder.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "AUTHOR_ORIGINAL_interior_builder.gd",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "AUTHOR_ORIGINAL_layouts.json",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "AUTHOR_ORIGINAL_site_contracts.json",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": ""
++    },
++    {
++      "id": "NEW_PRELOAD_REFERENCES",
++      "type": "STATIC",
++      "status": "PASS",
++      "evidence": "[]"
++    }
++  ],
++  "pass_count": 52,
++  "fail_count": 0,
++  "native_qa": "NOT_RUN_ENGINE_UNAVAILABLE",
++  "native_required": [
++    "Godot 4.6.2 editor import/parser",
++    "Forja GLB import/meshes/collision",
++    "seed/regional determinism and fortifications 14/26/78",
++    "interior entry/exit/reopen/death",
++    "Dungeon R6 and fauna R5 regression",
++    "Ryzen Vega8 benchmark"
++  ]
++}--- R6/C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R7.md
++++ R7/C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R7.md
+@@ -0,0 +1,48 @@
++# EXO-MURIM — CONVERGÊNCIA 03 ALFA R7 — RELATÓRIO DE ENGENHARIA
++
++**Origem única:** `EXO-MURIM-CONVERGENCIA-03-ALFA-R6.zip`, SHA-256 `74badc58c82e417aa8b50f3a39fa93959a2c2dea6e4846c44e74a1b78ebf0957` — **conferido** antes da alteração. R6 preservada como arquivo independente.
++
++**Estado:** CANDIDATO DE CÓDIGO; NÃO HOMOLOGADO, GODOT 4.6.2 NÃO DISPONÍVEL. Não há logs nativos, screenshots de jogo, métricas de GPU ou FPS. Não concluir que o jogo é executável por testes Python.
++
++## Integração nova efetivamente escrita no código
++
++1. `genesis/monument_reservations_r7.gd`: proprietário WorldGenesis, seleção de locais determinística **antes de qualquer lote comum**, proteção por retângulos reais da Forja, ruas cívicas, estradas radiais de portais, margens fluviais, bordas de região e amostras de relevo. Uma aprovação só é gerada depois que os verificadores autorizam a proposta. Sem sítio compatível: rejeita, não falsifica `approved=true`. Prioridade de famílias: escolas média/grande, templo, fortaleza e ruínas. **Não há garantia de instalar cada família em toda cidade**.
++2. `genesis/settlements/settlement_planner.gd`: reutiliza a geometria oficial de ruas com método único `future_streets` e consulta footprints reservados para o poço e para lotes menores. Sem um plano cívico válido, a implantação nova é descartada e o loteamento oficial R6 é recuperado; campanhas com reserva previamente persistida bloqueiam replanejamento conflitante.
++3. `genesis/region_data.gd`: contrato regional `monumental_r7` opcional e versionado, planejamento pré-lote, verificação adicional contra **segmentos de muralhas urbanas realmente calculados**, exclusão das áreas reservadas de vegetação e parcelas comuns. Regiões já visitadas antes da R7 permanecem legadas sem introdução silenciosa de novas construções. Regiões R7 persistidas mantêm seu layout mesmo com feature flag desabilitada.
++4. `convergence/region.gd`: chama o `Builder.build()` original da Forja 04 **somente com recibo de reserva WorldGenesis**, sem aceitar receipts de laboratório; usa GLBs/colliders/estações do catálogo existente e publica `monument_portals`, `monument_stations` e `monument_build_summary`. Preserva o pipeline urbano/fortificações, mas possível interferência de decoração da Cidade Viva exige F5.
++5. `exo_monumental/integration/interior_bridge.gd`: corrige portas de peças com yaw 0/1/2/3 e a rotação externa do complexo; nenhum marcador arbitrário a 0 graus.
++6. `convergence/game.gd`: interação E com portas institucionais, cena própria `hall_interior.tscn` e `interior_builder.gd`, jogador único, teleporte para interior separado do exterior, retorno verificado por ray/cápsula, registros de visita sob o **JourneySave existente**, rollback de falha de escrita, recuperação em restart e morte. `restore_region` não regrava posição exterior antes de restaurar o interior ativo.
++7. `exo_core/integrations/monumental_plans.gd`: serviço somente leitura `monuments.plans` v1.1.0 dá acesso aos footprints, reservas regionais e estações efetivamente instanciadas pelo WorldGenesis. Não há segundo SaveCoordinator ou propriedade duplicada de WorldGen/NPC.
++8. `project.godot`: namespace de QA R7 e opt-outs `r7/monuments_enabled` / `r7/institutional_interiors_enabled`. Desligar visualização não elimina reservas de saves existentes.
++
++## Observações restritivas
++
++- O **catálogo** possui 11 layouts, 62 estações e 18 GLBs originais, mas a distribuição espacial efetiva nas seeds 101/816204/707/18026 ainda **não foi executada na Godot**. A quantidade de monumentos **materializados e jogados com sucesso é NÃO MEDIDA**, não zero provado. Ver `RESERVAS-E-COMPLEXOS-R7.json`.
++- O Planner exige terreno preexistente adequado e a estratégia rejeita locais que pediriam terraços agressivos. Grandes seitas podem ser recusadas em centros urbanos congestionados; não foi introduzido um falso terreno plano ou contorno que corte ruas.
++- Integração com NPCs publica estações semânticas com ID/posição/capacidade; **escalas reais de trabalho, rotas de patrulha e disciplinado marcial não foram homologadas**. Não teleporta NPCs para posições artificiais.
++- A nova rota de interiores não usa a API Dungeon R6 para casas, não cria outro jogador e mantém um único checkpoint externo. Ainda é necessário validar abertura F5, retorno, recuperação pós-morte e posição da cápsula nas quatro rotações.
++- Entradas monumentais de novas famílias de masmorra e novas rotinas de NPCs não foram impostas à R6. Dungeon física e loot R6 mantêm código idêntico, com QA de transações e física ainda pendente.
++- Asset copyrights e uso comercial continuam com as restrições de R6; nenhuma skin em quarentena foi promovida.
++- A R7 é **integração de código**, não aprovação do requisito visual de caminhar num complexo nem resultado de FPS na Vega 8.
++
++## Testes executados
++
++- Verificação SHA-256 de entrada R6: **PASS**.
++- Bateria nova `C03_TRANSFERENCIA/qa_r7_static.py`: **52 PASS / 0 FAIL**, comparando arquivos com R6, catálogo, referências de `preload`, caminhos de rollback, proprietário do save e proteção de áreas; **não é parser GDScript**.
++- `exo_dungeon/tests/qa_r2_reference.py`: PASS, referência geométrica Python, não Godot.
++- `exo_items/tests/qa_atomic_r3_offline.py`: PASS, modelo de atomicidade Python, não transação Godot.
++- `exo_dungeon/tests/static_audit.py`: 23 PASS com aviso de falta de ZIP histórico Core (ABI externa não testada).
++- **NATIVE NOT_RUN:** Godot editor import, parser GDScript, R3–R6 GDScript, GLBs/colisões, locomoção F5, test runner `qa_c03_r7_native.gd`, 23 suítes Cidade Viva, testes de interior E/restart/morte, hardware/fps/memória Vega8, captura real. Nenhum desses pode ser divulgado como PASS.
++
++## Bloqueios antes de chamar R7 de jogável
++
++1. Importar Godot 4.6.2 Compatibility e corrigir todo erro real de script/shader. Antes, não é possível atestar instanciamento dos GLBs da Forja.
++2. Medir, nas seeds 101/816204/707/18026, quantos sítios foram de fato aceitos, rejeitados e montados; verificar se uma cidade não perdeu densidade, acesso ou passagem fluvial; inspecionar região 78 e rios 14/26.
++3. Fazer dois percursos E→salão→E→exterior, salvar dentro, reiniciar, morrer e testar falha injetada de gravação. Validar ambos os yaw rotacionados e cápsula física.
++4. Confirmar acessibilidade dos portais a partir das ruas com navegação real, assim como colisões das fachadas e ornamentação da Cidade Viva. A checagem estática geométrica não é pathfinding de personagem.
++5. Encaixar a disponibilidade das 62 estações nas rotinas efetivas de NPCs, sem usurpar o domínio das atividades; integrar Mestres R2 depois que a navegação física estiver provada.
++6. Reexecutar testes nativos e adversos de Dungeon R6/Itens R3 e fauna R5. Medir performance em Ryzen 3200GE/Vega 8.
++
++## Continuidade recomendada
++
++R8 deve partir **deste ZIP R7**, jamais de R6 ou Cidade Viva como nova base; executar primeiro parser/QA nativo e corrigir rotas físicas e persistência. Após estabilidade, completar NPC station routing e fluxo de discipulado. Preservar todos os recursos herdados até auditoria de dependência/proveniência.
+--- R6/C03_TRANSFERENCIA/RESERVAS-E-COMPLEXOS-R7.json
++++ R7/C03_TRANSFERENCIA/RESERVAS-E-COMPLEXOS-R7.json
+@@ -0,0 +1,52 @@
++{
++  "candidate": "Convergencia 03 Alfa R7",
++  "status": "CODE_CANDIDATE_NOT_GODOT_VERIFIED",
++  "source_r6_sha256": "74badc58c82e417aa8b50f3a39fa93959a2c2dea6e4846c44e74a1b78ebf0957",
++  "scope": "WorldGenesis reserve->Forja Builder->institutional hall host",
++  "source_layout_families": [
++    "martial_medium",
++    "martial_grand",
++    "temple_monumental",
++    "fortress",
++    "ancestral_ruins",
++    "dungeon_school_ruin",
++    "dungeon_cavern",
++    "dungeon_tomb",
++    "dungeon_fortress",
++    "dungeon_hidden_temple",
++    "dungeon_abyss"
++  ],
++  "catalog_layout_count": 11,
++  "catalog_station_count": 62,
++  "target_seeds": [
++    101,
++    816204,
++    707,
++    18026
++  ],
++  "target_regions": [
++    78,
++    14,
++    26
++  ],
++  "site_acceptance_by_seed": "NOT_RUN_NATIVE",
++  "sites_materialized_in_game": "NOT_RUN_NATIVE",
++  "terrain_reservation": {
++    "prior_to_small_lots": "CODE_PRESENT_NOT_NATIVE_VERIFIED",
++    "roads": "CODE_PRESENT",
++    "rivers": "CODE_PRESENT",
++    "fortification_wall_segment_postcheck": "CODE_PRESENT",
++    "original_save_pin": "CODE_PRESENT"
++  },
++  "portals": {
++    "orientation": [
++      0,
++      1,
++      2,
++      3
++    ],
++    "verification": "STATIC_ONLY"
++  },
++  "npc_work_routines": "INCOMPLETE",
++  "performance": "NOT_RUN_HARDWARE"
++}--- R6/C03_TRANSFERENCIA/qa_r7_static.py
++++ R7/C03_TRANSFERENCIA/qa_r7_static.py
+@@ -0,0 +1,85 @@
++#!/usr/bin/env python3
++"""R7 source-only QA. DOES NOT parse Godot / execute game scenes."""
++from pathlib import Path
++import json, re, hashlib, sys
++root=Path(__file__).resolve().parent.parent
++baseline=Path('/mnt/data/C03_ALFA_R6_WORK')
++checks=[]
++def check(name,result,detail=''):
++ checks.append({'id':name,'type':'STATIC','status':'PASS' if result else 'FAIL','evidence':detail})
++
++def source(path):return (root/path).read_text(encoding='utf-8')
++new=['genesis/monument_reservations_r7.gd','exo_monumental/tests/qa_c03_r7_native.gd']
++mod=['project.godot','convergence/game.gd','convergence/region.gd','genesis/region_data.gd','genesis/settlements/settlement_planner.gd','exo_monumental/integration/interior_bridge.gd','exo_core/integrations/monumental_plans.gd']
++for path in new+mod:
++ check('R7_EXISTS_'+Path(path).stem,(root/path).is_file(),path)
++for file in root.rglob('*.json'):
++ try:json.loads(file.read_text(encoding='utf-8'))
++ except Exception as ex:check('JSON_'+str(file.relative_to(root)),False,str(ex))
++else:check('JSON_PROJECT',True,'All JSON documents parsed')
++if baseline.is_dir():
++ src={str(x.relative_to(baseline)):hashlib.sha256(x.read_bytes()).hexdigest() for x in baseline.rglob('*') if x.is_file()}
++ dst={str(x.relative_to(root)):hashlib.sha256(x.read_bytes()).hexdigest() for x in root.rglob('*') if x.is_file()}
++ for path in src:
++  if path not in dst:check('NO_DELETE_'+path,False)
++ check('NO_DELETIONS',set(src)<=set(dst),f'R6 files {len(src)}')
++ permitted=set(mod)|set(new)|{'C03_TRANSFERENCIA/qa_r7_static.py','C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md','C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json'}
++ changed=[path for path in src if path in dst and src[path]!=dst[path]]
++ check('R6_DIFF_SCOPE',set(changed)<=permitted,'changed:'+','.join(changed))
++ for path in ['exo_dungeon/module/entrypoint.gd','exo_items/integration/atomic_reward_adapter.gd','inventory.gd','exo_core/core.gd','regional_ecology/director.gd','exo_creatures/visuals/visual_catalog.gd']:
++  if path in src:check('OWNER_UNCHANGED_'+path,src[path]==dst.get(path),path)
++ monfile=source('genesis/monument_reservations_r7.gd')
++ reg=source('genesis/region_data.gd');setl=source('genesis/settlements/settlement_planner.gd')
++ game=source('convergence/game.gd');scene=source('convergence/region.gd')
++ core=source('exo_core/integrations/monumental_plans.gd');bridge=source('exo_monumental/integration/interior_bridge.gd')
++ checks2={
++ 'WORLDGEN_FIRST_RESERVATION':reg.index('Monuments.plan_new(self)')<reg.index('Settlement.plan(spec,gates,rivers'),
++ 'SETTLEMENT_WELL_RESERVATION':'_reserved_hit(p, 5.0, reservations)' in setl,
++ 'SETTLEMENT_LOT_RESERVATION':'_reserved_hit(p, pad + 4.0, monument_reservations)' in setl,
++ 'SETTLEMENT_STREET_SINGLE_OWNER':'var streets: Array=future_streets' in setl,
++ 'REGIONAL_PINNED':'pinned_monuments' in reg and 'monumental_r7' in game,
++ 'LEGACY_VISITED_SKIP':'"mode":"legacy"' in game,
++ 'REGIONAL_FLAG_OPT_OUT':'exo_murim/r7/monuments_enabled' in reg,
++ 'ACTUAL_WORLD_RECEIPT':'"authority":"WorldGenesis"' in monfile and '"approved":true' in monfile,
++ 'FOOTPRINT_STREET_TEST':'_segment_crosses(street.a,street.b' in monfile,
++ 'FOOTPRINT_WATER_TEST':'_segment_crosses(data.river_hub,river.p' in monfile,
++ 'CITY_PERIMETER_PROTECTION':'Monuments._segment_crosses(wall.a,wall.b' in reg,
++ 'ROLLBACK_FAILED_SETTLEMENT':'settlement_plan_rejected_reserved_site' in reg,
++ 'NO_EXTRA_ATLAS_GENERATOR':'WorldPlanner.plan(' not in monfile,
++ 'BUILDER_EXISTING':'Builder.build(self,plan,receipt)' in scene,
++ 'BUILDER_RECEIPT_VALIDATION':'Builder.validate_receipt(plan,receipt)' in scene,
++ 'ROTATION_Q123':'posmod(facing,4)' in bridge and '\t\t\t3:dx=-front' in bridge,
++ 'INSTITUTIONAL_SCENE':'INSTITUTIONAL_SCENE.instantiate()' in game,
++ 'PORTAL_E_INTERACTION':'_near_institutional_portal()' in game and '_enter_institutional_interior(institutional)' in game,
++ 'INSTITUTION_SAVE_ENTRY_ROLLBACK':'save_entry_failed' in game,
++ 'INSTITUTION_SAVE_EXIT_ROLLBACK':'save_return_failed' in game,
++ 'INSTITUTION_NO_EXTERIOR_SNAPSHOT':'or _institutional_inside():return' in game,
++ 'INSTITUTION_RESTORE_FROM_PERSISTENCE':'_restore_institutional_after_region_load()' in game,
++ 'INSTITUTION_RECOVERY_NO_OVERWRITE':'if not restoring_region and not save_progress()' in game,
++ 'NPC_STATION_CATALOG':'monument_stations.append' in scene and 'available_stations' in core,
++ 'CORE_READONLY_RESERVATIONS':'regional_receipts' in core and 'register_service("monuments.plans"' in core,
++ 'NO_QA_LAB_RECEIPT_IN_GAME':'\"authority\":\"QA_LAB_ONLY\"' not in scene and '\"authority\":\"QA_LAB_ONLY\"' not in monfile,
++ 'NATIVE_QA_INSTRUCTIONS':'for seed in [101,816204,707,18026]:' in source('exo_monumental/tests/qa_c03_r7_native.gd'),
++ 'FAMILIES_5':all(x in monfile for x in ['martial_medium','martial_grand','temple_monumental','fortress','ancestral_ruins']),
++ }
++for k,v in checks2.items():check(k,v)
++layouts=json.loads(source('exo_monumental/catalog/layouts.json'))['layouts']
++check('ELEVEN_LAYOUTS',len(layouts)==11,len(layouts))
++check('SIXTY_TWO_STATIONS',sum(len(item.get('stations',[])) for item in layouts.values())==62,sum(len(item.get('stations',[])) for item in layouts.values()))
++# Baseline assets/art provenance maintained.
++for path in ['exo_monumental/runtime/builder.gd','exo_monumental/runtime/interior_builder.gd','exo_monumental/catalog/layouts.json','exo_monumental/catalog/site_contracts.json']:
++ check('AUTHOR_ORIGINAL_'+Path(path).name,(baseline/path).read_bytes()==(root/path).read_bytes())
++# New preloads must have concrete source files, except built-in classes (not counted here).
++missing=[]
++for path in new+mod:
++ if not path.endswith('.gd'):continue
++ for target in re.findall(r'preload\("res://([^"\n]+)"\)',source(path)):
++  if not (root/target).exists():missing.append(path+' -> '+target)
++check('NEW_PRELOAD_REFERENCES',not missing,str(missing))
++pass_count=sum(x['status']=='PASS' for x in checks);fails=[x for x in checks if x['status']=='FAIL']
++report={'kind':'SOURCE_ONLY_NOT_GODOT','tests':checks,'pass_count':pass_count,'fail_count':len(fails),'native_qa':'NOT_RUN_ENGINE_UNAVAILABLE',
++ 'native_required':['Godot 4.6.2 editor import/parser','Forja GLB import/meshes/collision','seed/regional determinism and fortifications 14/26/78','interior entry/exit/reopen/death','Dungeon R6 and fauna R5 regression','Ryzen Vega8 benchmark']}
++(root/'C03_TRANSFERENCIA'/'QA-C03-ALFA-R7-MATRIZ.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
++print('R7 SOURCE QA',pass_count,'PASS',len(fails),'FAIL')
++for x in fails:print('FAIL',x['id'],x.get('evidence',''))
++sys.exit(1 if fails else 0)
+--- R6/exo_monumental/tests/qa_c03_r7_native.gd
++++ R7/exo_monumental/tests/qa_c03_r7_native.gd
+@@ -0,0 +1,40 @@
++extends SceneTree
++## R7 native QA; must be invoked after Godot Editor --import in Compatibility.
++## A FAIL exits non-zero. No successful claims unless this actually executes.
++const World = preload("res://genesis/world_planner.gd")
++const Data = preload("res://genesis/region_data.gd")
++const Builder = preload("res://exo_monumental/runtime/builder.gd")
++const Portal = preload("res://exo_monumental/integration/interior_bridge.gd")
++var failures:Array=[]
++var attempts:=0
++var placed:=0
++var rejected:=0
++func _initialize() -> void:
++ call_deferred("run_tests")
++func check(ok:bool,code:String) -> void:
++ attempts+=1
++ if not ok:failures.append(code)
++func run_tests() -> void:
++ for seed in [101,816204,707,18026]:
++  var atlas:Dictionary=World.plan(str(seed))
++  check(World.validate(atlas).is_empty(),"atlas_%d"%seed)
++  for rid in [14,26,78]:
++   var d:RefCounted=Data.new(atlas,rid)
++   check(d.validate().is_empty(),"region_%d_%d"%[seed,rid])
++   var second:RefCounted=Data.new(atlas,rid)
++   check(JSON.stringify(d.monumental_plans)==JSON.stringify(second.monumental_plans),"determinism_%d_%d"%[seed,rid])
++   for k in range(d.monumental_plans.size()):
++    var plan:Dictionary=d.monumental_plans[k]
++    var receipt:Dictionary=d.monumental_receipts[k]
++    placed+=1
++    check(Builder.validate_receipt(plan,receipt),"receipt_%d_%d"%[seed,rid])
++    var portal:Dictionary=Portal.from_plan(plan)
++    check(bool(portal.get("ok",false)),"portal_rotation_%d_%d"%[seed,rid])
++   rejected+=d.monumental_rejections.size()
++ # invalid/missing owner receipts must be refused, never treated as approvals.
++ var bad:Dictionary={"ok":true,"id":"x","site_id":"x","bounds":{}}
++ check(not Builder.validate_receipt(bad,{"approved":true,"authority":"WorldGenesis"}),"fake_receipt_rejected")
++ print("R7 NATIVE QA checks=%d placed=%d rejected=%d FAIL=%d"%[attempts,placed,rejected,failures.size()])
++ if not failures.is_empty():
++  for fail in failures:push_error(str(fail))
++ quit(1 if not failures.is_empty() else 0)
+--- R6/genesis/monument_reservations_r7.gd
++++ R7/genesis/monument_reservations_r7.gd
+@@ -0,0 +1,85 @@
++extends RefCounted
++## WorldGenesis owned: deterministic pre-parcel zoning, independent of Builder, saves and UI.
++## A rejected footprint is NEVER marked approved; CityViva remains authoritative for streets/lots.
++const MonumentPlanner = preload("res://exo_monumental/generation/planner.gd")
++const Settlement = preload("res://genesis/settlements/settlement_planner.gd")
++const CONTRACT = 1
++
++static func _point_in(rect: Dictionary, p: Vector2, pad: float = 0.0) -> bool:
++ return p.x >= float(rect.min_x)-pad and p.x <= float(rect.max_x)+pad and p.y >= float(rect.min_z)-pad and p.y <= float(rect.max_z)+pad
++
++static func _segment_crosses(a: Vector2,b: Vector2, rect: Dictionary,pad: float) -> bool:
++ var minx: float=float(rect.min_x)-pad;var maxx:float=float(rect.max_x)+pad
++ var minz: float=float(rect.min_z)-pad;var maxz:float=float(rect.max_z)+pad
++ if _point_in(rect,a,pad) or _point_in(rect,b,pad):return true
++ var vertices: Array=[Vector2(minx,minz),Vector2(maxx,minz),Vector2(maxx,maxz),Vector2(minx,maxz)]
++ for i in range(4):
++  if Geometry2D.segment_intersects_segment(a,b,vertices[i],vertices[(i+1)%4])!=null:return true
++ return false
++
++static func _safety(data: RefCounted, rect: Dictionary, streets: Array) -> Dictionary:
++ var valid_bounds: bool=float(rect.min_x)>-data.half+19 and float(rect.max_x)<data.half-19 and float(rect.min_z)>-data.half+19 and float(rect.max_z)<data.half-19
++ var roads_ok:=true
++ for street in streets:
++  if _segment_crosses(street.a,street.b,rect,float(street.width)*0.5+3.5):roads_ok=false;break
++ var gates_ok:=true
++ for gate in data.gates:
++  if _segment_crosses(Vector2.ZERO,gate.p,rect,float(gate.width)*0.5+13.0):gates_ok=false;break
++ var rivers_ok:=true
++ for river in data.rivers:
++  if _segment_crosses(data.river_hub,river.p,rect,13.0):rivers_ok=false;break
++ return {"valid_bounds":valid_bounds,"roads_clear":roads_ok and gates_ok,"rivers_clear":rivers_ok,
++  "walls_clear":valid_bounds and gates_ok,"navigation_clear":roads_ok and gates_ok,
++  "fluvial_gates_clear":rivers_ok and gates_ok,"dungeon_entrances_clear":gates_ok,
++  "buildings_clear":true,"terrain_clear":true,"approach_clear":roads_ok and gates_ok}
++
++static func plan_new(data: RefCounted) -> Dictionary:
++ var response: Dictionary={"mode":"r7","schema":CONTRACT,"plans":[],"receipts":[],"rejections":[]}
++ var kind: String=str(data.spec.kind)
++ if kind not in ["settlement","ruins"]:return response
++ var scale: String=str(data.spec.get("settlement_scale",""))
++ var families: Array=[]
++ if kind=="ruins":families=["ancestral_ruins"]
++ elif scale=="city":families=["martial_medium","martial_grand","temple_monumental","fortress"]
++ elif scale=="town":families=["martial_medium","temple_monumental"]
++ else:return response
++ var streets: Array=Settlement.future_streets(data.spec,data.gates,data.rivers) if kind=="settlement" else []
++ # Deterministic outskirts, no RNG state shared with lots/NPCs; no flattening.
++ var centres: Array=[Vector2(90,90),Vector2(-90,90),Vector2(90,-90),Vector2(-90,-90),Vector2(105,65),Vector2(-105,-65),Vector2(65,-105),Vector2(-65,105),Vector2(135,110),Vector2(-135,-110),Vector2(0,120),Vector2(120,0)]
++ if kind=="ruins":centres=[Vector2(0,95),Vector2(95,0),Vector2(-95,0),Vector2(0,-95),Vector2(105,105)]
++ for family in families:
++  var result: Dictionary={}
++  var site_id: String="r%02d_%s_v1" % [int(data.spec.id),family]
++  for p in centres:
++   var footprint: Dictionary=MonumentPlanner.footprint(family,0)
++   if not bool(footprint.get("ok",false)):continue
++   for yaw in range(4):
++    footprint=MonumentPlanner.footprint(family,yaw)
++    var w: float=float(footprint.width_m);var d: float=float(footprint.depth_m);var margin:float=float(footprint.margin_m)
++    var rect: Dictionary={"min_x":p.x-w*.5-margin,"max_x":p.x+w*.5+margin,"min_z":p.y-d*.5-margin,"max_z":p.y+d*.5+margin}
++    var flags: Dictionary=_safety(data,rect,streets)
++    if not flags.valid_bounds or not flags.roads_clear or not flags.rivers_clear:continue
++    var origin_h:float=data.height_unpadded(p)
++    var samples: Array=[]
++    for dx in [-w*.5,w*.5]:
++     for dz in [-d*.5,d*.5]:samples.append(data.height_unpadded(p+Vector2(dx,dz)))
++    var request: Dictionary={"site_id":site_id,"world_id":str(data.atlas.seed),"region_id":int(data.spec.id),"kind":family,
++     "origin_world":[p.x,origin_h,p.y],"yaw_quadrants":yaw,"site_width_m":w+margin*2,"site_depth_m":d+margin*2,
++     "terrain_corner_heights":samples,"protected_rects":[]}
++    for flag in MonumentPlanner.SAFETY_KEYS:request[flag]=bool(flags.get(flag,false))
++    result=MonumentPlanner.plan(int(str(data.atlas.seed)),request,[])
++    if bool(result.get("ok",false)):break
++   if bool(result.get("ok",false)):break
++  if not bool(result.get("ok",false)):
++   response.rejections.append({"kind":family,"code":str(result.get("code","no_verified_footprint"))})
++   continue
++  # Reserve and issue receipt ONLY after real WorldGenesis terrain/street/water checks.
++  # One per region avoids wrecking the original urban density/topology.
++  var bounds: Dictionary=result.bounds
++  var token: String="wg7:"+str(result.id).sha256_text().substr(0,24)
++  var receipt: Dictionary={"approved":true,"authority":"WorldGenesis","schema":CONTRACT,
++   "plan_id":str(result.id),"site_id":str(result.site_id),"reservation_id":token,"bounds":bounds.duplicate(true),"region_id":int(data.spec.id)}
++  response.plans.append(result)
++  response.receipts.append(receipt)
++  break
++ return response

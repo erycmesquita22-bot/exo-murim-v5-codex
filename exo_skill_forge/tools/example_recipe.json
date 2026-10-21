@@ -1,0 +1,17 @@
+{
+  "id": "corte_da_estrela",
+  "name": "Corte da Estrela",
+  "template": "line_slash",
+  "style": "exo_martial.style.sword_swift",
+  "school": "exo_martial.school.seita_bambu",
+  "weapon_pose": "blade",
+  "level": 9,
+  "damage": 23,
+  "qi": 18,
+  "stamina": 12,
+  "cooldown": 6.0,
+  "range": 6.0,
+  "radius": 0,
+  "status": "slow",
+  "element": 0
+}

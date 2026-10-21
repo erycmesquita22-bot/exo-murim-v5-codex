@@ -1,0 +1,8 @@
+{
+  "scope": "static JSON, source link, deterministic Python equivalent — not Godot execution",
+  "checks": 6232,
+  "errors": [],
+  "generated_names": 6144,
+  "unique_display_names": 2952,
+  "source_verification": "EXO Mod Java and Godot base inspected separately"
+}

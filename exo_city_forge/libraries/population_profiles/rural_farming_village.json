@@ -1,0 +1,30 @@
+{
+  "id": "rural_farming_village",
+  "weights": {
+    "residential": 48,
+    "mixed": 29,
+    "artisan": 8,
+    "commercial": 6,
+    "martial": 3,
+    "institutional": 3,
+    "plaza": 3,
+    "noble": 0
+  },
+  "economy": 0.4,
+  "martial_presence": 0.35,
+  "noble_probability": 0.003,
+  "maximum_influential_families": 0,
+  "ordinary_population_min_share": 0.93,
+  "guards_per_100_residents": 2,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.7,
+  "implementation": "parameterized",
+  "name": "Aldeia Agricola",
+  "allowed_scales": [
+    "village"
+  ]
+}

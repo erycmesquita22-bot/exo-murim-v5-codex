@@ -1,0 +1,44 @@
+{
+  "module_id": "exo_martial",
+  "version": "1.2.0",
+  "godot": "4.6.2 Standard",
+  "renderer": "Compatibility",
+  "mandatory": {
+    "persistence": "1.0.0",
+    "living_world": "1.0.0",
+    "narrative": "1.0.0"
+  },
+  "optional": {
+    "combat": "1.0.0",
+    "journey": "1.0.0",
+    "inventory": "1.0.0"
+  },
+  "service": "martial",
+  "save_owner": "exo_martial",
+  "save_domain": "exo_martial",
+  "save_schema": 1,
+  "existing_event_consumed": [],
+  "existing_event_published": [],
+  "new_events_proposed_not_registered": [
+    "martial_apprenticeship_offered",
+    "martial_apprenticeship_confirmed",
+    "martial_lesson_completed",
+    "martial_technique_learned"
+  ],
+  "social_authority": "Narrative service; write API proposed only",
+  "identity_authority": "living_world.npcs, exo_core/contracts/entity_contracts.gd",
+  "energy_authority": "techniques.gd mana (user-facing Qi) and stamina",
+  "core_skill_authority": "data/skills.json via catalog.gd; not modified",
+  "persistence": "existing save v4 through save.save_coordinator; no extra file",
+  "combat_activation": "PENDING_CORE_AUTHORITATIVE_UNLOCK: ticket + readback; NEVER directly edits known/learned/loadout",
+  "critical_gates": [
+    "narrative relationship owner-mediated write",
+    "trusted training proof provider",
+    "combat skill unlock via existing slot/loadout APIs",
+    "native Godot validation"
+  ],
+  "save_revision": 2,
+  "native_godot": "NOT_RUN",
+  "trusted_proof_host": "REQUIRED: action marker, resource spend and source event",
+  "rejection_appeal": "new verified mission proof, up to 3 applications"
+}

@@ -1,0 +1,415 @@
+{
+  "domain": "peace_treaty",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/tregua_30_dias",
+      "label": "Trégua de trinta dias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "war"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "mutual_observers",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "ceasefire",
+        "verification_method": "shared_watch"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/ponte_neutra",
+      "label": "Ponte neutra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "bridge"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "shared_maintenance",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "neutral_route",
+        "verification_method": "bridge_access"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/troca_de_refens",
+      "label": "Devolução de reféns",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "hostage"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "independent_witness",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "release",
+        "verification_method": "safe_passage"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/partilha_irrigacao",
+      "label": "Partilha de água",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "river"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "drought_reviews",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "water_shares",
+        "verification_method": "water_rotation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/conselho_mediacao",
+      "label": "Conselho de mediação misto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "families"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "mediation_record",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "joint_council",
+        "verification_method": "equal_seats"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/manual_em_custodia",
+      "label": "Manual em custódia neutra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "heritage"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "dual_seals",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "custody",
+        "verification_method": "neutral_library"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/restituicao_tributo",
+      "label": "Restituição de tributos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "tax"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "payment_schedule",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "repayment",
+        "verification_method": "public_ledger"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/anistia_condicionada",
+      "label": "Anistia condicionada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "revolt"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "restitution",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "amnesty",
+        "verification_method": "truth_hearing"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/passagem_refugiados",
+      "label": "Passagem protegida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "relief"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "family_registry",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "humanitarian_corridor",
+        "verification_method": "neutral_guards"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/tregua_marcial",
+      "label": "Trégua das escolas marciais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "martial"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "sanction_by_elders",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "no_public_duel",
+        "verification_method": "witnessed_oaths"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/armazem_partilhado",
+      "label": "Armazém compartilhado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "food"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "equal_access",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "joint_granary",
+        "verification_method": "joint_inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "peace_treaty",
+      "excludes": [],
+      "id": "peace_treaty/fiscalizacao_neutra",
+      "label": "Fiscalização por escribas neutros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "diplomacy",
+        "peace",
+        "corruption"
+      ],
+      "variables": {
+        "breach_requires_evidence": true,
+        "broken_treaty_is_new_fact": true,
+        "enforcement": "published_result",
+        "no_automatic_host_effects": true,
+        "persist_ratified": true,
+        "renewal_window_days": 30,
+        "signatory_slots": [
+          "party_a",
+          "party_b",
+          "neutral_witness"
+        ],
+        "treaty_clause": "joint_audit",
+        "verification_method": "independent_scribes"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

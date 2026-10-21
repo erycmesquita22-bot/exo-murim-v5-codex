@@ -1,0 +1,28 @@
+{
+  "artifact": "EXO-Fortificacoes-01",
+  "project_base": "Mundo Vivo R3 validated; no production files overwritten",
+  "native_godot_executed": false,
+  "source_files": {
+    "README.md": "f20ce98bff845fa588b771a03eb56248f12d1511d631460d719b000389036244",
+    "fortifications/optional_hook.txt": "e632547a0215f64661d2de1cca0be644754ed067b608eb9d5ff2fe30ded9d84d",
+    "fortifications/qa_native.gd": "ff76cdd465722e1680df49419d3f5a11a959657dd7a15a3b6ca0bd2b9897f33b",
+    "fortifications/planner.gd": "cc8bbd8c4ca92eebfe6554f1ab715644a5a333d96b577cbcbf80fddfd86312bb",
+    "fortifications/adapter.gd": "eeca459730536fac68f6af61b3b4a2916c58fb437ef60bfbad0b7cdea5407e1b",
+    "fortifications/renderer.gd": "7ccf7df9d27abd46755eb9058ae30f16baf3c058f33ebd74514e2081590afaf7",
+    "results/shard_10000_15000.json": "0a4e4b1a2bf83f31e42d10a16a3274916c8c1433f1049ddda4f2ed60f5b5ff71",
+    "results/shard_15000_20000.json": "dbece2b43a32cc35a9192cba1fe60e45623f86077c24f2dcc8575a2127e7cef6",
+    "results/shard_00000_05000.json": "e7c5560e41d8b2a271a8bbebc4f79c75dc1c308eefd8b571d9f8c219e85bc1db",
+    "results/QA-FORTIFICACOES-01-1K.json": "1246bcde30dba563aab68290006ffbafe66b6639ab3bf5289e285215eba5d8f0",
+    "results/extremes-1K.json": "a1cd7a8499f8c2e1e275a31962010b0c4c02719dc1bcce3844503dbdcee3257c",
+    "results/smoke.json": "181ea7655d3992c5026c68687a2a2a026995731886fd2cfa3706c83f8792be0e",
+    "results/shard_05000_10000.json": "c8242f719b819dea259bab990f41f38dfa851d774fec4e1b37c1e8c68a0c4ae9",
+    "results/QA-FORTIFICACOES-01-ADVERSARIAL.json": "4e46731bf8b04c70e87b4bb02f6a198afd12fd74c6b34dcf093d0ca4ff167eed",
+    "results/QA-FORTIFICACOES-01-AGREGADO.json": "c6ecf2a73630f297a27164d756f3269ae4dea7fcf1c699c246ad584011da7499",
+    "results/installer_dryrun.json": "7e514f091123170fbe6c34af2b316ad979c952591226bc74a5903b5a5fe08d6c",
+    "results/installer_apply.log": "1796ec35da66096781da4b55baf71e4df2d8a62797b61071a5deba0a57b8b21f",
+    "tools/stress_fortifications.py": "f0a501f8416f6d11290140a885cb388d05010ed222b615372eb3c76befc5b39c",
+    "tools/apply_to_project.py": "53bccb4e81bf552e4d3db2e52000a1e39523741abfa82842ef83c0a087b81910",
+    "tools/fortification_reference.py": "939f6b9371a7840b92ab4906154f781c42692f98bd5f0d02d5a8f9730c55849a",
+    "tools/adversarial_fortifications.py": "50ec903d20f19f6e85b79909306e3bce7b987b64d7bb64e99d81963a4512083d"
+  }
+}

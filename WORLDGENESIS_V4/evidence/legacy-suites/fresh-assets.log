@@ -1,0 +1,34 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Seleção dos dez componentes utilizados, sem carregar os 74 excedentes
+OK Modelo externo aparece na região: building_1
+OK Modelo externo aparece na região: building_2
+OK Modelo externo aparece na região: shop
+OK Modelo externo aparece na região: well
+OK Modelo externo aparece na região: cart
+OK Modelo externo aparece na região: gong
+OK Modelo externo aparece na região: statue_monk
+OK Roupas combinadas por articulação substituem mais de trinta superfícies
+CHARACTER visible meshes=12 batched originals=40
+OK Reaplicar aparência não acumula malhas visíveis
+OK Clipes de caminhada e corrida importados de arquivo glTF CC0
+OK Caminhada de biblioteca aplicada ao rig do EXO
+OK Clipes produzem poses diferentes durante o ciclo
+OK Corrida utiliza clipe próprio
+OK Sombras dinâmicas desativadas: 0
+OK Resolução nativa preservada no perfil 0
+OK Sombras dinâmicas desativadas: 1
+OK Resolução nativa preservada no perfil 1
+OK Sombras dinâmicas desativadas: 2
+OK Resolução nativa preservada no perfil 2
+OK Edificação entre a câmera e o jogador torna-se translúcida
+OK Edificação recupera opacidade ao liberar a visão
+OK Variação real por evento: punch
+OK Variação real por evento: swing
+OK Variação real por evento: fist_hit
+OK Variação real por evento: blade_hit
+OK Variação real por evento: strong_hit
+OK Antecipação marcial usa gravação CC0 de Kung-Fu Whooshes
+OK Soco usa composição de contato, sem ar antecipado embutido
+OK Interação da Guilda continua acessível com os modelos externos
+ASSETS08: 30 passaram / 0 falharam

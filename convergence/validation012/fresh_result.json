@@ -1,0 +1,10 @@
+{
+  "import": "PASS",
+  "rendered_main_scene": "PASS",
+  "without_godot_cache": true,
+  "main_scene": "res://convergence/game.tscn",
+  "phase": "hero",
+  "exit_import": 0,
+  "exit_boot": 0,
+  "benchmark_quantile_fix_check_only": "PASS"
+}

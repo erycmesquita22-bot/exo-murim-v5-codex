@@ -1,0 +1,454 @@
+{
+  "domain": "climate_phenomenon",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/neblina_no_vale",
+      "label": "Neblina no vale",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "neblina_no_vale"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Neblina no vale",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "neblina_no_vale"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/vento_cortante_da_serra",
+      "label": "Vento cortante da serra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "vento_cortante_da_serra"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vento cortante da serra",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "vento_cortante_da_serra"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/garoa_na_floresta",
+      "label": "Garoa na floresta",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "garoa_na_floresta"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Garoa na floresta",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "garoa_na_floresta"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "temperate_forest",
+          "bamboo_forest"
+        ]
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/chuva_de_moncao",
+      "label": "Chuva de monção",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "chuva_de_moncao",
+        "flood_active"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Chuva de monção",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "chuva_de_moncao"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "dry_valley",
+          "grassland",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/estiagem_prolongada",
+      "label": "Estiagem prolongada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "estiagem_prolongada",
+        "drought_active"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Estiagem prolongada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "estiagem_prolongada"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "alpine",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/frio_de_altitude",
+      "label": "Frio de altitude",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "frio_de_altitude"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Frio de altitude",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "frio_de_altitude"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "dry_valley"
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/calor_no_desfiladeiro",
+      "label": "Calor no desfiladeiro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "calor_no_desfiladeiro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Calor no desfiladeiro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "calor_no_desfiladeiro"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/orvalho_de_manha",
+      "label": "Orvalho de manhã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "orvalho_de_manha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Orvalho de manhã",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "orvalho_de_manha"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/tempestade_passageira",
+      "label": "Tempestade passageira",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "tempestade_passageira"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Tempestade passageira",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "tempestade_passageira"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "alpine",
+          "rocky_highlands"
+        ]
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/geada_breve",
+      "label": "Geada breve",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "geada_breve"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Geada breve",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "geada_breve"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/nuvens_sobre_bambuzal",
+      "label": "Nuvens sobre bambuzal",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "nuvens_sobre_bambuzal"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Nuvens sobre bambuzal",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "nuvens_sobre_bambuzal"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "wetland"
+      },
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/umidade_de_varzea",
+      "label": "Umidade de várzea",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "umidade_de_varzea"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Umidade de várzea",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "umidade_de_varzea"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/vento_seco_do_poente",
+      "label": "Vento seco do poente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "vento_seco_do_poente"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vento seco do poente",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "vento_seco_do_poente"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "climate_phenomenon",
+      "excludes": [],
+      "id": "climate_phenomenon/ceu_limpido_da_peregrinacao",
+      "label": "Céu límpido da peregrinação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "weather",
+        "world",
+        "ceu_limpido_da_peregrinacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Céu límpido da peregrinação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "ceu_limpido_da_peregrinacao"
+      },
+      "weight": 12
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

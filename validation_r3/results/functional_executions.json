@@ -1,0 +1,51 @@
+[
+  {
+    "suite": "lifecycle_A",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 9,
+    "result": "results/lifecycle_A.json"
+  },
+  {
+    "suite": "lifecycle_B",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 12,
+    "result": "results/lifecycle_B.json"
+  },
+  {
+    "suite": "lifecycle_C",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 8,
+    "result": "results/lifecycle_C.json"
+  },
+  {
+    "suite": "repeat_combat",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 74,
+    "result": "results/repeat_combat.json"
+  },
+  {
+    "suite": "npc_day",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 13,
+    "result": "results/npc_day.json"
+  },
+  {
+    "suite": "npc_reopen",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 5,
+    "result": "results/npc_reopen.json"
+  },
+  {
+    "suite": "inventory_reopen",
+    "status": "PASS",
+    "exit_observed": 0,
+    "checks": 5,
+    "result": "results/inventory_reopen.json"
+  }
+]

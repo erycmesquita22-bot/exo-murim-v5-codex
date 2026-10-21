@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Andarilho • Vento",
+    "element": 0,
+    "race": 8,
+    "weapon": "spear",
+    "source_class": "andarilho",
+    "class_name": "Andarilho",
+    "skills": [
+      "rajada_de_vento",
+      "atracao_arcana",
+      "investida_brutal"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Guardiao • Terra",
+    "element": 1,
+    "race": 6,
+    "weapon": "battle_mace",
+    "source_class": "guardiao",
+    "class_name": "Guardiao",
+    "skills": [
+      "golpe_circular",
+      "barreira_arcana",
+      "investida_brutal"
+    ],
+    "path": 2
+  },
+  {
+    "name": "Devoto • Água",
+    "element": 2,
+    "race": 0,
+    "weapon": "quarterstaff",
+    "source_class": "devoto",
+    "class_name": "Devoto",
+    "skills": [
+      "dardo_arcano",
+      "cura",
+      "onda_de_repulsao"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Invocador Espiritual • Natureza",
+    "element": 3,
+    "race": 3,
+    "weapon": "wand",
+    "source_class": "invocador_espiritual",
+    "class_name": "Invocador Espiritual",
+    "skills": [
+      "cripta_espinhos_1",
+      "guardiao_ancestral",
+      "cura"
+    ],
+    "path": 1
+  },
+  {
+    "name": "Combatente • Vigor",
+    "element": 4,
+    "race": 4,
+    "weapon": "gauntlets",
+    "source_class": "combatente",
+    "class_name": "Combatente",
+    "skills": [
+      "golpe_circular",
+      "investida_brutal",
+      "salto_impetuoso"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Combatente • Fogo",
+    "element": 5,
+    "race": 0,
+    "weapon": "greatsword",
+    "source_class": "combatente",
+    "class_name": "Combatente",
+    "skills": [
+      "rajada_de_fogo",
+      "jato_de_fogo",
+      "golpe_circular"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Duelista • Gelo",
+    "element": 6,
+    "race": 2,
+    "weapon": "katana",
+    "source_class": "duelista",
+    "class_name": "Duelista",
+    "skills": [
+      "bola_de_gelo",
+      "nova_glacial",
+      "salto_impetuoso"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Batedor • Raio",
+    "element": 7,
+    "race": 10,
+    "weapon": "crossbow",
+    "source_class": "batedor",
+    "class_name": "Batedor",
+    "skills": [
+      "dardo_arcano",
+      "investida_brutal",
+      "barreira_arcana"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Sacerdote • Luz",
+    "element": 8,
+    "race": 1,
+    "weapon": "arcane_staff",
+    "source_class": "sacerdote",
+    "class_name": "Sacerdote",
+    "skills": [
+      "cura",
+      "barreira_arcana",
+      "dardo_arcano"
+    ],
+    "path": 1
+  },
+  {
+    "name": "Saqueador • Trevas",
+    "element": 9,
+    "race": 9,
+    "weapon": "dagger",
+    "source_class": "saqueador",
+    "class_name": "Saqueador",
+    "skills": [
+      "corte_inicial",
+      "atracao_arcana",
+      "guardiao_ancestral"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Afortunado • Fortuna",
+    "element": 10,
+    "race": 5,
+    "weapon": "bow",
+    "source_class": "afortunado",
+    "class_name": "Afortunado",
+    "skills": [
+      "dardo_arcano",
+      "onda_de_repulsao",
+      "cura"
+    ],
+    "path": 0
+  },
+  {
+    "name": "Arcanista • Arcano",
+    "element": 11,
+    "race": 11,
+    "weapon": "wand",
+    "source_class": "arcanista",
+    "class_name": "Arcanista",
+    "skills": [
+      "dardo_arcano",
+      "atracao_arcana",
+      "barreira_arcana"
+    ],
+    "path": 1
+  }
+]

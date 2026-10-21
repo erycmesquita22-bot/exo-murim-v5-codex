@@ -1,0 +1,67 @@
+{
+  "vfx_id": "vfx.impact.martial.amber.v1",
+  "version": "1.0.0-candidate",
+  "family": "impact",
+  "tags": [
+    "fist",
+    "ground",
+    "qi"
+  ],
+  "asset_origin": "authored_in_chat_gdscript_geometry",
+  "license_state": "ORIGINAL_PROJECT",
+  "quality_profiles": {
+    "low": {
+      "detail": 4,
+      "mobile": true
+    },
+    "medium": {
+      "detail": 9,
+      "mobile": true
+    },
+    "high": {
+      "detail": 18,
+      "mobile": false
+    }
+  },
+  "geometry_passes": [
+    {
+      "kind": "impact",
+      "color": "#F9A447",
+      "shader": "res://exo_vfx_forge/shaders/energy.gdshader"
+    }
+  ],
+  "sprite_passes": [],
+  "particle_passes": [
+    {
+      "kind": "low_poly_cpu",
+      "max": 18,
+      "rng": "visual_seed"
+    }
+  ],
+  "shader_params": {
+    "color": "#F9A447",
+    "glow": 1.0
+  },
+  "timing": {
+    "duration": 0.65,
+    "phase": "impact",
+    "damage_event": "never"
+  },
+  "anchor": "ground_origin",
+  "orientation_policy": "host_direction_vector",
+  "random_seed_policy": "local_rng_only",
+  "cleanup": {
+    "on_finished": true,
+    "interrupt": true,
+    "unload": true
+  },
+  "fallback": {
+    "type": "reduce_geometry_detail",
+    "minimum_effect_visible": true
+  },
+  "preview": {
+    "status": "offline_python_reference_only",
+    "legacy_vfx02_ref": "impacto_marcial"
+  },
+  "status": "CANDIDATE_NOT_ENGINE_VALIDATED"
+}

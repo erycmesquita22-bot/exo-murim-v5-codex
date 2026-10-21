@@ -1,0 +1,572 @@
+{
+  "domain": "commodity_flow",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/sal_entre_montanhas_e_vales",
+      "label": "Sal entre montanhas e vales",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "sal_entre_montanhas_e_vales"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Sal entre montanhas e vales",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "sal_entre_montanhas_e_vales"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/arroz_da_planicie_fertil",
+      "label": "Arroz da planície fértil",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "arroz_da_planicie_fertil"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Arroz da planície fértil",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "arroz_da_planicie_fertil"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/ervas_da_floresta_umida",
+      "label": "Ervas da floresta úmida",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "ervas_da_floresta_umida"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Ervas da floresta úmida",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "ervas_da_floresta_umida"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/minerio_das_alturas",
+      "label": "Minério das alturas",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "minerio_das_alturas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Minério das alturas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "minerio_das_alturas"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/carvao_para_fundicoes",
+      "label": "Carvão para fundições",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "carvao_para_fundicoes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Carvão para fundições",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "carvao_para_fundicoes"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/madeira_de_construcao",
+      "label": "Madeira de construção",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "madeira_de_construcao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Madeira de construção",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "madeira_de_construcao"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/papel_de_escolas",
+      "label": "Papel de escolas",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "papel_de_escolas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Papel de escolas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "papel_de_escolas"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/tecido_de_viajantes",
+      "label": "Tecido de viajantes",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "tecido_de_viajantes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Tecido de viajantes",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "tecido_de_viajantes"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/ceramica_de_mercadores",
+      "label": "Cerâmica de mercadores",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "ceramica_de_mercadores"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Cerâmica de mercadores",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "ceramica_de_mercadores"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "grassland",
+          "temperate_forest"
+        ]
+      },
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/peixe_seco_do_rio",
+      "label": "Peixe seco do rio",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "peixe_seco_do_rio"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Peixe seco do rio",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "peixe_seco_do_rio"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/remedios_de_curandeiros",
+      "label": "Remédios de curandeiros",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "remedios_de_curandeiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Remédios de curandeiros",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "remedios_de_curandeiros"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/ferro_de_manutencao",
+      "label": "Ferro de manutenção",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "ferro_de_manutencao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Ferro de manutenção",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "ferro_de_manutencao"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/alimento_de_tropas",
+      "label": "Alimento de tropas",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "alimento_de_tropas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Alimento de tropas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "alimento_de_tropas"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/corda_de_travessia",
+      "label": "Corda de travessia",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "corda_de_travessia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Corda de travessia",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "corda_de_travessia"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/oleo_de_lanternas",
+      "label": "Óleo de lanternas",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "oleo_de_lanternas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Óleo de lanternas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "oleo_de_lanternas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "commodity_flow",
+      "excludes": [],
+      "id": "commodity_flow/couro_de_trabalho",
+      "label": "Couro de trabalho",
+      "links": [
+        "economy_theme/harvest"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "supply",
+        "couro_de_trabalho"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Couro de trabalho",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "exo_economy",
+        "theme_key": "couro_de_trabalho"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

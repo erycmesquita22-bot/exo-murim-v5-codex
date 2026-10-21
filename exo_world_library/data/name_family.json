@@ -1,0 +1,606 @@
+{
+  "domain": "name_family",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/lin",
+      "label": "Lin",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Lin"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/han",
+      "label": "Han",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Han"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/seo",
+      "label": "Seo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Seo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/jin",
+      "label": "Jin",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jin"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/wei",
+      "label": "Wei",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Wei"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/shen",
+      "label": "Shen",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Shen"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/lu",
+      "label": "Lu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Lu"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/bai",
+      "label": "Bai",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Bai"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/yun",
+      "label": "Yun",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yun"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/hyeon",
+      "label": "Hyeon",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hyeon"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/kang",
+      "label": "Kang",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Kang"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/ryu",
+      "label": "Ryu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Ryu"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/cheon",
+      "label": "Cheon",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Cheon"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/seok",
+      "label": "Seok",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Seok"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/min",
+      "label": "Min",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Min"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/baek",
+      "label": "Baek",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Baek"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/qi",
+      "label": "Qi",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Qi"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/zhao",
+      "label": "Zhao",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Zhao"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/tang",
+      "label": "Tang",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Tang"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/mu",
+      "label": "Mu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Mu"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/yeo",
+      "label": "Yeo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yeo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/song",
+      "label": "Song",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Song"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/xia",
+      "label": "Xia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Xia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/yeon",
+      "label": "Yeon",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yeon"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/jeong",
+      "label": "Jeong",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jeong"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/hua",
+      "label": "Hua",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hua"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/noh",
+      "label": "Noh",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Noh"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/do",
+      "label": "Do",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Do"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/gu",
+      "label": "Gu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Gu"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_family",
+      "excludes": [],
+      "id": "name_family/nam",
+      "label": "Nam",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Nam"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

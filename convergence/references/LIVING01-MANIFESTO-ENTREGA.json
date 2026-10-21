@@ -1,0 +1,99 @@
+{
+  "version": "0.1.0-logic",
+  "files": [
+    {
+      "path": "FONTES-AUDITADAS.json",
+      "bytes": 1674,
+      "sha256": "4f5088b92495c217277c7c81b4d7ffae45a5ec4c47201b545d60a0fd53a55920"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7869,
+      "sha256": "b103db1b587c7bfb33150774ef07e86b3cc8d1c620169acef7dafc1779645140"
+    },
+    {
+      "path": "living_world/bridge.gd",
+      "bytes": 3082,
+      "sha256": "50b2117e9d50eee29523b38e66a9a9a2b0aed47aa44548395f4469038a570014"
+    },
+    {
+      "path": "living_world/data/contracts.json",
+      "bytes": 2814,
+      "sha256": "fdad5434f8efd3c717fa46524a7ddcc3108dd9e7906840f6a33556dfa0a7b9eb"
+    },
+    {
+      "path": "living_world/data/people.json",
+      "bytes": 1719,
+      "sha256": "8dd9cedafe69317275b8e4df089eec27cdb6b8d8ad747b24156bd615afda714b"
+    },
+    {
+      "path": "living_world/docs/MAPA-INTEGRACAO.md",
+      "bytes": 3486,
+      "sha256": "97cf4b1f5ceacd9d0b3a6bef6fcd2f0fdc4b8707491f21b357f197c22ecbf3fc"
+    },
+    {
+      "path": "living_world/factions.gd",
+      "bytes": 1045,
+      "sha256": "78800924c5516531485d267e9691a9fb804db88347c3b86eaa3cc77fcad1c20c"
+    },
+    {
+      "path": "living_world/fate.gd",
+      "bytes": 1050,
+      "sha256": "579af5f778d77942ce5487e29bdebad21952d0b3ad4958717e4503e10db13e5d"
+    },
+    {
+      "path": "living_world/integration.gd",
+      "bytes": 1499,
+      "sha256": "617e152240c5e149497a04915e1b0eb78abcf3df0cf44e99ba620b9fb31fc896"
+    },
+    {
+      "path": "living_world/names.gd",
+      "bytes": 1445,
+      "sha256": "dc87f545b7011393578240bcdd96882e4cd2d074045bcdb829ec23c2616530b6"
+    },
+    {
+      "path": "living_world/people.gd",
+      "bytes": 3208,
+      "sha256": "7e7d9f9d35e15e854f8bc702d1e431f3e3836b72a34dfb6b98899c62d85a2d3e"
+    },
+    {
+      "path": "living_world/quests.gd",
+      "bytes": 4622,
+      "sha256": "c5c900bf8d43229debd438c5429d0be8b7a837258b68f46f77ceebe29bd07460"
+    },
+    {
+      "path": "living_world/state.gd",
+      "bytes": 2830,
+      "sha256": "fbfdff35d33ef62cd48fbdd1ccfdcc9853a28c2cad90d5c29158162919457378"
+    },
+    {
+      "path": "living_world/tests/AMOSTRA-SEED-101.json",
+      "bytes": 8239,
+      "sha256": "3f3368be0641cab97f1e35d134fa5f91e167f0bdf58dad48ffa49ea4d5cfd635"
+    },
+    {
+      "path": "living_world/tests/QA_STATIC_RESULTS.json",
+      "bytes": 268,
+      "sha256": "dd3af9dcfec37e064cf310c5441fbe0452b7045c8bbbe37fd5cfb169f5c93e22"
+    },
+    {
+      "path": "living_world/tests/qa_living_world.gd",
+      "bytes": 5566,
+      "sha256": "2d54dd21edf0605c5adfe46cff65b69c439f2f4d4ceec4dec095616c03f3aad6"
+    },
+    {
+      "path": "tools/static_audit.py",
+      "bytes": 4100,
+      "sha256": "590eec42c58b12e952f8453e31d54499820f0fa9fa285045ccf8d5135a3ad99f"
+    },
+    {
+      "path": "tools/static_qa_console.txt",
+      "bytes": 269,
+      "sha256": "ca0a09ba2a3894a84973f8d5d22967c319d1f1e682283d6773702a4562c3500a"
+    }
+  ],
+  "status": {
+    "static_qa": "passed",
+    "godot_runtime": "not executed; Godot binary absent"
+  }
+}

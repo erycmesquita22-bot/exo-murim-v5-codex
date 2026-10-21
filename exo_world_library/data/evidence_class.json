@@ -1,0 +1,307 @@
+{
+  "domain": "evidence_class",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/rumor",
+      "label": "Boato sem confirmação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 1,
+        "not_automatically_true": true,
+        "supports": "misinformation_spreads"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/witness",
+      "label": "Testemunho pessoal",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 2,
+        "not_automatically_true": true,
+        "supports": "followup_required"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/ledger",
+      "label": "Registro de transações verificável",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "audit_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/sealed_order",
+      "label": "Ordem com selo conferido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 4,
+        "not_automatically_true": true,
+        "supports": "administrative_action_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/genealogy",
+      "label": "Genealogia datada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "succession_hearing_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/survey",
+      "label": "Levantamento territorial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "border_hearing_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/ballot_audit",
+      "label": "Auditoria de voto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 4,
+        "not_automatically_true": true,
+        "supports": "election_confirmation_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/medical",
+      "label": "Laudo de curandeiro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "health_hearing_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/confession",
+      "label": "Confissão corroborada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "criminal_hearing_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/physical_trace",
+      "label": "Vestígio físico preservado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 2,
+        "not_automatically_true": true,
+        "supports": "investigation_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/independent_witness",
+      "label": "Duas testemunhas independentes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "public_mediation_possible"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "evidence_class",
+      "excludes": [],
+      "id": "evidence_class/oath",
+      "label": "Juramento registrado e verificável",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "evidence",
+        "reliability"
+      ],
+      "variables": {
+        "contradiction_supported": true,
+        "expires_when": "host_rule",
+        "min_reliability": 3,
+        "not_automatically_true": true,
+        "supports": "treaty_possible"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

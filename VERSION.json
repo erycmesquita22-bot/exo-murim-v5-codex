@@ -1,0 +1,18 @@
+{
+  "release": "09.4.5 — Level design de vilas e trilhas",
+  "base": "09.4.4 — Solo da aventura",
+  "engine_expected": "Godot 4.6.2 Compatibility",
+  "status": "Source candidate; static audit only; Godot runtime and manual visual validation required",
+  "world_layout_version": 2,
+  "loot_generation_version": 1,
+  "birthplace_profiles": [
+    "empobrecida",
+    "comum",
+    "prospera",
+    "especial"
+  ],
+  "previous_layout_versions_preserved": [
+    1
+  ],
+  "art_revision": 1
+}

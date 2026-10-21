@@ -1,0 +1,3118 @@
+{
+  "source_archive": "EXO-Forja-Arquitetonica-03.zip",
+  "source_catalog_sha256": "75acdc90dbb7c7462af83171562e9fb03ad8c4f29bc5e0b72f393f3537ed3e4c",
+  "total_inventory": 163,
+  "number_reuse_candidates": 19,
+  "families": {
+    "architecture": 27,
+    "details": 12,
+    "nature": 24,
+    "crops": 24,
+    "forja_v2": 34,
+    "fortification": 9,
+    "civic": 12,
+    "street": 10,
+    "farm": 9,
+    "nature_detail": 2
+  },
+  "policy": "Original 163 existing GLBs remain in EXO Core/Forja03; no copying/overwriting and no unvalidated automatic substitution. Module supplies its own independent prototype assets.",
+  "entries": [
+    {
+      "id": "foundation_2x2",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/foundation_2x2.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.4,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "foundation_2x1",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/foundation_2x1.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.4,
+          0.5
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "floor_2x2",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/floor_2x2.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.16,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "floor_wood_2x2",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/floor_wood_2x2.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.16,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "foundation_corner",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/foundation_corner.glb",
+      "bounds_m": [
+        [
+          -1.02,
+          0.0,
+          -1.02
+        ],
+        [
+          1.02,
+          0.44,
+          1.02
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stairs_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/stairs_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          2.7755575615628914e-17
+        ],
+        [
+          1.0,
+          0.4000000000000001,
+          0.9
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_solid_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_solid_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.0,
+          2.6,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_window_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_window_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.0,
+          2.6,
+          0.14500000000000002
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_door_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_door_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.0,
+          2.6,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_half_1m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_half_1m.glb",
+      "bounds_m": [
+        [
+          -0.5,
+          0.0,
+          -0.13
+        ],
+        [
+          0.5,
+          2.6,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_timber_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_timber_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.0,
+          2.6,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_stone_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_stone_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.0,
+          2.6,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_corner_90",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/wall_corner_90.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.13
+        ],
+        [
+          1.05,
+          2.6,
+          1.92
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "door_double",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/door_double.glb",
+      "bounds_m": [
+        [
+          -0.585,
+          0.0,
+          -0.010000000000000002
+        ],
+        [
+          0.585,
+          2.12,
+          0.1375
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "column_2_6m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/column_2_6m.glb",
+      "bounds_m": [
+        [
+          -0.19,
+          0.0,
+          -0.19
+        ],
+        [
+          0.19,
+          2.5999999999999996,
+          0.19
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "column_heavy_2_6m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/column_heavy_2_6m.glb",
+      "bounds_m": [
+        [
+          -0.24,
+          0.0,
+          -0.24
+        ],
+        [
+          0.24,
+          2.5999999999999996,
+          0.24
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "beam_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/beam_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          -0.11,
+          -0.12
+        ],
+        [
+          1.0,
+          0.11,
+          0.12
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "beam_corner_joint",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/beam_corner_joint.glb",
+      "bounds_m": [
+        [
+          -0.12,
+          -0.12,
+          -0.12
+        ],
+        [
+          1.0,
+          0.12,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bracket",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/bracket.glb",
+      "bounds_m": [
+        [
+          -0.15,
+          -0.3,
+          -0.325
+        ],
+        [
+          0.15,
+          0.06,
+          0.345
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "balcony_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/balcony_2m.glb",
+      "bounds_m": [
+        [
+          -1.0217572057232822,
+          -0.8711747851002866,
+          -0.040229226361031545
+        ],
+        [
+          1.0217572057232822,
+          0.96,
+          1.3
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_slope_2x2",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_slope_2x2.glb",
+      "bounds_m": [
+        [
+          -1.0804984471899923,
+          -0.17200000000000004,
+          -0.03600000000000003
+        ],
+        [
+          1.0804984471899923,
+          0.9875,
+          2.036
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_eave_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_eave_2m.glb",
+      "bounds_m": [
+        [
+          -1.0804984471899923,
+          -0.372,
+          -0.035999999999999976
+        ],
+        [
+          1.0804984471899923,
+          0.0,
+          0.436
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_ridge_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_ridge_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.15
+        ],
+        [
+          1.0,
+          0.23,
+          0.15
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_gable_4m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_gable_4m.glb",
+      "bounds_m": [
+        [
+          -0.08,
+          -0.08400000000000007,
+          -2.042
+        ],
+        [
+          0.19391485505499118,
+          1.084,
+          2.042
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_end_ornament",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_end_ornament.glb",
+      "bounds_m": [
+        [
+          -0.1,
+          0.01999999999999999,
+          -0.13
+        ],
+        [
+          0.52,
+          0.7,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_hip_corner",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/roof_hip_corner.glb",
+      "bounds_m": [
+        [
+          -0.995,
+          0.012499999999999997,
+          -0.0050000000000000044
+        ],
+        [
+          0.995,
+          0.9875,
+          2.005
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "railing_2m",
+      "family": "architecture",
+      "path_in_forja03": "models/architecture/railing_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.06
+        ],
+        [
+          1.0,
+          0.9,
+          0.06
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "fence_2m",
+      "family": "details",
+      "path_in_forja03": "models/details/fence_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.07
+        ],
+        [
+          1.0,
+          1.1,
+          0.07
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_broad_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_broad_01.glb",
+      "bounds_m": [
+        [
+          -1.9829997816585498,
+          0.0,
+          -1.7698399051193254
+        ],
+        [
+          1.5390926402490854,
+          4.569051106689737,
+          1.7057697394030922
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_broad_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_broad_02.glb",
+      "bounds_m": [
+        [
+          -1.9121706794337667,
+          0.0,
+          -2.002852737552748
+        ],
+        [
+          1.8849727900790063,
+          5.121665951361941,
+          1.7246577116372546
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_pine_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_pine_01.glb",
+      "bounds_m": [
+        [
+          -1.5,
+          0.0,
+          -1.5
+        ],
+        [
+          1.5,
+          4.988,
+          1.5
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_pine_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_pine_02.glb",
+      "bounds_m": [
+        [
+          -1.5,
+          0.0,
+          -1.5
+        ],
+        [
+          1.5,
+          5.532,
+          1.5
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_willow",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_willow.glb",
+      "bounds_m": [
+        [
+          -1.9516405842413969,
+          0.0,
+          -1.944437976700604
+        ],
+        [
+          1.8295666124225303,
+          4.714391261307047,
+          1.7750000000000001
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_dry",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_dry.glb",
+      "bounds_m": [
+        [
+          -0.7005497439232883,
+          0.0,
+          -1.075578168205515
+        ],
+        [
+          1.1806193985327964,
+          3.3,
+          1.0665330400613382
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tree_orchard",
+      "family": "nature",
+      "path_in_forja03": "models/nature/tree_orchard.glb",
+      "bounds_m": [
+        [
+          -1.679551998573052,
+          0.0,
+          -1.6656924048195332
+        ],
+        [
+          2.0170892707819363,
+          5.349649696707741,
+          1.665692404819533
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bamboo_cluster_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/bamboo_cluster_01.glb",
+      "bounds_m": [
+        [
+          -0.6586991614471227,
+          0.0,
+          -0.8248468539584793
+        ],
+        [
+          0.929050853808886,
+          3.3242511040574563,
+          0.4479651916403067
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bamboo_cluster_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/bamboo_cluster_02.glb",
+      "bounds_m": [
+        [
+          -0.9870056865355573,
+          0.0,
+          -1.0030868544710425
+        ],
+        [
+          0.4221868588402068,
+          3.2813240585132073,
+          0.7752837205188506
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "leaf_cluster_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/leaf_cluster_01.glb",
+      "bounds_m": [
+        [
+          -0.5278136249907669,
+          -0.029510917171618443,
+          -0.5447905272862117
+        ],
+        [
+          0.3696938649715599,
+          0.4472045490797296,
+          0.5773559466891706
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "leaf_cluster_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/leaf_cluster_02.glb",
+      "bounds_m": [
+        [
+          -0.6519504083709833,
+          0.09245133266415792,
+          -0.5912487846165179
+        ],
+        [
+          0.6959575716116811,
+          0.4284780211611059,
+          0.5272029214814322
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "leaf_cluster_03",
+      "family": "nature",
+      "path_in_forja03": "models/nature/leaf_cluster_03.glb",
+      "bounds_m": [
+        [
+          -0.5244450720875604,
+          -0.03006301262883153,
+          -0.5713636755512079
+        ],
+        [
+          0.562999060779076,
+          0.43118064372795295,
+          0.4278525691453052
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "leaf_cluster_04",
+      "family": "nature",
+      "path_in_forja03": "models/nature/leaf_cluster_04.glb",
+      "bounds_m": [
+        [
+          -0.4077906649675955,
+          -0.04803330745526684,
+          -0.2967076253517581
+        ],
+        [
+          0.6794927655094276,
+          0.41143439502768175,
+          0.5929904078842376
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_01.glb",
+      "bounds_m": [
+        [
+          -0.26672262363586924,
+          -0.07668726652417288,
+          -0.32748217281349623
+        ],
+        [
+          0.3010349375027931,
+          0.3900617995725186,
+          0.3549107335392847
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_02.glb",
+      "bounds_m": [
+        [
+          -0.3363291772778515,
+          -0.09753672250291842,
+          -0.2205724995591107
+        ],
+        [
+          0.25744117972031744,
+          0.45261016750875527,
+          0.29958339045001425
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_03",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_03.glb",
+      "bounds_m": [
+        [
+          -0.2795268215981085,
+          -0.12500531658348576,
+          -0.2866406167624277
+        ],
+        [
+          0.05224099941856744,
+          0.5350159497504573,
+          0.24540949800575856
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_04",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_04.glb",
+      "bounds_m": [
+        [
+          -0.32417021798972234,
+          -0.1293791845289753,
+          -0.24548471088698767
+        ],
+        [
+          0.26427234956022416,
+          0.548137553586926,
+          0.29420487649212834
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_05",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_05.glb",
+      "bounds_m": [
+        [
+          -0.24705886931571294,
+          -0.1571351673065114,
+          -0.32840670873578215
+        ],
+        [
+          0.32990490634752107,
+          0.6314055019195343,
+          0.3381165513090083
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grass_tuft_06",
+      "family": "nature",
+      "path_in_forja03": "models/nature/grass_tuft_06.glb",
+      "bounds_m": [
+        [
+          -0.2524948893086399,
+          -0.16569258051170757,
+          -0.25167686613774837
+        ],
+        [
+          0.3755261301691776,
+          0.6570777415351228,
+          0.37650506775477394
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bush_01",
+      "family": "nature",
+      "path_in_forja03": "models/nature/bush_01.glb",
+      "bounds_m": [
+        [
+          -0.644676866734425,
+          0.056676331336003166,
+          -0.532175188352292
+        ],
+        [
+          0.6192049931220304,
+          0.6793764665188177,
+          0.6262616617318937
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bush_02",
+      "family": "nature",
+      "path_in_forja03": "models/nature/bush_02.glb",
+      "bounds_m": [
+        [
+          -0.588453652028176,
+          0.0360326575417749,
+          -0.620478079808362
+        ],
+        [
+          0.5599824657928786,
+          0.7001766724692808,
+          0.5956334256878978
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bush_03",
+      "family": "nature",
+      "path_in_forja03": "models/nature/bush_03.glb",
+      "bounds_m": [
+        [
+          -0.5902156931851902,
+          0.0537351806694947,
+          -0.4158594752365179
+        ],
+        [
+          0.6237714272014782,
+          0.5927611567279073,
+          0.5221083392514323
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "fern",
+      "family": "nature",
+      "path_in_forja03": "models/nature/fern.glb",
+      "bounds_m": [
+        [
+          -0.6360357433473143,
+          0.1266666666666667,
+          -0.6824495385272765
+        ],
+        [
+          0.7,
+          0.42000000000000004,
+          0.6824495385272765
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "reeds",
+      "family": "nature",
+      "path_in_forja03": "models/nature/reeds.glb",
+      "bounds_m": [
+        [
+          -0.3061559860753535,
+          0.0,
+          -0.28784213908487016
+        ],
+        [
+          0.3222404736901047,
+          1.249659386152481,
+          0.25350729889570894
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "fallen_log",
+      "family": "details",
+      "path_in_forja03": "models/details/fallen_log.glb",
+      "bounds_m": [
+        [
+          -0.8,
+          0.0,
+          -0.25
+        ],
+        [
+          0.8200000000000001,
+          0.5,
+          0.25
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stump",
+      "family": "details",
+      "path_in_forja03": "models/details/stump.glb",
+      "bounds_m": [
+        [
+          -0.325,
+          0.0,
+          -0.325
+        ],
+        [
+          0.325,
+          0.52,
+          0.325
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "lettuce_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/lettuce_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.10488881461998394,
+          0.01283333333333333,
+          -0.10651806609737452
+        ],
+        [
+          0.10280605695993372,
+          0.1085,
+          0.09982890027419752
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "lettuce_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/lettuce_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.20378398269025452,
+          0.024933333333333335,
+          -0.20694938556061337
+        ],
+        [
+          0.19973748209358558,
+          0.21080000000000002,
+          0.19395329196129807
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "lettuce_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/lettuce_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.2996823274856684,
+          0.03666666666666667,
+          -0.30433733170678434
+        ],
+        [
+          0.29373159131409643,
+          0.31,
+          0.28522542935485007
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cabbage_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cabbage_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.10488881461998394,
+          0.01283333333333333,
+          -0.10651806609737452
+        ],
+        [
+          0.10280605695993372,
+          0.1085,
+          0.09982890027419752
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cabbage_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cabbage_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.20378398269025452,
+          0.024933333333333335,
+          -0.20694938556061337
+        ],
+        [
+          0.19973748209358558,
+          0.21080000000000002,
+          0.19395329196129807
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cabbage_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cabbage_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.2996823274856684,
+          0.03666666666666667,
+          -0.30433733170678434
+        ],
+        [
+          0.29373159131409643,
+          0.31,
+          0.28522542935485007
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "carrot_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/carrot_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.055657643310369646,
+          -0.06825,
+          -0.06298531392591449
+        ],
+        [
+          0.055007377708973536,
+          0.155,
+          0.063
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "carrot_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/carrot_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.10813484986014675,
+          -0.1326,
+          -0.12237146705606243
+        ],
+        [
+          0.10687147669172002,
+          0.254,
+          0.12240000000000001
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "carrot_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/carrot_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.15902183802962755,
+          -0.195,
+          -0.17995803978832708
+        ],
+        [
+          0.15716393631135295,
+          0.35,
+          0.18
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "radish_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/radish_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.055657643310369646,
+          -0.06825,
+          -0.06298531392591449
+        ],
+        [
+          0.055007377708973536,
+          0.155,
+          0.063
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "radish_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/radish_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.10813484986014675,
+          -0.1326,
+          -0.12237146705606243
+        ],
+        [
+          0.10687147669172002,
+          0.254,
+          0.12240000000000001
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "radish_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/radish_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.15902183802962755,
+          -0.195,
+          -0.17995803978832708
+        ],
+        [
+          0.15716393631135295,
+          0.35,
+          0.18
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "onion_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/onion_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.055657643310369646,
+          -0.06825,
+          -0.06298531392591449
+        ],
+        [
+          0.055007377708973536,
+          0.155,
+          0.063
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "onion_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/onion_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.10813484986014675,
+          -0.1326,
+          -0.12237146705606243
+        ],
+        [
+          0.10687147669172002,
+          0.254,
+          0.12240000000000001
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "onion_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/onion_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.15902183802962755,
+          -0.195,
+          -0.17995803978832708
+        ],
+        [
+          0.15716393631135295,
+          0.35,
+          0.18
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "pumpkin_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/pumpkin_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.11129339240694801,
+          0.0,
+          -0.10918248559726632
+        ],
+        [
+          0.08351898376379266,
+          0.33799999999999997,
+          0.11199999999999999
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "pumpkin_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/pumpkin_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.21622716239064188,
+          0.0,
+          -0.21212597201754602
+        ],
+        [
+          0.23460000000000003,
+          0.5624000000000001,
+          0.21760000000000002
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "pumpkin_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/pumpkin_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.3179811211627086,
+          0.0,
+          -0.31194995884933235
+        ],
+        [
+          0.345,
+          0.78,
+          0.32
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "eggplant_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/eggplant_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.11129339240694801,
+          0.0,
+          -0.10918248559726632
+        ],
+        [
+          0.08351898376379266,
+          0.33799999999999997,
+          0.11199999999999999
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "eggplant_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/eggplant_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.21622716239064188,
+          0.0,
+          -0.21212597201754602
+        ],
+        [
+          0.16226545416965435,
+          0.6120000000000001,
+          0.21760000000000002
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "eggplant_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/eggplant_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.3179811211627086,
+          0.0,
+          -0.31194995884933235
+        ],
+        [
+          0.2386256678965505,
+          0.9,
+          0.32
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cucumber_stage_1",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cucumber_stage_1.glb",
+      "bounds_m": [
+        [
+          -0.315,
+          0.0,
+          -0.10918248559726632
+        ],
+        [
+          0.315,
+          1.2,
+          0.11199999999999999
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cucumber_stage_2",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cucumber_stage_2.glb",
+      "bounds_m": [
+        [
+          -0.315,
+          0.0,
+          -0.21212597201754602
+        ],
+        [
+          0.315,
+          1.2,
+          0.21760000000000002
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cucumber_stage_3",
+      "family": "crops",
+      "path_in_forja03": "models/crops/cucumber_stage_3.glb",
+      "bounds_m": [
+        [
+          -0.3179811211627086,
+          0.0,
+          -0.31194995884933235
+        ],
+        [
+          0.315,
+          1.2,
+          0.32
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "garden_bed_2x2",
+      "family": "details",
+      "path_in_forja03": "models/details/garden_bed_2x2.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          -0.04,
+          -1.0
+        ],
+        [
+          1.0,
+          0.09,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "lantern_01",
+      "family": "details",
+      "path_in_forja03": "models/details/lantern_01.glb",
+      "bounds_m": [
+        [
+          -0.18,
+          -0.12,
+          -0.18
+        ],
+        [
+          0.18,
+          0.75,
+          0.18
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "lantern_02",
+      "family": "details",
+      "path_in_forja03": "models/details/lantern_02.glb",
+      "bounds_m": [
+        [
+          -0.145,
+          -0.12,
+          -0.145
+        ],
+        [
+          0.145,
+          0.75,
+          0.145
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "clay_jar",
+      "family": "details",
+      "path_in_forja03": "models/details/clay_jar.glb",
+      "bounds_m": [
+        [
+          -0.21,
+          0.08000000000000002,
+          -0.21
+        ],
+        [
+          0.21,
+          0.6,
+          0.21
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "firewood_stack",
+      "family": "details",
+      "path_in_forja03": "models/details/firewood_stack.glb",
+      "bounds_m": [
+        [
+          -0.35,
+          0.009999999999999995,
+          -0.35000000000000003
+        ],
+        [
+          0.3625,
+          0.51,
+          0.35000000000000003
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "butterfly_01",
+      "family": "details",
+      "path_in_forja03": "models/details/butterfly_01.glb",
+      "bounds_m": [
+        [
+          -0.0675,
+          0.0025000000000000005,
+          -0.035
+        ],
+        [
+          0.0675,
+          0.047,
+          0.04
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "butterfly_02",
+      "family": "details",
+      "path_in_forja03": "models/details/butterfly_02.glb",
+      "bounds_m": [
+        [
+          -0.0675,
+          0.0025000000000000005,
+          -0.0225
+        ],
+        [
+          0.0675,
+          0.047,
+          0.05
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "cicada",
+      "family": "details",
+      "path_in_forja03": "models/details/cicada.glb",
+      "bounds_m": [
+        [
+          -0.021359638474200526,
+          -0.0010193115950468913,
+          -0.024656269797581343
+        ],
+        [
+          0.021359638474200526,
+          0.048,
+          0.024
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "firefly",
+      "family": "details",
+      "path_in_forja03": "models/details/firefly.glb",
+      "bounds_m": [
+        [
+          -0.015,
+          0.003999999999999999,
+          -0.014499999999999999
+        ],
+        [
+          0.015,
+          0.047,
+          0.013
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "facade_lattice_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/facade_lattice_2m.glb",
+      "bounds_m": [
+        [
+          -0.98,
+          0.0,
+          -0.05
+        ],
+        [
+          0.98,
+          2.5,
+          0.17
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "shop_hanging_sign",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/shop_hanging_sign.glb",
+      "bounds_m": [
+        [
+          -0.85,
+          -0.275,
+          -0.145
+        ],
+        [
+          0.85,
+          0.66,
+          0.1425
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "market_cloth_awning_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/market_cloth_awning_2m.glb",
+      "bounds_m": [
+        [
+          -1.0825,
+          -1.375,
+          -0.1652
+        ],
+        [
+          1.0825,
+          0.475,
+          1.425
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "merchant_counter_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/merchant_counter_2m.glb",
+      "bounds_m": [
+        [
+          -1.025,
+          0.02,
+          -0.385
+        ],
+        [
+          1.025,
+          1.28,
+          0.385
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "silk_vertical_banner",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/silk_vertical_banner.glb",
+      "bounds_m": [
+        [
+          -0.525,
+          -0.445,
+          -0.0476
+        ],
+        [
+          0.525,
+          1.735,
+          0.055
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "slatted_window_shutter",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/slatted_window_shutter.glb",
+      "bounds_m": [
+        [
+          -0.91,
+          0.0,
+          -0.04
+        ],
+        [
+          0.91,
+          1.7,
+          0.15
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_tile_eave_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/roof_tile_eave_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          -0.17,
+          -0.085
+        ],
+        [
+          1.0,
+          0.1325,
+          0.165
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "roof_ridge_finial",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/roof_ridge_finial.glb",
+      "bounds_m": [
+        [
+          -0.3289,
+          -0.04,
+          -0.16
+        ],
+        [
+          0.3289,
+          0.915,
+          0.16
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "paired_pillar_plinths",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/paired_pillar_plinths.glb",
+      "bounds_m": [
+        [
+          -0.96,
+          0.005,
+          -0.34
+        ],
+        [
+          0.96,
+          0.45,
+          0.34
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tea_table_with_stools",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/tea_table_with_stools.glb",
+      "bounds_m": [
+        [
+          -1.035,
+          0.04,
+          -0.425
+        ],
+        [
+          1.035,
+          1.075,
+          0.425
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tea_ceramic_shelf",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/tea_ceramic_shelf.glb",
+      "bounds_m": [
+        [
+          -0.91,
+          0.1,
+          -0.225
+        ],
+        [
+          0.91,
+          2.3,
+          0.225
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "blacksmith_forge_hearth",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/blacksmith_forge_hearth.glb",
+      "bounds_m": [
+        [
+          -0.8,
+          0.015,
+          -0.705
+        ],
+        [
+          0.8,
+          2.1,
+          0.56
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "blacksmith_anvil",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/blacksmith_anvil.glb",
+      "bounds_m": [
+        [
+          -0.735,
+          0.015,
+          -0.28
+        ],
+        [
+          0.69,
+          0.96,
+          0.28
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "smith_tool_rack",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/smith_tool_rack.glb",
+      "bounds_m": [
+        [
+          -1.04,
+          0.025,
+          -0.29
+        ],
+        [
+          1.04,
+          2.25,
+          0.29
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "herb_drying_rack",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/herb_drying_rack.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.03,
+          -0.085
+        ],
+        [
+          1.0,
+          2.23,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "timber_handcart",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/timber_handcart.glb",
+      "bounds_m": [
+        [
+          -0.695,
+          0.01,
+          -0.735
+        ],
+        [
+          0.695,
+          1.34,
+          1.44
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "woven_market_baskets",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/woven_market_baskets.glb",
+      "bounds_m": [
+        [
+          -0.71,
+          0.01,
+          -0.36
+        ],
+        [
+          0.68,
+          0.52,
+          0.43
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grain_sack_stack",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/grain_sack_stack.glb",
+      "bounds_m": [
+        [
+          -0.7162,
+          0.03,
+          -0.324
+        ],
+        [
+          0.6864,
+          1.27,
+          0.2989
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_water_well",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/village_water_well.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.03,
+          -0.93
+        ],
+        [
+          1.0,
+          3.135,
+          0.93
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "well_water_bucket",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/well_water_bucket.glb",
+      "bounds_m": [
+        [
+          -0.26,
+          0.035,
+          -0.2473
+        ],
+        [
+          0.26,
+          0.725,
+          0.2473
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "courtyard_wall_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/courtyard_wall_2m.glb",
+      "bounds_m": [
+        [
+          -1.11,
+          0.005,
+          -0.26
+        ],
+        [
+          1.11,
+          1.705,
+          0.26
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "courtyard_entry_gate",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/courtyard_entry_gate.glb",
+      "bounds_m": [
+        [
+          -1.66,
+          -0.005,
+          -0.37
+        ],
+        [
+          1.66,
+          3.295,
+          0.35
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stone_garden_lantern",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/stone_garden_lantern.glb",
+      "bounds_m": [
+        [
+          -0.425,
+          0.005,
+          -0.425
+        ],
+        [
+          0.425,
+          2.085,
+          0.425
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bronze_incense_burner",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/bronze_incense_burner.glb",
+      "bounds_m": [
+        [
+          -0.45,
+          0.0,
+          -0.428
+        ],
+        [
+          0.45,
+          1.155,
+          0.428
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stone_courtyard_paving_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/stone_courtyard_paving_2m.glb",
+      "bounds_m": [
+        [
+          -0.985,
+          -0.025,
+          -1.005
+        ],
+        [
+          0.995,
+          0.086,
+          1.005
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "public_timber_bench",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/public_timber_bench.glb",
+      "bounds_m": [
+        [
+          -0.85,
+          0.0,
+          -0.245
+        ],
+        [
+          0.85,
+          1.445,
+          0.21
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "bamboo_planter_box",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/bamboo_planter_box.glb",
+      "bounds_m": [
+        [
+          -0.725,
+          0.0,
+          -0.295
+        ],
+        [
+          0.725,
+          1.53,
+          0.295
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "short_wooden_footbridge",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/short_wooden_footbridge.glb",
+      "bounds_m": [
+        [
+          -0.905,
+          0.01,
+          -1.1
+        ],
+        [
+          0.905,
+          1.08,
+          1.1
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "covered_market_stall",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/covered_market_stall.glb",
+      "bounds_m": [
+        [
+          -1.13,
+          0.05,
+          -0.8661
+        ],
+        [
+          1.13,
+          3.1753,
+          0.8661
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "herbalist_medicine_jars",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/herbalist_medicine_jars.glb",
+      "bounds_m": [
+        [
+          -0.78,
+          0.06,
+          -0.1997
+        ],
+        [
+          0.78,
+          0.825,
+          0.23
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "veranda_bamboo_railing_2m",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/veranda_bamboo_railing_2m.glb",
+      "bounds_m": [
+        [
+          -1.01,
+          -0.005,
+          -0.14
+        ],
+        [
+          1.01,
+          0.865,
+          0.14
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_grain_millstone",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/village_grain_millstone.glb",
+      "bounds_m": [
+        [
+          -0.64,
+          0.05,
+          -0.64
+        ],
+        [
+          0.815,
+          0.615,
+          0.64
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_drying_lines",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/village_drying_lines.glb",
+      "bounds_m": [
+        [
+          -1.035,
+          0.0,
+          -0.09
+        ],
+        [
+          1.035,
+          2.15,
+          0.09
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "low_courtyard_fence_gate",
+      "family": "forja_v2",
+      "path_in_forja03": "models/forja_v2/low_courtyard_fence_gate.glb",
+      "bounds_m": [
+        [
+          -0.985,
+          0.01,
+          -0.075
+        ],
+        [
+          0.985,
+          1.47,
+          0.075
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "city_wall_stone_2m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/city_wall_stone_2m.glb",
+      "bounds_m": [
+        [
+          -1.11,
+          0.0,
+          -0.31
+        ],
+        [
+          1.11,
+          3.3,
+          0.31
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "city_wall_wood_2m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/city_wall_wood_2m.glb",
+      "bounds_m": [
+        [
+          -1.11,
+          0.0,
+          -0.31
+        ],
+        [
+          1.11,
+          3.3,
+          0.31
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "city_wall_battlement_2m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/city_wall_battlement_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.36
+        ],
+        [
+          1.0,
+          3.98,
+          0.36
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_corner_stone",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/wall_corner_stone.glb",
+      "bounds_m": [
+        [
+          -1.15,
+          0.0,
+          -1.15
+        ],
+        [
+          1.15,
+          3.34,
+          1.15
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "gate_stone_6m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/gate_stone_6m.glb",
+      "bounds_m": [
+        [
+          -3.825,
+          0.0,
+          -1.6212
+        ],
+        [
+          3.825,
+          5.91,
+          1.6212
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "watchtower_stone_4m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/watchtower_stone_4m.glb",
+      "bounds_m": [
+        [
+          -2.675,
+          0.0,
+          -3.0275
+        ],
+        [
+          2.675,
+          6.4,
+          3.0275
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wall_corner_wood",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/wall_corner_wood.glb",
+      "bounds_m": [
+        [
+          -1.15,
+          0.0,
+          -1.15
+        ],
+        [
+          1.15,
+          3.34,
+          1.15
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "gate_wood_6m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/gate_wood_6m.glb",
+      "bounds_m": [
+        [
+          -3.825,
+          0.0,
+          -1.6212
+        ],
+        [
+          3.825,
+          5.91,
+          1.6212
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "watchtower_wood_4m",
+      "family": "fortification",
+      "path_in_forja03": "models/forja_v3/watchtower_wood_4m.glb",
+      "bounds_m": [
+        [
+          -2.675,
+          0.0,
+          -3.0275
+        ],
+        [
+          2.675,
+          6.4,
+          3.0275
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "sect_hall_8m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/sect_hall_8m.glb",
+      "bounds_m": [
+        [
+          -4.775,
+          0.0,
+          -4.8275
+        ],
+        [
+          4.775,
+          4.91,
+          4.8275
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "temple_hall_8m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/temple_hall_8m.glb",
+      "bounds_m": [
+        [
+          -4.775,
+          0.0,
+          -4.8275
+        ],
+        [
+          4.775,
+          4.91,
+          4.8275
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "guild_hall_8m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/guild_hall_8m.glb",
+      "bounds_m": [
+        [
+          -4.775,
+          0.0,
+          -4.8275
+        ],
+        [
+          4.775,
+          4.91,
+          4.8275
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "open_pavilion_6m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/open_pavilion_6m.glb",
+      "bounds_m": [
+        [
+          -3.275,
+          0.0,
+          -3.7025
+        ],
+        [
+          3.275,
+          4.74,
+          3.7025
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "training_pavilion_6m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/training_pavilion_6m.glb",
+      "bounds_m": [
+        [
+          -3.275,
+          0.0,
+          -3.7025
+        ],
+        [
+          3.275,
+          4.74,
+          3.7025
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "martial_training_yard_6m",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/martial_training_yard_6m.glb",
+      "bounds_m": [
+        [
+          -3.0,
+          0.0,
+          -3.0
+        ],
+        [
+          3.0,
+          0.55,
+          3.0
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "training_dummy",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/training_dummy.glb",
+      "bounds_m": [
+        [
+          -1.35,
+          0.0,
+          -0.3
+        ],
+        [
+          1.35,
+          1.9,
+          0.3
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "weapons_training_rack",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/weapons_training_rack.glb",
+      "bounds_m": [
+        [
+          -1.2,
+          0.0,
+          -0.2
+        ],
+        [
+          1.2,
+          1.82,
+          0.2
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "dojo_bell",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/dojo_bell.glb",
+      "bounds_m": [
+        [
+          -1.175,
+          0.0,
+          -0.175
+        ],
+        [
+          1.175,
+          2.6,
+          0.175
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "temple_altar",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/temple_altar.glb",
+      "bounds_m": [
+        [
+          -1.25,
+          0.0,
+          -0.65
+        ],
+        [
+          1.25,
+          1.6,
+          0.65
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "temple_stela",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/temple_stela.glb",
+      "bounds_m": [
+        [
+          -0.8,
+          0.0,
+          -0.525
+        ],
+        [
+          0.8,
+          3.1,
+          0.525
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "clan_banner_pair",
+      "family": "civic",
+      "path_in_forja03": "models/forja_v3/clan_banner_pair.glb",
+      "bounds_m": [
+        [
+          -1.875,
+          0.0,
+          -0.055
+        ],
+        [
+          1.875,
+          3.8,
+          0.12
+        ]
+      ],
+      "decision": "CANDIDATE_REUSE_WHEN_BOUNDS_AND_ART_PASS",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "patrol_brazier",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/patrol_brazier.glb",
+      "bounds_m": [
+        [
+          -0.59,
+          0.0,
+          -0.59
+        ],
+        [
+          0.59,
+          1.56,
+          0.59
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "hanging_wall_torch",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/hanging_wall_torch.glb",
+      "bounds_m": [
+        [
+          -0.325,
+          0.0,
+          -0.4
+        ],
+        [
+          0.325,
+          1.12,
+          0.44
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "granary_6m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/granary_6m.glb",
+      "bounds_m": [
+        [
+          -3.775,
+          0.0,
+          -3.7025
+        ],
+        [
+          3.775,
+          4.91,
+          4.025
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "grain_silo",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/grain_silo.glb",
+      "bounds_m": [
+        [
+          -2.025,
+          0.0,
+          -2.2963
+        ],
+        [
+          2.025,
+          4.1,
+          2.2963
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "rice_field_4m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/rice_field_4m.glb",
+      "bounds_m": [
+        [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        [
+          2.0,
+          0.7,
+          2.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "vegetable_field_4m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/vegetable_field_4m.glb",
+      "bounds_m": [
+        [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        [
+          2.0,
+          0.76,
+          2.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "irrigation_channel_2m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/irrigation_channel_2m.glb",
+      "bounds_m": [
+        [
+          -1.06,
+          0.0,
+          -1.0
+        ],
+        [
+          1.06,
+          0.36,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "field_fence_2m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/field_fence_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.075
+        ],
+        [
+          1.0,
+          1.15,
+          0.075
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "farm_gate_4m",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/farm_gate_4m.glb",
+      "bounds_m": [
+        [
+          -2.1,
+          0.0,
+          -0.14
+        ],
+        [
+          2.1,
+          3.0,
+          0.14
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "water_trough",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/water_trough.glb",
+      "bounds_m": [
+        [
+          -1.15,
+          0.0,
+          -0.575
+        ],
+        [
+          1.15,
+          0.64,
+          0.575
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "hay_cart",
+      "family": "farm",
+      "path_in_forja03": "models/forja_v3/hay_cart.glb",
+      "bounds_m": [
+        [
+          -1.19,
+          0.0,
+          -0.81
+        ],
+        [
+          1.19,
+          2.13,
+          0.81
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_stone_path_2m",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/village_stone_path_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.22,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_wood_path_2m",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/village_wood_path_2m.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          -0.14,
+          -1.0
+        ],
+        [
+          1.0,
+          0.16,
+          1.0
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "street_signpost",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/street_signpost.glb",
+      "bounds_m": [
+        [
+          -1.09,
+          0.0,
+          -0.13
+        ],
+        [
+          1.125,
+          3.0,
+          0.13
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "village_notice_board",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/village_notice_board.glb",
+      "bounds_m": [
+        [
+          -1.625,
+          0.0,
+          -0.995
+        ],
+        [
+          1.625,
+          3.62,
+          0.995
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "street_lamp_post",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/street_lamp_post.glb",
+      "bounds_m": [
+        [
+          -0.1,
+          0.0,
+          -0.325
+        ],
+        [
+          1.12,
+          3.16,
+          0.325
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stone_lion_statue",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/stone_lion_statue.glb",
+      "bounds_m": [
+        [
+          -0.6,
+          0.0,
+          -0.6
+        ],
+        [
+          0.6,
+          2.33,
+          0.745
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "wood_footbridge_4m",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/wood_footbridge_4m.glb",
+      "bounds_m": [
+        [
+          -2.0,
+          0.0,
+          -1.15
+        ],
+        [
+          2.0,
+          1.7,
+          1.15
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "stone_footbridge_4m",
+      "family": "street",
+      "path_in_forja03": "models/forja_v3/stone_footbridge_4m.glb",
+      "bounds_m": [
+        [
+          -2.05,
+          0.0,
+          -1.23
+        ],
+        [
+          2.05,
+          1.6,
+          1.23
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "herbalist_garden_box",
+      "family": "nature_detail",
+      "path_in_forja03": "models/forja_v3/herbalist_garden_box.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.6
+        ],
+        [
+          1.0,
+          1.2,
+          0.6
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    },
+    {
+      "id": "tea_garden_bush",
+      "family": "nature_detail",
+      "path_in_forja03": "models/forja_v3/tea_garden_bush.glb",
+      "bounds_m": [
+        [
+          -1.0,
+          0.0,
+          -0.6
+        ],
+        [
+          1.0,
+          0.9,
+          0.6
+        ]
+      ],
+      "decision": "AVAILABLE_REFERENCE_KEEP_IN_BASE",
+      "contained_in_module_zip": false
+    }
+  ]
+}

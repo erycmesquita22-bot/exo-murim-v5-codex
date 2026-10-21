@@ -1,0 +1,63 @@
+evento,arquivo,origem,licença
+swing,assets/martial_audio/katana_1.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-katana-sword-70247/,Pixabay Content License
+swing,assets/martial_audio/kungfu_air_4.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+swing,assets/martial_audio/katana_2.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-katana-sword-70247/,Pixabay Content License
+swing,assets/martial_audio/kungfu_air_8.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+swing,assets/martial_audio/katana_3.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-katana-sword-70247/,Pixabay Content License
+punch,assets/martial_audio/kungfu_air_1.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+punch,assets/martial_audio/kungfu_air_2.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+punch,assets/martial_audio/kungfu_air_5.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+punch,assets/martial_audio/kungfu_air_6.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+arrow,assets/foley/bow_release_1.ogg,https://bigsoundbank.com/archery-s0549.html,CC0-1.0
+arrow,assets/foley/bow_release_2.ogg,https://bigsoundbank.com/archery-s0549.html,CC0-1.0
+body_hit,assets/martial_audio/palm_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+body_hit,assets/martial_audio/palm_b.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+fist_hit,assets/martial_audio/palm_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+fist_hit,assets/martial_audio/palm_b.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+fist_hit,assets/martial_audio/palm_c.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+metal_hit,assets/foley/impactMetal_light_000.ogg,https://kenney.nl/assets/impact-sounds,CC0-1.0
+metal_hit,assets/foley/impactMetal_medium_000.ogg,https://kenney.nl/assets/impact-sounds,CC0-1.0
+wood_hit,assets/martial_audio/wood_punch.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-punch-140236/,Pixabay Content License
+hurt,assets/martial_audio/hurt_male.ogg,https://pixabay.com/pt/sound-effects/pessoas-male-hurt7-48124/,Pixabay Content License
+step,assets/foley/footstep00.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+step,assets/foley/footstep01.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+step,assets/foley/footstep02.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+step,assets/foley/footstep03.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+ui,assets/foley/bookFlip1.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+crossbow,assets/foley/bow_release_2.ogg,https://bigsoundbank.com/archery-s0549.html,CC0-1.0
+equip,assets/foley/drawKnife1.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+skill_windup,assets/audio09/qi_prepare.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+ice_release,assets/martial_audio/ice_cast.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-ice-crack-4-85075/,Pixabay Content License
+fogo,assets/martial_audio/fire_cast.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-fire-breath-6922/,Pixabay Content License
+gelo,assets/martial_audio/ice_cast.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-ice-crack-4-85075/,Pixabay Content License
+vento,assets/martial_audio/wind_qi.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-whoosh-6316/,Pixabay Content License
+magia,assets/audio09/qi_release.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+summon,assets/audio09/summon.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+leap,assets/martial_audio/kungfu_air_6.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+landing,assets/foley/impactSoft_heavy_000.ogg,https://kenney.nl/assets/impact-sounds,CC0-1.0
+boss_entry,assets/audio09/boss_entry.ogg,https://opengameart.org/content/cc0-deep-monster-roar,CC0
+boss_phase,assets/audio09/boss_phase.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+hit,assets/martial_audio/dry_punch.ogg,https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-classic-punch-impact-352711/,Pixabay Content License
+mechanism,assets/foley/metalLatch.ogg,https://kenney.nl/assets/rpg-audio,CC0-1.0
+blunt_swing,assets/martial_audio/kungfu_air_3.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+blunt_swing,assets/martial_audio/kungfu_air_7.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+strong_hit,assets/martial_audio/heavy_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+strong_hit,assets/martial_audio/heavy_b.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+critical_hit,assets/martial_audio/critical_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+fatal_hit,assets/martial_audio/fatal_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+blade_hit,assets/martial_audio/blade_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+blade_hit,assets/martial_audio/blade_b.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+hurt_male,assets/martial_audio/hurt_male.ogg,https://pixabay.com/pt/sound-effects/pessoas-male-hurt7-48124/,Pixabay Content License
+hurt_female,assets/martial_audio/hurt_female.ogg,https://pixabay.com/pt/sound-effects/pessoas-ah-attacked-617384/,Pixabay Content License
+attack_male,assets/martial_audio/attack_male_a.ogg,https://pixabay.com/pt/sound-effects/pessoas-male-fighter-voice-heavy-attack-grunt-544355/,Pixabay Content License
+attack_male,assets/martial_audio/attack_male_b.ogg,https://pixabay.com/pt/sound-effects/pessoas-male-fighter-voice-2-heavy-attack-grunt-582547/,Pixabay Content License
+chronicle_koto,assets/martial_audio/chronicle_koto.ogg,https://pixabay.com/pt/sound-effects/musical-koto-hit-106066/,Pixabay Content License
+quest_complete,assets/audio09/quest_complete.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+qi_hit,assets/martial_audio/qi_contact.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+qi,assets/audio09/qi_release.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+terra,assets/martial_audio/earth_cast.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+evade,assets/martial_audio/kungfu_air_7.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+boss_prepare,assets/audio09/boss_prepare.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+boss_release,assets/audio09/boss_release.ogg,https://opengameart.org/content/80-cc0-rpg-sfx,CC0
+boss_impact,assets/martial_audio/heavy_a.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual
+boss_impact,assets/martial_audio/heavy_b.ogg,herdado: consultar manifests de audio/ e assets/,herdada; verificar registro individual

@@ -1,0 +1,54 @@
+{
+  "status": "PROPOSAL_ONLY",
+  "representatives": [
+    {
+      "id": "exo.sf.r2.punho_da_aurora_fraturada",
+      "family": "corpo",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.lamina_do_ceu_dividido",
+      "family": "armas",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.arco_de_qi_prismatico",
+      "family": "qi",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.fio_rubro_das_sombras",
+      "family": "sangue",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.corte_do_abismo_pulsante",
+      "family": "demonica",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.espada_da_constelacao_clara",
+      "family": "celestial",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    },
+    {
+      "id": "exo.sf.r2.corte_de_tres_tempos",
+      "family": "mundana",
+      "native_gameplay": "NOT_RUN",
+      "mock_host": "TESTED_OFFLINE",
+      "actual_combat_host": "BLOCKED"
+    }
+  ]
+}

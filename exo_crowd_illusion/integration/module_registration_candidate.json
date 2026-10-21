@@ -1,0 +1,24 @@
+{
+  "id": "crowd_illusion",
+  "version": "1.0.4",
+  "requires": {
+    "world": "1.0.0"
+  },
+  "optional": {
+    "living_world": "1.0.0",
+    "appearance": "1.0.0"
+  },
+  "services": [
+    "crowd.illusion"
+  ],
+  "publishes": [],
+  "consumes": [
+    "region_entered",
+    "region_exited",
+    "entity_state_changed"
+  ],
+  "persistence": {},
+  "entrypoint": "res://exo_crowd_illusion/module.gd",
+  "optional_module": true,
+  "integration_mode": "crowd_r4_receipt_gated_opt_in"
+}

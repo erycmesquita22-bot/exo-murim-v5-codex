@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "godot_native": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "tests_scope": "Real GLB parsing + JSON contracts + AABB pathfinding + Python synthetic footprint scenarios; NOT GDScript/runtime",
+  "counts": {
+    "checks": 22877,
+    "passed": 22877,
+    "glb_models": 18,
+    "routes_explored": 39542,
+    "layouts": 11,
+    "gd_scripts": 8,
+    "synthetic_sites": 22352
+  },
+  "failures": [],
+  "timestamp_utc": "2026-10-19T19:32:36.937724+00:00"
+}

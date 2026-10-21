@@ -1,0 +1,408 @@
+{
+  "domain": "regional_policy",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/taxa_de_mercado_temporaria",
+      "label": "Taxa de mercado temporária",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "taxa_de_mercado_temporaria"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Taxa de mercado temporária",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "taxa_de_mercado_temporaria"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/protecao_a_curandeiros",
+      "label": "Proteção a curandeiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "protecao_a_curandeiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Proteção a curandeiros",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "protecao_a_curandeiros"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/circulacao_livre_de_peregrinos",
+      "label": "Circulação livre de peregrinos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "circulacao_livre_de_peregrinos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Circulação livre de peregrinos",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "circulacao_livre_de_peregrinos"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/proibicao_de_duelos_na_praca",
+      "label": "Proibição de duelos na praça",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "proibicao_de_duelos_na_praca"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Proibição de duelos na praça",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "proibicao_de_duelos_na_praca"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/permissao_de_treino_publico",
+      "label": "Permissão de treino público",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "permissao_de_treino_publico"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Permissão de treino público",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "permissao_de_treino_publico"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/prioridade_a_reparos_de_ponte",
+      "label": "Prioridade a reparos de ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "prioridade_a_reparos_de_ponte"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Prioridade a reparos de ponte",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "prioridade_a_reparos_de_ponte"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/cotas_de_madeira_comunitarias",
+      "label": "Cotas de madeira comunitárias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "cotas_de_madeira_comunitarias"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Cotas de madeira comunitárias",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "cotas_de_madeira_comunitarias"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/registro_de_caravanas",
+      "label": "Registro de caravanas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "registro_de_caravanas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Registro de caravanas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "registro_de_caravanas"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/apoio_aos_aldeoes_endividados",
+      "label": "Apoio aos aldeões endividados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "apoio_aos_aldeoes_endividados"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Apoio aos aldeões endividados",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "apoio_aos_aldeoes_endividados"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/restricao_a_caca_perto_de_moradias",
+      "label": "Restrição a caça perto de moradias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "restricao_a_caca_perto_de_moradias"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Restrição a caça perto de moradias",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "restricao_a_caca_perto_de_moradias"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/guarda_extra_no_portao",
+      "label": "Guarda extra no portão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "guarda_extra_no_portao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Guarda extra no portão",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "guarda_extra_no_portao"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "regional_policy",
+      "excludes": [],
+      "id": "regional_policy/festival_com_comercio_noturno",
+      "label": "Festival com comércio noturno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "law_hint",
+        "festival_com_comercio_noturno",
+        "public_festival"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Festival com comércio noturno",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "narrative",
+        "theme_key": "festival_com_comercio_noturno"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

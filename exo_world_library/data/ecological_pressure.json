@@ -1,0 +1,368 @@
+{
+  "domain": "ecological_pressure",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/feras_atraidas_por_descarte",
+      "label": "Feras atraídas por descarte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "feras_atraidas_por_descarte"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Feras atraídas por descarte",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "feras_atraidas_por_descarte"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/ervas_raras_sob_coleta_intensa",
+      "label": "Ervas raras sob coleta intensa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "ervas_raras_sob_coleta_intensa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ervas raras sob coleta intensa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "ervas_raras_sob_coleta_intensa"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/migracao_de_cervos",
+      "label": "Migração de cervos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "migracao_de_cervos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Migração de cervos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "migracao_de_cervos"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/predadores_proximos_as_rotas",
+      "label": "Predadores próximos às rotas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "predadores_proximos_as_rotas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Predadores próximos às rotas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "predadores_proximos_as_rotas"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/ninho_junto_a_ruinas",
+      "label": "Ninho junto a ruínas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "ninho_junto_a_ruinas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ninho junto a ruínas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "ninho_junto_a_ruinas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/vegetacao_se_recuperando",
+      "label": "Vegetação se recuperando",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "vegetacao_se_recuperando"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vegetação se recuperando",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "vegetacao_se_recuperando"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/lobos_cacando_no_inverno",
+      "label": "Lobos caçando no inverno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "lobos_cacando_no_inverno"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Lobos caçando no inverno",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "lobos_cacando_no_inverno"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/serpentes_perto_de_agua",
+      "label": "Serpentes perto de água",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "serpentes_perto_de_agua"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Serpentes perto de água",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "serpentes_perto_de_agua"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/terreno_afetado_por_seca",
+      "label": "Terreno afetado por seca",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "terreno_afetado_por_seca"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Terreno afetado por seca",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "terreno_afetado_por_seca"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/minerio_escasso_proximo_a_cidade",
+      "label": "Minério escasso próximo à cidade",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "minerio_escasso_proximo_a_cidade"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Minério escasso próximo à cidade",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "minerio_escasso_proximo_a_cidade"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/flores_atraem_pequenos_animais",
+      "label": "Flores atraem pequenos animais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "flores_atraem_pequenos_animais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Flores atraem pequenos animais",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "flores_atraem_pequenos_animais"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "wetland"
+      },
+      "domain": "ecological_pressure",
+      "excludes": [],
+      "id": "ecological_pressure/peixes_mudaram_de_margem",
+      "label": "Peixes mudaram de margem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ecology",
+        "world",
+        "peixes_mudaram_de_margem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Peixes mudaram de margem",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "peixes_mudaram_de_margem"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

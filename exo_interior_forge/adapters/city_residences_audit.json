@@ -1,0 +1,1403 @@
+{
+  "source": "EXO-CITY-FORGE-01-R3.zip",
+  "warning": "district building IDs are local; host must mint persistent global placement IDs",
+  "records": 73,
+  "by_candidate_role": {
+    "residencia_comum": 45,
+    "moradia_de_mestre_ou_discipulo": 7,
+    "residencia_de_nobre_ou_cla": 5,
+    "familia_comum": 4,
+    "residencia_ribeirinha": 8,
+    "escriba_ou_funcionario": 4
+  },
+  "access_flag_false_count": 73,
+  "residences": [
+    {
+      "district_id": "art_ceramica_barro",
+      "district_tags": [
+        "artisan",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "art_ceramica_barro/b01",
+      "exterior_size_m": [
+        5.45,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "art_smiths",
+      "district_tags": [
+        "artisan",
+        "forge",
+        "artisans"
+      ],
+      "building_local_id": "art_smiths/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "art_tear_familiar",
+      "district_tags": [
+        "artisan",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "art_tear_familiar/b00",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "com_herb_lane",
+      "district_tags": [
+        "commercial",
+        "herbal",
+        "healers"
+      ],
+      "building_local_id": "com_herb_lane/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "ins_escola_letras",
+      "district_tags": [
+        "institutional",
+        "r3",
+        "town_civic"
+      ],
+      "building_local_id": "ins_escola_letras/b01",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "ins_magistrate",
+      "district_tags": [
+        "institutional",
+        "civic",
+        "officials"
+      ],
+      "building_local_id": "ins_magistrate/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "ins_sala_conselho",
+      "district_tags": [
+        "institutional",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "ins_sala_conselho/b01",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "ins_santuario_rural",
+      "district_tags": [
+        "institutional",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "ins_santuario_rural/b01",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "ins_temple",
+      "district_tags": [
+        "institutional",
+        "temple",
+        "clergy"
+      ],
+      "building_local_id": "ins_temple/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_bamboo_school",
+      "district_tags": [
+        "martial",
+        "bamboo",
+        "students"
+      ],
+      "building_local_id": "mar_bamboo_school/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_duel_square",
+      "district_tags": [
+        "martial",
+        "duel",
+        "warriors"
+      ],
+      "building_local_id": "mar_duel_square/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_mestre_itinerante",
+      "district_tags": [
+        "martial",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "mar_mestre_itinerante/b01",
+      "exterior_size_m": [
+        5.45,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_patio_treino_bambu",
+      "district_tags": [
+        "martial",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "mar_patio_treino_bambu/b01",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_training_yard",
+      "district_tags": [
+        "martial",
+        "training",
+        "disciples"
+      ],
+      "building_local_id": "mar_training_yard/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_training_yard",
+      "district_tags": [
+        "martial",
+        "training",
+        "disciples"
+      ],
+      "building_local_id": "mar_training_yard/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mar_vigia_trilha",
+      "district_tags": [
+        "martial",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "mar_vigia_trilha/b01",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "moradia_de_mestre_ou_discipulo",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mix_estrada_pouso",
+      "district_tags": [
+        "mixed",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "mix_estrada_pouso/b01",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_farm_trade",
+      "district_tags": [
+        "mixed",
+        "farm",
+        "farmers"
+      ],
+      "building_local_id": "mixed_farm_trade/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_guard_market",
+      "district_tags": [
+        "mixed",
+        "guarded",
+        "guards"
+      ],
+      "building_local_id": "mixed_guard_market/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_guard_market",
+      "district_tags": [
+        "mixed",
+        "guarded",
+        "guards"
+      ],
+      "building_local_id": "mixed_guard_market/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_orchard_trade",
+      "district_tags": [
+        "mixed",
+        "garden",
+        "city_forge_r2"
+      ],
+      "building_local_id": "mixed_orchard_trade/b01",
+      "exterior_size_m": [
+        6.0,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_orchard_trade",
+      "district_tags": [
+        "mixed",
+        "garden",
+        "city_forge_r2"
+      ],
+      "building_local_id": "mixed_orchard_trade/b03",
+      "exterior_size_m": [
+        7.3,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_roadside_hostel",
+      "district_tags": [
+        "mixed",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "mixed_roadside_hostel/b01",
+      "exterior_size_m": [
+        7.3,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "mixed_roadside_hostel",
+      "district_tags": [
+        "mixed",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "mixed_roadside_hostel/b03",
+      "exterior_size_m": [
+        6.65,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "noble_clan_court",
+      "district_tags": [
+        "noble",
+        "noble",
+        "clans"
+      ],
+      "building_local_id": "noble_clan_court/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_de_nobre_ou_cla",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "noble_clan_court",
+      "district_tags": [
+        "noble",
+        "noble",
+        "clans"
+      ],
+      "building_local_id": "noble_clan_court/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_de_nobre_ou_cla",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "noble_mansao_vila",
+      "district_tags": [
+        "noble",
+        "r3",
+        "town_civic"
+      ],
+      "building_local_id": "noble_mansao_vila/b01",
+      "exterior_size_m": [
+        5.0,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_de_nobre_ou_cla",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "noble_moon_orchid",
+      "district_tags": [
+        "noble",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "noble_moon_orchid/b00",
+      "exterior_size_m": [
+        6.65,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_de_nobre_ou_cla",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "noble_moon_orchid",
+      "district_tags": [
+        "noble",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "noble_moon_orchid/b01",
+      "exterior_size_m": [
+        7.3,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_de_nobre_ou_cla",
+      "importance_suggested": "high_if_named_npc_or_quest",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "plaza_arvore_ancestral",
+      "district_tags": [
+        "plaza",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "plaza_arvore_ancestral/b01",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "plaza_poco_comunal",
+      "district_tags": [
+        "plaza",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "plaza_poco_comunal/b00",
+      "exterior_size_m": [
+        5.0,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_barro",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_barro/b00",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_barro",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_barro/b01",
+      "exterior_size_m": [
+        5.45,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_pilotis",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_pilotis/b00",
+      "exterior_size_m": [
+        5.9,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_pilotis",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_pilotis/b01",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_sapê",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_sapê/b00",
+      "exterior_size_m": [
+        5.9,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_casas_sapê",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_casas_sapê/b01",
+      "exterior_size_m": [
+        5.0,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_clareira_pinheiros",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_clareira_pinheiros/b00",
+      "exterior_size_m": [
+        5.45,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_clareira_pinheiros",
+      "district_tags": [
+        "residential",
+        "r3",
+        "authorial_rural"
+      ],
+      "building_local_id": "res_clareira_pinheiros/b01",
+      "exterior_size_m": [
+        5.9,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_family_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "families"
+      ],
+      "building_local_id": "res_family_court/b00",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "familia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_family_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "families"
+      ],
+      "building_local_id": "res_family_court/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "familia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_family_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "families"
+      ],
+      "building_local_id": "res_family_court/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "familia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_family_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "families"
+      ],
+      "building_local_id": "res_family_court/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "familia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_fisher_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_fisher_court/b00",
+      "exterior_size_m": [
+        6.0,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_fisher_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_fisher_court/b01",
+      "exterior_size_m": [
+        6.65,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_fisher_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_fisher_court/b02",
+      "exterior_size_m": [
+        7.3,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_fisher_court",
+      "district_tags": [
+        "residential",
+        "courtyard",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_fisher_court/b03",
+      "exterior_size_m": [
+        6.0,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_garden_row",
+      "district_tags": [
+        "residential",
+        "garden",
+        "gardeners"
+      ],
+      "building_local_id": "res_garden_row/b00",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_garden_row",
+      "district_tags": [
+        "residential",
+        "garden",
+        "gardeners"
+      ],
+      "building_local_id": "res_garden_row/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_garden_row",
+      "district_tags": [
+        "residential",
+        "garden",
+        "gardeners"
+      ],
+      "building_local_id": "res_garden_row/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_narrow_lanes",
+      "district_tags": [
+        "residential",
+        "alley",
+        "workers"
+      ],
+      "building_local_id": "res_narrow_lanes/b00",
+      "exterior_size_m": [
+        6.4,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_narrow_lanes",
+      "district_tags": [
+        "residential",
+        "alley",
+        "workers"
+      ],
+      "building_local_id": "res_narrow_lanes/b01",
+      "exterior_size_m": [
+        6.4,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_narrow_lanes",
+      "district_tags": [
+        "residential",
+        "alley",
+        "workers"
+      ],
+      "building_local_id": "res_narrow_lanes/b02",
+      "exterior_size_m": [
+        6.4,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_narrow_lanes",
+      "district_tags": [
+        "residential",
+        "alley",
+        "workers"
+      ],
+      "building_local_id": "res_narrow_lanes/b03",
+      "exterior_size_m": [
+        6.4,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_narrow_lanes",
+      "district_tags": [
+        "residential",
+        "alley",
+        "workers"
+      ],
+      "building_local_id": "res_narrow_lanes/b04",
+      "exterior_size_m": [
+        6.4,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_patio_tecelas",
+      "district_tags": [
+        "residential",
+        "r3",
+        "town_civic"
+      ],
+      "building_local_id": "res_patio_tecelas/b00",
+      "exterior_size_m": [
+        5.9,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_patio_tecelas",
+      "district_tags": [
+        "residential",
+        "r3",
+        "town_civic"
+      ],
+      "building_local_id": "res_patio_tecelas/b01",
+      "exterior_size_m": [
+        5.0,
+        5.1
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_patio_tecelas",
+      "district_tags": [
+        "residential",
+        "r3",
+        "town_civic"
+      ],
+      "building_local_id": "res_patio_tecelas/b02",
+      "exterior_size_m": [
+        5.45,
+        5.75
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_pine_village",
+      "district_tags": [
+        "residential",
+        "garden",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_pine_village/b00",
+      "exterior_size_m": [
+        6.0,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_pine_village",
+      "district_tags": [
+        "residential",
+        "garden",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_pine_village/b01",
+      "exterior_size_m": [
+        6.65,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_pine_village",
+      "district_tags": [
+        "residential",
+        "garden",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_pine_village/b02",
+      "exterior_size_m": [
+        7.3,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_river_terrace",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "fisherfolk"
+      ],
+      "building_local_id": "res_river_terrace/b00",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_river_terrace",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "fisherfolk"
+      ],
+      "building_local_id": "res_river_terrace/b01",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_river_terrace",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "fisherfolk"
+      ],
+      "building_local_id": "res_river_terrace/b02",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_river_terrace",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "fisherfolk"
+      ],
+      "building_local_id": "res_river_terrace/b03",
+      "exterior_size_m": [
+        8.0,
+        8.0
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_ribeirinha",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_scribes_lane",
+      "district_tags": [
+        "residential",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_scribes_lane/b00",
+      "exterior_size_m": [
+        7.3,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "escriba_ou_funcionario",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_scribes_lane",
+      "district_tags": [
+        "residential",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_scribes_lane/b01",
+      "exterior_size_m": [
+        6.0,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "escriba_ou_funcionario",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_scribes_lane",
+      "district_tags": [
+        "residential",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_scribes_lane/b02",
+      "exterior_size_m": [
+        6.65,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "escriba_ou_funcionario",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_scribes_lane",
+      "district_tags": [
+        "residential",
+        "strip",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_scribes_lane/b03",
+      "exterior_size_m": [
+        7.3,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "escriba_ou_funcionario",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_terraced_steps",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_terraced_steps/b00",
+      "exterior_size_m": [
+        6.65,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_terraced_steps",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_terraced_steps/b01",
+      "exterior_size_m": [
+        7.3,
+        5.3
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_terraced_steps",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_terraced_steps/b02",
+      "exterior_size_m": [
+        6.0,
+        6.6
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    },
+    {
+      "district_id": "res_terraced_steps",
+      "district_tags": [
+        "residential",
+        "terrace",
+        "city_forge_r2"
+      ],
+      "building_local_id": "res_terraced_steps/b03",
+      "exterior_size_m": [
+        6.65,
+        5.95
+      ],
+      "door_facing": "inner",
+      "city_forge_interior_slot": false,
+      "role_candidate": "residencia_comum",
+      "importance_suggested": "conditional",
+      "access_policy": "closed_until_host_important_override_or_quest_receipt",
+      "need_owner_identity": true
+    }
+  ]
+}

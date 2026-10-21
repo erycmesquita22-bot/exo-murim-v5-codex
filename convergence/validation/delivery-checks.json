@@ -1,0 +1,14 @@
+[
+  {
+    "name": "motion0933",
+    "pass": true
+  },
+  {
+    "name": "forja-benchmark",
+    "pass": true
+  },
+  {
+    "name": "atlas-stress",
+    "pass": true
+  }
+]

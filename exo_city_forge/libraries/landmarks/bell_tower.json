@@ -1,0 +1,13 @@
+{
+  "id": "bell_tower",
+  "name": "Torre do Sino",
+  "kind": "tower",
+  "footprint": [
+    6,
+    6
+  ],
+  "asset_recipe": "tower",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry"
+}

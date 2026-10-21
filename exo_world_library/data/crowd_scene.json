@@ -1,0 +1,282 @@
+{
+  "domain": "crowd_scene",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/wandering",
+      "label": "Viajantes de passagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "wandering"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/marketday",
+      "label": "Mercado movimentado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "marketday"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/temple",
+      "label": "Procissão no templo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "temple"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/sect_parade",
+      "label": "Desfile de discípulos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "sect_parade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/rain_shelter",
+      "label": "Abrigo após chuva",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "rain_shelter"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/story_circle",
+      "label": "Roda de histórias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "story_circle"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/delivery",
+      "label": "Cargas atravessando rua",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "delivery"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/training_view",
+      "label": "Plateia da escola",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "training_view"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/evening",
+      "label": "Volta para casa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "evening"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/guard_change",
+      "label": "Troca de guarda",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "guard_change"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/caravan",
+      "label": "Comitiva de mercadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "caravan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "crowd_scene",
+      "excludes": [],
+      "id": "crowd_scene/festival",
+      "label": "Festa de lanternas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "crowd",
+        "ambient"
+      ],
+      "variables": {
+        "npc_identity": "none",
+        "population_kind": "phantom_only",
+        "safe_placement_required": true,
+        "scene_key": "festival"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

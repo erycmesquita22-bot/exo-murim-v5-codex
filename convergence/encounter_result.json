@@ -1,0 +1,4 @@
+{
+	"failures": [],
+	"fixture": "Existing enemy, AI disabled and 1HP; sword attack via Input; original damage, loot and inventory systems, real collision."
+}

@@ -1,0 +1,55 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Mesma seed, versão e parâmetros reproduzem todo o item
+OK Fluxo cosmético não altera o saque nem muta o mundo
+OK Lote de 2000 itens respeita catálogo, afixos, compatibilidade e limites
+OK Seeds/chaves produzem variedade mecânica e quatro raridades
+OK Geração de dados não cria nós de cena
+OK Outra seed altera uma combinação válida
+OK Atributo fora dos limites é rejeitado
+OK Versão de item desconhecida não é regenerada silenciosamente
+OK Afixo inexistente é rejeitado
+OK Save real escrito pela 09.1 recebe extensão procedural
+OK Cópia pré-migração preserva bytes e estado desarmado
+OK Save migrado grava sem perder o inventário antigo
+OK Identidade e seed migradas sobrevivem à nova instância
+OK Arquivo inválido é informado e preservado contra autosave
+OK Novo personagem abre a aventura real
+OK Mundo registra seed definida e identificador persistente
+OK Dano real derrota inimigo da estrada
+OK Derrota real materializa um saque uma única vez
+OK Saque contém equipamento procedural completo, não somente referência
+OK Saque não recolhido preserva seus sorteios no disco
+OK Falha após primeira recompensa reverte itens, UIDs e todo o saque
+OK Interação do mundo recolhe equipamento e recompensas fixas
+OK Inventário recebe exatamente a instância materializada
+OK Arco e manual fixos da missão continuam disponíveis
+OK Reabrir interação ou repetir derrota não duplica recompensa
+OK Item procedural equipa pelo inventário existente
+OK Qualidade do equipamento altera dano-base utilizado
+OK Equipamento e seus atributos salvam na aventura
+OK Nova instância de save preserva exatamente propriedades e item equipado
+OK Identidade do mundo e recompensa recolhida persistem
+OK Duas instâncias com a mesma identidade são rejeitadas
+OK Gerador oferece amostra para guard
+OK Equipa amostra válida para guard
+OK Gerador oferece amostra para move_pct
+OK Equipa amostra válida para move_pct
+OK Gerador oferece amostra para mana_regen
+OK Equipa amostra válida para mana_regen
+OK Gerador oferece amostra para stamina_regen
+OK Equipa amostra válida para stamina_regen
+OK Gerador oferece amostra para agilidade
+OK Equipa amostra válida para agilidade
+OK Gerador oferece amostra para inteligencia
+OK Equipa amostra válida para inteligencia
+OK Gerador oferece amostra para elemental_pct
+OK Equipa amostra válida para elemental_pct
+OK Atributos, defesa, recuperação e afinidade modificam sistemas reais
+OK Guardar arma não transfere seus bônus para mãos livres
+PROCEDURAL_BENCH {"count":2000,"elapsed_ms":190.888,"node_delta":0,"unique_stat_sets":1282}
+PROCEDURAL092 47 passaram / 0 falharam
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2641)
+ERROR: 8 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

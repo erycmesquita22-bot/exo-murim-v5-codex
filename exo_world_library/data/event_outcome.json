@@ -1,0 +1,456 @@
+{
+  "domain": "event_outcome",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/reconciliacao_condicionada",
+      "label": "Reconciliação condicionada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "reconciliacao_condicionada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Reconciliação condicionada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "reconciliacao_condicionada"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/fuga_do_culpado",
+      "label": "Fuga do culpado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "fuga_do_culpado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Fuga do culpado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "fuga_do_culpado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/perda_de_confianca_local",
+      "label": "Perda de confiança local",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "perda_de_confianca_local"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Perda de confiança local",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "perda_de_confianca_local"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/criacao_de_novo_contrato",
+      "label": "Criação de novo contrato",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "criacao_de_novo_contrato"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Criação de novo contrato",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "criacao_de_novo_contrato"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/aumento_de_patrulhas",
+      "label": "Aumento de patrulhas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "aumento_de_patrulhas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aumento de patrulhas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "aumento_de_patrulhas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/mercador_muda_a_rota",
+      "label": "Mercador muda a rota",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "mercador_muda_a_rota"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mercador muda a rota",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mercador_muda_a_rota"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/familia_concede_abrigo",
+      "label": "Família concede abrigo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "familia_concede_abrigo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Família concede abrigo",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "familia_concede_abrigo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/rumor_se_torna_fato",
+      "label": "Rumor se torna fato",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "rumor_se_torna_fato"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rumor se torna fato",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rumor_se_torna_fato"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/aprendiz_decide_partir",
+      "label": "Aprendiz decide partir",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "aprendiz_decide_partir"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aprendiz decide partir",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "aprendiz_decide_partir"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/vila_financia_reparos",
+      "label": "Vila financia reparos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "vila_financia_reparos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Vila financia reparos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "vila_financia_reparos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/seita_solicita_audiencia",
+      "label": "Seita solicita audiência",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "seita_solicita_audiencia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Seita solicita audiência",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "seita_solicita_audiencia"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/guardas_investigam_trilha",
+      "label": "Guardas investigam trilha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "guardas_investigam_trilha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Guardas investigam trilha",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "guardas_investigam_trilha"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/tregua_de_um_ciclo",
+      "label": "Trégua de um ciclo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "tregua_de_um_ciclo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Trégua de um ciclo",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "tregua_de_um_ciclo"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/mentira_perde_credibilidade",
+      "label": "Mentira perde credibilidade",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "mentira_perde_credibilidade"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mentira perde credibilidade",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mentira_perde_credibilidade"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "event_outcome",
+      "excludes": [],
+      "id": "event_outcome/mestre_anuncia_nova_prova",
+      "label": "Mestre anuncia nova prova",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "consequence",
+        "mestre_anuncia_nova_prova"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mestre anuncia nova prova",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mestre_anuncia_nova_prova"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

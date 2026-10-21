@@ -1,0 +1,1458 @@
+{
+  "name": "EXO-Murim — Acervo Ambiental 01 (proposta para aprovação)",
+  "status": "PROTÓTIPO DE ASSETS, AINDA NÃO INTEGRADO AO JOGO",
+  "size_px": 128,
+  "terrain_materials": 24,
+  "wall_materials": 22,
+  "floor_materials": 14,
+  "transition_pairs": [
+    {
+      "over": "grama_viva",
+      "under": "terra_castanha",
+      "folder": "04_TRANSICOES/terra_castanha__para__grama_viva",
+      "tiles": 16
+    },
+    {
+      "over": "grama_prado",
+      "under": "trilha_batida",
+      "folder": "04_TRANSICOES/trilha_batida__para__grama_prado",
+      "tiles": 16
+    },
+    {
+      "over": "grama_seca",
+      "under": "terra_clara",
+      "folder": "04_TRANSICOES/terra_clara__para__grama_seca",
+      "tiles": 16
+    },
+    {
+      "over": "relva_bambu",
+      "under": "solo_florestal",
+      "folder": "04_TRANSICOES/solo_florestal__para__relva_bambu",
+      "tiles": 16
+    },
+    {
+      "over": "solo_florestal",
+      "under": "rocha_cinza",
+      "folder": "04_TRANSICOES/rocha_cinza__para__solo_florestal",
+      "tiles": 16
+    },
+    {
+      "over": "terra_castanha",
+      "under": "rocha_cinza",
+      "folder": "04_TRANSICOES/rocha_cinza__para__terra_castanha",
+      "tiles": 16
+    },
+    {
+      "over": "areia_bege",
+      "under": "grama_seca",
+      "folder": "04_TRANSICOES/grama_seca__para__areia_bege",
+      "tiles": 16
+    },
+    {
+      "over": "pedra_musgosa",
+      "under": "lajes_ruina_cinza",
+      "folder": "04_TRANSICOES/lajes_ruina_cinza__para__pedra_musgosa",
+      "tiles": 16
+    }
+  ],
+  "transition_tiles": 128,
+  "decal_png": 16,
+  "objects_glb": [
+    {
+      "name": "bambu_alto",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_alto.glb",
+      "preview": "00_CATALOGO/thumb_bambu_alto.png",
+      "bounds_m": [
+        2.05,
+        4.266,
+        0.26
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "bambu_grupo",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_grupo.glb",
+      "preview": "00_CATALOGO/thumb_bambu_grupo.png",
+      "bounds_m": [
+        2.749,
+        4.27,
+        0.376
+      ],
+      "triangles": 816
+    },
+    {
+      "name": "bambu_bosque",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_bosque.glb",
+      "preview": "00_CATALOGO/thumb_bambu_bosque.png",
+      "bounds_m": [
+        2.926,
+        4.347,
+        0.751
+      ],
+      "triangles": 1836
+    },
+    {
+      "name": "pinheiro_pequeno",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.glb",
+      "preview": "00_CATALOGO/thumb_pinheiro_pequeno.png",
+      "bounds_m": [
+        1.88,
+        3.35,
+        1.88
+      ],
+      "triangles": 160
+    },
+    {
+      "name": "pinheiro_grande",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_grande.glb",
+      "preview": "00_CATALOGO/thumb_pinheiro_grande.png",
+      "bounds_m": [
+        2.256,
+        3.35,
+        2.256
+      ],
+      "triangles": 160
+    },
+    {
+      "name": "arvore_folhosa",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhosa.glb",
+      "preview": "00_CATALOGO/thumb_arvore_folhosa.png",
+      "bounds_m": [
+        2.8,
+        4.364,
+        2.29
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arvore_grande",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_grande.glb",
+      "preview": "00_CATALOGO/thumb_arvore_grande.png",
+      "bounds_m": [
+        2.8,
+        5.939,
+        2.29
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "cerejeira",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "preview": "00_CATALOGO/thumb_cerejeira.png",
+      "bounds_m": [
+        2.65,
+        4.525,
+        2.24
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arvore_folhas_vermelhas",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.glb",
+      "preview": "00_CATALOGO/thumb_arvore_folhas_vermelhas.png",
+      "bounds_m": [
+        2.65,
+        4.525,
+        2.24
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arbusto",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arbusto.glb",
+      "preview": "00_CATALOGO/thumb_arbusto.png",
+      "bounds_m": [
+        1.609,
+        0.899,
+        1.458
+      ],
+      "triangles": 84
+    },
+    {
+      "name": "moita_densa",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/moita_densa.glb",
+      "preview": "00_CATALOGO/thumb_moita_densa.png",
+      "bounds_m": [
+        1.714,
+        0.836,
+        1.539
+      ],
+      "triangles": 132
+    },
+    {
+      "name": "rocha_pequena",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rocha_pequena.glb",
+      "preview": "00_CATALOGO/thumb_rocha_pequena.png",
+      "bounds_m": [
+        0.997,
+        0.347,
+        1.163
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "rochas_medias",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rochas_medias.glb",
+      "preview": "00_CATALOGO/thumb_rochas_medias.png",
+      "bounds_m": [
+        2.435,
+        0.822,
+        2.18
+      ],
+      "triangles": 108
+    },
+    {
+      "name": "rocha_grande",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rocha_grande.glb",
+      "preview": "00_CATALOGO/thumb_rocha_grande.png",
+      "bounds_m": [
+        3.816,
+        1.157,
+        3.968
+      ],
+      "triangles": 168
+    },
+    {
+      "name": "formacao_rochosa",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/formacao_rochosa.glb",
+      "preview": "00_CATALOGO/thumb_formacao_rochosa.png",
+      "bounds_m": [
+        4.871,
+        3.735,
+        4.606
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "penhasco_baixo",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_baixo.glb",
+      "preview": "00_CATALOGO/thumb_penhasco_baixo.png",
+      "bounds_m": [
+        2.45,
+        1.406,
+        1.65
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "penhasco_alto",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_alto.glb",
+      "preview": "00_CATALOGO/thumb_penhasco_alto.png",
+      "bounds_m": [
+        2.45,
+        2.442,
+        1.65
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "cristal_purpura",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/cristal_purpura.glb",
+      "preview": "00_CATALOGO/thumb_cristal_purpura.png",
+      "bounds_m": [
+        1.436,
+        2.171,
+        1.399
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "cristal_ciano",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/cristal_ciano.glb",
+      "preview": "00_CATALOGO/thumb_cristal_ciano.png",
+      "bounds_m": [
+        1.457,
+        2.21,
+        1.193
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "parede_ruina_reta",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_reta.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_reta.png",
+      "bounds_m": [
+        3.365,
+        2.0,
+        0.468
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "parede_ruina_danificada",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_danificada.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_danificada.png",
+      "bounds_m": [
+        3.215,
+        2.115,
+        1.025
+      ],
+      "triangles": 180
+    },
+    {
+      "name": "parede_ruina_canto",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_canto.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_canto.png",
+      "bounds_m": [
+        3.2,
+        2.0,
+        2.425
+      ],
+      "triangles": 216
+    },
+    {
+      "name": "parede_masmorra",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/parede_masmorra.glb",
+      "preview": "00_CATALOGO/thumb_parede_masmorra.png",
+      "bounds_m": [
+        3.365,
+        2.0,
+        0.495
+      ],
+      "triangles": 216
+    },
+    {
+      "name": "arco_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina.glb",
+      "preview": "00_CATALOGO/thumb_arco_ruina.png",
+      "bounds_m": [
+        2.75,
+        3.05,
+        0.92
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "arco_ruina_musgoso",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.glb",
+      "preview": "00_CATALOGO/thumb_arco_ruina_musgoso.png",
+      "bounds_m": [
+        2.75,
+        3.3,
+        0.92
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "pilar_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/pilar_ruina.glb",
+      "preview": "00_CATALOGO/thumb_pilar_ruina.png",
+      "bounds_m": [
+        1.15,
+        3.74,
+        1.15
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "coluna_quebrada",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/coluna_quebrada.glb",
+      "preview": "00_CATALOGO/thumb_coluna_quebrada.png",
+      "bounds_m": [
+        1.15,
+        2.79,
+        1.15
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "escadaria_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/escadaria_pedra.glb",
+      "preview": "00_CATALOGO/thumb_escadaria_pedra.png",
+      "bounds_m": [
+        2.7,
+        1.44,
+        2.4
+      ],
+      "triangles": 72
+    },
+    {
+      "name": "laje_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/laje_ruina.glb",
+      "preview": "00_CATALOGO/thumb_laje_ruina.png",
+      "bounds_m": [
+        3.0,
+        0.36,
+        3.0
+      ],
+      "triangles": 12
+    },
+    {
+      "name": "altar_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/altar_pedra.glb",
+      "preview": "00_CATALOGO/thumb_altar_pedra.png",
+      "bounds_m": [
+        2.5,
+        1.5,
+        2.2
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "obelisco",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/obelisco.glb",
+      "preview": "00_CATALOGO/thumb_obelisco.png",
+      "bounds_m": [
+        1.7,
+        4.305,
+        1.7
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "entulho_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/entulho_pedra.glb",
+      "preview": "00_CATALOGO/thumb_entulho_pedra.png",
+      "bounds_m": [
+        3.025,
+        0.693,
+        1.57
+      ],
+      "triangles": 168
+    },
+    {
+      "name": "portao_torii",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/portao_torii.glb",
+      "preview": "00_CATALOGO/thumb_portao_torii.png",
+      "bounds_m": [
+        4.3,
+        3.98,
+        1.39
+      ],
+      "triangles": 56
+    },
+    {
+      "name": "portao_templete",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/portao_templete.glb",
+      "preview": "00_CATALOGO/thumb_portao_templete.png",
+      "bounds_m": [
+        4.3,
+        3.98,
+        1.39
+      ],
+      "triangles": 56
+    },
+    {
+      "name": "telhado_rufo_vermelho",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.glb",
+      "preview": "00_CATALOGO/thumb_telhado_rufo_vermelho.png",
+      "bounds_m": [
+        3.83,
+        1.325,
+        3.6
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "telhado_rufo_azul",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_azul.glb",
+      "preview": "00_CATALOGO/thumb_telhado_rufo_azul.png",
+      "bounds_m": [
+        3.83,
+        1.325,
+        3.6
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "casa_modular",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "preview": "00_CATALOGO/thumb_casa_modular.png",
+      "bounds_m": [
+        3.65,
+        3.68,
+        3.43
+      ],
+      "triangles": 68
+    },
+    {
+      "name": "ponte_madeira",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/ponte_madeira.glb",
+      "preview": "00_CATALOGO/thumb_ponte_madeira.png",
+      "bounds_m": [
+        2.3,
+        1.25,
+        4.46
+      ],
+      "triangles": 228
+    },
+    {
+      "name": "cerca_segmento",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/cerca_segmento.glb",
+      "preview": "00_CATALOGO/thumb_cerca_segmento.png",
+      "bounds_m": [
+        2.5,
+        1.5,
+        0.24
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "poste_lanterna",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "preview": "00_CATALOGO/thumb_poste_lanterna.png",
+      "bounds_m": [
+        0.9,
+        3.6,
+        0.9
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "caixote",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/caixote.glb",
+      "preview": "00_CATALOGO/thumb_caixote.png",
+      "bounds_m": [
+        1.12,
+        1.13,
+        1.1
+      ],
+      "triangles": 72
+    },
+    {
+      "name": "barril",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/barril.glb",
+      "preview": "00_CATALOGO/thumb_barril.png",
+      "bounds_m": [
+        1.06,
+        1.4,
+        1.008
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "saco_mercadorias",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/saco_mercadorias.glb",
+      "preview": "00_CATALOGO/thumb_saco_mercadorias.png",
+      "bounds_m": [
+        0.75,
+        0.94,
+        0.59
+      ],
+      "triangles": 24
+    },
+    {
+      "name": "banco_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/banco_madeira.glb",
+      "preview": "00_CATALOGO/thumb_banco_madeira.png",
+      "bounds_m": [
+        2.15,
+        0.91,
+        0.7
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "mesa_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/mesa_madeira.glb",
+      "preview": "00_CATALOGO/thumb_mesa_madeira.png",
+      "bounds_m": [
+        2.1,
+        1.065,
+        1.4
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "barraca_feira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "preview": "00_CATALOGO/thumb_barraca_feira.png",
+      "bounds_m": [
+        3.2,
+        3.62,
+        2.35
+      ],
+      "triangles": 68
+    },
+    {
+      "name": "poco",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/poco.glb",
+      "preview": "00_CATALOGO/thumb_poco.png",
+      "bounds_m": [
+        2.7,
+        3.6,
+        1.85
+      ],
+      "triangles": 112
+    },
+    {
+      "name": "carroca",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/carroca.glb",
+      "preview": "00_CATALOGO/thumb_carroca.png",
+      "bounds_m": [
+        2.44,
+        1.075,
+        3.619
+      ],
+      "triangles": 152
+    },
+    {
+      "name": "canteiro_flores",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/canteiro_flores.glb",
+      "preview": "00_CATALOGO/thumb_canteiro_flores.png",
+      "bounds_m": [
+        2.5,
+        1.169,
+        1.6
+      ],
+      "triangles": 288
+    },
+    {
+      "name": "tocha_coluna",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/tocha_coluna.glb",
+      "preview": "00_CATALOGO/thumb_tocha_coluna.png",
+      "bounds_m": [
+        0.37,
+        2.71,
+        0.35
+      ],
+      "triangles": 32
+    },
+    {
+      "name": "bau_madeira",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/bau_madeira.glb",
+      "preview": "00_CATALOGO/thumb_bau_madeira.png",
+      "bounds_m": [
+        1.92,
+        1.17,
+        1.225
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "portao_masmorra",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/portao_masmorra.glb",
+      "preview": "00_CATALOGO/thumb_portao_masmorra.png",
+      "bounds_m": [
+        3.3,
+        3.11,
+        0.75
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "estalagmites",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/estalagmites.glb",
+      "preview": "00_CATALOGO/thumb_estalagmites.png",
+      "bounds_m": [
+        1.617,
+        2.102,
+        1.5
+      ],
+      "triangles": 100
+    },
+    {
+      "name": "escada_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/escada_madeira.glb",
+      "preview": "00_CATALOGO/thumb_escada_madeira.png",
+      "bounds_m": [
+        2.5,
+        1.73,
+        3.02
+      ],
+      "triangles": 72
+    }
+  ],
+  "textures": {
+    "grama_viva": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/grama_viva.png",
+      "palette": [
+        "#244632",
+        "#335e3e",
+        "#43734b",
+        "#528452",
+        "#659761",
+        "#93a76d"
+      ]
+    },
+    "grama_prado": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/grama_prado.png",
+      "palette": [
+        "#385339",
+        "#4d7544",
+        "#649052",
+        "#729f63",
+        "#8baf72",
+        "#abc58b"
+      ]
+    },
+    "grama_seca": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/grama_seca.png",
+      "palette": [
+        "#555c36",
+        "#747344",
+        "#8b8550",
+        "#a69a5f",
+        "#bbad74",
+        "#d2c08c"
+      ]
+    },
+    "grama_outono": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/grama_outono.png",
+      "palette": [
+        "#4b4433",
+        "#6b6140",
+        "#907947",
+        "#a99155",
+        "#c6a368",
+        "#d5b87b"
+      ]
+    },
+    "grama_sombra": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/grama_sombra.png",
+      "palette": [
+        "#1f3a32",
+        "#2d4d39",
+        "#385d42",
+        "#477050",
+        "#597963",
+        "#81967d"
+      ]
+    },
+    "relva_bambu": {
+      "category": "solo",
+      "kind": "grass",
+      "file": "01_SOLOS/relva_bambu.png",
+      "palette": [
+        "#314b30",
+        "#435e34",
+        "#536f38",
+        "#718744",
+        "#90a15c",
+        "#afae74"
+      ]
+    },
+    "solo_florestal": {
+      "category": "solo",
+      "kind": "forest",
+      "file": "01_SOLOS/solo_florestal.png",
+      "palette": [
+        "#2b332a",
+        "#384233",
+        "#4e5240",
+        "#64634b",
+        "#80765a",
+        "#998669"
+      ]
+    },
+    "solo_floresta_umida": {
+      "category": "solo",
+      "kind": "forest",
+      "file": "01_SOLOS/solo_floresta_umida.png",
+      "palette": [
+        "#202e2d",
+        "#2c3b32",
+        "#3b4939",
+        "#536047",
+        "#6e7159",
+        "#94957a"
+      ]
+    },
+    "terra_castanha": {
+      "category": "solo",
+      "kind": "earth",
+      "file": "01_SOLOS/terra_castanha.png",
+      "palette": [
+        "#49362e",
+        "#614734",
+        "#79553c",
+        "#946c4a",
+        "#ad815b",
+        "#c09a75"
+      ]
+    },
+    "terra_clara": {
+      "category": "solo",
+      "kind": "earth",
+      "file": "01_SOLOS/terra_clara.png",
+      "palette": [
+        "#624733",
+        "#7c5d42",
+        "#987249",
+        "#ae885c",
+        "#c49d72",
+        "#dac29b"
+      ]
+    },
+    "terra_vermelha": {
+      "category": "solo",
+      "kind": "clay",
+      "file": "01_SOLOS/terra_vermelha.png",
+      "palette": [
+        "#542f2b",
+        "#793f32",
+        "#99533c",
+        "#ba6846",
+        "#cd8454",
+        "#dba16a"
+      ]
+    },
+    "terra_umida": {
+      "category": "solo",
+      "kind": "mud",
+      "file": "01_SOLOS/terra_umida.png",
+      "palette": [
+        "#2c2926",
+        "#42362d",
+        "#584735",
+        "#6d5640",
+        "#826c50",
+        "#9b8161"
+      ]
+    },
+    "argila": {
+      "category": "solo",
+      "kind": "clay",
+      "file": "01_SOLOS/argila.png",
+      "palette": [
+        "#65433d",
+        "#7e554a",
+        "#966b5b",
+        "#ad7c68",
+        "#bc9479",
+        "#d3af91"
+      ]
+    },
+    "trilha_batida": {
+      "category": "solo",
+      "kind": "earth",
+      "file": "01_SOLOS/trilha_batida.png",
+      "palette": [
+        "#504134",
+        "#6b543f",
+        "#82684e",
+        "#9b7e5c",
+        "#b2976f",
+        "#c4aa84"
+      ]
+    },
+    "areia_bege": {
+      "category": "solo",
+      "kind": "sand",
+      "file": "01_SOLOS/areia_bege.png",
+      "palette": [
+        "#7b7358",
+        "#a0956c",
+        "#b5a77b",
+        "#c9b98a",
+        "#dbca99",
+        "#ece0b6"
+      ]
+    },
+    "areia_rio": {
+      "category": "solo",
+      "kind": "sand",
+      "file": "01_SOLOS/areia_rio.png",
+      "palette": [
+        "#6f6452",
+        "#847961",
+        "#aa9675",
+        "#c5ae8b",
+        "#dbcaab",
+        "#e9dabc"
+      ]
+    },
+    "seixos": {
+      "category": "solo",
+      "kind": "gravel",
+      "file": "01_SOLOS/seixos.png",
+      "palette": [
+        "#4d5551",
+        "#626e64",
+        "#79827a",
+        "#919689",
+        "#b0ae94",
+        "#cec2a8"
+      ]
+    },
+    "cascalho": {
+      "category": "solo",
+      "kind": "gravel",
+      "file": "01_SOLOS/cascalho.png",
+      "palette": [
+        "#474b49",
+        "#60625e",
+        "#757871",
+        "#929183",
+        "#b2a991",
+        "#c8bc9e"
+      ]
+    },
+    "rocha_cinza": {
+      "category": "solo",
+      "kind": "stone",
+      "file": "01_SOLOS/rocha_cinza.png",
+      "palette": [
+        "#3e474c",
+        "#546166",
+        "#687476",
+        "#818e8a",
+        "#a2a79b",
+        "#b9b9aa"
+      ]
+    },
+    "rocha_azulada": {
+      "category": "solo",
+      "kind": "stone",
+      "file": "01_SOLOS/rocha_azulada.png",
+      "palette": [
+        "#323f4e",
+        "#435465",
+        "#556779",
+        "#718499",
+        "#919cac",
+        "#b1b7bb"
+      ]
+    },
+    "laje_rochosa": {
+      "category": "solo",
+      "kind": "slate",
+      "file": "01_SOLOS/laje_rochosa.png",
+      "palette": [
+        "#3a4044",
+        "#4b5355",
+        "#626b6d",
+        "#7d8587",
+        "#999e9e",
+        "#babbbb"
+      ]
+    },
+    "pedra_musgosa": {
+      "category": "solo",
+      "kind": "moss",
+      "file": "01_SOLOS/pedra_musgosa.png",
+      "palette": [
+        "#35433a",
+        "#485848",
+        "#607460",
+        "#788c74",
+        "#99a08b",
+        "#b3b49d"
+      ]
+    },
+    "lama_pantanosa": {
+      "category": "solo",
+      "kind": "mud",
+      "file": "01_SOLOS/lama_pantanosa.png",
+      "palette": [
+        "#252c26",
+        "#363f2e",
+        "#48523a",
+        "#596447",
+        "#757451",
+        "#8d8769"
+      ]
+    },
+    "cinzas_vulcanicas": {
+      "category": "solo",
+      "kind": "slate",
+      "file": "01_SOLOS/cinzas_vulcanicas.png",
+      "palette": [
+        "#22272c",
+        "#32363a",
+        "#45484c",
+        "#575d5f",
+        "#757778",
+        "#989595"
+      ]
+    },
+    "tijolo_pedra_cinza": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_pedra_cinza.png",
+      "palette": [
+        "#343b41",
+        "#526066",
+        "#64747a",
+        "#839293",
+        "#a3aaa0"
+      ]
+    },
+    "tijolo_pedra_clara": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_pedra_clara.png",
+      "palette": [
+        "#66665e",
+        "#85867c",
+        "#a2a297",
+        "#c1bba6",
+        "#ded5b9"
+      ]
+    },
+    "tijolo_pedra_escura": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_pedra_escura.png",
+      "palette": [
+        "#272c36",
+        "#39434a",
+        "#4f5a64",
+        "#667179",
+        "#83898d"
+      ]
+    },
+    "tijolo_pedra_musgo": {
+      "category": "parede",
+      "kind": "mossbrick",
+      "file": "02_PAREDES_RUINAS/tijolo_pedra_musgo.png",
+      "palette": [
+        "#334239",
+        "#48594a",
+        "#67755c",
+        "#87917c",
+        "#b0ab94"
+      ]
+    },
+    "tijolo_ruina_rachado": {
+      "category": "parede",
+      "kind": "ruinbrick",
+      "file": "02_PAREDES_RUINAS/tijolo_ruina_rachado.png",
+      "palette": [
+        "#393f42",
+        "#5b6262",
+        "#78817e",
+        "#a2a399",
+        "#beb7a5"
+      ]
+    },
+    "tijolo_ruina_antiga": {
+      "category": "parede",
+      "kind": "ruinbrick",
+      "file": "02_PAREDES_RUINAS/tijolo_ruina_antiga.png",
+      "palette": [
+        "#49433b",
+        "#676054",
+        "#857b66",
+        "#a79b80",
+        "#c6b399"
+      ]
+    },
+    "tijolo_ruina_arenito": {
+      "category": "parede",
+      "kind": "ruinbrick",
+      "file": "02_PAREDES_RUINAS/tijolo_ruina_arenito.png",
+      "palette": [
+        "#79644b",
+        "#9b7e5b",
+        "#b39469",
+        "#d0b083",
+        "#e2c99c"
+      ]
+    },
+    "tijolo_arenito": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_arenito.png",
+      "palette": [
+        "#7a5e45",
+        "#a47a56",
+        "#c09767",
+        "#d7b68b",
+        "#e2cfaa"
+      ]
+    },
+    "tijolo_vermelho": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_vermelho.png",
+      "palette": [
+        "#4e2c29",
+        "#853f38",
+        "#aa5143",
+        "#c16a52",
+        "#e09a6d"
+      ]
+    },
+    "tijolo_templo_vermelho": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_templo_vermelho.png",
+      "palette": [
+        "#3d272c",
+        "#702f36",
+        "#95404a",
+        "#b35d55",
+        "#cf8370"
+      ]
+    },
+    "tijolo_basaltico": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_basaltico.png",
+      "palette": [
+        "#1e2429",
+        "#30383e",
+        "#454e52",
+        "#626969",
+        "#878787"
+      ]
+    },
+    "tijolo_pedra_pintada": {
+      "category": "parede",
+      "kind": "brick",
+      "file": "02_PAREDES_RUINAS/tijolo_pedra_pintada.png",
+      "palette": [
+        "#34434b",
+        "#486072",
+        "#648095",
+        "#90a9a7",
+        "#b4b6a2"
+      ]
+    },
+    "muro_pedra_bruta": {
+      "category": "parede",
+      "kind": "rough",
+      "file": "02_PAREDES_RUINAS/muro_pedra_bruta.png",
+      "palette": [
+        "#383e3a",
+        "#555c54",
+        "#6f796c",
+        "#919587",
+        "#b0ae9b"
+      ]
+    },
+    "muro_rocha_cortada": {
+      "category": "parede",
+      "kind": "rough",
+      "file": "02_PAREDES_RUINAS/muro_rocha_cortada.png",
+      "palette": [
+        "#47433e",
+        "#655f55",
+        "#847968",
+        "#ab9880",
+        "#c1ad92"
+      ]
+    },
+    "parede_bambu_trancado": {
+      "category": "parede",
+      "kind": "bamboo",
+      "file": "02_PAREDES_RUINAS/parede_bambu_trancado.png",
+      "palette": [
+        "#453e29",
+        "#756a39",
+        "#a69b59",
+        "#b9b06c",
+        "#d9c784"
+      ]
+    },
+    "tabuas_carvalho": {
+      "category": "parede",
+      "kind": "wood",
+      "file": "02_PAREDES_RUINAS/tabuas_carvalho.png",
+      "palette": [
+        "#312824",
+        "#493429",
+        "#634735",
+        "#866444",
+        "#a88961"
+      ]
+    },
+    "tabuas_escurecidas": {
+      "category": "parede",
+      "kind": "wood",
+      "file": "02_PAREDES_RUINAS/tabuas_escurecidas.png",
+      "palette": [
+        "#201f22",
+        "#352b2b",
+        "#53403a",
+        "#73584d",
+        "#978074"
+      ]
+    },
+    "parede_barro": {
+      "category": "parede",
+      "kind": "plaster",
+      "file": "02_PAREDES_RUINAS/parede_barro.png",
+      "palette": [
+        "#56473a",
+        "#826a54",
+        "#a48b70",
+        "#c4aa87",
+        "#dcc7aa"
+      ]
+    },
+    "parede_cal_antiga": {
+      "category": "parede",
+      "kind": "plaster",
+      "file": "02_PAREDES_RUINAS/parede_cal_antiga.png",
+      "palette": [
+        "#66625a",
+        "#989285",
+        "#b4ad99",
+        "#d0c7b1",
+        "#e9e2d0"
+      ]
+    },
+    "parede_cal_desgastada": {
+      "category": "parede",
+      "kind": "plaster",
+      "file": "02_PAREDES_RUINAS/parede_cal_desgastada.png",
+      "palette": [
+        "#585d58",
+        "#8b9183",
+        "#adb4a4",
+        "#c6c8b9",
+        "#e0ded0"
+      ]
+    },
+    "revestimento_templo_azul": {
+      "category": "parede",
+      "kind": "plaster",
+      "file": "02_PAREDES_RUINAS/revestimento_templo_azul.png",
+      "palette": [
+        "#2d464f",
+        "#3c616c",
+        "#57808b",
+        "#7ba0a1",
+        "#adc5b7"
+      ]
+    },
+    "revestimento_templo_ocre": {
+      "category": "parede",
+      "kind": "plaster",
+      "file": "02_PAREDES_RUINAS/revestimento_templo_ocre.png",
+      "palette": [
+        "#5c4635",
+        "#8a6947",
+        "#b48b58",
+        "#d3af79",
+        "#e4cba0"
+      ]
+    },
+    "lajes_ruina_cinza": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/lajes_ruina_cinza.png",
+      "palette": [
+        "#414849",
+        "#66716e",
+        "#86918b",
+        "#a5aca1",
+        "#c7c3af"
+      ]
+    },
+    "lajes_ruina_musgo": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/lajes_ruina_musgo.png",
+      "palette": [
+        "#3d4c42",
+        "#65725a",
+        "#7e9074",
+        "#a7ae94",
+        "#c2bc9f"
+      ]
+    },
+    "lajes_templo_claro": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/lajes_templo_claro.png",
+      "palette": [
+        "#756d61",
+        "#a79c84",
+        "#cec0a4",
+        "#ded1b3",
+        "#eee1ca"
+      ]
+    },
+    "paralelepipedo": {
+      "category": "piso",
+      "kind": "cobble",
+      "file": "03_PISOS/paralelepipedo.png",
+      "palette": [
+        "#3e4947",
+        "#62716b",
+        "#818f83",
+        "#a9afa0",
+        "#c9c4b0"
+      ]
+    },
+    "pavimento_antigo": {
+      "category": "piso",
+      "kind": "cobble",
+      "file": "03_PISOS/pavimento_antigo.png",
+      "palette": [
+        "#595449",
+        "#776d59",
+        "#9e8c6e",
+        "#bba983",
+        "#d0c1a0"
+      ]
+    },
+    "caminho_ladrilho_azul": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/caminho_ladrilho_azul.png",
+      "palette": [
+        "#334851",
+        "#456774",
+        "#65858c",
+        "#85a3a5",
+        "#bbc9be"
+      ]
+    },
+    "piso_madeira_clara": {
+      "category": "piso",
+      "kind": "floorwood",
+      "file": "03_PISOS/piso_madeira_clara.png",
+      "palette": [
+        "#55412d",
+        "#89633c",
+        "#a77b4d",
+        "#cca273",
+        "#e1c28f"
+      ]
+    },
+    "piso_madeira_escura": {
+      "category": "piso",
+      "kind": "floorwood",
+      "file": "03_PISOS/piso_madeira_escura.png",
+      "palette": [
+        "#241d20",
+        "#3a2d2c",
+        "#634838",
+        "#86654c",
+        "#b18b60"
+      ]
+    },
+    "piso_tatame": {
+      "category": "piso",
+      "kind": "tatami",
+      "file": "03_PISOS/piso_tatame.png",
+      "palette": [
+        "#544f31",
+        "#827851",
+        "#a9a16c",
+        "#d0bd83",
+        "#e7d69f"
+      ]
+    },
+    "piso_ceramica_vermelha": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/piso_ceramica_vermelha.png",
+      "palette": [
+        "#523637",
+        "#854740",
+        "#b05c4a",
+        "#ca7b5a",
+        "#dfaa76"
+      ]
+    },
+    "piso_basaltico": {
+      "category": "piso",
+      "kind": "slab",
+      "file": "03_PISOS/piso_basaltico.png",
+      "palette": [
+        "#25282e",
+        "#343f43",
+        "#4b5556",
+        "#697576",
+        "#90928b"
+      ]
+    },
+    "seixos_rio": {
+      "category": "piso",
+      "kind": "cobble",
+      "file": "03_PISOS/seixos_rio.png",
+      "palette": [
+        "#48504e",
+        "#66746e",
+        "#8b9489",
+        "#a9aea1",
+        "#d2c7b1"
+      ]
+    },
+    "piso_mosaico": {
+      "category": "piso",
+      "kind": "mosaic",
+      "file": "03_PISOS/piso_mosaico.png",
+      "palette": [
+        "#3b4545",
+        "#647873",
+        "#ac9f7b",
+        "#b28e65",
+        "#d6c39d"
+      ]
+    },
+    "madeira_deck": {
+      "category": "piso",
+      "kind": "floorwood",
+      "file": "03_PISOS/madeira_deck.png",
+      "palette": [
+        "#37312b",
+        "#554333",
+        "#7e6046",
+        "#a57c58",
+        "#c49d70"
+      ]
+    }
+  },
+  "mask_bits": "NW=1,NE=2,SE=4,SW=8",
+  "renderer_note": "GLB with vertex colors; model colliders and scenes not integrated"
+}

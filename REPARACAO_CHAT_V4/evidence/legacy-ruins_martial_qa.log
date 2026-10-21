@@ -1,0 +1,202 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Koto é acionado na transição do decreto para as Crônicas
+OK Ruínas não avançam antes da jornada da Guilda
+OK Perfil 06 com primeira jornada concluída continua válido
+OK Save 06 recebe exploração pendente sem perder identidade ou inventário
+OK Passagem cinco metros acima do chão não conclui exploração
+OK Fora do círculo não conclui o objetivo
+OK Caminhar no chão dentro do círculo conclui a exploração
+OK Exploração independe de matar o Vigia e o próximo texto é explícito
+OK Bolinha e círculo não mantêm objetivo já concluído
+OK Exploração não duplica recompensa nem objetos
+OK Conclusão grava progresso válido
+OK Conclusão persiste ao recarregar
+OK Reentrar nas ruínas não repete recompensa
+OK Vigia já derrotado produz encerramento coerente
+OK Roteamento de contato: wood_hit
+OK Roteamento de contato: metal_hit
+OK Roteamento de contato: landing
+OK Roteamento de contato: fist_hit
+OK Roteamento de contato: strong_hit
+OK Roteamento de contato: critical_hit
+OK Roteamento de contato: fatal_hit
+OK Roteamento de contato: blade_hit
+OK Roteamento de contato: blade_hit
+OK Roteamento de contato: qi_hit
+OK Técnica sem oscilador genérico: corte_inicial
+OK Técnica sem oscilador genérico: bola_de_gelo
+OK Técnica sem oscilador genérico: salto_impetuoso
+OK Técnica sem oscilador genérico: golpe_circular
+OK Técnica sem oscilador genérico: nova_glacial
+OK Técnica sem oscilador genérico: atracao_arcana
+OK Técnica sem oscilador genérico: investida_brutal
+OK Técnica sem oscilador genérico: jato_de_fogo
+OK Técnica sem oscilador genérico: barreira_arcana
+OK Técnica sem oscilador genérico: cura
+OK Técnica sem oscilador genérico: cripta_espinhos_1
+OK Técnica sem oscilador genérico: guardiao_ancestral
+OK Técnica sem oscilador genérico: rajada_de_fogo
+OK Técnica sem oscilador genérico: rajada_de_vento
+OK Técnica sem oscilador genérico: dardo_arcano
+OK Técnica sem oscilador genérico: onda_de_repulsao
+OK Técnica sem oscilador genérico: exo.sf.sete_cortes_do_vento
+OK Técnica sem oscilador genérico: exo.sf.quebra_rocha
+OK Técnica sem oscilador genérico: exo.sf.muralha_da_montanha
+OK Técnica sem oscilador genérico: exo.sf.terremoto_do_sabre
+OK Técnica sem oscilador genérico: exo.sf.chuva_de_lancas
+OK Técnica sem oscilador genérico: exo.sf.punho_do_rio
+OK Técnica sem oscilador genérico: exo.sf.onda_reversa
+OK Técnica sem oscilador genérico: exo.sf.chute_crescente
+OK Técnica sem oscilador genérico: exo.sf.asas_do_grou
+OK Técnica sem oscilador genérico: exo.sf.sopro_de_jade
+OK Técnica sem oscilador genérico: exo.sf.circulo_de_jade
+OK Técnica sem oscilador genérico: exo.sf.renascer_das_cinzas
+OK Técnica sem oscilador genérico: exo.sf.prisao_de_neve
+OK Técnica sem oscilador genérico: exo.sf.r2.punho_da_aurora_fraturada
+OK Técnica sem oscilador genérico: exo.sf.r2.passo_dos_nove_pulsares
+OK Técnica sem oscilador genérico: exo.sf.r2.palma_do_horizonte_reverso
+OK Técnica sem oscilador genérico: exo.sf.r2.punho_das_tres_respiracoes
+OK Técnica sem oscilador genérico: exo.sf.r2.joelho_da_balanca_oculta
+OK Técnica sem oscilador genérico: exo.sf.r2.passos_do_ultimo_desafio
+OK Técnica sem oscilador genérico: exo.sf.r2.palma_do_tigre_de_bronze
+OK Técnica sem oscilador genérico: exo.sf.r2.selo_da_tartaruga_antiga
+OK Técnica sem oscilador genérico: exo.sf.r2.passo_do_veado_das_nuvens
+OK Técnica sem oscilador genérico: exo.sf.r2.punho_da_camera_vazia
+OK Técnica sem oscilador genérico: exo.sf.r2.guarda_da_ultima_ponte
+OK Técnica sem oscilador genérico: exo.sf.r2.passo_do_duelo_ao_entardecer
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_da_lua_cintilante
+OK Técnica sem oscilador genérico: exo.sf.r2.agulha_da_casa_oculta
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_do_herdeiro_sem_nome
+OK Técnica sem oscilador genérico: exo.sf.r2.alabarda_do_guardiao_de_sal
+OK Técnica sem oscilador genérico: exo.sf.r2.golpe_da_bigorna_antiga
+OK Técnica sem oscilador genérico: exo.sf.r2.punhal_da_janela_aberta
+OK Técnica sem oscilador genérico: exo.sf.r2.montante_do_patio_deserto
+OK Técnica sem oscilador genérico: exo.sf.r2.raio_do_nucleo_sereno
+OK Técnica sem oscilador genérico: exo.sf.r2.circulo_do_pulso_solar
+OK Técnica sem oscilador genérico: exo.sf.r2.veu_da_pressao_azul
+OK Técnica sem oscilador genérico: exo.sf.r2.pulso_do_dantian_velado
+OK Técnica sem oscilador genérico: exo.sf.r2.onda_do_mestre_itinerante
+OK Técnica sem oscilador genérico: exo.sf.r2.muralha_da_setima_circulacao
+OK Técnica sem oscilador genérico: exo.sf.r2.orvalho_da_flor_imortal
+OK Técnica sem oscilador genérico: exo.sf.r2.ressonancia_do_sino_lunar
+OK Técnica sem oscilador genérico: exo.sf.r2.veu_da_montanha_sagrada
+OK Técnica sem oscilador genérico: exo.sf.r2.pulso_da_lampada_vazia
+OK Técnica sem oscilador genérico: exo.sf.r2.corrente_do_lago_de_vidro
+OK Técnica sem oscilador genérico: exo.sf.r2.reflexo_da_porta_do_ceu
+OK Técnica sem oscilador genérico: exo.sf.r2.circulo_do_juramento_carmim
+OK Técnica sem oscilador genérico: exo.sf.r2.lamina_do_pacto_desfeito
+OK Técnica sem oscilador genérico: exo.sf.r2.sombra_do_tigre_escarlate
+OK Técnica sem oscilador genérico: exo.sf.r2.marca_da_ultima_promessa
+OK Técnica sem oscilador genérico: exo.sf.r2.cupula_do_crepusculo_negro
+OK Técnica sem oscilador genérico: exo.sf.r2.selo_do_mestre_sem_rosto
+OK Técnica sem oscilador genérico: exo.sf.r2.barreira_dos_portoes_inferiores
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_do_ultimo_vigia
+OK Técnica sem oscilador genérico: exo.sf.r2.arco_da_luz_infinita
+OK Técnica sem oscilador genérico: exo.sf.r2.protecao_do_firmamento_vivo
+OK Técnica sem oscilador genérico: exo.sf.r2.passo_da_escadaria_celeste
+OK Técnica sem oscilador genérico: exo.sf.r2.selo_da_virtude_radiante
+OK Técnica sem oscilador genérico: exo.sf.r2.flor_da_lua_imaculada
+OK Técnica sem oscilador genérico: exo.sf.r2.cupula_da_tartaruga_celeste
+OK Técnica sem oscilador genérico: exo.sf.r2.danca_do_sino_do_ceu
+OK Técnica sem oscilador genérico: exo.sf.r2.barreira_do_patio_de_ouro
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_de_tres_tempos
+OK Técnica sem oscilador genérico: exo.sf.r2.guarda_dos_calcanhares
+OK Técnica sem oscilador genérico: exo.sf.r2.golpe_da_brecha_curta
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_do_aprendiz_paciente
+OK Técnica sem oscilador genérico: exo.sf.r2.guarda_da_escola_pequena
+OK Técnica sem oscilador genérico: exo.sf.r2.punho_do_oleiro_antigo
+OK Técnica sem oscilador genérico: exo.sf.r2.balanco_do_martelo_simples
+OK Técnica sem oscilador genérico: exo.sf.r2.golpe_da_feira_fechada
+OK Técnica sem oscilador genérico: exo.sf.r2.bloqueio_do_portao_rural
+OK Técnica sem oscilador genérico: exo.sf.r2.corte_do_ferreiro_exausto
+OK Amostra carregada: martial_audio/katana_1
+OK Amostra carregada: martial_audio/kungfu_air_4
+OK Amostra carregada: martial_audio/katana_2
+OK Amostra carregada: martial_audio/kungfu_air_8
+OK Amostra carregada: martial_audio/katana_3
+OK Amostra carregada: martial_audio/kungfu_air_1
+OK Amostra carregada: martial_audio/kungfu_air_2
+OK Amostra carregada: martial_audio/kungfu_air_5
+OK Amostra carregada: martial_audio/kungfu_air_6
+OK Amostra carregada: foley/bow_release_1
+OK Amostra carregada: foley/bow_release_2
+OK Amostra carregada: martial_audio/palm_a
+OK Amostra carregada: martial_audio/palm_b
+OK Amostra carregada: martial_audio/palm_a
+OK Amostra carregada: martial_audio/palm_b
+OK Amostra carregada: martial_audio/palm_c
+OK Amostra carregada: foley/impactMetal_light_000
+OK Amostra carregada: foley/impactMetal_medium_000
+OK Amostra carregada: martial_audio/wood_punch
+OK Amostra carregada: martial_audio/hurt_male
+OK Amostra carregada: foley/footstep00
+OK Amostra carregada: foley/footstep01
+OK Amostra carregada: foley/footstep02
+OK Amostra carregada: foley/footstep03
+OK Amostra carregada: foley/bookFlip1
+OK Amostra carregada: foley/bow_release_2
+OK Amostra carregada: foley/drawKnife1
+OK Amostra carregada: audio09/qi_prepare
+OK Amostra carregada: martial_audio/ice_cast
+OK Amostra carregada: martial_audio/fire_cast
+OK Amostra carregada: martial_audio/ice_cast
+OK Amostra carregada: martial_audio/wind_qi
+OK Amostra carregada: audio09/qi_release
+OK Amostra carregada: audio09/summon
+OK Amostra carregada: martial_audio/kungfu_air_6
+OK Amostra carregada: foley/impactSoft_heavy_000
+OK Amostra carregada: audio09/boss_entry
+OK Amostra carregada: audio09/boss_phase
+OK Amostra carregada: martial_audio/dry_punch
+OK Amostra carregada: foley/metalLatch
+OK Amostra carregada: martial_audio/kungfu_air_3
+OK Amostra carregada: martial_audio/kungfu_air_7
+OK Amostra carregada: martial_audio/heavy_a
+OK Amostra carregada: martial_audio/heavy_b
+OK Amostra carregada: martial_audio/critical_a
+OK Amostra carregada: martial_audio/fatal_a
+OK Amostra carregada: martial_audio/blade_a
+OK Amostra carregada: martial_audio/blade_b
+OK Amostra carregada: martial_audio/hurt_male
+OK Amostra carregada: martial_audio/hurt_female
+OK Amostra carregada: martial_audio/attack_male_a
+OK Amostra carregada: martial_audio/attack_male_b
+OK Amostra carregada: martial_audio/chronicle_koto
+OK Amostra carregada: audio09/quest_complete
+OK Amostra carregada: martial_audio/qi_contact
+OK Amostra carregada: audio09/qi_release
+OK Amostra carregada: martial_audio/earth_cast
+OK Amostra carregada: martial_audio/kungfu_air_7
+OK Amostra carregada: audio09/boss_prepare
+OK Amostra carregada: audio09/boss_release
+OK Amostra carregada: martial_audio/heavy_a
+OK Amostra carregada: martial_audio/heavy_b
+OK Amostra carregada: exo_legacy/salto_cast
+OK Amostra carregada: exo_legacy/salto_impact
+OK Amostra carregada: exo_audio/wind_break
+OK Amostra carregada: exo_legacy/astral_rupture
+OK Amostra carregada: exo_legacy/energy_impact
+OK Amostra carregada: exo_audio/eco_eco_boss
+OK Livro permanece apenas na interface
+OK Referências substituem áudio antigo: swing
+OK Referências substituem áudio antigo: punch
+OK Referências substituem áudio antigo: fist_hit
+OK Referências substituem áudio antigo: body_hit
+OK Referências substituem áudio antigo: gelo
+OK Referências substituem áudio antigo: fogo
+OK Referências substituem áudio antigo: magia
+OK Corte marcial tem contato de lâmina
+OK Investida física não produz magia eletrônica
+OK Gelo mantém sua identidade no contato
+OK Fogo mantém sua identidade no contato
+OK Soco no ar só desloca ar
+OK Voz feminina acompanha perfil selecionado
+OK Vozes do mesmo ator respeitam intervalo
+OK Estilo 0 tem saia dividida e articulações próprias
+OK Trocar prévia não acumula vestimentas: 0
+OK Estilo 1 tem saia dividida e articulações próprias
+OK Trocar prévia não acumula vestimentas: 1
+OK Estilo 2 tem saia dividida e articulações próprias
+OK Trocar prévia não acumula vestimentas: 2
+RUINS_MARTIAL07: 199 passaram / 0 falharam

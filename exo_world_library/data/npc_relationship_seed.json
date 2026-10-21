@@ -1,0 +1,486 @@
+{
+  "domain": "npc_relationship_seed",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/respeito_desconfiado",
+      "label": "Respeito desconfiado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "respeito_desconfiado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Respeito desconfiado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "respeito_desconfiado"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/amizade_de_treinamento",
+      "label": "Amizade de treinamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "amizade_de_treinamento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Amizade de treinamento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "amizade_de_treinamento"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/divida_de_vida_nao_paga",
+      "label": "Dívida de vida não paga",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "divida_de_vida_nao_paga"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Dívida de vida não paga",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "divida_de_vida_nao_paga"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/rivalidade_por_promocao",
+      "label": "Rivalidade por promoção",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "rivalidade_por_promocao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rivalidade por promoção",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rivalidade_por_promocao"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/tutela_informal_de_orfao",
+      "label": "Tutela informal de órfão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "tutela_informal_de_orfao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Tutela informal de órfão",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "tutela_informal_de_orfao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/desavenca_comercial",
+      "label": "Desavença comercial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "desavenca_comercial"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Desavença comercial",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "desavenca_comercial"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/protecao_silenciosa",
+      "label": "Proteção silenciosa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "protecao_silenciosa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Proteção silenciosa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "protecao_silenciosa"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/competicao_pela_mesma_bolsa",
+      "label": "Competição pela mesma bolsa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "competicao_pela_mesma_bolsa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Competição pela mesma bolsa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "competicao_pela_mesma_bolsa"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/parceria_na_colheita",
+      "label": "Parceria na colheita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "parceria_na_colheita"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Parceria na colheita",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "parceria_na_colheita"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/irmaos_separados_por_clas",
+      "label": "Irmãos separados por clãs",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "irmaos_separados_por_clas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Irmãos separados por clãs",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "irmaos_separados_por_clas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/fidelidade_a_antigo_mestre",
+      "label": "Fidelidade a antigo mestre",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "fidelidade_a_antigo_mestre"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Fidelidade a antigo mestre",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "fidelidade_a_antigo_mestre"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/alianca_para_investigar_rumores",
+      "label": "Aliança para investigar rumores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "alianca_para_investigar_rumores"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aliança para investigar rumores",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "alianca_para_investigar_rumores"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/familia_de_adocao",
+      "label": "Família de adoção",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "familia_de_adocao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Família de adoção",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "familia_de_adocao"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/apadrinhamento_de_artesao",
+      "label": "Apadrinhamento de artesão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "apadrinhamento_de_artesao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Apadrinhamento de artesão",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "apadrinhamento_de_artesao"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/aversao_por_mentira_antiga",
+      "label": "Aversão por mentira antiga",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "aversao_por_mentira_antiga"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aversão por mentira antiga",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "aversao_por_mentira_antiga"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_relationship_seed",
+      "excludes": [],
+      "id": "npc_relationship_seed/promessa_de_reencontro",
+      "label": "Promessa de reencontro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "social",
+        "bond_hint",
+        "promessa_de_reencontro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Promessa de reencontro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "promessa_de_reencontro"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

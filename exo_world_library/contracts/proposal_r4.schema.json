@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "authority": {
+      "const": "none"
+    },
+    "committed": {
+      "const": false
+    },
+    "proposals": {
+      "type": "array"
+    },
+    "rejection_counts": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "PROPOSAL_ONLY",
+        "BLOCKED"
+      ]
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "committed",
+    "authority",
+    "proposals"
+  ],
+  "title": "EXO Universal Library R4 read-only proposal",
+  "type": "object"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "stone_gate",
+  "name": "Portão de Pedra",
+  "kind": "gate",
+  "footprint": [
+    6,
+    6
+  ],
+  "asset_recipe": "gate",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry"
+}

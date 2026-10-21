@@ -1,0 +1,348 @@
+{
+  "validations": [
+    {
+      "asset": "forge:wolf",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:deer",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:boar",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:fox",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:rabbit",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:tiger",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:bear",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:spirit_deer",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:shadow_wolf",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:demon_boar",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:kitsune",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "forge:serpent",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:wolf",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:boar",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:tiger",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:leopard",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:mountain_goat",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:desert_monitor",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:desert_scorpion",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    },
+    {
+      "asset": "art02:stone_guardian",
+      "passes": [
+        "glb_header",
+        "version2",
+        "finite_accessors",
+        "bone_indexes",
+        "inverse_bind",
+        "all_six_clips",
+        "timeline_monotonic",
+        "quat_unit",
+        "socket_parent",
+        "zip_source_sha256"
+      ],
+      "results": "PASS",
+      "godot": "NOT_RUN"
+    }
+  ],
+  "tested_glbs": 20,
+  "passed": 20,
+  "godot": "NOT_RUN",
+  "metadata_caveat": "No physics/IK/visual approval"
+}

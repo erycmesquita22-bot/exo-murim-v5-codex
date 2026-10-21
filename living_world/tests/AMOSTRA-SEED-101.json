@@ -1,0 +1,351 @@
+{
+  "notice": "Amostra de DADOS, calculada em Python pelo algoritmo equivalente de seed. Não são NPCs já colocados/renderizados na Godot. Slots da Forja ainda não recebidos.",
+  "atlas": "Genesis03 atlas_seed_101.json",
+  "seed_text": "101",
+  "regions": [
+    {
+      "region_id": 86,
+      "region_kind": "settlement",
+      "settlement_scale": "village",
+      "difficulty": 1,
+      "synthetic_slots_for_simulation": [
+        {
+          "id": "farm_01",
+          "role": "farmer"
+        },
+        {
+          "id": "guild_01",
+          "role": "guild_agent"
+        },
+        {
+          "id": "watch_01",
+          "role": "guard"
+        },
+        {
+          "id": "healer_01",
+          "role": "healer"
+        }
+      ],
+      "npc_records": [
+        {
+          "slot": "farm_01",
+          "nome": "Lu Ling",
+          "role": "farmer",
+          "faction": "comunidade",
+          "level": 3,
+          "attributes": {
+            "forca": 4,
+            "agilidade": 1,
+            "vitalidade": 3,
+            "inteligencia": 2,
+            "vontade": 3,
+            "sorte": 2
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 1,
+            "hair": 4,
+            "skin": 5,
+            "style": 2,
+            "voice": 1
+          }
+        },
+        {
+          "slot": "guild_01",
+          "nome": "Li Ying da Guilda",
+          "role": "guild_agent",
+          "faction": "guilda",
+          "level": 3,
+          "attributes": {
+            "forca": 2,
+            "agilidade": 4,
+            "vitalidade": 2,
+            "inteligencia": 4,
+            "vontade": 2,
+            "sorte": 2
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 5,
+            "hair": 2,
+            "skin": 1,
+            "style": 0,
+            "voice": 1
+          }
+        },
+        {
+          "slot": "healer_01",
+          "nome": "Curandeiro Pei Ren",
+          "role": "healer",
+          "faction": "comunidade",
+          "level": 2,
+          "attributes": {
+            "forca": 3,
+            "agilidade": 3,
+            "vitalidade": 1,
+            "inteligencia": 4,
+            "vontade": 3,
+            "sorte": 3
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 0,
+            "hair": 5,
+            "skin": 2,
+            "style": 1,
+            "voice": 0
+          }
+        },
+        {
+          "slot": "watch_01",
+          "nome": "Vigia Pei Zhi",
+          "role": "guard",
+          "faction": "autoridades",
+          "level": 1,
+          "attributes": {
+            "forca": 5,
+            "agilidade": 3,
+            "vitalidade": 5,
+            "inteligencia": 2,
+            "vontade": 2,
+            "sorte": 2
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 3,
+            "hair": 1,
+            "skin": 0,
+            "style": 2,
+            "voice": 0
+          }
+        }
+      ]
+    },
+    {
+      "region_id": 78,
+      "region_kind": "settlement",
+      "settlement_scale": "city",
+      "difficulty": 1,
+      "synthetic_slots_for_simulation": [
+        {
+          "id": "market_01",
+          "role": "merchant"
+        },
+        {
+          "id": "market_02",
+          "role": "merchant"
+        },
+        {
+          "id": "gate_01",
+          "role": "guard"
+        },
+        {
+          "id": "academy_01",
+          "role": "disciple"
+        },
+        {
+          "id": "academy_02",
+          "role": "master"
+        },
+        {
+          "id": "guild_01",
+          "role": "guild_agent"
+        },
+        {
+          "id": "healer_01",
+          "role": "healer"
+        },
+        {
+          "id": "house_01",
+          "role": "resident"
+        }
+      ],
+      "npc_records": [
+        {
+          "slot": "academy_01",
+          "nome": "Discípulo Bai Lan da Escola",
+          "role": "disciple",
+          "faction": "escola_marcial",
+          "level": 3,
+          "attributes": {
+            "forca": 4,
+            "agilidade": 3,
+            "vitalidade": 4,
+            "inteligencia": 1,
+            "vontade": 4,
+            "sorte": 3
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 5,
+            "hair": 3,
+            "skin": 3,
+            "style": 2,
+            "voice": 1
+          }
+        },
+        {
+          "slot": "academy_02",
+          "nome": "Mestre Fang Ying da Escola",
+          "role": "master",
+          "faction": "escola_marcial",
+          "level": 3,
+          "attributes": {
+            "forca": 4,
+            "agilidade": 4,
+            "vitalidade": 2,
+            "inteligencia": 3,
+            "vontade": 5,
+            "sorte": 1
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 2,
+            "hair": 3,
+            "skin": 1,
+            "style": 0,
+            "voice": 2
+          }
+        },
+        {
+          "slot": "gate_01",
+          "nome": "Vigia Xie Yun",
+          "role": "guard",
+          "faction": "autoridades",
+          "level": 1,
+          "attributes": {
+            "forca": 3,
+            "agilidade": 3,
+            "vitalidade": 5,
+            "inteligencia": 1,
+            "vontade": 3,
+            "sorte": 2
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 4,
+            "hair": 2,
+            "skin": 1,
+            "style": 1,
+            "voice": 2
+          }
+        },
+        {
+          "slot": "guild_01",
+          "nome": "Tang Bing da Guilda",
+          "role": "guild_agent",
+          "faction": "guilda",
+          "level": 1,
+          "attributes": {
+            "forca": 3,
+            "agilidade": 3,
+            "vitalidade": 2,
+            "inteligencia": 3,
+            "vontade": 3,
+            "sorte": 1
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 2,
+            "hair": 1,
+            "skin": 4,
+            "style": 2,
+            "voice": 2
+          }
+        },
+        {
+          "slot": "healer_01",
+          "nome": "Curandeiro Xie Jun",
+          "role": "healer",
+          "faction": "comunidade",
+          "level": 2,
+          "attributes": {
+            "forca": 2,
+            "agilidade": 3,
+            "vitalidade": 2,
+            "inteligencia": 4,
+            "vontade": 5,
+            "sorte": 1
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 0,
+            "hair": 0,
+            "skin": 3,
+            "style": 1,
+            "voice": 0
+          }
+        },
+        {
+          "slot": "house_01",
+          "nome": "Lin Qi",
+          "role": "resident",
+          "faction": "comunidade",
+          "level": 1,
+          "attributes": {
+            "forca": 2,
+            "agilidade": 1,
+            "vitalidade": 2,
+            "inteligencia": 1,
+            "vontade": 1,
+            "sorte": 3
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 2,
+            "hair": 3,
+            "skin": 1,
+            "style": 2,
+            "voice": 1
+          }
+        },
+        {
+          "slot": "market_01",
+          "nome": "Lin Bo",
+          "role": "merchant",
+          "faction": "caravanas",
+          "level": 2,
+          "attributes": {
+            "forca": 1,
+            "agilidade": 1,
+            "vitalidade": 1,
+            "inteligencia": 4,
+            "vontade": 4,
+            "sorte": 3
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 5,
+            "hair": 0,
+            "skin": 1,
+            "style": 2,
+            "voice": 0
+          }
+        },
+        {
+          "slot": "market_02",
+          "nome": "Wang Bao",
+          "role": "merchant",
+          "faction": "caravanas",
+          "level": 1,
+          "attributes": {
+            "forca": 2,
+            "agilidade": 1,
+            "vitalidade": 2,
+            "inteligencia": 3,
+            "vontade": 3,
+            "sorte": 4
+          },
+          "appearance": {
+            "race": 0,
+            "robe": 0,
+            "hair": 4,
+            "skin": 1,
+            "style": 0,
+            "voice": 1
+          }
+        }
+      ]
+    }
+  ]
+}

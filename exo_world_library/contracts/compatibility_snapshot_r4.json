@@ -1,0 +1,45 @@
+{
+  "description": "candidate-only; availability not evidence of readiness",
+  "references": {
+    "c3_work": {
+      "sha256": "abe7b5736140d91153e0e6f9343ef443d9ca526f78b636361355b2d895cb69f9",
+      "status": "CANDIDATE"
+    },
+    "city_r3": {
+      "sha256": "720338efb3b5903f1001d16da9240150e8a7cc3992a20c0e8ae6ab85613bfe69",
+      "status": "CANDIDATE"
+    },
+    "city_r4": {
+      "sha256": "3a5736ce416904b42ee2cb2bcd11d8b573f3a734f5b66d134e6374c472265679",
+      "status": "CANDIDATE_OFFLINE_QA"
+    },
+    "crowd_r3": {
+      "sha256": "d35d6d20175cdd2dbaf4da1c81b380174069652fa5b0ace07e958a69969afbc1",
+      "status": "CANDIDATE"
+    },
+    "interior_r1": {
+      "sha256": "a7c1bd792291678afd2163cdae8112adfab022cecfcee5c01e6c26ac47c0a20c",
+      "status": "CANDIDATE"
+    },
+    "skill_r2": {
+      "sha256": "002fc85dad97732ffbbe303eea48f6882f360b478b65fcceddda01cf4a9f4022",
+      "status": "CANDIDATE"
+    }
+  },
+  "required_gates": [
+    "owner_approval",
+    "host_registry_opt_in",
+    "native_parser_import",
+    "save_reopen",
+    "no_host_mutation"
+  ],
+  "schema": "exo.world_library.compat.v4",
+  "unknown_final_contracts": [
+    "exo_interior_forge R2",
+    "exo_skill_forge R3",
+    "exo_crowd_illusion R4",
+    "exo_economy R5",
+    "npc_system03",
+    "worldgen V4"
+  ]
+}

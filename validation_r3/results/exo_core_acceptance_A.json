@@ -1,0 +1,229 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "core_boot_ready"
+    },
+    {
+      "pass": true,
+      "test": "capture_01-criacao"
+    },
+    {
+      "pass": true,
+      "test": "import_actual_64px_skin"
+    },
+    {
+      "pass": true,
+      "test": "create_integrated_character"
+    },
+    {
+      "pass": true,
+      "test": "capture_02-skin3d"
+    },
+    {
+      "pass": true,
+      "test": "enter_actual_village"
+    },
+    {
+      "pass": true,
+      "test": "persistent_residents_present"
+    },
+    {
+      "pass": true,
+      "test": "capture_03-aldeia-proxima"
+    },
+    {
+      "pass": true,
+      "test": "capture_04-aldeia-ampla"
+    },
+    {
+      "pass": true,
+      "test": "seek_town_contract_giver"
+    },
+    {
+      "pass": true,
+      "test": "real_npc_offers_road_bandits"
+    },
+    {
+      "pass": true,
+      "test": "capture_05-npc-interacao"
+    },
+    {
+      "pass": true,
+      "test": "accept_road_bandits"
+    },
+    {
+      "pass": true,
+      "test": "capture_06-diario-contrato"
+    },
+    {
+      "pass": true,
+      "test": "connected_transition_6"
+    },
+    {
+      "pass": true,
+      "test": "objective_territory_exists"
+    },
+    {
+      "pass": true,
+      "test": "physical_enemy_materialized"
+    },
+    {
+      "pass": true,
+      "test": "capture_07-inimigos"
+    },
+    {
+      "pass": true,
+      "test": "enemy_inflicts_damage"
+    },
+    {
+      "pass": true,
+      "test": "defeat_eco/r06/t00/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "xp_eco/r06/t00/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "loot_from_real_combat"
+    },
+    {
+      "pass": true,
+      "test": "quest_objective_from_death"
+    },
+    {
+      "pass": true,
+      "test": "defeat_eco/r06/t00/m1/g0000"
+    },
+    {
+      "pass": true,
+      "test": "xp_eco/r06/t00/m1/g0000"
+    },
+    {
+      "pass": true,
+      "test": "additional_real_loot_eco/r06/t00/m1/g0000"
+    },
+    {
+      "pass": true,
+      "test": "defeat_eco/r06/t01/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "xp_eco/r06/t01/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "additional_real_loot_eco/r06/t01/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "defeat_eco/r06/t02/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "xp_eco/r06/t02/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "additional_real_loot_eco/r06/t02/m0/g0000"
+    },
+    {
+      "pass": true,
+      "test": "level_from_real_combat"
+    },
+    {
+      "pass": true,
+      "test": "capture_08-combate-e-saque"
+    },
+    {
+      "pass": true,
+      "test": "return_connected_15"
+    },
+    {
+      "pass": true,
+      "test": "giver_identity_same_after_travel"
+    },
+    {
+      "pass": true,
+      "test": "claim_reward"
+    },
+    {
+      "pass": true,
+      "test": "claim_reward_no_repeat"
+    },
+    {
+      "pass": true,
+      "test": "reward_xp_exact"
+    },
+    {
+      "pass": true,
+      "test": "local_reputation"
+    },
+    {
+      "pass": true,
+      "test": "social_memory_real_giver"
+    },
+    {
+      "pass": true,
+      "test": "capture_09-recompensa-memoria"
+    },
+    {
+      "pass": true,
+      "test": "equip_owned_weapon"
+    },
+    {
+      "pass": true,
+      "test": "roll_state_idle"
+    },
+    {
+      "pass": true,
+      "test": "save_integrated"
+    },
+    {
+      "pass": true,
+      "test": "visit_town"
+    },
+    {
+      "pass": true,
+      "test": "capture_10-vila"
+    },
+    {
+      "pass": true,
+      "test": "visit_city"
+    },
+    {
+      "pass": true,
+      "test": "capture_11-cidade-muralhas"
+    },
+    {
+      "pass": true,
+      "test": "city_perimeter_complete"
+    },
+    {
+      "pass": true,
+      "test": "capture_11b-portao-real"
+    },
+    {
+      "pass": true,
+      "test": "restore_acceptance_region"
+    },
+    {
+      "pass": true,
+      "test": "save_final_acceptance"
+    }
+  ],
+  "facts": {
+    "captures": 12,
+    "fight": {
+      "defeated": true,
+      "frames": 141,
+      "hp": 75,
+      "uid": "eco/r06/t00/m0/g0000",
+      "xp": 28
+    },
+    "fortifications": "ready",
+    "received_damage": 9
+  },
+  "failures": []
+}

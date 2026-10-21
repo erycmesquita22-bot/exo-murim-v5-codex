@@ -1,0 +1,93 @@
+{
+  "engine": "EXTERNAL_PYTHON_MIRROR_NOT_GODOT",
+  "test_cases": 7000,
+  "starting_index": 14000,
+  "elapsed_s": 14.46,
+  "counts": {
+    "total": 7000,
+    "village_total": 2393,
+    "normal_total": 3595,
+    "ready": 6999,
+    "village_ready": 2393,
+    "normal_ready": 3595,
+    "city_total": 2269,
+    "moderate_total": 1124,
+    "city_ready": 2268,
+    "moderate_ready": 1124,
+    "town_total": 2338,
+    "steep_total": 1181,
+    "town_ready": 2338,
+    "steep_ready": 1181,
+    "flat_total": 525,
+    "flat_ready": 525,
+    "extreme_total": 575,
+    "extreme_ready": 574,
+    "invalid": 1,
+    "city_invalid": 1,
+    "extreme_invalid": 1,
+    "missing_lots": 1
+  },
+  "reject_reasons": {
+    "bounds": 39912,
+    "gates": 138747,
+    "street": 180880,
+    "rivers": 66037,
+    "slope": 201690,
+    "occupied": 11605,
+    "well_overlap": 2250,
+    "well_access": 5
+  },
+  "failure_examples": [
+    {
+      "case": "synth_17189",
+      "scale": "city",
+      "biome": "temperate_forest",
+      "mode": "extreme",
+      "gates": [
+        [
+          -14.465203367666902,
+          -254
+        ],
+        [
+          254,
+          -124.01488691962744
+        ],
+        [
+          -254,
+          65.82476758098025
+        ],
+        [
+          -94.69490506448605,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          114.10559342264071
+        ],
+        [
+          -254,
+          -109.55970718659765
+        ],
+        [
+          -124.77716985232342,
+          254
+        ]
+      ],
+      "target": 48,
+      "actual": 47,
+      "rejects": {
+        "bounds": 12,
+        "gates": 120,
+        "well_overlap": 3,
+        "rivers": 117,
+        "slope": 98,
+        "street": 159,
+        "occupied": 32
+      }
+    }
+  ],
+  "real_atlas_cases": 23,
+  "real_atlas_previews": []
+}

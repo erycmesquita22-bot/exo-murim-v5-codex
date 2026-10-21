@@ -1,0 +1,31 @@
+{
+  "id": "frontier_martial_town",
+  "weights": {
+    "residential": 25,
+    "commercial": 14,
+    "martial": 30,
+    "institutional": 8,
+    "mixed": 11,
+    "noble": 1,
+    "artisan": 7,
+    "plaza": 4
+  },
+  "economy": 0.8,
+  "martial_presence": 0.65,
+  "noble_probability": 0.008,
+  "maximum_influential_families": 2,
+  "ordinary_population_min_share": 0.78,
+  "guards_per_100_residents": 4,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.9,
+  "implementation": "parameterized",
+  "name": "Fronteira Marcial",
+  "allowed_scales": [
+    "town",
+    "city"
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "domain": "name_given",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/hao",
+      "label": "Hao",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hao"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/jun",
+      "label": "Jun",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jun"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/ming",
+      "label": "Ming",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Ming"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/ren",
+      "label": "Ren",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Ren"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/jin",
+      "label": "Jin",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jin"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/yun",
+      "label": "Yun",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yun"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/sora",
+      "label": "Sora",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Sora"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/hae",
+      "label": "Hae",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hae"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/seon",
+      "label": "Seon",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Seon"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/jiho",
+      "label": "Jiho",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jiho"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/dae",
+      "label": "Dae",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Dae"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/rin",
+      "label": "Rin",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Rin"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/minseo",
+      "label": "Minseo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Minseo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/hwarang",
+      "label": "Hwarang",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hwarang"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/yue",
+      "label": "Yue",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yue"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/ling",
+      "label": "Ling",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Ling"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/mei",
+      "label": "Mei",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Mei"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/chun",
+      "label": "Chun",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Chun"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/soo",
+      "label": "Soo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Soo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/wen",
+      "label": "Wen",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Wen"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/yan",
+      "label": "Yan",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Yan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/bo",
+      "label": "Bo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Bo"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/tae",
+      "label": "Tae",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Tae"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/jae",
+      "label": "Jae",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Jae"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/eun",
+      "label": "Eun",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Eun"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/hye",
+      "label": "Hye",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Hye"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/won",
+      "label": "Won",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Won"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/feng",
+      "label": "Feng",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Feng"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/long",
+      "label": "Long",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Long"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/xue",
+      "label": "Xue",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Xue"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/nari",
+      "label": "Nari",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Nari"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "name_given",
+      "excludes": [],
+      "id": "name_given/seol",
+      "label": "Seol",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "naming",
+        "neutral"
+      ],
+      "variables": {
+        "romanized": "Seol"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

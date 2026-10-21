@@ -1,0 +1,21 @@
+{
+  "atlas": "atlas_seed_101.json",
+  "ids": [
+    32,
+    46,
+    52,
+    61,
+    63,
+    78,
+    86
+  ],
+  "labels": {
+    "32": "ruinas",
+    "46": "montanha",
+    "52": "floresta",
+    "61": "masmorra",
+    "63": "vale",
+    "78": "cidade",
+    "86": "vila"
+  }
+}

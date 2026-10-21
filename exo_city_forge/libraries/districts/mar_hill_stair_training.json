@@ -1,0 +1,120 @@
+{
+  "id": "mar_hill_stair_training",
+  "name": "Escola do Degrau Alto",
+  "category": "martial",
+  "tags": [
+    "martial",
+    "terrace",
+    "city_forge_r2"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        1
+      ],
+      "b": [
+        18,
+        1
+      ],
+      "width": 3.4
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "mar_hill_stair_training/b00",
+      "function": "martial_school",
+      "local_position": [
+        -12.55,
+        -11.16
+      ],
+      "size": [
+        6.0,
+        5.3
+      ],
+      "height": 4.6,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "mar_hill_stair_training/b01",
+      "function": "martial_school",
+      "local_position": [
+        11.45,
+        -13.16
+      ],
+      "size": [
+        6.65,
+        6.6
+      ],
+      "height": 5.0,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "mar_hill_stair_training/b02",
+      "function": "martial_school",
+      "local_position": [
+        -13.55,
+        10.84
+      ],
+      "size": [
+        7.3,
+        5.95
+      ],
+      "height": 5.4,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "mar_hill_stair_training/st00",
+      "for_building": "mar_hill_stair_training/b00",
+      "role": "disciple"
+    },
+    {
+      "id": "mar_hill_stair_training/st01",
+      "for_building": "mar_hill_stair_training/b01",
+      "role": "disciple"
+    },
+    {
+      "id": "mar_hill_stair_training/st02",
+      "for_building": "mar_hill_stair_training/b02",
+      "role": "disciple"
+    }
+  ],
+  "open_spaces": {
+    "type": "terrace",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "terrace",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

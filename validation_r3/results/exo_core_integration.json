@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "all_modules_initialized"
+    },
+    {
+      "pass": true,
+      "test": "health_check"
+    },
+    {
+      "pass": true,
+      "test": "services_real"
+    },
+    {
+      "pass": true,
+      "test": "city_78"
+    },
+    {
+      "pass": true,
+      "test": "complete_city_perimeter"
+    },
+    {
+      "pass": true,
+      "test": "capsules_through_all_city_gates:[]"
+    },
+    {
+      "pass": true,
+      "test": "gate_floor_support"
+    }
+  ],
+  "facts": {
+    "gate_capsule_samples": 351,
+    "health": {
+      "errors": [],
+      "order": [
+        "persistence",
+        "world",
+        "architecture",
+        "inventory",
+        "living_world",
+        "appearance",
+        "combat",
+        "journey",
+        "narrative",
+        "visual"
+      ],
+      "schema": 1,
+      "services": [
+        "persistence",
+        "regions",
+        "architecture",
+        "inventory",
+        "npcs",
+        "appearance",
+        "combat",
+        "progression",
+        "quests",
+        "narrative",
+        "exo_visual"
+      ],
+      "status": "PASS"
+    }
+  },
+  "failures": []
+}

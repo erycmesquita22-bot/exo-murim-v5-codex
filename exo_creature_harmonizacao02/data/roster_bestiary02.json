@@ -1,0 +1,80 @@
+{
+  "bear": {
+    "model": "res://exo_creature_harmonizacao02/models/bear/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/bear/forge.tscn",
+    "bestiary_id": "bear",
+    "only_visual": true
+  },
+  "boar": {
+    "model": "res://exo_creature_harmonizacao02/models/boar/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/boar/art02.tscn",
+    "bestiary_id": "boar",
+    "only_visual": true
+  },
+  "corrupted_wolf": {
+    "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
+    "bestiary_id": "corrupted_wolf",
+    "only_visual": true
+  },
+  "deer": {
+    "model": "res://exo_creature_harmonizacao02/models/deer/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/deer/forge.tscn",
+    "bestiary_id": "deer",
+    "only_visual": true
+  },
+  "fox": {
+    "model": "res://exo_creature_harmonizacao02/models/fox/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/fox/forge.tscn",
+    "bestiary_id": "fox",
+    "only_visual": true
+  },
+  "leopard": {
+    "model": "res://exo_creature_harmonizacao02/models/leopard/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
+    "bestiary_id": "leopard",
+    "only_visual": true
+  },
+  "mountain_goat": {
+    "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
+    "bestiary_id": "mountain_goat",
+    "only_visual": true
+  },
+  "rabbit": {
+    "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
+    "bestiary_id": "rabbit",
+    "only_visual": true
+  },
+  "snake": {
+    "model": "res://exo_creature_harmonizacao02/models/snake/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/snake/forge.tscn",
+    "bestiary_id": "snake",
+    "only_visual": true
+  },
+  "spirit_deer": {
+    "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
+    "bestiary_id": "spirit_deer",
+    "only_visual": true
+  },
+  "stone_guardian": {
+    "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
+    "bestiary_id": "stone_guardian",
+    "only_visual": true
+  },
+  "tiger": {
+    "model": "res://exo_creature_harmonizacao02/models/tiger/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
+    "bestiary_id": "tiger",
+    "only_visual": true
+  },
+  "wolf": {
+    "model": "res://exo_creature_harmonizacao02/models/wolf/art02.glb",
+    "scene": "res://exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
+    "bestiary_id": "wolf",
+    "only_visual": true
+  }
+}

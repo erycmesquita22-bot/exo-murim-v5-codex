@@ -1,0 +1,7 @@
+{
+  "crc": "PASS",
+  "fresh_import": "PASS",
+  "fresh_render_boot": "PASS",
+  "runtime_source": "unchanged after fresh import; test fixture/docs only updated",
+  "engine": "4.6.2"
+}

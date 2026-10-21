@@ -1,0 +1,37 @@
+[
+  {
+    "project": "EXO-Murim-Convergencia-01.2",
+    "log": "capture-delivery.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01",
+    "log": "benchmark012-home.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01",
+    "log": "benchmark012-village.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01",
+    "log": "benchmark012-city.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01.2",
+    "log": "benchmark012-home.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01.2",
+    "log": "benchmark012-village.log",
+    "launcher_pass": true
+  },
+  {
+    "project": "EXO-Murim-Convergencia-01.2",
+    "log": "benchmark012-city.log",
+    "launcher_pass": true
+  }
+]

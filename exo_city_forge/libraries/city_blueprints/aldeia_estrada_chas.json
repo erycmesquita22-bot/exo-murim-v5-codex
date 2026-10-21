@@ -1,0 +1,264 @@
+{
+  "id": "aldeia_estrada_chas",
+  "name": "Aldeia da Estrada do Chá",
+  "shape": "linear",
+  "wall": false,
+  "half_extent": 100,
+  "gates": [
+    [
+      -91,
+      0
+    ],
+    [
+      91,
+      0
+    ],
+    [
+      -91,
+      54
+    ],
+    [
+      91,
+      54
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -91,
+        0
+      ],
+      "b": [
+        91,
+        0
+      ],
+      "width": 6,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -91,
+        54
+      ],
+      "b": [
+        91,
+        54
+      ],
+      "width": 3.1,
+      "kind": "walking_lane"
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        54
+      ],
+      "width": 2.2,
+      "kind": "access_lane"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "aldeia_estrada_chas/s00",
+      "center": [
+        -66,
+        28
+      ],
+      "footprint": [
+        [
+          -84.0,
+          9.0
+        ],
+        [
+          -48.0,
+          9.0
+        ],
+        [
+          -48.0,
+          47.0
+        ],
+        [
+          -84.0,
+          47.0
+        ]
+      ],
+      "size": [
+        36,
+        38
+      ],
+      "connectors": [
+        [
+          -66.0,
+          9.0
+        ],
+        [
+          -48.0,
+          28.0
+        ],
+        [
+          -66.0,
+          47.0
+        ],
+        [
+          -84.0,
+          28.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_estrada_chas/s01",
+      "center": [
+        -22,
+        28
+      ],
+      "footprint": [
+        [
+          -40.0,
+          9.0
+        ],
+        [
+          -4.0,
+          9.0
+        ],
+        [
+          -4.0,
+          47.0
+        ],
+        [
+          -40.0,
+          47.0
+        ]
+      ],
+      "size": [
+        36,
+        38
+      ],
+      "connectors": [
+        [
+          -22.0,
+          9.0
+        ],
+        [
+          -4.0,
+          28.0
+        ],
+        [
+          -22.0,
+          47.0
+        ],
+        [
+          -40.0,
+          28.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_estrada_chas/s02",
+      "center": [
+        22,
+        28
+      ],
+      "footprint": [
+        [
+          4.0,
+          9.0
+        ],
+        [
+          40.0,
+          9.0
+        ],
+        [
+          40.0,
+          47.0
+        ],
+        [
+          4.0,
+          47.0
+        ]
+      ],
+      "size": [
+        36,
+        38
+      ],
+      "connectors": [
+        [
+          22.0,
+          9.0
+        ],
+        [
+          40.0,
+          28.0
+        ],
+        [
+          22.0,
+          47.0
+        ],
+        [
+          4.0,
+          28.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_estrada_chas/s03",
+      "center": [
+        66,
+        28
+      ],
+      "footprint": [
+        [
+          48.0,
+          9.0
+        ],
+        [
+          84.0,
+          9.0
+        ],
+        [
+          84.0,
+          47.0
+        ],
+        [
+          48.0,
+          47.0
+        ]
+      ],
+      "size": [
+        36,
+        38
+      ],
+      "connectors": [
+        [
+          66.0,
+          9.0
+        ],
+        [
+          84.0,
+          28.0
+        ],
+        [
+          66.0,
+          47.0
+        ],
+        [
+          48.0,
+          28.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "village"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

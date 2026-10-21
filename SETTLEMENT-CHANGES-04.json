@@ -1,0 +1,39 @@
+{
+  "candidate": "EXO-WorldGenesis-04-Settlement-Core",
+  "base": "EXO-WorldGenesis-03-Godot-Validacao",
+  "changed_files": {
+    "genesis/settlements/settlement_planner.gd": {
+      "sha256": "93cf6b9e85b24f0b17d7deed57552080231cbf753165ffc72597dcec75b4b3f8",
+      "size": 10307
+    },
+    "genesis/region_data.gd": {
+      "sha256": "00dbc9ac5f86abebbfe36cb1010db23fe85e611f41292502c508d2688915635d",
+      "size": 8776
+    },
+    "genesis/region_scene.gd": {
+      "sha256": "c5ba5d88df0ff04dd90e604a52912b62cbd13af67fda796c9ebec36682ccdc7e",
+      "size": 12657
+    },
+    "tests/settlement_core.gd": {
+      "sha256": "589b0d37e96baec99e14a2efa03e89ad81244f7e0b173c56501e1014d66e5469",
+      "size": 2591
+    },
+    "tests/settlement_geometry.gd": {
+      "sha256": "408be253c08fe831f089168105aa0bf6052ed214503b4788ac427684f2569fda",
+      "size": 1328
+    },
+    "SETTLEMENT-GENESIS-04.md": {
+      "sha256": "3a0dce7b127abc9e11b60c1797a2fad855491fbde8cac8911895440c068bc3cd",
+      "size": 5049
+    },
+    "SETTLEMENT-VERSION.json": {
+      "sha256": "34df465c1397fecc83eae9b4c74b416858d3bba6101b41a034a63bcaa416508f",
+      "size": 366
+    },
+    "WORK-TESTES-04.md": {
+      "sha256": "5cd079d3302974796fb450cf454681b4c36e08d6ec1a73fc978a0d3166bbb446",
+      "size": 1820
+    }
+  },
+  "godot_execution": "not_run_here; delegated to Work"
+}

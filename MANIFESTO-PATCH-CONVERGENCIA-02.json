@@ -1,0 +1,2247 @@
+{
+  "schema": 1,
+  "base": "EXO-Murim-Nucleo-Narrativo-01.zip",
+  "target": "Convergencia 02 EXO Core 01 CANDIDATO",
+  "root_save_version": 4,
+  "removed": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "kind": "added",
+      "sha256": "b94c2e5d9bb840cba487f1e4911bee0369a3da68c7348207b4ef89692b78ec1d",
+      "size": 19
+    },
+    {
+      "path": "EXO-CORE-ARQUITETURA.md",
+      "kind": "added",
+      "sha256": "945d0e191baa778dfad8893424d820bcc53ece1f9ed21cb01db01c6e895cc8ce",
+      "size": 6347
+    },
+    {
+      "path": "EXO-CORE-CONTRATO-DE-MODULOS.md",
+      "kind": "added",
+      "sha256": "86aa89dbcfab1730bd54a52b10d000d6aac611a992c9d5795e3e9699f0750f55",
+      "size": 3700
+    },
+    {
+      "path": "LEIA-ME-CONVERGENCIA-02.md",
+      "kind": "added",
+      "sha256": "6cdba0b030908468e4dd5a67546873b19344c64c96bf43775e10b94b11fa0e03",
+      "size": 1518
+    },
+    {
+      "path": "MANIFESTO-MODULOS-EXO-CORE-01.json",
+      "kind": "added",
+      "sha256": "c41eb3ee1f453b1c39833fd24f5295dc8428a7439ddf78c5b74e435ee004bf20",
+      "size": 3168
+    },
+    {
+      "path": "MANIFESTO-PRESERVACAO-CORE-01.json",
+      "kind": "added",
+      "sha256": "57b3a7184c2e1a8f3718d47f3d5d21ebbbb4e8bd2664e21841fe080e99c2020e",
+      "size": 1817
+    },
+    {
+      "path": "MATRIZ-INTEGRACAO-CONVERGENCIA-02.md",
+      "kind": "added",
+      "sha256": "bce0831131de213abe3be53e1d9f40c92ff8694fac3637f93fec41597f02bb9e",
+      "size": 4302
+    },
+    {
+      "path": "RELATORIO-CONVERGENCIA-02.md",
+      "kind": "added",
+      "sha256": "3ec89c513c6127f2f0d73e5b499a8bfd41aa097cdbea9a4b155e899b16395e2b",
+      "size": 7786
+    },
+    {
+      "path": "RESULTADOS-QA-CONVERGENCIA-02.json",
+      "kind": "added",
+      "sha256": "2cd5ca764a1b54b96654b4fd2607779326579d35d80479bbd2cb55834cec7f6c",
+      "size": 38211
+    },
+    {
+      "path": "STATUS-CONVERGENCIA-02.json",
+      "kind": "added",
+      "sha256": "3ff192de9e6a6d37b4dfa7ca4cf0594c2fc489635c111101e87578a83024e456",
+      "size": 304
+    },
+    {
+      "path": "convergence/game.gd",
+      "kind": "modified",
+      "sha256": "267358acbad2ad021d08571f19703e07bd340ba43ef35e32e00d959d33dc7dde",
+      "size": 22060
+    },
+    {
+      "path": "convergence/pilot_walk_result.json",
+      "kind": "modified",
+      "sha256": "57662943e895ac5f5a7cb49ee92760db7f112f8502930d5e02920b02bba5203a",
+      "size": 3041
+    },
+    {
+      "path": "convergence/qa.gd",
+      "kind": "modified",
+      "sha256": "e1203d1ff6907ae588b3bb4b024861a9b1cf5f2cc1f864c18be4a59c3a5ee2db",
+      "size": 6878
+    },
+    {
+      "path": "convergence/qa_result.json",
+      "kind": "modified",
+      "sha256": "8c0667f88e034b526d875d7b298bcac74bad362f964589857f01c7e527112374",
+      "size": 10571
+    },
+    {
+      "path": "convergence/r2_visit_capture.gd.uid",
+      "kind": "added",
+      "sha256": "675ad1b0972035c7ff51847cb5bbe054bc5154c0aa1f0254026dd2deeaa2b75f",
+      "size": 20
+    },
+    {
+      "path": "convergence/region.gd",
+      "kind": "modified",
+      "sha256": "f7ec6b19ce90e1607ac0fdb49740e8763c862df4aa1617ad6478bd7a897f455a",
+      "size": 5846
+    },
+    {
+      "path": "convergence/resident.gd",
+      "kind": "modified",
+      "sha256": "715a5e6b8a623bfa92022fe703928dbb91ab3e872df60c2393504437ff7fedf9",
+      "size": 7615
+    },
+    {
+      "path": "convergence/routine_fixture012.json",
+      "kind": "modified",
+      "sha256": "a3da032d8c71b75a0270421e111acba9d9a81734588aca0d0033b55cad261a73",
+      "size": 75294
+    },
+    {
+      "path": "convergence/validation012/final/atlas.log",
+      "kind": "modified",
+      "sha256": "0ff3dd3249df71055d4973eb3b0d053a4fbe4e6ec7cfeaebe1bb500328113402",
+      "size": 834
+    },
+    {
+      "path": "convergence/validation012/final/extremes.log",
+      "kind": "modified",
+      "sha256": "ed3bf9b805b302316e0f3baef907da1b5b0f1a44c3a47b74a86d7e918c475ed3",
+      "size": 885
+    },
+    {
+      "path": "convergence/validation012/final/grades.log",
+      "kind": "modified",
+      "sha256": "f150990b737a91a1523203cf26db53be2d6ca715acd06b8ff78a5dd42354f1be",
+      "size": 392
+    },
+    {
+      "path": "convergence/validation012/final/integration.log",
+      "kind": "modified",
+      "sha256": "32aa5380e5c5b703b32f55756b3f5aa6173581a4ffa811bd703fe8eaa3ccbc20",
+      "size": 4538
+    },
+    {
+      "path": "convergence/validation012/final/pilots.log",
+      "kind": "modified",
+      "sha256": "fc3e89b185672ea71117f6333737968b0eea8da02eca2632698717674df4ba73",
+      "size": 3046
+    },
+    {
+      "path": "convergence/validation012/final/procedural_qa.log",
+      "kind": "modified",
+      "sha256": "dd65598a590bc0f6c361bc3d79e85a3eb04c47e3add5c5943a539114ab716a13",
+      "size": 2710
+    },
+    {
+      "path": "convergence/validation012/final/routines012.log",
+      "kind": "modified",
+      "sha256": "a23451ec9daae1ac74d44f5ef1795e22dbe53276eb1679ca6baeece36ad645ae",
+      "size": 1037
+    },
+    {
+      "path": "convergence/validation012/final/stabilization_qa.log",
+      "kind": "modified",
+      "sha256": "3c094d3e39e0ec987e6935c0be2970dff86d8bd54568daa31dfcfb2e6ae8523c",
+      "size": 2912
+    },
+    {
+      "path": "convergence/validation012/final/summary.json",
+      "kind": "modified",
+      "sha256": "561ad00a29b84de30b38287d0f73c651678ad41c31e34bdada7fe357fe1d2d5b",
+      "size": 14521
+    },
+    {
+      "path": "enemy.gd",
+      "kind": "modified",
+      "sha256": "6d3be90658f558012b271a0103ac62e5ed68ab2c0440a5e6258195184fe481e7",
+      "size": 13020
+    },
+    {
+      "path": "evidence/stress.json",
+      "kind": "modified",
+      "sha256": "9efdb85994e08ac236f610392d38d632f603cec28e1542eb9ea5fb85d8e3fc87",
+      "size": 671
+    },
+    {
+      "path": "evidencias/combate-personagem-preservado.png",
+      "kind": "modified",
+      "sha256": "ead8be4b709f33919f396991f841374cfcbe99ea684f4e9bf9478a72415f40e9",
+      "size": 380528
+    },
+    {
+      "path": "evidencias/configuracoes.png",
+      "kind": "modified",
+      "sha256": "fc7defb73e9a0e49eec378e661b3f824872848e8f7460809364fb79ea58bbce6",
+      "size": 308891
+    },
+    {
+      "path": "evidencias/ruinas-antes.png",
+      "kind": "modified",
+      "sha256": "fd344fcad07c1ff8972f1a0764f996f30e299d998b054d0e5fcbdabb3c81eb8f",
+      "size": 393145
+    },
+    {
+      "path": "evidencias/ruinas-concluidas.png",
+      "kind": "modified",
+      "sha256": "afaded145a0da9bf981993b4a09f1dbddffe761e6f7635f538048c0e4a28a9ba",
+      "size": 392436
+    },
+    {
+      "path": "evidencias/vila-completa.png",
+      "kind": "modified",
+      "sha256": "8ab18d45e23b50569972de761a9db35e62815203ecb7f9e232d4e39116eaa8c3",
+      "size": 641693
+    },
+    {
+      "path": "exo_core/adapters_architecture.gd",
+      "kind": "added",
+      "sha256": "0503546fbbf0e4ba3506cb47d2c0d293de479ef647db49d2bf266166f1e26d21",
+      "size": 3583
+    },
+    {
+      "path": "exo_core/adapters_architecture.gd.uid",
+      "kind": "added",
+      "sha256": "363ca4c8222eddb64451140665d5b8f82b44b2a2e4b77ee2bc63c5798e32a132",
+      "size": 20
+    },
+    {
+      "path": "exo_core/contracts/entity_contracts.gd",
+      "kind": "added",
+      "sha256": "f5d2417114fc0cfd9b5c95d9c5df3e3d9207f1bdae55c60bad028c44e055f683",
+      "size": 668
+    },
+    {
+      "path": "exo_core/contracts/entity_contracts.gd.uid",
+      "kind": "added",
+      "sha256": "d57e563e371f14099d665bbde23236841223e97a126973c1d2dad97aa1f10138",
+      "size": 20
+    },
+    {
+      "path": "exo_core/contracts/event_contracts.gd",
+      "kind": "added",
+      "sha256": "84a525a623bd4777c381094ec396121f13814d49a08407811a7ce9a971cc62d3",
+      "size": 1009
+    },
+    {
+      "path": "exo_core/contracts/event_contracts.gd.uid",
+      "kind": "added",
+      "sha256": "fa12cb50a348f087fcf7c6321b8ebb7da85e6664bb8ee74805f42041c86abee1",
+      "size": 20
+    },
+    {
+      "path": "exo_core/core.gd",
+      "kind": "added",
+      "sha256": "4f078793707adb1ea906db8a68ca35d1bd11f560fc9c903e633cdca81c2db121",
+      "size": 8067
+    },
+    {
+      "path": "exo_core/core.gd.uid",
+      "kind": "added",
+      "sha256": "28d4570e5447d2012b7a2007b253e8deca281a8c7a9f651fadff20be8779fb00",
+      "size": 19
+    },
+    {
+      "path": "exo_core/diagnostics/health_check.gd",
+      "kind": "added",
+      "sha256": "a472895d2c93b5a3d080b68e347e74434c1ef5dc87c029cf61ce51542b701a04",
+      "size": 694
+    },
+    {
+      "path": "exo_core/diagnostics/health_check.gd.uid",
+      "kind": "added",
+      "sha256": "4e648e50081e26ce87741e2e9a1dbd06d985208439fe462df0f917cc430f4b65",
+      "size": 20
+    },
+    {
+      "path": "exo_core/event_bus.gd",
+      "kind": "added",
+      "sha256": "27d8df76f11872496004582387d9878fa4b6381089613c3ac47fe7f8e9c8d551",
+      "size": 3001
+    },
+    {
+      "path": "exo_core/event_bus.gd.uid",
+      "kind": "added",
+      "sha256": "cb8d46c96012d309311b43d7038629a568c8c8b9f9372c3948c28e1aced83b45",
+      "size": 20
+    },
+    {
+      "path": "exo_core/evidence/01-criacao.png",
+      "kind": "added",
+      "sha256": "447d72d0a642c44d4114078c57dbe7c1eb78e5b56d2588bf3457fdacb15e1be1",
+      "size": 295059
+    },
+    {
+      "path": "exo_core/evidence/01-criacao.png.import",
+      "kind": "added",
+      "sha256": "d72069eaafc12d6fc3aec15efb58259ac90013558d14fb74f5fef3990d979d96",
+      "size": 952
+    },
+    {
+      "path": "exo_core/evidence/02-skin3d.png",
+      "kind": "added",
+      "sha256": "67854400ed0164c46437ff77d2718df6443762b68ca081061d6d70ec26b7b066",
+      "size": 190181
+    },
+    {
+      "path": "exo_core/evidence/02-skin3d.png.import",
+      "kind": "added",
+      "sha256": "2cf5199aa44e463d248ba037dd7deadac91bcb4889526842b67ffc7e41793b48",
+      "size": 949
+    },
+    {
+      "path": "exo_core/evidence/03-aldeia-proxima.png",
+      "kind": "added",
+      "sha256": "4842d814cadcc282f0fe2f973806349fb56a192fb3aa10fb92c9ec7d86178931",
+      "size": 1805580
+    },
+    {
+      "path": "exo_core/evidence/03-aldeia-proxima.png.import",
+      "kind": "added",
+      "sha256": "1e802ed8cee3f624fc076c073835ac4baabf4821d48f5e530fc8101459cbadb5",
+      "size": 973
+    },
+    {
+      "path": "exo_core/evidence/04-aldeia-ampla.png",
+      "kind": "added",
+      "sha256": "5b93da495268340e202040d18959add49a2fa6639e068c91a7a5647f32313f87",
+      "size": 1177159
+    },
+    {
+      "path": "exo_core/evidence/04-aldeia-ampla.png.import",
+      "kind": "added",
+      "sha256": "4dbf2841217b459db94ef7ec1303aef33efaea0c55730bb8bd20c53f29dbcd6e",
+      "size": 967
+    },
+    {
+      "path": "exo_core/evidence/05-npc-interacao.png",
+      "kind": "added",
+      "sha256": "9b8bc7c4c3f702b7ae295bfb126d2906a4b22143088c6f1c470772842b896eeb",
+      "size": 714357
+    },
+    {
+      "path": "exo_core/evidence/05-npc-interacao.png.import",
+      "kind": "added",
+      "sha256": "0740196521bd77b929393dbf776370a895a681e6df7f901a84f40ddd9b4787bd",
+      "size": 970
+    },
+    {
+      "path": "exo_core/evidence/06-diario-contrato.png",
+      "kind": "added",
+      "sha256": "3f71146f057ca949f6c31a40a25ceb008e23300010f1e225b968da22aa89c074",
+      "size": 426071
+    },
+    {
+      "path": "exo_core/evidence/06-diario-contrato.png.import",
+      "kind": "added",
+      "sha256": "3d4a3c7e3bb70f3f0883e7cba85fac1d4a5f25976f3da47d851bf3e0ec98eddf",
+      "size": 976
+    },
+    {
+      "path": "exo_core/evidence/07-inimigos.png",
+      "kind": "added",
+      "sha256": "6f0d56ee25490c876f6ebfefbe0634ba437d37d96cb546400d8934803fd8eef0",
+      "size": 1804718
+    },
+    {
+      "path": "exo_core/evidence/07-inimigos.png.import",
+      "kind": "added",
+      "sha256": "a4fd3e1ec38e209f5d6da154a308cc6339ba8a4c38c0f1f0092f54200e6acba2",
+      "size": 955
+    },
+    {
+      "path": "exo_core/evidence/08-combate-e-saque.png",
+      "kind": "added",
+      "sha256": "d5352315dff14e1ead7a676e4403da5d134fac0a989235cc0fc72ec9d860dec2",
+      "size": 1763899
+    },
+    {
+      "path": "exo_core/evidence/08-combate-e-saque.png.import",
+      "kind": "added",
+      "sha256": "1f5ff3279aaef5be8e593b2b6c4253c5137714b2318a99316cb1debf1920c440",
+      "size": 976
+    },
+    {
+      "path": "exo_core/evidence/09-recompensa-memoria.png",
+      "kind": "added",
+      "sha256": "00435b46809635dd79f7862378923e172ca4b0501b28de4bd9be920322c6ae3a",
+      "size": 430598
+    },
+    {
+      "path": "exo_core/evidence/09-recompensa-memoria.png.import",
+      "kind": "added",
+      "sha256": "72cad3054ee76c8146d97ed6849c71c2f0f94726e2671b04a7404be57c728549",
+      "size": 985
+    },
+    {
+      "path": "exo_core/evidence/10-vila.png",
+      "kind": "added",
+      "sha256": "a22f57031629d4c7720b17411c8e9c9b2804abfe4618b29dd768d5cff65ccc6e",
+      "size": 1193668
+    },
+    {
+      "path": "exo_core/evidence/10-vila.png.import",
+      "kind": "added",
+      "sha256": "54cab921599ec0d267f845978980b40485e0559e430def3195a3e37df09eeafb",
+      "size": 943
+    },
+    {
+      "path": "exo_core/evidence/11-cidade-muralhas.png",
+      "kind": "added",
+      "sha256": "3074feaca3dd5fe4e86623e7fb981428839b210e83a1695d97ffd695184ef40a",
+      "size": 1775892
+    },
+    {
+      "path": "exo_core/evidence/11-cidade-muralhas.png.import",
+      "kind": "added",
+      "sha256": "66591d17a18a86de20762e79b673efe03c65f4ca57d8b72f5fd47dbc7d92f769",
+      "size": 976
+    },
+    {
+      "path": "exo_core/evidence/11b-portao-real.png",
+      "kind": "added",
+      "sha256": "dd7344e02bda065f52e6b25c26b1a5966554c2c0d9a689233e63fdf6482d3e1f",
+      "size": 2026139
+    },
+    {
+      "path": "exo_core/evidence/11b-portao-real.png.import",
+      "kind": "added",
+      "sha256": "c6e9398190051fe90ac2ffb4c4cb9101e7337cd042123a70f3715952051ad6c9",
+      "size": 967
+    },
+    {
+      "path": "exo_core/evidence/12-reaberto.png",
+      "kind": "added",
+      "sha256": "8487fa7dacb83012a8f3d97bf558227b625470f8bf407bbdb282c83d985bc117",
+      "size": 1595176
+    },
+    {
+      "path": "exo_core/evidence/12-reaberto.png.import",
+      "kind": "added",
+      "sha256": "dc874383edb253f224d416218d31b82b73fb3a6f9e7dcb50f156523f5ba754f7",
+      "size": 954
+    },
+    {
+      "path": "exo_core/evidence/acceptance_expected.json",
+      "kind": "added",
+      "sha256": "abe5e170e46ad9b9c32f740f6184e4a0646f0ce3b818a01b36713c8b229bedff",
+      "size": 6093
+    },
+    {
+      "path": "exo_core/module_registry.gd",
+      "kind": "added",
+      "sha256": "4bfe16b5f4885e289565991c715e2d17f594e94815c2d1ba330017d7ab0ab7bc",
+      "size": 2641
+    },
+    {
+      "path": "exo_core/module_registry.gd.uid",
+      "kind": "added",
+      "sha256": "0c6144f41b57dbf0459517f1acba8a89a66001b5331b8b6b0ebfc8cc7311b613",
+      "size": 19
+    },
+    {
+      "path": "exo_core/module_template/.gdignore",
+      "kind": "added",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "exo_core/module_template/README.md",
+      "kind": "added",
+      "sha256": "821e24b9829733f0333f15d4f3f37dfae372524af2329f7ca3a1620ba51f8d17",
+      "size": 792
+    },
+    {
+      "path": "exo_core/module_template/example/failing_module.gd",
+      "kind": "added",
+      "sha256": "a3cd8548a65420a51bbd5cc864371876a92332f9f501762cf2877c5fb86ad74b",
+      "size": 241
+    },
+    {
+      "path": "exo_core/module_template/example/manifest.json",
+      "kind": "added",
+      "sha256": "d1dd78bd139636adc3068b785d61390fd9dfb6e3bc8f310dd47845946bb760f4",
+      "size": 250
+    },
+    {
+      "path": "exo_core/module_template/example/module.gd",
+      "kind": "added",
+      "sha256": "8d11fd991e55d663430a49f93254ad5940284f111add286b7b9c6fa16fcd4c0b",
+      "size": 929
+    },
+    {
+      "path": "exo_core/module_template/exo_core/contracts/event_contracts.gd",
+      "kind": "added",
+      "sha256": "84a525a623bd4777c381094ec396121f13814d49a08407811a7ce9a971cc62d3",
+      "size": 1009
+    },
+    {
+      "path": "exo_core/module_template/exo_core/event_bus.gd",
+      "kind": "added",
+      "sha256": "27d8df76f11872496004582387d9878fa4b6381089613c3ac47fe7f8e9c8d551",
+      "size": 3001
+    },
+    {
+      "path": "exo_core/module_template/exo_core/module_registry.gd",
+      "kind": "added",
+      "sha256": "4bfe16b5f4885e289565991c715e2d17f594e94815c2d1ba330017d7ab0ab7bc",
+      "size": 2641
+    },
+    {
+      "path": "exo_core/module_template/exo_core/persistence/migration_registry.gd",
+      "kind": "added",
+      "sha256": "7e2e615ce26dd7ca23daee5f38185efe738bbd40185ff9fe4210de94684a2a69",
+      "size": 759
+    },
+    {
+      "path": "exo_core/module_template/exo_core/service_registry.gd",
+      "kind": "added",
+      "sha256": "a6303c3a6b8f0d4c9996e3d4cfc8ac0b946d7330691ac953f98a8661f4e32346",
+      "size": 803
+    },
+    {
+      "path": "exo_core/module_template/project.godot",
+      "kind": "added",
+      "sha256": "1b0a7f235a92fa6bda062f09eadef94054f57de7a8f5eec22af4f27ad315cfe2",
+      "size": 187
+    },
+    {
+      "path": "exo_core/module_template/test.gd",
+      "kind": "added",
+      "sha256": "739d6914918706fe58e727c3ddf0c94ed4514f84aa27ca1fe0d8659d30f11e9f",
+      "size": 1547
+    },
+    {
+      "path": "exo_core/module_template/test.tscn",
+      "kind": "added",
+      "sha256": "de8ccedce011251d411f14c352343d80c0bd2cbd25cdfd2bde20126cad49e15e",
+      "size": 164
+    },
+    {
+      "path": "exo_core/modules.json",
+      "kind": "added",
+      "sha256": "c41eb3ee1f453b1c39833fd24f5295dc8428a7439ddf78c5b74e435ee004bf20",
+      "size": 3168
+    },
+    {
+      "path": "exo_core/persistence/migration_registry.gd",
+      "kind": "added",
+      "sha256": "7e2e615ce26dd7ca23daee5f38185efe738bbd40185ff9fe4210de94684a2a69",
+      "size": 759
+    },
+    {
+      "path": "exo_core/persistence/migration_registry.gd.uid",
+      "kind": "added",
+      "sha256": "79cb171ba2d73a04a25862e082973e98b2a101561b085f7e22ae502ed3460aea",
+      "size": 20
+    },
+    {
+      "path": "exo_core/persistence/save_coordinator.gd",
+      "kind": "added",
+      "sha256": "85c8fb218a8c6569af0ee63478509f47be032dec55401f7896b769b07a6888e5",
+      "size": 1478
+    },
+    {
+      "path": "exo_core/persistence/save_coordinator.gd.uid",
+      "kind": "added",
+      "sha256": "4c142b1fd8240b9759864f4e4879a8e7d4baaa06605c7836dcc63a8dfd859230",
+      "size": 19
+    },
+    {
+      "path": "exo_core/service_registry.gd",
+      "kind": "added",
+      "sha256": "a6303c3a6b8f0d4c9996e3d4cfc8ac0b946d7330691ac953f98a8661f4e32346",
+      "size": 803
+    },
+    {
+      "path": "exo_core/service_registry.gd.uid",
+      "kind": "added",
+      "sha256": "a4251df05fe3aaf830096995a45c01cfc6499e373b38ed73c7e816cf85f7c8f1",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/benchmark_core.gd",
+      "kind": "added",
+      "sha256": "bd3cb17c3fcde61ff34bb566183e9a53af5a0482ed8cc2639ea377f06a8ad6e2",
+      "size": 1762
+    },
+    {
+      "path": "exo_core/tests/benchmark_core.gd.uid",
+      "kind": "added",
+      "sha256": "5c5e9e0a0705c8d06056b1eb9788a89b377672a4dcbf571ccaf3dff8513c9d14",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/capture_city.gd",
+      "kind": "added",
+      "sha256": "524b02642677e83d364581011e3f41b3645fb80de9d752a1663da62c6c644b18",
+      "size": 1169
+    },
+    {
+      "path": "exo_core/tests/capture_city.gd.uid",
+      "kind": "added",
+      "sha256": "b9f105f25381ee66e66ea67ff95265d81d36b0b31a31a7202521d0158ba802cc",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/qa_acceptance.gd",
+      "kind": "added",
+      "sha256": "88eccfe74595c13b4dd80c16b37cf3ddaef5949dbbefd7639e7ca4d15b64784a",
+      "size": 9637
+    },
+    {
+      "path": "exo_core/tests/qa_acceptance.gd.uid",
+      "kind": "added",
+      "sha256": "59e4c48225f1bbf666bc8d483ca87b1081156db60276911a520328bd4e507e51",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/qa_city.gd",
+      "kind": "added",
+      "sha256": "8aba7df99a4b50971059e8b11ff6231dc0ffe59f52cdecb4b0ba46a11516935a",
+      "size": 691
+    },
+    {
+      "path": "exo_core/tests/qa_city.gd.uid",
+      "kind": "added",
+      "sha256": "c0e79324efe1ddac74c75a17768e722261b078d46d1e5dfe28478080305e566f",
+      "size": 19
+    },
+    {
+      "path": "exo_core/tests/qa_core.gd",
+      "kind": "added",
+      "sha256": "39e67dca2d16695a33e6174eaf1fe0158889580a584fd9616363c4ae3bfe0f2d",
+      "size": 3062
+    },
+    {
+      "path": "exo_core/tests/qa_core.gd.uid",
+      "kind": "added",
+      "sha256": "15091593f43958b274fe5e97a78f750517505c9ad1e953b8020b51bc81be4eb0",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/qa_failed_death.gd",
+      "kind": "added",
+      "sha256": "00cd8191935b17bdffcd145e94938c790e36f58299e820d2f25c22268ccba85f",
+      "size": 1177
+    },
+    {
+      "path": "exo_core/tests/qa_failed_death.gd.uid",
+      "kind": "added",
+      "sha256": "93b3760c59fc3226c078c2042da3667218a03052d0bfbc6ebd0192813d02cead",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/qa_integration.gd",
+      "kind": "added",
+      "sha256": "d45a93ca1a252d7d893f35988fd2c09f47cf829ea487cbf9603bc26211950455",
+      "size": 1883
+    },
+    {
+      "path": "exo_core/tests/qa_integration.gd.uid",
+      "kind": "added",
+      "sha256": "734d2edeed5c5de33714f7badb75f3855e48e623d84b4dd86259ba8b81124154",
+      "size": 19
+    },
+    {
+      "path": "exo_core/tests/qa_new_module.gd",
+      "kind": "added",
+      "sha256": "9b0462a879f476095de6068ec03937e2793c3ed5f2ee725e7149fbece8448c8e",
+      "size": 1763
+    },
+    {
+      "path": "exo_core/tests/qa_new_module.gd.uid",
+      "kind": "added",
+      "sha256": "23e1e2214a275b0fbed02bba4fe395e73555d6b7fc3a4136f459627f48aade3b",
+      "size": 20
+    },
+    {
+      "path": "exo_core/tests/qa_persistence.gd",
+      "kind": "added",
+      "sha256": "09f2d0d3190cb71887fff996350fafe299cf6fec6d3e30426f940df3e0e5109c",
+      "size": 2062
+    },
+    {
+      "path": "exo_core/tests/qa_persistence.gd.uid",
+      "kind": "added",
+      "sha256": "6e179d50335091ba71b0b119c078f1190e152d413fa50ebd17a024c232f54402",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/LEIA-ME-SKIN3D-01.md",
+      "kind": "added",
+      "sha256": "cad45adb80cc8e8937f5579a456b49b9bb32a362b29838f520232a1709a30732",
+      "size": 6135
+    },
+    {
+      "path": "exo_skin3d/appearance_adapter.gd",
+      "kind": "added",
+      "sha256": "b4767952404a84eb50914aef42d75abc4e5750a61e4403c5f71658eee0110f3b",
+      "size": 3608
+    },
+    {
+      "path": "exo_skin3d/appearance_adapter.gd.uid",
+      "kind": "added",
+      "sha256": "0f290331e4b610a5359539fac69e4bc8c4caa61d8f6831df9f5981831a5fd6e3",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/attachment_slots.gd",
+      "kind": "added",
+      "sha256": "151172aa20e23d221911780c173d119823e29e8692f75968eb84c7915d442432",
+      "size": 4800
+    },
+    {
+      "path": "exo_skin3d/attachment_slots.gd.uid",
+      "kind": "added",
+      "sha256": "0b2db152d19b73de2e742eeec450dbe06a15b21e5b11cf9e8413af1037d2b62f",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/equipment_visuals.gd",
+      "kind": "added",
+      "sha256": "055cc50dc8d21b84c5760b02e6e6116982885b4f406924b7acc8c33b59bf01ae",
+      "size": 1355
+    },
+    {
+      "path": "exo_skin3d/equipment_visuals.gd.uid",
+      "kind": "added",
+      "sha256": "5a7e118554b92715ec0cdd96f61a9b38b05bd801a057d1438a839402700b4937",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/fixtures/hybrid_test_64.png",
+      "kind": "added",
+      "sha256": "3e2580f8bcc4eff34f9b6087f6b7773507393633d57210c87b0af07e8aaf679d",
+      "size": 345
+    },
+    {
+      "path": "exo_skin3d/fixtures/hybrid_test_64.png.import",
+      "kind": "added",
+      "sha256": "560f7c32203ddda185806256f6366243a5acf361c40d8833b81a32885e4b2ab6",
+      "size": 966
+    },
+    {
+      "path": "exo_skin3d/overlay_builder.gd",
+      "kind": "added",
+      "sha256": "ec1f97db8e5121cfd007860199468295e6cc13ba41f7bcfb2f0f38e169852842",
+      "size": 2630
+    },
+    {
+      "path": "exo_skin3d/overlay_builder.gd.uid",
+      "kind": "added",
+      "sha256": "f75498744f30cd862e60881e63c0b5037106e0e47f9bc35468ed735781d84864",
+      "size": 19
+    },
+    {
+      "path": "exo_skin3d/profile_codec.gd",
+      "kind": "added",
+      "sha256": "685c95e9911dd2acfd7620bfedbd275d80082cb274cbe3a506dcd96ebbb47f4a",
+      "size": 3103
+    },
+    {
+      "path": "exo_skin3d/profile_codec.gd.uid",
+      "kind": "added",
+      "sha256": "0f815138f60c5d846cb63f727e585bc324ebd2625bcbf424bccc9f6d9c7ba9c7",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/qa/EXO-Skin3D-Hybrid-01-OFFLINE-REPORT.json",
+      "kind": "added",
+      "sha256": "653ac243184ec23e2c9a648b7a8d7e1533b6f6da5c2649221928caea4b543cda",
+      "size": 68138
+    },
+    {
+      "path": "exo_skin3d/qa/baseline_sha256.json",
+      "kind": "added",
+      "sha256": "06ec40e46e839c38ebcc46e6d9c3b9c4ee33e1d84ba06b9f51132af2e54939fd",
+      "size": 418061
+    },
+    {
+      "path": "exo_skin3d/qa/offline_checks.py",
+      "kind": "added",
+      "sha256": "fc1db593bb674201c2ad8969948a70dcab26eb6fcab8bdcfc461be00bea7ae8d",
+      "size": 7244
+    },
+    {
+      "path": "exo_skin3d/qa_skin3d.gd",
+      "kind": "added",
+      "sha256": "67ed7901e593de4fae309c3d7caebb3900db6744486bf1f07ccff84e0805efce",
+      "size": 10026
+    },
+    {
+      "path": "exo_skin3d/qa_skin3d.gd.uid",
+      "kind": "added",
+      "sha256": "0e44d9a3eb81cf4714f74bc5b7d8eaf5ebce876c40b0aeb6a85cfb0bc0a45708",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/skin_importer.gd",
+      "kind": "added",
+      "sha256": "df0ca33e52f5fd093ce633133be70edf42c1fab23c3016641fab16974b8eeabd",
+      "size": 1112
+    },
+    {
+      "path": "exo_skin3d/skin_importer.gd.uid",
+      "kind": "added",
+      "sha256": "1aab670b176edc742f475405abe9e952bff3501d57f9f6d54a4ed1b2b1c55be1",
+      "size": 19
+    },
+    {
+      "path": "exo_skin3d/skin_preview.gd",
+      "kind": "added",
+      "sha256": "89489c9b293b6a00bd5845f3b904816afe66e6af7bde44c57f8e89328f279370",
+      "size": 1121
+    },
+    {
+      "path": "exo_skin3d/skin_preview.gd.uid",
+      "kind": "added",
+      "sha256": "24408ab9c98d2ce77d60fab975c42d7d46cef5a4bd5b7e7967aab67bee502a0b",
+      "size": 20
+    },
+    {
+      "path": "exo_skin3d/uv_layout.gd",
+      "kind": "added",
+      "sha256": "c0a4c3c7ef70bb4c686d61bd5c5d9438c9061e91339b20da4963a4cd7f03ce6f",
+      "size": 3650
+    },
+    {
+      "path": "exo_skin3d/uv_layout.gd.uid",
+      "kind": "added",
+      "sha256": "dad70b3e8c45495ee81b0c422b817a95eb94e835a4ac4cae717757563e86753b",
+      "size": 20
+    },
+    {
+      "path": "forja/catalog_v3.json",
+      "kind": "added",
+      "sha256": "75acdc90dbb7c7462af83171562e9fb03ad8c4f29bc5e0b72f393f3537ed3e4c",
+      "size": 103152
+    },
+    {
+      "path": "forja/civic_builder.gd",
+      "kind": "added",
+      "sha256": "965b7dc40dbf4022b123fc8ac327c663724f06fa2fd1c79eb097da4a8e07fb70",
+      "size": 2716
+    },
+    {
+      "path": "forja/civic_builder.gd.uid",
+      "kind": "added",
+      "sha256": "a2180613dfed87af75387215c943aab153fe60e1d0b0295dc149290029766184",
+      "size": 20
+    },
+    {
+      "path": "forja/civic_planner.gd",
+      "kind": "added",
+      "sha256": "69cd2de74119326fec27e1c53facdc2630c49d700b26348cf673078a46ffa229",
+      "size": 6357
+    },
+    {
+      "path": "forja/civic_planner.gd.uid",
+      "kind": "added",
+      "sha256": "04d266751df4f20d0a2b421d57486fa42bac3c49bd9659941ff31bdb9cad3a61",
+      "size": 20
+    },
+    {
+      "path": "forja/compound_assembler.gd",
+      "kind": "added",
+      "sha256": "edc0a782619921816d5300344ef5184abfc64089af4d94ac366a79865cd19cc4",
+      "size": 2405
+    },
+    {
+      "path": "forja/compound_assembler.gd.uid",
+      "kind": "added",
+      "sha256": "8008b432f262a21c479b992595320f5cc1b23875bc8e324e50917d6a587d2c7a",
+      "size": 19
+    },
+    {
+      "path": "forja/fortification_builder.gd",
+      "kind": "added",
+      "sha256": "ae5d5c446059039563b4f55a6e1e94e2c72f5c50c020e9237989a9415a8db02e",
+      "size": 2220
+    },
+    {
+      "path": "forja/fortification_builder.gd.uid",
+      "kind": "added",
+      "sha256": "64c4c1d0093be43fdb0c1f1664c3fe13aac5c48463546ce5266d2e73083f5ef2",
+      "size": 20
+    },
+    {
+      "path": "forja/fortification_planner.gd",
+      "kind": "added",
+      "sha256": "3f8a544e2f30c2272c3bb37429614072d68b8a18730aa65859ef9298aeae15dd",
+      "size": 5230
+    },
+    {
+      "path": "forja/fortification_planner.gd.uid",
+      "kind": "added",
+      "sha256": "9e8d084cd588a42fa152d755bacb5567c5746e49fa5c32c31a6e6b24ba6d563d",
+      "size": 20
+    },
+    {
+      "path": "forja/genesis_adapter_v3.gd",
+      "kind": "added",
+      "sha256": "67f927bf437280561832cc8a63a5b16603bf5e2f7cb54774da1a08e7e3687a91",
+      "size": 5609
+    },
+    {
+      "path": "forja/genesis_adapter_v3.gd.uid",
+      "kind": "added",
+      "sha256": "5a880cbdcf43f6778ac92068a01a83ffb78f72ca174973c7621633792341c98e",
+      "size": 20
+    },
+    {
+      "path": "forja/green_buffer_v3.gd",
+      "kind": "added",
+      "sha256": "5fb7a268127e096619bf524b9a5319f81b1619dfd3ffc7db7591052eaf50d023",
+      "size": 4872
+    },
+    {
+      "path": "forja/green_buffer_v3.gd.uid",
+      "kind": "added",
+      "sha256": "13305de6c64b145aace299b9915cf403c147a526ffe2e1b4dee825e6d02d0ebe",
+      "size": 19
+    },
+    {
+      "path": "forja/laboratorio_03.gd",
+      "kind": "added",
+      "sha256": "79a17fbf7ecb272dd8500c4870e7fa1c89140d0e57e8246380ebb5890873a2b1",
+      "size": 4523
+    },
+    {
+      "path": "forja/laboratorio_03.gd.uid",
+      "kind": "added",
+      "sha256": "5ab89c326338a39bbeb1cc9ee69d0c893716dc884f34f8d9a3f3a3e0cd65a1c9",
+      "size": 20
+    },
+    {
+      "path": "forja/laboratorio_03.tscn",
+      "kind": "added",
+      "sha256": "22efd713dec64ab683380f7774a3fa3160450b19438753e5b7e56fb18a63ae4a",
+      "size": 181
+    },
+    {
+      "path": "fortifications/adapter.gd",
+      "kind": "added",
+      "sha256": "eeca459730536fac68f6af61b3b4a2916c58fb437ef60bfbad0b7cdea5407e1b",
+      "size": 716
+    },
+    {
+      "path": "fortifications/adapter.gd.uid",
+      "kind": "added",
+      "sha256": "62ea271733be5477f1710acdfb8790adac3bf8024cca3e7c4ab523923f0d2962",
+      "size": 20
+    },
+    {
+      "path": "fortifications/optional_hook.txt",
+      "kind": "added",
+      "sha256": "e632547a0215f64661d2de1cca0be644754ed067b608eb9d5ff2fe30ded9d84d",
+      "size": 859
+    },
+    {
+      "path": "fortifications/planner.gd",
+      "kind": "added",
+      "sha256": "4cce27f2d0d1c759a4374a272400ce93ff3e3b78559608327320432ff86f3dda",
+      "size": 10983
+    },
+    {
+      "path": "fortifications/planner.gd.uid",
+      "kind": "added",
+      "sha256": "a2507e798971ed736a57ead5309b45941daac1b83bb90a0aac92cc5cf5939d32",
+      "size": 20
+    },
+    {
+      "path": "fortifications/qa_native.gd",
+      "kind": "added",
+      "sha256": "ff76cdd465722e1680df49419d3f5a11a959657dd7a15a3b6ca0bd2b9897f33b",
+      "size": 2831
+    },
+    {
+      "path": "fortifications/qa_native.gd.uid",
+      "kind": "added",
+      "sha256": "8a9851b5f168c9f3861bdb1d637bf585b909db1569445f65cd646b0b216b0730",
+      "size": 19
+    },
+    {
+      "path": "fortifications/renderer.gd",
+      "kind": "added",
+      "sha256": "7ccf7df9d27abd46755eb9058ae30f16baf3c058f33ebd74514e2081590afaf7",
+      "size": 4541
+    },
+    {
+      "path": "fortifications/renderer.gd.uid",
+      "kind": "added",
+      "sha256": "d7236eb002fc42693b9f3e4cc40c8e1a5ae28618a520c413b2e69f0fb058b2f3",
+      "size": 20
+    },
+    {
+      "path": "godot/modular_kit.gd",
+      "kind": "modified",
+      "sha256": "52fd62b38c782ce4c4475e841e8bc908f610770f9f0ad80606a23a72404b7f64",
+      "size": 6554
+    },
+    {
+      "path": "inventory.gd",
+      "kind": "modified",
+      "sha256": "6fdb920be3f84df804410df6227157de0c7fa05ad98d85cee455507b4d040a45",
+      "size": 8189
+    },
+    {
+      "path": "journey_dynamic/qa_journey.gd.uid",
+      "kind": "added",
+      "sha256": "5cf8f709f76068809ba6b4c7ab3c319664d61e7a03f59a831ea5a0607f401955",
+      "size": 20
+    },
+    {
+      "path": "journey_dynamic/quest_generator.gd.uid",
+      "kind": "added",
+      "sha256": "0726dad3eeabb5cb0a835d7b82c5f391ba1576af71dc1eb9293415fe10ce8549",
+      "size": 20
+    },
+    {
+      "path": "journey_dynamic/quest_manager.gd",
+      "kind": "modified",
+      "sha256": "b49c64d6167c98ea55d5390ad5c0866cb13a42641ca6909c8ac62b560fc79021",
+      "size": 12046
+    },
+    {
+      "path": "journey_dynamic/quest_manager.gd.uid",
+      "kind": "added",
+      "sha256": "02c77abf48a4522a50511f41121411b01a34d9b15110f82b8a52536ecbec4e2b",
+      "size": 19
+    },
+    {
+      "path": "journey_dynamic/quest_ui_adapter.gd.uid",
+      "kind": "added",
+      "sha256": "9f48e7d1892804ea044a86005185dc662d8468940736215ad6ec3870a5e37565",
+      "size": 20
+    },
+    {
+      "path": "journey_save.gd",
+      "kind": "modified",
+      "sha256": "2824cc4576170d2e0a8d62a9acb3a768b945059175534df36a1c89c3a15d2812",
+      "size": 17586
+    },
+    {
+      "path": "living_world/people.gd",
+      "kind": "modified",
+      "sha256": "63a871228c153b0450d550a0375bc0228ee285e36942b4c278466c07b413a428",
+      "size": 3360
+    },
+    {
+      "path": "models/forja_v3/city_wall_battlement_2m.glb",
+      "kind": "added",
+      "sha256": "ad4bc928e30ec7a969c6da81b8f44c54e60e34324f191534e114c0c689f30aa2",
+      "size": 2892
+    },
+    {
+      "path": "models/forja_v3/city_wall_battlement_2m.glb.import",
+      "kind": "added",
+      "sha256": "7748448417be63afdcbbb3ae2e4fc4222ae7aaa7dd4e63bf5ff6f5e9f68b59bb",
+      "size": 1091
+    },
+    {
+      "path": "models/forja_v3/city_wall_stone_2m.glb",
+      "kind": "added",
+      "sha256": "44571cccf4ca76890e88a4831d4c12023f94586bb41f874f49db4673a901746b",
+      "size": 3092
+    },
+    {
+      "path": "models/forja_v3/city_wall_stone_2m.glb.import",
+      "kind": "added",
+      "sha256": "7b0e3fc21cf23e4db296beff647b46d3ff7a2fb7702e4f99f7f4a25717265154",
+      "size": 1076
+    },
+    {
+      "path": "models/forja_v3/city_wall_wood_2m.glb",
+      "kind": "added",
+      "sha256": "f0b581d3f8fcf4c383dd2a8c39764db3836e4bf021c9bf95b5c8641de236814e",
+      "size": 2608
+    },
+    {
+      "path": "models/forja_v3/city_wall_wood_2m.glb.import",
+      "kind": "added",
+      "sha256": "201d59d04641e0b10a45803d47cbaad174927918602b09e3853ff65fef27c43b",
+      "size": 1073
+    },
+    {
+      "path": "models/forja_v3/clan_banner_pair.glb",
+      "kind": "added",
+      "sha256": "6b8b48d119c1675c889d95b92d3b7246eee8ee10e6936afaad98f3870f211614",
+      "size": 3012
+    },
+    {
+      "path": "models/forja_v3/clan_banner_pair.glb.import",
+      "kind": "added",
+      "sha256": "28b28c8a947d8b68058e18d7217dc28b8d7ebfefaa0bf7804ac4522944b0fd4b",
+      "size": 1070
+    },
+    {
+      "path": "models/forja_v3/dojo_bell.glb",
+      "kind": "added",
+      "sha256": "3595def3d63a1895c27aa4a14535e16f15b856c1529671f750d3a58c17b35457",
+      "size": 2700
+    },
+    {
+      "path": "models/forja_v3/dojo_bell.glb.import",
+      "kind": "added",
+      "sha256": "c6009cb99a9039164e3d6564e9419d012d0b86c88cbea67bd0491777fa0ef220",
+      "size": 1048
+    },
+    {
+      "path": "models/forja_v3/farm_gate_4m.glb",
+      "kind": "added",
+      "sha256": "4ddb425d51955154dc404c047dfd5ee9980dd68ae691c03cfbc718409396c976",
+      "size": 2416
+    },
+    {
+      "path": "models/forja_v3/farm_gate_4m.glb.import",
+      "kind": "added",
+      "sha256": "bb958d1567006b4ef23584836867087d3473ba21e5c6c0b4f66ffce692ac15d0",
+      "size": 1058
+    },
+    {
+      "path": "models/forja_v3/field_fence_2m.glb",
+      "kind": "added",
+      "sha256": "ac9c538b0d34b269f821734d10fcccec4d9b80a37be8cea969ed243cfa2e1aab",
+      "size": 2248
+    },
+    {
+      "path": "models/forja_v3/field_fence_2m.glb.import",
+      "kind": "added",
+      "sha256": "f2baf91a8fc03b1833a1baeb33d7f9d8ec4ffb43f664fed98fb8b1d28c9c5784",
+      "size": 1064
+    },
+    {
+      "path": "models/forja_v3/gate_stone_6m.glb",
+      "kind": "added",
+      "sha256": "1f599935d6a77e9a59c7887b41bc6a98449e55e4a24a742986576c49219957e5",
+      "size": 8476
+    },
+    {
+      "path": "models/forja_v3/gate_stone_6m.glb.import",
+      "kind": "added",
+      "sha256": "a1de5128308b8ac203635bda8e8994daa2eb99a5591d66bba1d6e41fe452446e",
+      "size": 1061
+    },
+    {
+      "path": "models/forja_v3/gate_wood_6m.glb",
+      "kind": "added",
+      "sha256": "e3fdade5308c413ae19bc21c51341ca9c6e7a7883c3dcec77bc129003e115bfb",
+      "size": 6436
+    },
+    {
+      "path": "models/forja_v3/gate_wood_6m.glb.import",
+      "kind": "added",
+      "sha256": "27f92bf04ff4139cbd982bb717e76b29b548941c59e3280c1dea7404c938bafa",
+      "size": 1058
+    },
+    {
+      "path": "models/forja_v3/grain_silo.glb",
+      "kind": "added",
+      "sha256": "26569be609331c2e1329e073ea7bde959a380a7f53152969845b4d99ad0171b4",
+      "size": 5804
+    },
+    {
+      "path": "models/forja_v3/grain_silo.glb.import",
+      "kind": "added",
+      "sha256": "021b3e12094d61a3f3d95a2b82ca07d930a6b61d49cf21053bc2402f07d7649a",
+      "size": 1051
+    },
+    {
+      "path": "models/forja_v3/granary_6m.glb",
+      "kind": "added",
+      "sha256": "c921349cc4499e00ea21f65a417704c108b81865df3e27ae055acee970622cb8",
+      "size": 12756
+    },
+    {
+      "path": "models/forja_v3/granary_6m.glb.import",
+      "kind": "added",
+      "sha256": "a90236c222b939f3e6bd3c5a8dfa8d0ec9b7ba2d39cbe3ba37300ec82bf4992f",
+      "size": 1052
+    },
+    {
+      "path": "models/forja_v3/guild_hall_8m.glb",
+      "kind": "added",
+      "sha256": "e4bdaad372f4e00397c9cd4efd737b718d5c18a7f4a8cc8cc4cb1c5b70657aa8",
+      "size": 12488
+    },
+    {
+      "path": "models/forja_v3/guild_hall_8m.glb.import",
+      "kind": "added",
+      "sha256": "1126e2fa5fcc9adc2f1165d71b3f6b7c5630b9464651a9e59a6614cfb71ec80a",
+      "size": 1061
+    },
+    {
+      "path": "models/forja_v3/hanging_wall_torch.glb",
+      "kind": "added",
+      "sha256": "9b94d43efcc5984fbaf11aab1f3e50bc69a43d7424c7e4ab83f07580474a4392",
+      "size": 2680
+    },
+    {
+      "path": "models/forja_v3/hanging_wall_torch.glb.import",
+      "kind": "added",
+      "sha256": "cbe5758024ad1d67990ef0d5e9a4051fd13c9b1d1762c82497b79923e9e4c704",
+      "size": 1076
+    },
+    {
+      "path": "models/forja_v3/hay_cart.glb",
+      "kind": "added",
+      "sha256": "31d6846eccb47692fa991f88bd0f9f1c7305beb71d869eca480e00abf4441159",
+      "size": 3600
+    },
+    {
+      "path": "models/forja_v3/hay_cart.glb.import",
+      "kind": "added",
+      "sha256": "20a1e95e73130564ab56dc4c5b467a927a3315f5108c40e4efb37d7d977f0e44",
+      "size": 1045
+    },
+    {
+      "path": "models/forja_v3/herbalist_garden_box.glb",
+      "kind": "added",
+      "sha256": "ee9a29b67b015ff5e30183bfd8182a3c89835114e7dbb5c966f95afaca7f13fd",
+      "size": 3576
+    },
+    {
+      "path": "models/forja_v3/herbalist_garden_box.glb.import",
+      "kind": "added",
+      "sha256": "6d50325547c04059e0f2490399e3e46c60f89d30fc72829446f3f9d2b970f87c",
+      "size": 1082
+    },
+    {
+      "path": "models/forja_v3/irrigation_channel_2m.glb",
+      "kind": "added",
+      "sha256": "d28b8fbc8e7ff07fde56c1cdba5e4dd717c5988efd0cd7f56f013dbebae9be94",
+      "size": 2372
+    },
+    {
+      "path": "models/forja_v3/irrigation_channel_2m.glb.import",
+      "kind": "added",
+      "sha256": "4367ad85ef017aa2939abf44adb007df2797b465e67f1928de1c47cb5b452b86",
+      "size": 1085
+    },
+    {
+      "path": "models/forja_v3/martial_training_yard_6m.glb",
+      "kind": "added",
+      "sha256": "0b4db2a1138fcfb3b7a0de1245009525cff6ecc3a14d84fe0334961308871710",
+      "size": 2852
+    },
+    {
+      "path": "models/forja_v3/martial_training_yard_6m.glb.import",
+      "kind": "added",
+      "sha256": "95fa22db8b0ee7cbdca3a689608a01a33b397d8f2d65002414a05541957a6b70",
+      "size": 1094
+    },
+    {
+      "path": "models/forja_v3/open_pavilion_6m.glb",
+      "kind": "added",
+      "sha256": "9416fa39bc7a618f1a3bfb1d846ba889fbf5bc5fd6645a7e561a4706bf464f59",
+      "size": 6236
+    },
+    {
+      "path": "models/forja_v3/open_pavilion_6m.glb.import",
+      "kind": "added",
+      "sha256": "17b931084e8a809b092c00b7ca7d45c13fadf96c6c26454ca50ea7dd201fdaf4",
+      "size": 1069
+    },
+    {
+      "path": "models/forja_v3/patrol_brazier.glb",
+      "kind": "added",
+      "sha256": "417ebd178a60fc564e6a948f667c44c77f862e780f8ad5500bc3a9e9908c39b8",
+      "size": 2660
+    },
+    {
+      "path": "models/forja_v3/patrol_brazier.glb.import",
+      "kind": "added",
+      "sha256": "e8a9d4d4814cb906b315967f0559b6cc6077a6bb196b087dcf0f6821e468ddba",
+      "size": 1064
+    },
+    {
+      "path": "models/forja_v3/rice_field_4m.glb",
+      "kind": "added",
+      "sha256": "b6de188182ed02a7e3712d40f3258bcc9b95051961bb676f06e83e258ae2a6b6",
+      "size": 6468
+    },
+    {
+      "path": "models/forja_v3/rice_field_4m.glb.import",
+      "kind": "added",
+      "sha256": "cd2d42839481ebcf5a2cce29d01eb357bf7610bf880412ce3f602f18a0a0f7ce",
+      "size": 1061
+    },
+    {
+      "path": "models/forja_v3/sect_hall_8m.glb",
+      "kind": "added",
+      "sha256": "6943c2f5549491402e27295a5963961b0e87ce9d560daac44a99e2ed8eca8889",
+      "size": 13276
+    },
+    {
+      "path": "models/forja_v3/sect_hall_8m.glb.import",
+      "kind": "added",
+      "sha256": "3aba6aab6a2ac4173e84ca25ea76fb12c06ca646568d27106ca25bedf107ce06",
+      "size": 1058
+    },
+    {
+      "path": "models/forja_v3/stone_footbridge_4m.glb",
+      "kind": "added",
+      "sha256": "67d010e819d4b8f222a8a5988bfb48a3161aaa86a0d47f3ed7761631d950e2cc",
+      "size": 2924
+    },
+    {
+      "path": "models/forja_v3/stone_footbridge_4m.glb.import",
+      "kind": "added",
+      "sha256": "6a3db9360d9cbf92f3e1baf039f461532d1c6df7ad16e79d161333488b57a4c9",
+      "size": 1079
+    },
+    {
+      "path": "models/forja_v3/stone_lion_statue.glb",
+      "kind": "added",
+      "sha256": "2b0e8048b6d3f820b106865ab094cdacf38e743068f153bf00b9d88b0a7f3c2d",
+      "size": 3440
+    },
+    {
+      "path": "models/forja_v3/stone_lion_statue.glb.import",
+      "kind": "added",
+      "sha256": "2e524cb35729257f8f1fcda3d01eea2eed7de5fbb5629e70ec3ddebf33d89ee6",
+      "size": 1073
+    },
+    {
+      "path": "models/forja_v3/street_lamp_post.glb",
+      "kind": "added",
+      "sha256": "75bc29ed253ead3b704ef195ecbcc27870becab71570e41d4fc3bf213a5f51ef",
+      "size": 3388
+    },
+    {
+      "path": "models/forja_v3/street_lamp_post.glb.import",
+      "kind": "added",
+      "sha256": "4cf916d9379d2375dd1c3440f11f3c314b008470fdc914e1eb510849624816be",
+      "size": 1070
+    },
+    {
+      "path": "models/forja_v3/street_signpost.glb",
+      "kind": "added",
+      "sha256": "991f1dda30be1249024a722ec354e46dd7e9403e48bade36223d535b26248114",
+      "size": 2452
+    },
+    {
+      "path": "models/forja_v3/street_signpost.glb.import",
+      "kind": "added",
+      "sha256": "5909c4111f661bda0cd10dff1561ac5462c3d5ed535f4e2f2a7b6a48ed68f56d",
+      "size": 1067
+    },
+    {
+      "path": "models/forja_v3/tea_garden_bush.glb",
+      "kind": "added",
+      "sha256": "40be7778fb213d0089ef645affe9f6caae2e37d209a26a7bbf2434eaa07badee",
+      "size": 3576
+    },
+    {
+      "path": "models/forja_v3/tea_garden_bush.glb.import",
+      "kind": "added",
+      "sha256": "6803525602eec84e004d332c94f62e525c6c21c4607befa66eb92587e9d3b0ab",
+      "size": 1067
+    },
+    {
+      "path": "models/forja_v3/temple_altar.glb",
+      "kind": "added",
+      "sha256": "29dd287957cbfd49e172ddde4bcdad77e79691fd53b326ae3b72d1d06e6b2244",
+      "size": 3388
+    },
+    {
+      "path": "models/forja_v3/temple_altar.glb.import",
+      "kind": "added",
+      "sha256": "50f4c7288e5ed92f46b653c5b2b6d59ec4f8b514fac3562840494030ff889913",
+      "size": 1057
+    },
+    {
+      "path": "models/forja_v3/temple_hall_8m.glb",
+      "kind": "added",
+      "sha256": "8709ad41e99efd80436cc2c8736a2820937879049872c8c001e30952996c3f40",
+      "size": 13152
+    },
+    {
+      "path": "models/forja_v3/temple_hall_8m.glb.import",
+      "kind": "added",
+      "sha256": "4c8d014a113c5dc6b701ce1e6ffeedc38f677f9862493d035e5f7bb9e5702340",
+      "size": 1064
+    },
+    {
+      "path": "models/forja_v3/temple_stela.glb",
+      "kind": "added",
+      "sha256": "3b07a7e3e519136f84127251222ba29e144db57592b20359c497ef35fe44fea0",
+      "size": 2648
+    },
+    {
+      "path": "models/forja_v3/temple_stela.glb.import",
+      "kind": "added",
+      "sha256": "81c6261cddb6c0ab14dea555d86d9739531050bc6bd36163375f72f5e13f1c02",
+      "size": 1058
+    },
+    {
+      "path": "models/forja_v3/training_dummy.glb",
+      "kind": "added",
+      "sha256": "53b5d7c62613e883ee61d12ef8e9ffb951b26bb01e1f6acd11d5acacf1eb46ad",
+      "size": 3164
+    },
+    {
+      "path": "models/forja_v3/training_dummy.glb.import",
+      "kind": "added",
+      "sha256": "cd7e52fc4ee5256524902e2e7bf2a4c4d4896db65a763f13653df0e9818e7842",
+      "size": 1063
+    },
+    {
+      "path": "models/forja_v3/training_pavilion_6m.glb",
+      "kind": "added",
+      "sha256": "6877e89a344b2c7adba8ab076bd5cf110a707fafbc582c9aa724e513971b8023",
+      "size": 7412
+    },
+    {
+      "path": "models/forja_v3/training_pavilion_6m.glb.import",
+      "kind": "added",
+      "sha256": "ddd40cadc5fcf4f042d9bcb135d6e8913f9f0eb27a49e2bfe5aa8a2ff16a6ed3",
+      "size": 1081
+    },
+    {
+      "path": "models/forja_v3/vegetable_field_4m.glb",
+      "kind": "added",
+      "sha256": "789cacd0f8ee9250b623da7ced171499a808a0e979e7180a4c240a5974c81511",
+      "size": 7460
+    },
+    {
+      "path": "models/forja_v3/vegetable_field_4m.glb.import",
+      "kind": "added",
+      "sha256": "88aa36ff79dba5ebb391c695919a3881b3161a43c997b197af287fa185b3ecbe",
+      "size": 1076
+    },
+    {
+      "path": "models/forja_v3/village_notice_board.glb",
+      "kind": "added",
+      "sha256": "2b684c4b7027d71aedf8fb07f40865a6058a099a5f08623433737a371dda4616",
+      "size": 6460
+    },
+    {
+      "path": "models/forja_v3/village_notice_board.glb.import",
+      "kind": "added",
+      "sha256": "ebc4eb1d82eb8307f438dd49f62b67d0ee3680da7d99dd09b616df1e0cc26bee",
+      "size": 1081
+    },
+    {
+      "path": "models/forja_v3/village_stone_path_2m.glb",
+      "kind": "added",
+      "sha256": "bae753f194b6c85546228a40fd0e12823b671326add790f8f0e2234bfcf8f5cc",
+      "size": 2872
+    },
+    {
+      "path": "models/forja_v3/village_stone_path_2m.glb.import",
+      "kind": "added",
+      "sha256": "67599eaf54ca4ea136792677eba3761ee1d3b183da523679b2768d45e4ba7417",
+      "size": 1085
+    },
+    {
+      "path": "models/forja_v3/village_wood_path_2m.glb",
+      "kind": "added",
+      "sha256": "9e6fb4485501c29ab3f3967db5198618ba83d2bedadd06b28a8555b546251401",
+      "size": 3124
+    },
+    {
+      "path": "models/forja_v3/village_wood_path_2m.glb.import",
+      "kind": "added",
+      "sha256": "d27ca572060baedfb292b6f4280bd50aacabbf6582dc2d99b0d192f911e181a6",
+      "size": 1082
+    },
+    {
+      "path": "models/forja_v3/wall_corner_stone.glb",
+      "kind": "added",
+      "sha256": "f1748dc2f969835e42d8f666b5d7d88915ce79bbe76dd006e4dd2af3efad0644",
+      "size": 1932
+    },
+    {
+      "path": "models/forja_v3/wall_corner_stone.glb.import",
+      "kind": "added",
+      "sha256": "b8e178d4ffb6a3164173ef66147fce710fad999e86c2341411474fae3b4a6575",
+      "size": 1072
+    },
+    {
+      "path": "models/forja_v3/wall_corner_wood.glb",
+      "kind": "added",
+      "sha256": "689860a1732e55ad6d115f4a17d2eadbbb8a3f8eb69995abd1be82c4a4cfc838",
+      "size": 1924
+    },
+    {
+      "path": "models/forja_v3/wall_corner_wood.glb.import",
+      "kind": "added",
+      "sha256": "5439d4d6358f7d21971b3587c869e0635965cfb2954bf639ed297834e01bebe5",
+      "size": 1070
+    },
+    {
+      "path": "models/forja_v3/watchtower_stone_4m.glb",
+      "kind": "added",
+      "sha256": "72f1033d07850caaf168bedcf4eca83fc5047c98883224750f19b621ab918d8e",
+      "size": 8184
+    },
+    {
+      "path": "models/forja_v3/watchtower_stone_4m.glb.import",
+      "kind": "added",
+      "sha256": "a1d74f33aaceaa8628a80f2a9c44d04c7f33e317e806d0d4d7389e5b7568986d",
+      "size": 1078
+    },
+    {
+      "path": "models/forja_v3/watchtower_wood_4m.glb",
+      "kind": "added",
+      "sha256": "2f1eda13f44b20dd96dbdeabfcc5eb56dfee4306fc37fbcca651414a91c09b17",
+      "size": 7432
+    },
+    {
+      "path": "models/forja_v3/watchtower_wood_4m.glb.import",
+      "kind": "added",
+      "sha256": "75f03fcb2da187def005c6742d6de32c8101cd28d256ab312988d1fe0f77d85e",
+      "size": 1076
+    },
+    {
+      "path": "models/forja_v3/water_trough.glb",
+      "kind": "added",
+      "sha256": "39129bdfca85f27cb71dbb540e984317d8dd2147cecee444a954a408b12598e0",
+      "size": 1956
+    },
+    {
+      "path": "models/forja_v3/water_trough.glb.import",
+      "kind": "added",
+      "sha256": "0fe87528eaa7a83b559114c14d001138dab67fcf324eddbdc3de20913f308299",
+      "size": 1058
+    },
+    {
+      "path": "models/forja_v3/weapons_training_rack.glb",
+      "kind": "added",
+      "sha256": "8ee84005c4cdc4b48408b7603a7b2f208c36cf7e3d41ede3bfd57af69ce41078",
+      "size": 4156
+    },
+    {
+      "path": "models/forja_v3/weapons_training_rack.glb.import",
+      "kind": "added",
+      "sha256": "447fefa062b831342dc53c206fbcc97646c5a316ad59976c0bf4fc6335633be8",
+      "size": 1085
+    },
+    {
+      "path": "models/forja_v3/wood_footbridge_4m.glb",
+      "kind": "added",
+      "sha256": "01be45dda4cc07d1174fad37891771fa026af378a7cb0461fccec99687adf02e",
+      "size": 3356
+    },
+    {
+      "path": "models/forja_v3/wood_footbridge_4m.glb.import",
+      "kind": "added",
+      "sha256": "44f70ae11897b76b261aa98cc3963ea9e8ed1a5a3f0966eba131caaea9ca0fd3",
+      "size": 1076
+    },
+    {
+      "path": "murim_flow.gd",
+      "kind": "modified",
+      "sha256": "0335fb44c1dccb2ae6b7dadd73dddaa3463c7d399a92b3bbc43cd0351482fcc4",
+      "size": 22753
+    },
+    {
+      "path": "narrative/adapters/journey_bridge.gd.uid",
+      "kind": "added",
+      "sha256": "299f11600ba12200b6ea4cfcfd91c1aa16d410147cdb909fefb6a8eab7889878",
+      "size": 20
+    },
+    {
+      "path": "narrative/core/narrative_events.gd.uid",
+      "kind": "added",
+      "sha256": "c79893849aca451fd34fd1af3c3df1894f00c31b203d1c86deeeafef232ec2b9",
+      "size": 20
+    },
+    {
+      "path": "narrative/core/narrative_scheduler.gd.uid",
+      "kind": "added",
+      "sha256": "e56db8fb5407151f21b637d77ee6600f8b200a8cd6dc0783310518cd9978644d",
+      "size": 20
+    },
+    {
+      "path": "narrative/core/narrative_state.gd",
+      "kind": "modified",
+      "sha256": "ab99f2a64afc45dbbc4984f6b8f4c4114f65c0d5adc86f8232d282f9da8d9170",
+      "size": 4234
+    },
+    {
+      "path": "narrative/core/narrative_state.gd.uid",
+      "kind": "added",
+      "sha256": "90a935d63054df5a00adde8730210b0c7c709e58ee184cde7fed50ed616bd135",
+      "size": 20
+    },
+    {
+      "path": "narrative/destiny/destiny_generator.gd",
+      "kind": "modified",
+      "sha256": "a369d59bf6193808382f5785fa69e5679ba79e5d8491b8789d24c4fda7d63abd",
+      "size": 789
+    },
+    {
+      "path": "narrative/destiny/destiny_generator.gd.uid",
+      "kind": "added",
+      "sha256": "f59e70b4187fe2c238fe55c1036136c28d1213fa6b6b7ef6c3f5480332496920",
+      "size": 20
+    },
+    {
+      "path": "narrative/factions/faction_registry.gd.uid",
+      "kind": "added",
+      "sha256": "7c0566d8830e2726dfaf80918b4ce0811b734c148b3a7c28833124cdea44599c",
+      "size": 19
+    },
+    {
+      "path": "narrative/knowledge/rumor_system.gd.uid",
+      "kind": "added",
+      "sha256": "cbe2e27f1241ffd61785db7f3bfe84e8e9f09052a2051e4bb710a5c045c67f1c",
+      "size": 20
+    },
+    {
+      "path": "narrative/persistence/narrative_serializer.gd.uid",
+      "kind": "added",
+      "sha256": "0e55ae237bfd34a4ab278278e79c13496af5d18937b28c42e3c7643400f051fd",
+      "size": 20
+    },
+    {
+      "path": "narrative/society/npc_memory.gd.uid",
+      "kind": "added",
+      "sha256": "e3ffe9f67992d4df6b2a3424f0ba3513fff55d3c4e69b8b367fece271e3c263d",
+      "size": 20
+    },
+    {
+      "path": "narrative/society/relationship_system.gd.uid",
+      "kind": "added",
+      "sha256": "d4f31f2dce890c94d732ce05a390e75e38ed0ac2b92af64fa2de6d7a23dd156c",
+      "size": 20
+    },
+    {
+      "path": "narrative/stories/narrative_hooks.gd.uid",
+      "kind": "added",
+      "sha256": "8e38635294923d09735315c1275ca61df1a4e0d80f3ad1fd88fe42d47ecd773a",
+      "size": 20
+    },
+    {
+      "path": "narrative/tests/qa_native.gd.uid",
+      "kind": "added",
+      "sha256": "75469671847f765bbd3de808cada8db8ad54de00a479f9122c603d363ae48d2a",
+      "size": 20
+    },
+    {
+      "path": "narrative/tests/qa_offline_result.json",
+      "kind": "modified",
+      "sha256": "2f31b515d4c98a9fae58dd30ff96fb1613bdb06c80ddb06d718ced84f2f1fbfc",
+      "size": 875
+    },
+    {
+      "path": "narrative/tests/qa_reopen.gd.uid",
+      "kind": "added",
+      "sha256": "a77e762f3db3e91356908f942415ca577ce9130e6f06867c862a3ca3e3183be4",
+      "size": 20
+    },
+    {
+      "path": "project.godot",
+      "kind": "modified",
+      "sha256": "7b09e205707448fcee9f19d71c64e1056a1144e3eb5e1e4a857931406a5d64fb",
+      "size": 645
+    },
+    {
+      "path": "qa/benchmark_v3.gd",
+      "kind": "added",
+      "sha256": "fc36ec6edbd3a75a7851b666f782074018e3f65a931d0c6d684784e1b004aced",
+      "size": 2415
+    },
+    {
+      "path": "qa/benchmark_v3.gd.uid",
+      "kind": "added",
+      "sha256": "e85a17bec8422ac7e3c7a8e3c97da3013ac4816d104759b85facbf973b975241",
+      "size": 20
+    },
+    {
+      "path": "qa/last_headless_result_v3.json",
+      "kind": "added",
+      "sha256": "d2b3be1bbed71dbdfdbc767aac92bd9142a18747dfc6b56046819d56898854df",
+      "size": 116
+    },
+    {
+      "path": "qa/reproducibility_v3.json",
+      "kind": "added",
+      "sha256": "c940f384f7d9984fd1e47d8f39025df8096544ca8e6d0a3f5747b27792fa5b6d",
+      "size": 71
+    },
+    {
+      "path": "qa/results_v3_offline.json",
+      "kind": "added",
+      "sha256": "a2030bcccbd193e6cb059d6cf4fcfb92265c316f954ecfdff37fe596102f3b21",
+      "size": 524
+    },
+    {
+      "path": "qa/run_headless_v3.gd",
+      "kind": "added",
+      "sha256": "c0b0ebff800e972c89da05919ee1e695cce7945a2b9ced2efe6aa69a0e11a474",
+      "size": 7257
+    },
+    {
+      "path": "qa/run_headless_v3.gd.uid",
+      "kind": "added",
+      "sha256": "a5ddeaa0a5f83d74b4104e05f624a135c698f5f565993fe3940d479f245878f6",
+      "size": 19
+    },
+    {
+      "path": "qa/verify_v3.py",
+      "kind": "added",
+      "sha256": "f335786f0ff89034b5fb76925373d81086d6875dae93310288a8dce6635d51cf",
+      "size": 8758
+    },
+    {
+      "path": "regional_ecology/director.gd",
+      "kind": "modified",
+      "sha256": "77abb3d10d3e708240355656ddb1b2bea02db8a14a00837985b7f1dc3eaac86f",
+      "size": 4902
+    },
+    {
+      "path": "source_reference/.gdignore",
+      "kind": "added",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "source_reference/forja03/README.md",
+      "kind": "added",
+      "sha256": "e44b3a1e82215d90dbed68d15764d112821cf6514ffc21f84c2cbe441893c7f6",
+      "size": 5416
+    },
+    {
+      "path": "source_reference/forja03/RELATORIO.md",
+      "kind": "added",
+      "sha256": "fe4b3a3a31a8e81b7faa168a80883d8c7d1cf273ac72b0939a60446a009cc284",
+      "size": 4691
+    },
+    {
+      "path": "source_reference/forja03/catalog.json",
+      "kind": "added",
+      "sha256": "75acdc90dbb7c7462af83171562e9fb03ad8c4f29bc5e0b72f393f3537ed3e4c",
+      "size": 103152
+    },
+    {
+      "path": "source_reference/forja03/docs/ASSETS-02-MANIFEST.json",
+      "kind": "added",
+      "sha256": "b2bde87d8edd0a8854e40f8393090e68bafff82b1d7753d35299f0d993b88935",
+      "size": 13111
+    },
+    {
+      "path": "source_reference/forja03/docs/ASSETS-03-MANIFEST.json",
+      "kind": "added",
+      "sha256": "9a89c49dc0c2cf6058df3a2c19db5b3f3397852e8c59c474a8959b742d986cf5",
+      "size": 19238
+    },
+    {
+      "path": "source_reference/forja03/docs/BASELINE-02-SHA256.json",
+      "kind": "added",
+      "sha256": "f10e6356b32814b4289a3f3196e5ab635dfb2d97c9ced71626ec57f31a6e7388",
+      "size": 51760
+    },
+    {
+      "path": "source_reference/forja03/docs/BUILD-MANIFEST-SHA256-03.json",
+      "kind": "added",
+      "sha256": "2177e5aaed82bfec9716a960aa7342b8121664bb9f8dbf183973052d8b21fb2a",
+      "size": 58706
+    },
+    {
+      "path": "source_reference/forja03/docs/BUILD-MANIFEST-SHA256.json",
+      "kind": "added",
+      "sha256": "730b9c8e9d1189d0f8c931580a758370eda7452129710ed13bc7c0d33c222d0e",
+      "size": 72820
+    },
+    {
+      "path": "source_reference/forja03/docs/CONTRATO-GENESIS-03.md",
+      "kind": "added",
+      "sha256": "6f786966b4926c86c8cf1f249920470aa5887bdf7fdb064f7a0af58770af7c12",
+      "size": 4464
+    },
+    {
+      "path": "source_reference/forja03/docs/CONTRATO-GENESIS.md",
+      "kind": "added",
+      "sha256": "1c90715d6003be064f93470be4152992e3f2a8d5cced11c6e01def01949fd722",
+      "size": 3926
+    },
+    {
+      "path": "source_reference/forja03/docs/GEOMETRIA-LEGADO-01.json",
+      "kind": "added",
+      "sha256": "7b1ce4973349df53c36086c1b475e21ae1702718096ace59c5dca6a58391b187",
+      "size": 678
+    },
+    {
+      "path": "source_reference/forja03/docs/MANIFEST-FONTE-HERDADA.json",
+      "kind": "added",
+      "sha256": "0e36afe06b67d71e2e4a115d6fda4ed1fd0db283ad3f9de9c2b3ed1dbf92e93a",
+      "size": 42992
+    },
+    {
+      "path": "source_reference/forja03/docs/PROVENIENCIA-ORIGINAL.md",
+      "kind": "added",
+      "sha256": "b86937033dcc066ade8b1b869fb665dcf340415ca8a17e836b7ae7284029d6c2",
+      "size": 944
+    },
+    {
+      "path": "source_reference/forja03/docs/ROTEIRO-WORK-QA-02.md",
+      "kind": "added",
+      "sha256": "713d4d617fa9bf401abba84e48294d7465affdf4ad7c72e10bd8a6091674fff4",
+      "size": 3804
+    },
+    {
+      "path": "source_reference/forja03/docs/ROTEIRO-WORK-QA-03.md",
+      "kind": "added",
+      "sha256": "f51ac3a398db30c24bd174dcfb0b8d3cf021cd9e57ba78dce8f3e383bee3e8a2",
+      "size": 2847
+    },
+    {
+      "path": "source_reference/forja03/docs/ROTEIRO-WORK-QA.md",
+      "kind": "added",
+      "sha256": "7743238dc4dc3c5405b531717e37c32f3264d097c6ece85ec4cd6041bd88fd57",
+      "size": 3210
+    },
+    {
+      "path": "source_reference/forja03/docs/STATIC-LEGADO-01.json",
+      "kind": "added",
+      "sha256": "cc685978fe403022a89c9a63742fba2ecec95f697e5852ab8509fee55ae3384a",
+      "size": 293
+    },
+    {
+      "path": "source_reference/forja03/examples/approved_sites_v3.json",
+      "kind": "added",
+      "sha256": "4b7d693332fef0f1510aaa13bff52e2728bafe0c18aa6c10e20b5cae30fced18",
+      "size": 938
+    },
+    {
+      "path": "source_reference/forja03/examples/four_approved_lots.json",
+      "kind": "added",
+      "sha256": "223db0eaba7fbd6ae1f7014614aaf115db33a41e4c066edaa4b783bb4db5e791",
+      "size": 1279
+    },
+    {
+      "path": "source_reference/forja03/godot/modular_kit.gd",
+      "kind": "added",
+      "sha256": "9d82dc44ddee30da480531c9b7edd4d773dc0aa1226570ee0212331355f95077",
+      "size": 6030
+    },
+    {
+      "path": "source_reference/forja03/godot/modular_kit.gd.uid",
+      "kind": "added",
+      "sha256": "dc815aa4636b868be56b347b3550d2346701b7101dea19412310a21800b0da0d",
+      "size": 20
+    },
+    {
+      "path": "source_reference/fortifications01/MANIFESTO.json",
+      "kind": "added",
+      "sha256": "7fa65478f23d03b5b6e4feac59817376ea0a7456eeeec763785cff3c999abce4",
+      "size": 2376
+    },
+    {
+      "path": "source_reference/fortifications01/README.md",
+      "kind": "added",
+      "sha256": "f20ce98bff845fa588b771a03eb56248f12d1511d631460d719b000389036244",
+      "size": 4785
+    },
+    {
+      "path": "source_reference/fortifications01/fortifications/adapter.gd",
+      "kind": "added",
+      "sha256": "eeca459730536fac68f6af61b3b4a2916c58fb437ef60bfbad0b7cdea5407e1b",
+      "size": 716
+    },
+    {
+      "path": "source_reference/fortifications01/fortifications/optional_hook.txt",
+      "kind": "added",
+      "sha256": "e632547a0215f64661d2de1cca0be644754ed067b608eb9d5ff2fe30ded9d84d",
+      "size": 859
+    },
+    {
+      "path": "source_reference/fortifications01/fortifications/planner.gd",
+      "kind": "added",
+      "sha256": "cc8bbd8c4ca92eebfe6554f1ab715644a5a333d96b577cbcbf80fddfd86312bb",
+      "size": 10457
+    },
+    {
+      "path": "source_reference/fortifications01/fortifications/qa_native.gd",
+      "kind": "added",
+      "sha256": "ff76cdd465722e1680df49419d3f5a11a959657dd7a15a3b6ca0bd2b9897f33b",
+      "size": 2831
+    },
+    {
+      "path": "source_reference/fortifications01/fortifications/renderer.gd",
+      "kind": "added",
+      "sha256": "7ccf7df9d27abd46755eb9058ae30f16baf3c058f33ebd74514e2081590afaf7",
+      "size": 4541
+    },
+    {
+      "path": "source_reference/fortifications01/results/QA-FORTIFICACOES-01-1K.json",
+      "kind": "added",
+      "sha256": "1246bcde30dba563aab68290006ffbafe66b6639ab3bf5289e285215eba5d8f0",
+      "size": 5152
+    },
+    {
+      "path": "source_reference/fortifications01/results/QA-FORTIFICACOES-01-ADVERSARIAL.json",
+      "kind": "added",
+      "sha256": "4e46731bf8b04c70e87b4bb02f6a198afd12fd74c6b34dcf093d0ca4ff167eed",
+      "size": 151
+    },
+    {
+      "path": "source_reference/fortifications01/results/QA-FORTIFICACOES-01-AGREGADO.json",
+      "kind": "added",
+      "sha256": "c6ecf2a73630f297a27164d756f3269ae4dea7fcf1c699c246ad584011da7499",
+      "size": 845
+    },
+    {
+      "path": "source_reference/fortifications01/results/extremes-1K.json",
+      "kind": "added",
+      "sha256": "a1cd7a8499f8c2e1e275a31962010b0c4c02719dc1bcce3844503dbdcee3257c",
+      "size": 5350
+    },
+    {
+      "path": "source_reference/fortifications01/results/installer_apply.log",
+      "kind": "added",
+      "sha256": "1796ec35da66096781da4b55baf71e4df2d8a62797b61071a5deba0a57b8b21f",
+      "size": 451
+    },
+    {
+      "path": "source_reference/fortifications01/results/installer_dryrun.json",
+      "kind": "added",
+      "sha256": "7e514f091123170fbe6c34af2b316ad979c952591226bc74a5903b5a5fe08d6c",
+      "size": 353
+    },
+    {
+      "path": "source_reference/fortifications01/results/shard_00000_05000.json",
+      "kind": "added",
+      "sha256": "e7c5560e41d8b2a271a8bbebc4f79c75dc1c308eefd8b571d9f8c219e85bc1db",
+      "size": 20299
+    },
+    {
+      "path": "source_reference/fortifications01/results/shard_05000_10000.json",
+      "kind": "added",
+      "sha256": "c8242f719b819dea259bab990f41f38dfa851d774fec4e1b37c1e8c68a0c4ae9",
+      "size": 20338
+    },
+    {
+      "path": "source_reference/fortifications01/results/shard_10000_15000.json",
+      "kind": "added",
+      "sha256": "0a4e4b1a2bf83f31e42d10a16a3274916c8c1433f1049ddda4f2ed60f5b5ff71",
+      "size": 20450
+    },
+    {
+      "path": "source_reference/fortifications01/results/shard_15000_20000.json",
+      "kind": "added",
+      "sha256": "dbece2b43a32cc35a9192cba1fe60e45623f86077c24f2dcc8575a2127e7cef6",
+      "size": 21035
+    },
+    {
+      "path": "source_reference/fortifications01/results/smoke.json",
+      "kind": "added",
+      "sha256": "181ea7655d3992c5026c68687a2a2a026995731886fd2cfa3706c83f8792be0e",
+      "size": 1123
+    },
+    {
+      "path": "source_reference/fortifications01/tools/adversarial_fortifications.py",
+      "kind": "added",
+      "sha256": "50ec903d20f19f6e85b79909306e3bce7b987b64d7bb64e99d81963a4512083d",
+      "size": 3573
+    },
+    {
+      "path": "source_reference/fortifications01/tools/apply_to_project.py",
+      "kind": "added",
+      "sha256": "53bccb4e81bf552e4d3db2e52000a1e39523741abfa82842ef83c0a087b81910",
+      "size": 2435
+    },
+    {
+      "path": "source_reference/fortifications01/tools/fortification_reference.py",
+      "kind": "added",
+      "sha256": "939f6b9371a7840b92ab4906154f781c42692f98bd5f0d02d5a8f9730c55849a",
+      "size": 10972
+    },
+    {
+      "path": "source_reference/fortifications01/tools/stress_fortifications.py",
+      "kind": "added",
+      "sha256": "f0a501f8416f6d11290140a885cb388d05010ed222b615372eb3c76befc5b39c",
+      "size": 6292
+    },
+    {
+      "path": "source_reference/gameplay_reports/EXO-Skin3D-Hybrid-01-NOTAS.md",
+      "kind": "added",
+      "sha256": "77b04170ea317357080499f7f595b44096d24ec7471b89220623f2989d2e57ee",
+      "size": 1519
+    },
+    {
+      "path": "source_reference/gameplay_reports/EXO-Skin3D-Hybrid-01-OFFLINE-REPORT.json",
+      "kind": "added",
+      "sha256": "53fd26bec36032ea3bb74270aad3b7970e234c3ea5872c5c359824cd6634f705",
+      "size": 65320
+    },
+    {
+      "path": "source_reference/gameplay_reports/MANIFESTO-PRESERVACAO-JORNADA-01.json",
+      "kind": "added",
+      "sha256": "7851a601d2a0b613edbb45d087551cf719c0bcb53bd3b5e1c2d4bbd4e7aa4b70",
+      "size": 2318
+    },
+    {
+      "path": "source_reference/gameplay_reports/MANIFESTO-PRESERVACAO-NARRATIVO-01.json",
+      "kind": "added",
+      "sha256": "f40d5d31aa36aa3162f425430b43f5ad4acef36697c45b9d12f2f5e2dc39aedc",
+      "size": 4178
+    },
+    {
+      "path": "source_reference/gameplay_reports/RELATORIO-FORTIFICACOES-01-QA.md",
+      "kind": "added",
+      "sha256": "d4abc1d2024f54faef189ae1676c3532816a5dc25808264daffa21934a11e0c0",
+      "size": 6576
+    },
+    {
+      "path": "source_reference/gameplay_reports/RELATORIO-JORNADA-DINAMICA-01.md",
+      "kind": "added",
+      "sha256": "0043c23eccb24eceb183edd52ff015319ffca7799ff6563a8fb99d6c14fc00ea",
+      "size": 11246
+    },
+    {
+      "path": "source_reference/gameplay_reports/RELATORIO-MUNDO-VIVO-02-R2-VALIDACAO-FUNCIONAL.md",
+      "kind": "added",
+      "sha256": "eee0b5cd359994082534074244e8cf6975c2deb51e378728cf162a51edb552f8",
+      "size": 11240
+    },
+    {
+      "path": "source_reference/gameplay_reports/RELATORIO-NUCLEO-NARRATIVO-01.md",
+      "kind": "added",
+      "sha256": "b8a4f4d221d376846d03c1e03c137806b3ccc310667cb8df0879281585d432fb",
+      "size": 8886
+    },
+    {
+      "path": "ui/character_creation.gd",
+      "kind": "modified",
+      "sha256": "694f76d09bd4281eb653f8b737d86cfb2eb146a00cd8afca4b060feb5811c922",
+      "size": 11192
+    },
+    {
+      "path": "validation_r3/benchmark.gd.uid",
+      "kind": "added",
+      "sha256": "b7eb7c81a1e8c76c23cd6a641b54175dd6440dd474ecc4f5a8483a11208ace19",
+      "size": 19
+    },
+    {
+      "path": "validation_r3/capture.gd.uid",
+      "kind": "added",
+      "sha256": "db80ad05e4aa397829a88366d61655c13f6861981cfaae64b985351d667e1cf4",
+      "size": 20
+    },
+    {
+      "path": "validation_r3/captures/01-Aldeia-e-Moradores-R3.png.import",
+      "kind": "added",
+      "sha256": "ede69a438ce814ea639f8ed2b5e888a48aaa436173bc827fd921bf7839a19a50",
+      "size": 998
+    },
+    {
+      "path": "validation_r3/captures/02-Vila-R3.png.import",
+      "kind": "added",
+      "sha256": "f3b14589a73b7841598418a437f699d8dbc851130fa3f8d959974234323701eb",
+      "size": 957
+    },
+    {
+      "path": "validation_r3/captures/03-Escola-Marcial-R3.png.import",
+      "kind": "added",
+      "sha256": "c3db4ac7358767d19b771e79fce7195ad1b2ca57bacab51c19c74f6233f4b6b0",
+      "size": 986
+    },
+    {
+      "path": "validation_r3/captures/04-Territorio-e-Patrulha-R3.png.import",
+      "kind": "added",
+      "sha256": "3fc0cd1beadf246d0c3d9beba8297702b11b944a94648b0ca116436aba88762d",
+      "size": 1008
+    },
+    {
+      "path": "validation_r3/captures/05-Encontro-Regional-R3.png.import",
+      "kind": "added",
+      "sha256": "c945bcf90cb3515d9e3bb98fae9de432b9b765fca50d61ff4d7aefe8da64c6f5",
+      "size": 996
+    },
+    {
+      "path": "validation_r3/captures/06-Montanhas-e-Trilhas-R3.png.import",
+      "kind": "added",
+      "sha256": "7f848e29dd44727782596408f516f03e4251709ead7441aa010f3aff18aef450",
+      "size": 1002
+    },
+    {
+      "path": "validation_r3/captures/R3-52-landscape.png.import",
+      "kind": "added",
+      "sha256": "40c67408d64533242ca71bf7c40489524f7bbaf7ee230ebf209ccc937cf0b7ca",
+      "size": 971
+    },
+    {
+      "path": "validation_r3/captures/R3-52-player.png.import",
+      "kind": "added",
+      "sha256": "2bd7f10fd89b529fc599e5e4b3075063b0f4d3034ec143f243c9a3f5e02c450c",
+      "size": 963
+    },
+    {
+      "path": "validation_r3/captures/R3-78-overview.png.import",
+      "kind": "added",
+      "sha256": "9f76a815d01f06390f6198f5a78ff2608444aa9dac9f12eba11c24f80c7fa71b",
+      "size": 969
+    },
+    {
+      "path": "validation_r3/captures/R3-78-player.png.import",
+      "kind": "added",
+      "sha256": "2a4382592d2cdf520f8bc04696730551116ecded547a206fae60f2e241ad5eb2",
+      "size": 963
+    },
+    {
+      "path": "validation_r3/captures/R3-86-player.png.import",
+      "kind": "added",
+      "sha256": "5ab0caee3df0ce38a55b63b2272491697ad5a2856a01f79540208c7cff0a72de",
+      "size": 963
+    },
+    {
+      "path": "validation_r3/captures/R3-legacy-combat.png.import",
+      "kind": "added",
+      "sha256": "387aced2c4c1dce9aadb13893ab8a65b0335ce2f207d2eec23efe32931e9f46e",
+      "size": 975
+    },
+    {
+      "path": "validation_r3/inventory_reopen.gd.uid",
+      "kind": "added",
+      "sha256": "1d4087be5b262d7162d5e11b0a4ae5e3b1b512e75688969a0bd6ed526a352571",
+      "size": 20
+    },
+    {
+      "path": "validation_r3/lifecycle.gd.uid",
+      "kind": "added",
+      "sha256": "dbbdf79af3e85df632091e61a2162417548be35327fe5732b6b6dbc6aefa2a24",
+      "size": 20
+    },
+    {
+      "path": "validation_r3/logs/reproduce_inventory_reopen.log",
+      "kind": "added",
+      "sha256": "1204c0b26ad43730e580ac4b6bf88e45885dc4e791f73c9e3cd9e663fe5af5df",
+      "size": 314
+    },
+    {
+      "path": "validation_r3/logs/reproduce_lifecycle_A.log",
+      "kind": "added",
+      "sha256": "c6a36f57aafa4b42bf2fc369983fcae6ba197f1489e5e92e088cc82f089f0a0c",
+      "size": 403
+    },
+    {
+      "path": "validation_r3/logs/reproduce_lifecycle_B.log",
+      "kind": "added",
+      "sha256": "05949980d602b27c39e03119f1c29d0ab4cb78ba7d1944a447257d65a97b1ed0",
+      "size": 549
+    },
+    {
+      "path": "validation_r3/logs/reproduce_lifecycle_C.log",
+      "kind": "added",
+      "sha256": "365e382ca5776261dbe12cc36da67ca2c096615b4a2801044c9f15f7cda3018d",
+      "size": 379
+    },
+    {
+      "path": "validation_r3/logs/reproduce_npc_day.log",
+      "kind": "added",
+      "sha256": "f3d88f82948739b2c804479305e86af178b8ee27712ca18c669e32a449e3f525",
+      "size": 4975
+    },
+    {
+      "path": "validation_r3/logs/reproduce_npc_reopen.log",
+      "kind": "added",
+      "sha256": "ef12e39d71b6a50630540dff76822eedc25229c46553ae911f2425a0305f3b9f",
+      "size": 332
+    },
+    {
+      "path": "validation_r3/logs/reproduce_repeat_combat.log",
+      "kind": "added",
+      "sha256": "baf626140269a0cae06a3a264f78c84c09d046291a223959c0cae0d96c8c1688",
+      "size": 2723
+    },
+    {
+      "path": "validation_r3/npc_day.gd.uid",
+      "kind": "added",
+      "sha256": "597ff17ac7a339b720bb216a0fffa96f694e9340d00dece2bed1b02550f08ab8",
+      "size": 20
+    },
+    {
+      "path": "validation_r3/npc_reopen.gd.uid",
+      "kind": "added",
+      "sha256": "462faad0ffa415a5feea4b14de1ebe1b77e3158923f3b03fd2b6fb4c4111877a",
+      "size": 19
+    },
+    {
+      "path": "validation_r3/repeat_combat.gd.uid",
+      "kind": "added",
+      "sha256": "26605755174c6054e355d9a4e6f3d1b31402687ffab372a9785e7dd1b95ba6bc",
+      "size": 19
+    },
+    {
+      "path": "validation_r3/results/exo_core_acceptance_A.json",
+      "kind": "added",
+      "sha256": "b8737f534c7177c70d8771481ff61d3dd18118e054d282647003c641b08fa78b",
+      "size": 4137
+    },
+    {
+      "path": "validation_r3/results/exo_core_acceptance_reopen.json",
+      "kind": "added",
+      "sha256": "306629044d5dce75d1e0fcb187bbb761bcda40967e98291187bd8ed30d0add4c",
+      "size": 836
+    },
+    {
+      "path": "validation_r3/results/exo_core_benchmark_CORE.json",
+      "kind": "added",
+      "sha256": "4f5ff0dd2007e9d72e7b479fadedcd06901791329a84b91fba5ff32369fb77cd",
+      "size": 7352
+    },
+    {
+      "path": "validation_r3/results/exo_core_city_capture.json",
+      "kind": "added",
+      "sha256": "1820a480219914ed9b15bd3b1f2572147ee585c618d18c4c999602fcc80570b7",
+      "size": 331
+    },
+    {
+      "path": "validation_r3/results/exo_core_failed_death.json",
+      "kind": "added",
+      "sha256": "c617b176b61687d73a93e15ef09c5467f6535584d9b815dae2d28a777d7ddcc1",
+      "size": 641
+    },
+    {
+      "path": "validation_r3/results/exo_core_integration.json",
+      "kind": "added",
+      "sha256": "577088e19f275277f9c84f2acd9e326979163ea052372262701be0d718650993",
+      "size": 1166
+    },
+    {
+      "path": "validation_r3/results/exo_core_new_module.json",
+      "kind": "added",
+      "sha256": "0f7519b1534355c21b00035f2bf7a341c1ad81818133b9df7218e97e6aafe4ce",
+      "size": 915
+    },
+    {
+      "path": "validation_r3/results/reproduced_executions.json",
+      "kind": "added",
+      "sha256": "54bc0ee3c05e29a2c7e151d8aceefdeb1a6e5a1f88fa826aad9c5051e959c7e9",
+      "size": 2816
+    },
+    {
+      "path": "validation_r3/support.gd.uid",
+      "kind": "added",
+      "sha256": "fbae460bcd39bd6bc925739624be679740a0b60104c0e8ab0e4d8a18432585b7",
+      "size": 20
+    },
+    {
+      "path": "wardrobe.gd",
+      "kind": "modified",
+      "sha256": "c5f954cdfcb90a262685847f99bb039731cbcb753a10dfeb13386272685a470f",
+      "size": 11174
+    }
+  ]
+}

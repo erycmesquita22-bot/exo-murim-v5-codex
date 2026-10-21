@@ -1,0 +1,120 @@
+{
+  "id": "com_caravan",
+  "name": "Pousada de Caravanas",
+  "category": "commercial",
+  "tags": [
+    "commercial",
+    "caravan",
+    "merchants"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        0,
+        -18
+      ],
+      "b": [
+        0,
+        8
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_caravan/b00",
+      "function": "inn",
+      "local_position": [
+        -12,
+        2
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_caravan/b01",
+      "function": "warehouse",
+      "local_position": [
+        12,
+        2
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "com_caravan/b02",
+      "function": "market",
+      "local_position": [
+        0,
+        13
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_caravan/st00",
+      "for_building": "com_caravan/b00",
+      "role": "merchant"
+    },
+    {
+      "id": "com_caravan/st01",
+      "for_building": "com_caravan/b01",
+      "role": "courier"
+    },
+    {
+      "id": "com_caravan/st02",
+      "for_building": "com_caravan/b02",
+      "role": "merchant"
+    }
+  ],
+  "open_spaces": {
+    "type": "caravan",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "caravan",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

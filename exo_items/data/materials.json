@@ -1,0 +1,82 @@
+[
+  {
+    "id": "plain",
+    "name": "Simples",
+    "families": [
+      "weapon",
+      "armor",
+      "accessory",
+      "special"
+    ],
+    "tier": 0,
+    "visual": "natural",
+    "power": 0
+  },
+  {
+    "id": "iron",
+    "name": "Ferro",
+    "families": [
+      "weapon",
+      "armor"
+    ],
+    "tier": 1,
+    "visual": "iron",
+    "power": 1
+  },
+  {
+    "id": "tempered_steel",
+    "name": "Aço Temperado",
+    "families": [
+      "weapon",
+      "armor"
+    ],
+    "tier": 2,
+    "visual": "steel",
+    "power": 2
+  },
+  {
+    "id": "jade",
+    "name": "Jade",
+    "families": [
+      "accessory",
+      "special"
+    ],
+    "tier": 2,
+    "visual": "jade",
+    "power": 2
+  },
+  {
+    "id": "spirit_iron",
+    "name": "Ferro Espiritual",
+    "families": [
+      "weapon",
+      "armor",
+      "accessory"
+    ],
+    "tier": 3,
+    "visual": "spirit_iron",
+    "power": 3
+  },
+  {
+    "id": "leather",
+    "name": "Couro",
+    "families": [
+      "armor",
+      "accessory"
+    ],
+    "tier": 1,
+    "visual": "leather",
+    "power": 1
+  },
+  {
+    "id": "raw",
+    "name": "Bruto",
+    "families": [
+      "material",
+      "special"
+    ],
+    "tier": 0,
+    "visual": "raw",
+    "power": 0
+  }
+]

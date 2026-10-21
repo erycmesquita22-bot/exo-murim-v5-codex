@@ -1,0 +1,352 @@
+{
+  "id": "vila_moinho_cereais",
+  "name": "Vila dos Celeiros",
+  "shape": "parallel_lanes",
+  "wall": false,
+  "half_extent": 112,
+  "gates": [
+    [
+      -100,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -100,
+        0
+      ],
+      "b": [
+        100,
+        0
+      ],
+      "width": 7.0,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -26,
+        -82
+      ],
+      "b": [
+        -26,
+        82
+      ],
+      "width": 4.5,
+      "kind": "lane"
+    },
+    {
+      "a": [
+        26,
+        -82
+      ],
+      "b": [
+        26,
+        82
+      ],
+      "width": 4.5,
+      "kind": "lane"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "vila_moinho_cereais/s00",
+      "center": [
+        -53,
+        -35
+      ],
+      "footprint": [
+        [
+          -73.0,
+          -55.0
+        ],
+        [
+          -33.0,
+          -55.0
+        ],
+        [
+          -33.0,
+          -15.0
+        ],
+        [
+          -73.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -53.0,
+          -55.0
+        ],
+        [
+          -33.0,
+          -35.0
+        ],
+        [
+          -53.0,
+          -15.0
+        ],
+        [
+          -73.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_moinho_cereais/s01",
+      "center": [
+        0,
+        -35
+      ],
+      "footprint": [
+        [
+          -20.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -15.0
+        ],
+        [
+          -20.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -35.0
+        ],
+        [
+          0.0,
+          -15.0
+        ],
+        [
+          -20.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_moinho_cereais/s02",
+      "center": [
+        53,
+        -35
+      ],
+      "footprint": [
+        [
+          33.0,
+          -55.0
+        ],
+        [
+          73.0,
+          -55.0
+        ],
+        [
+          73.0,
+          -15.0
+        ],
+        [
+          33.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          53.0,
+          -55.0
+        ],
+        [
+          73.0,
+          -35.0
+        ],
+        [
+          53.0,
+          -15.0
+        ],
+        [
+          33.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_moinho_cereais/s03",
+      "center": [
+        -53,
+        35
+      ],
+      "footprint": [
+        [
+          -73.0,
+          15.0
+        ],
+        [
+          -33.0,
+          15.0
+        ],
+        [
+          -33.0,
+          55.0
+        ],
+        [
+          -73.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -53.0,
+          15.0
+        ],
+        [
+          -33.0,
+          35.0
+        ],
+        [
+          -53.0,
+          55.0
+        ],
+        [
+          -73.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_moinho_cereais/s04",
+      "center": [
+        0,
+        35
+      ],
+      "footprint": [
+        [
+          -20.0,
+          15.0
+        ],
+        [
+          20.0,
+          15.0
+        ],
+        [
+          20.0,
+          55.0
+        ],
+        [
+          -20.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          15.0
+        ],
+        [
+          20.0,
+          35.0
+        ],
+        [
+          0.0,
+          55.0
+        ],
+        [
+          -20.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_moinho_cereais/s05",
+      "center": [
+        53,
+        35
+      ],
+      "footprint": [
+        [
+          33.0,
+          15.0
+        ],
+        [
+          73.0,
+          15.0
+        ],
+        [
+          73.0,
+          55.0
+        ],
+        [
+          33.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          53.0,
+          15.0
+        ],
+        [
+          73.0,
+          35.0
+        ],
+        [
+          53.0,
+          55.0
+        ],
+        [
+          33.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "town"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

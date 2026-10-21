@@ -1,0 +1,493 @@
+{
+  "domain": "historical_chronicle",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/estrada_dos_salvadores",
+      "label": "Quando os monges abriram a estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Dois mosteiros mantiveram a passagem aberta durante o inverno e seus sucessores cobram reconhecimento pela obra."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/juramento_das_tres_familias",
+      "label": "O juramento das três famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Três casas renunciaram a duelos em praça pública por uma geração, mas a terceira nunca recebeu o selo prometido."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/alagamento_da_cidade_baixa",
+      "label": "O alagamento da cidade baixa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Um dique cedeu no festival das lanternas e os registros apontam divergências sobre a inspeção anterior."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/ultima_caravana_de_outono",
+      "label": "A última caravana de outono",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Um carregamento de remédios sumiu, e seu inventário foi rasurado após a troca da guarnição."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/manual_da_ponte_azul",
+      "label": "O manual da Ponte Azul",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "O manual original passou por quatro mestres e cada escola preserva uma cópia incompleta."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/conselho_das_cinzas",
+      "label": "O conselho das cinzas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Depois do incêndio das ferrarias, trabalhadores improvisaram um conselho que acabou incorporado à lei comercial."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/porta_dos_deslocados",
+      "label": "A porta dos deslocados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Uma aldeia abriu seus celeiros aos forasteiros; a dívida nunca foi reconhecida pelo magistrado."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/luz_no_pico_norte",
+      "label": "A luz do pico norte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Um sentinela relatou sinais de uma seita desaparecida, mas os monges locais negaram qualquer incursão."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/registro_sem_nome",
+      "label": "O registro sem nome",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Um herdeiro apareceu num livro de impostos, porém foi apagado das genealogias oficiais."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/guerra_dos_sete_dias",
+      "label": "A guerra dos sete dias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Uma escaramuça por pedágio matou dezenas antes que o povo descobrisse que o decreto era falso."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/fome_dos_armazens",
+      "label": "A fome dos armazéns fechados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Uma estação ruim de colheita coincidiu com os estoques guardados pela liga mercantil."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/ponte_de_dois_guardioes",
+      "label": "A ponte de dois guardiões",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Duas facções reconstruíram a ponte e ambas reivindicam o direito de cobrar passagem."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/carta_dos_discipulos",
+      "label": "A carta dos discípulos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Uma geração de aprendizes redigiu regras contra castigos sem testemunhas."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/vigilia_dos_barqueiros",
+      "label": "A vigília dos barqueiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Os barqueiros interromperam travessias para exigir o reparo de um cais perigoso."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/sentenca_das_neves",
+      "label": "A sentença das neves",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "O tribunal resolveu um duelo por terra sem esclarecer quem falsificara o mapa."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/duelo_da_bandeira_branca",
+      "label": "O duelo da bandeira branca",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Um duelo público terminou com a desistência do vencedor para evitar guerra entre famílias."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/acordo_do_ferro",
+      "label": "O acordo do ferro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "Ferreiros pequenos obtiveram licença de produzir armas sob supervisão de duas seitas rivais."
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "historical_chronicle",
+      "excludes": [],
+      "id": "historical_chronicle/rumor_das_urnas",
+      "label": "O rumor das urnas seladas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "history",
+        "persistence",
+        "world_lore"
+      ],
+      "variables": {
+        "can_be_contested": true,
+        "lore_not_live_world_fact": true,
+        "rediscovery_hook": "investigation",
+        "source_status": "disputed_historical_account",
+        "time_frame": "prior_generation",
+        "witness_or_archive_required": true,
+        "written_account_pt_BR": "O voto da liga foi contestado após lacres trocados entre bairros."
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

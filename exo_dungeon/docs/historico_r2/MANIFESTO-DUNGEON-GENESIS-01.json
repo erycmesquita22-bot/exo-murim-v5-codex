@@ -1,0 +1,128 @@
+{
+  "id": "dungeon_genesis",
+  "version": "0.2.0",
+  "release_status": "INTEGRATION_CANDIDATE_STATIC_AND_PYTHON_REFERENCE_QA_ONLY",
+  "engine": "Godot 4.6.2 Standard",
+  "renderer": "Compatibility",
+  "module_root": "res://exo_dungeon/",
+  "base_reference": {
+    "file": "EXO-Murim-EXO-Core-01-CANDIDATO-CORRIGIDO.zip",
+    "sha256": "d6cae1fc95078b9b083755d68ee59c99568801e01fde8c5983366dc4c616f1ac",
+    "entries_count": 3912,
+    "contract": "EXO CORE MODULES v1.0.0"
+  },
+  "contract_template_reference": {
+    "file": "EXO-CORE-TEMPLATE-MODULO-01.zip",
+    "sha256": "3efe96a683f4bbd7373c871f5de7b04dd675d52018de6407e18ff203a2c35293"
+  },
+  "entrypoint": "res://exo_dungeon/module/entrypoint.gd",
+  "requires": {
+    "persistence": "1.0.0",
+    "world": "1.0.0"
+  },
+  "optional_integration": [
+    "inventory",
+    "combat",
+    "narrative",
+    "architecture",
+    "exo_bestiary",
+    "exo_items_procedurais",
+    "regional_ecology"
+  ],
+  "services_provided": [
+    "dungeons"
+  ],
+  "services_consumed": [
+    "core.services (registration and invocation)",
+    "core.world.journey.save_coordinator (register_domain)"
+  ],
+  "events_existing_consumed": [],
+  "events_new_proposed": [],
+  "persistence": {
+    "domain": "dungeon_genesis",
+    "schema": 1,
+    "save_root_version": 4,
+    "owner": "dungeon_genesis",
+    "writing_implementation": "existing EXO Core save coordinator; never a second save file"
+  },
+  "files_modified_outside_module": [],
+  "files_to_register_by_integrator": [
+    "exo_core/modules.json: append exo_dungeon/module/manifest.json object without replacing existing content"
+  ],
+  "commercial_rights": {
+    "included_3p_assets": 0,
+    "included_audio_files": 0,
+    "included_glbs": 0,
+    "artifacts": "code-authored voxels; optional original EXO catalog adapter does not redistribute assets"
+  },
+  "qa": {
+    "static_checks_passed": 26,
+    "static_checks_total": 26,
+    "reference_python_executed": 36000,
+    "reference_python_passed": 36000,
+    "reference_python_adversarial_rejected": 245,
+    "reference_python_adversarial_tested": 245,
+    "reference_python_caveat": "Model independently implemented in Python, not native GDScript; RNG differs",
+    "godot_native": "NOT_RUN",
+    "native_cases_prepared": 7200,
+    "native_mechanical_scenes_prepared": 144,
+    "native_physics": "NOT_RUN",
+    "core_gameplay_integration": "NOT_RUN",
+    "real_capture": "NOT_RUN"
+  },
+  "source_file_hashes_sha256": {
+    "exo_dungeon/assets/ASSETS-ORIGINAIS.md": "64c3526abe16a1e49a8024bbff00376c413767e9dc9eb46526d9a977341bdd62",
+    "exo_dungeon/docs/README.md": "4a65d91ca8d4e4018170961665506c87f3c2ecb14b0af4ef096ec12d5a85a2e7",
+    "exo_dungeon/encounters/encounter_planner.gd": "498b63a63a02c13fa476b895daa20295827b38458b3153e94c17978d133bee35",
+    "exo_dungeon/encounters/reward_placement.gd": "14a5eb2a5191aae1ece7cfda44458ac6abaff6cf02be82c97ccc2d9503db5081",
+    "exo_dungeon/encounters/trap_planner.gd": "d86c785b22055fefd603c6f19448c8b7f9dcd4916faab13e4f94450935c87d3b",
+    "exo_dungeon/environments/biome_profiles.gd": "9e32f9e12bd389161a4a63ecd576c4f08841ae6a47bc72d8d5dd1d55f89e71fb",
+    "exo_dungeon/environments/dungeon_themes.gd": "a098dfd36f32031483beaed4a96c902412a49916aeefcb1222c05f3f5369f54e",
+    "exo_dungeon/exploration/progression_rules.gd": "caf396f39aefb4f446b9f99fe3551d2f6eed57bacb2c299d4df54874a253d81f",
+    "exo_dungeon/exploration/secret_discovery.gd": "bf7ad3199ba4ae84621cef336c75e8fd0ba71c798b41e6b2fa18c490060167f6",
+    "exo_dungeon/generator/connectivity_validator.gd": "6d442bf36e09400749dac9c65ba968d7fa894d954d1659545669e160cf51d3e8",
+    "exo_dungeon/generator/dungeon_generator.gd": "ea1195811c1fa6f2408a6649e4e9202b8bd92b3d62038d27d9ddd796b589ab14",
+    "exo_dungeon/generator/room_planner.gd": "b1f47344511f18949e0ef1715b9740eb9c28d1283b1522d81a8709293a642cb2",
+    "exo_dungeon/integration/combat_adapter.gd": "1457f0fdccee90b091db21eed1f8f7981e6208ea6633a52cc60d3cf0fce0d17f",
+    "exo_dungeon/integration/core_adapter.gd": "6ccb9d0e3347f71b1f27b45a38a1af25f3d78c734f5c1353d8f7d9da0efce954",
+    "exo_dungeon/integration/forja_visual_adapter.gd": "4c9749d207baa21f8fd06e8ba21d64256dfdecf87c5db5c860387a66be6141d0",
+    "exo_dungeon/integration/narrative_adapter.gd": "91bfb80dce8ca9d4d085a207b4dfad423760b2d13805affd546f89952fc61883",
+    "exo_dungeon/integration/world_adapter.gd": "9b1fbf201051da9f9c43ddd0a0970b03f5869fc36176496ebe57d12ec191662c",
+    "exo_dungeon/lab/main.gd": "22a677cbbb044b2d6bbf5be5135f93008ce3bf26fc0ba790c3b25c9069178ab2",
+    "exo_dungeon/lab/main.tscn": "cf9d9a533040a81b4616f050e964768c3fbb327cd944fc7774f03a82e8dc3c11",
+    "exo_dungeon/layouts/room_catalog.gd": "2078c72167653a3df71eb9628de22c4ae0fcb51679b0a09b8eae046586e58f65",
+    "exo_dungeon/module/entrypoint.gd": "cbe27b441b21743721d005a487ac2c805c5a1ac6b9948dbf42f7b91ebf5e3f2f",
+    "exo_dungeon/module/manifest.json": "c922b1db9c1b64a67f3c7d6fd9e9e96f8274e2ce045662f632178d4e5b87d4b8",
+    "exo_dungeon/persistence/dungeon_state.gd": "edb53a7079e4570f468d3cc4b309d54868218251eff8e35075cb34638fd93cf6",
+    "exo_dungeon/runtime/dungeon_instance.gd": "25c5099a0f5d74f5b36dfd176703e9ca836d1ae0fce76a426bed46ee3bd4cec2",
+    "exo_dungeon/runtime/dungeon_renderer.gd": "f321e119f037ed516096404e3df5eef57635030e5084b43230b4348ac6fbcf22",
+    "exo_dungeon/runtime/streaming.gd": "393ba592ec92197f42f305619ec1a7a5ed8919fa0691554c3d0da969b7da1c4f",
+    "exo_dungeon/tests/run_mechanics_qa.gd": "27ac81c9abacd5c08038fe1fb432a037332e20582ff6d04996becdb1d0e243b2",
+    "exo_dungeon/tests/run_qa.gd": "23ecb96dbd8e4ad09f9acd1975ffa2e1cf768ca0f2b1012d48b4bbb475ca3b74",
+    "exo_dungeon/tests/run_render_smoke.gd": "09a651e9cd40d6c16ef291dff5313622ec858d9a201e86da213e7d97977a7c0c",
+    "exo_dungeon/tests/static_audit.py": "6b12328cd40ad12f6fe846d9c722193818a7a2ccf4ad829a108fc29968e2b9f6",
+    "exo_dungeon/tests/stress_reference.py": "1a566294eb88a53a2983ff4feb6f8fe6aa94cabd84bcc8ab93d07ceb0359b527",
+    "exo_dungeon/tests/test_core_contract.gd": "ae1fd90b8e1f036d14e7d3b8d2b1c7a32e18705be39d9a318b05a88cbfd27586"
+  },
+  "package_documents": {
+    "readme": "README.md",
+    "report": "RELATORIO-DUNGEON-GENESIS-01.md",
+    "integration": "INTEGRACAO-DUNGEON-GENESIS-01.md"
+  },
+  "date": "2026-10-19",
+  "generator_version": 2,
+  "compatibility": {
+    "godot": "4.6.2 Standard",
+    "renderer": "Compatibility",
+    "core_reference": "EXO Core 01 CANDIDATO CORRIGIDO",
+    "old_generator_v1_save": "REJECT_VERSION_MISMATCH_UNTIL_MIGRATED"
+  },
+  "mechanical_refinements": [
+    "physical lock seals",
+    "key pickup requires proximity",
+    "anti-bypass gate validator",
+    "corridor safety rails",
+    "optional secret rooms",
+    "portal manual interaction no bounce"
+  ]
+}

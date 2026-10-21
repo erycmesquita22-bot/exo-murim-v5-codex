@@ -1,0 +1,68 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Personagem externo integrado ao jogador
+OK Esqueleto e caminhada do recurso externo disponíveis
+OK Narrativa não é amostra de swing
+OK Narrativa não é amostra de punch
+OK Narrativa não é amostra de arrow
+OK Narrativa não é amostra de body_hit
+OK Narrativa não é amostra de fist_hit
+OK Narrativa não é amostra de metal_hit
+OK Narrativa não é amostra de wood_hit
+OK Narrativa não é amostra de hurt
+OK Narrativa não é amostra de step
+OK Narrativa não é amostra de ui
+OK Narrativa não é amostra de crossbow
+OK Narrativa não é amostra de equip
+OK Narrativa não é amostra de skill_windup
+OK Narrativa não é amostra de ice_release
+OK Narrativa não é amostra de fogo
+OK Narrativa não é amostra de gelo
+OK Narrativa não é amostra de vento
+OK Narrativa não é amostra de magia
+OK Narrativa não é amostra de summon
+OK Narrativa não é amostra de leap
+OK Narrativa não é amostra de landing
+OK Narrativa não é amostra de boss_entry
+OK Narrativa não é amostra de boss_phase
+OK Narrativa não é amostra de hit
+OK Narrativa não é amostra de mechanism
+OK Narrativa não é amostra de blunt_swing
+OK Narrativa não é amostra de strong_hit
+OK Narrativa não é amostra de critical_hit
+OK Narrativa não é amostra de fatal_hit
+OK Narrativa não é amostra de blade_hit
+OK Narrativa não é amostra de hurt_male
+OK Narrativa não é amostra de hurt_female
+OK Narrativa não é amostra de attack_male
+OK Narrativa não é amostra de quest_complete
+OK Narrativa não é amostra de qi_hit
+OK Narrativa não é amostra de qi
+OK Narrativa não é amostra de terra
+OK Narrativa não é amostra de evade
+OK Narrativa não é amostra de boss_prepare
+OK Narrativa não é amostra de boss_release
+OK Narrativa não é amostra de boss_impact
+OK Fonte própria para qi
+OK Fonte própria para magia
+OK Fonte própria para skill_windup
+OK Fonte própria para summon
+OK Fonte própria para boss_entry
+OK Fonte própria para boss_phase
+OK Fonte própria para quest_complete
+OK Crônicas têm canal narrativo independente do chamador
+OK Narração usa voz reservada
+OK Chefe não ocupa a voz das Crônicas
+OK Interação inicia, aproxima e completa pose sentada
+OK Sem deslizamento horizontal enquanto medita
+OK Tempo e recuperação preservados
+OK Colisão acompanha o corpo sentado
+OK Salva durante meditação
+OK Tempo de meditação persiste após recarga
+OK E levanta e restaura a colisão
+OK Movimento interrompe a meditação
+OK Ataque interrompe e é executado depois de levantar
+OK Entrada do chefe acionada no encontro real
+OK Chefe emite preparação, liberação e impacto
+OK Metade de vida aciona a transformação sonora
+QUALITY09: 65 passaram / 0 falharam

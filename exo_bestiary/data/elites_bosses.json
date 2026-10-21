@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "elites": [
+    {
+      "id": "elite_iron_guard",
+      "name": "Guarda de Ferro",
+      "base": "defensive_mercenary",
+      "special": "shield_wall"
+    },
+    {
+      "id": "elite_shadow_raider",
+      "name": "Lâmina das Sombras",
+      "base": "dagger_raider",
+      "special": "flanking_burst"
+    },
+    {
+      "id": "elite_wolf_alpha",
+      "name": "Lobo Alfa",
+      "base": "wolf",
+      "special": "pack_alert"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_mountain_hermit",
+      "name": "Eremita das Montanhas",
+      "base": "hostile_wanderer",
+      "phases": [
+        {
+          "threshold": 1,
+          "style": "duelist"
+        },
+        {
+          "threshold": 0.55,
+          "style": "counter"
+        },
+        {
+          "threshold": 0.24,
+          "style": "pressure"
+        }
+      ],
+      "telegraph": "raised_blade",
+      "vulnerability": "after_heavy_attack"
+    },
+    {
+      "id": "boss_qi_guardian",
+      "name": "Guardião do Qi",
+      "base": "stone_guardian",
+      "phases": [
+        {
+          "threshold": 1,
+          "style": "territorial"
+        },
+        {
+          "threshold": 0.5,
+          "style": "charge"
+        }
+      ],
+      "telegraph": "stone_stomp",
+      "vulnerability": "after_charge"
+    }
+  ]
+}

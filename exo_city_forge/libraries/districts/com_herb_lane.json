@@ -1,0 +1,140 @@
+{
+  "id": "com_herb_lane",
+  "name": "Rua dos Ervanários",
+  "category": "commercial",
+  "tags": [
+    "commercial",
+    "herbal",
+    "healers"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_herb_lane/b00",
+      "function": "herbalist",
+      "local_position": [
+        -13,
+        -10
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "com_herb_lane/b01",
+      "function": "herbalist",
+      "local_position": [
+        13,
+        -10
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "com_herb_lane/b02",
+      "function": "market",
+      "local_position": [
+        -13,
+        11
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "com_herb_lane/b03",
+      "function": "residence",
+      "local_position": [
+        13,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_herb_lane/st00",
+      "for_building": "com_herb_lane/b00",
+      "role": "healer"
+    },
+    {
+      "id": "com_herb_lane/st01",
+      "for_building": "com_herb_lane/b01",
+      "role": "healer"
+    },
+    {
+      "id": "com_herb_lane/st02",
+      "for_building": "com_herb_lane/b02",
+      "role": "merchant"
+    },
+    {
+      "id": "com_herb_lane/st03",
+      "for_building": "com_herb_lane/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "herbal",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "herbal",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

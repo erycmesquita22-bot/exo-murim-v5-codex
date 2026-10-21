@@ -1,0 +1,167 @@
+{
+  "domain": "ref_item_materials",
+  "records": [
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_plain",
+      "label": "Simples",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "plain",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_iron",
+      "label": "Ferro",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "iron",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_tempered_steel",
+      "label": "Aço Temperado",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "tempered_steel",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_jade",
+      "label": "Jade",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "jade",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_spirit_iron",
+      "label": "Ferro Espiritual",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "spirit_iron",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_leather",
+      "label": "Couro",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "leather",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_items",
+      "conditions": {},
+      "domain": "ref_item_materials",
+      "excludes": [],
+      "id": "ref_item_materials/ref_raw",
+      "label": "Bruto",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508",
+        "source_archive": "C3_R13_1",
+        "source_id": "raw",
+        "source_owner": "exo_items",
+        "source_path": "exo_items/data/materials.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

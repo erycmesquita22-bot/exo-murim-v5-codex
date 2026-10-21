@@ -1,0 +1,8 @@
+SUITE: Godot 4.6.2 native import and runtime
+STATUS: NOT_RUN
+COMMAND_1: godot --headless --editor --path <isolated_C3_copy> --import
+COMMAND_2: godot --headless --path <isolated_C3_copy> --script res://exo_skill_forge/tests/qa_r3_native.gd
+EXIT_CODE: NA (command not executed; executable not installed)
+PROBE: command -v godot || command -v godot4
+PROBE_RESULT: no executable in PATH
+NOTICE: No native Godot import, physics, runtime, Vega 8 or Android result is asserted.

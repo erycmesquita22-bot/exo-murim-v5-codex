@@ -1,0 +1,107 @@
+[
+  {
+    "name": "tests",
+    "ok": false,
+    "seconds": 2.1407651329999453
+  },
+  {
+    "name": "release_qa",
+    "ok": false,
+    "seconds": 0.9898181349999504
+  },
+  {
+    "name": "discovery_qa",
+    "ok": false,
+    "seconds": 1.0812727519999044
+  },
+  {
+    "name": "fidelity_qa",
+    "ok": true,
+    "seconds": 1.085716580000053
+  },
+  {
+    "name": "consolidation_qa",
+    "ok": true,
+    "seconds": 1.273505276999913
+  },
+  {
+    "name": "ruins_martial_qa",
+    "ok": false,
+    "seconds": 0.9900561669999206
+  },
+  {
+    "name": "stabilization_qa",
+    "ok": false,
+    "seconds": 1.080548025999974
+  },
+  {
+    "name": "quality09_qa",
+    "ok": true,
+    "seconds": 1.0793189810000285
+  },
+  {
+    "name": "martial_qa",
+    "ok": false,
+    "seconds": 1.4621332770000208
+  },
+  {
+    "name": "procedural_qa",
+    "ok": false,
+    "seconds": 1.1736377729999958
+  },
+  {
+    "name": "legacy_audio_qa",
+    "ok": false,
+    "seconds": 0.889384232999987
+  },
+  {
+    "name": "war_qa",
+    "ok": false,
+    "seconds": 2.6221269220000067
+  },
+  {
+    "name": "qa093",
+    "ok": false,
+    "seconds": 0.24414442199997666
+  },
+  {
+    "name": "qa0932",
+    "ok": false,
+    "seconds": 0.240349488999982
+  },
+  {
+    "name": "qa0933",
+    "ok": false,
+    "seconds": 0.24063691900005324
+  },
+  {
+    "name": "qa094",
+    "ok": true,
+    "seconds": 0.24640761800003474
+  },
+  {
+    "name": "qa0942",
+    "ok": true,
+    "seconds": 0.2422458020000704
+  },
+  {
+    "name": "qa0943",
+    "ok": false,
+    "seconds": 0.9014573149999023
+  },
+  {
+    "name": "qa0944",
+    "ok": false,
+    "seconds": 1.000592074999986
+  },
+  {
+    "name": "qa0945",
+    "ok": false,
+    "seconds": 0.9906388819999847
+  },
+  {
+    "name": "qa0946",
+    "ok": true,
+    "seconds": 0.9015766150000672
+  }
+]

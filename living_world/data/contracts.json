@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "contracts": [
+    {
+      "id": "vigia_dos_caminhos",
+      "title": "Vigia dos Caminhos",
+      "description": "Inspecione a rota e afaste os perigos registrados pela Guilda.",
+      "scopes": [
+        "village",
+        "town",
+        "city"
+      ],
+      "min_difficulty": 1,
+      "max_difficulty": 6,
+      "requires_stage": 5,
+      "objectives": [
+        {
+          "event": "visit_site",
+          "target": "road_marker",
+          "count": 2
+        },
+        {
+          "event": "defeat_enemy",
+          "target": "bandit",
+          "count": 1
+        }
+      ],
+      "reward": {
+        "bronze": 24,
+        "renown": 6,
+        "reputation": {
+          "guilda": 8,
+          "comunidade": 3
+        }
+      },
+      "required_service": "guild"
+    },
+    {
+      "id": "ervas_do_curandeiro",
+      "title": "Ervas do Curandeiro",
+      "description": "Encontre plantas medicinais e entregue-as ao curandeiro.",
+      "scopes": [
+        "village",
+        "town",
+        "city"
+      ],
+      "min_difficulty": 1,
+      "max_difficulty": 6,
+      "requires_stage": 5,
+      "objectives": [
+        {
+          "event": "collect_resource",
+          "target": "medicinal_herb",
+          "count": 3
+        },
+        {
+          "event": "turn_in_resource",
+          "target": "medicinal_herb",
+          "count": 3
+        }
+      ],
+      "reward": {
+        "bronze": 16,
+        "renown": 3,
+        "reputation": {
+          "comunidade": 5
+        }
+      },
+      "required_service": "healer"
+    },
+    {
+      "id": "rastro_nas_ruinas",
+      "title": "Rastro nas Ruínas",
+      "description": "Registre um vestígio de uma era esquecida sem presumir sua origem.",
+      "scopes": [
+        "ruins"
+      ],
+      "min_difficulty": 1,
+      "max_difficulty": 6,
+      "requires_stage": 5,
+      "objectives": [
+        {
+          "event": "inspect_ruin",
+          "target": "ancient_trace",
+          "count": 1
+        }
+      ],
+      "reward": {
+        "bronze": 0,
+        "renown": 8,
+        "reputation": {
+          "guilda": 2
+        },
+        "fate_clue": "vestigio_antigo"
+      }
+    },
+    {
+      "id": "disciplina_da_escola",
+      "title": "Disciplina da Escola",
+      "description": "Conclua um exercício orientado pela escola marcial.",
+      "scopes": [
+        "village",
+        "town",
+        "city"
+      ],
+      "min_difficulty": 2,
+      "max_difficulty": 6,
+      "requires_stage": 5,
+      "required_service": "martial_school",
+      "objectives": [
+        {
+          "event": "complete_training",
+          "target": "martial_drill",
+          "count": 1
+        }
+      ],
+      "reward": {
+        "bronze": 0,
+        "renown": 7,
+        "reputation": {
+          "escola_marcial": 8
+        }
+      }
+    }
+  ]
+}

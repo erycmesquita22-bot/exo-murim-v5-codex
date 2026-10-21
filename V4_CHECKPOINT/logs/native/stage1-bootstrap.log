@@ -1,0 +1,13 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+ERROR: EXO Core: []
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] _ready (res://convergence/game.gd:49)
+       [1] _execute (res://convergence/tests/qa_c03_r13_bootstrap_native.gd:29)
+ERROR: C03_R13_BOOT_FAIL Core boot is ready
+   at: push_error (core/variant/variant_utility.cpp:1024)
+   GDScript backtrace (most recent call first):
+       [0] _check (res://convergence/tests/qa_c03_r13_bootstrap_native.gd:11)
+       [1] _execute (res://convergence/tests/qa_c03_r13_bootstrap_native.gd:35)
+C03_R13_NATIVE_BOOT {"checks":9,"class":"HEADLESS_BOOT_ONLY_NOT_GAMEPLAY","failed":["Core boot is ready"],"godot":"4.6.2-stable (official)"}

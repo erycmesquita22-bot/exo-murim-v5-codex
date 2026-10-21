@@ -1,0 +1,28 @@
+{
+  "files_changed": [
+    "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK-LEGACY-CHECKS.md",
+    "C03_TRANSFERENCIA/MANIFESTO-CORRECOES-R2.json",
+    "C03_TRANSFERENCIA/QA-C03-ALFA-R2-LEGACY-CHECKS.json",
+    "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R2-LEGACY-CHECKS.md",
+    "C03_TRANSFERENCIA/RIG01-DIRECOES-MODELO-CPU-R2.json",
+    "animation_library.gd",
+    "convergence/game.gd",
+    "convergence/tests/qa_rig01_eight_directions.gd",
+    "murim_flow.gd",
+    "project.godot",
+    "rig.gd"
+  ],
+  "gameplay_changed": [
+    "animation_library.gd",
+    "convergence/game.gd",
+    "convergence/tests/qa_rig01_eight_directions.gd",
+    "murim_flow.gd",
+    "project.godot",
+    "rig.gd"
+  ],
+  "counts": {
+    "PASS": 20,
+    "FAIL": 0,
+    "NOT_RUN": 5
+  }
+}

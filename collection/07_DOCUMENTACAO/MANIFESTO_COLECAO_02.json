@@ -1,0 +1,1876 @@
+{
+  "title": "EXO-Murim — Colecao Ambiental 02: Fundacao do Mundo Regional",
+  "status": "ASSETS DE APROVACAO — NAO INTEGRADO AO JOGO",
+  "coordinate_system": "+Y up, metre-ish world units, centered ground origin",
+  "base_collection": "01",
+  "base_resources": {
+    "soils": 24,
+    "walls": 22,
+    "floors": 14,
+    "transitions": 128,
+    "decals": 16,
+    "glb": 54
+  },
+  "new_resources": {
+    "soils": 12,
+    "walls": 10,
+    "floors": 8,
+    "transitions": 128,
+    "decals": 8,
+    "glb": 71
+  },
+  "total_unique_resources": 495,
+  "transition_pairs_02": [
+    {
+      "upper": "grama_montanha",
+      "lower": "pedra_xisto",
+      "folder": "04_TRANSICOES/pedra_xisto__para__grama_montanha",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "sedimento_rio",
+      "lower": "seixos",
+      "folder": "04_TRANSICOES/seixos__para__sedimento_rio",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "terra_raizes",
+      "lower": "solo_florestal",
+      "folder": "04_TRANSICOES/solo_florestal__para__terra_raizes",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "musgo_ruina",
+      "lower": "laje_rachada",
+      "folder": "04_TRANSICOES/laje_rachada__para__musgo_ruina",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "grama_viva",
+      "lower": "terra_umida",
+      "folder": "04_TRANSICOES/terra_umida__para__grama_viva",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "terra_pedregosa",
+      "lower": "cascalho",
+      "folder": "04_TRANSICOES/cascalho__para__terra_pedregosa",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "grama_inverno",
+      "lower": "pedra_calcaria",
+      "folder": "04_TRANSICOES/pedra_calcaria__para__grama_inverno",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    },
+    {
+      "upper": "folhagem_prado",
+      "lower": "trilha_batida",
+      "folder": "04_TRANSICOES/trilha_batida__para__folhagem_prado",
+      "variants": 16,
+      "corner_mask": "TL1_TR2_BR4_BL8"
+    }
+  ],
+  "new_glbs": [
+    {
+      "id": "penhasco_baixo_reto",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "bounds_m": [
+        5.4,
+        2.831,
+        3.419
+      ],
+      "ground_pivot": true,
+      "triangles": 340,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "penhasco_alto_reto",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "bounds_m": [
+        5.4,
+        4.84,
+        3.421
+      ],
+      "ground_pivot": true,
+      "triangles": 340,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "penhasco_baixo_musgoso",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.glb",
+      "bounds_m": [
+        5.4,
+        2.872,
+        3.448
+      ],
+      "ground_pivot": true,
+      "triangles": 340,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "penhasco_canto_interno",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "bounds_m": [
+        5.55,
+        4.4,
+        5.678
+      ],
+      "ground_pivot": true,
+      "triangles": 388,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "penhasco_canto_externo",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_externo.glb",
+      "bounds_m": [
+        5.55,
+        4.4,
+        5.743
+      ],
+      "ground_pivot": true,
+      "triangles": 388,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "encosta_escarpada",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/encosta_escarpada.glb",
+      "bounds_m": [
+        5.4,
+        3.448,
+        3.326
+      ],
+      "ground_pivot": true,
+      "triangles": 340,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "encosta_pedregosa",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/encosta_pedregosa.glb",
+      "bounds_m": [
+        5.4,
+        3.438,
+        3.398
+      ],
+      "ground_pivot": true,
+      "triangles": 340,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "rocha_pilha_grande",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_grande.glb",
+      "bounds_m": [
+        4.388,
+        1.607,
+        3.514
+      ],
+      "ground_pivot": true,
+      "triangles": 396,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "rocha_pilha_baixa",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "bounds_m": [
+        3.681,
+        1.555,
+        4.144
+      ],
+      "ground_pivot": true,
+      "triangles": 396,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "rocha_monolito",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito.glb",
+      "bounds_m": [
+        4.431,
+        5.064,
+        3.497
+      ],
+      "ground_pivot": true,
+      "triangles": 176,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "rocha_monolito_musgo",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito_musgo.glb",
+      "bounds_m": [
+        2.8,
+        5.149,
+        3.904
+      ],
+      "ground_pivot": true,
+      "triangles": 188,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "pedra_xisto_grupo",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/pedra_xisto_grupo.glb",
+      "bounds_m": [
+        3.706,
+        1.5,
+        2.743
+      ],
+      "ground_pivot": true,
+      "triangles": 176,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "estrato_pedra_montanha",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/estrato_pedra_montanha.glb",
+      "bounds_m": [
+        3.434,
+        1.475,
+        3.767
+      ],
+      "ground_pivot": true,
+      "triangles": 176,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "margem_rio_grama",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_grama.glb",
+      "bounds_m": [
+        4.1,
+        1.005,
+        2.765
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "margem_rio_pedra",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_pedra.glb",
+      "bounds_m": [
+        4.1,
+        1.005,
+        2.765
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "plataforma_rochosa",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "bounds_m": [
+        4.2,
+        0.81,
+        4.2
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "patamar_montanha",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/patamar_montanha.glb",
+      "bounds_m": [
+        4.2,
+        0.81,
+        4.2
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "rampa_escadaria_pedra",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "bounds_m": [
+        3.4,
+        1.65,
+        3.95
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "entrada_caverna_rochosa",
+      "category": "09_TOPOGRAFIA_GLB",
+      "file": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "bounds_m": [
+        5.202,
+        4.309,
+        3.254
+      ],
+      "ground_pivot": true,
+      "triangles": 144,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_compound_convex_or_trimesh",
+      "prototype": true
+    },
+    {
+      "id": "parede_reboco_claro",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_reboco_ocre",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/parede_reboco_ocre.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_madeira_laca",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/parede_madeira_laca.glb",
+      "bounds_m": [
+        4.25,
+        3.32,
+        0.56
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_pedra_templo",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/parede_pedra_templo.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.58
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "painel_janela_lattice",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "ground_pivot": true,
+      "triangles": 156,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "painel_porta_livre",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/painel_porta_livre.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "divisoria_papel_janela",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/divisoria_papel_janela.glb",
+      "bounds_m": [
+        4.25,
+        3.19,
+        0.55
+      ],
+      "ground_pivot": true,
+      "triangles": 156,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "fundacao_pedra",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/fundacao_pedra.glb",
+      "bounds_m": [
+        4.1,
+        0.81,
+        4.105
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "base_madeira_templo",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/base_madeira_templo.glb",
+      "bounds_m": [
+        4.1,
+        0.81,
+        4.105
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "pilar_madeira_dourado",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "bounds_m": [
+        1.0,
+        3.535,
+        1.0
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "coluna_madeira_escura",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/coluna_madeira_escura.glb",
+      "bounds_m": [
+        1.0,
+        3.535,
+        1.0
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "telhado_vermelho_4m",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/telhado_vermelho_4m.glb",
+      "bounds_m": [
+        4.8,
+        1.17,
+        4.75
+      ],
+      "ground_pivot": true,
+      "triangles": 440,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "telhado_teal_4m",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "bounds_m": [
+        4.8,
+        1.17,
+        4.75
+      ],
+      "ground_pivot": true,
+      "triangles": 440,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "telhado_canto_vermelho",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/telhado_canto_vermelho.glb",
+      "bounds_m": [
+        2.45,
+        1.17,
+        4.75
+      ],
+      "ground_pivot": true,
+      "triangles": 248,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "telhado_canto_jade",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/telhado_canto_jade.glb",
+      "bounds_m": [
+        2.45,
+        1.17,
+        4.75
+      ],
+      "ground_pivot": true,
+      "triangles": 248,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "cumeeira_vermelha",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/cumeeira_vermelha.glb",
+      "bounds_m": [
+        4.2,
+        0.425,
+        0.4
+      ],
+      "ground_pivot": true,
+      "triangles": 108,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "cumeeira_jade",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/cumeeira_jade.glb",
+      "bounds_m": [
+        4.2,
+        0.425,
+        0.4
+      ],
+      "ground_pivot": true,
+      "triangles": 108,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "beiral_vermelho",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/beiral_vermelho.glb",
+      "bounds_m": [
+        4.4,
+        0.959,
+        0.955
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "beiral_teal",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/beiral_teal.glb",
+      "bounds_m": [
+        4.4,
+        0.959,
+        0.955
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "porta_madeira_dupla",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/porta_madeira_dupla.glb",
+      "bounds_m": [
+        2.2,
+        3.11,
+        0.3
+      ],
+      "ground_pivot": true,
+      "triangles": 108,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "porta_laca_jade",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/porta_laca_jade.glb",
+      "bounds_m": [
+        2.2,
+        3.11,
+        0.3
+      ],
+      "ground_pivot": true,
+      "triangles": 108,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "escada_madeira_templo",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "bounds_m": [
+        3.1,
+        1.36,
+        3.14
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "degrau_pedra_cidade",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/degrau_pedra_cidade.glb",
+      "bounds_m": [
+        3.1,
+        1.36,
+        3.14
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "passarela_guarda",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/passarela_guarda.glb",
+      "bounds_m": [
+        2.3,
+        1.525,
+        4.45
+      ],
+      "ground_pivot": true,
+      "triangles": 204,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "janela_lattice_quadrada",
+      "category": "10_ARQUITETURA_GLB",
+      "file": "10_ARQUITETURA_GLB/janela_lattice_quadrada.glb",
+      "bounds_m": [
+        2.6,
+        2.4,
+        0.2
+      ],
+      "ground_pivot": true,
+      "triangles": 132,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "muro_ruina_cinza",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "ground_pivot": true,
+      "triangles": 444,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "muro_ruina_arenito",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "ground_pivot": true,
+      "triangles": 432,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_ruina_destruido",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        0.58
+      ],
+      "ground_pivot": true,
+      "triangles": 408,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_ruina_canto",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/parede_ruina_canto.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        2.27
+      ],
+      "ground_pivot": true,
+      "triangles": 468,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "parede_ruina_T_juncao",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/parede_ruina_T_juncao.glb",
+      "bounds_m": [
+        4.36,
+        2.83,
+        2.27
+      ],
+      "ground_pivot": true,
+      "triangles": 480,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "corredor_ruina_reto",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/corredor_ruina_reto.glb",
+      "bounds_m": [
+        4.36,
+        2.865,
+        4.17
+      ],
+      "ground_pivot": true,
+      "triangles": 432,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "corredor_ruina_T_juncao",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/corredor_ruina_T_juncao.glb",
+      "bounds_m": [
+        4.78,
+        2.865,
+        5.9
+      ],
+      "ground_pivot": true,
+      "triangles": 504,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "arco_portal_antigo",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/arco_portal_antigo.glb",
+      "bounds_m": [
+        4.3,
+        3.755,
+        1.16
+      ],
+      "ground_pivot": true,
+      "triangles": 168,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "arco_portal_musgo",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/arco_portal_musgo.glb",
+      "bounds_m": [
+        4.3,
+        3.91,
+        1.16
+      ],
+      "ground_pivot": true,
+      "triangles": 180,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "portal_ruina_cinza",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/portal_ruina_cinza.glb",
+      "bounds_m": [
+        4.3,
+        3.755,
+        1.16
+      ],
+      "ground_pivot": true,
+      "triangles": 168,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "coluna_ruina_inteiro",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "bounds_m": [
+        1.15,
+        3.95,
+        1.1
+      ],
+      "ground_pivot": true,
+      "triangles": 36,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "coluna_ruina_musgo",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "bounds_m": [
+        1.15,
+        2.329,
+        1.1
+      ],
+      "ground_pivot": true,
+      "triangles": 48,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "pilar_ruina_quebrado",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/pilar_ruina_quebrado.glb",
+      "bounds_m": [
+        1.15,
+        2.905,
+        1.1
+      ],
+      "ground_pivot": true,
+      "triangles": 36,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "laje_ruina_inteira",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/laje_ruina_inteira.glb",
+      "bounds_m": [
+        3.96,
+        0.27,
+        3.95
+      ],
+      "ground_pivot": true,
+      "triangles": 192,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "laje_ruina_partida",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/laje_ruina_partida.glb",
+      "bounds_m": [
+        3.96,
+        0.27,
+        3.95
+      ],
+      "ground_pivot": true,
+      "triangles": 192,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "escada_ruina_inteira",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/escada_ruina_inteira.glb",
+      "bounds_m": [
+        3.8,
+        2.08,
+        4.23
+      ],
+      "ground_pivot": true,
+      "triangles": 84,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "escada_ruina_quebrada",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "bounds_m": [
+        3.8,
+        2.08,
+        4.23
+      ],
+      "ground_pivot": true,
+      "triangles": 72,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "altar_ruina_antigo",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "bounds_m": [
+        3.0,
+        2.5,
+        3.0
+      ],
+      "ground_pivot": true,
+      "triangles": 60,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "entulho_ruina_grande",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "bounds_m": [
+        3.78,
+        0.594,
+        3.446
+      ],
+      "ground_pivot": true,
+      "triangles": 228,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "barricada_ruina_madeira",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/barricada_ruina_madeira.glb",
+      "bounds_m": [
+        2.715,
+        1.818,
+        1.174
+      ],
+      "ground_pivot": true,
+      "triangles": 48,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "portao_ruina_ferro",
+      "category": "11_RUINAS_GLB",
+      "file": "11_RUINAS_GLB/portao_ruina_ferro.glb",
+      "bounds_m": [
+        3.9,
+        3.805,
+        0.9
+      ],
+      "ground_pivot": true,
+      "triangles": 96,
+      "static_solid": true,
+      "grid_m": 4.0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "bambu_alto_folhas",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/bambu_alto_folhas.glb",
+      "bounds_m": [
+        2.11,
+        3.461,
+        0.38
+      ],
+      "ground_pivot": true,
+      "triangles": 304,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "bambu_grupo_rio",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/bambu_grupo_rio.glb",
+      "bounds_m": [
+        2.707,
+        4.573,
+        0.939
+      ],
+      "ground_pivot": true,
+      "triangles": 912,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "arvore_alta_sombria",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/arvore_alta_sombria.glb",
+      "bounds_m": [
+        2.934,
+        6.223,
+        2.488
+      ],
+      "ground_pivot": true,
+      "triangles": 204,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "arvore_baixa_prado",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/arvore_baixa_prado.glb",
+      "bounds_m": [
+        2.986,
+        4.265,
+        2.703
+      ],
+      "ground_pivot": true,
+      "triangles": 204,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "pinheiro_escarpado",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "bounds_m": [
+        2.7,
+        5.45,
+        2.7
+      ],
+      "ground_pivot": true,
+      "triangles": 96,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    },
+    {
+      "id": "rochedo_rio_musgoso",
+      "category": "12_NATUREZA_GLB",
+      "file": "12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "bounds_m": [
+        3.147,
+        2.852,
+        3.29
+      ],
+      "ground_pivot": true,
+      "triangles": 308,
+      "static_solid": true,
+      "grid_m": 0,
+      "collision_hint": "static_simplified_box_or_compound",
+      "prototype": true
+    }
+  ],
+  "legacy_glbs": [
+    {
+      "name": "bambu_alto",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_alto.glb",
+      "preview": "00_CATALOGO/thumb_bambu_alto.png",
+      "bounds_m": [
+        2.05,
+        4.266,
+        0.26
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "bambu_grupo",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_grupo.glb",
+      "preview": "00_CATALOGO/thumb_bambu_grupo.png",
+      "bounds_m": [
+        2.749,
+        4.27,
+        0.376
+      ],
+      "triangles": 816
+    },
+    {
+      "name": "bambu_bosque",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_bosque.glb",
+      "preview": "00_CATALOGO/thumb_bambu_bosque.png",
+      "bounds_m": [
+        2.926,
+        4.347,
+        0.751
+      ],
+      "triangles": 1836
+    },
+    {
+      "name": "pinheiro_pequeno",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.glb",
+      "preview": "00_CATALOGO/thumb_pinheiro_pequeno.png",
+      "bounds_m": [
+        1.88,
+        3.35,
+        1.88
+      ],
+      "triangles": 160
+    },
+    {
+      "name": "pinheiro_grande",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_grande.glb",
+      "preview": "00_CATALOGO/thumb_pinheiro_grande.png",
+      "bounds_m": [
+        2.256,
+        3.35,
+        2.256
+      ],
+      "triangles": 160
+    },
+    {
+      "name": "arvore_folhosa",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhosa.glb",
+      "preview": "00_CATALOGO/thumb_arvore_folhosa.png",
+      "bounds_m": [
+        2.8,
+        4.364,
+        2.29
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arvore_grande",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_grande.glb",
+      "preview": "00_CATALOGO/thumb_arvore_grande.png",
+      "bounds_m": [
+        2.8,
+        5.939,
+        2.29
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "cerejeira",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "preview": "00_CATALOGO/thumb_cerejeira.png",
+      "bounds_m": [
+        2.65,
+        4.525,
+        2.24
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arvore_folhas_vermelhas",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.glb",
+      "preview": "00_CATALOGO/thumb_arvore_folhas_vermelhas.png",
+      "bounds_m": [
+        2.65,
+        4.525,
+        2.24
+      ],
+      "triangles": 76
+    },
+    {
+      "name": "arbusto",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/arbusto.glb",
+      "preview": "00_CATALOGO/thumb_arbusto.png",
+      "bounds_m": [
+        1.609,
+        0.899,
+        1.458
+      ],
+      "triangles": 84
+    },
+    {
+      "name": "moita_densa",
+      "category": "vegetacao",
+      "file": "06_OBJETOS_GLB/vegetacao/moita_densa.glb",
+      "preview": "00_CATALOGO/thumb_moita_densa.png",
+      "bounds_m": [
+        1.714,
+        0.836,
+        1.539
+      ],
+      "triangles": 132
+    },
+    {
+      "name": "rocha_pequena",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rocha_pequena.glb",
+      "preview": "00_CATALOGO/thumb_rocha_pequena.png",
+      "bounds_m": [
+        0.997,
+        0.347,
+        1.163
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "rochas_medias",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rochas_medias.glb",
+      "preview": "00_CATALOGO/thumb_rochas_medias.png",
+      "bounds_m": [
+        2.435,
+        0.822,
+        2.18
+      ],
+      "triangles": 108
+    },
+    {
+      "name": "rocha_grande",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/rocha_grande.glb",
+      "preview": "00_CATALOGO/thumb_rocha_grande.png",
+      "bounds_m": [
+        3.816,
+        1.157,
+        3.968
+      ],
+      "triangles": 168
+    },
+    {
+      "name": "formacao_rochosa",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/formacao_rochosa.glb",
+      "preview": "00_CATALOGO/thumb_formacao_rochosa.png",
+      "bounds_m": [
+        4.871,
+        3.735,
+        4.606
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "penhasco_baixo",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_baixo.glb",
+      "preview": "00_CATALOGO/thumb_penhasco_baixo.png",
+      "bounds_m": [
+        2.45,
+        1.406,
+        1.65
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "penhasco_alto",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_alto.glb",
+      "preview": "00_CATALOGO/thumb_penhasco_alto.png",
+      "bounds_m": [
+        2.45,
+        2.442,
+        1.65
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "cristal_purpura",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/cristal_purpura.glb",
+      "preview": "00_CATALOGO/thumb_cristal_purpura.png",
+      "bounds_m": [
+        1.436,
+        2.171,
+        1.399
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "cristal_ciano",
+      "category": "rochas",
+      "file": "06_OBJETOS_GLB/rochas/cristal_ciano.glb",
+      "preview": "00_CATALOGO/thumb_cristal_ciano.png",
+      "bounds_m": [
+        1.457,
+        2.21,
+        1.193
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "parede_ruina_reta",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_reta.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_reta.png",
+      "bounds_m": [
+        3.365,
+        2.0,
+        0.468
+      ],
+      "triangles": 204
+    },
+    {
+      "name": "parede_ruina_danificada",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_danificada.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_danificada.png",
+      "bounds_m": [
+        3.215,
+        2.115,
+        1.025
+      ],
+      "triangles": 180
+    },
+    {
+      "name": "parede_ruina_canto",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_canto.glb",
+      "preview": "00_CATALOGO/thumb_parede_ruina_canto.png",
+      "bounds_m": [
+        3.2,
+        2.0,
+        2.425
+      ],
+      "triangles": 216
+    },
+    {
+      "name": "parede_masmorra",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/parede_masmorra.glb",
+      "preview": "00_CATALOGO/thumb_parede_masmorra.png",
+      "bounds_m": [
+        3.365,
+        2.0,
+        0.495
+      ],
+      "triangles": 216
+    },
+    {
+      "name": "arco_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina.glb",
+      "preview": "00_CATALOGO/thumb_arco_ruina.png",
+      "bounds_m": [
+        2.75,
+        3.05,
+        0.92
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "arco_ruina_musgoso",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.glb",
+      "preview": "00_CATALOGO/thumb_arco_ruina_musgoso.png",
+      "bounds_m": [
+        2.75,
+        3.3,
+        0.92
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "pilar_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/pilar_ruina.glb",
+      "preview": "00_CATALOGO/thumb_pilar_ruina.png",
+      "bounds_m": [
+        1.15,
+        3.74,
+        1.15
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "coluna_quebrada",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/coluna_quebrada.glb",
+      "preview": "00_CATALOGO/thumb_coluna_quebrada.png",
+      "bounds_m": [
+        1.15,
+        2.79,
+        1.15
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "escadaria_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/escadaria_pedra.glb",
+      "preview": "00_CATALOGO/thumb_escadaria_pedra.png",
+      "bounds_m": [
+        2.7,
+        1.44,
+        2.4
+      ],
+      "triangles": 72
+    },
+    {
+      "name": "laje_ruina",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/laje_ruina.glb",
+      "preview": "00_CATALOGO/thumb_laje_ruina.png",
+      "bounds_m": [
+        3.0,
+        0.36,
+        3.0
+      ],
+      "triangles": 12
+    },
+    {
+      "name": "altar_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/altar_pedra.glb",
+      "preview": "00_CATALOGO/thumb_altar_pedra.png",
+      "bounds_m": [
+        2.5,
+        1.5,
+        2.2
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "obelisco",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/obelisco.glb",
+      "preview": "00_CATALOGO/thumb_obelisco.png",
+      "bounds_m": [
+        1.7,
+        4.305,
+        1.7
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "entulho_pedra",
+      "category": "ruinas",
+      "file": "06_OBJETOS_GLB/ruinas/entulho_pedra.glb",
+      "preview": "00_CATALOGO/thumb_entulho_pedra.png",
+      "bounds_m": [
+        3.025,
+        0.693,
+        1.57
+      ],
+      "triangles": 168
+    },
+    {
+      "name": "portao_torii",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/portao_torii.glb",
+      "preview": "00_CATALOGO/thumb_portao_torii.png",
+      "bounds_m": [
+        4.3,
+        3.98,
+        1.39
+      ],
+      "triangles": 56
+    },
+    {
+      "name": "portao_templete",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/portao_templete.glb",
+      "preview": "00_CATALOGO/thumb_portao_templete.png",
+      "bounds_m": [
+        4.3,
+        3.98,
+        1.39
+      ],
+      "triangles": 56
+    },
+    {
+      "name": "telhado_rufo_vermelho",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.glb",
+      "preview": "00_CATALOGO/thumb_telhado_rufo_vermelho.png",
+      "bounds_m": [
+        3.83,
+        1.325,
+        3.6
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "telhado_rufo_azul",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_azul.glb",
+      "preview": "00_CATALOGO/thumb_telhado_rufo_azul.png",
+      "bounds_m": [
+        3.83,
+        1.325,
+        3.6
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "casa_modular",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "preview": "00_CATALOGO/thumb_casa_modular.png",
+      "bounds_m": [
+        3.65,
+        3.68,
+        3.43
+      ],
+      "triangles": 68
+    },
+    {
+      "name": "ponte_madeira",
+      "category": "construcoes",
+      "file": "06_OBJETOS_GLB/construcoes/ponte_madeira.glb",
+      "preview": "00_CATALOGO/thumb_ponte_madeira.png",
+      "bounds_m": [
+        2.3,
+        1.25,
+        4.46
+      ],
+      "triangles": 228
+    },
+    {
+      "name": "cerca_segmento",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/cerca_segmento.glb",
+      "preview": "00_CATALOGO/thumb_cerca_segmento.png",
+      "bounds_m": [
+        2.5,
+        1.5,
+        0.24
+      ],
+      "triangles": 48
+    },
+    {
+      "name": "poste_lanterna",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "preview": "00_CATALOGO/thumb_poste_lanterna.png",
+      "bounds_m": [
+        0.9,
+        3.6,
+        0.9
+      ],
+      "triangles": 44
+    },
+    {
+      "name": "caixote",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/caixote.glb",
+      "preview": "00_CATALOGO/thumb_caixote.png",
+      "bounds_m": [
+        1.12,
+        1.13,
+        1.1
+      ],
+      "triangles": 72
+    },
+    {
+      "name": "barril",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/barril.glb",
+      "preview": "00_CATALOGO/thumb_barril.png",
+      "bounds_m": [
+        1.06,
+        1.4,
+        1.008
+      ],
+      "triangles": 120
+    },
+    {
+      "name": "saco_mercadorias",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/saco_mercadorias.glb",
+      "preview": "00_CATALOGO/thumb_saco_mercadorias.png",
+      "bounds_m": [
+        0.75,
+        0.94,
+        0.59
+      ],
+      "triangles": 24
+    },
+    {
+      "name": "banco_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/banco_madeira.glb",
+      "preview": "00_CATALOGO/thumb_banco_madeira.png",
+      "bounds_m": [
+        2.15,
+        0.91,
+        0.7
+      ],
+      "triangles": 36
+    },
+    {
+      "name": "mesa_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/mesa_madeira.glb",
+      "preview": "00_CATALOGO/thumb_mesa_madeira.png",
+      "bounds_m": [
+        2.1,
+        1.065,
+        1.4
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "barraca_feira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "preview": "00_CATALOGO/thumb_barraca_feira.png",
+      "bounds_m": [
+        3.2,
+        3.62,
+        2.35
+      ],
+      "triangles": 68
+    },
+    {
+      "name": "poco",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/poco.glb",
+      "preview": "00_CATALOGO/thumb_poco.png",
+      "bounds_m": [
+        2.7,
+        3.6,
+        1.85
+      ],
+      "triangles": 112
+    },
+    {
+      "name": "carroca",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/carroca.glb",
+      "preview": "00_CATALOGO/thumb_carroca.png",
+      "bounds_m": [
+        2.44,
+        1.075,
+        3.619
+      ],
+      "triangles": 152
+    },
+    {
+      "name": "canteiro_flores",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/canteiro_flores.glb",
+      "preview": "00_CATALOGO/thumb_canteiro_flores.png",
+      "bounds_m": [
+        2.5,
+        1.169,
+        1.6
+      ],
+      "triangles": 288
+    },
+    {
+      "name": "tocha_coluna",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/tocha_coluna.glb",
+      "preview": "00_CATALOGO/thumb_tocha_coluna.png",
+      "bounds_m": [
+        0.37,
+        2.71,
+        0.35
+      ],
+      "triangles": 32
+    },
+    {
+      "name": "bau_madeira",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/bau_madeira.glb",
+      "preview": "00_CATALOGO/thumb_bau_madeira.png",
+      "bounds_m": [
+        1.92,
+        1.17,
+        1.225
+      ],
+      "triangles": 60
+    },
+    {
+      "name": "portao_masmorra",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/portao_masmorra.glb",
+      "preview": "00_CATALOGO/thumb_portao_masmorra.png",
+      "bounds_m": [
+        3.3,
+        3.11,
+        0.75
+      ],
+      "triangles": 96
+    },
+    {
+      "name": "estalagmites",
+      "category": "masmorras",
+      "file": "06_OBJETOS_GLB/masmorras/estalagmites.glb",
+      "preview": "00_CATALOGO/thumb_estalagmites.png",
+      "bounds_m": [
+        1.617,
+        2.102,
+        1.5
+      ],
+      "triangles": 100
+    },
+    {
+      "name": "escada_madeira",
+      "category": "objetos",
+      "file": "06_OBJETOS_GLB/objetos/escada_madeira.glb",
+      "preview": "00_CATALOGO/thumb_escada_madeira.png",
+      "bounds_m": [
+        2.5,
+        1.73,
+        3.02
+      ],
+      "triangles": 72
+    }
+  ],
+  "limitations": [
+    "Sem colisor integrado em cenas Godot",
+    "Modelos GLB low-poly candidatos, ainda sem LODs ou animacoes",
+    "Gerador regional de 88 mapas nao integrado",
+    "Colisao e sockets devem ser ajustados na engine",
+    "Nenhuma das cenas demonstrativas e jogavel; pranchas mostram composicao de assets reais"
+  ]
+}

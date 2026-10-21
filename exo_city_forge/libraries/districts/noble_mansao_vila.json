@@ -1,0 +1,153 @@
+{
+  "id": "noble_mansao_vila",
+  "name": "Solar do Magistrado",
+  "category": "noble",
+  "settlement_context": "noble",
+  "allowed_scales": [
+    "town",
+    "city"
+  ],
+  "tags": [
+    "noble",
+    "r3",
+    "town_civic"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "noble_mansao_vila/b00",
+      "function": "administration",
+      "archetype": "council_hall",
+      "local_position": [
+        -11,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.7,
+      "door_facing": "inner",
+      "interior_slot": true,
+      "structure_details": [
+        "walled_garden",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "noble_mansao_vila/b01",
+      "function": "residence",
+      "archetype": "timber_house",
+      "local_position": [
+        11,
+        -11
+      ],
+      "size": [
+        5.0,
+        5.1
+      ],
+      "height": 4.05,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "walled_garden",
+        "roof_variant_1"
+      ]
+    },
+    {
+      "id": "noble_mansao_vila/b02",
+      "function": "shrine",
+      "archetype": "small_shrine",
+      "local_position": [
+        -11,
+        11
+      ],
+      "size": [
+        5.45,
+        5.75
+      ],
+      "height": 4.4,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "walled_garden",
+        "roof_variant_0"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "noble_mansao_vila/st00",
+      "for_building": "noble_mansao_vila/b00",
+      "role": "worker"
+    },
+    {
+      "id": "noble_mansao_vila/st01",
+      "for_building": "noble_mansao_vila/b01",
+      "role": "resident"
+    },
+    {
+      "id": "noble_mansao_vila/st02",
+      "for_building": "noble_mansao_vila/b02",
+      "role": "worker"
+    }
+  ],
+  "open_spaces": {
+    "type": "walled_garden",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "walled_garden",
+  "mesh_budget_estimate": 54,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

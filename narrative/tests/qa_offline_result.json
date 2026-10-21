@@ -1,0 +1,36 @@
+{
+  "title": "EXO NUCLEO NARRATIVO 01 — OFFLINE / INDEPENDENT MODEL",
+  "status": "PASS",
+  "godot_executed": false,
+  "native_test_status": "NOT_RUN",
+  "checks": 75932,
+  "failures": [],
+  "sections": {
+    "atlas": 228,
+    "destiny": 24001,
+    "receipts": 25001,
+    "memory": 25000,
+    "stories": 138,
+    "persistence": 2,
+    "static": 1562
+  },
+  "destiny_origin_counts": {
+    "1": 1968,
+    "4": 2048,
+    "5": 2030,
+    "0": 1957,
+    "3": 2032,
+    "2": 1965
+  },
+  "story_fixture_regions": 46,
+  "receipts_model": {
+    "unique_receipts": 12000,
+    "npc_memory_owners": 300
+  },
+  "file_comparison": {
+    "status": "NOT_RUN",
+    "reason": "Provide EXO_NARRATIVE_BASE_ZIP to compare SHA/CRC with baseline ZIP"
+  },
+  "elapsed_s": 0.174,
+  "limits": "Python independent fixture + source integrity only. No GDScript parsing or Godot/runtime confirmation."
+}

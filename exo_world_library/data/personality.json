@@ -1,0 +1,144 @@
+{
+  "domain": "personality",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/prudente",
+      "label": "Prudente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 15,
+          "social": 40
+        },
+        "personality": "prudente"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/sociavel",
+      "label": "Sociável",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 40,
+          "social": 86
+        },
+        "personality": "sociavel"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/disciplinado",
+      "label": "Disciplinado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 42,
+          "social": 38
+        },
+        "personality": "disciplinado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/reservado",
+      "label": "Reservado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 35,
+          "social": 12
+        },
+        "personality": "reservado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/audacioso",
+      "label": "Audacioso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 88,
+          "social": 55
+        },
+        "personality": "audacioso"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "personality",
+      "excludes": [],
+      "id": "personality/ambicioso",
+      "label": "Ambicioso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "personality"
+      ],
+      "variables": {
+        "npc_system_traits_hint": {
+          "risk": 60,
+          "social": 57
+        },
+        "personality": "ambicioso"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

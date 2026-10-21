@@ -1,0 +1,193 @@
+{
+  "schema": 2,
+  "profiles": [
+    {
+      "id": "bandit_swordsman",
+      "name": "Bandido de Espada Curta",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "pressure",
+      "weapon_family": "short_sword",
+      "preferred_distance": [
+        1.5,
+        2.6
+      ],
+      "morale": 0.42,
+      "perception": 20,
+      "attacks": [
+        "short_slash",
+        "block"
+      ],
+      "tags": [
+        "group"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "bandit_archer",
+      "name": "Bandido Arqueiro",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "ranged",
+      "weapon_family": "bow",
+      "preferred_distance": [
+        6.0,
+        11.0
+      ],
+      "morale": 0.35,
+      "perception": 20,
+      "attacks": [
+        "arrow",
+        "dodge"
+      ],
+      "tags": [
+        "group"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "bandit_spearman",
+      "name": "Bandido Lanceiro",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "spacing",
+      "weapon_family": "spear",
+      "preferred_distance": [
+        3.0,
+        4.7
+      ],
+      "morale": 0.54,
+      "perception": 20,
+      "attacks": [
+        "spear_thrust",
+        "block"
+      ],
+      "tags": [
+        "group"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "dagger_raider",
+      "name": "Salteador de Adagas",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "flank",
+      "weapon_family": "daggers",
+      "preferred_distance": [
+        0.9,
+        1.9
+      ],
+      "morale": 0.36,
+      "perception": 20,
+      "attacks": [
+        "quick_slash",
+        "dodge"
+      ],
+      "tags": [
+        "group"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "defensive_mercenary",
+      "name": "Mercenário Defensivo",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "defensive",
+      "weapon_family": "long_sword",
+      "preferred_distance": [
+        1.6,
+        3.0
+      ],
+      "morale": 0.8,
+      "perception": 20,
+      "attacks": [
+        "short_slash",
+        "block"
+      ],
+      "tags": [],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "hostile_wanderer",
+      "name": "Espadachim Errante Hostil",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "duelist",
+      "weapon_family": "long_sword",
+      "preferred_distance": [
+        1.8,
+        3.2
+      ],
+      "morale": 0.73,
+      "perception": 20,
+      "attacks": [
+        "short_slash",
+        "counter"
+      ],
+      "tags": [],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "aggressive_cultivator",
+      "name": "Cultivador Agressivo",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "technique",
+      "weapon_family": "unarmed",
+      "preferred_distance": [
+        1.2,
+        4.0
+      ],
+      "morale": 0.69,
+      "perception": 20,
+      "attacks": [
+        "qi_palm",
+        "dodge"
+      ],
+      "tags": [
+        "requires_technique"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    },
+    {
+      "id": "rival_disciple",
+      "name": "Discípulo de Seita Rival",
+      "category": "humanoid",
+      "behavior": "hostile",
+      "combat_style": "counter",
+      "weapon_family": "long_sword",
+      "preferred_distance": [
+        1.5,
+        3.1
+      ],
+      "morale": 0.78,
+      "perception": 20,
+      "attacks": [
+        "counter",
+        "short_slash"
+      ],
+      "tags": [
+        "faction"
+      ],
+      "biomes": [],
+      "visual_family": "minecraft_64_skin_existing",
+      "status": "decision_profile_pending_combat_execution_hook"
+    }
+  ]
+}

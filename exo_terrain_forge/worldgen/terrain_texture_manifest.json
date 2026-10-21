@@ -1,0 +1,4062 @@
+{
+  "schema": "exo.terrain.texture_forge.v3",
+  "name": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01",
+  "target": "standalone; C3 Work adapter pending audit",
+  "engine": "Godot 4.6.2 Standard Compatibility",
+  "source_authority": "genesis/region_data.gd; genesis/region_scene.gd; exo_visual/driver.gd",
+  "seed_source": "data.spec.region_seed",
+  "compatibility": "shader-macrovariation, no secondary worldgen",
+  "materials": [
+    {
+      "id": "grass_base_a",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 0,
+      "path": "res://exo_terrain_forge/textures/grass/grass_base_a.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_base_b",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 1,
+      "path": "res://exo_terrain_forge/textures/grass/grass_base_b.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_vivid_a",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 2,
+      "path": "res://exo_terrain_forge/textures/grass/grass_vivid_a.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_vivid_b",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 3,
+      "path": "res://exo_terrain_forge/textures/grass/grass_vivid_b.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_dense",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 4,
+      "path": "res://exo_terrain_forge/textures/grass/grass_dense.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_wet",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 5,
+      "path": "res://exo_terrain_forge/textures/grass/grass_wet.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_edge",
+      "type": "transition",
+      "group": "grass",
+      "group_index": 6,
+      "path": "res://exo_terrain_forge/textures/grass/grass_edge.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_microvariation",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 7,
+      "path": "res://exo_terrain_forge/textures/grass/grass_microvariation.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_meadow",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 8,
+      "path": "res://exo_terrain_forge/textures/grass/grass_meadow.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: grass_base_a + grass_vivid_b, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "grass_understory",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 9,
+      "path": "res://exo_terrain_forge/textures/grass/grass_understory.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: grass_wet + grass_dense, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "grass_sunlit",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 10,
+      "path": "res://exo_terrain_forge/textures/grass/grass_sunlit.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "dry_valley",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: grass_vivid_a + grass_base_b, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "grass_mossy",
+      "type": "ground",
+      "group": "grass",
+      "group_index": 11,
+      "path": "res://exo_terrain_forge/textures/grass/grass_mossy.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "bamboo_forest"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: grass_wet + grass_base_a, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "grass_bamboo_edge",
+      "type": "ground",
+      "group": "grass",
+      "path": "res://exo_terrain_forge/textures/grass/grass_bamboo_edge.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_bamboo_edge.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 12,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "grass_flowery_meadow",
+      "type": "ground",
+      "group": "grass",
+      "path": "res://exo_terrain_forge/textures/grass/grass_flowery_meadow.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_flowery_meadow.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 13,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "grass_riverside",
+      "type": "ground",
+      "group": "grass",
+      "path": "res://exo_terrain_forge/textures/grass/grass_riverside.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_riverside.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 14,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "grass_autumn_floor",
+      "type": "ground",
+      "group": "grass",
+      "path": "res://exo_terrain_forge/textures/grass/grass_autumn_floor.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/grass/grass_autumn_floor.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "grass",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 15,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "dirt_clean",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 0,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_clean.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "dry_valley",
+        "grassland",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_pebbles",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 1,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_pebbles.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_patches",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 2,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_patches.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_orange_a",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 3,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_orange_a.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "dry_valley",
+        "grassland",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_orange_b",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 4,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_orange_b.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "dry_valley",
+        "grassland",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_wet",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 5,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_wet.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_mud_light",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 6,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_mud_light.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "dirt_compacted",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 7,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_compacted.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "mixed_woodland",
+        "dry_valley"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: dirt_clean + dirt_patches, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "dirt_forest_litter",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 8,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: dirt_patches + dirt_wet, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "dirt_fine_gravel",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 9,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: dirt_pebbles + dirt_clean, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "dirt_riverbank",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 10,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_riverbank.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: dirt_wet + dirt_mud_light, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "dirt_warm_path",
+      "type": "ground",
+      "group": "dirt",
+      "group_index": 11,
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_warm_path.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "dry_valley",
+        "grassland",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: dirt_orange_a + dirt_pebbles, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "dirt_clay_red",
+      "type": "ground",
+      "group": "dirt",
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_clay_red.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_clay_red.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 12,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "dirt_sandy",
+      "type": "ground",
+      "group": "dirt",
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_sandy.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_sandy.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 13,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "dirt_trampled",
+      "type": "ground",
+      "group": "dirt",
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_trampled.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_trampled.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 14,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "dirt_granite_dust",
+      "type": "ground",
+      "group": "dirt",
+      "path": "res://exo_terrain_forge/textures/dirt/dirt_granite_dust.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/dirt/dirt_granite_dust.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 7.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "dirt",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 15,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "stone_plaza_a",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 0,
+      "path": "res://exo_terrain_forge/textures/stone/stone_plaza_a.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_plaza_b",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 1,
+      "path": "res://exo_terrain_forge/textures/stone/stone_plaza_b.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_plaza_c",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 2,
+      "path": "res://exo_terrain_forge/textures/stone/stone_plaza_c.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_path_a",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 3,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_a.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_path_b",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 4,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_b.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_path_c",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 5,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_c.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_path_border",
+      "type": "transition",
+      "group": "stone",
+      "group_index": 6,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_border.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_to_dirt",
+      "type": "transition",
+      "group": "stone",
+      "group_index": 7,
+      "path": "res://exo_terrain_forge/textures/stone/stone_to_dirt.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_to_grass",
+      "type": "transition",
+      "group": "stone",
+      "group_index": 8,
+      "path": "res://exo_terrain_forge/textures/stone/stone_to_grass.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine",
+        "wetland"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "stone_plaza_moss",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 9,
+      "path": "res://exo_terrain_forge/textures/stone/stone_plaza_moss.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "bamboo_forest",
+        "wetland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: stone_plaza_b + stone_plaza_a, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "stone_path_worn",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 10,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_worn.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: stone_path_c + stone_path_a, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "stone_path_rustic",
+      "type": "ground",
+      "group": "stone",
+      "group_index": 11,
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_rustic.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "rocky_highlands",
+        "alpine",
+        "dry_valley",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 0.68,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 1.0
+      },
+      "derivation": "authored-composite R2: stone_path_b + stone_path_c, painted microdetails",
+      "revision": "R2"
+    },
+    {
+      "id": "stone_plaza_warm",
+      "type": "ground",
+      "group": "stone",
+      "path": "res://exo_terrain_forge/textures/stone/stone_plaza_warm.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_plaza_warm.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 12,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "stone_path_moss_dense",
+      "type": "ground",
+      "group": "stone",
+      "path": "res://exo_terrain_forge/textures/stone/stone_path_moss_dense.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_path_moss_dense.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 13,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "stone_slate",
+      "type": "ground",
+      "group": "stone",
+      "path": "res://exo_terrain_forge/textures/stone/stone_slate.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_slate.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 14,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "stone_ruins",
+      "type": "ground",
+      "group": "stone",
+      "path": "res://exo_terrain_forge/textures/stone/stone_ruins.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/stone/stone_ruins.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 6.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "stone",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 15,
+      "derivation": "EXO-owned prior assets and procedural painting"
+    },
+    {
+      "id": "detail_pebbles",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 0,
+      "path": "res://exo_terrain_forge/textures/details/detail_pebbles.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_gravel",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 1,
+      "path": "res://exo_terrain_forge/textures/details/detail_gravel.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_small_herbs",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 2,
+      "path": "res://exo_terrain_forge/textures/details/detail_small_herbs.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_wet_patches",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 3,
+      "path": "res://exo_terrain_forge/textures/details/detail_wet_patches.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "wetland",
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_small_flowers",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 4,
+      "path": "res://exo_terrain_forge/textures/details/detail_small_flowers.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_moss",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 5,
+      "path": "res://exo_terrain_forge/textures/details/detail_moss.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_leaf_litter",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 6,
+      "path": "res://exo_terrain_forge/textures/details/detail_leaf_litter.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_wildflowers",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 7,
+      "path": "res://exo_terrain_forge/textures/details/detail_wildflowers.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_lichen",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 8,
+      "path": "res://exo_terrain_forge/textures/details/detail_lichen.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_fine_cracks",
+      "type": "overlay",
+      "group": "details",
+      "group_index": 9,
+      "path": "res://exo_terrain_forge/textures/details/detail_fine_cracks.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "details",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "strength": 0.08
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_petals",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_petals.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_petals.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 10,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_needle_litter",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_needle_litter.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_needle_litter.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 11,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_reeds",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_reeds.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_reeds.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 12,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_dry_leaves",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_dry_leaves.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_dry_leaves.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 13,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_river_silt",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_river_silt.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_river_silt.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 14,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "detail_sand_grains",
+      "type": "overlay",
+      "group": "details",
+      "path": "res://exo_terrain_forge/textures/details/detail_sand_grains.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/details/detail_sand_grains.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "details",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 15,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 0,
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_02",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 1,
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_03",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 2,
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "low_foliage_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 3,
+      "path": "res://exo_terrain_forge/textures/vegetation/low_foliage_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "small_bush_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 4,
+      "path": "res://exo_terrain_forge/textures/vegetation/small_bush_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "low_flowers_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 5,
+      "path": "res://exo_terrain_forge/textures/vegetation/low_flowers_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.22,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_04",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 6,
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_04.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_05",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 7,
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_05.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "low_foliage_02",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 8,
+      "path": "res://exo_terrain_forge/textures/vegetation/low_foliage_02.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.0,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "small_bush_02",
+      "type": "vegetation",
+      "group": "vegetation",
+      "group_index": 9,
+      "path": "res://exo_terrain_forge/textures/vegetation/small_bush_02.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/small_bush_02.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 1.11,
+      "variation_group": "vegetation",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "max_per_region": 170,
+        "min_road_distance_m": 5.5,
+        "min_river_distance_m": 11.0,
+        "no_collision": true
+      },
+      "revision": "R2",
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "grass_tuft_06",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/grass_tuft_06.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_06.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 10,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "reed_clump_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/reed_clump_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/reed_clump_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 11,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "fern_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/fern_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/fern_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 12,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "moss_tuft_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/moss_tuft_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/moss_tuft_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 13,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "flowers_pink_01",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/flowers_pink_01.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/flowers_pink_01.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 14,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "small_bush_03",
+      "type": "vegetation",
+      "group": "vegetation",
+      "path": "res://exo_terrain_forge/textures/vegetation/small_bush_03.png",
+      "optimized_path": "res://exo_terrain_forge/textures/optimized_256/vegetation/small_bush_03.png",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "world_tile_m": 1.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.65,
+      "variation_group": "vegetation",
+      "can_blend_with": [],
+      "placement": {
+        "strength": 0.7
+      },
+      "group_index": 15,
+      "derivation": "EXO existing"
+    },
+    {
+      "id": "mask_grass_dirt",
+      "type": "transition_mask_reference",
+      "group": "transitions",
+      "path": "res://exo_terrain_forge/textures/transitions/mask_grass_dirt.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 32.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.0,
+      "variation_group": "transition_masks",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "runtime": "shader world-space equivalent; reference mask only"
+      }
+    },
+    {
+      "id": "mask_dirt_stone",
+      "type": "transition_mask_reference",
+      "group": "transitions",
+      "path": "res://exo_terrain_forge/textures/transitions/mask_dirt_stone.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 32.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.0,
+      "variation_group": "transition_masks",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "runtime": "shader world-space equivalent; reference mask only"
+      }
+    },
+    {
+      "id": "mask_stone_grass",
+      "type": "transition_mask_reference",
+      "group": "transitions",
+      "path": "res://exo_terrain_forge/textures/transitions/mask_stone_grass.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 32.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.0,
+      "variation_group": "transition_masks",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "runtime": "shader world-space equivalent; reference mask only"
+      }
+    },
+    {
+      "id": "mask_plaza_herbs",
+      "type": "transition_mask_reference",
+      "group": "transitions",
+      "path": "res://exo_terrain_forge/textures/transitions/mask_plaza_herbs.png",
+      "size": [
+        512,
+        512
+      ],
+      "alpha": false,
+      "world_tile_m": 32.0,
+      "biomes": [
+        "grassland",
+        "temperate_forest",
+        "mixed_woodland",
+        "bamboo_forest",
+        "wetland",
+        "dry_valley",
+        "rocky_highlands",
+        "alpine"
+      ],
+      "procedural_weight": 0.0,
+      "variation_group": "transition_masks",
+      "can_blend_with": [
+        "grass",
+        "dirt",
+        "stone"
+      ],
+      "placement": {
+        "runtime": "shader world-space equivalent; reference mask only"
+      }
+    }
+  ],
+  "runtime_atlases": {
+    "grass": {
+      "path": "res://exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
+      "columns": 4,
+      "rows": 4,
+      "tile_size": 256,
+      "gutter": 8,
+      "resolution": [
+        1088,
+        1088
+      ],
+      "tiles": {
+        "grass_base_a": {
+          "index": 0,
+          "col": 0,
+          "row": 0
+        },
+        "grass_base_b": {
+          "index": 1,
+          "col": 1,
+          "row": 0
+        },
+        "grass_vivid_a": {
+          "index": 2,
+          "col": 2,
+          "row": 0
+        },
+        "grass_vivid_b": {
+          "index": 3,
+          "col": 3,
+          "row": 0
+        },
+        "grass_dense": {
+          "index": 4,
+          "col": 0,
+          "row": 1
+        },
+        "grass_wet": {
+          "index": 5,
+          "col": 1,
+          "row": 1
+        },
+        "grass_edge": {
+          "index": 6,
+          "col": 2,
+          "row": 1
+        },
+        "grass_microvariation": {
+          "index": 7,
+          "col": 3,
+          "row": 1
+        },
+        "grass_meadow": {
+          "index": 8,
+          "col": 0,
+          "row": 2
+        },
+        "grass_understory": {
+          "index": 9,
+          "col": 1,
+          "row": 2
+        },
+        "grass_sunlit": {
+          "index": 10,
+          "col": 2,
+          "row": 2
+        },
+        "grass_mossy": {
+          "index": 11,
+          "col": 3,
+          "row": 2
+        },
+        "grass_bamboo_edge": {
+          "index": 12,
+          "col": 0,
+          "row": 3
+        },
+        "grass_flowery_meadow": {
+          "index": 13,
+          "col": 1,
+          "row": 3
+        },
+        "grass_riverside": {
+          "index": 14,
+          "col": 2,
+          "row": 3
+        },
+        "grass_autumn_floor": {
+          "index": 15,
+          "col": 3,
+          "row": 3
+        }
+      }
+    },
+    "dirt": {
+      "path": "res://exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
+      "columns": 4,
+      "rows": 4,
+      "tile_size": 256,
+      "gutter": 8,
+      "resolution": [
+        1088,
+        1088
+      ],
+      "tiles": {
+        "dirt_clean": {
+          "index": 0,
+          "col": 0,
+          "row": 0
+        },
+        "dirt_pebbles": {
+          "index": 1,
+          "col": 1,
+          "row": 0
+        },
+        "dirt_patches": {
+          "index": 2,
+          "col": 2,
+          "row": 0
+        },
+        "dirt_orange_a": {
+          "index": 3,
+          "col": 3,
+          "row": 0
+        },
+        "dirt_orange_b": {
+          "index": 4,
+          "col": 0,
+          "row": 1
+        },
+        "dirt_wet": {
+          "index": 5,
+          "col": 1,
+          "row": 1
+        },
+        "dirt_mud_light": {
+          "index": 6,
+          "col": 2,
+          "row": 1
+        },
+        "dirt_compacted": {
+          "index": 7,
+          "col": 3,
+          "row": 1
+        },
+        "dirt_forest_litter": {
+          "index": 8,
+          "col": 0,
+          "row": 2
+        },
+        "dirt_fine_gravel": {
+          "index": 9,
+          "col": 1,
+          "row": 2
+        },
+        "dirt_riverbank": {
+          "index": 10,
+          "col": 2,
+          "row": 2
+        },
+        "dirt_warm_path": {
+          "index": 11,
+          "col": 3,
+          "row": 2
+        },
+        "dirt_clay_red": {
+          "index": 12,
+          "col": 0,
+          "row": 3
+        },
+        "dirt_sandy": {
+          "index": 13,
+          "col": 1,
+          "row": 3
+        },
+        "dirt_trampled": {
+          "index": 14,
+          "col": 2,
+          "row": 3
+        },
+        "dirt_granite_dust": {
+          "index": 15,
+          "col": 3,
+          "row": 3
+        }
+      }
+    },
+    "stone": {
+      "path": "res://exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
+      "columns": 4,
+      "rows": 4,
+      "tile_size": 256,
+      "gutter": 8,
+      "resolution": [
+        1088,
+        1088
+      ],
+      "tiles": {
+        "stone_plaza_a": {
+          "index": 0,
+          "col": 0,
+          "row": 0
+        },
+        "stone_plaza_b": {
+          "index": 1,
+          "col": 1,
+          "row": 0
+        },
+        "stone_plaza_c": {
+          "index": 2,
+          "col": 2,
+          "row": 0
+        },
+        "stone_path_a": {
+          "index": 3,
+          "col": 3,
+          "row": 0
+        },
+        "stone_path_b": {
+          "index": 4,
+          "col": 0,
+          "row": 1
+        },
+        "stone_path_c": {
+          "index": 5,
+          "col": 1,
+          "row": 1
+        },
+        "stone_path_border": {
+          "index": 6,
+          "col": 2,
+          "row": 1
+        },
+        "stone_to_dirt": {
+          "index": 7,
+          "col": 3,
+          "row": 1
+        },
+        "stone_to_grass": {
+          "index": 8,
+          "col": 0,
+          "row": 2
+        },
+        "stone_plaza_moss": {
+          "index": 9,
+          "col": 1,
+          "row": 2
+        },
+        "stone_path_worn": {
+          "index": 10,
+          "col": 2,
+          "row": 2
+        },
+        "stone_path_rustic": {
+          "index": 11,
+          "col": 3,
+          "row": 2
+        },
+        "stone_plaza_warm": {
+          "index": 12,
+          "col": 0,
+          "row": 3
+        },
+        "stone_path_moss_dense": {
+          "index": 13,
+          "col": 1,
+          "row": 3
+        },
+        "stone_slate": {
+          "index": 14,
+          "col": 2,
+          "row": 3
+        },
+        "stone_ruins": {
+          "index": 15,
+          "col": 3,
+          "row": 3
+        }
+      }
+    },
+    "details": {
+      "path": "res://exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
+      "columns": 4,
+      "rows": 4,
+      "tile_size": 256,
+      "gutter": 8,
+      "resolution": [
+        1088,
+        1088
+      ],
+      "tiles": {
+        "detail_pebbles": {
+          "index": 0,
+          "col": 0,
+          "row": 0
+        },
+        "detail_gravel": {
+          "index": 1,
+          "col": 1,
+          "row": 0
+        },
+        "detail_small_herbs": {
+          "index": 2,
+          "col": 2,
+          "row": 0
+        },
+        "detail_wet_patches": {
+          "index": 3,
+          "col": 3,
+          "row": 0
+        },
+        "detail_small_flowers": {
+          "index": 4,
+          "col": 0,
+          "row": 1
+        },
+        "detail_moss": {
+          "index": 5,
+          "col": 1,
+          "row": 1
+        },
+        "detail_leaf_litter": {
+          "index": 6,
+          "col": 2,
+          "row": 1
+        },
+        "detail_wildflowers": {
+          "index": 7,
+          "col": 3,
+          "row": 1
+        },
+        "detail_lichen": {
+          "index": 8,
+          "col": 0,
+          "row": 2
+        },
+        "detail_fine_cracks": {
+          "index": 9,
+          "col": 1,
+          "row": 2
+        },
+        "detail_petals": {
+          "index": 10,
+          "col": 2,
+          "row": 2
+        },
+        "detail_needle_litter": {
+          "index": 11,
+          "col": 3,
+          "row": 2
+        },
+        "detail_reeds": {
+          "index": 12,
+          "col": 0,
+          "row": 3
+        },
+        "detail_dry_leaves": {
+          "index": 13,
+          "col": 1,
+          "row": 3
+        },
+        "detail_river_silt": {
+          "index": 14,
+          "col": 2,
+          "row": 3
+        },
+        "detail_sand_grains": {
+          "index": 15,
+          "col": 3,
+          "row": 3
+        }
+      }
+    },
+    "vegetation": {
+      "path": "res://exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
+      "columns": 4,
+      "rows": 4,
+      "tile_size": 256,
+      "gutter": 8,
+      "resolution": [
+        1088,
+        1088
+      ],
+      "tiles": {
+        "grass_tuft_01": {
+          "index": 0,
+          "col": 0,
+          "row": 0
+        },
+        "grass_tuft_02": {
+          "index": 1,
+          "col": 1,
+          "row": 0
+        },
+        "grass_tuft_03": {
+          "index": 2,
+          "col": 2,
+          "row": 0
+        },
+        "low_foliage_01": {
+          "index": 3,
+          "col": 3,
+          "row": 0
+        },
+        "small_bush_01": {
+          "index": 4,
+          "col": 0,
+          "row": 1
+        },
+        "low_flowers_01": {
+          "index": 5,
+          "col": 1,
+          "row": 1
+        },
+        "grass_tuft_04": {
+          "index": 6,
+          "col": 2,
+          "row": 1
+        },
+        "grass_tuft_05": {
+          "index": 7,
+          "col": 3,
+          "row": 1
+        },
+        "low_foliage_02": {
+          "index": 8,
+          "col": 0,
+          "row": 2
+        },
+        "small_bush_02": {
+          "index": 9,
+          "col": 1,
+          "row": 2
+        },
+        "grass_tuft_06": {
+          "index": 10,
+          "col": 2,
+          "row": 2
+        },
+        "reed_clump_01": {
+          "index": 11,
+          "col": 3,
+          "row": 2
+        },
+        "fern_01": {
+          "index": 12,
+          "col": 0,
+          "row": 3
+        },
+        "moss_tuft_01": {
+          "index": 13,
+          "col": 1,
+          "row": 3
+        },
+        "flowers_pink_01": {
+          "index": 14,
+          "col": 2,
+          "row": 3
+        },
+        "small_bush_03": {
+          "index": 15,
+          "col": 3,
+          "row": 3
+        }
+      }
+    }
+  },
+  "biome_mode": {
+    "grassland": 0,
+    "temperate_forest": 0,
+    "mixed_woodland": 0,
+    "bamboo_forest": 0,
+    "wetland": 0,
+    "dry_valley": 1,
+    "rocky_highlands": 2,
+    "alpine": 2
+  },
+  "transitions": {
+    "grass_dirt": {
+      "shader": "smoothstep/road_weight",
+      "edge_noise": "world_space"
+    },
+    "dirt_stone": {
+      "shader": "stone_road_blend",
+      "edge_noise": "world_space"
+    },
+    "stone_grass": {
+      "shader": "biome_vs_road_weight",
+      "edge_noise": "world_space"
+    },
+    "plaza_herbs": {
+      "shader": "grass in painted joints via 2d decals and base textures",
+      "blend": "low coverage"
+    }
+  },
+  "settings": {
+    "exo_murim/terrain_forge/enabled": true,
+    "exo_murim/terrain_forge/mix_strength": 0.86,
+    "exo_murim/terrain_forge/foliage_density": 0.65
+  },
+  "revision": "R3-20261020-0620",
+  "r2_design": {
+    "procedural_material_scope": "per-region world-coherent noise, tileable variations, no new worldgen or save keys",
+    "intent": "natural painted surfaces with low macro repeats; compatible with Compatibility",
+    "new_material_ids": [
+      "grass_meadow",
+      "grass_understory",
+      "grass_sunlit",
+      "grass_mossy",
+      "dirt_compacted",
+      "dirt_forest_litter",
+      "dirt_fine_gravel",
+      "dirt_riverbank",
+      "dirt_warm_path",
+      "stone_plaza_moss",
+      "stone_path_worn",
+      "stone_path_rustic",
+      "detail_leaf_litter",
+      "detail_wildflowers",
+      "detail_lichen",
+      "detail_fine_cracks",
+      "grass_tuft_04",
+      "grass_tuft_05",
+      "low_foliage_02",
+      "small_bush_02"
+    ],
+    "world_meter_uv": "UV uses data.spec.center + world position; grass/dirt 7m tile; stone 6m; no local region reset"
+  },
+  "transition_profiles": {
+    "grass_to_dirt": {
+      "materials": [
+        "grass_base_a",
+        "grass_meadow",
+        "grass_edge",
+        "dirt_compacted",
+        "dirt_forest_litter"
+      ],
+      "noise_world_m": 9.0,
+      "feather_m": 1.8,
+      "edge_herbs": 0.16
+    },
+    "dirt_to_stone": {
+      "materials": [
+        "dirt_pebbles",
+        "dirt_warm_path",
+        "stone_path_worn",
+        "stone_path_rustic"
+      ],
+      "noise_world_m": 6.0,
+      "feather_m": 1.2
+    },
+    "stone_to_grass": {
+      "materials": [
+        "stone_plaza_moss",
+        "stone_to_grass",
+        "grass_mossy"
+      ],
+      "noise_world_m": 8.0,
+      "feather_m": 1.5
+    },
+    "plaza_to_herbs": {
+      "materials": [
+        "stone_plaza_a",
+        "stone_plaza_moss",
+        "detail_small_herbs",
+        "detail_lichen"
+      ],
+      "density_scale": 0.12,
+      "collision": false
+    }
+  },
+  "environmental_progression": {
+    "village": {
+      "stone_selection": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "vegetation_density_factor": 0.35,
+      "gravel_factor": 0.2
+    },
+    "wild_path": {
+      "stone_selection": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "vegetation_density_factor": 1.0,
+      "gravel_factor": 0.45
+    },
+    "wetland": {
+      "preferred": [
+        "grass_wet",
+        "grass_mossy",
+        "dirt_riverbank",
+        "stone_plaza_moss"
+      ],
+      "wetness_weight": 0.9
+    },
+    "dry_valley": {
+      "preferred": [
+        "grass_sunlit",
+        "dirt_warm_path",
+        "dirt_fine_gravel"
+      ],
+      "wetness_weight": 0.08
+    },
+    "rocky_highlands": {
+      "preferred": [
+        "dirt_fine_gravel",
+        "stone_path_rustic",
+        "detail_lichen"
+      ],
+      "wetness_weight": 0.3
+    }
+  },
+  "r3_asset_origins": [
+    {
+      "name": "grass_bamboo_edge",
+      "family": "grass",
+      "parents": [
+        "grass_understory",
+        "grass_dense"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "grass_flowery_meadow",
+      "family": "grass",
+      "parents": [
+        "grass_meadow",
+        "grass_vivid_b"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "grass_riverside",
+      "family": "grass",
+      "parents": [
+        "grass_wet",
+        "grass_mossy"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "grass_autumn_floor",
+      "family": "grass",
+      "parents": [
+        "grass_understory",
+        "grass_meadow"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "dirt_clay_red",
+      "family": "dirt",
+      "parents": [
+        "dirt_orange_b",
+        "dirt_compacted"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "dirt_sandy",
+      "family": "dirt",
+      "parents": [
+        "dirt_clean",
+        "dirt_fine_gravel"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "dirt_trampled",
+      "family": "dirt",
+      "parents": [
+        "dirt_compacted",
+        "dirt_warm_path"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "dirt_granite_dust",
+      "family": "dirt",
+      "parents": [
+        "dirt_riverbank",
+        "dirt_fine_gravel"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "stone_plaza_warm",
+      "family": "stone",
+      "parents": [
+        "stone_plaza_b",
+        "stone_plaza_c"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "stone_path_moss_dense",
+      "family": "stone",
+      "parents": [
+        "stone_path_b",
+        "stone_path_rustic"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "stone_slate",
+      "family": "stone",
+      "parents": [
+        "stone_plaza_a",
+        "stone_plaza_c"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "stone_ruins",
+      "family": "stone",
+      "parents": [
+        "stone_path_worn",
+        "stone_path_c"
+      ],
+      "technique": "periodic texture synthesis + hand-painted vector foliage/stone details; seam repair"
+    },
+    {
+      "name": "detail_petals",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "detail_needle_litter",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "detail_reeds",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "detail_dry_leaves",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "detail_river_silt",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "detail_sand_grains",
+      "family": "details",
+      "parents": [],
+      "technique": "original procedural hand-painted-style RGBA overlay"
+    },
+    {
+      "name": "grass_tuft_06",
+      "family": "vegetation",
+      "parents": [
+        "grass_tuft_03",
+        "grass_tuft_05"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "reed_clump_01",
+      "family": "vegetation",
+      "parents": [
+        "grass_tuft_02",
+        "grass_tuft_01"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "fern_01",
+      "family": "vegetation",
+      "parents": [
+        "low_foliage_01",
+        "low_foliage_02"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "moss_tuft_01",
+      "family": "vegetation",
+      "parents": [
+        "low_foliage_02",
+        "grass_tuft_04"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "flowers_pink_01",
+      "family": "vegetation",
+      "parents": [
+        "low_flowers_01",
+        "grass_tuft_05"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "small_bush_03",
+      "family": "vegetation",
+      "parents": [
+        "small_bush_01",
+        "low_foliage_01"
+      ],
+      "technique": "recomposition and repaint of original EXO vegetation RGBA sprites"
+    },
+    {
+      "name": "mask_grass_dirt",
+      "family": "transitions",
+      "parents": [],
+      "technique": "seamless periodic blend-mask reference; runtime uses world-space procedural masks"
+    },
+    {
+      "name": "mask_dirt_stone",
+      "family": "transitions",
+      "parents": [],
+      "technique": "seamless periodic blend-mask reference; runtime uses world-space procedural masks"
+    },
+    {
+      "name": "mask_stone_grass",
+      "family": "transitions",
+      "parents": [],
+      "technique": "seamless periodic blend-mask reference; runtime uses world-space procedural masks"
+    },
+    {
+      "name": "mask_plaza_herbs",
+      "family": "transitions",
+      "parents": [],
+      "technique": "seamless periodic blend-mask reference; runtime uses world-space procedural masks"
+    }
+  ],
+  "atlas_fix": "R2 duplicated atlas indices and overlapping tiles in stone/details/vegetation; R3 uses 16 unique cells per 4x4 atlas.",
+  "biome_profiles": {
+    "grassland": {
+      "mode": 0,
+      "grass": [
+        2,
+        8,
+        13
+      ],
+      "dirt": [
+        0,
+        11,
+        14
+      ],
+      "stone": [
+        3,
+        5,
+        11
+      ],
+      "plaza": [
+        0,
+        1,
+        12
+      ],
+      "details": [
+        2,
+        4,
+        10
+      ],
+      "wetness": 0.22,
+      "road_wear": 0.35
+    },
+    "temperate_forest": {
+      "mode": 0,
+      "grass": [
+        9,
+        11,
+        4
+      ],
+      "dirt": [
+        8,
+        2,
+        7
+      ],
+      "stone": [
+        4,
+        13,
+        15
+      ],
+      "plaza": [
+        1,
+        9,
+        12
+      ],
+      "details": [
+        5,
+        6,
+        11
+      ],
+      "wetness": 0.55,
+      "road_wear": 0.54
+    },
+    "mixed_woodland": {
+      "mode": 0,
+      "grass": [
+        1,
+        9,
+        13
+      ],
+      "dirt": [
+        8,
+        2,
+        14
+      ],
+      "stone": [
+        3,
+        11,
+        15
+      ],
+      "plaza": [
+        1,
+        2,
+        12
+      ],
+      "details": [
+        6,
+        10,
+        11
+      ],
+      "wetness": 0.36,
+      "road_wear": 0.47
+    },
+    "bamboo_forest": {
+      "mode": 0,
+      "grass": [
+        12,
+        4,
+        9
+      ],
+      "dirt": [
+        8,
+        7,
+        14
+      ],
+      "stone": [
+        4,
+        13,
+        15
+      ],
+      "plaza": [
+        1,
+        9,
+        12
+      ],
+      "details": [
+        2,
+        5,
+        11
+      ],
+      "wetness": 0.43,
+      "road_wear": 0.49
+    },
+    "wetland": {
+      "mode": 0,
+      "grass": [
+        5,
+        14,
+        11
+      ],
+      "dirt": [
+        5,
+        6,
+        10
+      ],
+      "stone": [
+        4,
+        13,
+        15
+      ],
+      "plaza": [
+        1,
+        9,
+        12
+      ],
+      "details": [
+        3,
+        5,
+        12
+      ],
+      "wetness": 0.86,
+      "road_wear": 0.63
+    },
+    "dry_valley": {
+      "mode": 1,
+      "grass": [
+        6,
+        7,
+        15
+      ],
+      "dirt": [
+        13,
+        3,
+        12
+      ],
+      "stone": [
+        11,
+        14,
+        3
+      ],
+      "plaza": [
+        12,
+        1,
+        2
+      ],
+      "details": [
+        1,
+        9,
+        15
+      ],
+      "wetness": 0.08,
+      "road_wear": 0.7
+    },
+    "rocky_highlands": {
+      "mode": 2,
+      "grass": [
+        7,
+        9,
+        15
+      ],
+      "dirt": [
+        15,
+        7,
+        9
+      ],
+      "stone": [
+        14,
+        10,
+        15
+      ],
+      "plaza": [
+        0,
+        2,
+        12
+      ],
+      "details": [
+        1,
+        8,
+        9
+      ],
+      "wetness": 0.18,
+      "road_wear": 0.76
+    },
+    "alpine": {
+      "mode": 2,
+      "grass": [
+        9,
+        15,
+        7
+      ],
+      "dirt": [
+        15,
+        10,
+        7
+      ],
+      "stone": [
+        14,
+        10,
+        15
+      ],
+      "plaza": [
+        0,
+        2,
+        12
+      ],
+      "details": [
+        8,
+        9,
+        13
+      ],
+      "wetness": 0.33,
+      "road_wear": 0.68
+    }
+  },
+  "foliage_profiles": {
+    "grassland": {
+      "variants": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        10,
+        14
+      ],
+      "density": 1.0
+    },
+    "temperate_forest": {
+      "variants": [
+        0,
+        3,
+        4,
+        8,
+        12,
+        13,
+        15
+      ],
+      "density": 0.84
+    },
+    "mixed_woodland": {
+      "variants": [
+        0,
+        1,
+        3,
+        7,
+        8,
+        12,
+        15
+      ],
+      "density": 0.87
+    },
+    "bamboo_forest": {
+      "variants": [
+        0,
+        2,
+        3,
+        4,
+        8,
+        12,
+        15
+      ],
+      "density": 0.77
+    },
+    "wetland": {
+      "variants": [
+        1,
+        2,
+        5,
+        10,
+        11,
+        12,
+        14
+      ],
+      "density": 0.81
+    },
+    "dry_valley": {
+      "variants": [
+        0,
+        2,
+        6,
+        9,
+        10
+      ],
+      "density": 0.33
+    },
+    "rocky_highlands": {
+      "variants": [
+        2,
+        6,
+        7,
+        9,
+        13
+      ],
+      "density": 0.28
+    },
+    "alpine": {
+      "variants": [
+        2,
+        7,
+        9,
+        13
+      ],
+      "density": 0.18
+    }
+  },
+  "environmental_progression_r3": {
+    "road_use": {
+      "unused": "grass_base and dirt_clean",
+      "worn": "dirt_trampled / stone_path_worn",
+      "old": "stone_ruins + moss",
+      "determinism": "biome profile + world-space wear noise; no saved terrain mutation"
+    },
+    "moisture": {
+      "dry": "dirt_sandy",
+      "normal": "grass_meadow",
+      "wet": "grass_riverside / dirt_wet"
+    },
+    "elevation": {
+      "low": "grass_flowery_meadow",
+      "medium": "grass_bamboo_edge",
+      "high": "stone_slate"
+    },
+    "settlement": "stone_plaza_warm / stone_plaza_a; profile applied only to existing road mask",
+    "slope": "steep slopes suppress vegetation; terrain material itself remains on existing geometry"
+  },
+  "r3_runtime_memory_estimate": {
+    "five_atlases_rgba8_mib": 22.58,
+    "with_mipmaps_mib": 30.1,
+    "note": "Estimate, not a measured Godot/Vega8 VRAM result; standalone 512 PNGs not loaded by adapter."
+  },
+  "performance_profiles_r3": {
+    "high": {
+      "forge_quality": 1.0,
+      "notes": "three material samples for each selected family; verify Vega8 GPU cost"
+    },
+    "low": {
+      "forge_quality": 0.0,
+      "notes": "one material sample per selected family; preserves continuity but more obvious tiling"
+    },
+    "foliage_cap_per_region": 180,
+    "recommended_vega8_start": {
+      "forge_quality": 0.0,
+      "foliage_density": 0.35,
+      "detail_strength": 0.08
+    },
+    "notes": "Settings are ProjectSettings overrides; no measured FPS yet."
+  },
+  "integration_status": "BLOCKED: C3 Work candidate not supplied"
+}

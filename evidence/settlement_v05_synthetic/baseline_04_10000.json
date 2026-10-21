@@ -1,0 +1,1128 @@
+{
+  "engine": "EXTERNAL_PYTHON_MIRROR_NOT_GODOT",
+  "test_cases": 10000,
+  "elapsed_s": 16.97,
+  "counts": {
+    "total": 10000,
+    "town_total": 3310,
+    "normal_total": 5009,
+    "ready": 9930,
+    "town_ready": 3310,
+    "normal_ready": 4976,
+    "village_total": 3345,
+    "village_ready": 3275,
+    "city_total": 3345,
+    "city_ready": 3345,
+    "moderate_total": 1612,
+    "moderate_ready": 1602,
+    "flat_total": 846,
+    "flat_ready": 841,
+    "extreme_total": 832,
+    "extreme_ready": 822,
+    "steep_total": 1701,
+    "steep_ready": 1689,
+    "invalid": 70,
+    "village_invalid": 70,
+    "moderate_invalid": 10,
+    "missing_lots": 150,
+    "extreme_invalid": 10,
+    "normal_invalid": 33,
+    "steep_invalid": 12,
+    "flat_invalid": 5
+  },
+  "reject_reasons": {
+    "bounds": 59292,
+    "gates": 207335,
+    "street": 292503,
+    "slope": 259636,
+    "occupied": 17698,
+    "rivers": 103720
+  },
+  "failure_examples": [
+    {
+      "case": "synth_169",
+      "scale": "village",
+      "biome": "temperate_forest",
+      "mode": "moderate",
+      "gates": [
+        [
+          254,
+          67.92645455852417
+        ],
+        [
+          -254,
+          77.00562404637157
+        ],
+        [
+          54.39494289712317,
+          -254
+        ],
+        [
+          -99.63376733660412,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -100.33397268617905
+        ],
+        [
+          -44.931627786670845,
+          -254
+        ]
+      ],
+      "target": 9,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 90,
+        "rivers": 42,
+        "street": 138,
+        "occupied": 12
+      }
+    },
+    {
+      "case": "synth_217",
+      "scale": "village",
+      "biome": "grassland",
+      "mode": "extreme",
+      "gates": [
+        [
+          33.54974225098323,
+          -254
+        ],
+        [
+          -254,
+          -94.3239802195292
+        ],
+        [
+          254,
+          118.100111250809
+        ],
+        [
+          -254,
+          -135.26750713408407
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -79.71766578290746
+        ],
+        [
+          254,
+          128.22484170415498
+        ],
+        [
+          -73.70637406465437,
+          -254
+        ]
+      ],
+      "target": 9,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 69,
+        "rivers": 57,
+        "street": 138,
+        "slope": 18
+      }
+    },
+    {
+      "case": "synth_307",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "moderate",
+      "gates": [
+        [
+          254,
+          -17.53069691571244
+        ],
+        [
+          -137.1985151854442,
+          -254
+        ],
+        [
+          -254,
+          12.199916027479304
+        ],
+        [
+          141.47881241642705,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          41.1218440395794
+        ],
+        [
+          138.90241351303763,
+          254
+        ]
+      ],
+      "target": 10,
+      "actual": 9,
+      "rejects": {
+        "bounds": 12,
+        "gates": 96,
+        "street": 132,
+        "rivers": 33,
+        "occupied": 18
+      }
+    },
+    {
+      "case": "synth_408",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "moderate",
+      "gates": [
+        [
+          254,
+          119.20884001354165
+        ],
+        [
+          115.0621576796056,
+          -254
+        ],
+        [
+          -254,
+          72.77242552656233
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -34.00558798538863
+        ],
+        [
+          -254,
+          102.57955129800214
+        ],
+        [
+          -254,
+          -136.7494621130545
+        ]
+      ],
+      "target": 6,
+      "actual": 5,
+      "rejects": {
+        "bounds": 12,
+        "gates": 75,
+        "rivers": 66,
+        "street": 132,
+        "occupied": 10
+      }
+    },
+    {
+      "case": "synth_693",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "normal",
+      "gates": [
+        [
+          254,
+          21.820480805696235
+        ],
+        [
+          45.82374019447792,
+          -254
+        ],
+        [
+          -254,
+          113.06876280614256
+        ]
+      ],
+      "rivers": [
+        [
+          -71.69328217918772,
+          -254
+        ],
+        [
+          -254,
+          -129.83434338875227
+        ],
+        [
+          -254,
+          100.93257324813874
+        ]
+      ],
+      "target": 8,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "slope": 7,
+        "gates": 66,
+        "rivers": 81,
+        "street": 123,
+        "occupied": 5
+      }
+    },
+    {
+      "case": "synth_899",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "steep",
+      "gates": [
+        [
+          254,
+          -15.869037273666038
+        ],
+        [
+          6.066645399673519,
+          254
+        ],
+        [
+          27.716702201603994,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          -79.92310186289288,
+          -254
+        ],
+        [
+          -254,
+          -114.93608387225339
+        ]
+      ],
+      "target": 10,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "slope": 4,
+        "rivers": 57,
+        "gates": 48,
+        "street": 162,
+        "occupied": 10
+      }
+    },
+    {
+      "case": "synth_1046",
+      "scale": "village",
+      "biome": "mixed_woodland",
+      "mode": "moderate",
+      "gates": [
+        [
+          127.43724593375418,
+          -254
+        ],
+        [
+          254,
+          -103.20841581761236
+        ],
+        [
+          -254,
+          -111.30884719821466
+        ],
+        [
+          73.68119258310224,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          -102.7448496281364,
+          -254
+        ],
+        [
+          -254,
+          59.93613718852717
+        ]
+      ],
+      "target": 9,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 102,
+        "street": 105,
+        "rivers": 63,
+        "occupied": 12
+      }
+    },
+    {
+      "case": "synth_1125",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "flat",
+      "gates": [
+        [
+          -99.19838924462087,
+          254
+        ],
+        [
+          78.02731083200007,
+          -254
+        ],
+        [
+          254,
+          90.34133741586919
+        ],
+        [
+          -254,
+          66.67970540810398
+        ]
+      ],
+      "rivers": [
+        [
+          -47.35798509001327,
+          -254
+        ],
+        [
+          -94.22015851429657,
+          254
+        ],
+        [
+          112.27037952905266,
+          -254
+        ]
+      ],
+      "target": 8,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "gates": 96,
+        "rivers": 51,
+        "street": 120,
+        "occupied": 14
+      }
+    },
+    {
+      "case": "synth_1439",
+      "scale": "village",
+      "biome": "rocky_highlands",
+      "mode": "extreme",
+      "gates": [
+        [
+          -45.26738726776291,
+          254
+        ],
+        [
+          -4.384022388172809,
+          -254
+        ],
+        [
+          -254,
+          -47.588501279326906
+        ]
+      ],
+      "rivers": [
+        [
+          -66.3767623713149,
+          -254
+        ]
+      ],
+      "target": 6,
+      "actual": 5,
+      "rejects": {
+        "bounds": 12,
+        "gates": 69,
+        "rivers": 30,
+        "slope": 12,
+        "street": 171,
+        "occupied": 1
+      }
+    },
+    {
+      "case": "synth_1482",
+      "scale": "village",
+      "biome": "mixed_woodland",
+      "mode": "normal",
+      "gates": [
+        [
+          -139.44285488946304,
+          254
+        ],
+        [
+          -254,
+          -100.9675218330901
+        ],
+        [
+          123.79356859400565,
+          254
+        ],
+        [
+          -67.31252385195383,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          73.39684371045078,
+          -254
+        ],
+        [
+          -15.740951005426552,
+          254
+        ],
+        [
+          -108.11246584889273,
+          -254
+        ]
+      ],
+      "target": 10,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "gates": 72,
+        "rivers": 75,
+        "street": 120,
+        "occupied": 14
+      }
+    },
+    {
+      "case": "synth_1488",
+      "scale": "village",
+      "biome": "bamboo_forest",
+      "mode": "flat",
+      "gates": [
+        [
+          -37.013420919922396,
+          254
+        ],
+        [
+          254,
+          -32.06429646780832
+        ],
+        [
+          254,
+          104.37679591398503
+        ],
+        [
+          -254,
+          89.82200876981017
+        ]
+      ],
+      "rivers": [
+        [
+          -95.18776066841157,
+          -254
+        ],
+        [
+          -49.88470615462944,
+          -254
+        ]
+      ],
+      "target": 9,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "rivers": 45,
+        "gates": 87,
+        "street": 135,
+        "occupied": 14
+      }
+    },
+    {
+      "case": "synth_1509",
+      "scale": "village",
+      "biome": "dry_valley",
+      "mode": "steep",
+      "gates": [
+        [
+          -254,
+          5.211308882225069
+        ],
+        [
+          130.17071489278248,
+          254
+        ],
+        [
+          254,
+          -36.23671710735508
+        ],
+        [
+          27.383287450436853,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          62.588885676587324,
+          254
+        ],
+        [
+          -133.11916262126147,
+          -254
+        ],
+        [
+          -254,
+          68.03326933510795
+        ]
+      ],
+      "target": 8,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 81,
+        "rivers": 54,
+        "street": 135,
+        "slope": 9,
+        "occupied": 3
+      }
+    },
+    {
+      "case": "synth_1844",
+      "scale": "village",
+      "biome": "dry_valley",
+      "mode": "extreme",
+      "gates": [
+        [
+          -254,
+          46.18551644449968
+        ],
+        [
+          -254,
+          -7.813143715892693
+        ],
+        [
+          -254,
+          -14.454232014735368
+        ]
+      ],
+      "rivers": [
+        [
+          -130.4043427681556,
+          -254
+        ],
+        [
+          106.22054397819224,
+          -254
+        ],
+        [
+          -254,
+          42.75227651739661
+        ]
+      ],
+      "target": 10,
+      "actual": 9,
+      "rejects": {
+        "bounds": 12,
+        "rivers": 108,
+        "gates": 30,
+        "slope": 13,
+        "street": 123,
+        "occupied": 5
+      }
+    },
+    {
+      "case": "synth_2063",
+      "scale": "village",
+      "biome": "mixed_woodland",
+      "mode": "extreme",
+      "gates": [
+        [
+          67.82475517279656,
+          -254
+        ],
+        [
+          -52.99873210743283,
+          254
+        ],
+        [
+          254,
+          49.87711098586152
+        ],
+        [
+          254,
+          10.385347617857548
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -117.13787097452891
+        ],
+        [
+          254,
+          97.22407498133339
+        ],
+        [
+          -254,
+          134.07736285686866
+        ]
+      ],
+      "target": 10,
+      "actual": 3,
+      "rejects": {
+        "bounds": 12,
+        "gates": 78,
+        "slope": 4,
+        "rivers": 54,
+        "street": 147,
+        "occupied": 2
+      }
+    },
+    {
+      "case": "synth_2067",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "normal",
+      "gates": [
+        [
+          254,
+          -44.904166655151386
+        ],
+        [
+          112.86325172381441,
+          254
+        ],
+        [
+          -42.02417300028496,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -115.8622418076722
+        ],
+        [
+          254,
+          -79.8186168281268
+        ],
+        [
+          32.67398411354202,
+          254
+        ]
+      ],
+      "target": 8,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 66,
+        "rivers": 45,
+        "street": 159,
+        "occupied": 12
+      }
+    },
+    {
+      "case": "synth_2157",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "steep",
+      "gates": [
+        [
+          -9.595502042556092,
+          -254
+        ],
+        [
+          -254,
+          -2.3354424683210198
+        ],
+        [
+          -44.94364534955824,
+          254
+        ],
+        [
+          254,
+          -42.86498086546577
+        ]
+      ],
+      "rivers": [
+        [
+          254,
+          -113.9252747793359
+        ],
+        [
+          -114.66884101119967,
+          -254
+        ]
+      ],
+      "target": 5,
+      "actual": 4,
+      "rejects": {
+        "bounds": 12,
+        "gates": 87,
+        "street": 156,
+        "rivers": 30,
+        "slope": 10,
+        "occupied": 1
+      }
+    },
+    {
+      "case": "synth_2344",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "normal",
+      "gates": [
+        [
+          254,
+          -110.67626379829441
+        ],
+        [
+          132.55417641270668,
+          254
+        ],
+        [
+          135.39385608240002,
+          -254
+        ],
+        [
+          -123.9590839898757,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          12.258888816018583,
+          -254
+        ],
+        [
+          -87.24446078003308,
+          254
+        ]
+      ],
+      "target": 9,
+      "actual": 8,
+      "rejects": {
+        "bounds": 12,
+        "gates": 93,
+        "street": 144,
+        "rivers": 27,
+        "occupied": 16
+      }
+    },
+    {
+      "case": "synth_2607",
+      "scale": "village",
+      "biome": "rocky_highlands",
+      "mode": "flat",
+      "gates": [
+        [
+          -254,
+          56.396536907815744
+        ],
+        [
+          254,
+          -104.08430296857368
+        ],
+        [
+          52.56809968783517,
+          -254
+        ],
+        [
+          -76.57565231086912,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          79.34286192214196,
+          254
+        ],
+        [
+          -254,
+          2.3647559818871287
+        ],
+        [
+          -254,
+          -26.16443289331633
+        ]
+      ],
+      "target": 9,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 81,
+        "rivers": 42,
+        "street": 147,
+        "occupied": 12
+      }
+    },
+    {
+      "case": "synth_2802",
+      "scale": "village",
+      "biome": "wetland",
+      "mode": "moderate",
+      "gates": [
+        [
+          93.36596382246702,
+          254
+        ],
+        [
+          84.68053058779262,
+          -254
+        ],
+        [
+          254,
+          -106.9260780049959
+        ],
+        [
+          -75.15408165768473,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          -77.34521575981529,
+          254
+        ],
+        [
+          254,
+          83.21149976213349
+        ]
+      ],
+      "target": 9,
+      "actual": 8,
+      "rejects": {
+        "bounds": 12,
+        "gates": 93,
+        "street": 162,
+        "rivers": 9,
+        "occupied": 16
+      }
+    },
+    {
+      "case": "synth_3035",
+      "scale": "village",
+      "biome": "temperate_forest",
+      "mode": "normal",
+      "gates": [
+        [
+          -254,
+          79.25552061019695
+        ],
+        [
+          -254,
+          63.1740749830642
+        ],
+        [
+          -92.49466967888912,
+          -254
+        ],
+        [
+          67.07275034376298,
+          254
+        ]
+      ],
+      "rivers": [
+        [
+          -7.438811600982831,
+          254
+        ],
+        [
+          -254,
+          -40.93380338879048
+        ],
+        [
+          107.19015796015069,
+          -254
+        ]
+      ],
+      "target": 5,
+      "actual": 4,
+      "rejects": {
+        "bounds": 12,
+        "gates": 72,
+        "street": 153,
+        "rivers": 51,
+        "occupied": 8
+      }
+    },
+    {
+      "case": "synth_3096",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "steep",
+      "gates": [
+        [
+          -254,
+          29.891757339591948
+        ],
+        [
+          -19.90964345461913,
+          -254
+        ],
+        [
+          -72.21465425738728,
+          -254
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          64.1713947072297
+        ],
+        [
+          -57.46423156530547,
+          -254
+        ],
+        [
+          119.2278750382929,
+          -254
+        ]
+      ],
+      "target": 9,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 51,
+        "rivers": 102,
+        "slope": 7,
+        "street": 117,
+        "occupied": 5
+      }
+    },
+    {
+      "case": "synth_3316",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "normal",
+      "gates": [
+        [
+          47.01086938015081,
+          -254
+        ],
+        [
+          -39.925427981119185,
+          -254
+        ],
+        [
+          -254,
+          -3.1617320396071307
+        ]
+      ],
+      "rivers": [
+        [
+          -254,
+          -140.6375211640241
+        ],
+        [
+          -77.00858030237895,
+          -254
+        ]
+      ],
+      "target": 10,
+      "actual": 6,
+      "rejects": {
+        "bounds": 12,
+        "gates": 51,
+        "rivers": 54,
+        "street": 153,
+        "slope": 21,
+        "occupied": 3
+      }
+    },
+    {
+      "case": "synth_3366",
+      "scale": "village",
+      "biome": "alpine",
+      "mode": "normal",
+      "gates": [
+        [
+          -82.71158245110647,
+          -254
+        ],
+        [
+          254,
+          -46.38037821183413
+        ]
+      ],
+      "rivers": [
+        [
+          45.96203799792448,
+          254
+        ],
+        [
+          -254,
+          87.25129152754283
+        ],
+        [
+          -254,
+          -25.013045042941386
+        ]
+      ],
+      "target": 8,
+      "actual": 7,
+      "rejects": {
+        "bounds": 12,
+        "gates": 42,
+        "slope": 15,
+        "street": 156,
+        "rivers": 66,
+        "occupied": 2
+      }
+    },
+    {
+      "case": "synth_3487",
+      "scale": "village",
+      "biome": "dry_valley",
+      "mode": "normal",
+      "gates": [
+        [
+          -15.282387404264597,
+          254
+        ],
+        [
+          -254,
+          -103.56772104658161
+        ]
+      ],
+      "rivers": [
+        [
+          -120.77774903488454,
+          -254
+        ],
+        [
+          -254,
+          -139.60214778962714
+        ],
+        [
+          -82.44540577141319,
+          -254
+        ]
+      ],
+      "target": 9,
+      "actual": 8,
+      "rejects": {
+        "bounds": 12,
+        "rivers": 72,
+        "gates": 42,
+        "street": 150,
+        "occupied": 16
+      }
+    }
+  ],
+  "real_atlas_cases": 23,
+  "real_atlas_previews": [
+    {
+      "case": "real_atlas_101_r00",
+      "scale": "town",
+      "target": 13,
+      "actual": 13
+    },
+    {
+      "case": "real_atlas_101_r02",
+      "scale": "village",
+      "target": 9,
+      "actual": 9
+    },
+    {
+      "case": "real_atlas_101_r04",
+      "scale": "town",
+      "target": 18,
+      "actual": 18
+    },
+    {
+      "case": "real_atlas_101_r06",
+      "scale": "city",
+      "target": 45,
+      "actual": 45
+    },
+    {
+      "case": "real_atlas_101_r10",
+      "scale": "village",
+      "target": 9,
+      "actual": 9
+    },
+    {
+      "case": "real_atlas_101_r13",
+      "scale": "village",
+      "target": 8,
+      "actual": 8
+    }
+  ]
+}

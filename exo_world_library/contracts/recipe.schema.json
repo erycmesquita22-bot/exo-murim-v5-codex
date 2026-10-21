@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exo.world_library.recipe.v1",
+  "title": "Content selection proposal (no world mutation)",
+  "type": "object",
+  "required": [
+    "status",
+    "proposals",
+    "committed"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PROPOSAL_ONLY",
+        "BLOCKED"
+      ]
+    },
+    "committed": {
+      "const": false
+    },
+    "proposals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "domain",
+          "record_id",
+          "selection_hash"
+        ]
+      }
+    }
+  }
+}

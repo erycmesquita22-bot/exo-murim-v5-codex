@@ -1,0 +1,10 @@
+{
+  "module": "exo_settlement_genesis",
+  "planner_version": 2,
+  "release": "05-stress-hardening-source-candidate",
+  "baseline": "EXO-WorldGenesis-03-Godot-Validacao",
+  "validation_status": "synthetic_python_probed_godot_pending",
+  "identity": "murim_chinese_inspired",
+  "regional_count": 88,
+  "note": "GDScript planner has fixture safety, adaptive crossroads and bidirectional access blocking. Not certified in Godot."
+}

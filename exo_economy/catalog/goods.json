@@ -1,0 +1,171 @@
+{
+  "version": "economy/1",
+  "currency_base": "wen",
+  "supply_factor_bounds_percent": [
+    75,
+    140
+  ],
+  "goods": [
+    {
+      "id": "grain",
+      "category": "food",
+      "base_wen": 24,
+      "biomes": [
+        "grassland",
+        "dry_valley"
+      ],
+      "tags": [
+        "farm",
+        "market",
+        "food"
+      ],
+      "display_key": "ECON_GOOD_GRAIN"
+    },
+    {
+      "id": "rice",
+      "category": "food",
+      "base_wen": 28,
+      "biomes": [
+        "wetland",
+        "grassland"
+      ],
+      "tags": [
+        "farm",
+        "market",
+        "food"
+      ],
+      "display_key": "ECON_GOOD_RICE"
+    },
+    {
+      "id": "herbs",
+      "category": "herbal",
+      "base_wen": 76,
+      "biomes": [
+        "temperate_forest",
+        "bamboo_forest",
+        "wetland"
+      ],
+      "tags": [
+        "herbalist",
+        "medicine"
+      ],
+      "display_key": "ECON_GOOD_HERBS"
+    },
+    {
+      "id": "medicinal_root",
+      "category": "herbal",
+      "base_wen": 125,
+      "biomes": [
+        "alpine",
+        "rocky_highlands"
+      ],
+      "tags": [
+        "herbalist",
+        "medicine"
+      ],
+      "display_key": "ECON_GOOD_MEDICINAL_ROOT"
+    },
+    {
+      "id": "iron",
+      "category": "ore",
+      "base_wen": 105,
+      "biomes": [
+        "rocky_highlands",
+        "alpine"
+      ],
+      "tags": [
+        "smithy",
+        "ore"
+      ],
+      "display_key": "ECON_GOOD_IRON"
+    },
+    {
+      "id": "copper_ore",
+      "category": "ore",
+      "base_wen": 70,
+      "biomes": [
+        "rocky_highlands",
+        "dry_valley"
+      ],
+      "tags": [
+        "smithy",
+        "ore"
+      ],
+      "display_key": "ECON_GOOD_COPPER_ORE"
+    },
+    {
+      "id": "bamboo",
+      "category": "wood",
+      "base_wen": 18,
+      "biomes": [
+        "bamboo_forest"
+      ],
+      "tags": [
+        "artisan",
+        "wood"
+      ],
+      "display_key": "ECON_GOOD_BAMBOO"
+    },
+    {
+      "id": "timber",
+      "category": "wood",
+      "base_wen": 40,
+      "biomes": [
+        "temperate_forest",
+        "mixed_woodland"
+      ],
+      "tags": [
+        "artisan",
+        "wood"
+      ],
+      "display_key": "ECON_GOOD_TIMBER"
+    },
+    {
+      "id": "silk",
+      "category": "cloth",
+      "base_wen": 220,
+      "biomes": [
+        "grassland",
+        "temperate_forest"
+      ],
+      "tags": [
+        "market",
+        "cloth"
+      ],
+      "display_key": "ECON_GOOD_SILK"
+    },
+    {
+      "id": "weapon_common",
+      "category": "equipment",
+      "base_wen": 440,
+      "biomes": [],
+      "tags": [
+        "smithy",
+        "equipment"
+      ],
+      "display_key": "ECON_GOOD_WEAPON_COMMON"
+    },
+    {
+      "id": "healing_tonic",
+      "category": "consumable",
+      "base_wen": 145,
+      "biomes": [],
+      "tags": [
+        "herbalist",
+        "medicine"
+      ],
+      "display_key": "ECON_GOOD_HEALING_TONIC"
+    },
+    {
+      "id": "training_supplies",
+      "category": "martial",
+      "base_wen": 180,
+      "biomes": [],
+      "tags": [
+        "martial_school",
+        "martial"
+      ],
+      "display_key": "ECON_GOOD_TRAINING_SUPPLIES"
+    }
+  ]
+}

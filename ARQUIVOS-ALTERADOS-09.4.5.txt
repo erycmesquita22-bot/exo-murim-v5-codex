@@ -1,0 +1,17 @@
+EXO-Murim 09.4.5 — alterações da 09.4.4:
+
+world/level_design.gd     NOVO — pintura de ruas, praças, lotes e identidade dos bairros
+world/village_v2.gd      ALTERADO — integrar level design às vilas V2
+world/landscape.gd       ALTERADO — trilhas conectadas e colidentes + cenários dos três marcos
+region.gd                ALTERADO — resetar metadados de apresentação
+qa0945.gd               NOVO — QA Godot da geração e dos caminhos
+project.godot           ALTERADO — identificação de versão
+VERSION.json            ALTERADO — identificação de versão
+AGENTS.md               ALTERADO — regras de continuidade para o novo level design
+RELATORIO-09.4.5.md      NOVO — documentação e limites da entrega
+LEIA-ME-09.4.5.txt      NOVO — roteiro de teste
+MANIFESTO-SHA256.json    REGERADO — integridade do novo pacote
+ARQUIVOS-ALTERADOS-09.4.5.txt NOVO — este documento
+
+Nenhuma alteração em rig, wardrobe, arsenal, main, murim_flow, inventory,
+journey_save, efeitos, áudio ou recursos originais de personagem.

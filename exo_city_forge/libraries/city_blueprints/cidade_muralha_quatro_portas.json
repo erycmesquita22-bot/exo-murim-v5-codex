@@ -1,0 +1,532 @@
+{
+  "id": "cidade_muralha_quatro_portas",
+  "name": "Cidade Murada dos Oito Acessos",
+  "shape": "four_gate_fortified",
+  "wall": true,
+  "half_extent": 120,
+  "gates": [
+    [
+      -103,
+      -26
+    ],
+    [
+      103,
+      -26
+    ],
+    [
+      -103,
+      26
+    ],
+    [
+      103,
+      26
+    ],
+    [
+      -26,
+      -103
+    ],
+    [
+      -26,
+      103
+    ],
+    [
+      26,
+      -103
+    ],
+    [
+      26,
+      103
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -103,
+        -26
+      ],
+      "b": [
+        103,
+        -26
+      ],
+      "width": 7,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -103,
+        26
+      ],
+      "b": [
+        103,
+        26
+      ],
+      "width": 7,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -26,
+        -103
+      ],
+      "b": [
+        -26,
+        103
+      ],
+      "width": 7,
+      "kind": "main"
+    },
+    {
+      "a": [
+        26,
+        -103
+      ],
+      "b": [
+        26,
+        103
+      ],
+      "width": 7,
+      "kind": "main"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "cidade_muralha_quatro_portas/s00",
+      "center": [
+        -54,
+        -54
+      ],
+      "footprint": [
+        [
+          -74.0,
+          -74.0
+        ],
+        [
+          -34.0,
+          -74.0
+        ],
+        [
+          -34.0,
+          -34.0
+        ],
+        [
+          -74.0,
+          -34.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -54.0,
+          -74.0
+        ],
+        [
+          -34.0,
+          -54.0
+        ],
+        [
+          -54.0,
+          -34.0
+        ],
+        [
+          -74.0,
+          -54.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s01",
+      "center": [
+        0,
+        -54
+      ],
+      "footprint": [
+        [
+          -20.0,
+          -74.0
+        ],
+        [
+          20.0,
+          -74.0
+        ],
+        [
+          20.0,
+          -34.0
+        ],
+        [
+          -20.0,
+          -34.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          -74.0
+        ],
+        [
+          20.0,
+          -54.0
+        ],
+        [
+          0.0,
+          -34.0
+        ],
+        [
+          -20.0,
+          -54.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s02",
+      "center": [
+        54,
+        -54
+      ],
+      "footprint": [
+        [
+          34.0,
+          -74.0
+        ],
+        [
+          74.0,
+          -74.0
+        ],
+        [
+          74.0,
+          -34.0
+        ],
+        [
+          34.0,
+          -34.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          54.0,
+          -74.0
+        ],
+        [
+          74.0,
+          -54.0
+        ],
+        [
+          54.0,
+          -34.0
+        ],
+        [
+          34.0,
+          -54.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s03",
+      "center": [
+        -54,
+        0
+      ],
+      "footprint": [
+        [
+          -74.0,
+          -20.0
+        ],
+        [
+          -34.0,
+          -20.0
+        ],
+        [
+          -34.0,
+          20.0
+        ],
+        [
+          -74.0,
+          20.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -54.0,
+          -20.0
+        ],
+        [
+          -34.0,
+          0.0
+        ],
+        [
+          -54.0,
+          20.0
+        ],
+        [
+          -74.0,
+          0.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s04",
+      "center": [
+        0,
+        0
+      ],
+      "footprint": [
+        [
+          -20.0,
+          -20.0
+        ],
+        [
+          20.0,
+          -20.0
+        ],
+        [
+          20.0,
+          20.0
+        ],
+        [
+          -20.0,
+          20.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          -20.0
+        ],
+        [
+          20.0,
+          0.0
+        ],
+        [
+          0.0,
+          20.0
+        ],
+        [
+          -20.0,
+          0.0
+        ]
+      ],
+      "zone": "center"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s05",
+      "center": [
+        54,
+        0
+      ],
+      "footprint": [
+        [
+          34.0,
+          -20.0
+        ],
+        [
+          74.0,
+          -20.0
+        ],
+        [
+          74.0,
+          20.0
+        ],
+        [
+          34.0,
+          20.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          54.0,
+          -20.0
+        ],
+        [
+          74.0,
+          0.0
+        ],
+        [
+          54.0,
+          20.0
+        ],
+        [
+          34.0,
+          0.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s06",
+      "center": [
+        -54,
+        54
+      ],
+      "footprint": [
+        [
+          -74.0,
+          34.0
+        ],
+        [
+          -34.0,
+          34.0
+        ],
+        [
+          -34.0,
+          74.0
+        ],
+        [
+          -74.0,
+          74.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -54.0,
+          34.0
+        ],
+        [
+          -34.0,
+          54.0
+        ],
+        [
+          -54.0,
+          74.0
+        ],
+        [
+          -74.0,
+          54.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s07",
+      "center": [
+        0,
+        54
+      ],
+      "footprint": [
+        [
+          -20.0,
+          34.0
+        ],
+        [
+          20.0,
+          34.0
+        ],
+        [
+          20.0,
+          74.0
+        ],
+        [
+          -20.0,
+          74.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          34.0
+        ],
+        [
+          20.0,
+          54.0
+        ],
+        [
+          0.0,
+          74.0
+        ],
+        [
+          -20.0,
+          54.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "cidade_muralha_quatro_portas/s08",
+      "center": [
+        54,
+        54
+      ],
+      "footprint": [
+        [
+          34.0,
+          34.0
+        ],
+        [
+          74.0,
+          34.0
+        ],
+        [
+          74.0,
+          74.0
+        ],
+        [
+          34.0,
+          74.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          54.0,
+          34.0
+        ],
+        [
+          74.0,
+          54.0
+        ],
+        [
+          54.0,
+          74.0
+        ],
+        [
+          34.0,
+          54.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "city"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry | Oito extremidades viárias funcionam como acessos na prévia, sem impor alteração de portões WorldGenesis."
+}

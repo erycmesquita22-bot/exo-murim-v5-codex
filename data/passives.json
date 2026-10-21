@@ -1,0 +1,22 @@
+[
+  {
+    "id": "corpo_1",
+    "name": "Corpo Inicial",
+    "description": "+15 de vida máxima."
+  },
+  {
+    "id": "concentracao_1",
+    "name": "Concentracao Inicial",
+    "description": "+2 energia/s."
+  },
+  {
+    "id": "folego_1",
+    "name": "Folego Inicial",
+    "description": "+3 vigor/s."
+  },
+  {
+    "id": "percepcao_qi",
+    "name": "Percepção do Fluxo de Qi",
+    "description": "Revela trajetória e alcance das suas técnicas. Requer conhecimento e 120 s de meditação."
+  }
+]

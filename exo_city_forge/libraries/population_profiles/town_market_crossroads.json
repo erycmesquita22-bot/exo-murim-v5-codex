@@ -1,0 +1,30 @@
+{
+  "id": "town_market_crossroads",
+  "weights": {
+    "residential": 28,
+    "mixed": 15,
+    "artisan": 9,
+    "commercial": 30,
+    "martial": 7,
+    "institutional": 6,
+    "plaza": 4,
+    "noble": 1
+  },
+  "economy": 0.4,
+  "martial_presence": 0.35,
+  "noble_probability": 0.01,
+  "maximum_influential_families": 1,
+  "ordinary_population_min_share": 0.84,
+  "guards_per_100_residents": 4,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.7,
+  "implementation": "parameterized",
+  "name": "Vila de Cruzamento",
+  "allowed_scales": [
+    "town"
+  ]
+}

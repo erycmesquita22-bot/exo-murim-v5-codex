@@ -1,0 +1,14 @@
+[
+  {
+    "name": "fire_breath",
+    "id": 6922,
+    "page": "https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-fire-breath-6922/",
+    "title": "Fire Breath by freesound_community | Efeitos sonoros sem direitos de autor - Pixabay",
+    "duration": 7.100023,
+    "license": "Pixabay Content License",
+    "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound. Individual excerpts used in game; full sequence omitted.",
+    "derived_files": [
+      "assets/martial_audio/fire_cast.ogg"
+    ]
+  }
+]

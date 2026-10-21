@@ -1,0 +1,111 @@
+{
+  "09": {
+    "frames_per_quality": 80,
+    "load_ms": 881.706,
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "resolution": "960x600",
+    "samples": [
+      {
+        "draw_calls": 108.0,
+        "frame_ms_mean": 49.1758625,
+        "frame_ms_median": 36.322,
+        "frame_ms_p95": 106.894,
+        "nodes": 1546.0,
+        "objects": 255.0,
+        "physics_ms_mean": 8.827675,
+        "primitives": 42048.0,
+        "process_ms_mean": 90.4625000000001,
+        "quality": 0,
+        "resources": 205.0,
+        "static_memory_mb": 54.3008003234863,
+        "video_memory_mb": 29.2461614608765
+      },
+      {
+        "draw_calls": 108.0,
+        "frame_ms_mean": 102.7310375,
+        "frame_ms_median": 93.066,
+        "frame_ms_p95": 173.694,
+        "nodes": 1546.0,
+        "objects": 255.0,
+        "physics_ms_mean": 3.2114625,
+        "primitives": 43282.0,
+        "process_ms_mean": 160.279,
+        "quality": 1,
+        "resources": 205.0,
+        "static_memory_mb": 54.3854103088379,
+        "video_memory_mb": 39.7089223861694
+      },
+      {
+        "draw_calls": 108.0,
+        "frame_ms_mean": 95.328725,
+        "frame_ms_median": 93.263,
+        "frame_ms_p95": 114.198,
+        "nodes": 1546.0,
+        "objects": 255.0,
+        "physics_ms_mean": 1.5495125,
+        "primitives": 44290.0,
+        "process_ms_mean": 105.7901875,
+        "quality": 2,
+        "resources": 205.0,
+        "static_memory_mb": 54.386589050293,
+        "video_memory_mb": 50.8411626815796
+      }
+    ],
+    "warmup_frames": 18
+  },
+  "091": {
+    "frames_per_quality": 80,
+    "load_ms": 660.266,
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "resolution": "960x600",
+    "samples": [
+      {
+        "draw_calls": 112.0,
+        "frame_ms_mean": 35.5916375,
+        "frame_ms_median": 33.297,
+        "frame_ms_p95": 52.374,
+        "nodes": 1558.0,
+        "objects": 259.0,
+        "physics_ms_mean": 19.5948,
+        "primitives": 42096.0,
+        "process_ms_mean": 62.6179750000001,
+        "quality": 0,
+        "resources": 208.0,
+        "static_memory_mb": 54.6059226989746,
+        "video_memory_mb": 29.2518377304077
+      },
+      {
+        "draw_calls": 112.0,
+        "frame_ms_mean": 99.0966625,
+        "frame_ms_median": 93.078,
+        "frame_ms_p95": 125.443,
+        "nodes": 1558.0,
+        "objects": 259.0,
+        "physics_ms_mean": 10.8837625,
+        "primitives": 43330.0,
+        "process_ms_mean": 120.950075,
+        "quality": 1,
+        "resources": 208.0,
+        "static_memory_mb": 54.6923789978027,
+        "video_memory_mb": 39.7145986557007
+      },
+      {
+        "draw_calls": 112.0,
+        "frame_ms_mean": 93.8111625,
+        "frame_ms_median": 91.464,
+        "frame_ms_p95": 116.871,
+        "nodes": 1558.0,
+        "objects": 259.0,
+        "physics_ms_mean": 4.2387875,
+        "primitives": 44338.0,
+        "process_ms_mean": 117.5648,
+        "quality": 2,
+        "resources": 208.0,
+        "static_memory_mb": 54.6935577392578,
+        "video_memory_mb": 50.8468389511108
+      }
+    ],
+    "warmup_frames": 18
+  },
+  "method": "Uma execução isolada por versão, 80 quadros por perfil e 18 de aquecimento, 960x600, câmera 15, personagem humano parado na vila e inimigos desativados. Renderização por CPU llvmpipe. Rodada preliminar interrompida/desconsiderada; dados usados são bench-*-1.log. Não é um teste de stress de personagens, nem uma previsão de GPU/Android."
+}

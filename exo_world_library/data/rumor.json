@@ -1,0 +1,466 @@
+{
+  "domain": "rumor",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_01",
+      "label": "Uma mestra voltou à montanha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Uma mestra voltou à montanha",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_02",
+      "label": "O magistrado protege um contrabandista",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "O magistrado protege um contrabandista",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_03",
+      "label": "Há pergaminhos sob a ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Há pergaminhos sob a ponte",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_04",
+      "label": "Um ferreiro reconheceu uma espada antiga",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Um ferreiro reconheceu uma espada antiga",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_05",
+      "label": "O rio trouxe uma caixa lacrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "O rio trouxe uma caixa lacrada",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_06",
+      "label": "Uma escola prepara provas secretas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Uma escola prepara provas secretas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_07",
+      "label": "A feira vende ervas falsas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "A feira vende ervas falsas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_08",
+      "label": "As lanternas apagaram sozinhas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "As lanternas apagaram sozinhas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_09",
+      "label": "Alguém ouviu música nas ruínas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Alguém ouviu música nas ruínas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_10",
+      "label": "Um guardião poupa os perdidos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Um guardião poupa os perdidos",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_11",
+      "label": "A estrada muda após a chuva",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "A estrada muda após a chuva",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_12",
+      "label": "Um discípulo traiu o juramento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Um discípulo traiu o juramento",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_13",
+      "label": "Uma cura exige três plantas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Uma cura exige três plantas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_14",
+      "label": "Uma caravana perdeu seus guias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Uma caravana perdeu seus guias",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_15",
+      "label": "O tesouro não é feito de ouro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "O tesouro não é feito de ouro",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_16",
+      "label": "Uma criança conhece o mapa do templo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Uma criança conhece o mapa do templo",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_17",
+      "label": "As dívidas do clã serão cobradas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "As dívidas do clã serão cobradas",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_18",
+      "label": "Um mercador paga por um manuscrito",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Um mercador paga por um manuscrito",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_19",
+      "label": "O vale abriga um eremita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "O vale abriga um eremita",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor",
+      "excludes": [],
+      "id": "rumor/rumor_20",
+      "label": "Um guarda aposentado reconheceu o selo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "knowledge"
+      ],
+      "variables": {
+        "en_pending": true,
+        "fact_claim": "unverified_until_narrative_owner",
+        "text_pt_BR": "Um guarda aposentado reconheceu o selo",
+        "zh_Hans_pending": true
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

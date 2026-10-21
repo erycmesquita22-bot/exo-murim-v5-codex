@@ -1,0 +1,13 @@
+{
+  "id": "market_pavilion",
+  "name": "Pavilhão do Mercado",
+  "kind": "pavilion",
+  "footprint": [
+    6,
+    6
+  ],
+  "asset_recipe": "pavilion",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry"
+}

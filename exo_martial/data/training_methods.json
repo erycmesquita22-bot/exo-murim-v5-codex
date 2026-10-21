@@ -1,0 +1,74 @@
+[
+  {
+    "id": "demonstracao",
+    "required_actions": 2,
+    "xp": 12,
+    "categories": [
+      "espada",
+      "sabre_katana",
+      "chutes",
+      "punhos",
+      "movimento"
+    ]
+  },
+  {
+    "id": "armas",
+    "required_actions": 2,
+    "xp": 15,
+    "categories": [
+      "espada",
+      "sabre_katana",
+      "lanca",
+      "armas_especiais"
+    ]
+  },
+  {
+    "id": "sparring",
+    "required_actions": 3,
+    "xp": 19,
+    "categories": [
+      "espada",
+      "sabre_katana",
+      "punhos",
+      "chutes",
+      "defesa"
+    ]
+  },
+  {
+    "id": "meditacao",
+    "required_actions": 3,
+    "xp": 14,
+    "categories": [
+      "qi_interno",
+      "mistico",
+      "excepcional"
+    ]
+  },
+  {
+    "id": "pergaminho",
+    "required_actions": 2,
+    "xp": 10,
+    "categories": [
+      "qi_interno",
+      "mistico",
+      "excepcional",
+      "armas_especiais"
+    ]
+  },
+  {
+    "id": "tarefas",
+    "required_actions": 2,
+    "xp": 11,
+    "categories": [
+      "*"
+    ]
+  },
+  {
+    "id": "prova",
+    "required_actions": 1,
+    "xp": 22,
+    "categories": [
+      "*"
+    ]
+  }
+]

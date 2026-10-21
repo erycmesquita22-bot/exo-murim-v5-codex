@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://exo_creature_harmonizacao02/models/rabbit/forge.glb" id="1"]
+
+[node name="EXO_rabbit_forge" type="Node3D"]
+
+[node name="ForwardMinusZ" type="Node3D" parent="."]
+rotation = Vector3(0, 1.5707963, 0)
+
+[node name="CreatureModel" parent="ForwardMinusZ" instance=ExtResource("1")]
+scale = Vector3(0.62, 0.62, 0.62)

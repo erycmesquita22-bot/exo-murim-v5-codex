@@ -1,0 +1,515 @@
+--- R5/combat/player_combat.gd
++++ R6/combat/player_combat.gd
+@@ -122,6 +122,7 @@
+ 		world.message("A memória da guerra persiste. Continue até a intervenção.")
+ 		return true
+ 	if world.health==0:
++		if world.has_method("on_fatal_dungeon_damage"):world.call("on_fatal_dungeon_damage")
+ 		world.save_progress()
+ 		world.message("Você caiu. Retome do último marco sem perder os objetivos concluídos.")
+ 		world.set_paused(true)
+--- R5/convergence/game.gd
++++ R6/convergence/game.gd
+@@ -213,6 +213,13 @@
+ 	if graphics!=null:graphics.tick(delta)
+ 	if not convergence_ready or flow.phase!="adventure":return
+ 	gate_cooldown=maxf(0,gate_cooldown-delta)
++	if _dungeon_inside():
++		if exo_core!=null:exo_core.services.invoke("dungeons","tick_active",[delta])
++		autosave_time+=delta
++		if autosave_time>20:
++			autosave_time=0
++			save_progress()
++		return
+ 	if current_region>=0:
+ 		WorldClock.advance(extension(),delta)
+ 		if journey_manager!=null:journey_manager.on_near_ruin()
+@@ -397,6 +404,14 @@
+ 	atlas.clear();super.new_journey()
+ 	if journey_manager!=null:journey_manager.state()
+ 
++# The player's fatal damage interrupts the current visit and restores the
++# exterior; the combat module remains owner of HP/death/pause and the Core
++# remains owner of checkpoint persistence.
++func on_fatal_dungeon_damage() -> void:
++ if not _dungeon_inside():return
++ var result: Variant=exo_core.services.invoke("dungeons","interrupt_active_visit",["death"])
++ if result!=true:push_error("C03 R6: death checkpoint failed; pending recovery must remain")
++
+ # Reuse the six established campaign opponents and their existing unique loot
+ # identities. There are no extra enemy types or duplicate rewards.
+ func activate_regional_encounter(data: RefCounted) -> void:
+@@ -415,7 +430,24 @@
+ 		actor.enabled=true;enemies.append(actor)
+ # Reuse the current loot generator. A separate, saved ecology generation counter
+ # prevents repeated XP/loot from the same death, without changing legacy IDs.
++# R6: route dungeon deaths to the SAME combat actor / Core dungeon authority.
++# Dungeon enemies are members of the official world.enemies collection.
++func _dungeon_enemy_defeated(actor: Node3D) -> bool:
++ if not actor.has_meta("exo_dungeon_id"):return false
++ if exo_core==null or not exo_core.services.has_service("dungeons"):
++  actor.hp=1;actor.visible=true;actor.collision_layer=4
++  push_error("C03 R6 dungeon actor without official dungeon service")
++  return true
++ var outcome: Variant=exo_core.services.invoke("dungeons","defeat_encounter",[actor])
++ if not outcome is Dictionary or not bool(outcome.get("ok",false)):
++  actor.hp=1;actor.visible=true;actor.collision_layer=4;actor.cooldown=3.0
++  message("Derrota da dungeon não registrada; inimigo recuperado.")
++ else:
++  message("Encontro concluído • +%d XP"%int(outcome.get("xp",0)))
++ return true
++
+ func enemy_defeated(actor: Node3D) -> void:
++	if _dungeon_enemy_defeated(actor):return
+ 	if actor.has_meta("ecology_territory"):
+ 		if not actor.get_meta("ecology_rewarded",false):
+ 			var before: Dictionary=journey.data.duplicate(true)
+--- R5/exo_core/core.gd
++++ R6/exo_core/core.gd
+@@ -32,6 +32,11 @@
+   if dungeon != null and world.has_method("save_progress"):
+    if not dungeon.bind_visit_checkpoint(Callable(self,"_dungeon_checkpoint")):
+     integration_warnings.append("dungeon_checkpoint_bind_failed")
++  # Reward proof must originate from an actual E-interaction with a persisted
++  # dungeon entrance/loot marker, never an unconditional callback.
++  if dungeon != null and dungeon.has_method("verify_reward_pickup"):
++   if not bind_trusted_dungeon_reward_proof(Callable(dungeon,"verify_reward_pickup")):
++    integration_warnings.append("dungeon_reward_proof_bind_failed")
+  observed=observation()
+  publish("save_loaded","load/"+str(world.journey.data.exo_core.sequence),{},-2,false)
+  return true
+@@ -89,7 +94,7 @@
+ 
+ func _dungeon_checkpoint(stage: String, _visit: Dictionary) -> bool:
+  if not ready or not world.has_method("save_progress") or not services.has_service("dungeons"):return false
+- if stage not in ["prepared_exterior","failed_entry","interior_active","leaving","exterior_restored","interrupted","recovered_exterior"]:return false
++ if stage not in ["prepared_exterior","failed_entry","interior_active","interaction","encounter_defeat","leaving","exterior_restored","interrupted","recovered_exterior"]:return false
+  return bool(world.save_progress())
+ 
+ func bind_trusted_dungeon_reward_proof(proof: Callable) -> bool:
+--- R5/exo_dungeon/module/entrypoint.gd
++++ R6/exo_dungeon/module/entrypoint.gd
+@@ -8,13 +8,21 @@
+ var transition: Variant
+ var committed_reward_verifier: Callable=Callable()
+ var visit_checkpoint_callback: Callable=Callable()
++# Only ONE combat/spawn authority: these are official Enemy actors in world.enemies.
++const OfficialEnemy=preload("res://enemy.gd")
++const Atomic=preload("res://exo_items/integration/atomic_reward_adapter.gd")
++var encounter_actors: Dictionary={}
++var pending_reward_proof: Dictionary={}
++var discovery_timer:=0.0
++var encounter_spawned: Dictionary={}
++var suspended_exterior_actors: Array=[]
+ func initialize(context: RefCounted) -> bool:
+  core=context
+  if not core.world.journey.data.has("dungeon_genesis"):
+   core.world.journey.data["dungeon_genesis"]=State.blank()
+  if not State.valid(core.world.journey.data.dungeon_genesis):return false
+  if not core.world.journey.save_coordinator.register_domain("dungeon_genesis","dungeon_genesis",State.valid):return false
+- return core.services.register_service("dungeons","dungeon_genesis",self,["plan","visit","mark_discovered","mark_key_collected","mark_gate_opened","mark_secret_discovered","is_reward_claimed","confirm_reward_receipt","snapshot","enter_instance","leave_instance","interact_active","interaction_hint","active_status","recover_visit_context","recovery_status","recover_to_exterior","interrupt_active_visit","bind_reward_verifier","bind_visit_checkpoint"])
++ return core.services.register_service("dungeons","dungeon_genesis",self,["plan","visit","mark_discovered","mark_key_collected","mark_gate_opened","mark_secret_discovered","is_reward_claimed","confirm_reward_receipt","snapshot","enter_instance","leave_instance","interact_active","interaction_hint","active_status","recover_visit_context","recovery_status","recover_to_exterior","interrupt_active_visit","bind_reward_verifier","bind_visit_checkpoint","defeat_encounter","trusted_pickup_status","tick_active"])
+ func plan(location_descriptor: Dictionary) -> Dictionary:
+  return Generator.generate(location_descriptor)
+ func visit(location_descriptor: Dictionary) -> Dictionary:
+@@ -121,13 +129,16 @@
+  dungeon.gate_unlocked.connect(Callable(self,"_on_gate_unlocked").bind(str(result.id)))
+  dungeon.transition_requested.connect(Callable(self,"_on_floor_transition").bind(str(result.id)))
+  domain.active_visit=Recovery.with_phase(visit_ctx,"inside")
++ domain.instances[str(result.id)].visits=int(domain.instances[str(result.id)].visits)+1
+  if not _checkpoint("interior_active",domain.active_visit):
++  domain.instances[str(result.id)].visits=int(domain.instances[str(result.id)].visits)-1
+   transition.abort()
+   domain.active_visit=Recovery.with_phase(visit_ctx,"interrupted")
+   _checkpoint("failed_entry",domain.active_visit)
+   return {"ok":false,"error":"interior_checkpoint_failed_and_rolled_back"}
+- domain.instances[str(result.id)].visits=int(domain.instances[str(result.id)].visits)+1
+- return {"ok":true,"id":result.id,"floor":0,"scene_instanced":true}
++ _suspend_exterior_actors()
++ _spawn_official_encounters(result)
++ return {"ok":true,"id":result.id,"floor":0,"scene_instanced":true,"encounters_instanced":encounter_actors.size()}
+ func leave_instance() -> bool:
+  if not is_instance_valid(transition) or not transition.active():return false
+  var actor: Node3D=transition.current_actor
+@@ -142,6 +153,9 @@
+   domain.active_visit=old_visit
+   return false
+  var restored: bool=transition.leave()
++ if restored:
++  _clear_encounters()
++  _resume_exterior_actors()
+  if restored:
+   domain.active_visit={}
+   if not _checkpoint("exterior_restored",{}):
+@@ -165,22 +179,48 @@
+  if not is_instance_valid(dungeon):return {"ok":false,"error":"not_inside"}
+  var actor: Node3D=transition.current_actor
+  var choice: Dictionary=Explore.nearby(dungeon,actor)
+- match str(choice.get("kind","none")):
++ var kind: String=str(choice.get("kind","none"))
++ if kind=="reward":return _collect_physical_reward(choice)
++ if kind=="exit":return {"ok":leave_instance(),"action":"exit"}
++ if kind=="none":return {"ok":false,"error":"no_interaction_in_range"}
++ var before: Dictionary=core.world.journey.data.duplicate(true)
++ var result: Dictionary={"ok":false,"error":"unavailable"}
++ match kind:
+   "key":
+-   var id: String=str(choice.key_id)
++   var key_id: String=str(choice.get("key_id",""))
+    var room_id: String=""
+    for room in dungeon.plan.rooms:
+-    if room.get("keys",[]).has(id):room_id=str(room.id);break
+-   return {"ok":dungeon.collect_key(room_id,id,actor),"action":"key","id":id}
+-  "gate":return {"ok":dungeon.unlock_gate(str(choice.gate_id),actor),"action":"gate","id":str(choice.gate_id)}
++    if room.get("keys",[]).has(key_id):room_id=str(room.id);break
++   result={"ok":dungeon.collect_key(room_id,key_id,actor),"action":"key","id":key_id}
++  "gate":
++   var gate_id: String=str(choice.get("gate_id",""))
++   result={"ok":dungeon.unlock_gate(gate_id,actor),"action":"gate","id":gate_id}
+   "secret":
+-   var room_id: String=str(choice.room_id)
+-   var done: bool=dungeon.reveal_secret(room_id)
+-   if done:mark_secret_discovered(str(dungeon.plan.id),room_id)
+-   return {"ok":done,"action":"secret","room":room_id}
+-  "floor":return {"ok":dungeon.request_floor_transition(str(choice.room_id),actor),"action":"floor","room":str(choice.room_id)}
+-  "exit":return {"ok":leave_instance(),"action":"exit"}
+- return {"ok":false,"error":"no_interaction_in_range"}
++   var secret_room: String=str(choice.get("room_id",""))
++   var found: bool=dungeon.reveal_secret(secret_room)
++   if found:found=mark_secret_discovered(str(dungeon.plan.id),secret_room)
++   result={"ok":found,"action":"secret","room":secret_room}
++  "floor":
++   # Save the destination discovery before moving the one official player.
++   var room_id: String=str(choice.get("room_id",""))
++   var target: String=str(dungeon.floor_destination(room_id))
++   if not target.is_empty() and mark_discovered(str(dungeon.plan.id),target):
++    if _checkpoint("interaction",recover_visit_context()):
++     result={"ok":dungeon.request_floor_transition(room_id,actor),"action":"floor","room":room_id}
++    else:
++     core.world.journey.data=before
++     return {"ok":false,"error":"checkpoint_failed"}
++   return result
++ if not bool(result.get("ok",false)):return result
++ if not _checkpoint("interaction",recover_visit_context()):
++  core.world.journey.data=before
++  # Restore already removed key/door/secret geometry to the persisted view.
++  var saved_instance: Dictionary=before.get("dungeon_genesis",{}).get("instances",{}).get(str(dungeon.plan.id),{})
++  var original_plan: Dictionary=dungeon.plan.duplicate(true)
++  dungeon.materialize(original_plan,saved_instance)
++  return {"ok":false,"error":"interaction_save_failed_and_rolled_back"}
++ return result
++
+ func interaction_hint() -> String:
+  var dungeon: Variant=_instance()
+  if not is_instance_valid(dungeon):return ""
+@@ -188,10 +228,187 @@
+  match str(choice.get("kind","none")):
+   "key":return "E - Obter chave"
+   "gate":return "E - Destrancar passagem"
++  "reward":return "E - Recolher tesouro"
+   "secret":return "E - Investigar passagem oculta"
+   "floor":return "E - Mudar de andar"
+   "exit":return "E - Retornar ao exterior"
+  return ""
++# R6: physical encounters are materialized by the official Enemy class and
++# registered with the existing world.enemies combat authority. No second AI.
++# No exterior NPC/enemy logic may chase the player through 4096m of depth.
++func _suspend_exterior_actors() -> void:
++ suspended_exterior_actors.clear()
++ for actor in core.world.enemies:
++  if not is_instance_valid(actor) or actor.has_meta("exo_dungeon_id"):continue
++  if not actor.get("enabled") is bool:continue
++  suspended_exterior_actors.append({"actor":actor,"enabled":bool(actor.get("enabled"))})
++  actor.set("enabled",false)
++func _resume_exterior_actors() -> void:
++ for record in suspended_exterior_actors:
++  var actor: Variant=record.get("actor",null)
++  if is_instance_valid(actor):actor.set("enabled",bool(record.get("enabled",true)))
++ suspended_exterior_actors.clear()
++
++func _spawn_official_encounters(plan: Dictionary) -> void:
++ _clear_encounters()
++ encounter_spawned.clear()
++ _spawn_nearby_encounters(plan)
++
++func _spawn_nearby_encounters(plan: Dictionary) -> void:
++ if not bool(ProjectSettings.get_setting("exo_murim/r6/dungeon_encounters_enabled",true)):return
++ var dungeon: Variant=_instance()
++ if not is_instance_valid(dungeon) or not is_instance_valid(transition.current_actor):return
++ var saved: Dictionary=snapshot(str(plan.id))
++ var budget: int=maxi(0,8-encounter_actors.size())
++ if budget<=0:return
++ for spec in plan.get("encounters",[]):
++  if budget<=0:break
++  var encounter_id: String=str(spec.get("id",""))
++  if encounter_id.is_empty() or encounter_spawned.has(encounter_id) or saved.get("bosses_defeated",{}).has(encounter_id):continue
++  var room: Dictionary={}
++  for candidate in plan.get("rooms",[]):
++   if str(candidate.get("id",""))==str(spec.get("room","")):room=candidate;break
++  if room.is_empty():continue
++  var center: Vector3=dungeon.to_global(Vector3(float(room.cx),float(room.floor)*dungeon._floor_height()+1.0,float(room.cz)))
++  if center.distance_to(transition.current_actor.global_position)>25.0:continue
++  var count: int=int(spec.get("count",1))
++  if count<=0 or count>budget:continue # room is spawned atomically, no partial clears
++  encounter_spawned[encounter_id]=true
++  for index in range(count):
++   var uid: String="dng/"+str(plan.id).sha256_text().substr(0,14)+"/"+encounter_id+"/"+str(index)
++   var role: String="mage" if index%3==2 else "blade"
++   var position: Vector3=dungeon.to_global(Vector3(float(room.cx)+float(index)*1.5,float(room.floor)*dungeon._floor_height()+0.2,float(room.cz)+3.0))
++   var enemy: Node3D=OfficialEnemy.new()
++   core.world.add_child(enemy)
++   enemy.call("setup",core.world,uid,role,position)
++   enemy.call("configure_regional",9.0,int(spec.get("level_min",1)))
++   enemy.set_meta("exo_dungeon_id",str(plan.id))
++   enemy.set_meta("exo_dungeon_encounter",encounter_id)
++   enemy.set_meta("exo_dungeon_room",str(room.id))
++   encounter_actors[uid]=enemy
++   core.world.enemies.append(enemy)
++  budget-=count
++
++func tick_active(delta: float) -> Dictionary:
++ if not is_instance_valid(transition) or not transition.active():return {"ok":false,"reason":"not_inside"}
++ discovery_timer-=maxf(0.0,delta)
++ if discovery_timer>0:return {"ok":true}
++ discovery_timer=0.6
++ var dungeon: Variant=_instance()
++ if not is_instance_valid(dungeon):return {"ok":false,"reason":"no_instance"}
++ _spawn_nearby_encounters(dungeon.plan)
++ var actor: Node3D=transition.current_actor
++ var local: Vector3=dungeon.to_local(actor.global_position)
++ for room in dungeon.plan.get("rooms",[]):
++  var dx: float=absf(local.x-float(room.cx))
++  var dz: float=absf(local.z-float(room.cz))
++  var dy: float=absf(local.y-float(room.floor)*dungeon._floor_height())
++  if dx>float(room.width)*0.45 or dz>float(room.width)*0.45 or dy>4.0:continue
++  var did: String=str(dungeon.plan.id)
++  var instance_state: Dictionary=snapshot(did)
++  if instance_state.get("discovered",{}).has(str(room.id)):break
++  var before: Dictionary=core.world.journey.data.duplicate(true)
++  if not mark_discovered(did,str(room.id)) or not _checkpoint("interaction",recover_visit_context()):
++   core.world.journey.data=before
++   return {"ok":false,"reason":"discovery_checkpoint_failed"}
++  return {"ok":true,"discovered":str(room.id)}
++ return {"ok":true}
++
++func _clear_encounters() -> void:
++ if core!=null and is_instance_valid(core.world):
++  for uid in encounter_actors.keys():
++   var enemy: Variant=encounter_actors[uid]
++   if is_instance_valid(enemy):
++    core.world.enemies.erase(enemy)
++    enemy.queue_free()
++ encounter_actors.clear()
++ encounter_spawned.clear()
++ pending_reward_proof.clear()
++
++func defeat_encounter(actor: Node3D) -> Dictionary:
++ if core==null or not is_instance_valid(actor) or not is_instance_valid(transition) or not transition.active():return {"ok":false,"error":"inactive"}
++ var uid: String=str(actor.get("uid"))
++ var did: String=str(actor.get_meta("exo_dungeon_id",""))
++ var encounter: String=str(actor.get_meta("exo_dungeon_encounter",""))
++ if not encounter_actors.has(uid) or encounter_actors[uid]!=actor or did!=transition.dungeon_id or int(actor.get("hp"))>0:return {"ok":false,"error":"untrusted_enemy"}
++ var before: Dictionary=core.world.journey.data.duplicate(true)
++ encounter_actors.erase(uid)
++ # Persist the room as cleared ONLY after the final official actor dies.
++ var remaining: bool=false
++ for other in encounter_actors.values():
++  if is_instance_valid(other) and str(other.get_meta("exo_dungeon_encounter",""))==encounter and int(other.get("hp"))>0:remaining=true
++ if not remaining:
++  if not State.mark(core.world.journey.data.dungeon_genesis,did,"bosses_defeated",encounter):
++   encounter_actors[uid]=actor;return {"ok":false,"error":"encounter_stage_failed"}
++ var gained: int=0
++ if core.world.ecology_director!=null:
++  gained=int(core.world.ecology_director.award_dungeon_encounter(str(actor.get("kind")),int(actor.get_meta("ecology_level",1))))
++ if not _checkpoint("encounter_defeat",recover_visit_context()):
++  core.world.journey.data=before
++  encounter_actors[uid]=actor
++  return {"ok":false,"error":"encounter_save_failed"}
++ core.world.enemies.erase(actor)
++ actor.call_deferred("queue_free")
++ return {"ok":true,"xp":gained,"room_cleared":not remaining}
++
++# Only the true E-interaction within 3.2m can mint this transient proof.
++func _physical_reward_node(reward_id: String) -> Node3D:
++ var dungeon: Variant=_instance()
++ if not is_instance_valid(dungeon) or not is_instance_valid(dungeon.geometry):return null
++ for marker in dungeon.geometry.find_children("TreasureReward_*","Node3D",true,false):
++  if not marker.is_queued_for_deletion() and str(marker.get_meta("exo_reward_id",""))==reward_id:return marker
++ return null
++func verify_reward_pickup(dungeon_id: String,reward_id: String,source: String) -> bool:
++ if pending_reward_proof.is_empty() or str(pending_reward_proof.get("dungeon_id",""))!=dungeon_id or str(pending_reward_proof.get("reward_id",""))!=reward_id or str(pending_reward_proof.get("source",""))!=source:return false
++ if not is_instance_valid(transition) or not transition.active() or transition.dungeon_id!=dungeon_id:return false
++ var node: Node3D=_physical_reward_node(reward_id)
++ if not is_instance_valid(node) or not is_instance_valid(transition.current_actor):return false
++ if transition.current_actor.global_position.distance_to(node.global_position)>3.2:return false
++ if is_reward_claimed(dungeon_id,reward_id):return false
++ for enemy in encounter_actors.values():
++  if is_instance_valid(enemy) and int(enemy.get("hp"))>0 and str(enemy.get_meta("exo_dungeon_room",""))==str(node.get_meta("exo_reward_room","")):return false
++ return true
++func trusted_pickup_status() -> Dictionary:
++ return {"pending":not pending_reward_proof.is_empty(),"proof_bound":core!=null and core.trusted_dungeon_reward_proof.is_valid()}
++
++func _collect_physical_reward(choice: Dictionary) -> Dictionary:
++ if core==null or not is_instance_valid(transition) or not transition.active():return {"ok":false,"error":"not_inside"}
++ var did: String=transition.dungeon_id
++ var reward_id: String=str(choice.get("reward_id",""))
++ var node: Node3D=_physical_reward_node(reward_id)
++ var dungeon: Variant=_instance()
++ if reward_id.is_empty() or not is_instance_valid(node) or not is_instance_valid(dungeon):return {"ok":false,"error":"invalid_reward"}
++ if is_reward_claimed(did,reward_id):return {"ok":false,"error":"reward_already_collected"}
++ if not bool(ProjectSettings.get_setting("exo_murim/r6/dungeon_atomic_rewards_enabled",true)):return {"ok":false,"error":"atomic_rewards_disabled"}
++ var descriptor: Dictionary={}
++ for spec in dungeon.plan.get("rewards",[]):
++  if str(spec.get("id",""))==reward_id:descriptor=spec;break
++ if descriptor.is_empty() or str(descriptor.get("room",""))!=str(node.get_meta("exo_reward_room","")):return {"ok":false,"error":"unregistered_reward"}
++ # Boss rewards require a real defeated encounter receipt, not an empty room.
++ for encounter in dungeon.plan.get("encounters",[]):
++  if str(encounter.get("room",""))==str(descriptor.get("room","")):
++   if not snapshot(did).get("bosses_defeated",{}).has(str(encounter.get("id",""))):return {"ok":false,"error":"encounter_not_defeated"}
++ var source: String="dungeon/"+did.sha256_text().substr(0,24)+"/"+reward_id.sha256_text().substr(0,16)
++ # The reward is intentionally limited to validated material/consumable IDs;
++ # generated equipment remains blocked until its official owner provides proof.
++ var rewards: Array=[{"kind":"material","ref":"iron","qty":2 if int(descriptor.get("rarity_tier",0))<2 else 3}]
++ var before: Dictionary=core.world.journey.data.duplicate(true)
++ pending_reward_proof={"dungeon_id":did,"reward_id":reward_id,"source":source}
++ if not verify_reward_pickup(did,reward_id,source):
++  pending_reward_proof.clear();return {"ok":false,"error":"untrusted_physical_pickup"}
++ if not core.world.inventory.queue_dungeon_pending(did,reward_id,source,rewards):
++  pending_reward_proof.clear();core.world.journey.data=before;return {"ok":false,"error":"pending_ownership_rejected"}
++ var plan: Dictionary=Atomic.prepare_pending(core.world.journey.data,source)
++ if not bool(plan.get("ok",false)):
++  pending_reward_proof.clear();core.world.journey.data=before;return {"ok":false,"error":str(plan.get("reason","pending_invalid"))}
++ var result: Dictionary=core.claim_dungeon_reward(did,reward_id,source,str(plan.fingerprint))
++ pending_reward_proof.clear()
++ if not bool(result.get("ok",false)):
++  core.world.journey.data=before
++  return {"ok":false,"error":str(result.get("reason","atomic_commit_failed"))}
++ node.queue_free()
++ return {"ok":true,"action":"reward","reward_id":reward_id,"items":rewards.duplicate(true),"atomic":true}
++
+ func active_status() -> Dictionary:
+  var active_now: bool=is_instance_valid(transition) and transition.active()
+  var domain: Dictionary=core.world.journey.data.dungeon_genesis
+@@ -207,9 +424,10 @@
+  var state: Dictionary=core.world.journey.data.dungeon_genesis
+  if state.get("active_visit",{}).is_empty():return false
+  if is_instance_valid(transition) and transition.active():transition.abort()
++ _clear_encounters()
++ _resume_exterior_actors()
+  state.active_visit=Recovery.with_phase(state.active_visit,"interrupted")
+- _checkpoint("interrupted",state.active_visit)
+- return true
++ return _checkpoint("interrupted",state.active_visit)
+ func recover_to_exterior(verified_safe_position: Vector3,region_id: int,location_id: String) -> Dictionary:
+  # Usar APENAS depois do WorldGenesis confirmar piso, colisões e âncora regional.
+  # Este serviço não pode fingir que ele mesmo verificou o terreno.
+@@ -234,6 +452,8 @@
+   return {"ok":false,"error":"recovered_position_but_commit_pending"}
+  return {"ok":true,"recovered_to":"exterior","requires_core_save":false}
+ func shutdown() -> void:
++ _clear_encounters()
++ _resume_exterior_actors()
+  if is_instance_valid(transition):
+   if transition.active():interrupt_active_visit("shutdown")
+   transition.queue_free()
+--- R5/exo_dungeon/runtime/dungeon_instance.gd
++++ R6/exo_dungeon/runtime/dungeon_instance.gd
+@@ -30,6 +30,22 @@
+  add_child(geometry)
+  for node in geometry.find_children("CollectibleKey_*","Node3D",true,false):
+   if acquired_keys.has(str(node.get_meta("key_id",""))):node.queue_free()
++ # Real interactive loot markers are derived exclusively from plan.rewards.
++ # No item enters inventory here; only Inventory + Core Save can grant it.
++ for reward in plan.get("rewards",[]):
++  var reward_id: String=str(reward.get("id",""))
++  if reward_id.is_empty() or persisted.get("reward_receipts",{}).has(reward_id):continue
++  var target: Dictionary={}
++  for room in plan.get("rooms",[]):
++   if str(room.get("id",""))==str(reward.get("room","")):target=room;break
++  if target.is_empty():continue
++  var marker:=Node3D.new();marker.name="TreasureReward_"+reward_id
++  marker.set_meta("exo_reward_id",reward_id)
++  marker.set_meta("exo_reward_room",str(target.id))
++  marker.position=Vector3(float(target.cx)+1.3,float(target.floor)*_floor_height()+0.7,float(target.cz)-1.3)
++  var mesh:=MeshInstance3D.new();var box:=BoxMesh.new();box.size=Vector3(1.25,1.1,1.0);mesh.mesh=box
++  var mat:=StandardMaterial3D.new();mat.albedo_color=Color("b88138");mesh.material_override=mat
++  marker.add_child(mesh);geometry.add_child(marker)
+  for secret_id in persisted.get("activated",{}):
+   if str(secret_id).begins_with("secret_"):reveal_secret(str(secret_id).substr(7))
+  return true
+--- R5/exo_dungeon/runtime/exploration_logic.gd
++++ R6/exo_dungeon/runtime/exploration_logic.gd
+@@ -15,6 +15,9 @@
+  for item in g.find_children("SecretSeal_*","Node3D",true,false):
+   if item.is_queued_for_deletion():continue
+   candidates.append({"kind":"secret","priority":2,"node":item,"at":item.global_position,"room_id":str(item.get_meta("secret_room",""))})
++ for item in g.find_children("TreasureReward_*","Node3D",true,false):
++  if item.is_queued_for_deletion():continue
++  candidates.append({"kind":"reward","priority":3,"node":item,"at":item.global_position,"reward_id":str(item.get_meta("exo_reward_id","")),"room_id":str(item.get_meta("exo_reward_room",""))})
+  for item in g.find_children("Transition_*","Area3D",true,false):
+   candidates.append({"kind":"floor","priority":3,"node":item,"at":item.global_position,"room_id":str(item.get_meta("portal_source",""))})
+  candidates.append({"kind":"exit","priority":4,"at":instance.to_global(instance.call("exit_anchor")+Vector3(0,0.7,0))})
+--- R5/inventory.gd
++++ R6/inventory.gd
+@@ -113,6 +113,26 @@
+ 	data.next_item+=1
+ 	world.journey.data.pending_loot.append({"source":actor.uid,"x":actor.position.x,"z":actor.position.z,"y":actor.position.y+.15,"region":int(world.get("current_region")) if world.get("current_region")!=null else -1,"items":rewards})
+ 	rebuild_drops()
++# R6: Inventory owns the pending-loot record. Called only by the dungeon host
++# after checking a real interaction point. This is RAM-only until atomic confirm.
++func queue_dungeon_pending(dungeon_id: String,reward_id: String,source: String,rewards: Array) -> bool:
++ if world==null or world.exo_core==null or not world.exo_core.ready:return false
++ if dungeon_id.is_empty() or reward_id.is_empty() or source.is_empty() or source.length()>123:return false
++ if not world.exo_core.services.has_service("dungeons"):return false
++ var visit: Variant=world.exo_core.services.invoke("dungeons","active_status")
++ if not visit is Dictionary or not bool(visit.get("active",false)) or str(visit.get("id",""))!=dungeon_id:return false
++ var data: Dictionary=world.journey.data
++ if not data.get("world") is Dictionary or not data.get("pending_loot") is Array:return false
++ if data.pending_loot.any(func(drop):return str(drop.get("source",""))==source):return false
++ if rewards.is_empty():return false
++ for item in rewards:
++  if not item is Dictionary or str(item.get("kind","")) not in ["material","consumable"] or not SPECIAL.has(str(item.get("ref",""))) or SPECIAL[str(item.ref)].kind!=item.kind:return false
++  if int(item.get("qty",0))<1 or int(item.get("qty",0))>99:return false
++ var claim: String="loot/"+source
++ if not WorldSeed.mark_pending(data.world,claim,{"dungeon_id":dungeon_id,"reward_id":reward_id}):return false
++ data.pending_loot.append({"source":source,"x":0.0,"y":0.0,"z":0.0,"region":int(world.current_region),"dungeon_id":dungeon_id,"reward_id":reward_id,"items":rewards.duplicate(true)})
++ return true
++
+ func rebuild_drops() -> void:
+ 	for node in drops:node.queue_free()
+ 	drops.clear()
+--- R5/project.godot
++++ R6/project.godot
+@@ -1,9 +1,9 @@
+ config_version=5
+ 
+ [application]
+-config/name="EXO-Murim — Convergencia 03 ALFA R5 QA"
++config/name="EXO-Murim — Convergencia 03 ALFA R6 QA"
+ config/use_custom_user_dir=true
+-config/custom_user_dir_name="EXO-Murim-Convergencia-03-ALFA-R5-QA"
++config/custom_user_dir_name="EXO-Murim-Convergencia-03-ALFA-R6-QA"
+ run/main_scene="res://convergence/game.tscn"
+ 
+ [display]
+@@ -22,3 +22,5 @@
+ [exo_murim]
+ r4/fauna_enabled=true
+ r5/harmonized_creatures_enabled=true
++r6/dungeon_encounters_enabled=true
++r6/dungeon_atomic_rewards_enabled=true
+--- R5/regional_ecology/director.gd
++++ R6/regional_ecology/director.gd
+@@ -125,3 +125,12 @@
+ 	var value: int=Reward.award(ecology,region_id,str(actor.kind),int(actor.get_meta("ecology_level",1)),preload("res://ai_core/world_clock.gd").day(world.extension()))
+ 	# Removal is committed by the gameplay owner only after the atomic save succeeds.
+ 	return value
++
++# R6: host-authorized dungeon encounter XP uses the pre-existing ecology bank,
++# day limits, region key and save domain. No second progression counter.
++func award_dungeon_encounter(kind: String,level: int) -> int:
++ if world==null or world.current_region<0:return 0
++ if kind not in ["blade","mage","boss"]:return 0
++ var state: Dictionary=world.extension()
++ var ecology: Dictionary=Reward.ensure(state)
++ return Reward.award(ecology,world.current_region,kind,maxi(1,level),preload("res://ai_core/world_clock.gd").day(state))

@@ -1,0 +1,18 @@
+{
+  "salto_cast.ogg": {
+    "sha256": "541276db7c1850c4f1444461f9541440e8a2dc6cd3d14a5f667b69c93124838e",
+    "bytes": 6839
+  },
+  "salto_impact.ogg": {
+    "sha256": "559d2edf1267ce9d0ddc9e9ad88fe1a415120dec06d714f6d487c5024fbe0afe",
+    "bytes": 7220
+  },
+  "astral_rupture.ogg": {
+    "sha256": "445bf3f3c3e5f91cdd0d2ec92a723f52120e4c6a8dfb33f27b480d117427013b",
+    "bytes": 20682
+  },
+  "energy_impact.ogg": {
+    "sha256": "b8109b40210a3e7139471bdc7444c62e9d6f929bc8b4f8bde77d6ff6a66b8198",
+    "bytes": 15630
+  }
+}

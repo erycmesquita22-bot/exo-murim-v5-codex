@@ -1,0 +1,16 @@
+{
+  "module": "cidade_viva_01",
+  "version": 1,
+  "status": "candidate_not_approved",
+  "date": "2026-10-19",
+  "engine": "Godot 4.6.2 Standard — Compatibility",
+  "base": "EXO-Murim-Fortificacoes-02-R2-PROJETO.zip",
+  "art_reference": "EXO-Forja-Arquitetonica-03.zip",
+  "integration": "convergence/region.gd integrate_perimeter -> cidade_viva/renderer.gd -> planner.gd",
+  "architecture": "World region presentation adapter; not a new EXO Core registered service",
+  "storage": {"new_save_keys": [], "migrations_required": false, "existing_lot_ids_unchanged": true, "npc_ids_unchanged": true},
+  "world": {"region_count": 88, "existing_atlas_preserved": true, "roads_unchanged": true, "fortifications_unchanged": true, "river_gates_preserved": true},
+  "asset_catalog": {"forja_v3_assets": 163, "used_id_count": 21, "new_assets": 0},
+  "visual_budgets": {"village": 12, "town": 36, "city": 82},
+  "qa": {"offline_static": "pass_47_of_47", "legacy_synthetic": "pass_350_of_350_not_native", "godot_runtime": "not_run", "real_screenshots": "none", "fps": "not_measured", "save_reopen": "not_run", "approval": "blocked"}
+}

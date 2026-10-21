@@ -1,0 +1,24 @@
+{
+  "integration": {
+    "status": "PASS",
+    "checks": 91,
+    "regions_3d": 13,
+    "seeds": [
+      "101",
+      "707",
+      "816204"
+    ],
+    "houses_expected": 171,
+    "houses_built": 171,
+    "physical_npcs": 171,
+    "log": "logs/delivery-integration.log"
+  },
+  "historical_regression": {
+    "status": "FAIL",
+    "reason": "Historical assertions and shutdown resource errors remain; see report."
+  },
+  "human_windows_android": {
+    "status": "NOT_RUN"
+  },
+  "scope": "Source project playable in Godot 4.6.2, Compatibility"
+}

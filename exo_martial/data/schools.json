@@ -1,0 +1,589 @@
+[
+  {
+    "id": "exo_martial.school.seita_bambu",
+    "name": "Seita do Bambu",
+    "style_id": "exo_martial.style.sword_swift",
+    "temperament": "rigoroso",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": -1,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Evitar golpes desperdiçados; avaliar execução limpa.",
+    "discipline": "precisao",
+    "teaching": {
+      "primary_method": "demonstracao",
+      "allowed_methods": [
+        "demonstracao",
+        "armas"
+      ],
+      "observation_action": "watch_blade_form",
+      "practice_action": "precision_strike",
+      "examination_action": "precision_duel",
+      "practice_repetitions": 2,
+      "practice_mastery_award": 18,
+      "class_marker": "dummy",
+      "exam_marker": "duel_ring",
+      "qi_cost": 8,
+      "stamina_cost": 2,
+      "trial_difficulty": 2,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 135,
+        "5": 272,
+        "6": 496
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": -1,
+      "min_reputation": 0,
+      "min_level": 1,
+      "min_completed_proofs": 0,
+      "requires_trial": false,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.cla_montanha",
+    "name": "Clã da Montanha",
+    "style_id": "exo_martial.style.saber_iron",
+    "temperament": "orgulhoso",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 3,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Defender postura e absorver pressão antes de contra-atacar.",
+    "discipline": "resistencia",
+    "teaching": {
+      "primary_method": "armas",
+      "allowed_methods": [
+        "armas",
+        "sparring"
+      ],
+      "observation_action": "observe_guard",
+      "practice_action": "guard_break",
+      "examination_action": "endure_duel",
+      "practice_repetitions": 3,
+      "practice_mastery_award": 24,
+      "class_marker": "training_post",
+      "exam_marker": "duel_ring",
+      "qi_cost": 11,
+      "stamina_cost": 0,
+      "trial_difficulty": 5,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 155,
+        "5": 298,
+        "6": 524
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 3,
+      "min_reputation": 0,
+      "min_level": 3,
+      "min_completed_proofs": 2,
+      "requires_trial": true,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.pavilhao_lanca",
+    "name": "Pavilhão da Lança",
+    "style_id": "exo_martial.style.spear_dragon",
+    "temperament": "rigoroso",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 6,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "O alcance correto decide o combate.",
+    "discipline": "distancia",
+    "teaching": {
+      "primary_method": "armas",
+      "allowed_methods": [
+        "armas",
+        "demonstracao"
+      ],
+      "observation_action": "watch_spear_spacing",
+      "practice_action": "spacing_thrust",
+      "examination_action": "range_trial",
+      "practice_repetitions": 3,
+      "practice_mastery_award": 20,
+      "class_marker": "training_lane",
+      "exam_marker": "trial_lane",
+      "qi_cost": 10,
+      "stamina_cost": 1,
+      "trial_difficulty": 4,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 155,
+        "5": 298,
+        "6": 524
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 6,
+      "min_reputation": 0,
+      "min_level": 2,
+      "min_completed_proofs": 1,
+      "requires_trial": true,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.templo_corrente",
+    "name": "Templo da Corrente",
+    "style_id": "exo_martial.style.fist_river",
+    "temperament": "benevolente",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 5,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Vencer sem ferir desnecessariamente.",
+    "discipline": "controle",
+    "teaching": {
+      "primary_method": "sparring",
+      "allowed_methods": [
+        "sparring",
+        "tarefas"
+      ],
+      "observation_action": "observe_grappling",
+      "practice_action": "controlled_spar",
+      "examination_action": "nonlethal_duel",
+      "practice_repetitions": 2,
+      "practice_mastery_award": 17,
+      "class_marker": "sparring_ring",
+      "exam_marker": "duel_ring",
+      "qi_cost": 8,
+      "stamina_cost": 2,
+      "trial_difficulty": 2,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 135,
+        "5": 272,
+        "6": 496
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 5,
+      "min_reputation": 0,
+      "min_level": 1,
+      "min_completed_proofs": 0,
+      "requires_trial": false,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.vale_grou",
+    "name": "Vale do Grou",
+    "style_id": "exo_martial.style.kick_crane",
+    "temperament": "benevolente",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 15,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Não receber dano vale mais do que trocar golpes.",
+    "discipline": "mobilidade",
+    "teaching": {
+      "primary_method": "demonstracao",
+      "allowed_methods": [
+        "demonstracao",
+        "sparring",
+        "tarefas"
+      ],
+      "observation_action": "watch_footwork",
+      "practice_action": "timed_dodge",
+      "examination_action": "no_hit_trial",
+      "practice_repetitions": 3,
+      "practice_mastery_award": 16,
+      "class_marker": "agility_course",
+      "exam_marker": "trial_lane",
+      "qi_cost": 11,
+      "stamina_cost": 1,
+      "trial_difficulty": 3,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 155,
+        "5": 298,
+        "6": 524
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 15,
+      "min_reputation": 0,
+      "min_level": 1,
+      "min_completed_proofs": 0,
+      "requires_trial": false,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.mercadores_sombra",
+    "name": "Pavilhão da Sombra",
+    "style_id": "exo_martial.style.hidden_blade",
+    "temperament": "mercenario",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": -1,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Conhecimento é adquirido sem revelar o caminho.",
+    "discipline": "furtividade",
+    "teaching": {
+      "primary_method": "tarefas",
+      "allowed_methods": [
+        "tarefas",
+        "pergaminho"
+      ],
+      "observation_action": "observe_shadow_route",
+      "practice_action": "silent_route",
+      "examination_action": "infiltration_trial",
+      "practice_repetitions": 3,
+      "practice_mastery_award": 21,
+      "class_marker": "stealth_route",
+      "exam_marker": "trial_lane",
+      "qi_cost": 7,
+      "stamina_cost": 2,
+      "trial_difficulty": 4,
+      "collective_allowed": false
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 155,
+        "5": 298,
+        "6": 524
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": -1,
+      "min_reputation": 0,
+      "min_level": 2,
+      "min_completed_proofs": 1,
+      "requires_trial": true,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.mosteiro_jade",
+    "name": "Mosteiro de Jade",
+    "style_id": "exo_martial.style.qi_serene",
+    "temperament": "benevolente",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 3,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Domínio interior e proteção dos vulneráveis.",
+    "discipline": "controle_qi",
+    "teaching": {
+      "primary_method": "meditacao",
+      "allowed_methods": [
+        "meditacao",
+        "pergaminho",
+        "tarefas"
+      ],
+      "observation_action": "observe_breath",
+      "practice_action": "breath_cycle",
+      "examination_action": "qi_focus_trial",
+      "practice_repetitions": 2,
+      "practice_mastery_award": 20,
+      "class_marker": "meditation_circle",
+      "exam_marker": "meditation_circle",
+      "qi_cost": 6,
+      "stamina_cost": 3,
+      "trial_difficulty": 2,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 135,
+        "5": 272,
+        "6": 496
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 3,
+      "min_reputation": 0,
+      "min_level": 1,
+      "min_completed_proofs": 0,
+      "requires_trial": false,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.ordem_cinza",
+    "name": "Ordem da Cinza",
+    "style_id": "exo_martial.style.fire_ember",
+    "temperament": "orgulhoso",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 6,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Força exige precisão e responsabilidade.",
+    "discipline": "poder",
+    "teaching": {
+      "primary_method": "sparring",
+      "allowed_methods": [
+        "sparring",
+        "meditacao"
+      ],
+      "observation_action": "observe_ember",
+      "practice_action": "pressure_combo",
+      "examination_action": "power_duel",
+      "practice_repetitions": 3,
+      "practice_mastery_award": 26,
+      "class_marker": "duel_ring",
+      "exam_marker": "duel_ring",
+      "qi_cost": 15,
+      "stamina_cost": 2,
+      "trial_difficulty": 4,
+      "collective_allowed": true
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 155,
+        "5": 298,
+        "6": 524
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 6,
+      "min_reputation": 0,
+      "min_level": 2,
+      "min_completed_proofs": 1,
+      "requires_trial": true,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  },
+  {
+    "id": "exo_martial.school.ermitagem_vazio",
+    "name": "Ermitagem do Vazio",
+    "style_id": "exo_martial.style.void_arts",
+    "temperament": "solitario",
+    "ranks": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "entrance": {
+      "trust": 5,
+      "reputation": 0,
+      "min_strength": 1
+    },
+    "region_anchor": null,
+    "faction_policy": "compatible_or_neutral",
+    "philosophy": "Aprender por contenção, não por excesso.",
+    "discipline": "paciencia",
+    "teaching": {
+      "primary_method": "meditacao",
+      "allowed_methods": [
+        "meditacao",
+        "pergaminho"
+      ],
+      "observation_action": "observe_void",
+      "practice_action": "stillness_hold",
+      "examination_action": "patience_trial",
+      "practice_repetitions": 4,
+      "practice_mastery_award": 23,
+      "class_marker": "meditation_circle",
+      "exam_marker": "trial_lane",
+      "qi_cost": 9,
+      "stamina_cost": 3,
+      "trial_difficulty": 4,
+      "collective_allowed": false
+    },
+    "promotion": {
+      "mastery_thresholds": {
+        "4": 175,
+        "5": 324,
+        "6": 552
+      },
+      "lesson_thresholds": {
+        "4": 2,
+        "5": 5,
+        "6": 9
+      }
+    },
+    "admission_policy": {
+      "min_trust": 5,
+      "min_reputation": 0,
+      "min_level": 1,
+      "min_completed_proofs": 0,
+      "requires_trial": false,
+      "exclusivity": "single_primary_school"
+    },
+    "rank_labels": {
+      "3": "Discípulo externo",
+      "4": "Discípulo interno",
+      "5": "Discípulo pessoal",
+      "6": "Herdeiro marcial"
+    }
+  }
+]

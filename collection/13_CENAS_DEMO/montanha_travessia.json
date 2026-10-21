@@ -1,0 +1,54 @@
+{
+  "scene": "montanha_travessia",
+  "ground": "montanha_travessia_SOLO_PNG.png",
+  "instances": [
+    {
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "x": -9,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "x": -4,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "x": 2,
+      "y": 0,
+      "z": 4
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "x": 10,
+      "y": 0,
+      "z": 5
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "x": -1,
+      "y": 0,
+      "z": -6
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "x": -3,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "glb": "12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "x": -13,
+      "y": 0,
+      "z": -10
+    },
+    {
+      "glb": "12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "x": 10,
+      "y": 0,
+      "z": -11
+    }
+  ]
+}

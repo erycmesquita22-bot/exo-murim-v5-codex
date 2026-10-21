@@ -1,0 +1,46 @@
+{
+  "release": "EXO-Murim FORTIFICACOES 02 - CANDIDATO-CORRIGIDO",
+  "source_archive": "EXO-Murim-Convergencia-02-EXO-Core-CANDIDATO.zip",
+  "source_archive_sha256": "2a7d1bb5a48b74901eb2e87763d748ebd5aa1a0d1171948723b988b3454786ea",
+  "base_original_file_count": 3905,
+  "unchanged_original_file_count": 3901,
+  "modified_original_files": [
+    "MANIFESTO-MODULOS-EXO-CORE-01.json",
+    "exo_core/adapters_architecture.gd",
+    "exo_core/modules.json",
+    "fortifications/planner.gd"
+  ],
+  "new_source_files": [
+    "fortifications/river_gate.gd",
+    "fortifications/qa_river_gate.gd",
+    "exo_core/tests/capture_river_gate.gd"
+  ],
+  "preserved_modules": [
+    "persistence",
+    "world",
+    "living_world",
+    "inventory",
+    "combat",
+    "journey",
+    "narrative",
+    "appearance"
+  ],
+  "revised_module": {
+    "id": "architecture",
+    "from": "1.0.0",
+    "to": "1.1.0"
+  },
+  "godot_version_target": "4.6.2 Standard Compatibility",
+  "save_schema": "v4 unchanged",
+  "new_saves_or_managers": false,
+  "river_contract_modified": false,
+  "files_sha256": {
+    "MANIFESTO-MODULOS-EXO-CORE-01.json": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021",
+    "exo_core/adapters_architecture.gd": "e31c5e1c7b5fd23bb8d8b2b14dd9799a3e313c03f78ed192b59ddbc3f79b8616",
+    "exo_core/modules.json": "10d6d46d5a4ac9a90db5c82fe7808b885c14cb5861b9ce9e1d45215fbbb0f021",
+    "fortifications/planner.gd": "cf2f45dd36a7a56e00d198c008108ba36b995b0b066821f8521715cb4a7720b6",
+    "fortifications/river_gate.gd": "5821320c146e47c724bda44ec31962b371fde6472a1d279c73ca631d0f43728e",
+    "fortifications/qa_river_gate.gd": "860358efd4a8712d5ee5ac82afdb49580ff89692772888f4ba21bfbb04ca68ca",
+    "exo_core/tests/capture_river_gate.gd": "eeaf0d6f634881e1ee3f1579bd9458f7e3fb167d41aeb90ecd9487d301892ba2"
+  }
+}

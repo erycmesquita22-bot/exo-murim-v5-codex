@@ -1,0 +1,50 @@
+[
+  {
+    "suite": "martial-final",
+    "status": "PASS",
+    "exit": 0,
+    "command": [
+      "/workspace/scratch/7eb713849e80/capture-runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/7eb713849e80/frontage-work/EXO-Murim-Convergencia-01.2",
+      "--script",
+      "res://martial_qa.gd"
+    ],
+    "log": "convergence/validation_frontage/martial-final.log"
+  },
+  {
+    "suite": "war-final",
+    "status": "PASS",
+    "exit": 0,
+    "command": [
+      "/workspace/scratch/7eb713849e80/capture-runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/7eb713849e80/frontage-work/EXO-Murim-Convergencia-01.2",
+      "--script",
+      "res://war_qa.gd"
+    ],
+    "log": "convergence/validation_frontage/war-final.log"
+  },
+  {
+    "suite": "encounter-final",
+    "status": "PASS",
+    "exit": 0,
+    "command": [
+      "/workspace/scratch/7eb713849e80/capture-runtime/Godot_v4.6.2-stable_linux.x86_64",
+      "--headless",
+      "--fixed-fps",
+      "60",
+      "--path",
+      "/workspace/scratch/7eb713849e80/frontage-work/EXO-Murim-Convergencia-01.2",
+      "--script",
+      "res://convergence/encounter_qa.gd"
+    ],
+    "log": "convergence/validation_frontage/encounter-final.log"
+  }
+]

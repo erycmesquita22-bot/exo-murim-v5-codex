@@ -1,0 +1,120 @@
+{
+  "id": "res_garden_row",
+  "name": "Moradias com Jardins",
+  "category": "residential",
+  "tags": [
+    "residential",
+    "garden",
+    "gardeners"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "res_garden_row/b00",
+      "function": "residence",
+      "local_position": [
+        -12,
+        -8
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_garden_row/b01",
+      "function": "residence",
+      "local_position": [
+        0,
+        -10
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_garden_row/b02",
+      "function": "residence",
+      "local_position": [
+        12,
+        -8
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "res_garden_row/st00",
+      "for_building": "res_garden_row/b00",
+      "role": "resident"
+    },
+    {
+      "id": "res_garden_row/st01",
+      "for_building": "res_garden_row/b01",
+      "role": "resident"
+    },
+    {
+      "id": "res_garden_row/st02",
+      "for_building": "res_garden_row/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "garden",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "garden",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

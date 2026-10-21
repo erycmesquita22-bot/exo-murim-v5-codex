@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ice_crack",
+    "id": 85075,
+    "page": "https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-ice-crack-4-85075/",
+    "title": "Ice Crack 4 by freesound_community | Efeitos sonoros sem direitos de autor - Pixabay",
+    "duration": 10.100023,
+    "license": "Pixabay Content License",
+    "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound. Individual excerpts used in game; full sequence omitted.",
+    "derived_files": [
+      "assets/martial_audio/ice_cast.ogg"
+    ]
+  },
+  {
+    "name": "air_short",
+    "id": 6301,
+    "page": "https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-little-whoosh-2-6301/",
+    "title": "Little Whoosh 2 by freesound_community | Efeitos sonoros sem direitos de autor - Pixabay",
+    "duration": 2.772472,
+    "license": "Pixabay Content License",
+    "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound.",
+    "status": "Reference inspected, not used or packaged."
+  },
+  {
+    "name": "wind_qi",
+    "id": 6316,
+    "page": "https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-whoosh-6316/",
+    "title": "Whoosh by freesound_community | Efeitos sonoros sem direitos de autor - Pixabay",
+    "duration": 0.42449,
+    "file": "assets/martial_audio/wind_qi.ogg",
+    "license": "Pixabay Content License",
+    "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "genesis/region_scene.gd",
+    "base_sha256": "0d33c3ef3d07025e4c8ff7957fa16b84075a7db1508aee3bc523f7591ca91517",
+    "modified_sha256": "684284e3199515810b97b796c795ac477182b6be1dc87b0b5025bd9550692f29",
+    "changed": true
+  },
+  {
+    "file": "genesis/terrain.gdshader",
+    "base_sha256": "49b6db1ffb676b47e1d67ebabee251e2428b0b568930e6c8797c50e7613ad8bd",
+    "modified_sha256": "84b78fce2828d7ca07a74e9dcd4dc82a03b87cf068747f8e9c6d43674b1bf781",
+    "changed": true
+  },
+  {
+    "file": "exo_visual/driver.gd",
+    "base_sha256": "e0617ba8b66124da280f4f0a197c2b6f31aac200b262cc7d378ab79ee370a5d6",
+    "modified_sha256": "cf742333791ada0786dec5c9f6a111889219fd1236b6db95a8e654dbe40ab706",
+    "changed": true
+  },
+  {
+    "file": "exo_visual/shaders/terrain_linear.gdshader",
+    "base_sha256": "e7826ad074eee47c9478dfb753c25875354275ad111649f262ad693fe9947649",
+    "modified_sha256": "84b78fce2828d7ca07a74e9dcd4dc82a03b87cf068747f8e9c6d43674b1bf781",
+    "changed": true
+  },
+  {
+    "file": "exo_visual/shaders/terrain_pixel.gdshader",
+    "base_sha256": "0a2d195ff778dd0f772a402413daf00e2d4b36cb1d02dd368274dd7d271b099b",
+    "modified_sha256": "43b02122ba28f7b50fdb755209b2347f8fd46cf6a46f293aebb7493a8a3b38ed",
+    "changed": true
+  },
+  {
+    "file": "exo_visual/shaders/terrain_pixel_mips.gdshader",
+    "base_sha256": "9032ce021f312d2cc50e39c9481269317b3c8e33149a6146c626f0415113d47b",
+    "modified_sha256": "7b3e26e9d102f5324b26af15d109892bca45190412ae873cc89d37bb831c28f2",
+    "changed": true
+  }
+]

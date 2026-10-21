@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://drpsdil130r27"
+
+[deps]
+
+files=["res://exo_vfx_forge/locales/editor_text.pt_BR.translation", "res://exo_vfx_forge/locales/editor_text.en_US.translation", "res://exo_vfx_forge/locales/editor_text.zh_CN.translation"]
+
+source_file="res://exo_vfx_forge/locales/editor_text.csv"
+dest_files=["res://exo_vfx_forge/locales/editor_text.pt_BR.translation", "res://exo_vfx_forge/locales/editor_text.en_US.translation", "res://exo_vfx_forge/locales/editor_text.zh_CN.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,252 @@
+{
+  "id": "aldeia_pomar_cruz",
+  "name": "Aldeia do Pomar Cruzado",
+  "shape": "orchard_cross",
+  "wall": false,
+  "half_extent": 82,
+  "gates": [
+    [
+      -73,
+      0
+    ],
+    [
+      73,
+      0
+    ],
+    [
+      0,
+      -73
+    ],
+    [
+      0,
+      73
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -73,
+        0
+      ],
+      "b": [
+        73,
+        0
+      ],
+      "width": 5.5,
+      "kind": "main"
+    },
+    {
+      "a": [
+        0,
+        -73
+      ],
+      "b": [
+        0,
+        73
+      ],
+      "width": 4.5,
+      "kind": "footpath"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "aldeia_pomar_cruz/s00",
+      "center": [
+        -32,
+        -31
+      ],
+      "footprint": [
+        [
+          -53.5,
+          -51.0
+        ],
+        [
+          -13.5,
+          -51.0
+        ],
+        [
+          -10.5,
+          -11.0
+        ],
+        [
+          -50.5,
+          -11.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -33.5,
+          -51.0
+        ],
+        [
+          -12.0,
+          -31.0
+        ],
+        [
+          -30.5,
+          -11.0
+        ],
+        [
+          -52.0,
+          -31.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_pomar_cruz/s01",
+      "center": [
+        32,
+        -31
+      ],
+      "footprint": [
+        [
+          12.0,
+          -51.0
+        ],
+        [
+          52.0,
+          -51.0
+        ],
+        [
+          52.0,
+          -11.0
+        ],
+        [
+          12.0,
+          -11.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          32.0,
+          -51.0
+        ],
+        [
+          52.0,
+          -31.0
+        ],
+        [
+          32.0,
+          -11.0
+        ],
+        [
+          12.0,
+          -31.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_pomar_cruz/s02",
+      "center": [
+        -32,
+        31
+      ],
+      "footprint": [
+        [
+          -50.5,
+          11.0
+        ],
+        [
+          -10.5,
+          11.0
+        ],
+        [
+          -13.5,
+          51.0
+        ],
+        [
+          -53.5,
+          51.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -30.5,
+          11.0
+        ],
+        [
+          -12.0,
+          31.0
+        ],
+        [
+          -33.5,
+          51.0
+        ],
+        [
+          -52.0,
+          31.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "aldeia_pomar_cruz/s03",
+      "center": [
+        32,
+        31
+      ],
+      "footprint": [
+        [
+          12.0,
+          11.0
+        ],
+        [
+          52.0,
+          11.0
+        ],
+        [
+          52.0,
+          51.0
+        ],
+        [
+          12.0,
+          51.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          32.0,
+          11.0
+        ],
+        [
+          52.0,
+          31.0
+        ],
+        [
+          32.0,
+          51.0
+        ],
+        [
+          12.0,
+          31.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "village"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "mixed_guard_market",
+  "name": "Mercado Fortificado",
+  "category": "mixed",
+  "tags": [
+    "mixed",
+    "guarded",
+    "guards"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "mixed_guard_market/b00",
+      "function": "market",
+      "local_position": [
+        -13,
+        -12
+      ],
+      "size": [
+        8.0,
+        6.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "mixed_guard_market/b01",
+      "function": "warehouse",
+      "local_position": [
+        13,
+        -12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mixed_guard_market/b02",
+      "function": "residence",
+      "local_position": [
+        -13,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mixed_guard_market/b03",
+      "function": "residence",
+      "local_position": [
+        13,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "mixed_guard_market/st00",
+      "for_building": "mixed_guard_market/b00",
+      "role": "merchant"
+    },
+    {
+      "id": "mixed_guard_market/st01",
+      "for_building": "mixed_guard_market/b01",
+      "role": "courier"
+    },
+    {
+      "id": "mixed_guard_market/st02",
+      "for_building": "mixed_guard_market/b02",
+      "role": "resident"
+    },
+    {
+      "id": "mixed_guard_market/st03",
+      "for_building": "mixed_guard_market/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "guarded",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "guarded",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

@@ -1,0 +1,6746 @@
+{
+  "failures": [],
+  "landmarks_proposed": 586,
+  "mean_open_gate_shortening_m": 62.1013985988072,
+  "regions": 352,
+  "road_water_conflicts": 0,
+  "rows": [
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.212539672852,
+        256.336334228516,
+        257.421020507812
+      ],
+      "center_gate_v4_m": [
+        193.201522827148,
+        194.815612792969,
+        195.63996887207
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 0,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.150238037109
+      ],
+      "center_gate_v4_m": [
+        255.150238037109
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 1,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.875915527344,
+        273.343353271484,
+        257.05517578125
+      ],
+      "center_gate_v4_m": [
+        194.465667724609,
+        207.740951538086,
+        195.361907958984
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 2,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        263.033264160156,
+        269.004608154297,
+        254.270660400391
+      ],
+      "center_gate_v4_m": [
+        199.905258178711,
+        204.443496704102,
+        193.245697021484
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 3,
+      "seed": "101"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        257.624237060547,
+        266.231872558594
+      ],
+      "center_gate_v4_m": [
+        195.794418334961,
+        202.336212158203
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 35,
+      "profile": "cordilheira_dupla",
+      "region": 4,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        260.662902832031,
+        281.134307861328
+      ],
+      "center_gate_v4_m": [
+        198.103805541992,
+        213.662048339844
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 5,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.241104125977,
+        254.064102172852,
+        254.110916137695
+      ],
+      "center_gate_v4_m": [
+        193.98323059082,
+        193.088714599609,
+        193.124282836914
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 6,
+      "seed": "101"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        275.151916503906,
+        254.491744995117
+      ],
+      "center_gate_v4_m": [
+        275.151916503906,
+        254.491744995117
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 100,
+      "profile": "vale_alpino",
+      "region": 7,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.105972290039,
+        261.621459960938
+      ],
+      "center_gate_v4_m": [
+        254.105972290039,
+        261.621459960938
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 8,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.028869628906,
+        255.518005371094,
+        254.722534179688
+      ],
+      "center_gate_v4_m": [
+        193.061935424805,
+        194.19367980957,
+        193.589111328125
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 9,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        266.156494140625,
+        260.558837890625
+      ],
+      "center_gate_v4_m": [
+        202.278915405273,
+        198.024719238281
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 10,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.284729003906,
+        254.667098999023
+      ],
+      "center_gate_v4_m": [
+        254.284729003906,
+        254.667098999023
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 11,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.046875,
+        257.308197021484,
+        256.383728027344
+      ],
+      "center_gate_v4_m": [
+        193.075607299805,
+        195.554214477539,
+        194.851623535156
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 12,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.028869628906,
+        256.597625732422
+      ],
+      "center_gate_v4_m": [
+        193.061935424805,
+        195.014190673828
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 13,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.444152832031,
+        254.010879516602,
+        254.032653808594,
+        254.646362304688
+      ],
+      "center_gate_v4_m": [
+        257.444152832031,
+        254.010879516602,
+        254.032653808594,
+        254.646362304688
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 14,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.241104125977,
+        255.518005371094,
+        264.410583496094
+      ],
+      "center_gate_v4_m": [
+        255.241104125977,
+        255.518005371094,
+        264.410583496094
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 15,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        263.033264160156,
+        257.186401367188,
+        254.049453735352
+      ],
+      "center_gate_v4_m": [
+        199.905258178711,
+        195.461669921875,
+        193.077560424805
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 16,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        261.987121582031,
+        263.416351318359,
+        258.103637695312
+      ],
+      "center_gate_v4_m": [
+        199.110214233398,
+        200.196426391602,
+        196.158752441406
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 17,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.409332275391,
+        259.075805664062
+      ],
+      "center_gate_v4_m": [
+        193.35107421875,
+        196.897583007812
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 92,
+      "profile": "cristas_partidas",
+      "region": 18,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.444152832031,
+        255.361770629883,
+        257.340881347656
+      ],
+      "center_gate_v4_m": [
+        195.657531738281,
+        194.074935913086,
+        195.579071044922
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 19,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        275.151916503906,
+        281.649871826172
+      ],
+      "center_gate_v4_m": [
+        209.115447998047,
+        214.053894042969
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 0,
+      "plants": 37,
+      "profile": "cristas_partidas",
+      "region": 20,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.212539672852,
+        255.667434692383,
+        266.308990478516,
+        254.072204589844
+      ],
+      "center_gate_v4_m": [
+        254.212539672852,
+        255.667434692383,
+        266.308990478516,
+        254.072204589844
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 21,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        275.483367919922
+      ],
+      "center_gate_v4_m": [
+        275.483367919922
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 22,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.361770629883,
+        254.040634155273,
+        258.547790527344,
+        255.153366088867
+      ],
+      "center_gate_v4_m": [
+        194.074935913086,
+        193.070861816406,
+        196.496307373047,
+        193.916534423828
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 23,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.875915527344,
+        255.809173583984,
+        276.051483154297
+      ],
+      "center_gate_v4_m": [
+        255.875915527344,
+        255.809173583984,
+        276.051483154297
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 24,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.725387573242
+      ],
+      "center_gate_v4_m": [
+        255.725387573242
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 25,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.336334228516,
+        254.122116088867,
+        254.046508789062,
+        259.743255615234
+      ],
+      "center_gate_v4_m": [
+        256.336334228516,
+        254.122116088867,
+        254.046508789062,
+        259.743255615234
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 26,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        264.410583496094,
+        256.674957275391,
+        256.019683837891
+      ],
+      "center_gate_v4_m": [
+        200.952041625977,
+        195.072967529297,
+        194.574966430664
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 27,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.409332275391,
+        254.114730834961,
+        260.024200439453
+      ],
+      "center_gate_v4_m": [
+        193.35107421875,
+        193.127182006836,
+        197.618392944336
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 48,
+      "profile": "serras_cruzadas",
+      "region": 28,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.219909667969,
+        254.741912841797,
+        257.457672119141,
+        254.767303466797
+      ],
+      "center_gate_v4_m": [
+        254.219909667969,
+        254.741912841797,
+        257.457672119141,
+        254.767303466797
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 29,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.186401367188,
+        272.049530029297,
+        256.969818115234
+      ],
+      "center_gate_v4_m": [
+        195.461669921875,
+        206.757629394531,
+        195.297058105469
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 30,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.284729003906,
+        261.987121582031,
+        255.809173583984
+      ],
+      "center_gate_v4_m": [
+        193.256378173828,
+        199.110214233398,
+        194.414962768555
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 31,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        261.074340820312,
+        255.598159790039,
+        254.004211425781
+      ],
+      "center_gate_v4_m": [
+        198.416488647461,
+        194.254577636719,
+        193.043182373047
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 51,
+      "profile": "escarpas_antigas",
+      "region": 32,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        265.253143310547
+      ],
+      "center_gate_v4_m": [
+        265.253143310547
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 33,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.049453735352,
+        255.452545166016,
+        256.279968261719
+      ],
+      "center_gate_v4_m": [
+        193.077560424805,
+        194.143920898438,
+        194.772766113281
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 34,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.105972290039,
+        276.051483154297
+      ],
+      "center_gate_v4_m": [
+        193.120529174805,
+        209.799118041992
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 35,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.114730834961
+      ],
+      "center_gate_v4_m": [
+        254.114730834961
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 36,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        265.253143310547,
+        254.415542602539
+      ],
+      "center_gate_v4_m": [
+        201.592376708984,
+        193.355804443359
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 46,
+      "profile": "cristas_partidas",
+      "region": 37,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.308197021484,
+        254.002532958984,
+        254.039978027344
+      ],
+      "center_gate_v4_m": [
+        257.308197021484,
+        254.002532958984,
+        254.039978027344
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 38,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.722534179688,
+        254.010879516602,
+        256.674957275391
+      ],
+      "center_gate_v4_m": [
+        193.589111328125,
+        193.048248291016,
+        195.072967529297
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 39,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.064102172852,
+        255.667434692383,
+        254.122116088867
+      ],
+      "center_gate_v4_m": [
+        193.088714599609,
+        194.307235717773,
+        193.132797241211
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 40,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        266.156494140625,
+        254.002532958984,
+        257.373565673828
+      ],
+      "center_gate_v4_m": [
+        202.278915405273,
+        193.041915893555,
+        195.603897094727
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 41,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.150238037109,
+        256.491302490234,
+        254.008010864258
+      ],
+      "center_gate_v4_m": [
+        193.914169311523,
+        194.933364868164,
+        193.046081542969
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 42,
+      "seed": "101"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        273.343353271484,
+        263.416351318359,
+        254.591949462891,
+        280.760772705078
+      ],
+      "center_gate_v4_m": [
+        207.740951538086,
+        200.196426391602,
+        193.489868164062,
+        213.378189086914
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 43,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        260.558837890625,
+        254.039978027344,
+        266.130187988281
+      ],
+      "center_gate_v4_m": [
+        198.024719238281,
+        193.070373535156,
+        202.258941650391
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 44,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.725387573242,
+        258.456726074219,
+        254.989852905273
+      ],
+      "center_gate_v4_m": [
+        194.351287841797,
+        196.427108764648,
+        193.792266845703
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 45,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        281.649871826172,
+        256.509399414062,
+        259.331756591797,
+        254.005310058594
+      ],
+      "center_gate_v4_m": [
+        214.053894042969,
+        194.947128295898,
+        197.092132568359,
+        193.044021606445
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 42,
+      "profile": "escarpas_antigas",
+      "region": 46,
+      "seed": "101"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        277.3681640625
+      ],
+      "center_gate_v4_m": [
+        210.799774169922
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 37,
+      "profile": "vale_alpino",
+      "region": 47,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.110916137695,
+        254.046508789062,
+        256.491302490234
+      ],
+      "center_gate_v4_m": [
+        193.124282836914,
+        193.075332641602,
+        194.933364868164
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 48,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.05517578125,
+        258.500671386719
+      ],
+      "center_gate_v4_m": [
+        195.361907958984,
+        196.460494995117
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 49,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.509399414062
+      ],
+      "center_gate_v4_m": [
+        194.947128295898
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 38,
+      "profile": "cristas_partidas",
+      "region": 50,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        266.308990478516,
+        254.040634155273
+      ],
+      "center_gate_v4_m": [
+        202.394821166992,
+        193.070861816406
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 51,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.331756591797,
+        260.488128662109,
+        267.216827392578
+      ],
+      "center_gate_v4_m": [
+        197.092132568359,
+        197.970962524414,
+        203.084777832031
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 52,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        281.134307861328,
+        256.597625732422,
+        261.630065917969
+      ],
+      "center_gate_v4_m": [
+        281.134307861328,
+        256.597625732422,
+        261.630065917969
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 53,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        275.483367919922,
+        257.373565673828
+      ],
+      "center_gate_v4_m": [
+        209.367324829102,
+        195.603897094727
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 54,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.270660400391,
+        255.452545166016,
+        256.446441650391
+      ],
+      "center_gate_v4_m": [
+        193.245697021484,
+        194.143920898438,
+        194.899276733398
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 55,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.591949462891,
+        254.675155639648
+      ],
+      "center_gate_v4_m": [
+        193.489868164062,
+        193.553100585938
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 56,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        282.07861328125,
+        254.652648925781
+      ],
+      "center_gate_v4_m": [
+        282.07861328125,
+        254.652648925781
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 57,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        260.488128662109,
+        257.755249023438
+      ],
+      "center_gate_v4_m": [
+        197.970962524414,
+        195.893981933594
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 58,
+      "seed": "101"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        257.624237060547
+      ],
+      "center_gate_v4_m": [
+        195.794418334961
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 33,
+      "profile": "picos_longos",
+      "region": 59,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        260.024200439453,
+        259.432678222656
+      ],
+      "center_gate_v4_m": [
+        197.618392944336,
+        197.168823242188
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 60,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        261.074340820312,
+        254.005310058594,
+        257.755249023438
+      ],
+      "center_gate_v4_m": [
+        198.416488647461,
+        193.044021606445,
+        195.893981933594
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 67,
+      "profile": "escarpas_antigas",
+      "region": 61,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.340881347656,
+        254.546035766602
+      ],
+      "center_gate_v4_m": [
+        195.579071044922,
+        193.454986572266
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 62,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        268.06201171875,
+        280.453063964844
+      ],
+      "center_gate_v4_m": [
+        203.727111816406,
+        213.144317626953
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 63,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        263.812408447266,
+        254.4951171875
+      ],
+      "center_gate_v4_m": [
+        200.497406005859,
+        193.416275024414
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 68,
+      "profile": "escarpas_antigas",
+      "region": 64,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        272.364868164062,
+        261.630065917969,
+        269.215393066406
+      ],
+      "center_gate_v4_m": [
+        206.997299194336,
+        198.838851928711,
+        204.60368347168
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 65,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        258.456726074219,
+        263.812408447266,
+        254.264465332031
+      ],
+      "center_gate_v4_m": [
+        196.427108764648,
+        200.497406005859,
+        193.240982055664
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 57,
+      "profile": "cristas_partidas",
+      "region": 66,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.667098999023,
+        258.103637695312,
+        254.675155639648
+      ],
+      "center_gate_v4_m": [
+        193.546997070312,
+        196.158752441406,
+        193.553100585938
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 67,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.032653808594,
+        254.072204589844,
+        258.547790527344,
+        256.019683837891
+      ],
+      "center_gate_v4_m": [
+        193.064804077148,
+        193.094863891602,
+        196.496307373047,
+        194.574966430664
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 68,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        268.06201171875,
+        259.015289306641
+      ],
+      "center_gate_v4_m": [
+        203.727111816406,
+        196.851608276367
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 69,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.264465332031
+      ],
+      "center_gate_v4_m": [
+        254.264465332031
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "cristas_partidas",
+      "region": 70,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        262.020721435547,
+        259.432678222656,
+        262.313201904297,
+        256.309997558594
+      ],
+      "center_gate_v4_m": [
+        199.135757446289,
+        197.168823242188,
+        199.358016967773,
+        194.795593261719
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 71,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.171661376953,
+        262.313201904297,
+        257.028472900391
+      ],
+      "center_gate_v4_m": [
+        193.170455932617,
+        199.358016967773,
+        195.34162902832
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 72,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        257.457672119141,
+        259.015289306641,
+        254.000442504883
+      ],
+      "center_gate_v4_m": [
+        195.667831420898,
+        196.851608276367,
+        193.040328979492
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 73,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.491744995117,
+        277.3681640625
+      ],
+      "center_gate_v4_m": [
+        193.413726806641,
+        210.799774169922
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 43,
+      "profile": "escarpas_antigas",
+      "region": 74,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.767303466797,
+        254.044631958008
+      ],
+      "center_gate_v4_m": [
+        193.623138427734,
+        193.073913574219
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 75,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        259.075805664062,
+        254.542510986328,
+        254.352691650391
+      ],
+      "center_gate_v4_m": [
+        196.897583007812,
+        193.452301025391,
+        193.308029174805
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 49,
+      "profile": "cristas_partidas",
+      "region": 76,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.969818115234
+      ],
+      "center_gate_v4_m": [
+        195.297058105469
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 0,
+      "plants": 67,
+      "profile": "cristas_partidas",
+      "region": 77,
+      "seed": "101"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        280.760772705078,
+        256.446441650391,
+        280.453063964844,
+        255.492645263672
+      ],
+      "center_gate_v4_m": [
+        280.760772705078,
+        256.446441650391,
+        280.453063964844,
+        255.492645263672
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 78,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.646362304688,
+        266.130187988281,
+        269.215393066406
+      ],
+      "center_gate_v4_m": [
+        193.531234741211,
+        202.258941650391,
+        204.60368347168
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 79,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        266.231872558594,
+        254.415542602539,
+        254.4951171875
+      ],
+      "center_gate_v4_m": [
+        202.336212158203,
+        193.355804443359,
+        193.416275024414
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 58,
+      "profile": "escarpas_antigas",
+      "region": 80,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.133224487305,
+        276.278747558594
+      ],
+      "center_gate_v4_m": [
+        193.901245117188,
+        209.97184753418
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 81,
+      "seed": "101"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        257.421020507812,
+        267.79248046875
+      ],
+      "center_gate_v4_m": [
+        257.421020507812,
+        267.79248046875
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "serras_cruzadas",
+      "region": 82,
+      "seed": "101"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.989852905273,
+        254.000442504883,
+        254.044631958008
+      ],
+      "center_gate_v4_m": [
+        254.989852905273,
+        254.000442504883,
+        254.044631958008
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 83,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.153366088867,
+        254.546035766602
+      ],
+      "center_gate_v4_m": [
+        255.153366088867,
+        254.546035766602
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 84,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.743255615234,
+        254.008010864258
+      ],
+      "center_gate_v4_m": [
+        197.404846191406,
+        193.046081542969
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 85,
+      "seed": "101"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.279968261719,
+        267.216827392578,
+        255.492645263672
+      ],
+      "center_gate_v4_m": [
+        256.279968261719,
+        267.216827392578,
+        255.492645263672
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 86,
+      "seed": "101"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.500671386719,
+        255.95491027832,
+        261.356781005859
+      ],
+      "center_gate_v4_m": [
+        196.460494995117,
+        194.525726318359,
+        198.631118774414
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 87,
+      "seed": "101"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.004730224609,
+        255.683212280273,
+        254.424789428711,
+        254.944427490234
+      ],
+      "center_gate_v4_m": [
+        193.043579101562,
+        194.319229125977,
+        193.362823486328,
+        193.757751464844
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 0,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        263.963439941406,
+        258.307098388672,
+        257.736389160156,
+        255.366424560547
+      ],
+      "center_gate_v4_m": [
+        200.612213134766,
+        196.313385009766,
+        195.879653930664,
+        194.078475952148
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 1,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.756484985352,
+        256.273864746094,
+        258.619201660156
+      ],
+      "center_gate_v4_m": [
+        193.61491394043,
+        194.768127441406,
+        196.550582885742
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 51,
+      "profile": "serras_cruzadas",
+      "region": 2,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.726776123047,
+        258.976409912109
+      ],
+      "center_gate_v4_m": [
+        195.112335205078,
+        196.822052001953
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 3,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.004730224609,
+        254.16096496582,
+        260.200073242188
+      ],
+      "center_gate_v4_m": [
+        193.043579101562,
+        193.162322998047,
+        197.752029418945
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 4,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.56086730957,
+        259.403015136719,
+        259.0732421875
+      ],
+      "center_gate_v4_m": [
+        193.466247558594,
+        197.146270751953,
+        196.895645141602
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 5,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.362228393555,
+        265.618408203125
+      ],
+      "center_gate_v4_m": [
+        254.362228393555,
+        265.618408203125
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 6,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        260.560394287109,
+        277.158843994141
+      ],
+      "center_gate_v4_m": [
+        260.560394287109,
+        277.158843994141
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 7,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.111846923828,
+        256.155242919922
+      ],
+      "center_gate_v4_m": [
+        194.645004272461,
+        194.677993774414
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 8,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        267.659729003906,
+        259.427185058594,
+        255.020095825195
+      ],
+      "center_gate_v4_m": [
+        203.421371459961,
+        197.164657592773,
+        193.81526184082
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 62,
+      "profile": "cristas_partidas",
+      "region": 9,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        263.963439941406,
+        254.56086730957,
+        256.883453369141,
+        258.555084228516
+      ],
+      "center_gate_v4_m": [
+        200.612213134766,
+        193.466247558594,
+        195.231399536133,
+        196.501846313477
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 10,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.362228393555,
+        255.131713867188
+      ],
+      "center_gate_v4_m": [
+        193.315292358398,
+        193.900085449219
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 11,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.709411621094,
+        273.305694580078,
+        255.382171630859
+      ],
+      "center_gate_v4_m": [
+        193.579147338867,
+        207.712310791016,
+        194.090438842773
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 46,
+      "profile": "cristas_partidas",
+      "region": 12,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.709411621094,
+        254.125137329102,
+        255.415832519531
+      ],
+      "center_gate_v4_m": [
+        193.579147338867,
+        193.13508605957,
+        194.116012573242
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 13,
+      "seed": "816204"
+    },
+    {
+      "biome": "wetland",
+      "center_gate_c3_m": [
+        257.56298828125,
+        271.312164306641
+      ],
+      "center_gate_v4_m": [
+        195.747863769531,
+        206.197235107422
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 110,
+      "profile": "varzea",
+      "region": 14,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.716094970703,
+        256.604736328125
+      ],
+      "center_gate_v4_m": [
+        197.384216308594,
+        195.019577026367
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 15,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.188385009766,
+        258.851135253906,
+        258.323852539062
+      ],
+      "center_gate_v4_m": [
+        194.703170776367,
+        196.726852416992,
+        196.326110839844
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 60,
+      "profile": "cristas_partidas",
+      "region": 16,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.232147216797,
+        259.071868896484,
+        262.604309082031
+      ],
+      "center_gate_v4_m": [
+        193.216415405273,
+        196.894592285156,
+        199.57926940918
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 17,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.812957763672,
+        254.395278930664,
+        259.088989257812,
+        263.044158935547
+      ],
+      "center_gate_v4_m": [
+        195.937835693359,
+        193.340408325195,
+        196.907623291016,
+        199.913558959961
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 18,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        269.584625244141,
+        254.058822631836
+      ],
+      "center_gate_v4_m": [
+        204.884307861328,
+        193.084701538086
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 48,
+      "profile": "serras_cruzadas",
+      "region": 19,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.341186523438
+      ],
+      "center_gate_v4_m": [
+        194.819290161133
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 61,
+      "profile": "serras_cruzadas",
+      "region": 20,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        269.584625244141,
+        259.027648925781
+      ],
+      "center_gate_v4_m": [
+        204.884307861328,
+        196.86100769043
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 40,
+      "profile": "cristas_partidas",
+      "region": 21,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.014953613281,
+        255.132659912109
+      ],
+      "center_gate_v4_m": [
+        193.051345825195,
+        193.900802612305
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 22,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.716094970703,
+        254.014953613281,
+        254.317260742188
+      ],
+      "center_gate_v4_m": [
+        259.716094970703,
+        254.014953613281,
+        254.317260742188
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 23,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.16096496582,
+        254.125137329102,
+        254.003753662109
+      ],
+      "center_gate_v4_m": [
+        254.16096496582,
+        254.125137329102,
+        254.003753662109
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 24,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.726776123047,
+        256.188385009766,
+        256.207885742188
+      ],
+      "center_gate_v4_m": [
+        195.112335205078,
+        194.703170776367,
+        194.717971801758
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 25,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.429016113281,
+        267.447296142578
+      ],
+      "center_gate_v4_m": [
+        254.429016113281,
+        267.447296142578
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 26,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.429016113281,
+        257.2890625,
+        264.859313964844,
+        254.238418579102
+      ],
+      "center_gate_v4_m": [
+        193.36604309082,
+        195.539672851562,
+        201.293060302734,
+        193.22119140625
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 27,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        259.027648925781,
+        266.964202880859
+      ],
+      "center_gate_v4_m": [
+        196.86100769043,
+        202.892776489258
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 45,
+      "profile": "cristas_partidas",
+      "region": 28,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        273.967437744141,
+        257.746765136719
+      ],
+      "center_gate_v4_m": [
+        273.967437744141,
+        257.746765136719
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 29,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.875228881836,
+        262.914886474609
+      ],
+      "center_gate_v4_m": [
+        254.875228881836,
+        262.914886474609
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "serras_cruzadas",
+      "region": 30,
+      "seed": "816204"
+    },
+    {
+      "biome": "wetland",
+      "center_gate_c3_m": [
+        256.111846923828,
+        255.438735961914,
+        257.581726074219
+      ],
+      "center_gate_v4_m": [
+        194.645004272461,
+        194.133438110352,
+        195.762115478516
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 110,
+      "profile": "baixios",
+      "region": 31,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.604736328125,
+        254.232147216797,
+        255.132659912109,
+        260.780914306641
+      ],
+      "center_gate_v4_m": [
+        256.604736328125,
+        254.232147216797,
+        255.132659912109,
+        260.780914306641
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 32,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        255.354263305664
+      ],
+      "center_gate_v4_m": [
+        255.354263305664
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "cristas_partidas",
+      "region": 33,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        267.659729003906,
+        254.211959838867,
+        254.005218505859
+      ],
+      "center_gate_v4_m": [
+        203.421371459961,
+        193.201080322266,
+        193.0439453125
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 34,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.756484985352,
+        255.338455200195,
+        254.829467773438
+      ],
+      "center_gate_v4_m": [
+        193.61491394043,
+        194.057220458984,
+        193.670379638672
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 35,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.581832885742,
+        256.481018066406
+      ],
+      "center_gate_v4_m": [
+        193.482177734375,
+        194.925552368164
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 36,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.470550537109,
+        258.037475585938,
+        276.313781738281,
+        255.552154541016
+      ],
+      "center_gate_v4_m": [
+        193.397598266602,
+        196.108474731445,
+        209.998458862305,
+        194.219619750977
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 37,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.71516418457,
+        254.916259765625
+      ],
+      "center_gate_v4_m": [
+        254.71516418457,
+        254.916259765625
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "cristas_partidas",
+      "region": 38,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.131713867188,
+        254.317260742188,
+        256.165893554688
+      ],
+      "center_gate_v4_m": [
+        193.900085449219,
+        193.281097412109,
+        194.686065673828
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 39,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        258.307098388672,
+        254.785003662109
+      ],
+      "center_gate_v4_m": [
+        196.313385009766,
+        193.636596679688
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 40,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        261.148529052734,
+        268.134979248047,
+        254.767929077148
+      ],
+      "center_gate_v4_m": [
+        261.148529052734,
+        268.134979248047,
+        254.767929077148
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 41,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.736389160156,
+        276.290557861328
+      ],
+      "center_gate_v4_m": [
+        195.879653930664,
+        209.980804443359
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 42,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        282.898284912109
+      ],
+      "center_gate_v4_m": [
+        215.002685546875
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 73,
+      "profile": "cristas_partidas",
+      "region": 43,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.155242919922,
+        254.651428222656
+      ],
+      "center_gate_v4_m": [
+        256.155242919922,
+        254.651428222656
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 44,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.883453369141,
+        280.425506591797,
+        254.520233154297
+      ],
+      "center_gate_v4_m": [
+        256.883453369141,
+        280.425506591797,
+        254.520233154297
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 45,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        255.683212280273,
+        276.086334228516,
+        265.0302734375
+      ],
+      "center_gate_v4_m": [
+        194.319229125977,
+        209.825622558594,
+        201.422988891602
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 46,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        265.643859863281
+      ],
+      "center_gate_v4_m": [
+        201.88932800293
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 47,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.424789428711,
+        254.581832885742,
+        256.315521240234
+      ],
+      "center_gate_v4_m": [
+        254.424789428711,
+        254.581832885742,
+        256.315521240234
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 48,
+      "seed": "816204"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.875228881836,
+        259.745330810547,
+        254.003128051758
+      ],
+      "center_gate_v4_m": [
+        193.705154418945,
+        197.406448364258,
+        193.042358398438
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 30,
+      "profile": "cordilheira_dupla",
+      "region": 49,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.338455200195,
+        254.880950927734
+      ],
+      "center_gate_v4_m": [
+        194.057220458984,
+        193.709518432617
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 50,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.93473815918,
+        256.627380371094
+      ],
+      "center_gate_v4_m": [
+        193.750396728516,
+        195.03678894043
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 62,
+      "profile": "serras_cruzadas",
+      "region": 51,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.56298828125,
+        254.41731262207
+      ],
+      "center_gate_v4_m": [
+        195.747863769531,
+        193.357147216797
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 52,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        264.859313964844,
+        276.313781738281,
+        268.134979248047
+      ],
+      "center_gate_v4_m": [
+        201.293060302734,
+        209.998458862305,
+        203.782562255859
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 53,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        259.403015136719,
+        259.071868896484,
+        255.438735961914,
+        254.456726074219
+      ],
+      "center_gate_v4_m": [
+        259.403015136719,
+        259.071868896484,
+        255.438735961914,
+        254.456726074219
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 54,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.273864746094,
+        254.058822631836,
+        256.341186523438,
+        254.880950927734
+      ],
+      "center_gate_v4_m": [
+        194.768127441406,
+        193.084701538086,
+        194.819290161133,
+        193.709518432617
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 44,
+      "profile": "cristas_partidas",
+      "region": 55,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        267.447296142578,
+        255.552154541016
+      ],
+      "center_gate_v4_m": [
+        203.25993347168,
+        194.219619750977
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 56,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.71516418457,
+        254.93473815918
+      ],
+      "center_gate_v4_m": [
+        193.583511352539,
+        193.750396728516
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 57,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        273.967437744141,
+        256.906799316406
+      ],
+      "center_gate_v4_m": [
+        208.215240478516,
+        195.249145507812
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 58,
+      "seed": "816204"
+    },
+    {
+      "biome": "wetland",
+      "center_gate_c3_m": [
+        259.0732421875,
+        271.312164306641,
+        257.581726074219
+      ],
+      "center_gate_v4_m": [
+        196.895645141602,
+        206.197235107422,
+        195.762115478516
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 110,
+      "profile": "baixios",
+      "region": 59,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        273.305694580078,
+        266.964202880859,
+        254.013870239258
+      ],
+      "center_gate_v4_m": [
+        207.712310791016,
+        202.892776489258,
+        193.050537109375
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 39,
+      "profile": "serras_cruzadas",
+      "region": 60,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.944427490234,
+        254.003753662109,
+        256.481018066406,
+        254.273254394531
+      ],
+      "center_gate_v4_m": [
+        193.757751464844,
+        193.042846679688,
+        194.925552368164,
+        193.247650146484
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 61,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.916259765625,
+        254.160675048828
+      ],
+      "center_gate_v4_m": [
+        193.736343383789,
+        193.162109375
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 62,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.078414916992
+      ],
+      "center_gate_v4_m": [
+        254.078414916992
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 63,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        280.425506591797,
+        276.076965332031
+      ],
+      "center_gate_v4_m": [
+        213.123382568359,
+        209.818466186523
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 64,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.415832519531,
+        254.273254394531,
+        254.078414916992,
+        254.608688354492
+      ],
+      "center_gate_v4_m": [
+        194.116012573242,
+        193.247650146484,
+        193.099578857422,
+        193.502593994141
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 65,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.088989257812,
+        257.746765136719,
+        254.211959838867
+      ],
+      "center_gate_v4_m": [
+        196.907623291016,
+        195.88752746582,
+        193.201080322266
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 66,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.767929077148,
+        265.0302734375
+      ],
+      "center_gate_v4_m": [
+        193.623611450195,
+        201.422988891602
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 67,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        258.851135253906,
+        259.745330810547,
+        257.040588378906
+      ],
+      "center_gate_v4_m": [
+        196.726852416992,
+        197.406448364258,
+        195.350830078125
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 45,
+      "profile": "cristas_partidas",
+      "region": 68,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.41731262207
+      ],
+      "center_gate_v4_m": [
+        254.41731262207
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 69,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        258.619201660156,
+        260.200073242188,
+        256.906799316406
+      ],
+      "center_gate_v4_m": [
+        196.550582885742,
+        197.752029418945,
+        195.249145507812
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 39,
+      "profile": "serras_cruzadas",
+      "region": 70,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        262.604309082031,
+        254.651428222656
+      ],
+      "center_gate_v4_m": [
+        199.57926940918,
+        193.535064697266
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 71,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.366424560547,
+        254.520233154297,
+        254.88069152832
+      ],
+      "center_gate_v4_m": [
+        255.366424560547,
+        254.520233154297,
+        254.88069152832
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 72,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        260.004943847656,
+        255.354370117188
+      ],
+      "center_gate_v4_m": [
+        197.603759765625,
+        194.069305419922
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 73,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        257.337371826172,
+        254.251678466797,
+        254.069778442383
+      ],
+      "center_gate_v4_m": [
+        195.576385498047,
+        193.231262207031,
+        193.093017578125
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 74,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.207885742188,
+        257.040588378906
+      ],
+      "center_gate_v4_m": [
+        256.207885742188,
+        257.040588378906
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 75,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.785003662109,
+        276.290557861328
+      ],
+      "center_gate_v4_m": [
+        254.785003662109,
+        276.290557861328
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 76,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.555084228516,
+        260.780914306641,
+        254.456726074219
+      ],
+      "center_gate_v4_m": [
+        196.501846313477,
+        198.193481445312,
+        193.387100219727
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 77,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.43994140625,
+        256.165893554688,
+        254.445129394531,
+        255.354370117188
+      ],
+      "center_gate_v4_m": [
+        193.37434387207,
+        194.686065673828,
+        193.378280639648,
+        194.069305419922
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 78,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        277.158843994141,
+        263.044158935547,
+        254.000991821289
+      ],
+      "center_gate_v4_m": [
+        210.640716552734,
+        199.913558959961,
+        193.040740966797
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 79,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        262.914886474609,
+        254.005218505859,
+        254.000991821289
+      ],
+      "center_gate_v4_m": [
+        199.815307617188,
+        193.0439453125,
+        193.040740966797
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 80,
+      "seed": "816204"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        260.140289306641,
+        256.315521240234
+      ],
+      "center_gate_v4_m": [
+        197.706619262695,
+        194.799774169922
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 81,
+      "seed": "816204"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        258.323852539062,
+        254.003128051758
+      ],
+      "center_gate_v4_m": [
+        196.326110839844,
+        193.042358398438
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 26,
+      "profile": "cordilheira_dupla",
+      "region": 82,
+      "seed": "816204"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.382171630859,
+        254.160675048828,
+        254.608688354492
+      ],
+      "center_gate_v4_m": [
+        255.382171630859,
+        254.160675048828,
+        254.608688354492
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 83,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.976409912109
+      ],
+      "center_gate_v4_m": [
+        258.976409912109
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 84,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        258.680755615234,
+        255.354263305664
+      ],
+      "center_gate_v4_m": [
+        196.597351074219,
+        194.069229125977
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 63,
+      "profile": "serras_cruzadas",
+      "region": 85,
+      "seed": "816204"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.829467773438,
+        254.88069152832,
+        254.069778442383
+      ],
+      "center_gate_v4_m": [
+        254.829467773438,
+        254.88069152832,
+        254.069778442383
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 86,
+      "seed": "816204"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.627380371094,
+        254.013870239258
+      ],
+      "center_gate_v4_m": [
+        195.03678894043,
+        193.050537109375
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 36,
+      "profile": "escarpas_antigas",
+      "region": 87,
+      "seed": "816204"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.020706176758,
+        256.016357421875
+      ],
+      "center_gate_v4_m": [
+        193.055725097656,
+        194.57243347168
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 0,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.020706176758,
+        261.729095458984
+      ],
+      "center_gate_v4_m": [
+        193.055725097656,
+        198.914093017578
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 1,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        266.407989501953
+      ],
+      "center_gate_v4_m": [
+        266.407989501953
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 2,
+      "seed": "707"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        266.407989501953,
+        254.094360351562
+      ],
+      "center_gate_v4_m": [
+        202.470062255859,
+        193.111694335938
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 22,
+      "profile": "picos_longos",
+      "region": 3,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        261.636962890625
+      ],
+      "center_gate_v4_m": [
+        198.844085693359
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 4,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        261.636962890625,
+        257.278259277344,
+        254.863479614258
+      ],
+      "center_gate_v4_m": [
+        198.844085693359,
+        195.531463623047,
+        193.696228027344
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 5,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.278259277344,
+        260.139892578125
+      ],
+      "center_gate_v4_m": [
+        195.531463623047,
+        197.706298828125
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 6,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        260.139892578125,
+        254.11735534668,
+        254.043151855469
+      ],
+      "center_gate_v4_m": [
+        260.139892578125,
+        254.11735534668,
+        254.043151855469
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 7,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.11735534668,
+        255.182373046875
+      ],
+      "center_gate_v4_m": [
+        193.129180908203,
+        193.938598632812
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 8,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.182373046875,
+        267.032135009766
+      ],
+      "center_gate_v4_m": [
+        193.938598632812,
+        202.944412231445
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 9,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        267.032135009766,
+        263.491668701172
+      ],
+      "center_gate_v4_m": [
+        267.032135009766,
+        263.491668701172
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 10,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.016357421875
+      ],
+      "center_gate_v4_m": [
+        256.016357421875
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 11,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        261.729095458984,
+        254.303237915039,
+        255.099716186523
+      ],
+      "center_gate_v4_m": [
+        198.914093017578,
+        193.270462036133,
+        193.875778198242
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 12,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.303237915039,
+        256.197021484375,
+        257.145355224609
+      ],
+      "center_gate_v4_m": [
+        193.270462036133,
+        194.709716796875,
+        195.430450439453
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 63,
+      "profile": "escarpas_antigas",
+      "region": 13,
+      "seed": "707"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.094360351562,
+        256.197021484375,
+        255.238800048828
+      ],
+      "center_gate_v4_m": [
+        193.111694335938,
+        194.709716796875,
+        193.981475830078
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 23,
+      "profile": "cordilheira_dupla",
+      "region": 14,
+      "seed": "707"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        255.238800048828,
+        255.381774902344
+      ],
+      "center_gate_v4_m": [
+        193.981475830078,
+        194.090148925781
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 36,
+      "profile": "picos_longos",
+      "region": 15,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.863479614258,
+        282.507232666016
+      ],
+      "center_gate_v4_m": [
+        254.863479614258,
+        282.507232666016
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 16,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        282.507232666016,
+        260.446685791016,
+        254.985733032227
+      ],
+      "center_gate_v4_m": [
+        214.705490112305,
+        197.939468383789,
+        193.789154052734
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 17,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.043151855469,
+        260.446685791016,
+        262.551818847656
+      ],
+      "center_gate_v4_m": [
+        193.072784423828,
+        197.939468383789,
+        199.53938293457
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 18,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        262.551818847656,
+        254.181976318359,
+        254.999740600586
+      ],
+      "center_gate_v4_m": [
+        199.53938293457,
+        193.178283691406,
+        193.799789428711
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 19,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.181976318359,
+        264.052764892578,
+        254.308090209961
+      ],
+      "center_gate_v4_m": [
+        193.178283691406,
+        200.680099487305,
+        193.274139404297
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 20,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        263.491668701172,
+        264.052764892578
+      ],
+      "center_gate_v4_m": [
+        200.253646850586,
+        200.680099487305
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 21,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        256.204895019531
+      ],
+      "center_gate_v4_m": [
+        256.204895019531
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 22,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.099716186523,
+        256.204895019531,
+        257.759979248047
+      ],
+      "center_gate_v4_m": [
+        193.875778198242,
+        194.715713500977,
+        195.897567749023
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 23,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        257.759979248047,
+        262.053131103516,
+        254.357437133789
+      ],
+      "center_gate_v4_m": [
+        195.897567749023,
+        199.160354614258,
+        193.311645507812
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 24,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.145355224609,
+        262.053131103516
+      ],
+      "center_gate_v4_m": [
+        257.145355224609,
+        262.053131103516
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 25,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        255.381774902344,
+        255.597137451172,
+        255.820266723633
+      ],
+      "center_gate_v4_m": [
+        255.381774902344,
+        255.597137451172,
+        255.820266723633
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "escarpas_antigas",
+      "region": 26,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.597137451172,
+        254.297164916992
+      ],
+      "center_gate_v4_m": [
+        194.253814697266,
+        193.265838623047
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 27,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.985733032227,
+        254.297164916992,
+        256.749481201172,
+        254.139434814453
+      ],
+      "center_gate_v4_m": [
+        193.789154052734,
+        193.265838623047,
+        195.129592895508,
+        193.145965576172
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 28,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        256.749481201172,
+        255.525192260742,
+        254.041137695312
+      ],
+      "center_gate_v4_m": [
+        195.129592895508,
+        194.199142456055,
+        193.071243286133
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 29,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.999740600586,
+        255.525192260742,
+        254.12873840332,
+        254.848449707031
+      ],
+      "center_gate_v4_m": [
+        193.799789428711,
+        194.199142456055,
+        193.137817382812,
+        193.684814453125
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 30,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.308090209961,
+        254.12873840332,
+        254.081939697266,
+        255.087646484375
+      ],
+      "center_gate_v4_m": [
+        193.274139404297,
+        193.137817382812,
+        193.102249145508,
+        193.866592407227
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 31,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.081939697266,
+        254.033782958984
+      ],
+      "center_gate_v4_m": [
+        254.081939697266,
+        254.033782958984
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 32,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.000473022461,
+        254.014144897461
+      ],
+      "center_gate_v4_m": [
+        193.040344238281,
+        193.050735473633
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 33,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.000473022461,
+        260.650299072266,
+        256.268981933594
+      ],
+      "center_gate_v4_m": [
+        193.040344238281,
+        198.094223022461,
+        194.764404296875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 34,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.357437133789,
+        260.650299072266,
+        255.135604858398
+      ],
+      "center_gate_v4_m": [
+        193.311645507812,
+        198.094223022461,
+        193.903060913086
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 35,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.135604858398
+      ],
+      "center_gate_v4_m": [
+        255.135604858398
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 36,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        255.820266723633,
+        257.246612548828
+      ],
+      "center_gate_v4_m": [
+        194.423400878906,
+        195.507415771484
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 59,
+      "profile": "serras_cruzadas",
+      "region": 37,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        257.246612548828,
+        254.219528198242
+      ],
+      "center_gate_v4_m": [
+        195.507415771484,
+        193.206832885742
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 52,
+      "profile": "cristas_partidas",
+      "region": 38,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.139434814453,
+        266.914947509766
+      ],
+      "center_gate_v4_m": [
+        254.139434814453,
+        266.914947509766
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 39,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.041137695312,
+        257.279418945312,
+        256.0078125,
+        256.0078125
+      ],
+      "center_gate_v4_m": [
+        193.071243286133,
+        195.532333374023,
+        194.56591796875,
+        194.56591796875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 40,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        254.848449707031,
+        257.279418945312,
+        256.380126953125
+      ],
+      "center_gate_v4_m": [
+        254.848449707031,
+        257.279418945312,
+        256.380126953125
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 41,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.087646484375,
+        256.380126953125,
+        254.218902587891,
+        255.814178466797
+      ],
+      "center_gate_v4_m": [
+        193.866592407227,
+        194.848892211914,
+        193.206359863281,
+        194.418762207031
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 42,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.033782958984,
+        254.218902587891,
+        255.273315429688
+      ],
+      "center_gate_v4_m": [
+        193.065673828125,
+        193.206359863281,
+        194.007705688477
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 43,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.014144897461,
+        254.099411010742,
+        258.494842529297
+      ],
+      "center_gate_v4_m": [
+        254.014144897461,
+        254.099411010742,
+        258.494842529297
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 44,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        256.268981933594,
+        254.099411010742,
+        261.034393310547,
+        254.303680419922
+      ],
+      "center_gate_v4_m": [
+        194.764404296875,
+        193.115539550781,
+        198.386138916016,
+        193.270782470703
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 45,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        261.034393310547,
+        277.547576904297
+      ],
+      "center_gate_v4_m": [
+        198.386138916016,
+        210.936141967773
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 46,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        268.705627441406
+      ],
+      "center_gate_v4_m": [
+        268.705627441406
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "prado_escarpado",
+      "region": 47,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        269.730316162109,
+        271.590057373047
+      ],
+      "center_gate_v4_m": [
+        269.730316162109,
+        271.590057373047
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 48,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.219528198242,
+        269.730316162109,
+        254.239273071289
+      ],
+      "center_gate_v4_m": [
+        193.206832885742,
+        204.995025634766,
+        193.22184753418
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 49,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.239273071289,
+        260.168334960938,
+        254.066101074219
+      ],
+      "center_gate_v4_m": [
+        193.22184753418,
+        197.727920532227,
+        193.090225219727
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 43,
+      "profile": "cristas_partidas",
+      "region": 50,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        260.168334960938
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        197.727920532227
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 51,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        278.842041015625,
+        261.174926757812
+      ],
+      "center_gate_v4_m": [
+        211.919937133789,
+        198.492935180664
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 95,
+      "profile": "vale_suave",
+      "region": 52,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.814178466797,
+        261.174926757812,
+        254.440505981445
+      ],
+      "center_gate_v4_m": [
+        194.418762207031,
+        198.492935180664,
+        193.374771118164
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 53,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        255.273315429688,
+        254.440505981445,
+        258.123840332031
+      ],
+      "center_gate_v4_m": [
+        194.007705688477,
+        193.374771118164,
+        196.174102783203
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 54,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.494842529297,
+        256.700042724609
+      ],
+      "center_gate_v4_m": [
+        196.456069946289,
+        195.092010498047
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 55,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.303680419922,
+        256.700042724609,
+        254.375747680664,
+        255.738082885742
+      ],
+      "center_gate_v4_m": [
+        254.303680419922,
+        256.700042724609,
+        254.375747680664,
+        255.738082885742
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 56,
+      "seed": "707"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        254.375747680664,
+        255.749221801758
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        193.325561523438,
+        194.369400024414
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 57,
+      "seed": "707"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        255.749221801758,
+        259.713348388672
+      ],
+      "center_gate_v4_m": [
+        194.369400024414,
+        197.382141113281
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 58,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        259.713348388672,
+        255.27001953125
+      ],
+      "center_gate_v4_m": [
+        197.382141113281,
+        194.00520324707
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 1,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 59,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        271.590057373047,
+        261.586853027344
+      ],
+      "center_gate_v4_m": [
+        206.408447265625,
+        198.805999755859
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 60,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.066101074219,
+        261.586853027344,
+        254.130844116211
+      ],
+      "center_gate_v4_m": [
+        193.090225219727,
+        198.805999755859,
+        193.139434814453
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 48,
+      "profile": "serras_cruzadas",
+      "region": 61,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.130844116211,
+        266.756072998047,
+        254.140167236328
+      ],
+      "center_gate_v4_m": [
+        193.139434814453,
+        202.734588623047,
+        193.146514892578
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 67,
+      "profile": "serras_cruzadas",
+      "region": 62,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        266.756072998047,
+        262.057495117188
+      ],
+      "center_gate_v4_m": [
+        202.734588623047,
+        199.163681030273
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 0,
+      "plants": 60,
+      "profile": "cristas_partidas",
+      "region": 63,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.870025634766,
+        256.0078125,
+        256.0078125
+      ],
+      "center_gate_v4_m": [
+        257.870025634766,
+        256.0078125,
+        256.0078125
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 64,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        258.123840332031,
+        257.870025634766,
+        255.701934814453
+      ],
+      "center_gate_v4_m": [
+        196.174102783203,
+        195.981201171875,
+        194.333465576172
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 65,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.707702636719,
+        254.041549682617
+      ],
+      "center_gate_v4_m": [
+        255.707702636719,
+        254.041549682617
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 66,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.738082885742,
+        255.707702636719,
+        259.544403076172
+      ],
+      "center_gate_v4_m": [
+        194.360931396484,
+        194.337844848633,
+        197.253753662109
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 67,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        259.544403076172,
+        265.464447021484,
+        272.892669677734
+      ],
+      "center_gate_v4_m": [
+        197.253753662109,
+        201.752975463867,
+        207.398406982422
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 68,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        265.464447021484,
+        257.311706542969,
+        263.958709716797
+      ],
+      "center_gate_v4_m": [
+        201.752975463867,
+        195.556884765625,
+        200.608612060547
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 69,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.27001953125,
+        257.311706542969,
+        254.161010742188,
+        254.665710449219
+      ],
+      "center_gate_v4_m": [
+        194.00520324707,
+        195.556884765625,
+        193.162353515625,
+        193.545928955078
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 70,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.161010742188,
+        256.354827880859
+      ],
+      "center_gate_v4_m": [
+        254.161010742188,
+        256.354827880859
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 71,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.579147338867,
+        254.918258666992
+      ],
+      "center_gate_v4_m": [
+        254.579147338867,
+        254.918258666992
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "cristas_partidas",
+      "region": 72,
+      "seed": "707"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.140167236328,
+        254.579147338867,
+        254.99821472168,
+        254.001068115234
+      ],
+      "center_gate_v4_m": [
+        193.146514892578,
+        193.480133056641,
+        193.798629760742,
+        193.040802001953
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 33,
+      "profile": "picos_longos",
+      "region": 73,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        254.99821472168
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        193.798629760742
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 74,
+      "seed": "707"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        280.168090820312,
+        254.54231262207
+      ],
+      "center_gate_v4_m": [
+        212.927734375,
+        193.452133178711
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 75,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.701934814453,
+        254.54231262207,
+        255.225860595703
+      ],
+      "center_gate_v4_m": [
+        194.333465576172,
+        193.452133178711,
+        193.971633911133
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 76,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.041549682617,
+        254.098617553711
+      ],
+      "center_gate_v4_m": [
+        193.071578979492,
+        193.114944458008
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 77,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        272.892669677734,
+        254.098617553711,
+        267.569305419922
+      ],
+      "center_gate_v4_m": [
+        207.398406982422,
+        193.114944458008,
+        203.352661132812
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 78,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        267.569305419922,
+        268.294006347656
+      ],
+      "center_gate_v4_m": [
+        267.569305419922,
+        268.294006347656
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 79,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        263.958709716797,
+        268.294006347656,
+        274.140380859375
+      ],
+      "center_gate_v4_m": [
+        200.608612060547,
+        203.903442382812,
+        208.3466796875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 80,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.665710449219,
+        274.140380859375,
+        260.298370361328
+      ],
+      "center_gate_v4_m": [
+        193.545928955078,
+        208.3466796875,
+        197.826736450195
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 81,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.354827880859,
+        260.298370361328,
+        254.177429199219
+      ],
+      "center_gate_v4_m": [
+        194.829650878906,
+        197.826736450195,
+        193.174835205078
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 82,
+      "seed": "707"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.918258666992,
+        254.177429199219,
+        257.415191650391
+      ],
+      "center_gate_v4_m": [
+        193.737869262695,
+        193.174835205078,
+        195.635528564453
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 53,
+      "profile": "escarpas_antigas",
+      "region": 83,
+      "seed": "707"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.001068115234,
+        257.415191650391,
+        273.868011474609
+      ],
+      "center_gate_v4_m": [
+        193.040802001953,
+        195.635528564453,
+        208.139663696289
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 21,
+      "profile": "picos_longos",
+      "region": 84,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        273.868011474609
+      ],
+      "center_gate_v4_m": [
+        273.868011474609
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 85,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.225860595703,
+        254.286865234375
+      ],
+      "center_gate_v4_m": [
+        193.971633911133,
+        193.258010864258
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 86,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.286865234375
+      ],
+      "center_gate_v4_m": [
+        254.286865234375
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 87,
+      "seed": "707"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        272.088012695312,
+        259.144775390625
+      ],
+      "center_gate_v4_m": [
+        206.786880493164,
+        196.950012207031
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 0,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        272.088012695312,
+        263.950103759766
+      ],
+      "center_gate_v4_m": [
+        272.088012695312,
+        263.950103759766
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 1,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.370666503906
+      ],
+      "center_gate_v4_m": [
+        256.370666503906
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 2,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.370666503906,
+        259.287475585938
+      ],
+      "center_gate_v4_m": [
+        194.841690063477,
+        197.058471679688
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 3,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        259.287475585938,
+        255.010314941406
+      ],
+      "center_gate_v4_m": [
+        197.058471679688,
+        193.807830810547
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 4,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        255.010314941406,
+        255.249038696289
+      ],
+      "center_gate_v4_m": [
+        255.010314941406,
+        255.249038696289
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "serras_cruzadas",
+      "region": 5,
+      "seed": "18026"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        255.249038696289,
+        254.922256469727
+      ],
+      "center_gate_v4_m": [
+        193.989273071289,
+        193.740905761719
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 23,
+      "profile": "cordilheira_dupla",
+      "region": 6,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.082153320312
+      ],
+      "center_gate_v4_m": [
+        256.082153320312
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "serras_cruzadas",
+      "region": 7,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.082153320312,
+        263.824890136719
+      ],
+      "center_gate_v4_m": [
+        194.622421264648,
+        200.506912231445
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 8,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        263.824890136719,
+        260.620941162109,
+        256.0078125,
+        256.0078125
+      ],
+      "center_gate_v4_m": [
+        200.506912231445,
+        198.071914672852,
+        194.56591796875,
+        194.56591796875
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 9,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        260.620941162109,
+        257.034118652344
+      ],
+      "center_gate_v4_m": [
+        198.071914672852,
+        195.345916748047
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 10,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        259.144775390625,
+        254.091461181641
+      ],
+      "center_gate_v4_m": [
+        196.950012207031,
+        193.109497070312
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 11,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        263.950103759766,
+        257.50537109375,
+        258.713745117188
+      ],
+      "center_gate_v4_m": [
+        200.602066040039,
+        195.704071044922,
+        196.622421264648
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 12,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.50537109375,
+        255.161605834961,
+        257.77001953125
+      ],
+      "center_gate_v4_m": [
+        195.704071044922,
+        193.922805786133,
+        195.905212402344
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 13,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.161605834961,
+        254.443145751953,
+        254.107330322266
+      ],
+      "center_gate_v4_m": [
+        193.922805786133,
+        193.37678527832,
+        193.121566772461
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 14,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.443145751953,
+        257.338745117188,
+        257.792816162109
+      ],
+      "center_gate_v4_m": [
+        254.443145751953,
+        257.338745117188,
+        257.792816162109
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 15,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.338745117188,
+        259.076019287109,
+        262.159820556641
+      ],
+      "center_gate_v4_m": [
+        195.577423095703,
+        196.897750854492,
+        199.241455078125
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 16,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        254.922256469727,
+        259.076019287109,
+        254.037322998047,
+        255.016738891602
+      ],
+      "center_gate_v4_m": [
+        193.740905761719,
+        196.897750854492,
+        193.068359375,
+        193.812713623047
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 3,
+      "plants": 61,
+      "profile": "serras_cruzadas",
+      "region": 17,
+      "seed": "18026"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.037322998047
+      ],
+      "center_gate_v4_m": [
+        254.037322998047
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 100,
+      "profile": "cordilheira_dupla",
+      "region": 18,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        270.5087890625,
+        254.000762939453
+      ],
+      "center_gate_v4_m": [
+        270.5087890625,
+        254.000762939453
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 19,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        266.974487304688,
+        254.682846069336
+      ],
+      "center_gate_v4_m": [
+        202.900619506836,
+        193.558944702148
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 1,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 20,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.034118652344,
+        254.682846069336,
+        254.468231201172
+      ],
+      "center_gate_v4_m": [
+        195.345916748047,
+        193.558944702148,
+        193.395843505859
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 21,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.091461181641,
+        254.102249145508,
+        255.923461914062
+      ],
+      "center_gate_v4_m": [
+        254.091461181641,
+        254.102249145508,
+        255.923461914062
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 22,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.713745117188,
+        254.102249145508,
+        254.693069458008
+      ],
+      "center_gate_v4_m": [
+        196.622421264648,
+        193.117691040039,
+        193.56672668457
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 23,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.77001953125,
+        254.693069458008,
+        254.268295288086
+      ],
+      "center_gate_v4_m": [
+        195.905212402344,
+        193.56672668457,
+        193.243881225586
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 24,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.107330322266,
+        254.268295288086,
+        284.136810302734
+      ],
+      "center_gate_v4_m": [
+        193.121566772461,
+        193.243881225586,
+        215.943969726562
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 25,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        261.887969970703,
+        255.86393737793
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        199.03483581543,
+        194.456588745117
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 26,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        262.159820556641,
+        261.887969970703,
+        256.122802734375
+      ],
+      "center_gate_v4_m": [
+        199.241455078125,
+        199.03483581543,
+        194.653305053711
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 27,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.016738891602,
+        263.675109863281,
+        272.881286621094
+      ],
+      "center_gate_v4_m": [
+        193.812713623047,
+        200.393081665039,
+        207.389770507812
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 28,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        263.675109863281,
+        273.533966064453
+      ],
+      "center_gate_v4_m": [
+        200.393081665039,
+        207.885803222656
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 51,
+      "profile": "serras_cruzadas",
+      "region": 29,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.000762939453,
+        273.257751464844
+      ],
+      "center_gate_v4_m": [
+        193.040573120117,
+        207.675872802734
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 30,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        273.257751464844,
+        254.075057983398
+      ],
+      "center_gate_v4_m": [
+        207.675872802734,
+        193.097030639648
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 31,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.468231201172
+      ],
+      "center_gate_v4_m": [
+        254.468231201172
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 32,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        255.923461914062,
+        254.088623046875,
+        254.034423828125
+      ],
+      "center_gate_v4_m": [
+        194.501815795898,
+        193.107345581055,
+        193.066146850586
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 33,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.088623046875,
+        255.727035522461,
+        258.317779541016
+      ],
+      "center_gate_v4_m": [
+        193.107345581055,
+        194.3525390625,
+        196.321502685547
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 34,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        255.727035522461,
+        258.934692382812,
+        261.126373291016
+      ],
+      "center_gate_v4_m": [
+        194.3525390625,
+        196.79035949707,
+        198.456024169922
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 35,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        258.934692382812,
+        254.02360534668,
+        254.268249511719
+      ],
+      "center_gate_v4_m": [
+        258.934692382812,
+        254.02360534668,
+        254.268249511719
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 36,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        255.86393737793,
+        254.02360534668,
+        260.673858642578,
+        257.791046142578
+      ],
+      "center_gate_v4_m": [
+        194.456588745117,
+        193.057922363281,
+        198.112121582031,
+        195.921188354492
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 37,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        260.673858642578,
+        261.710113525391
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        198.112121582031,
+        198.899673461914
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 38,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        273.533966064453,
+        261.710113525391,
+        257.038391113281
+      ],
+      "center_gate_v4_m": [
+        273.533966064453,
+        261.710113525391,
+        257.038391113281
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 39,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        257.038391113281,
+        254.371002197266
+      ],
+      "center_gate_v4_m": [
+        195.349166870117,
+        193.321960449219
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 40,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.292739868164,
+        254.820709228516
+      ],
+      "center_gate_v4_m": [
+        193.262466430664,
+        193.663726806641
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 41,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.075057983398,
+        254.292739868164,
+        254.00276184082,
+        258.207275390625
+      ],
+      "center_gate_v4_m": [
+        193.097030639648,
+        193.262466430664,
+        193.042083740234,
+        196.237503051758
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 42,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.00276184082
+      ],
+      "center_gate_v4_m": [
+        254.00276184082
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 43,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.034423828125,
+        263.918762207031,
+        257.059997558594
+      ],
+      "center_gate_v4_m": [
+        193.066146850586,
+        200.578262329102,
+        195.365585327148
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 44,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        258.317779541016,
+        263.918762207031,
+        257.048553466797,
+        257.143127441406
+      ],
+      "center_gate_v4_m": [
+        258.317779541016,
+        263.918762207031,
+        257.048553466797,
+        257.143127441406
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 45,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        261.126373291016,
+        257.048553466797,
+        259.582672119141
+      ],
+      "center_gate_v4_m": [
+        198.456024169922,
+        195.356887817383,
+        197.282836914062
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 46,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.268249511719,
+        259.582672119141,
+        262.402862548828,
+        264.318450927734
+      ],
+      "center_gate_v4_m": [
+        193.243850708008,
+        197.282836914062,
+        199.426147460938,
+        200.88200378418
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 47,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        257.791046142578,
+        262.402862548828
+      ],
+      "center_gate_v4_m": [
+        195.921188354492,
+        199.426147460938
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 48,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.470687866211,
+        257.335327148438
+      ],
+      "center_gate_v4_m": [
+        193.397720336914,
+        195.574844360352
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 49,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.470687866211,
+        280.643005371094
+      ],
+      "center_gate_v4_m": [
+        254.470687866211,
+        280.643005371094
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 50,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.371002197266,
+        280.643005371094
+      ],
+      "center_gate_v4_m": [
+        193.321960449219,
+        213.288681030273
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 51,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.820709228516,
+        256.769958496094,
+        254.335632324219
+      ],
+      "center_gate_v4_m": [
+        193.663726806641,
+        195.145156860352,
+        193.295074462891
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 52,
+      "seed": "18026"
+    },
+    {
+      "biome": "grassland",
+      "center_gate_c3_m": [
+        258.207275390625,
+        256.769958496094,
+        281.6875
+      ],
+      "center_gate_v4_m": [
+        196.237503051758,
+        195.145156860352,
+        214.082489013672
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 95,
+      "profile": "colinas_onduladas",
+      "region": 53,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        281.6875,
+        254.251754760742
+      ],
+      "center_gate_v4_m": [
+        281.6875,
+        254.251754760742
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 54,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        257.059997558594,
+        256.345123291016
+      ],
+      "center_gate_v4_m": [
+        257.059997558594,
+        256.345123291016
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 55,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.143127441406,
+        256.345123291016,
+        254.02278137207,
+        258.118316650391
+      ],
+      "center_gate_v4_m": [
+        195.428771972656,
+        194.822280883789,
+        193.05729675293,
+        196.169906616211
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 56,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        264.318450927734,
+        254.02278137207,
+        258.675170898438
+      ],
+      "center_gate_v4_m": [
+        200.88200378418,
+        193.05729675293,
+        196.593109130859
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "vale_dos_bambus",
+      "region": 57,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.675170898438,
+        256.334747314453,
+        280.198547363281
+      ],
+      "center_gate_v4_m": [
+        196.593109130859,
+        194.814392089844,
+        212.950897216797
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 58,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        256.334747314453,
+        255.864837646484,
+        254.149032592773
+      ],
+      "center_gate_v4_m": [
+        194.814392089844,
+        194.457260131836,
+        193.153259277344
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 53,
+      "profile": "escarpas_antigas",
+      "region": 59,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        257.335327148438,
+        255.864837646484
+      ],
+      "center_gate_v4_m": [
+        195.574844360352,
+        194.457260131836
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 1,
+      "plants": 53,
+      "profile": "serras_cruzadas",
+      "region": 60,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        269.080261230469,
+        254.034591674805
+      ],
+      "center_gate_v4_m": [
+        204.5009765625,
+        193.066268920898
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 61,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        269.080261230469,
+        254.220031738281
+      ],
+      "center_gate_v4_m": [
+        204.5009765625,
+        193.207229614258
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 62,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.335632324219,
+        254.220031738281,
+        263.328063964844
+      ],
+      "center_gate_v4_m": [
+        254.335632324219,
+        254.220031738281,
+        263.328063964844
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 63,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        263.328063964844,
+        254.032836914062,
+        256.0078125,
+        256.0078125
+      ],
+      "center_gate_v4_m": [
+        200.129318237305,
+        193.06494140625,
+        194.56591796875,
+        194.56591796875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 190,
+      "profile": "bambuzal_serpente",
+      "region": 64,
+      "seed": "18026"
+    },
+    {
+      "biome": "bamboo_forest",
+      "center_gate_c3_m": [
+        254.251754760742,
+        254.032836914062,
+        262.423461914062
+      ],
+      "center_gate_v4_m": [
+        193.231323242188,
+        193.06494140625,
+        199.441818237305
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 190,
+      "profile": "bambu_em_terracos",
+      "region": 65,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.203735351562,
+        258.301849365234
+      ],
+      "center_gate_v4_m": [
+        254.203735351562,
+        258.301849365234
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 66,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.118316650391,
+        254.203735351562
+      ],
+      "center_gate_v4_m": [
+        196.169906616211,
+        193.19482421875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 67,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        280.198547363281
+      ],
+      "center_gate_v4_m": [
+        280.198547363281
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 68,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        275.314483642578,
+        258.219696044922,
+        272.042663574219
+      ],
+      "center_gate_v4_m": [
+        209.238998413086,
+        196.246948242188,
+        206.752410888672
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 3,
+      "plants": 73,
+      "profile": "serras_cruzadas",
+      "region": 69,
+      "seed": "18026"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        254.149032592773,
+        275.314483642578,
+        258.711303710938
+      ],
+      "center_gate_v4_m": [
+        193.153259277344,
+        209.238998413086,
+        196.620574951172
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 2,
+      "plants": 14,
+      "profile": "cordilheira_dupla",
+      "region": 70,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        258.711303710938,
+        256.0078125,
+        256.0078125
+      ],
+      "center_gate_v4_m": [
+        196.620574951172,
+        194.56591796875,
+        194.56591796875
+      ],
+      "errors": [],
+      "kind": "dungeon_approach",
+      "landmarks": 0,
+      "plants": 47,
+      "profile": "cristas_partidas",
+      "region": 71,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        254.034591674805,
+        255.465270996094,
+        256.940338134766
+      ],
+      "center_gate_v4_m": [
+        254.034591674805,
+        255.465270996094,
+        256.940338134766
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 72,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        255.465270996094,
+        258.207427978516,
+        255.828567504883
+      ],
+      "center_gate_v4_m": [
+        194.153594970703,
+        196.23762512207,
+        194.4296875
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 73,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        273.490295410156,
+        258.207427978516,
+        265.445465087891
+      ],
+      "center_gate_v4_m": [
+        207.852615356445,
+        196.23762512207,
+        201.738540649414
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 74,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        261.4521484375,
+        254.920913696289,
+        260.941741943359
+      ],
+      "center_gate_v4_m": [
+        261.4521484375,
+        254.920913696289,
+        260.941741943359
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 75,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        262.423461914062,
+        254.920913696289,
+        256.268371582031
+      ],
+      "center_gate_v4_m": [
+        199.441818237305,
+        193.739883422852,
+        194.763961791992
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 76,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        258.301849365234,
+        262.899810791016
+      ],
+      "center_gate_v4_m": [
+        196.309387207031,
+        199.803848266602
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 77,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        262.899810791016,
+        256.919921875
+      ],
+      "center_gate_v4_m": [
+        199.803848266602,
+        195.259124755859
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 180,
+      "profile": "mata_em_ilhas",
+      "region": 78,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.919921875
+      ],
+      "center_gate_v4_m": [
+        256.919921875
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 79,
+      "seed": "18026"
+    },
+    {
+      "biome": "alpine",
+      "center_gate_c3_m": [
+        258.219696044922
+      ],
+      "center_gate_v4_m": [
+        196.246948242188
+      ],
+      "errors": [],
+      "kind": "ruins",
+      "landmarks": 0,
+      "plants": 11,
+      "profile": "vale_alpino",
+      "region": 80,
+      "seed": "18026"
+    },
+    {
+      "biome": "rocky_highlands",
+      "center_gate_c3_m": [
+        272.042663574219,
+        273.662322998047
+      ],
+      "center_gate_v4_m": [
+        272.042663574219,
+        273.662322998047
+      ],
+      "errors": [],
+      "kind": "settlement",
+      "landmarks": 0,
+      "plants": 95,
+      "profile": "serras_cruzadas",
+      "region": 81,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        257.510467529297,
+        254.402420043945
+      ],
+      "center_gate_v4_m": [
+        195.707946777344,
+        193.345825195312
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "bosques_mosaico",
+      "region": 82,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.940338134766,
+        254.402420043945,
+        262.774536132812
+      ],
+      "center_gate_v4_m": [
+        195.274642944336,
+        193.345825195312,
+        199.708633422852
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 83,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        255.828567504883,
+        262.774536132812,
+        254.000671386719
+      ],
+      "center_gate_v4_m": [
+        194.4296875,
+        199.708633422852,
+        193.040512084961
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 3,
+      "plants": 180,
+      "profile": "bosque_de_encosta",
+      "region": 84,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        254.000671386719,
+        263.135284423828
+      ],
+      "center_gate_v4_m": [
+        193.040512084961,
+        199.982803344727
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "colinas_folhosas",
+      "region": 85,
+      "seed": "18026"
+    },
+    {
+      "biome": "temperate_forest",
+      "center_gate_c3_m": [
+        256.0078125,
+        256.0078125,
+        263.135284423828,
+        254.000198364258
+      ],
+      "center_gate_v4_m": [
+        194.56591796875,
+        194.56591796875,
+        199.982803344727,
+        193.040145874023
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 4,
+      "plants": 180,
+      "profile": "clareiras_do_vale",
+      "region": 86,
+      "seed": "18026"
+    },
+    {
+      "biome": "mixed_woodland",
+      "center_gate_c3_m": [
+        256.268371582031,
+        254.000198364258
+      ],
+      "center_gate_v4_m": [
+        194.763961791992,
+        193.040145874023
+      ],
+      "errors": [],
+      "kind": "wild",
+      "landmarks": 2,
+      "plants": 175,
+      "profile": "vale_de_copas",
+      "region": 87,
+      "seed": "18026"
+    }
+  ],
+  "topology": "88 nodes, original portal/rivers preserved"
+}

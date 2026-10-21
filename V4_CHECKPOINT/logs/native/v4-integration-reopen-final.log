@@ -1,0 +1,49 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+V4_CHECK core_boot true
+V4_CHECK service_city_forge.plans true
+V4_CHECK service_crowd.illusion true
+V4_CHECK service_content.library true
+V4_CHECK service_economy true
+V4_CHECK service_skill_forge true
+V4_CHECK service_npc03.agenda true
+V4_CHECK service_interior_forge.candidates true
+V4_CHECK service_exo_vfx_forge true
+V4_LIBRARY {"counts":{"appearance_theme":12,"audio_theme":12,"ballot_rule":12,"biome_identity":8,"civic_institution":18,"climate_phenomenon":14,"commodity_flow":16,"conflict_spark":15,"council_motion":24,"craft_tradition":12,"crowd_scene":12,"dialogue_tone":12,"diplomatic_offer":12,"dungeon_chamber":17,"dungeon_complication":15,"dungeon_theme":10,"ecological_pressure":12,"economy_theme":12,"election_campaign":16,"encounter_theme":12,"event_outcome":15,"evidence_class":12,"faction_agenda":16,"historical_chronicle":18,"interior_scene_hint":10,"landmark_theme":12,"loot_theme":12,"lore_fragment":20,"martial_legend":12,"martial_trial":16,"name_family":30,"name_given":32,"narrative_motif":16,"npc_archetype":20,"npc_background":20,"npc_motivation":20,"npc_relationship_seed":16,"npc_secret":16,"parallel_arc":96,"peace_treaty":12,"personality":6,"quest_pattern":7,"quest_seed":10,"ref_bestiary_humanoids":8,"ref_bestiary_species":16,"ref_city_blueprints":5,"ref_city_districts":36,"ref_city_landmarks":10,"ref_city_profiles":8,"ref_city_social_profiles":8,"ref_economy_goods":12,"ref_item_affixes":17,"ref_item_materials":7,"ref_item_rarities":6,"ref_martial_schools":9,"ref_martial_styles":12,"ref_martial_techniques":16,"ref_narrative_factions":6,"region_legacy":16,"region_tension":15,"region_theme":12,"regional_policy":12,"revolution_cause":20,"rumor":20,"rumor_source":12,"settlement_service":16,"settlement_theme":12,"shrine_belief":10,"social_custom":16,"story_arc":48,"technique_affinity":14,"terrain_texture":36,"travel_incident":14,"war_casus":30,"world_consequence":12,"world_event":20},"domains":76,"errors":[],"integration":"NOT_WIRED","loaded":true,"read_only":true,"records":1228}
+V4_CHECK library_r4_1228_76 true
+V4_CHECK economy_creator_seed_survives true
+V4_CHECK vfx_untrusted_blocked true
+V4_CHECK 168_skills_blocked true
+V4_CITY {}
+V4_CROWD_GEOMETRY {"ok":true,"revision":"9939d60ad6314f4ba9ac7ea729f8bfe2a15d3917f2875ca790439ffc6599901b","samples":1372,"zones":4}
+V4_CROWD_ATTACH {"ghosts":16,"independent":true,"ok":true,"region_id":78,"source":"city_forge_authorized_geometry","urban_areas":{},"zones":4}
+V4_CROWD_STATUS {"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":16,"hour":10,"last_region_event":78,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":78,"visible":12,"zones":4}
+V4_CHECK trade_receipts_reopen true
+V4_CHECK physical_existing_merchant true
+V4_VENDOR npc/r78/r78_l002 (-22.12233, 18.02054, -43.85606)
+V4_CHECK physical_merchant_ui true
+V4_CHECK real_shop_quote true
+V4_TRADE { "ok": true, "duplicate": false, "committed": true, "receipt": "trade/qa_8591863", "wallet_after": 9731, "total_wen": 133, "vendor_revision": 1 }
+V4_CHECK buy_atomic true
+V4_CHECK duplicate_exactly_once true
+V4_CHECK stale_quote_rollback true
+V4_CHECK second_trade_existing_shop true
+V4_CHECK trade_save_failure_rollback true
+V4_CHECK trade_save_failure_disk true
+V4_CHECK insufficient_funds_rollback true
+V4_CHECK inventory24_rollback true
+V4_CHECK trade_after_failure true
+V4_CHECK legacy_coins_preserved true
+V4_CHECK receipt_collision true
+V4_CHECK merchant_distance_denied true
+V4_CHECK v4_save true
+WARNING: EXO City Forge R4 opt-in safely kept original plan: ["river_conflict:orthogonal_market/s08"]
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] try_decorate (res://exo_city_forge/adapters/host_work_opt_in.gd:14)
+         [1] _init (res://genesis/region_data.gd:89)
+         [2] change_region (res://convergence/game.gd:167)
+         [3] run (res://convergence/tests/qa_v4_integration.gd:107)
+V4_CHECK v4_failed_travel true
+V4_CHECK crowd_preserved_failed_travel true
+V4_RESULT {"checks":32,"failures":[],"reopen":true}

@@ -1,0 +1,200 @@
+[
+  {
+    "file": "assets/exo_audio/eco_eco_boss.ogg",
+    "duration_s": 0.512,
+    "peak_db": 0.09,
+    "rms_db": -14.67
+  },
+  {
+    "file": "assets/exo_audio/eco_eco_fogo.ogg",
+    "duration_s": 0.689,
+    "peak_db": -0.52,
+    "rms_db": -19.14
+  },
+  {
+    "file": "assets/exo_audio/eco_eco_gelo.ogg",
+    "duration_s": 0.319,
+    "peak_db": 0.64,
+    "rms_db": -26.75
+  },
+  {
+    "file": "assets/exo_audio/eco_eco_miniboss.ogg",
+    "duration_s": 0.284,
+    "peak_db": 0.1,
+    "rms_db": -17.35
+  },
+  {
+    "file": "assets/exo_audio/energy_impact.ogg",
+    "duration_s": 1.2,
+    "peak_db": -2.84,
+    "rms_db": -17.04
+  },
+  {
+    "file": "assets/exo_audio/spell_charge.ogg",
+    "duration_s": 0.646,
+    "peak_db": -3.16,
+    "rms_db": -11.17
+  },
+  {
+    "file": "assets/exo_audio/spell_impact.ogg",
+    "duration_s": 0.356,
+    "peak_db": -5.27,
+    "rms_db": -19.15
+  },
+  {
+    "file": "assets/exo_audio/summon_call.ogg",
+    "duration_s": 0.796,
+    "peak_db": -3.88,
+    "rms_db": -16.56
+  },
+  {
+    "file": "assets/exo_audio/wind_break.ogg",
+    "duration_s": 0.797,
+    "peak_db": -3.5,
+    "rms_db": -21.74
+  },
+  {
+    "file": "assets/foley/bookFlip1.ogg",
+    "duration_s": 0.769,
+    "peak_db": 3.21,
+    "rms_db": -27.07
+  },
+  {
+    "file": "assets/foley/bow_release_1.ogg",
+    "duration_s": 0.237,
+    "peak_db": -0.66,
+    "rms_db": -27.92
+  },
+  {
+    "file": "assets/foley/bow_release_2.ogg",
+    "duration_s": 0.277,
+    "peak_db": -2.63,
+    "rms_db": -26.4
+  },
+  {
+    "file": "assets/foley/cloth1.ogg",
+    "duration_s": 0.661,
+    "peak_db": -1.16,
+    "rms_db": -23.66
+  },
+  {
+    "file": "assets/foley/cloth2.ogg",
+    "duration_s": 0.415,
+    "peak_db": -7.54,
+    "rms_db": -26.6
+  },
+  {
+    "file": "assets/foley/cloth3.ogg",
+    "duration_s": 0.477,
+    "peak_db": -8.66,
+    "rms_db": -27.64
+  },
+  {
+    "file": "assets/foley/drawKnife1.ogg",
+    "duration_s": 0.4,
+    "peak_db": -23.45,
+    "rms_db": -42.64
+  },
+  {
+    "file": "assets/foley/footstep00.ogg",
+    "duration_s": 0.249,
+    "peak_db": 2.15,
+    "rms_db": -17.98
+  },
+  {
+    "file": "assets/foley/footstep01.ogg",
+    "duration_s": 0.282,
+    "peak_db": 3.01,
+    "rms_db": -16.56
+  },
+  {
+    "file": "assets/foley/footstep02.ogg",
+    "duration_s": 0.242,
+    "peak_db": 0.66,
+    "rms_db": -20.32
+  },
+  {
+    "file": "assets/foley/footstep03.ogg",
+    "duration_s": 0.269,
+    "peak_db": 3.13,
+    "rms_db": -17.61
+  },
+  {
+    "file": "assets/foley/impactMetal_light_000.ogg",
+    "duration_s": 0.373,
+    "peak_db": 2.05,
+    "rms_db": -18.05
+  },
+  {
+    "file": "assets/foley/impactMetal_medium_000.ogg",
+    "duration_s": 0.269,
+    "peak_db": 1.83,
+    "rms_db": -18.54
+  },
+  {
+    "file": "assets/foley/impactPunch_heavy_000.ogg",
+    "duration_s": 0.649,
+    "peak_db": 2.04,
+    "rms_db": -14.97
+  },
+  {
+    "file": "assets/foley/impactPunch_heavy_001.ogg",
+    "duration_s": 0.536,
+    "peak_db": 1.83,
+    "rms_db": -14.47
+  },
+  {
+    "file": "assets/foley/impactPunch_medium_000.ogg",
+    "duration_s": 0.431,
+    "peak_db": 1.9,
+    "rms_db": -14.17
+  },
+  {
+    "file": "assets/foley/impactPunch_medium_001.ogg",
+    "duration_s": 0.402,
+    "peak_db": 1.87,
+    "rms_db": -13.85
+  },
+  {
+    "file": "assets/foley/impactSoft_heavy_000.ogg",
+    "duration_s": 0.527,
+    "peak_db": 2.09,
+    "rms_db": -14.4
+  },
+  {
+    "file": "assets/foley/impactSoft_medium_000.ogg",
+    "duration_s": 0.115,
+    "peak_db": 2.05,
+    "rms_db": -11.22
+  },
+  {
+    "file": "assets/foley/impactSoft_medium_001.ogg",
+    "duration_s": 0.18,
+    "peak_db": 2.08,
+    "rms_db": -11.84
+  },
+  {
+    "file": "assets/foley/impactWood_medium_000.ogg",
+    "duration_s": 0.33,
+    "peak_db": 1.96,
+    "rms_db": -19.55
+  },
+  {
+    "file": "assets/foley/knifeSlice.ogg",
+    "duration_s": 0.6,
+    "peak_db": -0.13,
+    "rms_db": -19.15
+  },
+  {
+    "file": "assets/foley/knifeSlice2.ogg",
+    "duration_s": 0.569,
+    "peak_db": 3.23,
+    "rms_db": -16.78
+  },
+  {
+    "file": "assets/foley/metalLatch.ogg",
+    "duration_s": 0.261,
+    "peak_db": 2.92,
+    "rms_db": -19.15
+  }
+]

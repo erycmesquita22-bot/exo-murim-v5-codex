@@ -1,0 +1,266 @@
+{
+  "domain": "ref_city_landmarks",
+  "records": [
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_bell_tower",
+      "label": "Torre do Sino",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "84e049250ca352d1a1651c7754c08e95e4f3c8e5ce1bc53996eec498ad96efa3",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "bell_tower",
+        "source_path": "exo_city_forge/libraries/landmarks/bell_tower.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_clan_banner",
+      "label": "Estandarte do Clã",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "ccd22f5b67d934b2007ef8724fad889f9deb23f25161ae189060fc732f8cce24",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "clan_banner",
+        "source_path": "exo_city_forge/libraries/landmarks/clan_banner.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_clan_memorial",
+      "label": "Memorial das Famílias",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "76be2833ed0e78a89eda6f38e78809ef2c8dd6e66501e9fdb009184850ca84b8",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "clan_memorial",
+        "source_path": "exo_city_forge/libraries/landmarks/clan_memorial.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_jade_fountain",
+      "label": "Fonte de Jade",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "6360833304a5b4e87944fb1aad26d998f9b465c581e4a100ff8718c2b1e0341a",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "jade_fountain",
+        "source_path": "exo_city_forge/libraries/landmarks/jade_fountain.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_lantern_arch",
+      "label": "Arco de Lanternas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "b615cad5774a7d54c14e9371bc9405a80751114a71f2dbd1dca980adeeeeefca",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "lantern_arch",
+        "source_path": "exo_city_forge/libraries/landmarks/lantern_arch.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_market_pavilion",
+      "label": "Pavilhão do Mercado",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "9043e7bdb04773706d2361867439f56b2f5f1586d0d852b5517c7bea4bc1ed72",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "market_pavilion",
+        "source_path": "exo_city_forge/libraries/landmarks/market_pavilion.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_martial_stela",
+      "label": "Estela Marcial",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "8a4f79ce92f07f4189db17ab6aa6c83bc7dad65718d62fc3b72b1a461a6a0b1a",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "martial_stela",
+        "source_path": "exo_city_forge/libraries/landmarks/martial_stela.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_roadside_torii",
+      "label": "Portal da Estrada",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "61acae9a6d32de66db9d61effc4d3fa59ced59bcc3cbf04909dc4a8976d4c824",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "roadside_torii",
+        "source_path": "exo_city_forge/libraries/landmarks/roadside_torii.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_stone_gate",
+      "label": "Portão de Pedra",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "7e86f751417717ab32ca13b4f3e329a9a008483cf20dc05ddc7000c4828e30d9",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "stone_gate",
+        "source_path": "exo_city_forge/libraries/landmarks/stone_gate.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_landmarks",
+      "excludes": [],
+      "id": "ref_city_landmarks/ref_tea_stage",
+      "label": "Palco de Contos",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "6f534beafad02e2fde5080da9f24ae3f3c0806ff42e9115936620f570a8b9fb6",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "tea_stage",
+        "source_path": "exo_city_forge/libraries/landmarks/tea_stage.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

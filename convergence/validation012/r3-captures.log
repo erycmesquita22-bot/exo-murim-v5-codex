@@ -1,0 +1,32 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+CHECK create_character true
+CHECK enter_86: true
+CHECK png_01-Aldeia-e-Moradores-R3 true
+CAPTURE 1 01-Aldeia-e-Moradores-R3
+CHECK enter_15: true
+CHECK png_02-Vila-R3 true
+CAPTURE 2 02-Vila-R3
+CHECK enter_78: true
+CHECK png_03-Escola-Marcial-R3 true
+CAPTURE 3 03-Escola-Marcial-R3
+CHECK enter_52: true
+CHECK ecology_territories_planned true
+CHECK territory_offscreen_before_spawn true
+CHECK native_enemy_spawn true
+CHECK active_enemy_budget true
+CHECK physical_enemy_patrol true
+CHECK png_04-Territorio-e-Patrulha-R3 true
+CAPTURE 4 04-Territorio-e-Patrulha-R3
+CHECK regional_enemy_attack true
+CHECK png_05-Encontro-Regional-R3 true
+CAPTURE 5 05-Encontro-Regional-R3
+CHECK enter_46: true
+CHECK png_06-Montanhas-e-Trilhas-R3 true
+CAPTURE 6 06-Montanhas-e-Trilhas-R3
+CHECK save_native_session true
+CHECK reload_session_json true
+R3_VISIT_COMPLETE captures=6 failures=[]

@@ -1,0 +1,930 @@
+{
+  "baseline": {
+    "module_count": 18,
+    "sha256": "abe7b5736140d91153e0e6f9343ef443d9ca526f78b636361355b2d895cb69f9",
+    "source": "EXO-MURIM-CONVERGENCIA-03-WORK-CANDIDATO-01.zip",
+    "status": "REFERENCE_ONLY_UNVERIFIED_RUNTIME"
+  },
+  "catalog_selection_algorithm": "0.3.0 pinned for legacy IDs",
+  "catalogs": [
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "appearance_theme",
+      "path": "res://exo_world_library/data/appearance_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "audio_theme",
+      "path": "res://exo_world_library/data/audio_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "ballot_rule",
+      "path": "res://exo_world_library/data/ballot_rule.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 8,
+      "domain": "biome_identity",
+      "path": "res://exo_world_library/data/biome_identity.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 18,
+      "domain": "civic_institution",
+      "path": "res://exo_world_library/data/civic_institution.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 14,
+      "domain": "climate_phenomenon",
+      "path": "res://exo_world_library/data/climate_phenomenon.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "commodity_flow",
+      "path": "res://exo_world_library/data/commodity_flow.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 15,
+      "domain": "conflict_spark",
+      "path": "res://exo_world_library/data/conflict_spark.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 24,
+      "domain": "council_motion",
+      "path": "res://exo_world_library/data/council_motion.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "craft_tradition",
+      "path": "res://exo_world_library/data/craft_tradition.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "crowd_scene",
+      "path": "res://exo_world_library/data/crowd_scene.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "dialogue_tone",
+      "path": "res://exo_world_library/data/dialogue_tone.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "diplomatic_offer",
+      "path": "res://exo_world_library/data/diplomatic_offer.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 17,
+      "domain": "dungeon_chamber",
+      "path": "res://exo_world_library/data/dungeon_chamber.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 15,
+      "domain": "dungeon_complication",
+      "path": "res://exo_world_library/data/dungeon_complication.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 10,
+      "domain": "dungeon_theme",
+      "path": "res://exo_world_library/data/dungeon_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "ecological_pressure",
+      "path": "res://exo_world_library/data/ecological_pressure.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "economy_theme",
+      "path": "res://exo_world_library/data/economy_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "election_campaign",
+      "path": "res://exo_world_library/data/election_campaign.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "encounter_theme",
+      "path": "res://exo_world_library/data/encounter_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 15,
+      "domain": "event_outcome",
+      "path": "res://exo_world_library/data/event_outcome.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "evidence_class",
+      "path": "res://exo_world_library/data/evidence_class.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "faction_agenda",
+      "path": "res://exo_world_library/data/faction_agenda.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 18,
+      "domain": "historical_chronicle",
+      "path": "res://exo_world_library/data/historical_chronicle.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 10,
+      "domain": "interior_scene_hint",
+      "path": "res://exo_world_library/data/interior_scene_hint.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "landmark_theme",
+      "path": "res://exo_world_library/data/landmark_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "loot_theme",
+      "path": "res://exo_world_library/data/loot_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "lore_fragment",
+      "path": "res://exo_world_library/data/lore_fragment.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "martial_legend",
+      "path": "res://exo_world_library/data/martial_legend.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "martial_trial",
+      "path": "res://exo_world_library/data/martial_trial.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 30,
+      "domain": "name_family",
+      "path": "res://exo_world_library/data/name_family.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 32,
+      "domain": "name_given",
+      "path": "res://exo_world_library/data/name_given.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "narrative_motif",
+      "path": "res://exo_world_library/data/narrative_motif.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "npc_archetype",
+      "path": "res://exo_world_library/data/npc_archetype.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "npc_background",
+      "path": "res://exo_world_library/data/npc_background.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "npc_motivation",
+      "path": "res://exo_world_library/data/npc_motivation.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "npc_relationship_seed",
+      "path": "res://exo_world_library/data/npc_relationship_seed.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "npc_secret",
+      "path": "res://exo_world_library/data/npc_secret.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 96,
+      "domain": "parallel_arc",
+      "path": "res://exo_world_library/data/parallel_arc.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "peace_treaty",
+      "path": "res://exo_world_library/data/peace_treaty.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 6,
+      "domain": "personality",
+      "path": "res://exo_world_library/data/personality.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 7,
+      "domain": "quest_pattern",
+      "path": "res://exo_world_library/data/quest_pattern.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 10,
+      "domain": "quest_seed",
+      "path": "res://exo_world_library/data/quest_seed.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 8,
+      "domain": "ref_bestiary_humanoids",
+      "path": "res://exo_world_library/data/ref_bestiary_humanoids.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 16,
+      "domain": "ref_bestiary_species",
+      "path": "res://exo_world_library/data/ref_bestiary_species.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 5,
+      "domain": "ref_city_blueprints",
+      "path": "res://exo_world_library/data/ref_city_blueprints.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 36,
+      "domain": "ref_city_districts",
+      "path": "res://exo_world_library/data/ref_city_districts.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 10,
+      "domain": "ref_city_landmarks",
+      "path": "res://exo_world_library/data/ref_city_landmarks.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 8,
+      "domain": "ref_city_profiles",
+      "path": "res://exo_world_library/data/ref_city_profiles.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 8,
+      "domain": "ref_city_social_profiles",
+      "path": "res://exo_world_library/data/ref_city_social_profiles.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 12,
+      "domain": "ref_economy_goods",
+      "path": "res://exo_world_library/data/ref_economy_goods.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 17,
+      "domain": "ref_item_affixes",
+      "path": "res://exo_world_library/data/ref_item_affixes.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 7,
+      "domain": "ref_item_materials",
+      "path": "res://exo_world_library/data/ref_item_materials.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 6,
+      "domain": "ref_item_rarities",
+      "path": "res://exo_world_library/data/ref_item_rarities.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 9,
+      "domain": "ref_martial_schools",
+      "path": "res://exo_world_library/data/ref_martial_schools.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 12,
+      "domain": "ref_martial_styles",
+      "path": "res://exo_world_library/data/ref_martial_styles.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 16,
+      "domain": "ref_martial_techniques",
+      "path": "res://exo_world_library/data/ref_martial_techniques.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 6,
+      "domain": "ref_narrative_factions",
+      "path": "res://exo_world_library/data/ref_narrative_factions.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "region_legacy",
+      "path": "res://exo_world_library/data/region_legacy.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 15,
+      "domain": "region_tension",
+      "path": "res://exo_world_library/data/region_tension.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "region_theme",
+      "path": "res://exo_world_library/data/region_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "regional_policy",
+      "path": "res://exo_world_library/data/regional_policy.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "revolution_cause",
+      "path": "res://exo_world_library/data/revolution_cause.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "rumor",
+      "path": "res://exo_world_library/data/rumor.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "rumor_source",
+      "path": "res://exo_world_library/data/rumor_source.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "settlement_service",
+      "path": "res://exo_world_library/data/settlement_service.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "settlement_theme",
+      "path": "res://exo_world_library/data/settlement_theme.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 10,
+      "domain": "shrine_belief",
+      "path": "res://exo_world_library/data/shrine_belief.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 16,
+      "domain": "social_custom",
+      "path": "res://exo_world_library/data/social_custom.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 48,
+      "domain": "story_arc",
+      "path": "res://exo_world_library/data/story_arc.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 14,
+      "domain": "technique_affinity",
+      "path": "res://exo_world_library/data/technique_affinity.json"
+    },
+    {
+      "authority": "source_owner_read_only",
+      "count": 36,
+      "domain": "terrain_texture",
+      "path": "res://exo_world_library/data/terrain_texture.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 14,
+      "domain": "travel_incident",
+      "path": "res://exo_world_library/data/travel_incident.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 30,
+      "domain": "war_casus",
+      "path": "res://exo_world_library/data/war_casus.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 12,
+      "domain": "world_consequence",
+      "path": "res://exo_world_library/data/world_consequence.json"
+    },
+    {
+      "authority": "world_content_library",
+      "count": 20,
+      "domain": "world_event",
+      "path": "res://exo_world_library/data/world_event.json"
+    }
+  ],
+  "coherence_policy": "res://exo_world_library/contracts/coherence_policy.json",
+  "integration_mode": "read_only_candidate_not_registered",
+  "known_ownership": {
+    "NPC identity": "living_world",
+    "crowd": "exo_crowd_illusion",
+    "dungeons": "dungeon_genesis",
+    "economy": "exo_economy",
+    "items": "inventory + exo_items",
+    "martial": "exo_martial",
+    "narrative facts": "narrative",
+    "quests": "journey",
+    "save": "persistence / JourneySave + SaveCoordinator",
+    "urban plans": "exo_city_forge",
+    "world": "world / WorldGenesis"
+  },
+  "merged_into_C3": false,
+  "module_id": "world_content_library",
+  "native_godot_qa": "NOT_RUN",
+  "optional": {
+    "appearance": "1.0.0",
+    "architecture": "1.2.0",
+    "bestiary": "2.0.0",
+    "dungeon_genesis": "0.4.0",
+    "exo_items": "2.0.2",
+    "exo_martial": "1.2.0",
+    "inventory": "1.0.0",
+    "living_world": "1.0.0",
+    "martial_catalog": "1.0.0",
+    "narrative": "1.0.0",
+    "world": "1.0.0"
+  },
+  "r3_additive_provenance": {
+    "based_on_archive": "EXO-MURIM-BIBLIOTECA-UNIVERSAL-01-R2.zip",
+    "content_policy": "new canon-compatible authored records; no prior records removed",
+    "godot_native_QA": "NOT_RUN",
+    "narrative_story_instances": "owned_by_narrative_host",
+    "source_sha256": "4d2b587b55c3a4149a499e6e57a7e7c3fea0567195ed06cc64a117e60ee50bef",
+    "war_election_engines": "not_implemented"
+  },
+  "read_only": true,
+  "release_overlays": [
+    "R4_BRIDGES_COERENCE_NARRATIVE"
+  ],
+  "requires": {},
+  "schema": "exo.world_library.manifest.v1",
+  "service_proposal": "content.library",
+  "source_catalogs": [
+    {
+      "domain": "ref_martial_schools",
+      "source_archive": "C3_R13_1",
+      "source_count": 9,
+      "source_owner": "exo_martial",
+      "source_path": "exo_martial/data/schools.json",
+      "source_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532"
+    },
+    {
+      "domain": "ref_martial_styles",
+      "source_archive": "C3_R13_1",
+      "source_count": 12,
+      "source_owner": "exo_martial",
+      "source_path": "exo_martial/data/styles.json",
+      "source_sha256": "6007082c6cde60709587cc61821ba6e4ee473ab121b7b22af9f06bfb0d3d2dac"
+    },
+    {
+      "domain": "ref_martial_techniques",
+      "source_archive": "C3_R13_1",
+      "source_count": 16,
+      "source_owner": "exo_martial",
+      "source_path": "exo_martial/data/techniques.json",
+      "source_sha256": "fcd3170dd86fae52f610458f892cba9519656f4af4fd264d9aa50eedf292de42"
+    },
+    {
+      "domain": "ref_bestiary_species",
+      "source_archive": "C3_R13_1",
+      "source_count": 16,
+      "source_owner": "bestiary",
+      "source_path": "exo_bestiary/data/species.json",
+      "source_sha256": "39e10cc99482080cb8bbb5ad87b27e1d01bfacc51036b09c706c4e0f655aa593"
+    },
+    {
+      "domain": "ref_bestiary_humanoids",
+      "source_archive": "C3_R13_1",
+      "source_count": 8,
+      "source_owner": "bestiary",
+      "source_path": "exo_bestiary/data/humanoids.json",
+      "source_sha256": "5c0a2705df902387c92724e03f0000901f9c2dc71ba1dbad2b54494ec212822b"
+    },
+    {
+      "domain": "ref_item_materials",
+      "source_archive": "C3_R13_1",
+      "source_count": 7,
+      "source_owner": "exo_items",
+      "source_path": "exo_items/data/materials.json",
+      "source_sha256": "928415236ac608d78b704f590c32dddba09e7fbc59ee91e18a188881e0442508"
+    },
+    {
+      "domain": "ref_item_rarities",
+      "source_archive": "C3_R13_1",
+      "source_count": 6,
+      "source_owner": "exo_items",
+      "source_path": "exo_items/data/rarities.json",
+      "source_sha256": "25ca2f103e58519bccb193c774c5745e01c70dc1c80e7e9822f5148da5967298"
+    },
+    {
+      "domain": "ref_item_affixes",
+      "source_archive": "C3_R13_1",
+      "source_count": 17,
+      "source_owner": "exo_items",
+      "source_path": "exo_items/data/affixes.json",
+      "source_sha256": "2c43a9a53dc8afa095aa9e5b499589a86210bd5995b2c6b848e20c5ed0354fd8"
+    },
+    {
+      "domain": "ref_narrative_factions",
+      "source_archive": "C3_R13_1",
+      "source_count": 6,
+      "source_owner": "narrative",
+      "source_path": "narrative/data/factions.json",
+      "source_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/art_pottery_furnaces.json",
+      "source_sha256": "d5f46bff704d13006a27b8560cca875aa8d0a7c63aadcae3cb01d25809e2be0d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/art_smiths.json",
+      "source_sha256": "38d3cd9de756e634be49daa0bd22dda2bb0dd04744601d4a001e43d7fe90bb7c"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_bazaar.json",
+      "source_sha256": "e5a82c0df508e5db2fb84019258dbd4f2328a1a340226a89c1fee21fe0aaa7e0"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_caravan.json",
+      "source_sha256": "709b8d78b6f0f25e51853fb8e48331f879ae4fa5f323dab0fc9a5a101b13afb6"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_dye_docks.json",
+      "source_sha256": "a2b06691121d48ee2592b7e2a2976dbfbbe4c40429fd095432976a845e9d661d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_herb_lane.json",
+      "source_sha256": "a8976a453b5975f9155a8712053e5ce0f9b214613794c8e15b5e5fd2a50fc708"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_medicinal_exchange.json",
+      "source_sha256": "a20848a88c9f7015835de3c2f47ce4d3b9c252fb20455e239bfdb8116a716abc"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_silk_arcade.json",
+      "source_sha256": "79734cf8b5a87d6ef5cb5904eaf36fa7711ebbb0e233e4c0e1b5ad4318012b33"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_tea_stalls.json",
+      "source_sha256": "89cb688a87aaa3c3bcbd545935b515a2a8b0fe6fabc87e51756148ab34c637da"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/com_wharf_storehouses.json",
+      "source_sha256": "ae06c2222ede0447e78401ae29b7bda431c1868fac14493bdf39f2bda3c80e1a"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/ins_city_archive.json",
+      "source_sha256": "b18adf0fedb1ff2b82336b6f13ab57daada17608c389bad547b50105bcd019d0"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/ins_hospital_yard.json",
+      "source_sha256": "832b63dd13e790fbe7c73d29cef2f05021b6d49a02c5d34351296b6dfd621fc1"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/ins_magistrate.json",
+      "source_sha256": "dbada8db49cdbcb21a716d9b192ab0887fa11218775210bdb7013364e857196e"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/ins_temple.json",
+      "source_sha256": "be3fc513c90fa69ea41c5d3e6bb0e3631156bd1fbe2ab8d05e8688b8227e3e25"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_bamboo_school.json",
+      "source_sha256": "e2351edac952a62f2b10a867496d411957f418eda5151e901a5469dff5febd6d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_clan_inner_court.json",
+      "source_sha256": "0d9ecd097f689cd3b695d2d0769edef6a3e1a589f9d558ce3073b698c117f884"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_duel_square.json",
+      "source_sha256": "91a3c10df8c98e3560ab5f6be92c6af8614b9645a50225ad9959941dae1e2da0"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_gate_watch.json",
+      "source_sha256": "55cea1f8add70b76e288f04079fb02dadbd86b959f01482e2d7869f64c033f86"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_hill_stair_training.json",
+      "source_sha256": "6d09e4f49f19d5fbe9f303f2666cf29a56f298c81ae76dea93a795702ab01edb"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mar_training_yard.json",
+      "source_sha256": "e595d3cca0811140a9439c66fef3f6fb5ef02e73e1a986b965b942f2fd1de447"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mixed_farm_trade.json",
+      "source_sha256": "69cb9ed9afffbffe37cda6e7282d93159908df77ba851e666673871436901d0c"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mixed_guard_market.json",
+      "source_sha256": "b2663e227b9895d6bc0f38f38c592d9919ea05ea054e0e3be295ad052864600e"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mixed_orchard_trade.json",
+      "source_sha256": "b547242b2601dca0c6a774a1c336f736d50ec479c6a7712dfd47701739a0ef97"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/mixed_roadside_hostel.json",
+      "source_sha256": "afbdb2dc6165d6113c803f4876721ccd37db6ab8a1a49b6e7941d7684d730ccf"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/noble_clan_court.json",
+      "source_sha256": "8d43674bc1f4cdf53b1a1c3c53c2a9f4b546ede0c7753f4d902fdcf75e2cc998"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/noble_moon_orchid.json",
+      "source_sha256": "9c289471c8bf01c52f647c51b399b3f16d49996b26b67c9d52f594b5ac44627f"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/plaza_festival.json",
+      "source_sha256": "bf63d16b3903f7eb7e540846ec2350457a2654647ca35657fa92ca3551e0f67d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/plaza_storytellers.json",
+      "source_sha256": "ea4e69a770e7b8f01e3bbd492cf6a927971a7771006604a32645eb5dcbf8239d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_family_court.json",
+      "source_sha256": "20fd3545449c23f615d2b126543d7b473da159c0df066518b2859e27a9e2c6e6"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_fisher_court.json",
+      "source_sha256": "c4c5029a0259766fb3f56f9ea7d5960135755058d892a45d825b15299e8d01c5"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_garden_row.json",
+      "source_sha256": "03c1cfa2eadb4432ce2bb35399a7d9c354b782bb1f0da52bfc368ac11818fafa"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_narrow_lanes.json",
+      "source_sha256": "1d21740abb658f82c8f6403d58d2ea66d3ef6da82790bcef211201410d88b2bf"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_pine_village.json",
+      "source_sha256": "980c7f105bdbe2176d0bc9e4002368290e1647525898731119d7c44a8a88d9fb"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_river_terrace.json",
+      "source_sha256": "40bcdcccec5b3f1e26c594672541469dccce599c48971f9bfe0d20eb91a2fe29"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_scribes_lane.json",
+      "source_sha256": "5c0cd57a0ed04d8b5560cc0f5f7cc72b5f992b3ca265befcb00bc794e03cdb5d"
+    },
+    {
+      "domain": "ref_city_districts",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/districts/res_terraced_steps.json",
+      "source_sha256": "60f5940e86e3cf4794b99cb131250518ec9a1a4e2f1cad01b1969d657965d371"
+    },
+    {
+      "domain": "ref_city_blueprints",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/city_blueprints/caravan_ring.json",
+      "source_sha256": "0de736bd376297664e4edea90f2c5c43ca307f3481b7b65e9e1bea17c83fe59f"
+    },
+    {
+      "domain": "ref_city_blueprints",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/city_blueprints/irregular_hillside.json",
+      "source_sha256": "93c31c2b760b46b95cf47c255457aa4d4e90d627202a3685da7bb0a425bf5f82"
+    },
+    {
+      "domain": "ref_city_blueprints",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/city_blueprints/orthogonal_market.json",
+      "source_sha256": "fee535d621fe729f244eeedeb3a2156bbd671df4556d4c8797e58b61a9181b31"
+    },
+    {
+      "domain": "ref_city_blueprints",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/city_blueprints/walled_crossroads.json",
+      "source_sha256": "c7f0dfbb2388981bef1225dab7f3f3d0ff0034ef9c72a65e0fd380c4f3146046"
+    },
+    {
+      "domain": "ref_city_blueprints",
+      "source_archive": "CITY_FORGE_R2",
+      "source_count": 1,
+      "source_owner": "city_forge",
+      "source_path": "exo_city_forge/libraries/city_blueprints/waterless_terrace.json",
+      "source_sha256": "622d312645303c087c1de1da4d061309759f735fa4721ab2c34d8b5000324f79"
+    },
+    {
+      "domain": "terrain_texture",
+      "source_archive": "C3_R13_1",
+      "source_count": 36,
+      "source_owner": "terrain_forge",
+      "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json",
+      "source_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc"
+    }
+  ],
+  "source_supplemental": {
+    "candidate_sha256": "abe7b5736140d91153e0e6f9343ef443d9ca526f78b636361355b2d895cb69f9",
+    "integration_status": "unmerged_reference_only",
+    "newer_candidate": "EXO-MURIM-CONVERGENCIA-03-WORK-CANDIDATO-01.zip"
+  },
+  "target_engine": "Godot 4.6.2 Standard / Compatibility",
+  "version": "0.3.0"
+}

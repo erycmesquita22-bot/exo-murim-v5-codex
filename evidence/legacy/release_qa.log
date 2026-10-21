@@ -1,0 +1,40 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Prólogo aplica poder temporário
+OK Reposição restaura vida e colisão
+OK Reposição mantém população limitada
+OK Reforços chegam pelas bordas
+OK Recuperação de auge funciona
+OK Auge reduz recarga real da técnica
+OK Intervenção interrompe batalha ativa
+OK Deus Supremo desce na arena
+OK Deus Supremo chega ao centro
+OK Primeiro prólogo conduz à criação
+OK Personagem novo recupera progressão inicial
+OK Rever prólogo aceita jornada existente
+OK Rever prólogo não sobrescreve o progresso salvo
+OK Rever prólogo retorna com personagem e missão intactos
+OK Suporte próprio de bow
+FAIL Empunhadura conectada bow -1.00
+FAIL Empunhadura conectada bow 0.20
+FAIL Empunhadura conectada bow 0.43
+FAIL Empunhadura conectada bow 0.70
+FAIL Empunhadura conectada bow 0.95
+OK Flecha / virote sincronizado com disparo bow
+OK Projétil sai da arma bow
+OK Suporte próprio de crossbow
+FAIL Empunhadura conectada crossbow -1.00
+FAIL Empunhadura conectada crossbow 0.20
+FAIL Empunhadura conectada crossbow 0.43
+FAIL Empunhadura conectada crossbow 0.70
+FAIL Empunhadura conectada crossbow 0.95
+OK Flecha / virote sincronizado com disparo crossbow
+OK Projétil sai da arma crossbow
+OK Cauda presa ao quadril 3
+OK Cauda presa ao quadril 4
+OK Cauda presa ao quadril 5
+OK Cauda presa ao quadril 7
+OK Perfil 0 usa resolução nativa e sombras pintadas sem atlas
+OK Perfil 1 usa resolução nativa e sombras pintadas sem atlas
+OK Perfil 2 usa resolução nativa e sombras pintadas sem atlas
+RELEASE03: 27 passaram / 10 falharam

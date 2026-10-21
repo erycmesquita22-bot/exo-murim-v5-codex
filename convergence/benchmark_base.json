@@ -1,0 +1,18 @@
+{
+	"draw_calls": 403.0,
+	"fixed_fps": false,
+	"frame_ms_mean": 69.567875,
+	"frame_ms_p50": 68.515,
+	"frame_ms_p95": 86.84,
+	"frames": 40,
+	"mode": "base",
+	"nodes": 2450.0,
+	"physics_ms_mean": 1.42515,
+	"process_ms_mean": 77.8514999999999,
+	"quality": 1,
+	"renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+	"resolution": "1152x720",
+	"static_memory_mb": 67.6134366989136,
+	"video_memory_mb": 45.2279510498047,
+	"warmup": 15
+}

@@ -1,0 +1,501 @@
+{
+  "domain": "dungeon_complication",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/piso_de_pedras_soltas",
+      "label": "Piso de pedras soltas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "piso_de_pedras_soltas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Piso de pedras soltas",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "piso_de_pedras_soltas"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/ponte_parcialmente_quebrada",
+      "label": "Ponte parcialmente quebrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "ponte_parcialmente_quebrada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ponte parcialmente quebrada",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "ponte_parcialmente_quebrada"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/porta_com_tranca_ritual",
+      "label": "Porta com tranca ritual",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "porta_com_tranca_ritual"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Porta com tranca ritual",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "porta_com_tranca_ritual"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/agua_bloqueando_passagem",
+      "label": "Água bloqueando passagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "agua_bloqueando_passagem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Água bloqueando passagem",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "agua_bloqueando_passagem"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/eco_denuncia_aproximacao",
+      "label": "Eco denuncia aproximação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "eco_denuncia_aproximacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Eco denuncia aproximação",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "eco_denuncia_aproximacao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/escuridao_apos_a_curva",
+      "label": "Escuridão após a curva",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "escuridao_apos_a_curva"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Escuridão após a curva",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "escuridao_apos_a_curva"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/desvio_por_saleta_lateral",
+      "label": "Desvio por saleta lateral",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "desvio_por_saleta_lateral"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Desvio por saleta lateral",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "desvio_por_saleta_lateral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/emboscada_em_altura",
+      "label": "Emboscada em altura",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "emboscada_em_altura"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Emboscada em altura",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "emboscada_em_altura"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/caminho_alternativo_de_escalada",
+      "label": "Caminho alternativo de escalada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "caminho_alternativo_de_escalada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caminho alternativo de escalada",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "caminho_alternativo_de_escalada"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/armadilha_de_ruido",
+      "label": "Armadilha de ruído",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "armadilha_de_ruido"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Armadilha de ruído",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "armadilha_de_ruido"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/marcadores_enganosos",
+      "label": "Marcadores enganosos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "marcadores_enganosos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Marcadores enganosos",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "marcadores_enganosos"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/nevoa_baixa",
+      "label": "Névoa baixa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "nevoa_baixa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Névoa baixa",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "nevoa_baixa"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/atalho_atras_de_estante",
+      "label": "Atalho atrás de estante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "atalho_atras_de_estante"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Atalho atrás de estante",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "atalho_atras_de_estante"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/passarela_estreita",
+      "label": "Passarela estreita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "passarela_estreita"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Passarela estreita",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "passarela_estreita"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "dungeon_complication",
+      "excludes": [],
+      "id": "dungeon_complication/refugio_antes_da_sala_do_chefe",
+      "label": "Refúgio antes da sala do chefe",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "risk",
+        "refugio_antes_da_sala_do_chefe"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Refúgio antes da sala do chefe",
+        "execute": false,
+        "footprint_required": true,
+        "item_reward_grant": false,
+        "navmesh_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "dungeon_genesis",
+        "theme_key": "refugio_antes_da_sala_do_chefe"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

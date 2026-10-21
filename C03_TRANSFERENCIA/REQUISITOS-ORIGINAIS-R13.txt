@@ -1,0 +1,395 @@
+# EXO-MURIM — CONVERGÊNCIA 03 ALFA R13
+## Auditoria de Continuidade R12, Correção Nativa Godot, Recuperação do Gameplay e Estabilização
+
+### PAPEL
+
+Atue como engenheiro principal Godot 4.6.2/GDScript, integrador central, especialista em diagnóstico de erros, QA, persistência e regressão de jogos.
+
+Esta tarefa continua a Convergência 03 do EXO-Murim.
+
+**Não reinicie o trabalho. Não refaça a R12. Não inicie Convergência 04.**
+
+### 1. SITUAÇÃO ATUAL — LEIA COM ATENÇÃO
+
+A R11 foi concluída incorporando o Terrain Forge ao jogo integral.
+
+Em seguida foi criada uma R12 de correção pontual de compilação, em outro chat.
+
+Essa R12 é um checkpoint real de código, não apenas um prompt.
+
+Ela já corrigiu 242 linhas com indentação incompatível em oito arquivos GDScript, preservando o conteúdo das instruções.
+
+A auditoria independente confirmou:
+
+- R11: 4.698 membros, SHA-256 e CRC íntegros.
+- R12: 4.706 membros, SHA-256 e CRC íntegros.
+- Nenhum arquivo original removido.
+- Oito scripts alterados somente na indentação.
+- `project.godot` ajustado para namespace separado de QA.
+- Oito arquivos novos de testes, auditoria, documentação e manifestos.
+- Godot nativa ainda não executada.
+
+**Portanto, NÃO repita essas 242 correções sem encontrar um erro concreto na implementação existente.**
+
+### 2. BASE DE TRABALHO OBRIGATÓRIA
+
+Utilizar como base principal:
+
+`EXO-MURIM-CONVERGENCIA-03-ALFA-R12.zip`
+
+SHA-256:
+
+`f785d24d6bde1c29ba74e7a47c9f5aad74b004de5c26991957fee061dbeeb796`
+
+Utilizar a R11 apenas como referência de comparação, histórico e rollback:
+
+`EXO-MURIM-CONVERGENCIA-03-ALFA-R11.zip`
+
+SHA-256:
+
+`44d2408b91531ca5abe7ea3240a40445f631c5a90a26ece3c5356b09739b9a58`
+
+A R11 não deve substituir a R12 nem se tornar uma nova base de merge.
+
+Antes de qualquer modificação, conferir os hashes e os manifestos.
+
+Inspecionar os seguintes arquivos contidos na própria R12:
+
+`C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R12.md`
+
+`C03_TRANSFERENCIA/QA-C03-ALFA-R12-MATRIZ.json`
+
+`C03_TRANSFERENCIA/DIFF-C03-R11-R12.patch`
+
+`C03_TRANSFERENCIA/MANIFESTO-C03-ALFA-R12-ARQUIVOS.json`
+
+`C03_TRANSFERENCIA/scripts_de_auditoria/qa_c03_r12_static.py`
+
+`convergence/tests/qa_c03_r12_native.gd`
+
+`C03_TRANSFERENCIA/QA-R12-RODAR-WINDOWS.ps1`
+
+Preservar os saves existentes. Usar uma cópia isolada para testes.
+
+### 3. RESULTADO DA R12 QUE PRECISA SER PRESERVADO
+
+A R12 corrigiu a indentação destes arquivos:
+
+| Arquivo | Linhas corrigidas |
+|---|---:|
+| `convergence/game.gd` | 126 |
+| `convergence/region.gd` | 30 |
+| `genesis/settlements/settlement_planner.gd` | 22 |
+| `inventory.gd` | 16 |
+| `cultivation.gd` | 6 |
+| `regional_ecology/director.gd` | 5 |
+| `regional_ecology/rewards.gd` | 6 |
+| `regional_ecology/territories.gd` | 31 |
+
+Total: 242 linhas.
+
+A correção foi auditada linha por linha e preservou o conteúdo não relacionado à indentação.
+
+Não converter cegamente o projeto inteiro entre tabs e espaços.
+
+Não modificar funções já corrigidas sem um motivo técnico verificável.
+
+### 4. MISSÃO CENTRAL DA R13
+
+**Transformar a R12, atualmente validada offline, em um candidato executável que tenha sido testado na Godot real.**
+
+A principal meta é:
+
+1. Importar o projeto na Godot.
+2. Resolver os erros de compilação restantes.
+3. Abrir o jogo.
+4. Criar um personagem.
+5. Iniciar uma campanha procedural.
+6. Carregar uma região.
+7. Controlar o personagem.
+8. Verificar os sistemas principais.
+9. Corrigir regressões críticas.
+10. Entregar um novo ZIP integral com evidências reais dos testes executados.
+
+A R13 deve corrigir causas-raiz, não silenciar mensagens ou substituir recursos problemáticos por placeholders desnecessários.
+
+### 5. AUDITORIA NATIVA OBRIGATÓRIA
+
+Procurar uma instalação real da Godot 4.6.2 Standard, renderizador Compatibility.
+
+Se disponível, executar importação e testes headless usando a raiz do projeto R12.
+
+Exemplo:
+
+`godot --headless --editor --path <ROOT> --import --rendering-method gl_compatibility`
+
+Registrar logs completos, código de saída, versão do executável, mensagens de parser, warnings e falhas de importação.
+
+Executar o QA R12:
+
+`res://convergence/tests/qa_c03_r12_native.gd`
+
+Depois executar as suítes existentes das revisões R3–R11, priorizando Core, WorldGenesis, Dungeon, Mestres, NPCs, Skin3D, Humanoides e Terrain Forge.
+
+Não utilizar apenas o exit code como prova de sucesso.
+
+**Caso Godot não esteja disponível no ambiente**, não tentar aprovar o jogo com Python. Corrigir estaticamente o que for demonstrável e entregar um pacote de testes reproduzível no computador do proprietário.
+
+Não declarar zero erros de compilação sem executar o parser real.
+
+### 6. INVESTIGAÇÃO DE ERROS
+
+A captura original da Godot apresentava 121 mensagens, incluindo:
+
+`Used space character for indentation instead of tab as used before in the file.`
+
+A R12 já tratou 242 linhas relacionadas a essa causa.
+
+Agora é obrigatório abrir a R12 e registrar a contagem atual de erros.
+
+Corrigir por grupos:
+
+**Grupo A — Sintaxe e parser**
+- Indentação.
+- Blocos inválidos.
+- Declarações incorretas.
+- Variáveis não declaradas.
+- Erros de tipo.
+- Chamadas a métodos inexistentes.
+
+**Grupo B — Recursos**
+- `preload` e `load`.
+- Caminhos ausentes.
+- Classes e scripts.
+- Cenas, materiais e shaders.
+- GLBs e importação.
+
+**Grupo C — Inicialização**
+- Ordem dos serviços.
+- Core e módulos.
+- Estado de campanha.
+- WorldGenesis.
+- Spawn e inicialização do personagem.
+
+**Grupo D — Gameplay**
+- Combate.
+- Inventário.
+- Interações.
+- NPCs.
+- Missões.
+- Dungeons.
+- Mundo e salvamento.
+
+Registrar cada causa-raiz, arquivos envolvidos e mudanças corretivas.
+
+Não substituir um sistema inteiro quando for possível corrigir um contrato ou método específico.
+
+### 7. FLUXO DE INÍCIO DO JOGO
+
+O jogo deve iniciar usando o fluxo moderno:
+
+Menu inicial → criação de personagem → campanha procedural → primeira região.
+
+Não retornar automaticamente à vila inicial antiga.
+
+Verificar:
+
+- Criação e aparência do personagem.
+- Inicialização do EXO Core.
+- Geração da primeira região.
+- Colisão e altura do personagem.
+- Movimentação e câmera.
+- Carregamento regional.
+- Viagem entre regiões.
+- Salvamento e reabertura.
+
+Se uma etapa falhar, corrigir a causa real e executar novamente o teste.
+
+### 8. REGRESSÃO DOS SISTEMAS R1–R11
+
+Executar ou preparar testes para os sistemas integrados:
+
+**WorldGenesis e Cidade Viva**
+
+- Regiões procedurais.
+- Cidades, vilas e NPCs.
+- Estradas, rios e pontes.
+- Fortificações.
+- Reservas monumentais.
+- Carregamento regional.
+
+**Terrain Forge R11**
+
+- Atlas de grama, terra e pedra.
+- Shaders.
+- Vegetação.
+- Transições.
+- Configurações gráficas e opt-out.
+- Compatibilidade com Compatibility.
+
+**Fauna R4/R5**
+
+- Spawn e combate.
+- Modelos GLB.
+- Animações.
+- Loot.
+- Persistência.
+
+**Dungeon R6**
+
+- Entrada E.
+- Instância física.
+- Inimigos.
+- Baús.
+- Recompensas atômicas.
+- Saída e recuperação.
+
+**Forja R7**
+
+- Complexos monumentais.
+- Colisões e rotas.
+- Interiores.
+- Portas e retorno exterior.
+
+**Mestres R8/R9**
+
+- Mestres e estações.
+- Matrícula.
+- Treinamento Jade.
+- Consumo de Qi/stamina.
+- Aprendizado de técnicas.
+- Recuperação após reabrir.
+
+**Humanoides R10**
+
+- Skin3D classic/slim.
+- Roupas Murim.
+- Rig e Wardrobe.
+- Armas e bainhas.
+- Rolagem.
+- Persistência da aparência.
+
+Não considerar todos esses sistemas aprovados automaticamente. Reportar separadamente os testados e os ainda bloqueados.
+
+### 9. BUGS ANTIGOS A REAVALIAR
+
+Após resolver parser e inicialização, verificar os problemas conhecidos:
+
+- Personagem preso no chão.
+- Mapa TAB insatisfatório.
+- Missão Explorar ruínas não conclui.
+- Armas em posições incorretas.
+- Bainhas desalinhadas ou gigantes.
+- Arma não acompanhando rolagem.
+- Empunhadura de duas mãos.
+- Voo travando.
+- NPCs atravessando ou bloqueando o jogador.
+- Regiões com trajetos excessivamente vazios.
+- Objetos e bambus sem colisão.
+- Repetição excessiva de estruturas ou materiais.
+- Limites visíveis de regiões.
+- Identificadores técnicos exibidos na interface.
+
+Corrigir inicialmente apenas os problemas críticos para carregamento, navegação, combate e salvamento.
+
+Não ampliar o escopo com novas funcionalidades que não tenham relação com estabilização.
+
+### 10. PERSISTÊNCIA E SEGURANÇA DOS SAVES
+
+Preservar JourneySave, WorldState, Core Persistence 01-P e demais autoridades oficiais.
+
+Testar:
+
+- Nova campanha.
+- Save/reopen.
+- Alteração de região.
+- Morte.
+- Inventário e recompensas.
+- Aulas marciais.
+- Energia Qi/stamina.
+- Aparência do jogador e NPCs.
+- Corrupção e recuperação de backups.
+- Falhas de gravação e rollback.
+
+Nunca eliminar saves pessoais.
+
+Usar cópias de teste com código e save pareados.
+
+Não adicionar uma autoridade concorrente de salvamento.
+
+### 11. TESTES DE DESEMPENHO
+
+Hardware de referência:
+
+Ryzen 3200GE, Radeon Vega 8 e 8 GB de RAM.
+
+Medir somente em hardware realmente disponível.
+
+Priorizar:
+
+- Tempo de entrada no jogo.
+- Carregamento da primeira região.
+- Troca de regiões.
+- FPS e frametimes.
+- Memória.
+- Custo do Terrain Forge.
+- Quantidade de NPCs e inimigos.
+- Estabilidade em cidades monumentais.
+
+Não afirmar resultados sem medição.
+
+### 12. REGRAS DE CONTINUIDADE
+
+A R13 deve continuar o trabalho existente e preservar todas as entregas anteriores.
+
+Proibido:
+
+- Recriar a R12 do zero.
+- Voltar à R10/R11 como base de desenvolvimento.
+- Remover recursos do Terrain Forge.
+- Recriar o EXO Core.
+- Criar outro WorldGenesis.
+- Criar outra autoridade de inventário.
+- Criar outro sistema de NPCs.
+- Substituir o personagem voxel por humanoide genérico.
+- Liberar assets sem direitos comerciais confirmados.
+- Declarar testes não executados como PASS.
+
+Toda correção deve possuir justificativa técnica e, sempre que possível, teste de regressão reproduzível.
+
+### 13. ENTREGA OBRIGATÓRIA
+
+Produzir:
+
+`EXO-MURIM-CONVERGENCIA-03-ALFA-R13.zip`
+
+O ZIP deve ser integral, utilizando a R12 como fonte principal.
+
+Entregar também:
+
+- Relatório técnico da R13.
+- Manifesto e SHA-256.
+- Diff R12→R13.
+- Matriz PASS/FAIL/NOT_RUN.
+- Logs completos da Godot, se executada.
+- Relatório de erros de parser e sua resolução.
+- Relatório de inicialização e gameplay.
+- Lista de bugs remanescentes.
+- Relatório de salvamento e recuperação.
+- Evidências reais, quando disponíveis.
+- Instruções para a R14.
+- Procedimento de rollback de código + save.
+
+O ZIP deve continuar contendo o jogo completo e todos os sistemas preservados.
+
+### CRITÉRIO DE CONCLUSÃO
+
+A meta prioritária da R13 é fazer o jogo compilar, abrir e iniciar uma campanha procedural na Godot, com o personagem controlável e a primeira região carregada.
+
+Se forem identificadas falhas adicionais, corrigi-las e registrar os resultados de uma nova execução.
+
+Somente declarar o projeto compilado ou jogável quando houver evidência real de execução.
+
+Se Godot estiver indisponível, entregar a melhor revisão técnica possível sem inventar uma homologação.
+
+**Não iniciar Convergência 04. Continuar a Convergência 03 Alfa R13 a partir da R12 existente.**

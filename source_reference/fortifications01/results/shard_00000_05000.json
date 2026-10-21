@@ -1,0 +1,1106 @@
+{
+  "title": "EXO-FORTIFICACOES-01-MASSIVE-OFFLINE-REFERENCE",
+  "scope": "Python geometric reference model; NOT Godot/GDScript runtime",
+  "cases_requested": 5000,
+  "case_start": 0,
+  "cases_executed": 5000,
+  "invariants_checked_approx": 2430802,
+  "geometry_errors": 0,
+  "sample_errors": [],
+  "counts": {
+    "('city', 'partial')": 263,
+    "('town', 'ready')": 1659,
+    "('village', 'ready')": 1658,
+    "('city', 'ready')": 1404,
+    "('town', 'skipped')": 8,
+    "('village', 'skipped')": 8
+  },
+  "wall_segments": 558273,
+  "road_gates": 28007,
+  "towers": 12840,
+  "maximum_wall_segments_in_case": 299,
+  "elapsed_s": 27.37,
+  "samples": [
+    {
+      "case": 0,
+      "scale": "city",
+      "status": "partial",
+      "segments": 284,
+      "openings": 15,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 40,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 80,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 120,
+      "scale": "city",
+      "status": "ready",
+      "segments": 283,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 160,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 200,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 240,
+      "scale": "city",
+      "status": "ready",
+      "segments": 277,
+      "openings": 16,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 280,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 320,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 360,
+      "scale": "city",
+      "status": "ready",
+      "segments": 285,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 400,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 440,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 480,
+      "scale": "city",
+      "status": "partial",
+      "segments": 288,
+      "openings": 15,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 520,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 560,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 600,
+      "scale": "city",
+      "status": "ready",
+      "segments": 294,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 640,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 680,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 720,
+      "scale": "city",
+      "status": "partial",
+      "segments": 289,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 760,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 800,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 840,
+      "scale": "city",
+      "status": "ready",
+      "segments": 295,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 880,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 920,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 960,
+      "scale": "city",
+      "status": "ready",
+      "segments": 283,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1000,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1040,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1080,
+      "scale": "city",
+      "status": "ready",
+      "segments": 292,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1120,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1160,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1200,
+      "scale": "city",
+      "status": "ready",
+      "segments": 296,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1240,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1280,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1320,
+      "scale": "city",
+      "status": "ready",
+      "segments": 290,
+      "openings": 15,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1360,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1400,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1440,
+      "scale": "city",
+      "status": "partial",
+      "segments": 279,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1480,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1520,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1560,
+      "scale": "city",
+      "status": "ready",
+      "segments": 277,
+      "openings": 17,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1600,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1640,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1680,
+      "scale": "city",
+      "status": "ready",
+      "segments": 278,
+      "openings": 17,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 1720,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1760,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1800,
+      "scale": "city",
+      "status": "ready",
+      "segments": 289,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 1840,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1880,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 1920,
+      "scale": "city",
+      "status": "partial",
+      "segments": 286,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 1960,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2000,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2040,
+      "scale": "city",
+      "status": "ready",
+      "segments": 296,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2080,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2120,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2160,
+      "scale": "city",
+      "status": "ready",
+      "segments": 294,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2200,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2240,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2280,
+      "scale": "city",
+      "status": "ready",
+      "segments": 286,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2320,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2360,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2400,
+      "scale": "city",
+      "status": "ready",
+      "segments": 287,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2440,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2480,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2520,
+      "scale": "city",
+      "status": "ready",
+      "segments": 293,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2560,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2600,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2640,
+      "scale": "city",
+      "status": "ready",
+      "segments": 289,
+      "openings": 15,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 2680,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2720,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2760,
+      "scale": "city",
+      "status": "ready",
+      "segments": 297,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2800,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2840,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2880,
+      "scale": "city",
+      "status": "ready",
+      "segments": 292,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 2920,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 2960,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3000,
+      "scale": "city",
+      "status": "ready",
+      "segments": 293,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3040,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3080,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3120,
+      "scale": "city",
+      "status": "ready",
+      "segments": 293,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3160,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3200,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3240,
+      "scale": "city",
+      "status": "ready",
+      "segments": 286,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3280,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3320,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3360,
+      "scale": "city",
+      "status": "ready",
+      "segments": 281,
+      "openings": 15,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 3400,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3440,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3480,
+      "scale": "city",
+      "status": "ready",
+      "segments": 296,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3520,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3560,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3600,
+      "scale": "city",
+      "status": "ready",
+      "segments": 283,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3640,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3680,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3720,
+      "scale": "city",
+      "status": "ready",
+      "segments": 284,
+      "openings": 16,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 3760,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3800,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3840,
+      "scale": "city",
+      "status": "ready",
+      "segments": 277,
+      "openings": 17,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 3880,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3920,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 3960,
+      "scale": "city",
+      "status": "ready",
+      "segments": 288,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 4000,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4040,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4080,
+      "scale": "city",
+      "status": "ready",
+      "segments": 278,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 4120,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4160,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4200,
+      "scale": "city",
+      "status": "partial",
+      "segments": 287,
+      "openings": 15,
+      "towers": 5,
+      "errors": []
+    },
+    {
+      "case": 4240,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4280,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4320,
+      "scale": "city",
+      "status": "ready",
+      "segments": 284,
+      "openings": 15,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 4360,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4400,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4440,
+      "scale": "city",
+      "status": "ready",
+      "segments": 295,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 4480,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4520,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4560,
+      "scale": "city",
+      "status": "ready",
+      "segments": 295,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 4600,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4640,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4680,
+      "scale": "city",
+      "status": "ready",
+      "segments": 288,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 4720,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 4760,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    }
+  ],
+  "status": "PASS"
+}

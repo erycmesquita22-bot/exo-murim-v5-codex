@@ -1,0 +1,13 @@
+{
+  "kind": "static_assets_and_contract",
+  "passed": 988,
+  "failed": [],
+  "measures": {
+    "inherited_files_verified_against_manifest": 388,
+    "inherited_files_unchanged": 388,
+    "catalog_models": 87,
+    "architecture_models": 27,
+    "palettes": 5,
+    "qa_kind": "static_only"
+  }
+}

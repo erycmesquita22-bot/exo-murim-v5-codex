@@ -1,0 +1,11 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PROGRESS 0 failures 0
+PROGRESS 256 failures 0
+PROGRESS 512 failures 0
+PROGRESS 768 failures 0
+PROGRESS 1024 failures 0
+PROGRESS 1280 failures 0
+PROGRESS 1536 failures 0
+PROGRESS 1792 failures 0
+{"count":2048,"elapsed_s":53.254995,"engine":{"build":"official","hash":"71f334935c000924d403448e698df4441130df18","hex":263682,"major":4,"minor":6,"patch":2,"status":"stable","string":"4.6.2-stable (official)","timestamp":0},"failures":[],"planner_ms":{"max":38.094,"mean":18.4849184570312,"p50":17.425,"p95":26.859},"regional_descriptor_ms":{"max":12.877,"mean":4.59254492187499,"p50":4.287,"p95":7.366},"regional_descriptors":2048,"regions_planned":180224,"repeated_worlds":32,"scope":"Native Godot logical/regional descriptors; not 180224 instantiated 3D scenes"}

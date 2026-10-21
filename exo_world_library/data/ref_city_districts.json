@@ -1,0 +1,834 @@
+{
+  "domain": "ref_city_districts",
+  "records": [
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_art_pottery_furnaces",
+      "label": "Oficinas de Cerâmica",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d5f46bff704d13006a27b8560cca875aa8d0a7c63aadcae3cb01d25809e2be0d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "art_pottery_furnaces",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/art_pottery_furnaces.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_art_smiths",
+      "label": "Pátio dos Ferreiros",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "38d3cd9de756e634be49daa0bd22dda2bb0dd04744601d4a001e43d7fe90bb7c",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "art_smiths",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/art_smiths.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_bazaar",
+      "label": "Bazar Coberto",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "e5a82c0df508e5db2fb84019258dbd4f2328a1a340226a89c1fee21fe0aaa7e0",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_bazaar",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_bazaar.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_caravan",
+      "label": "Pousada de Caravanas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "709b8d78b6f0f25e51853fb8e48331f879ae4fa5f323dab0fc9a5a101b13afb6",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_caravan",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_caravan.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_dye_docks",
+      "label": "Pátio dos Tingidores",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "a2b06691121d48ee2592b7e2a2976dbfbbe4c40429fd095432976a845e9d661d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_dye_docks",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_dye_docks.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_herb_lane",
+      "label": "Rua dos Ervanários",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "a8976a453b5975f9155a8712053e5ce0f9b214613794c8e15b5e5fd2a50fc708",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_herb_lane",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_herb_lane.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_medicinal_exchange",
+      "label": "Mercado de Remédios",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "a20848a88c9f7015835de3c2f47ce4d3b9c252fb20455e239bfdb8116a716abc",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_medicinal_exchange",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_medicinal_exchange.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_silk_arcade",
+      "label": "Galeria de Seda",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "79734cf8b5a87d6ef5cb5904eaf36fa7711ebbb0e233e4c0e1b5ad4318012b33",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_silk_arcade",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_silk_arcade.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_tea_stalls",
+      "label": "Rua das Casas de Chá",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "89cb688a87aaa3c3bcbd545935b515a2a8b0fe6fabc87e51756148ab34c637da",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_tea_stalls",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_tea_stalls.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_com_wharf_storehouses",
+      "label": "Armazéns de Estrada",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "ae06c2222ede0447e78401ae29b7bda431c1868fac14493bdf39f2bda3c80e1a",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "com_wharf_storehouses",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/com_wharf_storehouses.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_ins_city_archive",
+      "label": "Arquivo dos Magistrados",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "b18adf0fedb1ff2b82336b6f13ab57daada17608c389bad547b50105bcd019d0",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "ins_city_archive",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/ins_city_archive.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_ins_hospital_yard",
+      "label": "Pátio do Curandeiro",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "832b63dd13e790fbe7c73d29cef2f05021b6d49a02c5d34351296b6dfd621fc1",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "ins_hospital_yard",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/ins_hospital_yard.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_ins_magistrate",
+      "label": "Gabinete do Magistrado",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "dbada8db49cdbcb21a716d9b192ab0887fa11218775210bdb7013364e857196e",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "ins_magistrate",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/ins_magistrate.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_ins_temple",
+      "label": "Templo Comunitário",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "be3fc513c90fa69ea41c5d3e6bb0e3631156bd1fbe2ab8d05e8688b8227e3e25",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "ins_temple",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/ins_temple.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_bamboo_school",
+      "label": "Escola do Bambu",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "e2351edac952a62f2b10a867496d411957f418eda5151e901a5469dff5febd6d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_bamboo_school",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_bamboo_school.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_clan_inner_court",
+      "label": "Pátio do Clã Escarlate",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0d9ecd097f689cd3b695d2d0769edef6a3e1a589f9d558ce3073b698c117f884",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_clan_inner_court",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_clan_inner_court.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_duel_square",
+      "label": "Arena de Desafios",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "91a3c10df8c98e3560ab5f6be92c6af8614b9645a50225ad9959941dae1e2da0",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_duel_square",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_duel_square.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_gate_watch",
+      "label": "Guarnição das Portas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "55cea1f8add70b76e288f04079fb02dadbd86b959f01482e2d7869f64c033f86",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_gate_watch",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_gate_watch.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_hill_stair_training",
+      "label": "Escola do Degrau Alto",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "6d09e4f49f19d5fbe9f303f2666cf29a56f298c81ae76dea93a795702ab01edb",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_hill_stair_training",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_hill_stair_training.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mar_training_yard",
+      "label": "Pátio de Treino",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "e595d3cca0811140a9439c66fef3f6fb5ef02e73e1a986b965b942f2fd1de447",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mar_training_yard",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mar_training_yard.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mixed_farm_trade",
+      "label": "Celeiros e Comércio",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "69cb9ed9afffbffe37cda6e7282d93159908df77ba851e666673871436901d0c",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mixed_farm_trade",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mixed_farm_trade.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mixed_guard_market",
+      "label": "Mercado Fortificado",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "b2663e227b9895d6bc0f38f38c592d9919ea05ea054e0e3be295ad052864600e",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mixed_guard_market",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mixed_guard_market.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mixed_orchard_trade",
+      "label": "Mercado entre Pomares",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "b547242b2601dca0c6a774a1c336f736d50ec479c6a7712dfd47701739a0ef97",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mixed_orchard_trade",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mixed_orchard_trade.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_mixed_roadside_hostel",
+      "label": "Pousada de Fronteira",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "afbdb2dc6165d6113c803f4876721ccd37db6ab8a1a49b6e7941d7684d730ccf",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "mixed_roadside_hostel",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/mixed_roadside_hostel.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_noble_clan_court",
+      "label": "Residência do Clã",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "8d43674bc1f4cdf53b1a1c3c53c2a9f4b546ede0c7753f4d902fdcf75e2cc998",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "noble_clan_court",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/noble_clan_court.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_noble_moon_orchid",
+      "label": "Residência da Orquídea Lunar",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "9c289471c8bf01c52f647c51b399b3f16d49996b26b67c9d52f594b5ac44627f",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "noble_moon_orchid",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/noble_moon_orchid.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_plaza_festival",
+      "label": "Praça de Celebrações",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "bf63d16b3903f7eb7e540846ec2350457a2654647ca35657fa92ca3551e0f67d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "plaza_festival",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/plaza_festival.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_plaza_storytellers",
+      "label": "Praça dos Contadores",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "ea4e69a770e7b8f01e3bbd492cf6a927971a7771006604a32645eb5dcbf8239d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "plaza_storytellers",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/plaza_storytellers.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_family_court",
+      "label": "Residências de Pátio",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "20fd3545449c23f615d2b126543d7b473da159c0df066518b2859e27a9e2c6e6",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_family_court",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_family_court.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_fisher_court",
+      "label": "Pátios dos Barqueiros",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "c4c5029a0259766fb3f56f9ea7d5960135755058d892a45d825b15299e8d01c5",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_fisher_court",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_fisher_court.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_garden_row",
+      "label": "Moradias com Jardins",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "03c1cfa2eadb4432ce2bb35399a7d9c354b782bb1f0da52bfc368ac11818fafa",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_garden_row",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_garden_row.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_narrow_lanes",
+      "label": "Becos de Madeira",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "1d21740abb658f82c8f6403d58d2ea66d3ef6da82790bcef211201410d88b2bf",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_narrow_lanes",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_narrow_lanes.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_pine_village",
+      "label": "Vila dos Pinheiros",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "980c7f105bdbe2176d0bc9e4002368290e1647525898731119d7c44a8a88d9fb",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_pine_village",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_pine_village.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_river_terrace",
+      "label": "Casas em Terraço",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "40bcdcccec5b3f1e26c594672541469dccce599c48971f9bfe0d20eb91a2fe29",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_river_terrace",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_river_terrace.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_scribes_lane",
+      "label": "Viela dos Escribas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "5c0cd57a0ed04d8b5560cc0f5f7cc72b5f992b3ca265befcb00bc794e03cdb5d",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_scribes_lane",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_scribes_lane.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_districts",
+      "excludes": [],
+      "id": "ref_city_districts/ref_res_terraced_steps",
+      "label": "Moradias em Terraços",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "60f5940e86e3cf4794b99cb131250518ec9a1a4e2f1cad01b1969d657965d371",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "res_terraced_steps",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/districts/res_terraced_steps.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

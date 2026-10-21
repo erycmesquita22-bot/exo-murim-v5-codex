@@ -1,0 +1,246 @@
+{
+  "domain": "dungeon_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "rocky_highlands"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/cave",
+      "label": "Caverna natural",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "cave"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "cave"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "dry_valley"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/tomb",
+      "label": "Tumba ancestral",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "tomb"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "tomb"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "rocky_highlands"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/fort",
+      "label": "Fortaleza abandonada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "fort"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "fort"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "bamboo_forest"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/monastery",
+      "label": "Monastério esquecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "monastery"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "monastery"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "rocky_highlands"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/mine",
+      "label": "Mina abandonada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "mine"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "mine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "wetland"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/flooded",
+      "label": "Passagem inundada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "flooded"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "flooded"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "temperate_forest"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/shrine",
+      "label": "Santuário do vale",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "shrine"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "shrine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "mixed_woodland"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/bandit_den",
+      "label": "Esconderijo de salteadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "bandit_den"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "bandit_den"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "alpine"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/mountain_temple",
+      "label": "Templo da serra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "mountain_temple"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "mountain_temple"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "grassland"
+      },
+      "domain": "dungeon_theme",
+      "excludes": [],
+      "id": "dungeon_theme/hidden_archive",
+      "label": "Arquivo secreto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dungeon",
+        "hidden_archive"
+      ],
+      "variables": {
+        "geometry_owner": "dungeon_genesis",
+        "reward_claim": "never_direct",
+        "theme": "hidden_archive"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

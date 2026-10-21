@@ -1,0 +1,433 @@
+{
+  "domain": "travel_incident",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/ponte_interditada",
+      "label": "Ponte interditada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "ponte_interditada",
+        "waterway_blocked"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ponte interditada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "ponte_interditada"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/mensageiro_pede_escolta",
+      "label": "Mensageiro pede escolta",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "mensageiro_pede_escolta"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mensageiro pede escolta",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "mensageiro_pede_escolta"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/mercador_procura_atalho",
+      "label": "Mercador procura atalho",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "mercador_procura_atalho"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mercador procura atalho",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "mercador_procura_atalho"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/peregrino_se_perdeu",
+      "label": "Peregrino se perdeu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "peregrino_se_perdeu"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Peregrino se perdeu",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "peregrino_se_perdeu"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/carroca_exige_reparo",
+      "label": "Carroça exige reparo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "carroca_exige_reparo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Carroça exige reparo",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "carroca_exige_reparo"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/placa_contradiz_mapa",
+      "label": "Placa contradiz mapa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "placa_contradiz_mapa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Placa contradiz mapa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "placa_contradiz_mapa"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome_in": [
+          "wetland",
+          "temperate_forest",
+          "bamboo_forest"
+        ]
+      },
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/chuva_apaga_trilha",
+      "label": "Chuva apaga trilha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "chuva_apaga_trilha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Chuva apaga trilha",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "chuva_apaga_trilha"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/cacador_oferece_aviso",
+      "label": "Caçador oferece aviso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "cacador_oferece_aviso"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caçador oferece aviso",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "cacador_oferece_aviso"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/pedagio_sob_disputa",
+      "label": "Pedágio sob disputa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "pedagio_sob_disputa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pedágio sob disputa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "pedagio_sob_disputa"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/cavalo_solto_bloqueia_estrada",
+      "label": "Cavalo solto bloqueia estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "cavalo_solto_bloqueia_estrada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Cavalo solto bloqueia estrada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "cavalo_solto_bloqueia_estrada"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/guarda_busca_testemunha",
+      "label": "Guarda busca testemunha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "guarda_busca_testemunha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Guarda busca testemunha",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "guarda_busca_testemunha"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/ruinas_visiveis_ao_longe",
+      "label": "Ruínas visíveis ao longe",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "ruinas_visiveis_ao_longe"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ruínas visíveis ao longe",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "ruinas_visiveis_ao_longe"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/caravana_aguarda_amanhecer",
+      "label": "Caravana aguarda amanhecer",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "caravana_aguarda_amanhecer"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caravana aguarda amanhecer",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "caravana_aguarda_amanhecer"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "travel_incident",
+      "excludes": [],
+      "id": "travel_incident/nevoa_cobre_entroncamento",
+      "label": "Névoa cobre entroncamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "travel",
+        "event_hint",
+        "nevoa_cobre_entroncamento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Névoa cobre entroncamento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "world",
+        "theme_key": "nevoa_cobre_entroncamento"
+      },
+      "weight": 12
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

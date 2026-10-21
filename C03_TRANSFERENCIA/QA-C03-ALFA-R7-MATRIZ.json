@@ -1,0 +1,328 @@
+{
+  "kind": "SOURCE_ONLY_NOT_GODOT",
+  "tests": [
+    {
+      "id": "R7_EXISTS_monument_reservations_r7",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "genesis/monument_reservations_r7.gd"
+    },
+    {
+      "id": "R7_EXISTS_qa_c03_r7_native",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_monumental/tests/qa_c03_r7_native.gd"
+    },
+    {
+      "id": "R7_EXISTS_project",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "project.godot"
+    },
+    {
+      "id": "R7_EXISTS_game",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "convergence/game.gd"
+    },
+    {
+      "id": "R7_EXISTS_region",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "convergence/region.gd"
+    },
+    {
+      "id": "R7_EXISTS_region_data",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "genesis/region_data.gd"
+    },
+    {
+      "id": "R7_EXISTS_settlement_planner",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "genesis/settlements/settlement_planner.gd"
+    },
+    {
+      "id": "R7_EXISTS_interior_bridge",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_monumental/integration/interior_bridge.gd"
+    },
+    {
+      "id": "R7_EXISTS_monumental_plans",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_core/integrations/monumental_plans.gd"
+    },
+    {
+      "id": "JSON_PROJECT",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "All JSON documents parsed"
+    },
+    {
+      "id": "NO_DELETIONS",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "R6 files 4520"
+    },
+    {
+      "id": "R6_DIFF_SCOPE",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "changed:project.godot,C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md,C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json,convergence/game.gd,convergence/region.gd,genesis/region_data.gd,genesis/settlements/settlement_planner.gd,exo_monumental/integration/interior_bridge.gd,exo_core/integrations/monumental_plans.gd"
+    },
+    {
+      "id": "OWNER_UNCHANGED_exo_dungeon/module/entrypoint.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_dungeon/module/entrypoint.gd"
+    },
+    {
+      "id": "OWNER_UNCHANGED_exo_items/integration/atomic_reward_adapter.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_items/integration/atomic_reward_adapter.gd"
+    },
+    {
+      "id": "OWNER_UNCHANGED_inventory.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "inventory.gd"
+    },
+    {
+      "id": "OWNER_UNCHANGED_exo_core/core.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "exo_core/core.gd"
+    },
+    {
+      "id": "OWNER_UNCHANGED_regional_ecology/director.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "regional_ecology/director.gd"
+    },
+    {
+      "id": "WORLDGEN_FIRST_RESERVATION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "SETTLEMENT_WELL_RESERVATION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "SETTLEMENT_LOT_RESERVATION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "SETTLEMENT_STREET_SINGLE_OWNER",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "REGIONAL_PINNED",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "LEGACY_VISITED_SKIP",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "REGIONAL_FLAG_OPT_OUT",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "ACTUAL_WORLD_RECEIPT",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "FOOTPRINT_STREET_TEST",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "FOOTPRINT_WATER_TEST",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "CITY_PERIMETER_PROTECTION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "ROLLBACK_FAILED_SETTLEMENT",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "NO_EXTRA_ATLAS_GENERATOR",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "BUILDER_EXISTING",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "BUILDER_RECEIPT_VALIDATION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "ROTATION_Q123",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTIONAL_SCENE",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "PORTAL_E_INTERACTION",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTION_SAVE_ENTRY_ROLLBACK",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTION_SAVE_EXIT_ROLLBACK",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTION_NO_EXTERIOR_SNAPSHOT",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTION_RESTORE_FROM_PERSISTENCE",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "INSTITUTION_RECOVERY_NO_OVERWRITE",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "NPC_STATION_CATALOG",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "CORE_READONLY_RESERVATIONS",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "NO_QA_LAB_RECEIPT_IN_GAME",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "NATIVE_QA_INSTRUCTIONS",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "FAMILIES_5",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "ELEVEN_LAYOUTS",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": 11
+    },
+    {
+      "id": "SIXTY_TWO_STATIONS",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": 62
+    },
+    {
+      "id": "AUTHOR_ORIGINAL_builder.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "AUTHOR_ORIGINAL_interior_builder.gd",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "AUTHOR_ORIGINAL_layouts.json",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "AUTHOR_ORIGINAL_site_contracts.json",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": ""
+    },
+    {
+      "id": "NEW_PRELOAD_REFERENCES",
+      "type": "STATIC",
+      "status": "PASS",
+      "evidence": "[]"
+    }
+  ],
+  "pass_count": 52,
+  "fail_count": 0,
+  "native_qa": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "native_required": [
+    "Godot 4.6.2 editor import/parser",
+    "Forja GLB import/meshes/collision",
+    "seed/regional determinism and fortifications 14/26/78",
+    "interior entry/exit/reopen/death",
+    "Dungeon R6 and fauna R5 regression",
+    "Ryzen Vega8 benchmark"
+  ]
+}

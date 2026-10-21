@@ -1,0 +1,90 @@
+{
+  "project": "EXO-MURIM",
+  "module": "exo_skill_forge",
+  "module_version": "1.2.0",
+  "timestamp_local": "2026-10-20",
+  "source": {
+    "r2_sha256": "002fc85dad97732ffbbe303eea48f6882f360b478b65fcceddda01cf4a9f4022",
+    "c3_work_sha256": "abe7b5736140d91153e0e6f9343ef443d9ca526f78b636361355b2d895cb69f9",
+    "r2_crc": "PASS",
+    "c3_work_crc": "PASS"
+  },
+  "catalog": {
+    "total": 184,
+    "legacy": 16,
+    "authorial_candidates": 168,
+    "r2_candidates": 140,
+    "r1_candidates": 28,
+    "changed_skill_ids": 0,
+    "changed_balance": 0,
+    "corrected_pose_tags": 2
+  },
+  "suites": [
+    {
+      "name": "qa_r3_offline",
+      "runtime": "Python static and mocked-host scenarios",
+      "status": "PASS",
+      "tests": 49,
+      "exit_code": 0,
+      "coverage": "catalog, C3 source audit, schema, seed determinism/invalid, exact delta R2, 24h mock, 88 region labels, 10k duplicate receipt attempts, replay/rollback/save model"
+    },
+    {
+      "name": "qa_install_r3",
+      "runtime": "Python patch temp copy",
+      "status": "PASS",
+      "tests": 6,
+      "exit_code": 0,
+      "coverage": "patch clean, dependency uniqueness, no source mutation, double registration denied, rollback"
+    },
+    {
+      "name": "godot_headless_editor_import",
+      "command": "godot --headless --editor --path <temporary project> --import",
+      "status": "NOT_RUN",
+      "exit_code": null,
+      "reason": "Godot 4.6.2 binary absent from environment"
+    },
+    {
+      "name": "godot_headless_native_mock",
+      "command": "godot --headless --path <temporary project> --script res://exo_skill_forge/tests/qa_r3_native.gd",
+      "status": "NOT_RUN",
+      "exit_code": null,
+      "reason": "Godot binary absent; script supplied for future QA"
+    },
+    {
+      "name": "real_c3_combat_authorial",
+      "status": "BLOCKED",
+      "exit_code": null,
+      "reason": "C3 Work exposes combat.enemy_defeated but lacks trustworthy generic cast transaction/physical API"
+    },
+    {
+      "name": "media_approval",
+      "status": "BLOCKED",
+      "reason": "Audio/VFX are pointers; no final provenance/license/import/QA"
+    },
+    {
+      "name": "android_vega8",
+      "status": "NOT_RUN",
+      "reason": "Hardware not available"
+    }
+  ],
+  "host_authority": {
+    "catalog_read_only": true,
+    "authorial_fail_closed": true,
+    "legacy_debit_owner": "techniques.gd",
+    "transactions_in_skill_forge": false,
+    "C3_work_modified": false
+  },
+  "known_risks": [
+    "No native GDScript compile, Godot 4.6.2 parser may reveal issues",
+    "Binding is in-process only, not cryptographic authorization; Core controls access",
+    "Actual hostile cancellation, physics, status, performance and persistence remain unproven",
+    "Old R2 tests are archived and target R13/old R1 tags; they are not R3 QA"
+  ],
+  "rollback": "Remove proposed module registry entry and directory; no save changes performed by R3.",
+  "summary": {
+    "tests": 55,
+    "passed": 55,
+    "failed": 0,
+    "exit_code": 0
+  }
+}

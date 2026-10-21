@@ -1,0 +1,265 @@
+{
+  "scope": "offline source/assets/structure only; NOT a Godot runtime test",
+  "passed": 62,
+  "failed": 0,
+  "min_shared_house_spacing_m": 1.5,
+  "changes": [
+    "genesis/terrain.gdshader",
+    "genesis/region_scene.gd",
+    "convergence/region.gd",
+    "convergence/resident.gd",
+    "convergence/game.gd"
+  ],
+  "checks": [
+    {
+      "name": "approved ground textures still selected",
+      "pass": true
+    },
+    {
+      "name": "approved road remains selected",
+      "pass": true
+    },
+    {
+      "name": "road coordinates unchanged",
+      "pass": true
+    },
+    {
+      "name": "foliage UV independent",
+      "pass": true
+    },
+    {
+      "name": "foliage texture ground_tex uses fine UV",
+      "pass": true
+    },
+    {
+      "name": "foliage texture blend0 uses fine UV",
+      "pass": true
+    },
+    {
+      "name": "foliage texture blend1 uses fine UV",
+      "pass": true
+    },
+    {
+      "name": "foliage texture blend2 uses fine UV",
+      "pass": true
+    },
+    {
+      "name": "foliage texture blend3 uses fine UV",
+      "pass": true
+    },
+    {
+      "name": "no changed geometry/physics",
+      "pass": true
+    },
+    {
+      "name": "soil gaps excluded on full road",
+      "pass": true
+    },
+    {
+      "name": "decorative grass only",
+      "pass": true
+    },
+    {
+      "name": "bounded instances",
+      "pass": true
+    },
+    {
+      "name": "entire region candidate pass",
+      "pass": true
+    },
+    {
+      "name": "grass gradual density",
+      "pass": true
+    },
+    {
+      "name": "grass dimensions short",
+      "pass": true
+    },
+    {
+      "name": "shader old road mix retained",
+      "pass": true
+    },
+    {
+      "name": "texture exists trilha_terra",
+      "pass": true
+    },
+    {
+      "name": "texture exists grama_folhas_largas",
+      "pass": true
+    },
+    {
+      "name": "texture exists solo_bambuzal",
+      "pass": true
+    },
+    {
+      "name": "texture exists grama_umida",
+      "pass": true
+    },
+    {
+      "name": "texture exists grama_prado",
+      "pass": true
+    },
+    {
+      "name": "texture exists grama_montanha",
+      "pass": true
+    },
+    {
+      "name": "texture exists grama_seca",
+      "pass": true
+    },
+    {
+      "name": "texture exists rocha_cinza",
+      "pass": true
+    },
+    {
+      "name": "texture exists solo_floresta",
+      "pass": true
+    },
+    {
+      "name": "ground atlas complete",
+      "pass": true
+    },
+    {
+      "name": "deterministic resident slots",
+      "pass": true
+    },
+    {
+      "name": "residents spaced more than collision capsule",
+      "pass": true
+    },
+    {
+      "name": "square residents distributed",
+      "pass": true
+    },
+    {
+      "name": "NPC label only compact name",
+      "pass": true
+    },
+    {
+      "name": "NPC labels have outlines",
+      "pass": true
+    },
+    {
+      "name": "NPC nearby separation present",
+      "pass": true
+    },
+    {
+      "name": "NPC approach maintained",
+      "pass": true
+    },
+    {
+      "name": "NPC label overlap control",
+      "pass": true
+    },
+    {
+      "name": "label culling does not disable NPC",
+      "pass": true
+    },
+    {
+      "name": "NPC interactions retained",
+      "pass": true
+    },
+    {
+      "name": "NPC save retained",
+      "pass": true
+    },
+    {
+      "name": "Godot version compatibility",
+      "pass": true
+    },
+    {
+      "name": "shared facade single row",
+      "pass": true
+    },
+    {
+      "name": "door center remains clear",
+      "pass": true
+    },
+    {
+      "name": "shared building conceptual spacing >=1.5m",
+      "pass": true
+    },
+    {
+      "name": "preload resolved genesis/region_data.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved ground_shadow.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved ground_shadow.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved forja/forja_planner.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved forja/forja_builder.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/architecture.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/batch.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/streets.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/occupancy.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/occupancy.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved rig.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved wardrobe.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved living_world/people.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved genesis/world_planner.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved genesis/region_data.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/region.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/resident.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved living_world/bridge.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved living_world/state.gd",
+      "pass": true
+    },
+    {
+      "name": "preload resolved convergence/occupancy.gd",
+      "pass": true
+    }
+  ],
+  "godot_4_6_2": "NOT_RUN",
+  "visual_capture_in_engine": "NOT_RUN"
+}

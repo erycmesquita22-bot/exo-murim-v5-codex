@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "surnames": ["Li", "Chen", "Zhao", "Wang", "Lin", "Zhou", "Wu", "Liu", "Sun", "Xu", "Gu", "Shen", "Han", "Bai", "Fang", "Ye", "Qin", "Tang", "Lu", "Xie", "Mo", "Jiang", "Hua", "Du", "Wei", "Pei", "Song", "Yan", "Xiao", "Yun"],
+  "given_names": ["Wei", "Ming", "Jin", "Yan", "Lan", "Mei", "Yue", "Feng", "Qing", "Ren", "Shan", "Rui", "Tao", "An", "Heng", "Ning", "Zhen", "Xuan", "Lei", "Fei", "Bao", "Yun", "Ling", "Hui", "Yu", "Tian", "Bing", "Xiu", "Zhi", "Jun", "Qi", "Lian", "Bo", "Xing", "Fen", "Guang", "Chun", "Ying", "Xue", "Min"],
+  "roles": {
+    "resident": {"prefix": "", "suffix": "", "faction": "comunidade", "stats": [1, 1, 2, 1, 1, 1]},
+    "farmer": {"prefix": "", "suffix": "", "faction": "comunidade", "stats": [2, 1, 3, 1, 2, 1]},
+    "merchant": {"prefix": "", "suffix": "", "faction": "caravanas", "stats": [1, 1, 1, 3, 2, 2]},
+    "healer": {"prefix": "Curandeiro", "suffix": "", "faction": "comunidade", "stats": [1, 1, 1, 3, 3, 1]},
+    "guard": {"prefix": "Vigia", "suffix": "", "faction": "autoridades", "stats": [3, 2, 3, 1, 2, 1]},
+    "guild_agent": {"prefix": "", "suffix": "da Guilda", "faction": "guilda", "stats": [2, 2, 2, 2, 2, 1]},
+    "disciple": {"prefix": "Discípulo", "suffix": "da Escola", "faction": "escola_marcial", "stats": [2, 3, 2, 1, 3, 1]},
+    "master": {"prefix": "Mestre", "suffix": "da Escola", "faction": "escola_marcial", "stats": [3, 3, 2, 3, 3, 1]},
+    "courier": {"prefix": "", "suffix": "", "faction": "caravanas", "stats": [1, 3, 2, 1, 2, 2]},
+    "outlaw": {"prefix": "", "suffix": "", "faction": "fora_da_lei", "stats": [3, 2, 2, 1, 1, 2]}
+  },
+  "attributes": ["forca", "agilidade", "vitalidade", "inteligencia", "vontade", "sorte"]
+}

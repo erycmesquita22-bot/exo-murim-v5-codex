@@ -1,0 +1,120 @@
+{
+  "id": "ins_magistrate",
+  "name": "Gabinete do Magistrado",
+  "category": "institutional",
+  "tags": [
+    "institutional",
+    "civic",
+    "officials"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "ins_magistrate/b00",
+      "function": "administration",
+      "local_position": [
+        0,
+        -12
+      ],
+      "size": [
+        9,
+        8.8
+      ],
+      "height": 6,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "ins_magistrate/b01",
+      "function": "residence",
+      "local_position": [
+        -12,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "ins_magistrate/b02",
+      "function": "warehouse",
+      "local_position": [
+        12,
+        11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "ins_magistrate/st00",
+      "for_building": "ins_magistrate/b00",
+      "role": "guild_agent"
+    },
+    {
+      "id": "ins_magistrate/st01",
+      "for_building": "ins_magistrate/b01",
+      "role": "resident"
+    },
+    {
+      "id": "ins_magistrate/st02",
+      "for_building": "ins_magistrate/b02",
+      "role": "courier"
+    }
+  ],
+  "open_spaces": {
+    "type": "civic",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "civic",
+  "mesh_budget_estimate": 29,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

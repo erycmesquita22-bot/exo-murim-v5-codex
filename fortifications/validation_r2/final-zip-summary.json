@@ -1,0 +1,17 @@
+[
+  {
+    "suite": "zip_import",
+    "status": "PASS",
+    "seconds": 14.886
+  },
+  {
+    "suite": "zip_river_native",
+    "status": "PASS",
+    "seconds": 1.175
+  },
+  {
+    "suite": "zip_runtime_reload",
+    "status": "PASS",
+    "seconds": 7.699
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "camera_position": "(100.0, 11.03, 17.0)",
+    "camera_size": 17.0,
+    "file": "res://WORK_CHECKPOINT/evidence/01-inicio.png",
+    "region": -1,
+    "renderer": "gl_compatibility",
+    "seed": "1063256612"
+  },
+  {
+    "camera_position": "(100.0, 11.03, 17.0)",
+    "camera_size": 17.0,
+    "file": "res://WORK_CHECKPOINT/evidence/02-criador.png",
+    "region": -1,
+    "renderer": "gl_compatibility",
+    "seed": "1063256612"
+  },
+  {
+    "camera_position": "(10.0, 27.64819, 10.0)",
+    "camera_size": 17.0,
+    "file": "res://WORK_CHECKPOINT/evidence/03-campanha.png",
+    "region": 1,
+    "renderer": "gl_compatibility",
+    "seed": "101"
+  },
+  {
+    "camera_position": "(50.0, 88.03025, 60.0)",
+    "camera_size": 80.0,
+    "file": "res://WORK_CHECKPOINT/evidence/04-cidade78.png",
+    "region": 78,
+    "renderer": "gl_compatibility",
+    "seed": "101"
+  },
+  {
+    "camera_position": "(-50.0, 74.25875, 150.0)",
+    "camera_size": 75.0,
+    "file": "res://WORK_CHECKPOINT/evidence/05-escola-jade.png",
+    "region": 15,
+    "renderer": "gl_compatibility",
+    "seed": "101"
+  }
+]

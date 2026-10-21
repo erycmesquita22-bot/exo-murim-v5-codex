@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "corte_inicial",
+    "legacy_id": "corte_inicial",
+    "name": "Corte Inicial",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "cut",
+    "tags": {
+      "weapon_poses": [
+        "blade",
+        "draw",
+        "heavy"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.sword_swift",
+        "exo_martial.style.saber_iron"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu",
+        "exo_martial.school.cla_montanha"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 0
+    },
+    "balance": {
+      "damage": 24,
+      "qi": 0,
+      "stamina": 14,
+      "cooldown": 3.25,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.66,
+      "release_time": 0.25
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/cut",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/cut",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "bola_de_gelo",
+    "legacy_id": "bola_de_gelo",
+    "name": "Bola de Gelo",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "projectile",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 6
+    },
+    "balance": {
+      "damage": 18,
+      "qi": 18,
+      "stamina": 0,
+      "cooldown": 3.5,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.72,
+      "release_time": 0.38
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/projectile",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/projectile",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "salto_impetuoso",
+    "legacy_id": "salto_impetuoso",
+    "name": "Salto Impetuoso",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "leap",
+    "tags": {
+      "weapon_poses": [
+        "fists"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.kick_crane",
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 4
+    },
+    "balance": {
+      "damage": 20,
+      "qi": 0,
+      "stamina": 30,
+      "cooldown": 8,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0,
+      "release_time": 0.18
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/leap",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/leap",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "golpe_circular",
+    "legacy_id": "golpe_circular",
+    "name": "Golpe Circular",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "area",
+    "tags": {
+      "weapon_poses": [
+        "blade",
+        "draw",
+        "heavy"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.saber_iron",
+        "exo_martial.style.fist_river"
+      ],
+      "schools": [
+        "exo_martial.school.cla_montanha",
+        "exo_martial.school.templo_corrente"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 4
+    },
+    "balance": {
+      "damage": 23,
+      "qi": 0,
+      "stamina": 24,
+      "cooldown": 6,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.8,
+      "release_time": 0.45
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/area",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/area",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "nova_glacial",
+    "legacy_id": "nova_glacial",
+    "name": "Nova Glacial",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "root",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.winter_frost"
+      ],
+      "schools": [],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 6
+    },
+    "balance": {
+      "damage": 12,
+      "qi": 24,
+      "stamina": 0,
+      "cooldown": 8,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.9,
+      "release_time": 0.5
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/root",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/root",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "atracao_arcana",
+    "legacy_id": "atracao_arcana",
+    "name": "Atracao Arcana",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "pull",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 11
+    },
+    "balance": {
+      "damage": 8,
+      "qi": 20,
+      "stamina": 0,
+      "cooldown": 7,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.8,
+      "release_time": 0.4
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/pull",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/pull",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "investida_brutal",
+    "legacy_id": "investida_brutal",
+    "name": "Investida Brutal",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "dash",
+    "tags": {
+      "weapon_poses": [
+        "thrust",
+        "pole"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.spear_dragon",
+        "exo_martial.style.fist_river",
+        "exo_martial.style.kick_crane"
+      ],
+      "schools": [
+        "exo_martial.school.pavilhao_lanca",
+        "exo_martial.school.templo_corrente",
+        "exo_martial.school.vale_grou"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 4
+    },
+    "balance": {
+      "damage": 21,
+      "qi": 0,
+      "stamina": 24,
+      "cooldown": 5,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.55,
+      "release_time": 0.1
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/dash",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/dash",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "jato_de_fogo",
+    "legacy_id": "jato_de_fogo",
+    "name": "Jato de Fogo",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "channel",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 5
+    },
+    "balance": {
+      "damage": 7,
+      "qi": 30,
+      "stamina": 0,
+      "cooldown": 8,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 2.1,
+      "release_time": 0.3
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/channel",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/channel",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "barreira_arcana",
+    "legacy_id": "barreira_arcana",
+    "name": "Barreira Arcana",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "shield",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.jade_guard",
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 11
+    },
+    "balance": {
+      "damage": 0,
+      "qi": 22,
+      "stamina": 0,
+      "cooldown": 9,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.7,
+      "release_time": 0.35
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/shield",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/shield",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "cura",
+    "legacy_id": "cura",
+    "name": "Cura",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "heal",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.qi_serene"
+      ],
+      "schools": [
+        "exo_martial.school.mosteiro_jade"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 8
+    },
+    "balance": {
+      "damage": 0,
+      "qi": 26,
+      "stamina": 0,
+      "cooldown": 10,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 1,
+      "release_time": 0.6
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/heal",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/heal",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "cripta_espinhos_1",
+    "legacy_id": "cripta_espinhos_1",
+    "name": "Cripta de Espinhos",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "trap",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.hidden_blade"
+      ],
+      "schools": [
+        "exo_martial.school.mercadores_sombra"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 3
+    },
+    "balance": {
+      "damage": 15,
+      "qi": 24,
+      "stamina": 0,
+      "cooldown": 9,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.9,
+      "release_time": 0.45
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/trap",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/trap",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "guardiao_ancestral",
+    "legacy_id": "guardiao_ancestral",
+    "name": "Guardiao Ancestral",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "summon",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.void_arts"
+      ],
+      "schools": [
+        "exo_martial.school.ermitagem_vazio"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 1
+    },
+    "balance": {
+      "damage": 8,
+      "qi": 32,
+      "stamina": 0,
+      "cooldown": 14,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 1,
+      "release_time": 0.65
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/summon",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/summon",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "rajada_de_fogo",
+    "legacy_id": "rajada_de_fogo",
+    "name": "Rajada de Fogo",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "projectile",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.fire_ember"
+      ],
+      "schools": [
+        "exo_martial.school.ordem_cinza"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 5
+    },
+    "balance": {
+      "damage": 22,
+      "qi": 18,
+      "stamina": 0,
+      "cooldown": 3.5,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.72,
+      "release_time": 0.38
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/projectile",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/projectile",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "rajada_de_vento",
+    "legacy_id": "rajada_de_vento",
+    "name": "Rajada de Vento",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "projectile",
+    "tags": {
+      "weapon_poses": [
+        "blade",
+        "draw",
+        "heavy"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.sword_swift",
+        "exo_martial.style.shadow_steps"
+      ],
+      "schools": [
+        "exo_martial.school.seita_bambu"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 0
+    },
+    "balance": {
+      "damage": 16,
+      "qi": 16,
+      "stamina": 0,
+      "cooldown": 3.2,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.6,
+      "release_time": 0.3
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/projectile",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/projectile",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "dardo_arcano",
+    "legacy_id": "dardo_arcano",
+    "name": "Dardo Arcano",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "projectile",
+    "tags": {
+      "weapon_poses": [],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.hidden_blade"
+      ],
+      "schools": [
+        "exo_martial.school.mercadores_sombra"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 11
+    },
+    "balance": {
+      "damage": 17,
+      "qi": 14,
+      "stamina": 0,
+      "cooldown": 2.8,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.55,
+      "release_time": 0.28
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/projectile",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/projectile",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  },
+  {
+    "id": "onda_de_repulsao",
+    "legacy_id": "onda_de_repulsao",
+    "name": "Onda de Repulsao",
+    "source": "legacy",
+    "state": "legacy_connected",
+    "executor": "legacy",
+    "template": "repel",
+    "tags": {
+      "weapon_poses": [
+        "thrust",
+        "pole"
+      ],
+      "weapon_ids": [],
+      "styles": [
+        "exo_martial.style.spear_dragon",
+        "exo_martial.style.jade_guard"
+      ],
+      "schools": [
+        "exo_martial.school.pavilhao_lanca"
+      ],
+      "min_level": 1,
+      "min_cultivation_rank": 3,
+      "actor_types": [
+        "player"
+      ],
+      "element": 0
+    },
+    "balance": {
+      "damage": 10,
+      "qi": 20,
+      "stamina": 0,
+      "cooldown": 7,
+      "range": 0.0,
+      "radius": 0.0,
+      "cast_time": 0.75,
+      "release_time": 0.4
+    },
+    "effects": [],
+    "presentation": {
+      "animation": {
+        "key": "legacy/repel",
+        "phase": "cast",
+        "binding": "host_existing"
+      },
+      "vfx": [
+        {
+          "phase": "release",
+          "key": "legacy/repel",
+          "binding": "host_existing"
+        }
+      ],
+      "audio": [
+        {
+          "phase": "prepare",
+          "key": "legacy_skill_prepare",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "release",
+          "key": "legacy_skill_cast",
+          "binding": "host_existing"
+        },
+        {
+          "phase": "impact",
+          "key": "legacy_skill_impact",
+          "binding": "host_existing"
+        }
+      ]
+    },
+    "provenance": {
+      "origin": "EXO-Murim R13 data/skills.json",
+      "rights": "project_existing",
+      "commercial_use": "reverify_original_audio_assets"
+    }
+  }
+]

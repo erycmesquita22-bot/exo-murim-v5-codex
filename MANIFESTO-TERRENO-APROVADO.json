@@ -1,0 +1,31 @@
+{
+  "base_zip": "EXO-Murim-Convergencia-01.2.zip",
+  "base_sha256": "d188ca0fc66cb9be8862297ad43b09b993805446942f3c16d59699fb28b58b98",
+  "modified_existing_files": [
+    "genesis/region_scene.gd",
+    "genesis/terrain.gdshader"
+  ],
+  "new_files": [
+    "RELATORIO-TERRAIN-QA.json",
+    "textures/terrain_approved/MANIFEST.json",
+    "textures/terrain_approved/grama_folhas_largas.png",
+    "textures/terrain_approved/grama_montanha.png",
+    "textures/terrain_approved/grama_prado.png",
+    "textures/terrain_approved/grama_seca.png",
+    "textures/terrain_approved/grama_umida.png",
+    "textures/terrain_approved/rocha_cinza.png",
+    "textures/terrain_approved/solo_bambuzal.png",
+    "textures/terrain_approved/solo_floresta.png",
+    "textures/terrain_approved/trilha_terra.png",
+    "tools/check_approved_terrain.py",
+    "tools/prepare_approved_terrain.py",
+    "RELATORIO-TERRENO-APROVADO.md"
+  ],
+  "tests": {
+    "offline_material_checks": 85,
+    "failures": 0,
+    "godot_engine": "NOT_RUN"
+  },
+  "provisional_approval_preserved": true,
+  "changed_engine_scripts": 2
+}

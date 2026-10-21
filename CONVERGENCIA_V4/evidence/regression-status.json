@@ -1,0 +1,42 @@
+[
+  {
+    "case": "economy-city",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "economy-reopen",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "wg4-traversal",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "wg4-reopen",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "seed707",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "seed707-reopen",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "seed18026",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "seed18026-reopen",
+    "exit": 0,
+    "status": "PASS"
+  }
+]

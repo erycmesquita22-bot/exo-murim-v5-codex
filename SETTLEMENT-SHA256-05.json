@@ -1,0 +1,48 @@
+{
+  "candidate": "EXO-WorldGenesis-05",
+  "baseline": "EXO-WorldGenesis-04",
+  "engine_execution": "NOT_RUN",
+  "previous_archive_manifests_are_historical": true,
+  "files": {
+    "genesis/settlements/settlement_planner.gd": {
+      "sha256": "2985b8aded77b14cdd2cb764fbbfb5f3762f18c2d446a2c22feedc2d94002c8b",
+      "size": 14302
+    },
+    "SETTLEMENT-VERSION.json": {
+      "sha256": "ef4ee2d6f89e3be8d3d2575a721d5e5cda48cce1b653650d4b645ce36cf46614",
+      "size": 428
+    },
+    "tests/settlement_extreme.gd": {
+      "sha256": "3dded1ff5dec14aece3965dd736cf8720f4b9bd90931e67599008ec3f7c798fc",
+      "size": 4669
+    },
+    "tests/settlement_grades.gd": {
+      "sha256": "8dc0e6a5db82107b31fda3050821e06c46ca4d4df0be5d0fa4b06c0f2fd7ed79",
+      "size": 2284
+    },
+    "tools/run_settlement_qa.py": {
+      "sha256": "b9015b6eb1fc8a3584357a59e063e5dc817d96d78e10b1d71ac4d605735547d4",
+      "size": 2921
+    },
+    "tools/check_settlement_static_05.py": {
+      "sha256": "d3d428d08d8c34be191a31fb815fd5db006f551bde80f67ecfa2fcbda1790588",
+      "size": 3648
+    },
+    "tools/external_settlement_qa/probe.py": {
+      "sha256": "04212c15639f5124c142d1c9ca2577f63e308253ae38aab84145bc9afab2db3d",
+      "size": 9406
+    },
+    "tools/external_settlement_qa/property_qa.py": {
+      "sha256": "9558a190f38c97c2286676a99c5611188e906226b774e082a74d1036e485539f",
+      "size": 4199
+    },
+    "RELATORIO-STRESS-05.md": {
+      "sha256": "f2572160f459749a33cc12d6a719e336c0de2c7a8d156d7c6209f6b95d0ace47",
+      "size": 8291
+    },
+    "WORK-TESTES-05.md": {
+      "sha256": "a02288648769160d27db1d064abdc2c707fbad35d979ec0c02be8ff1174ca5f4",
+      "size": 1286
+    }
+  }
+}

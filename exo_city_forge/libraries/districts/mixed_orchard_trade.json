@@ -1,0 +1,151 @@
+{
+  "id": "mixed_orchard_trade",
+  "name": "Mercado entre Pomares",
+  "category": "mixed",
+  "tags": [
+    "mixed",
+    "garden",
+    "city_forge_r2"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.0
+    },
+    {
+      "a": [
+        1,
+        -18
+      ],
+      "b": [
+        1,
+        18
+      ],
+      "width": 3.0
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "mixed_orchard_trade/b00",
+      "function": "farmstead",
+      "local_position": [
+        -11.45,
+        -11
+      ],
+      "size": [
+        7.3,
+        6.6
+      ],
+      "height": 4.6,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mixed_orchard_trade/b01",
+      "function": "residence",
+      "local_position": [
+        12.55,
+        -11
+      ],
+      "size": [
+        6.0,
+        5.95
+      ],
+      "height": 5.0,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mixed_orchard_trade/b02",
+      "function": "farmstead",
+      "local_position": [
+        -12.45,
+        13
+      ],
+      "size": [
+        6.65,
+        5.3
+      ],
+      "height": 5.4,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "mixed_orchard_trade/b03",
+      "function": "residence",
+      "local_position": [
+        13.55,
+        13
+      ],
+      "size": [
+        7.3,
+        6.6
+      ],
+      "height": 3.8,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "mixed_orchard_trade/st00",
+      "for_building": "mixed_orchard_trade/b00",
+      "role": "resident"
+    },
+    {
+      "id": "mixed_orchard_trade/st01",
+      "for_building": "mixed_orchard_trade/b01",
+      "role": "resident"
+    },
+    {
+      "id": "mixed_orchard_trade/st02",
+      "for_building": "mixed_orchard_trade/b02",
+      "role": "resident"
+    },
+    {
+      "id": "mixed_orchard_trade/st03",
+      "for_building": "mixed_orchard_trade/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "garden",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "garden",
+  "mesh_budget_estimate": 44,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

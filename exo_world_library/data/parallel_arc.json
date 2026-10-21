@@ -1,0 +1,3943 @@
+{
+  "domain": "parallel_arc",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ponte_das_tres_chaves_witness",
+      "label": "A testemunha retorna: A ponte das três chaves",
+      "links": [
+        "story_arc/ponte_das_tres_chaves"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "trade"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de barqueiros do vale",
+          "Registrar a contradição com família que guarda os portões"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ponte_das_tres_chaves",
+        "premise_pt_BR": "Uma pessoa próxima de barqueiros do vale conta que um escriba perdeu a parte mais antiga do registro.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre pedágio da ponte.\"",
+          "O relato exige comparar um recibo antigo com três selos com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ponte_das_tres_chaves_aftermath",
+      "label": "O preço da decisão: A ponte das três chaves",
+      "links": [
+        "story_arc/ponte_das_tres_chaves"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "trade"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com acesso ao mercado e ao rio",
+          "Cuidar da memória do acordo sobre pedágio da ponte"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ponte_das_tres_chaves",
+        "premise_pt_BR": "Depois dos acontecimentos de A ponte das três chaves, os habitantes enfrentam efeitos sobre acesso ao mercado e ao rio.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre pedágio da ponte.\"",
+          "O relato exige comparar um recibo antigo com três selos com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_casa_sem_herdeiros_witness",
+      "label": "A testemunha retorna: A casa sem herdeiros",
+      "links": [
+        "story_arc/a_casa_sem_herdeiros"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de aprendiz sem linhagem reconhecida",
+          "Registrar a contradição com ramo principal da família"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_casa_sem_herdeiros",
+        "premise_pt_BR": "Uma pessoa próxima de aprendiz sem linhagem reconhecida conta que o último testamento foi assinado por mão ferida.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de casa marcial.\"",
+          "O relato exige comparar um retrato de família incompleto com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_casa_sem_herdeiros_aftermath",
+      "label": "O preço da decisão: A casa sem herdeiros",
+      "links": [
+        "story_arc/a_casa_sem_herdeiros"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com posse da escola e dignidade dos discípulos",
+          "Cuidar da memória do acordo sobre sucessão de casa marcial"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_casa_sem_herdeiros",
+        "premise_pt_BR": "Depois dos acontecimentos de A casa sem herdeiros, os habitantes enfrentam efeitos sobre posse da escola e dignidade dos discípulos.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de casa marcial.\"",
+          "O relato exige comparar um retrato de família incompleto com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/fome_em_canal_seco_witness",
+      "label": "A testemunha retorna: O vale que bebeu a última chuva",
+      "links": [
+        "story_arc/fome_em_canal_seco"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "water"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de famílias da planície",
+          "Registrar a contradição com proprietário dos canais altos"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/fome_em_canal_seco",
+        "premise_pt_BR": "Uma pessoa próxima de famílias da planície conta que há comportas novas escondidas na mata.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre água desviada do cultivo.\"",
+          "O relato exige comparar medidores de água que não batem com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/fome_em_canal_seco_aftermath",
+      "label": "O preço da decisão: O vale que bebeu a última chuva",
+      "links": [
+        "story_arc/fome_em_canal_seco"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "water"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com colheita e sobrevivência dos aldeões",
+          "Cuidar da memória do acordo sobre água desviada do cultivo"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/fome_em_canal_seco",
+        "premise_pt_BR": "Depois dos acontecimentos de O vale que bebeu a última chuva, os habitantes enfrentam efeitos sobre colheita e sobrevivência dos aldeões.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre água desviada do cultivo.\"",
+          "O relato exige comparar medidores de água que não batem com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_manual_de_papel_negro_witness",
+      "label": "A testemunha retorna: O manual de papel negro",
+      "links": [
+        "story_arc/o_manual_de_papel_negro"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "heritage"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de guardião de arquivo",
+          "Registrar a contradição com seita acusadora"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_manual_de_papel_negro",
+        "premise_pt_BR": "Uma pessoa próxima de guardião de arquivo conta que a cópia mais velha contradiz o fundador.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre manual marcial disputado.\"",
+          "O relato exige comparar duas páginas com tintas diferentes com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_manual_de_papel_negro_aftermath",
+      "label": "O preço da decisão: O manual de papel negro",
+      "links": [
+        "story_arc/o_manual_de_papel_negro"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "heritage"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com integridade de uma escola centenária",
+          "Cuidar da memória do acordo sobre manual marcial disputado"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_manual_de_papel_negro",
+        "premise_pt_BR": "Depois dos acontecimentos de O manual de papel negro, os habitantes enfrentam efeitos sobre integridade de uma escola centenária.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre manual marcial disputado.\"",
+          "O relato exige comparar duas páginas com tintas diferentes com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/voto_dos_barqueiros_witness",
+      "label": "A testemunha retorna: O voto dos barqueiros",
+      "links": [
+        "story_arc/voto_dos_barqueiros"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de barqueira recém-eleita delegada",
+          "Registrar a contradição com diretoria atual da liga"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/voto_dos_barqueiros",
+        "premise_pt_BR": "Uma pessoa próxima de barqueira recém-eleita delegada conta que membros mortos ainda aparecem nas atas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre eleição da liga de travessias.\"",
+          "O relato exige comparar lista de votantes marcada a tinta dupla com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/voto_dos_barqueiros_aftermath",
+      "label": "O preço da decisão: O voto dos barqueiros",
+      "links": [
+        "story_arc/voto_dos_barqueiros"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com direito à travessia e representatividade",
+          "Cuidar da memória do acordo sobre eleição da liga de travessias"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/voto_dos_barqueiros",
+        "premise_pt_BR": "Depois dos acontecimentos de O voto dos barqueiros, os habitantes enfrentam efeitos sobre direito à travessia e representatividade.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre eleição da liga de travessias.\"",
+          "O relato exige comparar lista de votantes marcada a tinta dupla com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/sinos_da_guarnicao_witness",
+      "label": "A testemunha retorna: Quando os sinos não tocaram",
+      "links": [
+        "story_arc/sinos_da_guarnicao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "security"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de vigia sobrevivente",
+          "Registrar a contradição com capitão recém-nomeado"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/sinos_da_guarnicao",
+        "premise_pt_BR": "Uma pessoa próxima de vigia sobrevivente conta que mensageiros foram desviados da rota.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre guarnição ausente numa invasão.\"",
+          "O relato exige comparar escala de patrulha adulterada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/sinos_da_guarnicao_aftermath",
+      "label": "O preço da decisão: Quando os sinos não tocaram",
+      "links": [
+        "story_arc/sinos_da_guarnicao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "security"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com segurança das quadras mais pobres",
+          "Cuidar da memória do acordo sobre guarnição ausente numa invasão"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/sinos_da_guarnicao",
+        "premise_pt_BR": "Depois dos acontecimentos de Quando os sinos não tocaram, os habitantes enfrentam efeitos sobre segurança das quadras mais pobres.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre guarnição ausente numa invasão.\"",
+          "O relato exige comparar escala de patrulha adulterada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/os_tres_estandartes_witness",
+      "label": "A testemunha retorna: A cidade dos três estandartes",
+      "links": [
+        "story_arc/os_tres_estandartes"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "clan"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de família menor endividada",
+          "Registrar a contradição com casa mais rica"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/os_tres_estandartes",
+        "premise_pt_BR": "Uma pessoa próxima de família menor endividada conta que cobranças vêm de distritos sobrepostos.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre três famílias marciais disputam tributos.\"",
+          "O relato exige comparar mapa de cobranças duplicadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/os_tres_estandartes_aftermath",
+      "label": "O preço da decisão: A cidade dos três estandartes",
+      "links": [
+        "story_arc/os_tres_estandartes"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "clan"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com paz urbana e arrecadação",
+          "Cuidar da memória do acordo sobre três famílias marciais disputam tributos"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/os_tres_estandartes",
+        "premise_pt_BR": "Depois dos acontecimentos de A cidade dos três estandartes, os habitantes enfrentam efeitos sobre paz urbana e arrecadação.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre três famílias marciais disputam tributos.\"",
+          "O relato exige comparar mapa de cobranças duplicadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/escola_dos_portoes_fechados_witness",
+      "label": "A testemunha retorna: O pátio de portas fechadas",
+      "links": [
+        "story_arc/escola_dos_portoes_fechados"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "justice"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de instrutora itinerante",
+          "Registrar a contradição com mestres tradicionalistas"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/escola_dos_portoes_fechados",
+        "premise_pt_BR": "Uma pessoa próxima de instrutora itinerante conta que noviços são treinados clandestinamente.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre jovens sem clã proibidos de treinar.\"",
+          "O relato exige comparar carta antiga que autoriza aulas públicas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/escola_dos_portoes_fechados_aftermath",
+      "label": "O preço da decisão: O pátio de portas fechadas",
+      "links": [
+        "story_arc/escola_dos_portoes_fechados"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "justice"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com futuro dos discípulos excluídos",
+          "Cuidar da memória do acordo sobre jovens sem clã proibidos de treinar"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/escola_dos_portoes_fechados",
+        "premise_pt_BR": "Depois dos acontecimentos de O pátio de portas fechadas, os habitantes enfrentam efeitos sobre futuro dos discípulos excluídos.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre jovens sem clã proibidos de treinar.\"",
+          "O relato exige comparar carta antiga que autoriza aulas públicas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_urna_e_a_chuva_witness",
+      "label": "A testemunha retorna: A urna debaixo da chuva",
+      "links": [
+        "story_arc/a_urna_e_a_chuva"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de escrivã dos distritos",
+          "Registrar a contradição com bloco do antigo tesoureiro"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_urna_e_a_chuva",
+        "premise_pt_BR": "Uma pessoa próxima de escrivã dos distritos conta que as urnas foram trocadas durante enchente.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre eleição da câmara mercantil.\"",
+          "O relato exige comparar lacre molhado e urnas sem lista com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_urna_e_a_chuva_aftermath",
+      "label": "O preço da decisão: A urna debaixo da chuva",
+      "links": [
+        "story_arc/a_urna_e_a_chuva"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com legitimidade da Câmara",
+          "Cuidar da memória do acordo sobre eleição da câmara mercantil"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_urna_e_a_chuva",
+        "premise_pt_BR": "Depois dos acontecimentos de A urna debaixo da chuva, os habitantes enfrentam efeitos sobre legitimidade da Câmara.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre eleição da câmara mercantil.\"",
+          "O relato exige comparar lacre molhado e urnas sem lista com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/brasas_da_revolta_witness",
+      "label": "A testemunha retorna: Brasas sob o celeiro",
+      "links": [
+        "story_arc/brasas_da_revolta"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de curandeira local",
+          "Registrar a contradição com administrador do grão"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/brasas_da_revolta",
+        "premise_pt_BR": "Uma pessoa próxima de curandeira local conta que guardas recebem grãos enquanto crianças adoecem.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre celeiros fechados durante a fome.\"",
+          "O relato exige comparar livro-caixa com reservas escondidas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/brasas_da_revolta_aftermath",
+      "label": "O preço da decisão: Brasas sob o celeiro",
+      "links": [
+        "story_arc/brasas_da_revolta"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com alimentação de toda a vila",
+          "Cuidar da memória do acordo sobre celeiros fechados durante a fome"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/brasas_da_revolta",
+        "premise_pt_BR": "Depois dos acontecimentos de Brasas sob o celeiro, os habitantes enfrentam efeitos sobre alimentação de toda a vila.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre celeiros fechados durante a fome.\"",
+          "O relato exige comparar livro-caixa com reservas escondidas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/muralha_de_mentiras_witness",
+      "label": "A testemunha retorna: A muralha de mentiras",
+      "links": [
+        "story_arc/muralha_de_mentiras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de mensageiro da capital",
+          "Registrar a contradição com comandante da fortaleza"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/muralha_de_mentiras",
+        "premise_pt_BR": "Uma pessoa próxima de mensageiro da capital conta que uma segunda carta ordena retirada.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre ordem de cerco falsificada.\"",
+          "O relato exige comparar cera de selo incompatível com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/muralha_de_mentiras_aftermath",
+      "label": "O preço da decisão: A muralha de mentiras",
+      "links": [
+        "story_arc/muralha_de_mentiras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com paz entre guarnições",
+          "Cuidar da memória do acordo sobre ordem de cerco falsificada"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/muralha_de_mentiras",
+        "premise_pt_BR": "Depois dos acontecimentos de A muralha de mentiras, os habitantes enfrentam efeitos sobre paz entre guarnições.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre ordem de cerco falsificada.\"",
+          "O relato exige comparar cera de selo incompatível com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/juramento_sangue_frio_witness",
+      "label": "A testemunha retorna: O juramento de sangue frio",
+      "links": [
+        "story_arc/juramento_sangue_frio"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "oath"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de discípulo arrependido",
+          "Registrar a contradição com círculo de anciãos"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/juramento_sangue_frio",
+        "premise_pt_BR": "Uma pessoa próxima de discípulo arrependido conta que juramento foi alterado depois da assinatura.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre discípulos presos por votos secretos.\"",
+          "O relato exige comparar marcas de juramento copiadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/juramento_sangue_frio_aftermath",
+      "label": "O preço da decisão: O juramento de sangue frio",
+      "links": [
+        "story_arc/juramento_sangue_frio"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "oath"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com liberdade e lealdade dos aprendizes",
+          "Cuidar da memória do acordo sobre discípulos presos por votos secretos"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/juramento_sangue_frio",
+        "premise_pt_BR": "Depois dos acontecimentos de O juramento de sangue frio, os habitantes enfrentam efeitos sobre liberdade e lealdade dos aprendizes.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre discípulos presos por votos secretos.\"",
+          "O relato exige comparar marcas de juramento copiadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_preco_do_ferro_witness",
+      "label": "A testemunha retorna: O preço do ferro vermelho",
+      "links": [
+        "story_arc/o_preco_do_ferro"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de guilda dos ferreiros",
+          "Registrar a contradição com família proprietária da mina"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_preco_do_ferro",
+        "premise_pt_BR": "Uma pessoa próxima de guilda dos ferreiros conta que a liga paga para bloquear fornecedores.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre monopólio de ferro.\"",
+          "O relato exige comparar pesos falsos na balança pública com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_preco_do_ferro_aftermath",
+      "label": "O preço da decisão: O preço do ferro vermelho",
+      "links": [
+        "story_arc/o_preco_do_ferro"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com armas e ferramentas acessíveis",
+          "Cuidar da memória do acordo sobre monopólio de ferro"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_preco_do_ferro",
+        "premise_pt_BR": "Depois dos acontecimentos de O preço do ferro vermelho, os habitantes enfrentam efeitos sobre armas e ferramentas acessíveis.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre monopólio de ferro.\"",
+          "O relato exige comparar pesos falsos na balança pública com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/santuario_dos_exilados_witness",
+      "label": "A testemunha retorna: O santuário dos exilados",
+      "links": [
+        "story_arc/santuario_dos_exilados"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "relief"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de monge que acolhe os feridos",
+          "Registrar a contradição com guarda da ponte"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/santuario_dos_exilados",
+        "premise_pt_BR": "Uma pessoa próxima de monge que acolhe os feridos conta que um foragido procurado está entre as famílias.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre abrigo de refugiados.\"",
+          "O relato exige comparar registro de famílias separadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/santuario_dos_exilados_aftermath",
+      "label": "O preço da decisão: O santuário dos exilados",
+      "links": [
+        "story_arc/santuario_dos_exilados"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "relief"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com vida dos refugiados e segurança da aldeia",
+          "Cuidar da memória do acordo sobre abrigo de refugiados"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/santuario_dos_exilados",
+        "premise_pt_BR": "Depois dos acontecimentos de O santuário dos exilados, os habitantes enfrentam efeitos sobre vida dos refugiados e segurança da aldeia.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre abrigo de refugiados.\"",
+          "O relato exige comparar registro de famílias separadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_boticario_das_sombras_witness",
+      "label": "A testemunha retorna: O boticário das sombras",
+      "links": [
+        "story_arc/o_boticario_das_sombras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "health"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de aprendiz de curandeiro",
+          "Registrar a contradição com mercador de ervas"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_boticario_das_sombras",
+        "premise_pt_BR": "Uma pessoa próxima de aprendiz de curandeiro conta que um lote de remédios foi trocado.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre remédios adulterados.\"",
+          "O relato exige comparar mistura de ervas sem origem conhecida com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_boticario_das_sombras_aftermath",
+      "label": "O preço da decisão: O boticário das sombras",
+      "links": [
+        "story_arc/o_boticario_das_sombras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "health"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com saúde de idosos e viajantes",
+          "Cuidar da memória do acordo sobre remédios adulterados"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_boticario_das_sombras",
+        "premise_pt_BR": "Depois dos acontecimentos de O boticário das sombras, os habitantes enfrentam efeitos sobre saúde de idosos e viajantes.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre remédios adulterados.\"",
+          "O relato exige comparar mistura de ervas sem origem conhecida com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/registro_dos_desaparecidos_witness",
+      "label": "A testemunha retorna: O registro dos desaparecidos",
+      "links": [
+        "story_arc/registro_dos_desaparecidos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "mystery"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de escrivão das caravanas",
+          "Registrar a contradição com capitão do portão norte"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/registro_dos_desaparecidos",
+        "premise_pt_BR": "Uma pessoa próxima de escrivão das caravanas conta que os desaparecidos tinham uma mesma dívida.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sumidos nas rotas noturnas.\"",
+          "O relato exige comparar páginas arrancadas de um livro de chegadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/registro_dos_desaparecidos_aftermath",
+      "label": "O preço da decisão: O registro dos desaparecidos",
+      "links": [
+        "story_arc/registro_dos_desaparecidos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "mystery"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com segurança dos viajantes",
+          "Cuidar da memória do acordo sobre sumidos nas rotas noturnas"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/registro_dos_desaparecidos",
+        "premise_pt_BR": "Depois dos acontecimentos de O registro dos desaparecidos, os habitantes enfrentam efeitos sobre segurança dos viajantes.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sumidos nas rotas noturnas.\"",
+          "O relato exige comparar páginas arrancadas de um livro de chegadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/espada_e_uma_voz_witness",
+      "label": "A testemunha retorna: A espada e uma voz",
+      "links": [
+        "story_arc/espada_e_uma_voz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de discípula encarregada do debate",
+          "Registrar a contradição com mestre famoso"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/espada_e_uma_voz",
+        "premise_pt_BR": "Uma pessoa próxima de discípula encarregada do debate conta que um voto de mestre falecido foi computado.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre escolha de delegado ao conclave.\"",
+          "O relato exige comparar ata da eleição anterior com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/espada_e_uma_voz_aftermath",
+      "label": "O preço da decisão: A espada e uma voz",
+      "links": [
+        "story_arc/espada_e_uma_voz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com representação de escolas menores",
+          "Cuidar da memória do acordo sobre escolha de delegado ao conclave"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/espada_e_uma_voz",
+        "premise_pt_BR": "Depois dos acontecimentos de A espada e uma voz, os habitantes enfrentam efeitos sobre representação de escolas menores.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre escolha de delegado ao conclave.\"",
+          "O relato exige comparar ata da eleição anterior com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/rio_entre_dois_reinos_witness",
+      "label": "A testemunha retorna: Um rio entre duas bandeiras",
+      "links": [
+        "story_arc/rio_entre_dois_reinos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de barqueiros sem proteção",
+          "Registrar a contradição com casa da margem norte"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/rio_entre_dois_reinos",
+        "premise_pt_BR": "Uma pessoa próxima de barqueiros sem proteção conta que as margens mudaram após a cheia.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre travessia disputada por clãs da fronteira.\"",
+          "O relato exige comparar marcos de pedra deslocados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/rio_entre_dois_reinos_aftermath",
+      "label": "O preço da decisão: Um rio entre duas bandeiras",
+      "links": [
+        "story_arc/rio_entre_dois_reinos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com passagem segura e coleta justa",
+          "Cuidar da memória do acordo sobre travessia disputada por clãs da fronteira"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/rio_entre_dois_reinos",
+        "premise_pt_BR": "Depois dos acontecimentos de Um rio entre duas bandeiras, os habitantes enfrentam efeitos sobre passagem segura e coleta justa.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre travessia disputada por clãs da fronteira.\"",
+          "O relato exige comparar marcos de pedra deslocados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/carta_sem_assinatura_witness",
+      "label": "A testemunha retorna: A carta sem assinatura",
+      "links": [
+        "story_arc/carta_sem_assinatura"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "espionage"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de zelador do salão",
+          "Registrar a contradição com secretário da seita"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/carta_sem_assinatura",
+        "premise_pt_BR": "Uma pessoa próxima de zelador do salão conta que a carta usa papel da própria escola.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre ameaça anônima ao mestre.\"",
+          "O relato exige comparar escrita idêntica a um decreto falso com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/carta_sem_assinatura_aftermath",
+      "label": "O preço da decisão: A carta sem assinatura",
+      "links": [
+        "story_arc/carta_sem_assinatura"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "espionage"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com honra do mestre e proteção da escola",
+          "Cuidar da memória do acordo sobre ameaça anônima ao mestre"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/carta_sem_assinatura",
+        "premise_pt_BR": "Depois dos acontecimentos de A carta sem assinatura, os habitantes enfrentam efeitos sobre honra do mestre e proteção da escola.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre ameaça anônima ao mestre.\"",
+          "O relato exige comparar escrita idêntica a um decreto falso com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/coroa_dos_sem_nome_witness",
+      "label": "A testemunha retorna: O conselho dos sem nome",
+      "links": [
+        "story_arc/coroa_dos_sem_nome"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de tecelã que organiza petições",
+          "Registrar a contradição com câmara das grandes guildas"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/coroa_dos_sem_nome",
+        "premise_pt_BR": "Uma pessoa próxima de tecelã que organiza petições conta que a proibição nasceu de taxa ilegal.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre representação negada a artesãos.\"",
+          "O relato exige comparar listas de licença recusadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/coroa_dos_sem_nome_aftermath",
+      "label": "O preço da decisão: O conselho dos sem nome",
+      "links": [
+        "story_arc/coroa_dos_sem_nome"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com voz política de trabalhadores",
+          "Cuidar da memória do acordo sobre representação negada a artesãos"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/coroa_dos_sem_nome",
+        "premise_pt_BR": "Depois dos acontecimentos de O conselho dos sem nome, os habitantes enfrentam efeitos sobre voz política de trabalhadores.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre representação negada a artesãos.\"",
+          "O relato exige comparar listas de licença recusadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ultimo_sino_da_seita_witness",
+      "label": "A testemunha retorna: O último sino da seita",
+      "links": [
+        "story_arc/ultimo_sino_da_seita"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de discípulo do velho abade",
+          "Registrar a contradição com mestre severo"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ultimo_sino_da_seita",
+        "premise_pt_BR": "Uma pessoa próxima de discípulo do velho abade conta que nome de sucessor foi removido após a morte.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de abade guerreiro.\"",
+          "O relato exige comparar sino rachado com nomes riscados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ultimo_sino_da_seita_aftermath",
+      "label": "O preço da decisão: O último sino da seita",
+      "links": [
+        "story_arc/ultimo_sino_da_seita"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com futuro espiritual da seita",
+          "Cuidar da memória do acordo sobre sucessão de abade guerreiro"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ultimo_sino_da_seita",
+        "premise_pt_BR": "Depois dos acontecimentos de O último sino da seita, os habitantes enfrentam efeitos sobre futuro espiritual da seita.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de abade guerreiro.\"",
+          "O relato exige comparar sino rachado com nomes riscados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/areia_e_sal_witness",
+      "label": "A testemunha retorna: O preço do sal no vale seco",
+      "links": [
+        "story_arc/areia_e_sal"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de curtidor local",
+          "Registrar a contradição com mercador monopolista"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/areia_e_sal",
+        "premise_pt_BR": "Uma pessoa próxima de curtidor local conta que o sal foi desviado para compradores distantes.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sal monopolizado após seca.\"",
+          "O relato exige comparar balanças calibradas para roubar com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/areia_e_sal_aftermath",
+      "label": "O preço da decisão: O preço do sal no vale seco",
+      "links": [
+        "story_arc/areia_e_sal"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com comida conservada e comércio local",
+          "Cuidar da memória do acordo sobre sal monopolizado após seca"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/areia_e_sal",
+        "premise_pt_BR": "Depois dos acontecimentos de O preço do sal no vale seco, os habitantes enfrentam efeitos sobre comida conservada e comércio local.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sal monopolizado após seca.\"",
+          "O relato exige comparar balanças calibradas para roubar com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/bruma_sobre_o_lago_witness",
+      "label": "A testemunha retorna: Bruma sobre o lago sagrado",
+      "links": [
+        "story_arc/bruma_sobre_o_lago"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "faith"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de guardiã dos ritos",
+          "Registrar a contradição com mineradores clandestinos"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/bruma_sobre_o_lago",
+        "premise_pt_BR": "Uma pessoa próxima de guardiã dos ritos conta que minas secretas lançam resíduos no lago.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre peixes mortos perto de santuário.\"",
+          "O relato exige comparar resíduos metálicos entre pedras com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/bruma_sobre_o_lago_aftermath",
+      "label": "O preço da decisão: Bruma sobre o lago sagrado",
+      "links": [
+        "story_arc/bruma_sobre_o_lago"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "faith"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com água da aldeia e ritos locais",
+          "Cuidar da memória do acordo sobre peixes mortos perto de santuário"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/bruma_sobre_o_lago",
+        "premise_pt_BR": "Depois dos acontecimentos de Bruma sobre o lago sagrado, os habitantes enfrentam efeitos sobre água da aldeia e ritos locais.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre peixes mortos perto de santuário.\"",
+          "O relato exige comparar resíduos metálicos entre pedras com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/tres_testemunhas_witness",
+      "label": "A testemunha retorna: Três testemunhas para um duelo",
+      "links": [
+        "story_arc/tres_testemunhas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "justice"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de zelador de praça",
+          "Registrar a contradição com champião do clã"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/tres_testemunhas",
+        "premise_pt_BR": "Uma pessoa próxima de zelador de praça conta que uma das testemunhas foi ameaçada.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre morte em duelo não autorizado.\"",
+          "O relato exige comparar ferimento que contraria os relatos com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/tres_testemunhas_aftermath",
+      "label": "O preço da decisão: Três testemunhas para um duelo",
+      "links": [
+        "story_arc/tres_testemunhas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "justice"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com justiça sem vingança",
+          "Cuidar da memória do acordo sobre morte em duelo não autorizado"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/tres_testemunhas",
+        "premise_pt_BR": "Depois dos acontecimentos de Três testemunhas para um duelo, os habitantes enfrentam efeitos sobre justiça sem vingança.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre morte em duelo não autorizado.\"",
+          "O relato exige comparar ferimento que contraria os relatos com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/inverno_das_cinzas_witness",
+      "label": "A testemunha retorna: O inverno das cinzas",
+      "links": [
+        "story_arc/inverno_das_cinzas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "famine"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de jovem carregadora",
+          "Registrar a contradição com proprietário do único depósito"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/inverno_das_cinzas",
+        "premise_pt_BR": "Uma pessoa próxima de jovem carregadora conta que o depósito possui reserva omitida.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre povoado isolado pela neve.\"",
+          "O relato exige comparar marca de caravana recente na neve com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/inverno_das_cinzas_aftermath",
+      "label": "O preço da decisão: O inverno das cinzas",
+      "links": [
+        "story_arc/inverno_das_cinzas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "famine"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com sobrevivência no inverno",
+          "Cuidar da memória do acordo sobre povoado isolado pela neve"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/inverno_das_cinzas",
+        "premise_pt_BR": "Depois dos acontecimentos de O inverno das cinzas, os habitantes enfrentam efeitos sobre sobrevivência no inverno.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre povoado isolado pela neve.\"",
+          "O relato exige comparar marca de caravana recente na neve com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/terceira_bandeira_witness",
+      "label": "A testemunha retorna: A terceira bandeira da praça",
+      "links": [
+        "story_arc/terceira_bandeira"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de herdeira do terceiro ramo",
+          "Registrar a contradição com duas famílias governantes"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/terceira_bandeira",
+        "premise_pt_BR": "Uma pessoa próxima de herdeira do terceiro ramo conta que um voto antigo havia sido suprimido.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre terceira família excluída dos acordos.\"",
+          "O relato exige comparar antigo tratado sem última página com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/terceira_bandeira_aftermath",
+      "label": "O preço da decisão: A terceira bandeira da praça",
+      "links": [
+        "story_arc/terceira_bandeira"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com legitimidade da administração",
+          "Cuidar da memória do acordo sobre terceira família excluída dos acordos"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/terceira_bandeira",
+        "premise_pt_BR": "Depois dos acontecimentos de A terceira bandeira da praça, os habitantes enfrentam efeitos sobre legitimidade da administração.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre terceira família excluída dos acordos.\"",
+          "O relato exige comparar antigo tratado sem última página com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ouro_dos_inocentes_witness",
+      "label": "A testemunha retorna: O ouro dos inocentes",
+      "links": [
+        "story_arc/ouro_dos_inocentes"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de médica do abrigo",
+          "Registrar a contradição com tesoureiro religioso"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ouro_dos_inocentes",
+        "premise_pt_BR": "Uma pessoa próxima de médica do abrigo conta que parte das doações foi emprestada a nobres.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre doações desviadas de abrigo.\"",
+          "O relato exige comparar recibos de prata duplicados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ouro_dos_inocentes_aftermath",
+      "label": "O preço da decisão: O ouro dos inocentes",
+      "links": [
+        "story_arc/ouro_dos_inocentes"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "economy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com cuidado dos órfãos e doentes",
+          "Cuidar da memória do acordo sobre doações desviadas de abrigo"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ouro_dos_inocentes",
+        "premise_pt_BR": "Depois dos acontecimentos de O ouro dos inocentes, os habitantes enfrentam efeitos sobre cuidado dos órfãos e doentes.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre doações desviadas de abrigo.\"",
+          "O relato exige comparar recibos de prata duplicados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/eleicao_dos_falsos_rostos_witness",
+      "label": "A testemunha retorna: Eleição dos rostos emprestados",
+      "links": [
+        "story_arc/eleicao_dos_falsos_rostos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de escrivão novato",
+          "Registrar a contradição com grupo do candidato poderoso"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/eleicao_dos_falsos_rostos",
+        "premise_pt_BR": "Uma pessoa próxima de escrivão novato conta que nomes de viajantes foram usados indevidamente.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre fraude de identidade em voto da liga.\"",
+          "O relato exige comparar mesmo selo em três inscrições com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/eleicao_dos_falsos_rostos_aftermath",
+      "label": "O preço da decisão: Eleição dos rostos emprestados",
+      "links": [
+        "story_arc/eleicao_dos_falsos_rostos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com legitimidade do cargo eletivo",
+          "Cuidar da memória do acordo sobre fraude de identidade em voto da liga"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/eleicao_dos_falsos_rostos",
+        "premise_pt_BR": "Depois dos acontecimentos de Eleição dos rostos emprestados, os habitantes enfrentam efeitos sobre legitimidade do cargo eletivo.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre fraude de identidade em voto da liga.\"",
+          "O relato exige comparar mesmo selo em três inscrições com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/paz_do_santuario_witness",
+      "label": "A testemunha retorna: A paz do santuário vazio",
+      "links": [
+        "story_arc/paz_do_santuario"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de guardião dos peregrinos",
+          "Registrar a contradição com senhor da companhia mercenária"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/paz_do_santuario",
+        "premise_pt_BR": "Uma pessoa próxima de guardião dos peregrinos conta que um contratante pagou pela incursão.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre negociação após ataque a refúgio.\"",
+          "O relato exige comparar estandarte recolhido entre destroços com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/paz_do_santuario_aftermath",
+      "label": "O preço da decisão: A paz do santuário vazio",
+      "links": [
+        "story_arc/paz_do_santuario"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com proteção de civis e fim das escaramuças",
+          "Cuidar da memória do acordo sobre negociação após ataque a refúgio"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/paz_do_santuario",
+        "premise_pt_BR": "Depois dos acontecimentos de A paz do santuário vazio, os habitantes enfrentam efeitos sobre proteção de civis e fim das escaramuças.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre negociação após ataque a refúgio.\"",
+          "O relato exige comparar estandarte recolhido entre destroços com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_nome_no_vento_witness",
+      "label": "A testemunha retorna: O nome escrito no vento",
+      "links": [
+        "story_arc/o_nome_no_vento"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "mystery"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de velha amiga do mestre",
+          "Registrar a contradição com discípulo vaidoso"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_nome_no_vento",
+        "premise_pt_BR": "Uma pessoa próxima de velha amiga do mestre conta que o mestre se esconde para proteger alguém.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre rumor sobre mestre desaparecido.\"",
+          "O relato exige comparar caderno de treino rasgado com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/o_nome_no_vento_aftermath",
+      "label": "O preço da decisão: O nome escrito no vento",
+      "links": [
+        "story_arc/o_nome_no_vento"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "mystery"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com preservação de uma técnica",
+          "Cuidar da memória do acordo sobre rumor sobre mestre desaparecido"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/o_nome_no_vento",
+        "premise_pt_BR": "Depois dos acontecimentos de O nome escrito no vento, os habitantes enfrentam efeitos sobre preservação de uma técnica.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre rumor sobre mestre desaparecido.\"",
+          "O relato exige comparar caderno de treino rasgado com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/voto_da_agua_witness",
+      "label": "A testemunha retorna: O dia do voto das águas",
+      "links": [
+        "story_arc/voto_da_agua"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "voting"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de famílias da margem baixa",
+          "Registrar a contradição com lavradores do alto canal"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/voto_da_agua",
+        "premise_pt_BR": "Uma pessoa próxima de famílias da margem baixa conta que cada margem usa unidades de água distintas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre decisão sobre irrigação escassa.\"",
+          "O relato exige comparar tábua de medição quebrada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/voto_da_agua_aftermath",
+      "label": "O preço da decisão: O dia do voto das águas",
+      "links": [
+        "story_arc/voto_da_agua"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "voting"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com equilíbrio entre lavouras e pesca",
+          "Cuidar da memória do acordo sobre decisão sobre irrigação escassa"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/voto_da_agua",
+        "premise_pt_BR": "Depois dos acontecimentos de O dia do voto das águas, os habitantes enfrentam efeitos sobre equilíbrio entre lavouras e pesca.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre decisão sobre irrigação escassa.\"",
+          "O relato exige comparar tábua de medição quebrada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ferro_e_luto_witness",
+      "label": "A testemunha retorna: Ferro, luto e herança",
+      "links": [
+        "story_arc/ferro_e_luto"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "martial"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de filha do ferreiro",
+          "Registrar a contradição com mercador colecionador"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ferro_e_luto",
+        "premise_pt_BR": "Uma pessoa próxima de filha do ferreiro conta que venda ocorreu sob promessa de resgate.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre espada ancestral vendida para pagar funeral.\"",
+          "O relato exige comparar inscrição familiar no punho com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/ferro_e_luto_aftermath",
+      "label": "O preço da decisão: Ferro, luto e herança",
+      "links": [
+        "story_arc/ferro_e_luto"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "martial"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com memória de família e sustento",
+          "Cuidar da memória do acordo sobre espada ancestral vendida para pagar funeral"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/ferro_e_luto",
+        "premise_pt_BR": "Depois dos acontecimentos de Ferro, luto e herança, os habitantes enfrentam efeitos sobre memória de família e sustento.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre espada ancestral vendida para pagar funeral.\"",
+          "O relato exige comparar inscrição familiar no punho com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/os_lacres_da_paz_witness",
+      "label": "A testemunha retorna: Os lacres da paz",
+      "links": [
+        "story_arc/os_lacres_da_paz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "diplomacy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de embaixadora de escola neutra",
+          "Registrar a contradição com guarda da alfândega"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/os_lacres_da_paz",
+        "premise_pt_BR": "Uma pessoa próxima de embaixadora de escola neutra conta que mensageiro foi atacado por terceiros.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre tratado falsamente quebrado.\"",
+          "O relato exige comparar lacre de mensageiro substituído com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/os_lacres_da_paz_aftermath",
+      "label": "O preço da decisão: Os lacres da paz",
+      "links": [
+        "story_arc/os_lacres_da_paz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "diplomacy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com paz entre cidades",
+          "Cuidar da memória do acordo sobre tratado falsamente quebrado"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/os_lacres_da_paz",
+        "premise_pt_BR": "Depois dos acontecimentos de Os lacres da paz, os habitantes enfrentam efeitos sobre paz entre cidades.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre tratado falsamente quebrado.\"",
+          "O relato exige comparar lacre de mensageiro substituído com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/mestre_sem_escola_witness",
+      "label": "A testemunha retorna: O mestre sem escola",
+      "links": [
+        "story_arc/mestre_sem_escola"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "social"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de aluno curado pela técnica",
+          "Registrar a contradição com mestres de escolas reconhecidas"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/mestre_sem_escola",
+        "premise_pt_BR": "Uma pessoa próxima de aluno curado pela técnica conta que o mestre praticou técnica de duas tradições.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre mestre itinerante sem credenciais.\"",
+          "O relato exige comparar relato de treinamento com salvamento com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/mestre_sem_escola_aftermath",
+      "label": "O preço da decisão: O mestre sem escola",
+      "links": [
+        "story_arc/mestre_sem_escola"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "social"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com acesso às artes marciais e reconhecimento",
+          "Cuidar da memória do acordo sobre mestre itinerante sem credenciais"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/mestre_sem_escola",
+        "premise_pt_BR": "Depois dos acontecimentos de O mestre sem escola, os habitantes enfrentam efeitos sobre acesso às artes marciais e reconhecimento.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre mestre itinerante sem credenciais.\"",
+          "O relato exige comparar relato de treinamento com salvamento com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_guerra_dos_cais_witness",
+      "label": "A testemunha retorna: A guerra dos cais secos",
+      "links": [
+        "story_arc/a_guerra_dos_cais"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de liga dos barqueiros",
+          "Registrar a contradição com câmara de comerciantes"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_guerra_dos_cais",
+        "premise_pt_BR": "Uma pessoa próxima de liga dos barqueiros conta que um embargo foi imposto para punir rival.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre bloqueio de navios de remédios.\"",
+          "O relato exige comparar manifestos de embarque contradictórios com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_guerra_dos_cais_aftermath",
+      "label": "O preço da decisão: A guerra dos cais secos",
+      "links": [
+        "story_arc/a_guerra_dos_cais"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com remédios e acesso ao rio",
+          "Cuidar da memória do acordo sobre bloqueio de navios de remédios"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_guerra_dos_cais",
+        "premise_pt_BR": "Depois dos acontecimentos de A guerra dos cais secos, os habitantes enfrentam efeitos sobre remédios e acesso ao rio.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre bloqueio de navios de remédios.\"",
+          "O relato exige comparar manifestos de embarque contradictórios com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/trono_da_guarnicao_witness",
+      "label": "A testemunha retorna: O assento vazio do capitão",
+      "links": [
+        "story_arc/trono_da_guarnicao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "military"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de tenente veterana",
+          "Registrar a contradição com oficial nomeado de fora"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/trono_da_guarnicao",
+        "premise_pt_BR": "Uma pessoa próxima de tenente veterana conta que o antigo capitão não indicou substituto.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre comando militar sem sucessor.\"",
+          "O relato exige comparar ordem de promoção sem selo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/trono_da_guarnicao_aftermath",
+      "label": "O preço da decisão: O assento vazio do capitão",
+      "links": [
+        "story_arc/trono_da_guarnicao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "military"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com defesa da cidade e disciplina militar",
+          "Cuidar da memória do acordo sobre comando militar sem sucessor"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/trono_da_guarnicao",
+        "premise_pt_BR": "Depois dos acontecimentos de O assento vazio do capitão, os habitantes enfrentam efeitos sobre defesa da cidade e disciplina militar.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre comando militar sem sucessor.\"",
+          "O relato exige comparar ordem de promoção sem selo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/alianca_de_tinta_witness",
+      "label": "A testemunha retorna: A aliança escrita em tinta fraca",
+      "links": [
+        "story_arc/alianca_de_tinta"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "clan"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de herdeiro relutante",
+          "Registrar a contradição com anciãos do ramo rico"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/alianca_de_tinta",
+        "premise_pt_BR": "Uma pessoa próxima de herdeiro relutante conta que o noivado foi anunciado antes de consentimento.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre casamento político contestado.\"",
+          "O relato exige comparar promessa de noivado não assinada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/alianca_de_tinta_aftermath",
+      "label": "O preço da decisão: A aliança escrita em tinta fraca",
+      "links": [
+        "story_arc/alianca_de_tinta"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "clan"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com autonomia familiar e pacto entre casas",
+          "Cuidar da memória do acordo sobre casamento político contestado"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/alianca_de_tinta",
+        "premise_pt_BR": "Depois dos acontecimentos de A aliança escrita em tinta fraca, os habitantes enfrentam efeitos sobre autonomia familiar e pacto entre casas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre casamento político contestado.\"",
+          "O relato exige comparar promessa de noivado não assinada com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/dois_mestres_um_discipulo_witness",
+      "label": "A testemunha retorna: Dois mestres, um discípulo",
+      "links": [
+        "story_arc/dois_mestres_um_discipulo"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "martial"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de mestre itinerante",
+          "Registrar a contradição com mestre do ramo antigo"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/dois_mestres_um_discipulo",
+        "premise_pt_BR": "Uma pessoa próxima de mestre itinerante conta que discípulo recebeu aulas permitidas de ambos.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre aprendiz reivindicado por duas escolas.\"",
+          "O relato exige comparar registros conflitantes de treino com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/dois_mestres_um_discipulo_aftermath",
+      "label": "O preço da decisão: Dois mestres, um discípulo",
+      "links": [
+        "story_arc/dois_mestres_um_discipulo"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "martial"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com lealdade, técnica e autonomia",
+          "Cuidar da memória do acordo sobre aprendiz reivindicado por duas escolas"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/dois_mestres_um_discipulo",
+        "premise_pt_BR": "Depois dos acontecimentos de Dois mestres, um discípulo, os habitantes enfrentam efeitos sobre lealdade, técnica e autonomia.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre aprendiz reivindicado por duas escolas.\"",
+          "O relato exige comparar registros conflitantes de treino com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_praca_sem_mercado_witness",
+      "label": "A testemunha retorna: A praça sem mercado",
+      "links": [
+        "story_arc/a_praca_sem_mercado"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "voting"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de vendedores ambulantes",
+          "Registrar a contradição com inspetor da cidade"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_praca_sem_mercado",
+        "premise_pt_BR": "Uma pessoa próxima de vendedores ambulantes conta que proibição favorece grandes lojas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre feira proibida após acidente.\"",
+          "O relato exige comparar relatório de barracas não vistoriadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_praca_sem_mercado_aftermath",
+      "label": "O preço da decisão: A praça sem mercado",
+      "links": [
+        "story_arc/a_praca_sem_mercado"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "voting"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com renda das famílias e segurança",
+          "Cuidar da memória do acordo sobre feira proibida após acidente"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_praca_sem_mercado",
+        "premise_pt_BR": "Depois dos acontecimentos de A praça sem mercado, os habitantes enfrentam efeitos sobre renda das famílias e segurança.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre feira proibida após acidente.\"",
+          "O relato exige comparar relatório de barracas não vistoriadas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/vigias_sem_rosto_witness",
+      "label": "A testemunha retorna: Os vigias sem rosto",
+      "links": [
+        "story_arc/vigias_sem_rosto"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "spy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de ferreiro que fabrica insígnias",
+          "Registrar a contradição com capitão de máscara"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/vigias_sem_rosto",
+        "premise_pt_BR": "Uma pessoa próxima de ferreiro que fabrica insígnias conta que guardas falsos recebem soldo clandestino.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre espiões disfarçados de guardas.\"",
+          "O relato exige comparar insígnias forjadas em lote com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/vigias_sem_rosto_aftermath",
+      "label": "O preço da decisão: Os vigias sem rosto",
+      "links": [
+        "story_arc/vigias_sem_rosto"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "spy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com segurança da cidade e confiança",
+          "Cuidar da memória do acordo sobre espiões disfarçados de guardas"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/vigias_sem_rosto",
+        "premise_pt_BR": "Depois dos acontecimentos de Os vigias sem rosto, os habitantes enfrentam efeitos sobre segurança da cidade e confiança.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre espiões disfarçados de guardas.\"",
+          "O relato exige comparar insígnias forjadas em lote com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/revolta_das_oficinas_witness",
+      "label": "A testemunha retorna: A revolta das oficinas",
+      "links": [
+        "story_arc/revolta_das_oficinas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de líder dos aprendizes",
+          "Registrar a contradição com mestre de guilda"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/revolta_das_oficinas",
+        "premise_pt_BR": "Uma pessoa próxima de líder dos aprendizes conta que contratos foram prorrogados ilegalmente.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre aprendizes trabalham sem salário.\"",
+          "O relato exige comparar livro de horas rasurado com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/revolta_das_oficinas_aftermath",
+      "label": "O preço da decisão: A revolta das oficinas",
+      "links": [
+        "story_arc/revolta_das_oficinas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com justiça do trabalho e produção",
+          "Cuidar da memória do acordo sobre aprendizes trabalham sem salário"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/revolta_das_oficinas",
+        "premise_pt_BR": "Depois dos acontecimentos de A revolta das oficinas, os habitantes enfrentam efeitos sobre justiça do trabalho e produção.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre aprendizes trabalham sem salário.\"",
+          "O relato exige comparar livro de horas rasurado com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/selo_do_alto_monge_witness",
+      "label": "A testemunha retorna: O selo do alto monge",
+      "links": [
+        "story_arc/selo_do_alto_monge"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de zelador antigo",
+          "Registrar a contradição com abade nomeado de fora"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/selo_do_alto_monge",
+        "premise_pt_BR": "Uma pessoa próxima de zelador antigo conta que sucessão exigia três assinaturas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de guardião de santuário.\"",
+          "O relato exige comparar selo ritual feito com madeira diferente com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/selo_do_alto_monge_aftermath",
+      "label": "O preço da decisão: O selo do alto monge",
+      "links": [
+        "story_arc/selo_do_alto_monge"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "succession"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com custódia de arquivo sagrado",
+          "Cuidar da memória do acordo sobre sucessão de guardião de santuário"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/selo_do_alto_monge",
+        "premise_pt_BR": "Depois dos acontecimentos de O selo do alto monge, os habitantes enfrentam efeitos sobre custódia de arquivo sagrado.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre sucessão de guardião de santuário.\"",
+          "O relato exige comparar selo ritual feito com madeira diferente com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/fronteira_sem_mapas_witness",
+      "label": "A testemunha retorna: Uma fronteira sem mapas",
+      "links": [
+        "story_arc/fronteira_sem_mapas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de camponeses deslocados",
+          "Registrar a contradição com guarnição do vale alto"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/fronteira_sem_mapas",
+        "premise_pt_BR": "Uma pessoa próxima de camponeses deslocados conta que novo caminho passa por terra de refúgio.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre territórios após deslizamento de montanha.\"",
+          "O relato exige comparar marcos de fronteira soterrados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/fronteira_sem_mapas_aftermath",
+      "label": "O preço da decisão: Uma fronteira sem mapas",
+      "links": [
+        "story_arc/fronteira_sem_mapas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "war"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com cultivos e livre circulação",
+          "Cuidar da memória do acordo sobre territórios após deslizamento de montanha"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/fronteira_sem_mapas",
+        "premise_pt_BR": "Depois dos acontecimentos de Uma fronteira sem mapas, os habitantes enfrentam efeitos sobre cultivos e livre circulação.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre territórios após deslizamento de montanha.\"",
+          "O relato exige comparar marcos de fronteira soterrados com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/terra_dos_sem_voz_witness",
+      "label": "A testemunha retorna: A terra dos sem voz",
+      "links": [
+        "story_arc/terra_dos_sem_voz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de jovem arquivista",
+          "Registrar a contradição com latifundiário do magistrado"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/terra_dos_sem_voz",
+        "premise_pt_BR": "Uma pessoa próxima de jovem arquivista conta que cartório substituiu os nomes de herdeiros.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre confisco de campos de famílias menores.\"",
+          "O relato exige comparar títulos de posse com emendas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/terra_dos_sem_voz_aftermath",
+      "label": "O preço da decisão: A terra dos sem voz",
+      "links": [
+        "story_arc/terra_dos_sem_voz"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "revolt"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com direito à terra e continuidade familiar",
+          "Cuidar da memória do acordo sobre confisco de campos de famílias menores"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/terra_dos_sem_voz",
+        "premise_pt_BR": "Depois dos acontecimentos de A terra dos sem voz, os habitantes enfrentam efeitos sobre direito à terra e continuidade familiar.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre confisco de campos de famílias menores.\"",
+          "O relato exige comparar títulos de posse com emendas com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/chave_do_portal_witness",
+      "label": "A testemunha retorna: A chave do salão interno",
+      "links": [
+        "story_arc/chave_do_portal"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "dungeon"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de discípula pesquisadora",
+          "Registrar a contradição com guardião do salão"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/chave_do_portal",
+        "premise_pt_BR": "Uma pessoa próxima de discípula pesquisadora conta que a sala abriga registros, não tesouros.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre interior da escola proibido por suspeita.\"",
+          "O relato exige comparar registro de visitas ao subsolo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/chave_do_portal_aftermath",
+      "label": "O preço da decisão: A chave do salão interno",
+      "links": [
+        "story_arc/chave_do_portal"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "dungeon"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com patrimônio e memória de treinamento",
+          "Cuidar da memória do acordo sobre interior da escola proibido por suspeita"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/chave_do_portal",
+        "premise_pt_BR": "Depois dos acontecimentos de A chave do salão interno, os habitantes enfrentam efeitos sobre patrimônio e memória de treinamento.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre interior da escola proibido por suspeita.\"",
+          "O relato exige comparar registro de visitas ao subsolo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/viagem_da_nuvem_witness",
+      "label": "A testemunha retorna: O preço da nuvem branca",
+      "links": [
+        "story_arc/viagem_da_nuvem"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "travel"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de mensageiro sem dinheiro",
+          "Registrar a contradição com mestre de transporte"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/viagem_da_nuvem",
+        "premise_pt_BR": "Uma pessoa próxima de mensageiro sem dinheiro conta que prestador oculta custos e cancelamentos.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre passagem mágica cobrada por cartel.\"",
+          "O relato exige comparar lista de viajantes que não chegaram com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/viagem_da_nuvem_aftermath",
+      "label": "O preço da decisão: O preço da nuvem branca",
+      "links": [
+        "story_arc/viagem_da_nuvem"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "travel"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com acesso rápido a regiões remotas",
+          "Cuidar da memória do acordo sobre passagem mágica cobrada por cartel"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/viagem_da_nuvem",
+        "premise_pt_BR": "Depois dos acontecimentos de O preço da nuvem branca, os habitantes enfrentam efeitos sobre acesso rápido a regiões remotas.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre passagem mágica cobrada por cartel.\"",
+          "O relato exige comparar lista de viajantes que não chegaram com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_vitoria_sem_espadas_witness",
+      "label": "A testemunha retorna: A vitória sem espadas",
+      "links": [
+        "story_arc/a_vitoria_sem_espadas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "diplomacy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de médica que atende ambos os lados",
+          "Registrar a contradição com conclave dos velhos mestres"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_vitoria_sem_espadas",
+        "premise_pt_BR": "Uma pessoa próxima de médica que atende ambos os lados conta que o rumor original foi plantado por mercador rival.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre duas escolas prestes a se atacar.\"",
+          "O relato exige comparar lista de discípulos feridos no último duelo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_vitoria_sem_espadas_aftermath",
+      "label": "O preço da decisão: A vitória sem espadas",
+      "links": [
+        "story_arc/a_vitoria_sem_espadas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "diplomacy"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com gerações de aprendizes e paz",
+          "Cuidar da memória do acordo sobre duas escolas prestes a se atacar"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_vitoria_sem_espadas",
+        "premise_pt_BR": "Depois dos acontecimentos de A vitória sem espadas, os habitantes enfrentam efeitos sobre gerações de aprendizes e paz.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre duas escolas prestes a se atacar.\"",
+          "O relato exige comparar lista de discípulos feridos no último duelo com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_ultima_eleita_witness",
+      "label": "A testemunha retorna: A última eleita da liga",
+      "links": [
+        "story_arc/a_ultima_eleita"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Ouvir a versão de fiscal de urnas",
+          "Registrar a contradição com bloco dos antigos comerciantes"
+        ],
+        "entry_condition": "after_investigation",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_ultima_eleita",
+        "premise_pt_BR": "Uma pessoa próxima de fiscal de urnas conta que acusação é verdadeira só em parte.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre mandato de líder acusada de corrupção.\"",
+          "O relato exige comparar pagamentos de campanha sem origem com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "parallel_arc",
+      "excludes": [],
+      "id": "parallel_arc/a_ultima_eleita_aftermath",
+      "label": "O preço da decisão: A última eleita da liga",
+      "links": [
+        "story_arc/a_ultima_eleita"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "story",
+        "parallel",
+        "persistent",
+        "election"
+      ],
+      "variables": {
+        "choices_pt_BR": [
+          "Acompanhar quem perdeu com continuidade do governo mercantil",
+          "Cuidar da memória do acordo sobre mandato de líder acusada de corrupção"
+        ],
+        "entry_condition": "after_resolution",
+        "never_auto_commit": true,
+        "outcomes": [
+          "evidence_crosschecked",
+          "legacy_followup"
+        ],
+        "parent_story_id": "story_arc/a_ultima_eleita",
+        "premise_pt_BR": "Depois dos acontecimentos de A última eleita da liga, os habitantes enfrentam efeitos sobre continuidade do governo mercantil.",
+        "scenes_pt_BR": [
+          "Uma voz diz: \"Ainda não contaram a verdade sobre mandato de líder acusada de corrupção.\"",
+          "O relato exige comparar pagamentos de campanha sem origem com o que foi prometido."
+        ],
+        "state_owner": "narrative",
+        "terminal_followup": true
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

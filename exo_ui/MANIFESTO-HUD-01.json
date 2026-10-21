@@ -1,0 +1,30 @@
+{
+  "module": "EXO-Murim-HUD-01",
+  "engine_target": "Godot 4.6.2 Standard | Compatibility",
+  "base": "EXO-Murim-EXO-Visual-01-CANDIDATO.zip",
+  "status": "CANDIDATE_OFFLINE_STATIC_QA_NATIVE_NOT_RUN",
+  "reference_asset": "exo_ui/hud_aprovado_referencia.png",
+  "style": "EXO Murim (oficial) replaces HUD style 0 only; styles 1-9 retained",
+  "shortcuts": {
+    "P": "character menu",
+    "I": "inventory",
+    "Tab": "map",
+    "F": "dash",
+    "R": "sheath and hands",
+    "E": "interact",
+    "1-6": "equipped skills"
+  },
+  "static_tests": 26,
+  "sha256": {
+    "exo_hud.gd": "b8a4e0bcc6ebd7ab0813a568f19e38350b7343f9f0000e23a03c0a424187973d",
+    "exo_menu.gd": "2e94018e50e48fe47d857652f01b7e1cca094259c05f7f21d5e953b4a2491c76",
+    "pause_ui.gd": "723d0b5becd55ab1882e906cf7bea0879b1fdf9320e40e105a39540461c8e874",
+    "ui/pages/settings.gd": "51d283e3a1bae56d6ed231d4935e6b53cd9b46517e5805f02695ba2ee035b02e",
+    "exo_ui/LEIA-ME-HUD-01.md": "c3fd277c5013be65b7636ed329b0ac5973e4c7724e4ece6c36113b518fd9382a",
+    "exo_ui/RESULTADOS-QA-HUD-01.json": "bf23c96210ea383297bf5b4d24132b6330f8873f459e288c8eaa8cc8d9555020",
+    "exo_ui/hud_aprovado_referencia.png": "33c57dadfdebd865958e2d65192a591cabcda9a522d1f42f23f77c8a19a5cef8",
+    "exo_ui/hud_murim.gd": "616e354d951b42645e7c8da50a5d3737320ea373a7cd230b271a9a97486b4313",
+    "exo_ui/tests/hud_static_qa.py": "c6208ac11ce95e66e55f6d9352e860c7c16aba081aff61227b0cd730124bc03d",
+    "exo_ui/tests/qa_hud_01.gd": "7a806a4342ce6ac1dcccec54b79dcb3af348cd8929c107da107e2387b211851d"
+  }
+}

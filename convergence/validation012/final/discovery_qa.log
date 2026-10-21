@@ -1,0 +1,41 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK Crônicas abrem em tela própria
+OK Crônicas não exigem botão
+OK Clique avança Crônica
+OK Debounce impede salto duplo
+OK Tecla de ação também avança Crônica
+OK Criação permite escolher uma arma inicial
+OK Uma arma e consumíveis iniciais
+OK Perfil novo valida inventário e conhecimento
+OK Arma não obtida bloqueada
+OK Técnica não aprendida bloqueada
+OK Trajetória oculta antes de aprender percepção
+OK Catálogo não revela técnica desconhecida
+OK Rumor mostra ??? e melhoria sem revelar nome
+OK Manual fechado não revela nome da técnica
+OK Ler revela conhecimento sem aprender automaticamente
+OK EXO não inventa requisito de Corte Inicial para Golpe Circular
+OK Conhecimento permite aprender e equipar técnica sem requisito de maestria no EXO
+OK Percepção exige cultivo de meditação
+OK Percepção aprendida habilita trajetória
+OK Instância do inventário equipa arma
+OK Consumível recupera vida e reduz pilha
+OK Inventário e cultivo gravam
+OK Inventário e maestria persistem ao carregar
+OK Identificadores de itens duplicados são rejeitados
+OK Ancestralidade permanece vinculada ao save
+OK Laboratório abre separado da progressão
+OK Laboratório restaura inventário, arma e cultivo
+OK Derrota registra saque uma vez
+OK Saque pode ser recolhido no mundo
+OK Saque recolhido não duplica
+OK Encontro registra descoberta anterior sem removê-la
+OK Encontro troca materiais por manual
+OK Disparo converge no cursor nos oito setores
+OK Capacidade de 24 espaços é respeitada
+OK Inventário cheio preserva o saque no mundo
+OK Saque pendente sobrevive ao recarregamento
+OK Chuva habilita encontro natural com limite de azar
+OK Ferimentos graves também habilitam encontro
+DISCOVERY04: 38 passaram / 0 falharam

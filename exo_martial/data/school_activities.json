@@ -1,0 +1,218 @@
+[
+  {
+    "school_id": "exo_martial.school.seita_bambu",
+    "stage": "observe",
+    "action": "watch_blade_form",
+    "marker_type": "dummy",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.seita_bambu",
+    "stage": "practice",
+    "action": "precision_strike",
+    "marker_type": "dummy",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.seita_bambu",
+    "stage": "exam",
+    "action": "precision_duel",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.cla_montanha",
+    "stage": "observe",
+    "action": "observe_guard",
+    "marker_type": "training_post",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.cla_montanha",
+    "stage": "practice",
+    "action": "guard_break",
+    "marker_type": "training_post",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.cla_montanha",
+    "stage": "exam",
+    "action": "endure_duel",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.pavilhao_lanca",
+    "stage": "observe",
+    "action": "watch_spear_spacing",
+    "marker_type": "training_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.pavilhao_lanca",
+    "stage": "practice",
+    "action": "spacing_thrust",
+    "marker_type": "training_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.pavilhao_lanca",
+    "stage": "exam",
+    "action": "range_trial",
+    "marker_type": "trial_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.templo_corrente",
+    "stage": "observe",
+    "action": "observe_grappling",
+    "marker_type": "sparring_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.templo_corrente",
+    "stage": "practice",
+    "action": "controlled_spar",
+    "marker_type": "sparring_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.templo_corrente",
+    "stage": "exam",
+    "action": "nonlethal_duel",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.vale_grou",
+    "stage": "observe",
+    "action": "watch_footwork",
+    "marker_type": "agility_course",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.vale_grou",
+    "stage": "practice",
+    "action": "timed_dodge",
+    "marker_type": "agility_course",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.vale_grou",
+    "stage": "exam",
+    "action": "no_hit_trial",
+    "marker_type": "trial_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mercadores_sombra",
+    "stage": "observe",
+    "action": "observe_shadow_route",
+    "marker_type": "stealth_route",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mercadores_sombra",
+    "stage": "practice",
+    "action": "silent_route",
+    "marker_type": "stealth_route",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mercadores_sombra",
+    "stage": "exam",
+    "action": "infiltration_trial",
+    "marker_type": "trial_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mosteiro_jade",
+    "stage": "observe",
+    "action": "observe_breath",
+    "marker_type": "meditation_circle",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mosteiro_jade",
+    "stage": "practice",
+    "action": "breath_cycle",
+    "marker_type": "meditation_circle",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.mosteiro_jade",
+    "stage": "exam",
+    "action": "qi_focus_trial",
+    "marker_type": "meditation_circle",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ordem_cinza",
+    "stage": "observe",
+    "action": "observe_ember",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ordem_cinza",
+    "stage": "practice",
+    "action": "pressure_combo",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ordem_cinza",
+    "stage": "exam",
+    "action": "power_duel",
+    "marker_type": "duel_ring",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ermitagem_vazio",
+    "stage": "observe",
+    "action": "observe_void",
+    "marker_type": "meditation_circle",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ermitagem_vazio",
+    "stage": "practice",
+    "action": "stillness_hold",
+    "marker_type": "meditation_circle",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  },
+  {
+    "school_id": "exo_martial.school.ermitagem_vazio",
+    "stage": "exam",
+    "action": "patience_trial",
+    "marker_type": "trial_lane",
+    "source": "Forja Monumental / NPC System; LAB fallback isolated",
+    "physical_integration": "PENDING"
+  }
+]

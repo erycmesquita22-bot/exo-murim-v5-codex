@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "model": "OFFLINE_REFERENCE_MODEL_NOT_GDSCRIPT",
+  "scenarios": [
+    {
+      "name": "1000 same-source replays",
+      "pass": true
+    },
+    {
+      "name": "commit succeeded but acknowledgement lost",
+      "pass": true
+    },
+    {
+      "name": "rollback after interrupted save/domain",
+      "pass": true
+    },
+    {
+      "name": "23/24 slots + all-or-nothing stacks",
+      "pass": true
+    },
+    {
+      "name": "NaN Infinity fractional qty and stat",
+      "pass": true
+    },
+    {
+      "name": "two distinct sources stable IDs",
+      "pass": true
+    },
+    {
+      "name": "two sources reserve same item UID",
+      "pass": true
+    },
+    {
+      "name": "corrupt state quarantined + coherent backup replay",
+      "pass": true
+    },
+    {
+      "name": "abort read-only and reopen",
+      "pass": true
+    },
+    {
+      "name": "boss dungeon beast quest-shaped stable IDs (model only)",
+      "pass": true
+    },
+    {
+      "name": "Core 01-P gate",
+      "pass": true
+    },
+    {
+      "name": "stale fingerprint rejected",
+      "pass": true
+    },
+    {
+      "name": "R3 static contract and disabled activation",
+      "pass": true
+    }
+  ],
+  "assertions": 1059,
+  "replay_attempts": 1000,
+  "failures": [],
+  "core_01p_native": "NOT_RUN",
+  "gameplay_native": "NOT_RUN"
+}

@@ -1,0 +1,21 @@
+{
+  "by_tier_and_rarity": {
+    "1:Rara": 1110,
+    "2:Rara": 1973,
+    "3:Rara": 3042,
+    "1:Incomum": 2373,
+    "2:Incomum": 3101,
+    "3:Épica": 1658,
+    "1:Comum": 2989,
+    "3:Incomum": 1650,
+    "2:Comum": 1264,
+    "3:Comum": 316,
+    "2:Épica": 329,
+    "1:Épica": 195
+  },
+  "affixes_count": {
+    "2": 8108,
+    "1": 7323,
+    "0": 4569
+  }
+}

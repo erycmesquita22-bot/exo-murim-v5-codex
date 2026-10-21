@@ -1,0 +1,348 @@
+{
+  "schema": 2,
+  "version": "03.R2.1-candidate",
+  "license_status": "NEW_CODE_ONLY_LEGACY_SKINS_QUARANTINED",
+  "commercial_clearance": "NOT_ASSERTED_FOR_INHERITED_EXO_ASSETS",
+  "dependencies": [
+    "res://rig.gd",
+    "res://wardrobe.gd",
+    "res://exo_skin3d/appearance_adapter.gd",
+    "res://exo_humanoids03/"
+  ],
+  "variants": [
+    "a",
+    "b",
+    "c"
+  ],
+  "modules": {
+    "robe": [
+      "short_split",
+      "sect_split",
+      "master_formal",
+      "trader_layers",
+      "guard_tunic"
+    ],
+    "sleeves": [
+      "wrappings",
+      "wide_sleeves",
+      "guard_cuffs"
+    ],
+    "headwear": [
+      "none",
+      "topknot_voxel",
+      "guard_cap",
+      "traveler_hat",
+      "hood",
+      "mask"
+    ],
+    "armor": [
+      "none",
+      "sentinel"
+    ],
+    "extra": [
+      "none",
+      "scroll_case",
+      "prayer_beads",
+      "seal_tassel"
+    ],
+    "emblem": [
+      "none",
+      "neutral",
+      "river",
+      "mountain",
+      "crescent",
+      "sun"
+    ]
+  },
+  "factions": {
+    "neutral": {
+      "cloth": "51636a",
+      "trim": "bfa776",
+      "lining": "e2d4b8",
+      "metal": "6f7d82",
+      "emblem": "neutral"
+    },
+    "jade_martial_school": {
+      "cloth": "23534c",
+      "trim": "d4b76d",
+      "lining": "e4dcc5",
+      "metal": "59766b",
+      "emblem": "river"
+    },
+    "black_moon_school": {
+      "cloth": "343046",
+      "trim": "c59568",
+      "lining": "b8acb8",
+      "metal": "5e5a67",
+      "emblem": "crescent"
+    },
+    "mountain_guardians": {
+      "cloth": "455b6c",
+      "trim": "b7b5a3",
+      "lining": "d5d7c8",
+      "metal": "657f89",
+      "emblem": "mountain"
+    },
+    "forest_outlaws": {
+      "cloth": "4e4835",
+      "trim": "a99067",
+      "lining": "c7baa0",
+      "metal": "53574b",
+      "emblem": "none"
+    },
+    "desert_raiders": {
+      "cloth": "8a563a",
+      "trim": "dbc185",
+      "lining": "dfc9a3",
+      "metal": "897268",
+      "emblem": "sun"
+    },
+    "dungeon_wardens": {
+      "cloth": "3b434b",
+      "trim": "c2a571",
+      "lining": "c7c5b8",
+      "metal": "72818a",
+      "emblem": "mountain"
+    },
+    "city_guard": {
+      "cloth": "374d66",
+      "trim": "e0b974",
+      "lining": "d3d5ce",
+      "metal": "667b91",
+      "emblem": "sun"
+    }
+  },
+  "presets": {
+    "villager_daily": {
+      "robe": "short_split",
+      "sleeves": "wrappings",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "none",
+      "notes": "resident everyday; smallest silhouette"
+    },
+    "road_scholar": {
+      "robe": "short_split",
+      "sleeves": "wide_sleeves",
+      "headwear": "traveler_hat",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "scroll_case",
+      "notes": "resident scholar walking set"
+    },
+    "market_vendor": {
+      "robe": "trader_layers",
+      "sleeves": "wide_sleeves",
+      "headwear": "traveler_hat",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "scroll_case",
+      "notes": "merchant with functional case and wallet silhouette"
+    },
+    "market_carrier": {
+      "robe": "trader_layers",
+      "sleeves": "wrappings",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "scroll_case",
+      "notes": "merchant without floating trinkets"
+    },
+    "sect_trainee": {
+      "robe": "sect_split",
+      "sleeves": "wrappings",
+      "headwear": "topknot_voxel",
+      "armor": "none",
+      "emblem": "river",
+      "extra": "prayer_beads",
+      "notes": "disciple short cuffs, divided legs"
+    },
+    "sect_veteran": {
+      "robe": "sect_split",
+      "sleeves": "wide_sleeves",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "river",
+      "extra": "seal_tassel",
+      "notes": "advanced disciple with sect seal"
+    },
+    "sect_master": {
+      "robe": "master_formal",
+      "sleeves": "wide_sleeves",
+      "headwear": "topknot_voxel",
+      "armor": "none",
+      "emblem": "river",
+      "extra": "seal_tassel",
+      "notes": "teacher mantle and collar visible isometrically"
+    },
+    "sect_elder": {
+      "robe": "master_formal",
+      "sleeves": "wide_sleeves",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "crescent",
+      "extra": "seal_tassel",
+      "notes": "elder prestige with mantle, minimal headpiece"
+    },
+    "garrison_guard": {
+      "robe": "guard_tunic",
+      "sleeves": "guard_cuffs",
+      "headwear": "guard_cap",
+      "armor": "sentinel",
+      "emblem": "sun",
+      "extra": "none",
+      "notes": "garrison strong shoulders, helmet and rank"
+    },
+    "border_sentinel": {
+      "robe": "guard_tunic",
+      "sleeves": "guard_cuffs",
+      "headwear": "guard_cap",
+      "armor": "sentinel",
+      "emblem": "mountain",
+      "extra": "none",
+      "notes": "sentinel readable pauldron and insignia"
+    },
+    "bandit_raider": {
+      "robe": "short_split",
+      "sleeves": "wrappings",
+      "headwear": "mask",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "none",
+      "notes": "best 02 bandit silhouette without new combat type"
+    },
+    "bandit_scout": {
+      "robe": "short_split",
+      "sleeves": "wrappings",
+      "headwear": "hood",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "none",
+      "notes": "outlaw scouting hood and athletic pose clearance"
+    },
+    "hostile_cultivator": {
+      "robe": "sect_split",
+      "sleeves": "wrappings",
+      "headwear": "topknot_voxel",
+      "armor": "none",
+      "emblem": "crescent",
+      "extra": "seal_tassel",
+      "notes": "enemy cultivator identity retained, same combat"
+    },
+    "rival_school_disciple": {
+      "robe": "sect_split",
+      "sleeves": "wrappings",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "mountain",
+      "extra": "prayer_beads",
+      "notes": "Bestiary02 rival disciple visual-only"
+    },
+    "wanderer_martial": {
+      "robe": "sect_split",
+      "sleeves": "wide_sleeves",
+      "headwear": "none",
+      "armor": "none",
+      "emblem": "none",
+      "extra": "none",
+      "notes": "Bestiary02 wanderer external robes"
+    }
+  },
+  "roles": {
+    "player": [
+      "sect_trainee",
+      "wanderer_martial",
+      "sect_veteran"
+    ],
+    "resident": [
+      "villager_daily",
+      "road_scholar"
+    ],
+    "merchant": [
+      "market_vendor",
+      "market_carrier"
+    ],
+    "disciple": [
+      "sect_trainee",
+      "sect_veteran"
+    ],
+    "master": [
+      "sect_master",
+      "sect_elder"
+    ],
+    "guard": [
+      "garrison_guard"
+    ],
+    "sentinel": [
+      "border_sentinel",
+      "garrison_guard"
+    ],
+    "bandit_swordsman": [
+      "bandit_raider",
+      "bandit_scout"
+    ],
+    "bandit_archer": [
+      "bandit_scout"
+    ],
+    "bandit_spearman": [
+      "bandit_raider"
+    ],
+    "dagger_raider": [
+      "bandit_scout"
+    ],
+    "defensive_mercenary": [
+      "garrison_guard"
+    ],
+    "hostile_wanderer": [
+      "wanderer_martial"
+    ],
+    "aggressive_cultivator": [
+      "hostile_cultivator"
+    ],
+    "rival_disciple": [
+      "rival_school_disciple",
+      "sect_trainee"
+    ]
+  },
+  "visual_policy": {
+    "canonical_roles": [
+      "player",
+      "resident",
+      "merchant",
+      "disciple",
+      "master",
+      "guard",
+      "sentinel"
+    ],
+    "bestiary02_ids": [
+      "bandit_swordsman",
+      "bandit_archer",
+      "bandit_spearman",
+      "dagger_raider",
+      "defensive_mercenary",
+      "hostile_wanderer",
+      "aggressive_cultivator",
+      "rival_disciple"
+    ],
+    "faction_ids_are_suggestions": true,
+    "unknown_faction": "neutral_palette_without_writing_actor_faction",
+    "persistent_fields": [
+      "uid",
+      "preset_id",
+      "style",
+      "schema",
+      "catalog_version",
+      "selection_key"
+    ],
+    "cosmetic_armor": "no_stats_no_new_item",
+    "action_constraints": {
+      "roll": "hide split-skirt panel if pose_event is triggered",
+      "crouch": "hide split-skirt panel if pose_event is triggered",
+      "two_handed": "hide extended sleeve cuff if triggered",
+      "weapon_state": "render empty scabbard only if explicitly sheathed"
+    },
+    "skin64": "vanilla UV and 64x64 PNG kept under inherited Wardrobe / Skin3D, untouched by R2",
+    "staging": "R2 does not redistribute legacy PNGs; install only in approved internal development branch until provenance cleared"
+  }
+}

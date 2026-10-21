@@ -1,0 +1,554 @@
+[
+  {
+    "id": "exo_martial.technique.corte_inicial",
+    "name": "Corte Inicial",
+    "core_skill_id": "corte_inicial",
+    "kind": "cut",
+    "style_ids": [
+      "exo_martial.style.sword_swift",
+      "exo_martial.style.saber_iron"
+    ],
+    "category": "espada",
+    "requires": {
+      "rank": 3,
+      "mastery": 0,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 0,
+      "stamina": 14
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 3.25,
+    "base_damage_reference": 24,
+    "effect_binding": "catalog_skill/corte_inicial",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 0
+  },
+  {
+    "id": "exo_martial.technique.bola_de_gelo",
+    "name": "Bola de Gelo",
+    "core_skill_id": "bola_de_gelo",
+    "kind": "projectile",
+    "style_ids": [
+      "exo_martial.style.winter_frost"
+    ],
+    "category": "mistico",
+    "requires": {
+      "rank": 3,
+      "mastery": 12,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 18,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 3.5,
+    "base_damage_reference": 18,
+    "effect_binding": "catalog_skill/bola_de_gelo",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 6
+  },
+  {
+    "id": "exo_martial.technique.salto_impetuoso",
+    "name": "Salto Impetuoso",
+    "core_skill_id": "salto_impetuoso",
+    "kind": "leap",
+    "style_ids": [
+      "exo_martial.style.kick_crane",
+      "exo_martial.style.shadow_steps"
+    ],
+    "category": "chutes",
+    "requires": {
+      "rank": 3,
+      "mastery": 24,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 0,
+      "stamina": 30
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 8,
+    "base_damage_reference": 20,
+    "effect_binding": "catalog_skill/salto_impetuoso",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 4
+  },
+  {
+    "id": "exo_martial.technique.golpe_circular",
+    "name": "Golpe Circular",
+    "core_skill_id": "golpe_circular",
+    "kind": "area",
+    "style_ids": [
+      "exo_martial.style.saber_iron",
+      "exo_martial.style.fist_river"
+    ],
+    "category": "sabre_katana",
+    "requires": {
+      "rank": 3,
+      "mastery": 36,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 0,
+      "stamina": 24
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 6,
+    "base_damage_reference": 23,
+    "effect_binding": "catalog_skill/golpe_circular",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 4
+  },
+  {
+    "id": "exo_martial.technique.nova_glacial",
+    "name": "Nova Glacial",
+    "core_skill_id": "nova_glacial",
+    "kind": "root",
+    "style_ids": [
+      "exo_martial.style.winter_frost"
+    ],
+    "category": "mistico",
+    "requires": {
+      "rank": 3,
+      "mastery": 0,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 24,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 8,
+    "base_damage_reference": 12,
+    "effect_binding": "catalog_skill/nova_glacial",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 6
+  },
+  {
+    "id": "exo_martial.technique.atracao_arcana",
+    "name": "Atracao Arcana",
+    "core_skill_id": "atracao_arcana",
+    "kind": "pull",
+    "style_ids": [
+      "exo_martial.style.void_arts"
+    ],
+    "category": "excepcional",
+    "requires": {
+      "rank": 3,
+      "mastery": 12,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 20,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 7,
+    "base_damage_reference": 8,
+    "effect_binding": "catalog_skill/atracao_arcana",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 11
+  },
+  {
+    "id": "exo_martial.technique.investida_brutal",
+    "name": "Investida Brutal",
+    "core_skill_id": "investida_brutal",
+    "kind": "dash",
+    "style_ids": [
+      "exo_martial.style.spear_dragon",
+      "exo_martial.style.fist_river",
+      "exo_martial.style.kick_crane"
+    ],
+    "category": "lanca",
+    "requires": {
+      "rank": 3,
+      "mastery": 24,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 0,
+      "stamina": 24
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 5,
+    "base_damage_reference": 21,
+    "effect_binding": "catalog_skill/investida_brutal",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 4
+  },
+  {
+    "id": "exo_martial.technique.jato_de_fogo",
+    "name": "Jato de Fogo",
+    "core_skill_id": "jato_de_fogo",
+    "kind": "channel",
+    "style_ids": [
+      "exo_martial.style.fire_ember"
+    ],
+    "category": "mistico",
+    "requires": {
+      "rank": 3,
+      "mastery": 36,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 30,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 8,
+    "base_damage_reference": 7,
+    "effect_binding": "catalog_skill/jato_de_fogo",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "damage_interrupt",
+      "movement_lock"
+    ],
+    "core_element": 5
+  },
+  {
+    "id": "exo_martial.technique.barreira_arcana",
+    "name": "Barreira Arcana",
+    "core_skill_id": "barreira_arcana",
+    "kind": "shield",
+    "style_ids": [
+      "exo_martial.style.jade_guard",
+      "exo_martial.style.qi_serene"
+    ],
+    "category": "defesa",
+    "requires": {
+      "rank": 3,
+      "mastery": 0,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 22,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 9,
+    "base_damage_reference": 0,
+    "effect_binding": "catalog_skill/barreira_arcana",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 11
+  },
+  {
+    "id": "exo_martial.technique.cura",
+    "name": "Cura",
+    "core_skill_id": "cura",
+    "kind": "heal",
+    "style_ids": [
+      "exo_martial.style.qi_serene"
+    ],
+    "category": "qi_interno",
+    "requires": {
+      "rank": 3,
+      "mastery": 12,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 26,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 10,
+    "base_damage_reference": 0,
+    "effect_binding": "catalog_skill/cura",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 8
+  },
+  {
+    "id": "exo_martial.technique.cripta_espinhos_1",
+    "name": "Cripta de Espinhos",
+    "core_skill_id": "cripta_espinhos_1",
+    "kind": "trap",
+    "style_ids": [
+      "exo_martial.style.hidden_blade"
+    ],
+    "category": "armas_especiais",
+    "requires": {
+      "rank": 3,
+      "mastery": 24,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 24,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 9,
+    "base_damage_reference": 15,
+    "effect_binding": "catalog_skill/cripta_espinhos_1",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 3
+  },
+  {
+    "id": "exo_martial.technique.guardiao_ancestral",
+    "name": "Guardiao Ancestral",
+    "core_skill_id": "guardiao_ancestral",
+    "kind": "summon",
+    "style_ids": [
+      "exo_martial.style.void_arts"
+    ],
+    "category": "excepcional",
+    "requires": {
+      "rank": 3,
+      "mastery": 36,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 32,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 14,
+    "base_damage_reference": 8,
+    "effect_binding": "catalog_skill/guardiao_ancestral",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 1
+  },
+  {
+    "id": "exo_martial.technique.rajada_de_fogo",
+    "name": "Rajada de Fogo",
+    "core_skill_id": "rajada_de_fogo",
+    "kind": "projectile",
+    "style_ids": [
+      "exo_martial.style.fire_ember"
+    ],
+    "category": "mistico",
+    "requires": {
+      "rank": 3,
+      "mastery": 0,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 18,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 3.5,
+    "base_damage_reference": 22,
+    "effect_binding": "catalog_skill/rajada_de_fogo",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 5
+  },
+  {
+    "id": "exo_martial.technique.rajada_de_vento",
+    "name": "Rajada de Vento",
+    "core_skill_id": "rajada_de_vento",
+    "kind": "projectile",
+    "style_ids": [
+      "exo_martial.style.sword_swift",
+      "exo_martial.style.shadow_steps"
+    ],
+    "category": "espada",
+    "requires": {
+      "rank": 3,
+      "mastery": 12,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 16,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 3.2,
+    "base_damage_reference": 16,
+    "effect_binding": "catalog_skill/rajada_de_vento",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 0
+  },
+  {
+    "id": "exo_martial.technique.dardo_arcano",
+    "name": "Dardo Arcano",
+    "core_skill_id": "dardo_arcano",
+    "kind": "projectile",
+    "style_ids": [
+      "exo_martial.style.hidden_blade"
+    ],
+    "category": "armas_especiais",
+    "requires": {
+      "rank": 3,
+      "mastery": 24,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 14,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 2.8,
+    "base_damage_reference": 17,
+    "effect_binding": "catalog_skill/dardo_arcano",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 11
+  },
+  {
+    "id": "exo_martial.technique.onda_de_repulsao",
+    "name": "Onda de Repulsao",
+    "core_skill_id": "onda_de_repulsao",
+    "kind": "repel",
+    "style_ids": [
+      "exo_martial.style.spear_dragon",
+      "exo_martial.style.jade_guard"
+    ],
+    "category": "lanca",
+    "requires": {
+      "rank": 3,
+      "mastery": 36,
+      "level": 1,
+      "weapon_pose": []
+    },
+    "resources": {
+      "qi": 20,
+      "stamina": 0
+    },
+    "core_cost_mapping": {
+      "qi": "mana",
+      "stamina": "stamina"
+    },
+    "cooldown_seconds": 7,
+    "base_damage_reference": 10,
+    "effect_binding": "catalog_skill/onda_de_repulsao",
+    "validated_core_id": true,
+    "grade_max": 5,
+    "interruptions": [
+      "resource_insufficient",
+      "casting_lock"
+    ],
+    "core_element": 0
+  }
+]

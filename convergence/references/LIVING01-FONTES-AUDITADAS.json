@@ -1,0 +1,50 @@
+{
+  "archives": [
+    {
+      "archive": "EXO-Murim-09.4.6-Base-de-Assets.zip",
+      "sha256": "81cb68feb3ec71db029b2c27552d67359e8ae66df013e1b5fd0ed2bae5b63c8c",
+      "bytes": 10668679
+    },
+    {
+      "archive": "EXO-Murim-09.2-Fundacao-Procedural.zip",
+      "sha256": "7930c0656e6abbd558c8b67a2ab793ab8848cc8935da3616ac7ef252bb2c4509",
+      "bytes": 11081835
+    },
+    {
+      "archive": "EXO-WorldGenesis-03-Godot-Validacao.zip",
+      "sha256": "c2f0f3f6a70e61619a3f392cbb0ef3a89a2ee271ab5765bbb32bf9e792854fd1",
+      "bytes": 64367499
+    },
+    {
+      "archive": "EXO-1.21.1-Teste-Maior.zip",
+      "sha256": "1cbbe1a925a6aaeb15a2eb5e5b784da3e2b9ebc65da3154b03a968365ef5446e",
+      "bytes": 224796
+    },
+    {
+      "archive": "Exo-Continuidade-Fontes.zip",
+      "sha256": "9f826609f382e17cd07016ceaffffa6e0ff835c38f4a8e2936d827efd97b659b",
+      "bytes": 5430797
+    },
+    {
+      "archive": "Exo-Reinos-Vivos-Fontes.zip",
+      "sha256": "1717fab4b23cf1c1c5bf2821461deb5c7d19bc7f9e27d368675976fbc1290fd3",
+      "bytes": 2741115
+    },
+    {
+      "archive": "Exo-Jornada-Fontes.zip",
+      "sha256": "a83ab4797a0e11336d92b50dd64087a7de5f6abcf212aa75ed12ca26f28bb1d0",
+      "bytes": 2555947
+    },
+    {
+      "archive": "Exo-Arsenal-Encaixe-Fontes.zip",
+      "sha256": "27ec44272c5fe5f475a40854241678a47844d061216bad3939c780a094f6fe19",
+      "bytes": 5331318
+    },
+    {
+      "archive": "Exo-Profissoes-Fontes.zip",
+      "sha256": "a7f31f078314b9a699af96b886733ba4fb4c34312f5dc946a3c4923a29a95c35",
+      "bytes": 4446577
+    }
+  ],
+  "scope": "Input archives were inspected read-only, no Java source or binary assets included in deliverable."
+}

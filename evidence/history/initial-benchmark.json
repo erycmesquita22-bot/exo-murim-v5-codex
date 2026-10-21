@@ -1,0 +1,316 @@
+{
+	"display": "X11",
+	"engine": {
+		"build": "official",
+		"hash": "71f334935c000924d403448e698df4441130df18",
+		"hex": 263682,
+		"major": 4,
+		"minor": 6,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.6.2-stable (official)",
+		"timestamp": 0
+	},
+	"modes": [
+		{
+			"prepared": false,
+			"rows": [
+				{
+					"asset_instances": 194,
+					"draw_calls": 29.0,
+					"fps": 40.9236602121694,
+					"frame_ms": {
+						"frames": 62,
+						"max": 67.961,
+						"mean": 24.4357419354839,
+						"p50": 22.119,
+						"p95": 32.33
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 52,
+					"rss_kib": -1,
+					"static_bytes": 80636835.0,
+					"transition_ms": 1159.388,
+					"triangles": 146048
+				},
+				{
+					"asset_instances": 29,
+					"draw_calls": 29.0,
+					"fps": 46.0259546933652,
+					"frame_ms": {
+						"frames": 70,
+						"max": 30.992,
+						"mean": 21.7268714285714,
+						"p50": 21.304,
+						"p95": 24.801
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 46,
+					"rss_kib": -1,
+					"static_bytes": 81879183.0,
+					"transition_ms": 1483.371,
+					"triangles": 171008
+				},
+				{
+					"asset_instances": 61,
+					"draw_calls": 37.0,
+					"fps": 44.3442250251008,
+					"frame_ms": {
+						"frames": 67,
+						"max": 28.188,
+						"mean": 22.5508507462687,
+						"p50": 22.19,
+						"p95": 27.766
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 61,
+					"rss_kib": -1,
+					"static_bytes": 76443399.0,
+					"transition_ms": 1018.932,
+					"triangles": 136448
+				},
+				{
+					"asset_instances": 51,
+					"draw_calls": 35.0,
+					"fps": 45.3774814577089,
+					"frame_ms": {
+						"frames": 69,
+						"max": 28.513,
+						"mean": 22.0373623188406,
+						"p50": 21.779,
+						"p95": 25.266
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 32,
+					"rss_kib": -1,
+					"static_bytes": 73657275.0,
+					"transition_ms": 1033.489,
+					"triangles": 121088
+				},
+				{
+					"asset_instances": 224,
+					"draw_calls": 40.0,
+					"fps": 44.8419256177964,
+					"frame_ms": {
+						"frames": 68,
+						"max": 29.993,
+						"mean": 22.3005588235294,
+						"p50": 21.936,
+						"p95": 27.974
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 86,
+					"rss_kib": -1,
+					"static_bytes": 82323473.0,
+					"transition_ms": 1370.347,
+					"triangles": 149888
+				},
+				{
+					"asset_instances": 242,
+					"draw_calls": 39.0,
+					"fps": 44.8755725760097,
+					"frame_ms": {
+						"frames": 68,
+						"max": 25.898,
+						"mean": 22.2838382352941,
+						"p50": 22.194,
+						"p95": 25.503
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 78,
+					"rss_kib": -1,
+					"static_bytes": 88423075.0,
+					"transition_ms": 2026.529,
+					"triangles": 180608
+				},
+				{
+					"asset_instances": 93,
+					"draw_calls": 30.0,
+					"fps": 46.6245491572613,
+					"frame_ms": {
+						"frames": 70,
+						"max": 25.925,
+						"mean": 21.4479285714286,
+						"p50": 21.405,
+						"p95": 24.525
+					},
+					"ok": true,
+					"prepared": false,
+					"rid": 63,
+					"rss_kib": -1,
+					"static_bytes": 73608811.0,
+					"transition_ms": 803.597,
+					"triangles": 115328
+				}
+			]
+		},
+		{
+			"prepared": true,
+			"rows": [
+				{
+					"asset_instances": 194,
+					"draw_calls": 29.0,
+					"fps": 44.4560339776804,
+					"frame_ms": {
+						"frames": 67,
+						"max": 44.018,
+						"mean": 22.4941343283582,
+						"p50": 22.026,
+						"p95": 25.594
+					},
+					"ok": true,
+					"prepare_ms": 1033.636,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 109227285.0,
+					"rid": 52,
+					"rss_kib": -1,
+					"static_bytes": 81188675.0,
+					"transition_ms": 105.223,
+					"triangles": 146048
+				},
+				{
+					"asset_instances": 29,
+					"draw_calls": 29.0,
+					"fps": 47.036563972377,
+					"frame_ms": {
+						"frames": 71,
+						"max": 27.485,
+						"mean": 21.2600563380282,
+						"p50": 20.88,
+						"p95": 25.198
+					},
+					"ok": true,
+					"prepare_ms": 1443.146,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 118165753.0,
+					"rid": 46,
+					"rss_kib": -1,
+					"static_bytes": 82389511.0,
+					"transition_ms": 126.925,
+					"triangles": 171008
+				},
+				{
+					"asset_instances": 61,
+					"draw_calls": 37.0,
+					"fps": 45.1939852122622,
+					"frame_ms": {
+						"frames": 68,
+						"max": 25.982,
+						"mean": 22.1268382352941,
+						"p50": 21.899,
+						"p95": 25.422
+					},
+					"ok": true,
+					"prepare_ms": 1006.704,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 113735021.0,
+					"rid": 61,
+					"rss_kib": -1,
+					"static_bytes": 76774227.0,
+					"transition_ms": 99.029,
+					"triangles": 136448
+				},
+				{
+					"asset_instances": 51,
+					"draw_calls": 35.0,
+					"fps": 44.564939764165,
+					"frame_ms": {
+						"frames": 67,
+						"max": 84.577,
+						"mean": 22.4391641791045,
+						"p50": 21.382,
+						"p95": 24.603
+					},
+					"ok": true,
+					"prepare_ms": 1016.733,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 105213993.0,
+					"rid": 32,
+					"rss_kib": -1,
+					"static_bytes": 73874527.0,
+					"transition_ms": 107.251,
+					"triangles": 121088
+				},
+				{
+					"asset_instances": 224,
+					"draw_calls": 40.0,
+					"fps": 46.2204543998901,
+					"frame_ms": {
+						"frames": 70,
+						"max": 25.562,
+						"mean": 21.6354428571428,
+						"p50": 21.333,
+						"p95": 25.001
+					},
+					"ok": true,
+					"prepare_ms": 1424.807,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 110788503.0,
+					"rid": 86,
+					"rss_kib": -1,
+					"static_bytes": 82543705.0,
+					"transition_ms": 76.105,
+					"triangles": 149888
+				},
+				{
+					"asset_instances": 242,
+					"draw_calls": 39.0,
+					"fps": 47.0104965831314,
+					"frame_ms": {
+						"frames": 71,
+						"max": 25.043,
+						"mean": 21.2718450704225,
+						"p50": 21.189,
+						"p95": 24.064
+					},
+					"ok": true,
+					"prepare_ms": 1763.503,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 125310999.0,
+					"rid": 78,
+					"rss_kib": -1,
+					"static_bytes": 88448183.0,
+					"transition_ms": 86.13,
+					"triangles": 180608
+				},
+				{
+					"asset_instances": 93,
+					"draw_calls": 30.0,
+					"fps": 39.9988800313591,
+					"frame_ms": {
+						"frames": 60,
+						"max": 56.62,
+						"mean": 25.0007,
+						"p50": 22.466,
+						"p95": 40.508
+					},
+					"ok": true,
+					"prepare_ms": 713.099,
+					"prepared": true,
+					"prepared_rss_kib": -1,
+					"prepared_static_bytes": 116619509.0,
+					"rid": 63,
+					"rss_kib": -1,
+					"static_bytes": 73633711.0,
+					"transition_ms": 102.396,
+					"triangles": 115328
+				}
+			]
+		}
+	],
+	"note": "No fixed FPS or movie capture. Shared host, software rendering. Prebuild is main-thread and can stall; frame time reports include its cost.",
+	"renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+	"resolution": "(1152, 720)"
+}

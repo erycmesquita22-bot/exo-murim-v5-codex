@@ -1,0 +1,345 @@
+{
+  "id": "vila_feira_ribeirinha",
+  "name": "Vila da Feira Ribeirinha",
+  "shape": "ribbon_bazaar",
+  "wall": false,
+  "half_extent": 112,
+  "gates": [],
+  "streets": [
+    {
+      "a": [
+        -97,
+        0
+      ],
+      "b": [
+        97,
+        0
+      ],
+      "width": 7.0,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -26,
+        -80
+      ],
+      "b": [
+        -26,
+        80
+      ],
+      "width": 4.5,
+      "kind": "lane"
+    },
+    {
+      "a": [
+        26,
+        -80
+      ],
+      "b": [
+        26,
+        80
+      ],
+      "width": 4.5,
+      "kind": "lane"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "vila_feira_ribeirinha/s00",
+      "center": [
+        -53,
+        -35
+      ],
+      "footprint": [
+        [
+          -74.0,
+          -55.0
+        ],
+        [
+          -34.0,
+          -55.0
+        ],
+        [
+          -32.0,
+          -15.0
+        ],
+        [
+          -72.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -54.0,
+          -55.0
+        ],
+        [
+          -33.0,
+          -35.0
+        ],
+        [
+          -52.0,
+          -15.0
+        ],
+        [
+          -73.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_feira_ribeirinha/s01",
+      "center": [
+        0,
+        -35
+      ],
+      "footprint": [
+        [
+          -20.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -15.0
+        ],
+        [
+          -20.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          -55.0
+        ],
+        [
+          20.0,
+          -35.0
+        ],
+        [
+          0.0,
+          -15.0
+        ],
+        [
+          -20.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_feira_ribeirinha/s02",
+      "center": [
+        53,
+        -35
+      ],
+      "footprint": [
+        [
+          34.0,
+          -55.0
+        ],
+        [
+          74.0,
+          -55.0
+        ],
+        [
+          72.0,
+          -15.0
+        ],
+        [
+          32.0,
+          -15.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          54.0,
+          -55.0
+        ],
+        [
+          73.0,
+          -35.0
+        ],
+        [
+          52.0,
+          -15.0
+        ],
+        [
+          33.0,
+          -35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_feira_ribeirinha/s03",
+      "center": [
+        -53,
+        35
+      ],
+      "footprint": [
+        [
+          -72.0,
+          15.0
+        ],
+        [
+          -32.0,
+          15.0
+        ],
+        [
+          -34.0,
+          55.0
+        ],
+        [
+          -74.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -52.0,
+          15.0
+        ],
+        [
+          -33.0,
+          35.0
+        ],
+        [
+          -54.0,
+          55.0
+        ],
+        [
+          -73.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_feira_ribeirinha/s04",
+      "center": [
+        0,
+        35
+      ],
+      "footprint": [
+        [
+          -20.0,
+          15.0
+        ],
+        [
+          20.0,
+          15.0
+        ],
+        [
+          20.0,
+          55.0
+        ],
+        [
+          -20.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          0.0,
+          15.0
+        ],
+        [
+          20.0,
+          35.0
+        ],
+        [
+          0.0,
+          55.0
+        ],
+        [
+          -20.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "vila_feira_ribeirinha/s05",
+      "center": [
+        53,
+        35
+      ],
+      "footprint": [
+        [
+          32.0,
+          15.0
+        ],
+        [
+          72.0,
+          15.0
+        ],
+        [
+          74.0,
+          55.0
+        ],
+        [
+          34.0,
+          55.0
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          52.0,
+          15.0
+        ],
+        [
+          73.0,
+          35.0
+        ],
+        [
+          54.0,
+          55.0
+        ],
+        [
+          33.0,
+          35.0
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "town"
+  ],
+  "implementation": "physical_preview_unverified",
+  "geometric_rule": "sector_polygon_strict_footprint",
+  "features": [
+    "river_look_no_river_required"
+  ],
+  "notes": "R3 original authorial village/town/city arrangement; WorldGenesis still owns final geometry"
+}

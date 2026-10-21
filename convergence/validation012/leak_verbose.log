@@ -1,0 +1,213 @@
+WorkerThreadPool: 9 threads, 2 max low-priority.
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Unrecognized output string "misc2" in mapping:
+030000008a2e0000dd10000011010000,Hand Held Legend GC Ultimate,a:b0,b:b2,back:b17,dpdown:b5,dpleft:b6,dpright:b7,dpup:b4,guide:b18,leftshoulder:b10,leftstick:b8,lefttrigger:a3,leftx:a0,lefty:a1,misc1:b19,misc2:b24,paddle1:b13,paddle2:b12,rightshoulder:b11,rightstick:b9,righttrigger:a4,rightx:a2,righty:a5,start:b16,x:b1,y:b3,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+030000000d0f0000ab01000011010000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+050000000d0f00009601000091000000,Horipad Steam,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b6,leftstick:b13,lefttrigger:a5,leftx:a0,lefty:a1,misc2:b2,paddle1:b19,paddle2:b18,paddle3:b15,paddle4:b5,rightshoulder:b7,rightstick:b14,righttrigger:a4,rightx:a2,righty:a3,start:b11,x:b3,y:b4,platform:Linux,
+Unrecognized output string "misc2" in mapping:
+030000007e0500006920000011010000,Nintendo Switch 2 Pro Controller,a:b0,b:b1,back:b14,dpdown:b8,dpleft:b10,dpright:b9,dpup:b11,guide:b16,leftshoulder:b12,leftstick:b15,lefttrigger:b13,leftx:a0,lefty:a1~,misc1:b17,misc2:b20,paddle1:b18,paddle2:b19,rightshoulder:b4,rightstick:b7,righttrigger:b5,rightx:a2,righty:a3~,start:b6,x:b2,y:b3,platform:Linux,
+SDL: Init OK!
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 4039755037
+EDITOR API HASH: 223528947
+Loading resource: res://qa0943.gd
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://main.tscn
+Loading resource: res://main.gd
+Loading resource: res://assets/exo_skin.png
+Loading resource: res://.godot/imported/exo_skin.png-5421411332c86ac874c3d7d4624f6d3d.ctex
+Loading resource: res://assets/martial_audio/katana_1.ogg
+Loading resource: res://.godot/imported/katana_1.ogg-2a93f252d84b511992a19830ae14f485.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_4.ogg
+Loading resource: res://.godot/imported/kungfu_air_4.ogg-01f95108b3e5a37927f9c0221842930e.oggvorbisstr
+Loading resource: res://assets/martial_audio/katana_2.ogg
+Loading resource: res://.godot/imported/katana_2.ogg-7990245d55eb2008b1283f68cb6d3bb4.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_8.ogg
+Loading resource: res://.godot/imported/kungfu_air_8.ogg-9107a38f71f86e91dfcd2c0739970a52.oggvorbisstr
+Loading resource: res://assets/martial_audio/katana_3.ogg
+Loading resource: res://.godot/imported/katana_3.ogg-53e90034aa5efeb0477c74ff54ee9035.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_1.ogg
+Loading resource: res://.godot/imported/kungfu_air_1.ogg-9d2bce89f6f87da1c293477ac03c98b8.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_2.ogg
+Loading resource: res://.godot/imported/kungfu_air_2.ogg-2158255bd829d5359a4e878d7b18812d.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_5.ogg
+Loading resource: res://.godot/imported/kungfu_air_5.ogg-d0b7d0990c728752aec71f603025f3e1.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_6.ogg
+Loading resource: res://.godot/imported/kungfu_air_6.ogg-e7eeb91659b1f7e66e5dc986e75a437e.oggvorbisstr
+Loading resource: res://assets/foley/bow_release_1.ogg
+Loading resource: res://.godot/imported/bow_release_1.ogg-5c0bb85a9dc53e2ce6aa50b3db2982c7.oggvorbisstr
+Loading resource: res://assets/foley/bow_release_2.ogg
+Loading resource: res://.godot/imported/bow_release_2.ogg-00f4fb6a0be46f193064202286e9ab61.oggvorbisstr
+Loading resource: res://assets/martial_audio/palm_a.ogg
+Loading resource: res://.godot/imported/palm_a.ogg-4ff5009294bf4e41c550a5857e1e87e7.oggvorbisstr
+Loading resource: res://assets/martial_audio/palm_b.ogg
+Loading resource: res://.godot/imported/palm_b.ogg-30f0ec04b99f8c998995736d21c557b2.oggvorbisstr
+Loading resource: res://assets/martial_audio/palm_c.ogg
+Loading resource: res://.godot/imported/palm_c.ogg-085ced7870471acbafc995e4871c8051.oggvorbisstr
+Loading resource: res://assets/foley/impactMetal_light_000.ogg
+Loading resource: res://.godot/imported/impactMetal_light_000.ogg-a28d98c40521e0b139a5e59b28e8038c.oggvorbisstr
+Loading resource: res://assets/foley/impactMetal_medium_000.ogg
+Loading resource: res://.godot/imported/impactMetal_medium_000.ogg-85380d3bdd2af6ea0a315cc4599d3646.oggvorbisstr
+Loading resource: res://assets/martial_audio/wood_punch.ogg
+Loading resource: res://.godot/imported/wood_punch.ogg-958f8050ab22342e9b8d140bf1614a93.oggvorbisstr
+Loading resource: res://assets/martial_audio/hurt_male.ogg
+Loading resource: res://.godot/imported/hurt_male.ogg-2cb54b7a5afd7420c7012c2c2573a5df.oggvorbisstr
+Loading resource: res://assets/foley/footstep00.ogg
+Loading resource: res://.godot/imported/footstep00.ogg-cac0849d9ec0cb5c372fcbf43a525a90.oggvorbisstr
+Loading resource: res://assets/foley/footstep01.ogg
+Loading resource: res://.godot/imported/footstep01.ogg-7a4b0c0fda84d8f1864711e1a4fd5a6e.oggvorbisstr
+Loading resource: res://assets/foley/footstep02.ogg
+Loading resource: res://.godot/imported/footstep02.ogg-bdf1dcc2ffdd8c7d33102091f1d3509e.oggvorbisstr
+Loading resource: res://assets/foley/footstep03.ogg
+Loading resource: res://.godot/imported/footstep03.ogg-8df7cf8b30bed9375d802db0e344cb91.oggvorbisstr
+Loading resource: res://assets/foley/bookFlip1.ogg
+Loading resource: res://.godot/imported/bookFlip1.ogg-e4bbf05c63772a2d38ca0c507f6e045d.oggvorbisstr
+Loading resource: res://assets/foley/drawKnife1.ogg
+Loading resource: res://.godot/imported/drawKnife1.ogg-4fcf0e0429c95b470b86b5fe4f4c4470.oggvorbisstr
+Loading resource: res://assets/audio09/qi_prepare.ogg
+Loading resource: res://.godot/imported/qi_prepare.ogg-6aad00780d2ae098928dac7657d342ce.oggvorbisstr
+Loading resource: res://assets/martial_audio/ice_cast.ogg
+Loading resource: res://.godot/imported/ice_cast.ogg-e6d51a02874612d627f0b042c3b3dade.oggvorbisstr
+Loading resource: res://assets/martial_audio/fire_cast.ogg
+Loading resource: res://.godot/imported/fire_cast.ogg-fd97bc736b8652d21c068512a7e6f259.oggvorbisstr
+Loading resource: res://assets/martial_audio/wind_qi.ogg
+Loading resource: res://.godot/imported/wind_qi.ogg-67263d42c548390bf577dc6275b51fdb.oggvorbisstr
+Loading resource: res://assets/audio09/qi_release.ogg
+Loading resource: res://.godot/imported/qi_release.ogg-54bc60890adecf901edeaf4d20fb0604.oggvorbisstr
+Loading resource: res://assets/audio09/summon.ogg
+Loading resource: res://.godot/imported/summon.ogg-a7336a0a865747666ccf9ca1a2cf98a4.oggvorbisstr
+Loading resource: res://assets/foley/impactSoft_heavy_000.ogg
+Loading resource: res://.godot/imported/impactSoft_heavy_000.ogg-8aa74125f72f6ed86f35b96d81383c84.oggvorbisstr
+Loading resource: res://assets/audio09/boss_entry.ogg
+Loading resource: res://.godot/imported/boss_entry.ogg-55bcd0a55ae67c07179c06e0ea081c59.oggvorbisstr
+Loading resource: res://assets/audio09/boss_phase.ogg
+Loading resource: res://.godot/imported/boss_phase.ogg-478db6e3a9afd6788afe7f5438f94448.oggvorbisstr
+Loading resource: res://assets/martial_audio/dry_punch.ogg
+Loading resource: res://.godot/imported/dry_punch.ogg-d7bc6d3a2967a70edf05f800c2e22553.oggvorbisstr
+Loading resource: res://assets/foley/metalLatch.ogg
+Loading resource: res://.godot/imported/metalLatch.ogg-a192796dd652f3bc3a32a31fd9e7f55d.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_3.ogg
+Loading resource: res://.godot/imported/kungfu_air_3.ogg-ce52c215c3b8085694295c1577b836d8.oggvorbisstr
+Loading resource: res://assets/martial_audio/kungfu_air_7.ogg
+Loading resource: res://.godot/imported/kungfu_air_7.ogg-f73659426ddb6e2b22fdd7db3a186290.oggvorbisstr
+Loading resource: res://assets/martial_audio/heavy_a.ogg
+Loading resource: res://.godot/imported/heavy_a.ogg-1b45d334846c3a487ecdab8cdfab63a5.oggvorbisstr
+Loading resource: res://assets/martial_audio/heavy_b.ogg
+Loading resource: res://.godot/imported/heavy_b.ogg-38c16087d92276b2b5df47f84c04d4f2.oggvorbisstr
+Loading resource: res://assets/martial_audio/critical_a.ogg
+Loading resource: res://.godot/imported/critical_a.ogg-ba890b7845f08465e4d92c26ae323ca4.oggvorbisstr
+Loading resource: res://assets/martial_audio/fatal_a.ogg
+Loading resource: res://.godot/imported/fatal_a.ogg-9623cda400cd8dd96928145e81ae880e.oggvorbisstr
+Loading resource: res://assets/martial_audio/blade_a.ogg
+Loading resource: res://.godot/imported/blade_a.ogg-dfc9a645f60dd42cfb02dc8f8f8d68a2.oggvorbisstr
+Loading resource: res://assets/martial_audio/blade_b.ogg
+Loading resource: res://.godot/imported/blade_b.ogg-29d137bc31bf82390dadb90f9557978b.oggvorbisstr
+Loading resource: res://assets/martial_audio/hurt_female.ogg
+Loading resource: res://.godot/imported/hurt_female.ogg-9a4ba070f46028e3b659d5718f5208f5.oggvorbisstr
+Loading resource: res://assets/martial_audio/attack_male_a.ogg
+Loading resource: res://.godot/imported/attack_male_a.ogg-1d0def34ba469c002f861d99ac321552.oggvorbisstr
+Loading resource: res://assets/martial_audio/attack_male_b.ogg
+Loading resource: res://.godot/imported/attack_male_b.ogg-9e8112f1904e1b12bbde1dfebb6aa6a7.oggvorbisstr
+Loading resource: res://assets/martial_audio/chronicle_koto.ogg
+Loading resource: res://.godot/imported/chronicle_koto.ogg-96de685a03a90149c537e295ae5475c6.oggvorbisstr
+Loading resource: res://assets/audio09/quest_complete.ogg
+Loading resource: res://.godot/imported/quest_complete.ogg-8f67407940bc7ae6ef5bc189aa5bcdea.oggvorbisstr
+Loading resource: res://assets/martial_audio/qi_contact.ogg
+Loading resource: res://.godot/imported/qi_contact.ogg-673c1d50fd23005488797c0a8106040a.oggvorbisstr
+Loading resource: res://assets/martial_audio/earth_cast.ogg
+Loading resource: res://.godot/imported/earth_cast.ogg-f7d3d816293e249daa23646f32c37f8f.oggvorbisstr
+Loading resource: res://assets/audio09/boss_prepare.ogg
+Loading resource: res://.godot/imported/boss_prepare.ogg-eaf8ff5f6bb793499d88d2e8e913e81e.oggvorbisstr
+Loading resource: res://assets/audio09/boss_release.ogg
+Loading resource: res://.godot/imported/boss_release.ogg-86449a26de82e2d542197c156cea6b9b.oggvorbisstr
+Loading resource: res://assets/exo_legacy/salto_cast.ogg
+Loading resource: res://.godot/imported/salto_cast.ogg-159f10adecd4820bd490cd5277995b78.oggvorbisstr
+Loading resource: res://assets/exo_legacy/salto_impact.ogg
+Loading resource: res://.godot/imported/salto_impact.ogg-366283174dfb67deea3845c0960fcbfe.oggvorbisstr
+Loading resource: res://assets/exo_audio/wind_break.ogg
+Loading resource: res://.godot/imported/wind_break.ogg-4b85770d02cb113799785162b00afd45.oggvorbisstr
+Loading resource: res://assets/exo_legacy/astral_rupture.ogg
+Loading resource: res://.godot/imported/astral_rupture.ogg-a13c05472e270633ef79fa94e88fbde3.oggvorbisstr
+Loading resource: res://assets/exo_legacy/energy_impact.ogg
+Loading resource: res://.godot/imported/energy_impact.ogg-e7fdc35382b8f7e788eb84f404b9f491.oggvorbisstr
+Loading resource: res://assets/exo_audio/eco_eco_boss.ogg
+Loading resource: res://.godot/imported/eco_eco_boss.ogg-3a47c975c742eecc3a1308a4a3d2af20.oggvorbisstr
+Loading resource: res://assets/terrain/grass_lush.png
+Loading resource: res://.godot/imported/grass_lush.png-b049f859f6bfa1964abd38495b8d08ac.ctex
+Loading resource: res://assets/terrain/grass_dry.png
+Loading resource: res://.godot/imported/grass_dry.png-775072065ee28d614b43526abf452124.ctex
+Loading resource: res://assets/terrain/earth.png
+Loading resource: res://.godot/imported/earth.png-d17555ba2f81374e3afa255a79c71438.ctex
+Loading resource: res://assets/terrain/forest_soil.png
+Loading resource: res://.godot/imported/forest_soil.png-31de27bc372fe2ac54535b0c18dc205f.ctex
+Loading resource: res://assets/terrain/stone.png
+Loading resource: res://.godot/imported/stone.png-15d6155db680a39d41bb7ac7d182261a.ctex
+Loading resource: res://assets/terrain/gravel.png
+Loading resource: res://.godot/imported/gravel.png-95af89d7fa6c326a1474ec9f30891e23.ctex
+Loading resource: res://assets/terrain/moss_stone.png
+Loading resource: res://.godot/imported/moss_stone.png-abafb352ae158e228c5b41e86693954e.ctex
+Loading resource: res://assets/terrain/trail.png
+Loading resource: res://.godot/imported/trail.png-77f3f003e541d351eefb728697edb6b4.ctex
+Loading resource: res://assets/asian_village/village.glb
+Loading resource: res://.godot/imported/village.glb-caa285368fcd678f5283df222afd7abe.scn
+Loading resource: res://assets/asian_village/village_village_color palette.png
+Loading resource: res://.godot/imported/village_village_color palette.png-714e2a77469e3c71395e1b4d34ab991c.ctex
+Loading resource: res://assets/exo_identity/base_12.png
+Loading resource: res://.godot/imported/base_12.png-8e490a85f67c390b2a78748007f31e51.ctex
+Loading resource: res://assets/exo_identity/base_61.png
+Loading resource: res://.godot/imported/base_61.png-235e75c1ea7bf18a55f2691afe9b81d9.ctex
+Loading resource: res://assets/exo_identity/base_86.png
+Loading resource: res://.godot/imported/base_86.png-89e35f2a60243af1c79504306f52a8a9.ctex
+Loading resource: res://assets/exo_identity/base_135.png
+Loading resource: res://.godot/imported/base_135.png-fd2c8b7c68256670ebb0d1991db7118e.ctex
+Loading resource: res://assets/exo_identity/base_12.png
+Loading resource: res://.godot/imported/base_12.png-8e490a85f67c390b2a78748007f31e51.ctex
+Loading resource: res://assets/exo_identity/base_1.png
+Loading resource: res://.godot/imported/base_1.png-1f73dc1efdc60361ea0f945c34d524ae.ctex
+Loading resource: res://assets/exo_identity/base_93.png
+Loading resource: res://.godot/imported/base_93.png-4807e0284fe1e9c6591d321ed0c1ee62.ctex
+Loading resource: res://assets/exo_identity/base_80.png
+Loading resource: res://.godot/imported/base_80.png-d459b379e2ca7e759700690181687644.ctex
+Loading resource: res://assets/exo_identity/base_134.png
+Loading resource: res://.godot/imported/base_134.png-c4975ee568b283782487b3ff8e6e1cb7.ctex
+Loading resource: res://assets/central_exo.jpg
+Loading resource: res://.godot/imported/central_exo.jpg-0e733a13f79c685826f69a4ad60dea73.ctex
+Loading resource: res://assets/exo_identity/base_80.png
+Loading resource: res://.godot/imported/base_80.png-d459b379e2ca7e759700690181687644.ctex
+Loading resource: res://world/village_v2.gd
+Loading resource: res://assets/exo_identity/base_0.png
+Loading resource: res://.godot/imported/base_0.png-be63c3ce78393f5f56ee8ca62a1bd1f1.ctex
+Loading resource: res://assets/kenney/character-a.glb
+Loading resource: res://.godot/imported/character-a.glb-b965f59d98fed99e88cacc3f84c8c051.scn
+Loading resource: res://assets/exo_identity/base_0.png
+Loading resource: res://.godot/imported/base_0.png-be63c3ce78393f5f56ee8ca62a1bd1f1.ctex
+Loading resource: res://assets/exo_identity/base_0.png
+Loading resource: res://.godot/imported/base_0.png-be63c3ce78393f5f56ee8ca62a1bd1f1.ctex
+Loading resource: res://assets/exo_identity/base_0.png
+Loading resource: res://.godot/imported/base_0.png-be63c3ce78393f5f56ee8ca62a1bd1f1.ctex
+Loading resource: res://assets/exo_identity/base_0.png
+Loading resource: res://.godot/imported/base_0.png-be63c3ce78393f5f56ee8ca62a1bd1f1.ctex
+QA0943 PASS: grounded spawn, WASD and long-weapon grip
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2641)
+Leaked instance: OggPacketSequence:9223372097403749995 - Reference count: 3
+Leaked instance: AudioStreamOggVorbis:9223372097420527212 - Reference count: 1
+Leaked instance: AudioStreamPlaybackOggVorbis:9223372407077606491 - Reference count: 1
+Leaked instance: OggPacketSequencePlayback:9223372407094383708 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+ERROR: 2 resources still in use at exit.
+   at: clear (core/io/resource.cpp:805)
+Resource still in use: res://assets/foley/footstep00.ogg::OggPacketSequence_4jw8p (OggPacketSequence)
+Resource still in use: res://assets/foley/footstep00.ogg (AudioStreamOggVorbis)
+Orphan StringName: EXO (static: 0, total: 1)
+StringName: 1 unclaimed string names at exit.

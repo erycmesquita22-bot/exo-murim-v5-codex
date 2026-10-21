@@ -1,0 +1,211 @@
+{
+  "source_count": 180,
+  "implemented_representatives": [
+    {
+      "id": "human_1",
+      "source_name": "Humano",
+      "tier": 1,
+      "parents": [],
+      "requirements": {
+        "threshold": 0,
+        "kills": 0,
+        "level": 1,
+        "attribute": "vitalidade",
+        "amount": 5
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "light_1",
+      "source_name": "Luminar",
+      "tier": 1,
+      "parents": [],
+      "requirements": {
+        "threshold": 0,
+        "kills": 0,
+        "level": 1,
+        "attribute": "vontade",
+        "amount": 5
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "dark_1",
+      "source_name": "Umbrio",
+      "tier": 1,
+      "parents": [],
+      "requirements": {
+        "threshold": 0,
+        "kills": 0,
+        "level": 1,
+        "attribute": "inteligencia",
+        "amount": 5
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "fox_2",
+      "source_name": "Kitsune de Uma Cauda",
+      "tier": 2,
+      "parents": [
+        "fox_1"
+      ],
+      "requirements": {
+        "threshold": 0,
+        "kills": 25,
+        "level": 10,
+        "attribute": "inteligencia",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "wolf_3",
+      "source_name": "Lobo de Orelhas Prateadas",
+      "tier": 3,
+      "parents": [
+        "wolf_2"
+      ],
+      "requirements": {
+        "threshold": 0,
+        "kills": 125,
+        "level": 25,
+        "attribute": "agilidade",
+        "amount": 50
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "feline_2",
+      "source_name": "Felino de Garras",
+      "tier": 2,
+      "parents": [
+        "feline_1"
+      ],
+      "requirements": {
+        "threshold": 0,
+        "kills": 25,
+        "level": 10,
+        "attribute": "agilidade",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "bear_2",
+      "source_name": "Ursino Robusto",
+      "tier": 2,
+      "parents": [
+        "bear_1"
+      ],
+      "requirements": {
+        "threshold": 0,
+        "kills": 25,
+        "level": 10,
+        "attribute": "vitalidade",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "reptile_2",
+      "source_name": "Escamado de Pele Firme",
+      "tier": 2,
+      "parents": [
+        "reptile_1"
+      ],
+      "requirements": {
+        "threshold": 0,
+        "kills": 25,
+        "level": 10,
+        "attribute": "vitalidade",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "hawk_2",
+      "source_name": "Falcão de Penachos",
+      "tier": 2,
+      "parents": [
+        "hawk_1"
+      ],
+      "requirements": {
+        "threshold": 18000,
+        "kills": 25,
+        "level": 10,
+        "attribute": "agilidade",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "raven_2",
+      "source_name": "Corvo das Plumas",
+      "tier": 2,
+      "parents": [
+        "raven_1"
+      ],
+      "requirements": {
+        "threshold": 18000,
+        "kills": 25,
+        "level": 10,
+        "attribute": "agilidade",
+        "amount": 25
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "mechanical_1",
+      "source_name": "Núcleo Latente",
+      "tier": 1,
+      "parents": [],
+      "requirements": {
+        "threshold": 0,
+        "kills": 0,
+        "level": 1,
+        "attribute": "vitalidade",
+        "amount": 5
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    },
+    {
+      "id": "arcane_1",
+      "source_name": "Centelha Arcana",
+      "tier": 1,
+      "parents": [],
+      "requirements": {
+        "threshold": 0,
+        "kills": 0,
+        "level": 1,
+        "attribute": "inteligencia",
+        "amount": 5
+      },
+      "status": "body-and-identity-adapted",
+      "racial_mastery": "pending",
+      "evolution_requirements": "pending"
+    }
+  ]
+}

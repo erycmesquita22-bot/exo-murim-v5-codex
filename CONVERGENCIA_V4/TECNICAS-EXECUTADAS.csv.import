@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://mpmb1520ji3g"
+
+[deps]
+
+files=["res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.execucao.translation", "res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.progressao_QA.translation", "res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.executor.translation"]
+
+source_file="res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.csv"
+dest_files=["res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.execucao.translation", "res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.progressao_QA.translation", "res://CONVERGENCIA_V4/TECNICAS-EXECUTADAS.executor.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

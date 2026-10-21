@@ -1,0 +1,11 @@
+{
+  "kind": "EXTERNAL_SYNTHETIC_PROPERTIES_NOT_GODOT",
+  "count": {
+    "total": 5000,
+    "ready": 5000,
+    "checked_lots": 112523
+  },
+  "duration_sec": 15.05,
+  "examples": [],
+  "start": 0
+}

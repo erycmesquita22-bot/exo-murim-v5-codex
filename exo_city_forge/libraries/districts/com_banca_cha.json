@@ -1,0 +1,128 @@
+{
+  "id": "com_banca_cha",
+  "name": "Feira do Chá",
+  "category": "commercial",
+  "settlement_context": "commercial",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "commercial",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "com_banca_cha/b00",
+      "function": "market",
+      "archetype": "tea_stall",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.45,
+        5.1
+      ],
+      "height": 3.1,
+      "door_facing": "inner",
+      "interior_slot": true,
+      "structure_details": [
+        "tea_tables",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "com_banca_cha/b01",
+      "function": "market",
+      "archetype": "tea_stall",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.45,
+      "door_facing": "inner",
+      "interior_slot": true,
+      "structure_details": [
+        "tea_tables",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "com_banca_cha/st00",
+      "for_building": "com_banca_cha/b00",
+      "role": "worker"
+    },
+    {
+      "id": "com_banca_cha/st01",
+      "for_building": "com_banca_cha/b01",
+      "role": "worker"
+    }
+  ],
+  "open_spaces": {
+    "type": "tea_tables",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "tea_tables",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

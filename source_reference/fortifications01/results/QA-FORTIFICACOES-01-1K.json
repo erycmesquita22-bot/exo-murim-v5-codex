@@ -1,0 +1,272 @@
+{
+  "title": "EXO-FORTIFICACOES-01-MASSIVE-OFFLINE-REFERENCE",
+  "scope": "Python geometric reference model; NOT Godot/GDScript runtime",
+  "cases_requested": 1000,
+  "cases_executed": 1000,
+  "invariants_checked_approx": 474154,
+  "geometry_errors": 2,
+  "sample_errors": [
+    [
+      926,
+      "unexpected_invalid",
+      [
+        "no_valid_wall_segments"
+      ]
+    ],
+    [
+      961,
+      "unexpected_invalid",
+      [
+        "no_valid_wall_segments"
+      ]
+    ]
+  ],
+  "counts": {
+    "('city', 'partial')": 67,
+    "('town', 'ready')": 317,
+    "('village', 'ready')": 317,
+    "('city', 'ready')": 267,
+    "('town', 'skipped')": 2,
+    "('village', 'skipped')": 1,
+    "('steep_cut', 'city')": 18,
+    "('town', 'partial')": 13,
+    "('steep_cut', 'town')": 13,
+    "('village', 'partial')": 14,
+    "('steep_cut', 'village')": 14,
+    "('village', 'invalid')": 1,
+    "('town', 'invalid')": 1
+  },
+  "wall_segments": 108660,
+  "road_gates": 5616,
+  "towers": 2594,
+  "maximum_wall_segments_in_case": 298,
+  "elapsed_s": 5.67,
+  "samples": [
+    {
+      "case": 0,
+      "scale": "city",
+      "status": "partial",
+      "segments": 284,
+      "openings": 15,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 40,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 80,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 120,
+      "scale": "city",
+      "status": "ready",
+      "segments": 283,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 160,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 200,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 240,
+      "scale": "city",
+      "status": "ready",
+      "segments": 277,
+      "openings": 16,
+      "towers": 6,
+      "errors": []
+    },
+    {
+      "case": 280,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 320,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 360,
+      "scale": "city",
+      "status": "ready",
+      "segments": 285,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 400,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 440,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 480,
+      "scale": "city",
+      "status": "partial",
+      "segments": 288,
+      "openings": 15,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 520,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 560,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 600,
+      "scale": "city",
+      "status": "ready",
+      "segments": 294,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 640,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 680,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 720,
+      "scale": "city",
+      "status": "partial",
+      "segments": 289,
+      "openings": 15,
+      "towers": 7,
+      "errors": []
+    },
+    {
+      "case": 760,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 800,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 840,
+      "scale": "city",
+      "status": "ready",
+      "segments": 295,
+      "openings": 14,
+      "towers": 8,
+      "errors": []
+    },
+    {
+      "case": 880,
+      "scale": "town",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 920,
+      "scale": "village",
+      "status": "ready",
+      "segments": 24,
+      "openings": 1,
+      "towers": 0,
+      "errors": []
+    },
+    {
+      "case": 960,
+      "scale": "city",
+      "status": "ready",
+      "segments": 283,
+      "openings": 16,
+      "towers": 8,
+      "errors": []
+    }
+  ],
+  "status": "FAIL"
+}

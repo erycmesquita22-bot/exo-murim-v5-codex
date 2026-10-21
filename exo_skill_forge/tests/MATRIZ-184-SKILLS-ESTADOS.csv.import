@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cmu5hpr7mprt8"
+
+[deps]
+
+files=["res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.name_BR.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.source.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.state.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.runtime.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.qa.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.representative.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.template.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.weapon.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.styles.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.schools.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.min.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.min.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.qi.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.stamina.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.cooldown.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.media.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.blocking.translation"]
+
+source_file="res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.csv"
+dest_files=["res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.name_BR.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.source.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.state.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.runtime.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.qa.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.representative.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.template.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.weapon.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.styles.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.schools.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.min.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.min.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.qi.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.stamina.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.cooldown.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.media.translation", "res://exo_skill_forge/tests/MATRIZ-184-SKILLS-ESTADOS.blocking.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

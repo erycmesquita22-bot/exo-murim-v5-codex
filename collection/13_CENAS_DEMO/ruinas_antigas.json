@@ -1,0 +1,66 @@
+{
+  "scene": "ruinas_antigas",
+  "ground": "ruinas_antigas_SOLO_PNG.png",
+  "instances": [
+    {
+      "glb": "11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "x": -8,
+      "y": 0,
+      "z": 8
+    },
+    {
+      "glb": "11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "x": -3,
+      "y": 0,
+      "z": 8
+    },
+    {
+      "glb": "11_RUINAS_GLB/arco_portal_antigo.glb",
+      "x": 3,
+      "y": 0,
+      "z": 8
+    },
+    {
+      "glb": "11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "x": 9,
+      "y": 0,
+      "z": 8
+    },
+    {
+      "glb": "11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "x": -9,
+      "y": 0,
+      "z": -3
+    },
+    {
+      "glb": "11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "x": 8,
+      "y": 0,
+      "z": -3
+    },
+    {
+      "glb": "11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "glb": "11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "x": -6,
+      "y": 0,
+      "z": -9
+    },
+    {
+      "glb": "11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "x": 8,
+      "y": 0,
+      "z": -9
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "x": 12,
+      "y": 0,
+      "z": 0
+    }
+  ]
+}

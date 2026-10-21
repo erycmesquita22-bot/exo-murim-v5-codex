@@ -1,0 +1,44 @@
+EXO-MURIM 09.2 — FUNDAÇÃO PROCEDURAL E LEGADO EXO
+Base: EXO-Murim-09.1-Corpo-Marcial.zip, preservada separadamente.
+Godot 4.6.2 Standard, GDScript, Compatibility.
+
+ABRIR
+Extraia todo o ZIP. Importe project.godot na Godot 4.6.2, aguarde a importação
+inicial e pressione F5. Projeto-fonte jogável; não é executável exportado.
+Personagem, vila, câmera, sombras e animações da 09.1 foram preservados.
+
+EXPERIMENTAR A 09.2
+1. Em um novo personagem, aba CONFIRMAR, informe uma seed ou deixe automática.
+2. A seed 24 permite reproduzir a espada rara da gravação: derrote o primeiro
+   salteador de espada da estrada, ao norte da vila. No jogo normal ele mantém
+   seus PV e sua IA. A gravação usa alvo controlado de 1 PV para abreviar o teste.
+3. Aproxime-se da bolsa e pressione E. O arco/manual fixos continuam no saque;
+   há também um equipamento com combinação procedural persistida.
+4. Fora de combate e longe dos inimigos: P > EQUIPAMENTOS > Inventário.
+   Selecione o novo objeto, compare os atributos e clique EQUIPAR. Use a roda
+   para rolar o painel se necessário. Cada item mantém seu próprio UID.
+5. Salve pelo menu, feche a Godot e abra novamente. Confira o mesmo item.
+6. Seed/identificador aparecem em MISSÕES > Crônicas. A mesma seed reproduz
+   propriedades sob os mesmos parâmetros; mundos distintos têm IDs distintos.
+
+As seis derrotas existentes dão, uma vez cada, um equipamento adicional. Quem
+já foi derrotado em um save antigo não gera outro saque retroativamente.
+A vila e os inimigos existentes não são gerados novamente pela seed.
+
+CONTROLES PRESERVADOS
+WASD mover; Shift correr; mouse orientar; clique atacar; R mãos livres/arma;
+F esquivar; espaço saltar; 1–6 técnicas; E interagir; P menu.
+Mãos livres e Manoplas continuam sendo estados/categorias independentes.
+
+SAVES
+Diretório anterior preservado: user://journey.json em EXO-Murim-Previa-01.
+Primeira leitura de save sem extensão procedural cria .pre092.json com os
+bytes antigos. Mantidas cópias .bak/.tmp e migrações anteriores. Arquivo inválido
+bloqueia autosave; recuperação ou Nova jornada explícita preserva .invalid.json.
+Faça cópia do save antes de alternar entre versões do projeto.
+
+EVIDÊNCIAS E DOCUMENTAÇÃO
+RELATORIO-09.2.md, TESTES-09.2.md, DESEMPENHO-09.2.md,
+AUDIOVISUAL-09.2.md e PENDENCIAS.md. Vídeo real de duas sessões Godot:
+evidencias/092-ciclo-procedural.mp4. Testes por entrada automatizada, não humanos.
+Documentos e capturas 09/09.1 são históricos, identificados pelo número.

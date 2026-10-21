@@ -1,0 +1,77 @@
+{
+  "disclaimer": "Only a local-coordinate CPU model, not Godot rendered",
+  "samples": [
+    {
+      "direction_deg": 0,
+      "global_velocity": [
+        1.0,
+        0.0
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 45,
+      "global_velocity": [
+        0.7071,
+        0.7071
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 90,
+      "global_velocity": [
+        0.0,
+        1.0
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 135,
+      "global_velocity": [
+        -0.7071,
+        0.7071
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 180,
+      "global_velocity": [
+        -1.0,
+        0.0
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 225,
+      "global_velocity": [
+        -0.7071,
+        -0.7071
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 270,
+      "global_velocity": [
+        -0.0,
+        -1.0
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    },
+    {
+      "direction_deg": 315,
+      "global_velocity": [
+        0.7071,
+        -0.7071
+      ],
+      "local_pitch": 0.292616,
+      "local_elbow": -0.285342
+    }
+  ]
+}

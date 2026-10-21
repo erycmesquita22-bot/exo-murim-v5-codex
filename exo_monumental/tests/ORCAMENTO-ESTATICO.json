@@ -1,0 +1,105 @@
+{
+  "status": "ESTIMATIVA_NAO_MEDICAO",
+  "platform": "Godot 4.6.2 Compatibility / Vega 8 alvo, NÃO EXECUTADO",
+  "complexes": {
+    "martial_medium": {
+      "instances": 49,
+      "draw_calls_before_batching_approx": 204,
+      "static_mesh_triangles": 4632,
+      "collider_shapes_approx": 80,
+      "node_count_approx": 497,
+      "materials_distinct_assets_max": 8,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "martial_grand": {
+      "instances": 95,
+      "draw_calls_before_batching_approx": 372,
+      "static_mesh_triangles": 8712,
+      "collider_shapes_approx": 134,
+      "node_count_approx": 908,
+      "materials_distinct_assets_max": 8,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "temple_monumental": {
+      "instances": 47,
+      "draw_calls_before_batching_approx": 174,
+      "static_mesh_triangles": 4200,
+      "collider_shapes_approx": 72,
+      "node_count_approx": 443,
+      "materials_distinct_assets_max": 7,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "fortress": {
+      "instances": 57,
+      "draw_calls_before_batching_approx": 218,
+      "static_mesh_triangles": 5592,
+      "collider_shapes_approx": 80,
+      "node_count_approx": 535,
+      "materials_distinct_assets_max": 6,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "ancestral_ruins": {
+      "instances": 7,
+      "draw_calls_before_batching_approx": 38,
+      "static_mesh_triangles": 1056,
+      "collider_shapes_approx": 18,
+      "node_count_approx": 91,
+      "materials_distinct_assets_max": 4,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_school_ruin": {
+      "instances": 5,
+      "draw_calls_before_batching_approx": 32,
+      "static_mesh_triangles": 684,
+      "collider_shapes_approx": 12,
+      "node_count_approx": 71,
+      "materials_distinct_assets_max": 4,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_cavern": {
+      "instances": 4,
+      "draw_calls_before_batching_approx": 17,
+      "static_mesh_triangles": 420,
+      "collider_shapes_approx": 8,
+      "node_count_approx": 48,
+      "materials_distinct_assets_max": 3,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_tomb": {
+      "instances": 5,
+      "draw_calls_before_batching_approx": 19,
+      "static_mesh_triangles": 528,
+      "collider_shapes_approx": 9,
+      "node_count_approx": 55,
+      "materials_distinct_assets_max": 3,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_fortress": {
+      "instances": 5,
+      "draw_calls_before_batching_approx": 28,
+      "static_mesh_triangles": 684,
+      "collider_shapes_approx": 7,
+      "node_count_approx": 62,
+      "materials_distinct_assets_max": 3,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_hidden_temple": {
+      "instances": 5,
+      "draw_calls_before_batching_approx": 32,
+      "static_mesh_triangles": 732,
+      "collider_shapes_approx": 15,
+      "node_count_approx": 74,
+      "materials_distinct_assets_max": 3,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    },
+    "dungeon_abyss": {
+      "instances": 5,
+      "draw_calls_before_batching_approx": 23,
+      "static_mesh_triangles": 624,
+      "collider_shapes_approx": 11,
+      "node_count_approx": 61,
+      "materials_distinct_assets_max": 3,
+      "basis": "scene geometry instantiation upper topology count, NOT renderer monitor"
+    }
+  }
+}

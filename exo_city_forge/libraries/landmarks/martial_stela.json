@@ -1,0 +1,13 @@
+{
+  "id": "martial_stela",
+  "name": "Estela Marcial",
+  "kind": "stela",
+  "footprint": [
+    6,
+    6
+  ],
+  "asset_recipe": "stela",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry"
+}

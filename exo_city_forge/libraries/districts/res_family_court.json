@@ -1,0 +1,151 @@
+{
+  "id": "res_family_court",
+  "name": "Residências de Pátio",
+  "category": "residential",
+  "tags": [
+    "residential",
+    "courtyard",
+    "families"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        0,
+        -18
+      ],
+      "b": [
+        0,
+        18
+      ],
+      "width": 3.5
+    },
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "res_family_court/b00",
+      "function": "residence",
+      "local_position": [
+        -12,
+        -11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_family_court/b01",
+      "function": "residence",
+      "local_position": [
+        12,
+        -11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_family_court/b02",
+      "function": "residence",
+      "local_position": [
+        -12,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "res_family_court/b03",
+      "function": "residence",
+      "local_position": [
+        12,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "res_family_court/st00",
+      "for_building": "res_family_court/b00",
+      "role": "resident"
+    },
+    {
+      "id": "res_family_court/st01",
+      "for_building": "res_family_court/b01",
+      "role": "resident"
+    },
+    {
+      "id": "res_family_court/st02",
+      "for_building": "res_family_court/b02",
+      "role": "resident"
+    },
+    {
+      "id": "res_family_court/st03",
+      "for_building": "res_family_court/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "courtyard",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "courtyard",
+  "mesh_budget_estimate": 40,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

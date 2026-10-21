@@ -1,0 +1,214 @@
+{
+  "domain": "biome_identity",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "grassland"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/grassland",
+      "label": "Campinas férteis",
+      "links": [
+        "terrain_texture/ref_grass_base_a"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "grassland",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "grassland"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "temperate_forest"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/temperate_forest",
+      "label": "Floresta temperada",
+      "links": [
+        "terrain_texture/ref_grass_dense"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "temperate_forest",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "temperate_forest"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "bamboo_forest"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/bamboo_forest",
+      "label": "Bosques de bambu",
+      "links": [
+        "terrain_texture/ref_grass_vivid_a"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "bamboo_forest",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "bamboo_forest"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "dry_valley"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/dry_valley",
+      "label": "Vale seco",
+      "links": [
+        "terrain_texture/ref_dirt_orange_a"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "dry_valley",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "dry_valley"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "wetland"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/wetland",
+      "label": "Pântano fluvial",
+      "links": [
+        "terrain_texture/ref_dirt_wet"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "wetland",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "wetland"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "rocky_highlands"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/rocky_highlands",
+      "label": "Montanhas rochosas",
+      "links": [
+        "terrain_texture/ref_stone_path_a"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rocky_highlands",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "rocky_highlands"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "alpine"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/alpine",
+      "label": "Terras alpinas",
+      "links": [
+        "terrain_texture/ref_stone_plaza_c"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "alpine",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "alpine"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "biome": "mixed_woodland"
+      },
+      "domain": "biome_identity",
+      "excludes": [],
+      "id": "biome_identity/mixed_woodland",
+      "label": "Mata mista",
+      "links": [
+        "terrain_texture/ref_grass_base_b"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "mixed_woodland",
+        "region",
+        "biome"
+      ],
+      "variables": {
+        "travel_mood": "contextual",
+        "vegetation_profile": "mixed_woodland"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

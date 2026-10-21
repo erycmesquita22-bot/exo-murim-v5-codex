@@ -1,0 +1,485 @@
+{
+  "domain": "npc_archetype",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/resident",
+      "label": "Resident",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "resident",
+        "npc",
+        "ordinary"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "resident",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/farmer",
+      "label": "Farmer",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "farmer",
+        "npc",
+        "agriculture"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "farmer",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/merchant",
+      "label": "Merchant",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "merchant",
+        "npc",
+        "trade"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "merchant",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/courier",
+      "label": "Courier",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "courier",
+        "npc",
+        "travel"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "courier",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/guard",
+      "label": "Guard",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "guard",
+        "npc",
+        "security"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "guard",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "city_guard"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/healer",
+      "label": "Healer",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "healer",
+        "npc",
+        "medicine"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "healer",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/disciple",
+      "label": "Disciple",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "disciple",
+        "npc",
+        "martial"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "disciple",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "jade_martial_school"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/master",
+      "label": "Master",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "master",
+        "npc",
+        "martial"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "master",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "jade_martial_school"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/guild_agent",
+      "label": "Guild Agent",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "guild_agent",
+        "npc",
+        "trade"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "guild_agent",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/scholar",
+      "label": "Scholar",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "scholar",
+        "npc",
+        "knowledge"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "scholar",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/herbalist",
+      "label": "Herbalist",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "herbalist",
+        "npc",
+        "medicine"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "herbalist",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/blacksmith",
+      "label": "Blacksmith",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "blacksmith",
+        "npc",
+        "smithing"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "blacksmith",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/innkeeper",
+      "label": "Innkeeper",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "innkeeper",
+        "npc",
+        "hospitality"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "innkeeper",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/fisher",
+      "label": "Fisher",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "fisher",
+        "npc",
+        "fish"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "fisher",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/hunter",
+      "label": "Hunter",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "hunter",
+        "npc",
+        "hunt"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "hunter",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/artisan",
+      "label": "Artisan",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "artisan",
+        "npc",
+        "craft"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "artisan",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/traveler",
+      "label": "Traveler",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "traveler",
+        "npc",
+        "travel"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "traveler",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/storyteller",
+      "label": "Storyteller",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "storyteller",
+        "npc",
+        "lore"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "storyteller",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/monk",
+      "label": "Monk",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "monk",
+        "npc",
+        "spiritual"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "monk",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "neutral"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "npc_archetype",
+      "excludes": [],
+      "id": "npc_archetype/outlaw",
+      "label": "Outlaw",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "outlaw",
+        "npc"
+      ],
+      "variables": {
+        "identity_owner": "living_world",
+        "npc_role": "outlaw",
+        "npc_system_role_validation": "required",
+        "wardrobe_faction_hint": "forest_outlaws"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "real_ecology"
+    },
+    {
+      "pass": true,
+      "test": "actor_restored_on_write_failure"
+    },
+    {
+      "pass": true,
+      "test": "all_gameplay_and_receipts_rolled_back"
+    },
+    {
+      "pass": true,
+      "test": "reward_flag_rolled_back"
+    },
+    {
+      "pass": true,
+      "test": "combat_actor_reinserted"
+    },
+    {
+      "pass": true,
+      "test": "retry_committed_death"
+    },
+    {
+      "pass": true,
+      "test": "xp_once_after_success"
+    }
+  ],
+  "facts": {
+
+  },
+  "failures": []
+}

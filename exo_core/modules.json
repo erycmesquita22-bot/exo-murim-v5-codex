@@ -1,0 +1,574 @@
+[
+  {
+    "id": "persistence",
+    "version": "1.0.0",
+    "requires": {},
+    "optional": {},
+    "services": [
+      "persistence"
+    ],
+    "publishes": [
+      "save_completed",
+      "save_loaded"
+    ],
+    "consumes": [],
+    "persistence": {
+      "exo_core": 1
+    }
+  },
+  {
+    "id": "world",
+    "version": "1.0.0",
+    "requires": {
+      "persistence": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "regions"
+    ],
+    "publishes": [
+      "region_entered",
+      "region_exited"
+    ],
+    "consumes": [],
+    "persistence": {
+      "world": 1,
+      "convergence": 1
+    }
+  },
+  {
+    "id": "living_world",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "npcs"
+    ],
+    "publishes": [
+      "npc_interacted"
+    ],
+    "consumes": [],
+    "persistence": {
+      "living_world": 3
+    }
+  },
+  {
+    "id": "inventory",
+    "version": "1.0.0",
+    "requires": {
+      "persistence": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "inventory"
+    ],
+    "publishes": [
+      "item_collected",
+      "equipment_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "items": 4,
+      "pending_loot": 4,
+      "equipped": 4
+    }
+  },
+  {
+    "id": "combat",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0",
+      "inventory": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "combat"
+    ],
+    "publishes": [
+      "enemy_defeated",
+      "entity_state_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "convergence.ecology": 1
+    }
+  },
+  {
+    "id": "journey",
+    "version": "1.0.0",
+    "requires": {
+      "combat": "1.0.0",
+      "living_world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "quests",
+      "progression"
+    ],
+    "publishes": [
+      "quest_accepted",
+      "quest_completed",
+      "reward_claimed",
+      "reputation_changed",
+      "xp_gained",
+      "level_changed"
+    ],
+    "consumes": [
+      "region_entered",
+      "enemy_defeated",
+      "npc_interacted",
+      "item_collected"
+    ],
+    "persistence": {
+      "journey_dynamic": 1
+    }
+  },
+  {
+    "id": "narrative",
+    "version": "1.0.0",
+    "requires": {
+      "journey": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "narrative"
+    ],
+    "publishes": [
+      "narrative_decision"
+    ],
+    "consumes": [
+      "region_entered",
+      "enemy_defeated",
+      "npc_interacted",
+      "item_collected",
+      "quest_completed",
+      "narrative_decision"
+    ],
+    "persistence": {
+      "narrative": 1
+    }
+  },
+  {
+    "id": "appearance",
+    "version": "1.0.0",
+    "requires": {
+      "inventory": "1.0.0",
+      "living_world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "appearance"
+    ],
+    "publishes": [
+      "appearance_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "character.skin3d": 1
+    }
+  },
+  {
+    "id": "architecture",
+    "version": "1.2.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "architecture"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {}
+  },
+  {
+    "id": "visual",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "architecture": "1.1.0",
+      "appearance": "1.0.0"
+    },
+    "services": [
+      "exo_visual"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_visual/module.gd"
+  },
+  {
+    "id": "exo_items",
+    "version": "2.0.2",
+    "requires": {
+      "persistence": "1.0.0",
+      "inventory": "1.0.0"
+    },
+    "optional": {
+      "combat": "1.0.0",
+      "appearance": "1.0.0",
+      "journey": "1.0.0"
+    },
+    "services": [
+      "exo_items"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_items/module/entrypoint.gd",
+    "optional_module": true,
+    "r3_atomic_adapter": "res://exo_items/integration/atomic_reward_adapter.gd",
+    "atomic_adapter_activation": "DISABLED_UNTIL_CORE_01P_AND_INVENTORY_OWNER_HOOK_CONVERGENCIA_03",
+    "core_01p_contract_required": "CONTRATO-EVENTOS-EXO-01P.md",
+    "integration_mode": "preview_only"
+  },
+  {
+    "id": "bestiary",
+    "version": "3.0.0",
+    "requires": {
+      "world": "1.0.0",
+      "combat": "1.0.0",
+      "persistence": "1.0.0"
+    },
+    "optional": {
+      "narrative": "1.0.0",
+      "journey": "1.0.0"
+    },
+    "services": [
+      "bestiary.catalog",
+      "bestiary.ai",
+      "bestiary.encounters",
+      "bestiary.combat",
+      "bestiary.tactics"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_bestiary/module/entrypoint.gd",
+    "optional_module": true,
+    "integration_mode": "regional_fauna_host_r4_unverified_native"
+  },
+  {
+    "id": "dungeon_genesis",
+    "version": "0.4.0",
+    "requires": {
+      "persistence": "1.0.0",
+      "world": "1.0.0"
+    },
+    "optional": {
+      "architecture": "1.0.0",
+      "combat": "1.0.0",
+      "inventory": "1.0.0",
+      "journey": "1.0.0",
+      "narrative": "1.0.0"
+    },
+    "services": [
+      "dungeons"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {
+      "dungeon_genesis": 1
+    },
+    "entrypoint": "res://exo_dungeon/module/entrypoint.gd",
+    "optional_module": true,
+    "integration_mode": "host_checkpoint_gated"
+  },
+  {
+    "id": "monumental_plans",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "architecture": "1.0.0"
+    },
+    "services": [
+      "monuments.plans"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/monumental_plans.gd",
+    "optional_module": true,
+    "integration_mode": "read_only_no_reservation"
+  },
+  {
+    "id": "creature_visuals",
+    "version": "1.1.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "combat": "1.0.0",
+      "bestiary": "3.0.0"
+    },
+    "services": [
+      "creatures.visuals"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/creature_visuals.gd",
+    "optional_module": true,
+    "integration_mode": "r5_regional_fauna_visual_runtime_optional_fallback",
+    "runtime_binding": "res://exo_creature_harmonizacao02/integration/runtime_visual_binding.gd"
+  },
+  {
+    "id": "martial_catalog",
+    "version": "1.0.0",
+    "requires": {
+      "narrative": "1.0.0"
+    },
+    "optional": {
+      "living_world": "1.0.0"
+    },
+    "services": [
+      "martial.catalog"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/martial_catalog.gd",
+    "optional_module": true,
+    "integration_mode": "catalog_only_no_enrollment"
+  },
+  {
+    "id": "humanoid_presets",
+    "version": "1.0.0",
+    "requires": {
+      "appearance": "1.0.0"
+    },
+    "optional": {
+      "living_world": "1.0.0"
+    },
+    "services": [
+      "humanoids.presets"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/humanoid_presets.gd",
+    "optional_module": true,
+    "integration_mode": "preview_only_no_legacy_skins"
+  },
+  {
+    "id": "exo_martial",
+    "version": "1.2.0",
+    "requires": {
+      "narrative": "1.0.0",
+      "living_world": "1.0.0",
+      "persistence": "1.0.0"
+    },
+    "optional": {
+      "journey": "1.0.0",
+      "monumental_plans": "1.0.0"
+    },
+    "services": [
+      "martial"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {
+      "exo_martial": 2
+    },
+    "entrypoint": "res://exo_martial/module.gd",
+    "optional_module": true,
+    "integration_mode": "r8_authorized_host_enrollment_partial_training_native_not_run"
+  },
+  {
+    "id": "city_forge",
+    "version": "0.4.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "city_forge.plans"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "optional_module": true,
+    "entrypoint": "res://exo_city_forge/adapters/core_module_adapter.gd",
+    "integration_mode": "r4_semantic_only"
+  },
+  {
+    "id": "crowd_illusion",
+    "version": "1.0.4",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "living_world": "1.0.0",
+      "appearance": "1.0.0"
+    },
+    "services": [
+      "crowd.illusion"
+    ],
+    "publishes": [],
+    "consumes": [
+      "region_entered",
+      "region_exited",
+      "entity_state_changed"
+    ],
+    "persistence": {},
+    "optional_module": true,
+    "entrypoint": "res://exo_crowd_illusion/module.gd",
+    "integration_mode": "r4_physical_receipt_gated"
+  },
+  {
+    "consumes": [],
+    "entrypoint": "res://exo_world_library/module_candidate.gd",
+    "id": "world_content_library",
+    "optional": {},
+    "persistence": {},
+    "publishes": [],
+    "requires": {},
+    "optional_module": true,
+    "version": "0.4.0",
+    "services": [
+      "content.library"
+    ],
+    "integration_mode": "proposal_read_only"
+  },
+  {
+    "id": "exo_economy",
+    "version": "1.5.0",
+    "requires": {
+      "persistence": "1.0.0",
+      "world": "1.0.0",
+      "living_world": "1.0.0",
+      "inventory": "1.0.0"
+    },
+    "optional": {
+      "narrative": "1.0.0"
+    },
+    "services": [
+      "economy"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {
+      "exo_economy": 1
+    },
+    "entrypoint": "res://exo_economy/module.gd",
+    "optional_module": true,
+    "integration_mode": "read_first_fail_closed_official_host_callbacks_required"
+  },
+  {
+    "id": "exo_skill_forge",
+    "version": "1.2.0",
+    "requires": {
+      "combat": "1.0.0",
+      "persistence": "1.0.0"
+    },
+    "optional": {
+      "exo_martial": "1.2.0",
+      "martial_catalog": "1.0.0",
+      "bestiary": "3.0.0",
+      "exo_items": "2.0.2",
+      "journey": "1.0.0"
+    },
+    "services": [
+      "skill_forge"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_skill_forge/module.gd",
+    "optional_module": true,
+    "integration_mode": "catalog_read_only_default_authorial_fail_closed_trusted_combat_host_schema2",
+    "host_contract": "exo_core_combat_owner_v1",
+    "host_contract_schema": 2,
+    "feature_flags": {
+      "enable_authorial_cast": false,
+      "enable_unverified_media": false,
+      "enable_shadow_saves": false
+    }
+  },
+  {
+    "id": "npc_system03",
+    "version": "0.1.0",
+    "requires": {
+      "living_world": "1.0.0"
+    },
+    "optional": {
+      "world": "1.0.0",
+      "narrative": "1.0.0",
+      "appearance": "1.0.0"
+    },
+    "services": [
+      "npc03.agenda"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "optional_module": true,
+    "entrypoint": "res://npc_system03/module.gd",
+    "integration_mode": "proposals_only"
+  },
+  {
+    "id": "exo_vfx_forge",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "combat": "1.0.0"
+    },
+    "services": [
+      "exo_vfx_forge"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_vfx_forge/module.gd",
+    "optional_module": true,
+    "integration_mode": "bridge_pending_fail_closed",
+    "feature_flags": {
+      "enabled": false,
+      "requires_trusted_bridge": true
+    }
+  },
+  {
+    "id": "interior_forge",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {
+      "city_forge": "0.4.0"
+    },
+    "services": [
+      "interior_forge.candidates"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/interior_candidate.gd",
+    "optional_module": true,
+    "integration_mode": "validated_tickets_only_no_transition"
+  },
+  {
+    "id": "terrain_r3",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "terrain.resolution"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {},
+    "entrypoint": "res://exo_core/integrations/terrain_r3.gd",
+    "optional_module": true,
+    "integration_mode": "read_only_resolver_no_asset_overwrite"
+  }
+]

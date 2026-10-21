@@ -1,0 +1,47 @@
+[
+  {
+    "name": "reopen",
+    "pass_": true,
+    "seconds": 4.629356748999953
+  },
+  {
+    "name": "encounter",
+    "pass_": false,
+    "seconds": 2.201684873999966
+  },
+  {
+    "name": "release",
+    "pass_": true,
+    "seconds": 1.1798512299999402
+  },
+  {
+    "name": "discovery",
+    "pass_": true,
+    "seconds": 1.1756954459999633
+  },
+  {
+    "name": "clothes",
+    "pass_": true,
+    "seconds": 1.0815865790000316
+  },
+  {
+    "name": "procedural",
+    "pass_": false,
+    "seconds": 1.0753079179999077
+  },
+  {
+    "name": "motion0933",
+    "pass_": false,
+    "seconds": 0.24284974200008946
+  },
+  {
+    "name": "textures",
+    "pass_": false,
+    "seconds": 0.9882088100000601
+  },
+  {
+    "name": "grades101",
+    "pass_": true,
+    "seconds": 0.4346821159999763
+  }
+]

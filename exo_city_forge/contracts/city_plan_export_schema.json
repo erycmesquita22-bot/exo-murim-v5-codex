@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "city_plan_export_schema",
+  "type": "object",
+  "required": [
+    "status",
+    "region_id",
+    "blueprint_id",
+    "profile_id",
+    "sectors",
+    "streets",
+    "buildings"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "sectors": {
+      "type": "array"
+    },
+    "buildings": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

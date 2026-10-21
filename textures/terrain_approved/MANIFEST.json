@@ -1,0 +1,123 @@
+{
+  "method": "paired smooth opposite-edge correction",
+  "source_unchanged": true,
+  "tiles": [
+    {
+      "source": "textures/tiles/grama_prado.png",
+      "target": "textures/terrain_approved/grama_prado.png",
+      "dimensions": [
+        310,
+        310
+      ],
+      "source_sha256": "4385f95c658a0c8be6365c522b77b8c929a57cb699fdb337df62a6d06f53b0fb",
+      "target_sha256": "05d2ec1948acd7ddc664af930f41834734ec629c9fc04bf56ba270ea4c5dddb2",
+      "average_absolute_change": 3.879,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/solo_floresta.png",
+      "target": "textures/terrain_approved/solo_floresta.png",
+      "dimensions": [
+        310,
+        309
+      ],
+      "source_sha256": "b802506975c55a4e717465068d85609bd6b2900924cf39e843b2be7dde96609a",
+      "target_sha256": "8f59bc9fdfa4c52508177660c340b75139c164db18b4a0c85911cc7256e305a4",
+      "average_absolute_change": 2.678,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/solo_bambuzal.png",
+      "target": "textures/terrain_approved/solo_bambuzal.png",
+      "dimensions": [
+        309,
+        310
+      ],
+      "source_sha256": "03bba9319b92609cd5984491bacea9559af156f3573b1639b623d44127438285",
+      "target_sha256": "c924f4182b029ad459c4808a38e2b0870436897b2a14692c29703439b7d8d25b",
+      "average_absolute_change": 4.439,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/grama_seca.png",
+      "target": "textures/terrain_approved/grama_seca.png",
+      "dimensions": [
+        310,
+        309
+      ],
+      "source_sha256": "57850aeabac9477bea3da17a05cda3bae32d2027bce8bdb2fea707168afa207f",
+      "target_sha256": "e97ca9634fa326462b3583f2d28b221c97e1ddba087c3d302972ef415b9dfc66",
+      "average_absolute_change": 3.763,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/grama_umida.png",
+      "target": "textures/terrain_approved/grama_umida.png",
+      "dimensions": [
+        309,
+        309
+      ],
+      "source_sha256": "c2b40d5a6b615fb1fa7b1b0e94cd3f72faf13fd795d107446561df83a645b041",
+      "target_sha256": "3acd7d5e9027c11a8b1fe31ce74dbdfce54c331ae64c9bae1f811e79793e9b65",
+      "average_absolute_change": 3.02,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/rocha_cinza.png",
+      "target": "textures/terrain_approved/rocha_cinza.png",
+      "dimensions": [
+        310,
+        310
+      ],
+      "source_sha256": "977d6b5e79462687cd1790b41db06335816611c94cb0ef1dfc1c495d001c5beb",
+      "target_sha256": "e209b6df00d79ecb923934d87f60f66b8f011cbd994ca2d81267961c251e56bc",
+      "average_absolute_change": 3.12,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/grama_montanha.png",
+      "target": "textures/terrain_approved/grama_montanha.png",
+      "dimensions": [
+        309,
+        309
+      ],
+      "source_sha256": "462c9190761a61908677643a4833692d94eb7f5cfb90c01183cba42a363b6c9b",
+      "target_sha256": "ef21f28664ef4a1c4ede4abd10ed84f62a45117bf2392b86ffbedf9d62c9d66b",
+      "average_absolute_change": 3.921,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/grama_folhas_largas.png",
+      "target": "textures/terrain_approved/grama_folhas_largas.png",
+      "dimensions": [
+        309,
+        310
+      ],
+      "source_sha256": "bb8a207767eba912eaf89f6d14e717baaa904260844ba71e87e99dbb59b51cb3",
+      "target_sha256": "9ba22c7162630b142964f46326acff74fdd3f3fcbdd16b675f2a78ee8b2f2677",
+      "average_absolute_change": 3.261,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    },
+    {
+      "source": "textures/tiles/trilha_terra.png",
+      "target": "textures/terrain_approved/trilha_terra.png",
+      "dimensions": [
+        310,
+        310
+      ],
+      "source_sha256": "d8a00e00538ea2718dbaba1a60da836c3e9027a3c5adc1827861523d44b20fb9",
+      "target_sha256": "75482ce867f137360418701107f38693ff393679670dcdfcd7f021b1477215fc",
+      "average_absolute_change": 1.945,
+      "edge_pixels_identical": true,
+      "center_preserved": true
+    }
+  ]
+}

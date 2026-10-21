@@ -1,0 +1,1 @@
+{"id":"example","version":"1.0.0","requires":{"persistence":"1.0.0","inventory":"1.0.0"},"optional":{},"services":["example.counter"],"publishes":[],"consumes":["equipment_changed"],"persistence":{"example":1},"entrypoint":"res://example/module.gd"}

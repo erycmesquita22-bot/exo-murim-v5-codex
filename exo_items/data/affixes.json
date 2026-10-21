@@ -1,0 +1,431 @@
+[
+  {
+    "id": "temperada",
+    "slot": "prefix",
+    "display": "Temperada",
+    "group": "force",
+    "families": [
+      "weapon"
+    ],
+    "refs": [],
+    "tags_any": [],
+    "stats": {
+      "damage_pct": [
+        0.04,
+        0.08
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "ligeira",
+    "slot": "prefix",
+    "display": "Ligeira",
+    "group": "motion",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "dagger",
+      "rapier",
+      "katana",
+      "twin_daggers",
+      "bow"
+    ],
+    "tags_any": [],
+    "stats": {
+      "move_pct": [
+        0.03,
+        0.06
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "guardia",
+    "slot": "prefix",
+    "display": "Guardiã",
+    "group": "defense",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "greatsword",
+      "spear",
+      "halberd",
+      "gauntlets",
+      "quarterstaff"
+    ],
+    "tags_any": [],
+    "stats": {
+      "guard": [
+        1,
+        3
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "canalizadora",
+    "slot": "prefix",
+    "display": "Canalizadora",
+    "group": "mana",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "wand",
+      "arcane_staff"
+    ],
+    "tags_any": [],
+    "stats": {
+      "mana_regen": [
+        0.6,
+        1.2
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "vigorosa",
+    "slot": "prefix",
+    "display": "Vigorosa",
+    "group": "stamina",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "greatsword",
+      "spear",
+      "dagger",
+      "katana",
+      "gauntlets",
+      "quarterstaff",
+      "halberd",
+      "bow"
+    ],
+    "tags_any": [],
+    "stats": {
+      "stamina_regen": [
+        1,
+        2
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "vendaval",
+    "slot": "suffix",
+    "display": "do Vendaval",
+    "group": "motion",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "dagger",
+      "rapier",
+      "katana",
+      "twin_daggers",
+      "bow"
+    ],
+    "tags_any": [],
+    "stats": {
+      "agilidade": [
+        1,
+        1
+      ],
+      "elemental_pct": [
+        0.06,
+        0.12
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "geada",
+    "slot": "suffix",
+    "display": "da Geada",
+    "group": "element",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "wand",
+      "arcane_staff"
+    ],
+    "tags_any": [],
+    "stats": {
+      "elemental_pct": [
+        0.08,
+        0.14
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "chama",
+    "slot": "suffix",
+    "display": "da Chama",
+    "group": "element",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "wand",
+      "arcane_staff"
+    ],
+    "tags_any": [],
+    "stats": {
+      "elemental_pct": [
+        0.08,
+        0.14
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "folego",
+    "slot": "suffix",
+    "display": "do Fôlego",
+    "group": "stamina",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "greatsword",
+      "spear",
+      "dagger",
+      "katana",
+      "gauntlets",
+      "quarterstaff",
+      "halberd",
+      "bow"
+    ],
+    "tags_any": [],
+    "stats": {
+      "stamina_regen": [
+        1,
+        2
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "baluarte",
+    "slot": "suffix",
+    "display": "do Baluarte",
+    "group": "defense",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "sword",
+      "greatsword",
+      "spear",
+      "gauntlets",
+      "quarterstaff",
+      "halberd"
+    ],
+    "tags_any": [],
+    "stats": {
+      "guard": [
+        1,
+        2
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "estudo",
+    "slot": "suffix",
+    "display": "do Estudo",
+    "group": "mana",
+    "families": [
+      "weapon"
+    ],
+    "refs": [
+      "wand",
+      "arcane_staff"
+    ],
+    "tags_any": [],
+    "stats": {
+      "inteligencia": [
+        1,
+        1
+      ]
+    },
+    "weight": 10,
+    "legacy": true,
+    "excludes": []
+  },
+  {
+    "id": "afiada_v2",
+    "slot": "prefix",
+    "display": "Afiada",
+    "group": "force",
+    "families": [
+      "weapon"
+    ],
+    "refs": [],
+    "tags_any": [
+      "blade",
+      "pierce"
+    ],
+    "stats": {
+      "damage_pct": [
+        0.025,
+        0.055
+      ]
+    },
+    "weight": 9,
+    "legacy": false,
+    "excludes": [
+      "baluarte"
+    ]
+  },
+  {
+    "id": "firme_v2",
+    "slot": "prefix",
+    "display": "Firme",
+    "group": "defense",
+    "families": [
+      "weapon",
+      "armor"
+    ],
+    "refs": [],
+    "tags_any": [
+      "defense",
+      "blunt"
+    ],
+    "stats": {
+      "guard": [
+        1,
+        1
+      ]
+    },
+    "weight": 8,
+    "legacy": false,
+    "excludes": []
+  },
+  {
+    "id": "silenciosa_v2",
+    "slot": "prefix",
+    "display": "Silenciosa",
+    "group": "motion",
+    "families": [
+      "weapon",
+      "accessory"
+    ],
+    "refs": [],
+    "tags_any": [
+      "blade",
+      "utility"
+    ],
+    "stats": {
+      "move_pct": [
+        0.015,
+        0.035
+      ]
+    },
+    "weight": 7,
+    "legacy": false,
+    "excludes": []
+  },
+  {
+    "id": "do_pulso_sereno",
+    "slot": "suffix",
+    "display": "do Pulso Sereno",
+    "group": "mana",
+    "families": [
+      "weapon",
+      "accessory"
+    ],
+    "refs": [],
+    "tags_any": [
+      "arcane",
+      "utility"
+    ],
+    "stats": {
+      "mana_regen": [
+        0.25,
+        0.7
+      ]
+    },
+    "weight": 7,
+    "legacy": false,
+    "excludes": []
+  },
+  {
+    "id": "da_vigia",
+    "slot": "suffix",
+    "display": "da Vigília",
+    "group": "defense",
+    "families": [
+      "armor",
+      "accessory"
+    ],
+    "refs": [],
+    "tags_any": [
+      "defense",
+      "utility"
+    ],
+    "stats": {
+      "guard": [
+        1,
+        2
+      ]
+    },
+    "weight": 8,
+    "legacy": false,
+    "excludes": []
+  },
+  {
+    "id": "da_perseveranca",
+    "slot": "suffix",
+    "display": "da Perseverança",
+    "group": "stamina",
+    "families": [
+      "armor",
+      "accessory"
+    ],
+    "refs": [],
+    "tags_any": [
+      "defense",
+      "utility"
+    ],
+    "stats": {
+      "stamina_regen": [
+        0.7,
+        1.4
+      ]
+    },
+    "weight": 8,
+    "legacy": false,
+    "excludes": []
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "cpu_model_presented_by_host": "AMD EPYC 9V74 80-Core Processor",
+  "os": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "logical_cpus_exposed": 9,
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "note": "Shared Work environment; software rendering; no owner PC benchmark."
+}

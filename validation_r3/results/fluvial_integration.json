@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "real_city_loaded_14"
+    },
+    {
+      "pass": true,
+      "test": "complete_perimeter_14"
+    },
+    {
+      "pass": true,
+      "test": "genesis_constraints_14:[]"
+    },
+    {
+      "pass": true,
+      "test": "one_instance_per_crossing_14"
+    },
+    {
+      "pass": true,
+      "test": "capture_01-passagem-fluvial-e-muralha"
+    },
+    {
+      "pass": true,
+      "test": "capture_02-muralha-cidade-escala-ampla"
+    },
+    {
+      "pass": true,
+      "test": "water_channel_clear_14:[]"
+    },
+    {
+      "pass": true,
+      "test": "roads_clear_14:[]"
+    },
+    {
+      "pass": true,
+      "test": "road_bridge_support_14:[]"
+    },
+    {
+      "pass": true,
+      "test": "real_city_loaded_26"
+    },
+    {
+      "pass": true,
+      "test": "complete_perimeter_26"
+    },
+    {
+      "pass": true,
+      "test": "genesis_constraints_26:[]"
+    },
+    {
+      "pass": true,
+      "test": "one_instance_per_crossing_26"
+    },
+    {
+      "pass": true,
+      "test": "water_channel_clear_26:[]"
+    },
+    {
+      "pass": true,
+      "test": "roads_clear_26:[]"
+    },
+    {
+      "pass": true,
+      "test": "road_bridge_support_26:[]"
+    },
+    {
+      "pass": true,
+      "test": "save_real_river_city"
+    }
+  ],
+  "facts": {
+    "cities": [
+      {
+        "blocked_roads": [],
+        "blocked_water": [],
+        "missing_floor": [],
+        "region": 14,
+        "river_gates": [
+          {
+            "arches": 1,
+            "chunks": 38,
+            "variant": "medium"
+          }
+        ],
+        "road_samples": 25,
+        "segments": 225,
+        "wet_samples": 39
+      },
+      {
+        "blocked_roads": [],
+        "blocked_water": [],
+        "missing_floor": [],
+        "region": 26,
+        "river_gates": [
+          {
+            "arches": 1,
+            "chunks": 31,
+            "variant": "small"
+          }
+        ],
+        "road_samples": 25,
+        "segments": 268,
+        "wet_samples": 39
+      }
+    ],
+    "engine": "4.6.2-stable (official)"
+  },
+  "failures": []
+}

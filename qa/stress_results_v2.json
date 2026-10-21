@@ -1,0 +1,10 @@
+{
+  "kind": "offline_reference_stress",
+  "checks_passed": 707388,
+  "failed": 0,
+  "failures": [],
+  "test_lots": 120000,
+  "plaza_configurations": 18000,
+  "hash_seeds": 80,
+  "runtime_GDScript_executed": false
+}

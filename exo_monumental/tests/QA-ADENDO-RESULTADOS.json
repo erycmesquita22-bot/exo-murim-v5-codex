@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Offline source/catalog GLB/collider estimates, rotation/reservation geometry; NOT Godot runtime, not real world geography",
+  "engine_native": "NOT_EXECUTED",
+  "counts": {
+    "assertions": 3209,
+    "stations_checked": 62,
+    "rotation_cases": 44,
+    "transformed_station_samples": 1984,
+    "seed_orientation_cases": 176,
+    "dungeon_families": 6,
+    "glb_checked": 18,
+    "budget_cases": 11
+  },
+  "failure_count": 0,
+  "failures": [],
+  "timestamp_utc": "2026-10-19T19:32:35.353312+00:00"
+}

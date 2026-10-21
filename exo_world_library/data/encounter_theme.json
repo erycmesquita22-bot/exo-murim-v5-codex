@@ -1,0 +1,294 @@
+{
+  "domain": "encounter_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 0
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/wolf_pack",
+      "label": "Alcateia de lobos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "beast",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 1
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 0
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/boar_hunt",
+      "label": "Javalis agressivos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "beast",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 1
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 0
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/road_bandits",
+      "label": "Salteadores de estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "outlaw",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 1
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 1
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/patrol_test",
+      "label": "Patrulha desafia viajante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "security",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 2
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 1
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/hidden_trapper",
+      "label": "Caçador prepara armadilha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "hunt",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 2
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 1
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/rival_challenge",
+      "label": "Discípulo desafiante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 2
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 2
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/fallen_cultivator",
+      "label": "Cultivador exilado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 3
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 2
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/guardian_test",
+      "label": "Prova de guardião",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "spiritual",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 3
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 2
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/ruin_stalker",
+      "label": "Predador das ruínas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ruins",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 3
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 1
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/caravan_attack",
+      "label": "Emboscada na caravana",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "trade",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 2
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 2
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/lost_spirit",
+      "label": "Eco de Qi instável",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "mystic",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 3
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "min_player_tier": 3
+      },
+      "domain": "encounter_theme",
+      "excludes": [],
+      "id": "encounter_theme/boss_challenge",
+      "label": "Confronto de alto risco",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "boss",
+        "encounter"
+      ],
+      "variables": {
+        "combat_owner": "combat",
+        "spawn_owner": "bestiary",
+        "threat_tier_hint": 4
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

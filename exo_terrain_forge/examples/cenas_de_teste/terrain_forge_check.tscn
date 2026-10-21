@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://exo_terrain_forge/examples/cenas_de_teste/terrain_forge_check.gd" id="1_script"]
+[node name="TerrainForgeQA" type="Node"]
+script = ExtResource("1_script")

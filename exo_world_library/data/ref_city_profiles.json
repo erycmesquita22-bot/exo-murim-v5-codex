@@ -1,0 +1,214 @@
+{
+  "domain": "ref_city_profiles",
+  "records": [
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_administrative_trade_city",
+      "label": "administrative_trade_city",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "5cb8c0b17e42fc437e18fc92a5ce5901fe2f7fd7f2d3f9470db487a5d367f63f",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "administrative_trade_city",
+        "source_path": "exo_city_forge/libraries/population_profiles/administrative_trade_city.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_agrarian_trade_town",
+      "label": "agrarian_trade_town",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "65f1adfd41baa5558ebc8fd904877ac6372aefbed3a778038c030db295999a76",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "agrarian_trade_town",
+        "source_path": "exo_city_forge/libraries/population_profiles/agrarian_trade_town.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_fortified_mixed_city",
+      "label": "fortified_mixed_city",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "3921ac92b51c6ba68adc47bbbd5d58c6cf208aff70bdecb6ed1f7ae2c3c6102a",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "fortified_mixed_city",
+        "source_path": "exo_city_forge/libraries/population_profiles/fortified_mixed_city.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_frontier_martial_town",
+      "label": "Fronteira Marcial",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "dd93e27fb49fa1572a0db54ee23c25b9b89c101a217132a23fddc04883a9e630",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "frontier_martial_town",
+        "source_path": "exo_city_forge/libraries/population_profiles/frontier_martial_town.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_martial_power_center",
+      "label": "martial_power_center",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "90c72b5c6edf01a64cdf4b2f79e0b4d1c8549eed94ae01cbe239c3c9aae3c898",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "martial_power_center",
+        "source_path": "exo_city_forge/libraries/population_profiles/martial_power_center.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_poor_martial_city",
+      "label": "poor_martial_city",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "741f06ddba1ab722090b6eafee725b31b2b5383c19a5571c8290276fdc5167f0",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "poor_martial_city",
+        "source_path": "exo_city_forge/libraries/population_profiles/poor_martial_city.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_rich_commercial_city",
+      "label": "rich_commercial_city",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "2fa23e7dd4c174d5e1e2bc091471e084a98c6f45aafcaf26fdd6c16e10aabbcf",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "rich_commercial_city",
+        "source_path": "exo_city_forge/libraries/population_profiles/rich_commercial_city.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_profiles",
+      "excludes": [],
+      "id": "ref_city_profiles/ref_riverside_trade_city",
+      "label": "Entrepostos e Barqueiros",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "4fd261009ca976d2a19b02de099f0901f564605348f51827f472708058d63aad",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "riverside_trade_city",
+        "source_path": "exo_city_forge/libraries/population_profiles/riverside_trade_city.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

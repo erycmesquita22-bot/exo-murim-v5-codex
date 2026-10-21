@@ -1,0 +1,10 @@
+{
+  "id": "elder",
+  "name": "Ancião local",
+  "living_world_role": "resident",
+  "weight": 0.09,
+  "can_be_narratively_important": true,
+  "is_noble": false,
+  "physical_spawn_authority": "LivingWorld",
+  "implementation": "rules_only"
+}

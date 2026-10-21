@@ -1,0 +1,10 @@
+{
+  "id": "noble",
+  "name": "Nobre influente",
+  "living_world_role": "resident",
+  "weight": 0.02,
+  "can_be_narratively_important": true,
+  "is_noble": true,
+  "physical_spawn_authority": "LivingWorld",
+  "implementation": "rules_only"
+}

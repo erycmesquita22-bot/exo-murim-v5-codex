@@ -1,0 +1,11 @@
+Eventos usam assets/martial_audio e conservam o arquivo de origem nos manifestos.
+Katana sword 70247: cortes 0–0.80 s / 1.01–1.80 s / 2.07–2.83 s do áudio normalizado.
+Kick Bright Medium 504170 é uma batida musical, não foi associada a um chute que o jogo ainda não possui.
+Sword Slash and Swing foi consultado como referência, mas não é incluído ou associado ao combate; o deslocamento usa os cortes curtos de katana.
+Crítico só toca quando a rolagem foi crítica; fatal só quando hp chega a zero. Material tem precedência.
+Nenhuma amostra de áudio de anime foi copiada.
+
+Sopro de fogo: primeiros 1,25 s do arquivo normalizado; gelo: primeiro 1 s.
+Os efeitos EXO antigos não constam no banco ativo da 07.
+
+Nivelamento final do banco ativo: alvo -20 LUFS, teto -4 dBTP antes da codificação Vorbis; o barramento do jogo também tem limitador.

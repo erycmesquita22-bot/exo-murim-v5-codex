@@ -1,0 +1,23 @@
+{
+  "release": "05",
+  "status": "pending_work_godot_verification",
+  "modified_old": [
+    "genesis/settlements/settlement_planner.gd",
+    "SETTLEMENT-VERSION.json"
+  ],
+  "new_godot_tests": [
+    "tests/settlement_extreme.gd",
+    "tests/settlement_grades.gd"
+  ],
+  "new_tools": [
+    "tools/run_settlement_qa.py",
+    "tools/check_settlement_static_05.py",
+    "tools/external_settlement_qa/probe.py",
+    "tools/external_settlement_qa/property_qa.py"
+  ],
+  "new_report": [
+    "RELATORIO-STRESS-05.md",
+    "SETTLEMENT-SHA256-05.json",
+    "WORK-TESTES-05.md"
+  ]
+}

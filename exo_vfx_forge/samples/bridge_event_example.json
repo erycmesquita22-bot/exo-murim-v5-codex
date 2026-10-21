@@ -1,0 +1,23 @@
+{
+  "contract_version": "exo.vfx.events/1",
+  "cast_instance_id": "SAMPLE-001",
+  "skill_id": "corte_inicial",
+  "caster_entity_id": "SAMPLE-PLAYER",
+  "cue_id": "candidate.corte_inicial.launch",
+  "vfx_id": "vfx.slash.qi.blue.v1",
+  "phase": "launch",
+  "visual_seed": 813,
+  "origin_xyz": [
+    0,
+    0,
+    0
+  ],
+  "direction_xyz": [
+    0,
+    0,
+    -1
+  ],
+  "quality_profile": "medium",
+  "event_sequence": 2,
+  "SAMPLE_NOT_HOST_API": true
+}

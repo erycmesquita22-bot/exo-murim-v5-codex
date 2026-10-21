@@ -1,0 +1,326 @@
+{
+  "version": "Convergencia 03 Alfa R4",
+  "base": "Alfa R3",
+  "scope": "Bestiario 02 -> Regional Ecology authoritative runtime fauna",
+  "static_tests": [
+    {
+      "id": "BASE_R3_SHA_256",
+      "status": "PASS",
+      "evidence": "Verified against original R3 transfer manifest",
+      "type": "STATIC"
+    },
+    {
+      "id": "17_MODULES",
+      "status": "PASS",
+      "evidence": "17 entries",
+      "type": "STATIC"
+    },
+    {
+      "id": "UNIQUE_SERVICE_OWNERS",
+      "status": "PASS",
+      "evidence": "21 services",
+      "type": "STATIC"
+    },
+    {
+      "id": "BESTIARY_COMBAT_OWNER",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "DEPENDENCY_GRAPH",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "ENTRYPOINTS",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_CORE_UNCHANGED",
+      "status": "PASS",
+      "evidence": "EXO Core continues orchestrator, no duplicate save writer",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_CORE_PERSISTENCE_UNCHANGED",
+      "status": "PASS",
+      "evidence": "exo_core/persistence/save_coordinator.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_DUNGEON_DOMAIN_UNCHANGED",
+      "status": "PASS",
+      "evidence": "exo_dungeon/module/entrypoint.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_ATOMIC_ITEMS_UNCHANGED",
+      "status": "PASS",
+      "evidence": "exo_items/integration/atomic_reward_adapter.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_WORLDGEN_UNCHANGED",
+      "status": "PASS",
+      "evidence": "genesis/region_data.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_TERRAIN_UNCHANGED",
+      "status": "PASS",
+      "evidence": "genesis/terrain.gdshader",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_VISUAL_WORLD_UNCHANGED",
+      "status": "PASS",
+      "evidence": "genesis/region_scene.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_NARRATIVE_UNCHANGED",
+      "status": "PASS",
+      "evidence": "narrative/society/authorized_master_disciple.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_NPC_UNCHANGED",
+      "status": "PASS",
+      "evidence": "npc_system02/director.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "R3_RIG_UNCHANGED",
+      "status": "PASS",
+      "evidence": "rig.gd",
+      "type": "STATIC"
+    },
+    {
+      "id": "16_OFFICIAL_SPECIES",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "BIOME_AWARE_SEED",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "NO_DUPLICATED_FAUNA_SPAWN",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "REGIONAL_MAX8_PRESERVED",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_REGION_CAP",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "SPAWN_EXCLUSION",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "STABLE_TERRITORY_KEYS",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_SPAWN_IN_CORE_READY",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_PHYSICAL_ACTOR",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_DAMAGE_BY_PLAYER_OWNER",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "HOST_COMBAT_LIST",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "NO_DUAL_LOOT_AUTHORITY",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_LOOT_MATERIAL_REGISTERED",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "REGIONAL_REWARDS_DEDUPE",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "BOTH_ROLLBACK_BRANCHES_REVIVE",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_REVIVE_PHYSICS",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_HUD_TARGET",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_ATTACK_PROOF",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_AI_SINGLE_STEP",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "FAUNA_ACTIVE_TEST_TOGGLE",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "NATIVE_SUITE_PREPARED",
+      "status": "PASS",
+      "evidence": "",
+      "type": "STATIC"
+    },
+    {
+      "id": "SUPPORTED_FAUNA_CATALOG_SUBSET",
+      "status": "PASS",
+      "evidence": "15 species have habitat in existing worldgen",
+      "type": "STATIC"
+    },
+    {
+      "id": "MODIFIED_GDSCRIPT_DELIMITERS",
+      "status": "PASS",
+      "evidence": "[]",
+      "type": "STATIC"
+    },
+    {
+      "id": "MODIFIED_SOURCE_REFS_EXIST",
+      "status": "PASS",
+      "evidence": "[]",
+      "type": "STATIC"
+    },
+    {
+      "id": "PROJECT_JSON_PARSE",
+      "status": "PASS",
+      "evidence": "361 files parsed; errors []",
+      "type": "STATIC"
+    }
+  ],
+  "summary": {
+    "pass": 41,
+    "fail": 0,
+    "modified_files": [
+      "inventory.gd",
+      "project.godot",
+      "regional_ecology/rewards.gd",
+      "regional_ecology/director.gd",
+      "regional_ecology/territories.gd",
+      "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md",
+      "C03_TRANSFERENCIA/QA-C03-ALFA-R4.json",
+      "C03_TRANSFERENCIA/MANIFESTO-R4.json",
+      "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json",
+      "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R4.md",
+      "C03_TRANSFERENCIA/LEIA-ME-PRIMEIRO-R4.md",
+      "exo_core/modules.json",
+      "convergence/game.gd",
+      "exo_bestiary/integration/regional_fauna_actor.gd",
+      "exo_bestiary/module/entrypoint.gd",
+      "exo_bestiary/tests/qa_c03_r4_regional_fauna.gd"
+    ],
+    "created_files": [
+      "C03_TRANSFERENCIA/QA-C03-ALFA-R4.json",
+      "C03_TRANSFERENCIA/MANIFESTO-R4.json",
+      "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R4.md",
+      "C03_TRANSFERENCIA/LEIA-ME-PRIMEIRO-R4.md",
+      "exo_bestiary/integration/regional_fauna_actor.gd",
+      "exo_bestiary/tests/qa_c03_r4_regional_fauna.gd"
+    ],
+    "json_files_parsed": 361
+  },
+  "native_tests": [
+    {
+      "id": "godot_import",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "regional_fauna_native_qa",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "actual_regional_spawn",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "player_hit_fauna",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "fauna_attack_player",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "fauna_death_pending_loot",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "save_reopen_rollback",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    },
+    {
+      "id": "performance_vega8",
+      "status": "NOT_RUN",
+      "reason": "Godot 4.6.2 executable unavailable in this runtime"
+    }
+  ]
+}

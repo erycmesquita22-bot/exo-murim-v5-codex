@@ -1,0 +1,121 @@
+[
+  {
+    "content_library_scope": "input selection; NO place/save",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "world",
+    "purpose": "Regionas, biome, WorldGenesis"
+  },
+  {
+    "content_library_scope": "reference IDs; NO place/geometry",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "city_forge",
+    "purpose": "Blueprins/districts"
+  },
+  {
+    "content_library_scope": "suggest ambience; NO identity/AI",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "exo_crowd_illusion",
+    "purpose": "Crowd scenes"
+  },
+  {
+    "content_library_scope": "personality hints; NO NPC creation",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "living_world",
+    "purpose": "NPC system"
+  },
+  {
+    "content_library_scope": "seeds only; NO facts/relationships",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "narrative",
+    "purpose": "stories/events"
+  },
+  {
+    "content_library_scope": "suggest objectives; NO XP/rewards",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "journey",
+    "purpose": "quests"
+  },
+  {
+    "content_library_scope": "selection; NO training/technique unlock",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "exo_martial",
+    "purpose": "schools/masters"
+  },
+  {
+    "content_library_scope": "design only; NO enter/rewards",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "dungeon_genesis",
+    "purpose": "dungeon themes"
+  },
+  {
+    "content_library_scope": "selection; NO grant",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "inventory",
+    "purpose": "loot/theme"
+  },
+  {
+    "content_library_scope": "reference-only; NO stat generation",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "exo_items",
+    "purpose": "rarity/material/affixes"
+  },
+  {
+    "content_library_scope": "hint; NO spawn/AI/damage",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "bestiary",
+    "purpose": "encounter context"
+  },
+  {
+    "content_library_scope": "hints; NO wallet/transact",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "exo_economy",
+    "purpose": "market context"
+  },
+  {
+    "content_library_scope": "cosmetic hint; NO player render override",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "appearance",
+    "purpose": "outfit palette"
+  },
+  {
+    "content_library_scope": "no reservation/footprint",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "exo_monumental",
+    "purpose": "landmark suggestions"
+  },
+  {
+    "content_library_scope": "no replace terrain",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "terrain_forge",
+    "purpose": "terrain material IDs"
+  },
+  {
+    "content_library_scope": "no audio resource ownership",
+    "forbid_save_mutations": true,
+    "integration": "candidate_not_wired",
+    "owner": "audio",
+    "purpose": "audio cue hint"
+  },
+  {
+    "content_library_scope": "suggestion only; no footprint, prefab selection, entrance, player relocation or save",
+    "forbid_save_mutations": true,
+    "integration": "R1_EXISTS_R2_CONTRACT_PENDING",
+    "owner": "exo_interior_forge",
+    "purpose": "prewritten room/prop style metadata read-only"
+  }
+]

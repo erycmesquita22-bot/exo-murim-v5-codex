@@ -1,0 +1,468 @@
+[
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/51dabceb14d3b23e47880b5aa479c21e0a13b4f1",
+    "seed": 79311,
+    "source": "event/r0/unit0",
+    "family": "weapon",
+    "base_id": "arcane_staff",
+    "material_id": "tempered_steel",
+    "rarity_id": "common",
+    "level": 1,
+    "quality": 0,
+    "tier": 1,
+    "request_rarity": "common",
+    "request_material": "",
+    "affixes": [],
+    "stats": {
+      "damage_pct": 0.021
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/9ef8cd16c01ab3c43fe3ea676d3f2c5b2a5bf125",
+    "seed": 79311,
+    "source": "event/r5/unit5",
+    "family": "weapon",
+    "base_id": "battle_mace",
+    "material_id": "iron",
+    "rarity_id": "ancestral",
+    "level": 6,
+    "quality": 1,
+    "tier": 1,
+    "request_rarity": "ancestral",
+    "request_material": "",
+    "affixes": [
+      "firme_v2"
+    ],
+    "stats": {
+      "damage_pct": 0.089,
+      "guard": 1.0
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/ac30e46dbcbc069e551be7ae4738c0c8220af707",
+    "seed": 79311,
+    "source": "event/r10/unit10",
+    "family": "weapon",
+    "base_id": "bow",
+    "material_id": "tempered_steel",
+    "rarity_id": "legendary",
+    "level": 11,
+    "quality": 2,
+    "tier": 1,
+    "request_rarity": "legendary",
+    "request_material": "",
+    "affixes": [
+      "ligeira",
+      "folego",
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.135,
+      "move_pct": 0.051,
+      "stamina_regen": 1.048
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/c0c54906ff35b98f818423e2d2df49cb9279a36f",
+    "seed": 79311,
+    "source": "event/r15/unit15",
+    "family": "weapon",
+    "base_id": "crossbow",
+    "material_id": "tempered_steel",
+    "rarity_id": "epic",
+    "level": 16,
+    "quality": 3,
+    "tier": 1,
+    "request_rarity": "epic",
+    "request_material": "",
+    "affixes": [
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.137
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/ee4b6982454f96189e21b0bf8c24f8bc7610524c",
+    "seed": 79311,
+    "source": "event/r20/unit20",
+    "family": "weapon",
+    "base_id": "dagger",
+    "material_id": "tempered_steel",
+    "rarity_id": "rare",
+    "level": 21,
+    "quality": 0,
+    "tier": 1,
+    "request_rarity": "rare",
+    "request_material": "",
+    "affixes": [
+      "temperada",
+      "vendaval"
+    ],
+    "stats": {
+      "damage_pct": 0.096,
+      "agilidade": 1.0,
+      "elemental_pct": 0.072
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/fb5e29f02468cf35c5df4c3da933884c1cfb286a",
+    "seed": 79311,
+    "source": "event/r25/unit25",
+    "family": "weapon",
+    "base_id": "gauntlets",
+    "material_id": "tempered_steel",
+    "rarity_id": "uncommon",
+    "level": 26,
+    "quality": 1,
+    "tier": 1,
+    "request_rarity": "uncommon",
+    "request_material": "",
+    "affixes": [
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.1
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/6988984cc702e8d6c802ec5f8b53419c151676a4",
+    "seed": 79311,
+    "source": "event/r30/unit30",
+    "family": "weapon",
+    "base_id": "greatsword",
+    "material_id": "tempered_steel",
+    "rarity_id": "common",
+    "level": 31,
+    "quality": 2,
+    "tier": 1,
+    "request_rarity": "common",
+    "request_material": "",
+    "affixes": [],
+    "stats": {
+      "damage_pct": 0.011
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/a58c440716a7f4cb204b4d349ce9ed56f86122e3",
+    "seed": 79311,
+    "source": "event/r35/unit35",
+    "family": "weapon",
+    "base_id": "halberd",
+    "material_id": "spirit_iron",
+    "rarity_id": "ancestral",
+    "level": 36,
+    "quality": 3,
+    "tier": 1,
+    "request_rarity": "ancestral",
+    "request_material": "",
+    "affixes": [
+      "firme_v2",
+      "folego",
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.141,
+      "guard": 1.0,
+      "stamina_regen": 1.874
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/011367d9ce5cc90091886a2ba9e80cde5d507db6",
+    "seed": 79311,
+    "source": "event/r40/unit40",
+    "family": "weapon",
+    "base_id": "katana",
+    "material_id": "tempered_steel",
+    "rarity_id": "legendary",
+    "level": 41,
+    "quality": 0,
+    "tier": 1,
+    "request_rarity": "legendary",
+    "request_material": "",
+    "affixes": [
+      "afiada_v2",
+      "vendaval",
+      "folego"
+    ],
+    "stats": {
+      "damage_pct": 0.108,
+      "agilidade": 1.0,
+      "elemental_pct": 0.101,
+      "stamina_regen": 1.761
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/72a604f3cc3e6d3792b3edc145604f2d63b0db44",
+    "seed": 79311,
+    "source": "event/r45/unit45",
+    "family": "weapon",
+    "base_id": "quarterstaff",
+    "material_id": "plain",
+    "rarity_id": "epic",
+    "level": 46,
+    "quality": 1,
+    "tier": 1,
+    "request_rarity": "epic",
+    "request_material": "",
+    "affixes": [
+      "vigorosa",
+      "baluarte"
+    ],
+    "stats": {
+      "damage_pct": 0.056,
+      "stamina_regen": 1.558,
+      "guard": 2.0
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/eec45b71aa88477b9af12c501ad4ac012a6ae201",
+    "seed": 79311,
+    "source": "event/r50/unit50",
+    "family": "weapon",
+    "base_id": "rapier",
+    "material_id": "tempered_steel",
+    "rarity_id": "rare",
+    "level": 51,
+    "quality": 2,
+    "tier": 1,
+    "request_rarity": "rare",
+    "request_material": "",
+    "affixes": [
+      "afiada_v2",
+      "vendaval"
+    ],
+    "stats": {
+      "damage_pct": 0.073,
+      "agilidade": 1.0,
+      "elemental_pct": 0.06
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/9c243a1a6890f36ddc2303d13ccad382d117b089",
+    "seed": 79311,
+    "source": "event/r55/unit55",
+    "family": "weapon",
+    "base_id": "scythe",
+    "material_id": "spirit_iron",
+    "rarity_id": "uncommon",
+    "level": 56,
+    "quality": 3,
+    "tier": 1,
+    "request_rarity": "uncommon",
+    "request_material": "",
+    "affixes": [
+      "afiada_v2"
+    ],
+    "stats": {
+      "damage_pct": 0.082
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/15bb11eedcca813332e17c5d8ef522c458fac959",
+    "seed": 79311,
+    "source": "event/r60/unit60",
+    "family": "weapon",
+    "base_id": "spear",
+    "material_id": "tempered_steel",
+    "rarity_id": "common",
+    "level": 61,
+    "quality": 0,
+    "tier": 1,
+    "request_rarity": "common",
+    "request_material": "",
+    "affixes": [],
+    "stats": {
+      "damage_pct": 0.019
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/4f4ac2cfc9610138f95ab4cb0899fa79eb5b4185",
+    "seed": 79311,
+    "source": "event/r65/unit65",
+    "family": "weapon",
+    "base_id": "sword",
+    "material_id": "tempered_steel",
+    "rarity_id": "ancestral",
+    "level": 66,
+    "quality": 1,
+    "tier": 1,
+    "request_rarity": "ancestral",
+    "request_material": "",
+    "affixes": [
+      "temperada",
+      "baluarte",
+      "silenciosa_v2",
+      "folego"
+    ],
+    "stats": {
+      "damage_pct": 0.148,
+      "guard": 1,
+      "move_pct": 0.024,
+      "stamina_regen": 1.501
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/1a4daf1f09fd9be205892026245b3afe34688096",
+    "seed": 79311,
+    "source": "event/r70/unit70",
+    "family": "weapon",
+    "base_id": "twin_daggers",
+    "material_id": "iron",
+    "rarity_id": "legendary",
+    "level": 71,
+    "quality": 2,
+    "tier": 1,
+    "request_rarity": "legendary",
+    "request_material": "",
+    "affixes": [
+      "silenciosa_v2"
+    ],
+    "stats": {
+      "damage_pct": 0.074,
+      "move_pct": 0.032
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/911da768a7378004bd43116708c078cb68784e0d",
+    "seed": 79311,
+    "source": "event/r75/unit75",
+    "family": "weapon",
+    "base_id": "wand",
+    "material_id": "tempered_steel",
+    "rarity_id": "epic",
+    "level": 76,
+    "quality": 3,
+    "tier": 1,
+    "request_rarity": "epic",
+    "request_material": "",
+    "affixes": [
+      "temperada",
+      "chama"
+    ],
+    "stats": {
+      "damage_pct": 0.113,
+      "elemental_pct": 0.135
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/95413ad57c582b734a79bda54b040313465f9034",
+    "seed": 79311,
+    "source": "event/r80/unit80",
+    "family": "weapon",
+    "base_id": "arcane_staff",
+    "material_id": "spirit_iron",
+    "rarity_id": "rare",
+    "level": 81,
+    "quality": 0,
+    "tier": 1,
+    "request_rarity": "rare",
+    "request_material": "",
+    "affixes": [
+      "temperada",
+      "chama"
+    ],
+    "stats": {
+      "damage_pct": 0.1,
+      "elemental_pct": 0.096
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/360857a9fdbee70972066b19a246922f491b062e",
+    "seed": 79311,
+    "source": "event/r85/unit85",
+    "family": "weapon",
+    "base_id": "battle_mace",
+    "material_id": "spirit_iron",
+    "rarity_id": "uncommon",
+    "level": 86,
+    "quality": 1,
+    "tier": 1,
+    "request_rarity": "uncommon",
+    "request_material": "",
+    "affixes": [
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.073
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/2468a4afb447cc13efb1a394cb17c36c59fa8a62",
+    "seed": 79311,
+    "source": "event/r2/unit90",
+    "family": "weapon",
+    "base_id": "bow",
+    "material_id": "tempered_steel",
+    "rarity_id": "common",
+    "level": 91,
+    "quality": 2,
+    "tier": 1,
+    "request_rarity": "common",
+    "request_material": "",
+    "affixes": [],
+    "stats": {
+      "damage_pct": 0.017
+    }
+  },
+  {
+    "schema": 2,
+    "mode": "preview_only",
+    "id": "exo2/ed361ccf22f1b21597e3b452aa62961556aba055",
+    "seed": 79311,
+    "source": "event/r7/unit95",
+    "family": "weapon",
+    "base_id": "crossbow",
+    "material_id": "iron",
+    "rarity_id": "ancestral",
+    "level": 96,
+    "quality": 3,
+    "tier": 1,
+    "request_rarity": "ancestral",
+    "request_material": "",
+    "affixes": [
+      "temperada"
+    ],
+    "stats": {
+      "damage_pct": 0.151
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "import_exit": 0,
+  "rendered_boot_exit": 0,
+  "rendered_boot_frames": 45,
+  "cache_in_zip": false,
+  "engine": "4.6.2 Standard Compatibility",
+  "scope": "Fresh extraction of candidate ZIP; import and main-scene boot. Final repack adds only results/report."
+}

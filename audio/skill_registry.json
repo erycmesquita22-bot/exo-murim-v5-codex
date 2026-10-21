@@ -1,0 +1,1286 @@
+{
+  "schema": 1,
+  "selection_priority": [
+    "original_authorized",
+    "original_adapted",
+    "licensed_external",
+    "new_if_required"
+  ],
+  "source_archive": "EXO-Central-e-Identidade-Fontes.zip",
+  "skills": {
+    "corte_inicial": {
+      "name": "Corte Inicial",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "corte_inicial",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-vigor.json",
+        "effect": "SLASH",
+        "element": "vigor",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.ten0.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.player.attack.sweep",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_0_cast",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/0_cast",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_0_cast"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.ten0.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.player.attack.sweep",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_0_impact",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/0_impact",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_0_impact"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": null
+        },
+        "cast": {
+          "event": "swing"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "bola_de_gelo": {
+      "name": "Bola de Gelo",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "bola_de_gelo",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-gelo.json",
+        "effect": "ICEBALL",
+        "element": "gelo",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.ten3.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_3_cast",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/3_cast",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_3_cast"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.ten3.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_3_impact",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/3_impact",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_3_impact"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "gelo"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "salto_impetuoso": {
+      "name": "Salto Impetuoso",
+      "status": "integrated_original_cc0",
+      "original": {
+        "id": "salto_impetuoso",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "LEAP",
+        "element": "vigor",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.ten4.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_4_cast",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/4_cast",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_4_cast"
+            },
+            "state": "integrated_byte_identical_cc0"
+          },
+          "impact": {
+            "server_event": "exomod:skill.ten4.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_4_impact",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/4_impact",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_4_impact"
+            },
+            "state": "integrated_byte_identical_cc0"
+          },
+          "movement": {
+            "visual_event": "exovisual:wind_break",
+            "resource": "assets/exo_audio/wind_break.ogg",
+            "state": "reused_existing_exo_visual_resource",
+            "source": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/audio/LayeredAudio.java (LEAP -> wind_break)"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": null
+        },
+        "cast": {
+          "event": "exo_salto_cast",
+          "gain": 0.94
+        },
+        "movement": {
+          "event": "exo_salto_movement",
+          "gain": 0.95
+        },
+        "impact": {
+          "event": "exo_salto_impact",
+          "gain": 1.0,
+          "trigger": "after actual airborne-to-ground transition"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "golpe_circular": {
+      "name": "Golpe Circular",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "golpe_circular",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "SHOCKWAVE",
+        "element": "vigor",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.vigor.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vigor",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vigor",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vigor"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.vigor.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vigor",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vigor",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vigor"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": null
+        },
+        "cast": {
+          "event": "swing"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "nova_glacial": {
+      "name": "Nova Glacial",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "nova_glacial",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-gelo.json",
+        "effect": "SHOCKWAVE",
+        "element": "gelo",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.gelo.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_gelo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_gelo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_gelo"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.gelo.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_gelo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_gelo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_gelo"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "gelo"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "atracao_arcana": {
+      "name": "Atracao Arcana",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "atracao_arcana",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "PULL",
+        "element": "arcano",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.teleport.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_teleport",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_teleport",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_teleport"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.teleport.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_teleport",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_teleport",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_teleport"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "qi"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "investida_brutal": {
+      "name": "Investida Brutal",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "investida_brutal",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "DASH",
+        "element": "vigor",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.dash.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_dash",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_dash",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_dash"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.dash.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_dash",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_dash",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_dash"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": null
+        },
+        "cast": {
+          "event": "punch"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "jato_de_fogo": {
+      "name": "Jato de Fogo",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "jato_de_fogo",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-fogo.json",
+        "effect": "FIREBALL",
+        "element": "fogo",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.fogo.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_fogo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_fogo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_fogo"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.fogo.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_fogo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_fogo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_fogo"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "fogo"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "barreira_arcana": {
+      "name": "Barreira Arcana",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "barreira_arcana",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "SHIELD",
+        "element": "arcano",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.ten5.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_5_cast",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/5_cast",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_5_cast"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.ten5.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_5_impact",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/5_impact",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_5_impact"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "qi"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "cura": {
+      "name": "Cura",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "cura",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-geral.json",
+        "effect": "HEAL",
+        "element": "arcano",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.ten6.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_6_cast",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/6_cast",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_6_cast"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.ten6.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:ten_6_impact",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:ten/6_impact",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.ten_6_impact"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "qi"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "cripta_espinhos_1": {
+      "name": "Cripta de Espinhos",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "cripta_espinhos_1",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-terra.json",
+        "effect": "TRAP",
+        "element": "terra",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.terrain.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_terrain",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_terrain",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_terrain"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.terrain.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_terrain",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_terrain",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_terrain"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "qi"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "guardiao_ancestral": {
+      "name": "Guardiao Ancestral",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "guardiao_ancestral",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-trevas.json",
+        "effect": "SUMMON_UNDEAD",
+        "element": "trevas",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.summon_dark.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_summon_dark",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_summon_dark",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_summon_dark"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.summon_dark.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_summon_dark",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_summon_dark",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_summon_dark"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "terra"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      },
+      "notes": "Original catalog is SUMMON_UNDEAD/trevas; Godot guardian is currently earth element. Logged identity difference, no scope-changing correction."
+    },
+    "rajada_de_fogo": {
+      "name": "Rajada de Fogo",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "rajada_de_fogo",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-fogo.json",
+        "effect": "FIREBALL",
+        "element": "fogo",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.fogo.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_fogo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_fogo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_fogo"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.fogo.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_fogo",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_fogo",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_fogo"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "fogo"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "rajada_de_vento": {
+      "name": "Rajada de Vento",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "rajada_de_vento",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-vento.json",
+        "effect": "WINDBALL",
+        "element": "vento",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.vento.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vento",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vento",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vento"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.vento.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vento",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vento",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vento"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "vento"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "dardo_arcano": {
+      "name": "Dardo Arcano",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "dardo_arcano",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-arcano.json",
+        "effect": "BOLT",
+        "element": "arcano",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.arcano.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_arcano",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_arcano",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_arcano"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.arcano.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_arcano",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_arcano",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_arcano"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "qi"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    },
+    "onda_de_repulsao": {
+      "name": "Onda de Repulsao",
+      "status": "audited_preserved_091",
+      "original": {
+        "id": "onda_de_repulsao",
+        "catalog": "exo-rpg/codigo/chain/exo/src/main/resources/assets/exomod/catalog/actives-vento.json",
+        "effect": "SHOCKWAVE",
+        "element": "vento",
+        "audio": {
+          "cast": {
+            "server_event": "exomod:skill.vento.cast",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vento",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vento",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vento"
+            },
+            "state": "located_not_integrated"
+          },
+          "impact": {
+            "server_event": "exomod:skill.vento.impact",
+            "server_definition": {
+              "sounds": [
+                {
+                  "name": "minecraft:entity.evocation_illager.cast_spell",
+                  "type": "event"
+                }
+              ]
+            },
+            "visual_event": "exovisual:eco_vento",
+            "visual_definition": {
+              "sounds": [
+                {
+                  "name": "exovisual:atmosfera/eco_vento",
+                  "stream": false
+                }
+              ],
+              "subtitle": "subtitle.exovisual.eco_vento"
+            },
+            "state": "located_not_integrated"
+          }
+        }
+      },
+      "phases": {
+        "prepare": {
+          "event": "skill_windup"
+        },
+        "cast": {
+          "event": "vento"
+        },
+        "movement": {
+          "event": null
+        },
+        "impact": {
+          "event": null,
+          "policy": "exo_audio.impact_event material/context; only on confirmed hit"
+        },
+        "finish": {
+          "event": null
+        }
+      },
+      "visual": {
+        "original": "SkillCue / TenPresentation / ParticleSpawners / CutEchoes / CombatGeometry / VisualBudget audited",
+        "godot": "techniques.gd / qi_effect.gd / slash_effect.gd",
+        "state": "existing_091_preserved_no_java_port"
+      }
+    }
+  }
+}

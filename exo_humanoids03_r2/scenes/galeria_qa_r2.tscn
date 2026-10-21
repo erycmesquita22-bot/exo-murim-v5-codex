@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://exo_humanoids03_r2/scenes/galeria_qa_r2.gd" id="1"]
+
+[node name="Galeria_Humanoides_03_R2" type="Node3D"]
+script = ExtResource("1")

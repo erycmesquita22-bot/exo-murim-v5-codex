@@ -1,0 +1,17 @@
+{
+  "suite": "NPC-System-02-R2-offline-REFERENCE-MODEL_AND_STATIC",
+  "checks": 1057629,
+  "failures": [],
+  "failure_count": 0,
+  "timings": {
+    "static_s": 0.0046,
+    "relationship_model_s": 2.27,
+    "memory_model_s": 1.385
+  },
+  "godot_native": "NOT_RUN",
+  "limitations": [
+    "Relationship matching and memory progression use a Python reference model, not GDScript runtime",
+    "Lexical syntax checks do not compile Godot scripts",
+    "No measured FPS / CPU / pathfinding / collisions"
+  ]
+}

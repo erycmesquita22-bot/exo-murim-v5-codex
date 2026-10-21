@@ -1,0 +1,39 @@
+{
+  "id": "crowd_illusion",
+  "version": "1.0.4",
+  "target_engine": "Godot 4.6.2 Standard (Compatibility)",
+  "reference": "EXO-MURIM-CONVERGENCIA-03-WORK-CANDIDATO-01.zip",
+  "reference_sha256": "abe7b5736140d91153e0e6f9343ef443d9ca526f78b636361355b2d895cb69f9",
+  "entrypoint": "res://exo_crowd_illusion/module.gd",
+  "services": [
+    "crowd.illusion"
+  ],
+  "requires": {
+    "world": "1.0.0"
+  },
+  "optional": {
+    "living_world": "1.0.0",
+    "appearance": "1.0.0"
+  },
+  "consumes": [
+    "region_entered",
+    "region_exited",
+    "entity_state_changed"
+  ],
+  "publishes": [],
+  "persistence": {},
+  "interaction": "none",
+  "physics": "none",
+  "integration_mode": "isolated_candidate_receipt_gated",
+  "verified_native_qa": false,
+  "avatar_visuals": "shared vanilla classic skin atlas for crowds; no per-person rig",
+  "limitations": [
+    "Only base classic UVs; no slim / outer-layer native crowd support yet",
+    "Skin atlas is original demo art; EXO Humanoids 03 atlas integration pending clearance and host test",
+    "Group reaction is decorative",
+    "R13 contracts may change before C3 final",
+    "City Forge R4 semantic planning alone cannot authorize crowd spawning; materialized-lane receipt required.",
+    "GODOT native test status must be read from QA R4."
+  ],
+  "provenance": "All demo graphics generated from original procedural pixel patterns in this package"
+}

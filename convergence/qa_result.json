@@ -1,0 +1,645 @@
+{
+	"checks": [
+		{
+			"pass": true,
+			"test": "create_character"
+		},
+		{
+			"pass": true,
+			"test": "legacy_adventure"
+		},
+		{
+			"pass": true,
+			"test": "atlas_101"
+		},
+		{
+			"pass": true,
+			"test": "region_101_32:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_32"
+		},
+		{
+			"pass": true,
+			"test": "region_101_46:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_46"
+		},
+		{
+			"pass": true,
+			"test": "region_101_52:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_52"
+		},
+		{
+			"pass": true,
+			"test": "region_101_61:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_61"
+		},
+		{
+			"pass": true,
+			"test": "region_101_63:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_63"
+		},
+		{
+			"pass": true,
+			"test": "region_101_78:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_78"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_101_78"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_101_78"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_101_78:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_101_78"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_101_78:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_101_78"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_101_78"
+		},
+		{
+			"pass": true,
+			"test": "region_101_86:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_101_86"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_101_86"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_101_86"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_101_86:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_101_86"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_101_86:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_101_86"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_101_86"
+		},
+		{
+			"pass": true,
+			"test": "atlas_707"
+		},
+		{
+			"pass": true,
+			"test": "region_707_2:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_707_2"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_707_2"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_707_2"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_707_2:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_707_2"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_707_2:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_707_2"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_707_2"
+		},
+		{
+			"pass": true,
+			"test": "region_707_10:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_707_10"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_707_10"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_707_10"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_707_10:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_707_10"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_707_10:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_707_10"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_707_10"
+		},
+		{
+			"pass": true,
+			"test": "region_707_7:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_707_7"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_707_7"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_707_7"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_707_7:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_707_7"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_707_7:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_707_7"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_707_7"
+		},
+		{
+			"pass": true,
+			"test": "atlas_816204"
+		},
+		{
+			"pass": true,
+			"test": "region_816204_6:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_816204_6:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_816204_6:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_816204_6"
+		},
+		{
+			"pass": true,
+			"test": "region_816204_7:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_816204_7:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_816204_7:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_816204_7"
+		},
+		{
+			"pass": true,
+			"test": "region_816204_32:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_816204_32:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_816204_32:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_816204_32"
+		},
+		{
+			"pass": true,
+			"test": "save_integrated"
+		},
+		{
+			"pass": true,
+			"test": "reload_integrated"
+		},
+		{
+			"pass": true,
+			"test": "region_survives_reload"
+		},
+		{
+			"pass": true,
+			"test": "identities_survive_reload"
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "71f334935c000924d403448e698df4441130df18",
+		"hex": 263682,
+		"major": 4,
+		"minor": 6,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.6.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"metrics": [
+		{
+			"generation_ms": 1138.411,
+			"houses": 3,
+			"npcs": 0,
+			"rid": 32,
+			"scene_ms": 1100.381,
+			"seed": "101",
+			"static_memory_bytes": 109806533.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1552.687,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 46,
+			"scene_ms": 1523.104,
+			"seed": "101",
+			"static_memory_bytes": 121210451.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1429.085,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 52,
+			"scene_ms": 1404.839,
+			"seed": "101",
+			"static_memory_bytes": 119071381.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1352.561,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 61,
+			"scene_ms": 1322.629,
+			"seed": "101",
+			"static_memory_bytes": 114913479.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 912.515,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 63,
+			"scene_ms": 890.209,
+			"seed": "101",
+			"static_memory_bytes": 110981941.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 5320.723,
+			"houses": 43,
+			"npcs": 65,
+			"rid": 78,
+			"scene_ms": 4707.948,
+			"seed": "101",
+			"static_memory_bytes": 305167509.0,
+			"target": 43
+		},
+		{
+			"generation_ms": 1896.625,
+			"houses": 4,
+			"npcs": 6,
+			"rid": 86,
+			"scene_ms": 1643.529,
+			"seed": "101",
+			"static_memory_bytes": 154450319.0,
+			"target": 4
+		},
+		{
+			"generation_ms": 1259.426,
+			"houses": 9,
+			"npcs": 14,
+			"rid": 2,
+			"scene_ms": 1117.553,
+			"seed": "707",
+			"static_memory_bytes": 153164596.0,
+			"target": 9
+		},
+		{
+			"generation_ms": 1746.37,
+			"houses": 12,
+			"npcs": 18,
+			"rid": 10,
+			"scene_ms": 1572.712,
+			"seed": "707",
+			"static_memory_bytes": 172793737.0,
+			"target": 12
+		},
+		{
+			"generation_ms": 4744.194,
+			"houses": 41,
+			"npcs": 62,
+			"rid": 7,
+			"scene_ms": 4073.08,
+			"seed": "707",
+			"static_memory_bytes": 289554835.0,
+			"target": 41
+		},
+		{
+			"generation_ms": 1294.004,
+			"houses": 6,
+			"npcs": 9,
+			"rid": 6,
+			"scene_ms": 1188.348,
+			"seed": "816204",
+			"static_memory_bytes": 151532103.0,
+			"target": 6
+		},
+		{
+			"generation_ms": 2184.91,
+			"houses": 21,
+			"npcs": 32,
+			"rid": 7,
+			"scene_ms": 1926.523,
+			"seed": "816204",
+			"static_memory_bytes": 198963661.0,
+			"target": 21
+		},
+		{
+			"generation_ms": 4436.582,
+			"houses": 35,
+			"npcs": 53,
+			"rid": 32,
+			"scene_ms": 3896.291,
+			"seed": "816204",
+			"static_memory_bytes": 280629149.0,
+			"target": 35
+		}
+	],
+	"regions": [
+		{
+			"generation_ms": 1138.411,
+			"houses": 3,
+			"npcs": 0,
+			"rid": 32,
+			"scene_ms": 1100.381,
+			"seed": "101",
+			"static_memory_bytes": 109806533.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1552.687,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 46,
+			"scene_ms": 1523.104,
+			"seed": "101",
+			"static_memory_bytes": 121210451.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1429.085,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 52,
+			"scene_ms": 1404.839,
+			"seed": "101",
+			"static_memory_bytes": 119071381.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 1352.561,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 61,
+			"scene_ms": 1322.629,
+			"seed": "101",
+			"static_memory_bytes": 114913479.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 912.515,
+			"houses": 1,
+			"npcs": 0,
+			"rid": 63,
+			"scene_ms": 890.209,
+			"seed": "101",
+			"static_memory_bytes": 110981941.0,
+			"target": 0
+		},
+		{
+			"generation_ms": 5320.723,
+			"houses": 43,
+			"npcs": 65,
+			"rid": 78,
+			"scene_ms": 4707.948,
+			"seed": "101",
+			"static_memory_bytes": 305167509.0,
+			"target": 43
+		},
+		{
+			"generation_ms": 1896.625,
+			"houses": 4,
+			"npcs": 6,
+			"rid": 86,
+			"scene_ms": 1643.529,
+			"seed": "101",
+			"static_memory_bytes": 154450319.0,
+			"target": 4
+		},
+		{
+			"generation_ms": 1259.426,
+			"houses": 9,
+			"npcs": 14,
+			"rid": 2,
+			"scene_ms": 1117.553,
+			"seed": "707",
+			"static_memory_bytes": 153164596.0,
+			"target": 9
+		},
+		{
+			"generation_ms": 1746.37,
+			"houses": 12,
+			"npcs": 18,
+			"rid": 10,
+			"scene_ms": 1572.712,
+			"seed": "707",
+			"static_memory_bytes": 172793737.0,
+			"target": 12
+		},
+		{
+			"generation_ms": 4744.194,
+			"houses": 41,
+			"npcs": 62,
+			"rid": 7,
+			"scene_ms": 4073.08,
+			"seed": "707",
+			"static_memory_bytes": 289554835.0,
+			"target": 41
+		},
+		{
+			"generation_ms": 1294.004,
+			"houses": 6,
+			"npcs": 9,
+			"rid": 6,
+			"scene_ms": 1188.348,
+			"seed": "816204",
+			"static_memory_bytes": 151532103.0,
+			"target": 6
+		},
+		{
+			"generation_ms": 2184.91,
+			"houses": 21,
+			"npcs": 32,
+			"rid": 7,
+			"scene_ms": 1926.523,
+			"seed": "816204",
+			"static_memory_bytes": 198963661.0,
+			"target": 21
+		},
+		{
+			"generation_ms": 4436.582,
+			"houses": 35,
+			"npcs": 53,
+			"rid": 32,
+			"scene_ms": 3896.291,
+			"seed": "816204",
+			"static_memory_bytes": 280629149.0,
+			"target": 35
+		}
+	],
+	"rendered": false
+}

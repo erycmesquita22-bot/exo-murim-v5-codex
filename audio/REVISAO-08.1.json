@@ -1,0 +1,34 @@
+{
+  "license_new": "CC0",
+  "earth_source": "https://opengameart.org/content/earth-element-magic-spell",
+  "earth_author": "Iwan qubodup Gabovitch",
+  "qi_source": "Pixabay Koto Hit 106066, já incluído e documentado em MARTIAL-ORIGEM.json",
+  "recipes": [
+    {
+      "file": "qi_cast.ogg",
+      "source": "EXO-Murim-08.1-Estabilizacao/assets/martial_audio/chronicle_koto.ogg",
+      "filter": "atrim=0:1.1,highpass=f=160,lowpass=f=2800,aecho=0.6:0.4:55:0.18,afade=t=out:st=0.75:d=0.4"
+    },
+    {
+      "file": "qi_prepare.ogg",
+      "source": "EXO-Murim-08.1-Estabilizacao/assets/martial_audio/chronicle_koto.ogg",
+      "filter": "atrim=0:0.45,areverse,highpass=f=250,lowpass=f=2000,afade=t=in:d=0.08,afade=t=out:st=0.30:d=0.15"
+    },
+    {
+      "file": "summon_chime.ogg",
+      "source": "EXO-Murim-08.1-Estabilizacao/assets/martial_audio/chronicle_koto.ogg",
+      "filter": "atrim=0:1.7,lowpass=f=2000,aecho=0.6:0.4:105:0.22,afade=t=out:st=1.1:d=0.7"
+    },
+    {
+      "file": "earth_cast.ogg",
+      "source": "runtime/earth.ogg",
+      "filter": "atrim=0:0.9,highpass=f=80,lowpass=f=3500,afade=t=out:st=0.65:d=0.25"
+    },
+    {
+      "file": "qi_contact.ogg",
+      "source": "runtime/earth.ogg",
+      "filter": "atrim=0.15:0.49,highpass=f=140,lowpass=f=2000,afade=t=out:st=0.18:d=0.16"
+    }
+  ],
+  "note": "Resonância acústica de corda para Qi; terra orgânica gravada. Não são sons retirados de anime. Aprovação estética depende de audição humana."
+}

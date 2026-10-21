@@ -1,0 +1,14 @@
+[
+  "exo_menu.gd",
+  "release_qa.gd",
+  "tests.gd",
+  "inventory.gd",
+  "qa0933.gd",
+  "project.godot",
+  "journey_save.gd",
+  "discovery_qa.gd",
+  "map_view.gd",
+  "murim_flow.gd",
+  "ruins_martial_qa.gd",
+  "combat/martial_motion.gd"
+]

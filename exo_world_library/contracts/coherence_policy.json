@@ -1,0 +1,127 @@
+{
+  "context_incompatibilities": [
+    {
+      "if_context": {
+        "biome": "dry_valley"
+      },
+      "reject_any_tags": [
+        "wetland_dependent"
+      ]
+    },
+    {
+      "if_context": {
+        "settlement_type": "village"
+      },
+      "reject_any_tags": [
+        "city_only"
+      ]
+    },
+    {
+      "if_context": {
+        "player_tier": 0
+      },
+      "reject_any_tags": [
+        "elite_only"
+      ]
+    }
+  ],
+  "mutually_exclusive_tag_sets": [
+    [
+      "flood_active",
+      "drought_active"
+    ],
+    [
+      "public_festival",
+      "curfew_active"
+    ],
+    [
+      "peace_only",
+      "siege_active"
+    ],
+    [
+      "open_market",
+      "trade_embargo"
+    ],
+    [
+      "waterway_blocked",
+      "ferry_operational"
+    ]
+  ],
+  "notes": [
+    "Selected-tag requirements only apply when tagged content is selected.",
+    "No world-state facts, wallets or NPC IDs may be mutated."
+  ],
+  "political_story_rules": {
+    "default": "FAIL_CLOSED",
+    "election": [
+      "institution_can_elect",
+      "candidate_eligibility_verified",
+      "eligible_voter_roll",
+      "ballot_host",
+      "quorum",
+      "fraud_detection",
+      "audit_and_tie_rule"
+    ],
+    "persistence": [
+      "world_id",
+      "seed",
+      "region_id",
+      "persistent_host_instance_id",
+      "narrative_state_snapshot",
+      "story_version_pin"
+    ],
+    "prohibited": [
+      "new_save_field_without_owner",
+      "war_spawns_without_war_host",
+      "mint_money",
+      "invent_player_reward",
+      "fake_election_in_imperial_appointment",
+      "worldwide_changes_without_authorization"
+    ],
+    "revolt": [
+      "grievance_documented",
+      "organized_group",
+      "trigger",
+      "nonviolent_branch_considered",
+      "narrative_authorization"
+    ],
+    "vote": [
+      "binding_power_verified",
+      "body_authorized",
+      "quorum",
+      "recorded_motion",
+      "deduplicated_ballots",
+      "recorded_result"
+    ],
+    "war": [
+      "at_least_two_factions",
+      "verified_grievance",
+      "two_rounds_of_deescalation",
+      "territory_or_asset",
+      "narrative_authorization",
+      "war_host_required_for_physical_war"
+    ]
+  },
+  "schema": "exo.world_library.coherence.v1",
+  "scope": "single_content_proposal",
+  "selected_tag_requirements": [
+    {
+      "any_of": [
+        "river_access",
+        "river",
+        "wetland"
+      ],
+      "tag": "river_traffic"
+    },
+    {
+      "any_of": [
+        "martial",
+        "sect",
+        "school",
+        "training"
+      ],
+      "tag": "master_evaluation"
+    }
+  ],
+  "version": "0.3.0"
+}

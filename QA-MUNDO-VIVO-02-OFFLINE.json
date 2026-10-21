@@ -1,0 +1,89 @@
+{
+  "type": "OFFLINE_REFERENCE_MODEL_AND_SOURCE_CONTRACTS_NOT_GODOT",
+  "results": {
+    "plans": 16000,
+    "assertions": 366768,
+    "territories": 44000,
+    "reward_events": 79200,
+    "simulated_drop_ids": 45760,
+    "modified_existing_scripts": 6,
+    "new_gd_scripts": 5
+  },
+  "elapsed_seconds": 0.42,
+  "xp_aggregate": 1035708,
+  "changed_scripts": [
+    "convergence/game.gd",
+    "convergence/region.gd",
+    "convergence/resident.gd",
+    "convergence/state.gd",
+    "enemy.gd",
+    "journey_save.gd"
+  ],
+  "examples": [
+    {
+      "seed": "0",
+      "kind": "wild",
+      "sites": [
+        [
+          94.45021955245193,
+          66.55005172505048
+        ],
+        [
+          97.54948238148302,
+          -178.9339978936445
+        ],
+        [
+          -43.004143734466396,
+          -153.01708152333003
+        ]
+      ]
+    },
+    {
+      "seed": "18652614",
+      "kind": "ruins",
+      "sites": [
+        [
+          92.96831907049597,
+          -56.26807951952151
+        ],
+        [
+          183.5357612730337,
+          174.7324435177561
+        ],
+        [
+          -10.218723691272288,
+          -58.00691340398686
+        ],
+        [
+          108.28853840780306,
+          -163.96079278454258
+        ]
+      ]
+    },
+    {
+      "seed": "37305228",
+      "kind": "dungeon_approach",
+      "sites": [
+        [
+          -128.25321143796035,
+          -70.7622806176192
+        ],
+        [
+          73.9580558603239,
+          -100.68307044513809
+        ],
+        [
+          -122.48703583840935,
+          28.299955742713024
+        ],
+        [
+          27.16717872039152,
+          106.88755973883679
+        ]
+      ]
+    }
+  ],
+  "errors": [],
+  "godot_executed": false,
+  "synthetic_environment": "plane, artificial road y=0 and river x=55; does not prove real geometry or Godot runtime"
+}

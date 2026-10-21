@@ -1,0 +1,53 @@
+{
+  "title": "EXO-Murim Mundo Vivo 02 R2",
+  "status": "candidate — native Godot NOT_RUN",
+  "source_archive_sha256": "f7a87faca0a6aab3a319ec600213e2e53413ef490c25e57179f5c890146b8d01",
+  "modified_existing": [
+    "convergence/game.gd",
+    "convergence/state.gd",
+    "enemy.gd",
+    "regional_ecology/director.gd",
+    "regional_ecology/qa_massive.gd",
+    "regional_ecology/rewards.gd"
+  ],
+  "added": [
+    "QA-MUNDO-VIVO-02-R2-OFFLINE.json",
+    "RELATORIO-MUNDO-VIVO-02-R2.md",
+    "tools/qa_mundo_vivo_round2.py"
+  ],
+  "missing_from_source": [],
+  "protected_hashes": {
+    "main.gd": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+    "rig.gd": "370d7d1f64091db72e76e58e26782b0a46a61adae3aec290d858023f1bfefceb",
+    "combat/player_combat.gd": "c0e1e90ed5487abdab6f94d7faefe070e3e587c031fbbe8d83d6315c1842a820",
+    "catalog.gd": "b9d728a98c26a5e82545538ff852d8f71f82327f837a0c34f63a6ea2068ea843",
+    "genesis/region_data.gd": "b383bfa6c7732bf339a39232994c8582c2cc08501d48e904a845d9eb3df8f935",
+    "genesis/settlements/settlement_planner.gd": "656f54468ff92137345abe6f7b79732f0d6abe6f7da5954de10e6f273567f336",
+    "genesis/terrain.gdshader": "8cc3adfd929024073b8f6fde5b5c8a2666db778a463b5b2edf804d8e0ab9a972",
+    "journey_save.gd": "6a55af22333dcea12e79eab4c56b7aede43bda7c4c859aaf0643fa8a5ce42339",
+    "convergence/resident.gd": "fb160a02c2e4c4f6d5777fa3849b35d33cb687252405a61d86225abda7e3816b",
+    "convergence/region.gd": "84167b084d90ff447ed4d546c6c2db0e125bf72fdf8f03ca574071454433b32f"
+  },
+  "qa": {
+    "title": "MUNDO VIVO 02 — R2 MASSIVE OFFLINE REFERENCE QA",
+    "result": "PASS",
+    "scope": "Independent Python model and textual contracts, NOT Godot physics/runtime",
+    "assertions": 1585084,
+    "failures": 0,
+    "examples": [],
+    "measurements": {
+      "plans": 32000,
+      "territories": 88000,
+      "drop_ids": 183040,
+      "xp_events": 86400,
+      "compaction_scenarios": 6,
+      "respawn_generations": 52800,
+      "spawn_member_checks": 40000,
+      "clock_instants": 15320,
+      "source_contracts": 32
+    },
+    "elapsed_seconds": 1.47,
+    "godot_executed": false,
+    "native_test_status": "NOT_RUN"
+  }
+}

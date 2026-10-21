@@ -1,0 +1,187 @@
+[
+  {
+    "file": "assets_qa.gd",
+    "change": "modified",
+    "sha256": "5b0ef296970e4742b308a19b81a9a573eb63713f3a88018153c45ae33a97b304"
+  },
+  {
+    "file": "combat/unarmed.gd",
+    "change": "modified",
+    "sha256": "26489c72bf9b29333240a77a312ffad85d4b8bb95c04841635f1bf6477083ef1"
+  },
+  {
+    "file": "convergence/architecture.gd",
+    "change": "added",
+    "sha256": "a66ae623f6495e1073e432c435bcadb91478e7411b5b4f6e1c9263c2b48e46eb"
+  },
+  {
+    "file": "convergence/architecture_qa.gd",
+    "change": "added",
+    "sha256": "4bc33a0092ff4a1cdc53b18d47f3c5759ad6533bf8518de71bcec4c273d001b0"
+  },
+  {
+    "file": "convergence/benchmark.gd",
+    "change": "modified",
+    "sha256": "a91a90192c43af4a5df70282681d6b66001849f205287bf4611076328eb78c41"
+  },
+  {
+    "file": "convergence/capture012.gd",
+    "change": "added",
+    "sha256": "8ef8591ac87f9d6e87b5cc89cecfdb50c852602002e4176de3163869ad28ce77"
+  },
+  {
+    "file": "convergence/fresh_boot012.gd",
+    "change": "added",
+    "sha256": "4b411a59c4be9ae598c77174d61fbc79bf83189de7a7990601783dc7a055fae4"
+  },
+  {
+    "file": "convergence/game.gd",
+    "change": "modified",
+    "sha256": "721b92fe65f01def092eb28e4b9224e828d509a8b204e997a70c0904acf336b4"
+  },
+  {
+    "file": "convergence/geometry012.gd",
+    "change": "added",
+    "sha256": "a1afd08ed3c1586bc6343b43fbd66f6c64276d5e369c5a484df2b597144b94a1"
+  },
+  {
+    "file": "convergence/material_qa.gd",
+    "change": "added",
+    "sha256": "e878dcdf08cb337e7e0e72dc79c7f199e66bd4219f830c533e93e98389244d46"
+  },
+  {
+    "file": "convergence/migration012.gd",
+    "change": "added",
+    "sha256": "c741026a4be692dbff07791b174a7c5244966e7c75a8da7e35efc0799b101738"
+  },
+  {
+    "file": "convergence/occupancy.gd",
+    "change": "added",
+    "sha256": "3b0fce003fb980e37d588a2778e687902e3e713e6af22823697d71cfcde68d9d"
+  },
+  {
+    "file": "convergence/qa.gd",
+    "change": "modified",
+    "sha256": "cf6f3be64ea655e6d141e6ee4883c810ed66e16ba8ec3673e691d8c658e804eb"
+  },
+  {
+    "file": "convergence/region.gd",
+    "change": "modified",
+    "sha256": "38bf26daf6588e85f7c43f7481c5ddc025a4d7b0253571c5777db3bafb16cebf"
+  },
+  {
+    "file": "convergence/resident.gd",
+    "change": "modified",
+    "sha256": "388f72cd9c2fc3886a3d64634da1fe2babd2381150b23f28748bd7ece34f1418"
+  },
+  {
+    "file": "convergence/roof_qa.gd",
+    "change": "added",
+    "sha256": "01032c7e5283f36083f9987787e72615ae40994a9c201d29bc2e963eedfa0fd3"
+  },
+  {
+    "file": "convergence/routine_qa.gd",
+    "change": "added",
+    "sha256": "9d334cbeb557b44133e9efb346f601eb656ac07e6c3965a394138279542a24b7"
+  },
+  {
+    "file": "convergence/routine_reopen.gd",
+    "change": "added",
+    "sha256": "ad95713df1dd0c6f2cf0f8347e42a6439e4acd879f1f1bc56a87380b1b9623f7"
+  },
+  {
+    "file": "convergence/state.gd",
+    "change": "modified",
+    "sha256": "08ba30ae0b866984dad9252758cb4ac6c9dde4159aeb0818ae9223402672b38b"
+  },
+  {
+    "file": "convergence/streets.gd",
+    "change": "added",
+    "sha256": "359e07d1aee69983836b5b275b5eeb725bc54dcff17bdbfb56013cbff895cce8"
+  },
+  {
+    "file": "discovery_qa.gd",
+    "change": "modified",
+    "sha256": "edb5baf2fa2b8fc2e417c33d7c568a0a117f68ff899549d51cf3a1452ee1b185"
+  },
+  {
+    "file": "godot/modular_kit.gd",
+    "change": "modified",
+    "sha256": "fa11d0d029f73373ebe26483a3040499277a24b69aa036dfd3a1643a3991501b"
+  },
+  {
+    "file": "legacy_audio_qa.gd",
+    "change": "modified",
+    "sha256": "012f39c6b238195d1c8ae825a2df03dacfbdc54e7c9587158be0dcd76a28092d"
+  },
+  {
+    "file": "living_world/bridge.gd",
+    "change": "modified",
+    "sha256": "da9c06b66e63a71b85ab5501e7de1b97065e9fd36865c8759fb0627e1a2d500e"
+  },
+  {
+    "file": "martial_qa.gd",
+    "change": "modified",
+    "sha256": "f63d8d62e6c2f307ce39e731d98e7d0ea40d99c0ad6f7d9d0ac92181adaf30c6"
+  },
+  {
+    "file": "procedural_qa.gd",
+    "change": "modified",
+    "sha256": "55dd8c60e3402b3d4fdec8e8a2e568d1e9b54bc533c771e961a365707534b6e9"
+  },
+  {
+    "file": "project.godot",
+    "change": "modified",
+    "sha256": "2d0cbb459abded3ce645df101d1d4a488018e42223a1b08b2bc7c242b4dd7c3c"
+  },
+  {
+    "file": "qa093.gd",
+    "change": "modified",
+    "sha256": "94784354300dced351b4d5fc7d40a6a815a8c31001efd7cdde90f5cab4c46ab6"
+  },
+  {
+    "file": "qa0932.gd",
+    "change": "modified",
+    "sha256": "2060551e21dc16f9ac73cbc4db9e94752c49971d4e625878d804341efd24ccdd"
+  },
+  {
+    "file": "qa0943.gd",
+    "change": "modified",
+    "sha256": "b0ee786d58ce7bfb412cf9b9d82cbc50bd5cfbb712d79ac6022f3d6c6dc0f165"
+  },
+  {
+    "file": "qa0944.gd",
+    "change": "modified",
+    "sha256": "8b62140f9b2d7a7462789eb75f20f11e3c972b0ae1ad931109faef050654ff2c"
+  },
+  {
+    "file": "qa0945.gd",
+    "change": "modified",
+    "sha256": "6b2ebfd10aeb23d9a6113394ca038ce114393c0280a14eb8479c3bfdb6ab9d40"
+  },
+  {
+    "file": "qa0946.gd",
+    "change": "modified",
+    "sha256": "c31f38428cd127f146877a886ed24807b7d2b9fa21b132f13fb829b39cd5f548"
+  },
+  {
+    "file": "quality09_qa.gd",
+    "change": "modified",
+    "sha256": "643dda1aae68a374908beac42c65ef7d601bec9274c922cd8a74c3b94444f222"
+  },
+  {
+    "file": "stabilization_qa.gd",
+    "change": "modified",
+    "sha256": "5a564390d9c2fe1b1bfee68e5eba2c69f04e7dbea0b1650685e0f8a44f95898f"
+  },
+  {
+    "file": "tools/fixtures/migration012_seed.gd",
+    "change": "added",
+    "sha256": "fe671a283979e6be7e6c8ee6a7bbd19bf4aa2d47d6bd7c9151f723209e98fe72"
+  },
+  {
+    "file": "tools/run_convergence012_checks.py",
+    "change": "added",
+    "sha256": "90bed1f6272979d5d2cbc781a0f2919e8b2a6ff4f2c61763aa4fe75b7ad70b84"
+  }
+]

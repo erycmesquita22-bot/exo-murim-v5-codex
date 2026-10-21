@@ -1,0 +1,927 @@
+{
+  "domain": "revolution_cause",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/tributos_abusivos",
+      "label": "Tributo sobre o arroz",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "excessive_tax"
+      ],
+      "variables": {
+        "affected_group": "peasants",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "excessive_tax",
+        "core_need": "food_security",
+        "evidence_type": "tax_roll",
+        "first_offramp": "land_tax_reform",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/guarda_violenta",
+      "label": "Guardas agredindo vendedores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "state_violence"
+      ],
+      "variables": {
+        "affected_group": "market_workers",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "state_violence",
+        "core_need": "bodily_safety",
+        "evidence_type": "witnesses",
+        "first_offramp": "independent_inquest",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/fome_encoberta",
+      "label": "Celeiro público escondido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "hoarding"
+      ],
+      "variables": {
+        "affected_group": "hungry_residents",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "hoarding",
+        "core_need": "grain_access",
+        "evidence_type": "ledger",
+        "first_offramp": "open_granary",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/promessas_quebradas",
+      "label": "Conselho não cumpre acordos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "broken_promises"
+      ],
+      "variables": {
+        "affected_group": "districts",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "broken_promises",
+        "core_need": "representation",
+        "evidence_type": "sealed_oaths",
+        "first_offramp": "charter_rewrite",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/eleicao_fraudada",
+      "label": "Urnas manipuladas na liga comercial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "election_fraud"
+      ],
+      "variables": {
+        "affected_group": "guild_members",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "election_fraud",
+        "core_need": "representation",
+        "evidence_type": "ballot_seals",
+        "first_offramp": "repeat_audit_vote",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/sacramento_negado",
+      "label": "Santuário recusa auxílio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "abuse_of_care"
+      ],
+      "variables": {
+        "affected_group": "pilgrims",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "abuse_of_care",
+        "core_need": "sanctuary",
+        "evidence_type": "refugee_petition",
+        "first_offramp": "relief_guarantees",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/terra_confiscada",
+      "label": "Fazendas confiscadas para mansão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "land_grab"
+      ],
+      "variables": {
+        "affected_group": "farmers",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "land_grab",
+        "core_need": "land_rights",
+        "evidence_type": "land_deeds",
+        "first_offramp": "title_review",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/conscriptos_sem_soldo",
+      "label": "Milicianos não recebem soldo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "unpaid_service"
+      ],
+      "variables": {
+        "affected_group": "militia",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "unpaid_service",
+        "core_need": "fair_pay",
+        "evidence_type": "payroll",
+        "first_offramp": "arrears_settlement",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/mercadores_expulsos",
+      "label": "Bairro de artesãos expulso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "guild_exclusion"
+      ],
+      "variables": {
+        "affected_group": "craftspeople",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "guild_exclusion",
+        "core_need": "free_trade",
+        "evidence_type": "charter",
+        "first_offramp": "guild_appeal",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/escola_perseguida",
+      "label": "Discípulos punidos sem julgamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "sect_persecution"
+      ],
+      "variables": {
+        "affected_group": "novices",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "sect_persecution",
+        "core_need": "due_process",
+        "evidence_type": "discipline_roll",
+        "first_offramp": "trial_reform",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/aguas_envenenadas",
+      "label": "Poço sabotado sem reparo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "environmental_neglect"
+      ],
+      "variables": {
+        "affected_group": "water_users",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "environmental_neglect",
+        "core_need": "clean_water",
+        "evidence_type": "well_samples",
+        "first_offramp": "canal_repairs",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/desprezo_pelos_feridos",
+      "label": "Veteranos abandonados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "veteran_neglect"
+      ],
+      "variables": {
+        "affected_group": "veterans",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "veteran_neglect",
+        "core_need": "care",
+        "evidence_type": "healer_records",
+        "first_offramp": "veteran_shelter",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/cargos_herdados",
+      "label": "Cargos vendidos às famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "corruption"
+      ],
+      "variables": {
+        "affected_group": "small_clans",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "corruption",
+        "core_need": "fair_access",
+        "evidence_type": "appointments",
+        "first_offramp": "merit_hearing",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/imposto_de_passagem",
+      "label": "Cobrança para cruzar o próprio bairro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "enclosure"
+      ],
+      "variables": {
+        "affected_group": "porters",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "enclosure",
+        "core_need": "movement",
+        "evidence_type": "gate_records",
+        "first_offramp": "gate_charter",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/falso_demonio",
+      "label": "Bairro acusado por culto inexistente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "scapegoating"
+      ],
+      "variables": {
+        "affected_group": "neighbors",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "scapegoating",
+        "core_need": "safety",
+        "evidence_type": "forged_witness",
+        "first_offramp": "truth_commission",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/rota_interditada",
+      "label": "Conselho proíbe suprimentos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "blockade"
+      ],
+      "variables": {
+        "affected_group": "families",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "blockade",
+        "core_need": "food_security",
+        "evidence_type": "warehouse_inventory",
+        "first_offramp": "emergency_lanes",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/descendencia_negada",
+      "label": "Herança negada a ramos menores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "succession"
+      ],
+      "variables": {
+        "affected_group": "younger_branch",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "succession",
+        "core_need": "inheritance",
+        "evidence_type": "genealogy",
+        "first_offramp": "family_arbitration",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/voto_censitario",
+      "label": "Novos ofícios impedidos de representação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "disenfranchisement"
+      ],
+      "variables": {
+        "affected_group": "apprentices",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "disenfranchisement",
+        "core_need": "voice",
+        "evidence_type": "guild_roll",
+        "first_offramp": "guild_reform",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/defesa_abandonada",
+      "label": "Guarnição se retira sem aviso",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "abandonment"
+      ],
+      "variables": {
+        "affected_group": "villagers",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "abandonment",
+        "core_need": "protection",
+        "evidence_type": "patrol_schedule",
+        "first_offramp": "community_guard",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "revolution_cause",
+      "excludes": [],
+      "id": "revolution_cause/tratado_humilhante",
+      "label": "Trégua exige trabalho forçado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "revolt",
+        "social_grievance",
+        "oppression"
+      ],
+      "variables": {
+        "affected_group": "laborers",
+        "aftermath": [
+          "institution_reform",
+          "displacement",
+          "countermovement"
+        ],
+        "cause": "oppression",
+        "core_need": "autonomy",
+        "evidence_type": "treaty_clauses",
+        "first_offramp": "renegotiate_terms",
+        "needs_host_fact_check": true,
+        "popular_support_not_assumed": true,
+        "possible_methods": [
+          "petition",
+          "boycott",
+          "strike",
+          "defection",
+          "uprising"
+        ],
+        "thresholds": {
+          "grievance_min": 3,
+          "organization_min": 2,
+          "repression_or_trigger_min": 1
+        },
+        "violent_branch_optional": true
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

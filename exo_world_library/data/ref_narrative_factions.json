@@ -1,0 +1,144 @@
+{
+  "domain": "ref_narrative_factions",
+  "records": [
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_caminho_celestial",
+      "label": "Aliança do Caminho Celestial",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "caminho_celestial",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_culto_abismo",
+      "label": "Culto do Abismo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "culto_abismo",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_errantes",
+      "label": "Caminho dos Errantes",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "errantes",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_familias_ancestrais",
+      "label": "Grandes Famílias Ancestrais",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "familias_ancestrais",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_cronicas_silenciosas",
+      "label": "Ordem das Crônicas Silenciosas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "cronicas_silenciosas",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "narrative",
+      "conditions": {},
+      "domain": "ref_narrative_factions",
+      "excludes": [],
+      "id": "ref_narrative_factions/ref_independentes",
+      "label": "Organizações Regionais Independentes",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "d7fd53e08bac3d8c1685c16b4db1173debe8c49dc3533eb4c4b42f5a386e66b5",
+        "source_archive": "C3_R13_1",
+        "source_id": "independentes",
+        "source_owner": "narrative",
+        "source_path": "narrative/data/factions.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

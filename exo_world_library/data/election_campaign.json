@@ -1,0 +1,855 @@
+{
+  "domain": "election_campaign",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/lider_da_liga",
+      "label": "Chefia da Liga das Caravanas",
+      "links": [
+        "civic_institution/liga_das_caravanas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "mercantile"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "guild_members",
+        "institution_id": "civic_institution/liga_das_caravanas",
+        "issues": [
+          "open_routes",
+          "custom_tariffs"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de open routes?",
+          "Quem será prejudicado por custom tariffs?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/porta_voz_bairro",
+      "label": "Representante das quadras",
+      "links": [
+        "civic_institution/conselho_das_quadras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "district"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "district_delegates",
+        "institution_id": "civic_institution/conselho_das_quadras",
+        "issues": [
+          "clean_water",
+          "night_guard"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de clean water?",
+          "Quem será prejudicado por night guard?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/mestre_do_patio",
+      "label": "Mestre responsável pelo pátio",
+      "links": [
+        "civic_institution/circulo_de_anciaos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "martial"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "elders",
+        "institution_id": "civic_institution/circulo_de_anciaos",
+        "issues": [
+          "discipline",
+          "open_lessons"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de discipline?",
+          "Quem será prejudicado por open lessons?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/guardiao_das_aguas",
+      "label": "Guardião dos canais",
+      "links": [
+        "civic_institution/conselho_dos_canais"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "water"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "river_district_delegates",
+        "institution_id": "civic_institution/conselho_dos_canais",
+        "issues": [
+          "repair_dike",
+          "share_irrigation"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de repair dike?",
+          "Quem será prejudicado por share irrigation?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/tesoureiro_de_feira",
+      "label": "Tesoureiro da feira",
+      "links": [
+        "civic_institution/conselho_dos_oficios"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "trade"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "guild_delegates",
+        "institution_id": "civic_institution/conselho_dos_oficios",
+        "issues": [
+          "transparent_ledger",
+          "lower_stall_fees"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de transparent ledger?",
+          "Quem será prejudicado por lower stall fees?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/representante_dos_mestres",
+      "label": "Delegado ao Conclave Marcial",
+      "links": [
+        "civic_institution/conclave_de_escolas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "martial"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "recognized_masters",
+        "institution_id": "civic_institution/conclave_de_escolas",
+        "issues": [
+          "peace_pact",
+          "discipline_reform"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de peace pact?",
+          "Quem será prejudicado por discipline reform?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/porta_voz_agricultores",
+      "label": "Porta-voz dos agricultores",
+      "links": [
+        "civic_institution/assembleia_de_anciaos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "rural"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "family_heads",
+        "institution_id": "civic_institution/assembleia_de_anciaos",
+        "issues": [
+          "grain_safety",
+          "water_access"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de grain safety?",
+          "Quem será prejudicado por water access?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/chefe_de_barcacas",
+      "label": "Representante dos barqueiros",
+      "links": [
+        "civic_institution/conselho_dos_canais"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "river"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "river_district_delegates",
+        "institution_id": "civic_institution/conselho_dos_canais",
+        "issues": [
+          "safe_ferry",
+          "lower_toll"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de safe ferry?",
+          "Quem será prejudicado por lower toll?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/escrivao_da_liga",
+      "label": "Escrivão da Liga",
+      "links": [
+        "civic_institution/liga_das_caravanas"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "mercantile"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "guild_members",
+        "institution_id": "civic_institution/liga_das_caravanas",
+        "issues": [
+          "transparent_register",
+          "anti_smuggling"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de transparent register?",
+          "Quem será prejudicado por anti smuggling?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/diretor_oficinas",
+      "label": "Diretor das oficinas comunitárias",
+      "links": [
+        "civic_institution/conselho_dos_oficios"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "labor"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "guild_delegates",
+        "institution_id": "civic_institution/conselho_dos_oficios",
+        "issues": [
+          "training_places",
+          "wage_fairness"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de training places?",
+          "Quem será prejudicado por wage fairness?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/conselheiro_portoes",
+      "label": "Conselheiro dos portões",
+      "links": [
+        "civic_institution/conselho_das_quadras"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "district"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "district_delegates",
+        "institution_id": "civic_institution/conselho_das_quadras",
+        "issues": [
+          "open_bridge",
+          "inspection"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de open bridge?",
+          "Quem será prejudicado por inspection?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/porta_voz_santuario",
+      "label": "Porta-voz do santuário",
+      "links": [
+        "civic_institution/capitulo_do_santuario"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "religious"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "keepers",
+        "institution_id": "civic_institution/capitulo_do_santuario",
+        "issues": [
+          "pilgrim_care",
+          "ritual_preservation"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de pilgrim care?",
+          "Quem será prejudicado por ritual preservation?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/supervisor_estoques",
+      "label": "Fiscal dos estoques",
+      "links": [
+        "civic_institution/camara_dos_mercadores"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "food"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "licensed_guilds",
+        "institution_id": "civic_institution/camara_dos_mercadores",
+        "issues": [
+          "fair_stocks",
+          "low_pricing"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de fair stocks?",
+          "Quem será prejudicado por low pricing?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/fiscal_de_pesos",
+      "label": "Fiscal da balança pública",
+      "links": [
+        "civic_institution/conselho_dos_oficios"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "justice"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "guild_delegates",
+        "institution_id": "civic_institution/conselho_dos_oficios",
+        "issues": [
+          "inspect_scales",
+          "merchant_privileges"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de inspect scales?",
+          "Quem será prejudicado por merchant privileges?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/vigia_de_inverno",
+      "label": "Coordenador do abrigo de inverno",
+      "links": [
+        "civic_institution/assembleia_de_anciaos"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "relief"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "family_heads",
+        "institution_id": "civic_institution/assembleia_de_anciaos",
+        "issues": [
+          "build_shelter",
+          "food_rationing"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de build shelter?",
+          "Quem será prejudicado por food rationing?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "election_campaign",
+      "excludes": [],
+      "id": "election_campaign/mensageiro_frontal",
+      "label": "Representante das passagens",
+      "links": [
+        "civic_institution/comissao_das_passagens"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "election",
+        "border"
+      ],
+      "variables": {
+        "after_election_story_hook": "accountability_of_winner",
+        "ballots_not_owned_here": true,
+        "bribery_and_coercion_detection_required": true,
+        "campaign_phases": [
+          "nomination",
+          "verification",
+          "public_debate",
+          "ballot",
+          "audit",
+          "handover"
+        ],
+        "candidate_slots": [
+          "incumbent",
+          "reformer",
+          "independent"
+        ],
+        "election_only_if_institution_allows": true,
+        "electorate": "border_stewards",
+        "institution_id": "civic_institution/comissao_das_passagens",
+        "issues": [
+          "safe_crossing",
+          "patrol_funds"
+        ],
+        "minimum_eligible_candidates": 2,
+        "preauthored_debates": [
+          "Quem pagará o custo de safe crossing?",
+          "Quem será prejudicado por patrol funds?",
+          "Que promessa poderá ser verificada após a posse?"
+        ],
+        "status_on_loss": "contested_or_accepted",
+        "term_days": 180
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

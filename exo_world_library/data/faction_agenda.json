@@ -1,0 +1,486 @@
+{
+  "domain": "faction_agenda",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/expandir_influencia_por_ensino",
+      "label": "Expandir influência por ensino",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "expandir_influencia_por_ensino"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Expandir influência por ensino",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "expandir_influencia_por_ensino"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/proteger_a_caravana_do_inverno",
+      "label": "Proteger a caravana do inverno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "proteger_a_caravana_do_inverno"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Proteger a caravana do inverno",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "proteger_a_caravana_do_inverno"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/recrutar_talentosos_sem_familia",
+      "label": "Recrutar talentosos sem família",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "recrutar_talentosos_sem_familia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Recrutar talentosos sem família",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "recrutar_talentosos_sem_familia"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/ocultar_tratado_comprometedor",
+      "label": "Ocultar tratado comprometedor",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "ocultar_tratado_comprometedor"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ocultar tratado comprometedor",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "ocultar_tratado_comprometedor"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/fiscalizar_comerciantes_suspeitos",
+      "label": "Fiscalizar comerciantes suspeitos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "fiscalizar_comerciantes_suspeitos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Fiscalizar comerciantes suspeitos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "fiscalizar_comerciantes_suspeitos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/erguer_salao_de_treinamento",
+      "label": "Erguer salão de treinamento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "erguer_salao_de_treinamento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Erguer salão de treinamento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "erguer_salao_de_treinamento"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/afastar_bandidos_de_passagens",
+      "label": "Afastar bandidos de passagens",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "afastar_bandidos_de_passagens"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Afastar bandidos de passagens",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "afastar_bandidos_de_passagens"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/disputar_um_mestre_lendario",
+      "label": "Disputar um mestre lendário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "disputar_um_mestre_lendario"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Disputar um mestre lendário",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "disputar_um_mestre_lendario"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/restaurar_santuario_derrubado",
+      "label": "Restaurar santuário derrubado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "restaurar_santuario_derrubado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Restaurar santuário derrubado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "restaurar_santuario_derrubado"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/controlar_pedagios_regionais",
+      "label": "Controlar pedágios regionais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "controlar_pedagios_regionais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Controlar pedágios regionais",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "controlar_pedagios_regionais"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/infiltrar_informantes_na_guilda",
+      "label": "Infiltrar informantes na guilda",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "infiltrar_informantes_na_guilda"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Infiltrar informantes na guilda",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "infiltrar_informantes_na_guilda"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/preservar_um_manual_de_combate",
+      "label": "Preservar um manual de combate",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "preservar_um_manual_de_combate"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Preservar um manual de combate",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "preservar_um_manual_de_combate"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/reduzir_impostos_dos_aldeoes",
+      "label": "Reduzir impostos dos aldeões",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "reduzir_impostos_dos_aldeoes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Reduzir impostos dos aldeões",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "reduzir_impostos_dos_aldeoes"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/garantir_neutralidade_do_mercado",
+      "label": "Garantir neutralidade do mercado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "garantir_neutralidade_do_mercado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Garantir neutralidade do mercado",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "garantir_neutralidade_do_mercado"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/investigar_desaparecimento_de_novicos",
+      "label": "Investigar desaparecimento de noviços",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "investigar_desaparecimento_de_novicos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Investigar desaparecimento de noviços",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "investigar_desaparecimento_de_novicos"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "faction_agenda",
+      "excludes": [],
+      "id": "faction_agenda/recuperar_confianca_de_um_cla",
+      "label": "Recuperar confiança de um clã",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "faction",
+        "recuperar_confianca_de_um_cla"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Recuperar confiança de um clã",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "recuperar_confianca_de_um_cla"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

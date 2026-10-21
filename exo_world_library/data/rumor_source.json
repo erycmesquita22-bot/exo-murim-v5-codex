@@ -1,0 +1,390 @@
+{
+  "domain": "rumor_source",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/bebedor_de_cha",
+      "label": "Bebedor de chá",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "bebedor_de_cha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Bebedor de chá",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "bebedor_de_cha"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/guarda_de_estrada",
+      "label": "Guarda de estrada",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "guarda_de_estrada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Guarda de estrada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "guarda_de_estrada"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/discipulo_iniciante",
+      "label": "Discípulo iniciante",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "discipulo_iniciante"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Discípulo iniciante",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "discipulo_iniciante"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/caravaneiro",
+      "label": "Caravaneiro",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "caravaneiro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caravaneiro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "caravaneiro"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/ferreiro",
+      "label": "Ferreiro",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "ferreiro"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ferreiro",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "ferreiro"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/monge_em_peregrinacao",
+      "label": "Monge em peregrinação",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "monge_em_peregrinacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Monge em peregrinação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "monge_em_peregrinacao"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/curandeira_itinerante",
+      "label": "Curandeira itinerante",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "curandeira_itinerante"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Curandeira itinerante",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "curandeira_itinerante"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/mercador_de_sal",
+      "label": "Mercador de sal",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "mercador_de_sal"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mercador de sal",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mercador_de_sal"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/cacador",
+      "label": "Caçador",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "cacador"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Caçador",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "cacador"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/mensageira_da_guilda",
+      "label": "Mensageira da guilda",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "mensageira_da_guilda"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mensageira da guilda",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mensageira_da_guilda"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/aldeao_da_margem",
+      "label": "Aldeão da margem",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "aldeao_da_margem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Aldeão da margem",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "aldeao_da_margem"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "rumor_source",
+      "excludes": [],
+      "id": "rumor_source/viajante_silencioso",
+      "label": "Viajante silencioso",
+      "links": [
+        "rumor/rumor_01"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "rumor",
+        "npc",
+        "viajante_silencioso"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Viajante silencioso",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "viajante_silencioso"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

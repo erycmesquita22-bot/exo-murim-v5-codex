@@ -1,0 +1,13 @@
+{
+  "weather": {"dry_seconds": 120, "rain_seconds": 60},
+  "encounters": [{
+    "id": "stranger_at_village",
+    "interval": 20,
+    "chance": 0.45,
+    "guaranteed_attempt": 3,
+    "all": [{"fact":"safe","equals":true},{"fact":"already_met","equals":false}],
+    "any": [{"fact":"weather","equals":"rain"},{"fact":"health_ratio","less_than":0.2}],
+    "request": {"item":"iron","quantity":3},
+    "reward": {"kind":"manual","ref":"percepcao_qi"}
+  }]
+}

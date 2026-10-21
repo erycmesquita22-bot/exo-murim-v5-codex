@@ -1,0 +1,316 @@
+{
+  "weapon": {
+    "sword": {
+      "name": "Espada",
+      "gender": "f",
+      "tags": [
+        "blade"
+      ],
+      "legacy": true,
+      "base_damage": 13,
+      "hands": 1
+    },
+    "greatsword": {
+      "name": "Montante",
+      "gender": "f",
+      "tags": [
+        "blunt"
+      ],
+      "legacy": true,
+      "base_damage": 25,
+      "hands": 2
+    },
+    "katana": {
+      "name": "Katana",
+      "gender": "f",
+      "tags": [
+        "blade"
+      ],
+      "legacy": true,
+      "base_damage": 18,
+      "hands": 1
+    },
+    "rapier": {
+      "name": "Florete Nobre",
+      "gender": "m",
+      "tags": [
+        "pierce"
+      ],
+      "legacy": true,
+      "base_damage": 14,
+      "hands": 1
+    },
+    "dagger": {
+      "name": "Adaga",
+      "gender": "f",
+      "tags": [
+        "blade"
+      ],
+      "legacy": true,
+      "base_damage": 9,
+      "hands": 1
+    },
+    "twin_daggers": {
+      "name": "Adagas Gêmeas",
+      "gender": "f",
+      "tags": [
+        "blade"
+      ],
+      "legacy": true,
+      "base_damage": 11,
+      "hands": 2
+    },
+    "spear": {
+      "name": "Lança",
+      "gender": "f",
+      "tags": [
+        "pierce"
+      ],
+      "legacy": true,
+      "base_damage": 18,
+      "hands": 2
+    },
+    "halberd": {
+      "name": "Alabarda",
+      "gender": "f",
+      "tags": [
+        "blunt"
+      ],
+      "legacy": true,
+      "base_damage": 23,
+      "hands": 2
+    },
+    "scythe": {
+      "name": "Foice de Guerra",
+      "gender": "f",
+      "tags": [
+        "blade"
+      ],
+      "legacy": true,
+      "base_damage": 20,
+      "hands": 2
+    },
+    "quarterstaff": {
+      "name": "Bastão Marcial",
+      "gender": "m",
+      "tags": [
+        "blunt"
+      ],
+      "legacy": true,
+      "base_damage": 13,
+      "hands": 2
+    },
+    "battle_mace": {
+      "name": "Maça de Guerra",
+      "gender": "f",
+      "tags": [
+        "blunt"
+      ],
+      "legacy": true,
+      "base_damage": 23,
+      "hands": 1
+    },
+    "gauntlets": {
+      "name": "Manoplas",
+      "gender": "f",
+      "tags": [
+        "blunt"
+      ],
+      "legacy": true,
+      "base_damage": 11,
+      "hands": 2
+    },
+    "arcane_staff": {
+      "name": "Cajado Arcano",
+      "gender": "m",
+      "tags": [
+        "arcane"
+      ],
+      "legacy": true,
+      "base_damage": 15,
+      "hands": 2
+    },
+    "wand": {
+      "name": "Varinha",
+      "gender": "f",
+      "tags": [
+        "arcane"
+      ],
+      "legacy": true,
+      "base_damage": 10,
+      "hands": 1
+    },
+    "bow": {
+      "name": "Arco Arcano",
+      "gender": "m",
+      "tags": [
+        "projectile"
+      ],
+      "legacy": true,
+      "base_damage": 23,
+      "hands": 2
+    },
+    "crossbow": {
+      "name": "Besta Rúnica",
+      "gender": "m",
+      "tags": [
+        "projectile"
+      ],
+      "legacy": true,
+      "base_damage": 27,
+      "hands": 2
+    }
+  },
+  "armor": {
+    "head_wrap": {
+      "name": "Faixa de Proteção",
+      "gender": "f",
+      "tags": [
+        "defense"
+      ],
+      "legacy": false
+    },
+    "chest_robe": {
+      "name": "Túnica de Combate",
+      "gender": "f",
+      "tags": [
+        "defense"
+      ],
+      "legacy": false
+    },
+    "arm_guards": {
+      "name": "Braçadeiras de Couro",
+      "gender": "f",
+      "tags": [
+        "defense"
+      ],
+      "legacy": false
+    },
+    "leg_guards": {
+      "name": "Proteções de Perna",
+      "gender": "f",
+      "tags": [
+        "defense"
+      ],
+      "legacy": false
+    }
+  },
+  "accessory": {
+    "ring": {
+      "name": "Anel",
+      "gender": "m",
+      "tags": [
+        "utility"
+      ],
+      "legacy": false
+    },
+    "necklace": {
+      "name": "Colar",
+      "gender": "m",
+      "tags": [
+        "utility"
+      ],
+      "legacy": false
+    },
+    "amulet": {
+      "name": "Amuleto",
+      "gender": "m",
+      "tags": [
+        "utility"
+      ],
+      "legacy": false
+    },
+    "talisman": {
+      "name": "Talismã",
+      "gender": "m",
+      "tags": [
+        "utility"
+      ],
+      "legacy": false
+    },
+    "ornament": {
+      "name": "Adorno Marcial",
+      "gender": "m",
+      "tags": [
+        "utility"
+      ],
+      "legacy": false
+    }
+  },
+  "material": {
+    "iron": {
+      "name": "Fragmento de Ferro",
+      "gender": "m",
+      "tags": [
+        "crafting"
+      ],
+      "legacy": true
+    },
+    "leather": {
+      "name": "Couro",
+      "gender": "m",
+      "tags": [
+        "crafting"
+      ],
+      "legacy": false
+    },
+    "bone": {
+      "name": "Osso",
+      "gender": "m",
+      "tags": [
+        "crafting"
+      ],
+      "legacy": false
+    },
+    "scale": {
+      "name": "Escama",
+      "gender": "f",
+      "tags": [
+        "crafting"
+      ],
+      "legacy": false
+    },
+    "spirit_crystal": {
+      "name": "Cristal Espiritual",
+      "gender": "m",
+      "tags": [
+        "crafting"
+      ],
+      "legacy": false
+    }
+  },
+  "special": {
+    "manual": {
+      "name": "Manual Marcial",
+      "gender": "m",
+      "tags": [
+        "quest"
+      ],
+      "legacy": false
+    },
+    "scroll": {
+      "name": "Pergaminho Selado",
+      "gender": "m",
+      "tags": [
+        "quest"
+      ],
+      "legacy": false
+    },
+    "relic": {
+      "name": "Relíquia",
+      "gender": "m",
+      "tags": [
+        "quest"
+      ],
+      "legacy": false
+    },
+    "quest": {
+      "name": "Objeto de Missão",
+      "gender": "m",
+      "tags": [
+        "quest"
+      ],
+      "legacy": false
+    }
+  }
+}

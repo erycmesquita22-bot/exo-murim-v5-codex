@@ -1,0 +1,15 @@
+EXO-Murim Mundo Vivo R3 — opt-in hook for convergence/region.gd, without replacing the validated script:
+
+Add at the top (with the other const declarations):
+const Fortifications = preload("res://fortifications/adapter.gd")
+
+Add this method to the bottom of convergence/region.gd:
+func build(d: RefCounted,allowed: Array) -> void:
+    super.build(d,allowed)
+    var fortification_result: Dictionary=Fortifications.apply(self,d)
+    set_meta("fortification_status",fortification_result.get("status","not_planned"))
+
+DO NOT overwrite convergence/region.gd from R2. Work R3 corrected work points in that script.
+Check for the pre-existence of a build override in future versions. When present,
+insert the adapter invocation at the end of the actual build method instead.
+This opt-in currently uses simple wall prototypes, not final Forja fortification assets.

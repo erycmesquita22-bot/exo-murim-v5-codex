@@ -1,0 +1,61 @@
+test01_patch_clean_dry_run (qa_install_r3.R3IntegrationPatchTests.test01_patch_clean_dry_run) ... ok
+test02_patch_applies_and_has_unique_module (qa_install_r3.R3IntegrationPatchTests.test02_patch_applies_and_has_unique_module) ... ok
+test03_unapplied_core_unmodified (qa_install_r3.R3IntegrationPatchTests.test03_unapplied_core_unmodified) ... ok
+test04_second_apply_denied (qa_install_r3.R3IntegrationPatchTests.test04_second_apply_denied) ... ok
+test05_reverse_rollback_byte_exact (qa_install_r3.R3IntegrationPatchTests.test05_reverse_rollback_byte_exact) ... ok
+test06_no_extra_files_created_by_patch (qa_install_r3.R3IntegrationPatchTests.test06_no_extra_files_created_by_patch) ... ok
+test01_source_counts (qa_r3_offline.SkillForgeR3Tests.test01_source_counts) ... ok
+test02_ids_unique (qa_r3_offline.SkillForgeR3Tests.test02_ids_unique) ... ok
+test03_names_unique (qa_r3_offline.SkillForgeR3Tests.test03_names_unique) ... ok
+test04_legacy_ids_immutable (qa_r3_offline.SkillForgeR3Tests.test04_legacy_ids_immutable) ... ok
+test05_r2_mirror_not_double_counted (qa_r3_offline.SkillForgeR3Tests.test05_r2_mirror_not_double_counted) ... ok
+test06_all_legacy_still_legacy (qa_r3_offline.SkillForgeR3Tests.test06_all_legacy_still_legacy) ... ok
+test07_all_authorial_still_unlocked (qa_r3_offline.SkillForgeR3Tests.test07_all_authorial_still_unlocked) ... ok
+test08_manifest_version (qa_r3_offline.SkillForgeR3Tests.test08_manifest_version) ... ok
+test09_module_registered_version (qa_r3_offline.SkillForgeR3Tests.test09_module_registered_version) ... ok
+test10_no_saves_or_copies_core (qa_r3_offline.SkillForgeR3Tests.test10_no_saves_or_copies_core) ... ok
+test11_no_legacy_double_debit (qa_r3_offline.SkillForgeR3Tests.test11_no_legacy_double_debit) ... ok
+test12_authorial_has_no_direct_combat_writes (qa_r3_offline.SkillForgeR3Tests.test12_authorial_has_no_direct_combat_writes) ... ok
+test13_all_templates_resolved (qa_r3_offline.SkillForgeR3Tests.test13_all_templates_resolved) ... ok
+test14_costs_finite_and_nonnegative (qa_r3_offline.SkillForgeR3Tests.test14_costs_finite_and_nonnegative) ... ok
+test15_r2_families (qa_r3_offline.SkillForgeR3Tests.test15_r2_families) ... ok
+test16_r2_inspirations (qa_r3_offline.SkillForgeR3Tests.test16_r2_inspirations) ... ok
+test17_r2_28_bins (qa_r3_offline.SkillForgeR3Tests.test17_r2_28_bins) ... ok
+test18_no_unsupported_effects (qa_r3_offline.SkillForgeR3Tests.test18_no_unsupported_effects) ... ok
+test19_r2_media_pending (qa_r3_offline.SkillForgeR3Tests.test19_r2_media_pending) ... ok
+test20_work_base_hash_and_crc (qa_r3_offline.SkillForgeR3Tests.test20_work_base_hash_and_crc) ... ok
+test21_work_core_skills_and_legacy_balance (qa_r3_offline.SkillForgeR3Tests.test21_work_core_skills_and_legacy_balance) ... ok
+test22_work_style_and_weapon_refs (qa_r3_offline.SkillForgeR3Tests.test22_work_style_and_weapon_refs) ... ok
+test23_existing_combat_service_lacks_atomic_host (qa_r3_offline.SkillForgeR3Tests.test23_existing_combat_service_lacks_atomic_host) ... ok
+test24_host_contract_schemas (qa_r3_offline.SkillForgeR3Tests.test24_host_contract_schemas) ... ok
+test25_replay_same_receipt_one_effect (qa_r3_offline.SkillForgeR3Tests.test25_replay_same_receipt_one_effect) ... ok
+test26_zero_qi_denied (qa_r3_offline.SkillForgeR3Tests.test26_zero_qi_denied) ... ok
+test27_empty_slot_denied (qa_r3_offline.SkillForgeR3Tests.test27_empty_slot_denied) ... ok
+test28_weapon_denied (qa_r3_offline.SkillForgeR3Tests.test28_weapon_denied) ... ok
+test29_cooldown_denied (qa_r3_offline.SkillForgeR3Tests.test29_cooldown_denied) ... ok
+test30_dead_actor_denied (qa_r3_offline.SkillForgeR3Tests.test30_dead_actor_denied) ... ok
+test31_dead_target_denied (qa_r3_offline.SkillForgeR3Tests.test31_dead_target_denied) ... ok
+test32_friendly_target_denied (qa_r3_offline.SkillForgeR3Tests.test32_friendly_target_denied) ... ok
+test33_wall_los_denied (qa_r3_offline.SkillForgeR3Tests.test33_wall_los_denied) ... ok
+test34_safe_zone_denied (qa_r3_offline.SkillForgeR3Tests.test34_safe_zone_denied) ... ok
+test35_ghost_denied (qa_r3_offline.SkillForgeR3Tests.test35_ghost_denied) ... ok
+test36_rollback_does_not_spend (qa_r3_offline.SkillForgeR3Tests.test36_rollback_does_not_spend) ... ok
+test37_save_reopen_replay_denied (qa_r3_offline.SkillForgeR3Tests.test37_save_reopen_replay_denied) ... ok
+test38_multiple_races_of_synthetic_casts (qa_r3_offline.SkillForgeR3Tests.test38_multiple_races_of_synthetic_casts) ... ok
+test39_88_regions_context_only (qa_r3_offline.SkillForgeR3Tests.test39_88_regions_context_only) ... ok
+test40_24h_mock_host_context (qa_r3_offline.SkillForgeR3Tests.test40_24h_mock_host_context) ... ok
+test41_localization_keys_unique (qa_r3_offline.SkillForgeR3Tests.test41_localization_keys_unique) ... ok
+test42_r3_status_matrix_all_ids (qa_r3_offline.SkillForgeR3Tests.test42_r3_status_matrix_all_ids) ... ok
+test43_no_executed_authorial_claim_in_matrix (qa_r3_offline.SkillForgeR3Tests.test43_no_executed_authorial_claim_in_matrix) ... ok
+test44_no_implicit_random_seed_in_cast (qa_r3_offline.SkillForgeR3Tests.test44_no_implicit_random_seed_in_cast) ... ok
+test45_service_registration_is_not_installation (qa_r3_offline.SkillForgeR3Tests.test45_service_registration_is_not_installation) ... ok
+test46_seeded_r2_generator_is_reproducible (qa_r3_offline.SkillForgeR3Tests.test46_seeded_r2_generator_is_reproducible) ... ok
+test47_impossible_generator_request_rejected (qa_r3_offline.SkillForgeR3Tests.test47_impossible_generator_request_rejected) ... ok
+test48_only_two_metadata_changes_vs_r2 (qa_r3_offline.SkillForgeR3Tests.test48_only_two_metadata_changes_vs_r2) ... ok
+test49_all_gd_preload_paths_exist (qa_r3_offline.SkillForgeR3Tests.test49_all_gd_preload_paths_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 2.759s
+
+OK
+AUDIT_CORE_COMBAT= ['"combat":return services.register_service("combat",id,world,["enemy_defeated"])']

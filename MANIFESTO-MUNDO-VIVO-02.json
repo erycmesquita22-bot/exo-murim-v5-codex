@@ -1,0 +1,37 @@
+{
+  "title": "EXO-Murim Mundo Vivo 02",
+  "status": "Godot NOT_RUN — candidate",
+  "base": "EXO-Murim-Convergencia-01.2-Assentamentos-NPCs-03.zip",
+  "modified": [
+    "enemy.gd",
+    "journey_save.gd",
+    "convergence/game.gd",
+    "convergence/region.gd",
+    "convergence/resident.gd",
+    "convergence/state.gd"
+  ],
+  "added": [
+    "ai_core/world_clock.gd",
+    "regional_ecology/territories.gd",
+    "regional_ecology/director.gd",
+    "regional_ecology/rewards.gd",
+    "regional_ecology/qa_massive.gd",
+    "QA-MUNDO-VIVO-02-OFFLINE.json",
+    "RELATORIO-MUNDO-VIVO-02.md"
+  ],
+  "sha256": {
+    "enemy.gd": "5ffab107b31cb740a4a17dbb207fd6f8b9948a68e644c5edbf688f09f15b27b0",
+    "journey_save.gd": "6a55af22333dcea12e79eab4c56b7aede43bda7c4c859aaf0643fa8a5ce42339",
+    "convergence/game.gd": "03c2d4741961e33f9b303162b1f803106d1a421bbd9166752a7a0fc8f3f6b754",
+    "convergence/region.gd": "84167b084d90ff447ed4d546c6c2db0e125bf72fdf8f03ca574071454433b32f",
+    "convergence/resident.gd": "fb160a02c2e4c4f6d5777fa3849b35d33cb687252405a61d86225abda7e3816b",
+    "convergence/state.gd": "757373d4e87877b99218d2561bc5259c62899dfc6ffc1afe6620f5f58687ecbe",
+    "ai_core/world_clock.gd": "e9672c0f07874986bd42e76b0f9b354f06cb725db2610a620b7356d4cc76234f",
+    "regional_ecology/territories.gd": "0afd64dc98f2b826dd8f12de34aa6ba49a1210a820de044e6dd88af58e87ae0b",
+    "regional_ecology/director.gd": "0b5f99dbf26d5ce6584e1b0f158929ca7476c16cf14f0bc55e427dc5fcb70b00",
+    "regional_ecology/rewards.gd": "c78133566ec8f51117cffc824eb67232af4e3336339d4fcbf401e23ac605b77f",
+    "regional_ecology/qa_massive.gd": "d74931f510571d389aaadcc35966b2cfb67f1e2a4f5a43b9531f0a265a7d9e3e",
+    "QA-MUNDO-VIVO-02-OFFLINE.json": "bbb410db55ba2a3ac38a4c60206e931e3b7055b217fa0767b61f8c0cb722e34d",
+    "RELATORIO-MUNDO-VIVO-02.md": "10b122848efab445a03fce21aaaaf9de05f2d0bba8e4621ff80c0e603cee4324"
+  }
+}

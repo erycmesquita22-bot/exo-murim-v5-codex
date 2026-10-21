@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c6bj434ls3emq"
+
+[deps]
+
+files=["res://evidence/fixed-seeds.region.translation", "res://evidence/fixed-seeds.stage.translation", "res://evidence/fixed-seeds.errors.translation", "res://evidence/fixed-seeds.fix.translation"]
+
+source_file="res://evidence/fixed-seeds.csv"
+dest_files=["res://evidence/fixed-seeds.region.translation", "res://evidence/fixed-seeds.stage.translation", "res://evidence/fixed-seeds.errors.translation", "res://evidence/fixed-seeds.fix.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

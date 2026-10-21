@@ -1,0 +1,25 @@
+{
+  "id": "bestiary",
+  "version": "3.0.0",
+  "requires": {
+    "world": "1.0.0",
+    "combat": "1.0.0",
+    "persistence": "1.0.0"
+  },
+  "optional": {
+    "narrative": "1.0.0",
+    "journey": "1.0.0"
+  },
+  "services": [
+    "bestiary.catalog",
+    "bestiary.ai",
+    "bestiary.encounters",
+    "bestiary.combat",
+    "bestiary.tactics"
+  ],
+  "publishes": [],
+  "consumes": [],
+  "persistence": {},
+  "entrypoint": "res://exo_bestiary/module/entrypoint.gd",
+  "optional_module": true
+}

@@ -1,0 +1,19 @@
+{
+  "suite": "EXO Forja 03 offline assets / geometry / regression",
+  "passed": 62215,
+  "failed": [],
+  "metrics": {
+    "original_assets": 121,
+    "new_models": 42,
+    "total_assets": 163,
+    "new_asset_triangles": 5148,
+    "legacy_files_checked": 467,
+    "max_absolute_bounds_error_m": 5e-05,
+    "fort_geometry_combinations": 1521,
+    "random_rotated_reservation_cases": 40000,
+    "random_green_buffer_envelopes": 12000,
+    "civic_role_layouts": 6,
+    "godot_engine": "NOT RUN"
+  },
+  "godot_executed": false
+}

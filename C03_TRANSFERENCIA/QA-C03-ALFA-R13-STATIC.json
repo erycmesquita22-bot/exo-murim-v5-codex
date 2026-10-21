@@ -1,0 +1,91 @@
+{
+  "kind": "STATIC_SOURCE_AUDIT_NO_GODOT_PARSER",
+  "release": "EXO-MURIM-C03-ALFA-R13",
+  "checks": [
+    {
+      "id": "R12_BASE_SHA256",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "R12_BASE_CRC",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "R12_ALL_FILES_PRESERVED",
+      "result": "PASS",
+      "details": []
+    },
+    {
+      "id": "R12_SOURCE_CHANGES_CIRURGICAL",
+      "result": "PASS",
+      "details": [
+        "convergence/game.gd",
+        "project.godot"
+      ]
+    },
+    {
+      "id": "SAVE_FAILURE_WAS_FALSE_SUCCESS",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "SAVE_FAILURE_NOW_PROPAGATES",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "USER_DATA_NAMESPACE_R13",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "MAIN_SCENE_PRESERVED",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "RENDER_COMPAT_PRESERVED",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "ALL_JSON_AND_INDENT_SCANNED",
+      "result": "PASS",
+      "details": {
+        "GDScript": 463,
+        "JSON": 405,
+        "shaders": 10,
+        "issues": []
+      }
+    },
+    {
+      "id": "MISSING_PRELOADS_ONLY_HISTORICAL_LABS",
+      "result": "PASS",
+      "details": [
+        [
+          "godot/demo.gd",
+          "qa/walker.gd"
+        ],
+        [
+          "exo_core/module_template/test.gd",
+          "example/module.gd"
+        ]
+      ]
+    },
+    {
+      "id": "R12_EIGHT_CORRECTED_SCRIPTS_UNMODIFIED",
+      "result": "PASS",
+      "details": null
+    },
+    {
+      "id": "R13_NATIVE_TEST_PREPARED",
+      "result": "PASS",
+      "details": null
+    }
+  ],
+  "passed": 13,
+  "failed": 0,
+  "godot_native": "NOT_RUN"
+}

@@ -1,0 +1,980 @@
+{
+  "version": "0.4.1",
+  "layouts": {
+    "martial_medium": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            35.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            39.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "training_courtyard",
+          "kind": "training_courtyard",
+          "local": [
+            -2.0,
+            0.2,
+            7.0
+          ],
+          "radius_m": 9,
+          "capacity": 8
+        },
+        {
+          "id": "martial_hall",
+          "kind": "martial_hall",
+          "local": [
+            0.0,
+            0.2,
+            -11.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "master_station",
+          "kind": "master_station",
+          "local": [
+            0.0,
+            0.2,
+            -10.1
+          ],
+          "radius_m": 1.5,
+          "capacity": 1
+        },
+        {
+          "id": "disciple_station",
+          "kind": "disciple_station",
+          "local": [
+            -7.0,
+            0.2,
+            12.0
+          ],
+          "radius_m": 2.5,
+          "capacity": 5
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            8.0,
+            0.2,
+            28.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            9.0,
+            0.2,
+            27.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            12.0,
+            0.2,
+            14.0
+          ],
+          "radius_m": 1.3,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            21.0
+          ],
+          "radius_m": 4,
+          "capacity": 6
+        },
+        {
+          "id": "duel_observer",
+          "kind": "duel_observer",
+          "local": [
+            9.0,
+            0.2,
+            -6.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 4
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        35.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          39.0
+        ],
+        "to": [
+          0,
+          0,
+          35.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "martial_grand": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            70.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            74.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "training_courtyard_east",
+          "kind": "training_courtyard",
+          "local": [
+            27.0,
+            0.2,
+            13.0
+          ],
+          "radius_m": 12,
+          "capacity": 12
+        },
+        {
+          "id": "training_courtyard_west",
+          "kind": "training_courtyard",
+          "local": [
+            -28.0,
+            0.2,
+            16.0
+          ],
+          "radius_m": 12,
+          "capacity": 12
+        },
+        {
+          "id": "martial_hall",
+          "kind": "martial_hall",
+          "local": [
+            0.0,
+            0.2,
+            -35.0
+          ],
+          "radius_m": 2.5,
+          "capacity": 1
+        },
+        {
+          "id": "master_station",
+          "kind": "master_station",
+          "local": [
+            0.0,
+            0.2,
+            -34.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "disciple_station",
+          "kind": "disciple_station",
+          "local": [
+            -20.0,
+            0.2,
+            15.0
+          ],
+          "radius_m": 3,
+          "capacity": 8
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            9.0,
+            0.2,
+            61.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            14.0,
+            0.2,
+            57.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            13.0,
+            0.2,
+            28.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_2",
+          "kind": "patrol_waypoint",
+          "local": [
+            -12.0,
+            0.2,
+            -20.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            -12.0
+          ],
+          "radius_m": 8,
+          "capacity": 20
+        },
+        {
+          "id": "tournament_assembly",
+          "kind": "duel_observer",
+          "local": [
+            31.0,
+            0.2,
+            34.0
+          ],
+          "radius_m": 3,
+          "capacity": 10
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        70.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          74.0
+        ],
+        "to": [
+          0,
+          0,
+          70.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "temple_monumental": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            39.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            43.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 6,
+          "capacity": 10
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            10.0,
+            0.2,
+            30.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            10.0,
+            0.2,
+            25.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        39.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          43.0
+        ],
+        "to": [
+          0,
+          0,
+          39.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "fortress": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            49.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            53.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "guard_post",
+          "kind": "guard_post",
+          "local": [
+            10.0,
+            0.2,
+            41.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_0",
+          "kind": "patrol_waypoint",
+          "local": [
+            15.0,
+            0.2,
+            40.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "patrol_waypoint_1",
+          "kind": "patrol_waypoint",
+          "local": [
+            35.0,
+            0.2,
+            15.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            12.0
+          ],
+          "radius_m": 7,
+          "capacity": 12
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        49.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          53.0
+        ],
+        "to": [
+          0,
+          0,
+          49.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "ancestral_ruins": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            37.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            41.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "social_area",
+          "kind": "social_area",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 5,
+          "capacity": 6
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        37.0
+      ],
+      "entrance_local_kind": "gate_exterior_approach",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          41.0
+        ],
+        "to": [
+          0,
+          0,
+          37.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      }
+    },
+    "dungeon_school_ruin": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_cavern": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_tomb": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_fortress": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_hidden_temple": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    },
+    "dungeon_abyss": {
+      "stations": [
+        {
+          "id": "entrance_anchor",
+          "kind": "entrance_anchor",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2.0,
+          "capacity": 1
+        },
+        {
+          "id": "return_anchor",
+          "kind": "return_anchor",
+          "local": [
+            0.0,
+            0.2,
+            19.0
+          ],
+          "radius_m": 2.2,
+          "capacity": 1
+        },
+        {
+          "id": "safe_approach",
+          "kind": "safe_approach",
+          "local": [
+            0.0,
+            0.2,
+            11.0
+          ],
+          "radius_m": 3,
+          "capacity": 4
+        },
+        {
+          "id": "interaction",
+          "kind": "dungeon_interaction",
+          "local": [
+            0.0,
+            0.2,
+            -4.0
+          ],
+          "radius_m": 2,
+          "capacity": 1
+        }
+      ],
+      "door_marker": [
+        0,
+        0,
+        -4
+      ],
+      "entrance_local_kind": "portal_interaction_front",
+      "reservation_margin_m": 5.0,
+      "approach_corridor": {
+        "from": [
+          0,
+          0,
+          19.0
+        ],
+        "to": [
+          0,
+          0,
+          -4.0
+        ],
+        "min_width_m": 5.0,
+        "state": "REQUIRES_VALIDACAO_EXTERNA"
+      },
+      "safe_interaction_radius_m": 2.0,
+      "minimum_approach_width_m": 5.0,
+      "exterior_spawn_clearance_m": 2.2
+    }
+  }
+}

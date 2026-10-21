@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "building_function": {
+      "enum": [
+        "administration",
+        "farmstead",
+        "herbalist",
+        "inn",
+        "market",
+        "martial_school",
+        "residence",
+        "shrine",
+        "smithy",
+        "warehouse"
+      ]
+    },
+    "building_instance_id": {
+      "minLength": 3,
+      "type": "string"
+    },
+    "region_id": {
+      "maximum": 87,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "settlement_id": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "world_id",
+    "seed",
+    "region_id",
+    "settlement_id",
+    "building_instance_id",
+    "building_function",
+    "biome",
+    "settlement_type"
+  ],
+  "title": "Host-provided building context, not authority",
+  "type": "object"
+}

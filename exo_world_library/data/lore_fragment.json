@@ -1,0 +1,646 @@
+{
+  "domain": "lore_fragment",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_pergaminho_da_quinta_caravana",
+      "label": "O pergaminho da quinta caravana",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_pergaminho_da_quinta_caravana"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O pergaminho da quinta caravana",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_pergaminho_da_quinta_caravana"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_diario_do_curandeiro_de_pedras",
+      "label": "O diário do curandeiro de pedras",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_diario_do_curandeiro_de_pedras"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O diário do curandeiro de pedras",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_diario_do_curandeiro_de_pedras"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/a_carta_nunca_entregue_ao_discipulo",
+      "label": "A carta nunca entregue ao discípulo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "a_carta_nunca_entregue_ao_discipulo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "A carta nunca entregue ao discípulo",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "a_carta_nunca_entregue_ao_discipulo"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/as_regras_do_velho_torneio",
+      "label": "As regras do velho torneio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "as_regras_do_velho_torneio"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "As regras do velho torneio",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "as_regras_do_velho_torneio"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_nome_apagado_da_ponte",
+      "label": "O nome apagado da ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_nome_apagado_da_ponte"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O nome apagado da ponte",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_nome_apagado_da_ponte"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_canto_do_eremita_solitario",
+      "label": "O canto do eremita solitário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_canto_do_eremita_solitario"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O canto do eremita solitário",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_canto_do_eremita_solitario"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_recibo_do_mercador_desaparecido",
+      "label": "O recibo do mercador desaparecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_recibo_do_mercador_desaparecido"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O recibo do mercador desaparecido",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_recibo_do_mercador_desaparecido"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/a_cancao_das_lanternas_de_inverno",
+      "label": "A canção das lanternas de inverno",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "a_cancao_das_lanternas_de_inverno"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "A canção das lanternas de inverno",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "a_cancao_das_lanternas_de_inverno"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_juramento_de_dois_ferreiros",
+      "label": "O juramento de dois ferreiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_juramento_de_dois_ferreiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O juramento de dois ferreiros",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_juramento_de_dois_ferreiros"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/a_punicao_do_aprendiz_desobediente",
+      "label": "A punição do aprendiz desobediente",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "a_punicao_do_aprendiz_desobediente"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "A punição do aprendiz desobediente",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "a_punicao_do_aprendiz_desobediente"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_brasao_costurado_pelo_avo",
+      "label": "O brasão costurado pelo avô",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_brasao_costurado_pelo_avo"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O brasão costurado pelo avô",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_brasao_costurado_pelo_avo"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/a_lista_de_montanhas_seguras",
+      "label": "A lista de montanhas seguras",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "a_lista_de_montanhas_seguras"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "A lista de montanhas seguras",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "a_lista_de_montanhas_seguras"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/os_mapas_da_velha_estrada",
+      "label": "Os mapas da velha estrada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "os_mapas_da_velha_estrada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Os mapas da velha estrada",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "os_mapas_da_velha_estrada"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/a_inscricao_ao_lado_do_poco",
+      "label": "A inscrição ao lado do poço",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "a_inscricao_ao_lado_do_poco"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "A inscrição ao lado do poço",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "a_inscricao_ao_lado_do_poco"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_tratado_entre_monges_rivais",
+      "label": "O tratado entre monges rivais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_tratado_entre_monges_rivais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O tratado entre monges rivais",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_tratado_entre_monges_rivais"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_manuscrito_de_plantas_medicinais",
+      "label": "O manuscrito de plantas medicinais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_manuscrito_de_plantas_medicinais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O manuscrito de plantas medicinais",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_manuscrito_de_plantas_medicinais"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/as_contas_do_mercado_abandonado",
+      "label": "As contas do mercado abandonado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "as_contas_do_mercado_abandonado"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "As contas do mercado abandonado",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "as_contas_do_mercado_abandonado"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_testamento_de_uma_mestra",
+      "label": "O testamento de uma mestra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_testamento_de_uma_mestra"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O testamento de uma mestra",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_testamento_de_uma_mestra"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_inventario_de_armas_do_guarda",
+      "label": "O inventário de armas do guarda",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_inventario_de_armas_do_guarda"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O inventário de armas do guarda",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_inventario_de_armas_do_guarda"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "lore_fragment",
+      "excludes": [],
+      "id": "lore_fragment/o_aviso_sobre_as_aguas_de_cheia",
+      "label": "O aviso sobre as águas de cheia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "lore",
+        "narrative",
+        "o_aviso_sobre_as_aguas_de_cheia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O aviso sobre as águas de cheia",
+        "execute": false,
+        "persistent_fact": false,
+        "reveal_only_after_narrative_approval": true,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_aviso_sobre_as_aguas_de_cheia"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

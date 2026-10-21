@@ -1,0 +1,186 @@
+[
+  {
+    "id": "persistence",
+    "version": "1.0.0",
+    "requires": {},
+    "optional": {},
+    "services": [
+      "persistence"
+    ],
+    "publishes": [
+      "save_completed",
+      "save_loaded"
+    ],
+    "consumes": [],
+    "persistence": {
+      "exo_core": 1
+    }
+  },
+  {
+    "id": "world",
+    "version": "1.0.0",
+    "requires": {
+      "persistence": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "regions"
+    ],
+    "publishes": [
+      "region_entered",
+      "region_exited"
+    ],
+    "consumes": [],
+    "persistence": {
+      "world": 1,
+      "convergence": 1
+    }
+  },
+  {
+    "id": "living_world",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "npcs"
+    ],
+    "publishes": [
+      "npc_interacted"
+    ],
+    "consumes": [],
+    "persistence": {
+      "living_world": 3
+    }
+  },
+  {
+    "id": "inventory",
+    "version": "1.0.0",
+    "requires": {
+      "persistence": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "inventory"
+    ],
+    "publishes": [
+      "item_collected",
+      "equipment_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "items": 4,
+      "pending_loot": 4,
+      "equipped": 4
+    }
+  },
+  {
+    "id": "combat",
+    "version": "1.0.0",
+    "requires": {
+      "world": "1.0.0",
+      "inventory": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "combat"
+    ],
+    "publishes": [
+      "enemy_defeated",
+      "entity_state_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "convergence.ecology": 1
+    }
+  },
+  {
+    "id": "journey",
+    "version": "1.0.0",
+    "requires": {
+      "combat": "1.0.0",
+      "living_world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "quests",
+      "progression"
+    ],
+    "publishes": [
+      "quest_accepted",
+      "quest_completed",
+      "reward_claimed",
+      "reputation_changed",
+      "xp_gained",
+      "level_changed"
+    ],
+    "consumes": [
+      "region_entered",
+      "enemy_defeated",
+      "npc_interacted",
+      "item_collected"
+    ],
+    "persistence": {
+      "journey_dynamic": 1
+    }
+  },
+  {
+    "id": "narrative",
+    "version": "1.0.0",
+    "requires": {
+      "journey": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "narrative"
+    ],
+    "publishes": [
+      "narrative_decision"
+    ],
+    "consumes": [
+      "region_entered",
+      "enemy_defeated",
+      "npc_interacted",
+      "item_collected",
+      "quest_completed",
+      "narrative_decision"
+    ],
+    "persistence": {
+      "narrative": 1
+    }
+  },
+  {
+    "id": "appearance",
+    "version": "1.0.0",
+    "requires": {
+      "inventory": "1.0.0",
+      "living_world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "appearance"
+    ],
+    "publishes": [
+      "appearance_changed"
+    ],
+    "consumes": [],
+    "persistence": {
+      "character.skin3d": 1
+    }
+  },
+  {
+    "id": "architecture",
+    "version": "1.2.0",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "services": [
+      "architecture"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {}
+  }
+]

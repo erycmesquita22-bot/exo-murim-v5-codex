@@ -1,0 +1,12 @@
+[
+  {
+    "test": "tests",
+    "baseline_returncode": 1,
+    "baseline_status": "FAIL"
+  },
+  {
+    "test": "consolidation_qa",
+    "baseline_returncode": 1,
+    "baseline_status": "FAIL"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "source": "EXO-Central-e-Identidade-Fontes.zip / ActiveSkillDefinition, RpgRules, rpg-content.json",
+  "actives": {
+    "dardo_arcano": {
+      "masteryStep": 35,
+      "maxMasteryRank": 5,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "rajada_de_fogo": {
+      "masteryStep": 52,
+      "maxMasteryRank": 10,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "esfera_ignea"
+    },
+    "jato_de_fogo": {
+      "masteryStep": 35,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "rajada_de_fogo"
+    },
+    "bola_de_gelo": {
+      "masteryStep": 52,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "nova_glacial": {
+      "masteryStep": 35,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "lanca_de_gelo"
+    },
+    "golpe_circular": {
+      "masteryStep": 52,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "investida_brutal": {
+      "masteryStep": 87,
+      "maxMasteryRank": 12,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "investida"
+    },
+    "cura": {
+      "masteryStep": 52,
+      "maxMasteryRank": 12,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "barreira_arcana": {
+      "masteryStep": 52,
+      "maxMasteryRank": 10,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "salto_impetuoso": {
+      "masteryStep": 62,
+      "maxMasteryRank": 8,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "atracao_arcana": {
+      "masteryStep": 62,
+      "maxMasteryRank": 8,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "cripta_espinhos_1": {
+      "masteryStep": 42,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": ""
+    },
+    "guardiao_ancestral": {
+      "masteryStep": 28,
+      "maxMasteryRank": 6,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.015,
+      "evolvesFrom": "erguer_servo"
+    },
+    "rajada_de_vento": {
+      "masteryStep": 52,
+      "maxMasteryRank": 4,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "esfera_de_vento"
+    },
+    "onda_de_repulsao": {
+      "masteryStep": 52,
+      "maxMasteryRank": 10,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.02,
+      "evolvesFrom": "rajada_de_vento"
+    },
+    "corte_inicial": {
+      "masteryStep": 56,
+      "maxMasteryRank": 6,
+      "damageIncreasePerRank": 0.06,
+      "costReductionPerRank": 0.008,
+      "cooldownReductionPerRank": 0.012,
+      "evolvesFrom": ""
+    }
+  },
+  "branches": {
+    "rajada_de_fogo": {
+      "parent": "bola_de_fogo",
+      "mastery": 120
+    },
+    "nova_glacial": {
+      "parent": "lanca_de_gelo",
+      "mastery": 120
+    },
+    "investida_brutal": {
+      "parent": "investida",
+      "mastery": 100
+    },
+    "guardiao_ancestral": {
+      "parent": "erguer_servo",
+      "mastery": 160
+    },
+    "rajada_de_vento": {
+      "parent": "esfera_de_vento",
+      "mastery": 80
+    }
+  }
+}

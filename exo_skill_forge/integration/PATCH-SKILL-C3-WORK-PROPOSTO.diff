@@ -1,0 +1,50 @@
+--- a/exo_core/modules.json
++++ b/exo_core/modules.json
+@@ -378,5 +378,36 @@
+     "entrypoint": "res://exo_martial/module.gd",
+     "optional_module": true,
+     "integration_mode": "r8_authorized_host_enrollment_partial_training_native_not_run"
++  },
++  {
++    "id": "exo_skill_forge",
++    "version": "1.2.0",
++    "requires": {
++      "combat": "1.0.0",
++      "persistence": "1.0.0"
++    },
++    "optional": {
++      "exo_martial": "1.2.0",
++      "martial_catalog": "1.0.0",
++      "bestiary": "2.0.0",
++      "exo_items": "2.0.2",
++      "journey": "1.0.0"
++    },
++    "services": [
++      "skill_forge"
++    ],
++    "publishes": [],
++    "consumes": [],
++    "persistence": {},
++    "entrypoint": "res://exo_skill_forge/module.gd",
++    "optional_module": true,
++    "integration_mode": "catalog_read_only_default_authorial_fail_closed_trusted_combat_host_schema2",
++    "host_contract": "exo_core_combat_owner_v1",
++    "host_contract_schema": 2,
++    "feature_flags": {
++      "enable_authorial_cast": false,
++      "enable_unverified_media": false,
++      "enable_shadow_saves": false
++    }
+   }
+ ]
+--- a/exo_core/core.gd
++++ b/exo_core/core.gd
+@@ -25,6 +25,8 @@
+  for spec in manifest:
+   if registry.modules[str(spec.id)].get("state","")=="ready":world.journey.data.exo_core.module_versions[spec.id]=spec.version
+  ready=true
++ if services.has_service("skill_forge"):
++  integration_warnings.append("skill_forge_catalog_only_authorial_host_unbound")
+  # Modules are inserted into the registry only when the declared dependency graph resolves.
+  # The dungeon remains fail-closed unless an official SaveCoordinator checkpoint is bound.
+  if services.has_service("dungeons"):

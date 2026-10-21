@@ -1,0 +1,1738 @@
+{
+  "schema": "exo.interior.prefab.v1",
+  "id": "forja_nobre_04",
+  "category": "smithy",
+  "shape": "rect",
+  "width_tiles": 10,
+  "depth_tiles": 9,
+  "tile_meters": 1.6,
+  "floors": 2,
+  "palette": "jade",
+  "style": "noble",
+  "notes": "Forja de prestígio com depósito superior",
+  "floor_cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ]
+  ],
+  "upper_floor_cells": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ]
+  ],
+  "wall_segments": [
+    {
+      "x": -0.5,
+      "z": 0,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 1,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 2,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 3,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 4,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 5,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 6,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 7,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 8,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 4,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 4,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 5,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 0,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9,
+      "z": -0.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 1,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 2,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 3,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 4,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 5,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 6,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 7,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 8,
+      "axis": "z",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": 9,
+      "z": 8.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 0,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 1,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 2,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 3,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 4,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 5,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 6,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 7,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": -0.5,
+      "z": 8,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 0,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 2,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 3,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 4,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 4,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 5,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 5,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 6,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7.5,
+      "z": 4,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7.5,
+      "z": 5,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7.5,
+      "z": 6,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7.5,
+      "z": 7,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 7,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": 3.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8,
+      "z": 7.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 0,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9,
+      "z": -0.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 1,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 2,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 3,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 4,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 4,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 5,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 5,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 6,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 6,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 7,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 8.5,
+      "z": 7,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9.5,
+      "z": 8,
+      "axis": "z",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 9,
+      "z": 8.5,
+      "axis": "x",
+      "level": 1,
+      "kind": "outer"
+    },
+    {
+      "x": 1,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 2,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 3,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 6,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 7,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    },
+    {
+      "x": 8,
+      "z": 3.5,
+      "axis": "x",
+      "level": 0,
+      "kind": "partition"
+    }
+  ],
+  "furniture": [
+    {
+      "kind": "forge",
+      "x": 1,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 2,
+      "size": [
+        1.45,
+        1.25,
+        1.3
+      ]
+    },
+    {
+      "kind": "anvil",
+      "x": 8,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 3,
+      "size": [
+        0.8,
+        1.0,
+        0.6
+      ]
+    },
+    {
+      "kind": "counter",
+      "x": 1,
+      "z": 6,
+      "level": 0,
+      "rotation_quarters": 0,
+      "size": [
+        2.0,
+        1.1,
+        0.75
+      ]
+    },
+    {
+      "kind": "weapons_rack",
+      "x": 5,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 1,
+      "size": [
+        1.55,
+        1.9,
+        0.44
+      ]
+    },
+    {
+      "kind": "barrel",
+      "x": 5,
+      "z": 4,
+      "level": 0,
+      "rotation_quarters": 2,
+      "size": [
+        0.65,
+        0.9,
+        0.65
+      ]
+    },
+    {
+      "kind": "coal_bin",
+      "x": 2,
+      "z": 1,
+      "level": 0,
+      "rotation_quarters": 3,
+      "size": [
+        1.1,
+        0.65,
+        0.75
+      ]
+    },
+    {
+      "kind": "bed",
+      "x": 1,
+      "z": 1,
+      "level": 1,
+      "rotation_quarters": 0,
+      "size": [
+        1.4,
+        0.45,
+        2.25
+      ]
+    },
+    {
+      "kind": "chest",
+      "x": 5,
+      "z": 1,
+      "level": 1,
+      "rotation_quarters": 1,
+      "size": [
+        1.1,
+        0.65,
+        0.72
+      ]
+    },
+    {
+      "kind": "cabinet",
+      "x": 1,
+      "z": 6,
+      "level": 1,
+      "rotation_quarters": 2,
+      "size": [
+        1.0,
+        1.75,
+        0.55
+      ]
+    },
+    {
+      "kind": "low_table",
+      "x": 5,
+      "z": 6,
+      "level": 1,
+      "rotation_quarters": 3,
+      "size": [
+        1.2,
+        0.45,
+        0.85
+      ]
+    }
+  ],
+  "entrance": {
+    "x": 5,
+    "z": 8,
+    "level": 0,
+    "facing": "south",
+    "kind": "entry_exit"
+  },
+  "spawn": {
+    "x": 5,
+    "z": 8,
+    "level": 0
+  },
+  "stairs": {
+    "x": 8,
+    "z_start": 7,
+    "z_end": 4,
+    "steps": 8,
+    "level_top": 4.0
+  },
+  "provenance": "original_authorial_exo_interior_forge_01",
+  "floor_runs": [
+    {
+      "start": 0,
+      "end": 9,
+      "z": 0
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 1
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 2
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 3
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 4
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 5
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 6
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 7
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 8
+    }
+  ],
+  "upper_floor_runs": [
+    {
+      "start": 0,
+      "end": 9,
+      "z": 0
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 1
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 2
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 3
+    },
+    {
+      "start": 0,
+      "end": 7,
+      "z": 4
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "z": 4
+    },
+    {
+      "start": 0,
+      "end": 7,
+      "z": 5
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "z": 5
+    },
+    {
+      "start": 0,
+      "end": 7,
+      "z": 6
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "z": 6
+    },
+    {
+      "start": 0,
+      "end": 7,
+      "z": 7
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "z": 7
+    },
+    {
+      "start": 0,
+      "end": 9,
+      "z": 8
+    }
+  ],
+  "wall_runs": [
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": -0.5,
+      "start": 0,
+      "end": 9
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 8.5,
+      "start": 0,
+      "end": 4
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 8.5,
+      "start": 6,
+      "end": 9
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": -0.5,
+      "start": 0,
+      "end": 8
+    },
+    {
+      "level": 0,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 9.5,
+      "start": 0,
+      "end": 8
+    },
+    {
+      "level": 0,
+      "kind": "partition",
+      "axis": "x",
+      "fixed": 3.5,
+      "start": 1,
+      "end": 3
+    },
+    {
+      "level": 0,
+      "kind": "partition",
+      "axis": "x",
+      "fixed": 3.5,
+      "start": 6,
+      "end": 8
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": -0.5,
+      "start": 0,
+      "end": 9
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 3.5,
+      "start": 8,
+      "end": 8
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 7.5,
+      "start": 8,
+      "end": 8
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "x",
+      "fixed": 8.5,
+      "start": 0,
+      "end": 9
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": -0.5,
+      "start": 0,
+      "end": 8
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 7.5,
+      "start": 4,
+      "end": 7
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 8.5,
+      "start": 4,
+      "end": 7
+    },
+    {
+      "level": 1,
+      "kind": "outer",
+      "axis": "z",
+      "fixed": 9.5,
+      "start": 0,
+      "end": 8
+    }
+  ]
+}

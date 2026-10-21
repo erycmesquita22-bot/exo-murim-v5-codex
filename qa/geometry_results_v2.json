@@ -1,0 +1,141 @@
+{
+  "kind": "forja_02_geometry_and_walkway_offline",
+  "passed": 663,
+  "failed": 0,
+  "failures": [],
+  "total_failures": 0,
+  "glbs_parsed": 121,
+  "geometric_combinations": 120,
+  "profiles": 3,
+  "details": [
+    {
+      "archetype": "standard",
+      "footprint": [
+        -4.22,
+        -2.48,
+        4.3,
+        4.47
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 68
+    },
+    {
+      "archetype": "veranda",
+      "footprint": [
+        -3.99,
+        -2.48,
+        4.3,
+        4.31
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 69
+    },
+    {
+      "archetype": "merchant",
+      "footprint": [
+        -4.32,
+        -2.48,
+        4.3,
+        4.71
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 70
+    },
+    {
+      "archetype": "teahouse",
+      "footprint": [
+        -3.52,
+        -2.48,
+        4.3,
+        4.22
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 70
+    },
+    {
+      "archetype": "forge",
+      "footprint": [
+        -3.52,
+        -2.48,
+        4.3,
+        4.34
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 69
+    },
+    {
+      "archetype": "herb_shop",
+      "footprint": [
+        -4.32,
+        -2.48,
+        4.3,
+        4.71
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 71
+    },
+    {
+      "archetype": "inn",
+      "footprint": [
+        -4.32,
+        -2.48,
+        4.3,
+        4.71
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        4.95
+      ],
+      "parts": 71
+    },
+    {
+      "archetype": "courtyard",
+      "footprint": [
+        -3.71,
+        -2.48,
+        4.3,
+        6.6
+      ],
+      "reserved": [
+        -4.35,
+        -2.65,
+        4.35,
+        6.95
+      ],
+      "parts": 72
+    }
+  ],
+  "engine_navigation_tested": false
+}

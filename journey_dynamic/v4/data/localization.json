@@ -1,0 +1,16 @@
+{
+  "schema": "exo.journey.localization.v2",
+  "translation_status": {
+    "pt_BR": "PARTIAL",
+    "en_US": "PENDING",
+    "zh_CN": "PENDING"
+  },
+  "texts": {
+    "pt_BR": {
+      "journey.v4.blocked": "Jornada indisponível: falta confirmação oficial.",
+      "journey.v4.proposal": "Crônica sugerida (ainda não aceita)."
+    },
+    "en_US": {},
+    "zh_CN": {}
+  }
+}

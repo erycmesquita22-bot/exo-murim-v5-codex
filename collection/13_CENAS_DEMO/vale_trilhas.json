@@ -1,0 +1,54 @@
+{
+  "scene": "vale_trilhas",
+  "ground": "vale_trilhas_SOLO_PNG.png",
+  "instances": [
+    {
+      "glb": "06_OBJETOS_GLB/vegetacao/arvore_folhosa.glb",
+      "x": -11,
+      "y": 0,
+      "z": 6
+    },
+    {
+      "glb": "06_OBJETOS_GLB/vegetacao/arvore_grande.glb",
+      "x": -12,
+      "y": 0,
+      "z": -7
+    },
+    {
+      "glb": "12_NATUREZA_GLB/arvore_baixa_prado.glb",
+      "x": 8,
+      "y": 0,
+      "z": 9
+    },
+    {
+      "glb": "06_OBJETOS_GLB/vegetacao/bambu_grupo.glb",
+      "x": 11,
+      "y": 0,
+      "z": -7
+    },
+    {
+      "glb": "06_OBJETOS_GLB/rochas/rochas_medias.glb",
+      "x": -4,
+      "y": 0,
+      "z": -11
+    },
+    {
+      "glb": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "x": 10,
+      "y": 0,
+      "z": 2
+    },
+    {
+      "glb": "06_OBJETOS_GLB/objetos/cerca_segmento.glb",
+      "x": -7,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "glb": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "x": -2,
+      "y": 0,
+      "z": 3
+    }
+  ]
+}

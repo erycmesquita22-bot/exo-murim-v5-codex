@@ -1,0 +1,131 @@
+{
+  "id": "ins_city_archive",
+  "name": "Arquivo dos Magistrados",
+  "category": "institutional",
+  "tags": [
+    "institutional",
+    "garden",
+    "city_forge_r2"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.0
+    },
+    {
+      "a": [
+        1,
+        -18
+      ],
+      "b": [
+        1,
+        18
+      ],
+      "width": 3.0
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "ins_city_archive/b00",
+      "function": "administration",
+      "local_position": [
+        -11.45,
+        -11
+      ],
+      "size": [
+        7.3,
+        6.6
+      ],
+      "height": 5.0,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "ins_city_archive/b01",
+      "function": "administration",
+      "local_position": [
+        12.55,
+        -11
+      ],
+      "size": [
+        6.0,
+        5.95
+      ],
+      "height": 5.4,
+      "door_facing": "inner",
+      "interior_slot": true
+    },
+    {
+      "id": "ins_city_archive/b02",
+      "function": "administration",
+      "local_position": [
+        -12.45,
+        13
+      ],
+      "size": [
+        6.65,
+        5.3
+      ],
+      "height": 3.8,
+      "door_facing": "inner",
+      "interior_slot": true
+    }
+  ],
+  "workstations": [
+    {
+      "id": "ins_city_archive/st00",
+      "for_building": "ins_city_archive/b00",
+      "role": "resident"
+    },
+    {
+      "id": "ins_city_archive/st01",
+      "for_building": "ins_city_archive/b01",
+      "role": "resident"
+    },
+    {
+      "id": "ins_city_archive/st02",
+      "for_building": "ins_city_archive/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "garden",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "garden",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

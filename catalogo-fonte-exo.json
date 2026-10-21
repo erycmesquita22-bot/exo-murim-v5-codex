@@ -1,0 +1,1377 @@
+{
+  "source": "EXO Forge 1.12.2 — arquivos locais fornecidos",
+  "races": [
+    {
+      "id": "human_1",
+      "name": "Humano",
+      "root": "human",
+      "tier": 1,
+      "parents": [],
+      "tags": [
+        "human"
+      ],
+      "power": "second_wind",
+      "utility": "adaptation",
+      "feature": "",
+      "threshold": 0,
+      "kills": 0,
+      "level": 1,
+      "attribute": "vitalidade",
+      "amount": 5,
+      "lore": "Povos de estradas e fronteiras, capazes de adaptar o corpo a qualquer jornada.",
+      "visual": "plain",
+      "winged": false
+    },
+    {
+      "id": "light_1",
+      "name": "Luminar",
+      "root": "light",
+      "tier": 1,
+      "parents": [],
+      "tags": [
+        "light"
+      ],
+      "power": "purify",
+      "utility": "daylight",
+      "feature": "",
+      "threshold": 0,
+      "kills": 0,
+      "level": 1,
+      "attribute": "vontade",
+      "amount": 5,
+      "lore": "Descendentes de peregrinos que guardaram a primeira luz nos seus juramentos.",
+      "visual": "halo",
+      "winged": false
+    },
+    {
+      "id": "dark_1",
+      "name": "Umbrio",
+      "root": "dark",
+      "tier": 1,
+      "parents": [],
+      "tags": [
+        "dark"
+      ],
+      "power": "veil",
+      "utility": "night",
+      "feature": "",
+      "threshold": 0,
+      "kills": 0,
+      "level": 1,
+      "attribute": "inteligencia",
+      "amount": 5,
+      "lore": "Os guardioes das noites antigas aprenderam a caminhar entre os que ja partiram.",
+      "visual": "horns",
+      "winged": false
+    },
+    {
+      "id": "fox_2",
+      "name": "Kitsune de Uma Cauda",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "fox_1"
+      ],
+      "tags": [
+        "beast",
+        "fox",
+        "fire",
+        "arcane"
+      ],
+      "power": "foxfire",
+      "utility": "travel",
+      "feature": "",
+      "threshold": 0,
+      "kills": 25,
+      "level": 10,
+      "attribute": "inteligencia",
+      "amount": 25,
+      "lore": "Corpos humanos despertam uma herança bestial. Cada forma conserva a identidade e revela novos traços.",
+      "visual": "beast",
+      "beastFamily": "fox",
+      "bodyStage": 2,
+      "tails": 1,
+      "winged": false
+    },
+    {
+      "id": "wolf_3",
+      "name": "Lobo de Orelhas Prateadas",
+      "root": "beast",
+      "tier": 3,
+      "parents": [
+        "wolf_2"
+      ],
+      "tags": [
+        "beast",
+        "wolf",
+        "nature"
+      ],
+      "power": "feral",
+      "utility": "travel",
+      "feature": "",
+      "threshold": 0,
+      "kills": 125,
+      "level": 25,
+      "attribute": "agilidade",
+      "amount": 50,
+      "lore": "Corpos humanos despertam uma herança bestial. Cada forma conserva a identidade e revela novos traços.",
+      "visual": "beast",
+      "beastFamily": "wolf",
+      "bodyStage": 3,
+      "tails": 0,
+      "winged": false
+    },
+    {
+      "id": "feline_2",
+      "name": "Felino de Garras",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "feline_1"
+      ],
+      "tags": [
+        "beast",
+        "feline",
+        "nature"
+      ],
+      "power": "feral",
+      "utility": "travel",
+      "feature": "",
+      "threshold": 0,
+      "kills": 25,
+      "level": 10,
+      "attribute": "agilidade",
+      "amount": 25,
+      "lore": "Corpos humanos despertam uma herança bestial. Cada forma conserva a identidade e revela novos traços.",
+      "visual": "beast",
+      "beastFamily": "feline",
+      "bodyStage": 2,
+      "tails": 0,
+      "winged": false
+    },
+    {
+      "id": "bear_2",
+      "name": "Ursino Robusto",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "bear_1"
+      ],
+      "tags": [
+        "beast",
+        "bear",
+        "earth"
+      ],
+      "power": "stone_skin",
+      "utility": "adaptation",
+      "feature": "",
+      "threshold": 0,
+      "kills": 25,
+      "level": 10,
+      "attribute": "vitalidade",
+      "amount": 25,
+      "lore": "Corpos humanos despertam uma herança bestial. Cada forma conserva a identidade e revela novos traços.",
+      "visual": "beast",
+      "beastFamily": "bear",
+      "bodyStage": 2,
+      "tails": 0,
+      "winged": false
+    },
+    {
+      "id": "reptile_2",
+      "name": "Escamado de Pele Firme",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "reptile_1"
+      ],
+      "tags": [
+        "beast",
+        "reptile",
+        "water"
+      ],
+      "power": "tide",
+      "utility": "diving",
+      "feature": "",
+      "threshold": 0,
+      "kills": 25,
+      "level": 10,
+      "attribute": "vitalidade",
+      "amount": 25,
+      "lore": "Corpos humanos despertam uma herança bestial. Cada forma conserva a identidade e revela novos traços.",
+      "visual": "beast",
+      "beastFamily": "reptile",
+      "bodyStage": 2,
+      "tails": 0,
+      "winged": false
+    },
+    {
+      "id": "hawk_2",
+      "name": "Falcão de Penachos",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "hawk_1"
+      ],
+      "tags": [
+        "beast",
+        "hawk",
+        "air"
+      ],
+      "power": "skybound",
+      "utility": "travel",
+      "feature": "distance",
+      "threshold": 18000,
+      "kills": 25,
+      "level": 10,
+      "attribute": "agilidade",
+      "amount": 25,
+      "lore": "Após a batalha nos céus e a chuva de corpos, o Deus verdadeiro selou o voo de todas as raças. Saltos e descidas lentas não rompem o selo.",
+      "visual": "beast",
+      "beastFamily": "hawk",
+      "bodyStage": 2,
+      "tails": 0,
+      "winged": true
+    },
+    {
+      "id": "raven_2",
+      "name": "Corvo das Plumas",
+      "root": "beast",
+      "tier": 2,
+      "parents": [
+        "raven_1"
+      ],
+      "tags": [
+        "beast",
+        "raven",
+        "air",
+        "arcane"
+      ],
+      "power": "skybound",
+      "utility": "travel",
+      "feature": "distance",
+      "threshold": 18000,
+      "kills": 25,
+      "level": 10,
+      "attribute": "agilidade",
+      "amount": 25,
+      "lore": "Após a batalha nos céus e a chuva de corpos, o Deus verdadeiro selou o voo de todas as raças. Saltos e descidas lentas não rompem o selo.",
+      "visual": "beast",
+      "beastFamily": "raven",
+      "bodyStage": 2,
+      "tails": 0,
+      "winged": true
+    },
+    {
+      "id": "mechanical_1",
+      "name": "Núcleo Latente",
+      "root": "mechanical",
+      "tier": 1,
+      "parents": [],
+      "tags": [
+        "mechanical",
+        "earth"
+      ],
+      "power": "deferred",
+      "utility": "adaptation",
+      "feature": "mined",
+      "attribute": "vitalidade",
+      "threshold": 0,
+      "kills": 0,
+      "level": 1,
+      "amount": 5,
+      "lore": "Núcleo Latente: consciência recém-desperta em um corpo construído. Sua origem não determina lealdade, moralidade ou facção.",
+      "visual": "mechanism",
+      "planarStage": 0,
+      "journey": true,
+      "realm": "terra",
+      "role": "consciência recém-desperta em um corpo construído",
+      "plannedActive": "Sobrecarga inicial",
+      "plannedPassive": "Estrutura adaptativa",
+      "winged": false
+    },
+    {
+      "id": "arcane_1",
+      "name": "Centelha Arcana",
+      "root": "arcane",
+      "tier": 1,
+      "parents": [],
+      "tags": [
+        "arcane"
+      ],
+      "power": "deferred",
+      "utility": "study",
+      "feature": "xp",
+      "attribute": "inteligencia",
+      "threshold": 0,
+      "kills": 0,
+      "level": 1,
+      "amount": 5,
+      "lore": "Centelha Arcana: consciência formada por um fluxo mágico instável. Sua origem não determina lealdade, moralidade ou facção.",
+      "visual": "astral",
+      "planarStage": 0,
+      "journey": true,
+      "realm": "arcano",
+      "role": "consciência formada por um fluxo mágico instável",
+      "plannedActive": "Pulso inicial",
+      "plannedPassive": "Afinidade com mana",
+      "winged": false
+    }
+  ],
+  "actives": [
+    {
+      "id": "corte_inicial",
+      "displayName": "Corte Inicial",
+      "description": "Projeta um corte de espada orientado pela mira. O corte atravessa blocos comuns e atinge inimigos no seu traçado. A potência e a extensão aumentam com a maestria; a destruição não concede maestria. Exige espada na mão principal.",
+      "effect": "SLASH",
+      "resource": "STAMINA",
+      "cost": 14,
+      "cooldownTicks": 65,
+      "damage": 7,
+      "speed": 1,
+      "durationTicks": 40,
+      "burnSeconds": 0,
+      "requirements": {
+        "attributes": {
+          "forca": 12
+        },
+        "classTags": [
+          "marcial"
+        ],
+        "level": 5
+      },
+      "tier": "BASICA",
+      "family": "cesura",
+      "category": "COMBATE",
+      "affinity": "forca",
+      "evolvesFrom": "",
+      "evolutionStage": 1,
+      "evolutionTotal": 5,
+      "revealEvolution": "ALWAYS",
+      "masteryStep": 56,
+      "maxMasteryRank": 6,
+      "damageIncreasePerRank": 0.06,
+      "costReductionPerRank": 0.008,
+      "cooldownReductionPerRank": 0.012,
+      "range": 4,
+      "radius": 0,
+      "knockback": 0.3,
+      "requiresSword": true,
+      "requiresGround": false,
+      "visualProfile": "SWORD_CRESCENT",
+      "element": "vigor",
+      "terrainBlocks": 3,
+      "terrainHardness": 2,
+      "cutWidth": 0.65,
+      "cutHeight": 0.55,
+      "cutPlane": "HORIZONTAL",
+      "impactDelay": 0,
+      "particle": "SWEEP_ATTACK",
+      "sound": "minecraft:entity.player.attack.sweep",
+      "impactSound": "minecraft:entity.generic.explode",
+      "bookMeta": -1,
+      "lootable": false
+    },
+    {
+      "id": "bola_de_gelo",
+      "displayName": "Bola de Gelo",
+      "description": "Projetil gelado que causa dano e lentidao por tres segundos.",
+      "effect": "ICEBALL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 3,
+        "attributes": {
+          "inteligencia": 8
+        }
+      },
+      "unlockLevel": 3,
+      "damage": 5,
+      "cost": 18,
+      "cooldownTicks": 70,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "SNOW_SHOVEL",
+      "fuse": [],
+      "tier": "BASICA",
+      "bookMeta": 108,
+      "slowTicks": 60,
+      "family": "gelo",
+      "evolutionStage": 1,
+      "evolutionTotal": 3,
+      "affinity": "inteligencia",
+      "category": "MAGIA",
+      "revealEvolution": "ALWAYS",
+      "maxMasteryRank": 4,
+      "masteryStep": 52,
+      "sound": "minecraft:block.glass.break",
+      "impactSound": "minecraft:block.glass.break"
+    },
+    {
+      "id": "salto_impetuoso",
+      "displayName": "Salto Impetuoso",
+      "description": "Salta alto e para frente. Ao pousar, causa impacto nos inimigos proximos; exige chao para iniciar.",
+      "effect": "LEAP",
+      "resource": "STAMINA",
+      "requirements": {
+        "level": 6,
+        "attributes": {
+          "agilidade": 12
+        }
+      },
+      "unlockLevel": 6,
+      "damage": 8,
+      "cost": 30,
+      "cooldownTicks": 160,
+      "speed": 1.35,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "CLOUD",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 151,
+      "family": "salto",
+      "evolutionStage": 1,
+      "evolutionTotal": 2,
+      "category": "MOBILIDADE",
+      "affinity": "agilidade",
+      "maxMasteryRank": 8,
+      "masteryStep": 62,
+      "revealEvolution": "ALWAYS",
+      "sound": "minecraft:entity.enderdragon.flap",
+      "impactSound": "minecraft:entity.generic.explode",
+      "verticalLift": 0.7,
+      "radius": 3,
+      "knockback": 0.7
+    },
+    {
+      "id": "golpe_circular",
+      "displayName": "Golpe Circular",
+      "description": "Tecnica de arma que atinge criaturas proximas e visiveis ao redor.",
+      "effect": "SHOCKWAVE",
+      "resource": "STAMINA",
+      "requirements": {
+        "level": 4,
+        "attributes": {
+          "forca": 10
+        }
+      },
+      "unlockLevel": 4,
+      "damage": 7,
+      "cost": 22,
+      "cooldownTicks": 80,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "SWEEP_ATTACK",
+      "fuse": [],
+      "tier": "BASICA",
+      "bookMeta": 120,
+      "radius": 2.5,
+      "family": "golpe_circular",
+      "evolutionStage": 1,
+      "evolutionTotal": 1,
+      "affinity": "forca",
+      "category": "COMBATE",
+      "revealEvolution": "ALWAYS",
+      "maxMasteryRank": 4,
+      "masteryStep": 52,
+      "sound": "minecraft:block.anvil.land",
+      "impactSound": "minecraft:entity.generic.explode"
+    },
+    {
+      "id": "nova_glacial",
+      "displayName": "Nova Glacial",
+      "description": "Onda gelada ao redor do jogador; atinge e desacelera criaturas visiveis.",
+      "effect": "SHOCKWAVE",
+      "resource": "MANA",
+      "requirements": {
+        "level": 18,
+        "attributes": {
+          "inteligencia": 40
+        },
+        "mastery": {
+          "lanca_de_gelo": 120
+        }
+      },
+      "unlockLevel": 18,
+      "damage": 12,
+      "cost": 45,
+      "cooldownTicks": 240,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "SNOW_SHOVEL",
+      "fuse": [
+        "lanca_de_gelo",
+        "esfera_de_vento"
+      ],
+      "tier": "AVANCADA",
+      "bookMeta": 110,
+      "radius": 4,
+      "slowTicks": 120,
+      "slowAmplifier": 1,
+      "family": "gelo",
+      "evolutionStage": 3,
+      "evolutionTotal": 3,
+      "affinity": "inteligencia",
+      "category": "MAGIA",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "lanca_de_gelo",
+      "maxMasteryRank": 4,
+      "masteryStep": 35,
+      "sound": "minecraft:block.anvil.land",
+      "impactSound": "minecraft:entity.generic.explode"
+    },
+    {
+      "id": "atracao_arcana",
+      "displayName": "Atracao Arcana",
+      "description": "Puxa criaturas visiveis num raio de seis blocos. Resistencia a empurrao reduz o efeito; jogadores e pets do usuario sao excluidos.",
+      "effect": "PULL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 8,
+        "attributes": {
+          "inteligencia": 15
+        }
+      },
+      "unlockLevel": 8,
+      "damage": 0,
+      "cost": 28,
+      "cooldownTicks": 100,
+      "speed": 1.4,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "CLOUD",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 153,
+      "family": "atracao",
+      "evolutionStage": 1,
+      "evolutionTotal": 2,
+      "category": "CONTROLE",
+      "affinity": "inteligencia",
+      "maxMasteryRank": 8,
+      "masteryStep": 62,
+      "revealEvolution": "ALWAYS",
+      "sound": "minecraft:entity.evocation_illager.prepare_attack",
+      "impactSound": "minecraft:entity.generic.explode",
+      "radius": 6,
+      "knockback": 0.9
+    },
+    {
+      "id": "investida_brutal",
+      "displayName": "Investida Brutal",
+      "description": "Avanco mais forte. Exige estar no chao e acerta cada criatura uma vez.",
+      "effect": "DASH",
+      "resource": "STAMINA",
+      "requirements": {
+        "level": 10,
+        "attributes": {
+          "forca": 20,
+          "vitalidade": 15
+        },
+        "mastery": {
+          "investida": 100
+        }
+      },
+      "unlockLevel": 10,
+      "damage": 12,
+      "cost": 35,
+      "cooldownTicks": 120,
+      "speed": 1.25,
+      "durationTicks": 10,
+      "burnSeconds": 0,
+      "particle": "CRIT",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 122,
+      "family": "investida",
+      "evolutionStage": 2,
+      "evolutionTotal": 3,
+      "affinity": "forca",
+      "category": "MOBILIDADE",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "investida",
+      "maxMasteryRank": 12,
+      "masteryStep": 87,
+      "sound": "minecraft:entity.player.attack.sweep",
+      "impactSound": "minecraft:entity.player.attack.knockback"
+    },
+    {
+      "id": "jato_de_fogo",
+      "displayName": "Jato de Fogo",
+      "description": "Projetil rapido de fogo intenso. Aprendido por livro encontrado ou recebido em contrato.",
+      "effect": "FIREBALL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 12,
+        "attributes": {
+          "inteligencia": 25
+        }
+      },
+      "unlockLevel": 12,
+      "damage": 12,
+      "cost": 28,
+      "cooldownTicks": 100,
+      "speed": 2.2,
+      "durationTicks": 60,
+      "burnSeconds": 6,
+      "particle": "FLAME",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 119,
+      "bookOnly": true,
+      "family": "fogo",
+      "evolutionStage": 4,
+      "evolutionTotal": 5,
+      "affinity": "inteligencia",
+      "category": "MAGIA",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "rajada_de_fogo",
+      "maxMasteryRank": 4,
+      "masteryStep": 35,
+      "sound": "minecraft:item.firecharge.use",
+      "impactSound": "minecraft:entity.generic.explode"
+    },
+    {
+      "id": "barreira_arcana",
+      "displayName": "Barreira Arcana",
+      "description": "Concede absorcao temporaria. Nao soma barreiras nem substitui uma absorcao maior.",
+      "effect": "SHIELD",
+      "resource": "MANA",
+      "requirements": {
+        "level": 5,
+        "attributes": {
+          "inteligencia": 12
+        }
+      },
+      "unlockLevel": 5,
+      "damage": 6,
+      "cost": 25,
+      "cooldownTicks": 200,
+      "speed": 1.25,
+      "durationTicks": 200,
+      "burnSeconds": 0,
+      "particle": "SPELL_INSTANT",
+      "fuse": [],
+      "tier": "BASICA",
+      "bookMeta": 126,
+      "family": "barreira",
+      "evolutionStage": 1,
+      "evolutionTotal": 2,
+      "affinity": "inteligencia",
+      "category": "SUPORTE",
+      "revealEvolution": "ALWAYS",
+      "maxMasteryRank": 10,
+      "masteryStep": 52,
+      "sound": "minecraft:block.enchantment_table.use",
+      "impactSound": "minecraft:entity.player.attack.knockback"
+    },
+    {
+      "id": "cura",
+      "displayName": "Cura",
+      "description": "Recupera a propria vida; nao cobra mana se voce estiver com vida cheia.",
+      "effect": "HEAL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 3,
+        "attributes": {
+          "vontade": 8
+        }
+      },
+      "unlockLevel": 3,
+      "damage": 6,
+      "cost": 20,
+      "cooldownTicks": 120,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "HEART",
+      "fuse": [],
+      "tier": "BASICA",
+      "bookMeta": 124,
+      "family": "cura",
+      "evolutionStage": 1,
+      "evolutionTotal": 2,
+      "affinity": "vontade",
+      "category": "SUPORTE",
+      "revealEvolution": "ALWAYS",
+      "maxMasteryRank": 12,
+      "masteryStep": 52,
+      "sound": "minecraft:entity.experience_orb.pickup",
+      "impactSound": "minecraft:entity.player.attack.knockback"
+    },
+    {
+      "id": "cripta_espinhos_1",
+      "displayName": "Cripta de Espinhos",
+      "description": "Uma zona de espinhos espectrais desacelera inimigos. Não altera blocos.",
+      "effect": "TRAP",
+      "element": "terra",
+      "resource": "MANA",
+      "requirements": {
+        "level": 12,
+        "attributes": {
+          "vontade": 13
+        }
+      },
+      "unlockLevel": 12,
+      "requiresSword": false,
+      "castTicks": 0,
+      "damage": 7,
+      "cost": 18,
+      "cooldownTicks": 160,
+      "speed": 1,
+      "durationTicks": 120,
+      "radius": 3,
+      "range": 8,
+      "chainTargets": 2,
+      "slowAmplifier": 0,
+      "knockback": 0.18,
+      "family": "cripta_espinhos",
+      "category": "CONTROLE",
+      "affinity": "vontade",
+      "evolutionStage": 1,
+      "evolutionTotal": 3,
+      "evolvesFrom": "",
+      "masteryStep": 42,
+      "maxMasteryRank": 4,
+      "tier": "BASICA",
+      "bookMeta": 501,
+      "lootable": false,
+      "particle": "CRIT_MAGIC",
+      "sound": "minecraft:block.enchantment_table.use",
+      "impactSound": "minecraft:entity.player.attack.sweep"
+    },
+    {
+      "id": "guardiao_ancestral",
+      "displayName": "Guardiao Ancestral",
+      "description": "Guardiao Ancestral: tecnica de pastor_dos_ancestrais. Sem destruicao de blocos. Preparação real: 2.0s; mover-se mais de 1,5 bloco ou receber dano interrompe o ritual.",
+      "effect": "SUMMON_UNDEAD",
+      "resource": "MANA",
+      "cost": 36,
+      "cooldownTicks": 240,
+      "damage": 12,
+      "speed": 1.9,
+      "durationTicks": 700,
+      "burnSeconds": 0,
+      "requirements": {
+        "level": 10,
+        "activeClasses": [
+          "pastor_dos_ancestrais"
+        ],
+        "skills": [
+          "erguer_servo"
+        ],
+        "mastery": {
+          "erguer_servo": 160
+        }
+      },
+      "tier": "MEDIANA",
+      "family": "necromancia",
+      "category": "DISTANCIA",
+      "affinity": "inteligencia",
+      "evolvesFrom": "erguer_servo",
+      "evolutionStage": 2,
+      "evolutionTotal": 2,
+      "revealEvolution": "ALWAYS",
+      "masteryStep": 28,
+      "maxMasteryRank": 6,
+      "damageIncreasePerRank": 0.05,
+      "costReductionPerRank": 0.01,
+      "cooldownReductionPerRank": 0.015,
+      "range": 4,
+      "radius": 0,
+      "knockback": 0.15,
+      "projectileCount": 2,
+      "requiresBow": false,
+      "particle": "SPELL_WITCH",
+      "visualProfile": "SUMMON",
+      "element": "trevas",
+      "sound": "minecraft:entity.illusion_illager.cast_spell",
+      "impactSound": "minecraft:entity.arrow.hit",
+      "bookMeta": -1,
+      "lootable": false,
+      "requiresManaWeapon": false,
+      "summonForm": "ancestor",
+      "castTicks": 40,
+      "requiresGround": true
+    },
+    {
+      "id": "rajada_de_fogo",
+      "displayName": "Rajada de Fogo",
+      "description": "Tres bolas de fogo separadas em leque, com maestria propria.",
+      "effect": "FIREBALL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 12,
+        "attributes": {
+          "inteligencia": 25
+        },
+        "mastery": {
+          "bola_de_fogo": 120
+        }
+      },
+      "unlockLevel": 12,
+      "damage": 3,
+      "cost": 35,
+      "cooldownTicks": 120,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 3,
+      "particle": "FLAME",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 117,
+      "projectileCount": 3,
+      "family": "fogo",
+      "evolutionStage": 3,
+      "evolutionTotal": 5,
+      "affinity": "inteligencia",
+      "category": "MAGIA",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "esfera_ignea",
+      "maxMasteryRank": 10,
+      "masteryStep": 52,
+      "sound": "minecraft:item.firecharge.use",
+      "impactSound": "minecraft:entity.generic.explode"
+    },
+    {
+      "id": "rajada_de_vento",
+      "displayName": "Rajada de Vento",
+      "description": "Tres esferas de vento em leque. Maestria conta uma vez por conjuracao que acerta.",
+      "effect": "WINDBALL",
+      "resource": "MANA",
+      "requirements": {
+        "level": 8,
+        "attributes": {
+          "agilidade": 18
+        },
+        "mastery": {
+          "esfera_de_vento": 80
+        }
+      },
+      "unlockLevel": 8,
+      "damage": 3,
+      "cost": 28,
+      "cooldownTicks": 100,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "CLOUD",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 112,
+      "knockback": 1,
+      "projectileCount": 3,
+      "family": "vento",
+      "evolutionStage": 2,
+      "evolutionTotal": 3,
+      "affinity": "agilidade",
+      "category": "MAGIA",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "esfera_de_vento",
+      "maxMasteryRank": 4,
+      "masteryStep": 52,
+      "sound": "minecraft:entity.enderdragon.flap",
+      "impactSound": "minecraft:entity.player.attack.knockback"
+    },
+    {
+      "id": "dardo_arcano",
+      "displayName": "Dardo Arcano",
+      "description": "Projetil arcano rapido, sem fogo ou alteracao de terreno.",
+      "effect": "BOLT",
+      "resource": "MANA",
+      "requirements": {
+        "level": 4,
+        "attributes": {
+          "inteligencia": 10
+        }
+      },
+      "unlockLevel": 4,
+      "damage": 6,
+      "cost": 18,
+      "cooldownTicks": 50,
+      "speed": 1.6,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "CRIT_MAGIC",
+      "fuse": [],
+      "tier": "BASICA",
+      "bookMeta": 114,
+      "family": "arcano",
+      "evolutionStage": 1,
+      "evolutionTotal": 2,
+      "affinity": "inteligencia",
+      "category": "MAGIA",
+      "revealEvolution": "ALWAYS",
+      "maxMasteryRank": 5,
+      "masteryStep": 35,
+      "sound": "minecraft:entity.shulker.shoot",
+      "impactSound": "minecraft:entity.player.attack.knockback"
+    },
+    {
+      "id": "onda_de_repulsao",
+      "displayName": "Onda de Repulsao",
+      "description": "Empurra criaturas proximas e abre espaco em combates cercados.",
+      "effect": "SHOCKWAVE",
+      "resource": "MANA",
+      "requirements": {
+        "level": 14,
+        "attributes": {
+          "vontade": 25
+        }
+      },
+      "unlockLevel": 14,
+      "damage": 3,
+      "cost": 35,
+      "cooldownTicks": 180,
+      "speed": 1.25,
+      "durationTicks": 60,
+      "burnSeconds": 0,
+      "particle": "CLOUD",
+      "fuse": [],
+      "tier": "MEDIANA",
+      "bookMeta": 113,
+      "radius": 5,
+      "knockback": 1.5,
+      "family": "vento",
+      "evolutionStage": 3,
+      "evolutionTotal": 3,
+      "affinity": "vontade",
+      "category": "MAGIA",
+      "revealEvolution": "NEAR",
+      "evolvesFrom": "rajada_de_vento",
+      "maxMasteryRank": 10,
+      "masteryStep": 52,
+      "sound": "minecraft:block.anvil.land",
+      "impactSound": "minecraft:entity.generic.explode"
+    }
+  ],
+  "classes": [
+    {
+      "id": "andarilho",
+      "displayName": "Andarilho",
+      "description": "Andarilho: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 4,
+        "attributes": {
+          "agilidade": 12
+        },
+        "counters": {
+          "corrida": 500000
+        }
+      },
+      "attributes": {
+        "agilidade": 10,
+        "vontade": 4
+      },
+      "effects": {
+        "fall_resist": 0.1
+      },
+      "tags": [
+        "agil",
+        "explorador"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Mobilidade e confronto rápido",
+      "strength": "Reposicionamento e ataques oportunos",
+      "limitation": "Proteção direta limitada"
+    },
+    {
+      "id": "guardiao",
+      "displayName": "Guardiao",
+      "description": "Guardiao: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "vitalidade": 50
+            }
+          },
+          {
+            "attributes": {
+              "vitalidade": 10
+            },
+            "dominantAttribute": "vitalidade"
+          }
+        ]
+      },
+      "attributes": {
+        "vitalidade": 8,
+        "vontade": 3
+      },
+      "effects": {
+        "armor": 1
+      },
+      "tags": [
+        "defensor",
+        "marcial"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Defesa e proteção",
+      "strength": "Resistência e sustentação",
+      "limitation": "Pouca mobilidade ofensiva nesta especialização"
+    },
+    {
+      "id": "devoto",
+      "displayName": "Devoto",
+      "description": "Devoto: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "attributes": {
+          "vontade": 10
+        },
+        "karmaMin": 5
+      },
+      "attributes": {
+        "vontade": 8,
+        "vitalidade": 3
+      },
+      "effects": {
+        "mana_regen": 1
+      },
+      "tags": [
+        "devoto"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Exploração e versatilidade",
+      "strength": "Progressão flexível",
+      "limitation": "Menor especialização"
+    },
+    {
+      "id": "invocador_espiritual",
+      "displayName": "Invocador Espiritual",
+      "description": "Classe base de invocação. Chama companheiros espirituais temporários para dividir pressão em combate sem lotar o servidor.",
+      "requirements": {
+        "level": 3,
+        "attributes": {
+          "inteligencia": 10,
+          "vontade": 10
+        }
+      },
+      "attributes": {
+        "inteligencia": 6,
+        "vontade": 6
+      },
+      "effects": {
+        "mana_regen": 1
+      },
+      "tags": [
+        "invocador",
+        "espiritual",
+        "arcano",
+        "invocacao_espiritual"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Invocação e comando",
+      "strength": "Controle por aliados invocados",
+      "limitation": "Depende do posicionamento e da sobrevivência dos aliados"
+    },
+    {
+      "id": "combatente",
+      "displayName": "Combatente",
+      "description": "Combatente: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "forca": 50
+            }
+          },
+          {
+            "attributes": {
+              "forca": 10
+            },
+            "dominantAttribute": "forca"
+          }
+        ]
+      },
+      "attributes": {
+        "forca": 8,
+        "vitalidade": 3
+      },
+      "effects": {
+        "physical_damage": 1
+      },
+      "tags": [
+        "marcial"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Combate com armas",
+      "strength": "Ataques físicos e técnicas de arma",
+      "limitation": "Depende de alcance e aproximação"
+    },
+    {
+      "id": "combatente",
+      "displayName": "Combatente",
+      "description": "Combatente: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "forca": 50
+            }
+          },
+          {
+            "attributes": {
+              "forca": 10
+            },
+            "dominantAttribute": "forca"
+          }
+        ]
+      },
+      "attributes": {
+        "forca": 8,
+        "vitalidade": 3
+      },
+      "effects": {
+        "physical_damage": 1
+      },
+      "tags": [
+        "marcial"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Combate com armas",
+      "strength": "Ataques físicos e técnicas de arma",
+      "limitation": "Depende de alcance e aproximação"
+    },
+    {
+      "id": "duelista",
+      "displayName": "Duelista",
+      "description": "Duelista: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 10,
+        "attributes": {
+          "forca": 25,
+          "agilidade": 25
+        },
+        "counters": {
+          "criticos": 30
+        }
+      },
+      "attributes": {
+        "forca": 12,
+        "agilidade": 12,
+        "sorte": 4
+      },
+      "effects": {
+        "attack_speed": 0.1
+      },
+      "tags": [
+        "marcial",
+        "agil"
+      ],
+      "fuse": [
+        "combatente",
+        "batedor"
+      ],
+      "inheritance": "MISTA",
+      "hiddenFusion": false,
+      "tier": "AVANCADA",
+      "role": "Mobilidade e confronto rápido",
+      "strength": "Reposicionamento e ataques oportunos",
+      "limitation": "Proteção direta limitada"
+    },
+    {
+      "id": "batedor",
+      "displayName": "Batedor",
+      "description": "Batedor: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "agilidade": 50
+            }
+          },
+          {
+            "attributes": {
+              "agilidade": 10
+            },
+            "dominantAttribute": "agilidade"
+          }
+        ]
+      },
+      "attributes": {
+        "agilidade": 8,
+        "sorte": 2
+      },
+      "effects": {
+        "speed": 0.02
+      },
+      "tags": [
+        "agil",
+        "marcial"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Mobilidade e confronto rápido",
+      "strength": "Reposicionamento e ataques oportunos",
+      "limitation": "Proteção direta limitada"
+    },
+    {
+      "id": "sacerdote",
+      "displayName": "Sacerdote",
+      "description": "Sacerdote: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 6,
+        "attributes": {
+          "vontade": 20,
+          "inteligencia": 12
+        },
+        "karmaMin": 25
+      },
+      "attributes": {
+        "vontade": 12,
+        "inteligencia": 6
+      },
+      "effects": {
+        "mana_regen": 2
+      },
+      "tags": [
+        "sacerdote",
+        "devoto"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Exploração e versatilidade",
+      "strength": "Progressão flexível",
+      "limitation": "Menor especialização"
+    },
+    {
+      "id": "saqueador",
+      "displayName": "Saqueador",
+      "description": "Saqueador: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 5,
+        "attributes": {
+          "agilidade": 15,
+          "forca": 10
+        },
+        "karmaMax": -10
+      },
+      "attributes": {
+        "agilidade": 10,
+        "forca": 4
+      },
+      "effects": {
+        "damage_percent": 0.04
+      },
+      "tags": [
+        "agil",
+        "sombrio",
+        "marcial"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Mobilidade e confronto rápido",
+      "strength": "Reposicionamento e ataques oportunos",
+      "limitation": "Proteção direta limitada"
+    },
+    {
+      "id": "afortunado",
+      "displayName": "Afortunado",
+      "description": "Afortunado: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "sorte": 50
+            }
+          },
+          {
+            "attributes": {
+              "sorte": 10
+            },
+            "dominantAttribute": "sorte"
+          }
+        ]
+      },
+      "attributes": {
+        "sorte": 8,
+        "agilidade": 2
+      },
+      "effects": {
+        "luck": 1
+      },
+      "tags": [
+        "fortuna"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Exploração e versatilidade",
+      "strength": "Progressão flexível",
+      "limitation": "Menor especialização"
+    },
+    {
+      "id": "arcanista",
+      "displayName": "Arcanista",
+      "description": "Arcanista: combina atributos fixos e utilidades da sua especialidade.",
+      "requirements": {
+        "level": 2,
+        "anyOf": [
+          {
+            "attributes": {
+              "inteligencia": 50
+            }
+          },
+          {
+            "attributes": {
+              "inteligencia": 10
+            },
+            "dominantAttribute": "inteligencia"
+          }
+        ]
+      },
+      "attributes": {
+        "inteligencia": 8,
+        "vontade": 3
+      },
+      "effects": {
+        "mana_regen": 1
+      },
+      "tags": [
+        "arcano"
+      ],
+      "fuse": [],
+      "inheritance": "NOVA",
+      "hiddenFusion": false,
+      "tier": "BASICA",
+      "role": "Conjuração e controle",
+      "strength": "Técnicas mágicas e reserva de mana",
+      "limitation": "Consome mana para manter pressão"
+    }
+  ],
+  "note": "Valores de combate em catalog.gd são adaptações para a base Godot, não cópia do balanceamento Minecraft."
+}

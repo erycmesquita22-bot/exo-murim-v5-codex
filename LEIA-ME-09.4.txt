@@ -1,0 +1,18 @@
+EXO-MURIM 09.4 — O MUNDO DESPERTA
+
+Projeto completo de Godot 4.6.2 Compatibility, candidato a testes.
+Extraia o ZIP e abra project.godot no editor Godot. Não sobrescreva a 09.3.3.
+Antes de testar, faça backup do save (user://journey.json).
+
+Na criação escolha uma seed (opcional) e conclua a história inicial. A vila varia em
+prosperidade e distribuição de lotes, preservando Guilda e pousada. Saia da vila
+para explorar bambuzal ao leste, montanhas ao oeste e ruínas ao norte.
+No mapa (Tab) veja as três regiões; pressione E sobre cada marco para recolher
+um equipamento procedural uma única vez por mundo. Save/load preserva a coleta.
+
+QA: godot --headless --path . --script res://qa094.gd
+QA: godot --headless --path . --script res://qa094_playable.gd
+QA estático: python tools/check_094_static.py
+
+IMPORTANTE: Godot e testes visuais não foram executados no ambiente desta entrega.
+Leia RELATORIO-09.4.md para descrição e limites reais.

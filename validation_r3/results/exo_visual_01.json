@@ -1,0 +1,188 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "create_character"
+    },
+    {
+      "pass": true,
+      "test": "official_core_boot"
+    },
+    {
+      "pass": true,
+      "test": "exo_visual_registered_in_official_core"
+    },
+    {
+      "pass": true,
+      "test": "preserve_nine_existing_modules"
+    },
+    {
+      "pass": true,
+      "test": "apply_preset_0"
+    },
+    {
+      "pass": true,
+      "test": "read_preset_0"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_for_preset_0"
+    },
+    {
+      "pass": true,
+      "test": "apply_preset_1"
+    },
+    {
+      "pass": true,
+      "test": "read_preset_1"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_for_preset_1"
+    },
+    {
+      "pass": true,
+      "test": "apply_preset_2"
+    },
+    {
+      "pass": true,
+      "test": "read_preset_2"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_for_preset_2"
+    },
+    {
+      "pass": true,
+      "test": "apply_preset_3"
+    },
+    {
+      "pass": true,
+      "test": "read_preset_3"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_for_preset_3"
+    },
+    {
+      "pass": true,
+      "test": "apply_preset_4"
+    },
+    {
+      "pass": true,
+      "test": "read_preset_4"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_for_preset_4"
+    },
+    {
+      "pass": true,
+      "test": "independent_water"
+    },
+    {
+      "pass": true,
+      "test": "custom_preset_after_override"
+    },
+    {
+      "pass": true,
+      "test": "configuration_opens_custom_profile"
+    },
+    {
+      "pass": true,
+      "test": "decorative_grass_off"
+    },
+    {
+      "pass": true,
+      "test": "invalid_option_normalized"
+    },
+    {
+      "pass": true,
+      "test": "unknown_option_refused"
+    },
+    {
+      "pass": true,
+      "test": "water_option_active"
+    },
+    {
+      "pass": true,
+      "test": "forward_only_feature_gate"
+    },
+    {
+      "pass": true,
+      "test": "graphics_does_not_change_gameplay_save"
+    },
+    {
+      "pass": true,
+      "test": "settings_reopen"
+    },
+    {
+      "pass": true,
+      "test": "invalid_setting_fallback"
+    },
+    {
+      "pass": true,
+      "test": "shader_resource_water.gdshader"
+    },
+    {
+      "pass": true,
+      "test": "shader_resource_grass_wind.gdshader"
+    },
+    {
+      "pass": true,
+      "test": "shader_resource_terrain_pixel.gdshader"
+    },
+    {
+      "pass": true,
+      "test": "shader_resource_terrain_pixel_mips.gdshader"
+    },
+    {
+      "pass": true,
+      "test": "shader_resource_terrain_linear.gdshader"
+    },
+    {
+      "pass": true,
+      "test": "real_seed_city_region"
+    },
+    {
+      "pass": true,
+      "test": "approved_ground_material_applied"
+    },
+    {
+      "pass": true,
+      "test": "river_water_material_applied"
+    },
+    {
+      "pass": true,
+      "test": "world_spec_unchanged_by_preset"
+    },
+    {
+      "pass": true,
+      "test": "procedural_region_still_valid"
+    }
+  ],
+  "facts": {
+    "diagnostics": {
+      "draw_calls": 0.0,
+      "fps": 6.0,
+      "frame_ms": 6.373,
+      "memory_static_bytes": 323296154.0,
+      "objects_drawn": 0.0,
+      "physics_ms": 62338.435,
+      "renderer": "gl_compatibility",
+      "triangles": 0.0,
+      "visible_3d": 0.0,
+      "visual_counts": {
+        "grass_groups": 1,
+        "river_meshes": 0,
+        "terrain_meshes": 256
+      }
+    },
+    "engine": "4.6.2-stable (official)",
+    "original_preset": 5,
+    "presets": 5,
+    "renderer": "gl_compatibility",
+    "world_state_before": "{\"actors\":{},\"architecture_version\":2,\"atlas_seed\":\"101\",\"clock\":900.0,\"clock_rate\":2,\"current\":-1,\"position\":[90.0,0.0299999993294477,7.0],\"regional_version\":6,\"schema\":1,\"visited\":{}}"
+  },
+  "failures": []
+}

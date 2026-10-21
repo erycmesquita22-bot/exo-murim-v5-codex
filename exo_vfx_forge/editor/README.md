@@ -1,0 +1,1 @@
+Authoring sandbox is the standalone `demo.tscn` at the package root. It uses authored fake events and a keyboard UI with changeable VFX recipes, controls and quality profiles. This demo must not be mistaken for real skill-casting or a verified Godot integration. Add runtime editor sliders after Godot native validation.

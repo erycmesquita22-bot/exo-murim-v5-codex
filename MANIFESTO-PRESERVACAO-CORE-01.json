@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "base": "Nucleo Narrativo 01",
+  "parallel_base": "Mundo Vivo R3",
+  "r3_source_changes": {
+    "wardrobe.gd": "c5f954cdfcb90a262685847f99bb039731cbcb753a10dfeb13386272685a470f",
+    "enemy.gd": "6d3be90658f558012b271a0103ac62e5ed68ab2c0440a5e6258195184fe481e7",
+    "inventory.gd": "6fdb920be3f84df804410df6227157de0c7fa05ad98d85cee455507b4d040a45",
+    "journey_save.gd": "2824cc4576170d2e0a8d62a9acb3a768b945059175534df36a1c89c3a15d2812",
+    "murim_flow.gd": "0335fb44c1dccb2ae6b7dadd73dddaa3463c7d399a92b3bbc43cd0351482fcc4",
+    "project.godot": "7b09e205707448fcee9f19d71c64e1056a1144e3eb5e1e4a857931406a5d64fb",
+    "convergence/qa.gd": "e1203d1ff6907ae588b3bb4b024861a9b1cf5f2cc1f864c18be4a59c3a5ee2db",
+    "convergence/region.gd": "f7ec6b19ce90e1607ac0fdb49740e8763c862df4aa1617ad6478bd7a897f455a",
+    "convergence/resident.gd": "715a5e6b8a623bfa92022fe703928dbb91ab3e872df60c2393504437ff7fedf9",
+    "convergence/game.gd": "267358acbad2ad021d08571f19703e07bd340ba43ef35e32e00d959d33dc7dde",
+    "godot/modular_kit.gd": "52fd62b38c782ce4c4475e841e8bc908f610770f9f0ad80606a23a72404b7f64",
+    "ui/character_creation.gd": "694f76d09bd4281eb653f8b737d86cfb2eb146a00cd8afca4b060feb5811c922",
+    "regional_ecology/director.gd": "77abb3d10d3e708240355656ddb1b2bea02db8a14a00837985b7f1dc3eaac86f",
+    "living_world/people.gd": "63a871228c153b0450d550a0375bc0228ee285e36942b4c278466c07b413a428",
+    "ui/pages/character.gd": "011462fcb944d9acb614aa782c5026c07b5bfc90cdd4f232cdab302f10d57698",
+    "ui/pages/journal.gd": "bbc34ba9070e5aa039abce359acfdaa066baaeeb5e3f10d14b05245ce86b072e"
+  },
+  "protected": [
+    "rig.gd",
+    "arsenal.gd",
+    "anatomy.gd",
+    "animation_library.gd",
+    "techniques.gd",
+    "combat/player_combat.gd",
+    "combat/martial_motion.gd"
+  ],
+  "removed": []
+}

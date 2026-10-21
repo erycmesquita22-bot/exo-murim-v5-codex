@@ -1,0 +1,213 @@
+{
+  "domain": "ref_martial_schools",
+  "records": [
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_seita_bambu",
+      "label": "Seita do Bambu",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.seita_bambu",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_cla_montanha",
+      "label": "Clã da Montanha",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.cla_montanha",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_pavilhao_lanca",
+      "label": "Pavilhão da Lança",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.pavilhao_lanca",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_templo_corrente",
+      "label": "Templo da Corrente",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.templo_corrente",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_vale_grou",
+      "label": "Vale do Grou",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.vale_grou",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_mercadores_sombra",
+      "label": "Pavilhão da Sombra",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.mercadores_sombra",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_mosteiro_jade",
+      "label": "Mosteiro de Jade",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.mosteiro_jade",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_ordem_cinza",
+      "label": "Ordem da Cinza",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.ordem_cinza",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "exo_martial",
+      "conditions": {},
+      "domain": "ref_martial_schools",
+      "excludes": [],
+      "id": "ref_martial_schools/ref_exo_martial_school_ermitagem_vazio",
+      "label": "Ermitagem do Vazio",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0196f5f6eccfa22fba896b238cd08e3d057e4ccfcd8d70ccd0b8c6e38f204532",
+        "source_archive": "C3_R13_1",
+        "source_id": "exo_martial.school.ermitagem_vazio",
+        "source_owner": "exo_martial",
+        "source_path": "exo_martial/data/schools.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

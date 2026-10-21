@@ -1,0 +1,19 @@
+{
+  "type": "OFFLINE_STATIC_AND_GRAPH_MODEL",
+  "engine_execution": "NOT_RUN",
+  "godot_binary_present": false,
+  "assertions": 88736,
+  "failures": [],
+  "source_atlases": [
+    "101",
+    "816204"
+  ],
+  "independent_transaction_models": 24000,
+  "scope": [
+    "lexical source checks (NOT grammar compilation)",
+    "preload resolution",
+    "native-export atlas reachability",
+    "independent Python state model"
+  ],
+  "result": "PASS"
+}

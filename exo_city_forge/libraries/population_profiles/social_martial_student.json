@@ -1,0 +1,10 @@
+{
+  "id": "martial_student",
+  "name": "Discípulo",
+  "living_world_role": "disciple",
+  "weight": 0.11,
+  "can_be_narratively_important": true,
+  "is_noble": false,
+  "physical_spawn_authority": "LivingWorld",
+  "implementation": "rules_only"
+}

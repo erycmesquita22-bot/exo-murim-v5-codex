@@ -1,0 +1,546 @@
+{
+  "domain": "settlement_service",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/balcao_de_graos",
+      "label": "Balcão de grãos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "balcao_de_graos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Balcão de grãos",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "balcao_de_graos"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/oficina_de_bainhas",
+      "label": "Oficina de bainhas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "oficina_de_bainhas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Oficina de bainhas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "oficina_de_bainhas"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/casa_de_banho_publica",
+      "label": "Casa de banho pública",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "casa_de_banho_publica"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Casa de banho pública",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "casa_de_banho_publica"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/estalagem_de_viajantes",
+      "label": "Estalagem de viajantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "estalagem_de_viajantes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Estalagem de viajantes",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "estalagem_de_viajantes"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "settlement_type_in": [
+          "town",
+          "city"
+        ]
+      },
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/pavilhao_de_leitura",
+      "label": "Pavilhão de leitura",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "pavilhao_de_leitura"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Pavilhão de leitura",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "pavilhao_de_leitura"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/jardim_de_ervas_medicinais",
+      "label": "Jardim de ervas medicinais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "jardim_de_ervas_medicinais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Jardim de ervas medicinais",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "jardim_de_ervas_medicinais"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/posto_de_mensageiros",
+      "label": "Posto de mensageiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "posto_de_mensageiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Posto de mensageiros",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "posto_de_mensageiros"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/patio_de_treino_aberto",
+      "label": "Pátio de treino aberto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "patio_de_treino_aberto"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Pátio de treino aberto",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "patio_de_treino_aberto"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/armazem_de_sal",
+      "label": "Armazém de sal",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "armazem_de_sal"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Armazém de sal",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "armazem_de_sal"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {
+        "tags_any": [
+          "river",
+          "wetland",
+          "river_access"
+        ]
+      },
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/cais_de_balsas",
+      "label": "Cais de balsas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "cais_de_balsas",
+        "river_traffic"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Cais de balsas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "cais_de_balsas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/escritorio_de_contratos",
+      "label": "Escritório de contratos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "escritorio_de_contratos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Escritório de contratos",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "escritorio_de_contratos"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/barraca_de_ceramica",
+      "label": "Barraca de cerâmica",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "barraca_de_ceramica"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Barraca de cerâmica",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "barraca_de_ceramica"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/ponto_de_guarda_municipal",
+      "label": "Ponto de guarda municipal",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "ponto_de_guarda_municipal"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Ponto de guarda municipal",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "ponto_de_guarda_municipal"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/albergue_de_discipulos",
+      "label": "Albergue de discípulos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "albergue_de_discipulos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Albergue de discípulos",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "albergue_de_discipulos"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/feira_de_ferramentas",
+      "label": "Feira de ferramentas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "feira_de_ferramentas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Feira de ferramentas",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "feira_de_ferramentas"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "settlement_service",
+      "excludes": [],
+      "id": "settlement_service/casa_de_tecelagem",
+      "label": "Casa de tecelagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "service",
+        "casa_de_tecelagem"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "currency_grant": false,
+        "editorial_seed_pt_BR": "Casa de tecelagem",
+        "execute": false,
+        "price_override": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "stock_override": false,
+        "suggestion_owner": "city_forge",
+        "theme_key": "casa_de_tecelagem"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

@@ -1,0 +1,214 @@
+{
+  "domain": "ref_city_social_profiles",
+  "records": [
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_common_worker",
+      "label": "Trabalhador comum",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "850c67c4f03c4e79d930316595ef5c1e914c7109bf7469e7be098d37da59d8db",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "common_worker",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_common_worker.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_elder",
+      "label": "Ancião local",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "a9e79e1e85e4efe056bc8faf9912007415d2ab8b5fdb6d21e37b54906710f022",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "elder",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_elder.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_guard",
+      "label": "Guarda",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "563a41777cab5748871ce1124890d30abc3fc8b5d1442c9d54b43bf67b3861c9",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "guard",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_guard.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_martial_student",
+      "label": "Discípulo",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "443432f32c1c8b84684ad9370cb041d5f9fb20dd847d06cd66861671ea13c823",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "martial_student",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_martial_student.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_noble",
+      "label": "Nobre influente",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "566577625c101e3677cf028f0df7198703f2444423b740d9467ad0021b99cf0c",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "noble",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_noble.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_social_apprentice",
+      "label": "Aprendiz",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "3f66fed94dd67baa4c62b46c8fa186a61b804b10ed308209a628c48d4bfc70f8",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "social_apprentice",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_apprentice.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_social_porter",
+      "label": "Carregador",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "8d08181a887fefb1f621f565ad2049ecb48655c62888b62a5cdb9d7c1f4412d8",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "social_porter",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_porter.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "source_owner_read_only",
+      "conditions": {},
+      "domain": "ref_city_social_profiles",
+      "excludes": [],
+      "id": "ref_city_social_profiles/ref_trader",
+      "label": "Comerciante",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "reference",
+        "city_forge",
+        "readonly"
+      ],
+      "variables": {
+        "content_sha256": "59661a35444c1fd2a440c8d5881e10dd9be829e7cc2e8156d8aaf448faa31a7b",
+        "not_placement_authority": true,
+        "reference_only": true,
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "trader",
+        "source_path": "exo_city_forge/libraries/population_profiles/social_trader.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

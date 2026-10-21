@@ -1,0 +1,35 @@
+EXO-MURIM — V4 REPARO CHAT C02
+Extraia em pasta nova e abra project.godot na Godot 4.6.2 Compatibility.
+Correções: pavimentação dentro da região, texturas reais de NPC no Crowd,
+rotas maiores sem inversão automática, pés alinhados e remoção da dica persistente.
+Relatórios e evidências atuais: REPARACAO_CHAT_V4.
+Base: Convergência V4 C01. Diretório de saves V4 preservado.
+Esta é uma reparação parcial; água/pontes, casas e dungeons seguem pendentes.
+As instruções abaixo são históricas e não descrevem o estado atual.
+
+EXO-MURIM — V4 PRÉ-WORLDGENESIS / COMPATIBILITY CHECKPOINT 01
+Candidato parcial, baseado exclusivamente na C3 Work Candidato 01.
+Godot 4.6.2 Standard / Compatibility. Extraia em pasta nova e abra project.godot.
+Relatório e QA atuais: V4_CHECKPOINT/RELATORIO-COMPATIBILIDADE-V4-PRE-WORLDGEN-01.md.
+Comércio limitado a três bens junto a moradores autorizados por E; Crowd só em faixas fisicamente verificadas.
+WorldGenesis V4, novos interiores/skills autorais/histórias/VFX ainda não estão habilitados.
+Faça backup dos saves ao alternar revisões. As instruções históricas abaixo permanecem como referência.
+
+EXO-MURIM — CIDADE VIVA 01 R2
+
+Godot 4.6.2 Standard, Compatibility.
+Extraia todo o projeto, importe project.godot, aguarde a importação e pressione F5.
+
+Base unificada: EXO Core 01 corrigido + Fortificações 02 R2 + EXO Visual 01 + Cidade Viva 01 R2.
+
+A camada urbana aparece nos assentamentos das 88 regiões externas. O recinto inicial é separado.
+Referência de teste: seed 101, cidade 78; cidades fluviais 14 e 26.
+P: central; Tab: mapa; E: interação; R: arma/mãos livres; F: esquiva.
+
+Relatório atual: RELATORIO-CIDADE-VIVA-01-R2.md.
+Evidências novas: cidade_viva/evidence.
+QA atual: cidade_viva/validation.
+Não confundir relatórios e imagens históricos com esta rodada.
+
+O projeto preserva o diretório de saves. Para comparar versões, guarde cópia do seu save antes de alternar.
+Bancas/cultivo novos são ambientação; as rotinas de moradores existentes foram preservadas.

@@ -1,0 +1,328 @@
+{
+  "source_content_version": 14,
+  "counts_in_source": {
+    "classes": 75,
+    "titles": 38,
+    "actives": 111,
+    "passives": 165
+  },
+  "implemented": [
+    {
+      "id": "corte_inicial",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Corte Inicial",
+      "requirements_in_source": {
+        "attributes": {
+          "forca": 12
+        },
+        "classTags": [
+          "marcial"
+        ],
+        "level": 5
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "bola_de_gelo",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Bola de Gelo",
+      "requirements_in_source": {
+        "level": 3,
+        "attributes": {
+          "inteligencia": 8
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "salto_impetuoso",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Salto Impetuoso",
+      "requirements_in_source": {
+        "level": 6,
+        "attributes": {
+          "agilidade": 12
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "golpe_circular",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Golpe Circular",
+      "requirements_in_source": {
+        "level": 4,
+        "attributes": {
+          "forca": 10
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "nova_glacial",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Nova Glacial",
+      "requirements_in_source": {
+        "level": 18,
+        "attributes": {
+          "inteligencia": 40
+        },
+        "mastery": {
+          "lanca_de_gelo": 120
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "atracao_arcana",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Atracao Arcana",
+      "requirements_in_source": {
+        "level": 8,
+        "attributes": {
+          "inteligencia": 15
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "investida_brutal",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Investida Brutal",
+      "requirements_in_source": {
+        "level": 10,
+        "attributes": {
+          "forca": 20,
+          "vitalidade": 15
+        },
+        "mastery": {
+          "investida": 100
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "jato_de_fogo",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Jato de Fogo",
+      "requirements_in_source": {
+        "level": 12,
+        "attributes": {
+          "inteligencia": 25
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "barreira_arcana",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Barreira Arcana",
+      "requirements_in_source": {
+        "level": 5,
+        "attributes": {
+          "inteligencia": 12
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "cura",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Cura",
+      "requirements_in_source": {
+        "level": 3,
+        "attributes": {
+          "vontade": 8
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "cripta_espinhos_1",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Cripta de Espinhos",
+      "requirements_in_source": {
+        "level": 12,
+        "attributes": {
+          "vontade": 13
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "guardiao_ancestral",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Guardiao Ancestral",
+      "requirements_in_source": {
+        "level": 10,
+        "activeClasses": [
+          "pastor_dos_ancestrais"
+        ],
+        "skills": [
+          "erguer_servo"
+        ],
+        "mastery": {
+          "erguer_servo": 160
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "rajada_de_fogo",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Rajada de Fogo",
+      "requirements_in_source": {
+        "level": 12,
+        "attributes": {
+          "inteligencia": 25
+        },
+        "mastery": {
+          "bola_de_fogo": 120
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "rajada_de_vento",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Rajada de Vento",
+      "requirements_in_source": {
+        "level": 8,
+        "attributes": {
+          "agilidade": 18
+        },
+        "mastery": {
+          "esfera_de_vento": 80
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "dardo_arcano",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Dardo Arcano",
+      "requirements_in_source": {
+        "level": 4,
+        "attributes": {
+          "inteligencia": 10
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "onda_de_repulsao",
+      "type": "skills",
+      "status": "executable-adapted",
+      "source_name": "Onda de Repulsao",
+      "requirements_in_source": {
+        "level": 14,
+        "attributes": {
+          "vontade": 25
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "source-table",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "corpo_1",
+      "type": "passives",
+      "status": "executable-adapted",
+      "source_name": "Corpo Inicial",
+      "requirements_in_source": {
+        "level": 2,
+        "attributes": {
+          "vitalidade": 8
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "partial-event-counter",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "concentracao_1",
+      "type": "passives",
+      "status": "executable-adapted",
+      "source_name": "Concentracao Inicial",
+      "requirements_in_source": {
+        "level": 2,
+        "attributes": {
+          "inteligencia": 8
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "partial-event-counter",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "folego_1",
+      "type": "passives",
+      "status": "executable-adapted",
+      "source_name": "Folego Inicial",
+      "requirements_in_source": {
+        "level": 2,
+        "attributes": {
+          "vontade": 8
+        }
+      },
+      "base_effects": "adapted",
+      "mastery_curve": "partial-event-counter",
+      "full_requirements": "pending-level-attribute-class-systems"
+    },
+    {
+      "id": "percepcao_qi",
+      "type": "passives",
+      "status": "murim-adaptation",
+      "source_name": null,
+      "requirements_in_source": null,
+      "base_effects": "adapted",
+      "mastery_curve": "partial-event-counter",
+      "full_requirements": "pending-level-attribute-class-systems"
+    }
+  ]
+}

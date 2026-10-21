@@ -1,0 +1,31 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+RELOAD_CHECK saved_region/101 true
+RELOAD_CHECK saved_seed true
+RELOAD_CHECK saved_v4_generator true
+RELOAD_CHECK revisit_city true
+RELOAD_CHECK city_authority_restored true
+RELOAD_CHECK atlas_rebuilt_from_saved_npcs true
+RELOAD_CHECK crowd_reapproved_after_reload true
+RELOAD_CHECK atlas_evidence true
+RELOAD_CHECK physical_interior_still_available true
+RELOAD_CHECK interior_entry_regression true
+RELOAD_CHECK interior_exit_regression true
+RELOAD_CHECK save_after_reload true
+RELOAD_CHECK saved_region/707 true
+RELOAD_CHECK saved_seed true
+RELOAD_CHECK saved_v4_generator true
+RELOAD_CHECK revisit_city true
+RELOAD_CHECK city_authority_restored true
+RELOAD_CHECK atlas_rebuilt_from_saved_npcs true
+RELOAD_CHECK crowd_reapproved_after_reload true
+RELOAD_CHECK save_after_reload true
+RELOAD_CHECK saved_region/2026 true
+RELOAD_CHECK saved_seed true
+RELOAD_CHECK saved_v4_generator true
+RELOAD_CHECK revisit_city true
+RELOAD_CHECK city_authority_restored true
+RELOAD_CHECK atlas_rebuilt_from_saved_npcs true
+RELOAD_CHECK crowd_reapproved_after_reload true
+RELOAD_CHECK save_after_reload true
+RELOAD_RESULT {"failures":[]}

@@ -1,0 +1,140 @@
+{
+  "id": "art_smiths",
+  "name": "Pátio dos Ferreiros",
+  "category": "artisan",
+  "tags": [
+    "artisan",
+    "forge",
+    "artisans"
+  ],
+  "footprint": {
+    "width": 40,
+    "depth": 40
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -18,
+        0
+      ],
+      "b": [
+        18,
+        0
+      ],
+      "width": 3.5
+    }
+  ],
+  "connectors": [
+    [
+      -20,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      -20
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "art_smiths/b00",
+      "function": "smithy",
+      "local_position": [
+        -12,
+        -11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "art_smiths/b01",
+      "function": "smithy",
+      "local_position": [
+        12,
+        -11
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "art_smiths/b02",
+      "function": "warehouse",
+      "local_position": [
+        -12,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    },
+    {
+      "id": "art_smiths/b03",
+      "function": "residence",
+      "local_position": [
+        12,
+        12
+      ],
+      "size": [
+        8.0,
+        8.0
+      ],
+      "height": 4.5,
+      "door_facing": "inner",
+      "interior_slot": false
+    }
+  ],
+  "workstations": [
+    {
+      "id": "art_smiths/st00",
+      "for_building": "art_smiths/b00",
+      "role": "resident"
+    },
+    {
+      "id": "art_smiths/st01",
+      "for_building": "art_smiths/b01",
+      "role": "resident"
+    },
+    {
+      "id": "art_smiths/st02",
+      "for_building": "art_smiths/b02",
+      "role": "courier"
+    },
+    {
+      "id": "art_smiths/st03",
+      "for_building": "art_smiths/b03",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "forge",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "forge",
+  "mesh_budget_estimate": 38,
+  "implementation": "procedural_mesh_3d",
+  "source": "original_parameterized_design_city_forge_01"
+}

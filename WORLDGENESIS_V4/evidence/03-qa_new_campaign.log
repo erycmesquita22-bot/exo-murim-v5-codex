@@ -1,0 +1,16 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+WG4_NEW_CHECK core true
+WG4_NEW_CHECK actual_creator true
+WG4_NEW_CHECK physical_boot true
+WG4_NEW_CHECK campaign_pinned_v4 true
+WG4_NEW_CHECK seed_and_graph true
+WG4_NEW_CHECK physical_generator_v4 true
+WG4_NEW_CHECK stripped_version_rejected true
+WG4_NEW_CHECK new_seed_mountain_scene true
+WG4_NEW_CHECK height_differs_from_c3 true
+WG4_NEW_CHECK terrain_forge_executed true
+WG4_NEW_CHECK terrain_forge_material_enabled true
+WG4_NEW_TERRAIN { "foliage": 10, "biome": "alpine", "seed": 1167917182 }
+WG4_NEW_CHECK save true
+WG4_NEW_CAMPAIGN_RESULT {"checks":12,"failures":[],"generator":4,"region":3,"reopen":false,"seed":707}

@@ -1,0 +1,12 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+CHECK create_character true
+CHECK enter_wild true
+CHECK native_group_spawn true
+CHECK enemy_inflicts_damage true
+CHECK defeat_eco/r52/t00/m0/g0000 true
+CHECK xp_eco/r52/t00/m0/g0000 true
+CHECK collect_partial_group_loot true
+CHECK partial_group_record true
+CHECK save_partial_group true
+R3_RESULT lifecycle_A checks=9 failures=[]

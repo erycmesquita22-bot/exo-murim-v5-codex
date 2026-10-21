@@ -1,0 +1,22 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+CHECK create_character true
+CHECK load_city_78 true
+CHECK capture_01-cidade-antes true
+CHECK capture_02-cidade-integrada true
+CHECK capture_03-mercado true
+CHECK capture_04-escola-marcial true
+CHECK capture_05-hospedaria true
+CHECK capture_06-medicina true
+CHECK capture_07-moradias true
+CHECK capture_08-ferraria true
+CHECK capture_09-rua-central true
+CHECK capture_10-cidade-noite true
+CHECK load_river_city_26 true
+CHECK real_river_gate true
+CHECK capture_11-passagem-fluvial true
+CHECK capture_12-cidade-ribeirinha true
+R3_RESULT cidade_viva_capture checks=16 failures=[]

@@ -1,0 +1,128 @@
+{
+  "id": "art_seca_graos",
+  "name": "Celeiros de Secagem",
+  "category": "artisan",
+  "settlement_context": "artisan",
+  "allowed_scales": [
+    "village",
+    "town"
+  ],
+  "tags": [
+    "artisan",
+    "r3",
+    "authorial_rural"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "art_seca_graos/b00",
+      "function": "warehouse",
+      "archetype": "granary",
+      "local_position": [
+        -9,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.7,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "grain_stacks",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "art_seca_graos/b01",
+      "function": "warehouse",
+      "archetype": "drying_house",
+      "local_position": [
+        9,
+        11
+      ],
+      "size": [
+        5.0,
+        5.1
+      ],
+      "height": 4.05,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "grain_stacks",
+        "roof_variant_1"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "art_seca_graos/st00",
+      "for_building": "art_seca_graos/b00",
+      "role": "worker"
+    },
+    {
+      "id": "art_seca_graos/st01",
+      "for_building": "art_seca_graos/b01",
+      "role": "worker"
+    }
+  ],
+  "open_spaces": {
+    "type": "grain_stacks",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "grain_stacks",
+  "mesh_budget_estimate": 40,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

@@ -1,0 +1,282 @@
+{
+  "domain": "economy_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/harvest",
+      "label": "Colheita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "variables": {
+        "activity": "harvest",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/repair",
+      "label": "Oficina de reparo",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "craft"
+      ],
+      "variables": {
+        "activity": "repair",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/apothecary",
+      "label": "Comércio de ervas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "medicine"
+      ],
+      "variables": {
+        "activity": "apothecary",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/caravans",
+      "label": "Caravanas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "trade"
+      ],
+      "variables": {
+        "activity": "caravans",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/fishing",
+      "label": "Pescaria",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "fish"
+      ],
+      "variables": {
+        "activity": "fishing",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/smithing",
+      "label": "Forja",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "smithing"
+      ],
+      "variables": {
+        "activity": "smithing",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/inn",
+      "label": "Hospedagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "hospitality"
+      ],
+      "variables": {
+        "activity": "inn",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/ferry",
+      "label": "Travessia fluvial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "travel"
+      ],
+      "variables": {
+        "activity": "ferry",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/teaching",
+      "label": "Ensino de artes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "martial"
+      ],
+      "variables": {
+        "activity": "teaching",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/trade_tax",
+      "label": "Taxas comerciais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "government"
+      ],
+      "variables": {
+        "activity": "trade_tax",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/pilgrim",
+      "label": "Hospitalidade a peregrinos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "spiritual"
+      ],
+      "variables": {
+        "activity": "pilgrim",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "economy_theme",
+      "excludes": [],
+      "id": "economy_theme/hunter",
+      "label": "Troca de caça",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "economy",
+        "hunt"
+      ],
+      "variables": {
+        "activity": "hunter",
+        "currency": "Wen display; wallet owned by living_world",
+        "owner": "exo_economy",
+        "transaction": "no_authority"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

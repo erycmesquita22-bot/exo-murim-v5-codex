@@ -1,0 +1,24 @@
+{
+  "id": "exo_items",
+  "version": "2.0.2",
+  "requires": {
+    "persistence": "1.0.0",
+    "inventory": "1.0.0"
+  },
+  "optional": {
+    "combat": "1.0.0",
+    "appearance": "1.0.0",
+    "journey": "1.0.0"
+  },
+  "services": [
+    "exo_items"
+  ],
+  "publishes": [],
+  "consumes": [],
+  "persistence": {},
+  "entrypoint": "res://exo_items/module/entrypoint.gd",
+  "optional_module": true,
+  "r3_atomic_adapter": "res://exo_items/integration/atomic_reward_adapter.gd",
+  "atomic_adapter_activation": "DISABLED_UNTIL_CORE_01P_AND_INVENTORY_OWNER_HOOK_CONVERGENCIA_03",
+  "core_01p_contract_required": "CONTRATO-EVENTOS-EXO-01P.md"
+}

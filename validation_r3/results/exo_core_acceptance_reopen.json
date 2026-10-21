@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "test": "restore_region"
+    },
+    {
+      "pass": true,
+      "test": "core_reopened"
+    },
+    {
+      "pass": true,
+      "test": "contract_retained"
+    },
+    {
+      "pass": true,
+      "test": "xp_exact_new_process"
+    },
+    {
+      "pass": true,
+      "test": "inventory_exact_new_process"
+    },
+    {
+      "pass": true,
+      "test": "appearance_exact_new_process"
+    },
+    {
+      "pass": true,
+      "test": "narrative_exact_new_process"
+    },
+    {
+      "pass": true,
+      "test": "reward_cannot_repeat"
+    },
+    {
+      "pass": true,
+      "test": "same_region_reenter"
+    },
+    {
+      "pass": true,
+      "test": "discovery_xp_no_duplicate"
+    },
+    {
+      "pass": true,
+      "test": "capture_12-reaberto"
+    }
+  ],
+  "facts": {
+
+  },
+  "failures": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "roadside_torii",
+  "name": "Portal da Estrada",
+  "kind": "arch",
+  "footprint": [
+    7,
+    2
+  ],
+  "asset_recipe": "torii",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry",
+  "source": "original_parameterized_design_city_forge_01_r2"
+}

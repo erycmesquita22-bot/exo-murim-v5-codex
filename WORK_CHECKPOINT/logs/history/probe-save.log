@@ -1,0 +1,7 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+VALID ORIGINAL true
+VALID JSON false FOUNDATIONS true INVENTORY true
+WORLD false
+JSON {"attributes":{"agilidade":0.0,"forca":0.0,"inteligencia":0.0,"sorte":0.0,"vitalidade":0.0,"vontade":0.0},"boon":"","character":{},"checkpoint":"camp","claimed":false,"coins":0.0,"defeated":[],"encounter":{"done":false,"met":false},"equipped":"","hero":6.0,"items":[],"known":[],"learned":[],"loadout":["corte_inicial","bola_de_gelo","salto_impetuoso"],"lodging":false,"mastery":{},"meditation":0.0,"next_item":1.0,"passives":[],"pending_loot":[],"phase":"hero","race_lock":"","rested":false,"ruins_explored":false,"rumors":[],"seconds":0.0,"stage":0.0,"title":"Viajante","version":4.0,"visits":[],"world":{"claim_receipts":{"count":0.0,"schema":1.0,"shards":{}},"events":{},"generation_version":1.0,"id":"world_dcc30f4c6ccb6a8149e097b8","schema":2.0,"seed":101.0}}
+WRITE false STATUS Falha ao conferir o salvamento.

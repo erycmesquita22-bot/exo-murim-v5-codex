@@ -1,0 +1,560 @@
+{
+  "schema": 1,
+  "source_audio_zip": "EXO-MURIM-SOUND-FORGE-01-AUDIOS-REAIS.zip",
+  "source_vfx_zip": "EXO-MURIM-VFX-02-PROTOTIPOS.zip",
+  "status": "real_source_verified_approval_import_and_host_binding_pending",
+  "rights": "pending_user_review_of_Runway_terms_and_per_asset_listening",
+  "events": {
+    "wind.prepare": {
+      "path": "res://sound_forge01/audio/wind/prepare.ogg",
+      "sha256": "ef14a131f4b69d08f4920a487fa60f2b74b5f54d43d0591e8e7504d3769cb2f5",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.sword.draw": {
+      "path": "res://sound_forge01/audio/weapon/sword/draw.ogg",
+      "sha256": "e270e5f266a6862e565e65a33c084689c38da35b4a20da8e24e2dafe15aa864d",
+      "approval": "user_approved_sample",
+      "rights": "pending_review"
+    },
+    "weapon.sword.swing_light": {
+      "path": "res://sound_forge01/audio/weapon/sword/swing_light.ogg",
+      "sha256": "712de99302ac03c79a8bbe4c03a298a9f71bbd4a3bca6ac6f57233dae1fdac27",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "wind.sword.wave": {
+      "path": "res://sound_forge01/audio/wind/sword/wave.ogg",
+      "sha256": "76490f93117dc48f11dc6de0935f0d0b6535beed0dee33df427a68ce1e4cdf32",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "wind.impact.a": {
+      "path": "res://sound_forge01/audio/wind/impact/a.ogg",
+      "sha256": "964e7f998778a334f03d799914b00f41ea8d8876ef345001001d6a74f5205404",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.prepare": {
+      "path": "res://sound_forge01/audio/qi/prepare.ogg",
+      "sha256": "fa7e703efff19dc328db72eb7970c33ff5943b867ccba4547509cfdb1b032064",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.sword.swing_heavy": {
+      "path": "res://sound_forge01/audio/weapon/sword/swing_heavy.ogg",
+      "sha256": "6771b9333db9649175e1e4d7315f72aa8177c83f4c8e2507a222c3aa0cacdb17",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.release": {
+      "path": "res://sound_forge01/audio/qi/release.ogg",
+      "sha256": "babea83040ad1ed29882cc77a8b25624d7eebbec2df880c5368749f986dacb1a",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.sword.hit_body": {
+      "path": "res://sound_forge01/audio/weapon/sword/hit_body.ogg",
+      "sha256": "f8bc9b759a16c00479f37216f66d33c289ab713084f30c3e837d1054ccd09b64",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.impact": {
+      "path": "res://sound_forge01/audio/qi/impact.ogg",
+      "sha256": "77ba31baaf7f980177ca406696711c7c011e8294c9dc5831c2c1f830f692964c",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.spear.thrust": {
+      "path": "res://sound_forge01/audio/weapon/spear/thrust.ogg",
+      "sha256": "c60ed37fab47c3eec6dbcec8d9970500d3c52deb87bbc3886858083a591032f0",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "wind.cast.b": {
+      "path": "res://sound_forge01/audio/wind/cast/b.ogg",
+      "sha256": "6217b925406885b28c50e9283c5ae28109e7d7ac34e46d20f415b8f9bfdfaec1",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.spear.hit": {
+      "path": "res://sound_forge01/audio/weapon/spear/hit.ogg",
+      "sha256": "5a0e462fd36398f038ca5c8db89c1e597acde9f076d0852d6ced4f4e73902ffe",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "wind.impact.b": {
+      "path": "res://sound_forge01/audio/wind/impact/b.ogg",
+      "sha256": "8d8446770596eb1e44b0377ad977ef4b39cbd323055922ea93e92307170f025c",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "combat.fist.swing": {
+      "path": "res://sound_forge01/audio/combat/fist/swing.ogg",
+      "sha256": "9be3a9aba43f937789c07f7adc1fc14c858640e394460da69a9a160e4c6aff33",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "combat.fist.hit": {
+      "path": "res://sound_forge01/audio/combat/fist/hit.ogg",
+      "sha256": "bcac6691fa35df01320e772fc6d7bf72eadef91ca1abc5d3b79694971835887d",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "movement.jump": {
+      "path": "res://sound_forge01/audio/movement/jump.ogg",
+      "sha256": "57a890396ce2080e9757848b85a0b0f76c221657f1424d5a69225bf0b3193ff8",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "combat.kick.swing": {
+      "path": "res://sound_forge01/audio/combat/kick/swing.ogg",
+      "sha256": "9fc2d6f999e16f362b200ab401afad4e55b0f0fa4adee98cb3b75afb48827ec1",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "combat.dodge.quickstep": {
+      "path": "res://sound_forge01/audio/combat/dodge/quickstep.ogg",
+      "sha256": "0964b196168ff3949e24028479ad299057445d12e3a35871a6b413c55d193844",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "combat.kick.hit": {
+      "path": "res://sound_forge01/audio/combat/kick/hit.ogg",
+      "sha256": "bd3b3eb2febe01372800f4f3b6a34e7e4257c6083a73bcfd7c578b4457f2a9ab",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.dagger.draw": {
+      "path": "res://sound_forge01/audio/weapon/dagger/draw.ogg",
+      "sha256": "741628ef025bc6b007316ee75fbd3067554b5569ad3c70aff66b431667131a0d",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.dagger.slash": {
+      "path": "res://sound_forge01/audio/weapon/dagger/slash.ogg",
+      "sha256": "1443d74c3afaa56221231e5762b0bf3a59434e020f9afa820ebee917bbb848ff",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "weapon.blade.hit_leather": {
+      "path": "res://sound_forge01/audio/weapon/blade/hit_leather.ogg",
+      "sha256": "5611e99df2bbc260043c314b0cc4533de3222b6c48fbb31602515343cbfedd98",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.meditation.breath": {
+      "path": "res://sound_forge01/audio/qi/meditation/breath.ogg",
+      "sha256": "d2edebedd53df5e66a9a4229e0d5687fc114e26a969f2172bc8dbb923182e8c7",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.barrier.activate": {
+      "path": "res://sound_forge01/audio/qi/barrier/activate.ogg",
+      "sha256": "77dc95281b18fcbf150f1e849917723239b46d2698ecc674d9e90941afdc0c9b",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.barrier.hit": {
+      "path": "res://sound_forge01/audio/qi/barrier/hit.ogg",
+      "sha256": "78ffe4b288852d73d2f18169b078fec25ec2a890c4bb4efa7e25ffb9c6eeb141",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "fire.prepare": {
+      "path": "res://sound_forge01/audio/fire/prepare.ogg",
+      "sha256": "1cff5e387fcac5f2a8f4c119cd458579f994f44a67988d2fab6ebe27cbcc3bc8",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "fire.cast": {
+      "path": "res://sound_forge01/audio/fire/cast.ogg",
+      "sha256": "061dfff02870267b142d5395b3ef3a4c3cc5ae8e450ea889329b4ccd0f78bbe4",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "fire.impact": {
+      "path": "res://sound_forge01/audio/fire/impact.ogg",
+      "sha256": "8858e6308230b0a59a483a54fcd3a8310b79100744cabc058affe874515c0a03",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "ice.prepare": {
+      "path": "res://sound_forge01/audio/ice/prepare.ogg",
+      "sha256": "a87a725acc060f4d2652a830cca6548c185684aae6ee27b217acbeb23dca6d7c",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "ice.cast": {
+      "path": "res://sound_forge01/audio/ice/cast.ogg",
+      "sha256": "73c8f0ee3e1af1135452db41d4c2dedc89103e7e82e9c5e3605d6f8eb3473f8c",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "ice.impact": {
+      "path": "res://sound_forge01/audio/ice/impact.ogg",
+      "sha256": "84f67b213996afc33d8cc88f376aca75eeb5ec67d2dcb8229392534277bd850a",
+      "approval": "pending",
+      "rights": "pending_review"
+    },
+    "qi.meditation.aura": {
+      "path": "res://sound_forge01/audio/qi/meditation/aura.ogg",
+      "sha256": "1fe69762b708f8da7688eaa598a54b3692922f15fc875937e3394560d456afa9",
+      "approval": "pending",
+      "rights": "pending_review"
+    }
+  },
+  "vfx": {
+    "corte_qi": {
+      "source_member": "EXO-MURIM-VFX-Rodada-02/corte_qi/corte_qi_atlas_6x4_RGBA.png",
+      "sha256": "3cb86dd57f73dab02204b14c49d596cb5df52af37baf38b7f574cae7cf671865",
+      "frames": 24,
+      "stage": "candidate_only",
+      "approval": "pending_engine_preview"
+    },
+    "impacto_marcial": {
+      "source_member": "EXO-MURIM-VFX-Rodada-02/impacto_marcial/impacto_marcial_atlas_6x4_RGBA.png",
+      "sha256": "d0c86905d6ec67dfb6c2c03e95d6af460126a86427d3e97e8c25c5fdcdc360f3",
+      "frames": 24,
+      "stage": "candidate_only",
+      "approval": "pending_engine_preview"
+    },
+    "passo_rapido": {
+      "source_member": "EXO-MURIM-VFX-Rodada-02/passo_rapido/passo_rapido_atlas_6x4_RGBA.png",
+      "sha256": "7e3c3098073652a14646167cd5006bc6eb0a93b705903cd852e00ff532199b97",
+      "frames": 24,
+      "stage": "candidate_only",
+      "approval": "pending_engine_preview"
+    },
+    "teleporte_curto": {
+      "source_member": "EXO-MURIM-VFX-Rodada-02/teleporte_curto/teleporte_curto_atlas_6x4_RGBA.png",
+      "sha256": "252c532f83649b601cbc99bde71cc7e3cbca8f7e74ca862b161db3b5ec5b4907",
+      "frames": 24,
+      "stage": "candidate_only",
+      "approval": "pending_engine_preview"
+    }
+  },
+  "skills": {
+    "exo.sf.fio_do_bambu": {
+      "sound_event_ids": [
+        "wind.prepare",
+        "weapon.sword.draw",
+        "weapon.sword.swing_light",
+        "wind.sword.wave",
+        "wind.impact.a"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.sete_cortes_do_vento": {
+      "sound_event_ids": [
+        "wind.prepare",
+        "weapon.sword.draw",
+        "weapon.sword.swing_light",
+        "wind.sword.wave",
+        "wind.impact.a"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.lamina_do_crepusculo": {
+      "sound_event_ids": [
+        "wind.prepare",
+        "weapon.sword.draw",
+        "weapon.sword.swing_light",
+        "wind.sword.wave",
+        "wind.impact.a"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.quebra_rocha": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.sword.swing_heavy",
+        "qi.release",
+        "weapon.sword.hit_body",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.muralha_da_montanha": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.sword.swing_heavy",
+        "qi.release",
+        "weapon.sword.hit_body",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.terremoto_do_sabre": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.sword.swing_heavy",
+        "qi.release",
+        "weapon.sword.hit_body",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/corte_qi",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.ponta_do_dragao": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.spear.thrust",
+        "wind.cast.b",
+        "weapon.spear.hit",
+        "wind.impact.b"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.serpente_de_nove_passos": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.spear.thrust",
+        "wind.cast.b",
+        "weapon.spear.hit",
+        "wind.impact.b"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.chuva_de_lancas": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "weapon.spear.thrust",
+        "wind.cast.b",
+        "weapon.spear.hit",
+        "wind.impact.b"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.punho_do_rio": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "combat.fist.swing",
+        "qi.release",
+        "combat.fist.hit",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.onda_reversa": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "combat.fist.swing",
+        "qi.release",
+        "combat.fist.hit",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.cem_correntes": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "combat.fist.swing",
+        "qi.release",
+        "combat.fist.hit",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.passo_da_garca": {
+      "sound_event_ids": [
+        "movement.jump",
+        "combat.kick.swing",
+        "combat.dodge.quickstep",
+        "combat.kick.hit"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.chute_crescente": {
+      "sound_event_ids": [
+        "movement.jump",
+        "combat.kick.swing",
+        "combat.dodge.quickstep",
+        "combat.kick.hit"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.asas_do_grou": {
+      "sound_event_ids": [
+        "movement.jump",
+        "combat.kick.swing",
+        "combat.dodge.quickstep",
+        "combat.kick.hit"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.agulha_sombria": {
+      "sound_event_ids": [
+        "weapon.dagger.draw",
+        "weapon.dagger.slash",
+        "qi.release",
+        "weapon.blade.hit_leather",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.nuvem_de_fumo": {
+      "sound_event_ids": [
+        "weapon.dagger.draw",
+        "weapon.dagger.slash",
+        "qi.release",
+        "weapon.blade.hit_leather",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.mil_laminas_ocultas": {
+      "sound_event_ids": [
+        "weapon.dagger.draw",
+        "weapon.dagger.slash",
+        "qi.release",
+        "weapon.blade.hit_leather",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/passo_rapido",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.sopro_de_jade": {
+      "sound_event_ids": [
+        "qi.meditation.breath",
+        "qi.prepare",
+        "qi.barrier.activate",
+        "qi.barrier.hit"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.circulo_de_jade": {
+      "sound_event_ids": [
+        "qi.meditation.breath",
+        "qi.prepare",
+        "qi.barrier.activate",
+        "qi.barrier.hit"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.purificacao_primordial": {
+      "sound_event_ids": [
+        "qi.meditation.breath",
+        "qi.prepare",
+        "qi.barrier.activate",
+        "qi.barrier.hit"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.brasas_da_fenix": {
+      "sound_event_ids": [
+        "fire.prepare",
+        "fire.cast",
+        "qi.release",
+        "fire.impact"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.circulo_cinzento": {
+      "sound_event_ids": [
+        "fire.prepare",
+        "fire.cast",
+        "qi.release",
+        "fire.impact"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.renascer_das_cinzas": {
+      "sound_event_ids": [
+        "fire.prepare",
+        "fire.cast",
+        "qi.release",
+        "fire.impact"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.flecha_de_geada": {
+      "sound_event_ids": [
+        "ice.prepare",
+        "ice.cast",
+        "qi.release",
+        "ice.impact"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.prisao_de_neve": {
+      "sound_event_ids": [
+        "ice.prepare",
+        "ice.cast",
+        "qi.release",
+        "ice.impact"
+      ],
+      "vfx_prototypes": []
+    },
+    "exo.sf.selo_do_vazio": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "qi.meditation.aura",
+        "qi.release",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/teleporte_curto",
+        "vfx_proto02/impacto_marcial"
+      ]
+    },
+    "exo.sf.golpe_do_vazio": {
+      "sound_event_ids": [
+        "qi.prepare",
+        "qi.meditation.aura",
+        "qi.release",
+        "qi.impact"
+      ],
+      "vfx_prototypes": [
+        "vfx_proto02/teleporte_curto",
+        "vfx_proto02/impacto_marcial"
+      ]
+    }
+  }
+}

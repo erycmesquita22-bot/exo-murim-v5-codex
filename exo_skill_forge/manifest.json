@@ -1,0 +1,31 @@
+{
+  "id": "exo_skill_forge",
+  "version": "1.2.0",
+  "requires": {
+    "combat": "1.0.0",
+    "persistence": "1.0.0"
+  },
+  "optional": {
+    "exo_martial": "1.2.0",
+    "martial_catalog": "1.0.0",
+    "bestiary": "2.0.0",
+    "exo_items": "2.0.2",
+    "journey": "1.0.0"
+  },
+  "services": [
+    "skill_forge"
+  ],
+  "publishes": [],
+  "consumes": [],
+  "persistence": {},
+  "entrypoint": "res://exo_skill_forge/module.gd",
+  "optional_module": true,
+  "integration_mode": "catalog_read_only_default_authorial_fail_closed_trusted_combat_host_schema2",
+  "host_contract": "exo_core_combat_owner_v1",
+  "host_contract_schema": 2,
+  "feature_flags": {
+    "enable_authorial_cast": false,
+    "enable_unverified_media": false,
+    "enable_shadow_saves": false
+  }
+}

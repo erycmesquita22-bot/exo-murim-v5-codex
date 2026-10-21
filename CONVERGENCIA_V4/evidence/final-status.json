@@ -1,0 +1,27 @@
+[
+  {
+    "case": "bestiary03-physical-final",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "bestiary03-reopen",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "functional-consolidated",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "city-final",
+    "exit": 0,
+    "status": "PASS"
+  },
+  {
+    "case": "economy-consolidated",
+    "exit": 0,
+    "status": "PASS"
+  }
+]

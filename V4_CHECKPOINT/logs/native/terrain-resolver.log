@@ -1,0 +1,3 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+TERRAIN_R3_NATIVE true { "schema": "exo.terrain.resolution.v1", "group": "grass", "variant_index": 8.0, "biome": "grassland", "elevation": 10.0 }

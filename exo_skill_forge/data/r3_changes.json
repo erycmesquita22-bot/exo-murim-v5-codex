@@ -1,0 +1,14 @@
+{
+ "schema_version": 1,
+ "source": "EXO-SKILL-FORGE-01-R2-BIBLIOTECA-EXPANDIDA.zip",
+ "record_count": 184,
+ "legacy_ids_unchanged": true,
+ "authorial_ids_unchanged": true,
+ "balance_unchanged": true,
+ "schema_only_fixes": [
+  {"id": "exo.sf.fio_do_bambu", "field": "tags.weapon_poses", "before": ["blade"], "after": ["blade", "draw"], "reason": "katana weapon pose is draw in C3 Work"},
+  {"id": "exo.sf.sete_cortes_do_vento", "field": "tags.weapon_poses", "before": ["blade"], "after": ["blade", "draw"], "reason": "katana weapon pose is draw in C3 Work"}
+ ],
+ "save_migration": false,
+ "gameplay_enablement": "none"
+}

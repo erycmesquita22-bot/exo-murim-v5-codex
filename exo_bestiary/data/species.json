@@ -1,0 +1,605 @@
+{
+  "schema": 2,
+  "species": [
+    {
+      "id": "deer",
+      "name": "Cervo da Floresta",
+      "category": "herbivore",
+      "behavior": "prey",
+      "biomes": [
+        "forest",
+        "meadow"
+      ],
+      "habitat": [
+        "forest",
+        "meadow"
+      ],
+      "stats": {
+        "hp": 38,
+        "speed": 5.3,
+        "perception": 16,
+        "size": 1.0
+      },
+      "diet": "herbivore",
+      "temperament": "prey",
+      "group": [
+        2,
+        5
+      ],
+      "attacks": [
+        "kick"
+      ],
+      "visual_family": "cervid",
+      "activity": "day",
+      "territory_radius": 32,
+      "loot_tags": [
+        "materials_deer"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "rabbit",
+      "name": "Coelho Selvagem",
+      "category": "herbivore",
+      "behavior": "prey",
+      "biomes": [
+        "forest",
+        "meadow"
+      ],
+      "habitat": [
+        "forest",
+        "meadow"
+      ],
+      "stats": {
+        "hp": 12,
+        "speed": 7.0,
+        "perception": 11,
+        "size": 0.5
+      },
+      "diet": "herbivore",
+      "temperament": "prey",
+      "group": [
+        1,
+        4
+      ],
+      "attacks": [
+        "kick"
+      ],
+      "visual_family": "small_quadruped",
+      "activity": "day",
+      "territory_radius": 32,
+      "loot_tags": [
+        "materials_rabbit"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "mountain_goat",
+      "name": "Cabra da Montanha",
+      "category": "herbivore",
+      "behavior": "prey",
+      "biomes": [
+        "mountain",
+        "cliff"
+      ],
+      "habitat": [
+        "mountain",
+        "cliff"
+      ],
+      "stats": {
+        "hp": 40,
+        "speed": 5.1,
+        "perception": 13,
+        "size": 1.0
+      },
+      "diet": "herbivore",
+      "temperament": "prey",
+      "group": [
+        2,
+        4
+      ],
+      "attacks": [
+        "headbutt"
+      ],
+      "visual_family": "caprine",
+      "activity": "day",
+      "territory_radius": 32,
+      "loot_tags": [
+        "materials_mountain_goat"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "wild_ox",
+      "name": "Boi Selvagem",
+      "category": "herbivore",
+      "behavior": "territorial",
+      "biomes": [
+        "meadow",
+        "forest"
+      ],
+      "habitat": [
+        "meadow",
+        "forest"
+      ],
+      "stats": {
+        "hp": 110,
+        "speed": 2.6,
+        "perception": 12,
+        "size": 1.4
+      },
+      "diet": "herbivore",
+      "temperament": "territorial",
+      "group": [
+        2,
+        4
+      ],
+      "attacks": [
+        "charge"
+      ],
+      "visual_family": "bovine",
+      "activity": "day",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_wild_ox"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "boar",
+      "name": "Javali",
+      "category": "territorial",
+      "behavior": "territorial",
+      "biomes": [
+        "forest",
+        "meadow"
+      ],
+      "habitat": [
+        "forest",
+        "meadow"
+      ],
+      "stats": {
+        "hp": 75,
+        "speed": 4.3,
+        "perception": 13,
+        "size": 1.0
+      },
+      "diet": "omnivore",
+      "temperament": "territorial",
+      "group": [
+        1,
+        3
+      ],
+      "attacks": [
+        "tusk_charge",
+        "headbutt"
+      ],
+      "visual_family": "boar",
+      "activity": "day",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_boar"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "bear",
+      "name": "Urso",
+      "category": "territorial",
+      "behavior": "territorial",
+      "biomes": [
+        "forest",
+        "mountain"
+      ],
+      "habitat": [
+        "forest",
+        "mountain"
+      ],
+      "stats": {
+        "hp": 170,
+        "speed": 3.5,
+        "perception": 15,
+        "size": 1.4
+      },
+      "diet": "omnivore",
+      "temperament": "territorial",
+      "group": [
+        1,
+        1
+      ],
+      "attacks": [
+        "paw_slam",
+        "bite"
+      ],
+      "visual_family": "ursine",
+      "activity": "day",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_bear"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "wild_buffalo",
+      "name": "Búfalo Selvagem",
+      "category": "territorial",
+      "behavior": "territorial",
+      "biomes": [
+        "wetland",
+        "meadow"
+      ],
+      "habitat": [
+        "wetland",
+        "meadow"
+      ],
+      "stats": {
+        "hp": 150,
+        "speed": 2.7,
+        "perception": 13,
+        "size": 1.5
+      },
+      "diet": "herbivore",
+      "temperament": "territorial",
+      "group": [
+        2,
+        5
+      ],
+      "attacks": [
+        "charge"
+      ],
+      "visual_family": "bovine",
+      "activity": "day",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_wild_buffalo"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "wolf",
+      "name": "Lobo",
+      "category": "predator",
+      "behavior": "predator",
+      "biomes": [
+        "forest",
+        "mountain"
+      ],
+      "habitat": [
+        "forest",
+        "mountain"
+      ],
+      "stats": {
+        "hp": 60,
+        "speed": 5.5,
+        "perception": 18,
+        "size": 1.0
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        2,
+        5
+      ],
+      "attacks": [
+        "bite",
+        "lunge"
+      ],
+      "visual_family": "canid",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_wolf"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "tiger",
+      "name": "Tigre",
+      "category": "predator",
+      "behavior": "predator",
+      "biomes": [
+        "forest",
+        "bamboo"
+      ],
+      "habitat": [
+        "forest",
+        "bamboo"
+      ],
+      "stats": {
+        "hp": 125,
+        "speed": 5.7,
+        "perception": 19,
+        "size": 1.2
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        1
+      ],
+      "attacks": [
+        "pounce",
+        "bite"
+      ],
+      "visual_family": "feline",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_tiger"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "leopard",
+      "name": "Leopardo",
+      "category": "predator",
+      "behavior": "predator",
+      "biomes": [
+        "forest",
+        "mountain"
+      ],
+      "habitat": [
+        "forest",
+        "mountain"
+      ],
+      "stats": {
+        "hp": 85,
+        "speed": 6.5,
+        "perception": 17,
+        "size": 1.0
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        1
+      ],
+      "attacks": [
+        "pounce",
+        "bite"
+      ],
+      "visual_family": "feline",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_leopard"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "snake",
+      "name": "Serpente",
+      "category": "predator",
+      "behavior": "predator",
+      "biomes": [
+        "wetland",
+        "forest",
+        "rock"
+      ],
+      "habitat": [
+        "wetland",
+        "forest",
+        "rock"
+      ],
+      "stats": {
+        "hp": 24,
+        "speed": 3.3,
+        "perception": 8,
+        "size": 0.6
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        2
+      ],
+      "attacks": [
+        "quick_bite"
+      ],
+      "visual_family": "serpent",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_snake"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "fox",
+      "name": "Raposa",
+      "category": "predator",
+      "behavior": "predator",
+      "biomes": [
+        "forest",
+        "meadow"
+      ],
+      "habitat": [
+        "forest",
+        "meadow"
+      ],
+      "stats": {
+        "hp": 35,
+        "speed": 5.0,
+        "perception": 15,
+        "size": 0.72
+      },
+      "diet": "omnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        2
+      ],
+      "attacks": [
+        "bite"
+      ],
+      "visual_family": "canid",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_fox"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "corrupted_wolf",
+      "name": "Lobo Corrompido",
+      "category": "mystical",
+      "behavior": "predator",
+      "biomes": [
+        "ruins",
+        "corrupted_forest"
+      ],
+      "habitat": [
+        "ruins",
+        "corrupted_forest"
+      ],
+      "stats": {
+        "hp": 105,
+        "speed": 6.0,
+        "perception": 22,
+        "size": 1.0
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        3
+      ],
+      "attacks": [
+        "bite",
+        "lunge"
+      ],
+      "visual_family": "canid",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_corrupted_wolf"
+      ],
+      "notes": "Qi corrompido; fonte narrativa opcional",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "spirit_deer",
+      "name": "Cervo Espiritual",
+      "category": "mystical",
+      "behavior": "prey",
+      "biomes": [
+        "sacred_forest",
+        "qi_high"
+      ],
+      "habitat": [
+        "sacred_forest",
+        "qi_high"
+      ],
+      "stats": {
+        "hp": 70,
+        "speed": 6.4,
+        "perception": 22,
+        "size": 1.0
+      },
+      "diet": "herbivore",
+      "temperament": "prey",
+      "group": [
+        1,
+        1
+      ],
+      "attacks": [
+        "kick"
+      ],
+      "visual_family": "cervid",
+      "activity": "day",
+      "territory_radius": 32,
+      "loot_tags": [
+        "materials_spirit_deer"
+      ],
+      "notes": "Foge; não é automaticamente hostil",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "stone_guardian",
+      "name": "Guardião Rochoso",
+      "category": "mystical",
+      "behavior": "territorial",
+      "biomes": [
+        "ruins",
+        "mountain"
+      ],
+      "habitat": [
+        "ruins",
+        "mountain"
+      ],
+      "stats": {
+        "hp": 240,
+        "speed": 2.2,
+        "perception": 14,
+        "size": 1.5
+      },
+      "diet": "none",
+      "temperament": "territorial",
+      "group": [
+        1,
+        1
+      ],
+      "attacks": [
+        "paw_slam"
+      ],
+      "visual_family": "ursine",
+      "activity": "day",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_stone_guardian"
+      ],
+      "notes": "Guardião de ruína",
+      "status": "profile_with_original_procedural_voxel"
+    },
+    {
+      "id": "qi_serpent",
+      "name": "Serpente de Qi",
+      "category": "mystical",
+      "behavior": "predator",
+      "biomes": [
+        "qi_high",
+        "wetland"
+      ],
+      "habitat": [
+        "qi_high",
+        "wetland"
+      ],
+      "stats": {
+        "hp": 65,
+        "speed": 4.0,
+        "perception": 16,
+        "size": 1.0
+      },
+      "diet": "carnivore",
+      "temperament": "predator",
+      "group": [
+        1,
+        2
+      ],
+      "attacks": [
+        "quick_bite"
+      ],
+      "visual_family": "serpent",
+      "activity": "dusk",
+      "territory_radius": 22,
+      "loot_tags": [
+        "materials_qi_serpent"
+      ],
+      "notes": "",
+      "status": "profile_with_original_procedural_voxel"
+    }
+  ]
+}

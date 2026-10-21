@@ -1,0 +1,10 @@
+{
+  "id": "guard",
+  "name": "Guarda",
+  "living_world_role": "guard",
+  "weight": 0.13,
+  "can_be_narratively_important": true,
+  "is_noble": false,
+  "physical_spawn_authority": "LivingWorld",
+  "implementation": "rules_only"
+}

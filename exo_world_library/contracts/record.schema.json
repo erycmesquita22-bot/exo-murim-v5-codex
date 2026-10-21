@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exo.world_library.record.schema.v1",
+  "title": "EXO World Library Record",
+  "type": "object",
+  "required": [
+    "id",
+    "domain",
+    "label",
+    "weight",
+    "tags",
+    "conditions",
+    "links",
+    "variables",
+    "origin",
+    "authority",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 128,
+      "pattern": "^[a-z][a-z0-9_]*/[a-z0-9_]+$"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 2
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "conditions": {
+      "type": "object"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "variables": {
+      "type": "object"
+    },
+    "origin": {
+      "enum": [
+        "authorial",
+        "external_ref"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "reference_only"
+      ]
+    },
+    "authority": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

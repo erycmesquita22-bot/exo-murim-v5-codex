@@ -1,0 +1,467 @@
+{
+  "grass": {
+    "path": "res://exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
+    "columns": 4,
+    "rows": 4,
+    "tile_size": 256,
+    "gutter": 8,
+    "resolution": [
+      1088,
+      1088
+    ],
+    "tiles": {
+      "grass_base_a": {
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "grass_base_b": {
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "grass_vivid_a": {
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "grass_vivid_b": {
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "grass_dense": {
+        "index": 4,
+        "col": 0,
+        "row": 1
+      },
+      "grass_wet": {
+        "index": 5,
+        "col": 1,
+        "row": 1
+      },
+      "grass_edge": {
+        "index": 6,
+        "col": 2,
+        "row": 1
+      },
+      "grass_microvariation": {
+        "index": 7,
+        "col": 3,
+        "row": 1
+      },
+      "grass_meadow": {
+        "index": 8,
+        "col": 0,
+        "row": 2
+      },
+      "grass_understory": {
+        "index": 9,
+        "col": 1,
+        "row": 2
+      },
+      "grass_sunlit": {
+        "index": 10,
+        "col": 2,
+        "row": 2
+      },
+      "grass_mossy": {
+        "index": 11,
+        "col": 3,
+        "row": 2
+      },
+      "grass_bamboo_edge": {
+        "index": 12,
+        "col": 0,
+        "row": 3
+      },
+      "grass_flowery_meadow": {
+        "index": 13,
+        "col": 1,
+        "row": 3
+      },
+      "grass_riverside": {
+        "index": 14,
+        "col": 2,
+        "row": 3
+      },
+      "grass_autumn_floor": {
+        "index": 15,
+        "col": 3,
+        "row": 3
+      }
+    }
+  },
+  "dirt": {
+    "path": "res://exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
+    "columns": 4,
+    "rows": 4,
+    "tile_size": 256,
+    "gutter": 8,
+    "resolution": [
+      1088,
+      1088
+    ],
+    "tiles": {
+      "dirt_clean": {
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "dirt_pebbles": {
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "dirt_patches": {
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "dirt_orange_a": {
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "dirt_orange_b": {
+        "index": 4,
+        "col": 0,
+        "row": 1
+      },
+      "dirt_wet": {
+        "index": 5,
+        "col": 1,
+        "row": 1
+      },
+      "dirt_mud_light": {
+        "index": 6,
+        "col": 2,
+        "row": 1
+      },
+      "dirt_compacted": {
+        "index": 7,
+        "col": 3,
+        "row": 1
+      },
+      "dirt_forest_litter": {
+        "index": 8,
+        "col": 0,
+        "row": 2
+      },
+      "dirt_fine_gravel": {
+        "index": 9,
+        "col": 1,
+        "row": 2
+      },
+      "dirt_riverbank": {
+        "index": 10,
+        "col": 2,
+        "row": 2
+      },
+      "dirt_warm_path": {
+        "index": 11,
+        "col": 3,
+        "row": 2
+      },
+      "dirt_clay_red": {
+        "index": 12,
+        "col": 0,
+        "row": 3
+      },
+      "dirt_sandy": {
+        "index": 13,
+        "col": 1,
+        "row": 3
+      },
+      "dirt_trampled": {
+        "index": 14,
+        "col": 2,
+        "row": 3
+      },
+      "dirt_granite_dust": {
+        "index": 15,
+        "col": 3,
+        "row": 3
+      }
+    }
+  },
+  "stone": {
+    "path": "res://exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
+    "columns": 4,
+    "rows": 4,
+    "tile_size": 256,
+    "gutter": 8,
+    "resolution": [
+      1088,
+      1088
+    ],
+    "tiles": {
+      "stone_plaza_a": {
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "stone_plaza_b": {
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "stone_plaza_c": {
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "stone_path_a": {
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "stone_path_b": {
+        "index": 4,
+        "col": 0,
+        "row": 1
+      },
+      "stone_path_c": {
+        "index": 5,
+        "col": 1,
+        "row": 1
+      },
+      "stone_path_border": {
+        "index": 6,
+        "col": 2,
+        "row": 1
+      },
+      "stone_to_dirt": {
+        "index": 7,
+        "col": 3,
+        "row": 1
+      },
+      "stone_to_grass": {
+        "index": 8,
+        "col": 0,
+        "row": 2
+      },
+      "stone_plaza_moss": {
+        "index": 9,
+        "col": 1,
+        "row": 2
+      },
+      "stone_path_worn": {
+        "index": 10,
+        "col": 2,
+        "row": 2
+      },
+      "stone_path_rustic": {
+        "index": 11,
+        "col": 3,
+        "row": 2
+      },
+      "stone_plaza_warm": {
+        "index": 12,
+        "col": 0,
+        "row": 3
+      },
+      "stone_path_moss_dense": {
+        "index": 13,
+        "col": 1,
+        "row": 3
+      },
+      "stone_slate": {
+        "index": 14,
+        "col": 2,
+        "row": 3
+      },
+      "stone_ruins": {
+        "index": 15,
+        "col": 3,
+        "row": 3
+      }
+    }
+  },
+  "details": {
+    "path": "res://exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
+    "columns": 4,
+    "rows": 4,
+    "tile_size": 256,
+    "gutter": 8,
+    "resolution": [
+      1088,
+      1088
+    ],
+    "tiles": {
+      "detail_pebbles": {
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "detail_gravel": {
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "detail_small_herbs": {
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "detail_wet_patches": {
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "detail_small_flowers": {
+        "index": 4,
+        "col": 0,
+        "row": 1
+      },
+      "detail_moss": {
+        "index": 5,
+        "col": 1,
+        "row": 1
+      },
+      "detail_leaf_litter": {
+        "index": 6,
+        "col": 2,
+        "row": 1
+      },
+      "detail_wildflowers": {
+        "index": 7,
+        "col": 3,
+        "row": 1
+      },
+      "detail_lichen": {
+        "index": 8,
+        "col": 0,
+        "row": 2
+      },
+      "detail_fine_cracks": {
+        "index": 9,
+        "col": 1,
+        "row": 2
+      },
+      "detail_petals": {
+        "index": 10,
+        "col": 2,
+        "row": 2
+      },
+      "detail_needle_litter": {
+        "index": 11,
+        "col": 3,
+        "row": 2
+      },
+      "detail_reeds": {
+        "index": 12,
+        "col": 0,
+        "row": 3
+      },
+      "detail_dry_leaves": {
+        "index": 13,
+        "col": 1,
+        "row": 3
+      },
+      "detail_river_silt": {
+        "index": 14,
+        "col": 2,
+        "row": 3
+      },
+      "detail_sand_grains": {
+        "index": 15,
+        "col": 3,
+        "row": 3
+      }
+    }
+  },
+  "vegetation": {
+    "path": "res://exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
+    "columns": 4,
+    "rows": 4,
+    "tile_size": 256,
+    "gutter": 8,
+    "resolution": [
+      1088,
+      1088
+    ],
+    "tiles": {
+      "grass_tuft_01": {
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "grass_tuft_02": {
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "grass_tuft_03": {
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "low_foliage_01": {
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "small_bush_01": {
+        "index": 4,
+        "col": 0,
+        "row": 1
+      },
+      "low_flowers_01": {
+        "index": 5,
+        "col": 1,
+        "row": 1
+      },
+      "grass_tuft_04": {
+        "index": 6,
+        "col": 2,
+        "row": 1
+      },
+      "grass_tuft_05": {
+        "index": 7,
+        "col": 3,
+        "row": 1
+      },
+      "low_foliage_02": {
+        "index": 8,
+        "col": 0,
+        "row": 2
+      },
+      "small_bush_02": {
+        "index": 9,
+        "col": 1,
+        "row": 2
+      },
+      "grass_tuft_06": {
+        "index": 10,
+        "col": 2,
+        "row": 2
+      },
+      "reed_clump_01": {
+        "index": 11,
+        "col": 3,
+        "row": 2
+      },
+      "fern_01": {
+        "index": 12,
+        "col": 0,
+        "row": 3
+      },
+      "moss_tuft_01": {
+        "index": 13,
+        "col": 1,
+        "row": 3
+      },
+      "flowers_pink_01": {
+        "index": 14,
+        "col": 2,
+        "row": 3
+      },
+      "small_bush_03": {
+        "index": 15,
+        "col": 3,
+        "row": 3
+      }
+    }
+  }
+}

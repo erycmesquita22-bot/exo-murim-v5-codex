@@ -1,0 +1,258 @@
+{
+  "domain": "audio_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/birds",
+      "label": "Aves diurnas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "birds",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/wind",
+      "label": "Vento de montanha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "wind",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/water",
+      "label": "Curso d’água",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "water",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/market",
+      "label": "Mercado aberto",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "market",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/temple",
+      "label": "Sino distante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "temple",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/forge",
+      "label": "Martelo e bigorna",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "forge",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/forest",
+      "label": "Passos na folhagem",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "forest",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/duel",
+      "label": "Lâminas chocando",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "duel",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/night",
+      "label": "Insetos noturnos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "night",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/crowd",
+      "label": "Conversas dispersas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "crowd",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/rain",
+      "label": "Chuva no telhado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "rain",
+        "file_claim": "none"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "audio_theme",
+      "excludes": [],
+      "id": "audio_theme/road",
+      "label": "Carroças e trilhas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "audio"
+      ],
+      "variables": {
+        "asset_ownership": "audio",
+        "audio_cue_hint": "road",
+        "file_claim": "none"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

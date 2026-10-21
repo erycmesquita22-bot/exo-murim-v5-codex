@@ -1,0 +1,391 @@
+{
+  "domain": "diplomatic_offer",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/tregua_30_dias",
+      "label": "Proposta: Trégua de trinta dias",
+      "links": [
+        "peace_treaty/tregua_30_dias"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "war"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "mutual_observers",
+        "offer_type": "ceasefire",
+        "requires_signed_offer": true,
+        "verification": "shared_watch"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/ponte_neutra",
+      "label": "Proposta: Ponte neutra",
+      "links": [
+        "peace_treaty/ponte_neutra"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "bridge"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "shared_maintenance",
+        "offer_type": "neutral_route",
+        "requires_signed_offer": true,
+        "verification": "bridge_access"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/troca_de_refens",
+      "label": "Proposta: Devolução de reféns",
+      "links": [
+        "peace_treaty/troca_de_refens"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "hostage"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "independent_witness",
+        "offer_type": "release",
+        "requires_signed_offer": true,
+        "verification": "safe_passage"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/partilha_irrigacao",
+      "label": "Proposta: Partilha de água",
+      "links": [
+        "peace_treaty/partilha_irrigacao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "river"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "drought_reviews",
+        "offer_type": "water_shares",
+        "requires_signed_offer": true,
+        "verification": "water_rotation"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/conselho_mediacao",
+      "label": "Proposta: Conselho de mediação misto",
+      "links": [
+        "peace_treaty/conselho_mediacao"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "families"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "mediation_record",
+        "offer_type": "joint_council",
+        "requires_signed_offer": true,
+        "verification": "equal_seats"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/manual_em_custodia",
+      "label": "Proposta: Manual em custódia neutra",
+      "links": [
+        "peace_treaty/manual_em_custodia"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "heritage"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "dual_seals",
+        "offer_type": "custody",
+        "requires_signed_offer": true,
+        "verification": "neutral_library"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/restituicao_tributo",
+      "label": "Proposta: Restituição de tributos",
+      "links": [
+        "peace_treaty/restituicao_tributo"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "tax"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "payment_schedule",
+        "offer_type": "repayment",
+        "requires_signed_offer": true,
+        "verification": "public_ledger"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/anistia_condicionada",
+      "label": "Proposta: Anistia condicionada",
+      "links": [
+        "peace_treaty/anistia_condicionada"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "revolt"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "restitution",
+        "offer_type": "amnesty",
+        "requires_signed_offer": true,
+        "verification": "truth_hearing"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/passagem_refugiados",
+      "label": "Proposta: Passagem protegida",
+      "links": [
+        "peace_treaty/passagem_refugiados"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "relief"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "family_registry",
+        "offer_type": "humanitarian_corridor",
+        "requires_signed_offer": true,
+        "verification": "neutral_guards"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/tregua_marcial",
+      "label": "Proposta: Trégua das escolas marciais",
+      "links": [
+        "peace_treaty/tregua_marcial"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "martial"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "sanction_by_elders",
+        "offer_type": "no_public_duel",
+        "requires_signed_offer": true,
+        "verification": "witnessed_oaths"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/armazem_partilhado",
+      "label": "Proposta: Armazém compartilhado",
+      "links": [
+        "peace_treaty/armazem_partilhado"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "food"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "equal_access",
+        "offer_type": "joint_granary",
+        "requires_signed_offer": true,
+        "verification": "joint_inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "diplomatic_offer",
+      "excludes": [],
+      "id": "diplomatic_offer/fiscalizacao_neutra",
+      "label": "Proposta: Fiscalização por escribas neutros",
+      "links": [
+        "peace_treaty/fiscalizacao_neutra"
+      ],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "diplomacy",
+        "deescalation",
+        "corruption"
+      ],
+      "variables": {
+        "beneficiaries": [
+          "party_a",
+          "party_b"
+        ],
+        "cost": "negotiated_concession",
+        "enforce_via_host": true,
+        "implementation": "published_result",
+        "offer_type": "joint_audit",
+        "requires_signed_offer": true,
+        "verification": "independent_scribes"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

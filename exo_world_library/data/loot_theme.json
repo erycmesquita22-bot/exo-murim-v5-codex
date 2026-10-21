@@ -1,0 +1,282 @@
+{
+  "domain": "loot_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/herbal",
+      "label": "Ervas e remédios",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "medicine",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "herbal",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/salvage",
+      "label": "Sucata e minério",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ore",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "salvage",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/martial",
+      "label": "Pergaminhos de técnica",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "martial",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/trader",
+      "label": "Bens de caravana",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "trade",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "trader",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/rare_wood",
+      "label": "Madeira valiosa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "wood",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "rare_wood",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/shrine",
+      "label": "Oferendas rituais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "spiritual",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "shrine",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/scraps",
+      "label": "Retalhos e peças",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "craft",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "scraps",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/ore",
+      "label": "Veio mineral",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ore",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "ore",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/hunter",
+      "label": "Materiais animais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "hunt",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "hunter",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/ancient",
+      "label": "Relíquia antiga",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ruins",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "ancient",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/ordinary",
+      "label": "Suprimentos comuns",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "ordinary",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "ordinary",
+        "owner": "inventory"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "loot_theme",
+      "excludes": [],
+      "id": "loot_theme/sect",
+      "label": "Recompensa de seita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "sect",
+        "loot"
+      ],
+      "variables": {
+        "atomic_reward_required": true,
+        "grant": "none",
+        "loot_theme": "sect",
+        "owner": "inventory"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

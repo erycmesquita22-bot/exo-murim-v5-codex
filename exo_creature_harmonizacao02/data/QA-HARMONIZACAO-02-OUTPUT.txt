@@ -1,0 +1,2 @@
+PASS: 20 GLB assets, 17 canonical identities, 3 duplicated identities, 6 named clips each, 3 sockets per GLB, finite and monotonic timelines, hashes
+Native Godot: NOT_RUN

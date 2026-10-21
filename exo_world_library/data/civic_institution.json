@@ -1,0 +1,625 @@
+{
+  "domain": "civic_institution",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/assembleia_de_anciaos",
+      "label": "Assembleia de anciãos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "village",
+        "aldeia",
+        "consensus"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "village"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "consensus",
+        "delegate_capacity_hint": 5,
+        "electorate": "family_heads",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Acordo sobre colheitas, irrigação, proteção e obrigações locais",
+        "physical_venue_required": true,
+        "type": "aldeia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conselho_das_fontes",
+      "label": "Conselho das fontes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "village",
+        "aldeia",
+        "supermajority"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "village"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "supermajority",
+        "delegate_capacity_hint": 5,
+        "electorate": "water_users",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Distribuição da água e reparos de canais",
+        "physical_venue_required": true,
+        "type": "aldeia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conselho_dos_oficios",
+      "label": "Conselho dos ofícios",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "vila",
+        "delegate_vote"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "delegate_vote",
+        "delegate_capacity_hint": 8,
+        "electorate": "guild_delegates",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Ofícios, impostos de feira e inspeção de artesãos",
+        "physical_venue_required": true,
+        "type": "vila"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/mesa_das_rotas",
+      "label": "Mesa das rotas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "vila",
+        "delegate_vote"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "delegate_vote",
+        "delegate_capacity_hint": 7,
+        "electorate": "caravan_delegates",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Pedágios, caravanas e manutenção de pontes",
+        "physical_venue_required": true,
+        "type": "vila"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/camara_dos_mercadores",
+      "label": "Câmara dos mercadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "cidade",
+        "weighted_delegates"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "weighted_delegates",
+        "delegate_capacity_hint": 12,
+        "electorate": "licensed_guilds",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Estoque, rotas, caravanas e tarifas",
+        "physical_venue_required": true,
+        "type": "cidade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/audiencia_do_magistrado",
+      "label": "Audiência do magistrado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "cidade",
+        "hearing"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": false,
+        "authority": "political_host_or_narrative",
+        "decision_method": "hearing",
+        "delegate_capacity_hint": 1,
+        "electorate": "appointed_official",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Sentenças e reclamações com apelação regional; sem voto popular",
+        "physical_venue_required": true,
+        "type": "cidade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conselho_das_quadras",
+      "label": "Conselho das quadras",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "cidade",
+        "delegate_vote"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "delegate_vote",
+        "delegate_capacity_hint": 14,
+        "electorate": "district_delegates",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Segurança, limpeza, preços de mercados e abastecimento",
+        "physical_venue_required": true,
+        "type": "cidade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conselho_dos_canais",
+      "label": "Conselho dos canais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "cidade",
+        "supermajority"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "supermajority",
+        "delegate_capacity_hint": 9,
+        "electorate": "river_district_delegates",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Dragagem, cais, diques e navegação",
+        "physical_venue_required": true,
+        "type": "cidade"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/circulo_de_anciaos",
+      "label": "Círculo de anciãos marciais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "martial",
+        "supermajority"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "supermajority",
+        "delegate_capacity_hint": 7,
+        "electorate": "elders",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Disciplina, legado e liderança da escola",
+        "physical_venue_required": true,
+        "type": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conclave_de_escolas",
+      "label": "Conclave de escolas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "martial",
+        "delegate_vote"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "delegate_vote",
+        "delegate_capacity_hint": 9,
+        "electorate": "recognized_masters",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Trégua marcial, doutrina e provas públicas",
+        "physical_venue_required": true,
+        "type": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/juramento_de_discipulos",
+      "label": "Juramento de discípulos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "martial",
+        "consensus"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "consensus",
+        "delegate_capacity_hint": 8,
+        "electorate": "disciples",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Petições internas, representação e proteção dos aprendizes",
+        "physical_venue_required": true,
+        "type": "martial"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/mesa_das_familias",
+      "label": "Mesa das famílias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "clan",
+        "weighted_delegates"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "weighted_delegates",
+        "delegate_capacity_hint": 6,
+        "electorate": "clan_heads",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Alianças, sucessão e propriedade coletiva",
+        "physical_venue_required": true,
+        "type": "clan"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/comissao_das_passagens",
+      "label": "Comissão das passagens",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "border",
+        "delegate_vote"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "delegate_vote",
+        "delegate_capacity_hint": 6,
+        "electorate": "border_stewards",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Trânsito entre territórios e cobranças de passagem",
+        "physical_venue_required": true,
+        "type": "border"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/liga_das_caravanas",
+      "label": "Liga das caravanas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "mercantile",
+        "member_ballot"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "member_ballot",
+        "delegate_capacity_hint": 10,
+        "electorate": "guild_members",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Escolha de líderes da liga e rotas comerciais",
+        "physical_venue_required": true,
+        "type": "mercantile"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/capitulo_do_santuario",
+      "label": "Capítulo do santuário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "village",
+        "temple",
+        "consensus"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "village"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "consensus",
+        "delegate_capacity_hint": 5,
+        "electorate": "keepers",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Ritos, doações e acesso aos abrigos",
+        "physical_venue_required": true,
+        "type": "temple"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/roda_dos_vizinhos",
+      "label": "Roda dos vizinhos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "village",
+        "open_petition"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "village"
+        ],
+        "appointment_election_distinction": true,
+        "authority": "political_host_or_narrative",
+        "decision_method": "open_petition",
+        "delegate_capacity_hint": 20,
+        "electorate": "residents",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Consulta pública consultiva sem obrigação de acatar",
+        "physical_venue_required": true,
+        "type": "village"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/conselho_da_guarnicao",
+      "label": "Conselho da guarnição",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "city",
+        "military",
+        "command_decision"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "city"
+        ],
+        "appointment_election_distinction": false,
+        "authority": "political_host_or_narrative",
+        "decision_method": "command_decision",
+        "delegate_capacity_hint": 5,
+        "electorate": "appointed_officers",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Defesa e rotas de patrulha; decisões por cadeia de comando",
+        "physical_venue_required": true,
+        "type": "military"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "civic_institution",
+      "excludes": [],
+      "id": "civic_institution/tribunal_itinerante",
+      "label": "Tribunal itinerante",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "institution",
+        "town",
+        "regional",
+        "hearing"
+      ],
+      "variables": {
+        "allowed_settlement_types": [
+          "town",
+          "city"
+        ],
+        "appointment_election_distinction": false,
+        "authority": "political_host_or_narrative",
+        "decision_method": "hearing",
+        "delegate_capacity_hint": 3,
+        "electorate": "circuit_judges",
+        "governance_model": "fictional_murim_local",
+        "mandate": "Recurso, mediação, prova e restituição",
+        "physical_venue_required": true,
+        "type": "regional"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

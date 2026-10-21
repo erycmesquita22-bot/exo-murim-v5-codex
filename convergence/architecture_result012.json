@@ -1,0 +1,436 @@
+{
+	"buildings": [
+		{
+			"composition": "compact_administration",
+			"function": "administration",
+			"id": "r78_l000",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_market",
+			"function": "market",
+			"id": "r78_l001",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_inn",
+			"function": "inn",
+			"id": "r78_l002",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_smithy",
+			"function": "smithy",
+			"id": "r78_l003",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_herbalist",
+			"function": "herbalist",
+			"id": "r78_l004",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "reserved_courtyard",
+			"function": "martial_school",
+			"id": "r78_l005",
+			"orientation": true,
+			"palette": "ivory_charcoal",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "reserved_courtyard",
+			"function": "shrine",
+			"id": "r78_l006",
+			"orientation": true,
+			"palette": "ivory_charcoal",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_warehouse",
+			"function": "warehouse",
+			"id": "r78_l007",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l008",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l009",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l010",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l011",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l012",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l013",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l014",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l015",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l016",
+			"orientation": true,
+			"palette": "ivory_charcoal",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l017",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l018",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l019",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l020",
+			"orientation": true,
+			"palette": "ivory_charcoal",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l021",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l022",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l023",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l024",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l025",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l026",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l027",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l028",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l029",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l030",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l031",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l032",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l033",
+			"orientation": true,
+			"palette": "ivory_charcoal",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l034",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l035",
+			"orientation": true,
+			"palette": "clay_slate",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l036",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l037",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l038",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l039",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l040",
+			"orientation": true,
+			"palette": "gray_jade",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l041",
+			"orientation": true,
+			"palette": "cream_blue",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		},
+		{
+			"composition": "compact_residence",
+			"function": "residence",
+			"id": "r78_l042",
+			"orientation": true,
+			"palette": "ochre_terracotta",
+			"position": true,
+			"profession_asset": true,
+			"type": true
+		}
+	],
+	"failures": [],
+	"pass": true
+}

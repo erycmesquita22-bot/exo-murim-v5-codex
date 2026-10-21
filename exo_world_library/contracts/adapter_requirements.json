@@ -1,0 +1,369 @@
+{
+  "appearance": {
+    "data": [
+      "appearance_theme",
+      "craft_tradition",
+      "social_custom"
+    ],
+    "expected_host_context": [
+      "flags"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Skin classic/slim, 64x64 and equipment owner keep control",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "audio": {
+    "data": [
+      "audio_theme",
+      "climate_phenomenon",
+      "social_custom"
+    ],
+    "expected_host_context": [
+      "flags"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Cue IDs are hints, assets absent until audio owner binds sound manifest",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "bestiary": {
+    "data": [
+      "climate_phenomenon",
+      "ecological_pressure",
+      "encounter_theme",
+      "ref_bestiary_humanoids",
+      "ref_bestiary_species"
+    ],
+    "expected_host_context": [
+      "player_tier",
+      "biome"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Do not spawn, damage or grant loot",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "city_forge": {
+    "data": [
+      "civic_institution",
+      "council_motion",
+      "election_campaign",
+      "ref_city_blueprints",
+      "ref_city_districts",
+      "ref_city_profiles",
+      "regional_policy",
+      "settlement_service",
+      "settlement_theme"
+    ],
+    "expected_host_context": [
+      "settlement_type",
+      "biome"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "city_forge: City R4 corrigido; CANDIDATE_NOT_NATIVE. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "CANDIDATE_NOT_NATIVE",
+    "owner_can_apply": false
+  },
+  "dungeon_genesis": {
+    "data": [
+      "dungeon_chamber",
+      "dungeon_complication",
+      "dungeon_theme",
+      "encounter_theme",
+      "loot_theme",
+      "lore_fragment"
+    ],
+    "expected_host_context": [
+      "biome",
+      "player_tier"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Visit and reward owner, identity, approved entrance footprint and checkpoint required",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "exo_crowd_illusion": {
+    "data": [
+      "civic_institution",
+      "climate_phenomenon",
+      "crowd_scene",
+      "election_campaign",
+      "revolution_cause",
+      "settlement_service",
+      "social_custom"
+    ],
+    "expected_host_context": [
+      "settlement_type"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "exo_crowd_illusion: Crowd R3; CANDIDATE_NOT_NATIVE. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "CANDIDATE_NOT_NATIVE",
+    "owner_can_apply": false
+  },
+  "exo_economy": {
+    "data": [
+      "commodity_flow",
+      "council_motion",
+      "craft_tradition",
+      "economy_theme",
+      "regional_policy",
+      "revolution_cause",
+      "settlement_service",
+      "war_casus",
+      "world_consequence"
+    ],
+    "expected_host_context": [
+      "settlement_type",
+      "region_id"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "exo_economy: Economy R4; CANDIDATE_NOT_NATIVE. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "CANDIDATE_NOT_NATIVE",
+    "owner_can_apply": false
+  },
+  "exo_interior_forge": {
+    "data": [
+      "interior_scene_hint",
+      "social_custom",
+      "craft_tradition",
+      "settlement_theme",
+      "appearance_theme"
+    ],
+    "expected_host_context": [
+      "world_id",
+      "seed",
+      "region_id",
+      "settlement_id",
+      "building_instance_id",
+      "building_function",
+      "biome",
+      "settlement_type"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "INTERIOR_R1_READ_ONLY: 52 fixed prefabs, no prefab creation/entrance/authorization/save; City plan instance ID and Interior Forge owner required",
+    "integration_status": "OPTIONAL_CANDIDATE_NOT_WIRED",
+    "owner_can_apply": false
+  },
+  "exo_items": {
+    "data": [
+      "commodity_flow",
+      "craft_tradition",
+      "loot_theme",
+      "ref_item_affixes",
+      "ref_item_materials",
+      "ref_item_rarities"
+    ],
+    "expected_host_context": [
+      "player_tier",
+      "flags"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "No inventory ownership, reward claims or nonexistent rarities",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "exo_martial": {
+    "data": [
+      "election_campaign",
+      "faction_agenda",
+      "martial_legend",
+      "martial_trial",
+      "npc_motivation",
+      "peace_treaty",
+      "ref_martial_schools",
+      "ref_martial_styles",
+      "ref_martial_techniques",
+      "story_arc",
+      "technique_affinity"
+    ],
+    "expected_host_context": [
+      "flags",
+      "player_tier"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Only authorized narrative bond/master_disciple and technique core unlock allowed",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "exo_monumental": {
+    "data": [
+      "dungeon_chamber",
+      "landmark_theme",
+      "shrine_belief"
+    ],
+    "expected_host_context": [
+      "biome"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Reserve persistent plot safely before builder writes",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "exo_skill_forge": {
+    "data": [
+      "technique_affinity",
+      "ref_martial_techniques",
+      "martial_trial",
+      "audio_theme",
+      "appearance_theme"
+    ],
+    "expected_host_context": [
+      "world_id",
+      "seed",
+      "region_id",
+      "player_tier"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "exo_skill_forge: Skill R2; CANDIDATE_NOT_NATIVE. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "CANDIDATE_NOT_NATIVE",
+    "owner_can_apply": false
+  },
+  "journey": {
+    "data": [
+      "conflict_spark",
+      "evidence_class",
+      "martial_trial",
+      "parallel_arc",
+      "quest_pattern",
+      "quest_seed",
+      "story_arc",
+      "travel_incident"
+    ],
+    "expected_host_context": [
+      "region_id",
+      "player_tier"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Do not mint quest IDs, bronze, XP, receipt or update objectives",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "living_world": {
+    "data": [
+      "evidence_class",
+      "historical_chronicle",
+      "name_family",
+      "name_given",
+      "npc_archetype",
+      "npc_background",
+      "npc_motivation",
+      "npc_relationship_seed",
+      "npc_secret",
+      "parallel_arc",
+      "personality",
+      "rumor_source",
+      "social_custom"
+    ],
+    "expected_host_context": [
+      "region_id",
+      "world_id",
+      "seed"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "living_world: NPC02 / NPC03; NEWER_API_UNVERIFIED. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "NEWER_API_UNVERIFIED",
+    "owner_can_apply": false
+  },
+  "narrative": {
+    "data": [
+      "ballot_rule",
+      "civic_institution",
+      "conflict_spark",
+      "council_motion",
+      "dialogue_tone",
+      "diplomatic_offer",
+      "election_campaign",
+      "event_outcome",
+      "evidence_class",
+      "faction_agenda",
+      "historical_chronicle",
+      "lore_fragment",
+      "martial_legend",
+      "narrative_motif",
+      "npc_relationship_seed",
+      "npc_secret",
+      "parallel_arc",
+      "peace_treaty",
+      "quest_seed",
+      "ref_narrative_factions",
+      "region_legacy",
+      "region_tension",
+      "regional_policy",
+      "revolution_cause",
+      "rumor",
+      "rumor_source",
+      "shrine_belief",
+      "social_custom",
+      "story_arc",
+      "war_casus",
+      "world_consequence",
+      "world_event"
+    ],
+    "expected_host_context": [
+      "region_id",
+      "flags"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "narrative: C3 WORK; REQUEST_STORY_APIS_PROPOSED_NOT_REAL. Read-only proposals, host verification and owner approval obligatory.",
+    "integration_status": "REQUEST_STORY_APIS_PROPOSED_NOT_REAL",
+    "owner_can_apply": false
+  },
+  "terrain_forge": {
+    "data": [
+      "terrain_texture",
+      "biome_identity"
+    ],
+    "expected_host_context": [
+      "biome"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "No shader/material overrides without worldgen owner",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "visual_vfx": {
+    "data": [
+      "appearance_theme",
+      "audio_theme",
+      "climate_phenomenon"
+    ],
+    "expected_host_context": [
+      "world_id",
+      "seed",
+      "region_id"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "Visual owner validates original sprites, Godot Compatibility shaders and VFX cues.",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  },
+  "world": {
+    "data": [
+      "biome_identity",
+      "climate_phenomenon",
+      "ecological_pressure",
+      "historical_chronicle",
+      "landmark_theme",
+      "region_legacy",
+      "region_tension",
+      "region_theme",
+      "revolution_cause",
+      "settlement_theme",
+      "travel_incident",
+      "war_casus",
+      "world_consequence"
+    ],
+    "expected_host_context": [
+      "world_id",
+      "seed",
+      "region_id",
+      "biome",
+      "settlement_type"
+    ],
+    "fallback": "BLOCKED_NO_MUTATION",
+    "gate": "WorldGenesis must accept placements and canonical IDs",
+    "integration_status": "OPTIONAL_HOST_BINDING_NOT_VERIFIED",
+    "owner_can_apply": false
+  }
+}

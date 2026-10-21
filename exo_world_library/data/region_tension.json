@@ -1,0 +1,456 @@
+{
+  "domain": "region_tension",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/receio_de_ataque_de_bandidos",
+      "label": "Receio de ataque de bandidos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "receio_de_ataque_de_bandidos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Receio de ataque de bandidos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "receio_de_ataque_de_bandidos"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/disputa_por_pedagio",
+      "label": "Disputa por pedágio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "disputa_por_pedagio"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Disputa por pedágio",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "disputa_por_pedagio"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/escassez_de_curandeiros",
+      "label": "Escassez de curandeiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "escassez_de_curandeiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Escassez de curandeiros",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "escassez_de_curandeiros"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/desconfianca_contra_estrangeiros",
+      "label": "Desconfiança contra estrangeiros",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "desconfianca_contra_estrangeiros"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Desconfiança contra estrangeiros",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "desconfianca_contra_estrangeiros"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/rivalidade_de_escolas_marciais",
+      "label": "Rivalidade de escolas marciais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "rivalidade_de_escolas_marciais"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rivalidade de escolas marciais",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rivalidade_de_escolas_marciais"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/pressao_sobre_pescadores",
+      "label": "Pressão sobre pescadores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "pressao_sobre_pescadores"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Pressão sobre pescadores",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "pressao_sobre_pescadores"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/rota_comercial_interditada",
+      "label": "Rota comercial interditada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "rota_comercial_interditada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rota comercial interditada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rota_comercial_interditada"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/boatos_de_fera_agressiva",
+      "label": "Boatos de fera agressiva",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "boatos_de_fera_agressiva"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Boatos de fera agressiva",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "boatos_de_fera_agressiva"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/crise_na_colheita_de_arroz",
+      "label": "Crise na colheita de arroz",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "crise_na_colheita_de_arroz"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Crise na colheita de arroz",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "crise_na_colheita_de_arroz"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/conflito_entre_clas_menores",
+      "label": "Conflito entre clãs menores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "conflito_entre_clas_menores"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Conflito entre clãs menores",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "conflito_entre_clas_menores"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/tributo_extraordinario",
+      "label": "Tributo extraordinário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "tributo_extraordinario"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Tributo extraordinário",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "tributo_extraordinario"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/busca_por_desaparecidos",
+      "label": "Busca por desaparecidos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "busca_por_desaparecidos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Busca por desaparecidos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "busca_por_desaparecidos"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/contrabando_de_ingredientes",
+      "label": "Contrabando de ingredientes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "contrabando_de_ingredientes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Contrabando de ingredientes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "contrabando_de_ingredientes"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/acusacao_de_tecnica_proibida",
+      "label": "Acusação de técnica proibida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "acusacao_de_tecnica_proibida"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Acusação de técnica proibida",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "acusacao_de_tecnica_proibida"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "region_tension",
+      "excludes": [],
+      "id": "region_tension/concentracao_de_discipulos_itinerantes",
+      "label": "Concentração de discípulos itinerantes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "conflict",
+        "world",
+        "concentracao_de_discipulos_itinerantes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Concentração de discípulos itinerantes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "concentracao_de_discipulos_itinerantes"
+      },
+      "weight": 8
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

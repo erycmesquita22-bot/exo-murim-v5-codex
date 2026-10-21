@@ -1,0 +1,130 @@
+{
+  "source": {
+    "author": "Nic3_one",
+    "title": "Kung-Fu Whooshes .wav",
+    "page": "https://freesound.org/people/Nic3_one/sounds/434871/",
+    "license": "CC0 1.0",
+    "source_used": "Public HQ MP3 preview; licensed CC0 sound. Original WAV not downloaded.",
+    "cuts_seconds": [
+      [
+        0.398,
+        0.32
+      ],
+      [
+        1.57,
+        0.31
+      ],
+      [
+        3.52,
+        0.34
+      ],
+      [
+        5.26,
+        0.4
+      ],
+      [
+        6.73,
+        0.32
+      ],
+      [
+        8.24,
+        0.34
+      ],
+      [
+        9.22,
+        0.46
+      ],
+      [
+        10.76,
+        0.44
+      ]
+    ]
+  },
+  "contact_recipes": [
+    [
+      "palm_a",
+      "dry_punch",
+      "punch",
+      0.78,
+      0.23,
+      11
+    ],
+    [
+      "palm_b",
+      "punch",
+      "dry_punch",
+      0.65,
+      0.27,
+      18
+    ],
+    [
+      "palm_c",
+      "dry_punch",
+      "critical",
+      0.74,
+      0.16,
+      9
+    ],
+    [
+      "heavy_a",
+      "punch",
+      "fatal",
+      0.72,
+      0.32,
+      14
+    ],
+    [
+      "heavy_b",
+      "punch",
+      "critical",
+      0.7,
+      0.3,
+      8
+    ],
+    [
+      "blade_a",
+      "sword_impact",
+      "dry_punch",
+      0.75,
+      0.22,
+      13
+    ],
+    [
+      "blade_b",
+      "sword_impact",
+      "punch",
+      0.66,
+      0.25,
+      8
+    ],
+    [
+      "critical_a",
+      "critical",
+      "punch",
+      0.78,
+      0.25,
+      12
+    ],
+    [
+      "fatal_a",
+      "fatal",
+      "punch",
+      0.8,
+      0.24,
+      16
+    ]
+  ],
+  "recipe_format": [
+    "output",
+    "source1",
+    "source2",
+    "gain1",
+    "gain2",
+    "delay_ms"
+  ],
+  "reference_method": [
+    "https://designingsound.org/2010/03/16/erik-aadahl-special-animation-sound-design-exclusive-interview/",
+    "https://sonniss.com/sound-effects/hong-kong-action-pack-hit-kit-2/"
+  ],
+  "method": "Vary air movement before impact; layer compact attack transient and body weight only at confirmed contact. Films referenced through production interviews; no film audio extracted. No paid packs downloaded."
+}

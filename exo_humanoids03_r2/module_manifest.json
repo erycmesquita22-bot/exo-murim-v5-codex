@@ -1,0 +1,13 @@
+{
+  "id": "exo_humanoids03_r2",
+  "version": "03.R2.1-candidate",
+  "type": "visual-only-extension",
+  "target_engine": "Godot 4.6.2 Standard / Compatibility",
+  "requires": ["exo_humanoids03", "exo_skin3d", "Rig", "Wardrobe"],
+  "writes": ["runtime-only cosmetic Node3D attachment roots", "selection dictionary returned for authorized Core persistence"],
+  "excluded_mutations": ["exo_core", "npc_system", "exo_bestiary", "rig.gd", "wardrobe.gd", "enemy.gd"],
+  "commercial_asset_clearance": "inherited assets pending proof",
+  "runtime_qa": "NOT_RUN",
+  "offline_qa": "51109_PASS",
+  "migration": "none; independent module; no central merge"
+}

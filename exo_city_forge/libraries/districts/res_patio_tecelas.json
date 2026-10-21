@@ -1,0 +1,153 @@
+{
+  "id": "res_patio_tecelas",
+  "name": "Pátio das Tecelãs",
+  "category": "residential",
+  "settlement_context": "agricultural",
+  "allowed_scales": [
+    "town",
+    "city"
+  ],
+  "tags": [
+    "residential",
+    "r3",
+    "town_civic"
+  ],
+  "footprint": {
+    "width": 36,
+    "depth": 36
+  },
+  "internal_streets": [
+    {
+      "a": [
+        -17,
+        0
+      ],
+      "b": [
+        17,
+        0
+      ],
+      "width": 2.8,
+      "kind": "pedestrian"
+    },
+    {
+      "a": [
+        0,
+        -17
+      ],
+      "b": [
+        0,
+        17
+      ],
+      "width": 2.5,
+      "kind": "pedestrian"
+    }
+  ],
+  "connectors": [
+    [
+      -18,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      0,
+      -18
+    ],
+    [
+      0,
+      18
+    ]
+  ],
+  "buildings": [
+    {
+      "id": "res_patio_tecelas/b00",
+      "function": "residence",
+      "archetype": "loom_house",
+      "local_position": [
+        -11,
+        -11
+      ],
+      "size": [
+        5.9,
+        5.75
+      ],
+      "height": 3.3,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "loom_court",
+        "roof_variant_0"
+      ]
+    },
+    {
+      "id": "res_patio_tecelas/b01",
+      "function": "residence",
+      "archetype": "timber_house",
+      "local_position": [
+        11,
+        -11
+      ],
+      "size": [
+        5.0,
+        5.1
+      ],
+      "height": 3.65,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "loom_court",
+        "roof_variant_1"
+      ]
+    },
+    {
+      "id": "res_patio_tecelas/b02",
+      "function": "residence",
+      "archetype": "straw_hut",
+      "local_position": [
+        -11,
+        11
+      ],
+      "size": [
+        5.45,
+        5.75
+      ],
+      "height": 4.0,
+      "door_facing": "inner",
+      "interior_slot": false,
+      "structure_details": [
+        "loom_court",
+        "roof_variant_0"
+      ]
+    }
+  ],
+  "workstations": [
+    {
+      "id": "res_patio_tecelas/st00",
+      "for_building": "res_patio_tecelas/b00",
+      "role": "resident"
+    },
+    {
+      "id": "res_patio_tecelas/st01",
+      "for_building": "res_patio_tecelas/b01",
+      "role": "resident"
+    },
+    {
+      "id": "res_patio_tecelas/st02",
+      "for_building": "res_patio_tecelas/b02",
+      "role": "resident"
+    }
+  ],
+  "open_spaces": {
+    "type": "loom_court",
+    "local_center": [
+      0,
+      0
+    ]
+  },
+  "visual_recipe": "loom_court",
+  "mesh_budget_estimate": 54,
+  "implementation": "original_parameterized_preview_geometry",
+  "source": "city_forge_r3_authorial"
+}

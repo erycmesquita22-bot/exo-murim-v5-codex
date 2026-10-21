@@ -1,0 +1,35 @@
+{
+  "id": "exo_martial",
+  "version": "1.2.0",
+  "requires": {
+    "persistence": "1.0.0",
+    "living_world": "1.0.0",
+    "narrative": "1.0.0"
+  },
+  "optional": {
+    "combat": "1.0.0",
+    "journey": "1.0.0",
+    "inventory": "1.0.0"
+  },
+  "services": [
+    "martial"
+  ],
+  "publishes": [],
+  "consumes": [],
+  "persistence": {
+    "exo_martial": 1,
+    "exo_martial_r2_revision": 2
+  },
+  "entrypoint": "res://exo_martial/module.gd",
+  "description": "School-specific R2 teaching, validated action proofs and Core-owned unlock confirmation; no new skill system.",
+  "revision": "r2",
+  "native_qa": "NOT_RUN",
+  "narrative_write_contract": "PROPOSED_ONLY",
+  "capabilities": [
+    "school-specific pedagogy",
+    "master-disciple exclusive enrollment",
+    "exam receipts",
+    "Core-owned unlock handshake",
+    "R1 state migration"
+  ]
+}

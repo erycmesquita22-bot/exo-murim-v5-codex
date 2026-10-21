@@ -1,0 +1,8 @@
+{
+  "accepted_strips": 2141,
+  "checks": 23006,
+  "failures": [],
+  "mode": "native_Godot_numeric_not_gameplay",
+  "simulated_seconds": 300,
+  "walkers": 6
+}

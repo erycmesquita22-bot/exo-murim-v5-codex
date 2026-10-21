@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "templates": [
+    {
+      "id": "line_slash",
+      "shape": "line",
+      "cone_degrees": 25,
+      "purpose": "damage",
+      "host_capabilities": [
+        "line",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "fan_slash",
+      "shape": "cone",
+      "cone_degrees": 75,
+      "purpose": "damage",
+      "host_capabilities": [
+        "cone",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "cone",
+      "shape": "cone",
+      "cone_degrees": 90,
+      "purpose": "damage",
+      "host_capabilities": [
+        "cone",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "projectile",
+      "shape": "projectile",
+      "cone_degrees": 12,
+      "purpose": "damage",
+      "host_capabilities": [
+        "projectile",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "ring",
+      "shape": "circle",
+      "cone_degrees": 360,
+      "purpose": "damage",
+      "host_capabilities": [
+        "circle",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "dash",
+      "shape": "dash",
+      "cone_degrees": 0,
+      "purpose": "movement",
+      "host_capabilities": [
+        "dash",
+        "movement"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "ward",
+      "shape": "self",
+      "cone_degrees": 0,
+      "purpose": "shield",
+      "host_capabilities": [
+        "self",
+        "shield"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "heal",
+      "shape": "self",
+      "cone_degrees": 0,
+      "purpose": "heal",
+      "host_capabilities": [
+        "self",
+        "heal"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "field",
+      "shape": "circle",
+      "cone_degrees": 360,
+      "purpose": "field",
+      "host_capabilities": [
+        "circle",
+        "field"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    },
+    {
+      "id": "channel",
+      "shape": "cone",
+      "cone_degrees": 40,
+      "purpose": "damage",
+      "host_capabilities": [
+        "cone",
+        "damage"
+      ],
+      "max_distance": 18.0,
+      "max_radius": 8.0
+    }
+  ]
+}

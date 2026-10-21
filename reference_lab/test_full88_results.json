@@ -1,0 +1,13 @@
+{
+  "seed": 816204,
+  "regions": 88,
+  "failed_count": 0,
+  "categories": {
+    "wild": 43,
+    "dungeon_approach": 10,
+    "settlement": 23,
+    "ruins": 12
+  },
+  "errors": [],
+  "time_seconds": 2.34
+}

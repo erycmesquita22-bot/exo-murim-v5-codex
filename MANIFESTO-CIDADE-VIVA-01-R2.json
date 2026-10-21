@@ -1,0 +1,220 @@
+{
+  "base_archive": "EXO-Murim-EXO-Visual-01-CANDIDATO.zip",
+  "base_sha256": "a36f1d77c7ec6a4422a24fcecc974714467857d9e96710661a083e08a42cf110",
+  "changed": {
+    "AGENTS.md": {
+      "before": "ed82f2f9be1697137e7769c0bbcd1d7231910629642e5fb62e547abf6f9bc194",
+      "after": "9506ec33eaba1acf59a73c1148f008b028df7877ab66b2fe28c082f15c7cf435"
+    },
+    "LEIA-ME.txt": {
+      "before": "8475b6df74fda276ad0c021fdd6e0208852de4bc01319f6e5c2ef06e3ecaca60",
+      "after": "20d208a76265a547be6e4442bb01e8ec0267deb1f2329b5872ae0cd883c0bca1"
+    },
+    "consolidation_qa.gd": {
+      "before": "4505be4bc3359ade25fa88e200ea0cbf34ecfd0e001f04b40b3571d7755fa625",
+      "after": "cb7b12a066d7379761c8377482621f65610232210368aa65019e070f02cc303b"
+    },
+    "convergence/game.gd": {
+      "before": "efd4efbff7301b82b04d3f685c8b0ce1db4ff38c53b816303715912a7a33479a",
+      "after": "6165db5c12f4fdb2e6af9a605eb10ee30a08a161023cb079fa06c7f0c6666d5f"
+    },
+    "convergence/region.gd": {
+      "before": "f7ec6b19ce90e1607ac0fdb49740e8763c862df4aa1617ad6478bd7a897f455a",
+      "after": "76d2cabddca20f5ac8df41f9f4f6f8ff14e9da878a91047d4232a48b62fd1e25"
+    },
+    "exo_visual/driver.gd": {
+      "before": "71ec61e2061fa1056aec8ef108d295df794944c05da5a8b3e94d4133fee087d8",
+      "after": "e0617ba8b66124da280f4f0a197c2b6f31aac200b262cc7d378ab79ee370a5d6"
+    },
+    "exo_visual/module.gd": {
+      "before": "88caf4306c6dfe9236625e14c1aa07f2d1d299a3465b79628f6e474a5bdb08d5",
+      "after": "7a2979bc64f355fbb40cc0881af1213f10dd92743b37fa1e95893e3f228e750a"
+    },
+    "exo_visual/spec.gd": {
+      "before": "7662de08a74d38d704443a3660def1f59f50e124bee203190642f3e53c9ac6b6",
+      "after": "1c4ff60db401e5fff20b20ad07b7ea0df6b0106045b0abfb5940c7284b196776"
+    },
+    "exo_visual/tests/benchmark_visual.gd": {
+      "before": "c091e47404ebcb89bcd221f75f1c85bbf7a9f9799642aa6aaead0cc9f5c25a35",
+      "after": "58d0c3a52d1d0fae4cf64c1fc9629087954c17772d9323d383c4de8441c43dbe"
+    },
+    "exo_visual/tests/capture_pilot.gd": {
+      "before": "18b920b9b1ac2faa208e2c9fb517262df0917936dcd3ee8a0c808135f8ea5b24",
+      "after": "ceb2320f0db861bad0ec1aa4d7ac5eb02f5e695f31a89ef3ab39e53f3010ecad"
+    },
+    "exo_visual/tests/qa_visual.gd": {
+      "before": "21fd8ddf5080de0dc23cecd63fd1b937e779d8b7457f79cfe7612f6ea9fe6760",
+      "after": "c79cedac597fdfb9a961b1819c7a4de7b3b850259d7668166878e75247eaaf52"
+    },
+    "genesis/region_scene.gd": {
+      "before": "cf1da93d22e187219026036a373b71a011fd58f0a4f4354b7b9aa8d0243c7034",
+      "after": "7a9de6eabaf5aad9d79f077550d7307b7cae824029323370d23717a52a87043f"
+    },
+    "graphics.gd": {
+      "before": "2f46a015b5b43b3fa7f793666a8a2018eb30fc0e4c1d4f7b344790bee69e511b",
+      "after": "a76600dd443b171ce8c36f35858fe90528649038b059b7db594c8be2e676084d"
+    },
+    "project.godot": {
+      "before": "7b09e205707448fcee9f19d71c64e1056a1144e3eb5e1e4a857931406a5d64fb",
+      "after": "5e0cf001726360b1e8c95e20cbc4202b86493a080e0824a4e2cbbb3d702635aa"
+    },
+    "ui/pages/settings.gd": {
+      "before": "44d7dcb2924e10a753a6f6ec4f26b3b7dcb6b91afe2f1154662cadb8943c85cd",
+      "after": "5a558adbcfa56b521d957d17f4c59e0489a8868da580d90a4c7c45ca40215769"
+    },
+    "ui/portrait_stage.gd": {
+      "before": "428984f91b24130660cbfcaedae2fb3afcca5a509f061c995f475e0a09b3cdd6",
+      "after": "cf1201bfabf182f7b34d9a2baff46e13c0265ea5d5e2c9f08848229bf48d9862"
+    },
+    "validation_r3/results/exo_core_integration.json": {
+      "before": "21ed2b5bb1a38bfbb2e8ff749d7b91da90ccfdb12e3f4ba70a6613a00d43c634",
+      "after": "cfa1c3a5dd967e4be2b45341cb5d17fda3af2230b60f61a9e5d6fbe53aa7bb97"
+    },
+    "validation_r3/results/npc_day.json": {
+      "before": "4c0ead94c8498194528c02abf8401b18994fcc069b8bc44728ab504b59aacbe9",
+      "after": "41841383991e7acbc059f2e69bc0f87154543e32bf7d5f2fb3a258de8cc56a0d"
+    },
+    "validation_r3/support.gd": {
+      "before": "cea3ba8c86bbf0c0e9e117a1104933e8f0938ed15351d970bb546c053bb76c47",
+      "after": "fda5722cf33f0a24c39dd982f4dcbf9f0bfec02fb575fd3e99659965da95a04e"
+    }
+  },
+  "added": {
+    "CHECKPOINT-RETOMADA-CIDADE-VIVA-01-R2.md": "8ae68f641367b42c3c15c9a36d95d5c280f12ea2106ca43eba2cb8b64906cd08",
+    "CIDADE-VIVA-VERSION.json": "9be3854bb7d88ed631e904ae44faa75ccb73305a4e43d94b10aea171dcf39f83",
+    "LEIA-ME-CIDADE-VIVA-01.md": "7b6653a350ab6e5a4d731d2a6e7391c8932d58d74556b8910aa778f15b026acc",
+    "MANIFESTO-COMPATIBILIDADE-CIDADE-VIVA-01.json": "928bdab63c96b933be45ba80ba14405def596046532e5c7004d591dcd0503d7a",
+    "RELATORIO-CIDADE-VIVA-01-R2.md": "6d3dd46696b3cf76b7c84178d3e31b31c50615576b984d2f70b1c974ca2477b2",
+    "RELATORIO-CIDADE-VIVA-01.md": "fdf6b138618b4cc7ba2254e2790685df366326d6b5848c8272bdde9e083c425d",
+    "arquivos_patch_sha256.json": "c7eaa6361f3b3fb2fa64b2ce43e95e7f9af40c7514d8bd755f761a856abc0507",
+    "cidade_viva/docs/LEIA-ME-BASE-09.2.txt": "8475b6df74fda276ad0c021fdd6e0208852de4bc01319f6e5c2ef06e3ecaca60",
+    "cidade_viva/evidence/01-cidade-antes.png": "0fb418c1dd28a8c27e33597601ce5f7a9e1785bad7b471f2355c5120ea71b6c8",
+    "cidade_viva/evidence/02-cidade-integrada.png": "55deef2fa8f662d0836f539367627878fc386ba6e95c405f957f14bd69cb0240",
+    "cidade_viva/evidence/03-mercado.png": "49bed807db6ee5e35d83d3e578ea2271d99c745bce8b4e44719b9f0cf520a47f",
+    "cidade_viva/evidence/04-escola-marcial.png": "694a286d59ed7af3e9e6240b7c49952fe3d1d15e3b7b9836f4a24594dd8f6b0f",
+    "cidade_viva/evidence/05-hospedaria.png": "05a97e5d58b64e6ab3bd114141b2874fe1ade3ea24df747949b76f66089d0cba",
+    "cidade_viva/evidence/06-medicina.png": "8bd6b7120c21f47f989f3f022c917f192d3d81a694034afffb9a8b98ab6255f8",
+    "cidade_viva/evidence/07-moradias.png": "4918933ad28b7097562e0eb2a92f9eb637fa055563fdcf1b9a2232f6266a9b5d",
+    "cidade_viva/evidence/08-ferraria.png": "0222b4e140f00b8708869fdd2613896af17d95aaece588df704cc8c8a981dd80",
+    "cidade_viva/evidence/09-rua-central.png": "027fb534345af2629013dc75ac6cc838cb00ed2698cea824291b760677aa2c6d",
+    "cidade_viva/evidence/10-cidade-noite.png": "22ccebd007d935134e40fc758d8bed7f372d3aff45228e6cc2e47a36a12a7c8a",
+    "cidade_viva/evidence/11-passagem-fluvial.png": "755ebb881fa9e34706f2fc3cdf21de4917687164365446a93e25c52ef48ae84f",
+    "cidade_viva/evidence/12-cidade-ribeirinha.png": "a298f699edc2c2eda1ba899f71e709c9cd6bb1d7bc48c846ae6e948011942aed",
+    "cidade_viva/evidence/captures.json": "6f78d024187343474f164dcceb33fbcc5b0234c9754af80501d611143863bbc5",
+    "cidade_viva/planner.gd": "17a7446d32a0efd2937a2ea1522eb086a9889e040bb9e180abbd7392bcdc4e94",
+    "cidade_viva/planner.gd.uid": "8378a25f4ccd2d9a2614fffe7c9af4401569b817046a2949fad3792eb1191552",
+    "cidade_viva/renderer.gd": "ad96c6e15747fe010bb341222398c5d459f09e62bae0399445a1ee07d0e00b8c",
+    "cidade_viva/renderer.gd.uid": "5f044d33102835741a4a2dc3221b74c7426a82d04ca18da803cbac96b270b3be",
+    "cidade_viva/tests/benchmark_urban.gd": "63d55f80f2583bed3a72f9e6182fe03d4f7fd09bd6f16a62c02a35aec31b14fb",
+    "cidade_viva/tests/capture_cidade_viva.gd": "ea8ed7f3ffe88e0b7780f7aef22e53a2819d8f2784eb8f891618ba92c24efd46",
+    "cidade_viva/tests/capture_cidade_viva.gd.uid": "9772a2a42d970b6024816bbf020772ffcf7cc047f4ebdc1a4294e3a9111a5591",
+    "cidade_viva/tests/capture_live.gd": "b70b292920e8729eb6a0a979517e53a8ae947399a9269679834ee70c08ad9026",
+    "cidade_viva/tests/probe.gd": "87c8a7f42e071f79c7fc8e1e63eae1df310461d4a1fb65f89e64a84568dac593",
+    "cidade_viva/tests/qa_cidade_viva.gd": "5411ef814a582ad3d199cd5b4640cc090f1a5f1c3f67e5f11fa831341988d535",
+    "cidade_viva/tests/qa_cidade_viva.gd.uid": "5b5528665c9db619cfd3114a6a8a1c5f33993f4a015dd50a97b9b13b613d6c2c",
+    "cidade_viva/tests/qa_day_fast.gd": "10fcf388dd49e045f83301084cd365a5861080ba50debb4f96b300d60e3e351a",
+    "cidade_viva/tests/qa_flat_floor.gd": "23549adca07bc8ba215a79d6b62ce48a6cc179189c65107d7774c148d436a935",
+    "cidade_viva/tests/qa_live.gd": "bde3e516b42232665bf2a1e7a53926c105b3bcb0459e70bb404f3fe9ed323596",
+    "cidade_viva/tests/run_validation.py": "aaa9552624b6827840c66c3f9b9231c5c91711f4654d86b12f1b9d70c4479f2a",
+    "cidade_viva/validation/RESULTADOS-CIDADE-VIVA-01-R2.json": "e2119904a4726f3bc962cd64c3a82c11b1b10a383b1ea9b018fb2a34f14b8bda",
+    "cidade_viva/validation/assets_qa.log": "70d0b4c79392626f15496bb4b17a7e4a6a7e7396c88317581138626014cfe5ef",
+    "cidade_viva/validation/benchmark-delivery.log": "da475f34e564b0babb4388e1de82c46390a7df3f9f0ee65946ce4a67ddeb15d4",
+    "cidade_viva/validation/capture-delivery.log": "9582258a7d5aa2d54c77741c058f2290406b69ca0912379e739e1e5f272a5ea2",
+    "cidade_viva/validation/checkpoint-tools/build_delivery.py": "1252332a464c6e308b4d50b5de136f1a2470e943f8a80c047b9c056dbdedf928",
+    "cidade_viva/validation/checkpoint-tools/polish.py": "cdd5b606f2c93d3019ffb4ad50dbdecce3feabe8f6473a8ebddc8961ba608c87",
+    "cidade_viva/validation/checkpoint-tools/run_render_checks.py": "baf160728fdbdf44ac168d5e7714d4674d4bce3b7467dc8126630af71982a820",
+    "cidade_viva/validation/cidade_viva_tests_qa_cidade_viva.log": "f286c73809cf3754e97a0fb0acbb9627a265a2eba76d73b6ddd8b0529b1faad9",
+    "cidade_viva/validation/cidade_viva_tests_qa_day_fast.before-fix.log": "704202b4c6d92654edca27aeccede20ed5a8fe8d88dc109a8d7978b95b31f4fd",
+    "cidade_viva/validation/cidade_viva_tests_qa_day_fast.log": "dd52752d6c03e543b090fb2cba21a8dc7f4b01b796c6f048f2a51ee16f2fd4e4",
+    "cidade_viva/validation/cidade_viva_tests_qa_flat_floor.log": "96e5b8a45d69e819becd6ee4da3be6a44600f6b0baa6234c80e3588d94173a5a",
+    "cidade_viva/validation/cidade_viva_tests_qa_live.before-fix.log": "f1ff5ebacaf583244ead8a75f753203da0cf19aaeecf8e23864a21848ac48eba",
+    "cidade_viva/validation/cidade_viva_tests_qa_live.log": "f1ff5ebacaf583244ead8a75f753203da0cf19aaeecf8e23864a21848ac48eba",
+    "cidade_viva/validation/consolidation_qa.before-fix.log": "33a457c7e5fc1372e35ca8f3bd7c1d4ff447e7a1ab111b8ce5dbf7e6c07e4ad5",
+    "cidade_viva/validation/consolidation_qa.log": "a9c273596cb219199cd4b9703a03e20e847574bcc4de578cec60cd085db3755c",
+    "cidade_viva/validation/discovery_qa.log": "471961aa44a0cadd7c4436dfefdb7e5183c9a54ac8a9a3f99deacdff34f3c63e",
+    "cidade_viva/validation/exo_core_tests_qa_core.log": "6572d5f497ce5cf3a615c431b85c46702346b083e7c5ea6110905eae53f8ea7e",
+    "cidade_viva/validation/exo_core_tests_qa_integration.before-fix.log": "0f58ac3c1b45678778325d5833e5895b5a49dd11bff50d81ab0043bff2fd799a",
+    "cidade_viva/validation/exo_core_tests_qa_integration.log": "0f58ac3c1b45678778325d5833e5895b5a49dd11bff50d81ab0043bff2fd799a",
+    "cidade_viva/validation/exo_core_tests_qa_new_module.before-fix.log": "f7713bca6293f8a85a3720177ce0332da03f30226fdf0e8a50919b9823be3de5",
+    "cidade_viva/validation/exo_core_tests_qa_new_module.log": "7f6fdc95eebcb7634e8d99d65f2d47c1bf9c261dc708549d43c6cf56b38e4b64",
+    "cidade_viva/validation/exo_visual_tests_qa_visual.before-fix.log": "1f26a639e1b93266949e05c18ac73e596528c6220c160af051bcd8fe64b355d9",
+    "cidade_viva/validation/exo_visual_tests_qa_visual.log": "7bab3485a5c4a1e21ae29a34b7e0117a801c0ae84f9b9c492e0f07bd80ea92ac",
+    "cidade_viva/validation/fidelity_qa.log": "5460e3dcba59ff9eddf77a2367cb5f1c7856b28f6f694148cf085811e043b2b1",
+    "cidade_viva/validation/fortifications_qa_river_gate.log": "f52ee711c03f155f7aec6650e4d531b43fa36a54c9ddf09bef3715e987de6ecd",
+    "cidade_viva/validation/history/historical-benchmark-delivery.log": "da475f34e564b0babb4388e1de82c46390a7df3f9f0ee65946ce4a67ddeb15d4",
+    "cidade_viva/validation/history/historical-capture-delivery.log": "9582258a7d5aa2d54c77741c058f2290406b69ca0912379e739e1e5f272a5ea2",
+    "cidade_viva/validation/history/historical-capture-live-final.log": "9582258a7d5aa2d54c77741c058f2290406b69ca0912379e739e1e5f272a5ea2",
+    "cidade_viva/validation/history/historical-capture-live.log": "608f1fd32a61bd2e21aaee5e8c957b7e08bac94b05496f0db6a62c7ede255783",
+    "cidade_viva/validation/history/historical-cidade-before.log": "42327300d1ab885a2eacddc7ccd8b0688475cb60c7156c7b4eff79795c565fc9",
+    "cidade_viva/validation/history/historical-cidade-final.log": "f286c73809cf3754e97a0fb0acbb9627a265a2eba76d73b6ddd8b0529b1faad9",
+    "cidade_viva/validation/history/historical-cidade-polish.log": "f286c73809cf3754e97a0fb0acbb9627a265a2eba76d73b6ddd8b0529b1faad9",
+    "cidade_viva/validation/history/historical-cidade-ringfix.log": "f286c73809cf3754e97a0fb0acbb9627a265a2eba76d73b6ddd8b0529b1faad9",
+    "cidade_viva/validation/history/historical-day-final-progress.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cidade_viva/validation/history/historical-density-after.jsonl": "d2698ad418b3d3f5f0ebc8434a752312bd8d57ec527183ab223db362fa1d23c6",
+    "cidade_viva/validation/history/historical-density-before.jsonl": "b4174962ce9ca7e3c757f52494bdaaa9450da15e6d25807ba7a9d00fd11b1057",
+    "cidade_viva/validation/history/historical-final-gate-progress.log": "ac8a422c4a9662e07feb45f90ed0c1cd4fded37e013b8ff25104452daed045ff",
+    "cidade_viva/validation/history/historical-final-npc-progress.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cidade_viva/validation/history/historical-final-validation-progress.log": "e3171eef85ef93396351f69e1d562e0c687f68cdeac82b041752a409546ff960",
+    "cidade_viva/validation/history/historical-import.log": "826e9f0786628f827ceedcb9fa0d7a2e0026496463fe1353379bf3ce17e5d719",
+    "cidade_viva/validation/history/historical-last-two-checks.log": "2a782cdeea1d892550856a28cd9f467ff3c8d774e8ce608bb85d33c6d07775a2",
+    "cidade_viva/validation/history/historical-npc-confirmation.log": "e931ec3aaeeb2e4d919575084805f1d49a6e29481b6e300f37be0492beebc983",
+    "cidade_viva/validation/history/historical-optimized-final-progress.log": "68ea4b0885fc1a9b46457bf2f949942f60965237098885eb784d95cfcfd104d7",
+    "cidade_viva/validation/history/historical-regression-progress.log": "5d8973daa6dc9633dc4a5263880a7baa16d66cc4cc7abab2f2077642b29b5c0b",
+    "cidade_viva/validation/history/historical-regression-retry-progress.log": "507a275ed2b206caa1fd2bfb0d9b6356becbe307de8349561d88182927e2d9a8",
+    "cidade_viva/validation/history/historical-render-progress.log": "06ec946d616ae0f7d5cba99b91f6f0fb84137b015a525c7d0d069404d24d50e2",
+    "cidade_viva/validation/history/historical-reopen-final-progress.log": "38ff3ac5ae8972c7a4a52d6c6050eaa1a345dbcf7f95fc5294d8da1bd1dbf0d2",
+    "cidade_viva/validation/history/historical-settings-parse.log": "da76a36a586ec310ae98a6bf8844ab87166457610861a810027a91d273cbb93f",
+    "cidade_viva/validation/history/historical-visual-fixed.log": "81a6cdbe55cc86f7de36344e329b38c0d23435d768641d33bbe13ffe972bc962",
+    "cidade_viva/validation/history/historical-visual-native.log": "b2c2d8470c1a089ccc01eddc1b751b9809039345427f411726ea6b08a9884b75",
+    "cidade_viva/validation/history/incomplete-original-day-60hz.log": "8ad127ca77976f4384b6d8fd32c9bfb8ee9c3189166a67c3ff6c6dad81f1dbab",
+    "cidade_viva/validation/legacy_audio_qa.log": "2dae3543d5f9d7567534737cda52beaeae886edb63d005e457d466120510c116",
+    "cidade_viva/validation/martial_qa.log": "5272d0393cddf1654e8c2d87d33a646fe28ded0cdc45edcf471f8dba489d9094",
+    "cidade_viva/validation/procedural_qa.log": "1c45bc5f89e8b08f5731ff9b53f0a5ad9e11f00473233e85a94071d5600a8064",
+    "cidade_viva/validation/quality09_qa.log": "6a36b431e94309044cf58523a21613cf5da8124eb29aebf6cf825eaad4c59295",
+    "cidade_viva/validation/release_qa.log": "cf41096f5b39c26f20ef9d07f71eb4ef8cb4c9c42528ee5525cc5be776dec8cf",
+    "cidade_viva/validation/rendered-summary.json": "d45b4af9b78d51bffdf74d59b78cb29a4877981a56b9e2701f0047d11f5a89f7",
+    "cidade_viva/validation/ruins_martial_qa.log": "fa2278aa10e64faa12bf47023175d246a06700c6d39f8fda55cacbaa3ebc4f78",
+    "cidade_viva/validation/stabilization_qa.log": "b920e4a437d06bd7cb95a33e29945bf08dcac48bce04273144c1bbfeadcf5b61",
+    "cidade_viva/validation/summary.json": "780a4ca3c17f51ef0bdf5f6a4336e4d1efd0fb08c32d6f5c6d1c3177bca5ad0b",
+    "cidade_viva/validation/tests.before-fix.log": "b28b11f1eb8d855dc22a8ac0e0aefe16d79e857643b2fc8b953fca71690093a5",
+    "cidade_viva/validation/tests.log": "dff25e96220bafc764e07cfcbff14c95e3c48124afc64f763cc938810c0f8a6f",
+    "cidade_viva/validation/validation_r3_npc_day.before-fix.log": "3fe5702b32b9773b4e3bf2d4d95668e8e475a124affcb1abdf5b7786b95fbb66",
+    "cidade_viva/validation/validation_r3_npc_reopen.before-fix.log": "ef12e39d71b6a50630540dff76822eedc25229c46553ae911f2425a0305f3b9f",
+    "cidade_viva/validation/validation_r3_npc_reopen.log": "ef12e39d71b6a50630540dff76822eedc25229c46553ae911f2425a0305f3b9f",
+    "cidade_viva/validation/war_qa.log": "018dd960a123b324b542a4c77bcbeffd35421d253c9fbc5e642bffbc3177c6ef",
+    "convergence/evidence012/.cidade-herbalist.png.wq1EBa": "b6d7097f352d1a4f4e1077a527ff445ce7e1e29dbf016a184c22e375b2f7705c",
+    "exo_core/tests/qa_fluvial_reload.gd.uid": "913aeaa53b0b3a3fc63642f1ff5bdd26046c85ce63872ea9ac379d140567feac",
+    "exo_visual/afterimage.gd.uid": "a8a20ca9cafb9cc2cd8cbe09c69986ce7f70bcec418c6743ffcabab5b058f08a",
+    "exo_visual/driver.gd.uid": "1236522adf706afa75e8dfbaf6f35ea951156d87bc91d5c24550ba163de73618",
+    "exo_visual/module.gd.uid": "1f311c7beb0647780d9bc8c3eff139ccdfc57e5380a731e0b26052ab7b13f553",
+    "exo_visual/shaders/grass_wind.gdshader.uid": "df6c6c76f4958d19ad93b0f23508904984ca9bc4cd01a8347d23ea31c5af1bd6",
+    "exo_visual/shaders/terrain_linear.gdshader.uid": "ef74f571111d64997fd98cdab3839108a2cab79144263c43c30e9cc4c0078a72",
+    "exo_visual/shaders/terrain_pixel.gdshader.uid": "9d37ca714458c3eaf06f50aa12271128ef275204e50f31ef391b9de7acaa5cf1",
+    "exo_visual/shaders/terrain_pixel_mips.gdshader.uid": "29ca6c473c65c3ab19528d444cb63f87a06095a63b6f0da5959fdd4e9799f74b",
+    "exo_visual/shaders/water.gdshader.uid": "dbf5248ef606cab5fc997f17dd986158465d97ce1e2947b7548520fff77a5931",
+    "exo_visual/spec.gd.uid": "7813b7f1f686724a17e0e026259d3b63b7b69473b35b4beb69792fa54da5aaaf",
+    "exo_visual/tests/benchmark_visual.gd.uid": "02b2c337cc12bd1188749547f2cde0c29644f19b1deeaaedc91635a7a08db5fc",
+    "exo_visual/tests/capture_pilot.gd.uid": "cfe7452206637715b62de8efd3cf8ef4ae78e4b044e9388d3bd041a297f09c52",
+    "exo_visual/tests/qa_visual.gd.uid": "9a86dc9e7f141f110b85929187f18d55cbab99fb4a9c147151b59a2dbf3d9afc",
+    "validation_r3/results/cidade_viva_benchmark.json": "768ad4606fb02438347f26707e37a36e32644d77057d6cd6a1edcb02e768ed09",
+    "validation_r3/results/cidade_viva_capture.json": "f9014d7281eeaa549a663efed54081309c58bb9d4a447a4ffac1bc02d2b3e99f",
+    "validation_r3/results/cidade_viva_flat_floor.json": "056b710d7f4ca9b3bc725ed5469e155d96b61819890127bfed50c872726a1e52",
+    "validation_r3/results/cidade_viva_live.json": "2dc0e166670348174969c0383b1172180538f372a25e215c03d382d1ac51cb48",
+    "validation_r3/results/exo_visual_01.json": "32295226bf27fd9d6c7f6aa197999d7d5679b92ada9f1b5988160173a021cfd9"
+  },
+  "protected_unchanged": {
+    "arsenal.gd": "0fdcff226825c808cdc523073fe72e5ad30b02bddf536ed570381384b8fd3332",
+    "combat/player_combat.gd": "84a9a8aed402a4a354eb23cfc54dd2e90443cfd0f090cb60878c1cef1c9ee9bd",
+    "convergence/occupancy.gd": "3b0fce003fb980e37d588a2778e687902e3e713e6af22823697d71cfcde68d9d",
+    "convergence/resident.gd": "715a5e6b8a623bfa92022fe703928dbb91ab3e872df60c2393504437ff7fedf9",
+    "convergence/streets.gd": "359e07d1aee69983836b5b275b5eeb725bc54dcff17bdbfb56013cbff895cce8",
+    "exo_core/modules.json": "eada2188c23159c034f7ff403dbaa52ab975105dbc272a328e26a826a0e773c7",
+    "genesis/region_data.gd": "0450b429566ce17fd1d012dffe31655b29a7bfbbd583b66b26ae75dcbe87b158",
+    "inventory.gd": "6fdb920be3f84df804410df6227157de0c7fa05ad98d85cee455507b4d040a45",
+    "journey_save.gd": "2824cc4576170d2e0a8d62a9acb3a768b945059175534df36a1c89c3a15d2812",
+    "main.gd": "512d2f2e07e1694ac14723598142cf0b12232984acbe87a07f15a5a08457f4bf",
+    "rig.gd": "370d7d1f64091db72e76e58e26782b0a46a61adae3aec290d858023f1bfefceb"
+  },
+  "binary_assets_unchanged": 1301,
+  "missing": []
+}

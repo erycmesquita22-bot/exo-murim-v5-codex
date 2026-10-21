@@ -1,0 +1,12 @@
+{
+ "version":1,
+ "factions":[
+  {"id":"caminho_celestial","name":"Aliança do Caminho Celestial","orientation":"doutrina e estabilidade","goals":["preservar antigos tratados"]},
+  {"id":"culto_abismo","name":"Culto do Abismo","orientation":"mistérios e liberdade espiritual","goals":["investigar as âncoras"]},
+  {"id":"errantes","name":"Caminho dos Errantes","orientation":"independência","goals":["proteger viajantes independentes"]},
+  {"id":"familias_ancestrais","name":"Grandes Famílias Ancestrais","orientation":"linhagens e tradição","goals":["preservar arquivos familiares"]},
+  {"id":"cronicas_silenciosas","name":"Ordem das Crônicas Silenciosas","orientation":"registro e conhecimento","goals":["documentar fatos históricos"]},
+  {"id":"independentes","name":"Organizações Regionais Independentes","orientation":"interesses locais","goals":["preservar autonomia"]}
+ ],
+ "diplomacy":{"caminho_celestial|culto_abismo":-30,"caminho_celestial|cronicas_silenciosas":15,"errantes|independentes":10}
+}

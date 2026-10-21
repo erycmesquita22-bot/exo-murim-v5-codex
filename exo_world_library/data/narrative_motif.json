@@ -1,0 +1,486 @@
+{
+  "domain": "narrative_motif",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/divida_de_gratidao",
+      "label": "Dívida de gratidão",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "divida_de_gratidao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Dívida de gratidão",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "divida_de_gratidao"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/escolha_entre_mestre_e_familia",
+      "label": "Escolha entre mestre e família",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "escolha_entre_mestre_e_familia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Escolha entre mestre e família",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "escolha_entre_mestre_e_familia"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/identidade_escondida",
+      "label": "Identidade escondida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "identidade_escondida"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Identidade escondida",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "identidade_escondida"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/justica_versus_tradicao",
+      "label": "Justiça versus tradição",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "justica_versus_tradicao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Justiça versus tradição",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "justica_versus_tradicao"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/merito_contra_influencia",
+      "label": "Mérito contra influência",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "merito_contra_influencia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mérito contra influência",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "merito_contra_influencia"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/disciplina_antes_de_poder",
+      "label": "Disciplina antes de poder",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "disciplina_antes_de_poder"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Disciplina antes de poder",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "disciplina_antes_de_poder"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/segredo_dividido_por_irmaos",
+      "label": "Segredo dividido por irmãos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "segredo_dividido_por_irmaos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Segredo dividido por irmãos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "segredo_dividido_por_irmaos"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/prosperidade_de_origem_duvidosa",
+      "label": "Prosperidade de origem duvidosa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "prosperidade_de_origem_duvidosa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Prosperidade de origem duvidosa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "prosperidade_de_origem_duvidosa"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/custo_de_tecnicas_perigosas",
+      "label": "Custo de técnicas perigosas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "custo_de_tecnicas_perigosas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Custo de técnicas perigosas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "custo_de_tecnicas_perigosas"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/protecao_de_inocentes",
+      "label": "Proteção de inocentes",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "protecao_de_inocentes"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Proteção de inocentes",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "protecao_de_inocentes"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/rival_que_aprende_respeito",
+      "label": "Rival que aprende respeito",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "rival_que_aprende_respeito"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Rival que aprende respeito",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "rival_que_aprende_respeito"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/consequencia_de_uma_promessa",
+      "label": "Consequência de uma promessa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "consequencia_de_uma_promessa"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Consequência de uma promessa",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "consequencia_de_uma_promessa"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/recuperacao_apos_derrota",
+      "label": "Recuperação após derrota",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "recuperacao_apos_derrota"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Recuperação após derrota",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "recuperacao_apos_derrota"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/poder_que_exige_renuncia",
+      "label": "Poder que exige renúncia",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "poder_que_exige_renuncia"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Poder que exige renúncia",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "poder_que_exige_renuncia"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/o_peso_de_uma_reputacao",
+      "label": "O peso de uma reputação",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "o_peso_de_uma_reputacao"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "O peso de uma reputação",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "o_peso_de_uma_reputacao"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "narrative_motif",
+      "excludes": [],
+      "id": "narrative_motif/memoria_de_uma_cidade_perdida",
+      "label": "Memória de uma cidade perdida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "narrative",
+        "theme",
+        "memoria_de_uma_cidade_perdida"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Memória de uma cidade perdida",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 3
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "memoria_de_uma_cidade_perdida"
+      },
+      "weight": 9
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

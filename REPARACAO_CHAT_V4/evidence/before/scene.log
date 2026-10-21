@@ -1,0 +1,18 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 20.1.2, 256 bits)
+
+SCENE_CHECK new_campaign/101 true
+SCENE_CHECK city/101/78 true
+SCENE_CHECK v4_authorities true
+SCENE_CHECK canonical_npcs true
+SCENE_RECORD {"baseline":true,"crowd":{"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":17,"hour":12,"last_region_event":78,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":78,"visible":17,"zones":4},"exact_npc_tiles":0,"geometry":{"ok":true,"revision":"a4147141e3485de50c46cc0a29c009ce7ec59eb99ca5d271885747108b9d9be4","samples":1372,"zones":4},"invalid_or_outside_vertices":0,"materialized_meshes":0,"missing_or_wrong_floor":0,"npcs":48,"pavements":{"roads":35,"sector_surfaces":true,"source":"Terrain Forge R3"},"region":78,"route_lengths":[0.953873872756958,0.460885882377625,0.489049285650253,0.781386733055115,0.700215935707092,0.827932894229889,0.610562384128571,1.18062794208527,0.692126095294952,1.21312725543976,0.691514313220978,0.704728722572327,0.784929513931274,1.01113677024841,0.509700834751129,0.860987544059753,1.35452091693878],"route_points":0,"seed":101,"vertices":0}
+SCENE_CHECK capture/city78-wide true
+SCENE_CHECK capture/crowd-t0 true
+SCENE_CHECK capture/crowd-t5 true
+SCENE_CHECK capture/crowd-end true
+OBSERVATION {"actual_elapsed_ms":22057,"baseline":true,"reverse_samples":157,"samples":323,"stopped_at_destination":0}
+SCENE_CHECK capture/real-npc true
+SCENE_CHECK save_scene true
+SCENE_RESULT {"failures":[],"records":2}

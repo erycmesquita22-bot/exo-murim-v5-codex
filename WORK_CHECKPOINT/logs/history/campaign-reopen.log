@@ -1,0 +1,8 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+WORK_CHECK new_process_autoload_and_core true
+WORK_CHECK martial_service_survives_reopen true
+WORK_CHECK new_process_region true
+WORK_CHECK new_process_population true
+WORK_CHECK player_finite true
+WORK_CAMPAIGN_RESULT {"checks":5,"failures":[],"reopen":true}

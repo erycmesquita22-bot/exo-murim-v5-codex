@@ -1,0 +1,294 @@
+{
+  "domain": "appearance_theme",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/jade",
+      "label": "Jade e bronze",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "jade",
+          "bronze"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/moon",
+      "label": "Lua negra",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "indigo",
+          "silver"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/river",
+      "label": "Rio e névoa",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "teal",
+          "grey"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/mountain",
+      "label": "Rocha e pinho",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "slate",
+          "pine"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/merchant",
+      "label": "Tons de seda",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "red",
+          "gold"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/herbal",
+      "label": "Ervas vivas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "green",
+          "cream"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/guard",
+      "label": "Guarda da cidade",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "blue",
+          "bronze"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/pilgrim",
+      "label": "Peregrino",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "sand",
+          "white"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/ruins",
+      "label": "Ruínas antigas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "stone",
+          "moss"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/autumn",
+      "label": "Outono",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "ochre",
+          "brown"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/frost",
+      "label": "Neve",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "white",
+          "azure"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "appearance_theme",
+      "excludes": [],
+      "id": "appearance_theme/festival",
+      "label": "Lanternas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "appearance"
+      ],
+      "variables": {
+        "apply_owner": "appearance",
+        "palette": [
+          "vermilion",
+          "yellow"
+        ],
+        "skin3d_override": false
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

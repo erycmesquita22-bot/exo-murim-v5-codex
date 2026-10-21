@@ -1,0 +1,9 @@
+{
+  "status": "CANDIDATO_FUNCIONAL_VALIDADO",
+  "official": false,
+  "core": "1.0.0",
+  "save_root": 4,
+  "required_engine": "4.6.2.stable",
+  "renderer": "gl_compatibility",
+  "blocking_issue": "Fortification deployment on river-crossed city perimeters is refused; no approved physical river closure."
+}

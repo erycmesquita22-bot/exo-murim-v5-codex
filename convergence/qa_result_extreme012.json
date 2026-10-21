@@ -1,0 +1,221 @@
+{
+	"checks": [
+		{
+			"pass": true,
+			"test": "create_character"
+		},
+		{
+			"pass": true,
+			"test": "legacy_adventure"
+		},
+		{
+			"pass": true,
+			"test": "atlas_9007199254740993"
+		},
+		{
+			"pass": true,
+			"test": "region_9007199254740993_48:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_9007199254740993_48:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_9007199254740993_48:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_9007199254740993_48"
+		},
+		{
+			"pass": true,
+			"test": "atlas_9223372036854775807"
+		},
+		{
+			"pass": true,
+			"test": "region_9223372036854775807_35:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_9223372036854775807_35:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_9223372036854775807_35:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_9223372036854775807_35"
+		},
+		{
+			"pass": true,
+			"test": "region_9223372036854775807_63:"
+		},
+		{
+			"pass": true,
+			"test": "arrival_grounded_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "all_houses_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "physical_npcs_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "approach_capsules_9223372036854775807_63:[]"
+		},
+		{
+			"pass": true,
+			"test": "approach_support_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "door_crossings_9223372036854775807_63:[]"
+		},
+		{
+			"pass": true,
+			"test": "residents_move_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "npc_interaction_9223372036854775807_63"
+		},
+		{
+			"pass": true,
+			"test": "save_integrated"
+		},
+		{
+			"pass": true,
+			"test": "reload_integrated"
+		},
+		{
+			"pass": true,
+			"test": "region_survives_reload"
+		},
+		{
+			"pass": true,
+			"test": "identities_survive_reload"
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "71f334935c000924d403448e698df4441130df18",
+		"hex": 263682,
+		"major": 4,
+		"minor": 6,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.6.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"metrics": [
+		{
+			"generation_ms": 4825.552,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 48,
+			"scene_ms": 4418.358,
+			"seed": "9007199254740993",
+			"static_memory_bytes": 306071136.0,
+			"target": 48
+		},
+		{
+			"generation_ms": 4559.879,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 35,
+			"scene_ms": 4224.344,
+			"seed": "9223372036854775807",
+			"static_memory_bytes": 306795160.0,
+			"target": 48
+		},
+		{
+			"generation_ms": 4692.524,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 63,
+			"scene_ms": 4067.761,
+			"seed": "9223372036854775807",
+			"static_memory_bytes": 314254756.0,
+			"target": 48
+		}
+	],
+	"regions": [
+		{
+			"generation_ms": 4825.552,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 48,
+			"scene_ms": 4418.358,
+			"seed": "9007199254740993",
+			"static_memory_bytes": 306071136.0,
+			"target": 48
+		},
+		{
+			"generation_ms": 4559.879,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 35,
+			"scene_ms": 4224.344,
+			"seed": "9223372036854775807",
+			"static_memory_bytes": 306795160.0,
+			"target": 48
+		},
+		{
+			"generation_ms": 4692.524,
+			"houses": 48,
+			"npcs": 72,
+			"rid": 63,
+			"scene_ms": 4067.761,
+			"seed": "9223372036854775807",
+			"static_memory_bytes": 314254756.0,
+			"target": 48
+		}
+	],
+	"rendered": false
+}

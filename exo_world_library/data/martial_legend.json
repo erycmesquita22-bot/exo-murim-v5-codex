@@ -1,0 +1,366 @@
+{
+  "domain": "martial_legend",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/espadachim_que_cortou_ponte_de_bambu",
+      "label": "Espadachim que cortou ponte de bambu",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "espadachim_que_cortou_ponte_de_bambu"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Espadachim que cortou ponte de bambu",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "espadachim_que_cortou_ponte_de_bambu"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/monge_que_selou_uma_caverna",
+      "label": "Monge que selou uma caverna",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "monge_que_selou_uma_caverna"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Monge que selou uma caverna",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "monge_que_selou_uma_caverna"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/mestra_de_passos_sem_pegadas",
+      "label": "Mestra de passos sem pegadas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "mestra_de_passos_sem_pegadas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Mestra de passos sem pegadas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "mestra_de_passos_sem_pegadas"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/lutador_que_nunca_sacava_a_espada",
+      "label": "Lutador que nunca sacava a espada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "lutador_que_nunca_sacava_a_espada"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Lutador que nunca sacava a espada",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 0
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "lutador_que_nunca_sacava_a_espada"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/curandeira_dos_nove_vales",
+      "label": "Curandeira dos nove vales",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "curandeira_dos_nove_vales"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Curandeira dos nove vales",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "curandeira_dos_nove_vales"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/guardiao_da_lanterna_vermelha",
+      "label": "Guardião da lanterna vermelha",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "guardiao_da_lanterna_vermelha"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Guardião da lanterna vermelha",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "guardiao_da_lanterna_vermelha"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/discipulo_que_recusou_o_trono",
+      "label": "Discípulo que recusou o trono",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "discipulo_que_recusou_o_trono"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Discípulo que recusou o trono",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "discipulo_que_recusou_o_trono"
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/ferreiro_que_abandonou_a_seita",
+      "label": "Ferreiro que abandonou a seita",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "ferreiro_que_abandonou_a_seita"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Ferreiro que abandonou a seita",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "ferreiro_que_abandonou_a_seita"
+      },
+      "weight": 11
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/duelista_das_sete_passagens",
+      "label": "Duelista das sete passagens",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "duelista_das_sete_passagens"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Duelista das sete passagens",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 0,
+          "threat_bias": 1
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "duelista_das_sete_passagens"
+      },
+      "weight": 12
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/eremita_que_ouviu_o_vento",
+      "label": "Eremita que ouviu o vento",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "eremita_que_ouviu_o_vento"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Eremita que ouviu o vento",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 1,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "eremita_que_ouviu_o_vento"
+      },
+      "weight": 8
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/protetor_das_caravanas_perdidas",
+      "label": "Protetor das caravanas perdidas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "protetor_das_caravanas_perdidas"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Protetor das caravanas perdidas",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 2,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "protetor_das_caravanas_perdidas"
+      },
+      "weight": 9
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "martial_legend",
+      "excludes": [],
+      "id": "martial_legend/escriba_dos_manuais_proibidos",
+      "label": "Escriba dos manuais proibidos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "martial",
+        "lore",
+        "escriba_dos_manuais_proibidos"
+      ],
+      "variables": {
+        "confidence": "authorial_candidate",
+        "editorial_seed_pt_BR": "Escriba dos manuais proibidos",
+        "execute": false,
+        "scaling": {
+          "rarity_hint": 3,
+          "threat_bias": 2
+        },
+        "selection_policy": "conditional_read_only",
+        "suggestion_owner": "narrative",
+        "theme_key": "escriba_dos_manuais_proibidos"
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

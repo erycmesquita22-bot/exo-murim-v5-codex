@@ -1,0 +1,9 @@
+{
+  "engine": "4.6.2-stable (official)",
+  "failed": 0,
+  "failed_cases": [],
+  "instantiated_buildings": 10,
+  "passed": 104502,
+  "sampled_lots": 12000,
+  "schema_version": 2
+}

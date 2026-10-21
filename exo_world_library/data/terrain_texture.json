@@ -1,0 +1,834 @@
+{
+  "domain": "terrain_texture",
+  "records": [
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_base_a",
+      "label": "grass_base_a",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_base_a",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_base_b",
+      "label": "grass_base_b",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_base_b",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_vivid_a",
+      "label": "grass_vivid_a",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_vivid_a",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_vivid_b",
+      "label": "grass_vivid_b",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_vivid_b",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_dense",
+      "label": "grass_dense",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_dense",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_wet",
+      "label": "grass_wet",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_wet",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_edge",
+      "label": "grass_edge",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_edge",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_microvariation",
+      "label": "grass_microvariation",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_microvariation",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_clean",
+      "label": "dirt_clean",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_clean",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_pebbles",
+      "label": "dirt_pebbles",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_pebbles",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_patches",
+      "label": "dirt_patches",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_patches",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_orange_a",
+      "label": "dirt_orange_a",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_orange_a",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_orange_b",
+      "label": "dirt_orange_b",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_orange_b",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_wet",
+      "label": "dirt_wet",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_wet",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_dirt_mud_light",
+      "label": "dirt_mud_light",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "dirt_mud_light",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_plaza_a",
+      "label": "stone_plaza_a",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_plaza_a",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_plaza_b",
+      "label": "stone_plaza_b",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_plaza_b",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_plaza_c",
+      "label": "stone_plaza_c",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_plaza_c",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_path_a",
+      "label": "stone_path_a",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_path_a",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_path_b",
+      "label": "stone_path_b",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_path_b",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_path_c",
+      "label": "stone_path_c",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_path_c",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_path_border",
+      "label": "stone_path_border",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_path_border",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_to_dirt",
+      "label": "stone_to_dirt",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_to_dirt",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_stone_to_grass",
+      "label": "stone_to_grass",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "stone_to_grass",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_pebbles",
+      "label": "detail_pebbles",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_pebbles",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_gravel",
+      "label": "detail_gravel",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_gravel",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_small_herbs",
+      "label": "detail_small_herbs",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_small_herbs",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_wet_patches",
+      "label": "detail_wet_patches",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_wet_patches",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_small_flowers",
+      "label": "detail_small_flowers",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_small_flowers",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_detail_moss",
+      "label": "detail_moss",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "detail_moss",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_tuft_01",
+      "label": "grass_tuft_01",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_tuft_01",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_tuft_02",
+      "label": "grass_tuft_02",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_tuft_02",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_grass_tuft_03",
+      "label": "grass_tuft_03",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "grass_tuft_03",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_low_foliage_01",
+      "label": "low_foliage_01",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "low_foliage_01",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_small_bush_01",
+      "label": "small_bush_01",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "small_bush_01",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "terrain_forge",
+      "conditions": {},
+      "domain": "terrain_texture",
+      "excludes": [],
+      "id": "terrain_texture/ref_low_flowers_01",
+      "label": "low_flowers_01",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "3190b6b496b84cf10953c728f30d663067fe82507105294a6aa4bc231c0b30bc",
+        "source_archive": "C3_R13_1",
+        "source_id": "low_flowers_01",
+        "source_owner": "terrain_forge",
+        "source_path": "exo_terrain_forge/worldgen/terrain_texture_manifest.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

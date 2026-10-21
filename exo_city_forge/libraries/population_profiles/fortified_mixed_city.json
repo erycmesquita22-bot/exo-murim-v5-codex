@@ -1,0 +1,29 @@
+{
+  "id": "fortified_mixed_city",
+  "weights": {
+    "residential": 25,
+    "commercial": 18,
+    "martial": 18,
+    "institutional": 12,
+    "mixed": 15,
+    "noble": 2,
+    "artisan": 6,
+    "plaza": 4
+  },
+  "economy": 0.55,
+  "martial_presence": 0.65,
+  "noble_probability": 0.05,
+  "maximum_influential_families": 2,
+  "ordinary_population_min_share": 0.78,
+  "guards_per_100_residents": 8,
+  "eligible_stories": [
+    "commerce",
+    "martial",
+    "influence"
+  ],
+  "density": 0.9,
+  "implementation": "parameterized",
+  "allowed_scales": [
+    "city"
+  ]
+}

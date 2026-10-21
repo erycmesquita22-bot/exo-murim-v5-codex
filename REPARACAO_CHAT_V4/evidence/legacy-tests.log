@@ -1,0 +1,797 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+OK • Inicializa na seleção dos 12 arquétipos
+FALHOU • Catálogos completos da etapa
+OK • Novo perfil da etapa é válido
+OK • Seleção pela interface do arquétipo 0
+OK • Arquétipo 0 aplica arma
+OK • Arquétipo 0 aplica ancestralidade
+OK • Arquétipo 0 aplica técnicas
+OK • Arquétipo 0 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 1
+OK • Arquétipo 1 aplica arma
+OK • Arquétipo 1 aplica ancestralidade
+OK • Arquétipo 1 aplica técnicas
+OK • Arquétipo 1 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 2
+OK • Arquétipo 2 aplica arma
+OK • Arquétipo 2 aplica ancestralidade
+OK • Arquétipo 2 aplica técnicas
+OK • Arquétipo 2 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 3
+OK • Arquétipo 3 aplica arma
+OK • Arquétipo 3 aplica ancestralidade
+OK • Arquétipo 3 aplica técnicas
+OK • Arquétipo 3 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 4
+OK • Arquétipo 4 aplica arma
+OK • Arquétipo 4 aplica ancestralidade
+OK • Arquétipo 4 aplica técnicas
+OK • Arquétipo 4 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 5
+OK • Arquétipo 5 aplica arma
+OK • Arquétipo 5 aplica ancestralidade
+OK • Arquétipo 5 aplica técnicas
+OK • Arquétipo 5 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 6
+OK • Arquétipo 6 aplica arma
+OK • Arquétipo 6 aplica ancestralidade
+OK • Arquétipo 6 aplica técnicas
+OK • Arquétipo 6 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 7
+OK • Arquétipo 7 aplica arma
+OK • Arquétipo 7 aplica ancestralidade
+OK • Arquétipo 7 aplica técnicas
+OK • Arquétipo 7 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 8
+OK • Arquétipo 8 aplica arma
+OK • Arquétipo 8 aplica ancestralidade
+OK • Arquétipo 8 aplica técnicas
+OK • Arquétipo 8 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 9
+OK • Arquétipo 9 aplica arma
+OK • Arquétipo 9 aplica ancestralidade
+OK • Arquétipo 9 aplica técnicas
+OK • Arquétipo 9 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 10
+OK • Arquétipo 10 aplica arma
+OK • Arquétipo 10 aplica ancestralidade
+OK • Arquétipo 10 aplica técnicas
+OK • Arquétipo 10 exclui seu elemento dos adversários
+OK • Seleção pela interface do arquétipo 11
+OK • Arquétipo 11 aplica arma
+OK • Arquétipo 11 aplica ancestralidade
+OK • Arquétipo 11 aplica técnicas
+OK • Arquétipo 11 exclui seu elemento dos adversários
+OK • Facções do prólogo se enfrentam entre si
+OK • Intervenção leva às Crônicas
+OK • Criação aceita base bestial e perfil completo
+OK • Anatomia bestial aplicada no mundo
+OK • Despertar ocorre na área protegida
+OK • Vila bloqueia dano hostil
+OK • Inimigo não atravessa o limite da vila e interrompe ataque
+OK • Inimigo retorna ao território
+OK • Encontros começam afastados da porta
+OK • Esc não exibe progressão ou laboratório
+OK • Pátio de testes abre sem alterar a missão
+OK • Equipa Espada
+OK • Acerto funcional de Espada
+OK • Modelo e empunhadura de Espada
+OK • Equipa Montante
+OK • Acerto funcional de Montante
+OK • Modelo e empunhadura de Montante
+OK • Equipa Katana
+OK • Acerto funcional de Katana
+OK • Modelo e empunhadura de Katana
+OK • Equipa Florete Nobre
+OK • Acerto funcional de Florete Nobre
+OK • Modelo e empunhadura de Florete Nobre
+OK • Equipa Adaga
+OK • Acerto funcional de Adaga
+OK • Modelo e empunhadura de Adaga
+OK • Equipa Adagas Gêmeas
+OK • Acerto funcional de Adagas Gêmeas
+OK • Modelo e empunhadura de Adagas Gêmeas
+OK • Equipa Lança
+OK • Acerto funcional de Lança
+OK • Modelo e empunhadura de Lança
+OK • Equipa Alabarda
+OK • Acerto funcional de Alabarda
+OK • Modelo e empunhadura de Alabarda
+OK • Equipa Foice de Guerra
+OK • Acerto funcional de Foice de Guerra
+OK • Modelo e empunhadura de Foice de Guerra
+OK • Equipa Bastão Marcial
+OK • Acerto funcional de Bastão Marcial
+OK • Modelo e empunhadura de Bastão Marcial
+OK • Equipa Maça de Guerra
+OK • Acerto funcional de Maça de Guerra
+OK • Modelo e empunhadura de Maça de Guerra
+OK • Equipa Manoplas
+OK • Acerto funcional de Manoplas
+OK • Modelo e empunhadura de Manoplas
+OK • Equipa Cajado Arcano
+OK • Acerto funcional de Cajado Arcano
+OK • Modelo e empunhadura de Cajado Arcano
+OK • Equipa Varinha
+OK • Acerto funcional de Varinha
+OK • Modelo e empunhadura de Varinha
+OK • Equipa Arco Arcano
+OK • Acerto funcional de Arco Arcano
+OK • Modelo e empunhadura de Arco Arcano
+OK • Equipa Besta Rúnica
+OK • Acerto funcional de Besta Rúnica
+OK • Modelo e empunhadura de Besta Rúnica
+OK • Aplica base anatômica Humano
+OK • Aplica base anatômica Luminar
+OK • Aplica base anatômica Umbrio
+OK • Aplica base anatômica Kitsune de Uma Cauda
+OK • Aplica base anatômica Lobo de Orelhas Prateadas
+OK • Aplica base anatômica Felino de Garras
+OK • Aplica base anatômica Ursino Robusto
+OK • Aplica base anatômica Escamado de Pele Firme
+OK • Aplica base anatômica Falcão de Penachos
+OK • Aplica base anatômica Corvo das Plumas
+OK • Aplica base anatômica Núcleo Latente
+OK • Aplica base anatômica Centelha Arcana
+OK • Conjura Corte Inicial
+OK • Efeito de combate de Corte Inicial
+OK • Conjura Bola de Gelo
+OK • Efeito de combate de Bola de Gelo
+OK • Conjura Salto Impetuoso
+OK • Salto registra pouso real
+OK • Conjura Golpe Circular
+OK • Efeito de combate de Golpe Circular
+OK • Conjura Nova Glacial
+OK • Nova imobiliza e causa dano
+OK • Conjura Atracao Arcana
+OK • Atração causa dano e aplica força
+OK • Conjura Investida Brutal
+OK • Efeito de combate de Investida Brutal
+OK • Conjura Jato de Fogo
+OK • Efeito de combate de Jato de Fogo
+OK • Conjura Barreira Arcana
+OK • Barreira cria absorção
+OK • Barreira absorve dano recebido
+OK • Conjura Cura
+OK • Cura recupera vida
+OK • Conjura Cripta de Espinhos
+OK • Campo persistente pulsa e causa dano
+OK • Conjura Guardiao Ancestral
+OK • Invocação cria guardião temporário
+OK • Conjura Rajada de Fogo
+OK • Efeito de combate de Rajada de Fogo
+OK • Conjura Rajada de Vento
+OK • Efeito de combate de Rajada de Vento
+OK • Conjura Dardo Arcano
+OK • Efeito de combate de Dardo Arcano
+OK • Conjura Onda de Repulsao
+OK • Efeito de combate de Onda de Repulsao
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Sete Cortes do Vento
+FALHOU • Efeito de combate de Sete Cortes do Vento
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Quebra-Rocha
+FALHOU • Efeito de combate de Quebra-Rocha
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Muralha da Montanha
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Terremoto do Sabre
+FALHOU • Efeito de combate de Terremoto do Sabre
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Chuva de Lanças
+FALHOU • Efeito de combate de Chuva de Lanças
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punho do Rio
+FALHOU • Efeito de combate de Punho do Rio
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Onda Reversa
+FALHOU • Efeito de combate de Onda Reversa
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Chute Crescente
+FALHOU • Efeito de combate de Chute Crescente
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Asas do Grou
+FALHOU • Efeito de combate de Asas do Grou
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Sopro de Jade
+FALHOU • Cura recupera vida
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Círculo de Jade
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Renascer das Cinzas
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Prisão de Neve
+FALHOU • Efeito de combate de Prisão de Neve
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punho da Aurora Fraturada
+FALHOU • Efeito de combate de Punho da Aurora Fraturada
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Passo dos Nove Pulsares
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Palma do Horizonte Reverso
+FALHOU • Efeito de combate de Palma do Horizonte Reverso
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punho das Três Respirações
+FALHOU • Efeito de combate de Punho das Três Respirações
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Joelho da Balança Oculta
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Passos do Último Desafio
+FALHOU • Efeito de combate de Passos do Último Desafio
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Palma do Tigre de Bronze
+FALHOU • Efeito de combate de Palma do Tigre de Bronze
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Selo da Tartaruga Antiga
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Passo do Veado das Nuvens
+FALHOU • Efeito de combate de Passo do Veado das Nuvens
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punho da Câmera Vazia
+FALHOU • Efeito de combate de Punho da Câmera Vazia
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Guarda da Última Ponte
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Passo do Duelo ao Entardecer
+FALHOU • Efeito de combate de Passo do Duelo ao Entardecer
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte da Lua Cintilante
+FALHOU • Efeito de combate de Corte da Lua Cintilante
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Agulha da Casa Oculta
+FALHOU • Efeito de combate de Agulha da Casa Oculta
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte do Herdeiro sem Nome
+FALHOU • Efeito de combate de Corte do Herdeiro sem Nome
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Alabarda do Guardião de Sal
+FALHOU • Efeito de combate de Alabarda do Guardião de Sal
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Golpe da Bigorna Antiga
+FALHOU • Efeito de combate de Golpe da Bigorna Antiga
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punhal da Janela Aberta
+FALHOU • Efeito de combate de Punhal da Janela Aberta
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Montante do Pátio Deserto
+FALHOU • Efeito de combate de Montante do Pátio Deserto
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Raio do Núcleo Sereno
+FALHOU • Efeito de combate de Raio do Núcleo Sereno
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Círculo do Pulso Solar
+FALHOU • Efeito de combate de Círculo do Pulso Solar
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Véu da Pressão Azul
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Pulso do Dantian Velado
+FALHOU • Efeito de combate de Pulso do Dantian Velado
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Onda do Mestre Itinerante
+FALHOU • Efeito de combate de Onda do Mestre Itinerante
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Muralha da Sétima Circulação
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Orvalho da Flor Imortal
+FALHOU • Efeito de combate de Orvalho da Flor Imortal
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Ressonância do Sino Lunar
+FALHOU • Efeito de combate de Ressonância do Sino Lunar
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Véu da Montanha Sagrada
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Pulso da Lâmpada Vazia
+FALHOU • Efeito de combate de Pulso da Lâmpada Vazia
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corrente do Lago de Vidro
+FALHOU • Efeito de combate de Corrente do Lago de Vidro
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Reflexo da Porta do Céu
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Círculo do Juramento Carmim
+FALHOU • Efeito de combate de Círculo do Juramento Carmim
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Lâmina do Pacto Desfeito
+FALHOU • Efeito de combate de Lâmina do Pacto Desfeito
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Sombra do Tigre Escarlate
+FALHOU • Efeito de combate de Sombra do Tigre Escarlate
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Marca da Última Promessa
+FALHOU • Efeito de combate de Marca da Última Promessa
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Cúpula do Crepúsculo Negro
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Selo do Mestre Sem Rosto
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Barreira dos Portões Inferiores
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte do Último Vigia
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Arco da Luz Infinita
+FALHOU • Efeito de combate de Arco da Luz Infinita
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Proteção do Firmamento Vivo
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Passo da Escadaria Celeste
+FALHOU • Efeito de combate de Passo da Escadaria Celeste
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Selo da Virtude Radiante
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Flor da Lua Imaculada
+FALHOU • Efeito de combate de Flor da Lua Imaculada
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Cúpula da Tartaruga Celeste
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Dança do Sino do Céu
+FALHOU • Efeito de combate de Dança do Sino do Céu
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Barreira do Pátio de Ouro
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte de Três Tempos
+FALHOU • Efeito de combate de Corte de Três Tempos
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Guarda dos Calcanhares
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Golpe da Brecha Curta
+FALHOU • Efeito de combate de Golpe da Brecha Curta
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte do Aprendiz Paciente
+FALHOU • Efeito de combate de Corte do Aprendiz Paciente
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Guarda da Escola Pequena
+FALHOU • Efeito de combate de Guarda da Escola Pequena
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Punho do Oleiro Antigo
+FALHOU • Efeito de combate de Punho do Oleiro Antigo
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Balanço do Martelo Simples
+FALHOU • Efeito de combate de Balanço do Martelo Simples
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Golpe da Feira Fechada
+FALHOU • Efeito de combate de Golpe da Feira Fechada
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Bloqueio do Portão Rural
+FALHOU • Barreira cria absorção
+FALHOU • Barreira absorve dano recebido
+SCRIPT ERROR: Invalid access to property or key 'exo_core' on a base object of type 'Node3D (main.gd)'.
+          at: cast (res://techniques.gd:56)
+          GDScript backtrace (most recent call first):
+              [0] cast (res://techniques.gd:56)
+              [1] run (res://tests.gd:147)
+              [2] frames (res://tests.gd:31)
+FALHOU • Conjura Corte do Ferreiro Exausto
+FALHOU • Efeito de combate de Corte do Ferreiro Exausto
+OK • Canalização pode começar
+OK • F interrompe canalização
+OK • Troca de espaço conserva recarga por ID
+OK • Passiva de corpo altera vida
+OK • Limite de duas passivas
+OK • Distribui ponto de atributo 0
+OK • Distribui ponto de atributo 1
+OK • Distribui ponto de atributo 2
+OK • Distribui ponto de atributo 3
+OK • Distribui ponto de atributo 4
+OK • Distribui ponto de atributo 5
+OK • Atributos respeitam seis pontos iniciais
+OK • Arcanista fortalece o dano das técnicas
+OK • Troca de arma bloqueada em combate
+OK • Menu P abre ficha
+OK • Menu P abre equipamento
+OK • Menu P abre ativas
+OK • Menu P abre passivas
+OK • Menu P abre atributos
+OK • Menu P abre classes
+OK • Menu P abre titulos
+OK • Menu P abre linhagem
+OK • Menu P abre jornada
+OK • Menu P abre testes
+OK • Botão do laboratório equipa arma temporária
+OK • Botão do laboratório equipa técnica temporária
+OK • Pátio devolve à região e restaura inimigos
+OK • Contrato continua disponível
+OK • Patrulha e combate liberam entrega
+OK • Recompensa concedida uma vez
+OK • Repetir conversa não duplica moedas
+OK • Descanso conclui primeira jornada
+OK • Bônus legado mantém compatibilidade sem nova escolha na interface
+OK • Salva todos os fundamentos
+OK • Carrega versão atual
+OK • Ancestralidade conserva ID de origem do EXO
+OK • Identidade persiste; alterações temporárias do laboratório são restauradas
+OK • Migração mantém personagem da prévia 01
+OK • Migração grava cópia do perfil anterior
+OK • Grava versões sucessivas válidas
+OK • Recupera cópia válida após corrupção do principal
+OK • Rejeita ancestralidade fora do catálogo
+OK • Rejeita técnica desconhecida
+OK • Aplica perfil gráfico 0
+OK • Aplica perfil gráfico 1
+OK • Aplica perfil gráfico 2
+RESULTADO: 212 passaram / 162 falharam

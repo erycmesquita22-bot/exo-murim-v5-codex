@@ -1,0 +1,78 @@
+{
+  "scene": "patio_murim",
+  "ground": "patio_murim_SOLO_PNG.png",
+  "instances": [
+    {
+      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "x": -10,
+      "y": 0,
+      "z": 7
+    },
+    {
+      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "x": 8,
+      "y": 0,
+      "z": 7
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "x": -2,
+      "y": 0,
+      "z": 7
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "x": 2,
+      "y": 0,
+      "z": 7
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "x": -4,
+      "y": 0,
+      "z": 5
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "x": 4,
+      "y": 0,
+      "z": 5
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "x": 0,
+      "y": 2.1,
+      "z": 7
+    },
+    {
+      "glb": "10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "x": 0,
+      "y": 0,
+      "z": 3
+    },
+    {
+      "glb": "06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "x": -9,
+      "y": 0,
+      "z": -5
+    },
+    {
+      "glb": "06_OBJETOS_GLB/objetos/poco.glb",
+      "x": 9,
+      "y": 0,
+      "z": -4
+    },
+    {
+      "glb": "06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "x": 11,
+      "y": 0,
+      "z": -11
+    },
+    {
+      "glb": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "x": -1,
+      "y": 0,
+      "z": -7
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "common",
+    "label": "Comum",
+    "rank": 0,
+    "tier_weights": [
+      45,
+      20,
+      5
+    ],
+    "affixes": 0,
+    "budget": 20,
+    "legacy_supported": true
+  },
+  {
+    "id": "uncommon",
+    "label": "Incomum",
+    "rank": 1,
+    "tier_weights": [
+      35,
+      45,
+      25
+    ],
+    "affixes": 1,
+    "budget": 38,
+    "legacy_supported": true
+  },
+  {
+    "id": "rare",
+    "label": "Rara",
+    "rank": 2,
+    "tier_weights": [
+      17,
+      30,
+      45
+    ],
+    "affixes": 2,
+    "budget": 60,
+    "legacy_supported": true
+  },
+  {
+    "id": "epic",
+    "label": "Épica",
+    "rank": 3,
+    "tier_weights": [
+      3,
+      5,
+      25
+    ],
+    "affixes": 2,
+    "budget": 77,
+    "legacy_supported": true
+  },
+  {
+    "id": "legendary",
+    "label": "Lendário",
+    "rank": 4,
+    "tier_weights": [
+      0,
+      0,
+      0
+    ],
+    "affixes": 3,
+    "budget": 88,
+    "legacy_supported": false
+  },
+  {
+    "id": "ancestral",
+    "label": "Ancestral",
+    "rank": 5,
+    "tier_weights": [
+      0,
+      0,
+      0
+    ],
+    "affixes": 4,
+    "budget": 100,
+    "legacy_supported": false
+  }
+]

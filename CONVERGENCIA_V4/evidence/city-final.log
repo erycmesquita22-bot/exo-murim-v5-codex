@@ -1,0 +1,21 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+ACTIVATION_CHECK boot true
+ACTIVATION_CHECK creator true
+ACTIVATION_CHECK new_world true
+ACTIVATION_CHECK city78 true
+ACTIVATION_CHECK city_physical true
+ACTIVATION_CHECK npc03_actual_decisions true
+ACTIVATION_CHECK crowd_renderers_attached true
+ACTIVATION_CROWD {"batch_draw_groups":24,"core_bound":true,"density":1.0,"ghosts":17,"hour":10,"last_region_event":78,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":78,"visible":17,"zones":4}
+ACTIVATION_GEOMETRY {"ok":true,"revision":"30847fab8c6f5b0443297112a6bfc540bb435df6ffe57e0922bbcd7b30826975","samples":1372,"zones":4} {"ghosts":17,"independent":true,"ok":true,"region_id":78,"source":"city_forge_authorized_geometry","urban_areas":{"cf/r4_verified_00":{"district":"residential","sector_id":"orthogonal_market/s07"},"cf/r4_verified_01":{"district":"residential","sector_id":"orthogonal_market/s07"},"cf/r4_verified_02":{"district":"martial","sector_id":"orthogonal_market/s06"},"cf/r4_verified_03":{"district":"residential","sector_id":"orthogonal_market/s05"}},"zones":4}
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s02/b00 true
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s02/b01 true
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s02/b02 true
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s06/b00 true
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s06/b01 true
+ACTIVATION_CHECK city_teacher_profile/npc/r78/cf/r78/s06/b02 true
+ACTIVATION_CHECK physical_city_teacher_occupations true
+ACTIVATION_MASTERS 6
+ACTIVATION_CITY { "owner": "city_forge_r4", "buildings": 32, "blueprint": "orthogonal_market" } npcs 48 npc03 92
+ACTIVATION_RESULT {"failures":[],"npc03_decisions":92}

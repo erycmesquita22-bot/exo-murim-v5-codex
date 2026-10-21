@@ -1,0 +1,1627 @@
+{
+  "domain": "war_casus",
+  "records": [
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/cobranca_ponte",
+      "label": "Pedágio confiscatório sobre a ponte",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "trade"
+      ],
+      "variables": {
+        "affected_asset": "bridge_toll",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "border_guard",
+        "civic_cause_type": "trade",
+        "civilian_harm": "lost_revenue",
+        "defender_role": "merchant_league",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "tariff_arbitration",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/canais_desviados",
+      "label": "Desvio intencional de canais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "water"
+      ],
+      "variables": {
+        "affected_asset": "river_control",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "upper_city",
+        "civic_cause_type": "water",
+        "civilian_harm": "dry_fields",
+        "defender_role": "farmers",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "water_investigation",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/escola_proibida",
+      "label": "Proibição de escola marcial rival",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "ideology"
+      ],
+      "variables": {
+        "affected_asset": "ban_school",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "orthodox_conclave",
+        "civic_cause_type": "ideology",
+        "civilian_harm": "secret_training",
+        "defender_role": "independent_school",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "disciplinary_hearing",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/herdeiro_desaparecido",
+      "label": "Herdeiro desaparecido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "succession"
+      ],
+      "variables": {
+        "affected_asset": "missing_heir",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "senior_clan",
+        "civic_cause_type": "succession",
+        "civilian_harm": "false_claim",
+        "defender_role": "cadet_clan",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "genealogy_hearing",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/rolo_de_impostos",
+      "label": "Impostos cobrados em dobro",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "tax"
+      ],
+      "variables": {
+        "affected_asset": "double_tax",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "tax_collector",
+        "civic_cause_type": "tax",
+        "civilian_harm": "household_debt",
+        "defender_role": "residents",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "tax_audit",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/monopolio_de_ferro",
+      "label": "Monopólio de ferro das seitas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "resources"
+      ],
+      "variables": {
+        "affected_asset": "iron_monopoly",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "martial_sect",
+        "civic_cause_type": "resources",
+        "civilian_harm": "arms_shortage",
+        "defender_role": "smith_guild",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "licensed_exchange",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/refens_estrategicos",
+      "label": "Aprendizes mantidos como reféns",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "hostage"
+      ],
+      "variables": {
+        "affected_asset": "disciple_hostages",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "protector_families",
+        "civic_cause_type": "hostage",
+        "civilian_harm": "martial_rage",
+        "defender_role": "rival_sects",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "neutral_rescue",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/carta_falsificada",
+      "label": "Ordem imperial falsificada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "deception"
+      ],
+      "variables": {
+        "affected_asset": "forged_decree",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "clan_elders",
+        "civic_cause_type": "deception",
+        "civilian_harm": "perceived_treason",
+        "defender_role": "magistrate",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "seal_verification",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/fronteira_das_neves",
+      "label": "Passagem de montanha reivindicada",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "territory"
+      ],
+      "variables": {
+        "affected_asset": "winter_pass",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "caravan_league",
+        "civic_cause_type": "territory",
+        "civilian_harm": "blocked_winter_trade",
+        "defender_role": "mountain_clans",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "border_mapping",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/assassinato_no_conclave",
+      "label": "Assassinato durante conclave marcial",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "revenge"
+      ],
+      "variables": {
+        "affected_asset": "conclave_murder",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "wandering_swords",
+        "civic_cause_type": "revenge",
+        "civilian_harm": "vendetta",
+        "defender_role": "orthodox_school",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "joint_inquest",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/heranca_de_manual",
+      "label": "Manual ancestral apropriado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "heritage"
+      ],
+      "variables": {
+        "affected_asset": "manual_theft",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "branch_sect",
+        "civic_cause_type": "heritage",
+        "civilian_harm": "lost_lineage",
+        "defender_role": "founding_sect",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "lineage_arbitration",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/fome_em_dois_vales",
+      "label": "Duas cidades disputam grãos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "famine"
+      ],
+      "variables": {
+        "affected_asset": "grain_shortage",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "poor_valley",
+        "civic_cause_type": "famine",
+        "civilian_harm": "food_riots",
+        "defender_role": "grain_city",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "shared_granary",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/cais_fechados",
+      "label": "Bloqueio comercial dos cais",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "embargo"
+      ],
+      "variables": {
+        "affected_asset": "harbor_embargo",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "merchant_patron",
+        "civic_cause_type": "embargo",
+        "civilian_harm": "starvation_prices",
+        "defender_role": "boatmen",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "navigation_truce",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/mina_sagrada",
+      "label": "Mineração invade santuário",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "faith"
+      ],
+      "variables": {
+        "affected_asset": "sacred_mine",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "ore_barons",
+        "civic_cause_type": "faith",
+        "civilian_harm": "desecration",
+        "defender_role": "temple",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "protected_borders",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/guarnicao_dividida",
+      "label": "Comando da guarnição contestado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "command"
+      ],
+      "variables": {
+        "affected_asset": "split_garrison",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "new_command",
+        "civic_cause_type": "command",
+        "civilian_harm": "dual_patrols",
+        "defender_role": "old_captain",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "formal_recognition",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/bandoleiros_patrocinados",
+      "label": "Bandidos pagos por casas nobres",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "covert"
+      ],
+      "variables": {
+        "affected_asset": "sponsored_raids",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "noble_house",
+        "civic_cause_type": "covert",
+        "civilian_harm": "unsafe_roads",
+        "defender_role": "frontier_farmers",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "expose_patron",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/ferrarias_incendiadas",
+      "label": "Incêndios coordenados em ferrarias",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "sabotage"
+      ],
+      "variables": {
+        "affected_asset": "burned_forges",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "militia",
+        "civic_cause_type": "sabotage",
+        "civilian_harm": "weapon_panic",
+        "defender_role": "metalworkers",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "neutral_investigation",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/doencas_e_culpados",
+      "label": "Epidemia usada para expulsões",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "health"
+      ],
+      "variables": {
+        "affected_asset": "plague_blame",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "city_regency",
+        "civic_cause_type": "health",
+        "civilian_harm": "scapegoating",
+        "defender_role": "minority_quarter",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "medical_hearing",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/pacto_quebrado",
+      "label": "Juramento secular de paz rompido",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "oath"
+      ],
+      "variables": {
+        "affected_asset": "broken_oath",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "young_clan",
+        "civic_cause_type": "oath",
+        "civilian_harm": "disgrace",
+        "defender_role": "old_clan",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "renew_oath",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/refugio_invadido",
+      "label": "Refúgio neutro atacado",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "humanitarian"
+      ],
+      "variables": {
+        "affected_asset": "neutral_shelter",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "mercenary_house",
+        "civic_cause_type": "humanitarian",
+        "civilian_harm": "civilian_losses",
+        "defender_role": "pilgrims",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "safe_corridor",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/tesouro_do_tributo",
+      "label": "Caravana tributária desaparecida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "revenue"
+      ],
+      "variables": {
+        "affected_asset": "vanished_tribute",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "border_family",
+        "civic_cause_type": "revenue",
+        "civilian_harm": "blame",
+        "defender_role": "regional_official",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "joint_audit",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/casamento_coercitivo",
+      "label": "Casamento imposto para fundir casas",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "dynastic"
+      ],
+      "variables": {
+        "affected_asset": "forced_union",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "elder_council",
+        "civic_cause_type": "dynastic",
+        "civilian_harm": "hostile_succession",
+        "defender_role": "younger_heir",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "consent_mediation",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/mapa_proibido",
+      "label": "Mapa de ruínas altera reivindicações",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "knowledge"
+      ],
+      "variables": {
+        "affected_asset": "relic_map",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "landlord_clan",
+        "civic_cause_type": "knowledge",
+        "civilian_harm": "ruin_claims",
+        "defender_role": "expedition_sect",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "shared_expedition",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/mestre_acusado",
+      "label": "Mestre acusado de ensinar técnica proibida",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "martial"
+      ],
+      "variables": {
+        "affected_asset": "forbidden_technique",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "wandering_master",
+        "civic_cause_type": "martial",
+        "civilian_harm": "public_fear",
+        "defender_role": "strict_sect",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "proof_trial",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/barcos_de_fuga",
+      "label": "Refugiados impedidos de atravessar rio",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "migration"
+      ],
+      "variables": {
+        "affected_asset": "refugee_boats",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "relief_order",
+        "civic_cause_type": "migration",
+        "civilian_harm": "stranded_families",
+        "defender_role": "river_guard",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "safe_crossing",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/as_tres_bandeiras",
+      "label": "Três famílias disputam tributos",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "oligarchy"
+      ],
+      "variables": {
+        "affected_asset": "three_banners",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "minor_families",
+        "civic_cause_type": "oligarchy",
+        "civilian_harm": "city_strain",
+        "defender_role": "major_family",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "tripartite_pact",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/dique_rompido",
+      "label": "Dique sabotado antes de eleição",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "sabotage"
+      ],
+      "variables": {
+        "affected_asset": "breached_dike",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "candidate_bloc",
+        "civic_cause_type": "sabotage",
+        "civilian_harm": "public_panic",
+        "defender_role": "canal_guild",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "joint_inspection",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/mensageiros_sumidos",
+      "label": "Mensageiros diplomáticos interceptados",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "communication"
+      ],
+      "variables": {
+        "affected_asset": "lost_envoys",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "capital_envoy",
+        "civic_cause_type": "communication",
+        "civilian_harm": "misinformation",
+        "defender_role": "border_province",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "protected_correspondence",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/tributo_da_seita",
+      "label": "Seita exige tributo de lavradores",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "extortion"
+      ],
+      "variables": {
+        "affected_asset": "sect_tribute",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "martial_landlord",
+        "civic_cause_type": "extortion",
+        "civilian_harm": "mutual_resistance",
+        "defender_role": "farmers",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "defense_contract",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    },
+    {
+      "authority": "world_content_library",
+      "conditions": {},
+      "domain": "war_casus",
+      "excludes": [],
+      "id": "war_casus/forja_do_vale",
+      "label": "Forja exclusiva divide clãs",
+      "links": [],
+      "origin": "authorial",
+      "requires": [],
+      "status": "candidate",
+      "tags": [
+        "politics",
+        "war",
+        "war_cause",
+        "production"
+      ],
+      "variables": {
+        "affected_asset": "exclusive_forge",
+        "aftermath": [
+          "displaced_families",
+          "trade_damage",
+          "martial_trauma"
+        ],
+        "challenger_role": "foundry_patron",
+        "civic_cause_type": "production",
+        "civilian_harm": "arms_inequality",
+        "defender_role": "small_clans",
+        "evidence_needed": [
+          "testimony",
+          "economic_trace"
+        ],
+        "material_pressure_min": 2,
+        "minimum_de_escalation_rounds": 2,
+        "negotiated_offramp": "forge_cooperative",
+        "preexisting_grievance_required": true,
+        "prewar_stages": [
+          "incident",
+          "accusation",
+          "investigation",
+          "ultimatum",
+          "mobilization"
+        ],
+        "war_actualization": "BLOCKED_UNTIL_WAR_HOST_EXISTS",
+        "war_proposal_only": true,
+        "war_requires": [
+          "two_authorized_factions",
+          "territory_or_asset",
+          "narrative_commit",
+          "host_approval"
+        ]
+      },
+      "weight": 10
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1",
+  "version": "0.3.0"
+}

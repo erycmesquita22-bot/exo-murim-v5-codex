@@ -1,0 +1,32 @@
+{
+  "version": "ALFA-R7",
+  "base_sha256": "74badc58c82e417aa8b50f3a39fa93959a2c2dea6e4846c44e74a1b78ebf0957",
+  "status": "BLOCKED_PENDING_GODOT",
+  "modified_from_R6": [
+    "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json",
+    "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md",
+    "convergence/game.gd",
+    "convergence/region.gd",
+    "exo_core/integrations/monumental_plans.gd",
+    "exo_monumental/integration/interior_bridge.gd",
+    "genesis/region_data.gd",
+    "genesis/settlements/settlement_planner.gd",
+    "project.godot"
+  ],
+  "added_since_R6": [
+    "C03_TRANSFERENCIA/DIFF-C03-R6-R7.patch",
+    "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03-R7.json",
+    "C03_TRANSFERENCIA/LOG-R7-GODOT-ENVIRONMENT.txt",
+    "C03_TRANSFERENCIA/MANIFESTO-C03-ALFA-R7.json",
+    "C03_TRANSFERENCIA/QA-C03-ALFA-R7-MATRIZ.json",
+    "C03_TRANSFERENCIA/RELATORIO-C03-ALFA-R7.md",
+    "C03_TRANSFERENCIA/RESERVAS-E-COMPLEXOS-R7.json",
+    "C03_TRANSFERENCIA/qa_r7_static.py",
+    "exo_monumental/tests/qa_c03_r7_native.gd",
+    "genesis/monument_reservations_r7.gd"
+  ],
+  "removed_since_R6": [],
+  "layout_families": 11,
+  "semantic_stations": 62,
+  "native_test_status": "NOT_RUN"
+}

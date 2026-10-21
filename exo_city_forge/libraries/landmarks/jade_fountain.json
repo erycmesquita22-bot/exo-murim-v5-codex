@@ -1,0 +1,13 @@
+{
+  "id": "jade_fountain",
+  "name": "Fonte de Jade",
+  "kind": "fountain",
+  "footprint": [
+    6,
+    6
+  ],
+  "asset_recipe": "fountain",
+  "implementation": "procedural_mesh_3d",
+  "collision": true,
+  "rights": "original generated geometry"
+}

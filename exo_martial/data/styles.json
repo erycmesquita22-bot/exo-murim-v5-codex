@@ -1,0 +1,307 @@
+[
+  {
+    "id": "exo_martial.style.sword_swift",
+    "name": "Espada do Vento Cortante",
+    "family": "espada",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "corte_inicial",
+      "rajada_de_vento"
+    ],
+    "weapon_families": [
+      "blade",
+      "sword"
+    ],
+    "minimum_level": 1,
+    "rarity": 1,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.saber_iron",
+    "name": "Sabre da Montanha",
+    "family": "sabre_katana",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "corte_inicial",
+      "golpe_circular"
+    ],
+    "weapon_families": [
+      "blade",
+      "katana"
+    ],
+    "minimum_level": 1,
+    "rarity": 1,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.spear_dragon",
+    "name": "Lança do Dragão Ascendente",
+    "family": "lanca",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "investida_brutal",
+      "onda_de_repulsao"
+    ],
+    "weapon_families": [
+      "pole",
+      "spear"
+    ],
+    "minimum_level": 1,
+    "rarity": 1,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.fist_river",
+    "name": "Punhos da Corrente",
+    "family": "punhos",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "golpe_circular",
+      "investida_brutal"
+    ],
+    "weapon_families": [
+      "unarmed",
+      "fists"
+    ],
+    "minimum_level": 1,
+    "rarity": 1,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.kick_crane",
+    "name": "Passos do Grou",
+    "family": "chutes",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "salto_impetuoso",
+      "investida_brutal"
+    ],
+    "weapon_families": [
+      "unarmed"
+    ],
+    "minimum_level": 2,
+    "rarity": 2,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.shadow_steps",
+    "name": "Passos das Sombras",
+    "family": "movimento",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "salto_impetuoso",
+      "rajada_de_vento"
+    ],
+    "weapon_families": [],
+    "minimum_level": 2,
+    "rarity": 2,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.jade_guard",
+    "name": "Guarda de Jade",
+    "family": "defesa",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "barreira_arcana",
+      "onda_de_repulsao"
+    ],
+    "weapon_families": [],
+    "minimum_level": 2,
+    "rarity": 2,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.hidden_blade",
+    "name": "Arsenal Oculto",
+    "family": "armas_especiais",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "cripta_espinhos_1",
+      "dardo_arcano"
+    ],
+    "weapon_families": [
+      "dagger",
+      "crossbow"
+    ],
+    "minimum_level": 2,
+    "rarity": 2,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.qi_serene",
+    "name": "Respiração da Serenidade",
+    "family": "qi_interno",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "cura",
+      "barreira_arcana"
+    ],
+    "weapon_families": [],
+    "minimum_level": 3,
+    "rarity": 3,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.fire_ember",
+    "name": "Fogo da Fênix",
+    "family": "mistico",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "jato_de_fogo",
+      "rajada_de_fogo"
+    ],
+    "weapon_families": [],
+    "minimum_level": 3,
+    "rarity": 3,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.winter_frost",
+    "name": "Geada Silenciosa",
+    "family": "mistico",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "bola_de_gelo",
+      "nova_glacial"
+    ],
+    "weapon_families": [],
+    "minimum_level": 3,
+    "rarity": 3,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  },
+  {
+    "id": "exo_martial.style.void_arts",
+    "name": "Artes do Vazio",
+    "family": "excepcional",
+    "description": "Tradição marcial com ensino procedural controlado.",
+    "core_techniques": [
+      "atracao_arcana",
+      "guardiao_ancestral"
+    ],
+    "weapon_families": [],
+    "minimum_level": 3,
+    "rarity": 3,
+    "mastery_max": 1000,
+    "paths": [
+      "externo",
+      "interno",
+      "pessoal"
+    ],
+    "specializations": [
+      "rapidez",
+      "precisao",
+      "equilibrio"
+    ]
+  }
+]

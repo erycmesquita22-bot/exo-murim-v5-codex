@@ -1,0 +1,11 @@
+{
+  "id": "social_porter",
+  "name": "Carregador",
+  "living_world_role": "resident",
+  "weight": 0.45,
+  "can_be_narratively_important": true,
+  "is_noble": false,
+  "physical_spawn_authority": "LivingWorld",
+  "implementation": "rules_only",
+  "role_hint": "resident"
+}

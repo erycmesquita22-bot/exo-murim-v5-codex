@@ -1,0 +1,121 @@
+{
+  "domain": "ref_city_blueprints",
+  "records": [
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_blueprints",
+      "excludes": [],
+      "id": "ref_city_blueprints/ref_caravan_ring",
+      "label": "Anel das Caravanas",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "0de736bd376297664e4edea90f2c5c43ca307f3481b7b65e9e1bea17c83fe59f",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "caravan_ring",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/city_blueprints/caravan_ring.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_blueprints",
+      "excludes": [],
+      "id": "ref_city_blueprints/ref_irregular_hillside",
+      "label": "Cidade Irregular do Vale",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "93c31c2b760b46b95cf47c255457aa4d4e90d627202a3685da7bb0a425bf5f82",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "irregular_hillside",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/city_blueprints/irregular_hillside.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_blueprints",
+      "excludes": [],
+      "id": "ref_city_blueprints/ref_orthogonal_market",
+      "label": "Mercado Ortogonal",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "fee535d621fe729f244eeedeb3a2156bbd671df4556d4c8797e58b61a9181b31",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "orthogonal_market",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/city_blueprints/orthogonal_market.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_blueprints",
+      "excludes": [],
+      "id": "ref_city_blueprints/ref_walled_crossroads",
+      "label": "Encruzilhada Murada",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "c7f0dfbb2388981bef1225dab7f3f3d0ff0034ef9c72a65e0fd380c4f3146046",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "walled_crossroads",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/city_blueprints/walled_crossroads.json"
+      },
+      "weight": 0
+    },
+    {
+      "authority": "city_forge",
+      "conditions": {},
+      "domain": "ref_city_blueprints",
+      "excludes": [],
+      "id": "ref_city_blueprints/ref_waterless_terrace",
+      "label": "Terraços da Fronteira",
+      "links": [],
+      "origin": "external_ref",
+      "requires": [],
+      "status": "reference_only",
+      "tags": [
+        "external_reference"
+      ],
+      "variables": {
+        "content_sha256": "622d312645303c087c1de1da4d061309759f735fa4721ab2c34d8b5000324f79",
+        "source_archive": "CITY_FORGE_R2",
+        "source_id": "waterless_terrace",
+        "source_owner": "city_forge",
+        "source_path": "exo_city_forge/libraries/city_blueprints/waterless_terrace.json"
+      },
+      "weight": 0
+    }
+  ],
+  "schema": "exo.world_library.catalog.v1"
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Unique records exercised across native Godot QA campaigns, not guaranteed count per campaign",
+  "records": 35,
+  "consumer_pairs": 35,
+  "by_consumer": {
+    "npc_dialogue": 20,
+    "npc_traits": 6,
+    "quest_offer_priority": 4,
+    "city_pavement_material": 4,
+    "enemy_danger": 1
+  },
+  "used": [
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/atone"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/challenge_rival"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/deliver_message"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/escape_clan"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/expose_fraud"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/find_herb"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/find_missing"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/healing"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/investigate_ruin"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/pay_debt"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/protect_family"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/protect_sect"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/prove_skill"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/recover_manual"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/repair_honor"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/seek_teacher"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/sell_heirloom"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/trade_route"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/warn_village"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/ambicioso"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/audacioso"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/disciplinado"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/prudente"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/reservado"
+    },
+    {
+      "consumer": "npc_traits",
+      "record_id": "personality/sociavel"
+    },
+    {
+      "consumer": "quest_offer_priority",
+      "record_id": "quest_pattern/deliver_iron"
+    },
+    {
+      "consumer": "quest_offer_priority",
+      "record_id": "quest_pattern/explore_region"
+    },
+    {
+      "consumer": "quest_offer_priority",
+      "record_id": "quest_pattern/speak_npc"
+    },
+    {
+      "consumer": "city_pavement_material",
+      "record_id": "settlement_theme/craft"
+    },
+    {
+      "consumer": "city_pavement_material",
+      "record_id": "settlement_theme/medicinal"
+    },
+    {
+      "consumer": "enemy_danger",
+      "record_id": "encounter_theme/boar_hunt"
+    },
+    {
+      "consumer": "city_pavement_material",
+      "record_id": "settlement_theme/agricultural"
+    },
+    {
+      "consumer": "city_pavement_material",
+      "record_id": "settlement_theme/shrine"
+    },
+    {
+      "consumer": "npc_dialogue",
+      "record_id": "npc_motivation/return_home"
+    },
+    {
+      "consumer": "quest_offer_priority",
+      "record_id": "quest_pattern/investigate_ruin"
+    }
+  ]
+}

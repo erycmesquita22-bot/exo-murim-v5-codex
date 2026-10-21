@@ -1,0 +1,706 @@
+{
+  "id": "waterless_terrace",
+  "name": "Terraços da Fronteira",
+  "shape": "orthogonal",
+  "wall": false,
+  "half_extent": 139,
+  "gates": [
+    [
+      0,
+      -133
+    ],
+    [
+      0,
+      133
+    ],
+    [
+      -133,
+      0
+    ],
+    [
+      133,
+      0
+    ]
+  ],
+  "streets": [
+    {
+      "a": [
+        -128,
+        -23
+      ],
+      "b": [
+        128,
+        -23
+      ],
+      "width": 7,
+      "kind": "main"
+    },
+    {
+      "a": [
+        -128,
+        23
+      ],
+      "b": [
+        128,
+        23
+      ],
+      "width": 7,
+      "kind": "parallel"
+    },
+    {
+      "a": [
+        24,
+        -128
+      ],
+      "b": [
+        24,
+        128
+      ],
+      "width": 6,
+      "kind": "cross"
+    },
+    {
+      "a": [
+        -24,
+        -128
+      ],
+      "b": [
+        -24,
+        128
+      ],
+      "width": 6,
+      "kind": "parallel"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "waterless_terrace/s00",
+      "center": [
+        -96,
+        -48
+      ],
+      "footprint": [
+        [
+          -116,
+          -68
+        ],
+        [
+          -76,
+          -68
+        ],
+        [
+          -76,
+          -28
+        ],
+        [
+          -116,
+          -28
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -116,
+          -48
+        ],
+        [
+          -76,
+          -48
+        ],
+        [
+          -96,
+          -68
+        ],
+        [
+          -96,
+          -28
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s01",
+      "center": [
+        -96,
+        0
+      ],
+      "footprint": [
+        [
+          -116,
+          -20
+        ],
+        [
+          -76,
+          -20
+        ],
+        [
+          -76,
+          20
+        ],
+        [
+          -116,
+          20
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -116,
+          0
+        ],
+        [
+          -76,
+          0
+        ],
+        [
+          -96,
+          -20
+        ],
+        [
+          -96,
+          20
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s02",
+      "center": [
+        -48,
+        -48
+      ],
+      "footprint": [
+        [
+          -68,
+          -68
+        ],
+        [
+          -28,
+          -68
+        ],
+        [
+          -28,
+          -28
+        ],
+        [
+          -68,
+          -28
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -68,
+          -48
+        ],
+        [
+          -28,
+          -48
+        ],
+        [
+          -48,
+          -68
+        ],
+        [
+          -48,
+          -28
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s03",
+      "center": [
+        -48,
+        0
+      ],
+      "footprint": [
+        [
+          -68,
+          -20
+        ],
+        [
+          -28,
+          -20
+        ],
+        [
+          -28,
+          20
+        ],
+        [
+          -68,
+          20
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -68,
+          0
+        ],
+        [
+          -28,
+          0
+        ],
+        [
+          -48,
+          -20
+        ],
+        [
+          -48,
+          20
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s04",
+      "center": [
+        -48,
+        48
+      ],
+      "footprint": [
+        [
+          -68,
+          28
+        ],
+        [
+          -28,
+          28
+        ],
+        [
+          -28,
+          68
+        ],
+        [
+          -68,
+          68
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -68,
+          48
+        ],
+        [
+          -28,
+          48
+        ],
+        [
+          -48,
+          28
+        ],
+        [
+          -48,
+          68
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s05",
+      "center": [
+        0,
+        -48
+      ],
+      "footprint": [
+        [
+          -20,
+          -68
+        ],
+        [
+          20,
+          -68
+        ],
+        [
+          20,
+          -28
+        ],
+        [
+          -20,
+          -28
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -20,
+          -48
+        ],
+        [
+          20,
+          -48
+        ],
+        [
+          0,
+          -68
+        ],
+        [
+          0,
+          -28
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s06",
+      "center": [
+        0,
+        0
+      ],
+      "footprint": [
+        [
+          -20,
+          -20
+        ],
+        [
+          20,
+          -20
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          -20,
+          20
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -20,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          0,
+          -20
+        ],
+        [
+          0,
+          20
+        ]
+      ],
+      "zone": "center"
+    },
+    {
+      "id": "waterless_terrace/s07",
+      "center": [
+        0,
+        48
+      ],
+      "footprint": [
+        [
+          -20,
+          28
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          20,
+          68
+        ],
+        [
+          -20,
+          68
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          -20,
+          48
+        ],
+        [
+          20,
+          48
+        ],
+        [
+          0,
+          28
+        ],
+        [
+          0,
+          68
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s08",
+      "center": [
+        48,
+        -48
+      ],
+      "footprint": [
+        [
+          28,
+          -68
+        ],
+        [
+          68,
+          -68
+        ],
+        [
+          68,
+          -28
+        ],
+        [
+          28,
+          -28
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          28,
+          -48
+        ],
+        [
+          68,
+          -48
+        ],
+        [
+          48,
+          -68
+        ],
+        [
+          48,
+          -28
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s09",
+      "center": [
+        48,
+        0
+      ],
+      "footprint": [
+        [
+          28,
+          -20
+        ],
+        [
+          68,
+          -20
+        ],
+        [
+          68,
+          20
+        ],
+        [
+          28,
+          20
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          28,
+          0
+        ],
+        [
+          68,
+          0
+        ],
+        [
+          48,
+          -20
+        ],
+        [
+          48,
+          20
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s10",
+      "center": [
+        48,
+        48
+      ],
+      "footprint": [
+        [
+          28,
+          28
+        ],
+        [
+          68,
+          28
+        ],
+        [
+          68,
+          68
+        ],
+        [
+          28,
+          68
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          28,
+          48
+        ],
+        [
+          68,
+          48
+        ],
+        [
+          48,
+          28
+        ],
+        [
+          48,
+          68
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s11",
+      "center": [
+        96,
+        0
+      ],
+      "footprint": [
+        [
+          76,
+          -20
+        ],
+        [
+          116,
+          -20
+        ],
+        [
+          116,
+          20
+        ],
+        [
+          76,
+          20
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          76,
+          0
+        ],
+        [
+          116,
+          0
+        ],
+        [
+          96,
+          -20
+        ],
+        [
+          96,
+          20
+        ]
+      ],
+      "zone": "outer"
+    },
+    {
+      "id": "waterless_terrace/s12",
+      "center": [
+        96,
+        48
+      ],
+      "footprint": [
+        [
+          76,
+          28
+        ],
+        [
+          116,
+          28
+        ],
+        [
+          116,
+          68
+        ],
+        [
+          76,
+          68
+        ]
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "connectors": [
+        [
+          76,
+          48
+        ],
+        [
+          116,
+          48
+        ],
+        [
+          96,
+          28
+        ],
+        [
+          96,
+          68
+        ]
+      ],
+      "zone": "outer"
+    }
+  ],
+  "allowed_scales": [
+    "city"
+  ],
+  "implementation": "physical_preview",
+  "notes": "Compact original authorial layout; integracao C3 via contrato oficial somente | R3 authored modular city-only due to historical 9-14 sectors not respecting R13 town 26-lot budget; old procedural host kept intact."
+}

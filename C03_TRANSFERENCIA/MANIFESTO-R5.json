@@ -1,0 +1,39 @@
+{
+  "project": "EXO Murim",
+  "convergencia": 3,
+  "revision": "ALFA R5",
+  "date": "2026-10-19",
+  "source_zip": "EXO-MURIM-CONVERGENCIA-03-ALFA-R4.zip",
+  "source_zip_sha256": "08e2f49e6e9ed87cc08d1e25fc5d31808b17171fc3a3a282cc8a50f1efca28e6",
+  "integrated_system": "Creature Harmonizacao 02 visual runtime -> Bestiario 02 regional fauna",
+  "godot_native": "NOT_RUN",
+  "static_qa_summary": {
+    "pass": 117,
+    "fail": 0,
+    "not_run_native": 9
+  },
+  "changed_project_files": [
+    "exo_bestiary/integration/regional_fauna_actor.gd",
+    "exo_core/integrations/creature_visuals.gd",
+    "exo_core/modules.json",
+    "project.godot",
+    "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json",
+    "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md"
+  ],
+  "new_project_files": [
+    "exo_creature_harmonizacao02/integration/runtime_visual_binding.gd",
+    "exo_creature_harmonizacao02/tests/qa_c03_r5_visual_runtime.gd",
+    "C03_TRANSFERENCIA/scripts_de_auditoria/r5_static_qa.py"
+  ],
+  "file_hashes": {
+    "exo_bestiary/integration/regional_fauna_actor.gd": "e43a667a7ff06b337e30fb190eaad215d93e4a7f6c299364f511b33d46456a00",
+    "exo_core/integrations/creature_visuals.gd": "29d1c92d60a426c3d91dd32631d1e768637f0409f8e297db4e23d1fa7c852a6d",
+    "exo_core/modules.json": "d63a087770fbf1a935ac499216734abf94aaa8b59080ea9e350023b3b5f3f275",
+    "project.godot": "92fe78e26d470a088c131e304c66224c6f4c11b462dad9b4898077ff37856c15",
+    "exo_creature_harmonizacao02/integration/runtime_visual_binding.gd": "7a2f2d788360d5da161615318d64d08abf07d429afd8002076102f27385b4f6c",
+    "exo_creature_harmonizacao02/tests/qa_c03_r5_visual_runtime.gd": "cb7c6657559c8975325e4b65abb0f51a5e3502c6da2fb88ed4579a6c21170148",
+    "C03_TRANSFERENCIA/scripts_de_auditoria/r5_static_qa.py": "62a3d557c9da44d80931d4b2639bedb43b13da9c0bd48a91e3dd64959881f548",
+    "C03_TRANSFERENCIA/ESTADO-INTEGRACAO-C03.json": "35fce31c62505e00ba35785790fb73e2ac9ab402a99e3ccc18e74bbae3437a9d",
+    "C03_TRANSFERENCIA/INSTRUCOES-CONTINUACAO-WORK.md": "2509e487c1281af41f6557f157ec2fddd685fd91f5601dbb9123a35d44a3cdff"
+  }
+}

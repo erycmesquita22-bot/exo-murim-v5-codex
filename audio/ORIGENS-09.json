@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/audio09/qi_prepare.ogg",
+    "source_file": "spell_01.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:0.55,afade=t=in:d=0.03,afade=t=out:st=0.30000000000000004:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/qi_release.ogg",
+    "source_file": "spell_02.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:0.9,afade=t=in:d=0.03,afade=t=out:st=0.65:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/summon.ogg",
+    "source_file": "spell_fire_07.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:1.2,afade=t=in:d=0.03,afade=t=out:st=0.95:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/boss_entry.ogg",
+    "source_file": "roar.wav",
+    "source": "https://opengameart.org/content/cc0-deep-monster-roar",
+    "license": "CC0",
+    "edits": "atrim=0:2.3,afade=t=in:d=0.03,afade=t=out:st=2.05:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/boss_phase.ogg",
+    "source_file": "creature_monster_04.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:1.4,afade=t=in:d=0.03,afade=t=out:st=1.15:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/boss_prepare.ogg",
+    "source_file": "creature_misc_03.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:0.65,afade=t=in:d=0.03,afade=t=out:st=0.4:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/boss_release.ogg",
+    "source_file": "spell_fire_05.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:0.6,afade=t=in:d=0.03,afade=t=out:st=0.35:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  },
+  {
+    "file": "assets/audio09/quest_complete.ogg",
+    "source_file": "item_coins_02.ogg",
+    "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "license": "CC0",
+    "edits": "atrim=0:0.8,afade=t=in:d=0.03,afade=t=out:st=0.55:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
+  }
+]
