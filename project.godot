@@ -53,3 +53,7 @@ physical_interiors=true
 
 [exo_murim/worldgen_v5]
 replace_settlements=true
+
+[editor]
+
+import/use_multiple_threads=false

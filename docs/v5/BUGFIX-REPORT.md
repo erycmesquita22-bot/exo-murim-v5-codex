@@ -28,3 +28,7 @@ Revisão sobre 5cb6103. Implementada e validada nos cenários abaixo; não signi
 ## Recursos e documentos
 
 As imagens Terrain/FighterArt permanecem autorizadas pelo proprietário, que prometeu comprovação depois. Os169 PNG R3 usam a mesma cadeia declarada dos recursos Terrain do projeto fornecido; atlas derivados e geração original de rocha têm registros separados de fonte/hash. Não foram restauradas as480 skins em quarentena ou packs externos.
+
+## Importação fria
+
+O primeiro import em uma extração sem cache sofreu crash nativo do Godot 4.6.2 (signal11, propagate_notification fora da thread principal) durante a importação paralela de CSV. A revisão final configura editor/import/use_multiple_threads=false para serializar importações. Quatro tabelas de documentação/QA/eventos foram marcadas explicitamente como keep, em vez de tratadas como traduções; seus bytes e consumidores permanecem disponíveis. Os dois CSV de localização legítimos de Economy/VFX continuam sendo importados como traduções. O log do crash e da primeira tentativa de QA sem recursos importados fica preservado no histórico; não é contado como PASS. A extração limpa da revisão final é testada novamente.
