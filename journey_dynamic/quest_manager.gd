@@ -83,7 +83,7 @@ func roster() -> Array:
 func nearby_giver(q: Dictionary) -> bool:
 	if world.current_region!=int(q.origin):return false
 	for actor in world.residents:
-		if actor.identity.id==q.giver and actor.rig.visible and actor.position.distance_to(world.player.position)<3.3:return true
+		if actor.identity.id==q.giver and actor.can_interact(world.player.global_position,3.3):return true
 	return false
 func accept(offer: Dictionary) -> bool:
 	if world.flow.lab_mode or world.flow.phase!="adventure" or world.changing_region:return false

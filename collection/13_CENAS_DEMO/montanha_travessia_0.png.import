@@ -2,13 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb1jwysvlt14w"
+uid="uid://b18tyi5qv5l6n"
 path="res://.godot/imported/montanha_travessia_0.png-2da2b62c5366d15ec9b7106b07e84666.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "c322552841705a2085d53e4e9464d9d4"
 }
 
 [deps]
@@ -26,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

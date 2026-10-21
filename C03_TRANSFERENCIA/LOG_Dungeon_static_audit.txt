@@ -1,5 +1,0 @@
-exit=0
-Core archive missing: set EXO_CORE_ARCHIVE=/path/to/EXO-Core.zip to repeat Core ABI checks.
-{"passed": 23, "total": 23, "fails": [], "gd_scripts": 47}
-
-STDERR:

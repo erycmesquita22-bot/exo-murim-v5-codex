@@ -221,7 +221,7 @@
           },
           "movement": {
             "visual_event": "exovisual:wind_break",
-            "resource": "assets/exo_audio/wind_break.ogg",
+            "resource": "assets/v5_generated/audio/fx_c8171f58d9b830a6.wav",
             "state": "reused_existing_exo_visual_resource",
             "source": "exo-rpg/codigo/chain/visual/src/main/java/br/exovisual/audio/LayeredAudio.java (LEAP -> wind_break)"
           }

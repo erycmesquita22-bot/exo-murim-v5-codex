@@ -1,8 +1,0 @@
-{
-  "checks": 85,
-  "failures": 0,
-  "scope": "offline texture/path/structure checks only, Godot 4.6.2 NOT_RUN",
-  "source_textures": 9,
-  "biomes": 8,
-  "watermarks": "none"
-}

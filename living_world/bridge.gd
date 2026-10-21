@@ -3,7 +3,7 @@ extends RefCounted
 # the gameplay owner explicitly invokes the adapter from a supported event.
 const State=preload("res://living_world/state.gd")
 const People=preload("res://living_world/people.gd")
-const Profile=preload("res://npc_system02/profile.gd")
+const Profile=preload("res://living_world/profile.gd")
 const Quests=preload("res://living_world/quests.gd")
 
 static func setup(journey: RefCounted,atlas_seed: String="") -> Dictionary:

@@ -492,27 +492,6 @@
     }
   },
   {
-    "id": "npc_system03",
-    "version": "0.1.0",
-    "requires": {
-      "living_world": "1.0.0"
-    },
-    "optional": {
-      "world": "1.0.0",
-      "narrative": "1.0.0",
-      "appearance": "1.0.0"
-    },
-    "services": [
-      "npc03.agenda"
-    ],
-    "publishes": [],
-    "consumes": [],
-    "persistence": {},
-    "optional_module": true,
-    "entrypoint": "res://npc_system03/module.gd",
-    "integration_mode": "proposals_only"
-  },
-  {
     "id": "exo_vfx_forge",
     "version": "1.0.0",
     "requires": {
@@ -529,30 +508,11 @@
     "persistence": {},
     "entrypoint": "res://exo_vfx_forge/module.gd",
     "optional_module": true,
-    "integration_mode": "bridge_pending_fail_closed",
+    "integration_mode": "techniques_release_authorized_host_v5",
     "feature_flags": {
-      "enabled": false,
+      "enabled": true,
       "requires_trusted_bridge": true
     }
-  },
-  {
-    "id": "interior_forge",
-    "version": "1.0.0",
-    "requires": {
-      "world": "1.0.0"
-    },
-    "optional": {
-      "city_forge": "0.4.0"
-    },
-    "services": [
-      "interior_forge.candidates"
-    ],
-    "publishes": [],
-    "consumes": [],
-    "persistence": {},
-    "entrypoint": "res://exo_core/integrations/interior_candidate.gd",
-    "optional_module": true,
-    "integration_mode": "validated_tickets_only_no_transition"
   },
   {
     "id": "terrain_r3",
@@ -570,5 +530,52 @@
     "entrypoint": "res://exo_core/integrations/terrain_r3.gd",
     "optional_module": true,
     "integration_mode": "read_only_resolver_no_asset_overwrite"
+  },
+  {
+    "id": "npc_system04",
+    "version": "0.4.1",
+    "requires": {
+      "living_world": "1.0.0",
+      "worldgen_v5": "5.0.1"
+    },
+    "optional": {},
+    "entrypoint": "res://npc_system04/module.gd",
+    "services": [
+      "npc04.runtime"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {}
+  },
+  {
+    "id": "settlement_forge",
+    "version": "1.0.1",
+    "requires": {
+      "world": "1.0.0"
+    },
+    "optional": {},
+    "entrypoint": "res://exo_settlement_forge/module.gd",
+    "services": [
+      "settlement.forge"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {}
+  },
+  {
+    "id": "worldgen_v5",
+    "version": "5.0.1",
+    "requires": {
+      "world": "1.0.0",
+      "settlement_forge": "1.0.1"
+    },
+    "optional": {},
+    "entrypoint": "res://worldgen_v5/module.gd",
+    "services": [
+      "worldgen.v5"
+    ],
+    "publishes": [],
+    "consumes": [],
+    "persistence": {}
   }
 ]

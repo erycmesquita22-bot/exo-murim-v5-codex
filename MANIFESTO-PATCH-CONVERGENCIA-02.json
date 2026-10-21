@@ -1044,505 +1044,505 @@
       "size": 3360
     },
     {
-      "path": "models/forja_v3/city_wall_battlement_2m.glb",
+      "path": "models/forja_v3/city_wall_battlement_2m.tscn",
       "kind": "added",
       "sha256": "ad4bc928e30ec7a969c6da81b8f44c54e60e34324f191534e114c0c689f30aa2",
       "size": 2892
     },
     {
-      "path": "models/forja_v3/city_wall_battlement_2m.glb.import",
+      "path": "models/forja_v3/city_wall_battlement_2m.tscn.import",
       "kind": "added",
       "sha256": "7748448417be63afdcbbb3ae2e4fc4222ae7aaa7dd4e63bf5ff6f5e9f68b59bb",
       "size": 1091
     },
     {
-      "path": "models/forja_v3/city_wall_stone_2m.glb",
+      "path": "models/forja_v3/city_wall_stone_2m.tscn",
       "kind": "added",
       "sha256": "44571cccf4ca76890e88a4831d4c12023f94586bb41f874f49db4673a901746b",
       "size": 3092
     },
     {
-      "path": "models/forja_v3/city_wall_stone_2m.glb.import",
+      "path": "models/forja_v3/city_wall_stone_2m.tscn.import",
       "kind": "added",
       "sha256": "7b0e3fc21cf23e4db296beff647b46d3ff7a2fb7702e4f99f7f4a25717265154",
       "size": 1076
     },
     {
-      "path": "models/forja_v3/city_wall_wood_2m.glb",
+      "path": "models/forja_v3/city_wall_wood_2m.tscn",
       "kind": "added",
       "sha256": "f0b581d3f8fcf4c383dd2a8c39764db3836e4bf021c9bf95b5c8641de236814e",
       "size": 2608
     },
     {
-      "path": "models/forja_v3/city_wall_wood_2m.glb.import",
+      "path": "models/forja_v3/city_wall_wood_2m.tscn.import",
       "kind": "added",
       "sha256": "201d59d04641e0b10a45803d47cbaad174927918602b09e3853ff65fef27c43b",
       "size": 1073
     },
     {
-      "path": "models/forja_v3/clan_banner_pair.glb",
+      "path": "models/forja_v3/clan_banner_pair.tscn",
       "kind": "added",
       "sha256": "6b8b48d119c1675c889d95b92d3b7246eee8ee10e6936afaad98f3870f211614",
       "size": 3012
     },
     {
-      "path": "models/forja_v3/clan_banner_pair.glb.import",
+      "path": "models/forja_v3/clan_banner_pair.tscn.import",
       "kind": "added",
       "sha256": "28b28c8a947d8b68058e18d7217dc28b8d7ebfefaa0bf7804ac4522944b0fd4b",
       "size": 1070
     },
     {
-      "path": "models/forja_v3/dojo_bell.glb",
+      "path": "models/forja_v3/dojo_bell.tscn",
       "kind": "added",
       "sha256": "3595def3d63a1895c27aa4a14535e16f15b856c1529671f750d3a58c17b35457",
       "size": 2700
     },
     {
-      "path": "models/forja_v3/dojo_bell.glb.import",
+      "path": "models/forja_v3/dojo_bell.tscn.import",
       "kind": "added",
       "sha256": "c6009cb99a9039164e3d6564e9419d012d0b86c88cbea67bd0491777fa0ef220",
       "size": 1048
     },
     {
-      "path": "models/forja_v3/farm_gate_4m.glb",
+      "path": "models/forja_v3/farm_gate_4m.tscn",
       "kind": "added",
       "sha256": "4ddb425d51955154dc404c047dfd5ee9980dd68ae691c03cfbc718409396c976",
       "size": 2416
     },
     {
-      "path": "models/forja_v3/farm_gate_4m.glb.import",
+      "path": "models/forja_v3/farm_gate_4m.tscn.import",
       "kind": "added",
       "sha256": "bb958d1567006b4ef23584836867087d3473ba21e5c6c0b4f66ffce692ac15d0",
       "size": 1058
     },
     {
-      "path": "models/forja_v3/field_fence_2m.glb",
+      "path": "models/forja_v3/field_fence_2m.tscn",
       "kind": "added",
       "sha256": "ac9c538b0d34b269f821734d10fcccec4d9b80a37be8cea969ed243cfa2e1aab",
       "size": 2248
     },
     {
-      "path": "models/forja_v3/field_fence_2m.glb.import",
+      "path": "models/forja_v3/field_fence_2m.tscn.import",
       "kind": "added",
       "sha256": "f2baf91a8fc03b1833a1baeb33d7f9d8ec4ffb43f664fed98fb8b1d28c9c5784",
       "size": 1064
     },
     {
-      "path": "models/forja_v3/gate_stone_6m.glb",
+      "path": "models/forja_v3/gate_stone_6m.tscn",
       "kind": "added",
       "sha256": "1f599935d6a77e9a59c7887b41bc6a98449e55e4a24a742986576c49219957e5",
       "size": 8476
     },
     {
-      "path": "models/forja_v3/gate_stone_6m.glb.import",
+      "path": "models/forja_v3/gate_stone_6m.tscn.import",
       "kind": "added",
       "sha256": "a1de5128308b8ac203635bda8e8994daa2eb99a5591d66bba1d6e41fe452446e",
       "size": 1061
     },
     {
-      "path": "models/forja_v3/gate_wood_6m.glb",
+      "path": "models/forja_v3/gate_wood_6m.tscn",
       "kind": "added",
       "sha256": "e3fdade5308c413ae19bc21c51341ca9c6e7a7883c3dcec77bc129003e115bfb",
       "size": 6436
     },
     {
-      "path": "models/forja_v3/gate_wood_6m.glb.import",
+      "path": "models/forja_v3/gate_wood_6m.tscn.import",
       "kind": "added",
       "sha256": "27f92bf04ff4139cbd982bb717e76b29b548941c59e3280c1dea7404c938bafa",
       "size": 1058
     },
     {
-      "path": "models/forja_v3/grain_silo.glb",
+      "path": "models/forja_v3/grain_silo.tscn",
       "kind": "added",
       "sha256": "26569be609331c2e1329e073ea7bde959a380a7f53152969845b4d99ad0171b4",
       "size": 5804
     },
     {
-      "path": "models/forja_v3/grain_silo.glb.import",
+      "path": "models/forja_v3/grain_silo.tscn.import",
       "kind": "added",
       "sha256": "021b3e12094d61a3f3d95a2b82ca07d930a6b61d49cf21053bc2402f07d7649a",
       "size": 1051
     },
     {
-      "path": "models/forja_v3/granary_6m.glb",
+      "path": "models/forja_v3/granary_6m.tscn",
       "kind": "added",
       "sha256": "c921349cc4499e00ea21f65a417704c108b81865df3e27ae055acee970622cb8",
       "size": 12756
     },
     {
-      "path": "models/forja_v3/granary_6m.glb.import",
+      "path": "models/forja_v3/granary_6m.tscn.import",
       "kind": "added",
       "sha256": "a90236c222b939f3e6bd3c5a8dfa8d0ec9b7ba2d39cbe3ba37300ec82bf4992f",
       "size": 1052
     },
     {
-      "path": "models/forja_v3/guild_hall_8m.glb",
+      "path": "models/forja_v3/guild_hall_8m.tscn",
       "kind": "added",
       "sha256": "e4bdaad372f4e00397c9cd4efd737b718d5c18a7f4a8cc8cc4cb1c5b70657aa8",
       "size": 12488
     },
     {
-      "path": "models/forja_v3/guild_hall_8m.glb.import",
+      "path": "models/forja_v3/guild_hall_8m.tscn.import",
       "kind": "added",
       "sha256": "1126e2fa5fcc9adc2f1165d71b3f6b7c5630b9464651a9e59a6614cfb71ec80a",
       "size": 1061
     },
     {
-      "path": "models/forja_v3/hanging_wall_torch.glb",
+      "path": "models/forja_v3/hanging_wall_torch.tscn",
       "kind": "added",
       "sha256": "9b94d43efcc5984fbaf11aab1f3e50bc69a43d7424c7e4ab83f07580474a4392",
       "size": 2680
     },
     {
-      "path": "models/forja_v3/hanging_wall_torch.glb.import",
+      "path": "models/forja_v3/hanging_wall_torch.tscn.import",
       "kind": "added",
       "sha256": "cbe5758024ad1d67990ef0d5e9a4051fd13c9b1d1762c82497b79923e9e4c704",
       "size": 1076
     },
     {
-      "path": "models/forja_v3/hay_cart.glb",
+      "path": "models/forja_v3/hay_cart.tscn",
       "kind": "added",
       "sha256": "31d6846eccb47692fa991f88bd0f9f1c7305beb71d869eca480e00abf4441159",
       "size": 3600
     },
     {
-      "path": "models/forja_v3/hay_cart.glb.import",
+      "path": "models/forja_v3/hay_cart.tscn.import",
       "kind": "added",
       "sha256": "20a1e95e73130564ab56dc4c5b467a927a3315f5108c40e4efb37d7d977f0e44",
       "size": 1045
     },
     {
-      "path": "models/forja_v3/herbalist_garden_box.glb",
+      "path": "models/forja_v3/herbalist_garden_box.tscn",
       "kind": "added",
       "sha256": "ee9a29b67b015ff5e30183bfd8182a3c89835114e7dbb5c966f95afaca7f13fd",
       "size": 3576
     },
     {
-      "path": "models/forja_v3/herbalist_garden_box.glb.import",
+      "path": "models/forja_v3/herbalist_garden_box.tscn.import",
       "kind": "added",
       "sha256": "6d50325547c04059e0f2490399e3e46c60f89d30fc72829446f3f9d2b970f87c",
       "size": 1082
     },
     {
-      "path": "models/forja_v3/irrigation_channel_2m.glb",
+      "path": "models/forja_v3/irrigation_channel_2m.tscn",
       "kind": "added",
       "sha256": "d28b8fbc8e7ff07fde56c1cdba5e4dd717c5988efd0cd7f56f013dbebae9be94",
       "size": 2372
     },
     {
-      "path": "models/forja_v3/irrigation_channel_2m.glb.import",
+      "path": "models/forja_v3/irrigation_channel_2m.tscn.import",
       "kind": "added",
       "sha256": "4367ad85ef017aa2939abf44adb007df2797b465e67f1928de1c47cb5b452b86",
       "size": 1085
     },
     {
-      "path": "models/forja_v3/martial_training_yard_6m.glb",
+      "path": "models/forja_v3/martial_training_yard_6m.tscn",
       "kind": "added",
       "sha256": "0b4db2a1138fcfb3b7a0de1245009525cff6ecc3a14d84fe0334961308871710",
       "size": 2852
     },
     {
-      "path": "models/forja_v3/martial_training_yard_6m.glb.import",
+      "path": "models/forja_v3/martial_training_yard_6m.tscn.import",
       "kind": "added",
       "sha256": "95fa22db8b0ee7cbdca3a689608a01a33b397d8f2d65002414a05541957a6b70",
       "size": 1094
     },
     {
-      "path": "models/forja_v3/open_pavilion_6m.glb",
+      "path": "models/forja_v3/open_pavilion_6m.tscn",
       "kind": "added",
       "sha256": "9416fa39bc7a618f1a3bfb1d846ba889fbf5bc5fd6645a7e561a4706bf464f59",
       "size": 6236
     },
     {
-      "path": "models/forja_v3/open_pavilion_6m.glb.import",
+      "path": "models/forja_v3/open_pavilion_6m.tscn.import",
       "kind": "added",
       "sha256": "17b931084e8a809b092c00b7ca7d45c13fadf96c6c26454ca50ea7dd201fdaf4",
       "size": 1069
     },
     {
-      "path": "models/forja_v3/patrol_brazier.glb",
+      "path": "models/forja_v3/patrol_brazier.tscn",
       "kind": "added",
       "sha256": "417ebd178a60fc564e6a948f667c44c77f862e780f8ad5500bc3a9e9908c39b8",
       "size": 2660
     },
     {
-      "path": "models/forja_v3/patrol_brazier.glb.import",
+      "path": "models/forja_v3/patrol_brazier.tscn.import",
       "kind": "added",
       "sha256": "e8a9d4d4814cb906b315967f0559b6cc6077a6bb196b087dcf0f6821e468ddba",
       "size": 1064
     },
     {
-      "path": "models/forja_v3/rice_field_4m.glb",
+      "path": "models/forja_v3/rice_field_4m.tscn",
       "kind": "added",
       "sha256": "b6de188182ed02a7e3712d40f3258bcc9b95051961bb676f06e83e258ae2a6b6",
       "size": 6468
     },
     {
-      "path": "models/forja_v3/rice_field_4m.glb.import",
+      "path": "models/forja_v3/rice_field_4m.tscn.import",
       "kind": "added",
       "sha256": "cd2d42839481ebcf5a2cce29d01eb357bf7610bf880412ce3f602f18a0a0f7ce",
       "size": 1061
     },
     {
-      "path": "models/forja_v3/sect_hall_8m.glb",
+      "path": "models/forja_v3/sect_hall_8m.tscn",
       "kind": "added",
       "sha256": "6943c2f5549491402e27295a5963961b0e87ce9d560daac44a99e2ed8eca8889",
       "size": 13276
     },
     {
-      "path": "models/forja_v3/sect_hall_8m.glb.import",
+      "path": "models/forja_v3/sect_hall_8m.tscn.import",
       "kind": "added",
       "sha256": "3aba6aab6a2ac4173e84ca25ea76fb12c06ca646568d27106ca25bedf107ce06",
       "size": 1058
     },
     {
-      "path": "models/forja_v3/stone_footbridge_4m.glb",
+      "path": "models/forja_v3/stone_footbridge_4m.tscn",
       "kind": "added",
       "sha256": "67d010e819d4b8f222a8a5988bfb48a3161aaa86a0d47f3ed7761631d950e2cc",
       "size": 2924
     },
     {
-      "path": "models/forja_v3/stone_footbridge_4m.glb.import",
+      "path": "models/forja_v3/stone_footbridge_4m.tscn.import",
       "kind": "added",
       "sha256": "6a3db9360d9cbf92f3e1baf039f461532d1c6df7ad16e79d161333488b57a4c9",
       "size": 1079
     },
     {
-      "path": "models/forja_v3/stone_lion_statue.glb",
+      "path": "models/forja_v3/stone_lion_statue.tscn",
       "kind": "added",
       "sha256": "2b0e8048b6d3f820b106865ab094cdacf38e743068f153bf00b9d88b0a7f3c2d",
       "size": 3440
     },
     {
-      "path": "models/forja_v3/stone_lion_statue.glb.import",
+      "path": "models/forja_v3/stone_lion_statue.tscn.import",
       "kind": "added",
       "sha256": "2e524cb35729257f8f1fcda3d01eea2eed7de5fbb5629e70ec3ddebf33d89ee6",
       "size": 1073
     },
     {
-      "path": "models/forja_v3/street_lamp_post.glb",
+      "path": "models/forja_v3/street_lamp_post.tscn",
       "kind": "added",
       "sha256": "75bc29ed253ead3b704ef195ecbcc27870becab71570e41d4fc3bf213a5f51ef",
       "size": 3388
     },
     {
-      "path": "models/forja_v3/street_lamp_post.glb.import",
+      "path": "models/forja_v3/street_lamp_post.tscn.import",
       "kind": "added",
       "sha256": "4cf916d9379d2375dd1c3440f11f3c314b008470fdc914e1eb510849624816be",
       "size": 1070
     },
     {
-      "path": "models/forja_v3/street_signpost.glb",
+      "path": "models/forja_v3/street_signpost.tscn",
       "kind": "added",
       "sha256": "991f1dda30be1249024a722ec354e46dd7e9403e48bade36223d535b26248114",
       "size": 2452
     },
     {
-      "path": "models/forja_v3/street_signpost.glb.import",
+      "path": "models/forja_v3/street_signpost.tscn.import",
       "kind": "added",
       "sha256": "5909c4111f661bda0cd10dff1561ac5462c3d5ed535f4e2f2a7b6a48ed68f56d",
       "size": 1067
     },
     {
-      "path": "models/forja_v3/tea_garden_bush.glb",
+      "path": "models/forja_v3/tea_garden_bush.tscn",
       "kind": "added",
       "sha256": "40be7778fb213d0089ef645affe9f6caae2e37d209a26a7bbf2434eaa07badee",
       "size": 3576
     },
     {
-      "path": "models/forja_v3/tea_garden_bush.glb.import",
+      "path": "models/forja_v3/tea_garden_bush.tscn.import",
       "kind": "added",
       "sha256": "6803525602eec84e004d332c94f62e525c6c21c4607befa66eb92587e9d3b0ab",
       "size": 1067
     },
     {
-      "path": "models/forja_v3/temple_altar.glb",
+      "path": "models/forja_v3/temple_altar.tscn",
       "kind": "added",
       "sha256": "29dd287957cbfd49e172ddde4bcdad77e79691fd53b326ae3b72d1d06e6b2244",
       "size": 3388
     },
     {
-      "path": "models/forja_v3/temple_altar.glb.import",
+      "path": "models/forja_v3/temple_altar.tscn.import",
       "kind": "added",
       "sha256": "50f4c7288e5ed92f46b653c5b2b6d59ec4f8b514fac3562840494030ff889913",
       "size": 1057
     },
     {
-      "path": "models/forja_v3/temple_hall_8m.glb",
+      "path": "models/forja_v3/temple_hall_8m.tscn",
       "kind": "added",
       "sha256": "8709ad41e99efd80436cc2c8736a2820937879049872c8c001e30952996c3f40",
       "size": 13152
     },
     {
-      "path": "models/forja_v3/temple_hall_8m.glb.import",
+      "path": "models/forja_v3/temple_hall_8m.tscn.import",
       "kind": "added",
       "sha256": "4c8d014a113c5dc6b701ce1e6ffeedc38f677f9862493d035e5f7bb9e5702340",
       "size": 1064
     },
     {
-      "path": "models/forja_v3/temple_stela.glb",
+      "path": "models/forja_v3/temple_stela.tscn",
       "kind": "added",
       "sha256": "3b07a7e3e519136f84127251222ba29e144db57592b20359c497ef35fe44fea0",
       "size": 2648
     },
     {
-      "path": "models/forja_v3/temple_stela.glb.import",
+      "path": "models/forja_v3/temple_stela.tscn.import",
       "kind": "added",
       "sha256": "81c6261cddb6c0ab14dea555d86d9739531050bc6bd36163375f72f5e13f1c02",
       "size": 1058
     },
     {
-      "path": "models/forja_v3/training_dummy.glb",
+      "path": "models/forja_v3/training_dummy.tscn",
       "kind": "added",
       "sha256": "53b5d7c62613e883ee61d12ef8e9ffb951b26bb01e1f6acd11d5acacf1eb46ad",
       "size": 3164
     },
     {
-      "path": "models/forja_v3/training_dummy.glb.import",
+      "path": "models/forja_v3/training_dummy.tscn.import",
       "kind": "added",
       "sha256": "cd7e52fc4ee5256524902e2e7bf2a4c4d4896db65a763f13653df0e9818e7842",
       "size": 1063
     },
     {
-      "path": "models/forja_v3/training_pavilion_6m.glb",
+      "path": "models/forja_v3/training_pavilion_6m.tscn",
       "kind": "added",
       "sha256": "6877e89a344b2c7adba8ab076bd5cf110a707fafbc582c9aa724e513971b8023",
       "size": 7412
     },
     {
-      "path": "models/forja_v3/training_pavilion_6m.glb.import",
+      "path": "models/forja_v3/training_pavilion_6m.tscn.import",
       "kind": "added",
       "sha256": "ddd40cadc5fcf4f042d9bcb135d6e8913f9f0eb27a49e2bfe5aa8a2ff16a6ed3",
       "size": 1081
     },
     {
-      "path": "models/forja_v3/vegetable_field_4m.glb",
+      "path": "models/forja_v3/vegetable_field_4m.tscn",
       "kind": "added",
       "sha256": "789cacd0f8ee9250b623da7ced171499a808a0e979e7180a4c240a5974c81511",
       "size": 7460
     },
     {
-      "path": "models/forja_v3/vegetable_field_4m.glb.import",
+      "path": "models/forja_v3/vegetable_field_4m.tscn.import",
       "kind": "added",
       "sha256": "88aa36ff79dba5ebb391c695919a3881b3161a43c997b197af287fa185b3ecbe",
       "size": 1076
     },
     {
-      "path": "models/forja_v3/village_notice_board.glb",
+      "path": "models/forja_v3/village_notice_board.tscn",
       "kind": "added",
       "sha256": "2b684c4b7027d71aedf8fb07f40865a6058a099a5f08623433737a371dda4616",
       "size": 6460
     },
     {
-      "path": "models/forja_v3/village_notice_board.glb.import",
+      "path": "models/forja_v3/village_notice_board.tscn.import",
       "kind": "added",
       "sha256": "ebc4eb1d82eb8307f438dd49f62b67d0ee3680da7d99dd09b616df1e0cc26bee",
       "size": 1081
     },
     {
-      "path": "models/forja_v3/village_stone_path_2m.glb",
+      "path": "models/forja_v3/village_stone_path_2m.tscn",
       "kind": "added",
       "sha256": "bae753f194b6c85546228a40fd0e12823b671326add790f8f0e2234bfcf8f5cc",
       "size": 2872
     },
     {
-      "path": "models/forja_v3/village_stone_path_2m.glb.import",
+      "path": "models/forja_v3/village_stone_path_2m.tscn.import",
       "kind": "added",
       "sha256": "67599eaf54ca4ea136792677eba3761ee1d3b183da523679b2768d45e4ba7417",
       "size": 1085
     },
     {
-      "path": "models/forja_v3/village_wood_path_2m.glb",
+      "path": "models/forja_v3/village_wood_path_2m.tscn",
       "kind": "added",
       "sha256": "9e6fb4485501c29ab3f3967db5198618ba83d2bedadd06b28a8555b546251401",
       "size": 3124
     },
     {
-      "path": "models/forja_v3/village_wood_path_2m.glb.import",
+      "path": "models/forja_v3/village_wood_path_2m.tscn.import",
       "kind": "added",
       "sha256": "d27ca572060baedfb292b6f4280bd50aacabbf6582dc2d99b0d192f911e181a6",
       "size": 1082
     },
     {
-      "path": "models/forja_v3/wall_corner_stone.glb",
+      "path": "models/forja_v3/wall_corner_stone.tscn",
       "kind": "added",
       "sha256": "f1748dc2f969835e42d8f666b5d7d88915ce79bbe76dd006e4dd2af3efad0644",
       "size": 1932
     },
     {
-      "path": "models/forja_v3/wall_corner_stone.glb.import",
+      "path": "models/forja_v3/wall_corner_stone.tscn.import",
       "kind": "added",
       "sha256": "b8e178d4ffb6a3164173ef66147fce710fad999e86c2341411474fae3b4a6575",
       "size": 1072
     },
     {
-      "path": "models/forja_v3/wall_corner_wood.glb",
+      "path": "models/forja_v3/wall_corner_wood.tscn",
       "kind": "added",
       "sha256": "689860a1732e55ad6d115f4a17d2eadbbb8a3f8eb69995abd1be82c4a4cfc838",
       "size": 1924
     },
     {
-      "path": "models/forja_v3/wall_corner_wood.glb.import",
+      "path": "models/forja_v3/wall_corner_wood.tscn.import",
       "kind": "added",
       "sha256": "5439d4d6358f7d21971b3587c869e0635965cfb2954bf639ed297834e01bebe5",
       "size": 1070
     },
     {
-      "path": "models/forja_v3/watchtower_stone_4m.glb",
+      "path": "models/forja_v3/watchtower_stone_4m.tscn",
       "kind": "added",
       "sha256": "72f1033d07850caaf168bedcf4eca83fc5047c98883224750f19b621ab918d8e",
       "size": 8184
     },
     {
-      "path": "models/forja_v3/watchtower_stone_4m.glb.import",
+      "path": "models/forja_v3/watchtower_stone_4m.tscn.import",
       "kind": "added",
       "sha256": "a1d74f33aaceaa8628a80f2a9c44d04c7f33e317e806d0d4d7389e5b7568986d",
       "size": 1078
     },
     {
-      "path": "models/forja_v3/watchtower_wood_4m.glb",
+      "path": "models/forja_v3/watchtower_wood_4m.tscn",
       "kind": "added",
       "sha256": "2f1eda13f44b20dd96dbdeabfcc5eb56dfee4306fc37fbcca651414a91c09b17",
       "size": 7432
     },
     {
-      "path": "models/forja_v3/watchtower_wood_4m.glb.import",
+      "path": "models/forja_v3/watchtower_wood_4m.tscn.import",
       "kind": "added",
       "sha256": "75f03fcb2da187def005c6742d6de32c8101cd28d256ab312988d1fe0f77d85e",
       "size": 1076
     },
     {
-      "path": "models/forja_v3/water_trough.glb",
+      "path": "models/forja_v3/water_trough.tscn",
       "kind": "added",
       "sha256": "39129bdfca85f27cb71dbb540e984317d8dd2147cecee444a954a408b12598e0",
       "size": 1956
     },
     {
-      "path": "models/forja_v3/water_trough.glb.import",
+      "path": "models/forja_v3/water_trough.tscn.import",
       "kind": "added",
       "sha256": "0fe87528eaa7a83b559114c14d001138dab67fcf324eddbdc3de20913f308299",
       "size": 1058
     },
     {
-      "path": "models/forja_v3/weapons_training_rack.glb",
+      "path": "models/forja_v3/weapons_training_rack.tscn",
       "kind": "added",
       "sha256": "8ee84005c4cdc4b48408b7603a7b2f208c36cf7e3d41ede3bfd57af69ce41078",
       "size": 4156
     },
     {
-      "path": "models/forja_v3/weapons_training_rack.glb.import",
+      "path": "models/forja_v3/weapons_training_rack.tscn.import",
       "kind": "added",
       "sha256": "447fefa062b831342dc53c206fbcc97646c5a316ad59976c0bf4fc6335633be8",
       "size": 1085
     },
     {
-      "path": "models/forja_v3/wood_footbridge_4m.glb",
+      "path": "models/forja_v3/wood_footbridge_4m.tscn",
       "kind": "added",
       "sha256": "01be45dda4cc07d1174fad37891771fa026af378a7cb0461fccec99687adf02e",
       "size": 3356
     },
     {
-      "path": "models/forja_v3/wood_footbridge_4m.glb.import",
+      "path": "models/forja_v3/wood_footbridge_4m.tscn.import",
       "kind": "added",
       "sha256": "44f70ae11897b76b261aa98cc3963ea9e8ed1a5a3f0966eba131caaea9ca0fd3",
       "size": 1076

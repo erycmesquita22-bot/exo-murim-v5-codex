@@ -3,61 +3,61 @@
   "ground": "ruinas_antigas_SOLO_PNG.png",
   "instances": [
     {
-      "glb": "11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "glb": "11_RUINAS_GLB/muro_ruina_cinza.tscn",
       "x": -8,
       "y": 0,
       "z": 8
     },
     {
-      "glb": "11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "glb": "11_RUINAS_GLB/parede_ruina_destruido.tscn",
       "x": -3,
       "y": 0,
       "z": 8
     },
     {
-      "glb": "11_RUINAS_GLB/arco_portal_antigo.glb",
+      "glb": "11_RUINAS_GLB/arco_portal_antigo.tscn",
       "x": 3,
       "y": 0,
       "z": 8
     },
     {
-      "glb": "11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "glb": "11_RUINAS_GLB/muro_ruina_arenito.tscn",
       "x": 9,
       "y": 0,
       "z": 8
     },
     {
-      "glb": "11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "glb": "11_RUINAS_GLB/coluna_ruina_inteiro.tscn",
       "x": -9,
       "y": 0,
       "z": -3
     },
     {
-      "glb": "11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "glb": "11_RUINAS_GLB/coluna_ruina_musgo.tscn",
       "x": 8,
       "y": 0,
       "z": -3
     },
     {
-      "glb": "11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "glb": "11_RUINAS_GLB/altar_ruina_antigo.tscn",
       "x": 0,
       "y": 0,
       "z": 0
     },
     {
-      "glb": "11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "glb": "11_RUINAS_GLB/escada_ruina_quebrada.tscn",
       "x": -6,
       "y": 0,
       "z": -9
     },
     {
-      "glb": "11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "glb": "11_RUINAS_GLB/entulho_ruina_grande.tscn",
       "x": 8,
       "y": 0,
       "z": -9
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "glb": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.tscn",
       "x": 12,
       "y": 0,
       "z": 0

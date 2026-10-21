@@ -1,7 +1,0 @@
-{
-  "scope": "Independent reference planner and mutation tests; NOT Godot",
-  "checks": 115003,
-  "failures": 0,
-  "examples": [],
-  "status": "PASS"
-}

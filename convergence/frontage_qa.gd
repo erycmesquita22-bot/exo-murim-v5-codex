@@ -36,7 +36,7 @@ func run():
 		rows.append({"rid":rid,"buildings":region.props.size(),"npcs":w.residents.size(),"min_station_distance":min_distance,"depth_range":depth_range,"intersections":intersections})
 		var legacy: Dictionary=w.residents[0].snapshot()
 		legacy.routine_version=2;legacy.position=[999.0,20.0,999.0];legacy.route_index=2;legacy.talks=7
-		var migrated=load("res://convergence/resident.gd").new();w.add_child(migrated)
+		var migrated=load("res://npc_system04/actor.gd").new();w.add_child(migrated)
 		migrated.setup(w.residents[0].identity,region.route_points[w.residents[0].identity.home_slot],legacy,w.residents[0].routes)
 		check(migrated.position.distance_to(migrated.route[0])<.01 and migrated.route_index==0,"old_station_relocated_"+str(rid))
 		check(migrated.talks==7 and migrated.identity==w.residents[0].identity,"identity_and_talks_preserved_"+str(rid))

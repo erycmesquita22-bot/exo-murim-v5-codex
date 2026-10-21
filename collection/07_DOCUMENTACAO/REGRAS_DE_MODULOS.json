@@ -5,7 +5,7 @@
   "coordinate_units": "proportional to metres",
   "modules": {
     "penhasco_baixo_reto": {
-      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.tscn",
       "bounds_m": [
         5.4,
         2.831,
@@ -25,7 +25,7 @@
       "has_LOD": false
     },
     "penhasco_alto_reto": {
-      "file": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.tscn",
       "bounds_m": [
         5.4,
         4.84,
@@ -45,7 +45,7 @@
       "has_LOD": false
     },
     "penhasco_baixo_musgoso": {
-      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.glb",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.tscn",
       "bounds_m": [
         5.4,
         2.872,
@@ -65,7 +65,7 @@
       "has_LOD": false
     },
     "penhasco_canto_interno": {
-      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.tscn",
       "bounds_m": [
         5.55,
         4.4,
@@ -85,7 +85,7 @@
       "has_LOD": false
     },
     "penhasco_canto_externo": {
-      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_externo.glb",
+      "file": "09_TOPOGRAFIA_GLB/penhasco_canto_externo.tscn",
       "bounds_m": [
         5.55,
         4.4,
@@ -105,7 +105,7 @@
       "has_LOD": false
     },
     "encosta_escarpada": {
-      "file": "09_TOPOGRAFIA_GLB/encosta_escarpada.glb",
+      "file": "09_TOPOGRAFIA_GLB/encosta_escarpada.tscn",
       "bounds_m": [
         5.4,
         3.448,
@@ -125,7 +125,7 @@
       "has_LOD": false
     },
     "encosta_pedregosa": {
-      "file": "09_TOPOGRAFIA_GLB/encosta_pedregosa.glb",
+      "file": "09_TOPOGRAFIA_GLB/encosta_pedregosa.tscn",
       "bounds_m": [
         5.4,
         3.438,
@@ -145,7 +145,7 @@
       "has_LOD": false
     },
     "rocha_pilha_grande": {
-      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_grande.glb",
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_grande.tscn",
       "bounds_m": [
         4.388,
         1.607,
@@ -165,7 +165,7 @@
       "has_LOD": false
     },
     "rocha_pilha_baixa": {
-      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "file": "09_TOPOGRAFIA_GLB/rocha_pilha_baixa.tscn",
       "bounds_m": [
         3.681,
         1.555,
@@ -185,7 +185,7 @@
       "has_LOD": false
     },
     "rocha_monolito": {
-      "file": "09_TOPOGRAFIA_GLB/rocha_monolito.glb",
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito.tscn",
       "bounds_m": [
         4.431,
         5.064,
@@ -205,7 +205,7 @@
       "has_LOD": false
     },
     "rocha_monolito_musgo": {
-      "file": "09_TOPOGRAFIA_GLB/rocha_monolito_musgo.glb",
+      "file": "09_TOPOGRAFIA_GLB/rocha_monolito_musgo.tscn",
       "bounds_m": [
         2.8,
         5.149,
@@ -225,7 +225,7 @@
       "has_LOD": false
     },
     "pedra_xisto_grupo": {
-      "file": "09_TOPOGRAFIA_GLB/pedra_xisto_grupo.glb",
+      "file": "09_TOPOGRAFIA_GLB/pedra_xisto_grupo.tscn",
       "bounds_m": [
         3.706,
         1.5,
@@ -245,7 +245,7 @@
       "has_LOD": false
     },
     "estrato_pedra_montanha": {
-      "file": "09_TOPOGRAFIA_GLB/estrato_pedra_montanha.glb",
+      "file": "09_TOPOGRAFIA_GLB/estrato_pedra_montanha.tscn",
       "bounds_m": [
         3.434,
         1.475,
@@ -265,7 +265,7 @@
       "has_LOD": false
     },
     "margem_rio_grama": {
-      "file": "09_TOPOGRAFIA_GLB/margem_rio_grama.glb",
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_grama.tscn",
       "bounds_m": [
         4.1,
         1.005,
@@ -285,7 +285,7 @@
       "has_LOD": false
     },
     "margem_rio_pedra": {
-      "file": "09_TOPOGRAFIA_GLB/margem_rio_pedra.glb",
+      "file": "09_TOPOGRAFIA_GLB/margem_rio_pedra.tscn",
       "bounds_m": [
         4.1,
         1.005,
@@ -305,7 +305,7 @@
       "has_LOD": false
     },
     "plataforma_rochosa": {
-      "file": "09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "file": "09_TOPOGRAFIA_GLB/plataforma_rochosa.tscn",
       "bounds_m": [
         4.2,
         0.81,
@@ -325,7 +325,7 @@
       "has_LOD": false
     },
     "patamar_montanha": {
-      "file": "09_TOPOGRAFIA_GLB/patamar_montanha.glb",
+      "file": "09_TOPOGRAFIA_GLB/patamar_montanha.tscn",
       "bounds_m": [
         4.2,
         0.81,
@@ -345,7 +345,7 @@
       "has_LOD": false
     },
     "rampa_escadaria_pedra": {
-      "file": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "file": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.tscn",
       "bounds_m": [
         3.4,
         1.65,
@@ -365,7 +365,7 @@
       "has_LOD": false
     },
     "entrada_caverna_rochosa": {
-      "file": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "file": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.tscn",
       "bounds_m": [
         5.202,
         4.309,
@@ -385,7 +385,7 @@
       "has_LOD": false
     },
     "parede_reboco_claro": {
-      "file": "10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "file": "10_ARQUITETURA_GLB/parede_reboco_claro.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -404,7 +404,7 @@
       "has_LOD": false
     },
     "parede_reboco_ocre": {
-      "file": "10_ARQUITETURA_GLB/parede_reboco_ocre.glb",
+      "file": "10_ARQUITETURA_GLB/parede_reboco_ocre.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -423,7 +423,7 @@
       "has_LOD": false
     },
     "parede_madeira_laca": {
-      "file": "10_ARQUITETURA_GLB/parede_madeira_laca.glb",
+      "file": "10_ARQUITETURA_GLB/parede_madeira_laca.tscn",
       "bounds_m": [
         4.25,
         3.32,
@@ -442,7 +442,7 @@
       "has_LOD": false
     },
     "parede_pedra_templo": {
-      "file": "10_ARQUITETURA_GLB/parede_pedra_templo.glb",
+      "file": "10_ARQUITETURA_GLB/parede_pedra_templo.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -461,7 +461,7 @@
       "has_LOD": false
     },
     "painel_janela_lattice": {
-      "file": "10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "file": "10_ARQUITETURA_GLB/painel_janela_lattice.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -480,7 +480,7 @@
       "has_LOD": false
     },
     "painel_porta_livre": {
-      "file": "10_ARQUITETURA_GLB/painel_porta_livre.glb",
+      "file": "10_ARQUITETURA_GLB/painel_porta_livre.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -499,7 +499,7 @@
       "has_LOD": false
     },
     "divisoria_papel_janela": {
-      "file": "10_ARQUITETURA_GLB/divisoria_papel_janela.glb",
+      "file": "10_ARQUITETURA_GLB/divisoria_papel_janela.tscn",
       "bounds_m": [
         4.25,
         3.19,
@@ -518,7 +518,7 @@
       "has_LOD": false
     },
     "fundacao_pedra": {
-      "file": "10_ARQUITETURA_GLB/fundacao_pedra.glb",
+      "file": "10_ARQUITETURA_GLB/fundacao_pedra.tscn",
       "bounds_m": [
         4.1,
         0.81,
@@ -537,7 +537,7 @@
       "has_LOD": false
     },
     "base_madeira_templo": {
-      "file": "10_ARQUITETURA_GLB/base_madeira_templo.glb",
+      "file": "10_ARQUITETURA_GLB/base_madeira_templo.tscn",
       "bounds_m": [
         4.1,
         0.81,
@@ -556,7 +556,7 @@
       "has_LOD": false
     },
     "pilar_madeira_dourado": {
-      "file": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "file": "10_ARQUITETURA_GLB/pilar_madeira_dourado.tscn",
       "bounds_m": [
         1.0,
         3.535,
@@ -575,7 +575,7 @@
       "has_LOD": false
     },
     "coluna_madeira_escura": {
-      "file": "10_ARQUITETURA_GLB/coluna_madeira_escura.glb",
+      "file": "10_ARQUITETURA_GLB/coluna_madeira_escura.tscn",
       "bounds_m": [
         1.0,
         3.535,
@@ -594,7 +594,7 @@
       "has_LOD": false
     },
     "telhado_vermelho_4m": {
-      "file": "10_ARQUITETURA_GLB/telhado_vermelho_4m.glb",
+      "file": "10_ARQUITETURA_GLB/telhado_vermelho_4m.tscn",
       "bounds_m": [
         4.8,
         1.17,
@@ -613,7 +613,7 @@
       "has_LOD": false
     },
     "telhado_teal_4m": {
-      "file": "10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "file": "10_ARQUITETURA_GLB/telhado_teal_4m.tscn",
       "bounds_m": [
         4.8,
         1.17,
@@ -632,7 +632,7 @@
       "has_LOD": false
     },
     "telhado_canto_vermelho": {
-      "file": "10_ARQUITETURA_GLB/telhado_canto_vermelho.glb",
+      "file": "10_ARQUITETURA_GLB/telhado_canto_vermelho.tscn",
       "bounds_m": [
         2.45,
         1.17,
@@ -651,7 +651,7 @@
       "has_LOD": false
     },
     "telhado_canto_jade": {
-      "file": "10_ARQUITETURA_GLB/telhado_canto_jade.glb",
+      "file": "10_ARQUITETURA_GLB/telhado_canto_jade.tscn",
       "bounds_m": [
         2.45,
         1.17,
@@ -670,7 +670,7 @@
       "has_LOD": false
     },
     "cumeeira_vermelha": {
-      "file": "10_ARQUITETURA_GLB/cumeeira_vermelha.glb",
+      "file": "10_ARQUITETURA_GLB/cumeeira_vermelha.tscn",
       "bounds_m": [
         4.2,
         0.425,
@@ -689,7 +689,7 @@
       "has_LOD": false
     },
     "cumeeira_jade": {
-      "file": "10_ARQUITETURA_GLB/cumeeira_jade.glb",
+      "file": "10_ARQUITETURA_GLB/cumeeira_jade.tscn",
       "bounds_m": [
         4.2,
         0.425,
@@ -708,7 +708,7 @@
       "has_LOD": false
     },
     "beiral_vermelho": {
-      "file": "10_ARQUITETURA_GLB/beiral_vermelho.glb",
+      "file": "10_ARQUITETURA_GLB/beiral_vermelho.tscn",
       "bounds_m": [
         4.4,
         0.959,
@@ -727,7 +727,7 @@
       "has_LOD": false
     },
     "beiral_teal": {
-      "file": "10_ARQUITETURA_GLB/beiral_teal.glb",
+      "file": "10_ARQUITETURA_GLB/beiral_teal.tscn",
       "bounds_m": [
         4.4,
         0.959,
@@ -746,7 +746,7 @@
       "has_LOD": false
     },
     "porta_madeira_dupla": {
-      "file": "10_ARQUITETURA_GLB/porta_madeira_dupla.glb",
+      "file": "10_ARQUITETURA_GLB/porta_madeira_dupla.tscn",
       "bounds_m": [
         2.2,
         3.11,
@@ -765,7 +765,7 @@
       "has_LOD": false
     },
     "porta_laca_jade": {
-      "file": "10_ARQUITETURA_GLB/porta_laca_jade.glb",
+      "file": "10_ARQUITETURA_GLB/porta_laca_jade.tscn",
       "bounds_m": [
         2.2,
         3.11,
@@ -784,7 +784,7 @@
       "has_LOD": false
     },
     "escada_madeira_templo": {
-      "file": "10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "file": "10_ARQUITETURA_GLB/escada_madeira_templo.tscn",
       "bounds_m": [
         3.1,
         1.36,
@@ -803,7 +803,7 @@
       "has_LOD": false
     },
     "degrau_pedra_cidade": {
-      "file": "10_ARQUITETURA_GLB/degrau_pedra_cidade.glb",
+      "file": "10_ARQUITETURA_GLB/degrau_pedra_cidade.tscn",
       "bounds_m": [
         3.1,
         1.36,
@@ -822,7 +822,7 @@
       "has_LOD": false
     },
     "passarela_guarda": {
-      "file": "10_ARQUITETURA_GLB/passarela_guarda.glb",
+      "file": "10_ARQUITETURA_GLB/passarela_guarda.tscn",
       "bounds_m": [
         2.3,
         1.525,
@@ -841,7 +841,7 @@
       "has_LOD": false
     },
     "janela_lattice_quadrada": {
-      "file": "10_ARQUITETURA_GLB/janela_lattice_quadrada.glb",
+      "file": "10_ARQUITETURA_GLB/janela_lattice_quadrada.tscn",
       "bounds_m": [
         2.6,
         2.4,
@@ -860,7 +860,7 @@
       "has_LOD": false
     },
     "muro_ruina_cinza": {
-      "file": "11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "file": "11_RUINAS_GLB/muro_ruina_cinza.tscn",
       "bounds_m": [
         4.36,
         2.83,
@@ -879,7 +879,7 @@
       "has_LOD": false
     },
     "muro_ruina_arenito": {
-      "file": "11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "file": "11_RUINAS_GLB/muro_ruina_arenito.tscn",
       "bounds_m": [
         4.36,
         2.83,
@@ -898,7 +898,7 @@
       "has_LOD": false
     },
     "parede_ruina_destruido": {
-      "file": "11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "file": "11_RUINAS_GLB/parede_ruina_destruido.tscn",
       "bounds_m": [
         4.36,
         2.83,
@@ -917,7 +917,7 @@
       "has_LOD": false
     },
     "parede_ruina_canto": {
-      "file": "11_RUINAS_GLB/parede_ruina_canto.glb",
+      "file": "11_RUINAS_GLB/parede_ruina_canto.tscn",
       "bounds_m": [
         4.36,
         2.83,
@@ -936,7 +936,7 @@
       "has_LOD": false
     },
     "parede_ruina_T_juncao": {
-      "file": "11_RUINAS_GLB/parede_ruina_T_juncao.glb",
+      "file": "11_RUINAS_GLB/parede_ruina_T_juncao.tscn",
       "bounds_m": [
         4.36,
         2.83,
@@ -955,7 +955,7 @@
       "has_LOD": false
     },
     "corredor_ruina_reto": {
-      "file": "11_RUINAS_GLB/corredor_ruina_reto.glb",
+      "file": "11_RUINAS_GLB/corredor_ruina_reto.tscn",
       "bounds_m": [
         4.36,
         2.865,
@@ -974,7 +974,7 @@
       "has_LOD": false
     },
     "corredor_ruina_T_juncao": {
-      "file": "11_RUINAS_GLB/corredor_ruina_T_juncao.glb",
+      "file": "11_RUINAS_GLB/corredor_ruina_T_juncao.tscn",
       "bounds_m": [
         4.78,
         2.865,
@@ -993,7 +993,7 @@
       "has_LOD": false
     },
     "arco_portal_antigo": {
-      "file": "11_RUINAS_GLB/arco_portal_antigo.glb",
+      "file": "11_RUINAS_GLB/arco_portal_antigo.tscn",
       "bounds_m": [
         4.3,
         3.755,
@@ -1012,7 +1012,7 @@
       "has_LOD": false
     },
     "arco_portal_musgo": {
-      "file": "11_RUINAS_GLB/arco_portal_musgo.glb",
+      "file": "11_RUINAS_GLB/arco_portal_musgo.tscn",
       "bounds_m": [
         4.3,
         3.91,
@@ -1031,7 +1031,7 @@
       "has_LOD": false
     },
     "portal_ruina_cinza": {
-      "file": "11_RUINAS_GLB/portal_ruina_cinza.glb",
+      "file": "11_RUINAS_GLB/portal_ruina_cinza.tscn",
       "bounds_m": [
         4.3,
         3.755,
@@ -1050,7 +1050,7 @@
       "has_LOD": false
     },
     "coluna_ruina_inteiro": {
-      "file": "11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "file": "11_RUINAS_GLB/coluna_ruina_inteiro.tscn",
       "bounds_m": [
         1.15,
         3.95,
@@ -1069,7 +1069,7 @@
       "has_LOD": false
     },
     "coluna_ruina_musgo": {
-      "file": "11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "file": "11_RUINAS_GLB/coluna_ruina_musgo.tscn",
       "bounds_m": [
         1.15,
         2.329,
@@ -1088,7 +1088,7 @@
       "has_LOD": false
     },
     "pilar_ruina_quebrado": {
-      "file": "11_RUINAS_GLB/pilar_ruina_quebrado.glb",
+      "file": "11_RUINAS_GLB/pilar_ruina_quebrado.tscn",
       "bounds_m": [
         1.15,
         2.905,
@@ -1107,7 +1107,7 @@
       "has_LOD": false
     },
     "laje_ruina_inteira": {
-      "file": "11_RUINAS_GLB/laje_ruina_inteira.glb",
+      "file": "11_RUINAS_GLB/laje_ruina_inteira.tscn",
       "bounds_m": [
         3.96,
         0.27,
@@ -1126,7 +1126,7 @@
       "has_LOD": false
     },
     "laje_ruina_partida": {
-      "file": "11_RUINAS_GLB/laje_ruina_partida.glb",
+      "file": "11_RUINAS_GLB/laje_ruina_partida.tscn",
       "bounds_m": [
         3.96,
         0.27,
@@ -1145,7 +1145,7 @@
       "has_LOD": false
     },
     "escada_ruina_inteira": {
-      "file": "11_RUINAS_GLB/escada_ruina_inteira.glb",
+      "file": "11_RUINAS_GLB/escada_ruina_inteira.tscn",
       "bounds_m": [
         3.8,
         2.08,
@@ -1164,7 +1164,7 @@
       "has_LOD": false
     },
     "escada_ruina_quebrada": {
-      "file": "11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "file": "11_RUINAS_GLB/escada_ruina_quebrada.tscn",
       "bounds_m": [
         3.8,
         2.08,
@@ -1183,7 +1183,7 @@
       "has_LOD": false
     },
     "altar_ruina_antigo": {
-      "file": "11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "file": "11_RUINAS_GLB/altar_ruina_antigo.tscn",
       "bounds_m": [
         3.0,
         2.5,
@@ -1202,7 +1202,7 @@
       "has_LOD": false
     },
     "entulho_ruina_grande": {
-      "file": "11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "file": "11_RUINAS_GLB/entulho_ruina_grande.tscn",
       "bounds_m": [
         3.78,
         0.594,
@@ -1221,7 +1221,7 @@
       "has_LOD": false
     },
     "barricada_ruina_madeira": {
-      "file": "11_RUINAS_GLB/barricada_ruina_madeira.glb",
+      "file": "11_RUINAS_GLB/barricada_ruina_madeira.tscn",
       "bounds_m": [
         2.715,
         1.818,
@@ -1240,7 +1240,7 @@
       "has_LOD": false
     },
     "portao_ruina_ferro": {
-      "file": "11_RUINAS_GLB/portao_ruina_ferro.glb",
+      "file": "11_RUINAS_GLB/portao_ruina_ferro.tscn",
       "bounds_m": [
         3.9,
         3.805,
@@ -1259,7 +1259,7 @@
       "has_LOD": false
     },
     "bambu_alto_folhas": {
-      "file": "12_NATUREZA_GLB/bambu_alto_folhas.glb",
+      "file": "12_NATUREZA_GLB/bambu_alto_folhas.tscn",
       "bounds_m": [
         2.11,
         3.461,
@@ -1279,7 +1279,7 @@
       "has_LOD": false
     },
     "bambu_grupo_rio": {
-      "file": "12_NATUREZA_GLB/bambu_grupo_rio.glb",
+      "file": "12_NATUREZA_GLB/bambu_grupo_rio.tscn",
       "bounds_m": [
         2.707,
         4.573,
@@ -1299,7 +1299,7 @@
       "has_LOD": false
     },
     "arvore_alta_sombria": {
-      "file": "12_NATUREZA_GLB/arvore_alta_sombria.glb",
+      "file": "12_NATUREZA_GLB/arvore_alta_sombria.tscn",
       "bounds_m": [
         2.934,
         6.223,
@@ -1319,7 +1319,7 @@
       "has_LOD": false
     },
     "arvore_baixa_prado": {
-      "file": "12_NATUREZA_GLB/arvore_baixa_prado.glb",
+      "file": "12_NATUREZA_GLB/arvore_baixa_prado.tscn",
       "bounds_m": [
         2.986,
         4.265,
@@ -1339,7 +1339,7 @@
       "has_LOD": false
     },
     "pinheiro_escarpado": {
-      "file": "12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "file": "12_NATUREZA_GLB/pinheiro_escarpado.tscn",
       "bounds_m": [
         2.7,
         5.45,
@@ -1359,7 +1359,7 @@
       "has_LOD": false
     },
     "rochedo_rio_musgoso": {
-      "file": "12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "file": "12_NATUREZA_GLB/rochedo_rio_musgoso.tscn",
       "bounds_m": [
         3.147,
         2.852,

@@ -15,6 +15,17 @@ static func valid(value: Variant) -> bool:
 	for key in ["visited","actors"]:
 		if not value.get(key) is Dictionary:return false
 	if value.actors.size()>12000 or value.visited.size()>88:return false
+	if value.has("worldgen_v5_visit"):
+		var visit: Variant=value.worldgen_v5_visit
+		if not visit is Dictionary or not visit.get("inside") is bool:return false
+		if visit.inside:
+			if visit.get("schema")!="exo.settlement.transition.v1":return false
+			if not visit.get("building_id") is String or str(visit.building_id).is_empty():return false
+			if str(visit.get("region_id",""))!=str(int(value.current)):return false
+			for key in ["player_position","return_position"]:
+				if not visit.get(key) is Array or visit[key].size()!=3:return false
+				for component in visit[key]:
+					if not (component is int or component is float) or not is_finite(float(component)) or absf(float(component))>20000:return false
 	if value.has("activation_v4"):
 		var activated:Variant=value.activation_v4
 		if not activated is Dictionary or activated.get("schema")!=1:return false

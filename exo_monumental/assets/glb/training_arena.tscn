@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat0"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh0"]
+material = SubResource("Mat0")
+size = Vector3(14.0, 0.75, 14.0)
+
+[sub_resource type="StandardMaterial3D" id="Mat1"]
+albedo_color = Color(0.19607843137254902, 0.4196078431372549, 0.40784313725490196, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh1"]
+material = SubResource("Mat1")
+size = Vector3(14.0, 0.4, 14.0)
+
+[node name="OriginalV5Model" type="Node3D"]
+metadata/provenance = "EXO V5 code-generated replacement; clean_assets.py"
+
+[node name="Body" type="Node3D" parent="."]
+
+[node name="Part0" type="MeshInstance3D" parent="Body"]
+position = Vector3(0.0, 0.37, 0.0)
+mesh = SubResource("Mesh0")
+
+[node name="Part1" type="MeshInstance3D" parent="Body"]
+position = Vector3(0.0, 0.9450000000000001, 0.0)
+mesh = SubResource("Mesh1")

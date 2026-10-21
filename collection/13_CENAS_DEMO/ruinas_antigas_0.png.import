@@ -2,13 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bd1p3i1nak57e"
+uid="uid://c7o22l7lmetod"
 path="res://.godot/imported/ruinas_antigas_0.png-102138bd61fd8eef5082a65d57c867e2.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "3b93af7ab0862abbcefb6c0bd41ace5b"
 }
 
 [deps]
@@ -26,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

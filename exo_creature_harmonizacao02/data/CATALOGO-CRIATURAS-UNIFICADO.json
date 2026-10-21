@@ -33,10 +33,10 @@
           "id": "bear",
           "source_id": "bear",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/bear.glb",
+          "source_glb_path": "exo_creatures/models/common/bear.tscn",
           "original_sha256": "a748d026548219a4a1d05a0be4540095be38607d4348dbe1abc9f37b68ccc661",
           "harmonized_sha256": "3d0cf0bc3cc7283b1e24ca8b6f335bd4d2d4a277fe5a1fd3ee42523fb4f591f4",
-          "model": "res://exo_creature_harmonizacao02/models/bear/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/bear/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/bear/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -151,7 +151,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/bear/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/bear/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/bear/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -177,10 +177,10 @@
           "id": "boar",
           "source_id": "boar",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/boar.glb",
+          "source_glb_path": "exo_creatures/models/common/boar.tscn",
           "original_sha256": "8dccc66aa41a091fc0cf334d4e5e662516db6d715b7b70390196bc4f7b1139fc",
           "harmonized_sha256": "db01cfcf8ad3167a1214e5bd9e5f649ad10edac8ade9b2c762ea76b0e7766faa",
-          "model": "res://exo_creature_harmonizacao02/models/boar/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/boar/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/boar/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -296,10 +296,10 @@
           "id": "boar",
           "source_id": "boar",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/boar.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/boar.tscn",
           "original_sha256": "5392af5211e49f90b3bcddbfc5e9adf445011c383a08f8c522135cb493b2a0f3",
           "harmonized_sha256": "7bb6b8886168f109f4950ce412f5de71f6c92beb1e56684ac413d7eb49d25348",
-          "model": "res://exo_creature_harmonizacao02/models/boar/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/boar/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/boar/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -414,7 +414,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/boar/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/boar/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/boar/art02.tscn",
         "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
       },
@@ -440,10 +440,10 @@
           "id": "corrupted_wolf",
           "source_id": "shadow_wolf",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/corrupted/shadow_wolf.glb",
+          "source_glb_path": "exo_creatures/models/corrupted/shadow_wolf.tscn",
           "original_sha256": "47277eb9f8aaea1e5ab82571c69314e4fbe4f3d2bb5ce6d6361fffd0105d870a",
           "harmonized_sha256": "5fcbcd9f36f4b5cab03641d37f5bc8efc1adc9ad6c29e74a0ab08e8ab8697a03",
-          "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -558,7 +558,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/corrupted_wolf/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/corrupted_wolf/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -583,10 +583,10 @@
           "id": "deer",
           "source_id": "deer",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/deer.glb",
+          "source_glb_path": "exo_creatures/models/common/deer.tscn",
           "original_sha256": "2973ffb5c49982c14b72b936379522256c6108b73b99724d409ed9e81d3f375e",
           "harmonized_sha256": "7fd24bed05d2bc27d7ee9157f4358a63c29fbde92ef438dec23618e1c79fc493",
-          "model": "res://exo_creature_harmonizacao02/models/deer/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/deer/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/deer/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -700,7 +700,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/deer/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/deer/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/deer/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -720,10 +720,10 @@
           "id": "demon_boar",
           "source_id": "demon_boar",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/corrupted/demon_boar.glb",
+          "source_glb_path": "exo_creatures/models/corrupted/demon_boar.tscn",
           "original_sha256": "ab01ad118dd82465145c4a701de992af095bf4553077c841a3940d4122c23fd2",
           "harmonized_sha256": "7e2866b53a113b9486bbaf4ce3cc0c59815dc726a430878b8d9e0295a86285f7",
-          "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/demon_boar/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -838,7 +838,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/demon_boar/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/demon_boar/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -858,10 +858,10 @@
           "id": "desert_monitor",
           "source_id": "desert_monitor",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/desert_monitor.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/desert_monitor.tscn",
           "original_sha256": "6a17ec47e533344fca664b194eae3bd5aaf1f9d0e49394902e6f9161fc25d19b",
           "harmonized_sha256": "0e433bc64ad02ce662c48b506ee3450a2a8c850f19fc04c89e742e81de96f1c6",
-          "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/desert_monitor/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -975,7 +975,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/desert_monitor/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/desert_monitor/art02.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -995,10 +995,10 @@
           "id": "desert_scorpion",
           "source_id": "desert_scorpion",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/desert_scorpion.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/desert_scorpion.tscn",
           "original_sha256": "70310af1ae787f54d8b3994a7897bd19415ef87e8ff7500f29fa75f38072da0c",
           "harmonized_sha256": "89b67e325231ad9ebd5cc20e808d3f431cb6ee6ff051b862f78e3b511d5dfabb",
-          "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/desert_scorpion/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1093,7 +1093,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/desert_scorpion/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/desert_scorpion/art02.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1118,10 +1118,10 @@
           "id": "fox",
           "source_id": "fox",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/fox.glb",
+          "source_glb_path": "exo_creatures/models/common/fox.tscn",
           "original_sha256": "cbb04419503430e9942054825feea128d2d96f1545000c7b70297b2136ab7e3b",
           "harmonized_sha256": "a2a02ac187d30bb4f19cf7e371a9216f009585e433cc0a4640f3bec4998fdb28",
-          "model": "res://exo_creature_harmonizacao02/models/fox/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/fox/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/fox/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1235,7 +1235,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/fox/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/fox/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/fox/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1255,10 +1255,10 @@
           "id": "kitsune",
           "source_id": "kitsune",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/legendary/kitsune.glb",
+          "source_glb_path": "exo_creatures/models/legendary/kitsune.tscn",
           "original_sha256": "02f854fc67f75e9909ce0ddfc43158cd71520e293ebee729dcfbf6f61770d0d6",
           "harmonized_sha256": "e52a88a202f77574e1d69079244b209cfe92af807039b604bcd8f6eeb861ab3d",
-          "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/kitsune/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1372,7 +1372,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/kitsune/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/kitsune/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1398,10 +1398,10 @@
           "id": "leopard",
           "source_id": "leopard",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/leopard.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/leopard.tscn",
           "original_sha256": "49a33d923339d7fa751b675de89be4c4eb58a892d78746dc8432c218820bc2f1",
           "harmonized_sha256": "90f48a193646d66efac03615632522bbbad5360602c886b22b49a3a02d37ee13",
-          "model": "res://exo_creature_harmonizacao02/models/leopard/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/leopard/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1516,7 +1516,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/leopard/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/leopard/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/leopard/art02.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1541,10 +1541,10 @@
           "id": "mountain_goat",
           "source_id": "mountain_goat",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/mountain_goat.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/mountain_goat.tscn",
           "original_sha256": "c071aed3c86462ade945e091a3ced5333150b68a765a476161741bcbd4c34268",
           "harmonized_sha256": "693ebb0a1d1c6d963909bf0374df9b8ad0d734e7da275c129a9c87cf8ab022de",
-          "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1658,7 +1658,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/mountain_goat/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/mountain_goat/art02.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1683,10 +1683,10 @@
           "id": "rabbit",
           "source_id": "rabbit",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/rabbit.glb",
+          "source_glb_path": "exo_creatures/models/common/rabbit.tscn",
           "original_sha256": "443b4e9ba715fe384d6b740838531d28b3d514d7027da4258f6434d500bd1b25",
           "harmonized_sha256": "6a14d1ed5a34db148f36d6510c8a3ac5000fcb1cb5674bb35ca01d21c3d93444",
-          "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1800,7 +1800,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/rabbit/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/rabbit/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1826,10 +1826,10 @@
           "id": "snake",
           "source_id": "serpent",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/reptiles/serpent.glb",
+          "source_glb_path": "exo_creatures/models/reptiles/serpent.tscn",
           "original_sha256": "6e44666a6a876d2510bba768fe9b25666ee5296b87dd45ea23f972b21cf18680",
           "harmonized_sha256": "16a13d0bd08386c032cc84153c6f785c4e276ac53320f05055bec28dda5cf558",
-          "model": "res://exo_creature_harmonizacao02/models/snake/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/snake/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/snake/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -1924,7 +1924,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/snake/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/snake/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/snake/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -1949,10 +1949,10 @@
           "id": "spirit_deer",
           "source_id": "spirit_deer",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/spiritual/spirit_deer.glb",
+          "source_glb_path": "exo_creatures/models/spiritual/spirit_deer.tscn",
           "original_sha256": "aebc31d4e2cfc9f4cb4e2c109ed799b8d8df646977bd08853a33a0bed0ee89fa",
           "harmonized_sha256": "3747ba0966469894fa2c1fe984dbc3ab3ded5d7fbefb199f9db71ad5e2b700ea",
-          "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2066,7 +2066,7 @@
       ],
       "recommended_variant": {
         "source": "forge",
-        "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.glb",
+        "model": "res://exo_creature_harmonizacao02/models/spirit_deer/forge.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/spirit_deer/forge.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -2091,10 +2091,10 @@
           "id": "stone_guardian",
           "source_id": "stone_guardian",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/stone_guardian.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/stone_guardian.tscn",
           "original_sha256": "1b1677e89b0a72c7e49933fbfd0b98544421f4e9cbd069e26f3a919dcdb97f23",
           "harmonized_sha256": "20cbc304618f4c1d63e0d2576dc846bd6f85f458edf995ab27f01e2b267cc891",
-          "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2209,7 +2209,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/stone_guardian/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/stone_guardian/art02.tscn",
         "reason": "Only authored asset currently available"
       },
@@ -2235,10 +2235,10 @@
           "id": "tiger",
           "source_id": "tiger",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/tiger.glb",
+          "source_glb_path": "exo_creatures/models/common/tiger.tscn",
           "original_sha256": "e44bf86035b0b955444ec61750e09703e96950b244e29be034ee53047e521d07",
           "harmonized_sha256": "5eb2c75a73ce6648d41c54c494e88c413417660e914eb3aed1df333f2b44c3d5",
-          "model": "res://exo_creature_harmonizacao02/models/tiger/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/tiger/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/tiger/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2354,10 +2354,10 @@
           "id": "tiger",
           "source_id": "tiger",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/tiger.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/tiger.tscn",
           "original_sha256": "eb63e868833e63fe590a795802fb07c8e0eeee5e0a4725fec1379c810d628e30",
           "harmonized_sha256": "f2fe19532b8524607c373b171ecba87e3238fdf228dffab9694b2d918f1522a2",
-          "model": "res://exo_creature_harmonizacao02/models/tiger/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/tiger/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2472,7 +2472,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/tiger/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/tiger/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/tiger/art02.tscn",
         "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
       },
@@ -2498,10 +2498,10 @@
           "id": "wolf",
           "source_id": "wolf",
           "source": "forge",
-          "source_glb_path": "exo_creatures/models/common/wolf.glb",
+          "source_glb_path": "exo_creatures/models/common/wolf.tscn",
           "original_sha256": "eac59017a4f98630ee7d08f43ab6abac44e35cf41048aa5235d19f18668285d2",
           "harmonized_sha256": "9cf77b729b4388586a6a67efa868b912da43b5201af2fd84792d2ffc1836370e",
-          "model": "res://exo_creature_harmonizacao02/models/wolf/forge.glb",
+          "model": "res://exo_creature_harmonizacao02/models/wolf/forge.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/wolf/forge.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2617,10 +2617,10 @@
           "id": "wolf",
           "source_id": "wolf",
           "source": "art02",
-          "source_glb_path": "exo_creature_art02/models/biomes/wolf.glb",
+          "source_glb_path": "exo_creature_art02/models/biomes/wolf.tscn",
           "original_sha256": "39c343ac5561ec4aac04cdf5a4756d8d1fd351ce023174805c19cca2d5571fa4",
           "harmonized_sha256": "6d05a1e6949bd793c696a54e11af8a8561ef107480ac3f3f78ceaebe8b7c6d20",
-          "model": "res://exo_creature_harmonizacao02/models/wolf/art02.glb",
+          "model": "res://exo_creature_harmonizacao02/models/wolf/art02.tscn",
           "scene": "res://exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
           "atlas": "embedded in GLB (unchanged)",
           "material_count": 1,
@@ -2735,7 +2735,7 @@
       ],
       "recommended_variant": {
         "source": "art02",
-        "model": "res://exo_creature_harmonizacao02/models/wolf/art02.glb",
+        "model": "res://exo_creature_harmonizacao02/models/wolf/art02.tscn",
         "scene": "res://exo_creature_harmonizacao02/scenes/wolf/art02.tscn",
         "reason": "Higher silhouette detail and geometry for closer camera; retain Forge 01 as performance candidate (native fps/quality comparison pending)"
       },
@@ -2918,121 +2918,121 @@
     "forge:wolf": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/wolf.glb",
+      "member": "exo_creatures/models/common/wolf.tscn",
       "original_sha256": "eac59017a4f98630ee7d08f43ab6abac44e35cf41048aa5235d19f18668285d2"
     },
     "forge:deer": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/deer.glb",
+      "member": "exo_creatures/models/common/deer.tscn",
       "original_sha256": "2973ffb5c49982c14b72b936379522256c6108b73b99724d409ed9e81d3f375e"
     },
     "forge:boar": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/boar.glb",
+      "member": "exo_creatures/models/common/boar.tscn",
       "original_sha256": "8dccc66aa41a091fc0cf334d4e5e662516db6d715b7b70390196bc4f7b1139fc"
     },
     "forge:fox": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/fox.glb",
+      "member": "exo_creatures/models/common/fox.tscn",
       "original_sha256": "cbb04419503430e9942054825feea128d2d96f1545000c7b70297b2136ab7e3b"
     },
     "forge:rabbit": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/rabbit.glb",
+      "member": "exo_creatures/models/common/rabbit.tscn",
       "original_sha256": "443b4e9ba715fe384d6b740838531d28b3d514d7027da4258f6434d500bd1b25"
     },
     "forge:tiger": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/tiger.glb",
+      "member": "exo_creatures/models/common/tiger.tscn",
       "original_sha256": "e44bf86035b0b955444ec61750e09703e96950b244e29be034ee53047e521d07"
     },
     "forge:bear": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/common/bear.glb",
+      "member": "exo_creatures/models/common/bear.tscn",
       "original_sha256": "a748d026548219a4a1d05a0be4540095be38607d4348dbe1abc9f37b68ccc661"
     },
     "forge:spirit_deer": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/spiritual/spirit_deer.glb",
+      "member": "exo_creatures/models/spiritual/spirit_deer.tscn",
       "original_sha256": "aebc31d4e2cfc9f4cb4e2c109ed799b8d8df646977bd08853a33a0bed0ee89fa"
     },
     "forge:shadow_wolf": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/corrupted/shadow_wolf.glb",
+      "member": "exo_creatures/models/corrupted/shadow_wolf.tscn",
       "original_sha256": "47277eb9f8aaea1e5ab82571c69314e4fbe4f3d2bb5ce6d6361fffd0105d870a"
     },
     "forge:demon_boar": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/corrupted/demon_boar.glb",
+      "member": "exo_creatures/models/corrupted/demon_boar.tscn",
       "original_sha256": "ab01ad118dd82465145c4a701de992af095bf4553077c841a3940d4122c23fd2"
     },
     "forge:kitsune": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/legendary/kitsune.glb",
+      "member": "exo_creatures/models/legendary/kitsune.tscn",
       "original_sha256": "02f854fc67f75e9909ce0ddfc43158cd71520e293ebee729dcfbf6f61770d0d6"
     },
     "forge:serpent": {
       "archive": "EXO-Murim-Creature-Forge-01.zip",
       "archive_sha256": "26b383597e2ec6565e9e6c59578b5b2eee637e986eec73fd9deb39274ad37ee7",
-      "member": "exo_creatures/models/reptiles/serpent.glb",
+      "member": "exo_creatures/models/reptiles/serpent.tscn",
       "original_sha256": "6e44666a6a876d2510bba768fe9b25666ee5296b87dd45ea23f972b21cf18680"
     },
     "art02:wolf": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/wolf.glb",
+      "member": "exo_creature_art02/models/biomes/wolf.tscn",
       "original_sha256": "39c343ac5561ec4aac04cdf5a4756d8d1fd351ce023174805c19cca2d5571fa4"
     },
     "art02:boar": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/boar.glb",
+      "member": "exo_creature_art02/models/biomes/boar.tscn",
       "original_sha256": "5392af5211e49f90b3bcddbfc5e9adf445011c383a08f8c522135cb493b2a0f3"
     },
     "art02:tiger": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/tiger.glb",
+      "member": "exo_creature_art02/models/biomes/tiger.tscn",
       "original_sha256": "eb63e868833e63fe590a795802fb07c8e0eeee5e0a4725fec1379c810d628e30"
     },
     "art02:leopard": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/leopard.glb",
+      "member": "exo_creature_art02/models/biomes/leopard.tscn",
       "original_sha256": "49a33d923339d7fa751b675de89be4c4eb58a892d78746dc8432c218820bc2f1"
     },
     "art02:mountain_goat": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/mountain_goat.glb",
+      "member": "exo_creature_art02/models/biomes/mountain_goat.tscn",
       "original_sha256": "c071aed3c86462ade945e091a3ced5333150b68a765a476161741bcbd4c34268"
     },
     "art02:desert_monitor": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/desert_monitor.glb",
+      "member": "exo_creature_art02/models/biomes/desert_monitor.tscn",
       "original_sha256": "6a17ec47e533344fca664b194eae3bd5aaf1f9d0e49394902e6f9161fc25d19b"
     },
     "art02:desert_scorpion": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/desert_scorpion.glb",
+      "member": "exo_creature_art02/models/biomes/desert_scorpion.tscn",
       "original_sha256": "70310af1ae787f54d8b3994a7897bd19415ef87e8ff7500f29fa75f38072da0c"
     },
     "art02:stone_guardian": {
       "archive": "EXO-Murim-Creature-Art-02-CANDIDATO.zip",
       "archive_sha256": "c30daec9cc500e3eec1c8c0f1472d40ded0fb747733166e608f9c8b36f2d3662",
-      "member": "exo_creature_art02/models/biomes/stone_guardian.glb",
+      "member": "exo_creature_art02/models/biomes/stone_guardian.tscn",
       "original_sha256": "1b1677e89b0a72c7e49933fbfd0b98544421f4e9cbd069e26f3a919dcdb97f23"
     }
   },

@@ -1,9 +1,0 @@
-{
-  "note": "Exemplos de lotes ficticios previamente reservados. Para uso real, o Genesis fornece alturas e vias verificadas.",
-  "world_seed": 880701,
-  "sites": [
-    {"kind":"compound", "parcel":{"id":"region17_clan_01","role":"sect_hall","style":"auto","center_x":-60.0,"center_z":0.0,"ground_y":0.0,"width_m":32.0,"depth_m":36.0,"yaw_quadrants":0,"approach_clear":true,"terrain_samples_y":[0.0,0.0,0.0,0.0],"detail_profile":"high"}},
-    {"kind":"civic", "parcel":{"id":"region17_temple_02","role":"temple","center_x":0.0,"center_z":0.0,"ground_y":0.0,"width_m":28.0,"depth_m":30.0,"yaw_quadrants":0,"approach_clear":true,"terrain_samples_y":[0.0,0.0,0.0,0.0],"detail_profile":"high"}},
-    {"kind":"green", "parcel":{"id":"region17_green_03","biome":"bamboo","density":0.75,"center_x":60.0,"center_z":0.0,"ground_y":0.0,"width_m":20.0,"depth_m":36.0,"yaw_quadrants":0,"road_clear":true,"terrain_samples_y":[0.0,0.0,0.0,0.0]}}
-  ]
-}

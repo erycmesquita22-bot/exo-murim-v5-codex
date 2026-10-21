@@ -1,0 +1,508 @@
+{
+  "engine": "4.6.2",
+  "modules": [
+    {
+      "id": "npc_system04",
+      "version": "0.4.1",
+      "directory": "npc_system04",
+      "core_manifest": {
+        "id": "npc_system04",
+        "version": "0.4.1",
+        "requires": {
+          "living_world": "1.0.0",
+          "worldgen_v5": "5.0.1"
+        },
+        "optional": {},
+        "entrypoint": "res://npc_system04/module.gd",
+        "services": [
+          "npc04.runtime"
+        ],
+        "publishes": [],
+        "consumes": [],
+        "persistence": {}
+      },
+      "host_resource_dependencies": [
+        "res://convergence/visual_actor_r10.gd",
+        "res://exo_skin3d/appearance_adapter.gd",
+        "res://narrative/society/relationship_system.gd",
+        "res://rig.gd",
+        "res://wardrobe.gd"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "5aaf7b76b3f0094c867025ebfe814fba877b3ad899885218e5b377d33259d23a"
+        },
+        {
+          "path": "actor.gd",
+          "sha256": "87f8ddd682e7cef1b3ea9294df7ba3340ed69826e167adba44afbd0a618ca755"
+        },
+        {
+          "path": "actor.gd.uid",
+          "sha256": "b0913e6bb60439fff45f1b3370439c740ebc86502b29fc440ba480233fc74bbd"
+        },
+        {
+          "path": "contracts/module.json",
+          "sha256": "2a42b06126ee129b676fa41165a15d467afab7a4d9858861a72ad62595a7e182"
+        },
+        {
+          "path": "core/brain.gd",
+          "sha256": "80d825326631c38fff3512585d289b11630892dcd05c90dd7cc51bd36557ffb0"
+        },
+        {
+          "path": "core/brain.gd.uid",
+          "sha256": "f4b01749309e2ea9ca9fea3e326a5300ff31550b2dd8c121210ef448d09a07b8"
+        },
+        {
+          "path": "core/path_guard.gd",
+          "sha256": "ff7d42b1856cc056cae8d679bda01758bf95af880267b1dc87fb49cf0323bf8f"
+        },
+        {
+          "path": "core/path_guard.gd.uid",
+          "sha256": "367901190673d5cbbd1a0b4743388bfd9b1e816e6fc7070111b126ab293bdb61"
+        },
+        {
+          "path": "core/social.gd",
+          "sha256": "224fbe0273fc57e73761c631fea28eda3de604bd414bfa34d17a3114d6a907ac"
+        },
+        {
+          "path": "core/social.gd.uid",
+          "sha256": "858f81bb5933e9b8fe6ae000e7a0af3418523d19c2559a2220bc6fb0d8cb38c4"
+        },
+        {
+          "path": "director.gd",
+          "sha256": "f1ec3b006dc6fbb99279fc03fa4c89c6fb470845a481505ee9fa88eb05142ae3"
+        },
+        {
+          "path": "director.gd.uid",
+          "sha256": "585af1beeda70610140342fb505d61ed223b63da1711304a4c7d45b6fa154302"
+        },
+        {
+          "path": "module.gd",
+          "sha256": "1a35dbc08e34c8fec549272fadbc202c1eb5f7f0c5b3b794d83de0282d8bc9c2"
+        },
+        {
+          "path": "module.gd.uid",
+          "sha256": "5ad45a965a8443fde4678f6f7e0388de2784f992ef036168073a9343597b28c6"
+        },
+        {
+          "path": "tests/qa_npc04_native.gd",
+          "sha256": "4191951afc6d2a10708a1788c8fd36cc787187b7ef39a8346fc0cb7e3d3e1129"
+        },
+        {
+          "path": "tests/qa_npc04_native.gd.uid",
+          "sha256": "c61864ec407a5fd2da22950612df81a4dba06c40f1a91862b97c941bf4a469cd"
+        }
+      ],
+      "native_validation": "See QA logs; not a legal or platform homologation claim",
+      "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
+      "evidence": "QA/final-verified/summary.json"
+    },
+    {
+      "id": "settlement_forge",
+      "version": "1.0.1",
+      "directory": "exo_settlement_forge",
+      "core_manifest": {
+        "id": "settlement_forge",
+        "version": "1.0.1",
+        "requires": {
+          "world": "1.0.0"
+        },
+        "optional": {},
+        "entrypoint": "res://exo_settlement_forge/module.gd",
+        "services": [
+          "settlement.forge"
+        ],
+        "publishes": [],
+        "consumes": [],
+        "persistence": {}
+      },
+      "host_resource_dependencies": [],
+      "files": [
+        {
+          "path": "contracts/settlement_contract_v1.json",
+          "sha256": "3d1192af1392c741bccbd5603553036b8f038d9150d2933cbf61264c2a78ff35"
+        },
+        {
+          "path": "libraries/catalog.json",
+          "sha256": "81f36acce86db4630a914a2c4ae6f11a3bde8132a55d09c7cd2cea71f6f97474"
+        },
+        {
+          "path": "libraries/prefabs/arquivo_escola_04.json",
+          "sha256": "848953f04a9a7160e3d90dfcc3b0d42acb4f61ae862196a069d7f56999f647e8"
+        },
+        {
+          "path": "libraries/prefabs/casa_campesina_01.json",
+          "sha256": "08fd533f217dfe03832a2b0d3bce8397323c8f4c435e275a33dc8c97299061b1"
+        },
+        {
+          "path": "libraries/prefabs/casa_campesina_02.json",
+          "sha256": "02e88cc1468614cd7a29b6179cfd67861a8050675aed2e3089e564b52afb96be"
+        },
+        {
+          "path": "libraries/prefabs/casa_escriba_01.json",
+          "sha256": "e9377afa75945b5e0855666505a5869afd4c20125c3714bae516e8e36591c9d1"
+        },
+        {
+          "path": "libraries/prefabs/casa_familia_l_01.json",
+          "sha256": "41d481437840dda4b969bf70d77933b8571e9ac878fe546fa8f9aafbdb255831"
+        },
+        {
+          "path": "libraries/prefabs/casa_familia_l_02.json",
+          "sha256": "1fe2e22932dfc2e5b1089e88296e473b277bb4727907c5b4efbdafa6c40c08b3"
+        },
+        {
+          "path": "libraries/prefabs/casa_familia_sobrado_02.json",
+          "sha256": "78199821c127a0e3b974c4e86dfe71ba38af47bf0d50601c518b55e66912e277"
+        },
+        {
+          "path": "libraries/prefabs/casa_fazenda_sobrado_03.json",
+          "sha256": "336f7be70446f0eea8e581b062a833f9791d56fd8264cbae616cf1ec5bbb78d5"
+        },
+        {
+          "path": "libraries/prefabs/casa_fazendeiro_01.json",
+          "sha256": "cf4a5e1ba29cdbe238c64c295a567129b4806120bffbf84366063000a25e82fe"
+        },
+        {
+          "path": "libraries/prefabs/casa_mercador_sobrado_01.json",
+          "sha256": "297e4543ed9227364f8cc9c85e065ad11c4cf69a20d5e8b533568f6b8a4c4765"
+        },
+        {
+          "path": "libraries/prefabs/casa_mestre_01.json",
+          "sha256": "791d772cbb3c54a02be3dcdcdd112999ad98cd3c31a542e4e2bb1361ec9879be"
+        },
+        {
+          "path": "libraries/prefabs/casa_montanha_01.json",
+          "sha256": "d61b17c51f4e19b89dbc50023eff3994c9333dd5365c3298fbf6f710d59d5481"
+        },
+        {
+          "path": "libraries/prefabs/casa_nobre_retangular_01.json",
+          "sha256": "b4c51b5a3973d8c0dbf9a5b83d5ffe2ac91312879f8050ed924f7633eb5570cd"
+        },
+        {
+          "path": "libraries/prefabs/casa_pescador_01.json",
+          "sha256": "eccb38c3f14a89224b1b6010ac86c46b01dc3c8abaa1dc136113deb3255b7aef"
+        },
+        {
+          "path": "libraries/prefabs/casa_pilotis_rio_01.json",
+          "sha256": "480ed95cc86bd34e1d1d592454f7cdf86cc122bd27304a6e2a307bd6b089aac9"
+        },
+        {
+          "path": "libraries/prefabs/casa_rural_grande_01.json",
+          "sha256": "56a66c01bea666b9d686ada31953a8ab8880c0ca4818feefef31ed368fdd3fd3"
+        },
+        {
+          "path": "libraries/prefabs/casa_rural_l_02.json",
+          "sha256": "b7c80f32ede3ec871e605ead610eef94ca484a41ae15fe95350156a1d759abb1"
+        },
+        {
+          "path": "libraries/prefabs/clinica_ervas_03.json",
+          "sha256": "6843fe560966ff218eb0880b1940076203dbc252ba90117450a685c5ce0ecfd6"
+        },
+        {
+          "path": "libraries/prefabs/deposito_ferreiro_02.json",
+          "sha256": "d25746a50ceb780f737786865c7c823375f39a344afbc0073947c9ed6f6bb768"
+        },
+        {
+          "path": "libraries/prefabs/deposito_mercantil_01.json",
+          "sha256": "ec2af699c34b194ec41736724ae16dc691674f64fd65601778750ed4ae2cc835"
+        },
+        {
+          "path": "libraries/prefabs/deposito_portuario_03.json",
+          "sha256": "3971cadfb9ec12f69ccc8ab7cfb23ef0337a905427ec37aec739023bb4db7460"
+        },
+        {
+          "path": "libraries/prefabs/escola_bambu_02.json",
+          "sha256": "1696ed97ded57636e1a42f0bed352c3775c1cdcb795db45dba709f47f1990bdc"
+        },
+        {
+          "path": "libraries/prefabs/escola_cla_05.json",
+          "sha256": "e2a5f42b6f3c422801262f7e143fc0a46a35caecad8b1c18e02f1be09448b3ba"
+        },
+        {
+          "path": "libraries/prefabs/escola_espada_03.json",
+          "sha256": "5ed82da12547add6b6cda3d95f4fbbe161e3ab08251483da087f79b9937fe36c"
+        },
+        {
+          "path": "libraries/prefabs/escola_grande_04.json",
+          "sha256": "732ce37940432f08f64cfb6fe5c78adb9812edc2a354c1f6f0c7a9e5dfacd90d"
+        },
+        {
+          "path": "libraries/prefabs/escola_montanha_06.json",
+          "sha256": "14623886eb0dcbabd0a8ae502ad50fc9520d03787925165bfa0daa1421b2799b"
+        },
+        {
+          "path": "libraries/prefabs/escola_pequena_01.json",
+          "sha256": "28543b8fcae6d9181c2cf0a7cb537ba9bd3b8e7ae0fea4951849d7910d2732f0"
+        },
+        {
+          "path": "libraries/prefabs/farmacia_alquimia_02.json",
+          "sha256": "e262d575451bccf10627482b1a15a132991f2a31e6f9a0809c81ce6713624c6a"
+        },
+        {
+          "path": "libraries/prefabs/farmacia_dupla_04.json",
+          "sha256": "80de34afb13be6c731ed6536c06f1fad340fb36e103ad636890e633c24f0289a"
+        },
+        {
+          "path": "libraries/prefabs/farmacia_erva_01.json",
+          "sha256": "5ba4692e7846b8e66117fe7a33393bebf06fa4c76de4e87fc6af0a52381076b6"
+        },
+        {
+          "path": "libraries/prefabs/forja_cla_02.json",
+          "sha256": "0f064dd740041ca98c4c596e9a4d96b54cec8566755260f43d052ae7e498fd58"
+        },
+        {
+          "path": "libraries/prefabs/forja_ferro_03.json",
+          "sha256": "3bbf46ac0daab3b7b0c35cc20b40fbebdda831816900e7d178eb6d5f287ba8d8"
+        },
+        {
+          "path": "libraries/prefabs/forja_nobre_04.json",
+          "sha256": "85f60ff9654a41b3d2e4eb68b1a7624bb8f5c026625f20cc714e1e85cae7a135"
+        },
+        {
+          "path": "libraries/prefabs/forja_rua_01.json",
+          "sha256": "41866ec74f18971503166ff2444b1170d784fa3fb6887d21cc58aec9dccb69ad"
+        },
+        {
+          "path": "libraries/prefabs/gabinete_cla_03.json",
+          "sha256": "b0e01464919252c699bcdeeaa0870a4c1b15b7f97d02ea93ee9a3ac6acb36526"
+        },
+        {
+          "path": "libraries/prefabs/loja_artes_04.json",
+          "sha256": "db78f05ff9b15387e390dff013670e53040fdbeee93303abd5520700c8d1ddd7"
+        },
+        {
+          "path": "libraries/prefabs/loja_cha_03.json",
+          "sha256": "5a9ce414b1d79b0a51fe5ffbd524a3985ba9a618c007d6cb44a15561542c5d70"
+        },
+        {
+          "path": "libraries/prefabs/loja_duplo_piso_06.json",
+          "sha256": "8d54f80eb180edb96ba3359de0f1c4d97b2c4ac6e9e215ae180d60497662d119"
+        },
+        {
+          "path": "libraries/prefabs/loja_mercadorias_01.json",
+          "sha256": "e8791e81f069c90a0db4f54f99c06ac435fcfbab0351de23b579fcf7afe2ca5a"
+        },
+        {
+          "path": "libraries/prefabs/loja_ribeirinha_05.json",
+          "sha256": "9fe602a489f0d9cbcded8cc2b4e08db9cc7e3e52603db5f9aaee4433bf9983ea"
+        },
+        {
+          "path": "libraries/prefabs/loja_seda_02.json",
+          "sha256": "93c8bfdbd2c502540dcfbe6d2065d0a32fe2363337916f567086c414982905a5"
+        },
+        {
+          "path": "libraries/prefabs/magistrado_02.json",
+          "sha256": "f6bfdba8dc782671d3be552ff9040fddf09ae46a982247dd491b52f9fc7295d6"
+        },
+        {
+          "path": "libraries/prefabs/mansao_cla_l_01.json",
+          "sha256": "4036b938b93ce5c618aa396f806c8974ab1b33dfa58eee17090f9eecff51a2bc"
+        },
+        {
+          "path": "libraries/prefabs/mansao_nobre_patio_01.json",
+          "sha256": "5f90b6a355a290cae7c27bc88dff0461d467e0fb0aeb91daf2d4ee246e4d51ec"
+        },
+        {
+          "path": "libraries/prefabs/pousada_cidade_02.json",
+          "sha256": "ea0fb5e58d68852d7e3b9bc11db2fa9534e3d0b0bb6ff7d8447d5c8e984222be"
+        },
+        {
+          "path": "libraries/prefabs/pousada_estrada_01.json",
+          "sha256": "44732c0049f1efbda93996e84b23a481cc2bf9ff6c484347bfaae85e874e6fec"
+        },
+        {
+          "path": "libraries/prefabs/pousada_montanha_03.json",
+          "sha256": "c263b68d53397b803b52eb1507ed7adb6bf4ba2a425fe503519a22f3a04b3c4a"
+        },
+        {
+          "path": "libraries/prefabs/pousada_rio_04.json",
+          "sha256": "68ab57a2a17ec66dfd474b65c3680bf7a00804cc85e61a19dd2b35b9f4639a18"
+        },
+        {
+          "path": "libraries/prefabs/sala_conselho_01.json",
+          "sha256": "fb60b48672df5e24e4cd4aa3d674d5a6d7b229920887ed035fe81e4399abd83e"
+        },
+        {
+          "path": "libraries/prefabs/templo_ancestral_02.json",
+          "sha256": "1055543cb5f6017405da1fb089d4fbb20c3a7d93ed304e2303321ddc701e3239"
+        },
+        {
+          "path": "libraries/prefabs/templo_rural_01.json",
+          "sha256": "6cb3f952e0ddedcdd5e66bd07bf8a7ea3e74083568f4b5120d974699dc0b27d7"
+        },
+        {
+          "path": "libraries/prefabs/templo_urbano_03.json",
+          "sha256": "cd17f923645367547b63ea48fe5ba351954a695fd524d2fbcf87891f66910736"
+        },
+        {
+          "path": "module.gd",
+          "sha256": "ae38b6e11c13b3ddc91b8a7723642ab5044adf48b857659500edbecf19f24033"
+        },
+        {
+          "path": "module.gd.uid",
+          "sha256": "8d4fd5806c1dd0d1308bc9227a715a507820f08bcabb8e1143cca0f2e0239bbb"
+        },
+        {
+          "path": "qa/native_smoke.gd",
+          "sha256": "08a1304fee91a7df906692f252e6d4f94fa27626a99cf145748751a0438e66ac"
+        },
+        {
+          "path": "qa/native_smoke.gd.uid",
+          "sha256": "0c860dcbe93bc46178e02669709fc016a11f7dadc9be3cda0cb0fe4b1762c3aa"
+        },
+        {
+          "path": "qa/offline_audit.py",
+          "sha256": "5b3b5b248426c2e9620ab086a38adff9a4ad5f5b0a2a1d7de59614fa48a3af87"
+        },
+        {
+          "path": "qa/run_native.sh",
+          "sha256": "73f5614817a071600eb4f2f8c816253b7c78b0d9cd2b6cd64ebfcfe948cd9a13"
+        },
+        {
+          "path": "runtime/architecture_builder.gd",
+          "sha256": "ce80fb0a40f258d3e19c7b420a6439a51e54cc0cb2efaac9491b17c70af3c19e"
+        },
+        {
+          "path": "runtime/architecture_builder.gd.uid",
+          "sha256": "32d4d1033b36faadf00e568d91530d74b36a51c4691f0b7304998c8754e253bd"
+        },
+        {
+          "path": "runtime/interior_builder.gd",
+          "sha256": "2c01ec5521235c9bdb84a02d8e3f7788bfdead75468ced8416fc154a9c6c6f3a"
+        },
+        {
+          "path": "runtime/interior_builder.gd.uid",
+          "sha256": "77125b059860e085b24c88d358bea2f5feb25aa494954897e81440b45dbad8f4"
+        },
+        {
+          "path": "runtime/interior_catalog.gd",
+          "sha256": "018741729c3bac05aa35b3309ecbf635f0907d596dfe96a4fa14de0afa55a725"
+        },
+        {
+          "path": "runtime/interior_catalog.gd.uid",
+          "sha256": "16144cc0fbc6db1a5be70c0fc052376bc96421241d70c3a395ecc7fd4390471a"
+        },
+        {
+          "path": "runtime/portal_controller.gd",
+          "sha256": "69c241dd0954565830c7fdaf47b8fa07d37b9aa02887e09272f78390eb1ed660"
+        },
+        {
+          "path": "runtime/portal_controller.gd.uid",
+          "sha256": "e933f5842d88083df27b93822b3c95c3eae293ee39305b16dd7eaf4d6b611e06"
+        },
+        {
+          "path": "runtime/settlement_service.gd",
+          "sha256": "f07336f838d2132e95af84f7eb6be1aac5e5a024e6c9acf5b592625b2970d392"
+        },
+        {
+          "path": "runtime/settlement_service.gd.uid",
+          "sha256": "bc7c7d5f5e9fea352840820ec315478e5d8b5b8dabcd8875241ebb8d4e5e6803"
+        },
+        {
+          "path": "runtime/urban_generator.gd",
+          "sha256": "2e3cbb79d796a4ecfd1d4ef645dd4b30d4a34f15015cfb3b211f722f47528862"
+        },
+        {
+          "path": "runtime/urban_generator.gd.uid",
+          "sha256": "24386b7d71aa2aae17afbff93c27682ba37cf41bf104eaabca2713f77c773fc8"
+        }
+      ],
+      "native_validation": "See QA logs; not a legal or platform homologation claim",
+      "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
+      "evidence": "QA/final-verified/summary.json"
+    },
+    {
+      "id": "worldgen_v5",
+      "version": "5.0.1",
+      "directory": "worldgen_v5",
+      "core_manifest": {
+        "id": "worldgen_v5",
+        "version": "5.0.1",
+        "requires": {
+          "world": "1.0.0",
+          "settlement_forge": "1.0.1"
+        },
+        "optional": {},
+        "entrypoint": "res://worldgen_v5/module.gd",
+        "services": [
+          "worldgen.v5"
+        ],
+        "publishes": [],
+        "consumes": [],
+        "persistence": {}
+      },
+      "host_resource_dependencies": [
+        "res://convergence/region.gd",
+        "res://exo_settlement_forge/runtime/portal_controller.gd",
+        "res://exo_settlement_forge/runtime/settlement_service.gd",
+        "res://genesis/atlas_seed_",
+        "res://genesis/region_data.gd",
+        "res://genesis/v4/world_plan.gd",
+        "res://genesis/world_planner.gd"
+      ],
+      "files": [
+        {
+          "path": "contracts/worldgen_v5_contract.json",
+          "sha256": "551be062110cc72d8ac3aaa28c378174b0435e466f8d3a3b17e0269b3b0a432d"
+        },
+        {
+          "path": "module.gd",
+          "sha256": "01f93a0822ef77825cb942414fb09a67c61b4a0379cc3e7a5fbdcdbc15306ab1"
+        },
+        {
+          "path": "module.gd.uid",
+          "sha256": "04221a1df23bd795c51661ab0f0ae10ec43bd338ef5a3fd766ab6f640fe24c98"
+        },
+        {
+          "path": "qa/native_probe.gd",
+          "sha256": "28cb1bf0408e5d6b25742174bda13e0a553e5c691628927c14a9c13a65c91f76"
+        },
+        {
+          "path": "qa/native_probe.gd.uid",
+          "sha256": "f20234035519b234b40a153b5b6196d815103c3e727837b1bcfc8d68a0b88291"
+        },
+        {
+          "path": "qa/offline_checks.py",
+          "sha256": "6652c02caad97b384e0a6c2a70dc9207af15fe56d3f9e54a61456c28f40b603f"
+        },
+        {
+          "path": "runtime/atlas_gate.gd",
+          "sha256": "794ece0b79866b397f7654fa3a8eeb2d2fa3dd5717eaad88e8c3921505968314"
+        },
+        {
+          "path": "runtime/atlas_gate.gd.uid",
+          "sha256": "bf58b9cf3284453b041b1afa62c7919b262e37508a54c625f3f1ba8790be1441"
+        },
+        {
+          "path": "runtime/settlement_handoff.gd",
+          "sha256": "881aa5c9efe42293cca6e98ff3280ded021707ce28efb8246ec73592e7b62955"
+        },
+        {
+          "path": "runtime/settlement_handoff.gd.uid",
+          "sha256": "84eb873620de9016a5b0d5239b088cf5eed44b2fce9acecaafd95607f39c698c"
+        },
+        {
+          "path": "runtime/visit_host.gd",
+          "sha256": "59ad2b7f3514f390b7e946005c9ff8d8db37b42c57b87532cdb955b80d056810"
+        },
+        {
+          "path": "runtime/visit_host.gd.uid",
+          "sha256": "fcecb9dea94f705e4773ca5d833b136d9553d8da91d45c1a33f8a79a6de54e87"
+        }
+      ],
+      "native_validation": "See QA logs; not a legal or platform homologation claim",
+      "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
+      "evidence": "QA/final-verified/summary.json"
+    }
+  ],
+  "single_owners": {
+    "topology": "WorldGenesis canonical atlas library",
+    "city_placement": "WorldGenesis/CityForge approved plan",
+    "city_geometry_and_portals": "SettlementForge",
+    "live_npc_decisions": "NPC04",
+    "identity": "LivingWorld",
+    "persistence": "EXO Core/JourneySave",
+    "wallet": "LivingWorld balance via Economy"
+  }
+}

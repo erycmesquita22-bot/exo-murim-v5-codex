@@ -2,13 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbs3hdixd7kby"
+uid="uid://cq6ivc7xjb5he"
 path="res://.godot/imported/art02_EXO_Original_Voxel_Atlas.png-c2075a55aac5f2a589cb181a180c22fc.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "7d89d58553a59ebdb0d74f992351f308"
 }
 
 [deps]
@@ -26,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

@@ -1,9 +1,0 @@
-Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
-
-CHECK create_character true
-CHECK city_65_residents true
-CHECK work_points_separated:1.49999725818634 true
-NPC_HOUR {"clock":0.0166666666666667,"community":0,"hour":0,"rest":0,"travel":65,"work":0}
-NPC_HOUR {"clock":45.0166666666654,"community":0,"hour":0,"rest":24,"travel":41,"work":0}
-NPC_HOUR {"clock":90.0166666666628,"community":0,"hour":1,"rest":32,"travel":33,"work":0}
-NPC_HOUR {"clock":135.016666666666,"community":0,"hour":1,"rest":41,"travel":24,"work":0}

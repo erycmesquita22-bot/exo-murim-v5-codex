@@ -1,6 +1,0 @@
-Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
-
-CHECK create_character true
-CHECK city_65_residents true
-CHECK work_points_separated:0.0 false
-R3_RESULT npc_probe checks=3 failures=["work_points_separated:0.0"]

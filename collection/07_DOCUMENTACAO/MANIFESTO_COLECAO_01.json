@@ -61,7 +61,7 @@
     {
       "name": "bambu_alto",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/bambu_alto.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_alto.tscn",
       "preview": "00_CATALOGO/thumb_bambu_alto.png",
       "bounds_m": [
         2.05,
@@ -73,7 +73,7 @@
     {
       "name": "bambu_grupo",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/bambu_grupo.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_grupo.tscn",
       "preview": "00_CATALOGO/thumb_bambu_grupo.png",
       "bounds_m": [
         2.749,
@@ -85,7 +85,7 @@
     {
       "name": "bambu_bosque",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/bambu_bosque.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/bambu_bosque.tscn",
       "preview": "00_CATALOGO/thumb_bambu_bosque.png",
       "bounds_m": [
         2.926,
@@ -97,7 +97,7 @@
     {
       "name": "pinheiro_pequeno",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.tscn",
       "preview": "00_CATALOGO/thumb_pinheiro_pequeno.png",
       "bounds_m": [
         1.88,
@@ -109,7 +109,7 @@
     {
       "name": "pinheiro_grande",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_grande.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/pinheiro_grande.tscn",
       "preview": "00_CATALOGO/thumb_pinheiro_grande.png",
       "bounds_m": [
         2.256,
@@ -121,7 +121,7 @@
     {
       "name": "arvore_folhosa",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhosa.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhosa.tscn",
       "preview": "00_CATALOGO/thumb_arvore_folhosa.png",
       "bounds_m": [
         2.8,
@@ -133,7 +133,7 @@
     {
       "name": "arvore_grande",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/arvore_grande.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_grande.tscn",
       "preview": "00_CATALOGO/thumb_arvore_grande.png",
       "bounds_m": [
         2.8,
@@ -145,7 +145,7 @@
     {
       "name": "cerejeira",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/cerejeira.tscn",
       "preview": "00_CATALOGO/thumb_cerejeira.png",
       "bounds_m": [
         2.65,
@@ -157,7 +157,7 @@
     {
       "name": "arvore_folhas_vermelhas",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.tscn",
       "preview": "00_CATALOGO/thumb_arvore_folhas_vermelhas.png",
       "bounds_m": [
         2.65,
@@ -169,7 +169,7 @@
     {
       "name": "arbusto",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/arbusto.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/arbusto.tscn",
       "preview": "00_CATALOGO/thumb_arbusto.png",
       "bounds_m": [
         1.609,
@@ -181,7 +181,7 @@
     {
       "name": "moita_densa",
       "category": "vegetacao",
-      "file": "06_OBJETOS_GLB/vegetacao/moita_densa.glb",
+      "file": "06_OBJETOS_GLB/vegetacao/moita_densa.tscn",
       "preview": "00_CATALOGO/thumb_moita_densa.png",
       "bounds_m": [
         1.714,
@@ -193,7 +193,7 @@
     {
       "name": "rocha_pequena",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/rocha_pequena.glb",
+      "file": "06_OBJETOS_GLB/rochas/rocha_pequena.tscn",
       "preview": "00_CATALOGO/thumb_rocha_pequena.png",
       "bounds_m": [
         0.997,
@@ -205,7 +205,7 @@
     {
       "name": "rochas_medias",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/rochas_medias.glb",
+      "file": "06_OBJETOS_GLB/rochas/rochas_medias.tscn",
       "preview": "00_CATALOGO/thumb_rochas_medias.png",
       "bounds_m": [
         2.435,
@@ -217,7 +217,7 @@
     {
       "name": "rocha_grande",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/rocha_grande.glb",
+      "file": "06_OBJETOS_GLB/rochas/rocha_grande.tscn",
       "preview": "00_CATALOGO/thumb_rocha_grande.png",
       "bounds_m": [
         3.816,
@@ -229,7 +229,7 @@
     {
       "name": "formacao_rochosa",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/formacao_rochosa.glb",
+      "file": "06_OBJETOS_GLB/rochas/formacao_rochosa.tscn",
       "preview": "00_CATALOGO/thumb_formacao_rochosa.png",
       "bounds_m": [
         4.871,
@@ -241,7 +241,7 @@
     {
       "name": "penhasco_baixo",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/penhasco_baixo.glb",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_baixo.tscn",
       "preview": "00_CATALOGO/thumb_penhasco_baixo.png",
       "bounds_m": [
         2.45,
@@ -253,7 +253,7 @@
     {
       "name": "penhasco_alto",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/penhasco_alto.glb",
+      "file": "06_OBJETOS_GLB/rochas/penhasco_alto.tscn",
       "preview": "00_CATALOGO/thumb_penhasco_alto.png",
       "bounds_m": [
         2.45,
@@ -265,7 +265,7 @@
     {
       "name": "cristal_purpura",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/cristal_purpura.glb",
+      "file": "06_OBJETOS_GLB/rochas/cristal_purpura.tscn",
       "preview": "00_CATALOGO/thumb_cristal_purpura.png",
       "bounds_m": [
         1.436,
@@ -277,7 +277,7 @@
     {
       "name": "cristal_ciano",
       "category": "rochas",
-      "file": "06_OBJETOS_GLB/rochas/cristal_ciano.glb",
+      "file": "06_OBJETOS_GLB/rochas/cristal_ciano.tscn",
       "preview": "00_CATALOGO/thumb_cristal_ciano.png",
       "bounds_m": [
         1.457,
@@ -289,7 +289,7 @@
     {
       "name": "parede_ruina_reta",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_reta.glb",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_reta.tscn",
       "preview": "00_CATALOGO/thumb_parede_ruina_reta.png",
       "bounds_m": [
         3.365,
@@ -301,7 +301,7 @@
     {
       "name": "parede_ruina_danificada",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_danificada.glb",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_danificada.tscn",
       "preview": "00_CATALOGO/thumb_parede_ruina_danificada.png",
       "bounds_m": [
         3.215,
@@ -313,7 +313,7 @@
     {
       "name": "parede_ruina_canto",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_canto.glb",
+      "file": "06_OBJETOS_GLB/ruinas/parede_ruina_canto.tscn",
       "preview": "00_CATALOGO/thumb_parede_ruina_canto.png",
       "bounds_m": [
         3.2,
@@ -325,7 +325,7 @@
     {
       "name": "parede_masmorra",
       "category": "masmorras",
-      "file": "06_OBJETOS_GLB/masmorras/parede_masmorra.glb",
+      "file": "06_OBJETOS_GLB/masmorras/parede_masmorra.tscn",
       "preview": "00_CATALOGO/thumb_parede_masmorra.png",
       "bounds_m": [
         3.365,
@@ -337,7 +337,7 @@
     {
       "name": "arco_ruina",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/arco_ruina.glb",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina.tscn",
       "preview": "00_CATALOGO/thumb_arco_ruina.png",
       "bounds_m": [
         2.75,
@@ -349,7 +349,7 @@
     {
       "name": "arco_ruina_musgoso",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.glb",
+      "file": "06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.tscn",
       "preview": "00_CATALOGO/thumb_arco_ruina_musgoso.png",
       "bounds_m": [
         2.75,
@@ -361,7 +361,7 @@
     {
       "name": "pilar_ruina",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/pilar_ruina.glb",
+      "file": "06_OBJETOS_GLB/ruinas/pilar_ruina.tscn",
       "preview": "00_CATALOGO/thumb_pilar_ruina.png",
       "bounds_m": [
         1.15,
@@ -373,7 +373,7 @@
     {
       "name": "coluna_quebrada",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/coluna_quebrada.glb",
+      "file": "06_OBJETOS_GLB/ruinas/coluna_quebrada.tscn",
       "preview": "00_CATALOGO/thumb_coluna_quebrada.png",
       "bounds_m": [
         1.15,
@@ -385,7 +385,7 @@
     {
       "name": "escadaria_pedra",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/escadaria_pedra.glb",
+      "file": "06_OBJETOS_GLB/ruinas/escadaria_pedra.tscn",
       "preview": "00_CATALOGO/thumb_escadaria_pedra.png",
       "bounds_m": [
         2.7,
@@ -397,7 +397,7 @@
     {
       "name": "laje_ruina",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/laje_ruina.glb",
+      "file": "06_OBJETOS_GLB/ruinas/laje_ruina.tscn",
       "preview": "00_CATALOGO/thumb_laje_ruina.png",
       "bounds_m": [
         3.0,
@@ -409,7 +409,7 @@
     {
       "name": "altar_pedra",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/altar_pedra.glb",
+      "file": "06_OBJETOS_GLB/ruinas/altar_pedra.tscn",
       "preview": "00_CATALOGO/thumb_altar_pedra.png",
       "bounds_m": [
         2.5,
@@ -421,7 +421,7 @@
     {
       "name": "obelisco",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/obelisco.glb",
+      "file": "06_OBJETOS_GLB/ruinas/obelisco.tscn",
       "preview": "00_CATALOGO/thumb_obelisco.png",
       "bounds_m": [
         1.7,
@@ -433,7 +433,7 @@
     {
       "name": "entulho_pedra",
       "category": "ruinas",
-      "file": "06_OBJETOS_GLB/ruinas/entulho_pedra.glb",
+      "file": "06_OBJETOS_GLB/ruinas/entulho_pedra.tscn",
       "preview": "00_CATALOGO/thumb_entulho_pedra.png",
       "bounds_m": [
         3.025,
@@ -445,7 +445,7 @@
     {
       "name": "portao_torii",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/portao_torii.glb",
+      "file": "06_OBJETOS_GLB/construcoes/portao_torii.tscn",
       "preview": "00_CATALOGO/thumb_portao_torii.png",
       "bounds_m": [
         4.3,
@@ -457,7 +457,7 @@
     {
       "name": "portao_templete",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/portao_templete.glb",
+      "file": "06_OBJETOS_GLB/construcoes/portao_templete.tscn",
       "preview": "00_CATALOGO/thumb_portao_templete.png",
       "bounds_m": [
         4.3,
@@ -469,7 +469,7 @@
     {
       "name": "telhado_rufo_vermelho",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.glb",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.tscn",
       "preview": "00_CATALOGO/thumb_telhado_rufo_vermelho.png",
       "bounds_m": [
         3.83,
@@ -481,7 +481,7 @@
     {
       "name": "telhado_rufo_azul",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_azul.glb",
+      "file": "06_OBJETOS_GLB/construcoes/telhado_rufo_azul.tscn",
       "preview": "00_CATALOGO/thumb_telhado_rufo_azul.png",
       "bounds_m": [
         3.83,
@@ -493,7 +493,7 @@
     {
       "name": "casa_modular",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "file": "06_OBJETOS_GLB/construcoes/casa_modular.tscn",
       "preview": "00_CATALOGO/thumb_casa_modular.png",
       "bounds_m": [
         3.65,
@@ -505,7 +505,7 @@
     {
       "name": "ponte_madeira",
       "category": "construcoes",
-      "file": "06_OBJETOS_GLB/construcoes/ponte_madeira.glb",
+      "file": "06_OBJETOS_GLB/construcoes/ponte_madeira.tscn",
       "preview": "00_CATALOGO/thumb_ponte_madeira.png",
       "bounds_m": [
         2.3,
@@ -517,7 +517,7 @@
     {
       "name": "cerca_segmento",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/cerca_segmento.glb",
+      "file": "06_OBJETOS_GLB/objetos/cerca_segmento.tscn",
       "preview": "00_CATALOGO/thumb_cerca_segmento.png",
       "bounds_m": [
         2.5,
@@ -529,7 +529,7 @@
     {
       "name": "poste_lanterna",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "file": "06_OBJETOS_GLB/objetos/poste_lanterna.tscn",
       "preview": "00_CATALOGO/thumb_poste_lanterna.png",
       "bounds_m": [
         0.9,
@@ -541,7 +541,7 @@
     {
       "name": "caixote",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/caixote.glb",
+      "file": "06_OBJETOS_GLB/objetos/caixote.tscn",
       "preview": "00_CATALOGO/thumb_caixote.png",
       "bounds_m": [
         1.12,
@@ -553,7 +553,7 @@
     {
       "name": "barril",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/barril.glb",
+      "file": "06_OBJETOS_GLB/objetos/barril.tscn",
       "preview": "00_CATALOGO/thumb_barril.png",
       "bounds_m": [
         1.06,
@@ -565,7 +565,7 @@
     {
       "name": "saco_mercadorias",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/saco_mercadorias.glb",
+      "file": "06_OBJETOS_GLB/objetos/saco_mercadorias.tscn",
       "preview": "00_CATALOGO/thumb_saco_mercadorias.png",
       "bounds_m": [
         0.75,
@@ -577,7 +577,7 @@
     {
       "name": "banco_madeira",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/banco_madeira.glb",
+      "file": "06_OBJETOS_GLB/objetos/banco_madeira.tscn",
       "preview": "00_CATALOGO/thumb_banco_madeira.png",
       "bounds_m": [
         2.15,
@@ -589,7 +589,7 @@
     {
       "name": "mesa_madeira",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/mesa_madeira.glb",
+      "file": "06_OBJETOS_GLB/objetos/mesa_madeira.tscn",
       "preview": "00_CATALOGO/thumb_mesa_madeira.png",
       "bounds_m": [
         2.1,
@@ -601,7 +601,7 @@
     {
       "name": "barraca_feira",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "file": "06_OBJETOS_GLB/objetos/barraca_feira.tscn",
       "preview": "00_CATALOGO/thumb_barraca_feira.png",
       "bounds_m": [
         3.2,
@@ -613,7 +613,7 @@
     {
       "name": "poco",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/poco.glb",
+      "file": "06_OBJETOS_GLB/objetos/poco.tscn",
       "preview": "00_CATALOGO/thumb_poco.png",
       "bounds_m": [
         2.7,
@@ -625,7 +625,7 @@
     {
       "name": "carroca",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/carroca.glb",
+      "file": "06_OBJETOS_GLB/objetos/carroca.tscn",
       "preview": "00_CATALOGO/thumb_carroca.png",
       "bounds_m": [
         2.44,
@@ -637,7 +637,7 @@
     {
       "name": "canteiro_flores",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/canteiro_flores.glb",
+      "file": "06_OBJETOS_GLB/objetos/canteiro_flores.tscn",
       "preview": "00_CATALOGO/thumb_canteiro_flores.png",
       "bounds_m": [
         2.5,
@@ -649,7 +649,7 @@
     {
       "name": "tocha_coluna",
       "category": "masmorras",
-      "file": "06_OBJETOS_GLB/masmorras/tocha_coluna.glb",
+      "file": "06_OBJETOS_GLB/masmorras/tocha_coluna.tscn",
       "preview": "00_CATALOGO/thumb_tocha_coluna.png",
       "bounds_m": [
         0.37,
@@ -661,7 +661,7 @@
     {
       "name": "bau_madeira",
       "category": "masmorras",
-      "file": "06_OBJETOS_GLB/masmorras/bau_madeira.glb",
+      "file": "06_OBJETOS_GLB/masmorras/bau_madeira.tscn",
       "preview": "00_CATALOGO/thumb_bau_madeira.png",
       "bounds_m": [
         1.92,
@@ -673,7 +673,7 @@
     {
       "name": "portao_masmorra",
       "category": "masmorras",
-      "file": "06_OBJETOS_GLB/masmorras/portao_masmorra.glb",
+      "file": "06_OBJETOS_GLB/masmorras/portao_masmorra.tscn",
       "preview": "00_CATALOGO/thumb_portao_masmorra.png",
       "bounds_m": [
         3.3,
@@ -685,7 +685,7 @@
     {
       "name": "estalagmites",
       "category": "masmorras",
-      "file": "06_OBJETOS_GLB/masmorras/estalagmites.glb",
+      "file": "06_OBJETOS_GLB/masmorras/estalagmites.tscn",
       "preview": "00_CATALOGO/thumb_estalagmites.png",
       "bounds_m": [
         1.617,
@@ -697,7 +697,7 @@
     {
       "name": "escada_madeira",
       "category": "objetos",
-      "file": "06_OBJETOS_GLB/objetos/escada_madeira.glb",
+      "file": "06_OBJETOS_GLB/objetos/escada_madeira.tscn",
       "preview": "00_CATALOGO/thumb_escada_madeira.png",
       "bounds_m": [
         2.5,

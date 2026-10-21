@@ -27,7 +27,7 @@ func run() -> void:
     assert(Identity.paint({"robe":5,"skin":5,"hair":5}).get_width()==256)
     var registry: Dictionary = SkillRegistry.catalog
     assert(registry.skills.salto_impetuoso.phases.movement.event=="exo_salto_movement")
-    assert(ResourceLoader.exists("res://assets/exo_legacy/energy_impact.ogg"))
+    assert(ResourceLoader.exists("res://assets/v5_generated/audio/fx_a423df5626d66902.wav"))
     rig.queue_free()
     await process_frame
     await process_frame

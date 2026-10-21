@@ -1,0 +1,83 @@
+[gd_scene load_steps=15 format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat0"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh0"]
+material = SubResource("Mat0")
+size = Vector3(26.6, 0.24, 18.6)
+
+[sub_resource type="StandardMaterial3D" id="Mat1"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh1"]
+material = SubResource("Mat1")
+size = Vector3(26.0, 8.0, 0.9)
+
+[sub_resource type="StandardMaterial3D" id="Mat2"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh2"]
+material = SubResource("Mat2")
+size = Vector3(0.9, 8.0, 17.2)
+
+[sub_resource type="StandardMaterial3D" id="Mat3"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh3"]
+material = SubResource("Mat3")
+size = Vector3(0.9, 8.0, 17.2)
+
+[sub_resource type="StandardMaterial3D" id="Mat4"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh4"]
+material = SubResource("Mat4")
+size = Vector3(10.0, 8.0, 0.95)
+
+[sub_resource type="StandardMaterial3D" id="Mat5"]
+albedo_color = Color(0.5176470588235295, 0.4980392156862745, 0.4392156862745098, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh5"]
+material = SubResource("Mat5")
+size = Vector3(10.0, 8.0, 0.95)
+
+[sub_resource type="StandardMaterial3D" id="Mat6"]
+albedo_color = Color(0.19607843137254902, 0.4196078431372549, 0.40784313725490196, 1)
+roughness = 0.95
+[sub_resource type="BoxMesh" id="Mesh6"]
+material = SubResource("Mat6")
+size = Vector3(26.6, 0.4, 18.6)
+
+[node name="OriginalV5Model" type="Node3D"]
+metadata/provenance = "EXO V5 code-generated replacement; clean_assets.py"
+
+[node name="Body" type="Node3D" parent="."]
+
+[node name="Part0" type="MeshInstance3D" parent="Body"]
+position = Vector3(0.0, 0.12, 0.0)
+mesh = SubResource("Mesh0")
+
+[node name="Part1" type="MeshInstance3D" parent="Body"]
+position = Vector3(0.0, 4.0, -8.5)
+mesh = SubResource("Mesh1")
+
+[node name="Part2" type="MeshInstance3D" parent="Body"]
+position = Vector3(-12.5, 4.0, 0.0)
+mesh = SubResource("Mesh2")
+
+[node name="Part3" type="MeshInstance3D" parent="Body"]
+position = Vector3(12.5, 4.0, 0.0)
+mesh = SubResource("Mesh3")
+
+[node name="Part4" type="MeshInstance3D" parent="Body"]
+position = Vector3(-8.0, 4.0, 8.52)
+mesh = SubResource("Mesh4")
+
+[node name="Part5" type="MeshInstance3D" parent="Body"]
+position = Vector3(8.0, 4.0, 8.52)
+mesh = SubResource("Mesh5")
+
+[node name="Part6" type="MeshInstance3D" parent="Body"]
+position = Vector3(0.0, 8.2, 0.0)
+mesh = SubResource("Mesh6")

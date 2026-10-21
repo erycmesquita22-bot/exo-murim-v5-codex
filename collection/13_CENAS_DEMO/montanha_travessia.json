@@ -3,49 +3,49 @@
   "ground": "montanha_travessia_SOLO_PNG.png",
   "instances": [
     {
-      "glb": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_alto_reto.tscn",
       "x": -9,
       "y": 0,
       "z": 4
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_baixo_reto.tscn",
       "x": -4,
       "y": 0,
       "z": 4
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "glb": "09_TOPOGRAFIA_GLB/penhasco_canto_interno.tscn",
       "x": 2,
       "y": 0,
       "z": 4
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "glb": "09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.tscn",
       "x": 10,
       "y": 0,
       "z": 5
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "glb": "09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.tscn",
       "x": -1,
       "y": 0,
       "z": -6
     },
     {
-      "glb": "09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "glb": "09_TOPOGRAFIA_GLB/plataforma_rochosa.tscn",
       "x": -3,
       "y": 0,
       "z": 0
     },
     {
-      "glb": "12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "glb": "12_NATUREZA_GLB/pinheiro_escarpado.tscn",
       "x": -13,
       "y": 0,
       "z": -10
     },
     {
-      "glb": "12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "glb": "12_NATUREZA_GLB/rochedo_rio_musgoso.tscn",
       "x": 10,
       "y": 0,
       "z": -11

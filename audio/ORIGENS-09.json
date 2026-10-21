@@ -1,55 +1,55 @@
 [
   {
-    "file": "assets/audio09/qi_prepare.ogg",
+    "file": "assets/v5_generated/audio/fx_288caee2eda202a8.wav",
     "source_file": "spell_01.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:0.55,afade=t=in:d=0.03,afade=t=out:st=0.30000000000000004:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/qi_release.ogg",
+    "file": "assets/v5_generated/audio/fx_575f34b52e124772.wav",
     "source_file": "spell_02.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:0.9,afade=t=in:d=0.03,afade=t=out:st=0.65:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/summon.ogg",
+    "file": "assets/v5_generated/audio/fx_98c9ee90fb9cfa90.wav",
     "source_file": "spell_fire_07.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:1.2,afade=t=in:d=0.03,afade=t=out:st=0.95:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/boss_entry.ogg",
+    "file": "assets/v5_generated/audio/fx_80daeb3c7fc411db.wav",
     "source_file": "roar.wav",
     "source": "https://opengameart.org/content/cc0-deep-monster-roar",
     "license": "CC0",
     "edits": "atrim=0:2.3,afade=t=in:d=0.03,afade=t=out:st=2.05:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/boss_phase.ogg",
+    "file": "assets/v5_generated/audio/fx_9cc9163c961139c3.wav",
     "source_file": "creature_monster_04.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:1.4,afade=t=in:d=0.03,afade=t=out:st=1.15:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/boss_prepare.ogg",
+    "file": "assets/v5_generated/audio/fx_f07998838cc34190.wav",
     "source_file": "creature_misc_03.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:0.65,afade=t=in:d=0.03,afade=t=out:st=0.4:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/boss_release.ogg",
+    "file": "assets/v5_generated/audio/fx_ad2878f2526d26d1.wav",
     "source_file": "spell_fire_05.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",
     "edits": "atrim=0:0.6,afade=t=in:d=0.03,afade=t=out:st=0.35:d=0.25,loudnorm=I=-22:TP=-4:LRA=6"
   },
   {
-    "file": "assets/audio09/quest_complete.ogg",
+    "file": "assets/v5_generated/audio/fx_36281288ea762585.wav",
     "source_file": "item_coins_02.ogg",
     "source": "https://opengameart.org/content/80-cc0-rpg-sfx",
     "license": "CC0",

@@ -1,5 +1,0 @@
-{
- "schema":1,"production_strings":false,
- "keys":["npc03.romance.possible_interest","npc03.activity.prepare_stall","npc03.activity.assist_customer","npc03.activity.observe_sector","npc03.activity.practice_forms","npc03.activity.cultivate_plot","npc03.social.greeting","npc03.queue.waiting"],
- "locales_required":["pt-BR","en-US","zh-CN"]
-}

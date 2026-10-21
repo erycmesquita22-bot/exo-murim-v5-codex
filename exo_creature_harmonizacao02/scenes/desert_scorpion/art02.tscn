@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="PackedScene" path="res://exo_creature_harmonizacao02/models/desert_scorpion/art02.glb" id="1"]
+[ext_resource type="PackedScene" path="res://exo_creature_harmonizacao02/models/desert_scorpion/art02.tscn" id="1"]
 
 [node name="EXO_desert_scorpion_art02" type="Node3D"]
 

@@ -8,7 +8,7 @@
     {
       "id": "foundation_2x2",
       "family": "architecture",
-      "file": "models/architecture/foundation_2x2.glb",
+      "file": "models/architecture/foundation_2x2.tscn",
       "bounds": [
         [
           -1.0,
@@ -90,7 +90,7 @@
     {
       "id": "foundation_2x1",
       "family": "architecture",
-      "file": "models/architecture/foundation_2x1.glb",
+      "file": "models/architecture/foundation_2x1.tscn",
       "bounds": [
         [
           -1.0,
@@ -172,7 +172,7 @@
     {
       "id": "floor_2x2",
       "family": "architecture",
-      "file": "models/architecture/floor_2x2.glb",
+      "file": "models/architecture/floor_2x2.tscn",
       "bounds": [
         [
           -1.0,
@@ -254,7 +254,7 @@
     {
       "id": "floor_wood_2x2",
       "family": "architecture",
-      "file": "models/architecture/floor_wood_2x2.glb",
+      "file": "models/architecture/floor_wood_2x2.tscn",
       "bounds": [
         [
           -1.0,
@@ -336,7 +336,7 @@
     {
       "id": "foundation_corner",
       "family": "architecture",
-      "file": "models/architecture/foundation_corner.glb",
+      "file": "models/architecture/foundation_corner.tscn",
       "bounds": [
         [
           -1.02,
@@ -418,7 +418,7 @@
     {
       "id": "stairs_2m",
       "family": "architecture",
-      "file": "models/architecture/stairs_2m.glb",
+      "file": "models/architecture/stairs_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -443,7 +443,7 @@
     {
       "id": "wall_solid_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_solid_2m.glb",
+      "file": "models/architecture/wall_solid_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -526,7 +526,7 @@
     {
       "id": "wall_window_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_window_2m.glb",
+      "file": "models/architecture/wall_window_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -610,7 +610,7 @@
     {
       "id": "wall_door_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_door_2m.glb",
+      "file": "models/architecture/wall_door_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -693,7 +693,7 @@
     {
       "id": "wall_half_1m",
       "family": "architecture",
-      "file": "models/architecture/wall_half_1m.glb",
+      "file": "models/architecture/wall_half_1m.tscn",
       "bounds": [
         [
           -0.5,
@@ -776,7 +776,7 @@
     {
       "id": "wall_timber_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_timber_2m.glb",
+      "file": "models/architecture/wall_timber_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -858,7 +858,7 @@
     {
       "id": "wall_stone_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_stone_2m.glb",
+      "file": "models/architecture/wall_stone_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -941,7 +941,7 @@
     {
       "id": "wall_corner_90",
       "family": "architecture",
-      "file": "models/architecture/wall_corner_90.glb",
+      "file": "models/architecture/wall_corner_90.tscn",
       "bounds": [
         [
           -1.0,
@@ -967,7 +967,7 @@
     {
       "id": "door_double",
       "family": "architecture",
-      "file": "models/architecture/door_double.glb",
+      "file": "models/architecture/door_double.tscn",
       "bounds": [
         [
           -0.585,
@@ -993,7 +993,7 @@
     {
       "id": "column_2_6m",
       "family": "architecture",
-      "file": "models/architecture/column_2_6m.glb",
+      "file": "models/architecture/column_2_6m.tscn",
       "bounds": [
         [
           -0.19,
@@ -1019,7 +1019,7 @@
     {
       "id": "column_heavy_2_6m",
       "family": "architecture",
-      "file": "models/architecture/column_heavy_2_6m.glb",
+      "file": "models/architecture/column_heavy_2_6m.tscn",
       "bounds": [
         [
           -0.24,
@@ -1045,7 +1045,7 @@
     {
       "id": "beam_2m",
       "family": "architecture",
-      "file": "models/architecture/beam_2m.glb",
+      "file": "models/architecture/beam_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -1070,7 +1070,7 @@
     {
       "id": "beam_corner_joint",
       "family": "architecture",
-      "file": "models/architecture/beam_corner_joint.glb",
+      "file": "models/architecture/beam_corner_joint.tscn",
       "bounds": [
         [
           -0.12,
@@ -1095,7 +1095,7 @@
     {
       "id": "bracket",
       "family": "architecture",
-      "file": "models/architecture/bracket.glb",
+      "file": "models/architecture/bracket.tscn",
       "bounds": [
         [
           -0.15,
@@ -1120,7 +1120,7 @@
     {
       "id": "balcony_2m",
       "family": "architecture",
-      "file": "models/architecture/balcony_2m.glb",
+      "file": "models/architecture/balcony_2m.tscn",
       "bounds": [
         [
           -1.0217572057232822,
@@ -1160,7 +1160,7 @@
     {
       "id": "roof_slope_2x2",
       "family": "architecture",
-      "file": "models/architecture/roof_slope_2x2.glb",
+      "file": "models/architecture/roof_slope_2x2.tscn",
       "bounds": [
         [
           -1.0804984471899923,
@@ -1243,7 +1243,7 @@
     {
       "id": "roof_eave_2m",
       "family": "architecture",
-      "file": "models/architecture/roof_eave_2m.glb",
+      "file": "models/architecture/roof_eave_2m.tscn",
       "bounds": [
         [
           -1.0804984471899923,
@@ -1284,7 +1284,7 @@
     {
       "id": "roof_ridge_2m",
       "family": "architecture",
-      "file": "models/architecture/roof_ridge_2m.glb",
+      "file": "models/architecture/roof_ridge_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -1352,7 +1352,7 @@
     {
       "id": "roof_gable_4m",
       "family": "architecture",
-      "file": "models/architecture/roof_gable_4m.glb",
+      "file": "models/architecture/roof_gable_4m.tscn",
       "bounds": [
         [
           -0.08,
@@ -1407,7 +1407,7 @@
     {
       "id": "roof_end_ornament",
       "family": "architecture",
-      "file": "models/architecture/roof_end_ornament.glb",
+      "file": "models/architecture/roof_end_ornament.tscn",
       "bounds": [
         [
           -0.1,
@@ -1432,7 +1432,7 @@
     {
       "id": "roof_hip_corner",
       "family": "architecture",
-      "file": "models/architecture/roof_hip_corner.glb",
+      "file": "models/architecture/roof_hip_corner.tscn",
       "bounds": [
         [
           -0.995,
@@ -1457,7 +1457,7 @@
     {
       "id": "railing_2m",
       "family": "architecture",
-      "file": "models/architecture/railing_2m.glb",
+      "file": "models/architecture/railing_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -1482,7 +1482,7 @@
     {
       "id": "fence_2m",
       "family": "details",
-      "file": "models/details/fence_2m.glb",
+      "file": "models/details/fence_2m.tscn",
       "bounds": [
         [
           -1.0,
@@ -1507,7 +1507,7 @@
     {
       "id": "tree_broad_01",
       "family": "nature",
-      "file": "models/nature/tree_broad_01.glb",
+      "file": "models/nature/tree_broad_01.tscn",
       "bounds": [
         [
           -1.9829997816585498,
@@ -1533,7 +1533,7 @@
     {
       "id": "tree_broad_02",
       "family": "nature",
-      "file": "models/nature/tree_broad_02.glb",
+      "file": "models/nature/tree_broad_02.tscn",
       "bounds": [
         [
           -1.9121706794337667,
@@ -1559,7 +1559,7 @@
     {
       "id": "tree_pine_01",
       "family": "nature",
-      "file": "models/nature/tree_pine_01.glb",
+      "file": "models/nature/tree_pine_01.tscn",
       "bounds": [
         [
           -1.5,
@@ -1585,7 +1585,7 @@
     {
       "id": "tree_pine_02",
       "family": "nature",
-      "file": "models/nature/tree_pine_02.glb",
+      "file": "models/nature/tree_pine_02.tscn",
       "bounds": [
         [
           -1.5,
@@ -1611,7 +1611,7 @@
     {
       "id": "tree_willow",
       "family": "nature",
-      "file": "models/nature/tree_willow.glb",
+      "file": "models/nature/tree_willow.tscn",
       "bounds": [
         [
           -1.9516405842413969,
@@ -1637,7 +1637,7 @@
     {
       "id": "tree_dry",
       "family": "nature",
-      "file": "models/nature/tree_dry.glb",
+      "file": "models/nature/tree_dry.tscn",
       "bounds": [
         [
           -0.7005497439232883,
@@ -1662,7 +1662,7 @@
     {
       "id": "tree_orchard",
       "family": "nature",
-      "file": "models/nature/tree_orchard.glb",
+      "file": "models/nature/tree_orchard.tscn",
       "bounds": [
         [
           -1.679551998573052,
@@ -1689,7 +1689,7 @@
     {
       "id": "bamboo_cluster_01",
       "family": "nature",
-      "file": "models/nature/bamboo_cluster_01.glb",
+      "file": "models/nature/bamboo_cluster_01.tscn",
       "bounds": [
         [
           -0.6586991614471227,
@@ -1716,7 +1716,7 @@
     {
       "id": "bamboo_cluster_02",
       "family": "nature",
-      "file": "models/nature/bamboo_cluster_02.glb",
+      "file": "models/nature/bamboo_cluster_02.tscn",
       "bounds": [
         [
           -0.9870056865355573,
@@ -1743,7 +1743,7 @@
     {
       "id": "leaf_cluster_01",
       "family": "nature",
-      "file": "models/nature/leaf_cluster_01.glb",
+      "file": "models/nature/leaf_cluster_01.tscn",
       "bounds": [
         [
           -0.5278136249907669,
@@ -1768,7 +1768,7 @@
     {
       "id": "leaf_cluster_02",
       "family": "nature",
-      "file": "models/nature/leaf_cluster_02.glb",
+      "file": "models/nature/leaf_cluster_02.tscn",
       "bounds": [
         [
           -0.6519504083709833,
@@ -1793,7 +1793,7 @@
     {
       "id": "leaf_cluster_03",
       "family": "nature",
-      "file": "models/nature/leaf_cluster_03.glb",
+      "file": "models/nature/leaf_cluster_03.tscn",
       "bounds": [
         [
           -0.5244450720875604,
@@ -1818,7 +1818,7 @@
     {
       "id": "leaf_cluster_04",
       "family": "nature",
-      "file": "models/nature/leaf_cluster_04.glb",
+      "file": "models/nature/leaf_cluster_04.tscn",
       "bounds": [
         [
           -0.4077906649675955,
@@ -1843,7 +1843,7 @@
     {
       "id": "grass_tuft_01",
       "family": "nature",
-      "file": "models/nature/grass_tuft_01.glb",
+      "file": "models/nature/grass_tuft_01.tscn",
       "bounds": [
         [
           -0.26672262363586924,
@@ -1868,7 +1868,7 @@
     {
       "id": "grass_tuft_02",
       "family": "nature",
-      "file": "models/nature/grass_tuft_02.glb",
+      "file": "models/nature/grass_tuft_02.tscn",
       "bounds": [
         [
           -0.3363291772778515,
@@ -1893,7 +1893,7 @@
     {
       "id": "grass_tuft_03",
       "family": "nature",
-      "file": "models/nature/grass_tuft_03.glb",
+      "file": "models/nature/grass_tuft_03.tscn",
       "bounds": [
         [
           -0.2795268215981085,
@@ -1918,7 +1918,7 @@
     {
       "id": "grass_tuft_04",
       "family": "nature",
-      "file": "models/nature/grass_tuft_04.glb",
+      "file": "models/nature/grass_tuft_04.tscn",
       "bounds": [
         [
           -0.32417021798972234,
@@ -1943,7 +1943,7 @@
     {
       "id": "grass_tuft_05",
       "family": "nature",
-      "file": "models/nature/grass_tuft_05.glb",
+      "file": "models/nature/grass_tuft_05.tscn",
       "bounds": [
         [
           -0.24705886931571294,
@@ -1968,7 +1968,7 @@
     {
       "id": "grass_tuft_06",
       "family": "nature",
-      "file": "models/nature/grass_tuft_06.glb",
+      "file": "models/nature/grass_tuft_06.tscn",
       "bounds": [
         [
           -0.2524948893086399,
@@ -1993,7 +1993,7 @@
     {
       "id": "bush_01",
       "family": "nature",
-      "file": "models/nature/bush_01.glb",
+      "file": "models/nature/bush_01.tscn",
       "bounds": [
         [
           -0.644676866734425,
@@ -2018,7 +2018,7 @@
     {
       "id": "bush_02",
       "family": "nature",
-      "file": "models/nature/bush_02.glb",
+      "file": "models/nature/bush_02.tscn",
       "bounds": [
         [
           -0.588453652028176,
@@ -2043,7 +2043,7 @@
     {
       "id": "bush_03",
       "family": "nature",
-      "file": "models/nature/bush_03.glb",
+      "file": "models/nature/bush_03.tscn",
       "bounds": [
         [
           -0.5902156931851902,
@@ -2068,7 +2068,7 @@
     {
       "id": "fern",
       "family": "nature",
-      "file": "models/nature/fern.glb",
+      "file": "models/nature/fern.tscn",
       "bounds": [
         [
           -0.6360357433473143,
@@ -2093,7 +2093,7 @@
     {
       "id": "reeds",
       "family": "nature",
-      "file": "models/nature/reeds.glb",
+      "file": "models/nature/reeds.tscn",
       "bounds": [
         [
           -0.3061559860753535,
@@ -2119,7 +2119,7 @@
     {
       "id": "fallen_log",
       "family": "details",
-      "file": "models/details/fallen_log.glb",
+      "file": "models/details/fallen_log.tscn",
       "bounds": [
         [
           -0.8,
@@ -2145,7 +2145,7 @@
     {
       "id": "stump",
       "family": "details",
-      "file": "models/details/stump.glb",
+      "file": "models/details/stump.tscn",
       "bounds": [
         [
           -0.325,
@@ -2171,7 +2171,7 @@
     {
       "id": "lettuce_stage_1",
       "family": "crops",
-      "file": "models/crops/lettuce_stage_1.glb",
+      "file": "models/crops/lettuce_stage_1.tscn",
       "bounds": [
         [
           -0.10488881461998394,
@@ -2196,7 +2196,7 @@
     {
       "id": "lettuce_stage_2",
       "family": "crops",
-      "file": "models/crops/lettuce_stage_2.glb",
+      "file": "models/crops/lettuce_stage_2.tscn",
       "bounds": [
         [
           -0.20378398269025452,
@@ -2221,7 +2221,7 @@
     {
       "id": "lettuce_stage_3",
       "family": "crops",
-      "file": "models/crops/lettuce_stage_3.glb",
+      "file": "models/crops/lettuce_stage_3.tscn",
       "bounds": [
         [
           -0.2996823274856684,
@@ -2246,7 +2246,7 @@
     {
       "id": "cabbage_stage_1",
       "family": "crops",
-      "file": "models/crops/cabbage_stage_1.glb",
+      "file": "models/crops/cabbage_stage_1.tscn",
       "bounds": [
         [
           -0.10488881461998394,
@@ -2272,7 +2272,7 @@
     {
       "id": "cabbage_stage_2",
       "family": "crops",
-      "file": "models/crops/cabbage_stage_2.glb",
+      "file": "models/crops/cabbage_stage_2.tscn",
       "bounds": [
         [
           -0.20378398269025452,
@@ -2298,7 +2298,7 @@
     {
       "id": "cabbage_stage_3",
       "family": "crops",
-      "file": "models/crops/cabbage_stage_3.glb",
+      "file": "models/crops/cabbage_stage_3.tscn",
       "bounds": [
         [
           -0.2996823274856684,
@@ -2324,7 +2324,7 @@
     {
       "id": "carrot_stage_1",
       "family": "crops",
-      "file": "models/crops/carrot_stage_1.glb",
+      "file": "models/crops/carrot_stage_1.tscn",
       "bounds": [
         [
           -0.055657643310369646,
@@ -2350,7 +2350,7 @@
     {
       "id": "carrot_stage_2",
       "family": "crops",
-      "file": "models/crops/carrot_stage_2.glb",
+      "file": "models/crops/carrot_stage_2.tscn",
       "bounds": [
         [
           -0.10813484986014675,
@@ -2376,7 +2376,7 @@
     {
       "id": "carrot_stage_3",
       "family": "crops",
-      "file": "models/crops/carrot_stage_3.glb",
+      "file": "models/crops/carrot_stage_3.tscn",
       "bounds": [
         [
           -0.15902183802962755,
@@ -2402,7 +2402,7 @@
     {
       "id": "radish_stage_1",
       "family": "crops",
-      "file": "models/crops/radish_stage_1.glb",
+      "file": "models/crops/radish_stage_1.tscn",
       "bounds": [
         [
           -0.055657643310369646,
@@ -2428,7 +2428,7 @@
     {
       "id": "radish_stage_2",
       "family": "crops",
-      "file": "models/crops/radish_stage_2.glb",
+      "file": "models/crops/radish_stage_2.tscn",
       "bounds": [
         [
           -0.10813484986014675,
@@ -2454,7 +2454,7 @@
     {
       "id": "radish_stage_3",
       "family": "crops",
-      "file": "models/crops/radish_stage_3.glb",
+      "file": "models/crops/radish_stage_3.tscn",
       "bounds": [
         [
           -0.15902183802962755,
@@ -2480,7 +2480,7 @@
     {
       "id": "onion_stage_1",
       "family": "crops",
-      "file": "models/crops/onion_stage_1.glb",
+      "file": "models/crops/onion_stage_1.tscn",
       "bounds": [
         [
           -0.055657643310369646,
@@ -2506,7 +2506,7 @@
     {
       "id": "onion_stage_2",
       "family": "crops",
-      "file": "models/crops/onion_stage_2.glb",
+      "file": "models/crops/onion_stage_2.tscn",
       "bounds": [
         [
           -0.10813484986014675,
@@ -2532,7 +2532,7 @@
     {
       "id": "onion_stage_3",
       "family": "crops",
-      "file": "models/crops/onion_stage_3.glb",
+      "file": "models/crops/onion_stage_3.tscn",
       "bounds": [
         [
           -0.15902183802962755,
@@ -2558,7 +2558,7 @@
     {
       "id": "pumpkin_stage_1",
       "family": "crops",
-      "file": "models/crops/pumpkin_stage_1.glb",
+      "file": "models/crops/pumpkin_stage_1.tscn",
       "bounds": [
         [
           -0.11129339240694801,
@@ -2584,7 +2584,7 @@
     {
       "id": "pumpkin_stage_2",
       "family": "crops",
-      "file": "models/crops/pumpkin_stage_2.glb",
+      "file": "models/crops/pumpkin_stage_2.tscn",
       "bounds": [
         [
           -0.21622716239064188,
@@ -2611,7 +2611,7 @@
     {
       "id": "pumpkin_stage_3",
       "family": "crops",
-      "file": "models/crops/pumpkin_stage_3.glb",
+      "file": "models/crops/pumpkin_stage_3.tscn",
       "bounds": [
         [
           -0.3179811211627086,
@@ -2638,7 +2638,7 @@
     {
       "id": "eggplant_stage_1",
       "family": "crops",
-      "file": "models/crops/eggplant_stage_1.glb",
+      "file": "models/crops/eggplant_stage_1.tscn",
       "bounds": [
         [
           -0.11129339240694801,
@@ -2664,7 +2664,7 @@
     {
       "id": "eggplant_stage_2",
       "family": "crops",
-      "file": "models/crops/eggplant_stage_2.glb",
+      "file": "models/crops/eggplant_stage_2.tscn",
       "bounds": [
         [
           -0.21622716239064188,
@@ -2691,7 +2691,7 @@
     {
       "id": "eggplant_stage_3",
       "family": "crops",
-      "file": "models/crops/eggplant_stage_3.glb",
+      "file": "models/crops/eggplant_stage_3.tscn",
       "bounds": [
         [
           -0.3179811211627086,
@@ -2718,7 +2718,7 @@
     {
       "id": "cucumber_stage_1",
       "family": "crops",
-      "file": "models/crops/cucumber_stage_1.glb",
+      "file": "models/crops/cucumber_stage_1.tscn",
       "bounds": [
         [
           -0.315,
@@ -2745,7 +2745,7 @@
     {
       "id": "cucumber_stage_2",
       "family": "crops",
-      "file": "models/crops/cucumber_stage_2.glb",
+      "file": "models/crops/cucumber_stage_2.tscn",
       "bounds": [
         [
           -0.315,
@@ -2772,7 +2772,7 @@
     {
       "id": "cucumber_stage_3",
       "family": "crops",
-      "file": "models/crops/cucumber_stage_3.glb",
+      "file": "models/crops/cucumber_stage_3.tscn",
       "bounds": [
         [
           -0.3179811211627086,
@@ -2799,7 +2799,7 @@
     {
       "id": "garden_bed_2x2",
       "family": "details",
-      "file": "models/details/garden_bed_2x2.glb",
+      "file": "models/details/garden_bed_2x2.tscn",
       "bounds": [
         [
           -1.0,
@@ -2825,7 +2825,7 @@
     {
       "id": "lantern_01",
       "family": "details",
-      "file": "models/details/lantern_01.glb",
+      "file": "models/details/lantern_01.tscn",
       "bounds": [
         [
           -0.18,
@@ -2852,7 +2852,7 @@
     {
       "id": "lantern_02",
       "family": "details",
-      "file": "models/details/lantern_02.glb",
+      "file": "models/details/lantern_02.tscn",
       "bounds": [
         [
           -0.145,
@@ -2879,7 +2879,7 @@
     {
       "id": "clay_jar",
       "family": "details",
-      "file": "models/details/clay_jar.glb",
+      "file": "models/details/clay_jar.tscn",
       "bounds": [
         [
           -0.21,
@@ -2905,7 +2905,7 @@
     {
       "id": "firewood_stack",
       "family": "details",
-      "file": "models/details/firewood_stack.glb",
+      "file": "models/details/firewood_stack.tscn",
       "bounds": [
         [
           -0.35,
@@ -2931,7 +2931,7 @@
     {
       "id": "butterfly_01",
       "family": "details",
-      "file": "models/details/butterfly_01.glb",
+      "file": "models/details/butterfly_01.tscn",
       "bounds": [
         [
           -0.0675,
@@ -2958,7 +2958,7 @@
     {
       "id": "butterfly_02",
       "family": "details",
-      "file": "models/details/butterfly_02.glb",
+      "file": "models/details/butterfly_02.tscn",
       "bounds": [
         [
           -0.0675,
@@ -2984,7 +2984,7 @@
     {
       "id": "cicada",
       "family": "details",
-      "file": "models/details/cicada.glb",
+      "file": "models/details/cicada.tscn",
       "bounds": [
         [
           -0.021359638474200526,
@@ -3011,7 +3011,7 @@
     {
       "id": "firefly",
       "family": "details",
-      "file": "models/details/firefly.glb",
+      "file": "models/details/firefly.tscn",
       "bounds": [
         [
           -0.015,
@@ -3037,7 +3037,7 @@
     },
     {
       "id": "facade_lattice_2m",
-      "file": "models/forja_v2/facade_lattice_2m.glb",
+      "file": "models/forja_v2/facade_lattice_2m.tscn",
       "collision": "none",
       "dimensions_m": [
         1.96,
@@ -3061,7 +3061,7 @@
     },
     {
       "id": "shop_hanging_sign",
-      "file": "models/forja_v2/shop_hanging_sign.glb",
+      "file": "models/forja_v2/shop_hanging_sign.tscn",
       "collision": "none",
       "dimensions_m": [
         1.7,
@@ -3085,7 +3085,7 @@
     },
     {
       "id": "market_cloth_awning_2m",
-      "file": "models/forja_v2/market_cloth_awning_2m.glb",
+      "file": "models/forja_v2/market_cloth_awning_2m.tscn",
       "collision": "none",
       "dimensions_m": [
         2.165,
@@ -3109,7 +3109,7 @@
     },
     {
       "id": "merchant_counter_2m",
-      "file": "models/forja_v2/merchant_counter_2m.glb",
+      "file": "models/forja_v2/merchant_counter_2m.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.05,
@@ -3133,7 +3133,7 @@
     },
     {
       "id": "silk_vertical_banner",
-      "file": "models/forja_v2/silk_vertical_banner.glb",
+      "file": "models/forja_v2/silk_vertical_banner.tscn",
       "collision": "none",
       "dimensions_m": [
         1.05,
@@ -3157,7 +3157,7 @@
     },
     {
       "id": "slatted_window_shutter",
-      "file": "models/forja_v2/slatted_window_shutter.glb",
+      "file": "models/forja_v2/slatted_window_shutter.tscn",
       "collision": "none",
       "dimensions_m": [
         1.82,
@@ -3181,7 +3181,7 @@
     },
     {
       "id": "roof_tile_eave_2m",
-      "file": "models/forja_v2/roof_tile_eave_2m.glb",
+      "file": "models/forja_v2/roof_tile_eave_2m.tscn",
       "collision": "none",
       "dimensions_m": [
         2.0,
@@ -3205,7 +3205,7 @@
     },
     {
       "id": "roof_ridge_finial",
-      "file": "models/forja_v2/roof_ridge_finial.glb",
+      "file": "models/forja_v2/roof_ridge_finial.tscn",
       "collision": "none",
       "dimensions_m": [
         0.658,
@@ -3229,7 +3229,7 @@
     },
     {
       "id": "paired_pillar_plinths",
-      "file": "models/forja_v2/paired_pillar_plinths.glb",
+      "file": "models/forja_v2/paired_pillar_plinths.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.92,
@@ -3253,7 +3253,7 @@
     },
     {
       "id": "tea_table_with_stools",
-      "file": "models/forja_v2/tea_table_with_stools.glb",
+      "file": "models/forja_v2/tea_table_with_stools.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.07,
@@ -3277,7 +3277,7 @@
     },
     {
       "id": "tea_ceramic_shelf",
-      "file": "models/forja_v2/tea_ceramic_shelf.glb",
+      "file": "models/forja_v2/tea_ceramic_shelf.tscn",
       "collision": "none",
       "dimensions_m": [
         1.82,
@@ -3301,7 +3301,7 @@
     },
     {
       "id": "blacksmith_forge_hearth",
-      "file": "models/forja_v2/blacksmith_forge_hearth.glb",
+      "file": "models/forja_v2/blacksmith_forge_hearth.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.6,
@@ -3325,7 +3325,7 @@
     },
     {
       "id": "blacksmith_anvil",
-      "file": "models/forja_v2/blacksmith_anvil.glb",
+      "file": "models/forja_v2/blacksmith_anvil.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.425,
@@ -3349,7 +3349,7 @@
     },
     {
       "id": "smith_tool_rack",
-      "file": "models/forja_v2/smith_tool_rack.glb",
+      "file": "models/forja_v2/smith_tool_rack.tscn",
       "collision": "none",
       "dimensions_m": [
         2.08,
@@ -3373,7 +3373,7 @@
     },
     {
       "id": "herb_drying_rack",
-      "file": "models/forja_v2/herb_drying_rack.glb",
+      "file": "models/forja_v2/herb_drying_rack.tscn",
       "collision": "none",
       "dimensions_m": [
         2.0,
@@ -3397,7 +3397,7 @@
     },
     {
       "id": "timber_handcart",
-      "file": "models/forja_v2/timber_handcart.glb",
+      "file": "models/forja_v2/timber_handcart.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.39,
@@ -3421,7 +3421,7 @@
     },
     {
       "id": "woven_market_baskets",
-      "file": "models/forja_v2/woven_market_baskets.glb",
+      "file": "models/forja_v2/woven_market_baskets.tscn",
       "collision": "none",
       "dimensions_m": [
         1.39,
@@ -3445,7 +3445,7 @@
     },
     {
       "id": "grain_sack_stack",
-      "file": "models/forja_v2/grain_sack_stack.glb",
+      "file": "models/forja_v2/grain_sack_stack.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.403,
@@ -3469,7 +3469,7 @@
     },
     {
       "id": "village_water_well",
-      "file": "models/forja_v2/village_water_well.glb",
+      "file": "models/forja_v2/village_water_well.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.0,
@@ -3493,7 +3493,7 @@
     },
     {
       "id": "well_water_bucket",
-      "file": "models/forja_v2/well_water_bucket.glb",
+      "file": "models/forja_v2/well_water_bucket.tscn",
       "collision": "none",
       "dimensions_m": [
         0.52,
@@ -3517,7 +3517,7 @@
     },
     {
       "id": "courtyard_wall_2m",
-      "file": "models/forja_v2/courtyard_wall_2m.glb",
+      "file": "models/forja_v2/courtyard_wall_2m.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.22,
@@ -3541,7 +3541,7 @@
     },
     {
       "id": "courtyard_entry_gate",
-      "file": "models/forja_v2/courtyard_entry_gate.glb",
+      "file": "models/forja_v2/courtyard_entry_gate.tscn",
       "collision": "box_static",
       "dimensions_m": [
         3.32,
@@ -3565,7 +3565,7 @@
     },
     {
       "id": "stone_garden_lantern",
-      "file": "models/forja_v2/stone_garden_lantern.glb",
+      "file": "models/forja_v2/stone_garden_lantern.tscn",
       "collision": "box_static",
       "dimensions_m": [
         0.85,
@@ -3589,7 +3589,7 @@
     },
     {
       "id": "bronze_incense_burner",
-      "file": "models/forja_v2/bronze_incense_burner.glb",
+      "file": "models/forja_v2/bronze_incense_burner.tscn",
       "collision": "none",
       "dimensions_m": [
         0.9,
@@ -3613,7 +3613,7 @@
     },
     {
       "id": "stone_courtyard_paving_2m",
-      "file": "models/forja_v2/stone_courtyard_paving_2m.glb",
+      "file": "models/forja_v2/stone_courtyard_paving_2m.tscn",
       "collision": "none",
       "dimensions_m": [
         1.98,
@@ -3637,7 +3637,7 @@
     },
     {
       "id": "public_timber_bench",
-      "file": "models/forja_v2/public_timber_bench.glb",
+      "file": "models/forja_v2/public_timber_bench.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.7,
@@ -3661,7 +3661,7 @@
     },
     {
       "id": "bamboo_planter_box",
-      "file": "models/forja_v2/bamboo_planter_box.glb",
+      "file": "models/forja_v2/bamboo_planter_box.tscn",
       "collision": "none",
       "dimensions_m": [
         1.45,
@@ -3685,7 +3685,7 @@
     },
     {
       "id": "short_wooden_footbridge",
-      "file": "models/forja_v2/short_wooden_footbridge.glb",
+      "file": "models/forja_v2/short_wooden_footbridge.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.81,
@@ -3709,7 +3709,7 @@
     },
     {
       "id": "covered_market_stall",
-      "file": "models/forja_v2/covered_market_stall.glb",
+      "file": "models/forja_v2/covered_market_stall.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.26,
@@ -3733,7 +3733,7 @@
     },
     {
       "id": "herbalist_medicine_jars",
-      "file": "models/forja_v2/herbalist_medicine_jars.glb",
+      "file": "models/forja_v2/herbalist_medicine_jars.tscn",
       "collision": "none",
       "dimensions_m": [
         1.56,
@@ -3757,7 +3757,7 @@
     },
     {
       "id": "veranda_bamboo_railing_2m",
-      "file": "models/forja_v2/veranda_bamboo_railing_2m.glb",
+      "file": "models/forja_v2/veranda_bamboo_railing_2m.tscn",
       "collision": "box_static",
       "dimensions_m": [
         2.02,
@@ -3781,7 +3781,7 @@
     },
     {
       "id": "village_grain_millstone",
-      "file": "models/forja_v2/village_grain_millstone.glb",
+      "file": "models/forja_v2/village_grain_millstone.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.455,
@@ -3805,7 +3805,7 @@
     },
     {
       "id": "village_drying_lines",
-      "file": "models/forja_v2/village_drying_lines.glb",
+      "file": "models/forja_v2/village_drying_lines.tscn",
       "collision": "none",
       "dimensions_m": [
         2.07,
@@ -3829,7 +3829,7 @@
     },
     {
       "id": "low_courtyard_fence_gate",
-      "file": "models/forja_v2/low_courtyard_fence_gate.glb",
+      "file": "models/forja_v2/low_courtyard_fence_gate.tscn",
       "collision": "box_static",
       "dimensions_m": [
         1.97,

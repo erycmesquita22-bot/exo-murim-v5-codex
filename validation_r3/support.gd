@@ -22,6 +22,10 @@ func boot(path: String=SAVE,restore: bool=false):
 		w.ui.resume()
 	else:
 		w.flow.phase="creator";check(w.flow.create_character({"name":"R3 QA","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword"}),"create_character");w.ui.resume()
+		for i in range(600):
+			if w.current_region>=0 and not w.changing_region:break
+			await physics_frame
+		check(w.current_region>=0,"automatic_v5_campaign_entry")
 func ground(p: Vector2) -> Vector3:return Vector3(p.x,w.active_region.data.height_at(p)+.08,p.y)
 func inputs(direction: Vector3):
 	var axis:=Vector2(direction.x-direction.z,direction.x+direction.z).normalized() if direction.length()>.001 else Vector2.ZERO
@@ -83,6 +87,7 @@ func fight(actor: Node3D,receive: bool=false) -> Dictionary:
 	check(defeated,"defeat_"+id);check(xp>0,"xp_"+id)
 	return {"uid":id,"hp":max_hp,"xp":xp,"frames":elapsed_frames,"defeated":defeated}
 func finish(label: String):
+	DirAccess.make_dir_recursive_absolute(ProjectSettings.globalize_path("res://validation_r3/results"))
 	inputs(Vector3.ZERO)
 	FileAccess.open("res://validation_r3/results/"+label+".json",FileAccess.WRITE).store_string(JSON.stringify({"checks":checks,"failures":failures,"facts":facts},"  "))
 	print("R3_RESULT ",label," checks=",checks.size()," failures=",failures)

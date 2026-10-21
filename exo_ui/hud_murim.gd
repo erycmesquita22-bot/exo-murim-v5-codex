@@ -25,7 +25,7 @@ func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	font = ThemeDB.fallback_font
-	display_font = load("res://assets/manuscrito.otf")
+	display_font = ThemeDB.fallback_font
 
 func _process(delta: float) -> void:
 	elapsed += delta
@@ -126,7 +126,8 @@ func _draw_top_left(origin: Vector2) -> void:
 		_frame(Rect2(9, 10, 123, 135), .98)
 		var skin: Texture2D = world.model.skin.albedo_texture if world.model != null and world.model.skin != null else null
 		if skin != null:
-			draw_texture_rect_region(skin, Rect2(18, 19, 105, 102), Rect2(8, 8, 8, 8))
+			var uv_scale: float=float(skin.get_width())/64.0
+			draw_texture_rect_region(skin, Rect2(18, 19, 105, 102), Rect2(Vector2(8,8)*uv_scale,Vector2(8,8)*uv_scale))
 		_center("EXO", Vector2(70, 137), 13, JADE)
 	else:
 		_frame(Rect2(9, 10, 123, 135), .98)

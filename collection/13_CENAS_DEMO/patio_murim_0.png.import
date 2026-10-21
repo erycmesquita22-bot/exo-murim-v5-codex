@@ -2,13 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctbks8tp5bnrt"
+uid="uid://tjd6obxqa5ad"
 path="res://.godot/imported/patio_murim_0.png-fd3912daaffcc1337dd69957396d3230.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "d38f34e0953adeb1dc1d1fdd106ac946"
 }
 
 [deps]
@@ -26,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

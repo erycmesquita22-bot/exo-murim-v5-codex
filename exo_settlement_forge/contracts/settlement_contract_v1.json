@@ -1,0 +1,27 @@
+{
+  "contract": "exo.settlement.building.v1",
+  "owner": "EXO Settlement Forge 01",
+  "primary_key": "building_id",
+  "required_fields": ["schema", "data_version", "building_id", "region_id", "settlement_id", "lot_id", "function", "position", "yaw", "dimensions", "interior_id", "exterior_door", "return_anchor", "street_anchor", "capacity", "occupied", "resident_ids", "worker_ids", "slots", "access_state"],
+  "producer": {
+    "WorldGenesis": "authorizes seed, region, terrain, and settlement placement",
+    "SettlementForge": "plans lots, materializes exteriors, binds authored interiors and stations"
+  },
+  "consumers": {
+    "NPC04": "read-only station anchors, capacity, access_state, identity. NPC04 owns actor movement, occupancy assignments and AI",
+    "Economy": "read-only trade/work stations; Economy owns wallets, prices, items and transactions",
+    "Crowd": "read-only roads, zoning, destinations; Crowd owns ghost agents",
+    "UniversalLibrary": "future recipe supply; Settlement Forge executes recipes after validation",
+    "Journey": "read-only stable building_id, locations and objective anchors",
+    "HUD_Map": "interior flag and building ID; host owns presentation"
+  },
+  "transition": {
+    "owner_in_module": "portal_controller for standalone",
+    "host_authority": "Convergence V4 save_progress/JourneySave and existing institutional transition must be reconciled before integration",
+    "entry_call": "enter(player, exterior_root, staging_root, camera, building, authorized_by_host)",
+    "exit_call": "leave()",
+    "snapshot_call": "snapshot_for_core()",
+    "recovery_call": "restore_from_core(player, exterior_root, staging_root, camera, building, snapshot, authorized_by_host)"
+  },
+  "security": "No independent production save, no untrusted path or self-authorized access. Physical reachability requires native physics/nav validation."
+}

@@ -1,5 +1,0 @@
-{
-  "exit": 0,
-  "engine_peak_rss_kib": 387016,
-  "rss_scope": "Peak RSS of exited Godot child; Xvfb is still running when sampled."
-}

@@ -1,38 +1,38 @@
 [
   {
-    "asset": "assets/exo_audio/spell_charge.ogg",
+    "asset": "assets/v5_generated/audio/fx_8ed5a8e1123c8b79.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/spell_charge.ogg"
   },
   {
-    "asset": "assets/exo_audio/spell_impact.ogg",
+    "asset": "assets/v5_generated/audio/fx_b5416a489c9f8381.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/spell_impact.ogg"
   },
   {
-    "asset": "assets/exo_audio/energy_impact.ogg",
+    "asset": "assets/v5_generated/audio/fx_ca1a5c3c5c7239bd.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/energy_impact.ogg"
   },
   {
-    "asset": "assets/exo_audio/wind_break.ogg",
+    "asset": "assets/v5_generated/audio/fx_c8171f58d9b830a6.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/wind_break.ogg"
   },
   {
-    "asset": "assets/exo_audio/summon_call.ogg",
+    "asset": "assets/v5_generated/audio/fx_bd93a94dddfb1a5b.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/summon_call.ogg"
   },
   {
-    "asset": "assets/exo_audio/eco_eco_boss.ogg",
+    "asset": "assets/v5_generated/audio/fx_f3786b12855bfe56.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_boss.ogg"
   },
   {
-    "asset": "assets/exo_audio/eco_eco_miniboss.ogg",
+    "asset": "assets/v5_generated/audio/fx_da3c2a33cbd4d66c.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_miniboss.ogg"
   },
   {
-    "asset": "assets/exo_audio/eco_eco_gelo.ogg",
+    "asset": "assets/v5_generated/audio/fx_5b3422b00fbff29f.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_gelo.ogg"
   },
   {
-    "asset": "assets/exo_audio/eco_eco_fogo.ogg",
+    "asset": "assets/v5_generated/audio/fx_b9ea87c72ceda536.wav",
     "source": "exo-rpg/codigo/chain/visual/src/main/resources/assets/exovisual/sounds/eco/eco_fogo.ogg"
   }
 ]

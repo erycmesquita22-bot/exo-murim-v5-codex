@@ -35,3 +35,7 @@
 2. Rodar Godot em modo editor/headless para capturar erros de import/parser. Corrigir P0 do boot/persistência e contratos sem misturar versões.
 3. Executar roteiros reais de gameplay e atualizar estados por evidência.
 4. Após obter os três pacotes faltantes, instalar módulo inteiro com troca atômica e testar leitura em runtime. Não inventar código que deveria estar nos pacotes reais.
+
+## Estado desta cópia V5
+
+Consulte README-CODEX.md e exo_core/modules.json para o estado atual; o texto acima descreve a origem V4. Os três pacotes foram recebidos e integrados nesta cópia. Não reinstale a origem por cima. QA atual: tools/v5/run_qa.py. Evidências históricas não são resultados atuais. Nunca reintroduza binários criativos excluídos. Os recursos novos são gerados por tools/v5/rebuild_generated_art.py e suas especificações. Não crie worktree: cada tarefa cloud já é isolada.

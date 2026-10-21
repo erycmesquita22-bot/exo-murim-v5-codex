@@ -6,22 +6,22 @@
     "total_modelos_glb_no_zip": 163,
     "nomes_presentes_no_projeto": 42,
     "amostra": [
-      "city_wall_battlement_2m.glb",
-      "city_wall_stone_2m.glb",
-      "city_wall_wood_2m.glb",
-      "clan_banner_pair.glb",
-      "dojo_bell.glb",
-      "farm_gate_4m.glb",
-      "field_fence_2m.glb",
-      "gate_stone_6m.glb",
-      "gate_wood_6m.glb",
-      "grain_silo.glb",
-      "granary_6m.glb",
-      "guild_hall_8m.glb",
-      "hanging_wall_torch.glb",
-      "hay_cart.glb",
-      "herbalist_garden_box.glb",
-      "irrigation_channel_2m.glb"
+      "city_wall_battlement_2m.tscn",
+      "city_wall_stone_2m.tscn",
+      "city_wall_wood_2m.tscn",
+      "clan_banner_pair.tscn",
+      "dojo_bell.tscn",
+      "farm_gate_4m.tscn",
+      "field_fence_2m.tscn",
+      "gate_stone_6m.tscn",
+      "gate_wood_6m.tscn",
+      "grain_silo.tscn",
+      "granary_6m.tscn",
+      "guild_hall_8m.tscn",
+      "hanging_wall_torch.tscn",
+      "hay_cart.tscn",
+      "herbalist_garden_box.tscn",
+      "irrigation_channel_2m.tscn"
     ],
     "nota": "nenhum GLB foi substituido por arquivos da Forja03; biblioteca integrada na base utilizada"
   },
@@ -56,7 +56,7 @@
   },
   "recursos": [
     {
-      "caminho": "assets/asian_village/village.glb",
+      "caminho": "assets/asian_village/village.tscn",
       "tipo": "model",
       "tamanho_bytes": 2014796,
       "sha256": "a4e8ef225f05a9d0160b4d5b91a61e03a59f2d2e13aa7a7f984103b343e49890",
@@ -67,7 +67,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/asian_village/village_color palette.png",
+      "caminho": "assets/v5_generated/img_709252daff7ebca8.png",
       "tipo": "texture",
       "tamanho_bytes": 79729,
       "sha256": "36e533819afa2dfb6bc96b927d43d9735e6ed83331af81ccda3c638fa049a37c",
@@ -78,7 +78,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/asian_village/village_village_color palette.png",
+      "caminho": "assets/v5_generated/img_e25d34aabb4110fa.png",
       "tipo": "texture",
       "tamanho_bytes": 45763,
       "sha256": "d71e322deb9ba9e1a259cf5a1b4476702c83d74e08827022ee41341f5148a8bd",
@@ -89,7 +89,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/central_adventure.jpg",
+      "caminho": "assets/central_adventure.png",
       "tipo": "texture",
       "tamanho_bytes": 176133,
       "sha256": "71e45066e8e21ff2ce1e9bad6d4fb3b235a5794c92d7395081718abff0f13a44",
@@ -100,7 +100,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/central_anime.jpg",
+      "caminho": "assets/central_anime.png",
       "tipo": "texture",
       "tamanho_bytes": 152382,
       "sha256": "eeee494b033ffac8a64aade43c74e11250afac2d167098fa32eba812a3c7dcbd",
@@ -111,7 +111,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/central_exo.jpg",
+      "caminho": "assets/central_exo.png",
       "tipo": "texture",
       "tamanho_bytes": 170935,
       "sha256": "9520c061b42f9e02fa1116968f883a229f1c81bb72b65157d2cec4d518d79506",
@@ -122,7 +122,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "assets/central_fantasy.jpg",
+      "caminho": "assets/central_fantasy.png",
       "tipo": "texture",
       "tamanho_bytes": 164497,
       "sha256": "cb8a20b5398b6cb9ad114be9894073724cef26ff2220bb2d974f17621b95ef0c",
@@ -2524,7 +2524,7 @@
       ]
     },
     {
-      "caminho": "assets/kenney/character-a.glb",
+      "caminho": "assets/kenney/character-a.tscn",
       "tipo": "model",
       "tamanho_bytes": 112988,
       "sha256": "1ef19bc3295c3e4a709c0c7dfb377617998224df02729c17c638466064bb7a8a",
@@ -7763,7 +7763,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/casa_modular.tscn",
       "tipo": "model",
       "tamanho_bytes": 4444,
       "sha256": "b69fede887d3db3c83cf2820de3271495d144bfa0a07ad50cb0377c64b51810e",
@@ -7774,7 +7774,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/ponte_madeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/ponte_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 11056,
       "sha256": "202fe91bc85a29375023de646105b8592e0cf55cda541eeaffd0b94e35e31e7b",
@@ -7785,7 +7785,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/portao_templete.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/portao_templete.tscn",
       "tipo": "model",
       "tamanho_bytes": 4148,
       "sha256": "8439fd35ef4d03ced17ed6afc17d5941de4a9f78c6ae0823d9f45590e340f43c",
@@ -7796,7 +7796,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/portao_torii.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/portao_torii.tscn",
       "tipo": "model",
       "tamanho_bytes": 4152,
       "sha256": "54a8ea5cf95e1e255aff740fdc5aa52973add3bde26e300a2e9b0f46cb8dbc02",
@@ -7807,7 +7807,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/telhado_rufo_azul.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/telhado_rufo_azul.tscn",
       "tipo": "model",
       "tamanho_bytes": 3176,
       "sha256": "621d844ffb4958f96948d32ae0ef0be2740ca371a9d345b5e598b32eac6993de",
@@ -7818,7 +7818,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.glb",
+      "caminho": "collection/06_OBJETOS_GLB/construcoes/telhado_rufo_vermelho.tscn",
       "tipo": "model",
       "tamanho_bytes": 3180,
       "sha256": "0c3fbcd1fffa8e96b4a0551981a8eb81760ea05653e6eb8b0c55e65bdf9794cc",
@@ -7829,7 +7829,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/masmorras/bau_madeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/masmorras/bau_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 4004,
       "sha256": "0b70a4bce8215878e5dc12a25bca8fcf83ae4d7296e6aa74c19736da5ff1a0c7",
@@ -7840,7 +7840,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/masmorras/estalagmites.glb",
+      "caminho": "collection/06_OBJETOS_GLB/masmorras/estalagmites.tscn",
       "tipo": "model",
       "tamanho_bytes": 6196,
       "sha256": "96858395f6fd6ccf45ff1ca768eba0040ee1de9f1ae5a8909c37f8e539bbd404",
@@ -7851,7 +7851,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/masmorras/parede_masmorra.glb",
+      "caminho": "collection/06_OBJETOS_GLB/masmorras/parede_masmorra.tscn",
       "tipo": "model",
       "tamanho_bytes": 10780,
       "sha256": "e0ac1ca38f6a9ea332c9b95359cf2f09ad593d9f76c65a4f32b28cff733a3512",
@@ -7862,7 +7862,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/masmorras/portao_masmorra.glb",
+      "caminho": "collection/06_OBJETOS_GLB/masmorras/portao_masmorra.tscn",
       "tipo": "model",
       "tamanho_bytes": 5392,
       "sha256": "85ab7e5304c31584810a256e4dfd8c346f031fbb6226010b4f35bd39a4403878",
@@ -7873,7 +7873,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/masmorras/tocha_coluna.glb",
+      "caminho": "collection/06_OBJETOS_GLB/masmorras/tocha_coluna.tscn",
       "tipo": "model",
       "tamanho_bytes": 2896,
       "sha256": "4573f1de0065aee7ddf4db8e849fb02e3e97d2241df8198c0f1fb373a9e7bbe4",
@@ -7884,7 +7884,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/banco_madeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/banco_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 2520,
       "sha256": "f2385da1908560b260e4dd0aab2fbf875c75ff5a0dfe0a9c2b773a120d90779b",
@@ -7895,7 +7895,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/barraca_feira.tscn",
       "tipo": "model",
       "tamanho_bytes": 4344,
       "sha256": "c1cf29ba5af7d74acab16dd5b7e785eb3e1de8381f432612e69e6d4b7bb441a4",
@@ -7906,7 +7906,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/barril.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/barril.tscn",
       "tipo": "model",
       "tamanho_bytes": 3572,
       "sha256": "d50369655918f6e7dc68d11a157157533ab6fd35df6fbda420b7ecd576479d27",
@@ -7917,7 +7917,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/caixote.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/caixote.tscn",
       "tipo": "model",
       "tamanho_bytes": 4052,
       "sha256": "1197aad7c8f58811a5eb117b3677f051d7acb45ef3d008343f7ee3938adda8c0",
@@ -7928,7 +7928,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/canteiro_flores.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/canteiro_flores.tscn",
       "tipo": "model",
       "tamanho_bytes": 14816,
       "sha256": "6b565ccecc7972286c5190546046b07d6423ef58c4cfc6accb64f80181004352",
@@ -7939,7 +7939,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/carroca.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/carroca.tscn",
       "tipo": "model",
       "tamanho_bytes": 6356,
       "sha256": "33ba80afc328f8a79719fbe3fe0d2d4bb8737d0be6ed840faf58e782575e58c8",
@@ -7950,7 +7950,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/cerca_segmento.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/cerca_segmento.tscn",
       "tipo": "model",
       "tamanho_bytes": 2976,
       "sha256": "26daac20cdde14f2aa205780dc9b0f7aa38577926b483fbe3004d96e7738c0e7",
@@ -7961,7 +7961,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/escada_madeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/escada_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 3748,
       "sha256": "a6f426a91af2ee9a82aa02b674b7b97d6ac432371dee5eb0ff1f6732c1a70285",
@@ -7972,7 +7972,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/mesa_madeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/mesa_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 3560,
       "sha256": "e40e58f961ff526d38315303ab5359dd673e52a6972a786a6ef51de49e31c451",
@@ -7983,7 +7983,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/poco.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/poco.tscn",
       "tipo": "model",
       "tamanho_bytes": 5308,
       "sha256": "0c8ac6d6806f034749cba917bb7fadc6730d516ee37c8362d225e6ae1a7057fe",
@@ -7994,7 +7994,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/poste_lanterna.tscn",
       "tipo": "model",
       "tamanho_bytes": 3660,
       "sha256": "f6c3de789b6771a8c5de1fa0ed898749ec09f171816e894af034c28d25e90107",
@@ -8005,7 +8005,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/objetos/saco_mercadorias.glb",
+      "caminho": "collection/06_OBJETOS_GLB/objetos/saco_mercadorias.tscn",
       "tipo": "model",
       "tamanho_bytes": 2008,
       "sha256": "e1815b405300c7a24ecac507b37f5d0635b045d68510ee7dc94f6ddf5055fca8",
@@ -8016,7 +8016,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/cristal_ciano.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/cristal_ciano.tscn",
       "tipo": "model",
       "tamanho_bytes": 7216,
       "sha256": "b31edbab3e22d266d24c38ae6d9806c01845943a796670aa7aefbcfc42dd7f1f",
@@ -8027,7 +8027,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/cristal_purpura.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/cristal_purpura.tscn",
       "tipo": "model",
       "tamanho_bytes": 7204,
       "sha256": "9ed37e434c878f0ef5864f3d21d74229b4dc8c4fbb35d9cafa1414c19b9955a0",
@@ -8038,7 +8038,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/formacao_rochosa.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/formacao_rochosa.tscn",
       "tipo": "model",
       "tamanho_bytes": 10628,
       "sha256": "dc5f276115b81fa8a5428bd312079b1545ccf80146f4bfd2b21d41031ca92bc4",
@@ -8049,7 +8049,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/penhasco_alto.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/penhasco_alto.tscn",
       "tipo": "model",
       "tamanho_bytes": 5284,
       "sha256": "3ee617cc5af94f8e385212a3ecdddddabc08ab9df1128c92d765629263b3728c",
@@ -8060,7 +8060,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/penhasco_baixo.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/penhasco_baixo.tscn",
       "tipo": "model",
       "tamanho_bytes": 5268,
       "sha256": "568038ea642e18a95b7360e345ba7710fd5291e0aa6e890a24021f18b6e4ea6b",
@@ -8071,7 +8071,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/rocha_grande.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/rocha_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 8816,
       "sha256": "7c96654792bfa557fbea2914202f5644643fc3a50d768e775149d2672758e911",
@@ -8082,7 +8082,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/rocha_pequena.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/rocha_pequena.tscn",
       "tipo": "model",
       "tamanho_bytes": 3220,
       "sha256": "9616e85e1f5198b04f3dd99bd3c2927b4ba02944f74cabdd8c0395a8d1c570f3",
@@ -8093,7 +8093,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/rochas/rochas_medias.glb",
+      "caminho": "collection/06_OBJETOS_GLB/rochas/rochas_medias.tscn",
       "tipo": "model",
       "tamanho_bytes": 6016,
       "sha256": "fc07e6607266c230b08beccf31a20fbd084d71b31f2e3f599caf8ed0dca3c3b1",
@@ -8104,7 +8104,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/altar_pedra.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/altar_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 3100,
       "sha256": "b290339c4f6f990a880abc401b057bbd9dc5c4752ca02d5d515161c38b2ddf93",
@@ -8115,7 +8115,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/arco_ruina.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/arco_ruina.tscn",
       "tipo": "model",
       "tamanho_bytes": 2452,
       "sha256": "cb747caa97d2249aa0318745b696ef3e5e70a796832d8ade57571dec4c3edf58",
@@ -8126,7 +8126,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/arco_ruina_musgoso.tscn",
       "tipo": "model",
       "tamanho_bytes": 3916,
       "sha256": "621d0c387bacc0a188558b98cd73b911fd6639e0151c1924776f7cd31ae72f03",
@@ -8137,7 +8137,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/coluna_quebrada.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/coluna_quebrada.tscn",
       "tipo": "model",
       "tamanho_bytes": 3228,
       "sha256": "514a5c2485a94045f79a1bb8dc4b3f81a970693e914c30d32f3bebc05a6888f8",
@@ -8148,7 +8148,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/entulho_pedra.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/entulho_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 8836,
       "sha256": "17120cfb38fb23e8ef2451a83dfe6d6e7dbdac4b228c0dde28aee47c638de90a",
@@ -8159,7 +8159,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/escadaria_pedra.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/escadaria_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 4080,
       "sha256": "1eb83f1125935702582d8d19ff0c7fb00f07ca96700e278146399453ec837cf0",
@@ -8170,7 +8170,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/laje_ruina.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/laje_ruina.tscn",
       "tipo": "model",
       "tamanho_bytes": 1204,
       "sha256": "e2fa6ee1e9c23815a20eba5e4bfc64d9cc816e6bba78a0b389ba10fb5fe2b199",
@@ -8181,7 +8181,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/obelisco.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/obelisco.tscn",
       "tipo": "model",
       "tamanho_bytes": 3652,
       "sha256": "7da26a6dcba0c8b934335d26ac19b30ca19a5de463bdeb412f6538eee9ec49c4",
@@ -8192,7 +8192,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_canto.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_canto.tscn",
       "tipo": "model",
       "tamanho_bytes": 10504,
       "sha256": "7670c662c8817b89bc60ccbbc0f985040fd2aa8c302ad661b3efddecd69bef3a",
@@ -8203,7 +8203,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_danificada.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_danificada.tscn",
       "tipo": "model",
       "tamanho_bytes": 9156,
       "sha256": "462dcadf79e6b636aa0231c01ee1fff485269062da0dd4caa91e214444e1384e",
@@ -8214,7 +8214,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_reta.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/parede_ruina_reta.tscn",
       "tipo": "model",
       "tamanho_bytes": 10032,
       "sha256": "4dadf047c9fa66856c218b6e379454ff0f2a8c9c22bd35f0a3156baaec9d0ae8",
@@ -8225,7 +8225,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/ruinas/pilar_ruina.glb",
+      "caminho": "collection/06_OBJETOS_GLB/ruinas/pilar_ruina.tscn",
       "tipo": "model",
       "tamanho_bytes": 2480,
       "sha256": "38b37fe2b89ffad150c362c032dd5cf95e7ab6bcaead34cfc9ae10cff39d9b29",
@@ -8236,7 +8236,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arbusto.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arbusto.tscn",
       "tipo": "model",
       "tamanho_bytes": 4700,
       "sha256": "b9578ba05a738c7778b064ccf2259bdcc88fbc7922cfaa42762c3ed803ff201e",
@@ -8247,7 +8247,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_folhas_vermelhas.tscn",
       "tipo": "model",
       "tamanho_bytes": 4216,
       "sha256": "11f18ec7155fa7657a3e75c7f155795b6a13638519a3b998465f239ed27f9c30",
@@ -8258,7 +8258,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_folhosa.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_folhosa.tscn",
       "tipo": "model",
       "tamanho_bytes": 4228,
       "sha256": "2270f468a8bce272d0a8d187b64ef87cbec2fe6a59280ef0f38f7db0b10f458b",
@@ -8269,7 +8269,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_grande.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/arvore_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 4224,
       "sha256": "cc548d21f91cea22c3e5bb54c6c010a1c35e4f6e80f323a2ee119d2cdc981e26",
@@ -8278,11 +8278,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/arvore_grande.glb"
+        "reference_lab/assets/GLB/arvore_grande.tscn"
       ]
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_alto.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_alto.tscn",
       "tipo": "model",
       "tamanho_bytes": 8016,
       "sha256": "5af4e4c52519c93ae162b06e242122ce5d20f314b6f7062738bb10cf9a84bbd5",
@@ -8293,7 +8293,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_bosque.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_bosque.tscn",
       "tipo": "model",
       "tamanho_bytes": 52688,
       "sha256": "c69b75b69198010c53c43004ec66056384c9481c966f900a287911d7411dff4f",
@@ -8304,7 +8304,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_grupo.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/bambu_grupo.tscn",
       "tipo": "model",
       "tamanho_bytes": 24780,
       "sha256": "88ded73339b2c7f1131d4ef51ae41f7b5926d37b05d5d882ac7e78c1df0f04c7",
@@ -8315,7 +8315,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/cerejeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 4220,
       "sha256": "7525235c3267ff1d59e6de13cedfb35bdc582af6e6c34c358e7da4e769f0e369",
@@ -8326,7 +8326,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/moita_densa.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/moita_densa.tscn",
       "tipo": "model",
       "tamanho_bytes": 6844,
       "sha256": "35b9f9535e7e291c71b0f5f720cad673a056e7ed3e962b623c7f5871250645a6",
@@ -8337,7 +8337,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/pinheiro_grande.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/pinheiro_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 6864,
       "sha256": "531cc3f64bc97acf2f4f8f0ab045c01281bbf67741240d433dd36991ccca484d",
@@ -8348,7 +8348,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.glb",
+      "caminho": "collection/06_OBJETOS_GLB/vegetacao/pinheiro_pequeno.tscn",
       "tipo": "model",
       "tamanho_bytes": 6788,
       "sha256": "66cd6cb338ddb9f272682f465116e5e6533964fddef6ff7773e12fa1a70aa00b",
@@ -8370,7 +8370,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/encosta_escarpada.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/encosta_escarpada.tscn",
       "tipo": "model",
       "tamanho_bytes": 14400,
       "sha256": "3b9cdc181c6d835014d4b94d6999ce40669cb8b5e5065e3ae1512102cebb15c5",
@@ -8381,7 +8381,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/encosta_pedregosa.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/encosta_pedregosa.tscn",
       "tipo": "model",
       "tamanho_bytes": 14400,
       "sha256": "641667fa8dc58322277828bd435a91afad7300663752b545bd3561eb5f3b5c78",
@@ -8392,7 +8392,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.tscn",
       "tipo": "model",
       "tamanho_bytes": 6116,
       "sha256": "69053cba797c660b362b3bd3298794712c413734949adda0f10333210089e35c",
@@ -8403,7 +8403,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/estrato_pedra_montanha.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/estrato_pedra_montanha.tscn",
       "tipo": "model",
       "tamanho_bytes": 6764,
       "sha256": "05ef17e2c8147d90c9d5c85f5259376e0b23fe363ecf2f55510fddef54781a20",
@@ -8414,7 +8414,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/margem_rio_grama.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/margem_rio_grama.tscn",
       "tipo": "model",
       "tamanho_bytes": 5000,
       "sha256": "a0ce8a008a8258fcedad185724cc0c933fdb61d3675bd3048405a8dbb9f6448f",
@@ -8425,7 +8425,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/margem_rio_pedra.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/margem_rio_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 5000,
       "sha256": "2076717757c6a733da7f29ab957dc9eff0b8366a47cb7a09515e844086f773f3",
@@ -8436,7 +8436,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/patamar_montanha.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/patamar_montanha.tscn",
       "tipo": "model",
       "tamanho_bytes": 3920,
       "sha256": "f971a0d403cf79ec4a06ef25e1398e6b7da2908eafa928eaca2ba5a383d69e24",
@@ -8447,7 +8447,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/pedra_xisto_grupo.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/pedra_xisto_grupo.tscn",
       "tipo": "model",
       "tamanho_bytes": 6712,
       "sha256": "6f8453043e5ac81feada3b487b86cfca8450fbd964d73f3039228ff7824a023f",
@@ -8458,7 +8458,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_alto_reto.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_alto_reto.tscn",
       "tipo": "model",
       "tamanho_bytes": 14344,
       "sha256": "d2469eda0215e3cf0fc4a68f573c3627dbd98b1a40bd4e22aa022917fe119e39",
@@ -8469,7 +8469,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_baixo_musgoso.tscn",
       "tipo": "model",
       "tamanho_bytes": 14492,
       "sha256": "c17cc7c42cb8289c1709cd98928f4b833c68ba3e1eb1ea1b98e1c305126c819f",
@@ -8480,7 +8480,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_baixo_reto.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_baixo_reto.tscn",
       "tipo": "model",
       "tamanho_bytes": 14404,
       "sha256": "e7d0f939cc6e899466e055acc05df1aed62954a51c25d8b24835d8e7c25b93ac",
@@ -8491,7 +8491,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_canto_externo.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_canto_externo.tscn",
       "tipo": "model",
       "tamanho_bytes": 16764,
       "sha256": "d95f3f2784f24da02ed7780c91af99a871b4467b1c8374803667fd2437c5732f",
@@ -8502,7 +8502,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_canto_interno.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/penhasco_canto_interno.tscn",
       "tipo": "model",
       "tamanho_bytes": 16768,
       "sha256": "ba12f492d28d9ecd01b10baa5e9d5d29a98d4122275c418f564ecc8d607c4aa6",
@@ -8513,7 +8513,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/plataforma_rochosa.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/plataforma_rochosa.tscn",
       "tipo": "model",
       "tamanho_bytes": 3940,
       "sha256": "02ff074e1dc3f7dd2a414bd6afe1045614fe52ee46bbdf6278feef3910ab7d14",
@@ -8524,7 +8524,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/rampa_escadaria_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 4356,
       "sha256": "2c364e0b1ea24fc3d3960cf3d84a4168cf09becfe484e2a42a310710318d5818",
@@ -8535,7 +8535,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_monolito.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_monolito.tscn",
       "tipo": "model",
       "tamanho_bytes": 6692,
       "sha256": "f2e513df59ea9f6abab060185195317d7363be9945460bf006b97a6d63285324",
@@ -8546,7 +8546,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_monolito_musgo.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_monolito_musgo.tscn",
       "tipo": "model",
       "tamanho_bytes": 7812,
       "sha256": "b512606594c0c3a9a97c580e46c26fb61100a230d36c02c7e1f4a951efcf929a",
@@ -8557,7 +8557,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_pilha_baixa.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_pilha_baixa.tscn",
       "tipo": "model",
       "tamanho_bytes": 13768,
       "sha256": "63b93f88dcdfed5da69b7fbf820fad542378cc273772c3f0dd4b3712916a0cc5",
@@ -8568,7 +8568,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_pilha_grande.glb",
+      "caminho": "collection/09_TOPOGRAFIA_GLB/rocha_pilha_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 13784,
       "sha256": "08eca0774b350dd24c0ff0e2db687fe9169e6bd557bff9165b6714a370518c5d",
@@ -8579,7 +8579,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/base_madeira_templo.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/base_madeira_templo.tscn",
       "tipo": "model",
       "tamanho_bytes": 5092,
       "sha256": "c0951019d3d6c91726f3e7010ccc43bdefd063b0cebf3fa181c72b9270f4cc39",
@@ -8590,7 +8590,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/beiral_teal.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/beiral_teal.tscn",
       "tipo": "model",
       "tamanho_bytes": 4912,
       "sha256": "e33b49245d9d44bfa8f5b4457d702e03c4c94f2391b8a4fac5774514a12b9676",
@@ -8601,7 +8601,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/beiral_vermelho.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/beiral_vermelho.tscn",
       "tipo": "model",
       "tamanho_bytes": 4968,
       "sha256": "ae7b33c9230740de55210918ee3a767250dce29969d9d7f78fa8732ef863b621",
@@ -8612,7 +8612,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/coluna_madeira_escura.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/coluna_madeira_escura.tscn",
       "tipo": "model",
       "tamanho_bytes": 4212,
       "sha256": "128cb23c76a8c1b53f9768acd1e1bac87fa97bab10c793f6bb9ac36ee5de0b94",
@@ -8623,7 +8623,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/cumeeira_jade.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/cumeeira_jade.tscn",
       "tipo": "model",
       "tamanho_bytes": 6000,
       "sha256": "7823f92bdee82db2eb2a47b44f70f7d2735a39f5a7eb1d709a5708d632aa3132",
@@ -8634,7 +8634,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/cumeeira_vermelha.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/cumeeira_vermelha.tscn",
       "tipo": "model",
       "tamanho_bytes": 5856,
       "sha256": "01e566b3b816ec0e4ec59f9c17d9cc1b26452608d88ea2dc1e6dca3fd5f432fb",
@@ -8645,7 +8645,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/degrau_pedra_cidade.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/degrau_pedra_cidade.tscn",
       "tipo": "model",
       "tamanho_bytes": 4144,
       "sha256": "14896904760d00e08c479dc2631dfba2e3b64391fc77e2a11128678ed517ff10",
@@ -8656,7 +8656,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/divisoria_papel_janela.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/divisoria_papel_janela.tscn",
       "tipo": "model",
       "tamanho_bytes": 8384,
       "sha256": "2c885ab437e0c9dc806c2b8c25a58407f3dcccf03ba86a0a492c1ca5c0dad034",
@@ -8667,7 +8667,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/escada_madeira_templo.tscn",
       "tipo": "model",
       "tamanho_bytes": 4168,
       "sha256": "8139f66bd36c676ea166b61db847c2479414fd57ed06b835371d8201de6640cd",
@@ -8678,7 +8678,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/fundacao_pedra.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/fundacao_pedra.tscn",
       "tipo": "model",
       "tamanho_bytes": 5028,
       "sha256": "deefb3cf7b1506e65535d2042787de9e348581c4f79f964ee3602de118f598ac",
@@ -8689,7 +8689,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/janela_lattice_quadrada.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/janela_lattice_quadrada.tscn",
       "tipo": "model",
       "tamanho_bytes": 6976,
       "sha256": "8ab511fdf412dfbaba474e2b025fb8fec7dbee9bc1f1d76cdd18b858bde0e1af",
@@ -8700,7 +8700,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/painel_janela_lattice.tscn",
       "tipo": "model",
       "tamanho_bytes": 8356,
       "sha256": "403af7a68fe359b701729885aff3873b1807cb7b6fccc3530166bdd0e85be6f6",
@@ -8711,7 +8711,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/painel_porta_livre.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/painel_porta_livre.tscn",
       "tipo": "model",
       "tamanho_bytes": 4864,
       "sha256": "b41fe26ea2d440eacc9a8d477a181ed5552b2810430b526ab8751c9ad5a9d38e",
@@ -8722,7 +8722,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/parede_madeira_laca.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/parede_madeira_laca.tscn",
       "tipo": "model",
       "tamanho_bytes": 4644,
       "sha256": "57da17508d2c6e5f474d3a99a30beeda0f85ec9c7b43d7cc6335bf587f05cf25",
@@ -8733,7 +8733,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/parede_pedra_templo.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/parede_pedra_templo.tscn",
       "tipo": "model",
       "tamanho_bytes": 4620,
       "sha256": "532e677d042adfd3902fe66e1a63c7ec21e7ac0c3d858a4807d6daad160a38c1",
@@ -8744,7 +8744,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/parede_reboco_claro.tscn",
       "tipo": "model",
       "tamanho_bytes": 3856,
       "sha256": "7eb397be4f2fffd9bc9d657e5cacd55ad215d8a1e09ce266075d750d26b06600",
@@ -8755,7 +8755,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/parede_reboco_ocre.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/parede_reboco_ocre.tscn",
       "tipo": "model",
       "tamanho_bytes": 3844,
       "sha256": "ca9c7630f9b0abbe4e4c9ba1b1e6a6611b20317752c07dc58b80a120446d8e23",
@@ -8766,7 +8766,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/passarela_guarda.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/passarela_guarda.tscn",
       "tipo": "model",
       "tamanho_bytes": 10576,
       "sha256": "1b83393303b01cd37e134944ccda5e096976118e0fd2d09eec419b8aa5c8b3b7",
@@ -8777,7 +8777,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/pilar_madeira_dourado.tscn",
       "tipo": "model",
       "tamanho_bytes": 4216,
       "sha256": "5ec468f5c2d12ed579d6454b3a31fb49c8050d86be21f8850a6201d06f8f1ecf",
@@ -8788,7 +8788,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/porta_laca_jade.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/porta_laca_jade.tscn",
       "tipo": "model",
       "tamanho_bytes": 6000,
       "sha256": "1bb36e6d34aec638cf0dd1b5c7e30b9a31d0c4bf476b11fa748154dbc346f16d",
@@ -8799,7 +8799,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/porta_madeira_dupla.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/porta_madeira_dupla.tscn",
       "tipo": "model",
       "tamanho_bytes": 6072,
       "sha256": "c22ad41408e014b977bed767669f9b8231051e01f50ddf55902ed020fd720a09",
@@ -8810,7 +8810,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/telhado_canto_jade.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/telhado_canto_jade.tscn",
       "tipo": "model",
       "tamanho_bytes": 13764,
       "sha256": "7bc48f43a882b7a6654bddc311b3794fc98bd0a71980e1bd2262262fb87469e5",
@@ -8821,7 +8821,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/telhado_canto_vermelho.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/telhado_canto_vermelho.tscn",
       "tipo": "model",
       "tamanho_bytes": 13932,
       "sha256": "d2baa78800c8cebe6f54fe4d8eceee7534f0a330f2312b5155bf204f86110431",
@@ -8832,7 +8832,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/telhado_teal_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 22980,
       "sha256": "ff9d0c18370ff7eeb7eb6de3df831492e2dc3162153a7be894635ec465e298cc",
@@ -8841,11 +8841,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/telhado_teal_4m.glb"
+        "reference_lab/assets/GLB/telhado_teal_4m.tscn"
       ]
     },
     {
-      "caminho": "collection/10_ARQUITETURA_GLB/telhado_vermelho_4m.glb",
+      "caminho": "collection/10_ARQUITETURA_GLB/telhado_vermelho_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 23276,
       "sha256": "6023991c293fd8d7bd94e35b804a1f4b5990fd1a7c8ae265c88a2ba3595136eb",
@@ -8854,11 +8854,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/telhado_vermelho_4m.glb"
+        "reference_lab/assets/GLB/telhado_vermelho_4m.tscn"
       ]
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/altar_ruina_antigo.glb",
+      "caminho": "collection/11_RUINAS_GLB/altar_ruina_antigo.tscn",
       "tipo": "model",
       "tamanho_bytes": 4072,
       "sha256": "5373ff006e5787e4e78d8e98cba67481ce6a2ec6ba88e4e047163e6f0f82c3d7",
@@ -8869,7 +8869,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/arco_portal_antigo.glb",
+      "caminho": "collection/11_RUINAS_GLB/arco_portal_antigo.tscn",
       "tipo": "model",
       "tamanho_bytes": 8948,
       "sha256": "4dcedf8c6b3ef065e18cb4a297edaa3bfca71569525c862a83944258f8571020",
@@ -8880,7 +8880,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/arco_portal_musgo.glb",
+      "caminho": "collection/11_RUINAS_GLB/arco_portal_musgo.tscn",
       "tipo": "model",
       "tamanho_bytes": 9712,
       "sha256": "e7e1b36637549d3eea51c388a780a303ba178b5063c172ccddf3f6b0c4f8b296",
@@ -8891,7 +8891,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/barricada_ruina_madeira.glb",
+      "caminho": "collection/11_RUINAS_GLB/barricada_ruina_madeira.tscn",
       "tipo": "model",
       "tamanho_bytes": 3124,
       "sha256": "7803e55ccfc810bfdb593842e0fbff95792d4cc69b717789a5274a860fd3a69b",
@@ -8902,7 +8902,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/coluna_ruina_inteiro.glb",
+      "caminho": "collection/11_RUINAS_GLB/coluna_ruina_inteiro.tscn",
       "tipo": "model",
       "tamanho_bytes": 2668,
       "sha256": "df92cb6fb11292ba5bd9fdf7f1b47fa836114d01e280c010fa2bd87b64832f41",
@@ -8913,7 +8913,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/coluna_ruina_musgo.glb",
+      "caminho": "collection/11_RUINAS_GLB/coluna_ruina_musgo.tscn",
       "tipo": "model",
       "tamanho_bytes": 3448,
       "sha256": "2cc26a7d61d842b6557c52d7668946c52147d07c7d44db84fd70e2497b2bf2af",
@@ -8924,7 +8924,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/corredor_ruina_T_juncao.glb",
+      "caminho": "collection/11_RUINAS_GLB/corredor_ruina_T_juncao.tscn",
       "tipo": "model",
       "tamanho_bytes": 25484,
       "sha256": "ae626d3e8a06d0cfa4f5effe2669e9556a6959003b42c282caa20a40b9610dd5",
@@ -8935,7 +8935,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/corredor_ruina_reto.glb",
+      "caminho": "collection/11_RUINAS_GLB/corredor_ruina_reto.tscn",
       "tipo": "model",
       "tamanho_bytes": 21932,
       "sha256": "45659b115f8f69c43bb8f6c0ab47501656ca7931c90a5ff8fb119391286d6db3",
@@ -8946,7 +8946,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/entulho_ruina_grande.glb",
+      "caminho": "collection/11_RUINAS_GLB/entulho_ruina_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 12464,
       "sha256": "6915eca596faa4481def0a4535ad6d7f00cf4a1cbb572542cf6f79a4790864e6",
@@ -8957,7 +8957,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/escada_ruina_inteira.glb",
+      "caminho": "collection/11_RUINAS_GLB/escada_ruina_inteira.tscn",
       "tipo": "model",
       "tamanho_bytes": 4936,
       "sha256": "8e6d6b1fe20e2165e1843dffb6865f3d385587f16cab132295a3a7a86093fbe9",
@@ -8968,7 +8968,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/escada_ruina_quebrada.glb",
+      "caminho": "collection/11_RUINAS_GLB/escada_ruina_quebrada.tscn",
       "tipo": "model",
       "tamanho_bytes": 4376,
       "sha256": "1c368e7ad2fc111dbc29e33312cb4ef529610a0b2891a27c65ce22484af3b240",
@@ -8979,7 +8979,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/laje_ruina_inteira.glb",
+      "caminho": "collection/11_RUINAS_GLB/laje_ruina_inteira.tscn",
       "tipo": "model",
       "tamanho_bytes": 10156,
       "sha256": "5034e895f3cb151d86c0a302f7dc885a9342a71aae5c97408d4e68bb3877635c",
@@ -8990,7 +8990,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/laje_ruina_partida.glb",
+      "caminho": "collection/11_RUINAS_GLB/laje_ruina_partida.tscn",
       "tipo": "model",
       "tamanho_bytes": 10156,
       "sha256": "b77dbb26d8d764e0a113ddab6db309a8fe5139d8fab31314e025a5a9693ee326",
@@ -9001,7 +9001,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/muro_ruina_arenito.glb",
+      "caminho": "collection/11_RUINAS_GLB/muro_ruina_arenito.tscn",
       "tipo": "model",
       "tamanho_bytes": 21904,
       "sha256": "d5287f43f379dfe261eeaed3a2839bb23d48178632b69cfeea9427b465fbcaae",
@@ -9012,7 +9012,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/muro_ruina_cinza.glb",
+      "caminho": "collection/11_RUINAS_GLB/muro_ruina_cinza.tscn",
       "tipo": "model",
       "tamanho_bytes": 22300,
       "sha256": "430b6673866542ce82bb1ffac494bcdb0e5fda988a822860eeaf0fcfb9ede1d3",
@@ -9023,7 +9023,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/parede_ruina_T_juncao.glb",
+      "caminho": "collection/11_RUINAS_GLB/parede_ruina_T_juncao.tscn",
       "tipo": "model",
       "tamanho_bytes": 24244,
       "sha256": "f81122df2a479ee69e23bcab1fcfe0f66bb299b6c565aaebc2c5f012f6d1fb23",
@@ -9034,7 +9034,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/parede_ruina_canto.glb",
+      "caminho": "collection/11_RUINAS_GLB/parede_ruina_canto.tscn",
       "tipo": "model",
       "tamanho_bytes": 23428,
       "sha256": "5252450d6043759421f636732b1aec486df9b08d547feefb0124abf921cfe64c",
@@ -9045,7 +9045,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/parede_ruina_destruido.glb",
+      "caminho": "collection/11_RUINAS_GLB/parede_ruina_destruido.tscn",
       "tipo": "model",
       "tamanho_bytes": 21028,
       "sha256": "cfec75645a57e8072d6f3b056066ff2d163ffc51ee51ef22f1050262584327ad",
@@ -9054,11 +9054,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/parede_ruina_destruido.glb"
+        "reference_lab/assets/GLB/parede_ruina_destruido.tscn"
       ]
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/pilar_ruina_quebrado.glb",
+      "caminho": "collection/11_RUINAS_GLB/pilar_ruina_quebrado.tscn",
       "tipo": "model",
       "tamanho_bytes": 2684,
       "sha256": "8fc01ca340651876a03a11d1de500b19693283e0d15a74558c0f307ab6fa0d9f",
@@ -9067,11 +9067,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/pilar_ruina_quebrado.glb"
+        "reference_lab/assets/GLB/pilar_ruina_quebrado.tscn"
       ]
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/portal_ruina_cinza.glb",
+      "caminho": "collection/11_RUINAS_GLB/portal_ruina_cinza.tscn",
       "tipo": "model",
       "tamanho_bytes": 8948,
       "sha256": "543697fa35c8c7d436153be8bad6b789961d3c8dcd7f4f092c86a6aeb0e584ff",
@@ -9082,7 +9082,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/11_RUINAS_GLB/portao_ruina_ferro.glb",
+      "caminho": "collection/11_RUINAS_GLB/portao_ruina_ferro.tscn",
       "tipo": "model",
       "tamanho_bytes": 5496,
       "sha256": "d3b291c46db22197082cbffc78927d6632fb5410060e94dee766ac89655b9b7a",
@@ -9093,7 +9093,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/arvore_alta_sombria.glb",
+      "caminho": "collection/12_NATUREZA_GLB/arvore_alta_sombria.tscn",
       "tipo": "model",
       "tamanho_bytes": 7552,
       "sha256": "69d07e550c517f237c2a67ca8b4d2a27fb1d913c51565e7a54679d9b46a93e60",
@@ -9102,11 +9102,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/arvore_alta_sombria.glb"
+        "reference_lab/assets/GLB/arvore_alta_sombria.tscn"
       ]
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/arvore_baixa_prado.glb",
+      "caminho": "collection/12_NATUREZA_GLB/arvore_baixa_prado.tscn",
       "tipo": "model",
       "tamanho_bytes": 7552,
       "sha256": "ec6ec6b68b6ebebcd6032dec057c1ad565b90cda65c834e0e4f913225d97a17f",
@@ -9115,11 +9115,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/arvore_baixa_prado.glb"
+        "reference_lab/assets/GLB/arvore_baixa_prado.tscn"
       ]
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/bambu_alto_folhas.glb",
+      "caminho": "collection/12_NATUREZA_GLB/bambu_alto_folhas.tscn",
       "tipo": "model",
       "tamanho_bytes": 12508,
       "sha256": "e137bfa5f956464064394802bc9efb66a0ecc3123d0c98b5d7b527ad481f615c",
@@ -9128,11 +9128,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/bambu_alto_folhas.glb"
+        "reference_lab/assets/GLB/bambu_alto_folhas.tscn"
       ]
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/bambu_grupo_rio.glb",
+      "caminho": "collection/12_NATUREZA_GLB/bambu_grupo_rio.tscn",
       "tipo": "model",
       "tamanho_bytes": 33368,
       "sha256": "5f15914d114e69e65b2270af3379d9726b4fd3468b3f1b8d92cedbaa2f9ad9ba",
@@ -9141,11 +9141,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/bambu_grupo_rio.glb"
+        "reference_lab/assets/GLB/bambu_grupo_rio.tscn"
       ]
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/pinheiro_escarpado.glb",
+      "caminho": "collection/12_NATUREZA_GLB/pinheiro_escarpado.tscn",
       "tipo": "model",
       "tamanho_bytes": 4960,
       "sha256": "a659dcc51a30675401e15c2f8fef00dedd89967fb750d0b8b36c46b88781cbe1",
@@ -9154,11 +9154,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "reference_lab/assets/GLB/pinheiro_escarpado.glb"
+        "reference_lab/assets/GLB/pinheiro_escarpado.tscn"
       ]
     },
     {
-      "caminho": "collection/12_NATUREZA_GLB/rochedo_rio_musgoso.glb",
+      "caminho": "collection/12_NATUREZA_GLB/rochedo_rio_musgoso.tscn",
       "tipo": "model",
       "tamanho_bytes": 10680,
       "sha256": "924a8dfc258bfff91af136ff56d408d292aa7e67e31346c4e2e0e77e09a1a3b6",
@@ -9169,7 +9169,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/13_CENAS_DEMO/montanha_travessia.glb",
+      "caminho": "collection/13_CENAS_DEMO/montanha_travessia.tscn",
       "tipo": "model",
       "tamanho_bytes": 379888,
       "sha256": "21ac250a022f634b200805737ba34a6e2c2a5fd04ec1425ca84dc927df045d53",
@@ -9202,7 +9202,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/13_CENAS_DEMO/patio_murim.glb",
+      "caminho": "collection/13_CENAS_DEMO/patio_murim.tscn",
       "tipo": "model",
       "tamanho_bytes": 399680,
       "sha256": "e377d994a49cdde0bd4dcad35841b656d1198bf2039086a8bc9e67e039e665da",
@@ -9235,7 +9235,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/13_CENAS_DEMO/ruinas_antigas.glb",
+      "caminho": "collection/13_CENAS_DEMO/ruinas_antigas.tscn",
       "tipo": "model",
       "tamanho_bytes": 303880,
       "sha256": "97b59d618bcbd00976655689f6a3d61871d9b207f6c3e152c2818b8c1ed07c22",
@@ -9268,7 +9268,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "collection/13_CENAS_DEMO/vale_trilhas.glb",
+      "caminho": "collection/13_CENAS_DEMO/vale_trilhas.tscn",
       "tipo": "model",
       "tamanho_bytes": 390944,
       "sha256": "320091bda2c19600bdf55ed3e2589adf7b8a2ed59555446073b7651bdc3d21da",
@@ -10640,7 +10640,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/balcony_2m.glb",
+      "caminho": "models/architecture/balcony_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 11628,
       "sha256": "6ab84667c273fc7dd94b52c0d191c6e6cab67b3165bfd5245a32c45ec6751af7",
@@ -10651,7 +10651,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/beam_2m.glb",
+      "caminho": "models/architecture/beam_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2084,
       "sha256": "8600558efa853be24b36d39feeaeb6c42fa458e08bc8912846fbe4b286316ebc",
@@ -10662,7 +10662,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/beam_corner_joint.glb",
+      "caminho": "models/architecture/beam_corner_joint.tscn",
       "tipo": "model",
       "tamanho_bytes": 2948,
       "sha256": "a620e5c19281dd48a5ba20f42abad36fb5eb8ac0ba12298b7b54af309bac711b",
@@ -10673,7 +10673,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/bracket.glb",
+      "caminho": "models/architecture/bracket.tscn",
       "tipo": "model",
       "tamanho_bytes": 3848,
       "sha256": "970899658261770ad50fe85ce1e1431bdc0c970043f2c1a8e8a1dc5ec3c0c4d4",
@@ -10684,7 +10684,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/column_2_6m.glb",
+      "caminho": "models/architecture/column_2_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3232,
       "sha256": "654457091e863f49ec0d770e7be59cdff6701a7f2b6b079d04a2f54b5123c241",
@@ -10695,7 +10695,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/column_heavy_2_6m.glb",
+      "caminho": "models/architecture/column_heavy_2_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3232,
       "sha256": "3cb523f3e2e65d7897827358d96120032ca3ddcf212f9d5675fd0d6b52376595",
@@ -10706,7 +10706,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/door_double.glb",
+      "caminho": "models/architecture/door_double.tscn",
       "tipo": "model",
       "tamanho_bytes": 9504,
       "sha256": "05b9bf716833a7baf83bd71a0a90802ed337b52e695be249cc5c0d891a402d0d",
@@ -10717,7 +10717,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/floor_2x2.glb",
+      "caminho": "models/architecture/floor_2x2.tscn",
       "tipo": "model",
       "tamanho_bytes": 2036,
       "sha256": "f78dff74426c0fe1b4a0bddd857997c5aae3efcec916b08c8d061575439e45b8",
@@ -10728,7 +10728,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/floor_wood_2x2.glb",
+      "caminho": "models/architecture/floor_wood_2x2.tscn",
       "tipo": "model",
       "tamanho_bytes": 2032,
       "sha256": "e8d848b9513771bc4dc2afed72394b321aaa20118cc457fc6a30dc9a3e718c7a",
@@ -10739,7 +10739,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/foundation_2x1.glb",
+      "caminho": "models/architecture/foundation_2x1.tscn",
       "tipo": "model",
       "tamanho_bytes": 2036,
       "sha256": "45338eaf7997e2a9f64c59507ae588b00947fda18dc597d2a8512af22c9fdfc7",
@@ -10750,7 +10750,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/foundation_2x2.glb",
+      "caminho": "models/architecture/foundation_2x2.tscn",
       "tipo": "model",
       "tamanho_bytes": 2036,
       "sha256": "34e53b1d395ca292cb714f37290f6d5b1108ce01b4c445d8f93ce61d0d9145c2",
@@ -10761,7 +10761,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/foundation_corner.glb",
+      "caminho": "models/architecture/foundation_corner.tscn",
       "tipo": "model",
       "tamanho_bytes": 2960,
       "sha256": "419ae6cffd5e453b04f6a03248f6d55d50579bd10a68b6b9c4ca8ae75f7c49a9",
@@ -10772,7 +10772,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/railing_2m.glb",
+      "caminho": "models/architecture/railing_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7260,
       "sha256": "1b65e808060b89e1a409ce2654e6d4c28c3f286f6f35f876d3e0085e1c93554a",
@@ -10783,7 +10783,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_eave_2m.glb",
+      "caminho": "models/architecture/roof_eave_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 11688,
       "sha256": "f7628ee3015ae2cd9949823e44a818a55170596734cd965509f569b8c14a122b",
@@ -10794,7 +10794,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_end_ornament.glb",
+      "caminho": "models/architecture/roof_end_ornament.tscn",
       "tipo": "model",
       "tamanho_bytes": 4688,
       "sha256": "5a8aa181b27c0660fe22f32c705279320b6e511fa38b8e23705154d4e690bf41",
@@ -10805,7 +10805,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_gable_4m.glb",
+      "caminho": "models/architecture/roof_gable_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 5348,
       "sha256": "01d1b6d2f3d4b35164dd081ad1d9d2498ef835846a74e3081d63eb5af4df61f8",
@@ -10816,7 +10816,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_hip_corner.glb",
+      "caminho": "models/architecture/roof_hip_corner.tscn",
       "tipo": "model",
       "tamanho_bytes": 32344,
       "sha256": "8126d2b3a035a34e3eab6bac11be3c62a1dfea583faf515704b03816cc1f0ce8",
@@ -10827,7 +10827,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_ridge_2m.glb",
+      "caminho": "models/architecture/roof_ridge_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2908,
       "sha256": "18c99e289a5327affb28af94ea68f0ff727385ef8f928c50d8c870afe54d6faf",
@@ -10838,7 +10838,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/roof_slope_2x2.glb",
+      "caminho": "models/architecture/roof_slope_2x2.tscn",
       "tipo": "model",
       "tamanho_bytes": 32444,
       "sha256": "34d871165eff8ca46064c387fcb08c7fd0c0336cb4cabf0a92c5c178e87aac33",
@@ -10849,7 +10849,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/stairs_2m.glb",
+      "caminho": "models/architecture/stairs_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3804,
       "sha256": "33458079ba0910a77d1ae134d62b308b204e6ae4456777b170bf2cb429834218",
@@ -10860,7 +10860,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_corner_90.glb",
+      "caminho": "models/architecture/wall_corner_90.tscn",
       "tipo": "model",
       "tamanho_bytes": 8228,
       "sha256": "6a07b667e3c8398be0bd7372179f51bfb015af89e5eb53356f0a7dfa185e4510",
@@ -10871,7 +10871,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_door_2m.glb",
+      "caminho": "models/architecture/wall_door_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 5784,
       "sha256": "6e94da3934c587d3730bdaa148b8d59db118f1d22764dcc6a01666c9e1ff8bd6",
@@ -10882,7 +10882,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_half_1m.glb",
+      "caminho": "models/architecture/wall_half_1m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6524,
       "sha256": "3163d67604de97d76ef27bf7e6beeef57b4760edeb79b265a7d3337c5c92625a",
@@ -10893,7 +10893,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_solid_2m.glb",
+      "caminho": "models/architecture/wall_solid_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6520,
       "sha256": "0d61746d3f77edbfaef2d5bc0affb61c168e886b201f9549c456fc571292147b",
@@ -10904,7 +10904,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_stone_2m.glb",
+      "caminho": "models/architecture/wall_stone_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6524,
       "sha256": "633c20365e3380635dc4b91732a94d590ba6880b3351a6b101269d4070f93b07",
@@ -10915,7 +10915,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_timber_2m.glb",
+      "caminho": "models/architecture/wall_timber_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 5528,
       "sha256": "10263ebf53182df3b6b5f70195eae545aa3d9ebcf06ec513eaa6fdd77594d9b6",
@@ -10926,7 +10926,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/architecture/wall_window_2m.glb",
+      "caminho": "models/architecture/wall_window_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 17808,
       "sha256": "c32e675ca95cad97bf1467d065cad1c73178342e085bda0e5fe1ec2ba55b19e4",
@@ -10937,7 +10937,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cabbage_stage_1.glb",
+      "caminho": "models/crops/cabbage_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 9088,
       "sha256": "ea2cb28169a61c848a00431e7daf560b16e3bf5be4ce1f0a7e1271807a8fa3a5",
@@ -10948,7 +10948,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cabbage_stage_2.glb",
+      "caminho": "models/crops/cabbage_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 9084,
       "sha256": "3f920a5a1da9c4e20ab340925cb590ef2673c8e3d5e4f22c12b4df133a19bbfb",
@@ -10959,7 +10959,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cabbage_stage_3.glb",
+      "caminho": "models/crops/cabbage_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 9084,
       "sha256": "71613abe245748980d93290a9a4cd90b97583063fbd1a04ac1593d1b589886ca",
@@ -10970,7 +10970,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/carrot_stage_1.glb",
+      "caminho": "models/crops/carrot_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 5628,
       "sha256": "e33de18ef53b598502e506bb3b23d99f833f2aa8b9fc7f7bc0ad120af25948be",
@@ -10981,7 +10981,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/carrot_stage_2.glb",
+      "caminho": "models/crops/carrot_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 5628,
       "sha256": "d7a221e1329ab9fbf14d52f3699b0e13af7c2bbcff54ef11a3d5552806a715c8",
@@ -10992,7 +10992,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/carrot_stage_3.glb",
+      "caminho": "models/crops/carrot_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 5628,
       "sha256": "fb544559a5dbdac20025f998b385e472ff0a6ae2fed24bbf76e6c9b3840e48f7",
@@ -11003,7 +11003,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cucumber_stage_1.glb",
+      "caminho": "models/crops/cucumber_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 10916,
       "sha256": "96269342d2554f07392f17d032da750eddf1f95124a50587976fe47719d1b143",
@@ -11014,7 +11014,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cucumber_stage_2.glb",
+      "caminho": "models/crops/cucumber_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 11780,
       "sha256": "5990b6019d731e48886815e24e6ea6d5ec5b28b7ddf10d6e295fde8cb50977c7",
@@ -11025,7 +11025,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/cucumber_stage_3.glb",
+      "caminho": "models/crops/cucumber_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 11780,
       "sha256": "e520ac1d8db88cf1e324fd221a85825714af0880f71b5039e18186d2fe511169",
@@ -11036,7 +11036,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/eggplant_stage_1.glb",
+      "caminho": "models/crops/eggplant_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 5612,
       "sha256": "44296ffaddbdca85bfa9192e15deb8e94bf46989501f6b97f99e3943fda043ab",
@@ -11047,7 +11047,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/eggplant_stage_2.glb",
+      "caminho": "models/crops/eggplant_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 6660,
       "sha256": "e9772f382038b17646a7a29be90f30b76f91acb41fa5596dfb147230f7de7747",
@@ -11058,7 +11058,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/eggplant_stage_3.glb",
+      "caminho": "models/crops/eggplant_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 6660,
       "sha256": "fafd74f7caade7471b663d15f3d1e53e82a3cfe977309f02e22348e1287a1a40",
@@ -11069,7 +11069,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/lettuce_stage_1.glb",
+      "caminho": "models/crops/lettuce_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 7312,
       "sha256": "86aee96ea2e417a6c70c4f77686e637ebd24179356046fc7ea8aa1284c8c1ee2",
@@ -11080,7 +11080,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/lettuce_stage_2.glb",
+      "caminho": "models/crops/lettuce_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 7312,
       "sha256": "1415926e7fa92af99f3f0c089a13fb892108ad769b34cb4847e55976c19752e6",
@@ -11091,7 +11091,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/lettuce_stage_3.glb",
+      "caminho": "models/crops/lettuce_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 7308,
       "sha256": "41d67afbff9f4a0eb0a31640a9637b66bd9f19682462a96b8f9ed4e670b2d806",
@@ -11102,7 +11102,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/onion_stage_1.glb",
+      "caminho": "models/crops/onion_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 6488,
       "sha256": "6cc9beba3c89377d6f9bd153132b23eaf292a3c625885725bb5ad9028315de5d",
@@ -11111,11 +11111,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/radish_stage_1.glb"
+        "models/crops/radish_stage_1.tscn"
       ]
     },
     {
-      "caminho": "models/crops/onion_stage_2.glb",
+      "caminho": "models/crops/onion_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 6484,
       "sha256": "9e327d8bb7e1aaf3e439fd20fa06d06b5d49bd9133b3b7373338c4d304ea9d82",
@@ -11124,11 +11124,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/radish_stage_2.glb"
+        "models/crops/radish_stage_2.tscn"
       ]
     },
     {
-      "caminho": "models/crops/onion_stage_3.glb",
+      "caminho": "models/crops/onion_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 6484,
       "sha256": "8c63bff23a96986f9d0201a089a6f74699b09b313f1afa24b0d8c42351710895",
@@ -11137,11 +11137,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/radish_stage_3.glb"
+        "models/crops/radish_stage_3.tscn"
       ]
     },
     {
-      "caminho": "models/crops/pumpkin_stage_1.glb",
+      "caminho": "models/crops/pumpkin_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 5612,
       "sha256": "a34a9168878b8b4c944e91ea387590df6c3e6ce843cee1fbe4c8eda65e21813c",
@@ -11152,7 +11152,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/pumpkin_stage_2.glb",
+      "caminho": "models/crops/pumpkin_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 9984,
       "sha256": "c4b54b8fc3768d6bf68cf1b2e357e8f721450ff93355d6f87e843ecc99030c3b",
@@ -11163,7 +11163,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/pumpkin_stage_3.glb",
+      "caminho": "models/crops/pumpkin_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 9980,
       "sha256": "959850ecdfbeb37ab568180bd56349abd8deafdb56f5942ea78395f459b7bd52",
@@ -11174,7 +11174,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/crops/radish_stage_1.glb",
+      "caminho": "models/crops/radish_stage_1.tscn",
       "tipo": "model",
       "tamanho_bytes": 6488,
       "sha256": "6cc9beba3c89377d6f9bd153132b23eaf292a3c625885725bb5ad9028315de5d",
@@ -11183,11 +11183,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/onion_stage_1.glb"
+        "models/crops/onion_stage_1.tscn"
       ]
     },
     {
-      "caminho": "models/crops/radish_stage_2.glb",
+      "caminho": "models/crops/radish_stage_2.tscn",
       "tipo": "model",
       "tamanho_bytes": 6484,
       "sha256": "9e327d8bb7e1aaf3e439fd20fa06d06b5d49bd9133b3b7373338c4d304ea9d82",
@@ -11196,11 +11196,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/onion_stage_2.glb"
+        "models/crops/onion_stage_2.tscn"
       ]
     },
     {
-      "caminho": "models/crops/radish_stage_3.glb",
+      "caminho": "models/crops/radish_stage_3.tscn",
       "tipo": "model",
       "tamanho_bytes": 6484,
       "sha256": "8c63bff23a96986f9d0201a089a6f74699b09b313f1afa24b0d8c42351710895",
@@ -11209,11 +11209,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "models/crops/onion_stage_3.glb"
+        "models/crops/onion_stage_3.tscn"
       ]
     },
     {
-      "caminho": "models/details/butterfly_01.glb",
+      "caminho": "models/details/butterfly_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 5492,
       "sha256": "05cc1bcac2dd3f1d6d10f788347d88a41160fd27b7383b04191cfbcba2c11f68",
@@ -11224,7 +11224,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/butterfly_02.glb",
+      "caminho": "models/details/butterfly_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 4008,
       "sha256": "cafccf6df755e0bcbfe1811c35ea2a73d49b5256217e05593c6a9c50080291bc",
@@ -11235,7 +11235,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/cicada.glb",
+      "caminho": "models/details/cicada.tscn",
       "tipo": "model",
       "tamanho_bytes": 11388,
       "sha256": "c0bbc72d609f187e80a2585a0de6a20f2a7da503876378356b5a716fdd393788",
@@ -11246,7 +11246,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/clay_jar.glb",
+      "caminho": "models/details/clay_jar.tscn",
       "tipo": "model",
       "tamanho_bytes": 4640,
       "sha256": "25cd6baca68236b83a8b0c2b0db2db9471475f594d83d48d349a0ffd6d920d45",
@@ -11257,7 +11257,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/fallen_log.glb",
+      "caminho": "models/details/fallen_log.tscn",
       "tipo": "model",
       "tamanho_bytes": 3084,
       "sha256": "026a08a764111c26c94cec915468b696521c0340b3035bf4847f9e006044b042",
@@ -11268,7 +11268,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/fence_2m.glb",
+      "caminho": "models/details/fence_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 4664,
       "sha256": "df499940a24ee6db3517f9da023b47f8b5df59edc37ad94e7a66e3969d24fd96",
@@ -11279,7 +11279,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/firefly.glb",
+      "caminho": "models/details/firefly.tscn",
       "tipo": "model",
       "tamanho_bytes": 5104,
       "sha256": "e5b1122d2b8d1626e7dedf4fcf882a9e2137f0255f4a96ee86ae9f145d8944d5",
@@ -11290,7 +11290,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/firewood_stack.glb",
+      "caminho": "models/details/firewood_stack.tscn",
       "tipo": "model",
       "tamanho_bytes": 13528,
       "sha256": "4caff8eaa9a013cb46aee576e1783f3f10eb90b717dab64b66ca70b1286d2046",
@@ -11301,7 +11301,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/garden_bed_2x2.glb",
+      "caminho": "models/details/garden_bed_2x2.tscn",
       "tipo": "model",
       "tamanho_bytes": 6432,
       "sha256": "216778b08b99974a369092929230ab05bd2eb016b4b70e1342ba1ce489c0fbd8",
@@ -11312,7 +11312,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/lantern_01.glb",
+      "caminho": "models/details/lantern_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 8660,
       "sha256": "ca2244c11555ab26de0f196911cf36b926113438535d330b5588b5af21f07533",
@@ -11323,7 +11323,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/lantern_02.glb",
+      "caminho": "models/details/lantern_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 8608,
       "sha256": "c694ff355f98a19081a17e4b6ff0d67657c8a767b3f57607911bc39808cf833a",
@@ -11334,7 +11334,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/details/stump.glb",
+      "caminho": "models/details/stump.tscn",
       "tipo": "model",
       "tamanho_bytes": 3100,
       "sha256": "673c519b50713b8e25c231edc34443ad2ece301d6b59b38edd2afe72fe49f69a",
@@ -11345,7 +11345,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/bamboo_planter_box.glb",
+      "caminho": "models/forja_v2/bamboo_planter_box.tscn",
       "tipo": "model",
       "tamanho_bytes": 14544,
       "sha256": "db5b5a536e0e2d638ae6d576e75332dde70b0762d5b8d25c3fd47095ff279b38",
@@ -11356,7 +11356,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/blacksmith_anvil.glb",
+      "caminho": "models/forja_v2/blacksmith_anvil.tscn",
       "tipo": "model",
       "tamanho_bytes": 3220,
       "sha256": "c7b2fea39be8377a38bb3ce975d17c9b9e691ffb8bd8a7ea5969d790f46ae8c5",
@@ -11367,7 +11367,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/blacksmith_forge_hearth.glb",
+      "caminho": "models/forja_v2/blacksmith_forge_hearth.tscn",
       "tipo": "model",
       "tamanho_bytes": 7952,
       "sha256": "cdbef93e09886c950f1e5555a84476f0cbcf6bceec797e3a19bc3469ad8e3702",
@@ -11378,7 +11378,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/bronze_incense_burner.glb",
+      "caminho": "models/forja_v2/bronze_incense_burner.tscn",
       "tipo": "model",
       "tamanho_bytes": 6536,
       "sha256": "de91c2da1d46aa1de3de54b5b0084b17c360f49f4118f9d3e11f2370e1041cb6",
@@ -11389,7 +11389,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/courtyard_entry_gate.glb",
+      "caminho": "models/forja_v2/courtyard_entry_gate.tscn",
       "tipo": "model",
       "tamanho_bytes": 6564,
       "sha256": "30f00c18a2e75d4864a9afa7a8ebd28dee80fc91b695eebb53edba6e5398bd51",
@@ -11400,7 +11400,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/courtyard_wall_2m.glb",
+      "caminho": "models/forja_v2/courtyard_wall_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7632,
       "sha256": "40cba98129c50a58591ee2160a6bde6012ea12736c02832d19494ff2e3b27bb1",
@@ -11411,7 +11411,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/covered_market_stall.glb",
+      "caminho": "models/forja_v2/covered_market_stall.tscn",
       "tipo": "model",
       "tamanho_bytes": 12920,
       "sha256": "cfe5c4850e0e1016117e6c5f404e4d51acb8db84fbf19e1ebc5ec36526095804",
@@ -11422,7 +11422,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/facade_lattice_2m.glb",
+      "caminho": "models/forja_v2/facade_lattice_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 8600,
       "sha256": "330bd86ac68bd63d1c09115df3badf3573452094aa23aa381df67a52436284c6",
@@ -11433,7 +11433,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/grain_sack_stack.glb",
+      "caminho": "models/forja_v2/grain_sack_stack.tscn",
       "tipo": "model",
       "tamanho_bytes": 4140,
       "sha256": "5c0dceb903d70a7e86fbda922a675552ccf2a961a218ff2515f3ee4bf9b7a7fc",
@@ -11444,7 +11444,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/herb_drying_rack.glb",
+      "caminho": "models/forja_v2/herb_drying_rack.tscn",
       "tipo": "model",
       "tamanho_bytes": 25012,
       "sha256": "405ec4c507211bb74bd7dc1617d57806f6a934ca18e42a5ff49a54924260c84b",
@@ -11455,7 +11455,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/herbalist_medicine_jars.glb",
+      "caminho": "models/forja_v2/herbalist_medicine_jars.tscn",
       "tipo": "model",
       "tamanho_bytes": 7688,
       "sha256": "205ad3d5995458062f70f7facca364f3ae872371565dbda6a58a44ce0c05dba5",
@@ -11466,7 +11466,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/low_courtyard_fence_gate.glb",
+      "caminho": "models/forja_v2/low_courtyard_fence_gate.tscn",
       "tipo": "model",
       "tamanho_bytes": 5696,
       "sha256": "f9849c56f64d4c37cfe7ec97e4c6880ada96074ea00aa8653c0df674d24ff5f3",
@@ -11477,7 +11477,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/market_cloth_awning_2m.glb",
+      "caminho": "models/forja_v2/market_cloth_awning_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 12228,
       "sha256": "27c35afa868736ac0e56c08d479e75d321dedf2b35f7848f49515bce1de761b1",
@@ -11488,7 +11488,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/merchant_counter_2m.glb",
+      "caminho": "models/forja_v2/merchant_counter_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 4784,
       "sha256": "680b68fd160d4279d3ea946d8e32a91c66be4ea41950ec02788788e976806645",
@@ -11499,7 +11499,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/paired_pillar_plinths.glb",
+      "caminho": "models/forja_v2/paired_pillar_plinths.tscn",
       "tipo": "model",
       "tamanho_bytes": 2968,
       "sha256": "981c9b63d9171a028cf66e2bcce9791132609e9ce42fdb5490ca6fa675a3d121",
@@ -11510,7 +11510,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/public_timber_bench.glb",
+      "caminho": "models/forja_v2/public_timber_bench.tscn",
       "tipo": "model",
       "tamanho_bytes": 2972,
       "sha256": "59bc43821248fe3d0cd30d60a3eeff7a6d0357c3effa27087d0f5b79e6745217",
@@ -11521,7 +11521,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/roof_ridge_finial.glb",
+      "caminho": "models/forja_v2/roof_ridge_finial.tscn",
       "tipo": "model",
       "tamanho_bytes": 4652,
       "sha256": "e76fd99488c3237fcf1f4902066b9953cb4752f8aecb1544bca799197bd51540",
@@ -11532,7 +11532,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/roof_tile_eave_2m.glb",
+      "caminho": "models/forja_v2/roof_tile_eave_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 10216,
       "sha256": "92dca0d8bd7b42780bc5b64c41ef92994c6a19defde32268545766b37bf2a188",
@@ -11543,7 +11543,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/shop_hanging_sign.glb",
+      "caminho": "models/forja_v2/shop_hanging_sign.tscn",
       "tipo": "model",
       "tamanho_bytes": 7064,
       "sha256": "cae79d6181298e13d2a28c3563e52a43bdfd6a1b46680b620d0acdd4b1c6cbf6",
@@ -11554,7 +11554,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/short_wooden_footbridge.glb",
+      "caminho": "models/forja_v2/short_wooden_footbridge.tscn",
       "tipo": "model",
       "tamanho_bytes": 8160,
       "sha256": "66893bcfbd0998b73ce065c51501301b5e9da38e366930792a6a941150ac0405",
@@ -11565,7 +11565,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/silk_vertical_banner.glb",
+      "caminho": "models/forja_v2/silk_vertical_banner.tscn",
       "tipo": "model",
       "tamanho_bytes": 7092,
       "sha256": "01ef7a5fcea46d78d4c93e936958a4976e64cb626dd532218bc653017b884ec4",
@@ -11576,7 +11576,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/slatted_window_shutter.glb",
+      "caminho": "models/forja_v2/slatted_window_shutter.tscn",
       "tipo": "model",
       "tamanho_bytes": 6380,
       "sha256": "57493b50c862e4ba921ad96865239b21b7a92af32ee09d8a0cf85c2df11745d8",
@@ -11587,7 +11587,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/smith_tool_rack.glb",
+      "caminho": "models/forja_v2/smith_tool_rack.tscn",
       "tipo": "model",
       "tamanho_bytes": 7420,
       "sha256": "2ba7cc6b6b66ea023d3edcefe23086b8ecdaf11d3f34ddf59cd9a18d419dcf79",
@@ -11598,7 +11598,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/stone_courtyard_paving_2m.glb",
+      "caminho": "models/forja_v2/stone_courtyard_paving_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7304,
       "sha256": "ec75dd84f51aceaef6a3fd7ecd74018f7c3f2bb0a8cf0c952a6f23077c33192a",
@@ -11609,7 +11609,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/stone_garden_lantern.glb",
+      "caminho": "models/forja_v2/stone_garden_lantern.tscn",
       "tipo": "model",
       "tamanho_bytes": 5656,
       "sha256": "d54bcdb8fb18d990036cf1f6eaf2b8f5f8f5c1ba9b47360244451d999987623a",
@@ -11620,7 +11620,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/tea_ceramic_shelf.glb",
+      "caminho": "models/forja_v2/tea_ceramic_shelf.tscn",
       "tipo": "model",
       "tamanho_bytes": 10276,
       "sha256": "e2f5265919c880ad2ff956f382e11630d4612f97209ef2480d3c63b073dbccc9",
@@ -11631,7 +11631,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/tea_table_with_stools.glb",
+      "caminho": "models/forja_v2/tea_table_with_stools.tscn",
       "tipo": "model",
       "tamanho_bytes": 8544,
       "sha256": "4f3020d104393ca9334877ffacdf4c922e94df3784a878555a8cbc4cb692babd",
@@ -11642,7 +11642,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/timber_handcart.glb",
+      "caminho": "models/forja_v2/timber_handcart.tscn",
       "tipo": "model",
       "tamanho_bytes": 6344,
       "sha256": "c1428f45c8190688eb129822fd415b44b6072dbd05d11a6ee856a8b6c929cc60",
@@ -11653,7 +11653,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/veranda_bamboo_railing_2m.glb",
+      "caminho": "models/forja_v2/veranda_bamboo_railing_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 9572,
       "sha256": "9b447b78b4c740d286f110555cbe86a1173b1f412148f84dd94659678a1a4b19",
@@ -11664,7 +11664,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/village_drying_lines.glb",
+      "caminho": "models/forja_v2/village_drying_lines.tscn",
       "tipo": "model",
       "tamanho_bytes": 6888,
       "sha256": "dfa5e93d5b49c4c98e9390afa1e3645b3acc5a1f2d135bbcef7f0064545751e5",
@@ -11675,7 +11675,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/village_grain_millstone.glb",
+      "caminho": "models/forja_v2/village_grain_millstone.tscn",
       "tipo": "model",
       "tamanho_bytes": 5436,
       "sha256": "c6a51b5ffe7f54ee318efdf360d90d93a77361a4c3fee30ac689269a2d5691cc",
@@ -11686,7 +11686,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/village_water_well.glb",
+      "caminho": "models/forja_v2/village_water_well.tscn",
       "tipo": "model",
       "tamanho_bytes": 8136,
       "sha256": "313371413944bd85dfdbc9a0783816aa44f53fcb5bff033909848ff2255bc214",
@@ -11697,7 +11697,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/well_water_bucket.glb",
+      "caminho": "models/forja_v2/well_water_bucket.tscn",
       "tipo": "model",
       "tamanho_bytes": 5724,
       "sha256": "4a4194375259f11b7604f0789a660e94fcb8528b295656c188dade52c3826064",
@@ -11708,7 +11708,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v2/woven_market_baskets.glb",
+      "caminho": "models/forja_v2/woven_market_baskets.tscn",
       "tipo": "model",
       "tamanho_bytes": 13556,
       "sha256": "ae5030f2073d44e0b3334d7bac869cb404d83814a4efa574413e5c0b741f12ec",
@@ -11719,7 +11719,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/city_wall_battlement_2m.glb",
+      "caminho": "models/forja_v3/city_wall_battlement_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2892,
       "sha256": "ad4bc928e30ec7a969c6da81b8f44c54e60e34324f191534e114c0c689f30aa2",
@@ -11730,7 +11730,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/city_wall_stone_2m.glb",
+      "caminho": "models/forja_v3/city_wall_stone_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3092,
       "sha256": "44571cccf4ca76890e88a4831d4c12023f94586bb41f874f49db4673a901746b",
@@ -11741,7 +11741,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/city_wall_wood_2m.glb",
+      "caminho": "models/forja_v3/city_wall_wood_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2608,
       "sha256": "f0b581d3f8fcf4c383dd2a8c39764db3836e4bf021c9bf95b5c8641de236814e",
@@ -11752,7 +11752,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/clan_banner_pair.glb",
+      "caminho": "models/forja_v3/clan_banner_pair.tscn",
       "tipo": "model",
       "tamanho_bytes": 3012,
       "sha256": "6b8b48d119c1675c889d95b92d3b7246eee8ee10e6936afaad98f3870f211614",
@@ -11763,7 +11763,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/dojo_bell.glb",
+      "caminho": "models/forja_v3/dojo_bell.tscn",
       "tipo": "model",
       "tamanho_bytes": 2700,
       "sha256": "3595def3d63a1895c27aa4a14535e16f15b856c1529671f750d3a58c17b35457",
@@ -11774,7 +11774,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/farm_gate_4m.glb",
+      "caminho": "models/forja_v3/farm_gate_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2416,
       "sha256": "4ddb425d51955154dc404c047dfd5ee9980dd68ae691c03cfbc718409396c976",
@@ -11785,7 +11785,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/field_fence_2m.glb",
+      "caminho": "models/forja_v3/field_fence_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2248,
       "sha256": "ac9c538b0d34b269f821734d10fcccec4d9b80a37be8cea969ed243cfa2e1aab",
@@ -11796,7 +11796,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/gate_stone_6m.glb",
+      "caminho": "models/forja_v3/gate_stone_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 8476,
       "sha256": "1f599935d6a77e9a59c7887b41bc6a98449e55e4a24a742986576c49219957e5",
@@ -11807,7 +11807,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/gate_wood_6m.glb",
+      "caminho": "models/forja_v3/gate_wood_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6436,
       "sha256": "e3fdade5308c413ae19bc21c51341ca9c6e7a7883c3dcec77bc129003e115bfb",
@@ -11818,7 +11818,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/grain_silo.glb",
+      "caminho": "models/forja_v3/grain_silo.tscn",
       "tipo": "model",
       "tamanho_bytes": 5804,
       "sha256": "26569be609331c2e1329e073ea7bde959a380a7f53152969845b4d99ad0171b4",
@@ -11829,7 +11829,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/granary_6m.glb",
+      "caminho": "models/forja_v3/granary_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 12756,
       "sha256": "c921349cc4499e00ea21f65a417704c108b81865df3e27ae055acee970622cb8",
@@ -11840,7 +11840,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/guild_hall_8m.glb",
+      "caminho": "models/forja_v3/guild_hall_8m.tscn",
       "tipo": "model",
       "tamanho_bytes": 12488,
       "sha256": "e4bdaad372f4e00397c9cd4efd737b718d5c18a7f4a8cc8cc4cb1c5b70657aa8",
@@ -11851,7 +11851,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/hanging_wall_torch.glb",
+      "caminho": "models/forja_v3/hanging_wall_torch.tscn",
       "tipo": "model",
       "tamanho_bytes": 2680,
       "sha256": "9b94d43efcc5984fbaf11aab1f3e50bc69a43d7424c7e4ab83f07580474a4392",
@@ -11862,7 +11862,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/hay_cart.glb",
+      "caminho": "models/forja_v3/hay_cart.tscn",
       "tipo": "model",
       "tamanho_bytes": 3600,
       "sha256": "31d6846eccb47692fa991f88bd0f9f1c7305beb71d869eca480e00abf4441159",
@@ -11873,7 +11873,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/herbalist_garden_box.glb",
+      "caminho": "models/forja_v3/herbalist_garden_box.tscn",
       "tipo": "model",
       "tamanho_bytes": 3576,
       "sha256": "ee9a29b67b015ff5e30183bfd8182a3c89835114e7dbb5c966f95afaca7f13fd",
@@ -11884,7 +11884,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/irrigation_channel_2m.glb",
+      "caminho": "models/forja_v3/irrigation_channel_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2372,
       "sha256": "d28b8fbc8e7ff07fde56c1cdba5e4dd717c5988efd0cd7f56f013dbebae9be94",
@@ -11895,7 +11895,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/martial_training_yard_6m.glb",
+      "caminho": "models/forja_v3/martial_training_yard_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2852,
       "sha256": "0b4db2a1138fcfb3b7a0de1245009525cff6ecc3a14d84fe0334961308871710",
@@ -11906,7 +11906,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/open_pavilion_6m.glb",
+      "caminho": "models/forja_v3/open_pavilion_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6236,
       "sha256": "9416fa39bc7a618f1a3bfb1d846ba889fbf5bc5fd6645a7e561a4706bf464f59",
@@ -11917,7 +11917,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/patrol_brazier.glb",
+      "caminho": "models/forja_v3/patrol_brazier.tscn",
       "tipo": "model",
       "tamanho_bytes": 2660,
       "sha256": "417ebd178a60fc564e6a948f667c44c77f862e780f8ad5500bc3a9e9908c39b8",
@@ -11928,7 +11928,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/rice_field_4m.glb",
+      "caminho": "models/forja_v3/rice_field_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 6468,
       "sha256": "b6de188182ed02a7e3712d40f3258bcc9b95051961bb676f06e83e258ae2a6b6",
@@ -11939,7 +11939,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/sect_hall_8m.glb",
+      "caminho": "models/forja_v3/sect_hall_8m.tscn",
       "tipo": "model",
       "tamanho_bytes": 13276,
       "sha256": "6943c2f5549491402e27295a5963961b0e87ce9d560daac44a99e2ed8eca8889",
@@ -11950,7 +11950,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/stone_footbridge_4m.glb",
+      "caminho": "models/forja_v3/stone_footbridge_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2924,
       "sha256": "67d010e819d4b8f222a8a5988bfb48a3161aaa86a0d47f3ed7761631d950e2cc",
@@ -11961,7 +11961,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/stone_lion_statue.glb",
+      "caminho": "models/forja_v3/stone_lion_statue.tscn",
       "tipo": "model",
       "tamanho_bytes": 3440,
       "sha256": "2b0e8048b6d3f820b106865ab094cdacf38e743068f153bf00b9d88b0a7f3c2d",
@@ -11972,7 +11972,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/street_lamp_post.glb",
+      "caminho": "models/forja_v3/street_lamp_post.tscn",
       "tipo": "model",
       "tamanho_bytes": 3388,
       "sha256": "75bc29ed253ead3b704ef195ecbcc27870becab71570e41d4fc3bf213a5f51ef",
@@ -11983,7 +11983,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/street_signpost.glb",
+      "caminho": "models/forja_v3/street_signpost.tscn",
       "tipo": "model",
       "tamanho_bytes": 2452,
       "sha256": "991f1dda30be1249024a722ec354e46dd7e9403e48bade36223d535b26248114",
@@ -11994,7 +11994,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/tea_garden_bush.glb",
+      "caminho": "models/forja_v3/tea_garden_bush.tscn",
       "tipo": "model",
       "tamanho_bytes": 3576,
       "sha256": "40be7778fb213d0089ef645affe9f6caae2e37d209a26a7bbf2434eaa07badee",
@@ -12005,7 +12005,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/temple_altar.glb",
+      "caminho": "models/forja_v3/temple_altar.tscn",
       "tipo": "model",
       "tamanho_bytes": 3388,
       "sha256": "29dd287957cbfd49e172ddde4bcdad77e79691fd53b326ae3b72d1d06e6b2244",
@@ -12016,7 +12016,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/temple_hall_8m.glb",
+      "caminho": "models/forja_v3/temple_hall_8m.tscn",
       "tipo": "model",
       "tamanho_bytes": 13152,
       "sha256": "8709ad41e99efd80436cc2c8736a2820937879049872c8c001e30952996c3f40",
@@ -12027,7 +12027,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/temple_stela.glb",
+      "caminho": "models/forja_v3/temple_stela.tscn",
       "tipo": "model",
       "tamanho_bytes": 2648,
       "sha256": "3b07a7e3e519136f84127251222ba29e144db57592b20359c497ef35fe44fea0",
@@ -12038,7 +12038,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/training_dummy.glb",
+      "caminho": "models/forja_v3/training_dummy.tscn",
       "tipo": "model",
       "tamanho_bytes": 3164,
       "sha256": "53b5d7c62613e883ee61d12ef8e9ffb951b26bb01e1f6acd11d5acacf1eb46ad",
@@ -12049,7 +12049,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/training_pavilion_6m.glb",
+      "caminho": "models/forja_v3/training_pavilion_6m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7412,
       "sha256": "6877e89a344b2c7adba8ab076bd5cf110a707fafbc582c9aa724e513971b8023",
@@ -12060,7 +12060,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/vegetable_field_4m.glb",
+      "caminho": "models/forja_v3/vegetable_field_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7460,
       "sha256": "789cacd0f8ee9250b623da7ced171499a808a0e979e7180a4c240a5974c81511",
@@ -12071,7 +12071,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/village_notice_board.glb",
+      "caminho": "models/forja_v3/village_notice_board.tscn",
       "tipo": "model",
       "tamanho_bytes": 6460,
       "sha256": "2b684c4b7027d71aedf8fb07f40865a6058a099a5f08623433737a371dda4616",
@@ -12082,7 +12082,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/village_stone_path_2m.glb",
+      "caminho": "models/forja_v3/village_stone_path_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 2872,
       "sha256": "bae753f194b6c85546228a40fd0e12823b671326add790f8f0e2234bfcf8f5cc",
@@ -12093,7 +12093,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/village_wood_path_2m.glb",
+      "caminho": "models/forja_v3/village_wood_path_2m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3124,
       "sha256": "9e6fb4485501c29ab3f3967db5198618ba83d2bedadd06b28a8555b546251401",
@@ -12104,7 +12104,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/wall_corner_stone.glb",
+      "caminho": "models/forja_v3/wall_corner_stone.tscn",
       "tipo": "model",
       "tamanho_bytes": 1932,
       "sha256": "f1748dc2f969835e42d8f666b5d7d88915ce79bbe76dd006e4dd2af3efad0644",
@@ -12115,7 +12115,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/wall_corner_wood.glb",
+      "caminho": "models/forja_v3/wall_corner_wood.tscn",
       "tipo": "model",
       "tamanho_bytes": 1924,
       "sha256": "689860a1732e55ad6d115f4a17d2eadbbb8a3f8eb69995abd1be82c4a4cfc838",
@@ -12126,7 +12126,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/watchtower_stone_4m.glb",
+      "caminho": "models/forja_v3/watchtower_stone_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 8184,
       "sha256": "72f1033d07850caaf168bedcf4eca83fc5047c98883224750f19b621ab918d8e",
@@ -12137,7 +12137,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/watchtower_wood_4m.glb",
+      "caminho": "models/forja_v3/watchtower_wood_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 7432,
       "sha256": "2f1eda13f44b20dd96dbdeabfcc5eb56dfee4306fc37fbcca651414a91c09b17",
@@ -12148,7 +12148,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/water_trough.glb",
+      "caminho": "models/forja_v3/water_trough.tscn",
       "tipo": "model",
       "tamanho_bytes": 1956,
       "sha256": "39129bdfca85f27cb71dbb540e984317d8dd2147cecee444a954a408b12598e0",
@@ -12159,7 +12159,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/weapons_training_rack.glb",
+      "caminho": "models/forja_v3/weapons_training_rack.tscn",
       "tipo": "model",
       "tamanho_bytes": 4156,
       "sha256": "8ee84005c4cdc4b48408b7603a7b2f208c36cf7e3d41ede3bfd57af69ce41078",
@@ -12170,7 +12170,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/forja_v3/wood_footbridge_4m.glb",
+      "caminho": "models/forja_v3/wood_footbridge_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 3356,
       "sha256": "01be45dda4cc07d1174fad37891771fa026af378a7cb0461fccec99687adf02e",
@@ -12181,7 +12181,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/bamboo_cluster_01.glb",
+      "caminho": "models/nature/bamboo_cluster_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 31144,
       "sha256": "f999beb44c3d5d9ea98f42e2e167f76977d96b28bf73ec129b1befc9e47618c6",
@@ -12192,7 +12192,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/bamboo_cluster_02.glb",
+      "caminho": "models/nature/bamboo_cluster_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 46700,
       "sha256": "e76fdf19f4674331f2bc1ea187740cf1bd683712d63fdde937fdaf9005ddff6e",
@@ -12203,7 +12203,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/bush_01.glb",
+      "caminho": "models/nature/bush_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 9032,
       "sha256": "98eb3ed857703846b78f1039492a2477be7ba1ac915143be8847864e33f8efd2",
@@ -12214,7 +12214,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/bush_02.glb",
+      "caminho": "models/nature/bush_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 9032,
       "sha256": "3e9217bef846ad49114582628c3065ad29eb754ac7763d5a4824e680ecfcceb7",
@@ -12225,7 +12225,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/bush_03.glb",
+      "caminho": "models/nature/bush_03.tscn",
       "tipo": "model",
       "tamanho_bytes": 9036,
       "sha256": "eb3adca58aee91cadc6ea5034d601fe3966e71b5dd82558ad498a90e2457a1b8",
@@ -12236,7 +12236,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/fern.glb",
+      "caminho": "models/nature/fern.tscn",
       "tipo": "model",
       "tamanho_bytes": 10332,
       "sha256": "6d5fb7db515712adcde48b2a6d264e2b261bdd0ddcf940976e28def4417828a9",
@@ -12247,7 +12247,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_01.glb",
+      "caminho": "models/nature/grass_tuft_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 4712,
       "sha256": "967104655b958e8d21400432a63140261f7a6999608c2d7c4b6ce6681b17c889",
@@ -12258,7 +12258,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_02.glb",
+      "caminho": "models/nature/grass_tuft_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 5576,
       "sha256": "4de87a23eca700e576fa76ee14bd710e54fe331feaee7e3090880857bad2a93c",
@@ -12269,7 +12269,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_03.glb",
+      "caminho": "models/nature/grass_tuft_03.tscn",
       "tipo": "model",
       "tamanho_bytes": 6440,
       "sha256": "352fc951b1e78ac6bee92b5f762ef00a188a4fb68f9dd057345f8af1497d8d92",
@@ -12280,7 +12280,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_04.glb",
+      "caminho": "models/nature/grass_tuft_04.tscn",
       "tipo": "model",
       "tamanho_bytes": 7308,
       "sha256": "54bc55067bbd65185ddb1a6103cff32035bc55c09d105857382815a3a954b263",
@@ -12291,7 +12291,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_05.glb",
+      "caminho": "models/nature/grass_tuft_05.tscn",
       "tipo": "model",
       "tamanho_bytes": 8052,
       "sha256": "6f3255727dfaf5ce4445c7b5143dbe98f00bc6881af3a2e74dea2bac5502ddf0",
@@ -12302,7 +12302,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/grass_tuft_06.glb",
+      "caminho": "models/nature/grass_tuft_06.tscn",
       "tipo": "model",
       "tamanho_bytes": 9032,
       "sha256": "c970fd571ebf3f4849436690718643156af3e5bf4b41b51866f0b9b9e03b1c61",
@@ -12313,7 +12313,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/leaf_cluster_01.glb",
+      "caminho": "models/nature/leaf_cluster_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 5144,
       "sha256": "15c1a08c607afae3af58cbfd4ed6aa3e66f99dff1770295ab8262f296bf6da13",
@@ -12324,7 +12324,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/leaf_cluster_02.glb",
+      "caminho": "models/nature/leaf_cluster_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 5144,
       "sha256": "6f0cc58e9e937a27964d36e63d230b8261e9e6203d93aa24046cf560392fbc11",
@@ -12335,7 +12335,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/leaf_cluster_03.glb",
+      "caminho": "models/nature/leaf_cluster_03.tscn",
       "tipo": "model",
       "tamanho_bytes": 5144,
       "sha256": "a8f106712de69485d68565ae9636368ac896da5464ea35df9c8c74053828b240",
@@ -12346,7 +12346,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/leaf_cluster_04.glb",
+      "caminho": "models/nature/leaf_cluster_04.tscn",
       "tipo": "model",
       "tamanho_bytes": 5144,
       "sha256": "22c48a5bac1239a5f1b795170ba5d10c1952d7a7ef3de6862830d1300c139f79",
@@ -12357,7 +12357,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/reeds.glb",
+      "caminho": "models/nature/reeds.tscn",
       "tipo": "model",
       "tamanho_bytes": 13404,
       "sha256": "766d6235afa8542b610f68b3281535fbe4703735ebcc4c095afabdf7a5536027",
@@ -12368,7 +12368,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_broad_01.glb",
+      "caminho": "models/nature/tree_broad_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 22968,
       "sha256": "9212ef52547c0d88f42b13e03ca3f826612027d6efa322d7092e38849d7b0ed3",
@@ -12379,7 +12379,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_broad_02.glb",
+      "caminho": "models/nature/tree_broad_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 22964,
       "sha256": "8d1507eda4b9cc275dc3cc60926d34edd02f46932c9ac1d43c48b5f45d8c7093",
@@ -12390,7 +12390,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_dry.glb",
+      "caminho": "models/nature/tree_dry.tscn",
       "tipo": "model",
       "tamanho_bytes": 4688,
       "sha256": "60eaae3d04686c05ddada2654156014dec8eef7053839f0f85fe50de57d03af3",
@@ -12401,7 +12401,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_orchard.glb",
+      "caminho": "models/nature/tree_orchard.tscn",
       "tipo": "model",
       "tamanho_bytes": 31656,
       "sha256": "1351656f2230d66610a2f36320ceb3daa3553327a1e66eeb010a4796b76ca47d",
@@ -12412,7 +12412,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_pine_01.glb",
+      "caminho": "models/nature/tree_pine_01.tscn",
       "tipo": "model",
       "tamanho_bytes": 12540,
       "sha256": "3903d9724aa35419d84274aaf04a340ee70da86eeb07aa13db72c0320cd079da",
@@ -12423,7 +12423,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_pine_02.glb",
+      "caminho": "models/nature/tree_pine_02.tscn",
       "tipo": "model",
       "tamanho_bytes": 12544,
       "sha256": "3e20a746c22606bf7340b2ef271e783c05a8114a531a29fc586362baa6d5db72",
@@ -12434,7 +12434,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "models/nature/tree_willow.glb",
+      "caminho": "models/nature/tree_willow.tscn",
       "tipo": "model",
       "tamanho_bytes": 64448,
       "sha256": "fa298945ec4f98b78d0e876db674eef918848c6efb3da6e7680efa63cc5dfa52",
@@ -12511,7 +12511,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "reference_lab/DEPOIS_regiao_seed_101.glb",
+      "caminho": "reference_lab/DEPOIS_regiao_seed_101.tscn",
       "tipo": "model",
       "tamanho_bytes": 446968,
       "sha256": "47bfeb67b2d53ebccd1a43e1ec46c4d576f0084b1660b98c448e8b049dca27e8",
@@ -12533,7 +12533,7 @@
       "duplicatas_mesmo_sha256": []
     },
     {
-      "caminho": "reference_lab/DEPOIS_regiao_seed_707_r0.glb",
+      "caminho": "reference_lab/DEPOIS_regiao_seed_707_r0.tscn",
       "tipo": "model",
       "tamanho_bytes": 446968,
       "sha256": "951eeef4c77c03076a6b552f67c67b6751161c8ac26448d32701e1b2d2c95d1b",
@@ -12607,7 +12607,7 @@
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/arvore_alta_sombria.glb",
+      "caminho": "reference_lab/assets/GLB/arvore_alta_sombria.tscn",
       "tipo": "model",
       "tamanho_bytes": 7552,
       "sha256": "69d07e550c517f237c2a67ca8b4d2a27fb1d913c51565e7a54679d9b46a93e60",
@@ -12616,11 +12616,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/12_NATUREZA_GLB/arvore_alta_sombria.glb"
+        "collection/12_NATUREZA_GLB/arvore_alta_sombria.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/arvore_baixa_prado.glb",
+      "caminho": "reference_lab/assets/GLB/arvore_baixa_prado.tscn",
       "tipo": "model",
       "tamanho_bytes": 7552,
       "sha256": "ec6ec6b68b6ebebcd6032dec057c1ad565b90cda65c834e0e4f913225d97a17f",
@@ -12629,11 +12629,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/12_NATUREZA_GLB/arvore_baixa_prado.glb"
+        "collection/12_NATUREZA_GLB/arvore_baixa_prado.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/arvore_grande.glb",
+      "caminho": "reference_lab/assets/GLB/arvore_grande.tscn",
       "tipo": "model",
       "tamanho_bytes": 4224,
       "sha256": "cc548d21f91cea22c3e5bb54c6c010a1c35e4f6e80f323a2ee119d2cdc981e26",
@@ -12642,11 +12642,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/06_OBJETOS_GLB/vegetacao/arvore_grande.glb"
+        "collection/06_OBJETOS_GLB/vegetacao/arvore_grande.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/bambu_alto_folhas.glb",
+      "caminho": "reference_lab/assets/GLB/bambu_alto_folhas.tscn",
       "tipo": "model",
       "tamanho_bytes": 12508,
       "sha256": "e137bfa5f956464064394802bc9efb66a0ecc3123d0c98b5d7b527ad481f615c",
@@ -12655,11 +12655,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/12_NATUREZA_GLB/bambu_alto_folhas.glb"
+        "collection/12_NATUREZA_GLB/bambu_alto_folhas.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/bambu_grupo_rio.glb",
+      "caminho": "reference_lab/assets/GLB/bambu_grupo_rio.tscn",
       "tipo": "model",
       "tamanho_bytes": 33368,
       "sha256": "5f15914d114e69e65b2270af3379d9726b4fd3468b3f1b8d92cedbaa2f9ad9ba",
@@ -12668,11 +12668,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/12_NATUREZA_GLB/bambu_grupo_rio.glb"
+        "collection/12_NATUREZA_GLB/bambu_grupo_rio.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/parede_ruina_destruido.glb",
+      "caminho": "reference_lab/assets/GLB/parede_ruina_destruido.tscn",
       "tipo": "model",
       "tamanho_bytes": 21028,
       "sha256": "cfec75645a57e8072d6f3b056066ff2d163ffc51ee51ef22f1050262584327ad",
@@ -12681,11 +12681,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/11_RUINAS_GLB/parede_ruina_destruido.glb"
+        "collection/11_RUINAS_GLB/parede_ruina_destruido.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/pilar_ruina_quebrado.glb",
+      "caminho": "reference_lab/assets/GLB/pilar_ruina_quebrado.tscn",
       "tipo": "model",
       "tamanho_bytes": 2684,
       "sha256": "8fc01ca340651876a03a11d1de500b19693283e0d15a74558c0f307ab6fa0d9f",
@@ -12694,11 +12694,11 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/11_RUINAS_GLB/pilar_ruina_quebrado.glb"
+        "collection/11_RUINAS_GLB/pilar_ruina_quebrado.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/pinheiro_escarpado.glb",
+      "caminho": "reference_lab/assets/GLB/pinheiro_escarpado.tscn",
       "tipo": "model",
       "tamanho_bytes": 4960,
       "sha256": "a659dcc51a30675401e15c2f8fef00dedd89967fb750d0b8b36c46b88781cbe1",
@@ -12707,11 +12707,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/12_NATUREZA_GLB/pinheiro_escarpado.glb"
+        "collection/12_NATUREZA_GLB/pinheiro_escarpado.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/telhado_teal_4m.glb",
+      "caminho": "reference_lab/assets/GLB/telhado_teal_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 22980,
       "sha256": "ff9d0c18370ff7eeb7eb6de3df831492e2dc3162153a7be894635ec465e298cc",
@@ -12720,11 +12720,11 @@
       "nome_encontrado_em_codigo": true,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/10_ARQUITETURA_GLB/telhado_teal_4m.glb"
+        "collection/10_ARQUITETURA_GLB/telhado_teal_4m.tscn"
       ]
     },
     {
-      "caminho": "reference_lab/assets/GLB/telhado_vermelho_4m.glb",
+      "caminho": "reference_lab/assets/GLB/telhado_vermelho_4m.tscn",
       "tipo": "model",
       "tamanho_bytes": 23276,
       "sha256": "6023991c293fd8d7bd94e35b804a1f4b5990fd1a7c8ae265c88a2ba3595136eb",
@@ -12733,7 +12733,7 @@
       "nome_encontrado_em_codigo": false,
       "uso_em_runtime": "NAO_VERIFICADO",
       "duplicatas_mesmo_sha256": [
-        "collection/10_ARQUITETURA_GLB/telhado_vermelho_4m.glb"
+        "collection/10_ARQUITETURA_GLB/telhado_vermelho_4m.tscn"
       ]
     },
     {

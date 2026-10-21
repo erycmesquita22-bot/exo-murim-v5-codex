@@ -1,2 +1,7 @@
 .godot/
 **/.godot/
+
+.local-runtime/
+qa/v5/output/
+
+validation_r3/results/

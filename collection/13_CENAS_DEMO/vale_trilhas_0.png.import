@@ -2,13 +2,10 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7cnm4myeao8t"
+uid="uid://cmubh2vnkfep4"
 path="res://.godot/imported/vale_trilhas_0.png-1c9eab68c89dd143544c2ab604cb9435.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "e1bb72a1161d1ccbd1cf22e99d204fc2"
 }
 
 [deps]
@@ -26,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

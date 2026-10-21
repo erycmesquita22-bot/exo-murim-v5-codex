@@ -1,166 +1,166 @@
 {
   "swing": [
-    "martial_audio/katana_1",
-    "martial_audio/kungfu_air_4",
-    "martial_audio/katana_2",
-    "martial_audio/kungfu_air_8",
-    "martial_audio/katana_3"
+    "v5_generated/audio/fx_e4d5feab5d8063c6",
+    "v5_generated/audio/fx_89f8adb3d2ad5bf6",
+    "v5_generated/audio/fx_fd963596e4878856",
+    "v5_generated/audio/fx_0da3cfd9c8813007",
+    "v5_generated/audio/fx_afa674dc5ce04061"
   ],
   "punch": [
-    "martial_audio/kungfu_air_1",
-    "martial_audio/kungfu_air_2",
-    "martial_audio/kungfu_air_5",
-    "martial_audio/kungfu_air_6"
+    "v5_generated/audio/fx_d58631079b682d03",
+    "v5_generated/audio/fx_2bf531008441c758",
+    "v5_generated/audio/fx_240cd42b340e94ac",
+    "v5_generated/audio/fx_252bc96536caff4e"
   ],
   "arrow": [
-    "foley/bow_release_1",
-    "foley/bow_release_2"
+    "v5_generated/audio/fx_1d61938afb3e8c45",
+    "v5_generated/audio/fx_7c709d581978a9dd"
   ],
   "body_hit": [
-    "martial_audio/palm_a",
-    "martial_audio/palm_b"
+    "v5_generated/audio/fx_43d6d41233c99959",
+    "v5_generated/audio/fx_6fe17e0296d2b587"
   ],
   "fist_hit": [
-    "martial_audio/palm_a",
-    "martial_audio/palm_b",
-    "martial_audio/palm_c"
+    "v5_generated/audio/fx_43d6d41233c99959",
+    "v5_generated/audio/fx_6fe17e0296d2b587",
+    "v5_generated/audio/fx_2010bc5a3131875c"
   ],
   "metal_hit": [
-    "foley/impactMetal_light_000",
-    "foley/impactMetal_medium_000"
+    "v5_generated/audio/fx_dbf71f6dc8dbb45f",
+    "v5_generated/audio/fx_bace1860813fed3d"
   ],
   "wood_hit": [
-    "martial_audio/wood_punch"
+    "v5_generated/audio/fx_d80e6ed055f859a7"
   ],
   "hurt": [
-    "martial_audio/hurt_male"
+    "v5_generated/audio/fx_3f80b2254f59b5a0"
   ],
   "step": [
-    "foley/footstep00",
-    "foley/footstep01",
-    "foley/footstep02",
-    "foley/footstep03"
+    "v5_generated/audio/fx_e4b474915a08db7b",
+    "v5_generated/audio/fx_79ba099e27c6d775",
+    "v5_generated/audio/fx_5f2c30e6f3a7136e",
+    "v5_generated/audio/fx_640e95e1966b5ac8"
   ],
   "ui": [
-    "foley/bookFlip1"
+    "v5_generated/audio/fx_e9a40b275ad07d6a"
   ],
   "crossbow": [
-    "foley/bow_release_2"
+    "v5_generated/audio/fx_7c709d581978a9dd"
   ],
   "equip": [
-    "foley/drawKnife1"
+    "v5_generated/audio/fx_7276108db339f477"
   ],
   "skill_windup": [
-    "audio09/qi_prepare"
+    "v5_generated/audio/fx_288caee2eda202a8"
   ],
   "ice_release": [
-    "martial_audio/ice_cast"
+    "v5_generated/audio/fx_91cc8be2b2b913f7"
   ],
   "fogo": [
-    "martial_audio/fire_cast"
+    "v5_generated/audio/fx_26a4d405014b0c03"
   ],
   "gelo": [
-    "martial_audio/ice_cast"
+    "v5_generated/audio/fx_91cc8be2b2b913f7"
   ],
   "vento": [
-    "martial_audio/wind_qi"
+    "v5_generated/audio/fx_b76a54103f181218"
   ],
   "magia": [
-    "audio09/qi_release"
+    "v5_generated/audio/fx_575f34b52e124772"
   ],
   "summon": [
-    "audio09/summon"
+    "v5_generated/audio/fx_98c9ee90fb9cfa90"
   ],
   "leap": [
-    "martial_audio/kungfu_air_6"
+    "v5_generated/audio/fx_252bc96536caff4e"
   ],
   "landing": [
-    "foley/impactSoft_heavy_000"
+    "v5_generated/audio/fx_4af2ad0bcfa3f316"
   ],
   "boss_entry": [
-    "audio09/boss_entry"
+    "v5_generated/audio/fx_80daeb3c7fc411db"
   ],
   "boss_phase": [
-    "audio09/boss_phase"
+    "v5_generated/audio/fx_9cc9163c961139c3"
   ],
   "hit": [
-    "martial_audio/dry_punch"
+    "v5_generated/audio/fx_b62975cd7db88020"
   ],
   "mechanism": [
-    "foley/metalLatch"
+    "v5_generated/audio/fx_2558103323f5908f"
   ],
   "blunt_swing": [
-    "martial_audio/kungfu_air_3",
-    "martial_audio/kungfu_air_7"
+    "v5_generated/audio/fx_2a48e2fd9ab01f20",
+    "v5_generated/audio/fx_ca6f705842385dd3"
   ],
   "strong_hit": [
-    "martial_audio/heavy_a",
-    "martial_audio/heavy_b"
+    "v5_generated/audio/fx_9ff416e698648fb5",
+    "v5_generated/audio/fx_ce004ba23022fc01"
   ],
   "critical_hit": [
-    "martial_audio/critical_a"
+    "v5_generated/audio/fx_a89e181ec9c41e6c"
   ],
   "fatal_hit": [
-    "martial_audio/fatal_a"
+    "v5_generated/audio/fx_69b0a51069a44c2e"
   ],
   "blade_hit": [
-    "martial_audio/blade_a",
-    "martial_audio/blade_b"
+    "v5_generated/audio/fx_0c9235ef3760e25e",
+    "v5_generated/audio/fx_858083c75a856d95"
   ],
   "hurt_male": [
-    "martial_audio/hurt_male"
+    "v5_generated/audio/fx_3f80b2254f59b5a0"
   ],
   "hurt_female": [
-    "martial_audio/hurt_female"
+    "v5_generated/audio/fx_6cdd6c0669d5513b"
   ],
   "attack_male": [
-    "martial_audio/attack_male_a",
-    "martial_audio/attack_male_b"
+    "v5_generated/audio/fx_8fa65d099e7d5203",
+    "v5_generated/audio/fx_bc48669f6318207b"
   ],
   "chronicle_koto": [
-    "martial_audio/chronicle_koto"
+    "v5_generated/audio/fx_78dde213737e3a6e"
   ],
   "quest_complete": [
-    "audio09/quest_complete"
+    "v5_generated/audio/fx_36281288ea762585"
   ],
   "qi_hit": [
-    "martial_audio/qi_contact"
+    "v5_generated/audio/fx_728b69e7a2800ed6"
   ],
   "qi": [
-    "audio09/qi_release"
+    "v5_generated/audio/fx_575f34b52e124772"
   ],
   "terra": [
-    "martial_audio/earth_cast"
+    "v5_generated/audio/fx_d05453924eefe670"
   ],
   "evade": [
-    "martial_audio/kungfu_air_7"
+    "v5_generated/audio/fx_ca6f705842385dd3"
   ],
   "boss_prepare": [
-    "audio09/boss_prepare"
+    "v5_generated/audio/fx_f07998838cc34190"
   ],
   "boss_release": [
-    "audio09/boss_release"
+    "v5_generated/audio/fx_ad2878f2526d26d1"
   ],
   "boss_impact": [
-    "martial_audio/heavy_a",
-    "martial_audio/heavy_b"
+    "v5_generated/audio/fx_9ff416e698648fb5",
+    "v5_generated/audio/fx_ce004ba23022fc01"
   ],
   "exo_salto_cast": [
-    "exo_legacy/salto_cast"
+    "v5_generated/audio/fx_0e58ea5e8754f329"
   ],
   "exo_salto_impact": [
-    "exo_legacy/salto_impact"
+    "v5_generated/audio/fx_7ac46e6340969b41"
   ],
   "exo_salto_movement": [
-    "exo_audio/wind_break"
+    "v5_generated/audio/fx_c8171f58d9b830a6"
   ],
   "god_descent_low": [
-    "exo_legacy/astral_rupture"
+    "v5_generated/audio/fx_adcd159569f94f80"
   ],
   "god_descent_impact": [
-    "exo_legacy/energy_impact"
+    "v5_generated/audio/fx_a423df5626d66902"
   ],
   "god_descent_echo": [
-    "exo_audio/eco_eco_boss"
+    "v5_generated/audio/fx_f3786b12855bfe56"
   ]
 }

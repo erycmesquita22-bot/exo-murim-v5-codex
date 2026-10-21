@@ -1,7 +1,0 @@
-# Persistência, transações e rollback — R9
-
-**Implementado no código:** vínculo narrativo e matrícula R8 permanecem coordenados no único JourneySave; novos master IDs vêm do registro oficial LivingWorld. R9 guarda `martial_site_id`/`martial_school_id` nos NPCs gerados por um local validado e bloqueia criação retroativa nas regiões pré-R9. As ações Jade são stageadas pelo domínio oficial `exo_martial` (`record_action`), com recibo consumido uma única vez e reembolso do Qi/stamina de runtime se falhar o write. O ticket de técnica é stageado pela autoridade Cultivation e confirmado pelo Engine no mesmo único `world.save_progress()`, com restauração do snapshot em falha.
-
-**Não executado:** nenhuma falha de escrita, crash/reopen, rollback real ou consistência persistida de Qi/stamina foi testada na Godot. O runtime original gerencia a energia volátil, que pode restaurar em novo processo; corrigir na R10 se a validação evidenciar exploit. Não prometer durabilidade do recibo até comprovar o save real, não usar mocks de laboratório como resultado em produção.
-
-**Casos exigidos:** (a) falha antes do `record_action` (sem custo, sem crédito); (b) falha na escrita da ação (energia reembolsada, recibo revertido); (c) falha entre `finish_lesson` e unlock (ticket pendente recuperável); (d) falha no commit conjunto (Core known/learned e Martial ticket ambos revertidos); (e) dois unlocks da mesma técnica; (f) reabertura e recuperação após morte, saída de região e mudança de horário; (g) desativação/religamento das flags sem deletar dados.

@@ -1,0 +1,28 @@
+{
+  "id": "npc_system04",
+  "version": "0.4.1",
+  "engine": "Godot 4.6.2 Standard / Compatibility",
+  "service": "npc04.runtime",
+  "entrypoint": "res://npc_system04/module.gd",
+  "actor": "res://npc_system04/actor.gd",
+  "director": "res://npc_system04/director.gd",
+  "actual_authorities": {
+    "ids_roster_and_persona": "living_world",
+    "live_actor_and_schedule": "npc_system04",
+    "routes_and_stations": "WorldGenesis/City Forge/Occupancy",
+    "rig_visual_and_equipment": "Rig/Wardrobe/Humanoids R10",
+    "narrative_bonds": "narrative",
+    "transactions": "exo_economy",
+    "martial_training": "martial_host_r8",
+    "save_commit": "convergence/game.gd -> Core Persistence"
+  },
+  "restrictions": [
+    "no_second_wallet",
+    "no_second_story_database",
+    "no_new_save_writer",
+    "no_synthetic_navigation_graph"
+  ],
+  "real_host_required": true,
+  "native_qa": "NOT_RUN",
+  "integration": "Core facade + live director/actor + SettlementForge routes"
+}

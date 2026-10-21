@@ -151,10 +151,13 @@ func release() -> void:
 		return
 	world.audio_fx.skill(casting)
 	var color:=color_for(casting)
-	var effect:=preload("res://qi_effect.gd").new()
-	world.add_child(effect)
-	effect.position=world.player.position+Vector3(0,.15,0)
-	effect.setup(color,str(casting.kind))
+	var bound_visual: bool=false
+	if world.get("vfx_host_v5")!=null:bound_visual=world.vfx_host_v5.release(casting)
+	if not bound_visual:
+		var effect:=preload("res://qi_effect.gd").new()
+		world.add_child(effect)
+		effect.position=world.player.position+Vector3(0,.15,0)
+		effect.setup(color,str(casting.kind))
 	match str(casting.kind):
 		"cut":
 			launch(casting,direction,7 if world.peak_power() else 4,12,false)

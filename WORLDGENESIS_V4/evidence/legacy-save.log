@@ -1,6 +1,0 @@
-Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
-
-WG4_CHECK core true
-WG4_CHECK old_save_stays_c3 true
-WG4_CHECK old_region_and_services true
-WG4_PHYSICAL_RESULT {"checks":3,"failures":[],"legacy":true,"reopen":false}

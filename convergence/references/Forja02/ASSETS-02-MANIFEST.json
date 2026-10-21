@@ -1,7 +1,7 @@
 [
   {
     "id": "facade_lattice_2m",
-    "file": "models/forja_v2/facade_lattice_2m.glb",
+    "file": "models/forja_v2/facade_lattice_2m.tscn",
     "collision": "none",
     "category": "facade",
     "usage": "ornamental screened front wall",
@@ -22,7 +22,7 @@
   },
   {
     "id": "shop_hanging_sign",
-    "file": "models/forja_v2/shop_hanging_sign.glb",
+    "file": "models/forja_v2/shop_hanging_sign.tscn",
     "collision": "none",
     "category": "facade",
     "usage": "hanging horizontal merchants sign without lettering",
@@ -43,7 +43,7 @@
   },
   {
     "id": "market_cloth_awning_2m",
-    "file": "models/forja_v2/market_cloth_awning_2m.glb",
+    "file": "models/forja_v2/market_cloth_awning_2m.tscn",
     "collision": "none",
     "category": "facade",
     "usage": "cloth awning for commerce",
@@ -64,7 +64,7 @@
   },
   {
     "id": "merchant_counter_2m",
-    "file": "models/forja_v2/merchant_counter_2m.glb",
+    "file": "models/forja_v2/merchant_counter_2m.tscn",
     "collision": "box_static",
     "category": "facade",
     "usage": "shop counter",
@@ -85,7 +85,7 @@
   },
   {
     "id": "silk_vertical_banner",
-    "file": "models/forja_v2/silk_vertical_banner.glb",
+    "file": "models/forja_v2/silk_vertical_banner.tscn",
     "collision": "none",
     "category": "facade",
     "usage": "wuxia cloth banner",
@@ -106,7 +106,7 @@
   },
   {
     "id": "slatted_window_shutter",
-    "file": "models/forja_v2/slatted_window_shutter.glb",
+    "file": "models/forja_v2/slatted_window_shutter.tscn",
     "collision": "none",
     "category": "facade",
     "usage": "wood exterior window shutter",
@@ -127,7 +127,7 @@
   },
   {
     "id": "roof_tile_eave_2m",
-    "file": "models/forja_v2/roof_tile_eave_2m.glb",
+    "file": "models/forja_v2/roof_tile_eave_2m.tscn",
     "collision": "none",
     "category": "architecture",
     "usage": "roof tile eave trim",
@@ -148,7 +148,7 @@
   },
   {
     "id": "roof_ridge_finial",
-    "file": "models/forja_v2/roof_ridge_finial.glb",
+    "file": "models/forja_v2/roof_ridge_finial.tscn",
     "collision": "none",
     "category": "architecture",
     "usage": "upturned roof ridge ornament",
@@ -169,7 +169,7 @@
   },
   {
     "id": "paired_pillar_plinths",
-    "file": "models/forja_v2/paired_pillar_plinths.glb",
+    "file": "models/forja_v2/paired_pillar_plinths.tscn",
     "collision": "box_static",
     "category": "architecture",
     "usage": "entrance foundations",
@@ -190,7 +190,7 @@
   },
   {
     "id": "tea_table_with_stools",
-    "file": "models/forja_v2/tea_table_with_stools.glb",
+    "file": "models/forja_v2/tea_table_with_stools.tscn",
     "collision": "box_static",
     "category": "furniture",
     "usage": "tea-house furniture set",
@@ -211,7 +211,7 @@
   },
   {
     "id": "tea_ceramic_shelf",
-    "file": "models/forja_v2/tea_ceramic_shelf.glb",
+    "file": "models/forja_v2/tea_ceramic_shelf.tscn",
     "collision": "none",
     "category": "furniture",
     "usage": "decorative ceramics on shelf",
@@ -232,7 +232,7 @@
   },
   {
     "id": "blacksmith_forge_hearth",
-    "file": "models/forja_v2/blacksmith_forge_hearth.glb",
+    "file": "models/forja_v2/blacksmith_forge_hearth.tscn",
     "collision": "box_static",
     "category": "workshop",
     "usage": "smith forge with hearth and smoke hood",
@@ -253,7 +253,7 @@
   },
   {
     "id": "blacksmith_anvil",
-    "file": "models/forja_v2/blacksmith_anvil.glb",
+    "file": "models/forja_v2/blacksmith_anvil.tscn",
     "collision": "box_static",
     "category": "workshop",
     "usage": "metal anvil on timber pedestal",
@@ -274,7 +274,7 @@
   },
   {
     "id": "smith_tool_rack",
-    "file": "models/forja_v2/smith_tool_rack.glb",
+    "file": "models/forja_v2/smith_tool_rack.tscn",
     "collision": "none",
     "category": "workshop",
     "usage": "hand tools on wall rack",
@@ -295,7 +295,7 @@
   },
   {
     "id": "herb_drying_rack",
-    "file": "models/forja_v2/herb_drying_rack.glb",
+    "file": "models/forja_v2/herb_drying_rack.tscn",
     "collision": "none",
     "category": "workshop",
     "usage": "medicine herb bunches drying",
@@ -316,7 +316,7 @@
   },
   {
     "id": "timber_handcart",
-    "file": "models/forja_v2/timber_handcart.glb",
+    "file": "models/forja_v2/timber_handcart.tscn",
     "collision": "box_static",
     "category": "street",
     "usage": "merchant handcart",
@@ -337,7 +337,7 @@
   },
   {
     "id": "woven_market_baskets",
-    "file": "models/forja_v2/woven_market_baskets.glb",
+    "file": "models/forja_v2/woven_market_baskets.tscn",
     "collision": "none",
     "category": "street",
     "usage": "paired produce baskets",
@@ -358,7 +358,7 @@
   },
   {
     "id": "grain_sack_stack",
-    "file": "models/forja_v2/grain_sack_stack.glb",
+    "file": "models/forja_v2/grain_sack_stack.tscn",
     "collision": "box_static",
     "category": "street",
     "usage": "stacked rough linen grain bags",
@@ -379,7 +379,7 @@
   },
   {
     "id": "village_water_well",
-    "file": "models/forja_v2/village_water_well.glb",
+    "file": "models/forja_v2/village_water_well.tscn",
     "collision": "box_static",
     "category": "street",
     "usage": "stone village well with lifting frame",
@@ -400,7 +400,7 @@
   },
   {
     "id": "well_water_bucket",
-    "file": "models/forja_v2/well_water_bucket.glb",
+    "file": "models/forja_v2/well_water_bucket.tscn",
     "collision": "none",
     "category": "street",
     "usage": "wooden bucket with metal hoops",
@@ -421,7 +421,7 @@
   },
   {
     "id": "courtyard_wall_2m",
-    "file": "models/forja_v2/courtyard_wall_2m.glb",
+    "file": "models/forja_v2/courtyard_wall_2m.tscn",
     "collision": "box_static",
     "category": "courtyard",
     "usage": "courtyard perimeter wall",
@@ -442,7 +442,7 @@
   },
   {
     "id": "courtyard_entry_gate",
-    "file": "models/forja_v2/courtyard_entry_gate.glb",
+    "file": "models/forja_v2/courtyard_entry_gate.tscn",
     "collision": "box_static",
     "category": "courtyard",
     "usage": "open courtyard gate (2.25m opening)",
@@ -463,7 +463,7 @@
   },
   {
     "id": "stone_garden_lantern",
-    "file": "models/forja_v2/stone_garden_lantern.glb",
+    "file": "models/forja_v2/stone_garden_lantern.tscn",
     "collision": "box_static",
     "category": "courtyard",
     "usage": "stone courtyard lantern",
@@ -484,7 +484,7 @@
   },
   {
     "id": "bronze_incense_burner",
-    "file": "models/forja_v2/bronze_incense_burner.glb",
+    "file": "models/forja_v2/bronze_incense_burner.tscn",
     "collision": "none",
     "category": "courtyard",
     "usage": "bronze incense burner",
@@ -505,7 +505,7 @@
   },
   {
     "id": "stone_courtyard_paving_2m",
-    "file": "models/forja_v2/stone_courtyard_paving_2m.glb",
+    "file": "models/forja_v2/stone_courtyard_paving_2m.tscn",
     "collision": "none",
     "category": "courtyard",
     "usage": "rough square courtyard pavers",
@@ -526,7 +526,7 @@
   },
   {
     "id": "public_timber_bench",
-    "file": "models/forja_v2/public_timber_bench.glb",
+    "file": "models/forja_v2/public_timber_bench.tscn",
     "collision": "box_static",
     "category": "street",
     "usage": "street and veranda bench",
@@ -547,7 +547,7 @@
   },
   {
     "id": "bamboo_planter_box",
-    "file": "models/forja_v2/bamboo_planter_box.glb",
+    "file": "models/forja_v2/bamboo_planter_box.tscn",
     "collision": "none",
     "category": "nature_detail",
     "usage": "bamboo sprigs inside wood planter",
@@ -568,7 +568,7 @@
   },
   {
     "id": "short_wooden_footbridge",
-    "file": "models/forja_v2/short_wooden_footbridge.glb",
+    "file": "models/forja_v2/short_wooden_footbridge.tscn",
     "collision": "box_static",
     "category": "street",
     "usage": "small garden drainage crossing",
@@ -589,7 +589,7 @@
   },
   {
     "id": "covered_market_stall",
-    "file": "models/forja_v2/covered_market_stall.glb",
+    "file": "models/forja_v2/covered_market_stall.tscn",
     "collision": "box_static",
     "category": "market",
     "usage": "open market stall with textile roof",
@@ -610,7 +610,7 @@
   },
   {
     "id": "herbalist_medicine_jars",
-    "file": "models/forja_v2/herbalist_medicine_jars.glb",
+    "file": "models/forja_v2/herbalist_medicine_jars.tscn",
     "collision": "none",
     "category": "market",
     "usage": "three labeled ceramic jars",
@@ -631,7 +631,7 @@
   },
   {
     "id": "veranda_bamboo_railing_2m",
-    "file": "models/forja_v2/veranda_bamboo_railing_2m.glb",
+    "file": "models/forja_v2/veranda_bamboo_railing_2m.tscn",
     "collision": "box_static",
     "category": "architecture",
     "usage": "wood porch low railing",
@@ -652,7 +652,7 @@
   },
   {
     "id": "village_grain_millstone",
-    "file": "models/forja_v2/village_grain_millstone.glb",
+    "file": "models/forja_v2/village_grain_millstone.tscn",
     "collision": "box_static",
     "category": "workshop",
     "usage": "hand-powered circular stone mill",
@@ -673,7 +673,7 @@
   },
   {
     "id": "village_drying_lines",
-    "file": "models/forja_v2/village_drying_lines.glb",
+    "file": "models/forja_v2/village_drying_lines.tscn",
     "collision": "none",
     "category": "street",
     "usage": "hanging produce and herb bundles",
@@ -694,7 +694,7 @@
   },
   {
     "id": "low_courtyard_fence_gate",
-    "file": "models/forja_v2/low_courtyard_fence_gate.glb",
+    "file": "models/forja_v2/low_courtyard_fence_gate.tscn",
     "collision": "box_static",
     "category": "courtyard",
     "usage": "gate panel with slatted rail",

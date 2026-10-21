@@ -106,7 +106,7 @@ static func build(parent: Node3D, plan: Dictionary, reservation_receipt: Diction
 		var aid: String = str(item.get("asset", ""))
 		if aid.is_empty() or not table.has(aid): return {"ok": false, "code": "uncataloged_asset", "asset": aid}
 		if not cache.has(aid):
-			var resource: Resource = load(ASSET_PATH + aid + ".glb")
+			var resource: Resource = load(ASSET_PATH + aid + ".tscn")
 			if not (resource is PackedScene): return {"ok": false, "code": "unimported_asset", "asset": aid}
 			cache[aid] = resource
 	var root := Node3D.new()

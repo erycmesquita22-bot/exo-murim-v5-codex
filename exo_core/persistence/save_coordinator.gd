@@ -15,15 +15,15 @@ func _migration_backup(path: String) -> bool:
  if not FileAccess.file_exists(path):return true
  var snapshot: String=FileAccess.get_file_as_string(path)
  if snapshot.is_empty():return false
- var source_decoded: Variant=JSON.parse_string(snapshot)
+ var source_decoded: Variant=_decode_json(snapshot)
  if not source_decoded is Dictionary or int(source_decoded.get("version",-1))!=4:return false
  if not source_decoded.get("world") is Dictionary or not WorldSeed.valid(source_decoded.world):return false
  var backup: String=path+".pre-corep01.json"
  if FileAccess.file_exists(backup):
   var previous_backup: String=FileAccess.get_file_as_string(backup)
   if previous_backup.is_empty():return false
-  var parsed_backup: Variant=JSON.parse_string(previous_backup)
-  var parsed_source: Variant=JSON.parse_string(snapshot)
+  var parsed_backup: Variant=_decode_json(previous_backup)
+  var parsed_source: Variant=_decode_json(snapshot)
   if not parsed_backup is Dictionary or not parsed_source is Dictionary:return false
   if int(parsed_backup.get("version",-1))!=4 or int(parsed_source.get("version",-1))!=4:return false
   if not parsed_backup.get("world") is Dictionary or not parsed_source.get("world") is Dictionary:return false
@@ -77,3 +77,8 @@ func commit(save: RefCounted) -> bool:
  if not ok:save.data=before
  busy=false
  return ok
+
+static func _decode_json(text: String) -> Variant:
+ var parser:=JSON.new()
+ if parser.parse(text)!=OK:return null
+ return parser.data

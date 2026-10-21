@@ -2,8 +2,9 @@ extends "res://main.gd"
 const AtlasPlanner=preload("res://genesis/world_planner.gd")
 const RegionalData=preload("res://genesis/region_data.gd")
 const IntegratedRegion=preload("res://convergence/region.gd")
-const Resident=preload("res://convergence/resident.gd")
-const NPCDirector=preload("res://npc_system02/director.gd")
+const WG5Atlas=preload("res://worldgen_v5/runtime/atlas_gate.gd")
+const Resident=preload("res://npc_system04/actor.gd")
+const NPCDirector=preload("res://npc_system04/director.gd")
 const LivingBridge=preload("res://living_world/bridge.gd")
 const LivingState=preload("res://living_world/state.gd")
 const WorldClock=preload("res://ai_core/world_clock.gd")
@@ -16,6 +17,7 @@ var active_region: Node3D
 var current_region: int=-1
 var changing_region:=false
 var region_commit_staged:bool=false
+var lifecycle_epoch: int=0
 var residents: Array=[]
 var npc_director: Variant
 var legacy_enemies: Array=[]
@@ -31,6 +33,8 @@ var ecology_director: RefCounted
 var journey_manager: RefCounted
 const HOME_GATE=Vector3(0,.1,43)
 const INSTITUTIONAL_SCENE=preload("res://exo_monumental/scenes/hall_interior.tscn")
+var vfx_host_v5: RefCounted
+var wg5_visit: Variant
 var institutional_root: Node3D
 var institutional_portal: Dictionary={}
 var institutional_cooldown:float=0.0
@@ -39,6 +43,10 @@ var economy_host_v4: RefCounted
 var martial_host_r8: RefCounted
 func _ready() -> void:
 	super._ready()
+	if true:
+		wg5_visit=preload("res://worldgen_v5/runtime/visit_host.gd").new(self)
+		wg5_visit.name="WG5_VisitHost"
+		add_child(wg5_visit)
 	npc_director=NPCDirector.new(self)
 	if is_instance_valid(player):player.collision_mask=player.collision_mask|8
 	ecology_director=EcologyDirector.new(self)
@@ -65,6 +73,8 @@ func _ready() -> void:
 	activation_v4=preload("res://convergence4/activation.gd").new(self)
 	activation_v4.initialize()
 	bestiary_v4=preload("res://convergence4/bestiary_host.gd").new(self)
+	vfx_host_v5=preload("res://convergence/vfx_host_v5.gd").new()
+	if not vfx_host_v5.initialize(self):push_error("v5_vfx_host_binding_failed")
 	convergence_ready=true
 	if journey.data.has("convergence") and flow.phase=="adventure":call_deferred("restore_region")
 var bestiary_v4:RefCounted
@@ -90,6 +100,11 @@ func ensure_atlas() -> bool:
 		atlas=preload("res://genesis/v4/world_plan.gd").decorate(atlas,str(journey.data.world.id),exo_core)
 		state.atlas=atlas.duplicate(true)
 	if not preload("res://genesis/v4/world_plan.gd").valid_atlas(atlas):generation_failure="invalid_worldgen_v4_atlas";return false
+	if wg5_visit!=null:
+		var wg5_gate:Dictionary=WG5Atlas.validate(atlas)
+		if not bool(wg5_gate.get("ok",false)):
+			generation_failure="WG5 atlas gate: "+str(wg5_gate.get("errors",[]))
+			return false
 	return AtlasPlanner.validate(atlas).is_empty()
 func legacy_active(value: bool) -> void:
 	for node in region_nodes:
@@ -106,6 +121,7 @@ func legacy_active(value: bool) -> void:
 		actor.visible=value and actor.hp>0;actor.collision_layer=4 if value and actor.hp>0 else 0
 	enemies.assign(legacy_enemies if value else [])
 func restore_region() -> void:
+	var restore_epoch: int=lifecycle_epoch
 	if not ensure_atlas():return
 	var state: Dictionary=extension();var rid: int=int(state.current);var point: Array=state.position.duplicate()
 	if rid>=0:
@@ -113,10 +129,12 @@ func restore_region() -> void:
 		var opened: bool=await change_region(rid,"")
 		restoring_region=false
 		if not opened or not is_instance_valid(active_region):return
+		var restored_region: Node3D=active_region
 		# The staged region was relocated on commit. Synchronize broadphase before
 		# querying any saved exterior or interior recovery anchor.
 		await get_tree().physics_frame
 		await get_tree().physics_frame
+		if restore_epoch!=lifecycle_epoch or not is_instance_valid(restored_region) or active_region!=restored_region:return
 		_restore_r10_energy()
 		if point.size()==3:
 			var saved:=Vector3(point[0],point[1],point[2])
@@ -126,10 +144,15 @@ func restore_region() -> void:
 		# validated anchor before normal exploration; no interior respawn shortcut.
 		_recover_dungeon_visit_after_region_load()
 		_restore_institutional_after_region_load()
+		if wg5_visit!=null:
+			var visit:Dictionary=extension().get("worldgen_v5_visit",{})
+			if bool(visit.get("inside",false)):
+				if not wg5_visit.restore_saved_visit(visit):
+					push_warning("WG5 saved interior invalid: safe exterior recovery; preserve original save for audit")
 func snapshot_region() -> void:
 	# NEVER persist interior coordinates as exterior coordinates. Also do not
 	# overwrite a stored checkpoint while current_region is still the legacy boot.
-	if region_commit_staged or not convergence_ready or current_region<0 or _dungeon_inside() or _institutional_inside():return
+	if region_commit_staged or not convergence_ready or current_region<0 or _dungeon_inside() or _institutional_inside() or (wg5_visit!=null and wg5_visit.inside()):return
 	var state: Dictionary=extension()
 	state.current=current_region;state.position=[player.position.x,player.position.y,player.position.z]
 	for actor in residents:state.actors[actor.identity.id]=actor.snapshot(float(state.clock))
@@ -144,6 +167,8 @@ func save_progress() -> bool:
 	if convergence_ready:
 		if activation_v4!=null:activation_v4.prepare_save()
 		_record_institutional_save_position()
+		if wg5_visit!=null:
+			extension()["worldgen_v5_visit"]=wg5_visit.snapshot()
 		snapshot_region()
 		# Save the authoritative meter values; never infer expenditure from a lesson ticket.
 		if flow!=null and flow.phase=="adventure" and is_finite(techniques.mana) and is_finite(techniques.stamina):
@@ -166,6 +191,7 @@ func _restore_r10_energy() -> void:
 	techniques.mana=qi;techniques.stamina=st
 
 func regional_spawn(region: Node3D,point: Vector3) -> Vector3:
+	if not is_instance_valid(region) or not point.is_finite() or not is_instance_valid(player):return Vector3.INF
 	var query:=PhysicsRayQueryParameters3D.create(point+region.position+Vector3(0,6,0),point+region.position-Vector3(0,12,0),1)
 	var hit: Dictionary=get_world_3d().direct_space_state.intersect_ray(query)
 	if hit.is_empty():return Vector3.INF
@@ -175,7 +201,7 @@ func regional_spawn(region: Node3D,point: Vector3) -> Vector3:
 	if not get_world_3d().direct_space_state.intersect_shape(probe).is_empty():return Vector3.INF
 	return result-region.position
 func change_region(rid: int,gate_id: String="") -> bool:
-	if _dungeon_inside() or _institutional_inside():return false
+	if _dungeon_inside() or _institutional_inside() or (wg5_visit!=null and wg5_visit.inside()):return false
 	if changing_region or flow.phase!="adventure" or not ensure_atlas():return false
 	if rid<0 or rid>=88:return false
 	# Candidate construction consumes Library choices (e.g. city pavement theme).
@@ -213,6 +239,13 @@ func change_region(rid: int,gate_id: String="") -> bool:
 	await get_tree().physics_frame
 	await get_tree().physics_frame
 	var desired:=Vector3(0,data.center_h+.08,0)
+	if gate_id.is_empty() and candidate.has_meta("worldgen_v5_plan"):
+		var city_plan: Dictionary=candidate.get_meta("worldgen_v5_plan")
+		for building in city_plan.get("buildings",[]):
+			if str(building.function) in ["inn","market"]:
+				var anchor: Array=building.return_anchor
+				desired=Vector3(anchor[0],anchor[1],anchor[2])+Vector3(0,.08,0)
+				break
 	for gate in data.gates:
 		if gate.id==gate_id:
 			var p: Vector2=data.handoff_point(gate)-gate.p.normalized()*10
@@ -234,6 +267,10 @@ func change_region(rid: int,gate_id: String="") -> bool:
 			for lot in data.lots:
 				if lot.id==person.work_slot:
 					person["occupation"]=lot.function;person["service"]=preload("res://convergence/occupancy.gd").SERVICES.get(lot.function,"convivência")
+	if candidate.has_meta("worldgen_v5_service"):
+		var settlement: Variant=candidate.get_meta("worldgen_v5_service")
+		if not settlement.bind_roster(people):
+			journey.data=before_travel;candidate.free();generation_failure="settlement_roster_contract";changing_region=false;simulation_enabled=true;return false
 	# Keep the old scene and all actors until the sole save authority commits.
 	snapshot_region()
 	# Pin the accepted zoning result on the same authorized JourneySave write.
@@ -266,11 +303,12 @@ func change_region(rid: int,gate_id: String="") -> bool:
 	if is_instance_valid(active_region):active_region.free()
 	legacy_active(false)
 	active_region=candidate;active_region.position=Vector3.ZERO;active_region.visible=true;current_region=rid
+	if wg5_visit!=null:wg5_visit.attach_region(active_region)
 	# Visual only: do not replan the region or alter collision/navigation.
 	if graphics!=null:graphics.apply()
 	resident_roof_occluders.clear();resident_visibility_clock=0.0
 	for holder in candidate.props:
-		var roof: Node3D=holder.get_child(0).get_node_or_null("StaticRoofVisual")
+		var roof: Node3D=holder.get_node_or_null("StaticRoofVisual")
 		if roof is MeshInstance3D:resident_roof_occluders.append(roof)
 	player.position=spawn;player.velocity=Vector3.ZERO;pending_ground_check=false;spawn_recovery_done=true
 	activate_regional_encounter(data)
@@ -279,6 +317,7 @@ func change_region(rid: int,gate_id: String="") -> bool:
 	for person in people:
 		var actor:=Resident.new();add_child(actor)
 		actor.setup(person,candidate.route_points[person.home_slot],extension().actors.get(person.id,{}),candidate.resident_routes(person,people),float(extension().clock),str(atlas.seed));residents.append(actor)
+	active_region.set_meta("npc04_bound",residents.all(func(a):return a.setup_error.is_empty()))
 	# C3 physical host approves only sampled materialized lanes, after save commit.
 	if bool(ProjectSettings.get_setting("exo_murim/crowd/enable",false)) and exo_core.services.has_service("crowd.illusion"):
 		await get_tree().physics_frame
@@ -288,8 +327,6 @@ func change_region(rid: int,gate_id: String="") -> bool:
 		active_region.set_meta("v4_crowd_check",geometry)
 		if bool(geometry.get("ok",false)):
 			active_region.set_meta("v4_crowd_attach",exo_core.services.invoke("crowd.illusion","attach_region",[active_region]))
-	if exo_core.services.has_service("npc03.agenda") and not people.is_empty():
-		active_region.set_meta("v4_npc_agenda_proposal",exo_core.services.invoke("npc03.agenda","agenda_for",[people[0],float(extension().clock),{}]))
 	if exo_core.services.has_service("content.library"):
 		var library_context:Dictionary={"world_id":str(journey.data.world.id),"seed":journey.data.world.seed,"region_id":rid,"biome":str(data.spec.get("biome","grassland")),"flags":[],"tags":[],"player_tier":1}
 		active_region.set_meta("v4_npc_authorial_proposal",exo_core.services.invoke("content.library","preview",["living_world",library_context,["npc_archetype","npc_motivation","personality","social_custom"]]))
@@ -303,6 +340,7 @@ func change_region(rid: int,gate_id: String="") -> bool:
 	update_camera();message("Região %02d • %s • %d construções"%[rid,region_title(data.spec),candidate.props.size()])
 	return true
 func return_home() -> void:
+	if wg5_visit!=null and wg5_visit.inside():return
 	if changing_region or _institutional_inside():return
 	snapshot_region()
 	if exo_core!=null and current_region>=0:
@@ -318,6 +356,12 @@ var resident_roof_occluders: Array=[]
 func _physics_process(delta: float) -> void:
 	if changing_region:return
 	super._physics_process(delta)
+	if wg5_visit!=null and wg5_visit.inside():
+		autosave_time+=delta
+		if autosave_time>20.0:
+			autosave_time=0.0
+			save_progress()
+		return
 	if graphics!=null:graphics.tick(delta)
 	if not convergence_ready or flow.phase!="adventure":return
 	if activation_v4!=null:activation_v4.tick(delta)
@@ -374,6 +418,7 @@ func resident_is_visible(actor: Node3D) -> bool:
 	# Whole-body visibility: physics walls plus the real batched roof bounds.
 	# Roofs deliberately have no gameplay collider, so physics-only rays miss them.
 	if actor.sheltered:return false
+	if actor.can_interact(player.global_position,3.0):return true
 	for height in [.4,1.2,1.8]:
 		var target: Vector3=actor.global_position+Vector3.UP*height
 		if not camera.is_position_in_frustum(target):return false
@@ -410,6 +455,9 @@ func interact() -> void:
 		super.interact();return
 	if get_tree().paused or not player.is_on_floor() or attack_time>=0 or roll_time>=0 or techniques.busy() or interaction_cooldown>0:return
 	if gate_cooldown>0:return
+	if wg5_visit!=null and wg5_visit.inside():
+		if wg5_visit.try_interact():interaction_cooldown=.5
+		return
 	if _institutional_inside():
 		if not _near_institutional_exit():return
 		interaction_cooldown=.5
@@ -423,6 +471,9 @@ func interact() -> void:
 			change_region(86 if str(extension().atlas_seed)=="101" else starting_region());return
 		super.interact();return
 	interaction_cooldown=.5
+	if wg5_visit!=null and wg5_visit.inside():
+		wg5_visit.try_interact()
+		return
 	if _dungeon_inside():
 		var interaction: Variant=exo_core.services.invoke("dungeons","interact_active") if exo_core!=null else null
 		if interaction is Dictionary and bool(interaction.get("ok",false)):
@@ -433,6 +484,7 @@ func interact() -> void:
 		var enter:Dictionary=_enter_institutional_interior(institutional)
 		message("Interior institucional" if bool(enter.get("ok",false)) else "Entrada bloqueada: "+str(enter.get("code","unknown")))
 		return
+	if wg5_visit!=null and _near_resident(2.0)==null and wg5_visit.try_interact():return
 	var dungeon_entrance: Dictionary=_near_dungeon_entrance()
 	if not dungeon_entrance.is_empty():
 		var entry: Variant=exo_core.services.invoke("dungeons","enter_instance",[dungeon_entrance.descriptor,dungeon_entrance.anchor]) if exo_core!=null else null
@@ -447,14 +499,20 @@ func interact() -> void:
 	var interaction_order: Array=residents.duplicate()
 	interaction_order.sort_custom(func(a,b):return a.position.distance_squared_to(player.position)<b.position.distance_squared_to(player.position))
 	for actor in interaction_order:
-		if actor.rig.visible and player.position.distance_to(actor.position)<3:
+		if actor.can_interact(player.global_position,3.0):
+			if exo_core!=null:
+				var delivery: Dictionary=exo_core.publish("npc_interacted","talk/"+str(actor.identity.id)+"/"+str(journey.data.exo_core.sequence),{"npc_id":str(actor.identity.id)})
+				if not bool(delivery.get("ok",false)):
+					message("Interação não confirmada pelo Core.");return
 			actor.paused_for_talk=4;actor.talks+=1;npc_interactions+=1
+			if not save_progress():
+				actor.talks-=1;npc_interactions-=1
+				message("Não foi possível salvar a interação.");return
 			# Real master NPC physically accessible at a real, reserved Monumental station.
 			if martial_host_r8!=null and martial_host_r8.handle_master_interaction(actor):
 				return
 			if economy_host_v4!=null and economy_host_v4.handle_interaction(actor):return
 			actor.rig.rotation.y=atan2(actor.position.x-player.position.x,actor.position.z-player.position.z)
-			if exo_core!=null:exo_core.publish("npc_interacted","talk/"+str(actor.identity.id)+"/"+str(journey.data.exo_core.sequence),{"npc_id":str(actor.identity.id)})
 			var offers_text: String=""
 			if journey_manager!=null:
 				var offers: Array=journey_manager.options(actor.identity)
@@ -492,7 +550,7 @@ func _near_institutional_portal() -> Dictionary:
 	if current_region<0 or not is_instance_valid(active_region) or not is_instance_valid(player) or _institutional_inside() or _dungeon_inside():return {}
 	for portal in active_region.monument_portals:
 		var at:Vector3=portal.get("entrance_world",Vector3.INF)
-		if at.is_finite() and player.position.distance_to(at)<(1.7 if portal.get("source")=="interior_forge_r2" else 3.7):return portal
+		if at.is_finite() and player.position.distance_to(at)<3.7:return portal
 	return {}
 
 # Only the interior's authored return marker can authorize a voluntary exit.
@@ -500,7 +558,7 @@ func _near_institutional_portal() -> Dictionary:
 func _near_institutional_exit() -> bool:
 	if not _institutional_inside() or not is_instance_valid(player):
 		return false
-	var anchor_name: String = "InteriorExit" if institutional_portal.get("source") == "interior_forge_r2" else "InteriorReturn"
+	var anchor_name: String = "InteriorReturn"
 	var anchor: Node3D = institutional_root.get_node_or_null(anchor_name) as Node3D
 	if not is_instance_valid(anchor):
 		return false
@@ -523,8 +581,7 @@ func _record_institutional_save_position() -> void:
 
 func _institutional_cleanup() -> void:
 	if is_instance_valid(institutional_root):
-		if institutional_portal.get("source")=="interior_forge_r2":institutional_root.visible=false
-		else:institutional_root.queue_free()
+		institutional_root.queue_free()
 	institutional_root=null
 	institutional_portal={}
 
@@ -537,18 +594,10 @@ func _enter_institutional_interior(portal:Dictionary,restoring:bool=false) -> Di
 	var outside:Vector3=player.position
 	snapshot_region()
 	var hall:Node3D
-	if portal.get("source")=="interior_forge_r2":
-		if not preload("res://convergence4/interiors.gd").authorize(self,portal,restoring):
-			journey.data=before_data
-			return {"ok":false,"code":"interior_forge_authorization"}
-		hall=portal.prepared_root;hall.visible=true
-		if not activation_v4.state().has("interiors"):activation_v4.state().interiors={}
-		activation_v4.state().interiors[str(portal.site_id)]=portal.selection_receipt.duplicate(true)
-	else:
-		hall=INSTITUTIONAL_SCENE.instantiate()
-		hall.set("interior_id",str(portal.get("interior_id","martial_hall")))
-		hall.set("parent_site_id",str(portal.get("site_id","")))
-		hall.position=Vector3(1080.0,32.0,0.0);add_child(hall)
+	hall=INSTITUTIONAL_SCENE.instantiate()
+	hall.set("interior_id",str(portal.get("interior_id","martial_hall")))
+	hall.set("parent_site_id",str(portal.get("site_id","")))
+	hall.position=Vector3(1080.0,32.0,0.0);add_child(hall)
 	if not is_instance_valid(hall):journey.data=before_data;return {"ok":false,"code":"scene_invalid"}
 	institutional_root=hall
 	institutional_portal=portal.duplicate(true)
@@ -653,8 +702,14 @@ func starting_region() -> int:
 		if spec.kind=="settlement" and spec.settlement_scale=="village":return int(spec.id)
 	return 0
 func interaction_hint() -> String:
+	if wg5_visit!=null and wg5_visit.inside():return wg5_visit.interaction_hint()
 	if _institutional_inside():return "E • Sair do interior" if _near_institutional_exit() else ""
 	if not _near_institutional_portal().is_empty():return "E • Entrar no edifício"
+	var nearby: Node3D=_near_resident(2.0)
+	if nearby!=null:return "E • Conversar com "+str(nearby.identity.display_name)
+	if wg5_visit!=null:
+		var door_hint:String=wg5_visit.interaction_hint()
+		if not door_hint.is_empty():return door_hint
 	if _dungeon_inside():
 		var hint: Variant=exo_core.services.invoke("dungeons","interaction_hint")
 		return str(hint) if hint!=null else "Explore o interior"
@@ -665,7 +720,7 @@ func interaction_hint() -> String:
 	for point in active_region.get_meta("wg4_landmarks",[]):
 		if point.get("approved",false) and player.position.distance_to(point.point)<2.8:return "E • Examinar "+str(point.title)
 	for actor in residents:
-		if actor.rig.visible and player.position.distance_to(actor.position)<3:return "E • Conversar com "+str(actor.identity.display_name)
+		if actor.can_interact(player.global_position,3.0):return "E • Conversar com "+str(actor.identity.display_name)
 	for gate in active_region.gate_nodes:
 		if player.position.distance_to(gate.point)<8:return "E • Viajar para região %02d"%int(gate.contract.neighbor)
 	return ""
@@ -677,19 +732,47 @@ func is_safe(point: Vector3) -> bool:
 	if current_region>=0:return active_region.data.spec.kind=="settlement"
 	return super.is_safe(point)
 func new_journey() -> void:
-	if _institutional_inside():
-		var outside:Variant=extension().get("position",[])
-		if outside is Array and outside.size()==3:
-			player.position=Vector3(float(outside[0]),float(outside[1]),float(outside[2]))
-		_institutional_cleanup()
-	if current_region>=0:return_home()
-	atlas.clear();super.new_journey()
-	if journey_manager!=null:journey_manager.state()
+	if changing_region:return
+	lifecycle_epoch+=1
+	if wg5_visit!=null and wg5_visit.inside():
+		message("Saia do edifício antes de iniciar outra jornada.");return
+	if _institutional_inside():_institutional_cleanup()
+	if exo_core!=null:exo_core.shutdown()
+	if ecology_director!=null:ecology_director.detach()
+	for actor in residents:actor.free()
+	residents.clear()
+	if is_instance_valid(active_region):active_region.free()
+	active_region=null;current_region=-1
+	if wg5_visit!=null:wg5_visit.detach()
+	atlas.clear();convergence_ready=false;exo_core=null
+	super.new_journey()
+	journey_manager=JourneyManager.new(self);journey_manager.state()
+	npc_director=NPCDirector.new(self)
+	ecology_director=EcologyDirector.new(self)
+	exo_core=preload("res://exo_core/core.gd").new(self)
+	if not exo_core.boot():
+		generation_failure="new_campaign_core:"+str(exo_core.errors)
+		simulation_enabled=false;push_error(generation_failure);return
+	economy_host_v4=preload("res://convergence/economy_host_v4.gd").new()
+	if not economy_host_v4.initialize(self):
+		generation_failure="new_campaign_economy_host";push_error(generation_failure);return
+	martial_host_r8=preload("res://convergence/martial_host_r8.gd").new()
+	if not martial_host_r8.initialize(self):
+		generation_failure="new_campaign_martial_host";push_error(generation_failure);return
+	activation_v4=preload("res://convergence4/activation.gd").new(self);activation_v4.initialize()
+	bestiary_v4=preload("res://convergence4/bestiary_host.gd").new(self)
+	vfx_host_v5=preload("res://convergence/vfx_host_v5.gd").new()
+	if not vfx_host_v5.initialize(self):push_error("v5_vfx_host_binding_failed")
+	convergence_ready=true
+	if not save_progress():push_error("new_campaign_save_failed")
 
 # The player's fatal damage interrupts the current visit and restores the
 # exterior; the combat module remains owner of HP/death/pause and the Core
 # remains owner of checkpoint persistence.
 func on_fatal_dungeon_damage() -> void:
+	if wg5_visit!=null and wg5_visit.inside():
+		if not wg5_visit.interrupt("death"):push_error("settlement_death_recovery_failed")
+		return
 	if _institutional_inside():
 		var result_inside:Dictionary=_exit_institutional_interior(true)
 		if not bool(result_inside.get("ok",false)):
@@ -809,6 +892,7 @@ func restore_failed_death(actor: Node3D,before: Dictionary) -> void:
 
 func _prepare_worldgen_campaign()->bool:
 	if flow.phase!="creator" or not extension().visited.is_empty():return false
+	extension()["worldgen_v5"]={"schema":1,"generator":5,"settlement":"1.0.1","npc":"0.4.1"}
 	extension()["worldgen_v4"]={"schema":1,"generator":4}
 	extension()["regional_version"]=7
 	extension().erase("atlas");atlas={}
@@ -819,3 +903,15 @@ func _worldgen_landmark_interact()->bool:
 		if point.get("approved",false) and player.position.distance_to(point.point)<2.8:
 			ui.dialogue(str(point.title),str(point.description));return true
 	return false
+
+func _near_resident(limit: float=2.0) -> Node3D:
+	var best: Node3D=null
+	var distance: float=limit
+	for actor in residents:
+		if not is_instance_valid(actor) or not actor.can_interact(player.global_position,limit):continue
+		var current: float=actor.position.distance_to(player.position)
+		if current<distance:
+			var ray:=PhysicsRayQueryParameters3D.create(player.global_position+Vector3.UP,actor.global_position+Vector3.UP,1|4)
+			if not get_world_3d().direct_space_state.intersect_ray(ray).is_empty():continue
+			best=actor;distance=current
+	return best

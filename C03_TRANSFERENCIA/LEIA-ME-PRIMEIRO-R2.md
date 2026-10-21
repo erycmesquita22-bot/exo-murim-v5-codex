@@ -1,1 +1,0 @@
-Convergência 03 Alfa R2 — Leia RELATORIO-C03-ALFA-R2.md, QA-C03-ALFA-R2.json e INSTRUCOES-CONTINUACAO-WORK.md. NENHUM teste Godot nativo foi executado; staged NÃO é gameplay. O projeto começa em project.godot na raiz.

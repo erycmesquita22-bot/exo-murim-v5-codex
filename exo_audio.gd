@@ -23,7 +23,7 @@ func _ready() -> void:
 			if value is float or value is int:groups[key]=clampf(float(value),0,1)
 	for key in BANK:
 		for name_value in BANK[key]:
-			var asset: String="res://assets/"+name_value+".ogg"
+			var asset: String="res://assets/"+name_value+".wav"
 			if ResourceLoader.exists(asset):cache[name_value]=load(asset)
 	var bus:=AudioServer.get_bus_index("EXO")
 	if bus<0:
@@ -46,6 +46,7 @@ func play_event(event: String,group: String="combat",strength: float=1.0) -> voi
 	if now-int(recent.get(event,-1000))<45:return
 	recent[event]=now
 	var names: Array=BANK[event]
+	if names.is_empty():return
 	var variant: int=int(variants.get(event,0))
 	var name_value: String=names[variant%names.size()]
 	variants[event]=variant+1

@@ -3,73 +3,73 @@
   "ground": "patio_murim_SOLO_PNG.png",
   "instances": [
     {
-      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.tscn",
       "x": -10,
       "y": 0,
       "z": 7
     },
     {
-      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.glb",
+      "glb": "06_OBJETOS_GLB/construcoes/casa_modular.tscn",
       "x": 8,
       "y": 0,
       "z": 7
     },
     {
-      "glb": "10_ARQUITETURA_GLB/parede_reboco_claro.glb",
+      "glb": "10_ARQUITETURA_GLB/parede_reboco_claro.tscn",
       "x": -2,
       "y": 0,
       "z": 7
     },
     {
-      "glb": "10_ARQUITETURA_GLB/painel_janela_lattice.glb",
+      "glb": "10_ARQUITETURA_GLB/painel_janela_lattice.tscn",
       "x": 2,
       "y": 0,
       "z": 7
     },
     {
-      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.tscn",
       "x": -4,
       "y": 0,
       "z": 5
     },
     {
-      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.glb",
+      "glb": "10_ARQUITETURA_GLB/pilar_madeira_dourado.tscn",
       "x": 4,
       "y": 0,
       "z": 5
     },
     {
-      "glb": "10_ARQUITETURA_GLB/telhado_teal_4m.glb",
+      "glb": "10_ARQUITETURA_GLB/telhado_teal_4m.tscn",
       "x": 0,
       "y": 2.1,
       "z": 7
     },
     {
-      "glb": "10_ARQUITETURA_GLB/escada_madeira_templo.glb",
+      "glb": "10_ARQUITETURA_GLB/escada_madeira_templo.tscn",
       "x": 0,
       "y": 0,
       "z": 3
     },
     {
-      "glb": "06_OBJETOS_GLB/objetos/barraca_feira.glb",
+      "glb": "06_OBJETOS_GLB/objetos/barraca_feira.tscn",
       "x": -9,
       "y": 0,
       "z": -5
     },
     {
-      "glb": "06_OBJETOS_GLB/objetos/poco.glb",
+      "glb": "06_OBJETOS_GLB/objetos/poco.tscn",
       "x": 9,
       "y": 0,
       "z": -4
     },
     {
-      "glb": "06_OBJETOS_GLB/vegetacao/cerejeira.glb",
+      "glb": "06_OBJETOS_GLB/vegetacao/cerejeira.tscn",
       "x": 11,
       "y": 0,
       "z": -11
     },
     {
-      "glb": "06_OBJETOS_GLB/objetos/poste_lanterna.glb",
+      "glb": "06_OBJETOS_GLB/objetos/poste_lanterna.tscn",
       "x": -1,
       "y": 0,
       "z": -7

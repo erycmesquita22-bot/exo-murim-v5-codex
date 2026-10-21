@@ -1,6 +1,5 @@
 extends RefCounted
-# EXO-Minecraft FighterArt compatibility palette. The 216 high-resolution 256x256
-# base textures are copied from the EXO owner's mod, with unchanged Minecraft UV.
+# Original V5 generated palette textures. Legacy mod pixels are excluded.
 const SKIN_COLORS = ["efd5be", "dbb399", "c79670", "a77853", "7b503d", "4e352c"]
 const CLOTH_COLORS = ["303744", "365987", "3b6956", "963f49", "dedbd0", "695183"]
 const HAIR_COLORS = ["25242b", "4c352d", "9c5135", "c9aa63", "d8d8d3", "344a76"]

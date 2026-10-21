@@ -28,7 +28,7 @@ static func backdrop(parent: Control,world: Node3D) -> void:
 	var image:=TextureRect.new()
 	parent.add_child(image)
 	image.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	image.texture=load("res://assets/central_"+["exo","anime","adventure","fantasy"][world.graphics.menu_style]+".jpg")
+	image.texture=load("res://assets/central_"+["exo","anime","adventure","fantasy"][world.graphics.menu_style]+".png")
 	image.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
 	image.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_COVERED
 	image.modulate=Color(.46,.5,.54)

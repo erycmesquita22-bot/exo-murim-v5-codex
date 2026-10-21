@@ -1,0 +1,21 @@
+{
+  "schema": "exo.worldgen.v5.integration.v1",
+  "status": "IMPLEMENTADO_NAO_TESTADO",
+  "authorities": {
+    "atlas_regions_gates_terrain_seed": "WorldGenesis V4 preserved, guarded by WorldGenesis V5",
+    "approved_parcels_roads": "WorldGenesis V4 + City Forge R4 until replacement homologated",
+    "building_geometry_and_interior_catalog": "Settlement Forge 01",
+    "entry_exit_scene_transition": "Settlement Forge 01 PortalController",
+    "npc_identity_behavior": "NPC System 04 (independent package required)",
+    "population_existing_host_slots": "V4 convergence region; NPC04 adapter pending actual package",
+    "wallet_market": "Economy via EXO Core",
+    "persistence_write": "Existing JourneySave and EXO Core only",
+    "crowd_logic": "Crowd Illusion via existing V4 host",
+    "library_contents": "Existing V4 Biblioteca Universal"
+  },
+  "world_contract": {"regions": 88, "settlements": 23, "topology_migration": false, "legacy_saves_compatibility": "not required", "generator_identity": "WorldGenesis V5 add-on to V4 authorized map"},
+  "handoff": {"version": 1, "required_plan": "exo.settlement.plan.v1", "building": "exo.settlement.building.v1", "npc04_station": "exo.settlement.npc04.stations.v1", "service_owner": "exo_settlement_forge/runtime/settlement_service.gd", "navigation_proven": false},
+  "flags": {"exo_murim/worldgen_v5/replace_settlements": false},
+  "transition_snapshot": {"key": "convergence.worldgen_v5_visit", "authority": "EXO Core JourneySave", "separate_save": false},
+  "requires": ["Godot 4.6.2 Standard Compatibility", "V4 existing world", "EXO Settlement Forge 01", "NPC04 for full physical NPC integration"]
+}

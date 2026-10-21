@@ -8,7 +8,7 @@
     "license": "Pixabay Content License",
     "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound. Individual excerpts used in game; full sequence omitted.",
     "derived_files": [
-      "assets/martial_audio/ice_cast.ogg"
+      "assets/v5_generated/audio/fx_91cc8be2b2b913f7.wav"
     ]
   },
   {
@@ -27,7 +27,7 @@
     "page": "https://pixabay.com/pt/sound-effects/filme-e-efeitos-especiais-whoosh-6316/",
     "title": "Whoosh by freesound_community | Efeitos sonoros sem direitos de autor - Pixabay",
     "duration": 0.42449,
-    "file": "assets/martial_audio/wind_qi.ogg",
+    "file": "assets/v5_generated/audio/fx_b76a54103f181218.wav",
     "license": "Pixabay Content License",
     "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound."
   }

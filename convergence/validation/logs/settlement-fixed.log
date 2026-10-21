@@ -1,3 +1,0 @@
-Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
-
-SETTLEMENT_QA_RESULT={"engine":{"build":"official","hash":"71f334935c000924d403448e698df4441130df18","hex":263682,"major":4,"minor":6,"patch":2,"status":"stable","string":"4.6.2-stable (official)","timestamp":0},"failures":[],"lots_checked":1966,"scales":{"city":20,"town":35,"village":60},"seeds":["101","707","816204","9007199254740993","9223372036854775807"],"settlements_checked":115,"suite":"settlement_core_v1"}

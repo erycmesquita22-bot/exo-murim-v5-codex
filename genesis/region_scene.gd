@@ -111,7 +111,7 @@ func asset(path: String,pos: Vector3,yaw: float=0,scale_value: float=1,solid: bo
 		asset_cache[path]={"mesh":mesh,"shape":mesh.create_trimesh_shape()}
 		original.free()
 	var node := Node3D.new();add_child(node);node.position=pos;node.rotation.y=yaw;node.scale=Vector3.ONE*scale_value
-	if not path.begins_with("10_ARQUITETURA_GLB/") and not path.ends_with("entrada_caverna_rochosa.glb"):
+	if not path.begins_with("10_ARQUITETURA_GLB/") and not path.ends_with("entrada_caverna_rochosa.tscn"):
 		node.position.y-=asset_cache[path].mesh.get_aabb().position.y*scale_value
 	var visual := MeshInstance3D.new();visual.mesh=asset_cache[path].mesh
 	var material := StandardMaterial3D.new();material.vertex_color_use_as_albedo=true;material.roughness=.9
@@ -185,33 +185,33 @@ func build_lots() -> void:
 			root.name=str(lot.id);root.set_meta("building_id",lot.id);root.set_meta("function",lot.function);root.set_meta("district",lot.district);root.set_meta("form",lot.form)
 		var parts: Array=[]
 		if data.spec.kind=="settlement":
-			parts.append(asset("10_ARQUITETURA_GLB/fundacao_pedra.glb",Vector3(0,-.81,0)))
-			parts.append(asset("10_ARQUITETURA_GLB/painel_porta_livre.glb",Vector3(0,-.44,2)))
-			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.glb",Vector3(0,-.44,-2)))
-			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.glb",Vector3(-2,-.44,0),PI/2))
-			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.glb",Vector3(2,-.44,0),PI/2))
-			parts.append(asset("10_ARQUITETURA_GLB/telhado_teal_4m.glb",Vector3(0,1.73,0)))
+			parts.append(asset("10_ARQUITETURA_GLB/fundacao_pedra.tscn",Vector3(0,-.81,0)))
+			parts.append(asset("10_ARQUITETURA_GLB/painel_porta_livre.tscn",Vector3(0,-.44,2)))
+			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.tscn",Vector3(0,-.44,-2)))
+			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.tscn",Vector3(-2,-.44,0),PI/2))
+			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.tscn",Vector3(2,-.44,0),PI/2))
+			parts.append(asset("10_ARQUITETURA_GLB/telhado_teal_4m.tscn",Vector3(0,1.73,0)))
 		elif data.spec.kind=="ruins":
-			parts.append(asset("11_RUINAS_GLB/arco_portal_musgo.glb",Vector3.ZERO))
-			parts.append(asset("11_RUINAS_GLB/coluna_ruina_musgo.glb",Vector3(-4,0,1)))
-			parts.append(asset("11_RUINAS_GLB/altar_ruina_antigo.glb",Vector3(3,0,-3)))
+			parts.append(asset("11_RUINAS_GLB/arco_portal_musgo.tscn",Vector3.ZERO))
+			parts.append(asset("11_RUINAS_GLB/coluna_ruina_musgo.tscn",Vector3(-4,0,1)))
+			parts.append(asset("11_RUINAS_GLB/altar_ruina_antigo.tscn",Vector3(3,0,-3)))
 		elif data.spec.kind=="dungeon_approach":
 			# Exterior entry metadata is authored by the SAME regional WorldGen lot.
 			# Only these physical entrances may request an instanced Dungeon.
 			root.set_meta("exo_dungeon_location_id","cave_r%02d_l%02d" % [int(data.spec.id),lot_index])
-			var cave := asset("09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.glb",Vector3(0,-.3,0))
+			var cave := asset("09_TOPOGRAFIA_GLB/entrada_caverna_rochosa.tscn",Vector3(0,-.3,0))
 			cave.scale=Vector3(1.6,1.25,1)
 			parts.append(cave)
-			parts.append(asset("06_OBJETOS_GLB/masmorras/tocha_coluna.glb",Vector3(-4,0,3)))
+			parts.append(asset("06_OBJETOS_GLB/masmorras/tocha_coluna.tscn",Vector3(-4,0,3)))
 			# Short traversable inspection chamber behind the cave mouth, inside this exterior's lot.
 			# Open roof keeps the isometric avatar visible; this is not a separate procedural dungeon.
 			for z in [-3.0,-6.3]:
-				parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.glb",Vector3(-1.65,0,z),PI/2))
-				parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.glb",Vector3(1.65,0,z),PI/2))
-			parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.glb",Vector3(0,0,-8.16)))
-			parts.append(asset("06_OBJETOS_GLB/masmorras/bau_madeira.glb",Vector3(.95,0,-6.8),0,.5))
+				parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.tscn",Vector3(-1.65,0,z),PI/2))
+				parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.tscn",Vector3(1.65,0,z),PI/2))
+			parts.append(asset("06_OBJETOS_GLB/masmorras/parede_masmorra.tscn",Vector3(0,0,-8.16)))
+			parts.append(asset("06_OBJETOS_GLB/masmorras/bau_madeira.tscn",Vector3(.95,0,-6.8),0,.5))
 		else:
-			parts.append(asset("09_TOPOGRAFIA_GLB/rocha_monolito_musgo.glb",Vector3.ZERO))
+			parts.append(asset("09_TOPOGRAFIA_GLB/rocha_monolito_musgo.tscn",Vector3.ZERO))
 		for part in parts:
 			var transform_value: Transform3D=part.transform
 			part.reparent(root,false);part.transform=transform_value
@@ -219,10 +219,10 @@ func build_lots() -> void:
 		if data.spec.kind=="settlement":root.set_meta("roof",parts[-1])
 		props.append(root)
 func build_plants() -> void:
-	var tree: String="12_NATUREZA_GLB/arvore_baixa_prado.glb"
-	if data.spec.biome=="bamboo_forest":tree="12_NATUREZA_GLB/bambu_alto_folhas.glb"
-	elif data.spec.biome=="temperate_forest":tree="12_NATUREZA_GLB/arvore_alta_sombria.glb"
-	elif data.spec.biome in ["alpine","rocky_highlands"]:tree="12_NATUREZA_GLB/pinheiro_escarpado.glb"
+	var tree: String="12_NATUREZA_GLB/arvore_baixa_prado.tscn"
+	if data.spec.biome=="bamboo_forest":tree="12_NATUREZA_GLB/bambu_alto_folhas.tscn"
+	elif data.spec.biome=="temperate_forest":tree="12_NATUREZA_GLB/arvore_alta_sombria.tscn"
+	elif data.spec.biome in ["alpine","rocky_highlands"]:tree="12_NATUREZA_GLB/pinheiro_escarpado.tscn"
 	for p in data.plants:
 		# Vegetation roots below the surface avoid visible hovering. Thin trunk collider only.
 		var pos := Vector3(p.p.x,p.height-.08,p.p.y)
@@ -290,7 +290,7 @@ func build_plaza() -> void:
 	if data.settlement_plan.get("status", "invalid")!="ready":return
 	for fixture in data.settlement_plan.get("fixtures", []):
 		var point: Vector2=fixture.p
-		var file := "06_OBJETOS_GLB/objetos/poco.glb" if fixture.kind=="well" else "06_OBJETOS_GLB/objetos/poste_lanterna.glb"
+		var file := "06_OBJETOS_GLB/objetos/poco.tscn" if fixture.kind=="well" else "06_OBJETOS_GLB/objetos/poste_lanterna.tscn"
 		var pos := Vector3(point.x,data.height_at(point),point.y)
 		asset(file,pos,0,1,true)
 		if fixture.kind!="well":
@@ -309,7 +309,7 @@ func build_gates() -> void:
 		var inward: Vector2=-g.p.normalized();var point: Vector2=handoff+inward*1.5
 		var pos := Vector3(point.x,data.height_at(point) if data.worldgen_v4 else g.height,point.y)
 		var open: bool=g.neighbor in pilot
-		var portal := asset("11_RUINAS_GLB/arco_portal_antigo.glb",pos,atan2(inward.x,inward.y),1.4,true)
+		var portal := asset("11_RUINAS_GLB/arco_portal_antigo.tscn",pos,atan2(inward.x,inward.y),1.4,true)
 		var label := Label3D.new();label.text=("REGIÃO %02d • E"%g.neighbor) if open else ("REGIÃO %02d • FORA DO PILOTO"%g.neighbor)
 		label.font_size=40;label.pixel_size=.014;label.position=pos+Vector3(0,5,0);label.billboard=BaseMaterial3D.BILLBOARD_ENABLED;add_child(label)
 		if not open:box(pos+Vector3(0,1.3,0),Vector3(5,2.6,1) if absf(inward.y)>.7 else Vector3(1,2.6,5),Color("383f45"))

@@ -1,1 +1,0 @@
-{"suite": "geometry_independent_reference_only", "engine": "Python reference (NOT GDScript)", "tested_masks": 6000, "door_mouths_tested": 24000, "corridor_descriptors_tested": 20000, "signatures_per_family": {"ruins": 14, "cavern": 554, "temple": 7, "sect_hideout": 7, "mine": 14, "tomb": 7}, "issue_count": 0, "native_godot": "NOT_RUN", "status": "PASS"}

@@ -1,7 +1,0 @@
-EXO-MURIM C03 ALFA R13 — AMBIENTE NESTA SESSÃO
-Godot executável: NÃO ENCONTRADO em PATH, /usr/bin, /usr/local e /opt.
-apt-cache policy godot/godot4/godot3: nenhum pacote apt disponível neste ambiente.
-Tentativa HEAD GitHub oficial Godot_v4.6.2-stable_linux.x86_64.zip:
-curl: (6) Could not resolve host: github.com.
-Consequência: Godot native parser/import/headless/F5 NÃO EXECUTADOS, não há logs de engine reais.
-Scripts Windows PS1 e GDScript nativos estão preparados para execução em computador com Godot 4.6.2.

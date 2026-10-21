@@ -1,8 +1,0 @@
-Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
-
-EXO_NPC02_R2_LOGIC {"checks":428,"failures":["three_day_memory_expiry"],"godot_version":"4.6.2-stable (official)","suite":"npc_system02_r2_logic"}
-ERROR: three_day_memory_expiry
-   at: push_error (core/variant/variant_utility.cpp:1024)
-   GDScript backtrace (most recent call first):
-       [0] check (res://npc_system02/tests/qa_r2_logic.gd:11)
-       [1] run (res://npc_system02/tests/qa_r2_logic.gd:48)

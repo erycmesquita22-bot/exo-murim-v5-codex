@@ -1,5 +1,0 @@
-Godot 4.6.2 native availability: NOT_RUN
-Search PATH (godot/godot4): not found
-Search standard install dirs: no binary found
-Attempt HTTP HEAD github.com official release: curl error (6) Could not resolve host
-No F5, headless import, GDScript parser, GPU, screenshots or FPS performed.

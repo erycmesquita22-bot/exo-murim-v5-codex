@@ -21,22 +21,14 @@ func build_lots() -> void:
 		super.build_lots();_build_monuments();return
 	if data.settlement_plan.get("status")!="ready":
 		build_errors.append("genesis_plan_invalid");return
-	var builder:RefCounted=preload("res://exo_city_forge/runtime/physical_builder.gd").new()
-	for lot in data.lots:
-		var house:Node3D=builder.build(self,lot.city_model)
-		house.position.y=data.center_h-.28
-		props.append(house)
-		var occupancy:Dictionary=lot.city_model.duplicate(true);occupancy.stories=1;occupancy.width_m=float(lot.city_model.size[0]);blueprints.append(occupancy)
-		var exterior:=Vector3(lot.door.x,data.height_at(lot.door)+.05,lot.door.y)
-		station_points[lot.id]=exterior
-		route_points[lot.id]=[exterior,exterior,Vector3(lot.street_point.x,data.height_at(lot.street_point)+.05,lot.street_point.y)]
-		var job:String={"farmstead":"farmer","market":"merchant","inn":"merchant","smithy":"resident","herbalist":"healer","administration":"guild_agent","martial_school":"disciple","shrine":"master","warehouse":"courier"}.get(lot.function,"resident")
-		assigned_slots.append({"id":lot.id,"role":job,"work_slot":lot.id,"home_slot":lot.id})
-		preload("res://ground_shadow.gd").place(self,Vector3(lot.p.x,data.center_h+.025,lot.p.y),Vector2(lot.halfsize*2,lot.halfsize*2),.25)
-	set_meta("city_forge_physical",{"owner":"city_forge_r4","buildings":props.size(),"blueprint":data.settlement_plan.city_forge_r4.blueprint_id})
-	preload("res://exo_city_forge/runtime/pavement.gd").build(self)
-	if has_meta("world_v4"):preload("res://convergence4/interiors.gd").build(self,get_meta("world_v4"))
+	# V5 is the sole physical settlement path. Rollback exists only in the external checkpoint.
+	var v5_result:Dictionary=preload("res://worldgen_v5/runtime/settlement_handoff.gd").install(self)
+	if not bool(v5_result.get("ok",false)):
+		build_errors.append("worldgen_v5_materialization:"+str(v5_result.get("error","unknown")))
+		return
+	set_meta("city_forge_physical",{"owner":"settlement_forge_01","buildings":int(v5_result.get("building_count",0)),"npc04_runtime_verified":false})
 	_build_monuments()
+	return
 
 func prepare_population() -> void:
 	if data.spec.kind!="settlement":return

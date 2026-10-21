@@ -6,6 +6,10 @@
     },
     {
       "pass": true,
+      "test": "automatic_v5_campaign_entry"
+    },
+    {
+      "pass": true,
       "test": "all_modules_initialized"
     },
     {
@@ -34,34 +38,74 @@
     }
   ],
   "facts": {
-    "gate_capsule_samples": 351,
+    "gate_capsule_samples": 108,
     "health": {
       "errors": [],
       "order": [
         "persistence",
         "world",
+        "world_content_library",
         "architecture",
+        "city_forge",
         "inventory",
         "living_world",
+        "monumental_plans",
+        "settlement_forge",
+        "terrain_r3",
+        "worldgen_v5",
         "appearance",
         "combat",
+        "crowd_illusion",
+        "exo_vfx_forge",
+        "humanoid_presets",
         "journey",
         "narrative",
-        "visual"
+        "npc_system04",
+        "visual",
+        "bestiary",
+        "creature_visuals",
+        "dungeon_genesis",
+        "exo_economy",
+        "exo_items",
+        "exo_martial",
+        "martial_catalog",
+        "exo_skill_forge"
       ],
       "schema": 1,
       "services": [
         "persistence",
         "regions",
+        "content.library",
         "architecture",
+        "city_forge.plans",
         "inventory",
         "npcs",
+        "monuments.plans",
+        "settlement.forge",
+        "terrain.resolution",
+        "worldgen.v5",
         "appearance",
         "combat",
+        "crowd.illusion",
+        "exo_vfx_forge",
+        "humanoids.presets",
         "progression",
         "quests",
         "narrative",
-        "exo_visual"
+        "npc04.runtime",
+        "exo_visual",
+        "bestiary.catalog",
+        "bestiary.ai",
+        "bestiary.encounters",
+        "bestiary.combat",
+        "bestiary.tactics",
+        "creatures.visuals",
+        "dungeons",
+        "economy",
+        "exo_items",
+        "martial",
+        "martial.catalog",
+        "skill_forge"
       ],
       "status": "PASS"
     }

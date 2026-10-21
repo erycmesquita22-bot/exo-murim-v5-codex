@@ -8,7 +8,7 @@
     "license": "Pixabay Content License",
     "edits": "Trim leading silence; loudness normalize; mono Vorbis. No synthesized sound. Individual excerpts used in game; full sequence omitted.",
     "derived_files": [
-      "assets/martial_audio/fire_cast.ogg"
+      "assets/v5_generated/audio/fx_26a4d405014b0c03.wav"
     ]
   }
 ]

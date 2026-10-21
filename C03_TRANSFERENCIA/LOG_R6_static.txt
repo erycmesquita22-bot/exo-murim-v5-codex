@@ -1,4 +1,0 @@
-exit=0
-{"pass": 38, "fail": 0, "failing": [], "gd_scripts_scanned": 449, "json_scanned": 371, "missing_preloads": [["godot/demo.gd", "qa/walker.gd"], ["exo_core/module_template/test.gd", "example/module.gd"]]}
-
-STDERR:

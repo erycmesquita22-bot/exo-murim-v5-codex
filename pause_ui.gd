@@ -159,11 +159,11 @@ func show_story() -> void:
 	var page: int=world.flow.story_page
 	var heading:=paragraph(column,world.flow.STORY[page][0],46,860)
 	heading.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
-	heading.add_theme_font_override("font",load("res://assets/manuscrito.otf"))
+	heading.add_theme_font_override("font",ThemeDB.fallback_font)
 	heading.modulate=Color.WHITE
 	var body:=paragraph(column,world.flow.STORY[page][1],34,860)
 	body.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
-	body.add_theme_font_override("font",load("res://assets/manuscrito.otf"))
+	body.add_theme_font_override("font",ThemeDB.fallback_font)
 	body.modulate=Color.WHITE
 	column.modulate.a=0
 	var fade:=create_tween()

@@ -1,0 +1,526 @@
+{
+  "schema": "exo.settlement.interior.catalog.v1",
+  "version": "1.0.0-inherited-interior-r3",
+  "templates": [
+    {
+      "id": "casa_campesina_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_campesina_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 5,
+      "depth_tiles": 5,
+      "style": "rural"
+    },
+    {
+      "id": "casa_campesina_02",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_campesina_02.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 6,
+      "depth_tiles": 5,
+      "style": "rural"
+    },
+    {
+      "id": "casa_pescador_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_pescador_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 5,
+      "style": "river"
+    },
+    {
+      "id": "casa_fazendeiro_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_fazendeiro_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 7,
+      "style": "rural"
+    },
+    {
+      "id": "casa_familia_l_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_familia_l_01.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 7,
+      "style": "common"
+    },
+    {
+      "id": "casa_familia_l_02",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_familia_l_02.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 7,
+      "style": "common"
+    },
+    {
+      "id": "casa_escriba_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_escriba_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 6,
+      "style": "scholar"
+    },
+    {
+      "id": "casa_mestre_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_mestre_01.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 9,
+      "style": "martial"
+    },
+    {
+      "id": "casa_mercador_sobrado_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_mercador_sobrado_01.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 8,
+      "depth_tiles": 8,
+      "style": "merchant"
+    },
+    {
+      "id": "casa_familia_sobrado_02",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_familia_sobrado_02.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "common"
+    },
+    {
+      "id": "casa_nobre_retangular_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_nobre_retangular_01.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 11,
+      "depth_tiles": 9,
+      "style": "noble"
+    },
+    {
+      "id": "mansao_nobre_patio_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/mansao_nobre_patio_01.json",
+      "shape": "courtyard",
+      "floors": 1,
+      "width_tiles": 12,
+      "depth_tiles": 11,
+      "style": "noble"
+    },
+    {
+      "id": "mansao_cla_l_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/mansao_cla_l_01.json",
+      "shape": "L_right",
+      "floors": 2,
+      "width_tiles": 12,
+      "depth_tiles": 10,
+      "style": "noble"
+    },
+    {
+      "id": "casa_pilotis_rio_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_pilotis_rio_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 6,
+      "style": "river"
+    },
+    {
+      "id": "casa_montanha_01",
+      "category": "residence",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_montanha_01.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 7,
+      "style": "mountain"
+    },
+    {
+      "id": "forja_rua_01",
+      "category": "smithy",
+      "path": "res://exo_settlement_forge/libraries/prefabs/forja_rua_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 6,
+      "style": "artisan"
+    },
+    {
+      "id": "forja_cla_02",
+      "category": "smithy",
+      "path": "res://exo_settlement_forge/libraries/prefabs/forja_cla_02.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "martial"
+    },
+    {
+      "id": "forja_ferro_03",
+      "category": "smithy",
+      "path": "res://exo_settlement_forge/libraries/prefabs/forja_ferro_03.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 7,
+      "style": "artisan"
+    },
+    {
+      "id": "forja_nobre_04",
+      "category": "smithy",
+      "path": "res://exo_settlement_forge/libraries/prefabs/forja_nobre_04.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 10,
+      "depth_tiles": 9,
+      "style": "noble"
+    },
+    {
+      "id": "loja_mercadorias_01",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_mercadorias_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 6,
+      "depth_tiles": 6,
+      "style": "common"
+    },
+    {
+      "id": "loja_seda_02",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_seda_02.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 7,
+      "style": "merchant"
+    },
+    {
+      "id": "loja_cha_03",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_cha_03.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 6,
+      "style": "tea"
+    },
+    {
+      "id": "loja_artes_04",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_artes_04.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 7,
+      "style": "martial"
+    },
+    {
+      "id": "loja_ribeirinha_05",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_ribeirinha_05.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 7,
+      "style": "river"
+    },
+    {
+      "id": "loja_duplo_piso_06",
+      "category": "market",
+      "path": "res://exo_settlement_forge/libraries/prefabs/loja_duplo_piso_06.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "merchant"
+    },
+    {
+      "id": "escola_pequena_01",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_pequena_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 7,
+      "style": "martial"
+    },
+    {
+      "id": "escola_bambu_02",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_bambu_02.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 9,
+      "style": "bamboo"
+    },
+    {
+      "id": "escola_espada_03",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_espada_03.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 12,
+      "depth_tiles": 9,
+      "style": "martial"
+    },
+    {
+      "id": "escola_grande_04",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_grande_04.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 13,
+      "depth_tiles": 11,
+      "style": "noble"
+    },
+    {
+      "id": "escola_cla_05",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_cla_05.json",
+      "shape": "courtyard",
+      "floors": 1,
+      "width_tiles": 12,
+      "depth_tiles": 12,
+      "style": "noble"
+    },
+    {
+      "id": "escola_montanha_06",
+      "category": "martial_school",
+      "path": "res://exo_settlement_forge/libraries/prefabs/escola_montanha_06.json",
+      "shape": "L_right",
+      "floors": 2,
+      "width_tiles": 12,
+      "depth_tiles": 10,
+      "style": "mountain"
+    },
+    {
+      "id": "farmacia_erva_01",
+      "category": "herbalist",
+      "path": "res://exo_settlement_forge/libraries/prefabs/farmacia_erva_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 7,
+      "depth_tiles": 6,
+      "style": "herbal"
+    },
+    {
+      "id": "farmacia_alquimia_02",
+      "category": "herbalist",
+      "path": "res://exo_settlement_forge/libraries/prefabs/farmacia_alquimia_02.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 8,
+      "style": "herbal"
+    },
+    {
+      "id": "clinica_ervas_03",
+      "category": "herbalist",
+      "path": "res://exo_settlement_forge/libraries/prefabs/clinica_ervas_03.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 8,
+      "style": "herbal"
+    },
+    {
+      "id": "farmacia_dupla_04",
+      "category": "herbalist",
+      "path": "res://exo_settlement_forge/libraries/prefabs/farmacia_dupla_04.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "scholar"
+    },
+    {
+      "id": "pousada_estrada_01",
+      "category": "inn",
+      "path": "res://exo_settlement_forge/libraries/prefabs/pousada_estrada_01.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "rural"
+    },
+    {
+      "id": "pousada_cidade_02",
+      "category": "inn",
+      "path": "res://exo_settlement_forge/libraries/prefabs/pousada_cidade_02.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 11,
+      "depth_tiles": 9,
+      "style": "merchant"
+    },
+    {
+      "id": "pousada_montanha_03",
+      "category": "inn",
+      "path": "res://exo_settlement_forge/libraries/prefabs/pousada_montanha_03.json",
+      "shape": "L_left",
+      "floors": 2,
+      "width_tiles": 10,
+      "depth_tiles": 10,
+      "style": "mountain"
+    },
+    {
+      "id": "pousada_rio_04",
+      "category": "inn",
+      "path": "res://exo_settlement_forge/libraries/prefabs/pousada_rio_04.json",
+      "shape": "courtyard",
+      "floors": 1,
+      "width_tiles": 11,
+      "depth_tiles": 11,
+      "style": "river"
+    },
+    {
+      "id": "templo_rural_01",
+      "category": "shrine",
+      "path": "res://exo_settlement_forge/libraries/prefabs/templo_rural_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 9,
+      "style": "temple"
+    },
+    {
+      "id": "templo_ancestral_02",
+      "category": "shrine",
+      "path": "res://exo_settlement_forge/libraries/prefabs/templo_ancestral_02.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 9,
+      "style": "temple"
+    },
+    {
+      "id": "templo_urbano_03",
+      "category": "shrine",
+      "path": "res://exo_settlement_forge/libraries/prefabs/templo_urbano_03.json",
+      "shape": "courtyard",
+      "floors": 1,
+      "width_tiles": 12,
+      "depth_tiles": 12,
+      "style": "temple"
+    },
+    {
+      "id": "sala_conselho_01",
+      "category": "administration",
+      "path": "res://exo_settlement_forge/libraries/prefabs/sala_conselho_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "official"
+    },
+    {
+      "id": "magistrado_02",
+      "category": "administration",
+      "path": "res://exo_settlement_forge/libraries/prefabs/magistrado_02.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 11,
+      "depth_tiles": 9,
+      "style": "official"
+    },
+    {
+      "id": "gabinete_cla_03",
+      "category": "administration",
+      "path": "res://exo_settlement_forge/libraries/prefabs/gabinete_cla_03.json",
+      "shape": "L_left",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 9,
+      "style": "noble"
+    },
+    {
+      "id": "arquivo_escola_04",
+      "category": "administration",
+      "path": "res://exo_settlement_forge/libraries/prefabs/arquivo_escola_04.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 8,
+      "style": "scholar"
+    },
+    {
+      "id": "casa_rural_grande_01",
+      "category": "farmstead",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_rural_grande_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 7,
+      "style": "rural"
+    },
+    {
+      "id": "casa_rural_l_02",
+      "category": "farmstead",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_rural_l_02.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 9,
+      "depth_tiles": 8,
+      "style": "rural"
+    },
+    {
+      "id": "casa_fazenda_sobrado_03",
+      "category": "farmstead",
+      "path": "res://exo_settlement_forge/libraries/prefabs/casa_fazenda_sobrado_03.json",
+      "shape": "rect",
+      "floors": 2,
+      "width_tiles": 8,
+      "depth_tiles": 8,
+      "style": "rural"
+    },
+    {
+      "id": "deposito_mercantil_01",
+      "category": "warehouse",
+      "path": "res://exo_settlement_forge/libraries/prefabs/deposito_mercantil_01.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 8,
+      "depth_tiles": 8,
+      "style": "merchant"
+    },
+    {
+      "id": "deposito_ferreiro_02",
+      "category": "warehouse",
+      "path": "res://exo_settlement_forge/libraries/prefabs/deposito_ferreiro_02.json",
+      "shape": "rect",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 7,
+      "style": "artisan"
+    },
+    {
+      "id": "deposito_portuario_03",
+      "category": "warehouse",
+      "path": "res://exo_settlement_forge/libraries/prefabs/deposito_portuario_03.json",
+      "shape": "L_right",
+      "floors": 1,
+      "width_tiles": 10,
+      "depth_tiles": 9,
+      "style": "river"
+    }
+  ]
+}

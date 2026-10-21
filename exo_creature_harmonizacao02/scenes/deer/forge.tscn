@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3]
 
-[ext_resource type="PackedScene" path="res://exo_creature_harmonizacao02/models/deer/forge.glb" id="1"]
+[ext_resource type="PackedScene" path="res://exo_creature_harmonizacao02/models/deer/forge.tscn" id="1"]
 
 [node name="EXO_deer_forge" type="Node3D"]
 
