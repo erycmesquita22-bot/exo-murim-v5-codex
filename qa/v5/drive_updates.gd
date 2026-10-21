@@ -21,14 +21,32 @@ func run() -> void:
     w.save_path="user://drive-updates.json";w.settings_path="user://drive-updates.cfg"
     root.add_child(w);await process_frame
     var model_count: int=0
+    var normal_failures: Array=[]
     var directory:=DirAccess.open("res://models/forja_v3")
     for name in directory.get_files():
         if not name.ends_with(".glb"):continue
         var scene: PackedScene=load("res://models/forja_v3/"+name)
         var instance: Node3D=scene.instantiate()
         if not instance.find_children("*","MeshInstance3D",true,false).is_empty():model_count+=1
+        for mesh in instance.find_children("*","MeshInstance3D",true,false):
+            for surface in range(mesh.mesh.get_surface_count()):
+                var arrays: Array=mesh.mesh.surface_get_arrays(surface)
+                var normals: PackedVector3Array=arrays[Mesh.ARRAY_NORMAL] if arrays[Mesh.ARRAY_NORMAL]!=null else PackedVector3Array()
+                if normals.is_empty():normal_failures.append(name)
+                for normal in normals:
+                    if normal.length()<0.9:normal_failures.append(name);break
         instance.free()
     check(model_count==42,"42_regenerated_models_native_instantiate")
+    check(normal_failures.is_empty(),"42_models_have_lighting_normals")
+    var probe:=Node3D.new();root.add_child(probe)
+    var wall: Node3D=preload("res://godot/modular_kit.gd").place(probe,"city_wall_stone_2m",Vector3.ZERO,0,"",false)
+    var filter_ok: bool=true
+    for mesh in wall.find_children("*","MeshInstance3D",true,false):
+        for surface in range(mesh.mesh.get_surface_count()):
+            var material: StandardMaterial3D=mesh.get_active_material(surface)
+            if material.albedo_texture==null and material.texture_filter==BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC:filter_ok=false
+    check(filter_ok,"untextured_forja_avoids_black_anisotropic_path")
+    probe.free()
     var bank: Node=w.audio_fx
     check(bank.forge_events.size()==91,"sound_forge_91_events")
     var valid_audio: int=0

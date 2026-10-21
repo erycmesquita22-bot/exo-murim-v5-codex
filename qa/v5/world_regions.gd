@@ -40,6 +40,23 @@ func run() -> void:
             var data: Variant=w.active_region.data
             if data.spec.kind=="settlement":
                 var service: Variant=w.active_region.get_meta("worldgen_v5_service")
+                var original_houses: int=0
+                for building in service.get_exterior_root().get_children():
+                    var facade: Node3D=building.get_node_or_null("ForjaOriginalHouse")
+                    if facade!=null and facade.has_meta("host_visual_only"):
+                        original_houses+=1
+                        check(facade.find_children("*","CollisionObject3D",true,false).is_empty(),"single_collision_owner_"+str(building.name))
+                check(original_houses==data.lots.size(),"original_forja_facades_%d_%d"%[seed_value,rid])
+                var crowd_zones: Array=w.active_region.get_meta("exo_city_forge_crowd_zones",[])
+                var capacity: int=0
+                for zone in crowd_zones:capacity+=int(zone.capacity)
+                var nearest_total: float=0.0
+                for lot in data.lots:
+                    var nearest: float=INF
+                    for other in data.lots:
+                        if lot.id!=other.id:nearest=minf(nearest,lot.p.distance_to(other.p))
+                    if is_finite(nearest):nearest_total+=nearest
+                regions.append({"seed":seed_value,"region":rid,"scale":data.spec.settlement_scale,"buildings":data.lots.size(),"compression":data.settlement_plan.city_forge_r4.compression,"mean_nearest_house_m":nearest_total/maxi(1,data.lots.size()),"verified_crowd_zones":crowd_zones.size(),"crowd_capacity_before_schedule":capacity})
                 var blocked: Array=[]
                 var crossed: int=0
                 w.simulation_enabled=false

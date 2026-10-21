@@ -1,9 +1,12 @@
 extends RefCounted
 ## City Forge R4 materializer adapter. Physics evidence, never a City semantic approval.
-## Conservative low budget: at most four 12m lanes / 24 figurants.
+## Scale-aware street population; every accepted lane remains physics-verified.
 static func authorize(region: Node3D) -> Dictionary:
     var data: RefCounted = region.data
     if str(data.spec.get("kind", "")) != "settlement": return {"ok":false,"reason":"not_settlement"}
+    var scale_name: String=str(data.spec.get("settlement_scale","village"))
+    var zone_limit: int=4 if scale_name=="village" else 8 if scale_name=="town" else 12
+    var spacing: float=9.0 if scale_name=="village" else 6.0 if scale_name=="town" else 4.5
     var zones: Array = []
     var samples: int = 0
     var space: PhysicsDirectSpaceState3D = region.get_world_3d().direct_space_state
@@ -15,7 +18,7 @@ static func authorize(region: Node3D) -> Dictionary:
     candidates.sort_custom(func(a,b):return int(str(a.kind)!="district")<int(str(b.kind)!="district"))
     var areas:Dictionary={}
     for road in candidates:
-        if zones.size() >= 4: break
+        if zones.size() >= zone_limit: break
         var a: Vector2 = road.a
         var b: Vector2 = road.b
         var distance: float = a.distance_to(b)
@@ -84,13 +87,29 @@ static func authorize(region: Node3D) -> Dictionary:
         for i in range(0,points.size(),hop):compact.append(points[i])
         if compact[-1]!=points[-1]:compact.append(points[-1])
         points=compact
+        # Authored arterial/connectors may describe the same physical corridor.
+        # Never populate overlapping copies as independent crowds.
+        var overlapping: int=0
+        for candidate in points:
+            var at:=Vector2(float(candidate[0]),float(candidate[2]))
+            var shared: bool=false
+            for existing in zones:
+                var lane: Array=existing.points
+                for segment in range(lane.size()-1):
+                    var pa:=Vector2(float(lane[segment][0]),float(lane[segment][2]))
+                    var pb:=Vector2(float(lane[segment+1][0]),float(lane[segment+1][2]))
+                    if at.distance_to(Geometry2D.get_closest_point_to_segment(at,pa,pb))<1.8:
+                        shared=true;break
+                if shared:break
+            if shared:overlapping+=1
+        if overlapping>int(float(points.size())*0.30):continue
         var zone_id:String="cf/r4_verified_%02d" % zones.size()
         var sector:Dictionary={};var nearest:float=INF
         for row in data.settlement_plan.get("city_forge_r4",{}).get("sectors",[]):
             var c:=Vector2(float(row.center[0]),float(row.center[1]))
             if c.distance_squared_to(center)<nearest:nearest=c.distance_squared_to(center);sector=row
         areas[zone_id]={"district":str(sector.get("category","residential")),"sector_id":str(sector.get("id",""))}
-        zones.append({"id":zone_id,"points":points,"capacity":6,"role":"resident","activity":"walk","lateral":0.55,"safety_radius":2.6})
+        zones.append({"id":zone_id,"points":points,"capacity":clampi(int(Vector3(float(points[0][0]),0,float(points[0][2])).distance_to(Vector3(float(points[-1][0]),0,float(points[-1][2])))*2.0/spacing),4,18 if scale_name=="village" else 24 if scale_name=="town" else 30),"role":"resident","activity":"walk","lateral":0.55,"safety_radius":2.6})
     if zones.is_empty(): return {"ok":false,"reason":"no_physical_lane_passed","samples":samples}
     var ids: Array = []
     for zone in zones: ids.append(str(zone.id))

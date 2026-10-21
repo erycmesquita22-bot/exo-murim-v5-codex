@@ -21,19 +21,19 @@ static func plan(data:RefCounted)->Dictionary:
   req.blueprint_id=bp.id
   var composed:Dictionary=Composer.compose(req)
   if composed.get("status")!="ready":continue
-  for compactness in [.82,.68,1.0]:
+  for compactness in [.62,.72,.82,1.0]:
    for shift in [Vector2.ZERO,Vector2(-64,-64),Vector2(64,-64),Vector2(-64,64),Vector2(64,64),Vector2(-96,0),Vector2(96,0),Vector2(0,-96),Vector2(0,96),Vector2(-110,-110),Vector2(110,-110),Vector2(-110,110),Vector2(110,110)]:
     for quarter in range(12):
      var angle:float=TAU*float((quarter+seed%12)%12)/12.0
      var result:Dictionary=adapt_plan(data,composed,angle,shift,float(compactness))
-     if validate(data,result).is_empty():return result
+     if validate(data,result).is_empty():return fill_neighborhoods(data,result)
      if shift==Vector2.ZERO and quarter==0:
       var fitted:Dictionary=fit_frontages(data,result)
-      if fitted.get("status")=="ready":return fitted
+      if fitted.get("status")=="ready":return fill_neighborhoods(data,fitted)
  return {"status":"invalid","errors":["city_forge_no_safe_world_placement"],"lots":[],"streets":[],"fixtures":[]}
 static func adapt_plan(data:RefCounted,source:Dictionary,angle:float,shift:Vector2,compression:float)->Dictionary:
  var roads:Array=[];var lots:Array=[];var sectors:Array=[]
- var building_scale:float=minf(1.0,compression/.82)
+ var building_scale:float=1.0
  for r in source.streets:
   roads.append({"a":point(vec(r.a),angle,shift,compression),"b":point(vec(r.b),angle,shift,compression),"width":maxf(2.6,float(r.width)*building_scale),"kind":str(r.get("kind","city")),"surface":"stone"})
  for sector in source.sectors:
@@ -123,4 +123,34 @@ static func fit_frontages(data:RefCounted,source:Dictionary)->Dictionary:
    if found:break
   if not found:return {"status":"invalid","errors":["city_frontage_fit_failed"]}
  result.city_forge_r4["frontage_fit"]=true
+ return result
+
+static func fill_neighborhoods(data:RefCounted,source:Dictionary)->Dictionary:
+ # Infill belongs to the same approved City Forge plan, never a second builder.
+ var result:Dictionary=source.duplicate(true)
+ var scale_name:String=str(data.spec.settlement_scale)
+ var target:int=10 if scale_name=="village" else 26 if scale_name=="town" else 48
+ var roads:Array=result.streets.duplicate()
+ roads.sort_custom(func(a,b):return int(str(a.kind)!="district")<int(str(b.kind)!="district"))
+ for road in roads:
+  if result.lots.size()>=target:break
+  if str(road.kind) in ["gate","arrival"]:continue
+  var along:Vector2=(road.b-road.a).normalized()
+  var side:=Vector2(-along.y,along.x)
+  var count:int=int(road.a.distance_to(road.b)/4.0)
+  for step in range(1,count):
+   for sign_side in [-1.0,1.0]:
+    if result.lots.size()>=target:break
+    var at:Vector2=road.a+along*float(step)*4.0+side*sign_side*(3.8+float(road.width)*.5+.65)
+    var facing:Vector2=-side*sign_side
+    var door:Vector2=at+facing*3.8
+    var street:Vector2=Geometry2D.get_closest_point_to_segment(door,road.a,road.b)
+    var id:String="cf/r%d/infill/%03d"%[int(data.spec.id),result.lots.size()]
+    var model:Dictionary={"id":id,"size":[6.0,6.0],"stories":2,"function":"residence","archetype":"forja_house","p":[at.x,at.y],"yaw":atan2(facing.x,facing.y)}
+    var lot:Dictionary={"id":id,"p":at,"height":data.center_h,"yaw":model.yaw,"halfsize":3.8,"door":door,"street_point":street,"frontage":door.distance_to(street),"terrain_spread":0.0,"terraced":true,"function":"residence","form":"city_forge","district":"residential_infill","city_model":model,"city_forge_r4":{"district_id":"residential_infill","authorized_state":"planned_worldgen_validation","host_geometry_verified":false}}
+    result.lots.append(lot)
+    if not validate(data,result).is_empty():result.lots.pop_back()
+ result.target=result.lots.size()
+ result.city_forge_r4["infill_target"]=target
+ result.city_forge_r4["infill_actual"]=result.lots.size()-source.lots.size()
  return result

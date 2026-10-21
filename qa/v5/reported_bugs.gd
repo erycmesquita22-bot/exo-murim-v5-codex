@@ -54,6 +54,9 @@ func run() -> void:
             var mat: ShaderMaterial=node.material_override
             if not mat.get_shader_parameter("natural_rock_tex") is Texture2D:filter_bindings=false
             if not mat.get_shader_parameter("forge_r3_indices") is Vector3:filter_bindings=false
+            for transition in ["grass_dirt","dirt_stone","stone_grass"]:
+                if not mat.get_shader_parameter("forge_"+transition+"_mask") is Texture2D:filter_bindings=false
+            if str(region.data.spec.kind)=="settlement" and not is_equal_approx(float(mat.get_shader_parameter("forge_stone_road")),1.0):filter_bindings=false
             break
     check(filter_bindings,"all_three_video_filters_preserve_current_terrain_bindings")
     var headings: Dictionary={}

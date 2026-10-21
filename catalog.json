@@ -8,7 +8,7 @@
     {
       "id": "foundation_2x2",
       "family": "architecture",
-      "file": "models/architecture/foundation_2x2.tscn",
+      "file": "models/architecture/foundation_2x2.glb",
       "bounds": [
         [
           -1.0,
@@ -254,7 +254,7 @@
     {
       "id": "floor_wood_2x2",
       "family": "architecture",
-      "file": "models/architecture/floor_wood_2x2.tscn",
+      "file": "models/architecture/floor_wood_2x2.glb",
       "bounds": [
         [
           -1.0,
@@ -418,7 +418,7 @@
     {
       "id": "stairs_2m",
       "family": "architecture",
-      "file": "models/architecture/stairs_2m.tscn",
+      "file": "models/architecture/stairs_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -443,7 +443,7 @@
     {
       "id": "wall_solid_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_solid_2m.tscn",
+      "file": "models/architecture/wall_solid_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -526,7 +526,7 @@
     {
       "id": "wall_window_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_window_2m.tscn",
+      "file": "models/architecture/wall_window_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -610,7 +610,7 @@
     {
       "id": "wall_door_2m",
       "family": "architecture",
-      "file": "models/architecture/wall_door_2m.tscn",
+      "file": "models/architecture/wall_door_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -967,7 +967,7 @@
     {
       "id": "door_double",
       "family": "architecture",
-      "file": "models/architecture/door_double.tscn",
+      "file": "models/architecture/door_double.glb",
       "bounds": [
         [
           -0.585,
@@ -1120,7 +1120,7 @@
     {
       "id": "balcony_2m",
       "family": "architecture",
-      "file": "models/architecture/balcony_2m.tscn",
+      "file": "models/architecture/balcony_2m.glb",
       "bounds": [
         [
           -1.0217572057232822,
@@ -1160,7 +1160,7 @@
     {
       "id": "roof_slope_2x2",
       "family": "architecture",
-      "file": "models/architecture/roof_slope_2x2.tscn",
+      "file": "models/architecture/roof_slope_2x2.glb",
       "bounds": [
         [
           -1.0804984471899923,
@@ -1243,7 +1243,7 @@
     {
       "id": "roof_eave_2m",
       "family": "architecture",
-      "file": "models/architecture/roof_eave_2m.tscn",
+      "file": "models/architecture/roof_eave_2m.glb",
       "bounds": [
         [
           -1.0804984471899923,
@@ -1284,7 +1284,7 @@
     {
       "id": "roof_ridge_2m",
       "family": "architecture",
-      "file": "models/architecture/roof_ridge_2m.tscn",
+      "file": "models/architecture/roof_ridge_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -1352,7 +1352,7 @@
     {
       "id": "roof_gable_4m",
       "family": "architecture",
-      "file": "models/architecture/roof_gable_4m.tscn",
+      "file": "models/architecture/roof_gable_4m.glb",
       "bounds": [
         [
           -0.08,
@@ -1407,7 +1407,7 @@
     {
       "id": "roof_end_ornament",
       "family": "architecture",
-      "file": "models/architecture/roof_end_ornament.tscn",
+      "file": "models/architecture/roof_end_ornament.glb",
       "bounds": [
         [
           -0.1,
@@ -2825,7 +2825,7 @@
     {
       "id": "lantern_01",
       "family": "details",
-      "file": "models/details/lantern_01.tscn",
+      "file": "models/details/lantern_01.glb",
       "bounds": [
         [
           -0.18,

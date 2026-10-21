@@ -97,7 +97,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
+      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
     },
     {
       "id": "settlement_forge",
@@ -362,7 +362,7 @@
         },
         {
           "path": "runtime/architecture_builder.gd",
-          "sha256": "738ddfdd21d937408517bdd4692bc28af012687116de6670aee78de0fdd1273a"
+          "sha256": "29cd8326c7a2ec9444d430acee805daae1139684e5a4cd6871aafe73481ca206"
         },
         {
           "path": "runtime/architecture_builder.gd.uid",
@@ -412,7 +412,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
+      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
     },
     {
       "id": "worldgen_v5",
@@ -496,7 +496,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
+      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
     }
   ],
   "single_owners": {

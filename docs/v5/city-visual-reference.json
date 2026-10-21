@@ -1,0 +1,42 @@
+{
+  "reference": "1000527431.jpg",
+  "sha256": "6a256bbdcf3e36b156b33c5a910e39733144a99721aa36f23f54af11d09b49c2",
+  "role": "Direção visual fornecida pelo usuário; não é textura extraída nem asset runtime.",
+  "targets": [
+    "Calçamento de pedra claro, variação de tons e juntas legíveis",
+    "Grama viva, distinta da terra e das ruas",
+    "Cidades densas com acesso preservado; casa original de telhado azul escuro"
+  ],
+  "implemented": [
+    "14 peças originais Forja; montagem modular de telhado azul escuro e estrutura de madeira",
+    "Calçamento urbano de pedra de praça, variação quente, escala 6m por tile",
+    "Máscaras autorais grama/terra, terra/pedra e pedra/grama no shader compartilhado, preservadas nos três filtros",
+    "Distritos compactados sem encolher dimensões das casas; preenchimento de lotes seguros na mesma autoridade",
+    "Multidão em 4/8/12 vias por escala, capacidade por extensão, sem duplicar corredores sobrepostos",
+    "42 modelos Forja regenerados com normais explícitas e faces planas",
+    "Filtragem anisotrópica apenas em materiais texturizados; peças lisas Forja não ficam pretas no Compatibility"
+  ],
+  "not_validated": [
+    "Não há garantia de reprodução pixel a pixel do conceito",
+    "Andares superiores visuais não representam novos andares de interior acessíveis",
+    "Desempenho em GPU alvo e Android não medido nesta rodada"
+  ],
+  "qa": "/workspace/exo-v5-qa/city-final/summary.json + city-release-regression/summary.json + city-normals-regression/summary.json",
+  "references": [
+    {
+      "role": "texturas",
+      "file": "1-1000527431.jpg",
+      "sha256": "6a256bbdcf3e36b156b33c5a910e39733144a99721aa36f23f54af11d09b49c2"
+    },
+    {
+      "role": "urbanismo",
+      "file": "1-1000527121.jpg",
+      "sha256": "431964ce0123c92d794499e5ddc1d0ffdac86374b5e7a531bb2fbc7d97a5fa7a"
+    },
+    {
+      "role": "casa_forja",
+      "file": "1-1000527253.jpg",
+      "sha256": "289bda2b64b847af6c760fe7c58b5b50e8956d398c5db4eace90f90e986d431e"
+    }
+  ]
+}

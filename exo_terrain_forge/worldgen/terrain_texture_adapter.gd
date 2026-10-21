@@ -45,8 +45,10 @@ static func apply_to_ground(mat: ShaderMaterial,data: RefCounted) -> void:
  mat.set_shader_parameter("forge_region_offset",Vector2(float(data.spec.center[0]),float(data.spec.center[1])))
  # seed must be WORLD seed, not a region-random per-vertex offset.
  mat.set_shader_parameter("forge_world_seed",float(preload("res://genesis/world_planner.gd").seed_mod(data.atlas.get("seed",0),8191)))
- mat.set_shader_parameter("forge_stone_road",0.61 if str(data.spec.kind)=="settlement" else 0.04)
+ mat.set_shader_parameter("forge_stone_road",1.0 if str(data.spec.kind)=="settlement" else 0.04)
  mat.set_shader_parameter("forge_mix_strength",clampf(float(ProjectSettings.get_setting("exo_murim/terrain_forge/mix_strength",0.86)),0.0,1.0))
+ for transition_name in ["grass_dirt","dirt_stone","stone_grass"]:
+  mat.set_shader_parameter("forge_"+transition_name+"_mask",load("res://exo_terrain_forge/textures/transitions/mask_"+transition_name+".png"))
  mat.set_shader_parameter("forge_enabled",true)
 
 static func dress(region: Node3D,data: RefCounted) -> void:

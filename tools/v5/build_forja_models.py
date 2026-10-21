@@ -74,11 +74,11 @@ class Asset:
  def export(self):
   sc=trimesh.Scene();total=0;parts=0
   for mat,meshes in self.groups.items():
-   parts+=len(meshes);joined=trimesh.util.concatenate(meshes)
+   parts+=len(meshes);joined=trimesh.util.concatenate(meshes);joined.unmerge_vertices()
    joined.visual=trimesh.visual.TextureVisuals(material=PBRMaterial(name=mat,baseColorFactor=np.array(COLORS[mat],dtype=float)/255., metallicFactor=0., roughnessFactor=.9))
    sc.add_geometry(joined,geom_name=mat)
    total+=len(joined.faces)
-  path=OUT/(self.name+'.glb');data=sc.export(file_type='glb');path.write_bytes(data)
+  path=OUT/(self.name+'.glb');data=sc.export(file_type='glb',include_normals=True);path.write_bytes(data)
   minb,maxb=sc.bounds
   manifest.append({'id':self.name,'file':f'models/forja_v3/{self.name}.glb','category':self.category,'usage':self.usage,'collision':'none','bounds_m':[[round(float(v),4) for v in minb],[round(float(v),4) for v in maxb]],'mesh_parts':parts,'triangles':int(total),'materials':list(self.groups)})
   return self

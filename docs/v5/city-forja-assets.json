@@ -1,0 +1,114 @@
+[
+  {
+    "id": "foundation_2x2",
+    "path": "models/architecture/foundation_2x2.glb",
+    "sha256": "34e53b1d395ca292cb714f37290f6d5b1108ce01b4c445d8f93ce61d0d9145c2",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "floor_wood_2x2",
+    "path": "models/architecture/floor_wood_2x2.glb",
+    "sha256": "e8d848b9513771bc4dc2afed72394b321aaa20118cc457fc6a30dc9a3e718c7a",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "stairs_2m",
+    "path": "models/architecture/stairs_2m.glb",
+    "sha256": "33458079ba0910a77d1ae134d62b308b204e6ae4456777b170bf2cb429834218",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "wall_solid_2m",
+    "path": "models/architecture/wall_solid_2m.glb",
+    "sha256": "0d61746d3f77edbfaef2d5bc0affb61c168e886b201f9549c456fc571292147b",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "wall_window_2m",
+    "path": "models/architecture/wall_window_2m.glb",
+    "sha256": "c32e675ca95cad97bf1467d065cad1c73178342e085bda0e5fe1ec2ba55b19e4",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "wall_door_2m",
+    "path": "models/architecture/wall_door_2m.glb",
+    "sha256": "6e94da3934c587d3730bdaa148b8d59db118f1d22764dcc6a01666c9e1ff8bd6",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "door_double",
+    "path": "models/architecture/door_double.glb",
+    "sha256": "05b9bf716833a7baf83bd71a0a90802ed337b52e695be249cc5c0d891a402d0d",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "balcony_2m",
+    "path": "models/architecture/balcony_2m.glb",
+    "sha256": "6ab84667c273fc7dd94b52c0d191c6e6cab67b3165bfd5245a32c45ec6751af7",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "roof_slope_2x2",
+    "path": "models/architecture/roof_slope_2x2.glb",
+    "sha256": "34d871165eff8ca46064c387fcb08c7fd0c0336cb4cabf0a92c5c178e87aac33",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "roof_eave_2m",
+    "path": "models/architecture/roof_eave_2m.glb",
+    "sha256": "f7628ee3015ae2cd9949823e44a818a55170596734cd965509f569b8c14a122b",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "roof_ridge_2m",
+    "path": "models/architecture/roof_ridge_2m.glb",
+    "sha256": "18c99e289a5327affb28af94ea68f0ff727385ef8f928c50d8c870afe54d6faf",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "roof_gable_4m",
+    "path": "models/architecture/roof_gable_4m.glb",
+    "sha256": "01d1b6d2f3d4b35164dd081ad1d9d2498ef835846a74e3081d63eb5af4df61f8",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "roof_end_ornament",
+    "path": "models/architecture/roof_end_ornament.glb",
+    "sha256": "5a8aa181b27c0660fe22f32c705279320b6e511fa38b8e23705154d4e690bf41",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  },
+  {
+    "id": "lantern_01",
+    "path": "models/details/lantern_01.glb",
+    "sha256": "ca2244c11555ab26de0f196911cf36b926113438535d330b5588b5af21f07533",
+    "source_package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+    "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+    "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+  }
+]

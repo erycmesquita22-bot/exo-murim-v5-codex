@@ -1,5 +1,6 @@
 extends RefCounted
 const PALETTES = {
+	"murim_blue":{"wood":"70503b","plaster":"fff0c3","roof":"667780","stone":"a7a394"},
 	"ivory_charcoal":{"wood":"ffffff","plaster":"fff4df","roof":"c6c9c8","stone":"ffffff"},
 	"ochre_terracotta":{"wood":"c7a58a","plaster":"dfbd82","roof":"d9916d","stone":"ddd4c6"},
 	"gray_jade":{"wood":"d2a38c","plaster":"e5e7dd","roof":"7eaf9e","stone":"d6dedb"},
@@ -7,6 +8,7 @@ const PALETTES = {
 	"cream_blue":{"wood":"bcbdb8","plaster":"fff0c3","roof":"88a6bf","stone":"dedfe2"}}
 static var catalog: Dictionary = {}
 static var cached: Dictionary = {}
+static var house_mesh_cache: Dictionary = {}
 
 static func ensure() -> void:
 	if not catalog.is_empty(): return
@@ -28,7 +30,7 @@ static func material_variant(source: Material, palette: String) -> Material:
 	var mat := source.duplicate() as StandardMaterial3D
 	if mat == null: return source
 	if PALETTES[palette].has(role): mat.albedo_color = Color(PALETTES[palette][role])
-	mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+	mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC if mat.albedo_texture!=null else BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 	cached[key] = mat
 	return mat
 
@@ -47,7 +49,7 @@ static func place(parent: Node3D, id: String, position: Vector3, yaw: float = 0,
 				mesh.set_surface_override_material(surface,material_variant(mesh.get_active_material(surface),palette))
 		for surface in range(mesh.mesh.get_surface_count()):
 			var active: Material = mesh.get_active_material(surface)
-			if active is StandardMaterial3D: active.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC
+			if active is StandardMaterial3D: active.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC if active.albedo_texture!=null else BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 		if collision and item.collision in ["triangle_static","box_leaf","box_static"]: mesh.create_trimesh_collision()
 		elif collision and item.collision in ["trunk_only","stems_only"]:
 			var mat: Material = mesh.get_active_material(0)
@@ -65,31 +67,40 @@ static func place(parent: Node3D, id: String, position: Vector3, yaw: float = 0,
 	node.set_meta("palette",palette)
 	return node
 
-static func build_house(parent: Node3D, palette: String = "ivory_charcoal", width: int = 6, stories: int = 2) -> Node3D:
+static func build_house(parent: Node3D, palette: String = "ivory_charcoal", width: int = 6, stories: int = 2, host_visual_only: bool = false) -> Node3D:
 	assert(width in [4,6,8] and stories in [1,2],"Only roof-compatible validated templates are allowed")
 	var root := Node3D.new()
 	root.name = "House_"+palette
 	parent.add_child(root)
+	var batch_key: String=palette+"/"+str(width)+"/"+str(stories)
+	if host_visual_only and house_mesh_cache.has(batch_key):
+		for entry in house_mesh_cache[batch_key]:
+			var mesh:=MeshInstance3D.new()
+			mesh.mesh=entry
+			root.add_child(mesh)
+		root.set_meta("width",width);root.set_meta("stories",stories)
+		root.set_meta("palette",palette);root.set_meta("footprint",Vector2(width,4))
+		return root
 	var xs: Array = []
 	for i in range(width/2): xs.append(-width*.5+1+i*2)
 	for x in xs:
 		for z in [-1,1]:
-			place(root,"foundation_2x2",Vector3(x,0,z),0,palette)
-			if stories==2: place(root,"floor_wood_2x2",Vector3(x,3.0,z),0,palette)
+			place(root,"foundation_2x2",Vector3(x,0,z),0,palette,not host_visual_only)
+			if stories==2: place(root,"floor_wood_2x2",Vector3(x,3.0,z),0,palette,not host_visual_only)
 	for floor_index in range(stories):
 		var y := .4+floor_index*2.6
 		for i in range(xs.size()):
 			var doorway := floor_index==0 and i==xs.size()/2
-			place(root,"wall_door_2m" if doorway else "wall_window_2m",Vector3(xs[i],y,2),0,palette)
-			if doorway:
+			place(root,"wall_door_2m" if doorway else "wall_window_2m",Vector3(xs[i],y,2),0,palette,not host_visual_only)
+			if doorway and not host_visual_only:
 				var door := place(root,"door_double",Vector3(xs[i],y,2.01),0,palette,true)
 				door.set_script(preload("res://godot/door.gd"))
 				door.call_deferred("setup")
 				root.set_meta("door_x",float(xs[i]))
-			place(root,"wall_solid_2m",Vector3(xs[i],y,-2),PI,palette)
+			place(root,"wall_solid_2m",Vector3(xs[i],y,-2),PI,palette,not host_visual_only)
 		for side in [-1,1]:
-			for z in [-1,1]: place(root,"wall_window_2m",Vector3(side*width*.5,y,z),side*PI/2,palette)
-	if stories==2: place(root,"balcony_2m",Vector3(width*.5,3,0),PI/2,palette)
+			for z in [-1,1]: place(root,"wall_window_2m",Vector3(side*width*.5,y,z),side*PI/2,palette,not host_visual_only)
+	if stories==2 and not host_visual_only: place(root,"balcony_2m",Vector3(width*.5,3,0),PI/2,palette,not host_visual_only)
 	var top := .4+stories*2.6
 	for x in xs:
 		place(root,"roof_slope_2x2",Vector3(x,top,0),0,palette,false)
@@ -98,17 +109,32 @@ static func build_house(parent: Node3D, palette: String = "ivory_charcoal", widt
 		place(root,"roof_eave_2m",Vector3(x,top,-2),PI,palette,false)
 		place(root,"roof_ridge_2m",Vector3(x,top+1,0),0,palette,false)
 	for side in [-1,1]:
-		place(root,"roof_gable_4m",Vector3(side*width*.5,top,0),0,palette)
+		place(root,"roof_gable_4m",Vector3(side*width*.5,top,0),0,palette,not host_visual_only)
 		for z in [-2.35,2.35]: place(root,"roof_end_ornament",Vector3(side*width*.5,top-.1,z),0 if side>0 else PI,palette,false)
 		place(root,"roof_end_ornament",Vector3(side*width*.5,top+1.15,0),0 if side>0 else PI,palette,false)
 	var door_x: float = root.get_meta("door_x",0.0)
-	place(root,"stairs_2m",Vector3(door_x,0,2),0,palette)
+	place(root,"stairs_2m",Vector3(door_x,0,2),0,palette,not host_visual_only)
 	for x in [door_x-.85,door_x+.85]: place(root,"lantern_01",Vector3(x,2.15,2.2),0,palette,false)
 	painted_shadow(root,Vector2(width+1,5))
 	root.set_meta("width",width)
 	root.set_meta("stories",stories)
 	root.set_meta("palette",palette)
 	root.set_meta("footprint",Vector2(width,4))
+	if host_visual_only:
+		var groups: Dictionary={}
+		for mesh in root.find_children("*","MeshInstance3D",true,false):
+			for surface in range(mesh.mesh.get_surface_count()):
+				var material: Material=mesh.get_active_material(surface)
+				var key: int=material.get_instance_id() if material!=null else 0
+				if not groups.has(key):
+					var tool:=SurfaceTool.new();tool.begin(Mesh.PRIMITIVE_TRIANGLES);tool.set_material(material)
+					groups[key]=tool
+				groups[key].append_from(mesh.mesh,surface,root.global_transform.affine_inverse()*mesh.global_transform)
+		for child in root.get_children():child.free()
+		var batches: Array=[]
+		for tool in groups.values():
+			var mesh:=MeshInstance3D.new();mesh.mesh=tool.commit();root.add_child(mesh);batches.append(mesh.mesh)
+		house_mesh_cache[batch_key]=batches
 	return root
 
 static func build_seeded_house(parent: Node3D, seed_value: int) -> Node3D:

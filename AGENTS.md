@@ -47,3 +47,7 @@ Em 21/10/2026 o usuário confirmou autoria/fontes e autorizou restaurar as palet
 ## Bugs reportados em 21/10/2026
 
 Leia docs/v5/BUGFIX-REPORT.md. Os 169 PNG Terrain R3 e seus atlas de quatro linhas substituem a mistura incorreta com R2. Não restaurar shaders de filtragem antigos: todos incluem genesis/terrain_surface.gdshaderinc. Manter a preservação de natural_rock_tex e forge_r3_indices no driver visual. Preservar cotovelos positivos, Wardrobe dos inimigos, passos por superfície, circulação contínua dos figurantes, cor de material na fusão de malhas e árvores ancoradas na interpolação exata do terreno. Rodar qa/v5/reported_bugs.gd além das regressões pertinentes.
+
+## Atualização urbana pelas referências do proprietário
+
+Leia docs/v5/CITY-UPDATE.md. O proprietário pediu expressamente as casas originais da Forja: 14 peças GLB restauradas e registradas em city-forja-assets.json, com declaração do pacote e fontes individuais pendentes. Não substituir essas peças novamente por blocos básicos. Settlement Forge continua dono exclusivo das portas/interiores/colisões; a fachada é somente visual. Preservar os três samplers de máscaras de transição em todos os filtros. Kit não deve impor anisotropia a materiais sem textura: isso os torna pretos no Compatibility 4.6.2. Preservar normais explícitas do gerador Forja e deduplicação dos corredores de multidão. Mudanças urbanas exigem QA world_regions, reported_bugs e drive_updates.

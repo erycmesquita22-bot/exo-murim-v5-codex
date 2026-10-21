@@ -20,6 +20,9 @@ uniform sampler2D forge_detail_atlas : source_color, EXO_TERRAIN_FILTER, repeat_
 uniform vec2 forge_region_offset = vec2(0.0);
 uniform float forge_biome_mode = 0.0; // 0=grass, 1=dirt, 2=rocky
 uniform float forge_stone_road = 0.0;
+uniform sampler2D forge_grass_dirt_mask : EXO_TERRAIN_FILTER, repeat_enable;
+uniform sampler2D forge_dirt_stone_mask : EXO_TERRAIN_FILTER, repeat_enable;
+uniform sampler2D forge_stone_grass_mask : EXO_TERRAIN_FILTER, repeat_enable;
 uniform float forge_mix_strength : hint_range(0.0,1.0) = 0.88;
 uniform float forge_world_seed = 0.0;
 uniform vec3 forge_r3_indices=vec3(0.0);
@@ -105,21 +108,30 @@ void fragment(){
   if (forge_biome_mode>1.5) { minted=texture(natural_rock_tex,global_p/4.0).rgb; }
   // Original biome weights remain authoritative at portals and boundaries.
   ground=mix(ground,minted,forge_mix_strength*(1.0-clamp(dot(weights,vec4(1.0)),0.0,1.0)));
-  // Rural roads are ochre; settlement roads gain rustic stone without altering geometry.
+  // Urban streets use paving; rural routes retain their ochre surface.
   vec3 forge_road=forge_group(global_p,global_p,1.0,0.0);
-  float stone_coverage=clamp(forge_stone_road+0.22*sin(global_p.x*0.028+sin(global_p.y*0.032)),0.0,0.94);
+  float stone_coverage=clamp(forge_stone_road+0.22*(1.0-forge_stone_road)*sin(global_p.x*0.028+sin(global_p.y*0.032)),0.0,1.0);
+  // Urban paving selects plaza stones, independently of the region rock biome.
   vec3 paving=forge_group(global_p,global_p,2.0,0.0);
+  if (forge_stone_road>0.99) {
+   paving=mix(forge_stone(global_p/6.0,0.0),forge_stone(global_p/6.0,12.0),0.18+0.22*smoothstep(0.25,0.75,f));
+  }
   forge_road=mix(forge_road,paving,stone_coverage);
-  // Exact transition tiles exist as optional detail resources. Most visual edge
-  // shape comes from world-coherent masks, not painted hard square boundaries.
+  // Author-supplied transition masks only influence the verge. The center of
+  // each surface stays intact; world UVs keep chunk boundaries continuous.
   if (edge>0.015) {
    vec2 fringe_uv=global_p/4.0;
-   float fringe=clamp(edge*0.19,0.0,0.14);
-   forge_road=mix(forge_road,forge_stone(fringe_uv,6.0),fringe*0.30);
+   float grass_dirt=texture(forge_grass_dirt_mask,fringe_uv).r;
+   float dirt_stone=texture(forge_dirt_stone_mask,fringe_uv).r;
+   float stone_grass=texture(forge_stone_grass_mask,fringe_uv).r;
+   float verge_noise=mix(grass_dirt,mix(dirt_stone,stone_grass,step(forge_biome_mode,0.5)),stone_coverage);
+   road_weight=clamp(road_weight+(verge_noise-0.5)*edge*0.34,0.0,1.0);
+   vec3 soil=forge_dirt(fringe_uv,7.0);
+   ground=mix(ground,soil,edge*(1.0-road_weight)*grass_dirt*0.32);
+   vec3 transition=forge_stone(fringe_uv,forge_biome_mode<0.5?8.0:7.0);
+   forge_road=mix(forge_road,transition,edge*stone_coverage*0.30);
    if (forge_biome_mode<0.5) {
-    forge_road=mix(forge_road,forge_stone(fringe_uv,8.0),fringe*0.28);
-   } else {
-    forge_road=mix(forge_road,forge_stone(fringe_uv,7.0),fringe*0.28);
+    ground=mix(ground,forge_grass(fringe_uv,6.0),edge*stone_grass*0.20);
    }
   }
   // Natural, world-continuous soft masks for the grass/dirt and dirt/stone transitions.
@@ -131,7 +143,7 @@ void fragment(){
    ground=mix(ground,minted,0.08*moist);
   }
   road_weight=clamp(road_weight+rough_edge*edge,0.0,1.0);
-  road=mix(road,forge_road,forge_mix_strength);
+  road=mix(road,forge_road,forge_stone_road>0.99?max(forge_mix_strength,0.96):forge_mix_strength);
  }
 
  // Weak biome tint leaves the owner-approved colors and detail recognizable.

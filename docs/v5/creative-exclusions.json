@@ -8118,7 +8118,8 @@
     "bytes": 8660,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/details/garden_bed_2x2.glb",
@@ -8550,7 +8551,8 @@
     "bytes": 5348,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/wall_half_1m.glb",
@@ -8566,7 +8568,8 @@
     "bytes": 2032,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/railing_2m.glb",
@@ -8582,7 +8585,8 @@
     "bytes": 6520,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/floor_2x2.glb",
@@ -8598,7 +8602,8 @@
     "bytes": 11628,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/foundation_2x1.glb",
@@ -8614,7 +8619,8 @@
     "bytes": 5784,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/beam_corner_joint.glb",
@@ -8630,7 +8636,8 @@
     "bytes": 3804,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/wall_stone_2m.glb",
@@ -8654,7 +8661,8 @@
     "bytes": 4688,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/wall_timber_2m.glb",
@@ -8702,7 +8710,8 @@
     "bytes": 2908,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/wall_window_2m.glb",
@@ -8710,7 +8719,8 @@
     "bytes": 17808,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/roof_eave_2m.glb",
@@ -8718,7 +8728,8 @@
     "bytes": 11688,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/column_heavy_2_6m.glb",
@@ -8734,7 +8745,8 @@
     "bytes": 2036,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/door_double.glb",
@@ -8742,7 +8754,8 @@
     "bytes": 9504,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/architecture/roof_hip_corner.glb",
@@ -8758,7 +8771,8 @@
     "bytes": 32444,
     "decision": "REMOVIDO_ORIGINAL",
     "reason": "third_party_or_no_independent_exact_file_authorship_evidence",
-    "current_status": "EXCLUDED_OR_REPLACED"
+    "current_status": "OWNER_REQUESTED_FORJA_REINSTATED",
+    "current_evidence": "city-forja-assets.json; documentary sources pending"
   },
   {
     "path": "models/forja_v2/smith_tool_rack.glb",

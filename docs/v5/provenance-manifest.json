@@ -1,5 +1,5 @@
 {
-  "policy": "No unauthorized third-party creative files. EXO FighterArt and Terrain pixels reinstated on explicit owner attestation in this session; documentary sources promised, not independently verified. Supplied generators and audio task IDs are recorded separately. Not commercial homologation.",
+  "policy": "No unauthorized third-party creative files. EXO FighterArt and Terrain pixels reinstated on explicit owner attestation in this session; documentary sources promised, not independently verified. Supplied generators and audio task IDs are recorded separately. Not commercial homologation. Original modular Forja houses restored at explicit owner request; package authorship declaration recorded, original generator missing, individual source documentation pending.",
   "original_creative_byte_matches": [
     "assets/exo_identity/base_0.png",
     "assets/exo_identity/base_1.png",
@@ -389,7 +389,21 @@
     "exo_terrain_forge/textures/vegetation/reed_clump_01.png",
     "exo_terrain_forge/textures/vegetation/small_bush_01.png",
     "exo_terrain_forge/textures/vegetation/small_bush_02.png",
-    "exo_terrain_forge/textures/vegetation/small_bush_03.png"
+    "exo_terrain_forge/textures/vegetation/small_bush_03.png",
+    "models/architecture/balcony_2m.glb",
+    "models/architecture/door_double.glb",
+    "models/architecture/floor_wood_2x2.glb",
+    "models/architecture/foundation_2x2.glb",
+    "models/architecture/roof_eave_2m.glb",
+    "models/architecture/roof_end_ornament.glb",
+    "models/architecture/roof_gable_4m.glb",
+    "models/architecture/roof_ridge_2m.glb",
+    "models/architecture/roof_slope_2x2.glb",
+    "models/architecture/stairs_2m.glb",
+    "models/architecture/wall_door_2m.glb",
+    "models/architecture/wall_solid_2m.glb",
+    "models/architecture/wall_window_2m.glb",
+    "models/details/lantern_01.glb"
   ],
   "entries": [
     {
@@ -8322,7 +8336,7 @@
       "path": "genesis/terrain_surface.gdshaderinc",
       "decision": "EDITABLE_PROJECT_SOURCE",
       "evidence": "Current Git diff; original project implementation",
-      "sha256": "d4e6ff48358ffc5dfea049b03a007976694941c6a86cadf735aa4f5c104563f4"
+      "sha256": "8df42d4cfe120b13ea6260884e6d196f25f0aa490380db058389150a641b1f7b"
     },
     {
       "path": "genesis/transit_portal.gdshader",
@@ -8347,12 +8361,6 @@
       "sha256": "3af634717ab0c4c2215586c6e9a345ee76f2d22a2bb1bf024da70293d7eb074b",
       "decision": "SUPPLIED_EDITABLE_PROJECT_SOURCE",
       "evidence": "Supplied source ZIPs / module ZIPs, retained editable scene/material/shader; technical provenance, not independent legal certification"
-    },
-    {
-      "path": "models/architecture/balcony_2m.tscn",
-      "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
     {
       "path": "models/architecture/beam_2m.tscn",
@@ -8385,31 +8393,13 @@
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
     {
-      "path": "models/architecture/door_double.tscn",
-      "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
       "path": "models/architecture/floor_2x2.tscn",
       "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
     {
-      "path": "models/architecture/floor_wood_2x2.tscn",
-      "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
       "path": "models/architecture/foundation_2x1.tscn",
-      "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/foundation_2x2.tscn",
       "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
@@ -8427,44 +8417,8 @@
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
     {
-      "path": "models/architecture/roof_eave_2m.tscn",
-      "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/roof_end_ornament.tscn",
-      "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/roof_gable_4m.tscn",
-      "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
       "path": "models/architecture/roof_hip_corner.tscn",
       "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/roof_ridge_2m.tscn",
-      "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/roof_slope_2x2.tscn",
-      "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/stairs_2m.tscn",
-      "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
@@ -8475,19 +8429,7 @@
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
     {
-      "path": "models/architecture/wall_door_2m.tscn",
-      "sha256": "2bb7e7600707b58e63ebee83e7bed5ad7fc6c93b568663e743525e8e5483870e",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
       "path": "models/architecture/wall_half_1m.tscn",
-      "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/wall_solid_2m.tscn",
       "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
@@ -8500,12 +8442,6 @@
     },
     {
       "path": "models/architecture/wall_timber_2m.tscn",
-      "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/architecture/wall_window_2m.tscn",
       "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
@@ -8705,12 +8641,6 @@
     {
       "path": "models/details/garden_bed_2x2.tscn",
       "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
-      "decision": "NEW_CODE_GENERATED",
-      "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
-    },
-    {
-      "path": "models/details/lantern_01.tscn",
-      "sha256": "111f59e587f5ef790c1c59021494575743c2a0cf6f441880b1bdbee1d727ab76",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
     },
@@ -8932,253 +8862,253 @@
     },
     {
       "path": "models/forja_v3/city_wall_battlement_2m.glb",
-      "sha256": "9a520a4deed828f32c8b32d9e0fe43219ca1bd87e1fc66ab59270a7ed5096b2f",
+      "sha256": "259d89aee8ede77400bd6b82353b17ff726bfb20de62b1e39d17e0298200d042",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/city_wall_stone_2m.glb",
-      "sha256": "b934580cc666ce26a3fe27f1216f963370a9f3b242ed334f286b239ddfb346f8",
+      "sha256": "12a525d9d20dad385538ce81b3367e1d2a5fcc174a57dcd1d2796fa0d48deb3a",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/city_wall_wood_2m.glb",
-      "sha256": "1f480f5102734c1a805d6f595e7b550c87a4a500ff2eba695e6038e9f4765ce7",
+      "sha256": "15976601bf0947a368e345db5a932419f3a1a47a91d32165a75badb1bf716b2b",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/clan_banner_pair.glb",
-      "sha256": "ff2ee7973a429fe372b736a2f77cbdbbedc3857596f14204fd642f893ee84dd6",
+      "sha256": "cdb2bd38a0f093276ecc4410fc2bf8650da3bd6de78b0f76adb6b57cba9b6950",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/dojo_bell.glb",
-      "sha256": "1135e0219a404e3d8f34fb716dea059f46fbfbbe493386a204eb0003b1e4c498",
+      "sha256": "369e0b4a86eff00fe119e71a43e085693598156bde6fee252aaba5dccff8b7be",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/farm_gate_4m.glb",
-      "sha256": "0d3878f87f3fa7bb1ea8770423a224dd2973d7383af00802684cfbd3211d9b89",
+      "sha256": "58090349e9209582211fe7f7e8bfd50ff12947d6bea0f7db53f26964db316b33",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/field_fence_2m.glb",
-      "sha256": "923969d5038290da861d48a3364176b3c109cf30452c4de7bb396189d7125da2",
+      "sha256": "d472ae8747201bbbe2f14d41a35d8ebfb77750cb69ef235bf735d2a9b92000e0",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/gate_stone_6m.glb",
-      "sha256": "cdddd16b130f8e67149d760f92ebf730fd6bde6ea407455b590a6ed0522fbbd1",
+      "sha256": "e59223885bf15995ae37570d178cd4c4176ba7f272c6843323e432ee0c5f5ab0",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/gate_wood_6m.glb",
-      "sha256": "307dae11eed690b909bb028fdc242dd01f8daa0020855a817abca2d836ea25d5",
+      "sha256": "e201672a3c52de908e4a56d01c134d953296272adbda0bf51d09b1f7d22ad3fd",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/grain_silo.glb",
-      "sha256": "2e01995b29f2edc5aaa7fa974a8b5b105915e76e372d72a19e23067b3351894f",
+      "sha256": "60c9ee9a10864340e2a6a776de7070cbf5cd42ec30006ddb4e6afde59ac80894",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/granary_6m.glb",
-      "sha256": "d066ef54feb99d67893c8c86ead5352539cf5077c59c36c18df858736eeac23c",
+      "sha256": "aa68e1e83ee2883d633c5d09e8fd09fdd68cb003cfca0181dd40133df6b7beda",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/guild_hall_8m.glb",
-      "sha256": "0ed6984b7db8d9f55f95d5a65e7e2c74d9dd8eae81d6458de18ff40788390812",
+      "sha256": "ab7e9caf608f556f3ebe4a8d4a1b637189a128afb0c89e30ee935c65b137a532",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/hanging_wall_torch.glb",
-      "sha256": "099a930a034bbd55459a15aa9d263861cda7edea8162767c37d87638a56c7a9b",
+      "sha256": "b209234678cb12eacaba33952039bad2c851f14ee25534ce3565b6a967b41169",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/hay_cart.glb",
-      "sha256": "2ecb90e49b48715f47c3a3ca0389f72eda1b540b7e17bc7b3781e7787d054cba",
+      "sha256": "1460f1fd7822080c296765e524b255c054510cb15278bb0880fa979e3d747af0",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/herbalist_garden_box.glb",
-      "sha256": "cbd831d301f85642ab52b952baf4cdb79f64c7641b93cb5a2d8361eec7c09cbd",
+      "sha256": "394fd9dfe4195a6b9f20b1f474dd00fe61124e6f907456c5ee160772f7375225",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/irrigation_channel_2m.glb",
-      "sha256": "605d1a7bc05bfdb8d239a20a6602e5efdba7d477a64b1be356463bc8bf6f44bf",
+      "sha256": "90726ae43f33faf09304b63359cabe39182d6934b7a7ec451c40b595d7c98247",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/martial_training_yard_6m.glb",
-      "sha256": "48be8820a952d63f90f508eea0d8c396f2744328ddc84a69060ce285553b3e9b",
+      "sha256": "8aa89d9c39d0c68d9b3cb7cace9fd54ca62e1ec6bd5d55d16ef26abd1f8c7eb5",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/open_pavilion_6m.glb",
-      "sha256": "e8ef6a1831a36aeb7332236cc563158fda0132aaf7f25689929c54bc5fc081de",
+      "sha256": "e4d02e7c024357452d7a6cbfa838edb3efbb6c52b824507d7e257c0626e71a1e",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/patrol_brazier.glb",
-      "sha256": "1c7b926efc7dc365e96535d0eea7f7ae7aca5f01bd2322fab06e40c7fd26baea",
+      "sha256": "467391768f52e514bb16906c7864a3016d2db4fb8c8d2fda0202bb044e734a29",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/rice_field_4m.glb",
-      "sha256": "b9f17688ea768fa5222d01c6fe1f66a9b3e321ce7a3b8cdea9bdcf86ce21d825",
+      "sha256": "3e76538dc6baa9dbd3303dac1e6cafff57b2a4f153d3b81cc19273c562dd3fbc",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/sect_hall_8m.glb",
-      "sha256": "0b0ac78c700a1528715b0f1176b7f67e5a3a4319fa3704299bbbd13ceaefe9fc",
+      "sha256": "0bc8a36542131a0e05feb4bcb762bdfe71da2bacf60048dd008520be6653dd6a",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/stone_footbridge_4m.glb",
-      "sha256": "a5a3bdf25259155975212d96d8f8b1bc6f998ade75841a7ca985bbe1a4cc970d",
+      "sha256": "31d4fe4f2839486ac27cf3d873465f7df87ce811dc5a4f566c7caa87d718e69f",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/stone_lion_statue.glb",
-      "sha256": "b023b8af1f597aa828e0b2b214e01f603f935f23ca95ee2bbc4c0a8b438b6bbe",
+      "sha256": "03902b330f159e4ef5bdc49b515cbfa0399a7e334c8b46cdb34998a78ee11f89",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/street_lamp_post.glb",
-      "sha256": "8962a7054964d62e53038b2f2754e82c35e426bcc84e7e68e2f70cb47da765f4",
+      "sha256": "14f80cf0084aaa31f66da0036d7f58ad386f8a6908d6f1a41e001beda97d4c58",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/street_signpost.glb",
-      "sha256": "f92f00879d0f3ccb4cbf3a2c35340c13ce174c5b2d859d26720f26d804d76adc",
+      "sha256": "33018cabcbf767988d9597ed6f396c9c2789499bfba3763967f811ea621e4269",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/tea_garden_bush.glb",
-      "sha256": "5232679a21d3a42f20e19b8af68aa2ea32ea22082b38dfaf69ab7b0b8fc2a6ac",
+      "sha256": "c122be114566893c4951d67d04d61647a42e56912cce208a5a89ced3de02b099",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/temple_altar.glb",
-      "sha256": "96aa7ff2c3960ee72b8789604615164894523d263319eacfcf1ce40890af85bc",
+      "sha256": "61d1f50d7d61f747376ec6f3deb58822a6a5c4baa8121babe1433d6cb0bcd0ad",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/temple_hall_8m.glb",
-      "sha256": "d8d0b2bfb5925d82b4e7757600c895f06cc02bbe0f5a2becf20f1269fa5ff1fe",
+      "sha256": "d40cc400596f2207f825212ab23056b9b3e64d6633788ed03e739880a6a0f8ee",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/temple_stela.glb",
-      "sha256": "178886ce8a671a41ad36c2d50994214c3822f11165ed8a6755de5acadb79a006",
+      "sha256": "11cf9107a8805ab11a85f983e029128732aa08dcf0c537d295c0d25f97086aa2",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/training_dummy.glb",
-      "sha256": "e63c728d13c63f052422a51f4b7686495cbf348ec5228e3916dbf366e6ac2338",
+      "sha256": "18381210272eb59f7cf9231b24bb377cd84e0b97f9222c90a3f3c7a683d50a92",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/training_pavilion_6m.glb",
-      "sha256": "aad7eb5256b547d514113f83bd176c2909cfed03e64673497ff62eed07501acf",
+      "sha256": "acc037719f5fb6966b156f6f2ff0527cd43924c1474833a28bed7ed9e7c6198a",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/vegetable_field_4m.glb",
-      "sha256": "271f6b7bf1e14b3fa3ad662ae16af0dcb6fdbe7d515d5b29303547fd341ce4e8",
+      "sha256": "93faa8d060277029b9c4dda55b3e33c0263a8c5d2683fa917cbc7e2b4f347747",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/village_notice_board.glb",
-      "sha256": "70d9692232885b24d4a8f3dbc9d52bd7d600a1043e848edcc7f3ba918f5cf85b",
+      "sha256": "115b33c5cad041039d70f85c98bc2d060ee98df62f7f420a3d9f0bda06bf2abe",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/village_stone_path_2m.glb",
-      "sha256": "e4173e1d6d10029964f34b4d29848184ae8952b01ebce2cc622dac39965ac277",
+      "sha256": "cfd0edbe25dad9bae80c69f21a7d210d5b8f8766386caf2827532be40d9a53e4",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/village_wood_path_2m.glb",
-      "sha256": "71e963c2c3a70845ddbcfb4116aa223d81148d961614ccc48b468c46316ab7ce",
+      "sha256": "05bd7bc20198ca40618f8433f1dc9359fcfca6f161cb0d29c3ea01bc4eb994bb",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/wall_corner_stone.glb",
-      "sha256": "81ee8c926e33b59fe874a3a5fd149ae274cde88e7368d8803bb16d3d00d519f6",
+      "sha256": "ef6084519b38eb9e9cb16fc80a723133fb408b251e198e8fcaa07ded008b5f78",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/wall_corner_wood.glb",
-      "sha256": "e12e53988bab5df81b6e99861d37f6344614270d9b3f0a973958904a02dcb3b6",
+      "sha256": "5a9c9ccf7dcfa1acc2ecedd1fa2635099653521ae2812ad3682dd775d8242bfc",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/watchtower_stone_4m.glb",
-      "sha256": "3853f007b460f758572f7aeaa483102a36eb107bcd33dceaf5476cb6de70d0b7",
+      "sha256": "3835a36ce70d2836884f3750830ddbb582cc8701c7319ad0cfdbfddaa99ad756",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/watchtower_wood_4m.glb",
-      "sha256": "979c64cd0e7c7bd140cf8736682de718a22d91b9fec700ec6902a3b5b9c43182",
+      "sha256": "cab0c8b680f8199ed3da99fa9af4dbcfcb79c230a595cddcb34ad1c06decce01",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/water_trough.glb",
-      "sha256": "e871ae164d77fe39c7b39041e9818e6dc0f1c289fb6a05e3503031da0653dda0",
+      "sha256": "f2e383ddc53d84bef43a1bc7cc51d3a0000e963341109d7f25ed8da32aa234b0",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/weapons_training_rack.glb",
-      "sha256": "8889bbdc3a3437cc8688ff9f1f95e118619c5ac308e93079c27c8e473b298003",
+      "sha256": "e11007780bb0af3d494abc04021f159903a5f83ccaf7ae9d76c4cfa721c28beb",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
     {
       "path": "models/forja_v3/wood_footbridge_4m.glb",
-      "sha256": "c95426bbf150300a6f045d67abec75a93090f9557858bc135d6e7b78e2e1af4c",
+      "sha256": "5858a9797b82b53b2ba0f5496d09dcf293d31ea14c72eaaa158af48b0f08e33f",
       "decision": "REGENERATED_FROM_SUPPLIED_EDITABLE_SOURCE",
       "evidence": "tools/v5/build_forja_models.py; docs/v5/forja-model-replay.json; regenerated binary differs from archive due to exporter versions, not asserted byte-equivalent"
     },
@@ -10424,6 +10354,90 @@
       "sha256": "029199aadabd2a7e9b632c16535f5e6a3812091fa839065c9350d8551f65b59f",
       "decision": "NEW_CODE_GENERATED",
       "evidence": "tools/v5/rebuild_generated_art.py + generated_art_specs.json; deterministic replay"
+    },
+    {
+      "path": "models/architecture/foundation_2x2.glb",
+      "sha256": "34e53b1d395ca292cb714f37290f6d5b1108ce01b4c445d8f93ce61d0d9145c2",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/floor_wood_2x2.glb",
+      "sha256": "e8d848b9513771bc4dc2afed72394b321aaa20118cc457fc6a30dc9a3e718c7a",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/stairs_2m.glb",
+      "sha256": "33458079ba0910a77d1ae134d62b308b204e6ae4456777b170bf2cb429834218",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/wall_solid_2m.glb",
+      "sha256": "0d61746d3f77edbfaef2d5bc0affb61c168e886b201f9549c456fc571292147b",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/wall_window_2m.glb",
+      "sha256": "c32e675ca95cad97bf1467d065cad1c73178342e085bda0e5fe1ec2ba55b19e4",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/wall_door_2m.glb",
+      "sha256": "6e94da3934c587d3730bdaa148b8d59db118f1d22764dcc6a01666c9e1ff8bd6",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/door_double.glb",
+      "sha256": "05b9bf716833a7baf83bd71a0a90802ed337b52e695be249cc5c0d891a402d0d",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/balcony_2m.glb",
+      "sha256": "6ab84667c273fc7dd94b52c0d191c6e6cab67b3165bfd5245a32c45ec6751af7",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/roof_slope_2x2.glb",
+      "sha256": "34d871165eff8ca46064c387fcb08c7fd0c0336cb4cabf0a92c5c178e87aac33",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/roof_eave_2m.glb",
+      "sha256": "f7628ee3015ae2cd9949823e44a818a55170596734cd965509f569b8c14a122b",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/roof_ridge_2m.glb",
+      "sha256": "18c99e289a5327affb28af94ea68f0ff727385ef8f928c50d8c870afe54d6faf",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/roof_gable_4m.glb",
+      "sha256": "01d1b6d2f3d4b35164dd081ad1d9d2498ef835846a74e3081d63eb5af4df61f8",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/architecture/roof_end_ornament.glb",
+      "sha256": "5a8aa181b27c0660fe22f32c705279320b6e511fa38b8e23705154d4e690bf41",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
+    },
+    {
+      "path": "models/details/lantern_01.glb",
+      "sha256": "ca2244c11555ab26de0f196911cf36b926113438535d330b5588b5af21f07533",
+      "decision": "RESTAURADO_POR_PEDIDO_EXPLICITO_DO_PROPRIETARIO",
+      "evidence": "docs/PROVENIENCIA-ORIGINAL.md do pacote declara geometria própria por código; usuário identificou e pediu estas casas da Forja. Gerador original tools/build_assets.py ausente; comprovação documental individual pendente."
     }
   ],
   "original_creative_byte_matches_note": "Current exact path/hash comparisons. Authorized owner-attested restores and generated source replays are identified separately; historical exclusion is not current proof of a ban on those explicit restores.",
@@ -10813,5 +10827,21 @@
     "exo_terrain_forge/textures/optimized_256/vegetation/reed_clump_01.png",
     "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_06.png",
     "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_02.png"
+  ],
+  "owner_requested_forja_restores": [
+    "models/architecture/foundation_2x2.glb",
+    "models/architecture/floor_wood_2x2.glb",
+    "models/architecture/stairs_2m.glb",
+    "models/architecture/wall_solid_2m.glb",
+    "models/architecture/wall_window_2m.glb",
+    "models/architecture/wall_door_2m.glb",
+    "models/architecture/door_double.glb",
+    "models/architecture/balcony_2m.glb",
+    "models/architecture/roof_slope_2x2.glb",
+    "models/architecture/roof_eave_2m.glb",
+    "models/architecture/roof_ridge_2m.glb",
+    "models/architecture/roof_gable_4m.glb",
+    "models/architecture/roof_end_ornament.glb",
+    "models/details/lantern_01.glb"
   ]
 }

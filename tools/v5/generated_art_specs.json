@@ -11425,40 +11425,6 @@
     "creature": true
   },
   {
-    "path": "models/details/lantern_01.tscn",
-    "source_id": "models/details/lantern_01.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          1.5,
-          0.0
-        ],
-        [
-          0.4,
-          3.0,
-          0.4
-        ],
-        "877259"
-      ],
-      [
-        [
-          0.0,
-          2.8,
-          0.0
-        ],
-        [
-          0.7,
-          0.4,
-          0.7
-        ],
-        "b49052"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/details/garden_bed_2x2.tscn",
     "source_id": "models/details/garden_bed_2x2.glb",
     "kind": "new_code_generated_voxel_scene",
@@ -11833,40 +11799,6 @@
     "creature": false
   },
   {
-    "path": "models/architecture/roof_gable_4m.tscn",
-    "source_id": "models/architecture/roof_gable_4m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.6,
-          0.3,
-          4.6
-        ],
-        "356e69"
-      ],
-      [
-        [
-          0.0,
-          0.3,
-          0.0
-        ],
-        [
-          3.0,
-          0.3,
-          3.0
-        ],
-        "427d72"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/architecture/wall_half_1m.tscn",
     "source_id": "models/architecture/wall_half_1m.glb",
     "kind": "new_code_generated_voxel_scene",
@@ -11883,27 +11815,6 @@
           0.25
         ],
         "baaa87"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/floor_wood_2x2.tscn",
-    "source_id": "models/architecture/floor_wood_2x2.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.0,
-          0.25,
-          4.0
-        ],
-        "827f72"
       ]
     ],
     "creature": false
@@ -11943,27 +11854,6 @@
     "creature": false
   },
   {
-    "path": "models/architecture/wall_solid_2m.tscn",
-    "source_id": "models/architecture/wall_solid_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          1.5,
-          0.0
-        ],
-        [
-          4.0,
-          3.0,
-          0.25
-        ],
-        "baaa87"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/architecture/floor_2x2.tscn",
     "source_id": "models/architecture/floor_2x2.glb",
     "kind": "new_code_generated_voxel_scene",
@@ -11980,40 +11870,6 @@
           4.0
         ],
         "827f72"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/balcony_2m.tscn",
-    "source_id": "models/architecture/balcony_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.35,
-          0.0
-        ],
-        [
-          0.9,
-          0.7,
-          0.9
-        ],
-        "8c8064"
-      ],
-      [
-        [
-          0.0,
-          0.75,
-          0.0
-        ],
-        [
-          0.7,
-          0.15,
-          0.7
-        ],
-        "ab9169"
       ]
     ],
     "creature": false
@@ -12040,89 +11896,8 @@
     "creature": false
   },
   {
-    "path": "models/architecture/wall_door_2m.tscn",
-    "source_id": "models/architecture/wall_door_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          -1.55,
-          1.5,
-          0.0
-        ],
-        [
-          0.9,
-          3.0,
-          0.25
-        ],
-        "c3ae89"
-      ],
-      [
-        [
-          1.55,
-          1.5,
-          0.0
-        ],
-        [
-          0.9,
-          3.0,
-          0.25
-        ],
-        "c3ae89"
-      ],
-      [
-        [
-          0.0,
-          2.85,
-          0.0
-        ],
-        [
-          2.2,
-          0.3,
-          0.25
-        ],
-        "9a7752"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/architecture/beam_corner_joint.tscn",
     "source_id": "models/architecture/beam_corner_joint.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.35,
-          0.0
-        ],
-        [
-          0.9,
-          0.7,
-          0.9
-        ],
-        "8c8064"
-      ],
-      [
-        [
-          0.0,
-          0.75,
-          0.0
-        ],
-        [
-          0.7,
-          0.15,
-          0.7
-        ],
-        "ab9169"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/stairs_2m.tscn",
-    "source_id": "models/architecture/stairs_2m.glb",
     "kind": "new_code_generated_voxel_scene",
     "boxes": [
       [
@@ -12192,40 +11967,6 @@
           0.25
         ],
         "baaa87"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/roof_end_ornament.tscn",
-    "source_id": "models/architecture/roof_end_ornament.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.6,
-          0.3,
-          4.6
-        ],
-        "356e69"
-      ],
-      [
-        [
-          0.0,
-          0.3,
-          0.0
-        ],
-        [
-          3.0,
-          0.3,
-          3.0
-        ],
-        "427d72"
       ]
     ],
     "creature": false
@@ -12375,95 +12116,6 @@
     "creature": false
   },
   {
-    "path": "models/architecture/roof_ridge_2m.tscn",
-    "source_id": "models/architecture/roof_ridge_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.6,
-          0.3,
-          4.6
-        ],
-        "356e69"
-      ],
-      [
-        [
-          0.0,
-          0.3,
-          0.0
-        ],
-        [
-          3.0,
-          0.3,
-          3.0
-        ],
-        "427d72"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/wall_window_2m.tscn",
-    "source_id": "models/architecture/wall_window_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          1.5,
-          0.0
-        ],
-        [
-          4.0,
-          3.0,
-          0.25
-        ],
-        "baaa87"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/roof_eave_2m.tscn",
-    "source_id": "models/architecture/roof_eave_2m.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.6,
-          0.3,
-          4.6
-        ],
-        "356e69"
-      ],
-      [
-        [
-          0.0,
-          0.3,
-          0.0
-        ],
-        [
-          3.0,
-          0.3,
-          3.0
-        ],
-        "427d72"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/architecture/column_heavy_2_6m.tscn",
     "source_id": "models/architecture/column_heavy_2_6m.glb",
     "kind": "new_code_generated_voxel_scene",
@@ -12498,97 +12150,8 @@
     "creature": false
   },
   {
-    "path": "models/architecture/foundation_2x2.tscn",
-    "source_id": "models/architecture/foundation_2x2.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.0,
-          0.25,
-          4.0
-        ],
-        "827f72"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/door_double.tscn",
-    "source_id": "models/architecture/door_double.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.35,
-          0.0
-        ],
-        [
-          0.9,
-          0.7,
-          0.9
-        ],
-        "8c8064"
-      ],
-      [
-        [
-          0.0,
-          0.75,
-          0.0
-        ],
-        [
-          0.7,
-          0.15,
-          0.7
-        ],
-        "ab9169"
-      ]
-    ],
-    "creature": false
-  },
-  {
     "path": "models/architecture/roof_hip_corner.tscn",
     "source_id": "models/architecture/roof_hip_corner.glb",
-    "kind": "new_code_generated_voxel_scene",
-    "boxes": [
-      [
-        [
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.6,
-          0.3,
-          4.6
-        ],
-        "356e69"
-      ],
-      [
-        [
-          0.0,
-          0.3,
-          0.0
-        ],
-        [
-          3.0,
-          0.3,
-          3.0
-        ],
-        "427d72"
-      ]
-    ],
-    "creature": false
-  },
-  {
-    "path": "models/architecture/roof_slope_2x2.tscn",
-    "source_id": "models/architecture/roof_slope_2x2.glb",
     "kind": "new_code_generated_voxel_scene",
     "boxes": [
       [

@@ -6822,7 +6822,8 @@
     "sha256": "111f59e587f5ef790c1c59021494575743c2a0cf6f441880b1bdbee1d727ab76",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/details/lantern_01.glb"
   },
   {
     "old": "models/details/garden_bed_2x2.glb",
@@ -7296,7 +7297,8 @@
     "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/roof_gable_4m.glb"
   },
   {
     "old": "models/architecture/wall_half_1m.glb",
@@ -7312,7 +7314,8 @@
     "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/floor_wood_2x2.glb"
   },
   {
     "old": "models/architecture/railing_2m.glb",
@@ -7328,7 +7331,8 @@
     "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/wall_solid_2m.glb"
   },
   {
     "old": "models/architecture/floor_2x2.glb",
@@ -7344,7 +7348,8 @@
     "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/balcony_2m.glb"
   },
   {
     "old": "models/architecture/foundation_2x1.glb",
@@ -7360,7 +7365,8 @@
     "sha256": "2bb7e7600707b58e63ebee83e7bed5ad7fc6c93b568663e743525e8e5483870e",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/wall_door_2m.glb"
   },
   {
     "old": "models/architecture/beam_corner_joint.glb",
@@ -7376,7 +7382,8 @@
     "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/stairs_2m.glb"
   },
   {
     "old": "models/architecture/wall_stone_2m.glb",
@@ -7400,7 +7407,8 @@
     "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/roof_end_ornament.glb"
   },
   {
     "old": "models/architecture/wall_timber_2m.glb",
@@ -7448,7 +7456,8 @@
     "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/roof_ridge_2m.glb"
   },
   {
     "old": "models/architecture/wall_window_2m.glb",
@@ -7456,7 +7465,8 @@
     "sha256": "15b442413ff99c506c4888a965b100a367ec28b5b680106c061bddda68edb8be",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/wall_window_2m.glb"
   },
   {
     "old": "models/architecture/roof_eave_2m.glb",
@@ -7464,7 +7474,8 @@
     "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/roof_eave_2m.glb"
   },
   {
     "old": "models/architecture/column_heavy_2_6m.glb",
@@ -7480,7 +7491,8 @@
     "sha256": "89eb264e8c1c6b299f246616175d26475146b3f273aa8763285c51d718313514",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/foundation_2x2.glb"
   },
   {
     "old": "models/architecture/door_double.glb",
@@ -7488,7 +7500,8 @@
     "sha256": "d28401dc697aa97db479660d182548d1abdf2e7d9ce34e3e328b96c72c31d23c",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/door_double.glb"
   },
   {
     "old": "models/architecture/roof_hip_corner.glb",
@@ -7504,7 +7517,8 @@
     "sha256": "7eec9adf649164e6c5ece17dd6c9e432da58bdef573a9f811416e78f069d0bbd",
     "kind": "new_code_generated_voxel_scene",
     "quality": "simplified_replacement",
-    "status": "ACTIVE"
+    "status": "RETIRED_ORIGINAL_FORJA_REINSTATED",
+    "active_replacement": "models/architecture/roof_slope_2x2.glb"
   },
   {
     "old": "models/forja_v2/smith_tool_rack.glb",

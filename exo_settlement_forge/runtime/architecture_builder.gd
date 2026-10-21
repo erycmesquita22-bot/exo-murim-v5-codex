@@ -58,14 +58,15 @@ static func build(parent: Node3D, record: Dictionary) -> Node3D:
         _box(root,"FrontJamb",Vector3(side*(1.2+jamb*0.5),h*0.5,d*0.5-0.14),Vector3(jamb,h,0.28),walls)
         _box(root,"Window",Vector3(side*w*0.30,h*0.62,d*0.5+0.045),Vector3(0.72,0.62,0.08),"#354b4d",false)
     _box(root,"DoorLintel",Vector3(0,h-0.26,d*0.5),Vector3(2.4,0.52,0.34),walls)
-    _box(root,"Roof",Vector3(0,h+0.23,0),Vector3(w+0.6,0.46,d+0.6),roof)
-    _box(root,"RoofRidge",Vector3(0,h+0.62,0),Vector3(w*0.62,0.30,d*0.67),roof)
-    if f == "smithy":
-        _box(root,"ForgeChimney",Vector3(w*0.32,h+1.0,-d*0.25),Vector3(0.9,1.8,0.9),"#67605d")
-    if f == "martial_school":
-        _box(root,"MartialSign",Vector3(0,h+0.84,d*0.20),Vector3(w*0.35,0.25,0.35),"#b9914c",false)
-    if f == "inn":
-        _box(root,"InnSign",Vector3(w*0.35,2.2,d*0.51),Vector3(0.65,1.35,0.20),"#b75d39",false)
+    # Canonical collider shell is independent from the original Forja facade.
+    # Hide the fallback shell meshes while retaining its safe central doorway.
+    for part in root.get_children():
+        for mesh in part.find_children("*","MeshInstance3D",true,false):mesh.visible=false
+    var house: Node3D=preload("res://godot/modular_kit.gd").build_house(root,"murim_blue",6,2,true)
+    house.name="ForjaOriginalHouse"
+    house.scale=Vector3(w/6.0,1.0,d/4.0)
+    house.set_meta("host_visual_only",true)
+    root.set_meta("forja_house_template","godot/modular_kit.gd:build_house/murim_blue/6/2")
     # Authored Forja geometry regenerated from its supplied construction source.
     # Wall-mounted accents stay above walking clearance; shell/door collision
     # and the canonical building record remain Settlement Forge's authority.

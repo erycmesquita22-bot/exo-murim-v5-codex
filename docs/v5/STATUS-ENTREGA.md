@@ -1,3 +1,3 @@
-# Estado atual — correção dos bugs reportados
+# Estado atual — cidades e Forja
 
-Consulte [BUGFIX-REPORT.md](BUGFIX-REPORT.md) para a revisão atual. [DRIVE-UPDATE.md](DRIVE-UPDATE.md) e [STATUS-BASE-ANTERIOR.md](STATUS-BASE-ANTERIOR.md) registram revisões anteriores; suas contagens não substituem o QA atual. Os comprovantes de autoria prometidos pelo proprietário continuam pendentes.
+Consulte [CITY-UPDATE.md](CITY-UPDATE.md) para a revisão atual. [BUGFIX-REPORT.md](BUGFIX-REPORT.md), [DRIVE-UPDATE.md](DRIVE-UPDATE.md) e [STATUS-BASE-ANTERIOR.md](STATUS-BASE-ANTERIOR.md) são históricos. Os comprovantes de autoria prometidos continuam pendentes.
