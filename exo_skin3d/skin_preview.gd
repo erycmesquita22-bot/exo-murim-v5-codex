@@ -24,3 +24,8 @@ static func demonstrate_pose(rig: Node3D,pose_name: String,time: float=0.0) -> v
         "roll":rig.pose(time,false,false,true,-1,0.45)
         "jump":rig.pose(time,false,false,false)
         _:rig.pose(time,false,false,true)
+
+    # Rig.pose resets both arms each frame. Apply the same weapon-specific
+    # grip as gameplay afterwards, especially for torso-mounted bows/crossbows.
+    var spec: Dictionary=preload("res://catalog.gd").weapon(str(rig.get_meta("weapon_id","sword")))
+    preload("res://arsenal.gd").animate(rig,spec,0,fmod(time,1.0) if pose_name=="attack" else -1.0)

@@ -1,0 +1,66 @@
+{
+  "drive_folder": "1mFzJArwKpcKjoixHHihZzwsuczazejRI",
+  "downloaded_images": [
+    {
+      "name": "Captura de tela 2026-10-21 163406.png",
+      "sha256": "6fb9d708b1f617cbcafdcdd1c9f27b5a55c244c8f67100facc87f3d463868e78",
+      "bytes": 1069659
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163438.png",
+      "sha256": "3f91df912b323b2fc26c88bb5613f976f12f94f29c23ab25bb0974a622cfc24f",
+      "bytes": 508200
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163548.png",
+      "sha256": "a18784d3973bff40f0422cd7a46f65eef62c91550f2ba5936821ae30fbf565bb",
+      "bytes": 18321
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163709.png",
+      "sha256": "e9851d04ec5551ca1f48fcf4116c49a6265b40058a6a130993c178f173abdcee",
+      "bytes": 24049
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163813.png",
+      "sha256": "4f9f17c3a9a67b2ed7a9d2ddbbba644c1db003041ba3f62d3cb96d689e81d869",
+      "bytes": 305316
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163824.png",
+      "sha256": "c1bafc45fba5c02336e730deaa92acd34e37c6bd488f8e12a27a7db8465c1e68",
+      "bytes": 1016200
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163840.png",
+      "sha256": "81401b208bb97d3ffc11c957defa2a5292ed12eaa202570453608a119e01c007",
+      "bytes": 338907
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163913.png",
+      "sha256": "948c0b4d67d0fbdb7afe4aa4e9772ca3199a7f35b70bef9de4e61dea289663e0",
+      "bytes": 10251
+    },
+    {
+      "name": "Captura de tela 2026-10-21 163951.png",
+      "sha256": "1a5507796060a61451e5588e5a3213919a53e9fd88cbaf6f116e8576ed284285",
+      "bytes": 240173
+    },
+    {
+      "name": "Captura de tela 2026-10-21 164014.png",
+      "sha256": "c6390adf4cc83e00a82313ab3f9154ee0e49a95fd51da5075a444a43f1ac5580",
+      "bytes": 1278894
+    },
+    {
+      "name": "Captura de tela 2026-10-21 164208.png",
+      "sha256": "ca5e811a8c0e0d9a366c111ec2f3f87cd82430c52eb6bea372b2a6db4aff80a4",
+      "bytes": 422302
+    }
+  ],
+  "inline_reports": [
+    "continuous crowd movement, forward elbows, idle NPC orientation",
+    "trees below mountain/terrain",
+    "missing visible portal, footsteps, incorrect texture placement",
+    "Combatente dos Ecos without full skin"
+  ]
+}

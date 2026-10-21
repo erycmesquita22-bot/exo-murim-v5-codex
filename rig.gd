@@ -102,7 +102,7 @@ func pose(time: float, moving: bool, sprint: bool, grounded: bool, attack: float
 		legs[1].rotation.x = 0.7
 		arms[0].rotation.x = 0.7
 		arms[1].rotation.x = 0.7
-		for elbow in forearms:elbow.rotation.x=-.9
+		for elbow in forearms:elbow.rotation.x=absf(-.9)
 		for knee in calves:knee.rotation.x=-1.05
 	elif not grounded:
 		torso.rotation.x = -0.08
@@ -111,14 +111,14 @@ func pose(time: float, moving: bool, sprint: bool, grounded: bool, attack: float
 		arms[0].rotation.x = 0.3
 		arms[1].rotation.x = 0.3
 		for knee in calves:knee.rotation.x=-.4
-		for elbow in forearms:elbow.rotation.x=-.25
+		for elbow in forearms:elbow.rotation.x=absf(-.25)
 	elif moving:
 		var stride := cos(time*(13.0 if sprint else 8.5))*(1.05 if sprint else 0.65)
 		legs[0].rotation.x = -stride
 		legs[1].rotation.x = stride
 		for i in range(2):
 			calves[i].rotation.x=-maxf(0,(-stride if i==0 else stride))*.55
-			forearms[i].rotation.x=-.22-absf(stride)*.23
+			forearms[i].rotation.x=absf(-.22-absf(stride)*.23)
 		arms[0].rotation.x = stride*0.8+0.18
 		arms[1].rotation.x = -stride*0.8+0.18
 		torso.rotation.x = -0.18 if sprint else -0.06
@@ -246,7 +246,7 @@ func combo_pose(index: int,progress: float) -> void:
 		torso.rotation.y=lerpf(-0.55,0.65,swing)*recovery*sign_value
 		arms[0].rotation=Vector3(0.35,lerpf(-1.2,1.2,swing)*sign_value,-0.75)*recovery
 		arms[1].rotation.x=0.35*recovery
-	forearms[index%2].rotation.x=-.15-(1-recovery)*.55
+	forearms[index%2].rotation.x=absf(-.15-(1-recovery)*.55)
 
 func meditation_pose(time: float,weight: float) -> void:
 	set_meta("meditation_weight",weight)
@@ -257,7 +257,7 @@ func meditation_pose(time: float,weight: float) -> void:
 		legs[i].rotation=legs[i].rotation.lerp(Vector3(-1.18,side*.35,side*1.0),weight)
 		calves[i].rotation.x=lerpf(calves[i].rotation.x,-1.55,weight)
 		arms[i].rotation=arms[i].rotation.lerp(Vector3(.9,side*.25,-side*.25),weight)
-		forearms[i].rotation.x=lerpf(forearms[i].rotation.x,-1.0,weight)
+		forearms[i].rotation.x=lerpf(forearms[i].rotation.x,1.0,weight)
 	for item in get_meta("cloth_motion",[]):
 		if item.kind=="panel":item.node.rotation.x=lerpf(item.node.rotation.x,float(item.front)*.9,weight)
 

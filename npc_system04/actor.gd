@@ -80,6 +80,12 @@ func setup(person: Dictionary, points: Array, saved: Dictionary = {}, routine_pa
     rig.sword.hide()
     for weapon in rig.get_meta("weapon_nodes", []):
         if is_instance_valid(weapon): weapon.hide()
+    # Spawn looking from the facade toward its authored street, not world north.
+    for point: Vector3 in points:
+        var heading: Vector3=point-position;heading.y=0
+        if heading.length()>0.4:
+            rig.rotation.y=atan2(-heading.x,-heading.z)
+            break
     caption = Label3D.new()
     caption.font_size = 28; caption.pixel_size = 0.007
     caption.outline_size = 6; caption.billboard = BaseMaterial3D.BILLBOARD_ENABLED
@@ -198,8 +204,15 @@ func step(delta: float, _hour: int, now: float = -1.0) -> void:
     if not moving:
         velocity.x = 0.0; velocity.z = 0.0
         if is_instance_valid(social_target) and social_time > 0:
-            var glance: Vector3 = social_target.position - position
-            rig.rotation.y = lerp_angle(rig.rotation.y, atan2(-glance.x, -glance.z), minf(1.0, delta * 4.0))
+            face_point(social_target.position,delta)
+        elif paused_for_talk <= 0.0:
+            # Face the actual activity's approach. Preserve last heading if the
+            # slot has no outgoing corridor; never reset everyone to one yaw.
+            var approach: Array=routes.get(to_slot+">"+to_slot,[])
+            for point: Vector3 in approach:
+                if Vector2(point.x-position.x,point.z-position.z).length()>0.5:
+                    face_point(point,delta)
+                    break
     if not is_on_floor(): velocity.y -= 20.0 * delta
     else: velocity.y = -0.05
     var before: Vector3 = position
@@ -243,6 +256,7 @@ func step_far(delta: float, now: float) -> void:
     # Logic-only advancement on PRE-APPROVED road segments. Never shown as physical movement.
     var target: Vector3 = route[route_index]
     var d: float = position.distance_to(target)
+    face_point(target,delta)
     if d <= 0.25:
         if route_index < route.size() - 1: route_index += 1
         else:
@@ -271,3 +285,8 @@ func can_interact(from: Vector3, maximum_distance: float=3.0) -> bool:
     if not from.is_finite() or from.distance_to(global_position)>=maximum_distance:return false
     var ray:=PhysicsRayQueryParameters3D.create(from+Vector3.UP,global_position+Vector3.UP,1|4)
     return get_world_3d().direct_space_state.intersect_ray(ray).is_empty()
+
+func face_point(point: Vector3,delta: float) -> void:
+    var heading: Vector3=point-position;heading.y=0
+    if heading.length_squared()>0.001:
+        rig.rotation.y=lerp_angle(rig.rotation.y,atan2(-heading.x,-heading.z),minf(1.0,delta*4.0))

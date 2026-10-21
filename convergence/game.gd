@@ -520,7 +520,7 @@ func interact() -> void:
 			var social: Dictionary=NarrativeBridge.context_for(journey.data,atlas,str(actor.identity.id),float(extension().get("clock",0.0))) if not atlas.is_empty() else {}
 			if bool(social.get("attacked",false)):offers_text+="\nO morador reconhece sua hostilidade."
 			elif bool(social.get("helped",false)):offers_text+="\nO morador recorda sua ajuda."
-			ui.dialogue(str(actor.identity.display_name),"%s • nível %d\nAtividade: %s\n\nMoradia: %s • Trabalho: %s\nServiço: %s.%s"%[role_title(str(actor.identity.role)),int(actor.identity.level),actor.activity_name,actor.identity.home_slot,actor.identity.work_slot,actor.identity.get("service","convivência"),offers_text+activation_v4.npc_dialogue(actor)])
+			ui.dialogue(str(actor.identity.display_name),"%s • nível %d\n%s%s"%[role_title(str(actor.identity.role)),int(actor.identity.level),npc_activity_label(actor.activity_name),offers_text+activation_v4.npc_dialogue(actor)])
 			save_progress();return
 	for gate in active_region.gate_nodes:
 		if player.position.distance_to(gate.point)<8:change_region(int(gate.contract.neighbor),str(gate.contract.id));return
@@ -923,3 +923,6 @@ func _near_resident(limit: float=2.0) -> Node3D:
 			if not get_world_3d().direct_space_state.intersect_ray(ray).is_empty():continue
 			best=actor;distance=current
 	return best
+
+func npc_activity_label(activity: String) -> String:
+	return {"viagem":"A caminho de seus afazeres.","atendimento":"Atendendo os moradores.","plantio":"Cuidando da plantação.","colheita":"Trabalhando na colheita.","treino":"Praticando artes marciais.","meditacao":"Em meditação.","descanso":"Descansando.","patrulhar":"Patrulhando a região.","posto":"Vigiando este local.","administracao":"Organizando os assuntos da comunidade.","preparar_remedios":"Preparando remédios.","convivio":"Conversando com os moradores."}.get(activity,"Cuidando de seus afazeres.")

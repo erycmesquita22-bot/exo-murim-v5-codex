@@ -69,11 +69,11 @@ func play_event(event: String,group: String="combat",strength: float=1.0) -> voi
 	variants[event]=variant+1
 	if not cache.has(name_value):return
 	var voice: AudioStreamPlayer
-	for candidate in voices.slice(0,18):
+	for candidate in voices.slice(0,17):
 		if not candidate.playing:voice=candidate;break
 	if group=="narrative":voice=voices[19]
 	elif group=="music":voice=voices[18]
-	elif voice==null:voice=voices[index%18]
+	elif voice==null:voice=voices[index%17]
 	index+=1
 	voice.stream=cache[name_value]
 	voice.pitch_scale=1.0
@@ -157,12 +157,42 @@ func impact_event(material: String,context: Dictionary={}) -> String:
 func impact(material: String,context: Dictionary={}) -> void:
 	play_event(impact_event(material,context),"combat",.75)
 
+func stop_movement() -> void:
+	if voices.size()>17:
+		voices[17].stop()
+		voices[17].set_meta("movement_event","")
+
+func movement_surface() -> String:
+	var host: Node=get_parent()
+	if host.get("wg5_visit")!=null and host.wg5_visit.inside():return "wood"
+	if host.has_method("_dungeon_inside") and host._dungeon_inside():return "stone"
+	var region: Variant=host.get("active_region")
+	if region is Node3D and is_instance_valid(region):
+		var point:=Vector2(host.player.position.x,host.player.position.z)
+		var data: RefCounted=region.data
+		if data.river_distance(point)<3.0 and data.road_distance(point)>5.0:return "water"
+		if data.road_distance(point)<4.5:return "stone" if str(data.spec.kind)=="settlement" else "dirt"
+		if str(data.spec.biome) in ["rocky_highlands","alpine"]:return "gravel"
+		if str(data.spec.biome) in ["temperate_forest","mixed_woodland","bamboo_forest"]:return "leaf"
+	return "grass"
+
 func steps(position_value: Vector3,grounded: bool,moving: bool) -> void:
-	var distance:=position_value.distance_to(last_step)
+	var distance: float=position_value.distance_to(last_step)
 	last_step=position_value
-	if not grounded or not moving or distance>1.5:step_distance=0;return
-	step_distance+=distance
-	if step_distance>=1.45:step_distance=0;play_event("step","ambience",.45)
+	if not grounded or not moving or distance<0.002 or distance>1.5 or voices.size()<18 or groups.master<=0 or groups.ambience<=0:
+		stop_movement();return
+	var event: String={"grass":"foot.grass.walk","dirt":"foot.dirt.run","stone":"foot.stone.walk","wood":"foot.wood.walk","gravel":"foot.gravel.run","water":"foot.water.shallow","leaf":"foot.leaf.walk"}.get(movement_surface(),"foot.grass.walk")
+	var voice: AudioStreamPlayer=voices[17]
+	if voice.playing and voice.get_meta("movement_event","")==event:return
+	var path_value: String=str(forge_events[event].path)
+	var stream: AudioStreamOggVorbis=cache[path_value].duplicate()
+	stream.loop=true
+	voice.stream=stream;voice.pitch_scale=1.0
+	voice.set_meta("movement_event",event);voice.set_meta("group","ambience")
+	voice.set_meta("strength",0.45);voice.set_meta("cue_gain",float(event_gain[event]))
+	voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.ambience*0.45))+float(event_gain[event])
+	voice.play();played+=1;history.append(event)
+	if history.size()>64:history.pop_front()
 
 func technique_context(data: Dictionary) -> Dictionary:
 	var martial: bool=data.get("kind","") in ["cut","area","dash","leap"] and float(data.get("mana",0))<=0

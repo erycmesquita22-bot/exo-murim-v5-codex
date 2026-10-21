@@ -10,6 +10,7 @@ var focus: Node3D
 var density := 1.0
 var mobile := false
 var hour := 12
+var pending_hour_replan: bool=false
 var status_notes: Array[String] = []
 var reserved_points: Array = []
 var area_index: Dictionary = {}
@@ -111,10 +112,16 @@ func _district_factor(district: String) -> float:
 		_: return 0.62
 
 func set_hour(time_hour: int) -> void:
-	if region_id < 0 or hour == posmod(time_hour, 24):
-		return
-	hour = posmod(time_hour, 24)
-	_replan()
+	if region_id < 0:return
+	var next_hour: int=posmod(time_hour,24)
+	if next_hour!=hour:
+		hour=next_hour
+		pending_hour_replan=true
+	# Population schedules may change off camera. Never restart everyone at
+	# the street entrance while the player is watching an hour tick.
+	if pending_hour_replan and int(status().get("visible",0))==0:
+		pending_hour_replan=false
+		_replan()
 
 func set_density(percent: float) -> void:
 	if not is_finite(percent):

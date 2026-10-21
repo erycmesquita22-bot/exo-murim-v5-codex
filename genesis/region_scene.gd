@@ -33,7 +33,7 @@ func build_ground() -> void:
 	# Height is sampled once per chunk; mesh and physics share the exact same triangles.
 	var texture: Texture2D=terrain_texture(data.spec.biome)
 	var shader := Shader.new();shader.code=FileAccess.get_file_as_string("res://genesis/terrain.gdshader")
-	var mat := ShaderMaterial.new();mat.shader=shader;mat.set_shader_parameter("ground_tex",texture);mat.set_shader_parameter("road_tex",load(APPROVED_GROUND+"trilha_terra.png"))
+	var mat := ShaderMaterial.new();mat.shader=shader;mat.set_shader_parameter("ground_tex",texture);mat.set_shader_parameter("natural_rock_tex",load("res://assets/terrain/stone.png"));mat.set_shader_parameter("road_tex",load(APPROVED_GROUND+"trilha_terra.png"))
 	mat.set_shader_parameter("macro_seed",float(int(data.noise.seed)%8191))
 	EXO_TERRAIN_FORGE.apply_to_ground(mat,data)
 	for i in range(4):
@@ -124,7 +124,22 @@ func asset(path: String,pos: Vector3,yaw: float=0,scale_value: float=1,solid: bo
 func append_asset(st: SurfaceTool,node: Node3D,parent_transform: Transform3D) -> void:
 	var local_transform := parent_transform*node.transform
 	if node is MeshInstance3D:
-		for surface in range(node.mesh.get_surface_count()):st.append_from(node.mesh,surface,local_transform)
+		for surface in range(node.mesh.get_surface_count()):
+			# Flattening geometry must bake its material tint into vertex colors.
+			# append_from alone discards per-surface materials and renders white.
+			var arrays: Array=node.mesh.surface_get_arrays(surface)
+			var vertices: PackedVector3Array=arrays[Mesh.ARRAY_VERTEX]
+			var colors:=PackedColorArray()
+			if arrays[Mesh.ARRAY_COLOR] is PackedColorArray:colors=arrays[Mesh.ARRAY_COLOR]
+			var material: Material=node.get_active_material(surface)
+			var tint: Color=material.albedo_color if material is BaseMaterial3D else Color.WHITE
+			var original_colors: bool=material is BaseMaterial3D and material.vertex_color_use_as_albedo and colors.size()==vertices.size()
+			if not original_colors:colors.resize(vertices.size());colors.fill(Color.WHITE)
+			for i in range(colors.size()):colors[i]*=tint
+			arrays[Mesh.ARRAY_COLOR]=colors
+			var tinted:=ArrayMesh.new()
+			tinted.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES,arrays)
+			st.append_from(tinted,0,local_transform)
 	for child in node.get_children():
 		if child is Node3D:append_asset(st,child,local_transform)
 func box(pos: Vector3,size: Vector3,color: Color,solid: bool=true) -> Node3D:
@@ -225,8 +240,9 @@ func build_plants() -> void:
 	elif data.spec.biome in ["alpine","rocky_highlands"]:tree="12_NATUREZA_GLB/pinheiro_escarpado.tscn"
 	for p in data.plants:
 		# Vegetation roots below the surface avoid visible hovering. Thin trunk collider only.
-		var pos := Vector3(p.p.x,p.height-.08,p.p.y)
-		asset(tree,pos,p.yaw,p.scale,false)
+		var pos := Vector3(p.p.x,surface_height_at(p.p)-.08,p.p.y)
+		var tree_node: Node3D=asset(tree,pos,p.yaw,p.scale,false)
+		tree_node.set_meta("vegetation_ground_anchor",true)
 		var trunk := StaticBody3D.new();trunk.collision_layer=4;var shape := CollisionShape3D.new();var cylinder := CylinderShape3D.new()
 		cylinder.radius=.22*p.scale;cylinder.height=2*p.scale;shape.shape=cylinder;trunk.add_child(shape);add_child(trunk);trunk.position=pos+Vector3(0,p.scale,0)
 	build_roadside_grass()
@@ -310,6 +326,14 @@ func build_gates() -> void:
 		var pos := Vector3(point.x,data.height_at(point) if data.worldgen_v4 else g.height,point.y)
 		var open: bool=g.neighbor in pilot
 		var portal := asset("11_RUINAS_GLB/arco_portal_antigo.tscn",pos,atan2(inward.x,inward.y),1.4,true)
+		if open:
+			var opening:=MeshInstance3D.new();opening.name="ActiveTransitPortal"
+			var plane:=QuadMesh.new();plane.size=Vector2(2.9,3.25)
+			opening.mesh=plane
+			var material:=ShaderMaterial.new()
+			material.shader=preload("res://genesis/transit_portal.gdshader")
+			opening.material_override=material
+			portal.add_child(opening);opening.position=Vector3(0,1.625,0)
 		var label := Label3D.new();label.text=("REGIÃO %02d • E"%g.neighbor) if open else ("REGIÃO %02d • FORA DO PILOTO"%g.neighbor)
 		label.font_size=40;label.pixel_size=.014;label.position=pos+Vector3(0,5,0);label.billboard=BaseMaterial3D.BILLBOARD_ENABLED;add_child(label)
 		if not open:box(pos+Vector3(0,1.3,0),Vector3(5,2.6,1) if absf(inward.y)>.7 else Vector3(1,2.6,5),Color("383f45"))
@@ -320,3 +344,16 @@ func build_bounds() -> void:
 		for t in range(-256,256,16):
 			var p := Vector2(t+8,-256 if side==0 else 256) if side<2 else Vector2(-256 if side==2 else 256,t+8)
 			box(Vector3(p.x,data.height_at(p)+2,p.y),Vector3(16,4,1) if side<2 else Vector3(1,4,16),Color("41494a"))
+
+func surface_height_at(point: Vector2) -> float:
+	# Exactly the same grid, diagonal and stitched samples as build_ground().
+	# An analytic height can sit below the coarse mountain mesh's chord.
+	var chunk:=Vector2(floorf(point.x/32.0)*32.0+16.0,floorf(point.y/32.0)*32.0+16.0)
+	var step: float=float(chunk_step(chunk))
+	var corner:=Vector2(floorf(point.x/step)*step,floorf(point.y/step)*step)
+	var uv: Vector2=(point-corner)/step
+	var a: float=stitched_height(corner)
+	var b: float=stitched_height(corner+Vector2(step,0))
+	var c: float=stitched_height(corner+Vector2(0,step))
+	var d: float=stitched_height(corner+Vector2(step,step))
+	return a+(b-a)*uv.x+(c-a)*uv.y if uv.x+uv.y<=1.0 else d+(c-d)*(1.0-uv.x)+(b-d)*(1.0-uv.y)

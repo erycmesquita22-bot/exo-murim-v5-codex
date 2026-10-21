@@ -224,16 +224,16 @@ static func animate(rig: Node3D,spec: Dictionary,index: int,progress: float) -> 
 		rig.arms[first].rotation=Vector3(.45,lerpf(-1.3,1.3,swing)*sign_value,-.72)*recovery
 		if pose in ["staff","pole","reap"]:
 			rig.arms[1].rotation=Vector3(.95,lerpf(-.6,.65,swing)*sign_value,.4)*recovery
-			rig.forearms[0].rotation.x=-.25-.4*swing
-			rig.forearms[1].rotation.x=-.55-.35*swing
+			rig.forearms[0].rotation.x=absf(-.25-.4*swing)
+			rig.forearms[1].rotation.x=absf(-.55-.35*swing)
 		if pose=="draw":
 			rig.arms[0].rotation.y=lerpf(-1.5,1.5,smoothstep(.4,.65,progress))*recovery
 	elif pose in ["heavy","crush"]:
 		rig.arms[0].rotation=Vector3(lerpf(2.5,-.25,swing),-.15,-.15)*recovery
 		rig.arms[1].rotation=Vector3(lerpf(2.0,-.05,swing) if pose=="heavy" else .35,.1,.25)*recovery
 		rig.torso.rotation.x=lerpf(-.25,.35,swing)*recovery
-		rig.forearms[0].rotation.x=-.35-.45*swing
-		rig.forearms[1].rotation.x=-.45-.5*swing
+		rig.forearms[0].rotation.x=absf(-.35-.45*swing)
+		rig.forearms[1].rotation.x=absf(-.45-.5*swing)
 	elif pose=="thrust":
 		rig.arms[0].rotation=Vector3(lerpf(.35,1.55,swing),-.1,-.12)*recovery
 		rig.torso.rotation.y=-.3*recovery
@@ -245,7 +245,7 @@ static func animate(rig: Node3D,spec: Dictionary,index: int,progress: float) -> 
 		rig.arms[hand].rotation=Vector3(lerpf(.5,1.7,swing),.15*sign_value,-.1*sign_value)*recovery
 		rig.arms[1-hand].rotation.x=.8
 		rig.torso.rotation.y=sin(progress*PI)*.35*sign_value
-		rig.forearms[hand].rotation.x=-.2-.6*swing
+		rig.forearms[hand].rotation.x=absf(-.2-.6*swing)
 	elif pose=="bow":
 		rig.arms[0].rotation=Vector3(1.4,0,-.15)
 		rig.arms[1].rotation=Vector3(1.2,lerpf(.1,-1.0,smoothstep(0,.7,progress)),.25)*recovery
@@ -291,8 +291,8 @@ static func grip(rig: Node3D, index: int, target: Vector3) -> void:
 	var bend: float = 2.0 * acos(clampf(reach / (segment_length * 2.0), 0.0, 1.0))
 	arm.scale = Vector3.ONE
 	elbow.scale = Vector3.ONE
-	arm.quaternion = Quaternion(Vector3.DOWN, offset.normalized()) * Quaternion(Vector3.RIGHT, bend * 0.5)
-	elbow.rotation = Vector3(-bend, 0.0, 0.0)
+	arm.quaternion = Quaternion(Vector3.DOWN, offset.normalized()) * Quaternion(Vector3.RIGHT, -bend * 0.5)
+	elbow.rotation = Vector3(bend, 0.0, 0.0)
 
 static func ranged_pose(rig: Node3D,pose: String,progress: float) -> void:
 	var root: Node3D=rig.get_meta("weapon_root")

@@ -67,7 +67,8 @@ func react(position: Vector3, seconds: float = 4.0) -> void:
 
 func _actor_progress(actor: Dictionary) -> float:
     var length: float = maxf(0.01, float(actor.get("route_length", 0.01)))
-    return clampf(float(actor.get("phase", 0.0)) + maxf(0.0, elapsed - float(actor.get("hive_born_at", 0.0))) * float(actor.get("speed", 0.0)) / length, 0.0, 1.0)
+    var distance: float=(float(actor.get("phase",0.0))+maxf(0.0,elapsed-float(actor.get("hive_born_at",0.0))))*float(actor.get("speed",0.0))
+    return fposmod(distance,length)/length if bool(actor.get("loop",false)) else clampf(distance/length,0,1)
 
 func _actor_position(actor: Dictionary) -> Vector3:
     var route: Array = actor.get("route", [actor.get("a", Vector3.ZERO), actor.get("b", Vector3.ZERO)])

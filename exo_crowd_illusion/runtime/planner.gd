@@ -135,17 +135,18 @@ static func plan(z: Dictionary, world_seed: String, density: float = 1.0, reserv
 	if activity == "walk" and lane_length < 9.0:
 		return {"ok":false,"reason":"walk_lane_too_short","agents":[]}
 	for i in range(count):
-		var progress: float = clampf((float(i)+0.35+rng.randf()*0.3)/maxf(1.0,float(count)),0.01,0.99)
-		var span_m: float = rng.randf_range(9.0,minf(16.0,lane_length)) if activity=="walk" else 0.0
-		var start_m: float = progress*maxf(0.0,lane_length-span_m)
-		var route: Array = _subroute(points,start_m,start_m+span_m) if activity=="walk" else [_walk_route(points,progress)]
-		# Bidirectional pedestrians use separate lateral tracks; nobody reverses at the end.
-		if i%2==1:route.reverse()
-		var unshifted: Array = route.duplicate()
-		for j in range(route.size()):
-			var tangent: Vector3 = unshifted[mini(j+1,route.size()-1)]-unshifted[maxi(j-1,0)]
-			var normal := Vector3(-tangent.z,0,tangent.x).normalized()
-			route[j]+=normal*lateral
+		# A closed two-lane street circuit has no shared resting endpoint.
+		var progress: float=(float(i)+0.5)/maxf(1.0,float(count))
+		var route: Array=[]
+		if activity=="walk":
+			var returning: Array=[]
+			for j in range(all_points.size()):
+				var tangent: Vector3=all_points[mini(j+1,all_points.size()-1)]-all_points[maxi(j-1,0)]
+				var normal:=Vector3(-tangent.z,0,tangent.x).normalized()
+				route.append(all_points[j]+normal*lateral)
+				returning.append(all_points[j]-normal*lateral)
+			returning.reverse();route.append_array(returning);route.append(route[0])
+		else:route=[_walk_route(points,progress)]
 		var safety_radius: float = maxf(1.3,float(z.get("safety_radius",1.8)))
 		var route_ok: bool = true
 		for j in range(maxi(1,route.size()-1)):
@@ -156,12 +157,12 @@ static func plan(z: Dictionary, world_seed: String, density: float = 1.0, reserv
 			if not route_ok:break
 		if not route_ok:continue
 		var first: Vector3 = route[0];var last: Vector3 = route[-1]
-		var tangent: Vector3 = (last-first).normalized()
+		var tangent: Vector3 = (route[1]-first).normalized() if route.size()>1 else Vector3.FORWARD
 		var walking: bool = activity=="walk"
 		agents.append({
 			"id":"crowd/"+str(z["id"])+"/"+str(i),"role":role,"activity":activity,
 			"position":first,"a":first,"b":last,"route":route,"route_length":_route_length(route),
-			"speed":1.65 if walking else 0.0,"phase":0.0,
+			"speed":1.65 if walking else 0.0,"phase":progress*_route_length(route)/1.65 if walking else 0.0,"loop":walking,
 			"motion_phase":rng.randf_range(0.0,TAU),"skin_slot":rng.randi_range(0,63),
 			"yaw":atan2(tangent.x,tangent.z),"scale":rng.randf_range(0.93,1.06)
 		})

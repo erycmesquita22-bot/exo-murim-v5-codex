@@ -4,6 +4,7 @@ from pathlib import Path
 import argparse,json,os,re,subprocess,time,sys
 ROOT=Path(__file__).resolve().parents[2]
 SUITES={
+ 'reported_bugs':('qa/v5/reported_bugs.gd','V5_REPORTED_BUGS ',None),
  'drive_updates':('qa/v5/drive_updates.gd','V5_DRIVE_UPDATES ',None),
  'interior_safety':('qa/v5/interior_safety.gd','V5_INTERIOR_SAFETY ',None),
  'resources':('qa/v5/parse_all.gd','V5_PARSE_RESULT ',None),

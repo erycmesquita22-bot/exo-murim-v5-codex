@@ -35,7 +35,7 @@
         },
         {
           "path": "actor.gd",
-          "sha256": "849bf66e6d40c90b9b3ba4655d1839efc874cf13f452c34c97b4a0650e9f4d74"
+          "sha256": "2efc0a1a2e43500a7e1c13b68fdf2d35a15756175b54aa6e83fa5127fa6f2338"
         },
         {
           "path": "actor.gd.uid",
@@ -97,7 +97,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
+      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
     },
     {
       "id": "settlement_forge",
@@ -412,7 +412,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
+      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
     },
     {
       "id": "worldgen_v5",
@@ -496,7 +496,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
+      "host_revision": "Drive integration + reported bugs: continuous Hive, correct rig/textures, movement audio, visible transit, tree grounding"
     }
   ],
   "single_owners": {

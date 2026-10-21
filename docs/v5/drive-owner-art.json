@@ -1513,793 +1513,1195 @@
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_worn.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_worn.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_worn.png",
     "sha256": "04fd6bf770bc7cbcec784ffc06a6d1e588a3e68a4277e82ad7acc33f00d55851",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_c.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_c.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_c.png",
     "sha256": "7880841b4db55b6dfa913a1222433e8d6af20f0daf0712596c6de5a91ee47559",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_b.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_b.png",
     "sha256": "cace782b71647216777c8c5200b8971d0553d34f474cc713a83ad31b24a163da",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_border.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_border.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_border.png",
     "sha256": "882bf0842d613fdb348b54b7c439904ea1278360a217deb5c018a333de49db6e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_rustic.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_rustic.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_rustic.png",
     "sha256": "ece5d85ef4229b77bdde5d4dc6abb9c07551353ca0412a259a6633ca476c36fe",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_plaza_moss.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_moss.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_plaza_moss.png",
     "sha256": "b253fce43f9024a737d3915373abaa63974754604cbb6d289016db9e8aa1f75b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_path_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_a.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_a.png",
     "sha256": "3e2f804bc88fd60890333fc872a303032d5231292f1d86c8ca519d0d12fa1d60",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_plaza_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_b.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_plaza_b.png",
     "sha256": "927c42d95351a659bbd78c2f1727906837429c087dbfb84aa402ed366a2025d3",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_plaza_c.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_c.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_plaza_c.png",
     "sha256": "0c7da9ed7787fa3d3b99535d8c28bba259aa69cdf712f2a4f0e280cabb613846",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_to_grass.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_to_grass.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_to_grass.png",
     "sha256": "58e8b53bb1689eca8cf1a39047c63761a845a1a220064a17ab574c2f56776594",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_to_dirt.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_to_dirt.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_to_dirt.png",
     "sha256": "762cabb2f6937c0d661ec70a4cc44380a31ca6ba24cbabbf3b490c5e1b67368e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/stone/stone_plaza_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_a.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_plaza_a.png",
     "sha256": "d1e7198d8f27ee30eda334e26781e12916eed016838fe5f8b068d61881082c89",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_mossy.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_mossy.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_mossy.png",
     "sha256": "ce789196a2dd22fe155529aa8f0441b2371bf103bb8378318e3e1991a3e489fc",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_edge.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_edge.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_edge.png",
     "sha256": "32e6c82fb44778d9317d8c95cd24ddc5228d4941ed139b3ed1a520d96c80026b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_dense.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_dense.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_dense.png",
     "sha256": "e69105809ae5f5642801ee59aac67cccb3709c29f486c6ce44af3ddceba803a7",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_vivid_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_vivid_b.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_vivid_b.png",
     "sha256": "9ff2cbcb28cce4539fe5d5218c7c4a83c42096b96accdd0b8cf40d635019510c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_wet.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_wet.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_wet.png",
     "sha256": "fe93809b4bbf4707e41c37591a8db3050a71edbfccab35f44b1f81cf1c4d2751",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_understory.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_understory.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_understory.png",
     "sha256": "71b8e44117ed3a32fb21d21c7cd442928c20cd73a3e3a0b42f0627fdcfa4807e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_meadow.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_meadow.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_meadow.png",
     "sha256": "f379fe55aedab04ce4aac4e1f96ed09f50663f9c5ba17b7055334505b9700ff9",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_base_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_base_a.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_base_a.png",
     "sha256": "1d32f07c9895bd844229bf0f8e448ccdb74889a4a89e4236f7a7e7d559b5ea5f",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_base_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_base_b.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_base_b.png",
     "sha256": "1804de676c4352ec769342a6d7bf8ae265b5a57469495f0ba5985265243a44e2",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_sunlit.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_sunlit.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_sunlit.png",
     "sha256": "8d81d22c2a1e49d38cac71d874da852079eeb3242a5960cc968111893c98c6c5",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_vivid_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_vivid_a.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_vivid_a.png",
     "sha256": "1e3d78130ee17a283d43e0406404f2631eb72f9ae65992c0179968f2fb63704c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/grass/grass_microvariation.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_microvariation.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_microvariation.png",
     "sha256": "b57f1eb3f1058745c21a410a13c7fc6f6423c0dc00d3037d1ae38e4895283c1e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_wet.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_wet.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_wet.png",
     "sha256": "95cd3102b092843bebd671812bb3c99aac33cf4a092f3f09c6fe55322cf0e0ba",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_warm_path.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_warm_path.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_warm_path.png",
     "sha256": "8c18b61b14f9be8d596575a5c2c318a79799f94b0d522c4dcf949cebaaa7d55d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_pebbles.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_pebbles.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_pebbles.png",
     "sha256": "108cf075f5392d1f749fed1fc27e0f769e694a75bedcde44a6f82d36477dc49b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
     "sha256": "7db63b8b72eb4bf2be996e803f273c094f46bf63f77f94c633c7372ee23b2580",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_riverbank.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_riverbank.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_riverbank.png",
     "sha256": "d4bc98e2bcdc4baf3f7e3d8ac98475e95b7aeed6cbd87c7c8c499e731741a69c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
     "sha256": "3dfbe60fa9b5a65ed80cb096ce0c1f670a384160b527eb242339883eedf9da55",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_orange_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_orange_a.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_orange_a.png",
     "sha256": "b430dc9ad74ac74a57ed93f3eb064241f8ca8c0233576a6e7d11d08a0190bbcf",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_patches.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_patches.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_patches.png",
     "sha256": "136ba39b35e1dd91c65645de89d9e313280c81b5b623edc1a9934a8a1e6d5e24",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_compacted.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_compacted.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_compacted.png",
     "sha256": "c073a9d81be9d5f3d69d54dfcb0fc901c74b44d6b128623f78530f244b9b635c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_mud_light.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_mud_light.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_mud_light.png",
     "sha256": "4459e473eece425daf2c51717239f2cda293f0861761c5da00258c0d6b42e12a",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_orange_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_orange_b.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_orange_b.png",
     "sha256": "70283bb7f1a26075d80070abde556b4c1e16dc8d9955e34b6bd5652525b06b32",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/dirt/dirt_clean.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_clean.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_clean.png",
     "sha256": "a5dd3f124c4f351492f62aa0ab85a41ac6aef101cf5abdea3752c0fcc5ba2642",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_gravel.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_gravel.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_gravel.png",
     "sha256": "060df97f14359e4e7adc5ec768c90670f8a5794b46bf7cc0aa9bc26cfa817844",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_pebbles.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_pebbles.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_pebbles.png",
     "sha256": "584a1d23dcdbd48f033a8f145debd79d3e8babbe156be2b004479b2e9c503ba6",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_wet_patches.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_wet_patches.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_wet_patches.png",
     "sha256": "28f95a4d0ef2571fbd8c262c945e9c519bb730f4d50943704a876613bc51e0fa",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_wildflowers.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_wildflowers.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_wildflowers.png",
     "sha256": "71a420b66f3ff19376091ac582e9ed1f2f0948fb8d037381c358a98380d82689",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_small_flowers.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_small_flowers.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_small_flowers.png",
     "sha256": "59272c99e0c298bbd48c7bf6e37eca166208353d0996b5b6a2bd3ebed53c6169",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_lichen.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_lichen.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_lichen.png",
     "sha256": "d9256fe935d47ac8abde3306439a793f9012306fb06a02404e73e43ad03304f4",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_small_herbs.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_small_herbs.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_small_herbs.png",
     "sha256": "d482a8ae6f58833976c6098ff4e14952adbdc29501348878e9386aa92e15c32b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_moss.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_moss.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_moss.png",
     "sha256": "9bfd96861c7d17a47ad349a9fd5a7c7f49d43ca024c3606b33b9363174c4c03e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_fine_cracks.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_fine_cracks.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_fine_cracks.png",
     "sha256": "79807b6c89be356fa128549ad51b06aca2bf70cfa6e96904fa68ff4abf0df883",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/details/detail_leaf_litter.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_leaf_litter.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_leaf_litter.png",
     "sha256": "15751ecf8a7641d80910da0133369607450c42ca521e153bcfe5b71540ba44ce",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
-    "sha256": "076a41ecb58900b64b345fa414c0a031e54b0eb9ea7091183d61d058a5166614",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
+    "sha256": "6e928bb1666c4bcd0bc3bf39206e779ed6d74f05ee86ab40bbc16311fe4e1a59",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending",
+    "supplied_sha256": "b701fe94fcbed588eecddbe807509593b4cd648850ec164938084ae3d325b6a9",
+    "derivation": "Repacked from 80 owner-attested individual tiles according to R3 manifest; tools/v5/rebuild_terrain_atlases.py + terrain-atlas-packing.json"
   },
   {
     "path": "exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
-    "sha256": "12ef30e5b7c85b12e1ca3001a73b2cd4335530845cff044e699e8a5ee97024f5",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
+    "sha256": "7c3ac2a7120dda33e48a41cd17b468de76c81b14f6beedcc2435239b9acdd81e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending",
+    "supplied_sha256": "ce65daaa6871dcc2a89ff76ffbf397c456e46502f6630bd4c7b1a11a258635d0",
+    "derivation": "Repacked from 80 owner-attested individual tiles according to R3 manifest; tools/v5/rebuild_terrain_atlases.py + terrain-atlas-packing.json"
   },
   {
     "path": "exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
-    "sha256": "8a4cc5ef8854865459171787724ee946119af1bf288638c9d0c9917c231c9fc1",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
+    "sha256": "afbfaa56256317d1271ea6f9c0885c910b18cc899cef50af83cbcc8e99680e18",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending",
+    "supplied_sha256": "a497362f911d010615d99945320f6f3b98e5b2843cb523bb5fba47472cf25754",
+    "derivation": "Repacked from 80 owner-attested individual tiles according to R3 manifest; tools/v5/rebuild_terrain_atlases.py + terrain-atlas-packing.json"
   },
   {
     "path": "exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
-    "sha256": "d420676843814564c3b43a71d7c4a0c80a0d5aa0cff389843f665b77fedfc4f0",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
+    "sha256": "aaf6cf8f12845a0fe923deedd0509914fe4bbd54cea5e7596967e73baf89af5d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending",
+    "supplied_sha256": "1fe621a61f7520c5c2dda0fac255a1e12eea434465c8c24c893794ab6dd8b1c6",
+    "derivation": "Repacked from 80 owner-attested individual tiles according to R3 manifest; tools/v5/rebuild_terrain_atlases.py + terrain-atlas-packing.json"
   },
   {
     "path": "exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
-    "sha256": "dc43cdbad329cd6693da5b8f1dcbdccb5d745d7836f8a00f1391348e9726d6d1",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
+    "sha256": "e8441aab8696415bd7ad8a451da6a566dc9393158978fc8d450bfdbb7ff302fa",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending",
+    "supplied_sha256": "379a2f4ab37009e840b7704eef2b1eff5a83aaca5dfaa105a08e8529c751ff24",
+    "derivation": "Repacked from 80 owner-attested individual tiles according to R3 manifest; tools/v5/rebuild_terrain_atlases.py + terrain-atlas-packing.json"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/small_bush_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/small_bush_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/small_bush_01.png",
     "sha256": "81213f4a003421515399157b4f530ad8d0ffbca8d3cc9565523c5c63375e3391",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/low_flowers_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_flowers_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/low_flowers_01.png",
     "sha256": "6c63bdd36d8f533aadb98b209f1845a7b9c6699d318487cec051343d11d5dec4",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
     "sha256": "1ab0990b56caee4a84a184aae8aa57e67e2ddce77d499701522b99f71b96c6b3",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/low_foliage_02.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_foliage_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/low_foliage_02.png",
     "sha256": "b3847efc70c0615b761544cb84b42acd2170ff61cebf67e594f4c12a9260f54d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
     "sha256": "8005cbe526f0062d0d2d32891d6d709540756f9d40fc04f0bffdf73e69a25e1b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
     "sha256": "aa8338609e519766a93b9849f12277689a5352d40f9fcdb1115054d5e13841b0",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
     "sha256": "16a302aa541ca7104a8a27aa4bc8b4074bc1593928ee95c4e70e327dd0d32d9d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
     "sha256": "6cc21edbbd7323b01ad293f134144ae32aba0728755e620508bb253973520d9b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/low_foliage_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_foliage_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/low_foliage_01.png",
     "sha256": "1f1c5e71fa098870f8acbe6f6623112193bd44d373d1ad92e0b6442fd76c4d64",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/vegetation/small_bush_02.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/small_bush_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/small_bush_02.png",
     "sha256": "114a03bacda6c385c2207e1655c38a16d1a47ee377b379ec26faf7a33c9d64a0",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
-    "sha256": "dabce59973c2f2efc1a280eeb408369e497c1ae24218e96169fed86a56897a14",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
+    "sha256": "78b9a283722b86dcbe0b4f7c31c606c4d75947e929dd50f44d67096440159a66",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
-    "sha256": "bb5856e9eadab259436c42fe28b41f942ad7d195c6b774caa0a3481316c7b695",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
+    "sha256": "6c5c4639e93be06dfd9707fc9b00ddb686f3a4b3bbb624d58c16fb3a521d37da",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
-    "sha256": "b22f5c5e26ad4d4e031a9ffe58956e6a404cd085bc9cac1bb7c79c12fac21a92",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
+    "sha256": "52bb8681ae10843ff1f0280089fd8c112b99328208df95bac079d7664ac5f44e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
-    "sha256": "114cdc5728d1169e0205c3ddf887f596c7f98327476482f1aa7c5a58a0ce0aaf",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
+    "sha256": "78ae88daa129962745922eb5c22d6e538057fc1e9715109244ea5a3bc6fa70e2",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
-    "sha256": "678cc8e4f3afeb20ca9cac5bf9552429aec2255cc449279ca4e32ce8fa7cbff8",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
+    "sha256": "54f53944175f43a44b99787ab8b8392de5da6f1f11748cfa9e7575dd45ee0942",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
-    "sha256": "c5c4e6dfa43d2774b8dbbc99a5bdc10d4ca48031b2110219d7f0d2f71ffb531f",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
+    "sha256": "9df1aa5205e31cd0eadf415dc6464ab868e7b925bc7e29a5d405343443de1690",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
-    "sha256": "124ab7f986d8a8010d3648e621984cc2491efdb90f7a7a485e079bc92a58b2ab",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
+    "sha256": "dd293381ac5fd6168b5fd7b402ca709d36c66b6453ee18385019e66f54216f64",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
-    "sha256": "d4012333ff9e0cb54a8628f21878fac93821238cc7ec0b14285f843770626a94",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
+    "sha256": "49ccf19e09b32c970c548c1bbb74f52e30607226b940b079420b17c74c791700",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
-    "sha256": "95348b143105a78b76931be8378ef66b022e283516f2b2d2c05278116342b443",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
+    "sha256": "ae71caed603eb73fce68c6a61578c21525767a966569e43308129f11f0f7854c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
-    "sha256": "305c6ad579e5fa51e23a0ec992d0393acb8db54b5171b47c7d4056a70f90bb7c",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
+    "sha256": "ea8ea86bc1ce17bbb993125f2b245932bafcddeb861ceafcadd15812191872bb",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
-    "sha256": "1fc5bd9fa6d164051069a5377ff00a81941e4ccb72f025c40e23f2950c751e4d",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
+    "sha256": "e23db11662bcf79cb22bf89a964d46e778f213d8eb6a5efaa03561314dcfc98b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
-    "sha256": "1e6d884a899cbfe522e47e75d9cf318a7d8a1bf1af92a9afcccb4fefa8e2bc04",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
+    "sha256": "5a8fc51bfdb5e667d96ed2f6de49007de18a70447336781cb2a5dfb3e579ef0e",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
-    "sha256": "c431a824aaa3837981f80aee67bb219e261928ae75b32720e661d48d132d42f5",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
+    "sha256": "20ff1a8ad3421e08f91cab0f5ab25eecc1e71e22a1ef1f3caff28cacc5fc22c3",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
-    "sha256": "b80f400b6a2cf689bec5620347b31ae243ba607e4544d086778a37d2580a66be",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
+    "sha256": "1da55b3b216a237bb9bc574963a079f392573d8f57e17f24c9b0ef191d2534ca",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
-    "sha256": "f8a93dda1f5e6fbcf319d351d539d52a069139c8cfe3eddb099e3cd4f81ede4b",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
+    "sha256": "2ab809849b0141c0295a079de8e1a156cc8f0f74be1e9b57c3afec69bcaa8f84",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
-    "sha256": "0feef52f0ffc551de80b598e3e8fb69bea210abb2234a7b54948a873e714d7e9",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
+    "sha256": "b7ad555aa4a67965431035300ce43c75ada24d6f420ab643061233321d7fc303",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
-    "sha256": "8a7b979939e8cabcc82aaadfb7080b1b5405b63e300f7a643c7c120dd4716da7",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
+    "sha256": "de2af96953f7fb02d5dc414797032bfe91d0f0c8a693137006030e58ceabeec8",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
-    "sha256": "60f6e2b9c03665b355b2cb5980b8dd07ad82380ba7e414922e7f3e9f88928139",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
+    "sha256": "e2ba75f2b63c775aaba6c5a81e6f822516ce21becec4fa3325a035fd88d94ed0",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
-    "sha256": "f4ceb15aaa0c0d3c02735b88c669987dd040ea0cecc38a090d87249048469df4",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
+    "sha256": "8ad9bc6fe2b78b9c32446be95c6c8d938fcf925a53174a8417e46053c93e83ad",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
-    "sha256": "ed5533cc3fae6e1e0f33368b8cd6c62923e67223bbc46fb82d8cae73878678fb",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
+    "sha256": "45df53939a3ca56bb56ac476884787a4c34e88b1324a1aa0ab6d9d5f59c75df7",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
-    "sha256": "75445d7115b9cd8c24117025e1ff39ec917688f99f7e011487fe25f11c34492e",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
+    "sha256": "f3d17d4149461b44cb115fbb6aa1d653f991a56f1afce5ae08fe9f11da0438d3",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
-    "sha256": "05eb8ccf4c283df7c0ef06a5c36dc641bbc39d6c9c03fe58944c021c0bdc224d",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
+    "sha256": "415806372ce0ca64419bdb29bc76fffb6ea0cf108d730fe72543e6792cb4601b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
-    "sha256": "202e879acdcfebcc0ace701add16e6b5ee38870b946af93f27687daabf3f2457",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
+    "sha256": "c3bac09196d232f5d18f53b04225afef5e960a5f43c7707ff27964c87179e3bf",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
-    "sha256": "e5f6eeaf34cfe20093b970b31f06fe31cfffe1082302355ef519030b823620ee",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
+    "sha256": "407f96e94b006e42d5de5425f4f7aa1c622041841dc3c5f3c7740553a4242327",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
-    "sha256": "1148738c1ee44070dcd6f987021a6dd7b9533666bacbea6dfe2f5ad113ea5f31",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
+    "sha256": "32be2a787bee21c9af01634ea6fd4e2d44535c18092c5e74d59275ed5e06369d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
-    "sha256": "5bb170bc219637d706551b74f29e229bac3b293fac26c99be6ae34d00ddf882f",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
+    "sha256": "7d1f6c36d8edd321e070c2c21e7ad13264e5267b45e9df723dcca5afafda75e1",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
-    "sha256": "f1158521769c2dfd58664ba703df87ce217f8689dfcc417e23aaef34bd8b829a",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
+    "sha256": "5a61db8a022aab6d0128965407338be7efc45c71394018a5df621f8328cbb7fb",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
-    "sha256": "66f24ea40a6fd683a27df62be38ad7817fdeba87e3f3eb9e3770485f01126147",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
+    "sha256": "315955e548d7844ea98d1485527c1bc3c053f45d39fb2f70af125fbda794161f",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
-    "sha256": "0ee75132c5067b9fb8a2676e4ea708f8064cab7c100a4b0607e4284885e2e290",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
+    "sha256": "e2e04e9b0b552f9c6dbb0663dc968c2040964244bed5817338287d28eaa6ff07",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
-    "sha256": "0d7c96ab3b5f5b70947cecd572e4685fa9614e764d14e05891024cdd14861bfa",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
+    "sha256": "8960daffca66a888658d82c0ae2b615c7a5a69fbfd08c3a5c190fa7b8b3371ad",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
-    "sha256": "03981b186fe3014aa5545fe5c3702cf788c229f6e90671457eeec486d01fade2",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
+    "sha256": "99ec4e99de48bfad297bef4ea70db5535bbe5a8a62a14e85f12c94b323882259",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
-    "sha256": "d40a76bd05e20774b7b8a4fd2e1a7e017ed16f2ebea9d6c9f05716534527b6a5",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
+    "sha256": "93da893874b155f45d5debc4b7e02db9311736092083267a4c094adf7b983442",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
-    "sha256": "b4a0915edcb55a0fe756694dc1073cfde813ce6ac3a4d0b74485a303ece1af63",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
+    "sha256": "cc0cb76c9d593b5ec84b08ac02690518e13fed23b683f2c695302d36612358ca",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
-    "sha256": "4a890ad8d2d5d3dc460f65fd1c1e9bc6b47ee1688841b5f30e2b4a22471f58ba",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
+    "sha256": "81fb9228be3165fb85ded05ada304d3575529629ea15822b358fe0f2e0b3e378",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
-    "sha256": "663e76b3e3c801d1b1208400caaddc20b702cebfb246a04366cb81374c5b00f9",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
+    "sha256": "06df370e5889e78749509321c24fefac0c4dee554aef686dca0f8c5cd322b3ed",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
-    "sha256": "cc4b4b33bf5e8835b3effe35ba4343f814802654e97cac6b6fb8192bc017629d",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
+    "sha256": "9c2cfd30b69b59ee94eb9958c4180ba480e8afe8efdc279c931d12f106c1187c",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
-    "sha256": "0fa1b9045edb0a148f3025e7c276e240f42ee6f0fc702c4f4c8de47432e3888d",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
+    "sha256": "7f698c147c29e9dc1c3d293523a2d156112cf5ca8a7704a72f0edbdf39e5a404",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
-    "sha256": "d7b1f9d2633c1aa8cafecf129c34b85b6f0eb257b48af1a7e20eb28847e9d821",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
+    "sha256": "ebd57af41c007575c6172e6ab4f250fc8b3066a7e8b49c911f436734cdd0e30a",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
-    "sha256": "7424a9aeedb0c18a675afd3ed6a0d6c7a6f1ea6e2bbb10c39d8fcfaac8789289",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
+    "sha256": "3f421f7791ae9ab7faaf171012b3161f35eb27f6f54f5d3bf78424f28e904ea5",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
     "sha256": "27d8454c3b7c11272a6fb152c1840a71f7328e805d50bc9b9b6bc0546e444798",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
-    "sha256": "af251756f9fa06440c60ffe7f9ae961c76deee0e915460705640e4900c9d879d",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
+    "sha256": "473f4316ab35c9496e78448cdcdee4c5b946dae0bb8d0108da47915739e6641a",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
     "sha256": "e8a778a5fcd812f02d783e0727ecbb189794322874ef8200314cb4c86940473b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
-    "sha256": "795984c3a3bd64c11f654b0ba5fb407de8856f80b442a3c73d5e03dd2fcaf0ad",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
+    "sha256": "e0c5e6da3efed3a88dc3975fbbe17b0473ad83010cf982cbf9ba2440142e5827",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
-    "sha256": "965e6625003e8a5df8d96ab5ccee20d3361fb99a73f3a03e23369c57cfb9fc99",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
+    "sha256": "e1c2e71fe0dc244288c5ce44ead5ef9f7eaadf8953dd0b42843347fafcd7c729",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
     "sha256": "a4992e159809042edf4c9ae415db6b54ec2062a365ba5531a86c414aa47c27a8",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
     "sha256": "620a1a743db37177d3bedb464254a0d3a2d8f0d57d77b1b7c9d1ddc2961a56e9",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
     "sha256": "81213f4a003421515399157b4f530ad8d0ffbca8d3cc9565523c5c63375e3391",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
     "sha256": "6c63bdd36d8f533aadb98b209f1845a7b9c6699d318487cec051343d11d5dec4",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
     "sha256": "aa8338609e519766a93b9849f12277689a5352d40f9fcdb1115054d5e13841b0",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
     "sha256": "16a302aa541ca7104a8a27aa4bc8b4074bc1593928ee95c4e70e327dd0d32d9d",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
     "sha256": "6cc21edbbd7323b01ad293f134144ae32aba0728755e620508bb253973520d9b",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   },
   {
     "path": "exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
-    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
     "sha256": "1f1c5e71fa098870f8acbe6f6623112193bd44d373d1ad92e0b6442fd76c4d64",
     "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
-    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_slate.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_slate.png",
+    "sha256": "cbc40f91ea674138c71b7d55a8f90c526687b6dcac547c48557dfd719b993066",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_plaza_warm.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_plaza_warm.png",
+    "sha256": "0f07f9a4b4ada35cf91925f654fbf705c78bab9aadd6007dc6a1b28ae410769b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_ruins.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_ruins.png",
+    "sha256": "021dad8958d44c6de2a8bd815d853d2172ff7eb4d8a8badc41a3e805a0cd3b4c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_moss_dense.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/stone/stone_path_moss_dense.png",
+    "sha256": "f06f9f81f410f8a2cea61671539212574ac77ff5e46e782e495ca0ec93fb39ec",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_bamboo_edge.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_bamboo_edge.png",
+    "sha256": "2da48ccaa20eb0c672d1d8d595f4bc73fcb57e70ac7ef792ce0590cedc9e017b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_riverside.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_riverside.png",
+    "sha256": "954a61e3e6c55d1fcdd59eb70af3eba14cac289971289a09291b50f92b7f95fb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_flowery_meadow.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_flowery_meadow.png",
+    "sha256": "7cab76b95432562dd254c97ef96de6583a0850a607fee21738ea636650d058ad",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_autumn_floor.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/grass/grass_autumn_floor.png",
+    "sha256": "057452bc1d510686cb3d7b696f57c6f6c8b91f6433d846c21f19f25f1f05ec09",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_clay_red.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_clay_red.png",
+    "sha256": "65c1bc38d0defae5fea9fc3b73618ab2159a71c66f5a27aeda5b70b0e0e783af",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_trampled.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_trampled.png",
+    "sha256": "57c1136db3a34efbe69a972b60a3b4eeb30c2dcf0b5a3612e80c82326c7e15e2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_sandy.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_sandy.png",
+    "sha256": "f47127b78513f4e8bbb428dd023a335044e2cb1186af0ed1d2bda1b3417ba56d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_granite_dust.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/dirt/dirt_granite_dust.png",
+    "sha256": "c080428d7f0c8503e5aa5e7788cec01d26879cd89d61bfd5944c942da94537e5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_river_silt.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_river_silt.png",
+    "sha256": "aaf7941ee25b81974777778dd4d84bb35931b80a92515dac5ad3c778a06ebe62",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_reeds.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_reeds.png",
+    "sha256": "1f68a5837a7e53a2c80beead702ebf29a354e08c07c739a8d9614d0790c180e7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_needle_litter.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_needle_litter.png",
+    "sha256": "ec0c600459fce4a37b994123b9812755c2dd2598baa8bc9c33728f98dc13c627",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_petals.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_petals.png",
+    "sha256": "5ad650761c21fd3f661edec5784bcc871007f408503b106500b87864e8d70ac9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_dry_leaves.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_dry_leaves.png",
+    "sha256": "e8278b7e260ad3d5c035e74da3b88d027c258035bd1059ebfc9d20726c6329f1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_sand_grains.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/details/detail_sand_grains.png",
+    "sha256": "09cc97cfdf7d9ea45c12d26fbd33ea603ecacac0e03ff5f32fffe3c4a3e10d19",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/transitions/mask_stone_grass.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/transitions/mask_stone_grass.png",
+    "sha256": "8b029bdfb3564fcb65bde5ee9a9d80f7c416e5391c6c04cd25482f7c56e3daaf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/transitions/mask_grass_dirt.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/transitions/mask_grass_dirt.png",
+    "sha256": "1d15963541b6d03e28900eb910b8d07d0d69a1c5b8313c69c7aebe4aa89eca18",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/transitions/mask_plaza_herbs.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/transitions/mask_plaza_herbs.png",
+    "sha256": "6d3ce309afb8ea6abdfc82f15d0e8b030bf75bcec67569a7fa91770f1603ae11",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/transitions/mask_dirt_stone.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/transitions/mask_dirt_stone.png",
+    "sha256": "fb3748dd152e994f61ad6762f7cf04f31cfc21f22606fe1326ff7b953114f38d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/moss_tuft_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/moss_tuft_01.png",
+    "sha256": "0422046e4bb5e89c6fef7416bf803666e38f1d1245da765cff7407800f02d82a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/small_bush_03.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/small_bush_03.png",
+    "sha256": "50fbb323e0c428474bd3833f45aab7da3b72b1127991f647b4d8674dbd6f5bfb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/fern_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/fern_01.png",
+    "sha256": "4ffde98badf3f44f679d4f4278bef6de6a26d18e1fc777f539a8d725ced48b8e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/flowers_pink_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/flowers_pink_01.png",
+    "sha256": "8cbb9448a00921b89a53f36acd4010f35ea5ae88c9bcb01ad8baf32aa2abaca2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/reed_clump_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/reed_clump_01.png",
+    "sha256": "f54609ba46566e8cc2f7a4444eebedbe3918054d55a8278405d7f0e732aef775",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_06.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/vegetation/grass_tuft_06.png",
+    "sha256": "7a5111f863f6e4f0224b179514d5f0390b84d4893fc9250061a04b4407694e06",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_slate.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_slate.png",
+    "sha256": "f1a4fcc295711d5f0de965ba845704d82eaa5d8060a177f273647222449ee517",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_warm.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_warm.png",
+    "sha256": "97f4c1f50289a45952f2193bcc02b03f736a5060a18c646e6e2e83ce8ca15ed3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_ruins.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_ruins.png",
+    "sha256": "a49112b93c9ebc9604251cf3c169d4c33929155d861e90e8952496005d1bdfc3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_moss_dense.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/stone/stone_path_moss_dense.png",
+    "sha256": "a4f876640c8bdd85c11773d03e07281c78a59a16c045cca18697fc7529211fd7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_bamboo_edge.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_bamboo_edge.png",
+    "sha256": "29f0e9a1ff8862d231d84b3ed89f88289e5fc1a674e1eb433e6c4542439256fd",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_riverside.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_riverside.png",
+    "sha256": "fa2a59326fe4d3ee8f8e8b0b51e26060b48c9f123701d5cdabde809334d8b9dd",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_flowery_meadow.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_flowery_meadow.png",
+    "sha256": "60894d7658f337d256da6a74f815617d595f82967b8ffa69fc78a1368a5abc39",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_autumn_floor.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/grass/grass_autumn_floor.png",
+    "sha256": "97718805083dc85709c7c9e656f322c8eb07ab52be984ac7fb0fa11033e3eb49",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_clay_red.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_clay_red.png",
+    "sha256": "7fed6591a84a541d5b090f2c88339a875d8aaf4a014b321d0b558d768c9bf940",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_trampled.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_trampled.png",
+    "sha256": "1abe5448a82fcef5187917371936d57703432ab286a6c57a13dc6346d66c6bbf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_sandy.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_sandy.png",
+    "sha256": "16b985338714b1321c860456f3f10ea8f2a809bfb95d3c0e0795e58eb6d0643a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_granite_dust.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/dirt/dirt_granite_dust.png",
+    "sha256": "dfe50cbd9d9c6bfef3551073d49285b87dccdbd2255e6313fa97571dd468284d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_river_silt.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_river_silt.png",
+    "sha256": "d2ec990df9ca6974a60600f0f9ba36ae3535c74c4e1995abb15aaec91d0ce1f6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_reeds.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_reeds.png",
+    "sha256": "a4a586e65065d49a0a62ba81d674732f75499b43870d10fd3d68a5bcbc08bd99",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_needle_litter.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_needle_litter.png",
+    "sha256": "8f34f63c1d0518af9579418bcf88f7885a6f191fb2c0e6eb4da065613347683b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_petals.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_petals.png",
+    "sha256": "117fd78df5ecb87b618dfde7c885ac16f853d6c3d2c9bb3dea69b93519d85f92",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_dry_leaves.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_dry_leaves.png",
+    "sha256": "96c0e9aae526a5565342595a6caad9005a5a01ba41551e490be4cc20f2a29923",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_sand_grains.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/details/detail_sand_grains.png",
+    "sha256": "4cd1c6626ba57c5ee48a2efb95c18c5618e0fd9bc7426721a6145284f0847d78",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/moss_tuft_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/moss_tuft_01.png",
+    "sha256": "0422046e4bb5e89c6fef7416bf803666e38f1d1245da765cff7407800f02d82a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_04.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_04.png",
+    "sha256": "1ab0990b56caee4a84a184aae8aa57e67e2ddce77d499701522b99f71b96c6b3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_02.png",
+    "sha256": "b3847efc70c0615b761544cb84b42acd2170ff61cebf67e594f4c12a9260f54d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_03.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/small_bush_03.png",
+    "sha256": "50fbb323e0c428474bd3833f45aab7da3b72b1127991f647b4d8674dbd6f5bfb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/fern_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/fern_01.png",
+    "sha256": "4ffde98badf3f44f679d4f4278bef6de6a26d18e1fc777f539a8d725ced48b8e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_05.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_05.png",
+    "sha256": "8005cbe526f0062d0d2d32891d6d709540756f9d40fc04f0bffdf73e69a25e1b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/flowers_pink_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/flowers_pink_01.png",
+    "sha256": "8cbb9448a00921b89a53f36acd4010f35ea5ae88c9bcb01ad8baf32aa2abaca2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/reed_clump_01.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/reed_clump_01.png",
+    "sha256": "f54609ba46566e8cc2f7a4444eebedbe3918054d55a8278405d7f0e732aef775",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_06.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_06.png",
+    "sha256": "7a5111f863f6e4f0224b179514d5f0390b84d4893fc9250061a04b4407694e06",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_02.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/exo_terrain_forge/textures/optimized_256/vegetation/small_bush_02.png",
+    "sha256": "114a03bacda6c385c2207e1655c38a16d1a47ee377b379ec26faf7a33c9d64a0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms own EXO/Terrain sources/history; R3 texture version matches current R3 manifest, proof documents pending"
   }
 ]

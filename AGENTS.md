@@ -43,3 +43,7 @@ Consulte README-CODEX.md e exo_core/modules.json para o estado atual; o texto ac
 ## Atualização do Drive autorizada pelo proprietário
 
 Em 21/10/2026 o usuário confirmou autoria/fontes e autorizou restaurar as paletas FighterArt/EXO e texturas Terrain Forge, prometendo anexar comprovação depois. As 216 paletas e 113 texturas/atlas listadas em docs/v5/drive-owner-art.json estão ativas por essa autorização expressa; não as excluir automaticamente com base na quarentena histórica. Os comprovantes continuam pendentes e não há homologação comercial. As 480 skins legadas continuam fora da build. Leia docs/v5/DRIVE-UPDATE.md e drive-provenance.json antes de importar recursos ou executar geradores. tools/v5/generated_art_specs.json já exclui os recursos restaurados; não substituir novamente sua arte por padrões básicos. Hive usa NPC04, não reinstalar NPC03.
+
+## Bugs reportados em 21/10/2026
+
+Leia docs/v5/BUGFIX-REPORT.md. Os 169 PNG Terrain R3 e seus atlas de quatro linhas substituem a mistura incorreta com R2. Não restaurar shaders de filtragem antigos: todos incluem genesis/terrain_surface.gdshaderinc. Manter a preservação de natural_rock_tex e forge_r3_indices no driver visual. Preservar cotovelos positivos, Wardrobe dos inimigos, passos por superfície, circulação contínua dos figurantes, cor de material na fusão de malhas e árvores ancoradas na interpolação exata do terreno. Rodar qa/v5/reported_bugs.gd além das regressões pertinentes.

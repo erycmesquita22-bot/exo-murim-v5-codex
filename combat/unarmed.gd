@@ -16,8 +16,8 @@ static func legacy(r: Node3D,index: int,p: float) -> void:
 	var e:=extension(p,index);var hand:=1 if index in [0,2] else 0;var side:=1.0 if hand==0 else -1.0
 	r.arms[hand].rotation=Vector3(.7+e*.9,-side*.18,-side*.12)
 	# Preserve square limbs while extending the elbow through the contact window.
-	r.forearms[hand].rotation.x=-.85+e*.7
-	r.forearms[1-hand].rotation.x=-.65
+	r.forearms[hand].rotation.x=absf(-.85+e*.7)
+	r.forearms[1-hand].rotation.x=absf(-.65)
 	r.torso.rotation.y=side*e*(.28 if index==3 else .18)
 	r.torso.rotation.x=-e*.06
 	if index==3:

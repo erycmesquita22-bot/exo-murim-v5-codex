@@ -61,11 +61,19 @@ func setup(owner_world: Node3D, id: String, role: String, spawn: Vector3) -> voi
 	collider.shape=shape
 	collider.position.y=shape.height*0.5
 	add_child(collider)
-	rig=Rig.new(Color("d5b98c") if kind=="boss" else Color("879ec9") if kind=="mage" else Color("b08c9b"))
+	rig=Rig.new()
 	add_child(rig)
 	# Cosmetic components only: preserve boss art, colliders, HP and combat behavior.
 	var cosmetics: Dictionary=preload("res://exo_skin3d/appearance_adapter.gd").npc_cosmetics(uid,"boss" if kind=="boss" else "enemy",kind)
-	preload("res://exo_skin3d/appearance_adapter.gd").apply(rig,{"skin3d":cosmetics})
+	var appearance_seed: int=uid.hash() & 0x7fffffff
+	# Same authored skin/UV/wardrobe path as inhabitants and the creator.
+	# Combat stats and ownership remain this actor's existing responsibility.
+	preload("res://wardrobe.gd").apply(rig,{"race":0,"skin":appearance_seed%6,
+		"robe":5 if kind=="mage" else 3 if kind=="blade" else 0,
+		"hair":(appearance_seed/7)%6,"haircut":appearance_seed%4,
+		"eyes":appearance_seed%4,"eye_color":appearance_seed%6,
+		"outfit":1 if kind=="blade" else 3,"style":appearance_seed%3,
+		"weapon":"arcane_staff" if kind=="mage" else "sword","skin3d":cosmetics})
 	if kind != "boss":
 		preload("res://convergence/visual_actor_r10.gd").apply_enemy(rig,uid,"hostile_wanderer",str(world.journey.data.world.seed))
 	if kind=="boss":

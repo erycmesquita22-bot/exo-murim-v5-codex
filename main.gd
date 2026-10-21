@@ -375,6 +375,7 @@ func set_paused(value: bool) -> void:
 	if not value and health<=0:
 		return
 	get_tree().paused=value
+	if value and is_instance_valid(audio_fx):audio_fx.stop_movement()
 	if value and flow!=null:
 		flow.meditating=false
 	if not headless:
@@ -731,8 +732,13 @@ func can_hit(origin: Vector3, target: Vector3, direction: Vector3, distance: flo
 
 
 func update_camera() -> void:
-	camera.position = player.position+Vector3(10,11,10)
-	camera.look_at(player.position+Vector3(0,0.8,0))
+	var focus: Vector3=player.global_position+Vector3(0,0.8,0)
+	var desired: Vector3=player.global_position+Vector3(10,11,10)
+	var query:=PhysicsRayQueryParameters3D.create(focus,desired,1|4)
+	query.exclude=[player.get_rid()]
+	var obstruction: Dictionary=get_world_3d().direct_space_state.intersect_ray(query)
+	camera.global_position=desired if obstruction.is_empty() else obstruction.position+obstruction.normal*0.45
+	camera.look_at(focus)
 	if graphics!=null and graphics.shake_enabled and shake>0:
 		camera.position+=Vector3(sin(elapsed*97),cos(elapsed*121),0)*shake
 

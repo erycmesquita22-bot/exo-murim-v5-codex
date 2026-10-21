@@ -26,12 +26,11 @@
   "physics": "none",
   "integration_mode": "V5_receipt_gated_full_rig_hive",
   "verified_native_qa": true,
-  "avatar_visuals": "Canonical NPC04 Rig/Wardrobe/Skin3D/VisualR10; resolved source wardrobe selection reused; visual-only nodes",
+  "avatar_visuals": "Canonical NPC04 full Rig/Wardrobe/Skin3D; continuous closed circuits on physically checked street lanes; offscreen-only hourly population refresh",
   "limitations": [
-    "Requires physically validated lanes from the current WorldGenesis/Settlement materialization",
-    "Decorative ghosts have no physics or gameplay identity and can overlap moving actors",
-    "Android/target GPU performance and long sessions not homologated",
-    "See docs/v5/DRIVE-UPDATE.md and current QA, not historical packet reports"
+    "Decorative ghosts have no physical collider or gameplay identity; not an interactive NPC population",
+    "Physical verification applies to current road lanes; does not authorize arbitrary terrain paths",
+    "Whole-device Android/Windows GPU and hours-long roaming not homologated"
   ],
   "provenance": "Owner-attested EXO appearance and shared editable original rig; no legacy 480-skin import"
 }

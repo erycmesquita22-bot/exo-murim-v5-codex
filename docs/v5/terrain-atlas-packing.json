@@ -1,0 +1,562 @@
+[
+  {
+    "atlas": "grass",
+    "tile": "grass_base_a",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
+    "source_sha256": "45df53939a3ca56bb56ac476884787a4c34e88b1324a1aa0ab6d9d5f59c75df7",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_base_b",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
+    "source_sha256": "f3d17d4149461b44cb115fbb6aa1d653f991a56f1afce5ae08fe9f11da0438d3",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_vivid_a",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
+    "source_sha256": "c3bac09196d232f5d18f53b04225afef5e960a5f43c7707ff27964c87179e3bf",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_vivid_b",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
+    "source_sha256": "b7ad555aa4a67965431035300ce43c75ada24d6f420ab643061233321d7fc303",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_dense",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
+    "source_sha256": "2ab809849b0141c0295a079de8e1a156cc8f0f74be1e9b57c3afec69bcaa8f84",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_wet",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
+    "source_sha256": "de2af96953f7fb02d5dc414797032bfe91d0f0c8a693137006030e58ceabeec8",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_edge",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
+    "source_sha256": "1da55b3b216a237bb9bc574963a079f392573d8f57e17f24c9b0ef191d2534ca",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_microvariation",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
+    "source_sha256": "407f96e94b006e42d5de5425f4f7aa1c622041841dc3c5f3c7740553a4242327",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_meadow",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
+    "source_sha256": "8ad9bc6fe2b78b9c32446be95c6c8d938fcf925a53174a8417e46053c93e83ad",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_understory",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
+    "source_sha256": "e2ba75f2b63c775aaba6c5a81e6f822516ce21becec4fa3325a035fd88d94ed0",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_sunlit",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
+    "source_sha256": "415806372ce0ca64419bdb29bc76fffb6ea0cf108d730fe72543e6792cb4601b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_mossy",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
+    "source_sha256": "20ff1a8ad3421e08f91cab0f5ab25eecc1e71e22a1ef1f3caff28cacc5fc22c3",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_bamboo_edge",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_bamboo_edge.png",
+    "source_sha256": "29f0e9a1ff8862d231d84b3ed89f88289e5fc1a674e1eb433e6c4542439256fd",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_flowery_meadow",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_flowery_meadow.png",
+    "source_sha256": "60894d7658f337d256da6a74f815617d595f82967b8ffa69fc78a1368a5abc39",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_riverside",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_riverside.png",
+    "source_sha256": "fa2a59326fe4d3ee8f8e8b0b51e26060b48c9f123701d5cdabde809334d8b9dd",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "grass",
+    "tile": "grass_autumn_floor",
+    "source": "exo_terrain_forge/textures/optimized_256/grass/grass_autumn_floor.png",
+    "source_sha256": "97718805083dc85709c7c9e656f322c8eb07ab52be984ac7fb0fa11033e3eb49",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_clean",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
+    "source_sha256": "9c2cfd30b69b59ee94eb9958c4180ba480e8afe8efdc279c931d12f106c1187c",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_pebbles",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
+    "source_sha256": "5a61db8a022aab6d0128965407338be7efc45c71394018a5df621f8328cbb7fb",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_patches",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
+    "source_sha256": "93da893874b155f45d5debc4b7e02db9311736092083267a4c094adf7b983442",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_orange_a",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
+    "source_sha256": "99ec4e99de48bfad297bef4ea70db5535bbe5a8a62a14e85f12c94b323882259",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_orange_b",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
+    "source_sha256": "06df370e5889e78749509321c24fefac0c4dee554aef686dca0f8c5cd322b3ed",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_wet",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
+    "source_sha256": "32be2a787bee21c9af01634ea6fd4e2d44535c18092c5e74d59275ed5e06369d",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_mud_light",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
+    "source_sha256": "81fb9228be3165fb85ded05ada304d3575529629ea15822b358fe0f2e0b3e378",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_compacted",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
+    "source_sha256": "cc0cb76c9d593b5ec84b08ac02690518e13fed23b683f2c695302d36612358ca",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_forest_litter",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
+    "source_sha256": "8960daffca66a888658d82c0ae2b615c7a5a69fbfd08c3a5c190fa7b8b3371ad",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_fine_gravel",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
+    "source_sha256": "315955e548d7844ea98d1485527c1bc3c053f45d39fb2f70af125fbda794161f",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_riverbank",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
+    "source_sha256": "e2e04e9b0b552f9c6dbb0663dc968c2040964244bed5817338287d28eaa6ff07",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_warm_path",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
+    "source_sha256": "7d1f6c36d8edd321e070c2c21e7ad13264e5267b45e9df723dcca5afafda75e1",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_clay_red",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_clay_red.png",
+    "source_sha256": "7fed6591a84a541d5b090f2c88339a875d8aaf4a014b321d0b558d768c9bf940",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_sandy",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_sandy.png",
+    "source_sha256": "16b985338714b1321c860456f3f10ea8f2a809bfb95d3c0e0795e58eb6d0643a",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_trampled",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_trampled.png",
+    "source_sha256": "1abe5448a82fcef5187917371936d57703432ab286a6c57a13dc6346d66c6bbf",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "dirt",
+    "tile": "dirt_granite_dust",
+    "source": "exo_terrain_forge/textures/optimized_256/dirt/dirt_granite_dust.png",
+    "source_sha256": "dfe50cbd9d9c6bfef3551073d49285b87dccdbd2255e6313fa97571dd468284d",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_plaza_a",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
+    "source_sha256": "5a8fc51bfdb5e667d96ed2f6de49007de18a70447336781cb2a5dfb3e579ef0e",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_plaza_b",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
+    "source_sha256": "49ccf19e09b32c970c548c1bbb74f52e30607226b940b079420b17c74c791700",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_plaza_c",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
+    "source_sha256": "ae71caed603eb73fce68c6a61578c21525767a966569e43308129f11f0f7854c",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_a",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
+    "source_sha256": "dd293381ac5fd6168b5fd7b402ca709d36c66b6453ee18385019e66f54216f64",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_b",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
+    "source_sha256": "52bb8681ae10843ff1f0280089fd8c112b99328208df95bac079d7664ac5f44e",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_c",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
+    "source_sha256": "6c5c4639e93be06dfd9707fc9b00ddb686f3a4b3bbb624d58c16fb3a521d37da",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_border",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
+    "source_sha256": "78ae88daa129962745922eb5c22d6e538057fc1e9715109244ea5a3bc6fa70e2",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_to_dirt",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
+    "source_sha256": "e23db11662bcf79cb22bf89a964d46e778f213d8eb6a5efaa03561314dcfc98b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_to_grass",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
+    "source_sha256": "ea8ea86bc1ce17bbb993125f2b245932bafcddeb861ceafcadd15812191872bb",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_plaza_moss",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
+    "source_sha256": "9df1aa5205e31cd0eadf415dc6464ab868e7b925bc7e29a5d405343443de1690",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_worn",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
+    "source_sha256": "78b9a283722b86dcbe0b4f7c31c606c4d75947e929dd50f44d67096440159a66",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_rustic",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
+    "source_sha256": "54f53944175f43a44b99787ab8b8392de5da6f1f11748cfa9e7575dd45ee0942",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_plaza_warm",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_warm.png",
+    "source_sha256": "97f4c1f50289a45952f2193bcc02b03f736a5060a18c646e6e2e83ce8ca15ed3",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_path_moss_dense",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_path_moss_dense.png",
+    "source_sha256": "a4f876640c8bdd85c11773d03e07281c78a59a16c045cca18697fc7529211fd7",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_slate",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_slate.png",
+    "source_sha256": "f1a4fcc295711d5f0de965ba845704d82eaa5d8060a177f273647222449ee517",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "stone",
+    "tile": "stone_ruins",
+    "source": "exo_terrain_forge/textures/optimized_256/stone/stone_ruins.png",
+    "source_sha256": "a49112b93c9ebc9604251cf3c169d4c33929155d861e90e8952496005d1bdfc3",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_pebbles",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
+    "source_sha256": "ebd57af41c007575c6172e6ab4f250fc8b3066a7e8b49c911f436734cdd0e30a",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_gravel",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
+    "source_sha256": "7f698c147c29e9dc1c3d293523a2d156112cf5ca8a7704a72f0edbdf39e5a404",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_small_herbs",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
+    "source_sha256": "e0c5e6da3efed3a88dc3975fbbe17b0473ad83010cf982cbf9ba2440142e5827",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_wet_patches",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
+    "source_sha256": "3f421f7791ae9ab7faaf171012b3161f35eb27f6f54f5d3bf78424f28e904ea5",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_small_flowers",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
+    "source_sha256": "473f4316ab35c9496e78448cdcdee4c5b946dae0bb8d0108da47915739e6641a",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_moss",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
+    "source_sha256": "e1c2e71fe0dc244288c5ce44ead5ef9f7eaadf8953dd0b42843347fafcd7c729",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_leaf_litter",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
+    "source_sha256": "620a1a743db37177d3bedb464254a0d3a2d8f0d57d77b1b7c9d1ddc2961a56e9",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_wildflowers",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
+    "source_sha256": "27d8454c3b7c11272a6fb152c1840a71f7328e805d50bc9b9b6bc0546e444798",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_lichen",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
+    "source_sha256": "e8a778a5fcd812f02d783e0727ecbb189794322874ef8200314cb4c86940473b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_fine_cracks",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
+    "source_sha256": "a4992e159809042edf4c9ae415db6b54ec2062a365ba5531a86c414aa47c27a8",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_petals",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_petals.png",
+    "source_sha256": "117fd78df5ecb87b618dfde7c885ac16f853d6c3d2c9bb3dea69b93519d85f92",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_needle_litter",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_needle_litter.png",
+    "source_sha256": "8f34f63c1d0518af9579418bcf88f7885a6f191fb2c0e6eb4da065613347683b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_reeds",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_reeds.png",
+    "source_sha256": "a4a586e65065d49a0a62ba81d674732f75499b43870d10fd3d68a5bcbc08bd99",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_dry_leaves",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_dry_leaves.png",
+    "source_sha256": "96c0e9aae526a5565342595a6caad9005a5a01ba41551e490be4cc20f2a29923",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_river_silt",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_river_silt.png",
+    "source_sha256": "d2ec990df9ca6974a60600f0f9ba36ae3535c74c4e1995abb15aaec91d0ce1f6",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "details",
+    "tile": "detail_sand_grains",
+    "source": "exo_terrain_forge/textures/optimized_256/details/detail_sand_grains.png",
+    "source_sha256": "4cd1c6626ba57c5ee48a2efb95c18c5618e0fd9bc7426721a6145284f0847d78",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
+    "source_sha256": "6cc21edbbd7323b01ad293f134144ae32aba0728755e620508bb253973520d9b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_02",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
+    "source_sha256": "aa8338609e519766a93b9849f12277689a5352d40f9fcdb1115054d5e13841b0",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_03",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
+    "source_sha256": "16a302aa541ca7104a8a27aa4bc8b4074bc1593928ee95c4e70e327dd0d32d9d",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "low_foliage_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
+    "source_sha256": "1f1c5e71fa098870f8acbe6f6623112193bd44d373d1ad92e0b6442fd76c4d64",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "small_bush_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
+    "source_sha256": "81213f4a003421515399157b4f530ad8d0ffbca8d3cc9565523c5c63375e3391",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "low_flowers_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
+    "source_sha256": "6c63bdd36d8f533aadb98b209f1845a7b9c6699d318487cec051343d11d5dec4",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_04",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_04.png",
+    "source_sha256": "1ab0990b56caee4a84a184aae8aa57e67e2ddce77d499701522b99f71b96c6b3",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_05",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_05.png",
+    "source_sha256": "8005cbe526f0062d0d2d32891d6d709540756f9d40fc04f0bffdf73e69a25e1b",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "low_foliage_02",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_02.png",
+    "source_sha256": "b3847efc70c0615b761544cb84b42acd2170ff61cebf67e594f4c12a9260f54d",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "small_bush_02",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_02.png",
+    "source_sha256": "114a03bacda6c385c2207e1655c38a16d1a47ee377b379ec26faf7a33c9d64a0",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "grass_tuft_06",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_06.png",
+    "source_sha256": "7a5111f863f6e4f0224b179514d5f0390b84d4893fc9250061a04b4407694e06",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "reed_clump_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/reed_clump_01.png",
+    "source_sha256": "f54609ba46566e8cc2f7a4444eebedbe3918054d55a8278405d7f0e732aef775",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "fern_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/fern_01.png",
+    "source_sha256": "4ffde98badf3f44f679d4f4278bef6de6a26d18e1fc777f539a8d725ced48b8e",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "moss_tuft_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/moss_tuft_01.png",
+    "source_sha256": "0422046e4bb5e89c6fef7416bf803666e38f1d1245da765cff7407800f02d82a",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "flowers_pink_01",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/flowers_pink_01.png",
+    "source_sha256": "8cbb9448a00921b89a53f36acd4010f35ea5ae88c9bcb01ad8baf32aa2abaca2",
+    "exact_pixel_match": true
+  },
+  {
+    "atlas": "vegetation",
+    "tile": "small_bush_03",
+    "source": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_03.png",
+    "source_sha256": "50fbb323e0c428474bd3833f45aab7da3b72b1127991f647b4d8674dbd6f5bfb",
+    "exact_pixel_match": true
+  }
+]
