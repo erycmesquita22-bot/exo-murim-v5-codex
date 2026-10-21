@@ -63,6 +63,9 @@ static func build(prefab: Dictionary) -> Node3D:
         return root
     var width: int = int(prefab.get("width_tiles", 6))
     var depth: int = int(prefab.get("depth_tiles", 6))
+    root.set_meta("width_tiles", width)
+    root.set_meta("depth_tiles", depth)
+    root.set_meta("floor_runs", prefab.get("floor_runs", []).duplicate(true))
     var mats: Dictionary = palette(str(prefab.get("palette", "clay")))
     # Adjacent floor tiles and wall segments are authored as long merged runs.
     # This avoids one StaticBody3D per floor TILE while maintaining fixed geometry.
@@ -136,6 +139,27 @@ static func build(prefab: Dictionary) -> Node3D:
     root.add_child(exit_point)
     # Entry lintel shows the authorial door location without obstructing the threshold.
     _solid(root, "EntranceLintel", _xyz(float(entrance.get("x", 0)), float(entrance.get("z", 0)) + 0.5, width, depth, 2.85), Vector3(TILE, 0.3, 0.23), mats["wood"])
+    # Close every exposed ground-floor edge, including the visual doorway.
+    # Exiting is an explicit portal interaction; walking through its opening
+    # must never lead onto the nonphysical backdrop. Covers concave footprints.
+    var cells: Dictionary = {}
+    for run in prefab.get("floor_runs", []):
+        for x in range(int(run.get("start", 0)), int(run.get("end", 0)) + 1):
+            cells[Vector2i(x, int(run.get("z", 0)))] = true
+    for cell: Vector2i in cells:
+        for direction: Vector2i in [Vector2i.LEFT, Vector2i.RIGHT, Vector2i.UP, Vector2i.DOWN]:
+            if cells.has(cell + direction):
+                continue
+            var boundary := StaticBody3D.new()
+            boundary.name = "InvisibleSafetyBoundary"
+            boundary.position = _xyz(float(cell.x) + float(direction.x) * 0.5,
+                float(cell.y) + float(direction.y) * 0.5, width, depth, LEVEL_H)
+            var shape := BoxShape3D.new()
+            shape.size = Vector3(0.12, LEVEL_H * 2.0, TILE + 0.12) if direction.x != 0 else Vector3(TILE + 0.12, LEVEL_H * 2.0, 0.12)
+            var collision := CollisionShape3D.new()
+            collision.shape = shape
+            boundary.add_child(collision)
+            root.add_child(boundary)
     # Dark plane masks unloaded exterior/void under an orthographic view.
     _solid(root, "IsolatedDarkBackdrop", Vector3(0.0, -0.48, 0.0), Vector3(110.0, 0.20, 110.0), mats["dark"], false)
     return root

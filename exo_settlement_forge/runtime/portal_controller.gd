@@ -141,13 +141,11 @@ func restore_from_core(player: CharacterBody3D, exterior: Node3D, staging: Node3
     if not enter(player,exterior,staging,camera,record,authorized):
         player.global_transform = previous_transform
         return false
-    # Reconstructed interior is isolated at stable coordinates. Validate placement by physics during native QA.
+    # Reject void/out-of-footprint saves; enter() already selected the authored spawn.
     var saved := Vector3(float(pos[0]),float(pos[1]),float(pos[2]))
-    if saved.is_finite() and saved.distance_to(_interior.global_position) < 100.0:
+    if _position_supported(saved):
         player.global_position = saved
-    var safe_return := Vector3(float(ret[0]),float(ret[1]),float(ret[2]))
-    if safe_return.is_finite():
-        _return_transform.origin = safe_return
+    # Recompute exterior return from the current building, never a stale saved coordinate.
     return true
 
 func _array_position(p: Vector3) -> Array:
@@ -156,3 +154,32 @@ func _array_position(p: Vector3) -> Array:
 func _fail(code: String) -> bool:
     transition_failed.emit(code)
     return false
+
+func _position_supported(point: Vector3) -> bool:
+    if not is_instance_valid(_interior) or not point.is_finite():
+        return false
+    var local: Vector3 = _interior.to_local(point)
+    if local.y < -0.25 or local.y > 8.0:
+        return false
+    var width: int = int(_interior.get_meta("width_tiles", 0))
+    var depth: int = int(_interior.get_meta("depth_tiles", 0))
+    var x: float = local.x / Builder.TILE + float(width - 1) * 0.5
+    var z: float = local.z / Builder.TILE + float(depth - 1) * 0.5
+    for run in _interior.get_meta("floor_runs", []):
+        if absf(z - float(run.z)) <= 0.5 and x >= float(run.start) - 0.5 and x <= float(run.end) + 0.5:
+            return true
+    return false
+
+func recover_to_spawn() -> bool:
+    if not inside or busy or not is_instance_valid(_player) or not is_instance_valid(_interior):
+        return false
+    var spawn: Marker3D = _interior.get_node_or_null("InteriorSpawn") as Marker3D
+    if spawn == null:
+        return false
+    _player.velocity = Vector3.ZERO
+    _player.global_position = spawn.global_position + Vector3(0, 0.13, 0)
+    return true
+
+func _physics_process(_delta: float) -> void:
+    if inside and not busy and is_instance_valid(_player) and not _position_supported(_player.global_position):
+        recover_to_spawn()

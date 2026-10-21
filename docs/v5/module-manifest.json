@@ -369,7 +369,7 @@
         },
         {
           "path": "runtime/interior_builder.gd",
-          "sha256": "2c01ec5521235c9bdb84a02d8e3f7788bfdead75468ced8416fc154a9c6c6f3a"
+          "sha256": "d7fd483d5f6144196fdb13240de83721d8be9f3a0045b56929c7624ca4ad711f"
         },
         {
           "path": "runtime/interior_builder.gd.uid",
@@ -385,7 +385,7 @@
         },
         {
           "path": "runtime/portal_controller.gd",
-          "sha256": "69c241dd0954565830c7fdaf47b8fa07d37b9aa02887e09272f78390eb1ed660"
+          "sha256": "6217053373929c5b0e419c78eb83a906d1efd9ddc21f0dd936820f69d4ce4ce5"
         },
         {
           "path": "runtime/portal_controller.gd.uid",

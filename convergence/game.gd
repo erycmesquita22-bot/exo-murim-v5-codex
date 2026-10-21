@@ -860,6 +860,14 @@ func destination() -> Vector3:
 	return super.destination()
 
 func resume_checkpoint() -> void:
+	# The laboratory/checkpoint action must leave the active visit first.
+	# Otherwise the regional spawn is teleported into a hidden, disabled exterior.
+	if wg5_visit!=null and wg5_visit.inside():
+		if not wg5_visit.interrupt("manual_checkpoint"):return
+	if _institutional_inside():
+		if not bool(_exit_institutional_interior(true).get("ok",false)):return
+	if _dungeon_inside():
+		if exo_core.services.invoke("dungeons","interrupt_active_visit",["manual_checkpoint"])!=true:return
 	if convergence_ready and current_region>=0 and is_instance_valid(active_region):
 		# Restore combat/stamina without discarding the procedural region or its save.
 		super.resume_checkpoint()

@@ -73,6 +73,18 @@ func run() -> void:
                 check(w.wg5_visit.try_interact(),"restored_door_leave")
         w.player.global_position=Vector3(door[0],door[1],door[2])
         check(w.wg5_visit.try_interact(),"reenter_for_death_recovery")
+        w.player.global_position=Vector3(10000,-25,10000)
+        await frames(3)
+        check(w.wg5_visit.inside() and w.player.global_position.y>0,"void_automatic_recovery")
+        var unsafe_save: Dictionary=w.wg5_visit.snapshot()
+        unsafe_save.player_position=[10000,-25,10000]
+        check(w.wg5_visit.interrupt("qa_void_save"),"void_save_exit")
+        check(w.wg5_visit.restore_saved_visit(unsafe_save) and w.player.global_position.y>0,"void_save_restores_safe_spawn")
+        w.player.global_position=Vector3(10000,-25,10000)
+        w.resume_checkpoint()
+        check(not w.wg5_visit.inside() and w.active_region.visible and w.active_region.process_mode!=Node.PROCESS_MODE_DISABLED and w.player.global_position.x<9900,"laboratory_checkpoint_exits_void_interior")
+        w.player.global_position=Vector3(door[0],door[1],door[2])
+        check(w.wg5_visit.try_interact(),"reenter_after_manual_rescue")
         w.invulnerability=0.0;w.techniques.shield=0.0
         var health_before: int=w.health
         check(not w.damage_player(w.max_health+100) and w.health==health_before,"settlement_safe_zone_damage_refused")
