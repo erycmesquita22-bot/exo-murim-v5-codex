@@ -415,10 +415,10 @@ func _physics_process(delta: float) -> void:
 	for i in range(techniques.DATA.size()):
 		if Input.is_action_just_pressed("skill_%d" % (i+1)):
 			techniques.cast(i)
-	if Input.is_action_just_pressed("attack"):
+	if Input.is_action_pressed("attack"):
 		start_attack()
 	var sprint:=Input.is_action_pressed("sprint")
-	var speed: float=(6.5 if sprint else 3.6)*(1.08 if race_body()=="feline" else 1.0)
+	var speed: float=(6.8 if sprint else 4.4)*(1.08 if race_body()=="feline" else 1.0)
 	speed*=1+equipment_stat("move_pct")
 	if activity!=null and activity.aligning():
 		var approach: Vector3=activity.approach_velocity(delta)
@@ -434,8 +434,8 @@ func _physics_process(delta: float) -> void:
 	elif techniques.busy():
 		techniques.move(movement)
 	elif attack_time>=0:
-		player.velocity.x=movement.x
-		player.velocity.z=movement.z
+		player.velocity.x=move_toward(player.velocity.x,movement.x*speed*.78,30*delta)
+		player.velocity.z=move_toward(player.velocity.z,movement.z*speed*.78,30*delta)
 	else:
 		player.velocity.x=move_toward(player.velocity.x,movement.x*speed,24*delta)
 		player.velocity.z=move_toward(player.velocity.z,movement.z*speed,24*delta)
@@ -720,6 +720,16 @@ func refresh_aim_target() -> void:
 		aim_has_target=true
 
 
+func combat_actor_rids() -> Array[RID]:
+	var result:Array[RID]=[player.get_rid()]
+	for actor in enemies:
+		if is_instance_valid(actor) and actor is CollisionObject3D:result.append(actor.get_rid())
+	var inhabitants:Variant=get("residents")
+	if inhabitants is Array:
+		for actor in inhabitants:
+			if is_instance_valid(actor) and actor is CollisionObject3D:result.append(actor.get_rid())
+	return result
+
 func can_hit(origin: Vector3, target: Vector3, direction: Vector3, distance: float, cone: float) -> bool:
 	if absf(origin.y-target.y) > 1.25:
 		return false
@@ -727,7 +737,8 @@ func can_hit(origin: Vector3, target: Vector3, direction: Vector3, distance: flo
 	offset.y = 0
 	if offset.length() > distance or (offset.length() > 0.001 and offset.normalized().dot(direction) < cone):
 		return false
-	var query := PhysicsRayQueryParameters3D.create(origin+Vector3.UP,target+Vector3.UP,1)
+	var query := PhysicsRayQueryParameters3D.create(origin+Vector3.UP,target+Vector3.UP,1|4)
+	query.exclude=combat_actor_rids()
 	return get_world_3d().direct_space_state.intersect_ray(query).is_empty()
 
 

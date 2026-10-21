@@ -1,3 +1,3 @@
-# Estado atual — cidades e Forja
+# Estado atual — mundo e combate Murim
 
-Consulte [CITY-UPDATE.md](CITY-UPDATE.md) para a revisão atual. [BUGFIX-REPORT.md](BUGFIX-REPORT.md), [DRIVE-UPDATE.md](DRIVE-UPDATE.md) e [STATUS-BASE-ANTERIOR.md](STATUS-BASE-ANTERIOR.md) são históricos. Os comprovantes de autoria prometidos continuam pendentes.
+Consulte [MURIM-UPDATE.md](MURIM-UPDATE.md) para a revisão atual. CITY-UPDATE.md e BUGFIX-REPORT.md são históricos. Logs e resultados finais estão no pacote QA; comprovação comercial autoral permanece pendente conforme autorização anterior do proprietário.

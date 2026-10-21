@@ -3,7 +3,9 @@ const TerritoryPlan=preload("res://regional_ecology/territories.gd")
 const Reward=preload("res://regional_ecology/rewards.gd")
 const Enemy=preload("res://enemy.gd")
 const FaunaActor=preload("res://exo_bestiary/integration/regional_fauna_actor.gd")
-const MAX_ACTIVE:=8
+const MAX_ACTIVE:=24
+const MAX_HOSTILES:=8
+const MAX_FAUNA:=16
 var world: Node3D
 var sites: Array=[]
 var active: Dictionary={}
@@ -50,6 +52,8 @@ func attach(data: RefCounted,seed_text: String) -> void:
 	if world.exo_core!=null and world.exo_core.services.has_service("bestiary.catalog") and world.exo_core.services.has_service("bestiary.combat") and bool(ProjectSettings.get_setting("exo_murim/r4/fauna_enabled",true)):
 		var profiles: Variant=world.exo_core.services.invoke("bestiary.catalog","list_profiles")
 		if profiles is Array:sites.append_array(TerritoryPlan.build_fauna(data,seed_text,profiles,sites))
+	# Wildlife is not starved by the first hostile territories in the array.
+	sites.sort_custom(func(a,b):return int(not bool(a.get("fauna",false)))<int(not bool(b.get("fauna",false))))
 	timer=0.0
 func tick(delta: float) -> void:
 	if region_id<0 or not is_instance_valid(world.active_region):return
@@ -62,8 +66,15 @@ func tick(delta: float) -> void:
 	var state: Dictionary=world.extension()
 	var ecology: Dictionary=Reward.ensure(state)
 	var total: int=active.size()
+	var fauna_count:int=0
+	for actor in active.values():
+		if is_instance_valid(actor) and str(actor.kind)=="fauna":fauna_count+=1
+	var hostile_count:int=total-fauna_count
 	for site in sites:
 		if total>=MAX_ACTIVE:break
+		var is_fauna:bool=bool(site.get("fauna",false))
+		if is_fauna and fauna_count>=MAX_FAUNA:continue
+		if not is_fauna and hostile_count>=MAX_HOSTILES:continue
 		var id: String=str(site.id)
 		var record: Dictionary=Reward.territory_state(ecology,region_id,id)
 		if not Reward.permitted(record,float(state.clock)):continue
@@ -72,17 +83,27 @@ func tick(delta: float) -> void:
 		if distance<SPAWN_MIN_DISTANCE or distance>SPAWN_MAX_DISTANCE:continue
 		if visible_spawn(point):continue
 		var dead: Array[int]=dead_members(record)
+		# Prepare the whole surviving group before committing any spawn. A fresh
+		# wolf pack never becomes one animal because the budget/floor ran out.
+		var prepared:Array=[]
+		var blocked:bool=false
 		for member in range(int(site.group_size)):
-			if total>=MAX_ACTIVE:break
 			if member in dead:continue
-			var instance_key: String=id+"/m%d"%member
+			var instance_key:String=id+"/m%d"%member
 			if active.has(instance_key):continue
 			var offset:=Vector3(float(member)*1.6,0,float(member%2)*1.2)
-			var spawn: Vector3=world.regional_spawn(world.active_region,point+offset)
-			if not spawn.is_finite():continue
-			var actual_distance: float=spawn.distance_to(world.player.position)
-			if actual_distance<SPAWN_MIN_DISTANCE or actual_distance>SPAWN_MAX_DISTANCE:continue
-			if visible_spawn(spawn):continue
+			var spawn:Vector3=world.regional_spawn(world.active_region,point+offset)
+			if not spawn.is_finite():blocked=true;break
+			var actual_distance:float=spawn.distance_to(world.player.position)
+			if actual_distance<SPAWN_MIN_DISTANCE or actual_distance>SPAWN_MAX_DISTANCE or visible_spawn(spawn):blocked=true;break
+			prepared.append({"member":member,"key":instance_key,"spawn":spawn})
+		if blocked or total+prepared.size()>MAX_ACTIVE:continue
+		if is_fauna and fauna_count+prepared.size()>MAX_FAUNA:continue
+		if not is_fauna and hostile_count+prepared.size()>MAX_HOSTILES:continue
+		for entry in prepared:
+			var member:int=int(entry.member)
+			var instance_key:String=str(entry.key)
+			var spawn:Vector3=entry.spawn
 			var instance_id: String=instance_key+"/g%04d"%int(record.generation)
 			var actor: Node3D
 			if bool(site.get("fauna",false)):
@@ -97,7 +118,7 @@ func tick(delta: float) -> void:
 				actor.setup(world,instance_id,str(site.kind),spawn)
 				var danger:int=world.activation_v4.encounter_danger(site) if world.get("activation_v4")!=null else int(site.danger)
 				actor.configure_regional(float(site.radius),danger)
-				if str(site.kind)=="blade":actor.set_meta("bestiary03_profile","hostile_wanderer")
+
 			actor.set_meta("ecology_territory",id)
 			actor.set_meta("ecology_member",member)
 			actor.set_meta("ecology_members_total",int(site.group_size))
@@ -105,6 +126,8 @@ func tick(delta: float) -> void:
 			active[instance_key]=actor
 			world.enemies.append(actor)
 			total+=1
+			if is_fauna:fauna_count+=1
+			else:hostile_count+=1
 func defeated(actor: Node3D) -> int:
 	var site: String=str(actor.get_meta("ecology_territory",""))
 	if site.is_empty():return 0

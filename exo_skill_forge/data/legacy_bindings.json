@@ -2,7 +2,7 @@
   {
     "id": "corte_inicial",
     "legacy_id": "corte_inicial",
-    "name": "Corte Inicial",
+    "name": "Corte de Abertura",
     "source": "legacy",
     "state": "legacy_connected",
     "executor": "legacy",
@@ -373,7 +373,7 @@
   {
     "id": "atracao_arcana",
     "legacy_id": "atracao_arcana",
-    "name": "Atracao Arcana",
+    "name": "Tração de Qi",
     "source": "legacy",
     "state": "legacy_connected",
     "executor": "legacy",
@@ -596,7 +596,7 @@
   {
     "id": "barreira_arcana",
     "legacy_id": "barreira_arcana",
-    "name": "Barreira Arcana",
+    "name": "Barreira de Qi",
     "source": "legacy",
     "state": "legacy_connected",
     "executor": "legacy",
@@ -669,7 +669,7 @@
   {
     "id": "cura",
     "legacy_id": "cura",
-    "name": "Cura",
+    "name": "Circulação Restauradora",
     "source": "legacy",
     "state": "legacy_connected",
     "executor": "legacy",
@@ -1034,7 +1034,7 @@
   {
     "id": "dardo_arcano",
     "legacy_id": "dardo_arcano",
-    "name": "Dardo Arcano",
+    "name": "Dardo de Qi",
     "source": "legacy",
     "state": "legacy_connected",
     "executor": "legacy",

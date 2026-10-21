@@ -55,7 +55,7 @@ func cast(index: int) -> bool:
 	if index>=0 and index<DATA.size() and DATA[index].has("forge_id"):
 		return bool(world.exo_core.services.invoke("skill_forge","authorized_cast",["player",str(DATA[index].id)]).get("committed",false))
 	if world.activity!=null and world.activity.locked():return false
-	if index<0 or index>=DATA.size() or world.get_tree().paused or world.health<=0 or busy() or world.attack_time>=0 or world.roll_time>=0:
+	if index<0 or index>=DATA.size() or world.get_tree().paused or world.health<=0 or busy() or (world.attack_time>=0 and (not world.attack_landed or world.attack_time<world.attack_hit+.015)) or world.roll_time>=0:
 		return false
 	var data: Dictionary=world.cultivation.stats(DATA[index])
 	if float(recovery.get(data.id,0))>0:
@@ -66,6 +66,8 @@ func cast(index: int) -> bool:
 		return false
 	if data.kind in ["leap","dash"] and not world.player.is_on_floor():
 		return false
+	world.attack_time=-1
+	world.combo_queued=false
 	mana-=data.mana
 	stamina-=data.stamina
 	regen_delay=1.2

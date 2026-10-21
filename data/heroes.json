@@ -154,12 +154,12 @@
     "path": 0
   },
   {
-    "name": "Arcanista • Arcano",
+    "name": "Cultivador • Qi",
     "element": 11,
     "race": 11,
     "weapon": "wand",
     "source_class": "arcanista",
-    "class_name": "Arcanista",
+    "class_name": "Cultivador",
     "skills": [
       "dardo_arcano",
       "atracao_arcana",

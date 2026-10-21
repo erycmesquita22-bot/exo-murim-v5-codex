@@ -1,7 +1,7 @@
 extends RefCounted
 ## In-process bridge from the real Techniques release owner to passive VFX Forge.
 const Catalog=preload("res://catalog.gd")
-const RECIPES={"cut":"vfx.slash.qi.blue.v1","area":"vfx.slash.qi.blue.v1","dash":"vfx.dash.afterimage.jade.v1","leap":"vfx.dash.afterimage.jade.v1","projectile":"vfx.beam.qi.v1","channel":"vfx.beam.qi.v1","shield":"vfx.crown.frost.v1","heal":"vfx.teleport.short.violet.v1","summon":"vfx.crown.frost.v1"}
+const RECIPES={"cut":"vfx.slash.qi.blue.v1","area":"vfx.slash.qi.blue.v1","dash":"vfx.dash.afterimage.jade.v1","leap":"vfx.dash.afterimage.jade.v1","projectile":"vfx.beam.qi.v1","channel":"vfx.beam.qi.v1","shield":"vfx.crown.frost.v1","heal":"vfx.teleport.short.violet.v1","summon":"vfx.crown.frost.v1","pull":"vfx.slash.qi.blue.v1","repel":"vfx.slash.qi.blue.v1","root":"vfx.crown.frost.v1","trap":"vfx.crown.frost.v1"}
 var world: Node3D
 var module: RefCounted
 var pending: Dictionary={}
@@ -31,3 +31,16 @@ func release(data: Dictionary) -> bool:
     rejected+=1
     push_warning("VFX release: "+str(result))
     return false
+
+func release_prologue_actor(actor:Node3D,data:Dictionary,sequence:int,direction:Vector3)->bool:
+    if module==null or world.flow.phase!="prologue" or not world.flow.actors.has(actor) or actor.hp<=0:return false
+    if str(data.id) not in Catalog.HEROES[int(actor.faction)].skills:return false
+    var kind:String=str(data.kind)
+    var recipe:String=RECIPES.get(kind,"vfx.slash.qi.blue.v1")
+    # The exact skill->recipe mapping was bound during initialize, just as for player releases.
+    var p:Vector3=actor.global_position+Vector3(0,.3,0)
+    var cue:Dictionary={"contract_version":"exo.vfx.events/1","cast_instance_id":str(actor.uid)+"/skill/"+str(sequence),"skill_id":str(data.id),"caster_entity_id":str(actor.uid),"cue_id":"release","vfx_id":recipe,"phase":"launch","event_sequence":0,"visual_seed":int(world.journey.data.world.seed),"origin_xyz":[p.x,p.y,p.z],"direction_xyz":[direction.x,direction.y,direction.z],"quality_profile":"low" if int(world.graphics.values.impact_details)==0 else "medium"}
+    var key:String=JSON.stringify(cue);pending[key]=true
+    var result:Dictionary=module.receive_authorized_cue(cue);pending.erase(key)
+    if bool(result.get("ok",false)):emitted+=1;return true
+    rejected+=1;return false

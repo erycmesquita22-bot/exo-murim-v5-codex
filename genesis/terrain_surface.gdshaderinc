@@ -20,6 +20,7 @@ uniform sampler2D forge_detail_atlas : source_color, EXO_TERRAIN_FILTER, repeat_
 uniform vec2 forge_region_offset = vec2(0.0);
 uniform float forge_biome_mode = 0.0; // 0=grass, 1=dirt, 2=rocky
 uniform float forge_stone_road = 0.0;
+uniform float voxel_grid_strength : hint_range(0.0,0.25)=0.095;
 uniform sampler2D forge_grass_dirt_mask : EXO_TERRAIN_FILTER, repeat_enable;
 uniform sampler2D forge_dirt_stone_mask : EXO_TERRAIN_FILTER, repeat_enable;
 uniform sampler2D forge_stone_grass_mask : EXO_TERRAIN_FILTER, repeat_enable;
@@ -161,4 +162,12 @@ void fragment(){
   ALBEDO=mix(ALBEDO,cliff,cliff_weight);
  }
  ROUGHNESS=0.94;
+ // Subtle one-meter block grid, anti-aliased and continuous across chunks.
+ vec2 grid_p=terrain_world_position.xz;
+ vec2 grid_width=max(fwidth(grid_p),vec2(0.001));
+ vec2 grid_distance=min(fract(grid_p),1.0-fract(grid_p));
+ vec2 lines=1.0-smoothstep(vec2(0.014),vec2(0.014)+grid_width,grid_distance);
+ float grid_fade=1.0-smoothstep(0.12,0.55,max(grid_width.x,grid_width.y));
+ ALBEDO*=1.0-voxel_grid_strength*max(lines.x,lines.y)*grid_fade;
+
 }

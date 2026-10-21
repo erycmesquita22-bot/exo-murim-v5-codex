@@ -95,9 +95,13 @@ func sync_village_sites() -> void:
 	BED=sites.get("bed",LEGACY_BED)
 	MAT=sites.get("mat",LEGACY_MAT)
 
+var prologue_serial:int=0
+
 func start_prologue() -> void:
+	if world.has_method("legacy_active") and int(world.get("current_region"))<0:world.legacy_active(true)
 	clear_actors()
 	phase="prologue"
+	prologue_serial+=1
 	clock=0
 	renewal_clock=0
 	reinforcements=0
@@ -124,8 +128,9 @@ func start_prologue() -> void:
 		actor.faction=faction
 		actor.color=Color(Catalog.COLORS[faction])
 		var angle:=TAU*i/11.0
-		actor.setup(world,"prologue_%d"%i,"blade",Vector3(90+cos(angle)*8,0.03,sin(angle)*8-3))
+		actor.setup(world,"prologue_%d/run%d"%[i,prologue_serial],"blade",Vector3(90+cos(angle)*8,0.03,sin(angle)*8-3))
 		world.add_child(actor)
+		actor.technique_clock=.6+float(faction%6)*.27
 		actor.max_hp=320
 		actor.hp=320
 		actor.display_name=Catalog.ELEMENTS[faction]+" • "+RACES[int(archetype.race)]

@@ -57,6 +57,11 @@ func run() -> void:
                         if lot.id!=other.id:nearest=minf(nearest,lot.p.distance_to(other.p))
                     if is_finite(nearest):nearest_total+=nearest
                 regions.append({"seed":seed_value,"region":rid,"scale":data.spec.settlement_scale,"buildings":data.lots.size(),"compression":data.settlement_plan.city_forge_r4.compression,"mean_nearest_house_m":nearest_total/maxi(1,data.lots.size()),"verified_crowd_zones":crowd_zones.size(),"crowd_capacity_before_schedule":capacity})
+                var linked: Dictionary=w.active_region.get_meta("exo_r9_martial_occupancy",{})
+                var school_access:bool=true
+                for site in data.monumental_plans:
+                    if str(site.kind) in ["martial_medium","martial_grand"] and not linked.has(str(site.id)):school_access=false
+                check(school_access,"all_martial_courtyards_have_physical_teacher_route_%d_%d"%[seed_value,rid])
                 var blocked: Array=[]
                 var crossed: int=0
                 w.simulation_enabled=false

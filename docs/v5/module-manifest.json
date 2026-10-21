@@ -97,7 +97,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
+      "host_revision": "Murim world/combat update: protected courtyards, physical school routes, fauna packs, tactical movement, actor-authorized prologue VFX/audio"
     },
     {
       "id": "settlement_forge",
@@ -412,7 +412,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
+      "host_revision": "Murim world/combat update: protected courtyards, physical school routes, fauna packs, tactical movement, actor-authorized prologue VFX/audio"
     },
     {
       "id": "worldgen_v5",
@@ -496,7 +496,7 @@
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
       "evidence": "QA/final-verified/summary.json",
-      "host_revision": "City update: original Forja facade, transition masks, compact neighborhoods, scale-aware physically verified crowds"
+      "host_revision": "Murim world/combat update: protected courtyards, physical school routes, fauna packs, tactical movement, actor-authorized prologue VFX/audio"
     }
   ],
   "single_owners": {

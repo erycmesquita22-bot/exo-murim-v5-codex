@@ -12,7 +12,7 @@ func start_attack() -> bool:
 		return false
 	var combo_last:=3 if world.current_weapon().pose=="unarmed" else 2
 	if world.attack_time>=0:
-		if world.attack_time>=.1 and world.combo_index<combo_last:
+		if world.attack_time>=.055 and world.combo_index<combo_last:
 			world.combo_queued=true
 		return false
 	world.combo_index=(world.combo_index+1)%(combo_last+1) if world.combo_timeout>0 else 0
@@ -21,7 +21,7 @@ func start_attack() -> bool:
 		world.attack_spec.duration=Unarmed.STEPS[world.combo_index].duration
 		world.attack_spec.hit=Unarmed.STEPS[world.combo_index].hit
 		world.attack_spec.damage*=Unarmed.STEPS[world.combo_index].power
-	world.attack_duration=float(world.attack_spec.duration)/(1+world.attribute("agilidade")*.02)*(1.15 if world.combo_index==2 and world.attack_spec.pose!="unarmed" else 1.0)
+	world.attack_duration=float(world.attack_spec.duration)*0.86/(1+world.attribute("agilidade")*.02)*(1.15 if world.combo_index==2 and world.attack_spec.pose!="unarmed" else 1.0)
 	world.attack_hit=world.attack_duration*float(world.attack_spec.hit)
 	world.attack_damage=int(round(world.attack_spec.damage*(1.3 if world.combo_index==2 and world.attack_spec.pose!="unarmed" else 1.0)*world.basic_multiplier()))
 	critical=randf()<world.attribute("sorte")*.02
@@ -63,7 +63,7 @@ func update_attack(delta: float) -> void:
 	if world.attack_time>=world.attack_duration:
 		var queued: bool=world.combo_queued
 		world.attack_time=-1
-		world.combo_timeout=.3
+		world.combo_timeout=.48
 		world.combo_queued=false
 		if queued and world.combo_index<(3 if world.attack_spec.pose=="unarmed" else 2):
 			start_attack()
@@ -72,7 +72,7 @@ func start_dash(movement: Vector3=Vector3.ZERO) -> bool:
 	if world.activity!=null and world.activity.locked():return false
 	if world.techniques.channeling():
 		world.techniques.finish()
-	if world.get_tree().paused or world.health<=0 or world.roll_time>=0 or (world.attack_time>=0 and world.attack_time<world.attack_hit+0.08) or world.techniques.busy() or world.roll_cooldown>0 or not world.player.is_on_floor():
+	if world.get_tree().paused or world.health<=0 or world.roll_time>=0 or (world.attack_time>=0 and world.attack_time<world.attack_hit+0.015) or world.techniques.busy() or world.roll_cooldown>0 or not world.player.is_on_floor():
 		return false
 	world.attack_time=-1
 	world.combo_queued=false
@@ -128,16 +128,20 @@ func damage_player(amount: int,context: Dictionary={}) -> bool:
 		world.set_paused(true)
 	return true
 
-func enemy_orb(origin: Vector3, direction: Vector3, amount: int) -> void:
+func enemy_orb(origin: Vector3, direction: Vector3, amount: int, profile:Dictionary={}) -> void:
 	var node: MeshInstance3D=world.techniques.sphere(0.2,Color("eea0d8"))
+	if str(profile.get("family",""))=="arrow":
+		var shaft:=BoxMesh.new();shaft.size=Vector3(.07,.07,.75);node.mesh=shaft
+		var material:=StandardMaterial3D.new();material.albedo_color=Color("c8ac73");shaft.material=material;node.material_override=material
 	node.position=origin
-	world.hostile_shots.append({"node":node,"direction":direction,"remaining":13.0,"damage":amount})
+	if not direction.is_zero_approx():node.look_at(origin+direction)
+	world.hostile_shots.append({"node":node,"direction":direction,"remaining":13.0,"damage":amount,"speed":float(profile.get("speed",6.0)),"family":str(profile.get("family","qi"))})
 	world.audio_fx.play_event("magia","magic",.45)
 
 func update_hostile_shots(delta: float) -> void:
 	for i in range(world.hostile_shots.size()-1,-1,-1):
 		var shot: Dictionary=world.hostile_shots[i]
-		var travel:=minf(shot.remaining,6.0*delta)
+		var travel:=minf(shot.remaining,float(shot.get("speed",6.0))*delta)
 		var steps:=maxi(1,int(ceil(travel/0.1)))
 		var hit:=false
 		for j in range(steps):
@@ -150,7 +154,10 @@ func update_hostile_shots(delta: float) -> void:
 			shape.radius=0.2
 			query.shape=shape
 			query.transform.origin=shot.node.position
-			query.collision_mask=1|2
+			query.collision_mask=1|2|4
+			var ignored:Array[RID]=world.combat_actor_rids()
+			ignored.erase(world.player.get_rid())
+			query.exclude=ignored
 			var contacts:=world.get_world_3d().direct_space_state.intersect_shape(query,8)
 			if not contacts.is_empty():
 				var wall:=false
@@ -161,7 +168,7 @@ func update_hostile_shots(delta: float) -> void:
 					else:
 						wall=true
 				if player_hit and not wall:
-					damage_player(shot.damage,{"magic":true})
+					damage_player(shot.damage,{"magic":str(shot.get("family","qi"))!="arrow","family":str(shot.get("family","qi"))})
 				world.techniques.burst(shot.node.position,Color("e3a6df"),6)
 				hit=true
 				break

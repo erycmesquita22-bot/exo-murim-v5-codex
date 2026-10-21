@@ -19,6 +19,15 @@ static func attach_visual(holder: Node3D, descriptor: Dictionary) -> Dictionary:
         if instance != null:
             instance.queue_free()
         return {}
+    # P0 stand-ins are generic silhouettes, not the species-specific authored
+    # visual. Keep Bestiary's original procedural anatomy/leg animation rather
+    # than hiding it behind an identical brown quadruped for every species.
+    var candidates:Array=[instance]
+    candidates.append_array(instance.find_children("*","Node3D",true,false))
+    for candidate in candidates:
+        if str(candidate.get_meta("provenance","")).contains("code-generated replacement"):
+            instance.free()
+            return {}
     # Somente ocultar a geometria voxel depois de termos uma cena valida.
     # O holder continua rotacionado pela locomocao e conserva os pivots originais.
     var old_nodes: Array[Node3D] = []

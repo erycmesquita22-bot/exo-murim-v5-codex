@@ -8335,8 +8335,8 @@
     {
       "path": "genesis/terrain_surface.gdshaderinc",
       "decision": "EDITABLE_PROJECT_SOURCE",
-      "evidence": "Current Git diff; original project implementation",
-      "sha256": "8df42d4cfe120b13ea6260884e6d196f25f0aa490380db058389150a641b1f7b"
+      "evidence": "EXO shader source: continuous Terrain Forge transitions and anti-aliased world-space block grid; docs/v5/MURIM-UPDATE.md",
+      "sha256": "09b8223e137dbea7dfbad3a9fd8db4ed47c5f6fc8dd2092f481ebab90d093543"
     },
     {
       "path": "genesis/transit_portal.gdshader",

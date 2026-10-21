@@ -1,0 +1,32 @@
+{
+  "reported_image": {
+    "filename": "1-1000529087.jpg",
+    "sha256": "a1956e3ddf04c1bc2122b44687f3ecf9cec19a1eeb89735a5281313873c457e9",
+    "role": "Bug report/reference only; not a runtime creative asset"
+  },
+  "requests": [
+    "Muralha externa não pode cortar recinto nem bloquear entrada",
+    "Fauna do bestiário nos campos e arredores; lobos em grupos mínimos de três",
+    "Malha visual de um metro no terreno",
+    "Arqueiros à distância, flanqueadores, cerco sem todos atacarem juntos",
+    "Combate do jogador mais móvel e responsivo",
+    "Batalha dos doze com movimento, técnicas, efeitos e sons existentes",
+    "Coerência Murim e cultivo"
+  ],
+  "external_research": {
+    "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Wuxia",
+    "result": "BLOCKED_HTTP_403",
+    "used_as_retrieved_source": false
+  },
+  "internal_research": [
+    "exo_martial/data/schools.json",
+    "exo_martial/data/styles.json",
+    "exo_martial/data/training_methods.json",
+    "data/heroes.json",
+    "data/skills.json",
+    "exo_bestiary/data/species.json",
+    "exo_bestiary/data/humanoids.json",
+    "exo_bestiary/v3/group_tactics.gd",
+    "exo_bestiary/v3/combat_brain.gd"
+  ]
+}

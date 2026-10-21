@@ -46,15 +46,18 @@ static func route_for_site(region:Node3D,master:Dictionary,gate:Dictionary) -> D
 # Bounded physical approach, attached to the existing street graph. No actor warp.
 static func physical_approach(region:Node3D,a:Vector3,b:Vector3) -> Array:
  var space:PhysicsDirectSpaceState3D=region.get_world_3d().direct_space_state
- var step:float=2.0
+ var step:float=1.0
  var origin:Vector2=Vector2(minf(a.x,b.x)-30.0,minf(a.z,b.z)-30.0)
  var extent:Vector2=Vector2(absf(a.x-b.x)+60.0,absf(a.z-b.z)+60.0)
  var size:Vector2i=Vector2i(ceili(extent.x/step)+1,ceili(extent.y/step)+1)
- if size.x*size.y>14000:return []
+ if size.x*size.y>60000:
+  region.set_meta("approach_failure",{"stage":"budget","a":a,"b":b,"size":size});return []
  var grid:=AStarGrid2D.new();grid.region=Rect2i(Vector2i.ZERO,size);grid.cell_size=Vector2(step,step);grid.diagonal_mode=AStarGrid2D.DIAGONAL_MODE_NEVER;grid.update()
  var heights:Dictionary={}
- var shape:=BoxShape3D.new();shape.size=Vector3(step,1.7,step)
+ var shape:=BoxShape3D.new();shape.size=Vector3(.65,1.7,.65)
  var probe:=PhysicsShapeQueryParameters3D.new();probe.shape=shape;probe.collision_mask=1|4
+ var host:Node3D=region.get_parent()
+ if host!=null and host.has_method("combat_actor_rids"):probe.exclude=host.combat_actor_rids()
  for z in range(size.y):
   for x in range(size.x):
    var id:=Vector2i(x,z)
@@ -67,11 +70,21 @@ static func physical_approach(region:Node3D,a:Vector3,b:Vector3) -> Array:
    probe.transform=Transform3D(Basis.IDENTITY,floor_at+Vector3(0,.95,0))
    if not space.intersect_shape(probe,1).is_empty():grid.set_point_solid(id);continue
    heights[id]=floor_at-region.global_position
+ # A top-of-wall ray hit is not a walkable ramp. Exclude high ledges from
+ # the graph before searching, instead of rejecting the shortest path afterward
+ # while a perfectly traversable detour remains available.
+ for id in heights:
+  for offset in [Vector2i.LEFT,Vector2i.RIGHT,Vector2i.UP,Vector2i.DOWN]:
+   var neighbor:Vector2i=id+offset
+   if heights.has(neighbor) and float(heights[id].y)-float(heights[neighbor].y)>1.2:
+    grid.set_point_solid(id);break
  var start:=Vector2i(roundi((a.x-origin.x)/step),roundi((a.z-origin.y)/step))
  var end:=Vector2i(roundi((b.x-origin.x)/step),roundi((b.z-origin.y)/step))
- if not heights.has(start) or not heights.has(end):return []
+ if not heights.has(start) or not heights.has(end):
+  region.set_meta("approach_failure",{"stage":"anchors","a":a,"b":b,"start_clear":heights.has(start),"end_clear":heights.has(end)});return []
  var ids:Array[Vector2i]=grid.get_id_path(start,end)
- if ids.is_empty():return []
+ if ids.is_empty():
+  region.set_meta("approach_failure",{"stage":"disconnected_grid","a":a,"b":b});return []
  var path:Array=[a]
  for id in ids:path.append(heights[id])
  path.append(b)
@@ -81,8 +94,11 @@ static func physical_approach(region:Node3D,a:Vector3,b:Vector3) -> Array:
  for i in range(1,path.size()):
   var from:Vector3=path[i-1]+region.global_position+Vector3(0,.98,0)
   var to:Vector3=path[i]+region.global_position+Vector3(0,.98,0)
-  if absf(to.y-from.y)>1.2:return []
+  if absf(to.y-from.y)>1.2:
+   region.set_meta("approach_failure",{"stage":"height_step","from":from,"to":to});return []
   probe.transform=Transform3D(Basis.IDENTITY,from);probe.motion=to-from
   var swept:PackedFloat32Array=space.cast_motion(probe)
-  if swept.size()<2 or swept[0]<.999:return []
+  if swept.size()<2 or swept[0]<.999:
+   region.set_meta("approach_failure",{"stage":"sweep","from":from,"to":to,"sweep":swept});return []
+ if region.has_meta("approach_failure"):region.remove_meta("approach_failure")
  return path

@@ -50,7 +50,7 @@ func setup(owner_world: Node3D, id: String, role: String, spawn: Vector3) -> voi
 	home=spawn
 	max_hp=200 if kind=="boss" else 48 if kind=="mage" else 60
 	hp=max_hp
-	display_name="Vigia dos Ecos" if kind=="boss" else "Conjurador dos Ecos" if kind=="mage" else "Combatente dos Ecos"
+	display_name="Vigia dos Ecos" if kind=="boss" else "Cultivador Renegado" if kind=="mage" else "Combatente dos Ecos"
 	collision_layer=4
 	collision_mask=1|2|4
 	add_to_group("enemies")
@@ -74,8 +74,14 @@ func setup(owner_world: Node3D, id: String, role: String, spawn: Vector3) -> voi
 		"eyes":appearance_seed%4,"eye_color":appearance_seed%6,
 		"outfit":1 if kind=="blade" else 3,"style":appearance_seed%3,
 		"weapon":"arcane_staff" if kind=="mage" else "sword","skin3d":cosmetics})
+	if role!="boss":
+		var tactical_profile:String="aggressive_cultivator" if kind=="mage" else ["bandit_swordsman","dagger_raider","bandit_archer"][appearance_seed%3]
+		set_meta("bestiary03_profile",tactical_profile)
+		if tactical_profile=="bandit_archer":preload("res://wardrobe.gd").apply(rig,{"race":0,"skin":appearance_seed%6,"robe":3,"hair":appearance_seed%6,"weapon":"bow","skin3d":cosmetics})
+		if tactical_profile=="dagger_raider":preload("res://wardrobe.gd").apply(rig,{"race":0,"skin":appearance_seed%6,"robe":3,"hair":appearance_seed%6,"weapon":"twin_daggers","skin3d":cosmetics})
 	if kind != "boss":
 		preload("res://convergence/visual_actor_r10.gd").apply_enemy(rig,uid,"hostile_wanderer",str(world.journey.data.world.seed))
+	if str(get_meta("bestiary03_profile",""))=="bandit_archer" and str(rig.get_meta("weapon_id",""))!="bow":preload("res://wardrobe.gd").apply(rig,{"race":0,"skin":appearance_seed%6,"robe":3,"hair":appearance_seed%6,"weapon":"bow","skin3d":cosmetics})
 	if kind=="boss":
 		rig.scale=Vector3.ONE*1.18
 		art=BossArt.new(self)
@@ -204,12 +210,15 @@ func step(delta: float) -> void:
 			if world.flow.phase=="adventure" and position.distance_to(world.player.position)<9:
 				world.cultivation.rumor("dardo_arcano" if kind=="mage" else "golpe_circular")
 			execute_attack()
-		if attack_time>=windup+0.36:
+		if attack_time>=windup+0.24:
 			attack_time=-1
-			cooldown=0.65 if phase_two else 1.05 if kind=="boss" else 1.3
+			cooldown=0.65 if phase_two else 1.05 if kind=="boss" else .68
 	else:
-		if (not regional_mode or interest_seconds>0.0) and cooldown<=0 and distance<(9.5 if kind in ["mage","boss"] else weapon_profile().reach) and world.can_hit(position,world.player.position,direction,10,-1):
+		if (not regional_mode or interest_seconds>0.0) and cooldown<=0 and distance<(9.5 if kind in ["mage","boss"] else 11.0 if weapon_profile().ranged else weapon_profile().reach) and world.can_hit(position,world.player.position,direction,10,-1):
 			begin_attack(direction,distance)
+			if attack_time<0 and world.get("bestiary_v4")!=null:
+				var suggested:Vector3=world.bestiary_v4.tactical_velocity(self)
+				if suggested.is_finite():move=suggested
 		elif distance<12 and (not regional_mode or interest_seconds>0.0):
 			if kind=="mage":
 				move=-direction*1.4 if distance<3 else direction*1.6 if distance>6.5 else Vector3.ZERO
@@ -228,6 +237,9 @@ func step(delta: float) -> void:
 			var drift: Vector3=patrol_point-position
 			drift.y=0
 			if drift.length()>0.65:move=drift.normalized()*0.9
+	if not locked and not returning and attack_time<0 and distance<16 and (not regional_mode or interest_seconds>0.0) and world.get("bestiary_v4")!=null:
+		var suggested:Vector3=world.bestiary_v4.tactical_velocity(self)
+		if suggested.is_finite():move=suggested
 	if stagger<=0 or kind=="boss" or locked or returning:
 		if move.length()>0.05:
 			move=steer(move)
@@ -273,7 +285,8 @@ func apply_control(force: Vector3,root_seconds: float) -> void:
 	root_timer=maxf(root_timer,root_seconds*(.3 if kind=="boss" else 1.0))
 
 func steer(movement: Vector3) -> Vector3:
-	var query:=PhysicsRayQueryParameters3D.create(position+Vector3.UP,position+Vector3.UP+movement.normalized()*1.0,1)
+	var query:=PhysicsRayQueryParameters3D.create(position+Vector3.UP,position+Vector3.UP+movement.normalized()*1.0,1|4)
+	query.exclude=[get_rid()]
 	if world.get_world_3d().direct_space_state.intersect_ray(query).is_empty():
 		return movement
 	var side:=Vector3(-movement.z,0,movement.x)
@@ -290,7 +303,7 @@ func begin_attack(direction: Vector3, distance: float) -> void:
 	attack_done=false
 	rush_hit=false
 	attack_direction=direction
-	attack_kind="orb" if kind=="mage" else "cleave"
+	attack_kind="orb" if kind=="mage" else "arrow" if weapon_profile().ranged else "cleave"
 	if kind=="boss":
 		attack_kind="orb" if distance>3.0 else "shock" if pattern%3==1 else "cleave"
 		if phase_two and pattern%4==3 and distance>2.5:
@@ -299,7 +312,7 @@ func begin_attack(direction: Vector3, distance: float) -> void:
 	rig.rotation.y=atan2(-direction.x,-direction.z)
 	if attack_kind=="shock":
 		world.techniques.ring(position,3.2,Color("ba785e"),windup_time())
-	elif attack_kind in ["orb","rush"]:
+	elif attack_kind in ["orb","arrow","rush"]:
 		world.aim_line(position,direction,3.6 if attack_kind=="rush" else 9,windup_time(),Color("dfa575") if attack_kind=="rush" else Color("ba7caa"))
 	else:
 		if kind=="blade" and weapon_profile().pose=="thrust":
@@ -319,6 +332,10 @@ func execute_attack() -> void:
 	if kind=="boss":world.play_sound("boss_release")
 	strikes+=1
 	world.audio_fx.actor_voice(rig,true)
+	if attack_kind=="arrow":
+		world.combat.enemy_orb(position+Vector3.UP,attack_direction,8,{"family":"arrow","speed":13.0})
+		world.audio_fx.play_event("arrow","combat",.45)
+		return
 	if attack_kind=="rush":
 		world.play_sound("leap")
 		return

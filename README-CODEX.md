@@ -54,3 +54,7 @@ A importação inicial é serializada no Godot 4.6.2 para evitar uma corrida nat
 ### Atualização urbana atual
 
 Casas modulares originais Forja, distritos compactos com preenchimento de lotes seguros, calçamento urbano e máscaras de transição, multidão proporcional à escala do povoado. Consulte [CITY-UPDATE](docs/v5/CITY-UPDATE.md) para implementação, proveniência e limites de validação. Extraia em pasta nova e use uma nova jornada para avaliar o novo plano urbano.
+
+### Mundo e combate Murim
+
+Perímetro protegido dos recintos, fauna regional em grupos por espécie, linhas de blocos no terreno, táticas físicas e prólogo com técnicas, efeitos e áudio. Implementação, pesquisa, evidências e limites: [MURIM-UPDATE](docs/v5/MURIM-UPDATE.md). A versão atual deve ser extraída em pasta nova.

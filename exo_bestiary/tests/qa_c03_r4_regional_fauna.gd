@@ -16,7 +16,7 @@ func run() -> void:
     var catalog=Species.new()
     check(catalog.load_data(),"catalog_load")
     check(catalog.summary().species>=16,"catalog_16")
-    var atlas: Dictionary=Atlas.plan("101")
+    var atlas: Dictionary=preload("res://genesis/v4/world_plan.gd").decorate(Atlas.read_atlas("res://genesis/atlas_seed_101.json"),"fauna-qa")
     var kinds:=0
     var total_sites:=0
     for rid in range(88):
@@ -30,12 +30,13 @@ func run() -> void:
                 if str(a[index].id)!=str(b[index].id) or str(a[index].species)!=str(b[index].species) or a[index].p!=b[index].p:
                     stable=false;break
         check(stable,"seed_determinism_r"+str(rid))
-        check(a.size()<=2,"site_budget_r"+str(rid))
+        check(a.size()<=(8 if str(data.spec.kind)=="wild" else 4 if str(data.spec.kind)=="settlement" else 3),"site_budget_r"+str(rid))
         for site in a:
             check(str(site.id).begins_with("eco/r"),"stable_id")
             check(not catalog.get_profile(str(site.species)).is_empty(),"species_profile")
             check(data.road_distance(site.p)>=11.0 and data.river_distance(site.p)>=18.0,"terrain_exclusions")
             check(data.pad_distance(site.p)>=18.0,"lot_exclusion")
+            if str(site.species) in ["wolf","corrupted_wolf"]:check(int(site.group_size)>=3,"minimum_wolf_pack")
             total_sites+=1
         if not a.is_empty():kinds+=1
     check(total_sites>0 and kinds>0,"fauna_sites_present")

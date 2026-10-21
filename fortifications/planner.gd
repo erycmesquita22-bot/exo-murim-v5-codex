@@ -58,7 +58,7 @@ static func _gap(s: float,opening: Array,around: float) -> bool:
 
 static func plan_region(data: RefCounted) -> Dictionary:
 	if data.settlement_plan.get("status","invalid")!="ready":return _empty("skipped","","genesis_settlement_not_ready")
-	var contract: Dictionary={"ready":true,"region_id":int(data.spec.id),"scale":str(data.spec.settlement_scale),"lots":data.lots,"streets":data.settlement_plan.streets,"fixtures":data.settlement_plan.fixtures,"gates":data.gates,"rivers":data.rivers,"river_hub":data.river_hub,"half_extent":data.half}
+	var contract: Dictionary={"ready":true,"region_id":int(data.spec.id),"scale":str(data.spec.settlement_scale),"lots":data.lots,"streets":data.settlement_plan.streets,"fixtures":data.settlement_plan.fixtures,"gates":data.gates,"rivers":data.rivers,"river_hub":data.river_hub,"half_extent":data.half,"protected_sites":data.monumental_plans}
 	var first: Dictionary=plan_contract(contract,Callable(data,"height_at"))
 	if first.status=="ready" or str(data.spec.settlement_scale)!="city":return first
 	for margin in [4.0,8.0,12.0,-4.0,-8.0,16.0,20.0]:
@@ -92,6 +92,18 @@ static func plan_contract(c: Dictionary,height: Callable) -> Dictionary:
 			var radius: float=float(f.get("halfsize",2.5))+12.0+float(c.get("perimeter_margin",0.0))
 			lx=minf(lx,pt.dot(side)-radius);hx=maxf(hx,pt.dot(side)+radius)
 			ly=minf(ly,pt.dot(forward)-radius);hy=maxf(hy,pt.dot(forward)+radius)
+		# Monumental courtyards are real occupied geometry, not optional decoration.
+		# Enclose their complete bounds so the external ring cannot cut a courtyard
+		# or seal its only entrance. The existing inner enclosure remains intact.
+		for site in c.get("protected_sites",[]):
+			var bounds:Dictionary=site.get("bounds",{})
+			if not bounds.has("min_x"):continue
+			for x in [float(bounds.min_x),float(bounds.max_x)]:
+				for z in [float(bounds.min_z),float(bounds.max_z)]:
+					var point:=Vector2(x,z)
+					var margin:float=12.0+maxf(0.0,float(c.get("perimeter_margin",0.0)))
+					lx=minf(lx,point.dot(side)-margin);hx=maxf(hx,point.dot(side)+margin)
+					ly=minf(ly,point.dot(forward)-margin);hy=maxf(hy,point.dot(forward)+margin)
 		lx=minf(lx,-13.0);hx=maxf(hx,13.0);ly=minf(ly,-13.0);hy=maxf(hy,13.0)
 		ch=minf(14.,minf((hx-lx)*.09,(hy-ly)*.09))
 	else:

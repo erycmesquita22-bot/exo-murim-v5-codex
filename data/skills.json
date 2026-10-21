@@ -1,7 +1,7 @@
 [
   {
     "id": "corte_inicial",
-    "name": "Corte Inicial",
+    "name": "Corte de Abertura",
     "kind": "cut",
     "mana": 0,
     "stamina": 14,
@@ -66,7 +66,7 @@
   },
   {
     "id": "atracao_arcana",
-    "name": "Atracao Arcana",
+    "name": "Tração de Qi",
     "kind": "pull",
     "mana": 20,
     "stamina": 0,
@@ -105,7 +105,7 @@
   },
   {
     "id": "barreira_arcana",
-    "name": "Barreira Arcana",
+    "name": "Barreira de Qi",
     "kind": "shield",
     "mana": 22,
     "stamina": 0,
@@ -118,7 +118,7 @@
   },
   {
     "id": "cura",
-    "name": "Cura",
+    "name": "Circulação Restauradora",
     "kind": "heal",
     "mana": 26,
     "stamina": 0,
@@ -183,7 +183,7 @@
   },
   {
     "id": "dardo_arcano",
-    "name": "Dardo Arcano",
+    "name": "Dardo de Qi",
     "kind": "projectile",
     "mana": 14,
     "stamina": 0,
