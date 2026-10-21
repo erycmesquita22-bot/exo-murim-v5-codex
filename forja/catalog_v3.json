@@ -3854,7 +3854,7 @@
     {
       "id": "city_wall_stone_2m",
       "family": "fortification",
-      "file": "models/forja_v3/city_wall_stone_2m.tscn",
+      "file": "models/forja_v3/city_wall_stone_2m.glb",
       "bounds": [
         [
           -1.11,
@@ -3881,7 +3881,7 @@
     {
       "id": "city_wall_wood_2m",
       "family": "fortification",
-      "file": "models/forja_v3/city_wall_wood_2m.tscn",
+      "file": "models/forja_v3/city_wall_wood_2m.glb",
       "bounds": [
         [
           -1.11,
@@ -3907,7 +3907,7 @@
     {
       "id": "city_wall_battlement_2m",
       "family": "fortification",
-      "file": "models/forja_v3/city_wall_battlement_2m.tscn",
+      "file": "models/forja_v3/city_wall_battlement_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -3933,7 +3933,7 @@
     {
       "id": "wall_corner_stone",
       "family": "fortification",
-      "file": "models/forja_v3/wall_corner_stone.tscn",
+      "file": "models/forja_v3/wall_corner_stone.glb",
       "bounds": [
         [
           -1.15,
@@ -3959,7 +3959,7 @@
     {
       "id": "gate_stone_6m",
       "family": "fortification",
-      "file": "models/forja_v3/gate_stone_6m.tscn",
+      "file": "models/forja_v3/gate_stone_6m.glb",
       "bounds": [
         [
           -3.825,
@@ -3988,7 +3988,7 @@
     {
       "id": "watchtower_stone_4m",
       "family": "fortification",
-      "file": "models/forja_v3/watchtower_stone_4m.tscn",
+      "file": "models/forja_v3/watchtower_stone_4m.glb",
       "bounds": [
         [
           -2.675,
@@ -4017,7 +4017,7 @@
     {
       "id": "wall_corner_wood",
       "family": "fortification",
-      "file": "models/forja_v3/wall_corner_wood.tscn",
+      "file": "models/forja_v3/wall_corner_wood.glb",
       "bounds": [
         [
           -1.15,
@@ -4043,7 +4043,7 @@
     {
       "id": "gate_wood_6m",
       "family": "fortification",
-      "file": "models/forja_v3/gate_wood_6m.tscn",
+      "file": "models/forja_v3/gate_wood_6m.glb",
       "bounds": [
         [
           -3.825,
@@ -4071,7 +4071,7 @@
     {
       "id": "watchtower_wood_4m",
       "family": "fortification",
-      "file": "models/forja_v3/watchtower_wood_4m.tscn",
+      "file": "models/forja_v3/watchtower_wood_4m.glb",
       "bounds": [
         [
           -2.675,
@@ -4099,7 +4099,7 @@
     {
       "id": "sect_hall_8m",
       "family": "civic",
-      "file": "models/forja_v3/sect_hall_8m.tscn",
+      "file": "models/forja_v3/sect_hall_8m.glb",
       "bounds": [
         [
           -4.775,
@@ -4131,7 +4131,7 @@
     {
       "id": "temple_hall_8m",
       "family": "civic",
-      "file": "models/forja_v3/temple_hall_8m.tscn",
+      "file": "models/forja_v3/temple_hall_8m.glb",
       "bounds": [
         [
           -4.775,
@@ -4163,7 +4163,7 @@
     {
       "id": "guild_hall_8m",
       "family": "civic",
-      "file": "models/forja_v3/guild_hall_8m.tscn",
+      "file": "models/forja_v3/guild_hall_8m.glb",
       "bounds": [
         [
           -4.775,
@@ -4194,7 +4194,7 @@
     {
       "id": "open_pavilion_6m",
       "family": "civic",
-      "file": "models/forja_v3/open_pavilion_6m.tscn",
+      "file": "models/forja_v3/open_pavilion_6m.glb",
       "bounds": [
         [
           -3.275,
@@ -4221,7 +4221,7 @@
     {
       "id": "training_pavilion_6m",
       "family": "civic",
-      "file": "models/forja_v3/training_pavilion_6m.tscn",
+      "file": "models/forja_v3/training_pavilion_6m.glb",
       "bounds": [
         [
           -3.275,
@@ -4249,7 +4249,7 @@
     {
       "id": "martial_training_yard_6m",
       "family": "civic",
-      "file": "models/forja_v3/martial_training_yard_6m.tscn",
+      "file": "models/forja_v3/martial_training_yard_6m.glb",
       "bounds": [
         [
           -3.0,
@@ -4275,7 +4275,7 @@
     {
       "id": "training_dummy",
       "family": "civic",
-      "file": "models/forja_v3/training_dummy.tscn",
+      "file": "models/forja_v3/training_dummy.glb",
       "bounds": [
         [
           -1.35,
@@ -4302,7 +4302,7 @@
     {
       "id": "weapons_training_rack",
       "family": "civic",
-      "file": "models/forja_v3/weapons_training_rack.tscn",
+      "file": "models/forja_v3/weapons_training_rack.glb",
       "bounds": [
         [
           -1.2,
@@ -4329,7 +4329,7 @@
     {
       "id": "dojo_bell",
       "family": "civic",
-      "file": "models/forja_v3/dojo_bell.tscn",
+      "file": "models/forja_v3/dojo_bell.glb",
       "bounds": [
         [
           -1.175,
@@ -4355,7 +4355,7 @@
     {
       "id": "temple_altar",
       "family": "civic",
-      "file": "models/forja_v3/temple_altar.tscn",
+      "file": "models/forja_v3/temple_altar.glb",
       "bounds": [
         [
           -1.25,
@@ -4382,7 +4382,7 @@
     {
       "id": "temple_stela",
       "family": "civic",
-      "file": "models/forja_v3/temple_stela.tscn",
+      "file": "models/forja_v3/temple_stela.glb",
       "bounds": [
         [
           -0.8,
@@ -4409,7 +4409,7 @@
     {
       "id": "clan_banner_pair",
       "family": "civic",
-      "file": "models/forja_v3/clan_banner_pair.tscn",
+      "file": "models/forja_v3/clan_banner_pair.glb",
       "bounds": [
         [
           -1.875,
@@ -4436,7 +4436,7 @@
     {
       "id": "patrol_brazier",
       "family": "street",
-      "file": "models/forja_v3/patrol_brazier.tscn",
+      "file": "models/forja_v3/patrol_brazier.glb",
       "bounds": [
         [
           -0.59,
@@ -4463,7 +4463,7 @@
     {
       "id": "hanging_wall_torch",
       "family": "street",
-      "file": "models/forja_v3/hanging_wall_torch.tscn",
+      "file": "models/forja_v3/hanging_wall_torch.glb",
       "bounds": [
         [
           -0.325,
@@ -4490,7 +4490,7 @@
     {
       "id": "granary_6m",
       "family": "farm",
-      "file": "models/forja_v3/granary_6m.tscn",
+      "file": "models/forja_v3/granary_6m.glb",
       "bounds": [
         [
           -3.775,
@@ -4522,7 +4522,7 @@
     {
       "id": "grain_silo",
       "family": "farm",
-      "file": "models/forja_v3/grain_silo.tscn",
+      "file": "models/forja_v3/grain_silo.glb",
       "bounds": [
         [
           -2.025,
@@ -4549,7 +4549,7 @@
     {
       "id": "rice_field_4m",
       "family": "farm",
-      "file": "models/forja_v3/rice_field_4m.tscn",
+      "file": "models/forja_v3/rice_field_4m.glb",
       "bounds": [
         [
           -2.0,
@@ -4576,7 +4576,7 @@
     {
       "id": "vegetable_field_4m",
       "family": "farm",
-      "file": "models/forja_v3/vegetable_field_4m.tscn",
+      "file": "models/forja_v3/vegetable_field_4m.glb",
       "bounds": [
         [
           -2.0,
@@ -4603,7 +4603,7 @@
     {
       "id": "irrigation_channel_2m",
       "family": "farm",
-      "file": "models/forja_v3/irrigation_channel_2m.tscn",
+      "file": "models/forja_v3/irrigation_channel_2m.glb",
       "bounds": [
         [
           -1.06,
@@ -4629,7 +4629,7 @@
     {
       "id": "field_fence_2m",
       "family": "farm",
-      "file": "models/forja_v3/field_fence_2m.tscn",
+      "file": "models/forja_v3/field_fence_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -4655,7 +4655,7 @@
     {
       "id": "farm_gate_4m",
       "family": "farm",
-      "file": "models/forja_v3/farm_gate_4m.tscn",
+      "file": "models/forja_v3/farm_gate_4m.glb",
       "bounds": [
         [
           -2.1,
@@ -4681,7 +4681,7 @@
     {
       "id": "water_trough",
       "family": "farm",
-      "file": "models/forja_v3/water_trough.tscn",
+      "file": "models/forja_v3/water_trough.glb",
       "bounds": [
         [
           -1.15,
@@ -4707,7 +4707,7 @@
     {
       "id": "hay_cart",
       "family": "farm",
-      "file": "models/forja_v3/hay_cart.tscn",
+      "file": "models/forja_v3/hay_cart.glb",
       "bounds": [
         [
           -1.19,
@@ -4734,7 +4734,7 @@
     {
       "id": "village_stone_path_2m",
       "family": "street",
-      "file": "models/forja_v3/village_stone_path_2m.tscn",
+      "file": "models/forja_v3/village_stone_path_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -4760,7 +4760,7 @@
     {
       "id": "village_wood_path_2m",
       "family": "street",
-      "file": "models/forja_v3/village_wood_path_2m.tscn",
+      "file": "models/forja_v3/village_wood_path_2m.glb",
       "bounds": [
         [
           -1.0,
@@ -4786,7 +4786,7 @@
     {
       "id": "street_signpost",
       "family": "street",
-      "file": "models/forja_v3/street_signpost.tscn",
+      "file": "models/forja_v3/street_signpost.glb",
       "bounds": [
         [
           -1.09,
@@ -4812,7 +4812,7 @@
     {
       "id": "village_notice_board",
       "family": "street",
-      "file": "models/forja_v3/village_notice_board.tscn",
+      "file": "models/forja_v3/village_notice_board.glb",
       "bounds": [
         [
           -1.625,
@@ -4840,7 +4840,7 @@
     {
       "id": "street_lamp_post",
       "family": "street",
-      "file": "models/forja_v3/street_lamp_post.tscn",
+      "file": "models/forja_v3/street_lamp_post.glb",
       "bounds": [
         [
           -0.1,
@@ -4868,7 +4868,7 @@
     {
       "id": "stone_lion_statue",
       "family": "street",
-      "file": "models/forja_v3/stone_lion_statue.tscn",
+      "file": "models/forja_v3/stone_lion_statue.glb",
       "bounds": [
         [
           -0.6,
@@ -4895,7 +4895,7 @@
     {
       "id": "wood_footbridge_4m",
       "family": "street",
-      "file": "models/forja_v3/wood_footbridge_4m.tscn",
+      "file": "models/forja_v3/wood_footbridge_4m.glb",
       "bounds": [
         [
           -2.0,
@@ -4921,7 +4921,7 @@
     {
       "id": "stone_footbridge_4m",
       "family": "street",
-      "file": "models/forja_v3/stone_footbridge_4m.tscn",
+      "file": "models/forja_v3/stone_footbridge_4m.glb",
       "bounds": [
         [
           -2.05,
@@ -4947,7 +4947,7 @@
     {
       "id": "herbalist_garden_box",
       "family": "nature_detail",
-      "file": "models/forja_v3/herbalist_garden_box.tscn",
+      "file": "models/forja_v3/herbalist_garden_box.glb",
       "bounds": [
         [
           -1.0,
@@ -4974,7 +4974,7 @@
     {
       "id": "tea_garden_bush",
       "family": "nature_detail",
-      "file": "models/forja_v3/tea_garden_bush.tscn",
+      "file": "models/forja_v3/tea_garden_bush.glb",
       "bounds": [
         [
           -1.0,

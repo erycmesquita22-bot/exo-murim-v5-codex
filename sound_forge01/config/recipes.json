@@ -1,0 +1,239 @@
+{
+  "schema": "exo.soundforge01.recipes.v1",
+  "recipes": {
+    "wind_projectile": {
+      "name": "Wind projectile",
+      "trigger_events": {
+        "charge": [
+          "wind.prepare"
+        ],
+        "release": [
+          "wind.cast.a"
+        ],
+        "travel": [
+          "wind.travel"
+        ],
+        "hit": [
+          "wind.impact.a"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "wind_sweep": {
+      "name": "Wide wind sweep",
+      "trigger_events": {
+        "charge": [
+          "wind.prepare"
+        ],
+        "release": [
+          "wind.cast.b"
+        ],
+        "hit": [
+          "wind.impact.b"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "wind_sword": {
+      "name": "Wind sword slash",
+      "trigger_events": {
+        "draw": [
+          "weapon.sword.draw"
+        ],
+        "attack": [
+          "weapon.sword.swing_light",
+          "wind.sword.wave"
+        ],
+        "hit": [
+          "wind.impact.a"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "basic_sword_attack": {
+      "name": "Sword attack",
+      "trigger_events": {
+        "draw": [
+          "weapon.sword.draw"
+        ],
+        "attack": [
+          "weapon.sword.swing_light"
+        ],
+        "hit": [
+          "weapon.sword.hit_body"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "sword_qi": {
+      "name": "QI-infused sword",
+      "trigger_events": {
+        "draw": [
+          "weapon.sword.draw"
+        ],
+        "charge": [
+          "qi.prepare"
+        ],
+        "attack": [
+          "weapon.sword.swing_heavy",
+          "qi.release"
+        ],
+        "hit": [
+          "weapon.sword.hit_body",
+          "qi.impact"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "qi_projectile": {
+      "name": "Qi projectile",
+      "trigger_events": {
+        "charge": [
+          "qi.prepare"
+        ],
+        "release": [
+          "qi.release"
+        ],
+        "travel": [
+          "qi.projectile.flight"
+        ],
+        "hit": [
+          "qi.impact"
+        ],
+        "end": [
+          "qi.dissipate"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "qi_barrier": {
+      "name": "Qi shield",
+      "trigger_events": {
+        "activate": [
+          "qi.barrier.activate"
+        ],
+        "hit": [
+          "qi.barrier.hit"
+        ],
+        "end": [
+          "qi.dissipate"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "fire_projectile": {
+      "name": "Fire projectile",
+      "trigger_events": {
+        "charge": [
+          "fire.prepare"
+        ],
+        "release": [
+          "fire.cast"
+        ],
+        "hit": [
+          "fire.impact"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "ice_projectile": {
+      "name": "Ice projectile",
+      "trigger_events": {
+        "charge": [
+          "ice.prepare"
+        ],
+        "release": [
+          "ice.cast"
+        ],
+        "hit": [
+          "ice.impact"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "bow_attack": {
+      "name": "Bow and arrow",
+      "trigger_events": {
+        "charge": [
+          "weapon.bow.draw"
+        ],
+        "release": [
+          "weapon.bow.release"
+        ],
+        "travel": [
+          "weapon.arrow.flight"
+        ],
+        "hit_wood": [
+          "weapon.arrow.hit_wood"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "spear_attack": {
+      "name": "Spear thrust",
+      "trigger_events": {
+        "attack": [
+          "weapon.spear.thrust"
+        ],
+        "hit": [
+          "weapon.spear.hit"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "staff_attack": {
+      "name": "Staff attack",
+      "trigger_events": {
+        "attack": [
+          "weapon.staff.swing"
+        ],
+        "hit": [
+          "weapon.staff.hit"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "unarmed_punch": {
+      "name": "Unarmed punch",
+      "trigger_events": {
+        "attack": [
+          "combat.fist.swing"
+        ],
+        "hit": [
+          "combat.fist.hit"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "unarmed_kick": {
+      "name": "Unarmed kick",
+      "trigger_events": {
+        "attack": [
+          "combat.kick.swing"
+        ],
+        "hit": [
+          "combat.kick.hit"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    },
+    "boss_special": {
+      "name": "Boss special",
+      "trigger_events": {
+        "charge": [
+          "boss.prepare"
+        ],
+        "release": [
+          "boss.release"
+        ],
+        "hit": [
+          "qi.impact"
+        ],
+        "phase": [
+          "boss.phase"
+        ]
+      },
+      "notes": "Trigger stages from actual gameplay/animation events. Never fire hit merely because cast played."
+    }
+  }
+}

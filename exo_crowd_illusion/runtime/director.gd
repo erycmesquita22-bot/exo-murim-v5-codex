@@ -20,10 +20,10 @@ const ZONE_LIMIT_PC = 16
 const ZONE_LIMIT_MOBILE = 10
 
 func attach_region(parent: Node3D, region_number: int, zone_specs: Array, seed: String, actor_focus: Node3D = null, target_mobile: bool = false, daytime: int = 12, reserved: Array = [], areas: Dictionary = {}, context: Dictionary = {}) -> Dictionary:
-	var atlas: Texture2D = parent.get_meta("exo_crowd_npc_atlas",null) if is_instance_valid(parent) and parent.has_meta("exo_crowd_npc_atlas") else null
-	if atlas == null or atlas.get_width() != 2048 or atlas.get_height() != 2048:
+	var source_profiles: Variant = parent.get_meta("exo_crowd_visual_profiles", []) if is_instance_valid(parent) else []
+	if not source_profiles is Array or source_profiles.is_empty():
 		detach()
-		return {"ok":false,"reason":"canonical_npc_atlas_missing_or_invalid"}
+		return {"ok":false,"reason":"real_npc_visual_profiles_missing"}
 	if not is_instance_valid(parent) or region_number < 0 or region_number > 87:
 		return {"ok": false, "reason": "invalid_region"}
 	if not is_finite(density):
@@ -87,7 +87,7 @@ func attach_region(parent: Node3D, region_number: int, zone_specs: Array, seed: 
 		var renderer: Node3D = Renderer.new()
 		renderer.name = "CrowdZone_" + zone_id.validate_node_name()
 		container.add_child(renderer)
-		renderer.configure(planned, focus, mobile, 0.35 if zone_id.begins_with("cf/") else 2.2, atlas)
+		renderer.configure(planned, focus, mobile, 0.35 if zone_id.begins_with("cf/") else 2.2, source_profiles, world_seed + "|r" + str(region_number), hour)
 		zones.append({"spec": zone.duplicate(true), "renderer": renderer})
 		accepted += 1
 		actors += int(planned.get("placed", 0))

@@ -59,7 +59,7 @@ static func apply(rig: Node3D,profile: Dictionary) -> void:
 	var trim:=Color("c9b784") if robe_index!=3 else Color("615b50")
 	var ink:=robe.darkened(.58);var lining:=Color("dfdac9")
 	var style:=int(profile.get("style",0))
-	# Restore the actual owner-authored 216 EXO FighterArt palettes at 256x256.
+	# Apply owner-attested EXO FighterArt; editable UV tailoring remains fallback.
 	# Minecraft UV coordinates remain 64x64-compatible (4 texels per unit).
 	var image: Image = ExoIdentity.paint(profile)
 	var imported: String=str(profile.get("skin_file",""))

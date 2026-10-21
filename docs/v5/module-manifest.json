@@ -35,7 +35,7 @@
         },
         {
           "path": "actor.gd",
-          "sha256": "87f8ddd682e7cef1b3ea9294df7ba3340ed69826e167adba44afbd0a618ca755"
+          "sha256": "849bf66e6d40c90b9b3ba4655d1839efc874cf13f452c34c97b4a0650e9f4d74"
         },
         {
           "path": "actor.gd.uid",
@@ -96,7 +96,8 @@
       ],
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
-      "evidence": "QA/final-verified/summary.json"
+      "evidence": "QA/final-verified/summary.json",
+      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
     },
     {
       "id": "settlement_forge",
@@ -361,7 +362,7 @@
         },
         {
           "path": "runtime/architecture_builder.gd",
-          "sha256": "ce80fb0a40f258d3e19c7b420a6439a51e54cc0cb2efaac9491b17c70af3c19e"
+          "sha256": "738ddfdd21d937408517bdd4692bc28af012687116de6670aee78de0fdd1273a"
         },
         {
           "path": "runtime/architecture_builder.gd.uid",
@@ -410,7 +411,8 @@
       ],
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
-      "evidence": "QA/final-verified/summary.json"
+      "evidence": "QA/final-verified/summary.json",
+      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
     },
     {
       "id": "worldgen_v5",
@@ -484,7 +486,7 @@
         },
         {
           "path": "runtime/visit_host.gd",
-          "sha256": "59ad2b7f3514f390b7e946005c9ff8d8db37b42c57b87532cdb955b80d056810"
+          "sha256": "e4a67532266383a51eeb08298e873bfae8141c63af60d63e9136112691917096"
         },
         {
           "path": "runtime/visit_host.gd.uid",
@@ -493,7 +495,8 @@
       ],
       "native_validation": "See QA logs; not a legal or platform homologation claim",
       "status": "VALIDATED_IN_LISTED_CLOUD_WORKFLOWS",
-      "evidence": "QA/final-verified/summary.json"
+      "evidence": "QA/final-verified/summary.json",
+      "host_revision": "Drive integration + interior safety; supplied module version retained with host patches tracked in Git"
     }
   ],
   "single_owners": {

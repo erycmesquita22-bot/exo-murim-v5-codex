@@ -1,5 +1,5 @@
 extends RefCounted
-# Original V5 generated palette textures. Legacy mod pixels are excluded.
+# EXO owner-attested FighterArt palettes; sources/history promised, see docs/v5/drive-provenance.json.
 const SKIN_COLORS = ["efd5be", "dbb399", "c79670", "a77853", "7b503d", "4e352c"]
 const CLOTH_COLORS = ["303744", "365987", "3b6956", "963f49", "dedbd0", "695183"]
 const HAIR_COLORS = ["25242b", "4c352d", "9c5135", "c9aa63", "d8d8d3", "344a76"]
@@ -25,15 +25,13 @@ static func paint(profile: Dictionary) -> Image:
     var skin_index: int = clampi(int(profile.get("skin",0)),0,5)
     var robe_index: int = clampi(int(profile.get("robe",0)),0,5)
     var hair_index: int = clampi(int(profile.get("hair",0)),0,5)
-    var palette: int = skin_index + robe_index * 6 + hair_index * 36
-    var texture: Texture2D = load("res://assets/exo_identity/base_%d.png" % palette)
-    if texture == null:
-        return Image.create(64,64,false,Image.FORMAT_RGBA8)
-    var image: Image = texture.get_image()
-    image.convert(Image.FORMAT_RGBA8)
     var skin := Color(SKIN_COLORS[skin_index])
     var cloth := Color(CLOTH_COLORS[robe_index])
     var hair := Color(HAIR_COLORS[hair_index])
+    var palette: int = skin_index + robe_index * 6 + hair_index * 36
+    var source: Texture2D = load("res://assets/exo_identity/base_%d.png" % palette)
+    var image: Image = source.get_image() if source != null else tailored_base(skin, cloth, hair)
+    image.convert(Image.FORMAT_RGBA8)
     var eyes := Color(EYE_COLORS[clampi(int(profile.get("eye_color",0)),0,5)])
     var cut: int = clampi(int(profile.get("haircut",0)),0,3)
     var shape: int = clampi(int(profile.get("eyes",0)),0,3)
@@ -104,4 +102,52 @@ static func paint(profile: Dictionary) -> Image:
             var y: float=arm.y+(9 if outfit==0 else 5)
             line(image,Vector2(arm.x+4.8,y),Vector2(arm.x+5.2,y+2),shadow)
             line(image,Vector2(arm.x+7.1,y),Vector2(arm.x+6.7,y+2),shadow)
+    return image
+
+# Editable project-authored UV tailoring. No legacy mod pixels are read.
+# Each cube face occupies the classic Minecraft net; outer layers stay transparent.
+static func tailored_base(skin: Color, cloth: Color, hair: Color) -> Image:
+    var image := Image.create(256,256,false,Image.FORMAT_RGBA8)
+    image.fill(Color.TRANSPARENT)
+    var parts: Array = [
+        [0,0,8,8,8,skin], [16,16,8,12,4,cloth],
+        [40,16,4,12,4,skin], [32,48,4,12,4,skin],
+        [0,16,4,12,4,cloth.darkened(.27)], [16,48,4,12,4,cloth.darkened(.27)]]
+    for part in parts:
+        var u: int=part[0];var v: int=part[1];var w: int=part[2];var h: int=part[3];var d: int=part[4]
+        var tint: Color=part[5]
+        var faces: Array=[Rect2(u+d,v,w,d),Rect2(u+d+w,v,w,d),Rect2(u,v+d,d,h),Rect2(u+d,v+d,w,h),Rect2(u+d+w,v+d,d,h),Rect2(u+d+w+d,v+d,w,h)]
+        for f: Rect2 in faces:
+            rect(image,f.position.x,f.position.y,f.size.x,f.size.y,tint)
+            # Seams and flat voxel shading follow each face, rather than a
+            # single rectangle that spills clothes across unrelated UV parts.
+            rect(image,f.position.x,f.position.y,.25,f.size.y,tint.darkened(.12))
+            rect(image,f.position.x,f.end.y-.25,f.size.x,.25,tint.darkened(.18))
+            rect(image,f.position.x+.25,f.position.y,f.size.x-.5,.25,tint.lightened(.09))
+    # Back, sides and crown of the hairstyle.
+    rect(image,8,0,8,8,hair)
+    rect(image,0,8,8,6,hair.darkened(.12))
+    rect(image,16,8,8,6,hair.darkened(.12))
+    rect(image,24,8,8,8,hair)
+    rect(image,8,8,8,2,hair)
+    # Tailored sleeves, cuffs and wraps on both arms, all four vertical faces.
+    for origin: Vector2 in [Vector2(40,16),Vector2(32,48)]:
+        rect(image,origin.x,origin.y+4,16,5,cloth)
+        rect(image,origin.x,origin.y+8.5,16,.5,cloth.lightened(.28))
+        for stripe in range(3):
+            rect(image,origin.x,origin.y+11+float(stripe)*.6,16,.3,Color("d2c6aa"))
+    # Trousers and boots preserve left/right limb UV and knee articulation.
+    for origin: Vector2 in [Vector2(0,16),Vector2(16,48)]:
+        rect(image,origin.x,origin.y+13,16,3,Color("373335"))
+        rect(image,origin.x,origin.y+12.5,16,.5,Color("b4a78b"))
+        for x in [4.5,7.0,12.5]:
+            rect(image,origin.x+x,origin.y+5,.25,6,cloth.darkened(.43))
+    # Full belt front/sides/back with jade clasp and folded lapels.
+    rect(image,16,28,24,2,cloth.darkened(.58))
+    rect(image,23,28.25,2,1.25,Color("c8ac68"))
+    rect(image,23.5,28.5,1,.75,Color("5b9a80"))
+    line(image,Vector2(20,20),Vector2(25,26),Color("e1d5b7"))
+    line(image,Vector2(28,20),Vector2(23,26),Color("c8ac68"))
+    for x in [20.5,22.5,26.5]:
+        line(image,Vector2(x,26.5),Vector2(x+.5,27.75),cloth.darkened(.22))
     return image

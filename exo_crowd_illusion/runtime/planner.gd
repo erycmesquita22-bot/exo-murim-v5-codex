@@ -161,7 +161,7 @@ static func plan(z: Dictionary, world_seed: String, density: float = 1.0, reserv
 		agents.append({
 			"id":"crowd/"+str(z["id"])+"/"+str(i),"role":role,"activity":activity,
 			"position":first,"a":first,"b":last,"route":route,"route_length":_route_length(route),
-			"speed":rng.randf_range(0.65,1.0) if walking else 0.0,"phase":0.0,
+			"speed":1.65 if walking else 0.0,"phase":0.0,
 			"motion_phase":rng.randf_range(0.0,TAU),"skin_slot":rng.randi_range(0,63),
 			"yaw":atan2(tangent.x,tangent.z),"scale":rng.randf_range(0.93,1.06)
 		})

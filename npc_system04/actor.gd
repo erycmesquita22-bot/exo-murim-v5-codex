@@ -219,10 +219,7 @@ func step(delta: float, _hour: int, now: float = -1.0) -> void:
     if visual_active and rig.visible:
         rig.pose(clock, false, false, is_on_floor())
         rig.locomotion(get_real_velocity() if moving else Vector3.ZERO, delta, false, is_on_floor(), true)
-        if arrived and activity_name in Brain.WORK:
-            rig.forearms[0].rotation.x = -0.55 - 0.35 * sin(clock * 2.4)
-        elif social_time > 0.0:
-            rig.forearms[0].rotation.x = -0.25 + 0.25 * sin(clock * 3.0)
+        preload("res://convergence/npc_visual_actions.gd").apply(rig, activity_name if arrived else "idle", clock, 0, social_time > 0.0)
 
 func _work_tick(delta: float, now: float) -> void:
     if not arrived or to_slot != desired_slot or sheltered or paused_for_talk > 0 or activity_name not in Brain.WORK: return

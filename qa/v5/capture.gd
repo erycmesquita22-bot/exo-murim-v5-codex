@@ -16,6 +16,11 @@ func run() -> void:
     await shot("v5-menu")
     w.flow.phase="creator";w.ui.show_creator();await frames(8)
     await shot("v5-creator")
+    w.ui.creation_tab=1;w.ui.appearance_tab=1;w.ui.show_creator();await frames(8)
+    await shot("v5-creator-wardrobe")
+    preload("res://ui/character_creation.gd").new(w.ui).apply_style(2)
+    w.ui.preview_root.preview_pose="walk";await frames(12)
+    await shot("v5-creator-guard")
     w.flow.create_character({"name":"Visual V5","race":0,"path":0,"robe":1,"hair":0,"skin":0,"style":0,"weapon":"sword"},101)
     w.ui.resume()
     for i in range(600):

@@ -51,6 +51,7 @@ func try_interact() -> bool:
         if not portal.leave():
             return false
         _restore_actor_visibility()
+        game.audio_fx.play_event("object.door.wood","combat",0.35)
         return true
     var record: Dictionary = _near_record()
     if record.is_empty() or not is_instance_valid(active_region):
@@ -63,6 +64,7 @@ func try_interact() -> bool:
     var success: bool = portal.enter(game.player, active_region, stage, game.camera, record, true)
     if success:
         _hide_actors()
+        game.audio_fx.play_event("object.door.wood","combat",0.35)
     return success
 
 func _hide_actors() -> void:

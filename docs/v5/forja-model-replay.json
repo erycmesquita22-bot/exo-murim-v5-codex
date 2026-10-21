@@ -1,0 +1,258 @@
+{
+  "models": [
+    {
+      "path": "models/forja_v3/watchtower_stone_4m.glb",
+      "replay_sha256": "3853f007b460f758572f7aeaa483102a36eb107bcd33dceaf5476cb6de70d0b7",
+      "supplied_sha256": "72f1033d07850caaf168bedcf4eca83fc5047c98883224750f19b621ab918d8e",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/training_pavilion_6m.glb",
+      "replay_sha256": "aad7eb5256b547d514113f83bd176c2909cfed03e64673497ff62eed07501acf",
+      "supplied_sha256": "6877e89a344b2c7adba8ab076bd5cf110a707fafbc582c9aa724e513971b8023",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/hanging_wall_torch.glb",
+      "replay_sha256": "099a930a034bbd55459a15aa9d263861cda7edea8162767c37d87638a56c7a9b",
+      "supplied_sha256": "9b94d43efcc5984fbaf11aab1f3e50bc69a43d7424c7e4ab83f07580474a4392",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/stone_footbridge_4m.glb",
+      "replay_sha256": "a5a3bdf25259155975212d96d8f8b1bc6f998ade75841a7ca985bbe1a4cc970d",
+      "supplied_sha256": "67d010e819d4b8f222a8a5988bfb48a3161aaa86a0d47f3ed7761631d950e2cc",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/patrol_brazier.glb",
+      "replay_sha256": "1c7b926efc7dc365e96535d0eea7f7ae7aca5f01bd2322fab06e40c7fd26baea",
+      "supplied_sha256": "417ebd178a60fc564e6a948f667c44c77f862e780f8ad5500bc3a9e9908c39b8",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/stone_lion_statue.glb",
+      "replay_sha256": "b023b8af1f597aa828e0b2b214e01f603f935f23ca95ee2bbc4c0a8b438b6bbe",
+      "supplied_sha256": "2b0e8048b6d3f820b106865ab094cdacf38e743068f153bf00b9d88b0a7f3c2d",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/wall_corner_stone.glb",
+      "replay_sha256": "81ee8c926e33b59fe874a3a5fd149ae274cde88e7368d8803bb16d3d00d519f6",
+      "supplied_sha256": "f1748dc2f969835e42d8f666b5d7d88915ce79bbe76dd006e4dd2af3efad0644",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/clan_banner_pair.glb",
+      "replay_sha256": "ff2ee7973a429fe372b736a2f77cbdbbedc3857596f14204fd642f893ee84dd6",
+      "supplied_sha256": "6b8b48d119c1675c889d95b92d3b7246eee8ee10e6936afaad98f3870f211614",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/grain_silo.glb",
+      "replay_sha256": "2e01995b29f2edc5aaa7fa974a8b5b105915e76e372d72a19e23067b3351894f",
+      "supplied_sha256": "26569be609331c2e1329e073ea7bde959a380a7f53152969845b4d99ad0171b4",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/rice_field_4m.glb",
+      "replay_sha256": "b9f17688ea768fa5222d01c6fe1f66a9b3e321ce7a3b8cdea9bdcf86ce21d825",
+      "supplied_sha256": "b6de188182ed02a7e3712d40f3258bcc9b95051961bb676f06e83e258ae2a6b6",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/martial_training_yard_6m.glb",
+      "replay_sha256": "48be8820a952d63f90f508eea0d8c396f2744328ddc84a69060ce285553b3e9b",
+      "supplied_sha256": "0b4db2a1138fcfb3b7a0de1245009525cff6ecc3a14d84fe0334961308871710",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/temple_hall_8m.glb",
+      "replay_sha256": "d8d0b2bfb5925d82b4e7757600c895f06cc02bbe0f5a2becf20f1269fa5ff1fe",
+      "supplied_sha256": "8709ad41e99efd80436cc2c8736a2820937879049872c8c001e30952996c3f40",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/dojo_bell.glb",
+      "replay_sha256": "1135e0219a404e3d8f34fb716dea059f46fbfbbe493386a204eb0003b1e4c498",
+      "supplied_sha256": "3595def3d63a1895c27aa4a14535e16f15b856c1529671f750d3a58c17b35457",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/wood_footbridge_4m.glb",
+      "replay_sha256": "c95426bbf150300a6f045d67abec75a93090f9557858bc135d6e7b78e2e1af4c",
+      "supplied_sha256": "01be45dda4cc07d1174fad37891771fa026af378a7cb0461fccec99687adf02e",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/farm_gate_4m.glb",
+      "replay_sha256": "0d3878f87f3fa7bb1ea8770423a224dd2973d7383af00802684cfbd3211d9b89",
+      "supplied_sha256": "4ddb425d51955154dc404c047dfd5ee9980dd68ae691c03cfbc718409396c976",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/wall_corner_wood.glb",
+      "replay_sha256": "e12e53988bab5df81b6e99861d37f6344614270d9b3f0a973958904a02dcb3b6",
+      "supplied_sha256": "689860a1732e55ad6d115f4a17d2eadbbb8a3f8eb69995abd1be82c4a4cfc838",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/weapons_training_rack.glb",
+      "replay_sha256": "8889bbdc3a3437cc8688ff9f1f95e118619c5ac308e93079c27c8e473b298003",
+      "supplied_sha256": "8ee84005c4cdc4b48408b7603a7b2f208c36cf7e3d41ede3bfd57af69ce41078",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/street_signpost.glb",
+      "replay_sha256": "f92f00879d0f3ccb4cbf3a2c35340c13ce174c5b2d859d26720f26d804d76adc",
+      "supplied_sha256": "991f1dda30be1249024a722ec354e46dd7e9403e48bade36223d535b26248114",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/gate_wood_6m.glb",
+      "replay_sha256": "307dae11eed690b909bb028fdc242dd01f8daa0020855a817abca2d836ea25d5",
+      "supplied_sha256": "e3fdade5308c413ae19bc21c51341ca9c6e7a7883c3dcec77bc129003e115bfb",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/temple_altar.glb",
+      "replay_sha256": "96aa7ff2c3960ee72b8789604615164894523d263319eacfcf1ce40890af85bc",
+      "supplied_sha256": "29dd287957cbfd49e172ddde4bcdad77e79691fd53b326ae3b72d1d06e6b2244",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/water_trough.glb",
+      "replay_sha256": "e871ae164d77fe39c7b39041e9818e6dc0f1c289fb6a05e3503031da0653dda0",
+      "supplied_sha256": "39129bdfca85f27cb71dbb540e984317d8dd2147cecee444a954a408b12598e0",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/gate_stone_6m.glb",
+      "replay_sha256": "cdddd16b130f8e67149d760f92ebf730fd6bde6ea407455b590a6ed0522fbbd1",
+      "supplied_sha256": "1f599935d6a77e9a59c7887b41bc6a98449e55e4a24a742986576c49219957e5",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/city_wall_wood_2m.glb",
+      "replay_sha256": "1f480f5102734c1a805d6f595e7b550c87a4a500ff2eba695e6038e9f4765ce7",
+      "supplied_sha256": "f0b581d3f8fcf4c383dd2a8c39764db3836e4bf021c9bf95b5c8641de236814e",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/sect_hall_8m.glb",
+      "replay_sha256": "0b0ac78c700a1528715b0f1176b7f67e5a3a4319fa3704299bbbd13ceaefe9fc",
+      "supplied_sha256": "6943c2f5549491402e27295a5963961b0e87ce9d560daac44a99e2ed8eca8889",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/village_notice_board.glb",
+      "replay_sha256": "70d9692232885b24d4a8f3dbc9d52bd7d600a1043e848edcc7f3ba918f5cf85b",
+      "supplied_sha256": "2b684c4b7027d71aedf8fb07f40865a6058a099a5f08623433737a371dda4616",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/training_dummy.glb",
+      "replay_sha256": "e63c728d13c63f052422a51f4b7686495cbf348ec5228e3916dbf366e6ac2338",
+      "supplied_sha256": "53b5d7c62613e883ee61d12ef8e9ffb951b26bb01e1f6acd11d5acacf1eb46ad",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/irrigation_channel_2m.glb",
+      "replay_sha256": "605d1a7bc05bfdb8d239a20a6602e5efdba7d477a64b1be356463bc8bf6f44bf",
+      "supplied_sha256": "d28b8fbc8e7ff07fde56c1cdba5e4dd717c5988efd0cd7f56f013dbebae9be94",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/village_stone_path_2m.glb",
+      "replay_sha256": "e4173e1d6d10029964f34b4d29848184ae8952b01ebce2cc622dac39965ac277",
+      "supplied_sha256": "bae753f194b6c85546228a40fd0e12823b671326add790f8f0e2234bfcf8f5cc",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/tea_garden_bush.glb",
+      "replay_sha256": "5232679a21d3a42f20e19b8af68aa2ea32ea22082b38dfaf69ab7b0b8fc2a6ac",
+      "supplied_sha256": "40be7778fb213d0089ef645affe9f6caae2e37d209a26a7bbf2434eaa07badee",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/city_wall_stone_2m.glb",
+      "replay_sha256": "b934580cc666ce26a3fe27f1216f963370a9f3b242ed334f286b239ddfb346f8",
+      "supplied_sha256": "44571cccf4ca76890e88a4831d4c12023f94586bb41f874f49db4673a901746b",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/street_lamp_post.glb",
+      "replay_sha256": "8962a7054964d62e53038b2f2754e82c35e426bcc84e7e68e2f70cb47da765f4",
+      "supplied_sha256": "75bc29ed253ead3b704ef195ecbcc27870becab71570e41d4fc3bf213a5f51ef",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/field_fence_2m.glb",
+      "replay_sha256": "923969d5038290da861d48a3364176b3c109cf30452c4de7bb396189d7125da2",
+      "supplied_sha256": "ac9c538b0d34b269f821734d10fcccec4d9b80a37be8cea969ed243cfa2e1aab",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/vegetable_field_4m.glb",
+      "replay_sha256": "271f6b7bf1e14b3fa3ad662ae16af0dcb6fdbe7d515d5b29303547fd341ce4e8",
+      "supplied_sha256": "789cacd0f8ee9250b623da7ced171499a808a0e979e7180a4c240a5974c81511",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/guild_hall_8m.glb",
+      "replay_sha256": "0ed6984b7db8d9f55f95d5a65e7e2c74d9dd8eae81d6458de18ff40788390812",
+      "supplied_sha256": "e4bdaad372f4e00397c9cd4efd737b718d5c18a7f4a8cc8cc4cb1c5b70657aa8",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/hay_cart.glb",
+      "replay_sha256": "2ecb90e49b48715f47c3a3ca0389f72eda1b540b7e17bc7b3781e7787d054cba",
+      "supplied_sha256": "31d6846eccb47692fa991f88bd0f9f1c7305beb71d869eca480e00abf4441159",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/city_wall_battlement_2m.glb",
+      "replay_sha256": "9a520a4deed828f32c8b32d9e0fe43219ca1bd87e1fc66ab59270a7ed5096b2f",
+      "supplied_sha256": "ad4bc928e30ec7a969c6da81b8f44c54e60e34324f191534e114c0c689f30aa2",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/herbalist_garden_box.glb",
+      "replay_sha256": "cbd831d301f85642ab52b952baf4cdb79f64c7641b93cb5a2d8361eec7c09cbd",
+      "supplied_sha256": "ee9a29b67b015ff5e30183bfd8182a3c89835114e7dbb5c966f95afaca7f13fd",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/village_wood_path_2m.glb",
+      "replay_sha256": "71e963c2c3a70845ddbcfb4116aa223d81148d961614ccc48b468c46316ab7ce",
+      "supplied_sha256": "9e6fb4485501c29ab3f3967db5198618ba83d2bedadd06b28a8555b546251401",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/open_pavilion_6m.glb",
+      "replay_sha256": "e8ef6a1831a36aeb7332236cc563158fda0132aaf7f25689929c54bc5fc081de",
+      "supplied_sha256": "9416fa39bc7a618f1a3bfb1d846ba889fbf5bc5fd6645a7e561a4706bf464f59",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/watchtower_wood_4m.glb",
+      "replay_sha256": "979c64cd0e7c7bd140cf8736682de718a22d91b9fec700ec6902a3b5b9c43182",
+      "supplied_sha256": "2f1eda13f44b20dd96dbdeabfcc5eb56dfee4306fc37fbcca651414a91c09b17",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/granary_6m.glb",
+      "replay_sha256": "d066ef54feb99d67893c8c86ead5352539cf5077c59c36c18df858736eeac23c",
+      "supplied_sha256": "c921349cc4499e00ea21f65a417704c108b81865df3e27ae055acee970622cb8",
+      "byte_identical": false
+    },
+    {
+      "path": "models/forja_v3/temple_stela.glb",
+      "replay_sha256": "178886ce8a671a41ad36c2d50994214c3822f11165ed8a6755de5acadb79a006",
+      "supplied_sha256": "3b07a7e3e519136f84127251222ba29e144db57592b20359c497ef35fe44fea0",
+      "byte_identical": false
+    }
+  ],
+  "method": "Review source tools/build_assets_v3.py; execute in isolated replay; use regenerated geometry",
+  "exact_matches": 0
+}

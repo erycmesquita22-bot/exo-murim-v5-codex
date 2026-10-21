@@ -19,11 +19,11 @@ WASD: movimento; mouse: orientação; botão esquerdo: ataque; 1–6: técnicas;
 
 ## Recursos criativos
 
-Os binários criativos herdados foram excluídos da distribuição ou substituídos por arte nova gerada por código, sem leitura dos pixels, vértices ou animações antigos. Geometria de reposição usa parâmetros próprios e, quando necessário, contratos técnicos de colisão. As substituições são **simplificadas**: não representam equivalência visual, vozes, música ou acabamento dos recursos retirados. Fontes vendorizadas foram removidas; a UI usa a fonte técnica fornecida pela própria engine, que não é incluída como asset neste projeto.
+A atualização do Drive restaura **216 paletas EXO FighterArt** e **113 texturas/atlas de terreno**, mediante declaração explícita de autoria do proprietário; os comprovantes foram prometidos e continuam pendentes. Inclui **91 OGG Sound Forge** com hashes e IDs de geração, ligados ao mixer existente, e **42 modelos Forja reconstruídos do código fornecido**. O criador oferece categorias, quatro estilos e prévia animada; o Hive usa o rig completo dos NPCs e depende de corredores validados fisicamente. Consulte [DRIVE-UPDATE](docs/v5/DRIVE-UPDATE.md).
 
-O pacote QA contém exclusões, hashes antigos, substituições, proveniência técnica, lacunas de conteúdo e evidências reais. Materiais, shaders, scripts e layouts editáveis fornecidos são identificados separadamente da arte nova; a documentação registra sua procedência declarada, sem inventar comprovação independente de titularidade.
+As 480 skins em quarentena, assets comerciais de terceiros e bibliotecas visuais antigas sobrepostas não foram importados. Os demais substitutos procedurais continuam identificados; a atualização não torna todo o conteúdo final. Fontes vendorizadas continuam fora da build; a UI usa a fonte técnica da engine.
 
-Para regenerar os recursos novos: Python 3 + Pillow 12.3.0; execute `python tools/v5/rebuild_generated_art.py` e importe novamente no Godot. As especificações e o gerador estão no projeto. A execução normal do jogo não depende de Python nem dos ZIPs de origem.
+Para regenerar os recursos novos: Python 3 + Pillow 12.3.0; execute `python tools/v5/rebuild_generated_art.py` e importe novamente no Godot. As especificações e o gerador estão no projeto; só incluem os substitutos ainda ativos e preservam as restaurações. Os 42 modelos Forja têm gerador separado tools/v5/build_forja_models.py, que usa NumPy e trimesh e atualiza seu catálogo. A execução normal do jogo não depende de Python nem dos ZIPs de origem.
 
 ## Testes reproduzíveis
 
@@ -45,4 +45,4 @@ bash tools/v5/godot.sh --headless --script res://qa/v5/integration.gd
 
 ## Estado e limites
 
-Esta é uma base de desenvolvimento com testes identificáveis, não uma promessa de ausência de todos os bugs. Os resultados atuais e os anteriores que falharam estão separados no QA. Capturas OpenGL foram obtidas em Xorg virtual/Mesa llvmpipe; números desse ambiente não representam GPU de jogador. Exportação Steam/Windows, dispositivo Android, áudio em hardware, todas as seeds possíveis e homologação comercial integral não foram demonstrados. Arte, música/vozes e validação de plataforma ainda exigem produção/revisão conforme a lista de conteúdo a repor.
+Esta é uma base de desenvolvimento com testes identificáveis, não uma promessa de ausência de todos os bugs. Os resultados atuais estão em drive-final/ e drive-last-code/ no pacote QA; tentativas anteriores com falhas são histórico. Capturas OpenGL foram obtidas em Xorg virtual/Mesa llvmpipe; números desse ambiente não representam GPU de jogador. Exportação Steam/Windows, dispositivo Android, áudio em hardware, todas as seeds possíveis e homologação comercial integral não foram demonstrados. Arte, música/vozes e validação de plataforma ainda exigem produção/revisão conforme a lista de conteúdo a repor.

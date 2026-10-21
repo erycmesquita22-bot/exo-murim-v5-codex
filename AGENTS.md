@@ -39,3 +39,7 @@
 ## Estado desta cópia V5
 
 Consulte README-CODEX.md e exo_core/modules.json para o estado atual; o texto acima descreve a origem V4. Os três pacotes foram recebidos e integrados nesta cópia. Não reinstale a origem por cima. QA atual: tools/v5/run_qa.py. Evidências históricas não são resultados atuais. Nunca reintroduza binários criativos excluídos. Os recursos novos são gerados por tools/v5/rebuild_generated_art.py e suas especificações. Não crie worktree: cada tarefa cloud já é isolada.
+
+## Atualização do Drive autorizada pelo proprietário
+
+Em 21/10/2026 o usuário confirmou autoria/fontes e autorizou restaurar as paletas FighterArt/EXO e texturas Terrain Forge, prometendo anexar comprovação depois. As 216 paletas e 113 texturas/atlas listadas em docs/v5/drive-owner-art.json estão ativas por essa autorização expressa; não as excluir automaticamente com base na quarentena histórica. Os comprovantes continuam pendentes e não há homologação comercial. As 480 skins legadas continuam fora da build. Leia docs/v5/DRIVE-UPDATE.md e drive-provenance.json antes de importar recursos ou executar geradores. tools/v5/generated_art_specs.json já exclui os recursos restaurados; não substituir novamente sua arte por padrões básicos. Hive usa NPC04, não reinstalar NPC03.

@@ -1,0 +1,2305 @@
+[
+  {
+    "path": "assets/exo_identity/base_20.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_20.png",
+    "sha256": "b513c894faa5012630d9f57395fe712832a19922f5c71513834a782ab4384f1c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_62.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_62.png",
+    "sha256": "25dddee7c742cd0925f7c96e31f43fe34cb1ddde3fad5f3257c980312d9ff78d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_198.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_198.png",
+    "sha256": "2abdcb0a55121494774585f3699173570c23dcd2db94f5dd0aa3b354ce68871c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_139.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_139.png",
+    "sha256": "4f9659680fa27efef6bb080e99027696ba328d5e827af0853eb995735337ee5a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_25.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_25.png",
+    "sha256": "99caac1c60f1961e44f159b5a1628aa3df7c14d378c0b8ac517485bdd7484c1b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_189.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_189.png",
+    "sha256": "37f5677d643eb7480b5d98403bc71234387a6049fc7e429bdda4f0968e44c46f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_197.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_197.png",
+    "sha256": "676e0495f58c829181474bbaf786f0323277a3a96c5d156c2dd5d812549eb16e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_102.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_102.png",
+    "sha256": "e0737b0a7895b57e2035ee40bf9dbafb4a376cb71e7d6cf90734ce83182cdf52",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_68.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_68.png",
+    "sha256": "b08f1eeb503e2eb62366e2306b683142d4a298fd72acd085326a44260d0c52c9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_121.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_121.png",
+    "sha256": "c26ae6af59db70624181755415c331b4b3c39db4605d0ee6e454eba1a3661b06",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_141.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_141.png",
+    "sha256": "21210b87574662ec9381495ad58f5feed0adb4fb0af9726784c845b5aea6b871",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_103.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_103.png",
+    "sha256": "7c3684bde3b402d4559c8900e144d39be2bb515dd80c37f786157e33c2ee16db",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_70.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_70.png",
+    "sha256": "1639b1967977e98a6e9377437f70f01ffb4208ebc4001cf260c79e4e398cd7eb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_107.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_107.png",
+    "sha256": "1d55bf2b376d3671fc6a0d500a09af52066ef60bae73e8d2454457722a6a0ad1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_143.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_143.png",
+    "sha256": "b216151b03cfd0b419b19c4920128d2c56ca31dfb29f676ab93551a671a89dd0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_98.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_98.png",
+    "sha256": "60ba92e6d3f925ef2fc3dec1c3b060570866d74168def5892acd0b1da14f44e4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_124.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_124.png",
+    "sha256": "2b5cdf1b7dab7f8eda4a0aa0d7227c4feba9693a2107832e51e12c0d71e6a810",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_157.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_157.png",
+    "sha256": "c0a6e519196012a7aa342de42a91f033c803a417a7376be55fe48ca32662fdd1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_142.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_142.png",
+    "sha256": "e050874e6d95e75b03f1ac571db4b9a91711558eedffca40f34d603961d47613",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_19.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_19.png",
+    "sha256": "3e14833874f89633d7e7061313a964596cf94acc8bd4ee2ea992fa397bcad877",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_134.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_134.png",
+    "sha256": "3ad2d9ddefc15449a883bdccabdc1f2b85e445f141ecc8546440413ac2274efa",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_138.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_138.png",
+    "sha256": "a1e367613214484853939dfbffdc13057a7fccdf82df3c2a25177724b9a00846",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_128.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_128.png",
+    "sha256": "ba2a4f84cfa4c68bafb2a4ca3ce9997f8255d5343ef1dcfa0193efe63cdc07fe",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_48.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_48.png",
+    "sha256": "e599fe4def26c2c1cac71344752eb51f2da7d7a906335307b119fe83ec2a8750",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_53.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_53.png",
+    "sha256": "4c77e35ba53e9bd8e1bc0519a2ddeda3ea416560f4354bb7e93c6666e52c421d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_78.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_78.png",
+    "sha256": "ea55979581c2c6eb4e588ef44cbdf2d403c086f37b60eec76c2c7e80e204293b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_147.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_147.png",
+    "sha256": "a6dc121f52e2169feb5678ed0f3f9480c54586353ba279d819b969bfe0b54961",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_153.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_153.png",
+    "sha256": "1d1143478e1639d72c92e763f04f46d80f36d8e79517725aa4e2a627c945c19d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_46.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_46.png",
+    "sha256": "221e0b0acdeaa8e686b6691d0df11fb8983a54b63e527892cbaf4ac2a17142b8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_39.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_39.png",
+    "sha256": "247c498a9e3aeece274e65c92e5f4e064089567aca95c926cdd7cafaf66f1f87",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_173.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_173.png",
+    "sha256": "4a2d2e90350e2ad2a3c70eb4292d8a40a287bdedaef91888dbedb91d1f2e9143",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_17.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_17.png",
+    "sha256": "9d09b83c269781ed9c6642f01b6ebfb3e4826a459708db6d3d3f8afbeeb27626",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_72.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_72.png",
+    "sha256": "15da16a746abc7e91f14fb59c811ccd162005847b971b38c714dfabc44e75db2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_28.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_28.png",
+    "sha256": "d606dd55a09f63d54432942bb5008e27bad0327c2c51e1437791a54fcf446c7e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_211.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_211.png",
+    "sha256": "f51496a3bdf14aa48b900c5dfbfc88dddbce590cd22b13dd40a711b8ff71f567",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_180.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_180.png",
+    "sha256": "eb4d69d64d1b4344da47a7872271ddcb27f1911953d19b20ce64832b8c94764c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_27.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_27.png",
+    "sha256": "5a4835fac13b351f82a1411698a93daddb9c568f9352b71f62b5fa33175fceb8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_186.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_186.png",
+    "sha256": "8ffac099931540b75725955b71862e3f0aa7f4896da80503337efe8f52f498ac",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_150.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_150.png",
+    "sha256": "3de5345084acb73fa38413c258f80ae1a4c781ad1127fe460024d991d22f653d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_162.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_162.png",
+    "sha256": "ac1438b7c34884d7ff21746de6a65ef885d4df1f8680100b44cf74a4c2ed6bf0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_81.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_81.png",
+    "sha256": "25eb9ef52ed03515fa5d72f119e3c46ce24eb50f68fb0bef17e8f816bfeae306",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_214.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_214.png",
+    "sha256": "84b2b3a0c832cf36154eb3f3e8ca77866d8a2a11fc5ab7d79a6d5e06974e99f0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_190.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_190.png",
+    "sha256": "2635b113ab13230ff6cd9f427108fc093dc8881e18898ee612286e16b5b45ef6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_200.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_200.png",
+    "sha256": "672969c75955837a36dbf78098cac3fa8fa9b3ce08e57ff62dee06dc3ea556de",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_95.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_95.png",
+    "sha256": "2eae2e1ca47c597914e8e475b5ad029113ee2defbd53d5424a3213cdc81b4ff4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_174.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_174.png",
+    "sha256": "78f729ce821654f37edc91820d44e9c22faec9ec271a6f18f30e69e0d4aab801",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_127.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_127.png",
+    "sha256": "b5a0ba8d2ff9f565b8f8be5527ae5fa4d1c098aea64fc9f21e3a627a5ee4791f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_45.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_45.png",
+    "sha256": "287fe1231666c23d10170e3d2fb531bad2cb4d4c18caa961ac5090f7dc0f7365",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_144.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_144.png",
+    "sha256": "9bff265ccf052dd28eb28b380a02aab4f65b9cd40f1e024d237f7db6abe0c5fb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_123.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_123.png",
+    "sha256": "3c5a2ebf1855db5c07995fc84c9875c22763579d4f3a97674bb4597e9ad90e68",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_33.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_33.png",
+    "sha256": "4cdb837f6f1ebd63becfc94d8493814d98d336c13148e953c33b72e4043bf0bc",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_187.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_187.png",
+    "sha256": "b61a3b7abbee825b624164b6de53e3af4aa055f61c1e3ccd67a67eaf8597b121",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_92.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_92.png",
+    "sha256": "33cb66150da2700801efdcdd7c4c758df878eac587c2b49ea10e3ab944074da6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_66.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_66.png",
+    "sha256": "d53a03a77eeff97483802949c4825e3404d9723bf024750e56c510ef4b6ee453",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_152.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_152.png",
+    "sha256": "619032c2fc410485a48e806651809e4c86f38f8b95869ab63037ff77ef6682d2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_88.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_88.png",
+    "sha256": "1a152bbfa7d0fbbb90eeaa6c3df2cf2bc8433fb90b39680201206a6e73c74b2a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_126.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_126.png",
+    "sha256": "5be58cb72010c836114ff4daef50b2474a4dad4549e866b7981c0f955c7f9c11",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_6.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_6.png",
+    "sha256": "0f40de8c178eee9d6f7e0b27d2efbe06f8af938267c8fafc177eee09b6ce897b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_86.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_86.png",
+    "sha256": "47bdc32891a5b59054ddb092f927e2d41a6fc7f66029b75634d84799a29c0676",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_73.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_73.png",
+    "sha256": "abab07704ed450c2cd0f8d05fb6e80ca4b1fdbc66e08afb3c78db6380bf2f35d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_5.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_5.png",
+    "sha256": "4594980048fbf488582108ad81a12a3190a15c227df597905d79dafb0b62e50f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_215.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_215.png",
+    "sha256": "54a929c98831ccfc5a12aa45dd592fd99f8a365b73e87127c49b9c53e38ebc96",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_155.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_155.png",
+    "sha256": "fb84f866c6d3baafadb9de514ddbac0882779563bd204522d5a1dc53666e8a77",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_154.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_154.png",
+    "sha256": "35d62c27f26c26c1513b7beb2220c674697c82b6270017c91614d5ff2ec3a249",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_120.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_120.png",
+    "sha256": "0d8b144ad5a200fc60bda20c9cbb0fd0aa91b99937a28da6c0dc9d29198ba26c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_191.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_191.png",
+    "sha256": "829d3d4e726d7862c7fb52a468f0b27e1dd7253ae5872159c4cc5ed1e1f5ed24",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_210.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_210.png",
+    "sha256": "25e479173239fe9ace825fa75c2d89044634ec3be5b957a82a0d10bdec8b5724",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_54.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_54.png",
+    "sha256": "aa87c09f862cc4804ab213eef708776f781cc7f25d0502ec1635f66deea2f52e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_18.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_18.png",
+    "sha256": "fb13a793dba711bf5312eb0e48e1e51306104528135fb9388b49362db773a5e8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_122.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_122.png",
+    "sha256": "f41f708293e244416aa2e6d3f5dd2c60d2ed2b6e6cda4d227d8bb27705fc7c9f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_67.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_67.png",
+    "sha256": "3630b5e0614fe061175283173de71d203ad05f5e5d01c5db3681d3b8a0ac64bf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_203.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_203.png",
+    "sha256": "4cccc765ea4d3313054247a29bc9cb808446fd5c029530a995b2c6c70a2ae806",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_104.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_104.png",
+    "sha256": "8551732f8a4e90c73588742766dd3d16aa5217214114f7722cc1733e59a8932a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_29.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_29.png",
+    "sha256": "26d13edc4153f943af7d47aa163bee4d31131e4dc7babb332f809bf0f7fc03f3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_202.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_202.png",
+    "sha256": "15826536fd97e9f37b9806dab5f100b6bbdfe52c3aee022aeebbbd3e58bf5419",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_185.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_185.png",
+    "sha256": "ffcabcffa4ef829505ac15e0bd79d13be70d848be964ab2048dd53edb7826ed7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_84.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_84.png",
+    "sha256": "78e59a489f619989018b39ba68d345f408abbcf5916489634efe7a4817c2675f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_34.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_34.png",
+    "sha256": "532e711032ec896adceaf27f2b6220413266aac57d4c4fb3b9eab5ea98135dc5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_60.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_60.png",
+    "sha256": "b5b54289325e000824cdb6fbc68db09fae00722c3b064c14f9af9b9212483bdf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_97.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_97.png",
+    "sha256": "f168277266334cb4592a5a4866bfc2eef9145dd7fb73469a71e2df15eba6386c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_24.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_24.png",
+    "sha256": "e6c398c2a7d5f12f61782aee816a65c4cc5a10d6c972acfbc902bc0bdbc22b80",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_149.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_149.png",
+    "sha256": "9d2e030b51468bffe50e47e12bc5e5d6eafbb831dd0dd334c6a5b8f49efe156d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_184.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_184.png",
+    "sha256": "127501b9ea4be6f9e9c9932bc81cedfdd73fa83ba5d7434b108dd2d98e800f65",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_15.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_15.png",
+    "sha256": "ae89f54282aa41bd9156b1d883888df9077d85e305ab0e8ede3f57efa21f9935",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_159.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_159.png",
+    "sha256": "62a59523c87b4269e07a865518b7dd7b9151a9149f44e25f84f8518c8d13f42d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_43.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_43.png",
+    "sha256": "7076074effaf2433a144d05d03e0c3ccc98e37575a2cbcce1652d55fcab89082",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_213.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_213.png",
+    "sha256": "7863481770da929c65bd4a2d831e6c3ad2092698540e0c4bf6c99a4e221f5fa5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_172.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_172.png",
+    "sha256": "4b0d88dab889525134937ca29bd9e8e52294cff7625ffe4be14d4d5fb291335c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_137.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_137.png",
+    "sha256": "0aa087b76e0581c59de3a01298c489af11414b08c29587c5b4e127ed900e18d8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_1.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_1.png",
+    "sha256": "ec7edb6761d0354bf3280f4a5cd6c1af6966661b822c7cb631bae87deaaf69ce",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_160.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_160.png",
+    "sha256": "341c0e94686d269e6bc05a85864a9fae3b65d05025fa36fb289d6e93841dcf40",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_99.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_99.png",
+    "sha256": "8d3cf12596768776135c8e67d027d73c9df6c958717400a75ce429fbf427de5a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_31.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_31.png",
+    "sha256": "87da6d62edecac6b3c32426690568c58b770c1b046ddee844ab6e9ce38da3552",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_164.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_164.png",
+    "sha256": "f37bc51beca4a278b3b1106ff4cb0e5cbcfb0047833f8aa65cdd3a6cc28efe90",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_131.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_131.png",
+    "sha256": "3582e69b2c822d81dfd41a77233c4bd9a0b991de3d663fd419e5057a300da649",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_133.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_133.png",
+    "sha256": "ca849376c5d3c8d493077c382369d83ca042cd156d4b7bfb539c9037429b0f3b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_206.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_206.png",
+    "sha256": "67191d94718c97124f5d335d707842f074556cf01ce85d06750d383a81e08f99",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_132.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_132.png",
+    "sha256": "dd6942d03625a4274c1d9df6090dfa9589d8f440fb7d65482dbdfa5aa566973f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_196.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_196.png",
+    "sha256": "823f95a8907a8b7742dfb9dfba63f47cc1b5c22feef6fff1667c192988574fa0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_37.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_37.png",
+    "sha256": "6847d8aa2c96fc8544ce1e59adb9dba9531788e8c6a9a2de9d1cfcadfdfbce3e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_50.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_50.png",
+    "sha256": "2d86c564248169ef128fbbe4f6355453bcd0bd7943666ddbc489ac533e4a54a1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_83.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_83.png",
+    "sha256": "309efb4dee549cd295cabeb96aa10b9a3b5a885427becb796f4c52aff3eeaecc",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_156.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_156.png",
+    "sha256": "0db8e30070f41a20ba244fd8893230e96e12c558ae1da9c4c9d95f5f896910c6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_4.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_4.png",
+    "sha256": "011d4d663e1fbfc60784e859751ff6489c18fcedba019805fa9f0731407f3513",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_38.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_38.png",
+    "sha256": "013f85c364bda69b0406375d1348e5e68bdae3cee499251cdc1fdc02564b0a9c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_111.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_111.png",
+    "sha256": "f05064888ac57bbd7cdd8e1be039223f847a78abfac01b41493b0064e147b034",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_112.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_112.png",
+    "sha256": "37ef4758df92eee794e651585e5afce2b5cf0eb695c21b51711257c0054f704a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_26.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_26.png",
+    "sha256": "caec79f5a3b8fd06933baa6bb2bb76453ef4fcc675d0a5e76cb1ea88480828c3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_115.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_115.png",
+    "sha256": "b413ab110203f63ab51d50f2f679099bcdb1b67df5b51432ff7652e749ce5bf9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_182.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_182.png",
+    "sha256": "4bf2627f4a44d0c6ed58ff72d319677c23fa03e480e78f2398035dac0755ce40",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_51.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_51.png",
+    "sha256": "e0e7e45829109d66d3224bc9c403f6c8ba69d2369148d503692449ea4e7afed0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_199.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_199.png",
+    "sha256": "f9f645e73bc22962b1b8a7b465bcc71355484774162896cf25a0d5f8bfbb3176",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_108.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_108.png",
+    "sha256": "3a575ff22b3e54704d76bcd46c17e348009341bb109bc3f02d33776c19d05e6c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_140.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_140.png",
+    "sha256": "909dee09dea2a146a60fd86d97bfc2d22d6ae4baca353b584547202629aeaa65",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_100.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_100.png",
+    "sha256": "e9b2a484786d380d6c91fbee1372a11c69436b1e2445467825a17d16e296b368",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_14.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_14.png",
+    "sha256": "537c86a6a0394872d390883855acb4adbcbde2625fb6a808b1f941447bbbdc51",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_3.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_3.png",
+    "sha256": "8e0181f8c4a38cabe0ac4f541498d4b57d49918c9aede3221f0d062ad8f71714",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_9.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_9.png",
+    "sha256": "e70dd402b99cb792d04776234d1ae84ad44d9f0ffbd6ee7d30c24d7bd6d4e04b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_91.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_91.png",
+    "sha256": "5b7cca0c97eafd16c0b8a2b70059bac486292b6c2231f038f1ed4091d4a890d7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_135.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_135.png",
+    "sha256": "daca01180cae5a5d1dbd9274c834604224453f1fb032e192c6d46034221ebc64",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_63.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_63.png",
+    "sha256": "5186bdfc16c95aa9b0a55b8a4af31d2ab9a4e4c37d5f6d03d730b005e1b11256",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_71.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_71.png",
+    "sha256": "a2144b05165b713cbed0c69d899d6b19ccf64a59551e7c618c2671415b519b63",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_30.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_30.png",
+    "sha256": "b7d9a9d5222ce7dabfdceb50a5711c6ba66a7451ac1f6f61e3a0193b33b1d6c8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_146.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_146.png",
+    "sha256": "7e59861a26f0488c395ed2170728db8813c6ea75ba523ba087b642f688672d65",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_76.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_76.png",
+    "sha256": "d142420eaf6e055f422d5b0cc321128d0c513b276dd5add37488598838074e3c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_96.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_96.png",
+    "sha256": "834eb581af0a9f948412dd47f3c5a8ba66d92fad4dc8cfe5ac6e1f7b5a2e9938",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_136.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_136.png",
+    "sha256": "fd2e2ff6076d8807a9f646c819c76d8436843607bc2385aa9966864a3381a721",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_57.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_57.png",
+    "sha256": "f561da068e9585ef8d63775c610941b9a3d6a4968c07fb23b2d670c50c8a1339",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_59.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_59.png",
+    "sha256": "9dc895bb456f8cd1ab999f727b647fc6a11882e17df8a2b65fa0150c9537f1ed",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_163.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_163.png",
+    "sha256": "75ef0135f0fec3193f05a31bc09da51d3635af5f392ab772784a89b72b82f953",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_176.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_176.png",
+    "sha256": "26dbafb67041c8f33fb197cc20b44081eaeabf8718912f4c0ae5c6e002bd5d0b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_194.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_194.png",
+    "sha256": "c9fd0acbf9fe052ba419b9a55047fe4f96428cfdb3dba1f96e4c6e9e5da7f02b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_10.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_10.png",
+    "sha256": "e524b2f5a5a444a516c8e02c59554b9aaaea6f77d8169e51043e5ed46d391119",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_90.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_90.png",
+    "sha256": "4b7749b29688b863127705ee468995836d7139d9b92c5af09f3fd9f23ca69ea9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_16.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_16.png",
+    "sha256": "45848ae034768c63a7bc375dda07de951356003fb2a0f9e65c586b0a7ec8500d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_44.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_44.png",
+    "sha256": "94d8d1772d1e8d0cd3fff00afa6ee4cf008171586fd7cf9d1f3bea11223e906f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_79.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_79.png",
+    "sha256": "10a283cc4b4f31af1f81ace5629e3d811703b481e35cc348a03bf86823f655e6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_49.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_49.png",
+    "sha256": "f70d4a683fdb310a87f2128de9c6c455a1b446f6dbd17c8c1692fa7393b3590d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_130.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_130.png",
+    "sha256": "95c65df59efc055dd4a28712c2c63f23a8b4420673d326d48d48e6e5de66f55a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_205.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_205.png",
+    "sha256": "06ba5cacb1d5b6f00f528992aed10c5e2a020747f1c700f5843a14a57dda966b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_170.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_170.png",
+    "sha256": "7090ab83d260813aa8bbaccb3d377d20fc7ab3cde37d5129f1d4314a9987753a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_13.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_13.png",
+    "sha256": "96b5482d644577b799783f658d1cb656acb75f618e7c50c1e37c4fc0ec4fa369",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_105.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_105.png",
+    "sha256": "c58878bb2c05810efd15ad7793d0135ce08395d541c7245a834708b1551a8f44",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_166.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_166.png",
+    "sha256": "2f241171a2ee25b399d94b224e9f57cdaac0ee83c1bace63f282b70926d3513e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_65.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_65.png",
+    "sha256": "54deaea3c71bd22ebc9190cac3adaa2736f535b11a79e9bfc772649370e9be89",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_169.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_169.png",
+    "sha256": "3f36932882df4edead1fdb4e289d27bda9c643fdc86236219c0eb8c7ffd16487",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_56.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_56.png",
+    "sha256": "e227f04a811f73d63d294cfe7d916204bab3bb7f5da36540e33ed6b530881765",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_113.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_113.png",
+    "sha256": "cad5bab036203c29f03af9d92eaa22f8d77acd6b0a371b639805cff6b17fb5e2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_116.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_116.png",
+    "sha256": "9f2f830a2d642d92b5e13094c996d0b6eabf5022e36f6a8af691875d4778f424",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_209.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_209.png",
+    "sha256": "e303a5ec4dc0e5b1041881b4b906d98b9b7479881561bc1c36ceac4ae195e181",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_35.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_35.png",
+    "sha256": "0dad96c448622245558ad65f3a740a08a098f9ee7b6ad3f6904db1cd0a99f7b6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_109.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_109.png",
+    "sha256": "45b676a44e50e7982b6ecc0bffe29e4898e3d904b9ef65b917aa16939739cb05",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_0.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_0.png",
+    "sha256": "caa5f33332ea82ada07c6831f093cb8513d781f2248faee8c7a74259fc9e5761",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_177.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_177.png",
+    "sha256": "c8f7ab51c5935625986ec3fabdc397aeb928411980a68871218c49465fda7afe",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_119.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_119.png",
+    "sha256": "f50803a1c536d60811ee9380f96dc17230831b917345edf853cd3e3f780c9e58",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_61.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_61.png",
+    "sha256": "64cde1c158644ffdbe2366d2f1fbf2678867c040b203784ccd790208b5a30370",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_40.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_40.png",
+    "sha256": "ad6f60d6cdd60aeca979908497f9c50ee1f72526c62f2db998187e2506ad26a9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_110.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_110.png",
+    "sha256": "734b219fe3ac50436eeb689501211f3cb3d4f818b2717ab5e99ed33ac2d42834",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_32.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_32.png",
+    "sha256": "a2d235f1db92b5621f060726a80eda49c928d8a313df9d725db4d019f79081a4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_192.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_192.png",
+    "sha256": "81b3d0ca53e3b3ac436112f7efc32b26933ec13306a31b9eee5af0deaea66511",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_82.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_82.png",
+    "sha256": "83cdce555cda05888980ac8d33f23e718a3b185b5f3d4dddda92a3843c2a867d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_47.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_47.png",
+    "sha256": "23c808918e5278b3faef68bafea848d9cd2ef2783caba6b7b25b343be356402a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_145.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_145.png",
+    "sha256": "a76db1f3bfc0183ec6158bda0d0da025626a70030b8e19301eaa30de65c6cdb1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_167.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_167.png",
+    "sha256": "1612aa1cbe53f1460a8108b70f12896ef3cb9e1bbcd4963a1bd49e4b06b90f0e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_207.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_207.png",
+    "sha256": "18974925111c4ccd756f1d6814987eb731e4250301a2fffb63ee6dbc37887bda",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_188.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_188.png",
+    "sha256": "301c391fc4498c96aaea4e69bc37f184a6bdfe65376d5321c7d60fe776b26b65",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_193.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_193.png",
+    "sha256": "3a4ecae846ceef7fff8b0d9ef90c51fd51cbd51562a26a416705364a6529a1c3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_129.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_129.png",
+    "sha256": "00100463c99fd91d4baf90cfbe5b95be722559f10e6a671828224d84a6ac5857",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_165.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_165.png",
+    "sha256": "c8b46723f260e5c7b9122111f4d2494dada30e8f7c7054f97ac1250fb4302f31",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_158.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_158.png",
+    "sha256": "de7cdfdf90c3dac5ab3ece9277ef79248c26abd8d41b79b6c750abba3b9e8435",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_208.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_208.png",
+    "sha256": "c632c033576c9fd109c627ca6e186dfae4ec7a68e6fb959bb002dece1ca12426",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_195.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_195.png",
+    "sha256": "028b9598c7cab2e7653a2ddde4bd2c0f64e01f6c9837f308a10f83df3f4feee1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_106.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_106.png",
+    "sha256": "1caff629c4f63db32366a5ba444cb8e0a0a820c9ab5e2535276df6c0487a35f0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_161.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_161.png",
+    "sha256": "6a37b71408ead4aa39682e9d1c1000a2dacb95a109ebcb821cf55cef5a21d52c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_175.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_175.png",
+    "sha256": "cd40017f5cc1c35625732192e054c491775256620ec1e74ad188e28c3612ec41",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_118.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_118.png",
+    "sha256": "e01df43e83b161ea2ffb84b9647aede75c03458ab44699b6a39310c6f2b9d1c5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_12.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_12.png",
+    "sha256": "011075b07c65b8fd5f8532c4355bd7ec64b3185f283a17b04adcc37f86af221e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_2.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_2.png",
+    "sha256": "9dc0495954de4a6e9cda99a2aeec39fb3c42fe60d0f2c888a9b255cf8aecf53d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_21.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_21.png",
+    "sha256": "c61739524ef4251047d2bf2a660bdaa0af0efa490b5688b7aa2bc30f1c246cce",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_87.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_87.png",
+    "sha256": "c5ace6832e9394087bbcf4cb573fcb2607abab4d10d4cc5675a499ae90fb07f4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_89.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_89.png",
+    "sha256": "9fb35007926b3580a847410a49adb59661d5f4e8ba896b927063072c46f57375",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_168.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_168.png",
+    "sha256": "15a68426eedd2cab3cea8b20f071c5cf0b9b373318484e1ae4013bdb3663ca1c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_179.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_179.png",
+    "sha256": "bf39c3c49423802a6aed6c75832609a2f32af55afb481b25a41728b9d30c3be4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_178.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_178.png",
+    "sha256": "cb128ec4cb3c14fff650a1ba790dc4a9de4be822a692c94d4d878573152e2280",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_69.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_69.png",
+    "sha256": "23f4605e69df92461a476755d957450ddf8ae4091f475fd94c73598f0f894f36",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_58.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_58.png",
+    "sha256": "a644461f899ac41697065bdb905f871d8066dca32ba0aa8fd9b07b281dca0a4e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_8.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_8.png",
+    "sha256": "d086b5ff9ed13f4db345a916e078861c8c1c73e70b78e4de35e64d5049ec8f80",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_201.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_201.png",
+    "sha256": "3357722da61239166209e145c66c5dc1096a06d88bb0936226cf46b840ffae7a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_23.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_23.png",
+    "sha256": "7def1b4c57aca56a6be84e903f4d79f4a50a5cb1a8d61d1072c036cebaddb071",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_125.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_125.png",
+    "sha256": "0df2d9c8faa2aeef22106e71f834b6100f50fe5ce38001bf2e77ec894738506b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_64.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_64.png",
+    "sha256": "76ff9423e24e37075397fff7f0297c718b6784edd6868745f7d13da553694413",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_74.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_74.png",
+    "sha256": "82a3d2d4041ba32882db6cf3ef4b0fbbf4bdac33b1cac0da36a8ab09e4ae05ee",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_114.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_114.png",
+    "sha256": "4bc9863748ca1758fbf40f056dfe3fafc91098a3b92f246ad018fd4384bf7171",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_75.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_75.png",
+    "sha256": "af5053028e4ee33b35bf8e73f192a83f849c784ce6f38b47c68b23009f04bafc",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_85.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_85.png",
+    "sha256": "9ade78d423a8b2afb8d34602a1c47ae9c33ed0535339f4361a05a199ac1e5d61",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_94.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_94.png",
+    "sha256": "6105e07254ee49191731c3679ad3965c2b2d6ad1a8eb79911048e84930dc3ca6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_22.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_22.png",
+    "sha256": "765da92eeaf3184cab6a8bd88b7f81fbade701d2261b64b7e395d57516ea18e2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_212.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_212.png",
+    "sha256": "2248c85c21d1c7059bac9bd60cc0cf131525199225b67685fba5ddf6155f1533",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_55.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_55.png",
+    "sha256": "c3ccd96d42c7a6a6b07e9cdccf53542a982f5573d710407a2299589bc9057330",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_117.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_117.png",
+    "sha256": "c329ec3eb89c419ab11e9f67f956dcaa64d0a38522552b251bd4826d4f6f8a42",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_7.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_7.png",
+    "sha256": "a6a585464bfc4c74c6804fbf87f5ff08aa85982cf476247dce6ccb636f59e5b0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_41.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_41.png",
+    "sha256": "08269c3c33a261ab00c3357f97687dfb9f21769af928564af2cc77ed1a76dad4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_204.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_204.png",
+    "sha256": "16f1abad01ee2d9b04e1783a9ce3023055eb2fef8c37babebfe1a65d2d20ffb2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_80.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_80.png",
+    "sha256": "68f43e2a50b1024fc4724d72be40475f576afac52803caa4f4c387b85908c444",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_77.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_77.png",
+    "sha256": "4911729222795b1ba7faa0170e9670f73e61d83b5166216792cb6a7ddedac2c5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_183.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_183.png",
+    "sha256": "69bdd91e683504d741c6b29ce5053a03f0068049ce69d4d91f0949d51da75bcc",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_171.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_171.png",
+    "sha256": "c2933dcb026c4e05a13ed0c054208b09bda654efedab104296808f4e885e4460",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_42.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_42.png",
+    "sha256": "d3ec06cbaf955914032bde8ffc8204e1dcad60cab2c546644d5954a665f6e3ac",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_181.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_181.png",
+    "sha256": "f3feda012dd7ca968ad488d089f1c946613f906c7c842acee736675220ec4a8e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_148.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_148.png",
+    "sha256": "cc15b9b62cffff8fbe3f4606f654a646c81d4279fb08ac4af2e95d0d99f32b3a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_11.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_11.png",
+    "sha256": "85d452b4cb108d9d74e472e16ce9afdb2727c88d1988c0b20810a0d284856d8f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_52.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_52.png",
+    "sha256": "0530e90571d2ced96374b0187ccfe5a598c9066bf8bb57e305b209308b05be57",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_101.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_101.png",
+    "sha256": "9fe940413e8736fcf5887e8e6a8486fc786ff8507bc9250da3d7043e6ec3e07e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_151.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_151.png",
+    "sha256": "b589d390677c527e800dbc8c3350282774428bb71bc0470c6226c6fa305cda32",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_36.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_36.png",
+    "sha256": "66727dbdfd2dfb28eaf8150aa28fd4aaedb1cfdf0c866ee0a9c521acb6a4cacd",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "assets/exo_identity/base_93.png",
+    "source": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01/assets/exo_identity/base_93.png",
+    "sha256": "c91caa4e675360260d94eaf3b45ec3f4acc18b4742b667d2122002d7f0444107",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_worn.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_worn.png",
+    "sha256": "04fd6bf770bc7cbcec784ffc06a6d1e588a3e68a4277e82ad7acc33f00d55851",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_c.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_c.png",
+    "sha256": "7880841b4db55b6dfa913a1222433e8d6af20f0daf0712596c6de5a91ee47559",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_b.png",
+    "sha256": "cace782b71647216777c8c5200b8971d0553d34f474cc713a83ad31b24a163da",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_border.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_border.png",
+    "sha256": "882bf0842d613fdb348b54b7c439904ea1278360a217deb5c018a333de49db6e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_rustic.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_rustic.png",
+    "sha256": "ece5d85ef4229b77bdde5d4dc6abb9c07551353ca0412a259a6633ca476c36fe",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_plaza_moss.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_moss.png",
+    "sha256": "b253fce43f9024a737d3915373abaa63974754604cbb6d289016db9e8aa1f75b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_path_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_path_a.png",
+    "sha256": "3e2f804bc88fd60890333fc872a303032d5231292f1d86c8ca519d0d12fa1d60",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_plaza_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_b.png",
+    "sha256": "927c42d95351a659bbd78c2f1727906837429c087dbfb84aa402ed366a2025d3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_plaza_c.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_c.png",
+    "sha256": "0c7da9ed7787fa3d3b99535d8c28bba259aa69cdf712f2a4f0e280cabb613846",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_to_grass.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_to_grass.png",
+    "sha256": "58e8b53bb1689eca8cf1a39047c63761a845a1a220064a17ab574c2f56776594",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_to_dirt.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_to_dirt.png",
+    "sha256": "762cabb2f6937c0d661ec70a4cc44380a31ca6ba24cbabbf3b490c5e1b67368e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/stone/stone_plaza_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/stone/stone_plaza_a.png",
+    "sha256": "d1e7198d8f27ee30eda334e26781e12916eed016838fe5f8b068d61881082c89",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_mossy.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_mossy.png",
+    "sha256": "ce789196a2dd22fe155529aa8f0441b2371bf103bb8378318e3e1991a3e489fc",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_edge.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_edge.png",
+    "sha256": "32e6c82fb44778d9317d8c95cd24ddc5228d4941ed139b3ed1a520d96c80026b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_dense.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_dense.png",
+    "sha256": "e69105809ae5f5642801ee59aac67cccb3709c29f486c6ce44af3ddceba803a7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_vivid_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_vivid_b.png",
+    "sha256": "9ff2cbcb28cce4539fe5d5218c7c4a83c42096b96accdd0b8cf40d635019510c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_wet.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_wet.png",
+    "sha256": "fe93809b4bbf4707e41c37591a8db3050a71edbfccab35f44b1f81cf1c4d2751",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_understory.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_understory.png",
+    "sha256": "71b8e44117ed3a32fb21d21c7cd442928c20cd73a3e3a0b42f0627fdcfa4807e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_meadow.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_meadow.png",
+    "sha256": "f379fe55aedab04ce4aac4e1f96ed09f50663f9c5ba17b7055334505b9700ff9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_base_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_base_a.png",
+    "sha256": "1d32f07c9895bd844229bf0f8e448ccdb74889a4a89e4236f7a7e7d559b5ea5f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_base_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_base_b.png",
+    "sha256": "1804de676c4352ec769342a6d7bf8ae265b5a57469495f0ba5985265243a44e2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_sunlit.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_sunlit.png",
+    "sha256": "8d81d22c2a1e49d38cac71d874da852079eeb3242a5960cc968111893c98c6c5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_vivid_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_vivid_a.png",
+    "sha256": "1e3d78130ee17a283d43e0406404f2631eb72f9ae65992c0179968f2fb63704c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/grass/grass_microvariation.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/grass/grass_microvariation.png",
+    "sha256": "b57f1eb3f1058745c21a410a13c7fc6f6423c0dc00d3037d1ae38e4895283c1e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_wet.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_wet.png",
+    "sha256": "95cd3102b092843bebd671812bb3c99aac33cf4a092f3f09c6fe55322cf0e0ba",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_warm_path.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_warm_path.png",
+    "sha256": "8c18b61b14f9be8d596575a5c2c318a79799f94b0d522c4dcf949cebaaa7d55d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_pebbles.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_pebbles.png",
+    "sha256": "108cf075f5392d1f749fed1fc27e0f769e694a75bedcde44a6f82d36477dc49b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_fine_gravel.png",
+    "sha256": "7db63b8b72eb4bf2be996e803f273c094f46bf63f77f94c633c7372ee23b2580",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_riverbank.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_riverbank.png",
+    "sha256": "d4bc98e2bcdc4baf3f7e3d8ac98475e95b7aeed6cbd87c7c8c499e731741a69c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_forest_litter.png",
+    "sha256": "3dfbe60fa9b5a65ed80cb096ce0c1f670a384160b527eb242339883eedf9da55",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_orange_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_orange_a.png",
+    "sha256": "b430dc9ad74ac74a57ed93f3eb064241f8ca8c0233576a6e7d11d08a0190bbcf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_patches.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_patches.png",
+    "sha256": "136ba39b35e1dd91c65645de89d9e313280c81b5b623edc1a9934a8a1e6d5e24",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_compacted.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_compacted.png",
+    "sha256": "c073a9d81be9d5f3d69d54dfcb0fc901c74b44d6b128623f78530f244b9b635c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_mud_light.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_mud_light.png",
+    "sha256": "4459e473eece425daf2c51717239f2cda293f0861761c5da00258c0d6b42e12a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_orange_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_orange_b.png",
+    "sha256": "70283bb7f1a26075d80070abde556b4c1e16dc8d9955e34b6bd5652525b06b32",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/dirt/dirt_clean.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/dirt/dirt_clean.png",
+    "sha256": "a5dd3f124c4f351492f62aa0ab85a41ac6aef101cf5abdea3752c0fcc5ba2642",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_gravel.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_gravel.png",
+    "sha256": "060df97f14359e4e7adc5ec768c90670f8a5794b46bf7cc0aa9bc26cfa817844",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_pebbles.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_pebbles.png",
+    "sha256": "584a1d23dcdbd48f033a8f145debd79d3e8babbe156be2b004479b2e9c503ba6",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_wet_patches.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_wet_patches.png",
+    "sha256": "28f95a4d0ef2571fbd8c262c945e9c519bb730f4d50943704a876613bc51e0fa",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_wildflowers.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_wildflowers.png",
+    "sha256": "71a420b66f3ff19376091ac582e9ed1f2f0948fb8d037381c358a98380d82689",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_small_flowers.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_small_flowers.png",
+    "sha256": "59272c99e0c298bbd48c7bf6e37eca166208353d0996b5b6a2bd3ebed53c6169",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_lichen.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_lichen.png",
+    "sha256": "d9256fe935d47ac8abde3306439a793f9012306fb06a02404e73e43ad03304f4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_small_herbs.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_small_herbs.png",
+    "sha256": "d482a8ae6f58833976c6098ff4e14952adbdc29501348878e9386aa92e15c32b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_moss.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_moss.png",
+    "sha256": "9bfd96861c7d17a47ad349a9fd5a7c7f49d43ca024c3606b33b9363174c4c03e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_fine_cracks.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_fine_cracks.png",
+    "sha256": "79807b6c89be356fa128549ad51b06aca2bf70cfa6e96904fa68ff4abf0df883",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/details/detail_leaf_litter.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/details/detail_leaf_litter.png",
+    "sha256": "15751ecf8a7641d80910da0133369607450c42ca521e153bcfe5b71540ba44ce",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png",
+    "sha256": "076a41ecb58900b64b345fa414c0a031e54b0eb9ea7091183d61d058a5166614",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png",
+    "sha256": "12ef30e5b7c85b12e1ca3001a73b2cd4335530845cff044e699e8a5ee97024f5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/grass_atlas.png",
+    "sha256": "8a4cc5ef8854865459171787724ee946119af1bf288638c9d0c9917c231c9fc1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/stone_atlas.png",
+    "sha256": "d420676843814564c3b43a71d7c4a0c80a0d5aa0cff389843f665b77fedfc4f0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/runtime_atlases/details_atlas.png",
+    "sha256": "dc43cdbad329cd6693da5b8f1dcbdccb5d745d7836f8a00f1391348e9726d6d1",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/small_bush_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/small_bush_01.png",
+    "sha256": "81213f4a003421515399157b4f530ad8d0ffbca8d3cc9565523c5c63375e3391",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/low_flowers_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_flowers_01.png",
+    "sha256": "6c63bdd36d8f533aadb98b209f1845a7b9c6699d318487cec051343d11d5dec4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_04.png",
+    "sha256": "1ab0990b56caee4a84a184aae8aa57e67e2ddce77d499701522b99f71b96c6b3",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/low_foliage_02.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_foliage_02.png",
+    "sha256": "b3847efc70c0615b761544cb84b42acd2170ff61cebf67e594f4c12a9260f54d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_05.png",
+    "sha256": "8005cbe526f0062d0d2d32891d6d709540756f9d40fc04f0bffdf73e69a25e1b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_02.png",
+    "sha256": "aa8338609e519766a93b9849f12277689a5352d40f9fcdb1115054d5e13841b0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_03.png",
+    "sha256": "16a302aa541ca7104a8a27aa4bc8b4074bc1593928ee95c4e70e327dd0d32d9d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/grass_tuft_01.png",
+    "sha256": "6cc21edbbd7323b01ad293f134144ae32aba0728755e620508bb253973520d9b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/low_foliage_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/low_foliage_01.png",
+    "sha256": "1f1c5e71fa098870f8acbe6f6623112193bd44d373d1ad92e0b6442fd76c4d64",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/vegetation/small_bush_02.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/vegetation/small_bush_02.png",
+    "sha256": "114a03bacda6c385c2207e1655c38a16d1a47ee377b379ec26faf7a33c9d64a0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_worn.png",
+    "sha256": "dabce59973c2f2efc1a280eeb408369e497c1ae24218e96169fed86a56897a14",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_c.png",
+    "sha256": "bb5856e9eadab259436c42fe28b41f942ad7d195c6b774caa0a3481316c7b695",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_b.png",
+    "sha256": "b22f5c5e26ad4d4e031a9ffe58956e6a404cd085bc9cac1bb7c79c12fac21a92",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_border.png",
+    "sha256": "114cdc5728d1169e0205c3ddf887f596c7f98327476482f1aa7c5a58a0ce0aaf",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_rustic.png",
+    "sha256": "678cc8e4f3afeb20ca9cac5bf9552429aec2255cc449279ca4e32ce8fa7cbff8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_moss.png",
+    "sha256": "c5c4e6dfa43d2774b8dbbc99a5bdc10d4ca48031b2110219d7f0d2f71ffb531f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_path_a.png",
+    "sha256": "124ab7f986d8a8010d3648e621984cc2491efdb90f7a7a485e079bc92a58b2ab",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_b.png",
+    "sha256": "d4012333ff9e0cb54a8628f21878fac93821238cc7ec0b14285f843770626a94",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_c.png",
+    "sha256": "95348b143105a78b76931be8378ef66b022e283516f2b2d2c05278116342b443",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_to_grass.png",
+    "sha256": "305c6ad579e5fa51e23a0ec992d0393acb8db54b5171b47c7d4056a70f90bb7c",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_to_dirt.png",
+    "sha256": "1fc5bd9fa6d164051069a5377ff00a81941e4ccb72f025c40e23f2950c751e4d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/stone/stone_plaza_a.png",
+    "sha256": "1e6d884a899cbfe522e47e75d9cf318a7d8a1bf1af92a9afcccb4fefa8e2bc04",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_mossy.png",
+    "sha256": "c431a824aaa3837981f80aee67bb219e261928ae75b32720e661d48d132d42f5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_edge.png",
+    "sha256": "b80f400b6a2cf689bec5620347b31ae243ba607e4544d086778a37d2580a66be",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_dense.png",
+    "sha256": "f8a93dda1f5e6fbcf319d351d539d52a069139c8cfe3eddb099e3cd4f81ede4b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_b.png",
+    "sha256": "0feef52f0ffc551de80b598e3e8fb69bea210abb2234a7b54948a873e714d7e9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_wet.png",
+    "sha256": "8a7b979939e8cabcc82aaadfb7080b1b5405b63e300f7a643c7c120dd4716da7",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_understory.png",
+    "sha256": "60f6e2b9c03665b355b2cb5980b8dd07ad82380ba7e414922e7f3e9f88928139",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_meadow.png",
+    "sha256": "f4ceb15aaa0c0d3c02735b88c669987dd040ea0cecc38a090d87249048469df4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_base_a.png",
+    "sha256": "ed5533cc3fae6e1e0f33368b8cd6c62923e67223bbc46fb82d8cae73878678fb",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_base_b.png",
+    "sha256": "75445d7115b9cd8c24117025e1ff39ec917688f99f7e011487fe25f11c34492e",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_sunlit.png",
+    "sha256": "05eb8ccf4c283df7c0ef06a5c36dc641bbc39d6c9c03fe58944c021c0bdc224d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_vivid_a.png",
+    "sha256": "202e879acdcfebcc0ace701add16e6b5ee38870b946af93f27687daabf3f2457",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/grass/grass_microvariation.png",
+    "sha256": "e5f6eeaf34cfe20093b970b31f06fe31cfffe1082302355ef519030b823620ee",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_wet.png",
+    "sha256": "1148738c1ee44070dcd6f987021a6dd7b9533666bacbea6dfe2f5ad113ea5f31",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_warm_path.png",
+    "sha256": "5bb170bc219637d706551b74f29e229bac3b293fac26c99be6ae34d00ddf882f",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_pebbles.png",
+    "sha256": "f1158521769c2dfd58664ba703df87ce217f8689dfcc417e23aaef34bd8b829a",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_fine_gravel.png",
+    "sha256": "66f24ea40a6fd683a27df62be38ad7817fdeba87e3f3eb9e3770485f01126147",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_riverbank.png",
+    "sha256": "0ee75132c5067b9fb8a2676e4ea708f8064cab7c100a4b0607e4284885e2e290",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_forest_litter.png",
+    "sha256": "0d7c96ab3b5f5b70947cecd572e4685fa9614e764d14e05891024cdd14861bfa",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_a.png",
+    "sha256": "03981b186fe3014aa5545fe5c3702cf788c229f6e90671457eeec486d01fade2",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_patches.png",
+    "sha256": "d40a76bd05e20774b7b8a4fd2e1a7e017ed16f2ebea9d6c9f05716534527b6a5",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_compacted.png",
+    "sha256": "b4a0915edcb55a0fe756694dc1073cfde813ce6ac3a4d0b74485a303ece1af63",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_mud_light.png",
+    "sha256": "4a890ad8d2d5d3dc460f65fd1c1e9bc6b47ee1688841b5f30e2b4a22471f58ba",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_orange_b.png",
+    "sha256": "663e76b3e3c801d1b1208400caaddc20b702cebfb246a04366cb81374c5b00f9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/dirt/dirt_clean.png",
+    "sha256": "cc4b4b33bf5e8835b3effe35ba4343f814802654e97cac6b6fb8192bc017629d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_gravel.png",
+    "sha256": "0fa1b9045edb0a148f3025e7c276e240f42ee6f0fc702c4f4c8de47432e3888d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_pebbles.png",
+    "sha256": "d7b1f9d2633c1aa8cafecf129c34b85b6f0eb257b48af1a7e20eb28847e9d821",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_wet_patches.png",
+    "sha256": "7424a9aeedb0c18a675afd3ed6a0d6c7a6f1ea6e2bbb10c39d8fcfaac8789289",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_wildflowers.png",
+    "sha256": "27d8454c3b7c11272a6fb152c1840a71f7328e805d50bc9b9b6bc0546e444798",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_small_flowers.png",
+    "sha256": "af251756f9fa06440c60ffe7f9ae961c76deee0e915460705640e4900c9d879d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_lichen.png",
+    "sha256": "e8a778a5fcd812f02d783e0727ecbb189794322874ef8200314cb4c86940473b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_small_herbs.png",
+    "sha256": "795984c3a3bd64c11f654b0ba5fb407de8856f80b442a3c73d5e03dd2fcaf0ad",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_moss.png",
+    "sha256": "965e6625003e8a5df8d96ab5ccee20d3361fb99a73f3a03e23369c57cfb9fc99",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_fine_cracks.png",
+    "sha256": "a4992e159809042edf4c9ae415db6b54ec2062a365ba5531a86c414aa47c27a8",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/details/detail_leaf_litter.png",
+    "sha256": "620a1a743db37177d3bedb464254a0d3a2d8f0d57d77b1b7c9d1ddc2961a56e9",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/small_bush_01.png",
+    "sha256": "81213f4a003421515399157b4f530ad8d0ffbca8d3cc9565523c5c63375e3391",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/low_flowers_01.png",
+    "sha256": "6c63bdd36d8f533aadb98b209f1845a7b9c6699d318487cec051343d11d5dec4",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_02.png",
+    "sha256": "aa8338609e519766a93b9849f12277689a5352d40f9fcdb1115054d5e13841b0",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_03.png",
+    "sha256": "16a302aa541ca7104a8a27aa4bc8b4074bc1593928ee95c4e70e327dd0d32d9d",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/grass_tuft_01.png",
+    "sha256": "6cc21edbbd7323b01ad293f134144ae32aba0728755e620508bb253973520d9b",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  },
+  {
+    "path": "exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
+    "source": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS/exo_terrain_forge/textures/optimized_256/vegetation/low_foliage_01.png",
+    "sha256": "1f1c5e71fa098870f8acbe6f6623112193bd44d373d1ad92e0b6442fd76c4d64",
+    "decision": "OWNER_ATTESTED_SOURCE_DOCUMENTS_PENDING",
+    "evidence": "User confirms authorship and access to sources/history on 2026-10-21; supporting proof to be supplied later"
+  }
+]

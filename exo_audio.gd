@@ -2,6 +2,8 @@ extends Node
 const SkillRegistry=preload("res://audio/skill_registry.gd")
 # Curated EXO files. A bounded polyphonic pool replaces the prototype's single voice.
 var BANK: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://audio/events.json"))
+var event_gain: Dictionary={}
+var forge_events: Dictionary={}
 var voices: Array[AudioStreamPlayer]=[]
 var cache: Dictionary={}
 var recent: Dictionary={}
@@ -25,6 +27,21 @@ func _ready() -> void:
 		for name_value in BANK[key]:
 			var asset: String="res://assets/"+name_value+".wav"
 			if ResourceLoader.exists(asset):cache[name_value]=load(asset)
+	# One audio owner and one mixer pool. Verified Sound Forge files replace
+	# only mapped events; no second player service or speculative impact cues.
+	forge_events=JSON.parse_string(FileAccess.get_file_as_string("res://sound_forge01/config/events.json")).events
+	var aliases: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://sound_forge01/config/host_aliases.json"))
+	for id in forge_events:
+		var cue: Dictionary=forge_events[id]
+		var asset: String=str(cue.path)
+		cache[asset]=load(asset)
+		BANK[id]=[asset]
+		event_gain[id]=float(cue.get("volume_db",-2.0))
+	for alias in aliases:
+		var id: String=str(aliases[alias])
+		if BANK.has(id):
+			BANK[alias]=BANK[id].duplicate()
+			event_gain[alias]=event_gain[id]
 	var bus:=AudioServer.get_bus_index("EXO")
 	if bus<0:
 		AudioServer.add_bus()
@@ -62,7 +79,8 @@ func play_event(event: String,group: String="combat",strength: float=1.0) -> voi
 	voice.pitch_scale=1.0
 	voice.set_meta("group",group)
 	voice.set_meta("strength",strength)
-	voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.get(group,.8)*strength))
+	voice.set_meta("cue_gain",float(event_gain.get(event,0.0)))
+	voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.get(group,.8)*strength))+float(event_gain.get(event,0.0))
 	voice.play()
 	played+=1
 	history.append(event)
@@ -76,7 +94,7 @@ func select_volume(group: String,value: float) -> void:
 	for voice in voices:
 		if voice.playing:
 			if groups.master==0 or (group==voice.get_meta("group","") and value==0):voice.stop();continue
-			voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.get(voice.get_meta("group","combat"),.8)*float(voice.get_meta("strength",1))))
+			voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.get(voice.get_meta("group","combat"),.8)*float(voice.get_meta("strength",1))))+float(voice.get_meta("cue_gain",0.0))
 
 func skill(data: Dictionary,prepare: bool=false) -> void:
 	if SkillRegistry.play(self,str(data.get("id","")),"prepare" if prepare else "cast"):return
@@ -131,7 +149,7 @@ func impact_event(material: String,context: Dictionary={}) -> String:
 	if context.get("fatal",false):return "fatal_hit"
 	if context.get("critical",false):return "critical_hit"
 	if context.get("magic",false):
-		return "gelo" if int(context.get("element",11))==6 else "fogo" if int(context.get("element",11))==5 else "qi_hit"
+		return "ice_hit" if int(context.get("element",11))==6 else "fire_hit" if int(context.get("element",11))==5 else "qi_hit"
 	if context.get("family","") in ["blade","draw","heavy","thrust","dual","reverse","reap","pole"]:return "blade_hit"
 	if context.get("heavy",false):return "strong_hit"
 	return "fist_hit" if context.get("family","")=="fists" else "body_hit"

@@ -3,7 +3,7 @@ extends Node3D
 # Does not claim capture or completed native validation.
 const Generator = preload("res://exo_items/generation/item_generator.gd")
 const WorldSeed = preload("res://procedural/world_state.gd")
-const RACK_PATH = "res://models/forja_v3/weapons_training_rack.tscn"
+const RACK_PATH = "res://models/forja_v3/weapons_training_rack.glb"
 func _ready() -> void:
  var camera := Camera3D.new()
  add_child(camera)

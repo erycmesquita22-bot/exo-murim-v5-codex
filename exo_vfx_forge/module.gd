@@ -14,7 +14,7 @@ func initialize(context: RefCounted) -> bool:
     service = ServiceNode.new()
     service.name = "EXO_VFX_Forge_03_VisualService"
     core.world.add_child(service)
-    if not core.services.register_service("exo_vfx_forge","exo_vfx_forge",self,["capabilities","receive_authorized_cue","cancel_cast"],"1.0.0"):
+    if not core.services.register_service("exo_vfx_forge","exo_vfx_forge",self,["capabilities","bind_trusted_bridge","receive_authorized_cue","cancel_cast"],"1.0.0"):
         core.world.remove_child(service)
         service.queue_free()
         service = null

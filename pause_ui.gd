@@ -2,6 +2,7 @@ extends "res://ui/runtime_ui.gd"
 
 const Catalog=preload("res://catalog.gd")
 const ExoMenu=preload("res://exo_menu.gd")
+var appearance_tab: int=0
 var creation_tab:=0
 var creation_randomized:=false
 var procedural_seed:=""

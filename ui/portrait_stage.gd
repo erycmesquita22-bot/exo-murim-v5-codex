@@ -5,6 +5,8 @@ var rig: Node3D
 var viewport: SubViewport
 var camera: Camera3D
 var dragging:=false
+var preview_pose: String="idle"
+var pose_time: float=0.0
 var last_level:=-1
 var last_window:=Vector2i.ZERO
 func _init(owner_world: Node3D,profile: Dictionary,dimensions: Vector2) -> void:
@@ -42,6 +44,8 @@ func _init(owner_world: Node3D,profile: Dictionary,dimensions: Vector2) -> void:
 	resized.connect(update_resolution)
 func _ready() -> void:update_resolution()
 func _process(_delta: float) -> void:
+	pose_time+=_delta
+	preload("res://exo_skin3d/skin_preview.gd").demonstrate_pose(rig,preview_pose,pose_time)
 	if last_level!=world.graphics.level or last_window!=get_window().size:update_resolution()
 func update_resolution() -> void:
 	if not is_inside_tree():return

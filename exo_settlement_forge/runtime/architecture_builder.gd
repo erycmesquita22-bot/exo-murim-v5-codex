@@ -66,6 +66,13 @@ static func build(parent: Node3D, record: Dictionary) -> Node3D:
         _box(root,"MartialSign",Vector3(0,h+0.84,d*0.20),Vector3(w*0.35,0.25,0.35),"#b9914c",false)
     if f == "inn":
         _box(root,"InnSign",Vector3(w*0.35,2.2,d*0.51),Vector3(0.65,1.35,0.20),"#b75d39",false)
+    # Authored Forja geometry regenerated from its supplied construction source.
+    # Wall-mounted accents stay above walking clearance; shell/door collision
+    # and the canonical building record remain Settlement Forge's authority.
+    for side in [-1.0,1.0]:
+        preload("res://godot/modular_kit.gd").place(root,"hanging_wall_torch",
+            Vector3(side * w * 0.34,2.2,d * 0.5),0,"",false)
+    root.set_meta("forja_visual_assets",["hanging_wall_torch"])
     var portal := Marker3D.new()
     portal.name = "ExteriorDoor"
     portal.position = Vector3(0,0,d*0.5+0.6)

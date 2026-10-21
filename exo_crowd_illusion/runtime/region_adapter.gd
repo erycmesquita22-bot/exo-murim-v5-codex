@@ -29,8 +29,8 @@ static func from_r13_region(region: Node3D) -> Dictionary:
 	if not authored is Array or authored.is_empty():
 		return _blocked("village_requires_authored_safe_zones" if scale == "village" else "city_requires_authored_safe_zones")
 	var physical: Variant = region.get_meta("city_forge_physical", {})
-	if not physical is Dictionary or physical.get("owner") != "city_forge_r4" or int(physical.get("buildings",0)) < 1 or region.get_child_count() < 1:
-		return _blocked("city_forge_physical_geometry_required")
+	if not physical is Dictionary or physical.get("owner") != "settlement_forge_01" or int(physical.get("buildings",0)) < 1 or region.get_child_count() < 1:
+		return _blocked("settlement_forge_physical_geometry_required")
 	var plan: Variant = data.get("settlement_plan")
 	if not plan is Dictionary or str(plan.get("status", "")) != "ready":
 		return _blocked("settlement_plan_not_ready")

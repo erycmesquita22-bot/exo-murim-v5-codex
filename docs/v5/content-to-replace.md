@@ -1,12 +1,8 @@
-# Conteúdo a produzir/revisar
+# Conteúdo e validações restantes
 
-Os recursos novos permitem executar a base, mas são substituições procedurais simplificadas.
-
-- Modelos, mobiliário, vegetação e cenários: revisar qualidade, escala visual, identidade Murim e correspondência visual com colisões em todos os recursos.
-- Texturas/skins/UI: trocar padrões básicos por arte própria final, conservando UVs/atlas e registrando geração, autoria e hashes.
-- Áudio: os sinais sintetizados não reproduzem voz, música, foley ou performances removidas. Produzir vozes, trilha e efeitos próprios finais.
-- Revisar autoria dos layouts, materiais, shaders e fontes editáveis declarados como próprios nos pacotes fornecidos; o manifesto não inventa comprovação independente.
-- Validar pisos superiores e todas as variantes das 52 plantas antes de ampliar o handoff térreo atual.
-- QA de dispositivo Android e build Windows/Steam, controle por toque, áudio em hardware e desempenho de hardware real ainda não executados.
-
-Não reintroduzir nenhum arquivo removido por simples correspondência de nome ou licença comercial.
+- Anexar os fontes/histórico de geração prometidos para FighterArt/EXO e Terrain Forge. Estão ativos por autorização expressa do proprietário, não por comprovação independente.
+- Revisão auditiva/artística dos 91 sons: integração técnica não certifica qualidade, loop perfeito ou direitos do serviço gerador. Passos multietapas não foram ligados a cada passo individual; trilha não foi inventada.
+- Geometria Forja: 42 modelos reconstruídos e disponíveis no catálogo; apenas detalhes compatíveis foram montados nos edifícios atuais. Os 121 modelos V3 herdados sem gerador e 86 modelos V4 sem build_v4.py acessível não foram restaurados automaticamente. O runtime arquitetônico V4 não deve disputar a construção do Settlement.
+- 480 skins legadas continuam em quarentena; não confundir com as 216 paletas EXO autorizadas.
+- Demais modelos/arte substitutos, voz e trilha ainda precisam de acabamento; não há paridade visual integral garantida com todas as versões antigas.
+- Andares superiores, todas as variantes de navegação, sessões prolongadas de Hive e desempenho/exports em Windows/Android ainda exigem QA específico.

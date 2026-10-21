@@ -1,170 +1,201 @@
 extends Node3D
-## Six batched skin-aware voxel parts; no scene-tree node or AnimationPlayer per person.
-const Parts = preload("res://exo_crowd_illusion/visuals/voxel_parts.gd")
-const PART_NAMES = ["head", "body", "arm_r", "arm_l", "leg_r", "leg_l"]
+## Hive R1: identical real-NPC geometry, material, cosmetics and animation.
+## One logical planner (Director); one visual-only Rig per currently visible ghost.
+## No CharacterBody3D, collision, per-agent planner, quest, interaction or save.
+const Proxy = preload("res://exo_crowd_illusion/visuals/real_npc_visual.gd")
+const Planner = preload("res://exo_crowd_illusion/runtime/planner.gd")
+const NPC04Brain = preload("res://npc_system04/core/brain.gd")
+var hive_activity: String = "idle"
 var agents: Array = []
-var instances: Dictionary = {}
+var profiles: Array = []
+var visuals: Dictionary = {}  # agent index -> noninteractive NPC visual
+var out_of_view: Dictionary = {}
+var generations: Dictionary = {}
+var elapsed: float = 0.0
+var accumulator: float = 0.0
+var clip_interval: float = 0.16
 var focus: Node3D
-var elapsed := 0.0
-var accumulator := 0.0
-var tick_interval := 0.09
-var danger_point := Vector3.ZERO
-var danger_left := 0.0
-var danger_duration := 5.0
-var bounds_center := Vector3.ZERO
-var bounds_radius := 0.0
-var max_visible := 60
-var panic_offset_limit := 2.2
-var clip_distance := 75.0
-var rendered_count := 0
-var update_calls := 0
+var mobile: bool = false
+var max_visible: int = 32
+var clip_distance: float = 75.0
+var seed_text: String = ""
+var danger_point: Vector3 = Vector3.ZERO
+var danger_left: float = 0.0
+var rendered_count: int = 0
+var update_calls: int = 0
+var recycled_count: int = 0
+var culled_count: int = 0
+var born_count: int = 0
 
-func configure(plan_data: Dictionary, camera_target: Node3D = null, mobile: bool = false, crowd_panic_limit: float = 2.2, atlas: Texture2D = null) -> void:
-	panic_offset_limit = clampf(crowd_panic_limit, 0.0, 2.2)
-	agents = plan_data.get("agents", []).duplicate(true)
-	bounds_center = Vector3.ZERO
-	bounds_radius = 0.0
-	for child in get_children():
-		remove_child(child);child.queue_free()
-	instances.clear()
-	elapsed = 0.0
-	accumulator = 0.0
-	rendered_count = 0
-	if agents.size() > 0:
-		for item in agents:
-			bounds_center += item["position"]
-		bounds_center /= float(agents.size())
-		for item in agents:
-			bounds_radius = maxf(bounds_radius, bounds_center.distance_to(item["position"]))
-	focus = camera_target
-	tick_interval = 0.15 if mobile else 0.09
-	clip_distance = 46.0 if mobile else 75.0
-	max_visible = 32 if mobile else 60
-	var shader := load("res://exo_crowd_illusion/visuals/skin_atlas.gdshader") as Shader
-	if atlas == null or atlas.get_width() != 2048 or atlas.get_height() != 2048:
-		agents.clear()
-		set_process(false)
-		return
-	set_process(true)
-	var material := ShaderMaterial.new()
-	material.shader = shader
-	material.set_shader_parameter("skin_atlas", atlas)
-	for part in PART_NAMES:
-		var mm := MultiMesh.new()
-		mm.transform_format = MultiMesh.TRANSFORM_3D
-		mm.use_custom_data = true
-		mm.mesh = Parts.mesh_for(part)
-		mm.instance_count = agents.size()
-		mm.visible_instance_count = agents.size()
-		var node := MultiMeshInstance3D.new()
-		node.name = "Crowd_" + part
-		node.multimesh = mm
-		node.material_override = material
-		node.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-		add_child(node)
-		instances[part] = mm
-		for idx in range(agents.size()):
-			var slot := int(agents[idx].get("skin_slot", 0)) % 64
-			mm.set_instance_custom_data(idx, Color(float(slot % 8) / 8.0, float(slot / 8) / 8.0, 0, 1))
-	_update_visuals()
+func configure(plan_data: Dictionary, camera_target: Node3D = null, target_mobile: bool = false, _crowd_panic_limit: float = 0.0, approved_profiles: Array = [], world_seed: String = "", daytime_hour: int = 12) -> void:
+    _clear_visuals()
+    agents = plan_data.get("agents", []).duplicate(true)
+    profiles = approved_profiles.duplicate(true)
+    seed_text = world_seed
+    hive_activity = "idle"
+    # ONE group-level NPC04 agenda proposal. Figurantes never run their own AI.
+    if not profiles.is_empty() and not agents.is_empty():
+        var representative: Dictionary = profiles[0].duplicate(true)
+        representative["role"] = str(agents[0].get("role", "resident"))
+        var proposed: Dictionary = NPC04Brain.choose(representative, float(daytime_hour) * 90.0)
+        if not proposed.is_empty():
+            var activity: String = str(proposed.get("activity", "idle"))
+            if activity in ["treino", "treino_individual", "meditacao", "trabalho", "preparar_banca", "atendimento", "alerta", "observar_risco", "investigar", "organizar_mercadorias"]:
+                hive_activity = activity
+    focus = camera_target
+    mobile = target_mobile
+    elapsed = 0.0
+    accumulator = 0.0
+    out_of_view.clear()
+    generations.clear()
+    recycled_count = 0
+    culled_count = 0
+    born_count = 0
+    # Actual R10/NPC wardrobe rigs are heavier than the previous six-piece MultiMesh.
+    # A performance budget may cap VISIBLE instances, NEVER degrade their appearance.
+    max_visible = 18 if mobile else 36
+    clip_distance = 46.0 if mobile else 75.0
+    clip_interval = 0.22 if mobile else 0.16
+    set_process(not agents.is_empty() and not profiles.is_empty())
 
 func set_max_visible(amount: int) -> void:
-	max_visible = clampi(amount, 0, 60)
-	_update_visuals()
+    max_visible = clampi(amount, 0, 60)
 
 func react(position: Vector3, seconds: float = 4.0) -> void:
-	danger_point = position
-	danger_duration = clampf(seconds, 0.0, 10.0)
-	danger_left = danger_duration
+    danger_point = position
+    danger_left = clampf(seconds, 0.0, 10.0)
+
+func _actor_progress(actor: Dictionary) -> float:
+    var length: float = maxf(0.01, float(actor.get("route_length", 0.01)))
+    return clampf(float(actor.get("phase", 0.0)) + maxf(0.0, elapsed - float(actor.get("hive_born_at", 0.0))) * float(actor.get("speed", 0.0)) / length, 0.0, 1.0)
+
+func _actor_position(actor: Dictionary) -> Vector3:
+    var route: Array = actor.get("route", [actor.get("a", Vector3.ZERO), actor.get("b", Vector3.ZERO)])
+    if route.is_empty():
+        return Vector3.ZERO
+    if route.size() == 1:
+        return route[0]
+    return Planner._walk_route_vectors(route, _actor_progress(actor))
+
+func _in_view(position_local: Vector3, margin_pixels: float) -> bool:
+    var where: Vector3 = to_global(position_local)
+    var camera: Camera3D = get_viewport().get_camera_3d()
+    if not is_instance_valid(camera):
+        return is_instance_valid(focus) and where.distance_to(focus.global_position) <= clip_distance
+    var size: Vector2 = get_viewport().get_visible_rect().size
+    # Inspect feet, torso and head: never destroy a partly visible NPC.
+    for h in [0.1, 1.05, 2.1]:
+        var point: Vector3 = where + Vector3.UP * h
+        if camera.is_position_behind(point):
+            continue
+        var pixel: Vector2 = camera.unproject_position(point)
+        if pixel.x >= -margin_pixels and pixel.y >= -margin_pixels and pixel.x <= size.x + margin_pixels and pixel.y <= size.y + margin_pixels:
+            return true
+    return false
+
+func _hive_action(agent: Dictionary, idx: int, is_walking: bool) -> String:
+    if is_walking:
+        return "walk"
+    var role: String = str(agent.get("role", "resident"))
+    var turn: int = (int(elapsed / 9.0) + idx) % 4
+    if turn != 0 and hive_activity != "idle":
+        return hive_activity
+    match role:
+        "merchant": return "preparar_banca" if turn != 0 else "talk"
+        "disciple": return "treino" if turn < 2 else "meditacao"
+        "guard": return "alerta" if turn < 2 else "observar_risco"
+        "resident": return "talk" if turn == 0 else "trabalho" if turn == 1 else "idle"
+        _: return "idle" if turn % 2 == 0 else "observar_risco"
+
+func _visual_profile(idx: int) -> Dictionary:
+    if profiles.is_empty():
+        return {}
+    var generation: int = int(generations.get(idx, 0))
+    return profiles[posmod(idx + generation * 7, profiles.size())]
+
+func _create_visual(idx: int) -> void:
+    if visuals.size() >= max_visible or visuals.has(idx):
+        return
+    var actor: Dictionary = agents[idx]
+    var visual := Proxy.new()
+    visual.name = "HiveVisual_%d" % idx
+    var ghost_id: String = "npc/r00/crowd/%s/g%d" % [str(actor.get("id", idx)).replace("/", "_"), int(generations.get(idx, 0))]
+    add_child(visual)
+    if not visual.configure(_visual_profile(idx), ghost_id, seed_text):
+        remove_child(visual)
+        visual.queue_free()
+        return
+    visual.scale = Vector3.ONE * float(actor.get("scale", 1.0))
+    visuals[idx] = visual
+    born_count += 1
+
+func _destroy_visual(idx: int) -> void:
+    if not visuals.has(idx):
+        return
+    var visual: Node3D = visuals[idx]
+    visuals.erase(idx)
+    if is_instance_valid(visual):
+        remove_child(visual)
+        visual.queue_free()
+    culled_count += 1
+
+func _clear_visuals() -> void:
+    for idx in visuals.keys():
+        _destroy_visual(idx)
+    visuals.clear()
 
 func _process(delta: float) -> void:
-	elapsed += delta
-	if danger_left > 0.0:
-		danger_left = maxf(0.0, danger_left - delta)
-	accumulator += delta
-	if accumulator < tick_interval:
-		return
-	accumulator = fmod(accumulator, tick_interval)
-	_update_visuals()
+    elapsed += maxf(delta, 0.0)
+    danger_left = maxf(0.0, danger_left - delta)
+    accumulator += delta
+    var check_visibility: bool = accumulator >= clip_interval
+    if check_visibility:
+        accumulator = fmod(accumulator, clip_interval)
+    for idx in range(agents.size()):
+        var actor: Dictionary = agents[idx]
+        var location: Vector3 = _actor_position(actor)
+        if check_visibility:
+            _sync_visibility(idx, actor, location, delta)
+        if not visuals.has(idx):
+            continue
+        var p: float = _actor_progress(actor)
+        var moving: bool = p < 1.0 and float(actor.get("speed", 0.0)) > 0.0 and str(actor.get("activity", "walk")) == "walk"
+        var future: Vector3 = location
+        if moving:
+            var route: Array = actor.get("route", [actor["a"], actor["b"]])
+            future = Planner._walk_route_vectors(route, minf(1.0, p + 0.006))
+        var direction: Vector3 = future - location
+        direction.y = 0.0
+        var velocity: Vector3 = direction.normalized() * float(actor.get("speed", 0.0)) if moving and direction.length_squared() > 0.000001 else Vector3.ZERO
+        var gesture: String = _hive_action(actor, idx, not velocity.is_zero_approx())
+        (visuals[idx] as Node).call("display_step", delta, location, velocity, gesture, idx % 3)
+    rendered_count = visuals.size()
+    update_calls += 1
 
-func _actor_pos(actor: Dictionary) -> Vector3:
-	var a: Vector3 = actor["a"]
-	var b: Vector3 = actor["b"]
-	if a.is_equal_approx(b):
-		return actor["position"]
-	var length := maxf(0.01, a.distance_to(b))
-	var route: Array = actor.get("route",[a,b])
-	length = float(actor.get("route_length",length))
-	var t := clampf(float(actor["phase"]) + elapsed * float(actor["speed"]) / length, 0.0, 1.0)
-	return preload("res://exo_crowd_illusion/runtime/planner.gd")._walk_route_vectors(route,t)
-
-func _update_visuals() -> void:
-	if instances.is_empty():
-		rendered_count=0
-		return
-	update_calls += 1
-	var active := mini(agents.size(), max_visible)
-	# LOD applies to whole zone; the geometry is shared by all actors in that zone.
-	if is_instance_valid(focus) and agents.size() > 0:
-		var center := to_global(bounds_center)
-		if center.distance_squared_to(focus.global_position) > pow(clip_distance + bounds_radius, 2.0):
-			active = 0
-	rendered_count = active
-	for part in PART_NAMES:
-		var mm: MultiMesh = instances[part]
-		mm.visible_instance_count = active
-	var placed := 0
-	for i in range(active):
-		var actor: Dictionary = agents[i]
-		var location := _actor_pos(actor)
-		var a: Vector3 = actor["a"]
-		var b: Vector3 = actor["b"]
-		var route_length: float = maxf(0.01,float(actor.get("route_length",a.distance_to(b))))
-		var arrived: bool = float(actor["phase"])+elapsed*float(actor["speed"])/route_length>=1.0
-		var moving := a.distance_squared_to(b)>0.01 and not arrived
-		var facing := float(actor["yaw"])
-		if moving:
-			var later: Vector3 = preload("res://exo_crowd_illusion/runtime/planner.gd")._walk_route_vectors(actor.get("route",[a,b]),minf(1.0,(elapsed*float(actor["speed"])+0.1)/route_length))
-			var tangent: Vector3 = later-location
-			if tangent.length_squared()>0.00001:facing=atan2(tangent.x,tangent.z)
-		var panic_factor := 0.0
-		if danger_left > 0.0 and to_global(location).distance_to(danger_point) < 14.0:
-			panic_factor = minf(1.0, danger_left / 2.0)
-			# R4: NO position displacement, not even cosmetic. Materialized safe
-			# routes cannot certify off-lane movement near a door, wall or NPC.
-		var scale_actor := float(actor["scale"])
-		var pivot := Basis(Vector3.UP, facing).scaled(Vector3.ONE * scale_actor)
-		var speed := 4.0 if moving else 1.4
-		var step := sin(elapsed * speed * 3.0 + float(actor["motion_phase"])) * (0.6 if moving else 0.12)
-		if panic_factor > 0.0:
-			step += sin(elapsed * 12.0 + float(actor["motion_phase"])) * panic_factor * 0.35
-		var stride := step if moving else 0.0
-		var bounce := absf(step) * (0.04 if moving else 0.01)
-		var arms := {"arm_l": -step, "arm_r": step, "leg_l": stride, "leg_r": -stride}
-		var offsets := {"head": Vector3(0, 1.74 + bounce, 0), "body": Vector3(0, 1.12 + bounce, 0),
-			"arm_l": Vector3(0.38, 1.37 + bounce, 0), "arm_r": Vector3(-0.38, 1.37 + bounce, 0),
-			"leg_l": Vector3(0.125, 0.375, 0), "leg_r": Vector3(-0.125, 0.375, 0)}
-		# Visual-only avoidance: crowd cannot make the protagonist appear
-		# physically obstructed even though real collision is absent.
-		if is_instance_valid(focus) and to_global(location).distance_squared_to(focus.global_position) < 1.44:
-			continue
-		var skin_slot := int(actor.get("skin_slot", 0)) % 64
-		for part in PART_NAMES:
-			instances[part].set_instance_custom_data(placed, Color(float(skin_slot % 8) / 8.0, float(skin_slot / 8) / 8.0, 0.0, 1.0))
-			var local_basis := pivot
-			var origin: Vector3 = location + pivot * offsets[part]
-			if arms.has(part):
-				var limb_rotation := Basis(Vector3.RIGHT,float(arms[part]))
-				local_basis = pivot * limb_rotation
-				var joint := Vector3(offsets[part].x,1.5+bounce if part.begins_with("arm") else 0.75,0)
-				origin = location + pivot * (joint+limb_rotation*Vector3(0,-0.375,0))
-			if part == "head":
-				origin = location + pivot * offsets[part]
-			instances[part].set_instance_transform(placed, Transform3D(local_basis, origin))
-		placed += 1
-	for part in PART_NAMES:
-		instances[part].visible_instance_count = placed
-	rendered_count = placed
+func _sync_visibility(idx: int, actor: Dictionary, location: Vector3, delta: float) -> void:
+    var near_screen: bool = _in_view(location, 96.0)
+    if near_screen:
+        out_of_view.erase(idx)
+        _create_visual(idx)
+        return
+    var first_out: float = float(out_of_view.get(idx, elapsed))
+    if not out_of_view.has(idx):
+        out_of_view[idx] = elapsed
+    if elapsed - first_out >= 0.5:
+        _destroy_visual(idx)
+    # Recycle ONLY when both departure and new entry are outside the frame.
+    if elapsed - first_out < 1.0 or _actor_progress(actor) < 1.0:
+        return
+    var route: Array = actor.get("route", [])
+    if route.size() < 2 or _in_view(route[0], 140.0):
+        return
+    var current: Dictionary = actor.duplicate(true)
+    current["hive_born_at"] = elapsed
+    current["phase"] = 0.0
+    agents[idx] = current
+    generations[idx] = int(generations.get(idx, 0)) + 1
+    out_of_view[idx] = elapsed
+    recycled_count += 1
 
 func stats() -> Dictionary:
-	return {"total": agents.size(), "visible": rendered_count, "updates": update_calls, "batches": instances.size(), "panic_active": danger_left > 0.0}
+    return {"total": agents.size(), "visible": rendered_count, "visual_instances": visuals.size(), "batches": 0, "updates": update_calls, "recycled_offscreen": recycled_count, "culled_offscreen": culled_count, "visuals_created": born_count, "uses_real_npc_rig": true, "panic_active": danger_left > 0.0}

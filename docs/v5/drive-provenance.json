@@ -1,0 +1,102 @@
+{
+  "owner_authorization": "User: Tenho, pode os usar e eu implemento a comprovação depois. 2026-10-21",
+  "owner_documents": "PENDING; no independent commercial certification",
+  "input_packages": [
+    {
+      "name": "EXO-CROWD-HIVE-V4-R1-OVERLAY.zip",
+      "id": "1eAD-6dJE1KYzg5biZf3FDBK0owX0kVTR",
+      "code": 0,
+      "zip": true,
+      "bytes": 41640,
+      "sha256": "87502f5a514dd673ee696d3103af6a11929308d38245bbc9b7da7f800bdf84d3",
+      "error": null
+    },
+    {
+      "name": "EXO-CROWD-ILLUSION-01-R4-CORRIGIDO.zip",
+      "id": "1wTtykOUXLA0C5urLeAOQpD0YbEEbiE0l",
+      "code": 0,
+      "zip": true,
+      "bytes": 68010,
+      "sha256": "1f848165630fb592007e7e2ff56596c5d30d9e0ce95e3338a0bbef07a9684381",
+      "error": null
+    },
+    {
+      "name": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01.zip",
+      "id": "1NwJCrkIGNW576G4LzsOsK_B023sllqTh",
+      "code": 0,
+      "zip": true,
+      "bytes": 314611172,
+      "sha256": "8796e58d3f8905f0edb37bac6344481a6a173342269f874cf8b993eb7b53522e",
+      "error": null
+    },
+    {
+      "name": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+      "id": "1ihcc_ApvX4_-J7_ZZOEnHoGywRVs7_pi",
+      "code": 0,
+      "zip": true,
+      "bytes": 27850760,
+      "sha256": "d1b4de782392afe721c7c5234ea71a25e8c643ca19a2e00584e3b2c1cd6f6f83",
+      "error": null
+    },
+    {
+      "name": "EXO-MURIM-SOUND-FORGE-01-AUDIOS-REAIS_2.zip",
+      "id": "1AV0cWjm7KqkrN4s5FU4ii_-gUKGSPsaS",
+      "code": 0,
+      "zip": true,
+      "bytes": 10472297,
+      "sha256": "f4673bac8974a9fd24b5b678656d8204701cba255a3e97294b6bc46d52857bc4",
+      "error": null
+    },
+    {
+      "name": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS.zip",
+      "id": "1FC5BrdHPRc7W4DCKeyGIgZH8ACyTebGu",
+      "code": 0,
+      "zip": true,
+      "bytes": 31232393,
+      "sha256": "dc6b3fb569a87bb44e9d00cf2e2f95ebdaac5dcb9784f7d0381339dace32d5da",
+      "error": null
+    },
+    {
+      "name": "EXO-MURIM-VFX-FORGE-03.zip",
+      "id": "1LOIzat1LreojC1kPhqIhw_hGHhbkGyzg",
+      "code": 0,
+      "zip": true,
+      "bytes": 13082347,
+      "sha256": "7f96fced121cc2dba178c4075d7e222babc65efc8ea7e2ed047ce92422ade926",
+      "error": null
+    }
+  ],
+  "active_owner_attested_pixels": 329,
+  "generated_models": 42,
+  "sound_events": 91,
+  "decisions": [
+    {
+      "package": "EXO-CROWD-HIVE-V4-R1-OVERLAY.zip",
+      "decision": "Hive full-rig visual renderer/planner/director integrated through prepared full module replacement; NPC03 agenda ported to NPC04; no old game.gd or resident overlay"
+    },
+    {
+      "package": "EXO-CROWD-ILLUSION-01-R4-CORRIGIDO.zip",
+      "decision": "R4 contracts audited against current module; current V5 physical-lane adapter retained and corrected for Settlement owner; no second crowd runtime"
+    },
+    {
+      "package": "EXO-MURIM-CONVERGENCIA-V4-CONSOLIDADO-C01.zip",
+      "decision": "Asset-only source for 216 EXO FighterArt palettes; no old gameplay code, third-party village/foley/fonts or 480 quarantined skins restored"
+    },
+    {
+      "package": "EXO-MURIM-FORJA-ARQUITETONICA-V4-CANDIDATO.zip",
+      "decision": "42 source-generated Forja V3 models rebuilt and catalog-integrated; wall torches mounted in new Settlement buildings. Remaining legacy 121 and V4 86 opaque geometry files not restored; overlapping V4 architecture runtime not installed"
+    },
+    {
+      "package": "EXO-MURIM-SOUND-FORGE-01-AUDIOS-REAIS_2.zip",
+      "decision": "91 OGG verified/imported; existing EXO audio mixer owns playback; mapped cues and real doors connected. MP3 originals remain outside build; no duplicate audio service"
+    },
+    {
+      "package": "EXO-MURIM-TERRAIN-TEXTURE-FORGE-01-R2-RECURSOS.zip",
+      "decision": "113 authored textures/atlases restored; newer Terrain R3 code retained, R2 adapter not overlaid"
+    },
+    {
+      "package": "EXO-MURIM-VFX-FORGE-03.zip",
+      "decision": "Runtime already VFX03; source comparison confirmed, trusted bridge exported through current service; old previews/standalone project not copied into runtime"
+    }
+  ]
+}

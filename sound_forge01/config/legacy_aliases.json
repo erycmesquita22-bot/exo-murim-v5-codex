@@ -1,0 +1,21 @@
+{
+  "punch": "combat.fist.swing",
+  "fist_hit": "combat.fist.hit",
+  "strong_hit": "combat.critical.impact",
+  "critical_hit": "combat.critical.impact",
+  "fatal_hit": "combat.critical.impact",
+  "swing": "weapon.sword.swing_light",
+  "blade_hit": "weapon.sword.hit_body",
+  "wood_hit": "weapon.sword.hit_wood",
+  "qi": "qi.release",
+  "boss_entry": "boss.prepare",
+  "boss_phase": "boss.phase",
+  "boss_prepare": "boss.prepare",
+  "boss_release": "boss.release",
+  "quest_complete": "ui.quest.completed",
+  "gelo": "ice.cast",
+  "fogo": "fire.cast",
+  "vento": "wind.cast.a",
+  "summon": null,
+  "chronicle_koto": null
+}

@@ -38,6 +38,11 @@ func show_creator() -> void:
 	var right:=VBoxContainer.new();row.add_child(right);right.size_flags_horizontal=Control.SIZE_EXPAND_FILL
 	ui.make_preview(right,ui.profile,Vector2(450,370))
 	ui.paragraph(right,"Arraste para girar • roda do mouse para aproximar",13,440)
+	var pose_controls:=HBoxContainer.new();right.add_child(pose_controls)
+	for pose_name in ["idle","walk","attack"]:
+		var chosen: String=pose_name
+		ui.button(pose_controls,{"idle":"Parado","walk":"Caminhar","attack":"Ataque"}[chosen],func():ui.preview_root.preview_pose=chosen)
+
 	ui.creator_notice=ui.paragraph(col,"A ancestralidade fica vinculada a esta jornada. Outras armas e técnicas são descobertas no mundo.",14,1000)
 	var actions:=HBoxContainer.new();col.add_child(actions)
 	if ui.creation_tab>0:ui.button(actions,"ANTERIOR",func():ui.creation_tab-=1;show_creator()).custom_minimum_size.x=230
@@ -58,60 +63,80 @@ func origin(parent: Node) -> void:
 	ui.selector(parent,"Arma inicial",names,maxi(0,ids.find(ui.profile.get("weapon","sword"))),func(i: int):ui.profile.weapon=ids[i];update_profile())
 	ui.selector(parent,"Afinidade",Catalog.ELEMENTS,int(ui.profile.get("element",6)),func(i: int):ui.profile.element=i;update_profile())
 func appearance(parent: Node) -> void:
-	ui.title(parent,"APARÊNCIA • LEGADO EXO",22)
-	ui.paragraph(parent,"Paletas e traços originais do criador EXO Minecraft. Skin importada permanece intacta.",14,470)
-	ui.button(parent,"IMPORTAR SKIN MINECRAFT 64×64",func():open_skin_picker())
+	ui.title(parent,"SEU ESTILO NO MURIM",22)
+	var categories:=HBoxContainer.new();parent.add_child(categories)
+	for i in range(4):
+		ui.button(categories,["Traços","Vestuário","Acessórios","Armaduras"][i],func():ui.appearance_tab=i;show_creator())
 	var cosmetic: Dictionary=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
-	ui.selector(parent,"Braços Minecraft",["Clássico · 4 px","Slim · 3 px"],1 if cosmetic.model=="slim" else 0,func(i: int):ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile);ui.profile.skin3d.model="slim" if i==1 else "classic";update_profile())
-	for part in preload("res://exo_skin3d/profile_codec.gd").LAYERS:
-		var part_id: String=part
-		ui.selector(parent,"Camada · "+cosmetic_label(part_id),["Oculta","Visível"],1 if cosmetic.layers[part_id] else 0,func(i: int):
-			ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
-			ui.profile.skin3d.layers[part_id]=(i==1)
-			update_profile())
-	ui.paragraph(parent,"Camadas 3D seguem cabeça, braços, cotovelos, pernas e joelhos. A skin PNG não é sobrescrita.",13,470)
-
-	ui.title(parent,"ACESSÓRIOS 3D · VISUAIS",18)
 	var codec=preload("res://exo_skin3d/profile_codec.gd")
-	for slot in codec.SLOTS:
-		var slot_id: String=slot
-		var options: Array=[""]
-		options.append_array(codec.ACCESSORY_OPTIONS.get(slot_id,[]))
-		var current: String=str(cosmetic.accessories.get(slot_id,""))
-		ui.selector(parent,"Acessório · "+cosmetic_label(slot_id),cosmetic_options(options),maxi(0,options.find(current)),func(i: int):
-			ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
-			if i==0:ui.profile.skin3d.accessories.erase(slot_id)
-			else:ui.profile.skin3d.accessories[slot_id]=options[i]
-			update_profile())
-	ui.title(parent,"ARMADURAS 3D · COSMÉTICAS",18)
-	for slot in codec.ARMOR_OPTIONS:
-		var armor_slot: String=slot
-		var armor_options: Array=[""]
-		armor_options.append_array(codec.ARMOR_OPTIONS[armor_slot])
-		var chosen: String=str(cosmetic.equipment.get(armor_slot,""))
-		ui.selector(parent,"Armadura · "+cosmetic_label(armor_slot),cosmetic_options(armor_options),maxi(0,armor_options.find(chosen)),func(i: int):
-			ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
-			if i==0:ui.profile.skin3d.equipment.erase(armor_slot)
-			else:ui.profile.skin3d.equipment[armor_slot]=armor_options[i]
-			update_profile())
-	ui.paragraph(parent,"Somente aparência: nenhuma armadura cosmética altera defesa, efeitos ou atributos.",13,470)
+	if ui.appearance_tab==0:
+		ui.selector(parent,"Corpo",["Original","Pequeno","Alto","Robusto","Esbelto","Baixo e forte","Grande"],int(ui.profile.get("body",0)),func(i: int):set_option("body",i))
+		ui.selector(parent,"Pele",["Porcelana","Claro","Mel","Bronze","Castanho","Ébano"],int(ui.profile.get("skin",0)),func(i: int):set_option("skin",i))
+		ui.selector(parent,"Músculos",["Desligados","Suaves","Marcados"],int(ui.profile.get("muscles",0)),func(i: int):set_option("muscles",i))
+		ui.selector(parent,"Cabelo",["Preto","Castanho","Ruivo","Louro","Branco","Azul"],int(ui.profile.get("hair",0)),func(i: int):set_option("hair",i))
+		ui.selector(parent,"Corte",["Curto","Espigado","Franja","Raspado"],int(ui.profile.get("haircut",0)),func(i: int):set_option("haircut",i))
+		ui.selector(parent,"Olhos",["Firme","Sereno","Intenso","Amplo"],int(ui.profile.get("eyes",0)),func(i: int):set_option("eyes",i))
+		ui.selector(parent,"Íris",["Cinza","Castanho","Azul","Verde","Âmbar","Violeta"],int(ui.profile.get("eye_color",0)),func(i: int):set_option("eye_color",i))
+		ui.selector(parent,"Rosto",["Limpo","Cicatriz","Barba"],int(ui.profile.get("mark",0)),func(i: int):set_option("mark",i))
+		ui.selector(parent,"Voz",["Masculina","Feminina","Sem voz"],int(ui.profile.get("voice",0)),func(i: int):set_option("voice",i))
+	elif ui.appearance_tab==1:
+		ui.paragraph(parent,"Estilos prontos • personalize cada detalhe depois",14,470)
+		var presets:=HBoxContainer.new();parent.add_child(presets)
+		for i in range(4):
+			ui.button(presets,["Discípulo","Andarilho","Guarda","Erudito"][i],func():apply_style(i))
+		ui.selector(parent,"Roupa",["Grafite","Azul","Verde","Vermelho","Branco","Violeta"],int(ui.profile.get("robe",0)),func(i: int):set_option("robe",i))
+		ui.selector(parent,"Traje",["Kimono","Treino","Faixas","Túnica"],int(ui.profile.get("outfit",0)),func(i: int):set_option("outfit",i))
+		ui.selector(parent,"Arranjo",["Coque marcial","Longo","Faixa de treino"],int(ui.profile.get("style",0)),func(i: int):set_option("style",i))
+	elif ui.appearance_tab==2:
+		for part in preload("res://exo_skin3d/profile_codec.gd").LAYERS:
+			var part_id: String=part
+			ui.selector(parent,"Camada · "+cosmetic_label(part_id),["Oculta","Visível"],1 if cosmetic.layers[part_id] else 0,func(i: int):
+				ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
+				ui.profile.skin3d.layers[part_id]=(i==1)
+				update_profile())
+		ui.paragraph(parent,"Camadas 3D seguem cabeça, braços, cotovelos, pernas e joelhos. A skin PNG não é sobrescrita.",13,470)
+
+		ui.title(parent,"ACESSÓRIOS 3D · VISUAIS",18)
+		for slot in codec.SLOTS:
+			var slot_id: String=slot
+			var options: Array=[""]
+			options.append_array(codec.ACCESSORY_OPTIONS.get(slot_id,[]))
+			var current: String=str(cosmetic.accessories.get(slot_id,""))
+			ui.selector(parent,"Acessório · "+cosmetic_label(slot_id),cosmetic_options(options),maxi(0,options.find(current)),func(i: int):
+				ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
+				if i==0:ui.profile.skin3d.accessories.erase(slot_id)
+				else:ui.profile.skin3d.accessories[slot_id]=options[i]
+				update_profile())
+	else:
+		ui.title(parent,"ARMADURAS 3D · COSMÉTICAS",18)
+		for slot in codec.ARMOR_OPTIONS:
+			var armor_slot: String=slot
+			var armor_options: Array=[""]
+			armor_options.append_array(codec.ARMOR_OPTIONS[armor_slot])
+			var chosen: String=str(cosmetic.equipment.get(armor_slot,""))
+			ui.selector(parent,"Armadura · "+cosmetic_label(armor_slot),cosmetic_options(armor_options),maxi(0,armor_options.find(chosen)),func(i: int):
+				ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
+				if i==0:ui.profile.skin3d.equipment.erase(armor_slot)
+				else:ui.profile.skin3d.equipment[armor_slot]=armor_options[i]
+				update_profile())
+		ui.paragraph(parent,"Somente aparência: nenhuma armadura cosmética altera defesa, efeitos ou atributos.",13,470)
+	ui.button(parent,"IMPORTAR SKIN MINECRAFT 64×64",func():open_skin_picker())
+	ui.selector(parent,"Braços Minecraft",["Clássico · 4 px","Slim · 3 px"],1 if cosmetic.model=="slim" else 0,func(i: int):ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile);ui.profile.skin3d.model="slim" if i==1 else "classic";update_profile())
 	if not str(ui.profile.get("skin_file","")).is_empty():
-		ui.button(parent,"EDITAR APARÊNCIA EXO",func():ui.profile.erase("skin_file");update_profile();show_creator())
-		ui.paragraph(parent,"Com skin importada, a textura original é preservada; opções abaixo editam o estilo EXO.",13,470)
-	ui.button(parent,"SORTEAR NOVA APARÊNCIA",func():randomize_appearance())
-	ui.selector(parent,"Corpo",["Original","Pequeno","Alto","Robusto","Esbelto","Baixo e forte","Grande"],int(ui.profile.get("body",0)),func(i: int):set_option("body",i))
-	ui.selector(parent,"Pele",["Porcelana","Claro","Mel","Bronze","Castanho","Ébano"],int(ui.profile.get("skin",0)),func(i: int):set_option("skin",i))
-	ui.selector(parent,"Roupa",["Grafite","Azul","Verde","Vermelho","Branco","Violeta"],int(ui.profile.get("robe",0)),func(i: int):set_option("robe",i))
-	ui.selector(parent,"Traje",["Kimono","Treino","Faixas","Túnica"],int(ui.profile.get("outfit",0)),func(i: int):set_option("outfit",i))
-	ui.selector(parent,"Músculos",["Desligados","Suaves","Marcados"],int(ui.profile.get("muscles",0)),func(i: int):set_option("muscles",i))
-	ui.selector(parent,"Cabelo",["Preto","Castanho","Ruivo","Louro","Branco","Azul"],int(ui.profile.get("hair",0)),func(i: int):set_option("hair",i))
-	ui.selector(parent,"Corte",["Curto","Espigado","Franja","Raspado"],int(ui.profile.get("haircut",0)),func(i: int):set_option("haircut",i))
-	ui.selector(parent,"Arranjo",["Coque marcial","Longo","Faixa de treino"],int(ui.profile.get("style",0)),func(i: int):set_option("style",i))
-	ui.selector(parent,"Olhos",["Firme","Sereno","Intenso","Amplo"],int(ui.profile.get("eyes",0)),func(i: int):set_option("eyes",i))
-	ui.selector(parent,"Íris",["Cinza","Castanho","Azul","Verde","Âmbar","Violeta"],int(ui.profile.get("eye_color",0)),func(i: int):set_option("eye_color",i))
-	ui.selector(parent,"Rosto",["Limpo","Cicatriz","Barba"],int(ui.profile.get("mark",0)),func(i: int):set_option("mark",i))
-	ui.selector(parent,"Voz",["Masculina","Feminina","Sem voz"],int(ui.profile.get("voice",0)),func(i: int):set_option("voice",i))
-	ui.paragraph(parent,"A aparência não determina atributos ou Destino de Vida.",14,470)
+		ui.button(parent,"USAR APARÊNCIA EXO",func():ui.profile.erase("skin_file");update_profile();show_creator())
+	ui.button(parent,"SORTEAR APARÊNCIA",func():randomize_appearance())
+
+func apply_style(index: int) -> void:
+	var presets: Array=[
+		{"robe":1,"outfit":0,"style":0,"haircut":0,"skin3d":{"accessories":{"waist":"jade_belt","hair":"topknot"}}},
+		{"robe":2,"outfit":3,"style":2,"haircut":2,"skin3d":{"accessories":{"head":"headband","back":"short_cape","boots":"travel_boots"}}},
+		{"robe":0,"outfit":1,"style":2,"haircut":3,"skin3d":{"equipment":{"chest":"guard_cuirass","wrists":"iron_bracers","boots":"iron_boots"}}},
+		{"robe":4,"outfit":3,"style":1,"haircut":0,"skin3d":{"accessories":{"collar":"jade_collar","shoulders":"shoulder_cloth"}}}]
+	ui.profile.erase("skin_file")
+	for key in presets[index]:ui.profile[key]=presets[index][key].duplicate(true) if presets[index][key] is Dictionary else presets[index][key]
+	ui.profile.skin3d=preload("res://exo_skin3d/profile_codec.gd").normalized(ui.profile)
+	update_profile()
+	show_creator()
 
 func set_option(key: String, value: int) -> void:
 	ui.profile[key] = value
