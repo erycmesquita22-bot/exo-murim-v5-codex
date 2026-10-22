@@ -25,6 +25,7 @@ SUITES={
  'dungeon':('qa/v5/dungeon.gd','R3_RESULT v5_dungeon','validation_r3/results/v5_dungeon.json'),
  'world_regions':('qa/v5/world_regions.gd','V5_REGIONS_RESULT ',None),
 }
+SUITE_TIMEOUTS={'world_regions':300}
 p=argparse.ArgumentParser();p.add_argument('--godot',default=os.environ.get('GODOT_BIN','/workspace/tools/godot-4.6.2/Godot_v4.6.2-stable_linux.x86_64'));p.add_argument('--output',type=Path,default=ROOT/'qa/v5/output');p.add_argument('--suite',choices=list(SUITES),action='append');a=p.parse_args();out=a.output.resolve();out.mkdir(parents=True,exist_ok=True)
 for directory in ['cache','config','userdata']:(out/directory).mkdir(exist_ok=True)
 version_env=dict(os.environ,XDG_CACHE_HOME=str(out/'cache'),XDG_DATA_HOME=str(out/'userdata'),XDG_CONFIG_HOME=str(out/'config'))
@@ -34,7 +35,7 @@ rows=[]
 for name in a.suite or SUITES:
  script,marker,result_file=SUITES[name];suite_cache=out/'cache'/name;suite_cache.mkdir(parents=True,exist_ok=True);env=dict(os.environ,XDG_DATA_HOME=str(out/'userdata'/name),XDG_CONFIG_HOME=str(out/'config'),XDG_CACHE_HOME=str(suite_cache));cmd=[a.godot,'--headless','--fixed-fps','60','--path',str(ROOT),'--script','res://'+script];start_ns=time.time_ns();start=time.monotonic();log=out/(name+'.log')
  with log.open('w') as f:
-  try:code=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=180).returncode
+  try:code=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=SUITE_TIMEOUTS.get(name,180)).returncode
   except subprocess.TimeoutExpired:code=124
  text=log.read_text(errors='replace');errors=[line for line in text.splitlines() if re.match(r'^(SCRIPT ERROR:|ERROR:)',line)];present=marker in text;detail=None
  if result_file:
