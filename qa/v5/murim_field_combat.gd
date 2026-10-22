@@ -124,7 +124,23 @@ func run()->void:
     check(attack_cap,"group_maximum_two_simultaneous_attackers")
     check(w.bestiary_v4.accepted>0 and w.bestiary_v4.released>0,"catalog_tactics_execute_real_attacks")
     check(ranged.strikes>0,"archer_fires_physical_projectiles")
+    var trained_blades:bool=false
+    for actor in tactical_actors:
+        if not actor.skills_used.is_empty():trained_blades=true
+    check(trained_blades,"ordinary_blade_enemy_releases_existing_catalog_skill")
     for actor in tactical_actors:w.enemies.erase(actor);actor.free()
+    var mage=Enemy.new();w.add_child(mage)
+    mage.setup(w,"murim_skill_mage","mage",ground(anchor+Vector3(0,0,4)))
+    mage.configure_regional(35,1);mage.cooldown=0.0;mage.interest_seconds=12.0
+    w.enemies.append(mage)
+    var catalog_projectiles:int=0
+    for frame in range(450):
+        await physics_frame
+        for shot in w.hostile_shots:
+            if str(shot.get("skill_id",""))=="dardo_arcano":catalog_projectiles+=1
+    check("dardo_arcano" in mage.skills_used,"ordinary_mage_releases_existing_qi_skill")
+    check(catalog_projectiles>0,"ordinary_mage_skill_launches_physical_projectile")
+    w.enemies.erase(mage);mage.free()
     w.combat.clear_hostile_shots()
     w.invulnerability=0;w.health=w.max_health
     var blocker:=StaticBody3D.new();blocker.collision_layer=4
@@ -147,7 +163,7 @@ func run()->void:
     await frames(75)
     Input.action_release("attack");Input.action_release("right")
     check(w.player.position.distance_to(before)>1.6,"player_moves_during_held_attack_combos")
-    w.free();await process_frame
+    w.free();await frames(10)
     w=Game.new();w.load_on_start=false;w.world_seed_override=707
     w.save_path="user://murim-prologue.json";w.settings_path="user://murim-prologue.cfg"
     root.add_child(w);await process_frame
@@ -186,6 +202,6 @@ func run()->void:
     check(max_effects>5 and w.vfx_host_v5.emitted>0,"prologue_existing_vfx_bridge_emits_effects")
     check(w.audio_fx.played>sounds+5,"prologue_plays_existing_combat_and_skill_audio")
     print("MURIM_BATTLE_METRICS ",JSON.stringify({"skills":skills,"actors_moving":moving,"projectiles":shots,"effects_peak":max_effects,"audio_events":w.audio_fx.played-sounds,"vfx_emitted":w.vfx_host_v5.emitted,"vfx_rejected":w.vfx_host_v5.rejected}))
-    w.free();await process_frame
+    w.free();await frames(10)
     print("V5_MURIM_FIELD_COMBAT ",JSON.stringify({"checks":checks,"failures":failures}))
     quit(0 if failures.is_empty() else 1)

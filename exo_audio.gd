@@ -170,7 +170,7 @@ func movement_surface() -> String:
 	if region is Node3D and is_instance_valid(region):
 		var point:=Vector2(host.player.position.x,host.player.position.z)
 		var data: RefCounted=region.data
-		if data.river_distance(point)<3.0 and data.road_distance(point)>5.0:return "water"
+		if host.has_method("wading_factor") and float(host.call("wading_factor"))<1.0:return "water"
 		if data.road_distance(point)<4.5:return "stone" if str(data.spec.kind)=="settlement" else "dirt"
 		if str(data.spec.biome) in ["rocky_highlands","alpine"]:return "gravel"
 		if str(data.spec.biome) in ["temperate_forest","mixed_woodland","bamboo_forest"]:return "leaf"

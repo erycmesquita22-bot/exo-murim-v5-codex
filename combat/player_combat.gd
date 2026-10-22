@@ -135,7 +135,7 @@ func enemy_orb(origin: Vector3, direction: Vector3, amount: int, profile:Diction
 		var material:=StandardMaterial3D.new();material.albedo_color=Color("c8ac73");shaft.material=material;node.material_override=material
 	node.position=origin
 	if not direction.is_zero_approx():node.look_at(origin+direction)
-	world.hostile_shots.append({"node":node,"direction":direction,"remaining":13.0,"damage":amount,"speed":float(profile.get("speed",6.0)),"family":str(profile.get("family","qi"))})
+	world.hostile_shots.append({"node":node,"direction":direction,"remaining":float(profile.get("reach",13.0)),"damage":amount,"speed":float(profile.get("speed",6.0)),"family":str(profile.get("family","qi")),"skill_id":str(profile.get("skill_id",""))})
 	world.audio_fx.play_event("magia","magic",.45)
 
 func update_hostile_shots(delta: float) -> void:

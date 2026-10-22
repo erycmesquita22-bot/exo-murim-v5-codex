@@ -2,6 +2,7 @@ extends CharacterBody3D
 
 const BossArt=preload("res://boss_art.gd")
 const Rig = preload("res://rig.gd")
+const SkillCatalog=preload("res://catalog.gd")
 var root_timer:=0.0
 var forced_velocity:=Vector3.ZERO
 var leashing:=false
@@ -42,6 +43,10 @@ var hit_flash:=0.0
 var encounter_started:=false
 var intro_timer:=0.0
 var rush_hit:=false
+var skill_recovery:float=0.0
+var skill_energy:float=100.0
+var enemy_skill_data:Dictionary={}
+var skills_used:Array[String]=[]
 
 func setup(owner_world: Node3D, id: String, role: String, spawn: Vector3) -> void:
 	world=owner_world
@@ -119,6 +124,10 @@ func restore(defeated: bool) -> void:
 	intro_timer=0
 	hit_flash=0
 	rush_hit=false
+	skill_recovery=0.0
+	skill_energy=100.0
+	enemy_skill_data.clear()
+	skills_used.clear()
 	rig.pose(0,false,false,true)
 
 func hurt(amount: int, impulse: Vector3, slow_seconds: float=0.0,context: Dictionary={}) -> bool:
@@ -156,6 +165,8 @@ func step(delta: float) -> void:
 	slow=maxf(0,slow-delta)
 	stagger=maxf(0,stagger-delta)
 	cooldown=maxf(0,cooldown-delta)
+	skill_recovery=maxf(0.0,skill_recovery-delta)
+	skill_energy=minf(100.0,skill_energy+8.0*delta)
 	var offset: Vector3=world.player.position-position
 	offset.y=0
 	var distance:=offset.length()
@@ -304,6 +315,13 @@ func begin_attack(direction: Vector3, distance: float) -> void:
 	rush_hit=false
 	attack_direction=direction
 	attack_kind="orb" if kind=="mage" else "arrow" if weapon_profile().ranged else "cleave"
+	enemy_skill_data.clear()
+	if kind!="boss" and strikes%3==2 and skill_recovery<=0.0:
+		var options:Array=["dardo_arcano"] if kind=="mage" or weapon_profile().ranged else ["golpe_circular","corte_inicial"]
+		var candidate:Dictionary=SkillCatalog.skill(str(options[floori(float(strikes)/3.0)%options.size()]))
+		if skill_energy>=float(candidate.mana)+float(candidate.stamina) and (str(candidate.kind) in ["projectile","cut"] or distance<=3.4):
+			enemy_skill_data=candidate.duplicate(true)
+			attack_kind="skill"
 	if kind=="boss":
 		attack_kind="orb" if distance>3.0 else "shock" if pattern%3==1 else "cleave"
 		if phase_two and pattern%4==3 and distance>2.5:
@@ -321,6 +339,8 @@ func begin_attack(direction: Vector3, distance: float) -> void:
 			world.spawn_arc(position,direction,2.7 if kind=="boss" else weapon_profile().reach,Color("ba785e"),windup_time())
 
 func windup_time() -> float:
+	if attack_kind=="skill":
+		return maxf(.35,float(enemy_skill_data.cast))
 	if kind=="blade":
 		return maxf(.4,weapon_profile().duration*weapon_profile().hit+.2)
 	if attack_kind=="rush":
@@ -332,6 +352,9 @@ func execute_attack() -> void:
 	if kind=="boss":world.play_sound("boss_release")
 	strikes+=1
 	world.audio_fx.actor_voice(rig,true)
+	if attack_kind=="skill":
+		_release_catalog_skill()
+		return
 	if attack_kind=="arrow":
 		world.combat.enemy_orb(position+Vector3.UP,attack_direction,8,{"family":"arrow","speed":13.0})
 		world.audio_fx.play_event("arrow","combat",.45)
@@ -354,6 +377,23 @@ func execute_attack() -> void:
 		world.spawn_arc(position,attack_direction,2.7 if kind=="boss" else weapon_profile().reach,Color("ffbd85"),0.2)
 		if world.can_hit(position,world.player.position,attack_direction,2.7 if kind=="boss" else weapon_profile().reach,.5 if kind=="boss" else weapon_profile().cone):
 			world.damage_player(16 if kind=="boss" else int(round(weapon_profile().damage*.7)),{"family":weapon_profile().pose,"heavy":kind=="boss"})
+
+func _release_catalog_skill() -> void:
+	if enemy_skill_data.is_empty():return
+	var cost:float=float(enemy_skill_data.mana)+float(enemy_skill_data.stamina)
+	if skill_energy<cost:return
+	skill_energy-=cost
+	skill_recovery=float(enemy_skill_data.cooldown)
+	skills_used.append(str(enemy_skill_data.id))
+	world.audio_fx.skill(enemy_skill_data)
+	var effect_color:Color=Color(SkillCatalog.COLORS[int(enemy_skill_data.element)])
+	world.techniques.ring(position,3.4 if str(enemy_skill_data.kind) in ["area","root"] else 1.0,effect_color,.38)
+	if str(enemy_skill_data.kind) in ["projectile","cut"]:
+		# Existing hostile projectile owns movement, wall collision and damage.
+		world.combat.enemy_orb(position+Vector3.UP,attack_direction,int(enemy_skill_data.damage),{"family":"qi","speed":11.0,"reach":4.0 if str(enemy_skill_data.kind)=="cut" else 13.0,"skill_id":str(enemy_skill_data.id)})
+	else:
+		if world.can_hit(position,world.player.position,attack_direction,3.4,-1):
+			world.damage_player(int(enemy_skill_data.damage),{"magic":true,"element":int(enemy_skill_data.element)})
 
 func weapon_profile() -> Dictionary:
 	return world.Catalog.weapon(str(rig.get_meta("weapon_id","sword")))

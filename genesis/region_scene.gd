@@ -35,6 +35,7 @@ func build_ground() -> void:
 	var shader := Shader.new();shader.code=FileAccess.get_file_as_string("res://genesis/terrain.gdshader")
 	var mat := ShaderMaterial.new();mat.shader=shader;mat.set_shader_parameter("ground_tex",texture);mat.set_shader_parameter("natural_rock_tex",load("res://assets/terrain/stone.png"));mat.set_shader_parameter("road_tex",load(APPROVED_GROUND+"trilha_terra.png"))
 	mat.set_shader_parameter("macro_seed",float(int(data.noise.seed)%8191))
+	mat.set_shader_parameter("terrain_reference_height",float(data.center_h))
 	EXO_TERRAIN_FORGE.apply_to_ground(mat,data)
 	for i in range(4):
 		var other: String=data.spec.biome
@@ -180,12 +181,17 @@ func build_rivers() -> void:
 			var a: Vector2=data.river_hub.lerp(river.p,float(k)/segments)
 			var b: Vector2=data.river_hub.lerp(river.p,float(k+1)/segments)
 			# Culverts under engineered roads: water geometry continues below the road fill.
-			for p in [a-perpendicular,a+perpendicular,b-perpendicular,a+perpendicular,b+perpendicular,b-perpendicular]:
-				st.set_normal(Vector3.UP);st.set_uv(p/4);st.add_vertex(Vector3(p.x,data.river_level(river,p),p.y))
+			var u0:float=float(k)*length/float(segments*4)
+			var u1:float=float(k+1)*length/float(segments*4)
+			for vertex in [[a-perpendicular,0.0,u0],[a+perpendicular,1.0,u0],[b-perpendicular,0.0,u1],
+				[a+perpendicular,1.0,u0],[b+perpendicular,1.0,u1],[b-perpendicular,0.0,u1]]:
+				var p:Vector2=vertex[0]
+				st.set_normal(Vector3.UP);st.set_uv(Vector2(vertex[1],vertex[2]));st.add_vertex(Vector3(p.x,data.river_level(river,p),p.y))
 		var mesh := MeshInstance3D.new();mesh.mesh=st.commit()
 		var mat := ShaderMaterial.new()
 		mat.shader=preload("res://exo_visual/shaders/water.gdshader")
 		mat.set_shader_parameter("flow_direction",direction)
+		mat.set_shader_parameter("flow_sign",1.0 if int(river.from)==int(data.spec.id) else -1.0)
 		mesh.material_override=mat
 		mesh.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		mesh.add_to_group("exo_visual_water")

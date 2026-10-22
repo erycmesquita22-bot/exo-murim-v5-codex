@@ -215,7 +215,9 @@ func target_point(distance: float) -> Vector3:
 	var query:=PhysicsRayQueryParameters3D.create(start,start+direction*distance,1)
 	var contact: Dictionary=world.get_world_3d().direct_space_state.intersect_ray(query)
 	var point: Vector3=(contact.position-direction*.5) if not contact.is_empty() else start+direction*distance
-	point.y=.04
+	# Regional worlds can sit far above world Y=0. Keep target effects on the
+	# actor's ground plane so pull/trap ranges remain physical at any elevation.
+	point.y=world.player.position.y+.04
 	return point
 
 func move(input_direction: Vector3) -> void:

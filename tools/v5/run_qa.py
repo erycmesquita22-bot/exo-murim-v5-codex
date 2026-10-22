@@ -6,6 +6,8 @@ ROOT=Path(__file__).resolve().parents[2]
 SUITES={
  'fauna_regions':('exo_bestiary/tests/qa_c03_r4_regional_fauna.gd','C03_R4_NATIVE_FAUNA ',None),
  'murim_field_combat':('qa/v5/murim_field_combat.gd','V5_MURIM_FIELD_COMBAT ',None),
+ 'skill_runtime_sweep':('qa/v5/skill_runtime_sweep.gd','V5_SKILL_RUNTIME_SWEEP ',None),
+ 'terrain_water':('qa/v5/terrain_water.gd','V5_TERRAIN_WATER ',None),
  'reported_bugs':('qa/v5/reported_bugs.gd','V5_REPORTED_BUGS ',None),
  'drive_updates':('qa/v5/drive_updates.gd','V5_DRIVE_UPDATES ',None),
  'interior_safety':('qa/v5/interior_safety.gd','V5_INTERIOR_SAFETY ',None),
@@ -30,7 +32,7 @@ version=subprocess.check_output([a.godot,'--version'],text=True,env=version_env)
 if not version.startswith('4.6.2.stable.official.'):raise SystemExit('Required official Godot 4.6.2; received '+version)
 rows=[]
 for name in a.suite or SUITES:
- script,marker,result_file=SUITES[name];env=dict(os.environ,XDG_DATA_HOME=str(out/'userdata'/name),XDG_CONFIG_HOME=str(out/'config'),XDG_CACHE_HOME=str(out/'cache'));cmd=[a.godot,'--headless','--fixed-fps','60','--path',str(ROOT),'--script','res://'+script];start_ns=time.time_ns();start=time.monotonic();log=out/(name+'.log')
+ script,marker,result_file=SUITES[name];suite_cache=out/'cache'/name;suite_cache.mkdir(parents=True,exist_ok=True);env=dict(os.environ,XDG_DATA_HOME=str(out/'userdata'/name),XDG_CONFIG_HOME=str(out/'config'),XDG_CACHE_HOME=str(suite_cache));cmd=[a.godot,'--headless','--fixed-fps','60','--path',str(ROOT),'--script','res://'+script];start_ns=time.time_ns();start=time.monotonic();log=out/(name+'.log')
  with log.open('w') as f:
   try:code=subprocess.run(cmd,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=180).returncode
   except subprocess.TimeoutExpired:code=124

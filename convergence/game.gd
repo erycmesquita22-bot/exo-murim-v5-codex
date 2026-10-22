@@ -731,6 +731,15 @@ func rescue_from_missing_adventure_floor(delta: float) -> void:
 func is_safe(point: Vector3) -> bool:
 	if current_region>=0:return active_region.data.spec.kind=="settlement"
 	return super.is_safe(point)
+func wading_factor() -> float:
+	if current_region<0 or not is_instance_valid(active_region) or not is_instance_valid(player):return 1.0
+	var data:RefCounted=active_region.data
+	var point:=Vector2(player.position.x,player.position.z)
+	if data.road_distance(point)<5.0:return 1.0
+	for river in data.rivers:
+		var center:Vector2=Geometry2D.get_closest_point_to_segment(point,data.river_hub,river.p)
+		if point.distance_to(center)<data.river_half_width(river)-0.2 and player.position.y<data.river_level(river,point)+0.35:return 0.72
+	return 1.0
 func new_journey() -> void:
 	if changing_region:return
 	lifecycle_epoch+=1

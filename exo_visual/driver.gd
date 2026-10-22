@@ -134,7 +134,7 @@ func _apply_region(settings: Dictionary) -> void:
    touched[mat.get_instance_id()]=true
    if mat.shader!=terrain_shader:
     var previous_params: Dictionary={}
-    for uniform_name in ["voxel_grid_strength","forge_grass_dirt_mask","forge_dirt_stone_mask","forge_stone_grass_mask","natural_rock_tex","forge_r3_indices","ground_tex","road_tex","blend0","blend1","blend2","blend3","foliage_uv_scale","macro_seed","forge_grass_atlas","forge_dirt_atlas","forge_stone_atlas","forge_detail_atlas","forge_enabled","forge_region_offset","forge_world_seed","forge_biome_mode","forge_stone_road","forge_mix_strength"]:
+    for uniform_name in ["voxel_grid_strength","terrain_reference_height","forge_grass_dirt_mask","forge_dirt_stone_mask","forge_stone_grass_mask","natural_rock_tex","forge_r3_indices","ground_tex","road_tex","blend0","blend1","blend2","blend3","foliage_uv_scale","macro_seed","forge_grass_atlas","forge_dirt_atlas","forge_stone_atlas","forge_detail_atlas","forge_enabled","forge_region_offset","forge_world_seed","forge_biome_mode","forge_stone_road","forge_mix_strength"]:
      previous_params[uniform_name]=mat.get_shader_parameter(uniform_name)
     mat.shader=terrain_shader
     for uniform_name in previous_params:

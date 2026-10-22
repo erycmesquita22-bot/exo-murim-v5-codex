@@ -21,6 +21,7 @@ uniform vec2 forge_region_offset = vec2(0.0);
 uniform float forge_biome_mode = 0.0; // 0=grass, 1=dirt, 2=rocky
 uniform float forge_stone_road = 0.0;
 uniform float voxel_grid_strength : hint_range(0.0,0.25)=0.095;
+uniform float terrain_reference_height=0.0;
 uniform sampler2D forge_grass_dirt_mask : EXO_TERRAIN_FILTER, repeat_enable;
 uniform sampler2D forge_dirt_stone_mask : EXO_TERRAIN_FILTER, repeat_enable;
 uniform sampler2D forge_stone_grass_mask : EXO_TERRAIN_FILTER, repeat_enable;
@@ -161,6 +162,15 @@ void fragment(){
   float cliff_weight=1.0-smoothstep(0.45,0.80,nrm.y);
   ALBEDO=mix(ALBEDO,cliff,cliff_weight);
  }
+ // Elevation reads as stacked terraces. The actual mesh and collision stay
+ // continuous; only the slope-facing material receives height cues.
+ float uphill=clamp((terrain_world_position.y-terrain_reference_height)/34.0,-1.0,1.0);
+ float slope=1.0-smoothstep(0.76,0.97,abs(normalize(terrain_world_normal).y));
+ float band=fract((terrain_world_position.y-terrain_reference_height)/1.5);
+ float edge_width=max(fwidth(terrain_world_position.y/1.5),0.012);
+ float ledge=1.0-smoothstep(0.02,0.02+edge_width,band);
+ float terrace_light=smoothstep(0.02,0.28,band)-smoothstep(0.68,0.98,band);
+ ALBEDO*=1.0+uphill*0.055+slope*(terrace_light*0.065-ledge*0.13);
  ROUGHNESS=0.94;
  // Subtle one-meter block grid, anti-aliased and continuous across chunks.
  vec2 grid_p=terrain_world_position.xz;

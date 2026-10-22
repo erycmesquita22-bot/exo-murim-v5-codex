@@ -420,6 +420,7 @@ func _physics_process(delta: float) -> void:
 	var sprint:=Input.is_action_pressed("sprint")
 	var speed: float=(6.8 if sprint else 4.4)*(1.08 if race_body()=="feline" else 1.0)
 	speed*=1+equipment_stat("move_pct")
+	if has_method("wading_factor"):speed*=float(call("wading_factor"))
 	if activity!=null and activity.aligning():
 		var approach: Vector3=activity.approach_velocity(delta)
 		player.velocity.x=approach.x;player.velocity.z=approach.z

@@ -58,3 +58,7 @@ Casas modulares originais Forja, distritos compactos com preenchimento de lotes 
 ### Mundo e combate Murim
 
 Perímetro protegido dos recintos, fauna regional em grupos por espécie, linhas de blocos no terreno, táticas físicas e prólogo com técnicas, efeitos e áudio. Implementação, pesquisa, evidências e limites: [MURIM-UPDATE](docs/v5/MURIM-UPDATE.md). A versão atual deve ser extraída em pasta nova.
+
+### Relevo, água e técnicas
+
+Encostas exibem faixas de altura para mostrar a subida; rios têm margens rasas, fluxo alinhado e travessia mais lenta com passos na água. As 16 técnicas legadas foram verificadas individualmente em runtime; a Tração de Qi foi corrigida para funcionar acima do nível Y=0. Inimigos comuns selecionados usam técnicas existentes, além dos combatentes NPC do prólogo. O Skill Forge tem 168 fichas autorais: 70 com adaptador e host do jogador sujeitos a requisitos de treino/progressão; 98 não têm adaptador de jogo. O host atual não aceita NPCs/inimigos. Consulte [RELIEF-WATER-SKILLS](docs/v5/RELIEF-WATER-SKILLS.md) e as suítes `terrain_water`, `skill_runtime_sweep` e `murim_field_combat`.
