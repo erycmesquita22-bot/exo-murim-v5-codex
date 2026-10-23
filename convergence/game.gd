@@ -98,7 +98,8 @@ func _ready() -> void:
 	cover_layer.add_child(_resume_return_button)
 	# An explicit new journey starts fresh, without loading the previous save.
 	# Boot selection belongs to the destination scene, not the menu being freed.
-	var boot_mode: String = MenuBoot.take()
+	var boot_context: Node=get_node_or_null("/root/MenuBoot")
+	var boot_mode: String=str(boot_context.call("take")) if boot_context!=null else "continue"
 	if boot_mode == "new":
 		load_on_start = false
 	super._ready()
@@ -643,13 +644,16 @@ func interact() -> void:
 			if economy_host_v4!=null and economy_host_v4.handle_interaction(actor):return
 			actor.rig.rotation.y=atan2(actor.position.x-player.position.x,actor.position.z-player.position.z)
 			var offers_text: String=""
+			var offers: Array=[]
 			if journey_manager!=null:
-				var offers: Array=journey_manager.options(actor.identity)
-				if not offers.is_empty():offers_text="\n\nContratos disponíveis: %d. Abra P > MISSÕES próximo a este morador."%offers.size()
+				offers=journey_manager.options(actor.identity)
 			var social: Dictionary=NarrativeBridge.context_for(journey.data,atlas,str(actor.identity.id),float(extension().get("clock",0.0))) if not atlas.is_empty() else {}
-			if bool(social.get("attacked",false)):offers_text+="\nO morador reconhece sua hostilidade."
-			elif bool(social.get("helped",false)):offers_text+="\nO morador recorda sua ajuda."
-			ui.dialogue(str(actor.identity.display_name),"%s • nível %d\n%s%s"%[role_title(str(actor.identity.role)),int(actor.identity.level),npc_activity_label(actor.activity_name),offers_text+activation_v4.npc_dialogue(actor)])
+			if bool(social.get("attacked",false)):offers_text="Sua presença deixa o morador em alerta."
+			elif bool(social.get("helped",false)):offers_text="O morador reconhece sua ajuda."
+			var actions: Array=[]
+			if not offers.is_empty():
+				actions.append({"label":"VER CONTRATOS (%d)"%offers.size(),"action":func():ui.resume();ui.exo.open("jornada")})
+			ui.dialogue_actions(str(actor.identity.display_name),"%s  •  Nível %d\n%s\n%s"%[role_title(str(actor.identity.role)),int(actor.identity.level),npc_activity_label(actor.activity_name),offers_text],actions)
 			save_progress();return
 	for gate in active_region.gate_nodes:
 		if player.position.distance_to(gate.point)<8:change_region(int(gate.contract.neighbor),str(gate.contract.id));return

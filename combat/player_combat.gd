@@ -41,10 +41,10 @@ func update_attack(delta: float) -> void:
 	if world.attack_time<0:
 		return
 	world.attack_time+=delta
-	if not whooshed and world.attack_time>=world.attack_hit-.06:
+	if not whooshed and world.attack_time>=maxf(0.0,world.attack_hit-.10):
 		whooshed=true
 		if world.combo_index==(3 if world.attack_spec.pose=="unarmed" else 2):world.audio_fx.actor_voice(world.model,true)
-		if not world.attack_spec.ranged:world.audio_fx.play_event("punch" if world.attack_spec.pose in ["fists","unarmed"] else "blunt_swing" if world.attack_spec.pose in ["staff","pole","crush"] else "swing","combat",.55)
+		if not world.attack_spec.ranged:world.audio_fx.play_event("punch" if world.attack_spec.pose in ["fists","unarmed"] else "blunt_swing" if world.attack_spec.pose in ["staff","pole","crush"] else "swing","combat",.42)
 	if world.attack_time>=world.attack_hit and not world.attack_landed:
 		world.attack_landed=true
 		if world.attack_spec.ranged:
@@ -84,7 +84,7 @@ func start_dash(movement: Vector3=Vector3.ZERO) -> bool:
 	world.roll_time=0
 	world.roll_cooldown=maxf(.55,world.ROLL_COOLDOWN-(.15 if world.race_body()=="dark" else .1 if world.race_body()=="raven" else 0)-world.attribute("agilidade")*.01)
 	world.dodges+=1
-	world.audio_fx.play_event("evade","combat",.32)
+	world.audio_fx.play_event("dodge","combat",.16)
 	# Snapshot the approved articulated rig; pure visual geometry, no collision or gameplay.
 	if world.graphics!=null and int(world.graphics.values.afterimages)>0:
 		preload("res://exo_visual/afterimage.gd").spawn(world)

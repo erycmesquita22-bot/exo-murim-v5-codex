@@ -276,12 +276,15 @@ func step(delta: float) -> void:
 			world.damage_player(14,{"heavy":true})
 	if attack_time<0 and direction.length()>0.1:
 		rig.rotation.y=atan2(-direction.x,-direction.z)
-	rig.pose(world.elapsed,false,false,is_on_floor(),clampf(attack_time/(windup_time()+0.36),0,1) if attack_time>=0 else -1)
+	var motion_progress: float=-1.0
+	if attack_time>=0:
+		motion_progress=clampf(attack_time/maxf(.01,windup_time())*.52,0,.52) if attack_time<windup_time() else lerpf(.52,1.0,clampf((attack_time-windup_time())/.24,0,1))
+	rig.pose(world.elapsed,false,false,is_on_floor(),motion_progress)
 	rig.locomotion(get_real_velocity(),delta,false,is_on_floor(),attack_time<0)
-	if attack_time>=0 and attack_kind=="orb":
+	if attack_time>=0 and attack_kind in ["orb","skill"] and kind in ["mage","boss"]:
 		rig.skill_pose(1,minf(0.4,attack_time),false,0)
-	if kind=="blade":
-		world.Arsenal.animate(rig,weapon_profile(),pattern%3,attack_time/(windup_time()+.36) if attack_time>=0 else -1)
+	else:
+		world.Arsenal.animate(rig,weapon_profile(),pattern%3,motion_progress)
 	world.Anatomy.animate(rig,world.elapsed,velocity.length(),is_on_floor())
 	if art!=null:
 		art.step(world.elapsed,phase_two,hit_flash)

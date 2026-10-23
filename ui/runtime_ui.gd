@@ -42,7 +42,7 @@ func _ready() -> void:
 	modal_title=label(dialogue_col,"",23)
 	modal_body=label(dialogue_col,"",17);modal_body.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;modal_body.custom_minimum_size.x=500
 	modal_actions=VBoxContainer.new();dialogue_col.add_child(modal_actions)
-	button(dialogue_col,"CONTINUAR",resume)
+	button(dialogue_col,"ENCERRAR CONVERSA",resume)
 	modal.hide()
 func settings_from_pause() -> void:
 	if world.flow.phase=="adventure":world.ui.show_extra(false);world.ui.exo.open("config")
@@ -51,7 +51,7 @@ func overlay(parent: Node) -> Control:
 	var result:=Control.new();parent.add_child(result)
 	result.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var shade:=ColorRect.new();result.add_child(shade)
-	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT);shade.color=Color(.02,.03,.045,.85)
+	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT);shade.color=Color(.10,.06,.045,.78)
 	return result
 func menu_column(parent: Control,width: float) -> VBoxContainer:
 	var center:=CenterContainer.new();parent.add_child(center);center.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

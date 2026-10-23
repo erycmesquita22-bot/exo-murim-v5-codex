@@ -41,7 +41,7 @@ func build() -> void:
 		item.disabled=menu.world.flow.phase!="adventure" and i!=4
 		nav_buttons.append(item)
 	var space:=Control.new();nav.add_child(space);space.size_flags_vertical=Control.SIZE_EXPAND_FILL
-	menu.text(nav,"P / Esc • voltar ao mundo",11,158).modulate=Color("91a6ac")
+	menu.text(nav,"P / Esc • voltar ao mundo",11,158).modulate=Color("c7ad8b")
 	exit_button=menu.button(nav,"VOLTAR AO MUNDO" if menu.world.flow.phase=="adventure" else "VOLTAR AO PRÓLOGO",menu.close_menu,158)
 	var right:=VBoxContainer.new();row.add_child(right)
 	right.size_flags_horizontal=Control.SIZE_EXPAND_FILL
@@ -70,7 +70,7 @@ func navigate(page: String) -> VBoxContainer:
 	menu.clear(body);menu.clear(tabs)
 	menu.preview=null
 	menu.world.ui.preview=null
-	caption.text="CENTRAL DO AVENTUREIRO"
+	caption.text="CRÔNICAS DO MURIM"
 	coins.text="MOEDAS  %d"%menu.world.journey.data.coins
 	group=-1
 	for i in range(ROUTES.size()):

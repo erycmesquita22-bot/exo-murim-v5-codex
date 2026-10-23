@@ -15,12 +15,12 @@ var world: Node3D
 func _init(owner_ui: CanvasLayer) -> void:ui=owner_ui;world=ui.world
 func show_creator() -> void:
 	var col: VBoxContainer=ui.begin_screen("creator")
-	ui.title(col,"UM NOVO NOME NAS CRÔNICAS",29)
+	ui.title(col,"FORJE SEU CAMINHO NO MURIM",29)
 	col.add_theme_constant_override("separation",8)
 	var tabs:=HBoxContainer.new();col.add_child(tabs)
-	for i in range(3):
-		var tab: Button=ui.button(tabs,["01  ORIGEM","02  APARÊNCIA","03  CONFIRMAR"][i],func():ui.creation_tab=i;show_creator())
-		tab.custom_minimum_size.x=210;tab.modulate=Color("d5ba80") if i==ui.creation_tab else Color.WHITE
+	for i in range(4):
+		var tab: Button=ui.button(tabs,["01  IDENTIDADE","02  APARÊNCIA","03  CULTIVO","04  JORNADA"][i],func():ui.creation_tab=i;show_creator())
+		tab.custom_minimum_size.x=190;tab.modulate=Color("e7c18b") if i==ui.creation_tab else Color.WHITE
 	var row:=HBoxContainer.new();col.add_child(row);row.add_theme_constant_override("separation",38)
 	var left:=VBoxContainer.new();row.add_child(left);left.custom_minimum_size.x=525;left.add_theme_constant_override("separation",5)
 	ui.race_description=null;ui.path_description=null
@@ -34,6 +34,7 @@ func show_creator() -> void:
 		scroll.add_child(options)
 		options.add_theme_constant_override("separation",6)
 		appearance(options)
+	elif ui.creation_tab==2:martial_path(left)
 	else:summary(left)
 	var right:=VBoxContainer.new();row.add_child(right);right.size_flags_horizontal=Control.SIZE_EXPAND_FILL
 	ui.make_preview(right,ui.profile,Vector2(450,370))
@@ -43,18 +44,24 @@ func show_creator() -> void:
 		var chosen: String=pose_name
 		ui.button(pose_controls,{"idle":"Parado","walk":"Caminhar","attack":"Ataque"}[chosen],func():ui.preview_root.preview_pose=chosen)
 
-	ui.creator_notice=ui.paragraph(col,"A ancestralidade fica vinculada a esta jornada. Outras armas e técnicas são descobertas no mundo.",14,1000)
+	ui.creator_notice=ui.paragraph(col,"Sua origem acompanha esta jornada. Armas e técnicas novas são aprendidas no mundo.",14,1000)
 	var actions:=HBoxContainer.new();col.add_child(actions)
 	if ui.creation_tab>0:ui.button(actions,"ANTERIOR",func():ui.creation_tab-=1;show_creator()).custom_minimum_size.x=230
-	if ui.creation_tab<2:ui.button(actions,"CONTINUAR",func():ui.creation_tab+=1;show_creator()).custom_minimum_size.x=300
+	if ui.creation_tab<3:ui.button(actions,"CONTINUAR",func():ui.creation_tab+=1;show_creator()).custom_minimum_size.x=300
 	else:ui.button(actions,"DESPERTAR NA ALDEIA",confirm_character).custom_minimum_size.x=420
 func origin(parent: Node) -> void:
+	ui.title(parent,"IDENTIDADE",22)
+	ui.paragraph(parent,"Escolha seu nome e sua ancestralidade. Sua aparência e seu caminho marcial vêm em seguida.",15,520)
 	ui.name_field=LineEdit.new();parent.add_child(ui.name_field)
 	ui.name_field.text=ui.profile.name;ui.name_field.placeholder_text="Nome do personagem";ui.name_field.max_length=24
 	ui.name_field.custom_minimum_size=Vector2(520,36)
 	ui.name_field.text_changed.connect(func(value: String):ui.profile.name=value)
 	ui.selector(parent,"Ancestralidade",world.flow.RACES,ui.profile.race,func(i: int):ui.profile.race=i;update_profile())
 	ui.race_description=ui.paragraph(parent,Catalog.RACES[int(ui.profile.race)].description,15,520)
+
+func martial_path(parent: Node) -> void:
+	ui.title(parent,"CAMINHO MARCIAL",22)
+	ui.paragraph(parent,"O caminho define seu primeiro estilo de combate. A arma inicial pode ser trocada durante a jornada.",15,520)
 	ui.selector(parent,"Caminho",world.flow.PATHS,ui.profile.path,func(i: int):ui.profile.path=i;ui.profile.weapon=["sword","arcane_staff","gauntlets"][i];show_creator())
 	ui.path_description=ui.paragraph(parent,path_description(),15,520)
 	var ids: Array=["sword","spear","bow","arcane_staff","gauntlets"]
@@ -64,7 +71,7 @@ func origin(parent: Node) -> void:
 	ui.selector(parent,"Afinidade",Catalog.ELEMENTS,int(ui.profile.get("element",6)),func(i: int):ui.profile.element=i;update_profile())
 func appearance(parent: Node) -> void:
 	ui.title(parent,"SEU ESTILO NO MURIM",22)
-	ui.paragraph(parent,"EXO Murim · Refit 01: novo corpo voxel, roupas marciais e encaixes de arma. Skins 64×64 e camadas externas continuam compatíveis.",14,520)
+	ui.paragraph(parent,"Combine traços, roupas e acessórios para criar um artista marcial próprio. A prévia mostra como o personagem se move e luta.",14,520)
 	var categories:=HBoxContainer.new();parent.add_child(categories)
 	for i in range(4):
 		ui.button(categories,["Traços","Vestuário","Acessórios","Armaduras"][i],func():ui.appearance_tab=i;show_creator())

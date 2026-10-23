@@ -162,7 +162,8 @@ static func equip(rig: Node3D,id: String) -> void:
 		if spec.pose in ["heavy","pole","reap","staff","focus","crush"]:
 			item.rotation.x=PI * 0.50
 		elif spec.pose in ["blade","draw","thrust","dual"]:
-			item.rotation.x=PI * 0.30
+			# The blade rises from the real wrist instead of crossing the back.
+			item.rotation.x=PI * 0.46
 		elif spec.pose=="reverse":
 			item.rotation.x=-PI * 0.25
 		# This local transform is restored by martial_motion when pose blends end.
@@ -292,12 +293,20 @@ static func grip(rig: Node3D, index: int, target: Vector3) -> void:
 	if distance < 0.001:
 		return
 	var segment_length: float = 0.375
-	var reach: float = minf(distance, segment_length * 2.0 - 0.002)
-	var bend: float = 2.0 * acos(clampf(reach / (segment_length * 2.0), 0.0, 1.0))
+	var reach: float = clampf(distance,0.01, segment_length * 2.0 - 0.002)
+	var aim: Vector3=offset.normalized()
+	var pole: Vector3=Vector3(0,0,-1) - aim*aim.dot(Vector3(0,0,-1))
+	if pole.length_squared()<0.001:pole=Vector3.UP-aim*aim.dot(Vector3.UP)
+	pole=pole.normalized()
+	var along: float=reach*0.5
+	var outward: float=sqrt(maxf(0.0,segment_length*segment_length-along*along))
+	var elbow_point: Vector3=arm.position+aim*along+pole*outward
+	var upper_direction: Vector3=(elbow_point-arm.position).normalized()
+	var lower_direction: Vector3=(arm.position+aim*reach-elbow_point).normalized()
 	arm.scale = Vector3.ONE
 	elbow.scale = Vector3.ONE
-	arm.quaternion = Quaternion(Vector3.DOWN, offset.normalized()) * Quaternion(Vector3.RIGHT, -bend * 0.5)
-	elbow.rotation = Vector3(bend, 0.0, 0.0)
+	arm.quaternion = Quaternion(Vector3.DOWN,upper_direction)
+	elbow.quaternion = Quaternion(Vector3.DOWN,arm.quaternion.inverse()*lower_direction)
 
 # For two-handed melee weapons, both wrists must contact the same shaft.
 # The primary grip is solved first; the secondary wrist targets a point on
@@ -310,7 +319,7 @@ static func _two_hand_grip(rig: Node3D, spec: Dictionary) -> void:
 	if not (root_value is Node3D) or not is_instance_valid(root_value):
 		return
 	var weapon_root: Node3D = root_value as Node3D
-	# This torso-local target is reachable by the original 2 x 0.375m limbs.
+	# Bring the primary wrist into a reproducible guard before placing the shaft.
 	grip(rig, 0, Vector3(-0.10, 0.39, -0.43))
 	# Position the off-hand on the actual shaft, not in empty space.
 	var target_global: Vector3 = weapon_root.to_global(Vector3(0, 0, -0.21))

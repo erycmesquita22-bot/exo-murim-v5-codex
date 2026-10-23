@@ -16,6 +16,9 @@ var variants: Dictionary={}
 var actor_cooldowns: Dictionary={}
 var step_distance:=0.0
 var last_step:=Vector3.ZERO
+var movement_gain:=0.0
+var movement_target:=0.0
+const CUE_ONSET: Dictionary={"punch":1.87,"combat.fist.swing":1.87,"fist_hit":0.32,"combat.fist.hit":0.32,"swing":0.22,"weapon.sword.swing_light":0.22}
 var path:="user://exo-audio.cfg"
 func _ready() -> void:
 	process_mode=Node.PROCESS_MODE_ALWAYS
@@ -56,6 +59,13 @@ func _ready() -> void:
 		voice.bus="EXO"
 		add_child(voice)
 		voices.append(voice)
+func _process(delta: float) -> void:
+	if voices.size()<18:return
+	var voice: AudioStreamPlayer=voices[17]
+	movement_gain=move_toward(movement_gain,movement_target,delta*(1.5 if movement_target>movement_gain else 2.8))
+	if voice.playing:
+		voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.ambience*movement_gain))+float(voice.get_meta("cue_gain",0.0))
+		if movement_target<=0.0 and movement_gain<=0.001:voice.stop()
 func play_event(event: String,group: String="combat",strength: float=1.0) -> void:
 	if not BANK.has(event) or voices.is_empty():return
 	group=event_group(event,group)
@@ -82,7 +92,8 @@ func play_event(event: String,group: String="combat",strength: float=1.0) -> voi
 	voice.set_meta("strength",strength)
 	voice.set_meta("cue_gain",float(event_gain.get(event,0.0)))
 	voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.get(group,.8)*strength))+float(event_gain.get(event,0.0))
-	voice.play()
+	var onset: float=float(CUE_ONSET.get(event,0.0))
+	voice.play(minf(onset,maxf(0.0,voice.stream.get_length()-0.04)))
 	played+=1
 	history.append(event)
 	if history.size()>64:history.pop_front()
@@ -160,8 +171,7 @@ func impact(material: String,context: Dictionary={}) -> void:
 
 func stop_movement() -> void:
 	if voices.size()>17:
-		voices[17].stop()
-		voices[17].set_meta("movement_event","")
+		movement_target=0.0
 
 func movement_surface() -> String:
 	var host: Node=get_parent()
@@ -184,14 +194,16 @@ func steps(position_value: Vector3,grounded: bool,moving: bool) -> void:
 		stop_movement();return
 	var event: String={"grass":"foot.grass.walk","dirt":"foot.dirt.run","stone":"foot.stone.walk","wood":"foot.wood.walk","gravel":"foot.gravel.run","water":"foot.water.shallow","leaf":"foot.leaf.walk"}.get(movement_surface(),"foot.grass.walk")
 	var voice: AudioStreamPlayer=voices[17]
+	movement_target=0.15 if event=="foot.grass.walk" else 0.19
 	if voice.playing and voice.get_meta("movement_event","")==event:return
 	var path_value: String=str(forge_events[event].path)
 	var stream: AudioStreamOggVorbis=cache[path_value].duplicate()
 	stream.loop=true
 	voice.stream=stream;voice.pitch_scale=1.0
 	voice.set_meta("movement_event",event);voice.set_meta("group","ambience")
-	voice.set_meta("strength",0.45);voice.set_meta("cue_gain",float(event_gain[event]))
-	voice.volume_db=linear_to_db(maxf(.0001,groups.master*groups.ambience*0.45))+float(event_gain[event])
+	voice.set_meta("strength",movement_target);voice.set_meta("cue_gain",float(event_gain[event]))
+	movement_gain=0.0
+	voice.volume_db=-80.0
 	voice.play();played+=1;history.append(event)
 	if history.size()>64:history.pop_front()
 
