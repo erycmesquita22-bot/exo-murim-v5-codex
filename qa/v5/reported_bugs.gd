@@ -101,6 +101,7 @@ func run() -> void:
     w.audio_fx.steps(original,true,true)
     check(w.audio_fx.voices[17].playing and str(w.audio_fx.voices[17].get_meta("movement_event","")).begins_with("foot."),"real_footstep_stream_started")
     w.audio_fx.steps(original,true,false)
+    await frames(12) # Movement audio fades out over at most 70ms instead of cutting.
     check(not w.audio_fx.voices[17].playing,"footsteps_stop_when_stationary")
     # The actual portal carries a visual membrane and E performs real travel.
     var gate: Dictionary=region.gate_nodes[0]

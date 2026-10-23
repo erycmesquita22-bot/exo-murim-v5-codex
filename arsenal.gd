@@ -295,7 +295,7 @@ static func grip(rig: Node3D, index: int, target: Vector3) -> void:
 	var segment_length: float = 0.375
 	var reach: float = clampf(distance,0.01, segment_length * 2.0 - 0.002)
 	var aim: Vector3=offset.normalized()
-	var pole: Vector3=Vector3(0,0,-1) - aim*aim.dot(Vector3(0,0,-1))
+	var pole: Vector3=Vector3.BACK - aim*aim.dot(Vector3.BACK)
 	if pole.length_squared()<0.001:pole=Vector3.UP-aim*aim.dot(Vector3.UP)
 	pole=pole.normalized()
 	var along: float=reach*0.5

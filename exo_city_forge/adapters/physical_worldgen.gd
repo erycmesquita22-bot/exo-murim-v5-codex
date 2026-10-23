@@ -129,9 +129,11 @@ static func fill_neighborhoods(data:RefCounted,source:Dictionary)->Dictionary:
  # Infill belongs to the same approved City Forge plan, never a second builder.
  var result:Dictionary=source.duplicate(true)
  var scale_name:String=str(data.spec.settlement_scale)
- var target:int=10 if scale_name=="village" else 26 if scale_name=="town" else 48
+ var target:int=12 if scale_name=="village" else 32 if scale_name=="town" else 64
  var roads:Array=result.streets.duplicate()
- roads.sort_custom(func(a,b):return int(str(a.kind)!="district")<int(str(b.kind)!="district"))
+ roads.sort_custom(func(a,b):
+  var rank_a:int=int(str(a.kind)!="district");var rank_b:int=int(str(b.kind)!="district")
+  return rank_a<rank_b if rank_a!=rank_b else ((a.a+a.b)*.5).length_squared()<((b.a+b.b)*.5).length_squared())
  for road in roads:
   if result.lots.size()>=target:break
   if str(road.kind) in ["gate","arrival"]:continue

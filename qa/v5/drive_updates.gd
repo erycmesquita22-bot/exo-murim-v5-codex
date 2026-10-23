@@ -99,7 +99,7 @@ func run() -> void:
     check(terrain_connected,"restored_terrain_atlas_bound_to_actual_shader")
     var active_forge_models: int=0
     for node in w.active_region.find_children("*","Node3D",true,false):
-        if node.has_meta("forja_visual_assets"):active_forge_models+=1
+        if node.get_meta("forja_house_template","")=="godot/modular_kit.gd:build_house/murim_blue/6/2" and node.get_node_or_null("ForjaCompleteVisual")!=null:active_forge_models+=1
     check(active_forge_models>0,"forja_models_mounted_in_settlement")
     var profile: Dictionary=w.residents[0].identity.duplicate(true)
     var proxy: Node3D=Proxy.new();root.add_child(proxy)

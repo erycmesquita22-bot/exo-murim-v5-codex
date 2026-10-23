@@ -1,0 +1,48 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+EXO_GRIP sword phase=-1.0 handL=(-0.413054, 0.720968, 0.000312) handR=(0.413054, 0.720968, 0.000312) grip=(-0.412039, 0.740564, -0.0349) left_distance=0.04031128063798 right_distance=0.82607662677765
+EXO_GRIP sword phase=0.25 handL=(-0.138629, 0.956338, -0.673958) handR=(0.37464, 0.720968, 0.173949) grip=(-0.112458, 0.985089, -0.663306) left_distance=0.0403112731874 right_distance=1.00400185585022
+EXO_GRIP sword phase=0.75 handL=(-0.434345, 0.934739, 0.717236) handR=(0.340652, 0.720968, -0.233601) grip=(-0.462336, 0.963052, 0.71092) left_distance=0.04031130671501 right_distance=1.26313769817352
+EXO_GRIP katana phase=-1.0 handL=(-0.413054, 0.720968, 0.000312) handR=(0.413054, 0.720968, 0.000312) grip=(-0.412039, 0.740564, -0.0349) left_distance=0.04031128063798 right_distance=0.82607662677765
+EXO_GRIP katana phase=0.25 handL=(0.06563, 0.956772, -0.534882) handR=(0.37464, 0.720968, 0.173949) grip=(0.084423, 0.985656, -0.513965) left_distance=0.04031128063798 right_distance=0.79215580224991
+EXO_GRIP katana phase=0.75 handL=(-0.338956, 0.935446, 0.731426) handR=(0.340652, 0.720968, -0.233601) grip=(-0.367588, 0.963802, 0.730336) left_distance=0.04031132161617 right_distance=1.22055268287659
+EXO_GRIP_SUPPORT greatsword phase=-1.0 support_gap=0.00000003332001
+EXO_GRIP greatsword phase=-1.0 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT greatsword phase=0.25 support_gap=0.00000012287812
+EXO_GRIP greatsword phase=0.25 handL=(-0.1, 1.050797, -0.496509) handR=(-0.143831, 1.147814, -0.289648) grip=(-0.122554, 1.083189, -0.488321) left_distance=0.04031130671501 right_distance=0.21000002324581
+EXO_GRIP_SUPPORT greatsword phase=0.75 support_gap=0.00000011920929
+EXO_GRIP greatsword phase=0.75 handL=(-0.1, 1.256624, -0.283429) handR=(-0.143831, 1.238934, -0.055633) grip=(-0.122554, 1.280758, -0.260323) left_distance=0.04031124711037 right_distance=0.21000002324581
+EXO_GRIP dagger phase=-1.0 handL=(-0.413054, 0.720968, 0.000312) handR=(0.413054, 0.720968, 0.000312) grip=(-0.412039, 0.740564, -0.0349) left_distance=0.04031128063798 right_distance=0.82607662677765
+EXO_GRIP dagger phase=0.25 handL=(-0.138629, 0.956338, -0.673958) handR=(0.37464, 0.720968, 0.173949) grip=(-0.112458, 0.985089, -0.663306) left_distance=0.0403112731874 right_distance=1.00400185585022
+EXO_GRIP dagger phase=0.75 handL=(-0.434345, 0.934739, 0.717236) handR=(0.340652, 0.720968, -0.233601) grip=(-0.462336, 0.963052, 0.71092) left_distance=0.04031130671501 right_distance=1.26313769817352
+EXO_GRIP_SUPPORT spear phase=-1.0 support_gap=0.0000000537269
+EXO_GRIP spear phase=-1.0 handL=(-0.1, 1.13535, -0.434172) handR=(-0.159101, 1.214143, -0.21923) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT spear phase=0.25 support_gap=0.00000008940697
+EXO_GRIP spear phase=0.25 handL=(0.032773, 1.13535, -0.536256) handR=(-0.087208, 1.214143, -0.348379) grip=(0.007121, 1.165737, -0.52965) left_distance=0.04031135514379 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT spear phase=0.75 support_gap=0.00000012287812
+EXO_GRIP spear phase=0.75 handL=(0.022892, 1.13535, -0.536874) handR=(-0.092885, 1.214143, -0.346378) grip=(-0.002607, 1.165737, -0.5297) left_distance=0.04031133651733 right_distance=0.21000003814697
+EXO_GRIP_SUPPORT halberd phase=-1.0 support_gap=0.00000003332001
+EXO_GRIP halberd phase=-1.0 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT halberd phase=0.25 support_gap=0.00000002235174
+EXO_GRIP halberd phase=0.25 handL=(0.14763, 1.13535, -0.420369) handR=(-0.007549, 1.193499, -0.257081) grip=(0.121143, 1.165737, -0.420689) left_distance=0.04031135514379 right_distance=0.21000002324581
+EXO_GRIP_SUPPORT halberd phase=0.75 support_gap=0.00000013514129
+EXO_GRIP halberd phase=0.75 handL=(-0.377008, 1.13535, -0.237424) handR=(-0.252321, 1.193499, -0.049815) grip=(-0.38321, 1.165737, -0.211671) left_distance=0.0403113514185 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT quarterstaff phase=-1.0 support_gap=0.00000003332001
+EXO_GRIP quarterstaff phase=-1.0 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT quarterstaff phase=0.25 support_gap=0.00000002235174
+EXO_GRIP quarterstaff phase=0.25 handL=(0.14763, 1.13535, -0.420369) handR=(-0.007549, 1.193499, -0.257081) grip=(0.121143, 1.165737, -0.420689) left_distance=0.04031135514379 right_distance=0.21000002324581
+EXO_GRIP_SUPPORT quarterstaff phase=0.75 support_gap=0.00000013514129
+EXO_GRIP quarterstaff phase=0.75 handL=(-0.377008, 1.13535, -0.237424) handR=(-0.252321, 1.193499, -0.049815) grip=(-0.38321, 1.165737, -0.211671) left_distance=0.0403113514185 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT arcane_staff phase=-1.0 support_gap=0.00000003332001
+EXO_GRIP arcane_staff phase=-1.0 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT arcane_staff phase=0.25 support_gap=0.00000003332001
+EXO_GRIP arcane_staff phase=0.25 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP_SUPPORT arcane_staff phase=0.75 support_gap=0.00000003332001
+EXO_GRIP arcane_staff phase=0.75 handL=(-0.1, 1.13535, -0.434172) handR=(-0.143831, 1.193499, -0.213213) grip=(-0.122554, 1.165737, -0.42028) left_distance=0.0403113476932 right_distance=0.20999996364117
+EXO_GRIP bow phase=-1.0 handL=(-0.06, 1.125028, -0.464062) handR=(-0.06, 1.127783, -0.208077) grip=(-0.06, 1.125028, -0.464062) left_distance=0.00000012202814 right_distance=0.25599998235703
+EXO_GRIP bow phase=0.25 handL=(-0.06, 1.125028, -0.464062) handR=(-0.06, 1.128113, -0.177367) grip=(-0.06, 1.125028, -0.464062) left_distance=0.00000012202814 right_distance=0.28671172261238
+EXO_GRIP bow phase=0.75 handL=(-0.06, 1.125028, -0.464062) handR=(-0.06, 1.129629, -0.036531) grip=(-0.06, 1.125028, -0.464062) left_distance=0.00000012202814 right_distance=0.42755579948425
+EXO_GRIP crossbow phase=-1.0 handL=(-0.04, 1.124813, -0.484061) handR=(0.24, 1.0846, -0.50363) grip=(-0.04, 1.124813, -0.484061) left_distance=0.00000012287812 right_distance=0.28354892134666
+EXO_GRIP crossbow phase=0.25 handL=(-0.04, 1.124813, -0.484061) handR=(0.24, 1.0846, -0.50363) grip=(-0.04, 1.124813, -0.484061) left_distance=0.00000012287812 right_distance=0.28354892134666
+EXO_GRIP crossbow phase=0.75 handL=(-0.04, 1.124813, -0.484061) handR=(-0.072937, 1.152804, -0.515949) grip=(-0.04, 1.124813, -0.484061) left_distance=0.00000012287812 right_distance=0.05371414124966
+EXO_GRIP_QA {"failures":0,"passed":true}

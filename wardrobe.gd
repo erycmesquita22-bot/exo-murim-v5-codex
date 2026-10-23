@@ -24,15 +24,15 @@ static func apply(rig:Node3D,profile:Dictionary)->void:
 	var chosen:Dictionary=profile.duplicate(true)
 	# NPC appearances do not always specify clothing: deterministic visual variation
 	# derived from identity, never from the frame or the saved gameplay schema.
+	var stable:String=str(chosen.get("id",chosen.get("uid",chosen.get("name","npc"))))
 	if not chosen.has("robe"):
-		var stable:String=str(chosen.get("id",chosen.get("uid",chosen.get("name","npc"))))
 		chosen["robe"]=posmod(stable.hash(),ROBES.size())
 	if not chosen.has("haircut"):
-		chosen["haircut"]=posmod(str(chosen).hash(),4)
+		chosen["haircut"]=posmod((stable+"/haircut").hash(),4)
 	if not chosen.has("hair"):
-		chosen["hair"]=posmod(str(chosen).hash(),HAIRS.size())
+		chosen["hair"]=posmod((stable+"/hair").hash(),HAIRS.size())
 	if not chosen.has("outfit"):
-		chosen["outfit"]=posmod(str(chosen).hash(),4)
+		chosen["outfit"]=posmod((stable+"/outfit").hash(),4)
 	var race:Dictionary=Catalog.RACES[clampi(int(chosen.get("race",0)),0,Catalog.RACES.size()-1)]
 	rig.set_meta("surface","metal" if race.body=="mechanical" else "body")
 	rig.set_meta("voice",int(chosen.get("voice",0)))

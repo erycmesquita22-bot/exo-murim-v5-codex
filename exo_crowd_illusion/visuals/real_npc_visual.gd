@@ -25,7 +25,9 @@ func configure(real_profile: Dictionary, ghost_uid: String, seed_text: String) -
     rig = Rig.new()
     add_child(rig)
     var visual_profile:Dictionary=appearance.duplicate(true)
-    visual_profile["id"]=ghost_uid
+    # Wardrobe's skin variation belongs to the source appearance, whereas
+    # the transient crowd token is only its scene identity.
+    visual_profile["id"]=str(real_profile.get("id",ghost_uid))
     visual_profile["role"]=str(identity.get("role","resident"))
     Wardrobe.apply(rig, visual_profile)
     VisualR10.apply_resident(rig, identity, {}, seed_text)

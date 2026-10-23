@@ -1,0 +1,39 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+DRIVE_CHECK 42_regenerated_models_native_instantiate true
+DRIVE_CHECK 42_models_have_lighting_normals true
+DRIVE_CHECK untextured_forja_avoids_black_anisotropic_path true
+DRIVE_CHECK sound_forge_91_events true
+DRIVE_CHECK 91_native_decoded_ogg true
+DRIVE_CHECK mapped_attack_playback true
+DRIVE_CHECK attack_uses_sound_forge_stream true
+DRIVE_CHECK direct_sound_event_playback true
+DRIVE_CHECK creator_style_buttons_present true
+DRIVE_CHECK guard_preset_changes_real_profile true
+DRIVE_CHECK preset_real_preview_geometry true
+DRIVE_CHECK creator_tab:Traços true
+DRIVE_CHECK creator_tab:Acessórios true
+DRIVE_CHECK creator_tab:Armaduras true
+DRIVE_CHECK creator_tab:Vestuário true
+DRIVE_CHECK animated_creator_preview true
+DRIVE_CHECK fighterart_256_profile_texture true
+DRIVE_CHECK create_customized_character true
+DRIVE_CHECK customized_campaign_entry true
+DRIVE_CHECK customization_preserved_in_campaign true
+DRIVE_CHECK restored_terrain_atlas_bound_to_actual_shader true
+DRIVE_CHECK forja_models_mounted_in_settlement true
+DRIVE_CHECK full_rig_ghost_configure true
+DRIVE_CHECK ghost_no_physics_or_interactions true
+DRIVE_CHECK ghost_and_real_npc_texture_identical true
+DRIVE_CHECK ghost_uses_same_rig_script true
+DRIVE_CHECK ghost_keeps_resolved_canonical_wardrobe true
+DRIVE_CHECK ghost_actual_motion true
+DRIVE_GEOMETRY {"ok":true,"revision":"334b58ca48e39eb56ee56a4adccf974238546f41566b89f0384691ff486a2ef5","samples":686,"zones":2} ATTACH {"ghosts":23,"independent":true,"ok":true,"region_id":1,"source":"city_forge_authorized_geometry","urban_areas":{"cf/r4_verified_00":{"district":"institutional","sector_id":"aldeia_estrada_chas/s02"},"cf/r4_verified_01":{"district":"residential","sector_id":"aldeia_estrada_chas/s01"}},"zones":2}
+DRIVE_CROWD_STATUS {"batch_draw_groups":0,"core_bound":true,"density":1.0,"ghosts":23,"hour":10,"last_region_event":1,"mobile":false,"module":"crowd_illusion","notes":[],"region_id":1,"visible":0,"zones":2}
+DRIVE_CHECK hive_attached_real_authorized_lanes true
+DRIVE_CHECK hive_renderer_in_actual_region true
+DRIVE_CHECK hive_visible_full_rigs_in_game_camera true
+DRIVE_CHECK hive_replan_keeps_npc_identity true
+DRIVE_CHECK save_customized_campaign true
+DRIVE_CHECK customization_real_save_reload true
+V5_DRIVE_UPDATES {"checks":[{"name":"42_regenerated_models_native_instantiate","pass":true},{"name":"42_models_have_lighting_normals","pass":true},{"name":"untextured_forja_avoids_black_anisotropic_path","pass":true},{"name":"sound_forge_91_events","pass":true},{"name":"91_native_decoded_ogg","pass":true},{"name":"mapped_attack_playback","pass":true},{"name":"attack_uses_sound_forge_stream","pass":true},{"name":"direct_sound_event_playback","pass":true},{"name":"creator_style_buttons_present","pass":true},{"name":"guard_preset_changes_real_profile","pass":true},{"name":"preset_real_preview_geometry","pass":true},{"name":"creator_tab:Traços","pass":true},{"name":"creator_tab:Acessórios","pass":true},{"name":"creator_tab:Armaduras","pass":true},{"name":"creator_tab:Vestuário","pass":true},{"name":"animated_creator_preview","pass":true},{"name":"fighterart_256_profile_texture","pass":true},{"name":"create_customized_character","pass":true},{"name":"customized_campaign_entry","pass":true},{"name":"customization_preserved_in_campaign","pass":true},{"name":"restored_terrain_atlas_bound_to_actual_shader","pass":true},{"name":"forja_models_mounted_in_settlement","pass":true},{"name":"full_rig_ghost_configure","pass":true},{"name":"ghost_no_physics_or_interactions","pass":true},{"name":"ghost_and_real_npc_texture_identical","pass":true},{"name":"ghost_uses_same_rig_script","pass":true},{"name":"ghost_keeps_resolved_canonical_wardrobe","pass":true},{"name":"ghost_actual_motion","pass":true},{"name":"hive_attached_real_authorized_lanes","pass":true},{"name":"hive_renderer_in_actual_region","pass":true},{"name":"hive_visible_full_rigs_in_game_camera","pass":true},{"name":"hive_replan_keeps_npc_identity","pass":true},{"name":"save_customized_campaign","pass":true},{"name":"customization_real_save_reload","pass":true}],"failures":[],"visible_ghosts_sample":4}

@@ -42,10 +42,11 @@ func run() -> void:
                 var service: Variant=w.active_region.get_meta("worldgen_v5_service")
                 var original_houses: int=0
                 for building in service.get_exterior_root().get_children():
-                    var facade: Node3D=building.get_node_or_null("ForjaOriginalHouse")
-                    if facade!=null and facade.has_meta("host_visual_only"):
+                    var facade: MeshInstance3D=building.get_node_or_null("ForjaCompleteVisual")
+                    var distant: MeshInstance3D=building.get_node_or_null("ForjaDistantLOD")
+                    if facade!=null and distant!=null and building.get_meta("forja_house_template","")=="godot/modular_kit.gd:build_house/murim_blue/6/2":
                         original_houses+=1
-                        check(facade.find_children("*","CollisionObject3D",true,false).is_empty(),"single_collision_owner_"+str(building.name))
+                        check(facade.find_children("*","CollisionObject3D",true,false).is_empty() and building.find_children("*","StaticBody3D",true,false).size()==1,"single_collision_owner_"+str(building.name))
                 check(original_houses==data.lots.size(),"original_forja_facades_%d_%d"%[seed_value,rid])
                 var crowd_zones: Array=w.active_region.get_meta("exo_city_forge_crowd_zones",[])
                 var capacity: int=0

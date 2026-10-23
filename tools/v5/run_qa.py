@@ -4,6 +4,7 @@ from pathlib import Path
 import argparse,json,os,re,subprocess,time,sys
 ROOT=Path(__file__).resolve().parents[2]
 SUITES={
+ 'hud_city':('qa/v5/hud_city.gd','HUD_CITY_RESULT ',None),
  'fauna_regions':('exo_bestiary/tests/qa_c03_r4_regional_fauna.gd','C03_R4_NATIVE_FAUNA ',None),
  'murim_field_combat':('qa/v5/murim_field_combat.gd','V5_MURIM_FIELD_COMBAT ',None),
  'skill_runtime_sweep':('qa/v5/skill_runtime_sweep.gd','V5_SKILL_RUNTIME_SWEEP ',None),

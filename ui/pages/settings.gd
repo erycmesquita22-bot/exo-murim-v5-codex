@@ -74,12 +74,13 @@ func hud_options(parent: Node) -> void:
  var hud_class=preload("res://exo_hud.gd")
  menu.text(parent,"HUD / APRESENTAÇÃO EXO",23)
  for spec in [["style","ESTILO",hud_class.STYLES],["theme","PALETA",hud_class.THEMES],["anchor","POSIÇÃO",hud_class.ANCHORS]]:
+  if int(world.graphics.hud.style)==0 and spec[0] in ["theme","anchor"]:continue
   menu.text(parent,spec[1],16)
   var options:=OptionButton.new()
   parent.add_child(options)
   for value in spec[2]:options.add_item(value)
   options.select(int(world.graphics.hud[spec[0]]))
-  options.item_selected.connect(func(i: int):world.graphics.hud[spec[0]]=i;world.graphics.save_settings())
+  options.item_selected.connect(func(i: int):world.graphics.hud[spec[0]]=i;world.graphics.save_settings();menu.open("hud"))
  for spec in [["scale","ESCALA",.6,1.5,.05],["opacity","OPACIDADE",.2,1.0,.05]]:
   menu.text(parent,spec[1],16)
   var slider:=HSlider.new()

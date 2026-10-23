@@ -258,7 +258,7 @@ func _process(delta: float) -> void:
 	story_clock+=delta
 	story_ready=maxf(0,story_ready-delta)
 	if is_instance_valid(location_panel):
-		var target:=1.0 if not location_label.text.is_empty() and not get_tree().paused and world.flow.phase=="adventure" else 0.0
+		var target:=1.0 if not location_label.text.is_empty() and not get_tree().paused and world.flow.phase=="adventure" and int(world.graphics.hud.style)!=0 else 0.0
 		location_panel.modulate.a=move_toward(location_panel.modulate.a,target,delta*3)
 	if is_instance_valid(trajectory) and world.cultivation!=null and world.flow!=null:
 		trajectory.visible=not get_tree().paused and world.flow.phase=="adventure" and world.cultivation.trajectory()
@@ -310,6 +310,7 @@ func _input(event: InputEvent) -> void:
 func refresh() -> void:
 	super.refresh()
 	if world.flow!=null:
+		prompt.visible=not (world.flow.phase in ["adventure","prologue"] and int(world.graphics.hud.style)==0)
 		# Native EXO-Murim HUD owns the objective tracker during exploration.
 		if is_instance_valid(quest) and is_instance_valid(quest.get_parent().get_parent()):
 			quest.get_parent().get_parent().visible = not (world.flow.phase in ["adventure","prologue"] and int(world.graphics.hud.style)==0)

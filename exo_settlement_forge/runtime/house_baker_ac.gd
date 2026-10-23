@@ -22,15 +22,28 @@ static func _atlas_material(source: Material, img: Image, slot: int) -> void:
 	else:
 		pixels = Image.create(TILE, TILE, false, Image.FORMAT_RGBA8)
 		pixels.fill(Color.WHITE)
+	# Architectural textures carry detail around a mid-gray base. Multiplying
+	# that gray by the palette a second time made plaster and tiles muddy.
+	var normalize_detail: bool=source is StandardMaterial3D and source.resource_name in ["wood","plaster","roof","stone"]
+	var mean_luma: float=0.0
+	if normalize_detail:
+		for y in range(TILE):
+			for x in range(TILE):mean_luma+=pixels.get_pixel(x,y).get_luminance()
+		mean_luma=maxf(.01,mean_luma/float(TILE*TILE))
 	for y in range(TILE):
 		for x in range(TILE):
-			pixels.set_pixel(x,y,pixels.get_pixel(x,y)*col)
+			var pixel: Color=pixels.get_pixel(x,y)
+			if normalize_detail:
+				var detail: float=clampf(pixel.get_luminance()/mean_luma,.65,1.12)
+				pixel=Color(detail,detail,detail,pixel.a)
+			pixels.set_pixel(x,y,pixel*col)
 	img.blit_rect(pixels, Rect2i(0,0,TILE,TILE), Vector2i((slot%TILES_X)*TILE,(slot/TILES_X)*TILE))
 
 static func _combine(root: Node3D) -> Dictionary:
 	var atlas := Image.create(TILES_X*TILE,TILES_Y*TILE,false,Image.FORMAT_RGBA8)
 	atlas.fill(Color(0,0,0,0))
 	var slots: Dictionary = {}
+	var role_uv: Dictionary={}
 	var positions := PackedVector3Array()
 	var normals := PackedVector3Array()
 	var texcoords := PackedVector2Array()
@@ -56,6 +69,7 @@ static func _combine(root: Node3D) -> Dictionary:
 			var tile_id: int = slots[key]
 			var tile_x: int = tile_id%TILES_X
 			var tile_y: int = tile_id/TILES_X
+			if source!=null and not role_uv.has(source.resource_name):role_uv[source.resource_name]=Vector2((float(tile_x)+.5)/TILES_X,(float(tile_y)+.5)/TILES_Y)
 			var arr: Array = visual.mesh.surface_get_arrays(s)
 			var vv: PackedVector3Array = arr[Mesh.ARRAY_VERTEX]
 			var nn: PackedVector3Array = arr[Mesh.ARRAY_NORMAL] if arr[Mesh.ARRAY_NORMAL] is PackedVector3Array else PackedVector3Array()
@@ -89,7 +103,7 @@ static func _combine(root: Node3D) -> Dictionary:
 	var mesh := ArrayMesh.new()
 	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES,arrays)
 	mesh.surface_set_material(0,material)
-	return {"mesh":mesh,"material":material,"triangles":indices.size()/3,"materials_baked":slots.size()}
+	return {"mesh":mesh,"material":material,"triangles":indices.size()/3,"materials_baked":slots.size(),"role_uv":role_uv,"atlas":atlas}
 
 static func _lod_box(st: SurfaceTool,point: Vector3,size: Vector3,uv_center: Vector2) -> void:
 	var cube := BoxMesh.new()
@@ -97,19 +111,33 @@ static func _lod_box(st: SurfaceTool,point: Vector3,size: Vector3,uv_center: Vec
 	var arrays: Array = cube.get_mesh_arrays()
 	var vertex: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
 	var normal: PackedVector3Array = arrays[Mesh.ARRAY_NORMAL]
-	for i in range(vertex.size()):
+	var indices: PackedInt32Array=arrays[Mesh.ARRAY_INDEX]
+	# BoxMesh has 24 shared vertices and 36 triangle indices. Streaming only
+	# its vertices as triples removed faces and produced diagonal holes.
+	for i in indices:
 		st.set_normal(normal[i] if i<normal.size() else Vector3.UP)
 		st.set_uv(uv_center)
 		st.add_vertex(vertex[i]+point)
 
-static func _distant(material: Material) -> Mesh:
+static func _distant(material: Material, roles: Dictionary) -> Mesh:
 	var tool := SurfaceTool.new()
 	tool.begin(Mesh.PRIMITIVE_TRIANGLES)
 	tool.set_material(material)
 	# Distant silhouette: base, wall body and recognizable roof.
-	_lod_box(tool,Vector3(0,.12,0),Vector3(6,.24,4),Vector2(.19,.19))
-	_lod_box(tool,Vector3(0,2.95,0),Vector3(5.8,5.5,3.9),Vector2(.31,.19))
-	_lod_box(tool,Vector3(0,5.9,0),Vector3(6.6,1.15,4.8),Vector2(.55,.19))
+	# Resolve atlas coordinates by meaning. Tile order is not a material API:
+	# old hard-coded UVs sampled wood for walls/roof after batching changed.
+	var stone: Vector2=roles.get("stone",Vector2(.0625,.0625))
+	var plaster: Vector2=roles.get("plaster",stone)
+	var roof: Vector2=roles.get("roof",plaster)
+	var wood: Vector2=roles.get("wood",stone)
+	_lod_box(tool,Vector3(0,.12,0),Vector3(6,.24,4),stone)
+	_lod_box(tool,Vector3(0,2.95,0),Vector3(5.8,5.5,3.9),plaster)
+	for x in [-2.8,0.0,2.8]:_lod_box(tool,Vector3(x,2.95,0),Vector3(.15,5.5,4.0),wood)
+	_lod_box(tool,Vector3(0,3.0,0),Vector3(5.9,.18,4.0),wood)
+	for side in [-1.0,1.0]:
+		var vertices: Array=[Vector3(-3.3,5.6,side*2.4),Vector3(3.3,5.6,side*2.4),Vector3(3.3,6.75,0),Vector3(-3.3,6.75,0)]
+		for i in ([0,2,1,0,3,2] if side>0 else [0,1,2,0,2,3]):
+			tool.set_normal(Vector3(0,2.4,side*1.15).normalized());tool.set_uv(roof);tool.add_vertex(vertices[i])
 	return tool.commit()
 
 static func get_house() -> Dictionary:
@@ -120,7 +148,7 @@ static func get_house() -> Dictionary:
 	if game_tree != null:game_tree.root.add_child(temporary_root)
 	var template: Node3D = Kit.build_house(temporary_root,"murim_blue",6,2,true)
 	var result: Dictionary = _combine(template)
-	if not result.is_empty():result["lod"] = _distant(result.material)
+	if not result.is_empty():result["lod"] = _distant(result.material,result.role_uv)
 	temporary_root.free()
 	if not result.is_empty():cache["murim_blue/6/2"] = result
 	return result

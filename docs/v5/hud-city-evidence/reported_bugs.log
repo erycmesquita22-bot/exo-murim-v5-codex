@@ -1,0 +1,49 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+BUG_CHECK echo_enemies_share_full_textured_appearance true
+BUG_CHECK forward_elbow:bow true
+BUG_CHECK preview_grip_attached:bow true
+BUG_CHECK forward_elbow:crossbow true
+BUG_CHECK preview_grip_attached:crossbow true
+BUG_CHECK forward_elbows_walking true
+ATLAS_NATIVE res://exo_terrain_forge/textures/runtime_atlases/grass_atlas.png (1088.0, 1088.0) expected [1088.0, 1088.0]
+ATLAS_NATIVE res://exo_terrain_forge/textures/runtime_atlases/dirt_atlas.png (1088.0, 1088.0) expected [1088.0, 1088.0]
+ATLAS_NATIVE res://exo_terrain_forge/textures/runtime_atlases/stone_atlas.png (1088.0, 1088.0) expected [1088.0, 1088.0]
+ATLAS_NATIVE res://exo_terrain_forge/textures/runtime_atlases/details_atlas.png (1088.0, 1088.0) expected [1088.0, 1088.0]
+ATLAS_NATIVE res://exo_terrain_forge/textures/runtime_atlases/vegetation_atlas.png (1088.0, 1088.0) expected [1088.0, 1088.0]
+BUG_CHECK atlas_dimensions_match_r3_contract true
+BUG_CHECK campaign_loaded true
+BUG_CHECK all_three_video_filters_preserve_current_terrain_bindings true
+BUG_CHECK npcs_not_all_default_northeast true
+BUG_CHECK continuous_crowd_mounted true
+BUG_CHECK crowd_closed_circuit_no_teleport true
+CONTINUOUS_ROUTE_METERS 194.200003862381
+WARNING: NPC04 blocked corridor npc/r01/cf/r1/s01/b00
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] step (res://npc_system04/actor.gd:232)
+         [1] tick (res://npc_system04/director.gd:38)
+         [2] _physics_process (res://convergence/game.gd:525)
+WARNING: NPC04 blocked corridor npc/r01/cf/r1/s02/b00
+     at: push_warning (core/variant/variant_utility.cpp:1034)
+     GDScript backtrace (most recent call first):
+         [0] step (res://npc_system04/actor.gd:232)
+         [1] tick (res://npc_system04/director.gd:38)
+         [2] _physics_process (res://convergence/game.gd:525)
+BUG_CHECK crowd_still_walking_after_24_seconds true
+BUG_CHECK crowd_no_position_jump true
+BUG_CHECK crowd_not_stacked_at_endpoints true
+BUG_CHECK crowd_distributed_along_road true
+BUG_CHECK footsteps_during_real_player_input true
+BUG_CHECK footsteps_stop_after_input_release true
+BUG_CHECK real_footstep_stream_started true
+BUG_CHECK footsteps_stop_when_stationary true
+BUG_CHECK open_gate_has_visible_portal true
+PORTAL_BEFORE (24.05773, 14.59009, 252.5068) floor true phase adventure expected 42
+PORTAL_AFTER region 42 expected 42 feedback Região 42 • Colinas Folhosas • 1 construções failure 
+BUG_CHECK portal_real_interaction_travels true
+BUG_CHECK wild_region_loaded_for_trees true
+BUG_CHECK trees_grounded_on_actual_mesh:175 true
+BUG_CHECK tree_material_colors_survive_mesh_merge true
+BUG_CHECK dialogue_human_activity_label true
+V5_REPORTED_BUGS {"checks":[{"name":"echo_enemies_share_full_textured_appearance","pass":true},{"name":"forward_elbow:bow","pass":true},{"name":"preview_grip_attached:bow","pass":true},{"name":"forward_elbow:crossbow","pass":true},{"name":"preview_grip_attached:crossbow","pass":true},{"name":"forward_elbows_walking","pass":true},{"name":"atlas_dimensions_match_r3_contract","pass":true},{"name":"campaign_loaded","pass":true},{"name":"all_three_video_filters_preserve_current_terrain_bindings","pass":true},{"name":"npcs_not_all_default_northeast","pass":true},{"name":"continuous_crowd_mounted","pass":true},{"name":"crowd_closed_circuit_no_teleport","pass":true},{"name":"crowd_still_walking_after_24_seconds","pass":true},{"name":"crowd_no_position_jump","pass":true},{"name":"crowd_not_stacked_at_endpoints","pass":true},{"name":"crowd_distributed_along_road","pass":true},{"name":"footsteps_during_real_player_input","pass":true},{"name":"footsteps_stop_after_input_release","pass":true},{"name":"real_footstep_stream_started","pass":true},{"name":"footsteps_stop_when_stationary","pass":true},{"name":"open_gate_has_visible_portal","pass":true},{"name":"portal_real_interaction_travels","pass":true},{"name":"wild_region_loaded_for_trees","pass":true},{"name":"trees_grounded_on_actual_mesh:175","pass":true},{"name":"tree_material_colors_survive_mesh_merge","pass":true},{"name":"dialogue_human_activity_label","pass":true}],"failures":[]}

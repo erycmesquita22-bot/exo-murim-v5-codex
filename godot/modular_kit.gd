@@ -1,6 +1,6 @@
 extends RefCounted
 const PALETTES = {
-	"murim_blue":{"wood":"70503b","plaster":"fff0c3","roof":"667780","stone":"a7a394"},
+	"murim_blue":{"wood":"70503b","plaster":"f4e5c5","roof":"354c63","stone":"a7a394"},
 	"ivory_charcoal":{"wood":"ffffff","plaster":"fff4df","roof":"c6c9c8","stone":"ffffff"},
 	"ochre_terracotta":{"wood":"c7a58a","plaster":"dfbd82","roof":"d9916d","stone":"ddd4c6"},
 	"gray_jade":{"wood":"d2a38c","plaster":"e5e7dd","roof":"7eaf9e","stone":"d6dedb"},
