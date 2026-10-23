@@ -39,9 +39,68 @@ var institutional_root: Node3D
 var institutional_portal: Dictionary={}
 var institutional_cooldown:float=0.0
 var restoring_region:bool=false
+var _resume_pending:bool=false
+var _resume_cover: ColorRect
+var _resume_status: Label
+var _resume_progress: ProgressBar
+var _resume_return_button: Button
 var economy_host_v4: RefCounted
 var martial_host_r8: RefCounted
 func _ready() -> void:
+	# The legacy world is a bootstrap dependency, not the player's saved location.
+	# Keep a full-screen cover until the procedural region AND its interior load.
+	_resume_cover=ColorRect.new()
+	_resume_cover.name="ResumeLoadingCover"
+	_resume_cover.color=Color("080d12")
+	_resume_cover.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	_resume_cover.mouse_filter=Control.MOUSE_FILTER_STOP
+	var cover_layer:=CanvasLayer.new()
+	cover_layer.name="ResumeLoadingLayer"
+	cover_layer.layer=120
+	add_child(cover_layer)
+	cover_layer.add_child(_resume_cover)
+	var paper: TextureRect=TextureRect.new()
+	paper.name="LoadingLandscape"
+	paper.texture=preload("res://main_menu_01/art/voxel_murim_dawn.png")
+	paper.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+	paper.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	paper.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	paper.modulate=Color(.62,.57,.53,.75)
+	paper.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	_resume_cover.add_child(paper)
+	_resume_status=Label.new()
+	_resume_status.text="Preparando sua jornada..."
+	_resume_status.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+	_resume_status.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
+	_resume_status.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
+	_resume_status.position=Vector2(-260,-145)
+	_resume_status.size=Vector2(520,42)
+	_resume_status.add_theme_font_size_override("font_size",22)
+	_resume_status.add_theme_color_override("font_color",Color("ffdfa5"))
+	_resume_status.add_theme_color_override("font_shadow_color",Color(0,0,0,.9))
+	cover_layer.add_child(_resume_status)
+	_resume_progress=ProgressBar.new()
+	_resume_progress.name="WorldLoadingProgress"
+	_resume_progress.max_value=100
+	_resume_progress.value=35
+	_resume_progress.show_percentage=true
+	_resume_progress.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
+	_resume_progress.position=Vector2(-260,-100)
+	_resume_progress.size=Vector2(520,24)
+	cover_layer.add_child(_resume_progress)
+	_resume_return_button=Button.new()
+	_resume_return_button.text="Voltar ao menu"
+	_resume_return_button.visible=false
+	_resume_return_button.set_anchors_and_offsets_preset(Control.PRESET_CENTER_BOTTOM)
+	_resume_return_button.position=Vector2(-100,-90)
+	_resume_return_button.size=Vector2(200,48)
+	_resume_return_button.pressed.connect(func(): get_tree().change_scene_to_file("res://main_menu_01/main_menu.tscn"))
+	cover_layer.add_child(_resume_return_button)
+	# An explicit new journey starts fresh, without loading the previous save.
+	# Boot selection belongs to the destination scene, not the menu being freed.
+	var boot_mode: String = MenuBoot.take()
+	if boot_mode == "new":
+		load_on_start = false
 	super._ready()
 	if true:
 		wg5_visit=preload("res://worldgen_v5/runtime/visit_host.gd").new(self)
@@ -76,7 +135,16 @@ func _ready() -> void:
 	vfx_host_v5=preload("res://convergence/vfx_host_v5.gd").new()
 	if not vfx_host_v5.initialize(self):push_error("v5_vfx_host_binding_failed")
 	convergence_ready=true
-	if journey.data.has("convergence") and flow.phase=="adventure":call_deferred("restore_region")
+	_loading_progress(53,"Serviços do mundo preparados")
+	if flow.phase=="adventure":
+		# Suspend game simulations and autosave until the saved location returns.
+		_resume_pending=true
+		# Do not show the old test village for even one rendered frame.
+		legacy_active(false)
+		call_deferred("restore_region")
+	else:
+		_loading_progress(100,"Criação de personagem pronta")
+		call_deferred("_hide_resume_cover")
 var bestiary_v4:RefCounted
 var activation_v4:RefCounted
 
@@ -120,15 +188,53 @@ func legacy_active(value: bool) -> void:
 			actor.home=legacy_homes[legacy_enemies.find(actor)];actor.restore(actor.uid in journey.data.defeated)
 		actor.visible=value and actor.hp>0;actor.collision_layer=4 if value and actor.hp>0 else 0
 	enemies.assign(legacy_enemies if value else [])
+func _resume_failed(reason: String) -> void:
+	push_error(reason)
+	if is_instance_valid(_resume_status):
+		_resume_status.text="Não foi possível restaurar o local salvo.\n"+reason+"\nSeu progresso não foi substituído."
+	if is_instance_valid(_resume_return_button):_resume_return_button.visible=true
+
+func _loading_progress(percent: float, status: String) -> void:
+	if is_instance_valid(_resume_progress):_resume_progress.value=clampf(percent,0,100)
+	if is_instance_valid(_resume_status):_resume_status.text=status
+
+func _hide_resume_cover() -> void:
+	_resume_pending=false
+	if is_instance_valid(_resume_cover):
+		_resume_cover.get_parent().queue_free()
+		_resume_cover=null
+
 func restore_region() -> void:
 	var restore_epoch: int=lifecycle_epoch
-	if not ensure_atlas():return
-	var state: Dictionary=extension();var rid: int=int(state.current);var point: Array=state.position.duplicate()
+	if not ensure_atlas():
+		_resume_failed("Falha ao reconstruir região: "+generation_failure)
+		return
+	_loading_progress(66,"Mapa e rotas preparados")
+	var state: Dictionary=extension()
+	var rid: int=int(state.current)
+	var point: Array=state.position.duplicate()
+	# Protect original interior and exterior checkpoints against staging, Core
+	# preparation and a different default arrival anchor during change_region().
+	var saved_settlement_visit: Dictionary=state.get("worldgen_v5_visit",{}).duplicate(true)
+	var saved_monument_visit: Dictionary=state.get("monumental_r7",{}).get("active_interior",{}).duplicate(true)
+	# Old saves without a regional location must enter the real procedural world,
+	# not silently fall back to the deprecated test village.
+	if rid<0:
+		for spec in atlas.get("regions",[]):
+			if str(spec.get("kind",""))=="settlement":
+				rid=int(spec.get("id",-1))
+				break
+		if rid<0:
+			_resume_failed("Nenhuma região inicial válida no atlas")
+			return
 	if rid>=0:
 		restoring_region=true
 		var opened: bool=await change_region(rid,"")
 		restoring_region=false
-		if not opened or not is_instance_valid(active_region):return
+		if not opened or not is_instance_valid(active_region):
+			_resume_failed("Não foi possível reconstruir a região salva")
+			return
+		_loading_progress(88,"Região, moradores e colisões carregados")
 		var restored_region: Node3D=active_region
 		# The staged region was relocated on commit. Synchronize broadphase before
 		# querying any saved exterior or interior recovery anchor.
@@ -139,16 +245,29 @@ func restore_region() -> void:
 		if point.size()==3:
 			var saved:=Vector3(point[0],point[1],point[2])
 			var safe: Vector3=regional_spawn(active_region,saved)
-			if safe.is_finite():player.position=safe
+			if safe.is_finite():
+				player.position=safe
+			else:
+				_resume_failed("Posição exterior salva sem piso seguro; nenhum novo checkpoint foi criado")
+				return
 		# Pending dungeon visits always recover to an EXTERIOR raycast+capsule
 		# validated anchor before normal exploration; no interior respawn shortcut.
 		_recover_dungeon_visit_after_region_load()
-		_restore_institutional_after_region_load()
-		if wg5_visit!=null:
-			var visit:Dictionary=extension().get("worldgen_v5_visit",{})
-			if bool(visit.get("inside",false)):
-				if not wg5_visit.restore_saved_visit(visit):
-					push_warning("WG5 saved interior invalid: safe exterior recovery; preserve original save for audit")
+		if not saved_monument_visit.is_empty():
+			if not _restore_institutional_after_region_load(saved_monument_visit):
+				_resume_failed("Salão institucional salvo indisponível: "+str(saved_monument_visit.get("persistent_id","unknown")))
+				return
+		if wg5_visit!=null and bool(saved_settlement_visit.get("inside",false)):
+			if not wg5_visit.restore_saved_visit(saved_settlement_visit):
+				_resume_failed("Interior salvo indisponível: "+str(saved_settlement_visit.get("building_id","unknown")))
+				# Do not rewrite the saved interior snapshot with an exterior fallback.
+				return
+		# Preserve the original exterior anchor for a player inside a shop/home.
+		# Their interior location is saved independently by PortalController.
+		if point.size()==3:
+			extension()["position"]=point.duplicate()
+		_loading_progress(100,"Jornada pronta")
+		_hide_resume_cover()
 func snapshot_region() -> void:
 	# NEVER persist interior coordinates as exterior coordinates. Also do not
 	# overwrite a stored checkpoint while current_region is still the legacy boot.
@@ -354,6 +473,9 @@ func return_home() -> void:
 var resident_visibility_clock:=0.0
 var resident_roof_occluders: Array=[]
 func _physics_process(delta: float) -> void:
+	# No gameplay tick or save may replace the player's stored interior snapshot
+	# before the region and its destination have actually been restored.
+	if _resume_pending:return
 	if changing_region:return
 	super._physics_process(delta)
 	if wg5_visit!=null and wg5_visit.inside():
@@ -453,11 +575,21 @@ func update_resident_labels() -> void:
 func interact() -> void:
 	if not convergence_ready or flow.phase!="adventure" or flow.lab_mode:
 		super.interact();return
+	# An interior exit is NOT a regional gate. The regional cooldown stops
+	# ticking while the instanced room is active and used to permanently block E.
+	# The restored capsule may also need a physics frame to settle on the floor.
+	# Permit the explicit interior exit while grounded state/cooldown recover.
+	if wg5_visit!=null and wg5_visit.inside():
+		if get_tree().paused or attack_time>=0 or roll_time>=0 or techniques.busy() or interaction_cooldown>0:return
+		if wg5_visit.try_interact():
+			interaction_cooldown=.5
+			gate_cooldown=0.0
+			if not save_progress():message("Saída efetuada; não foi possível salvar o retorno.")
+		else:
+			message("A saída não pôde ser concluída.")
+		return
 	if get_tree().paused or not player.is_on_floor() or attack_time>=0 or roll_time>=0 or techniques.busy() or interaction_cooldown>0:return
 	if gate_cooldown>0:return
-	if wg5_visit!=null and wg5_visit.inside():
-		if wg5_visit.try_interact():interaction_cooldown=.5
-		return
 	if _institutional_inside():
 		if not _near_institutional_exit():return
 		interaction_cooldown=.5
@@ -471,9 +603,6 @@ func interact() -> void:
 			change_region(86 if str(extension().atlas_seed)=="101" else starting_region());return
 		super.interact();return
 	interaction_cooldown=.5
-	if wg5_visit!=null and wg5_visit.inside():
-		wg5_visit.try_interact()
-		return
 	if _dungeon_inside():
 		var interaction: Variant=exo_core.services.invoke("dungeons","interact_active") if exo_core!=null else null
 		if interaction is Dictionary and bool(interaction.get("ok",false)):
@@ -592,7 +721,8 @@ func _enter_institutional_interior(portal:Dictionary,restoring:bool=false) -> Di
 	if not restoring and (not arrival.is_finite() or player.position.distance_to(arrival)>3.7):return {"ok":false,"code":"door_unreachable"}
 	var before_data:Dictionary=journey.data.duplicate(true)
 	var outside:Vector3=player.position
-	snapshot_region()
+	if not restoring:
+		snapshot_region()
 	var hall:Node3D
 	hall=INSTITUTIONAL_SCENE.instantiate()
 	hall.set("interior_id",str(portal.get("interior_id","martial_hall")))
@@ -638,10 +768,9 @@ func _exit_institutional_interior(force_recovery: bool = false) -> Dictionary:
 	institutional_cooldown=0.8
 	return {"ok":true}
 
-func _restore_institutional_after_region_load() -> void:
-	var m:Dictionary=extension().get("monumental_r7",{})
-	var visit:Dictionary=m.get("active_interior",{}).duplicate(true)
-	if visit.is_empty() or int(visit.get("region_id",-1))!=current_region:return
+func _restore_institutional_after_region_load(visit: Dictionary) -> bool:
+	if visit.is_empty():return true
+	if int(visit.get("region_id",-1))!=current_region:return false
 	for portal in active_region.monument_portals:
 		if str(portal.get("persistent_id",""))==str(visit.get("persistent_id","")):
 			var outcome:Dictionary=_enter_institutional_interior(portal,true)
@@ -656,9 +785,15 @@ func _restore_institutional_after_region_load() -> void:
 						if preload("res://convergence4/interiors.gd").clear_capsule(get_world_3d().direct_space_state,saved):
 							player.global_position=saved
 							player.velocity=Vector3.ZERO
-				return
+				# _enter_institutional_interior(restoring=true) creates the same room,
+				# but must not change the previously saved visit identity/anchors.
+				var m:Dictionary=extension().get("monumental_r7",{})
+				m["active_interior"]=visit.duplicate(true)
+				extension()["monumental_r7"]=m
+				return true
 			break
 	push_error("R7 institutional recovery refused: portal absent, exterior saved checkpoint retained")
+	return false
 
 # Convergência 03 — WorldGen-to-Dungeon host, no secondary map/save/inventory.
 func _dungeon_inside() -> bool:

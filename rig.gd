@@ -55,26 +55,33 @@ func _init(tint: Color = Color.WHITE) -> void:
 		skin_part(knee,Vector3(0,-.1875,0),Vector3(.25,.375,.25),leg_uv,Vector3(4,6,4),6)
 		calves.append(knee)
 		legs.append(leg)
+	# Refit 01: no prebuilt dummy sword. Weapon model is owned by Arsenal.
+	# Preserving the sword Node3D contract prevents old overlay duplication.
 	sword = Node3D.new()
+	sword.name="LegacySwordSocket_Empty"
 	forearms[0].add_child(sword)
-	sword.position = Vector3(0,-0.265,-0.08)
-	# Blade grip inherits the Minecraft wrist joint, so it follows elbow bends and rolls.
-	sword_piece(Vector3(0,0,-0.07),Vector3(0.08,0.08,0.25),Color("372e37"))
-	sword_piece(Vector3(0,0,-0.23),Vector3(0.34,0.07,0.08),Color("d6ae65"))
-	sword_piece(Vector3(0,0,-0.65),Vector3(0.12,0.045,0.78),Color("cedce4"))
-	sword_piece(Vector3(0,0,-1.07),Vector3(0.07,0.035,0.08),Color("eef9ff"))
-
-func sword_piece(pos: Vector3, size: Vector3, color: Color) -> void:
-	var part := MeshInstance3D.new()
-	var box := BoxMesh.new()
-	box.size = size
-	part.mesh = box
-	var material := StandardMaterial3D.new()
-	material.albedo_color = color
-	material.roughness = 0.4
-	part.material_override = material
-	sword.add_child(part)
-	part.position = pos
+	sword.hide()
+	var weapon_r:=Marker3D.new()
+	weapon_r.name="WeaponGripRight"
+	weapon_r.position=Vector3(0,-.355,-.035)
+	forearms[0].add_child(weapon_r)
+	var weapon_l:=Marker3D.new()
+	weapon_l.name="WeaponGripLeft"
+	weapon_l.position=Vector3(0,-.355,-.035)
+	forearms[1].add_child(weapon_l)
+	var sheath_back:=Marker3D.new()
+	sheath_back.name="SheathBack"
+	sheath_back.position=Vector3(.10,.64,.39)
+	torso.add_child(sheath_back)
+	var sheath_waist:=Marker3D.new()
+	sheath_waist.name="SheathWaist"
+	sheath_waist.position=Vector3(.32,.15,.12)
+	torso.add_child(sheath_waist)
+	set_meta("weapon_hand_r",weapon_r)
+	set_meta("weapon_hand_l",weapon_l)
+	set_meta("weapon_sheath_back",sheath_back)
+	set_meta("weapon_sheath_waist",sheath_waist)
+	set_meta("exo_character_rig_contract",2)
 
 func pose(time: float, moving: bool, sprint: bool, grounded: bool, attack: float = -1, roll: float = -1, side: float = 1) -> void:
 	preload("res://convergence/visual_actor_r10.gd").notify_action(self,"roll",roll>=0.0)

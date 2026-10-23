@@ -54,8 +54,11 @@ static func equip(rig: Node3D,id: String) -> void:
 	var nodes: Array[Node]=[]
 	var spec:=Catalog.weapon(id)
 	var root:=Node3D.new()
+	# Retain the canonical forearm parent used by combat/save/QA contracts;
+	# the Marker3D owns only the offset, not a second weapon hierarchy.
+	var socket:Node3D=rig.get_meta("weapon_hand_r",rig.forearms[0])
 	rig.forearms[0].add_child(root)
-	root.position=Vector3(0,-.355,-.035)
+	root.transform=socket.transform if socket!=rig.forearms[0] else Transform3D(Basis(),Vector3(0,-.355,-.035))
 	nodes.append(root)
 	rig.set_meta("weapon_root",root)
 	rig.set_meta("weapon_id",id)
@@ -213,6 +216,7 @@ static func animate(rig: Node3D,spec: Dictionary,index: int,progress: float) -> 
 		elif pose=="fists":
 			rig.arms[0].rotation.x=.7
 			rig.arms[1].rotation.x=.7
+		_two_hand_grip(rig,spec)
 		return
 	var swing:=smoothstep(.15,.67,progress)
 	var recovery:=1.0-smoothstep(.7,1.0,progress)
@@ -255,6 +259,7 @@ static func animate(rig: Node3D,spec: Dictionary,index: int,progress: float) -> 
 	else:
 		rig.arms[0].rotation=Vector3(1.1,.1,-.3)*recovery
 		rig.arms[1].rotation.x=.55*recovery
+	_two_hand_grip(rig,spec)
 
 static func missile(parent: Node3D,direction: Vector3,arrow: bool,color: Color) -> Node3D:
 	var root:=Node3D.new()
@@ -293,6 +298,23 @@ static func grip(rig: Node3D, index: int, target: Vector3) -> void:
 	elbow.scale = Vector3.ONE
 	arm.quaternion = Quaternion(Vector3.DOWN, offset.normalized()) * Quaternion(Vector3.RIGHT, -bend * 0.5)
 	elbow.rotation = Vector3(bend, 0.0, 0.0)
+
+# For two-handed melee weapons, both wrists must contact the same shaft.
+# The primary grip is solved first; the secondary wrist targets a point on
+# the real weapon instead of using a hard-coded floating shoulder pose.
+static func _two_hand_grip(rig: Node3D, spec: Dictionary) -> void:
+	var pose: String = str(spec.get("pose", ""))
+	if int(spec.get("hands", 1)) != 2 or pose not in ["heavy", "thrust", "pole", "reap", "staff", "focus"]:
+		return
+	var root_value: Variant = rig.get_meta("weapon_root", null)
+	if not (root_value is Node3D) or not is_instance_valid(root_value):
+		return
+	var weapon_root: Node3D = root_value as Node3D
+	# This torso-local target is reachable by the original 2 x 0.375m limbs.
+	grip(rig, 0, Vector3(-0.10, 0.39, -0.43))
+	# Position the off-hand on the actual shaft, not in empty space.
+	var target_global: Vector3 = weapon_root.to_global(Vector3(0, 0, -0.21))
+	grip(rig, 1, rig.torso.to_local(target_global))
 
 static func ranged_pose(rig: Node3D,pose: String,progress: float) -> void:
 	var root: Node3D=rig.get_meta("weapon_root")

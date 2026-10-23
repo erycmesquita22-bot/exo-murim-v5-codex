@@ -162,7 +162,10 @@ func _ready() -> void:
 	cultivation=preload("res://cultivation.gd").new(self)
 	martial=preload("res://combat/martial_motion.gd").new(self)
 	graphics=Graphics.new(self,settings_path)
-	rebuild_region()
+	# Resume a real procedural save without constructing the deprecated test
+	# village first. The old terrain remains for the separate prologue only.
+	if not (load_on_start and str(journey.data.get("phase", "")) == "adventure"):
+		rebuild_region()
 	for spec in ROSTER:
 		var actor:=Enemy.new()
 		actor.setup(self,spec[0],spec[1],spec[2])
@@ -746,10 +749,9 @@ func can_hit(origin: Vector3, target: Vector3, direction: Vector3, distance: flo
 func update_camera() -> void:
 	var focus: Vector3=player.global_position+Vector3(0,0.8,0)
 	var desired: Vector3=player.global_position+Vector3(10,11,10)
-	var query:=PhysicsRayQueryParameters3D.create(focus,desired,1|4)
-	query.exclude=[player.get_rid()]
-	var obstruction: Dictionary=get_world_3d().direct_space_state.intersect_ray(query)
-	camera.global_position=desired if obstruction.is_empty() else obstruction.position+obstruction.normal*0.45
+	# Keep the isometric direction fixed near buildings: ray occlusion must not
+	# move the camera to the wall and unexpectedly reframe the scene.
+	camera.global_position=desired
 	camera.look_at(focus)
 	if graphics!=null and graphics.shake_enabled and shake>0:
 		camera.position+=Vector3(sin(elapsed*97),cos(elapsed*121),0)*shake

@@ -45,7 +45,11 @@ func _init(owner_world: Node3D,profile: Dictionary,dimensions: Vector2) -> void:
 func _ready() -> void:update_resolution()
 func _process(_delta: float) -> void:
 	pose_time+=_delta
-	preload("res://exo_skin3d/skin_preview.gd").demonstrate_pose(rig,preview_pose,pose_time)
+	var animation_time: float=pose_time if world.graphics.preview_motion else 0.0
+	# The character preview's unique pose writer handles weapon and animation
+	# together. A second caller in PauseUI used to overwrite joint transforms.
+	preload("res://exo_skin3d/skin_preview.gd").demonstrate_pose(rig,preview_pose,animation_time)
+	preload("res://anatomy.gd").animate(rig,animation_time,0.0,true)
 	if last_level!=world.graphics.level or last_window!=get_window().size:update_resolution()
 func update_resolution() -> void:
 	if not is_inside_tree():return

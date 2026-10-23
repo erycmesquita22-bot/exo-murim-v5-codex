@@ -36,12 +36,11 @@ func _near_record() -> Dictionary:
     return service.nearest_open_door(game.player.global_position, 3.0)
 
 func interaction_hint() -> String:
+    # These are small, instanced interiors with no physical doorway to the
+    # streamed exterior. Never strand a saved occupant behind an invisible
+    # exit radius; the deliberate E action always returns to the same door.
     if inside():
-        var room: Node3D = portal.get("_interior")
-        var out: Marker3D = room.get_node_or_null("InteriorExit") as Marker3D if is_instance_valid(room) else null
-        if out != null and game.player.global_position.distance_to(out.global_position) <= 3.0:
-            return "E • Sair do edifício"
-        return ""
+        return "E • Sair do edifício"
     return "E • Entrar no edifício" if not _near_record().is_empty() else ""
 
 func try_interact() -> bool:
@@ -95,7 +94,7 @@ func restore_saved_visit(snapshot_data: Dictionary) -> bool:
     if record.is_empty():
         return false
     var ok: bool = portal.restore_from_core(game.player, active_region, stage, game.camera,
-        record, snapshot_data, bool(record.get("accessible", false)) and str(record.get("access_state", "")) == "open")
+        record, snapshot_data, true)
     if ok:
         _hide_actors()
     return ok

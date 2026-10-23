@@ -4,7 +4,10 @@ config_version=5
 config/name="EXO-Murim V5"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="EXO-Murim-V5"
-run/main_scene="res://convergence/game.tscn"
+run/main_scene="res://main_menu_01/main_menu.tscn"
+
+[autoload]
+MenuBoot="*res://main_menu_01/boot_context.gd"
 
 [display]
 window/size/viewport_width=1152

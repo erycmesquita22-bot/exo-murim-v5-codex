@@ -91,8 +91,13 @@ func _ready() -> void:
 
 func boot() -> void:
 	if world.flow.phase=="adventure":
+		# A restored playable journey must start in gameplay, not in the pause
+		# overlay. The hero/creator flow still explicitly owns its own pause.
 		world.flow.apply_character()
-		world.set_paused(true)
+		close_flow()
+		modal.hide()
+		menu.hide()
+		world.set_paused(false)
 	else:
 		show_hero()
 
@@ -267,10 +272,8 @@ func _process(delta: float) -> void:
 		cinema.set_anchors_preset(Control.PRESET_TOP_LEFT)
 		cinema.position=Vector2(clampf(point.x-220,20,700),clampf(point.y-80,20,520))
 		cinema.size=Vector2(440,80)
-	if is_instance_valid(preview) and is_instance_valid(preview_view) and preview_view.render_target_update_mode==SubViewport.UPDATE_ALWAYS:
-		preview.pose(preview_clock if world.graphics.preview_motion else 0.0,false,false,true)
-		world.Arsenal.animate(preview,Catalog.weapon(str(preview.get_meta("weapon_id","sword"))),0,-1)
-		world.Anatomy.animate(preview,preview_clock,0,true)
+	# PortraitStage is the only owner of preview rig poses. The old duplicate
+	# writer here reset the wrists every frame and broke two-handed grips.
 
 func _input(event: InputEvent) -> void:
 	if world.flow!=null and world.flow.phase=="story":

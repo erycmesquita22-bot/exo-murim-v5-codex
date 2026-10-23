@@ -88,9 +88,12 @@ func enter(player: CharacterBody3D, exterior: Node3D, staging: Node3D,
 func leave() -> bool:
     if busy or not inside or not is_instance_valid(_player) or not is_instance_valid(_exterior):
         return _fail("no_valid_active_interior")
+    # Small instanced shops/houses have no traversable exterior doorway.
+    # The exit marker is an authored requirement, but requiring a distance to
+    # an invisible marker made restored players unable to leave safely.
     var exit: Marker3D = _interior.get_node_or_null("InteriorExit") as Marker3D if is_instance_valid(_interior) else null
-    if exit == null or _player.global_position.distance_to(exit.global_position) > 3.0:
-        return _fail("player_not_at_exit")
+    if exit == null:
+        return _fail("missing_exit")
     return interrupt("voluntary_exit")
 
 func interrupt(_reason: String="host_recovery") -> bool:
@@ -138,7 +141,14 @@ func restore_from_core(player: CharacterBody3D, exterior: Node3D, staging: Node3
     if not exterior_anchor.is_finite():
         return _fail("invalid_exterior_anchor")
     player.global_position = exterior_anchor
-    if not enter(player,exterior,staging,camera,record,authorized):
+    # A saved occupant may resume even when the business is currently closed.
+    # Identity, region, prefab and saved coordinates were validated above.
+    # This does not change the actual building's access policy for new entries.
+    var restore_record: Dictionary = record.duplicate(true)
+    if authorized:
+        restore_record["accessible"] = true
+        restore_record["access_state"] = "open"
+    if not enter(player,exterior,staging,camera,restore_record,authorized):
         player.global_transform = previous_transform
         return false
     # Reject void/out-of-footprint saves; enter() already selected the authored spawn.

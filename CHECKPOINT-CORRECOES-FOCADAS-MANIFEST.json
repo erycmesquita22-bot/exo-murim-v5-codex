@@ -1,0 +1,21 @@
+{
+  "checkpoint": "EXO-MURIM-V5-ATUALIZADO-2026-10-22.zip",
+  "checkpoint_sha256": "506d31005e897d448e0a384010959aab5643975120809d6f7f7d042c2bff348b",
+  "changed_files": [
+    "main.gd",
+    "genesis/region_data.gd",
+    "genesis/region_scene.gd",
+    "npc_system04/actor.gd",
+    "pause_ui.gd"
+  ],
+  "added_library": "exo_ruin_library_01/",
+  "main_scene": "res://convergence/game.tscn",
+  "qa_engine": "Godot 4.7.2 Standard, headless",
+  "qa_import": "passed",
+  "qa_boot": "passed",
+  "qa_focused": "passed",
+  "qa_startup": "passed",
+  "qa_4_6_2": "not_performed",
+  "qa_visual": "not_performed",
+  "status": "CANDIDATE_NOT_HOMOLOGATED"
+}

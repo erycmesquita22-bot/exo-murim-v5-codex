@@ -24,7 +24,10 @@ func configure(real_profile: Dictionary, ghost_uid: String, seed_text: String) -
     if not selection.is_empty():selection["uid"] = ghost_uid
     rig = Rig.new()
     add_child(rig)
-    Wardrobe.apply(rig, appearance)
+    var visual_profile:Dictionary=appearance.duplicate(true)
+    visual_profile["id"]=ghost_uid
+    visual_profile["role"]=str(identity.get("role","resident"))
+    Wardrobe.apply(rig, visual_profile)
     VisualR10.apply_resident(rig, identity, {}, seed_text)
     rig.sword.hide()
     for weapon in rig.get_meta("weapon_nodes", []):

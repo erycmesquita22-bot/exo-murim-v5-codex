@@ -64,6 +64,7 @@ func origin(parent: Node) -> void:
 	ui.selector(parent,"Afinidade",Catalog.ELEMENTS,int(ui.profile.get("element",6)),func(i: int):ui.profile.element=i;update_profile())
 func appearance(parent: Node) -> void:
 	ui.title(parent,"SEU ESTILO NO MURIM",22)
+	ui.paragraph(parent,"EXO Murim · Refit 01: novo corpo voxel, roupas marciais e encaixes de arma. Skins 64×64 e camadas externas continuam compatíveis.",14,520)
 	var categories:=HBoxContainer.new();parent.add_child(categories)
 	for i in range(4):
 		ui.button(categories,["Traços","Vestuário","Acessórios","Armaduras"][i],func():ui.appearance_tab=i;show_creator())

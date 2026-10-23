@@ -75,17 +75,21 @@ func setup(person: Dictionary, points: Array, saved: Dictionary = {}, routine_pa
         identity["appearance"] = appearance
     rig = Rig.new()
     add_child(rig)
-    Wardrobe.apply(rig, appearance)
+    # Give NPCs a stable wardrobe variant without altering saved appearance schema.
+    var visual_profile:Dictionary=appearance.duplicate(true)
+    visual_profile["id"]=str(person.get("id",""))
+    visual_profile["role"]=str(person.get("role","resident"))
+    Wardrobe.apply(rig, visual_profile)
     Visual.apply_resident(rig, identity, saved, seed_text)
     rig.sword.hide()
     for weapon in rig.get_meta("weapon_nodes", []):
         if is_instance_valid(weapon): weapon.hide()
-    # Spawn looking from the facade toward its authored street, not world north.
-    for point: Vector3 in points:
-        var heading: Vector3=point-position;heading.y=0
-        if heading.length()>0.4:
-            rig.rotation.y=atan2(-heading.x,-heading.z)
-            break
+    # A home->home route is often [station, station, station], so it has
+    # no heading. Use an authorized route from this slot toward the street.
+    var initial_face: Vector3 = idle_facing_target()
+    var heading: Vector3 = initial_face-position; heading.y=0.0
+    if heading.length_squared()>0.25:
+        rig.rotation.y=atan2(-heading.x,-heading.z)
     caption = Label3D.new()
     caption.font_size = 28; caption.pixel_size = 0.007
     caption.outline_size = 6; caption.billboard = BaseMaterial3D.BILLBOARD_ENABLED
@@ -203,16 +207,14 @@ func step(delta: float, _hour: int, now: float = -1.0) -> void:
             rig.rotation.y = lerp_angle(rig.rotation.y, atan2(-direction.x, -direction.z), minf(1.0, delta * 7.0))
     if not moving:
         velocity.x = 0.0; velocity.z = 0.0
-        if is_instance_valid(social_target) and social_time > 0:
+        if paused_for_talk > 0.0 and position.distance_squared_to(player_interest_position)<25.0:
+            face_point(player_interest_position,delta)
+        elif is_instance_valid(social_target) and social_time > 0:
             face_point(social_target.position,delta)
-        elif paused_for_talk <= 0.0:
-            # Face the actual activity's approach. Preserve last heading if the
-            # slot has no outgoing corridor; never reset everyone to one yaw.
-            var approach: Array=routes.get(to_slot+">"+to_slot,[])
-            for point: Vector3 in approach:
-                if Vector2(point.x-position.x,point.z-position.z).length()>0.5:
-                    face_point(point,delta)
-                    break
+        else:
+            # Face a meaningful outdoor path, not the degenerate self->self
+            # route (whose repeated points made most idle NPCs face world north).
+            face_point(idle_facing_target(),delta)
     if not is_on_floor(): velocity.y -= 20.0 * delta
     else: velocity.y = -0.05
     var before: Vector3 = position
@@ -285,6 +287,21 @@ func can_interact(from: Vector3, maximum_distance: float=3.0) -> bool:
     if not from.is_finite() or from.distance_to(global_position)>=maximum_distance:return false
     var ray:=PhysicsRayQueryParameters3D.create(from+Vector3.UP,global_position+Vector3.UP,1|4)
     return get_world_3d().direct_space_state.intersect_ray(ray).is_empty()
+
+func idle_facing_target() -> Vector3:
+    # Authorized street-directed route from the current station (or home).
+    # Distinct NPC stations generate distinct facing; no arbitrary orientation.
+    for slot in [to_slot,from_slot]:
+        for destination in ["@square","@activity"]:
+            var key: String=slot+">"+destination
+            var candidate: Array=routes.get(key,[])
+            for point in candidate:
+                if point is Vector3:
+                    var toward: Vector3=point-position; toward.y=0.0
+                    if toward.length_squared()>2.25:
+                        return point
+    # Preserve the heading instead of forcing NPCs to point to a global axis.
+    return position-Vector3(sin(rig.rotation.y),0.0,cos(rig.rotation.y))*3.0 if is_instance_valid(rig) else position
 
 func face_point(point: Vector3,delta: float) -> void:
     var heading: Vector3=point-position;heading.y=0

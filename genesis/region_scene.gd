@@ -213,9 +213,22 @@ func build_lots() -> void:
 			parts.append(asset("10_ARQUITETURA_GLB/parede_reboco_claro.tscn",Vector3(2,-.44,0),PI/2))
 			parts.append(asset("10_ARQUITETURA_GLB/telhado_teal_4m.tscn",Vector3(0,1.73,0)))
 		elif data.spec.kind=="ruins":
-			parts.append(asset("11_RUINAS_GLB/arco_portal_musgo.tscn",Vector3.ZERO))
-			parts.append(asset("11_RUINAS_GLB/coluna_ruina_musgo.tscn",Vector3(-4,0,1)))
-			parts.append(asset("11_RUINAS_GLB/altar_ruina_antigo.tscn",Vector3(3,0,-3)))
+			# WorldGen ruin sites are environmental landmarks, NOT fake dungeon doors.
+			# Pick an authored, single-mesh ruin (not the decorative portal arch).
+			var ruin_id: String=choose_ruin_id(str(data.spec.region_seed),lot_index,str(data.spec.biome))
+			var scene_path: String="res://exo_ruin_library_01/scenes/%s.tscn"%ruin_id
+			var ruin_scene: PackedScene=load(scene_path)
+			if ruin_scene!=null:
+				var ruin: Node3D=ruin_scene.instantiate()
+				# One static concave collision for the low-poly ruin; no mesh chunks.
+				for mesh_node in ruin.find_children("*","MeshInstance3D",true,false):
+					mesh_node.create_trimesh_collision()
+				add_child(ruin)
+				ruin.set_meta("exo_ruin_family",ruin_id)
+				parts.append(ruin)
+				asset_count+=1
+			else:
+				push_error("Missing EXO ruin scene: "+scene_path)
 		elif data.spec.kind=="dungeon_approach":
 			# Exterior entry metadata is authored by the SAME regional WorldGen lot.
 			# Only these physical entrances may request an instanced Dungeon.
@@ -239,6 +252,29 @@ func build_lots() -> void:
 		preload("res://ground_shadow.gd").place(self,p+Vector3(0,.025,0),Vector2(8,8),.32)
 		if data.spec.kind=="settlement":root.set_meta("roof",parts[-1])
 		props.append(root)
+
+# A stable seed selects an appropriate ruin family without changing gate topology.
+static func choose_ruin_id(seed_text: String,lot_index: int,biome: String) -> String:
+	var families: Array[String]=[
+		"templo_budista_abandonado", "escola_marcial_destruida",
+		"torre_vigia_arruinada", "fortaleza_passagem",
+		"jardim_pagodes_funerarios", "mansao_cla_destruida",
+		"vila_abandonada", "santuario_montanha",
+		"ponte_posto_comercial", "forja_armas_esquecida",
+		"terracos_agricolas", "mausoleu_antigo"]
+	var choices: Array[int]=[]
+	if biome in ["alpine","rocky_highlands"]:
+		choices=[1,2,3,7,9,11]
+	elif biome in ["bamboo_forest","temperate_forest","mixed_woodland"]:
+		choices=[0,1,4,6,7,11]
+	elif biome=="wetland":
+		choices=[0,6,8,10]
+	else:
+		choices=[0,2,3,4,5,6,8,9,10,11]
+	var rng:=RandomNumberGenerator.new()
+	rng.seed=int((seed_text+"/ruin/%d"%lot_index).sha256_text().substr(0,15).hex_to_int())
+	return families[choices[rng.randi_range(0,choices.size()-1)]]
+
 func build_plants() -> void:
 	var tree: String="12_NATUREZA_GLB/arvore_baixa_prado.tscn"
 	if data.spec.biome=="bamboo_forest":tree="12_NATUREZA_GLB/bambu_alto_folhas.tscn"

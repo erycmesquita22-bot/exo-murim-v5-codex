@@ -49,31 +49,50 @@ static func build(parent: Node3D, record: Dictionary) -> Node3D:
     var f: String = str(record.get("function", "residence"))
     var walls: String = "#d6b48b" if f in ["inn","market"] else "#aab4a8" if f in ["martial_school","administration"] else "#be9b78"
     var roof: String = "#aa5146" if f in ["inn","market"] else "#3a6b68"
-    _box(root, "GroundFoundation", Vector3(0,-0.12,0), Vector3(w,0.24,d), "#81684a")
-    _box(root, "WallLeft", Vector3(-w*0.5+0.14,h*0.5,0), Vector3(0.28,h,d), walls)
-    _box(root, "WallRight", Vector3(w*0.5-0.14,h*0.5,0), Vector3(0.28,h,d), walls)
-    _box(root, "WallBack", Vector3(0,h*0.5,-d*0.5+0.14), Vector3(w,h,0.28), walls)
-    var jamb: float = maxf(0.2, (w-2.4)*0.5)
-    for side in [-1.0,1.0]:
-        _box(root,"FrontJamb",Vector3(side*(1.2+jamb*0.5),h*0.5,d*0.5-0.14),Vector3(jamb,h,0.28),walls)
-        _box(root,"Window",Vector3(side*w*0.30,h*0.62,d*0.5+0.045),Vector3(0.72,0.62,0.08),"#354b4d",false)
-    _box(root,"DoorLintel",Vector3(0,h-0.26,d*0.5),Vector3(2.4,0.52,0.34),walls)
-    # Canonical collider shell is independent from the original Forja facade.
-    # Hide the fallback shell meshes while retaining its safe central doorway.
-    for part in root.get_children():
-        for mesh in part.find_children("*","MeshInstance3D",true,false):mesh.visible=false
-    var house: Node3D=preload("res://godot/modular_kit.gd").build_house(root,"murim_blue",6,2,true)
-    house.name="ForjaOriginalHouse"
-    house.scale=Vector3(w/6.0,1.0,d/4.0)
-    house.set_meta("host_visual_only",true)
+    # EXO Urban A+C: retain a single collision body and the original complete
+    # Forja visual as one mesh (textures consolidated to a shared atlas).
+    var baked: Dictionary = preload("res://exo_settlement_forge/runtime/house_baker_ac.gd").get_house()
+    if baked.is_empty():
+        push_error("EXO AC: failed to bake canonical Forja house "+str(record.get("building_id", "")))
+        return root
+    var near := MeshInstance3D.new()
+    near.name = "ForjaCompleteVisual"
+    near.mesh = baked.mesh
+    near.scale = Vector3(w/6.0,1.0,d/4.0)
+    near.visibility_range_end = 65.0
+    near.visibility_range_end_margin = 5.0
+    root.add_child(near)
+    var far := MeshInstance3D.new()
+    far.name = "ForjaDistantLOD"
+    far.mesh = baked.lod
+    far.scale = Vector3(w/6.0,1.0,d/4.0)
+    far.visibility_range_begin = 65.0
+    far.visibility_range_begin_margin = 5.0
+    root.add_child(far)
     root.set_meta("forja_house_template","godot/modular_kit.gd:build_house/murim_blue/6/2")
-    # Authored Forja geometry regenerated from its supplied construction source.
-    # Wall-mounted accents stay above walking clearance; shell/door collision
-    # and the canonical building record remain Settlement Forge's authority.
+    root.set_meta("exo_ac_mesh_count",1)
+    root.set_meta("exo_ac_triangles",baked.triangles)
+    var body := StaticBody3D.new()
+    body.name = "ExteriorShellCollision"
+    body.collision_layer = 1
+    root.add_child(body)
+    var collision_specs: Array = [
+        [Vector3(0,-.12,0), Vector3(w,.24,d)],
+        [Vector3(-w*.5+.14,h*.5,0),Vector3(.28,h,d)],
+        [Vector3(w*.5-.14,h*.5,0),Vector3(.28,h,d)],
+        [Vector3(0,h*.5,-d*.5+.14),Vector3(w,h,.28)],
+    ]
+    var jamb: float = maxf(.2,(w-2.4)*.5)
     for side in [-1.0,1.0]:
-        preload("res://godot/modular_kit.gd").place(root,"hanging_wall_torch",
-            Vector3(side * w * 0.34,2.2,d * 0.5),0,"",false)
-    root.set_meta("forja_visual_assets",["hanging_wall_torch"])
+        collision_specs.append([Vector3(side*(1.2+jamb*.5),h*.5,d*.5-.14),Vector3(jamb,h,.28)])
+    collision_specs.append([Vector3(0,h-.26,d*.5),Vector3(2.4,.52,.34)])
+    for spec in collision_specs:
+        var shape := BoxShape3D.new()
+        shape.size = spec[1]
+        var collider := CollisionShape3D.new()
+        collider.position = spec[0]
+        collider.shape = shape
+        body.add_child(collider)
     var portal := Marker3D.new()
     portal.name = "ExteriorDoor"
     portal.position = Vector3(0,0,d*0.5+0.6)

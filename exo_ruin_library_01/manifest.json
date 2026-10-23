@@ -1,0 +1,117 @@
+{
+  "name": "EXO Ruin Library 01",
+  "engine": "Godot 4.6.2 Compatibility",
+  "status": "INDEPENDENT_NOT_INTEGRATED",
+  "assets": [
+    {
+      "id": "templo_budista_abandonado",
+      "biomes": "floresta,montanha",
+      "scene": "scenes/templo_budista_abandonado.tscn",
+      "model": "models/templo_budista_abandonado.glb",
+      "triangles": 492,
+      "material_count": 1,
+      "bytes": 324368
+    },
+    {
+      "id": "escola_marcial_destruida",
+      "biomes": "montanha,vale",
+      "scene": "scenes/escola_marcial_destruida.tscn",
+      "model": "models/escola_marcial_destruida.glb",
+      "triangles": 504,
+      "material_count": 1,
+      "bytes": 325204
+    },
+    {
+      "id": "torre_vigia_arruinada",
+      "biomes": "colina,fronteira",
+      "scene": "scenes/torre_vigia_arruinada.tscn",
+      "model": "models/torre_vigia_arruinada.glb",
+      "triangles": 348,
+      "material_count": 1,
+      "bytes": 314000
+    },
+    {
+      "id": "fortaleza_passagem",
+      "biomes": "desfiladeiro,estrada",
+      "scene": "scenes/fortaleza_passagem.tscn",
+      "model": "models/fortaleza_passagem.glb",
+      "triangles": 372,
+      "material_count": 1,
+      "bytes": 315700
+    },
+    {
+      "id": "jardim_pagodes_funerarios",
+      "biomes": "bosque,encosta",
+      "scene": "scenes/jardim_pagodes_funerarios.tscn",
+      "model": "models/jardim_pagodes_funerarios.glb",
+      "triangles": 456,
+      "material_count": 1,
+      "bytes": 321748
+    },
+    {
+      "id": "mansao_cla_destruida",
+      "biomes": "vale,estrada",
+      "scene": "scenes/mansao_cla_destruida.tscn",
+      "model": "models/mansao_cla_destruida.glb",
+      "triangles": 504,
+      "material_count": 1,
+      "bytes": 325204
+    },
+    {
+      "id": "vila_abandonada",
+      "biomes": "planicie,floresta",
+      "scene": "scenes/vila_abandonada.tscn",
+      "model": "models/vila_abandonada.glb",
+      "triangles": 564,
+      "material_count": 1,
+      "bytes": 329540
+    },
+    {
+      "id": "santuario_montanha",
+      "biomes": "montanha,penhasco",
+      "scene": "scenes/santuario_montanha.tscn",
+      "model": "models/santuario_montanha.glb",
+      "triangles": 348,
+      "material_count": 1,
+      "bytes": 313984
+    },
+    {
+      "id": "ponte_posto_comercial",
+      "biomes": "rio,estrada",
+      "scene": "scenes/ponte_posto_comercial.tscn",
+      "model": "models/ponte_posto_comercial.glb",
+      "triangles": 444,
+      "material_count": 1,
+      "bytes": 320916
+    },
+    {
+      "id": "forja_armas_esquecida",
+      "biomes": "montanha,minas",
+      "scene": "scenes/forja_armas_esquecida.tscn",
+      "model": "models/forja_armas_esquecida.glb",
+      "triangles": 420,
+      "material_count": 1,
+      "bytes": 319156
+    },
+    {
+      "id": "terracos_agricolas",
+      "biomes": "vale,encosta",
+      "scene": "scenes/terracos_agricolas.tscn",
+      "model": "models/terracos_agricolas.glb",
+      "triangles": 288,
+      "material_count": 1,
+      "bytes": 309672
+    },
+    {
+      "id": "mausoleu_antigo",
+      "biomes": "colina,planalto",
+      "scene": "scenes/mausoleu_antigo.tscn",
+      "model": "models/mausoleu_antigo.glb",
+      "triangles": 384,
+      "material_count": 1,
+      "bytes": 316580
+    }
+  ],
+  "source": "new original procedural meshes and painted noise texture",
+  "gameplay": "visual only; no portal or dungeon bindings"
+}

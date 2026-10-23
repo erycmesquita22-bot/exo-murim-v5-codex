@@ -80,13 +80,13 @@ func _init(w: Dictionary={},rid: int=0,pinned_monuments: Dictionary={}) -> void:
 		else:push_warning("City Forge physical plan blocked: "+str(settlement_plan.get("errors",[])))
 	else:
 		# Legacy special-site pad placement remains independent of settlement generation.
-		var count := 3 if spec.kind=="ruins" else 1
+		var count := 1
 		var phase := rng.randf()*TAU
 		for k in range(160):
 			if lots.size()>=count:break
 			var a := phase+k*2.39996323
 			var p := Vector2(cos(a),sin(a))*(26+floorf(k/12.0)*9)
-			var pad_size := 10.0 if spec.kind=="dungeon_approach" else 5.5
+			var pad_size := 14.0 if spec.kind=="ruins" else (10.0 if spec.kind=="dungeon_approach" else 5.5)
 			if road_distance(p)<pad_size+12 or river_distance(p)<pad_size+12:continue
 			var protected_site:=false
 			for monument in monumental_plans:
