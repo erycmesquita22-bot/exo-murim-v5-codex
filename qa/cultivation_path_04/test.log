@@ -1,0 +1,33 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+V3_READY ["Block_Recoil", "Combat_Back", "Combat_Idle", "Combat_Left", "Combat_Right", "Defeat", "Dodge", "Dodge_Back", "Dodge_Forward", "Dodge_Left", "Dodge_Right", "Guard_Loop", "Hit_Left", "Hit_Reaction", "Hit_Right", "Hit_Unarmed", "Idle", "Jump_Air", "Jump_Armed", "Jump_Start", "Land", "Land_Armed", "Parry", "Run", "Run_Armed", "Skill_Fist_Rupture", "Skill_Qi_Palm", "Skill_Qi_Pulse", "Skill_Sword_Crescent", "Skill_Sword_Footwork_Novice", "Skill_Sword_Footwork_Trained", "Skill_Sword_Frenzy_01", "Skill_Sword_Frenzy_02", "Skill_Sword_Frenzy_03", "Sword_Attack_01", "Sword_Attack_02", "Sword_Attack_03", "Sword_Attack_04", "Sword_Attack_05", "Sword_Draw", "Sword_Sheath", "Travel_Run", "Walk", "Walk_Armed"]
+EXO_HANEUL_V04_READY family=WONG colliders=65 rig=25 animations=["Block_Recoil", "Combat_Back", "Combat_Idle", "Combat_Left", "Combat_Right", "Defeat", "Dodge", "Dodge_Back", "Dodge_Forward", "Dodge_Left", "Dodge_Right", "Guard_Loop", "Hit_Left", "Hit_Reaction", "Hit_Right", "Hit_Unarmed", "Idle", "Jump_Air", "Jump_Armed", "Jump_Start", "Land", "Land_Armed", "Parry", "Run", "Run_Armed", "Skill_Fist_Rupture", "Skill_Qi_Palm", "Skill_Qi_Pulse", "Skill_Sword_Crescent", "Skill_Sword_Footwork_Novice", "Skill_Sword_Footwork_Trained", "Skill_Sword_Frenzy_01", "Skill_Sword_Frenzy_02", "Skill_Sword_Frenzy_03", "Sword_Attack_01", "Sword_Attack_02", "Sword_Attack_03", "Sword_Attack_04", "Sword_Attack_05", "Sword_Draw", "Sword_Sheath", "Travel_Run", "Walk", "Walk_Armed"]
+S06_READY doors=15 interiors=15 CharacterV3_clips=44
+S07_READY old_interiors=15 family=WONG ROAD_02_01_AVAILABLE
+COMBATE_BAIANO_READY bones=25 enemy_bones=25
+ACTIVE_SKILLS_READY ids=[&"fist_rupture", &"qi_pulse", &"sword_crescent"]
+EXO_CLIMATE preset=clear wind=0.28 rain=0.0 fog=0.05 night=false
+EXO_CLIMATE preset=clear wind=0.28 rain=0.0 fog=0.05 night=false
+EXO_CLIMATE preset=clear wind=0.28 rain=0.0 fog=0.05 night=false
+CHECK module_loaded PASS
+CHECK starts_common PASS
+CHECK foundation_requires_two_cycles PASS
+CHECK cannot_breakthrough_without_teacher PASS
+CHECK mentor_quest PASS
+EXO_CLIMATE preset=clear wind=0.28 rain=0.0 fog=0.05 night=false
+CHECK training_zone_detected PASS
+PRE_CULTIVATE floor=true action= armed=false health_stun=0.0
+CULTIVATE_MESSAGE Respire, reuna e circule o Qi. [C] interrompe.
+CHECK cultivation_started PASS
+CHECK locomotion_animation_paused PASS
+CHECK cycle_completed PASS
+CHECK locomotion_animation_restored PASS
+CHECK first_breakthrough PASS
+CHECK third_class_initial PASS
+CHECK health_bonus PASS
+CHECK third_class_intermediate PASS
+CHECK third_class_advanced PASS
+CHECK second_class PASS
+CHECK higher_realm_locked PASS
+CHECK new_game_reset PASS
+RESULT failures=0 list=[]

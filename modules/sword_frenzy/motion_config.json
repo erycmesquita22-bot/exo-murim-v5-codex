@@ -1,0 +1,14 @@
+{
+  "Skill_Sword_Frenzy_01": {
+    "duration": 0.7,
+    "loop": false
+  },
+  "Skill_Sword_Frenzy_02": {
+    "duration": 0.66,
+    "loop": false
+  },
+  "Skill_Sword_Frenzy_03": {
+    "duration": 0.82,
+    "loop": false
+  }
+}

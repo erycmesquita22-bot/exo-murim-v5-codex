@@ -1,0 +1,9 @@
+{
+  "schema": "exo.village_life.cultivation.v3",
+  "tier_range": [1,5],
+  "stage_seconds": {"gather":2.0,"circulate":5.0,"release":1.8,"settle":2.2},
+  "tier_1": "disciple: body aura, motes and meridian ring; no screen refraction",
+  "tier_2": "local master: additional strokes, night light and screen refraction",
+  "higher_tiers": "data-driven scaling up to tier 5; future NPCs can reuse animation/FX contract without replacing the V4 model",
+  "compatibility": "Godot Compatibility canvas screen texture and unshaded 3D sprites; no compute shader or heavy particles"
+}

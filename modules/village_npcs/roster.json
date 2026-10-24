@@ -1,0 +1,1804 @@
+{
+  "region": "HWA-02",
+  "lore_source": "EXO-Murim Biblia do Jianghu V0.1, section 6.5; data/HWA02_manifest.json semantic positions",
+  "npcs": [
+    {
+      "id": "ji_wol",
+      "label": "Ji Wol · barqueira",
+      "role": "barqueira",
+      "hp": 90,
+      "home": [
+        43,
+        -9
+      ],
+      "route": [
+        [
+          43,
+          -9
+        ],
+        [
+          46,
+          -9
+        ],
+        [
+          42,
+          -4
+        ]
+      ],
+      "dialogue": "A corrente mudou. Conheço a travessia, mas primeiro observo quem chega ao vau.",
+      "objective": "vigiar a travessia do Vau",
+      "relations": [
+        "moradores de Haneul",
+        "viajantes do rio"
+      ],
+      "destinies": [
+        "manter a travessia",
+        "recolher-se quando ferida"
+      ],
+      "apparel": {
+        "outer": "#748b94",
+        "tunic": "#b6bec0",
+        "sash": "#b58c63",
+        "trousers": "#485663"
+      },
+      "hair": {
+        "color": "#343139",
+        "style": "half_up"
+      },
+      "face": "adult_black",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "house_id": "FISHERS_01",
+      "face_path": "res://modules/village_life/npc_faces/adult_black.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "key",
+      "display_name": "Ji Wol",
+      "title": "Barqueira do Vau",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "fisher_west",
+      "label": "Pescador do Vau",
+      "role": "pescador",
+      "hp": 65,
+      "home": [
+        29,
+        20
+      ],
+      "route": [
+        [
+          29,
+          20
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          39,
+          29
+        ]
+      ],
+      "dialogue": "O rio dá peixe quando respeitamos o seu tempo.",
+      "objective": "pescar perto do cais",
+      "relations": [
+        "Ji Wol",
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "seguir pescando",
+        "retornar ferido para casa"
+      ],
+      "apparel": {
+        "outer": "#a88c67",
+        "tunic": "#c3ad88",
+        "sash": "#81684d",
+        "trousers": "#5f6660"
+      },
+      "hair": {
+        "color": "#493a33",
+        "style": "low_tail"
+      },
+      "face": "weathered",
+      "body_style": {
+        "width": 1.12,
+        "height": 1.01,
+        "depth": 1.09
+      },
+      "house_id": "FISHERS_01",
+      "face_path": "res://modules/village_life/npc_faces/weathered.png",
+      "age_band": "adult",
+      "physique": "strong",
+      "importance": "ordinary",
+      "display_name": "Pescador do Vau",
+      "title": "",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "fisher_jetty",
+      "label": "Pescadora do Cais",
+      "role": "pescadora",
+      "hp": 65,
+      "home": [
+        34,
+        43
+      ],
+      "route": [
+        [
+          34,
+          43
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          43,
+          43
+        ]
+      ],
+      "dialogue": "O cais está calmo por enquanto. Vi barcos seguirem ao norte.",
+      "objective": "cuidar do cais de pesca",
+      "relations": [
+        "Ji Wol",
+        "pescadores do Vau"
+      ],
+      "destinies": [
+        "cuidar do cais",
+        "recolher-se quando ferida"
+      ],
+      "apparel": {
+        "outer": "#79907e",
+        "tunic": "#bdc2a5",
+        "sash": "#9b8862",
+        "trousers": "#5d6c68"
+      },
+      "hair": {
+        "color": "#474344",
+        "style": "half_up"
+      },
+      "face": "river_tan",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "house_id": "FISHERS_02",
+      "face_path": "res://modules/village_life/npc_faces/river_tan.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Pescadora do Cais",
+      "title": "",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "square_local",
+      "label": "Moradora da Praça",
+      "role": "moradora",
+      "hp": 60,
+      "home": [
+        -11,
+        5
+      ],
+      "route": [
+        [
+          -11,
+          5
+        ],
+        [
+          -7,
+          7
+        ],
+        [
+          -3,
+          4
+        ]
+      ],
+      "dialogue": "Haneul é pequena, mas ninguém ignora o que acontece na estrada.",
+      "objective": "circular pela praça",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "frequentar a praça",
+        "buscar abrigo quando ferida"
+      ],
+      "apparel": {
+        "outer": "#9d7c71",
+        "tunic": "#d5bca6",
+        "sash": "#a37d6c",
+        "trousers": "#675b5b"
+      },
+      "hair": {
+        "color": "#858684",
+        "style": "long_tail"
+      },
+      "face": "elder_ash",
+      "body_style": {
+        "width": 0.99,
+        "height": 0.96,
+        "depth": 1.0
+      },
+      "house_id": "HOUSE_CENTER",
+      "face_path": "res://modules/village_life/npc_faces/elder_ash.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Moradora da Praça",
+      "title": "",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "tea_worker",
+      "label": "Atendente da Casa de Chá",
+      "role": "atendente",
+      "hp": 70,
+      "home": [
+        -7,
+        -11
+      ],
+      "route": [
+        [
+          -7,
+          -11
+        ],
+        [
+          -9,
+          -8
+        ],
+        [
+          -12,
+          -5
+        ]
+      ],
+      "dialogue": "A água está quente. Os rumores da estrada chegam antes dos viajantes.",
+      "objective": "atender moradores e viajantes",
+      "relations": [
+        "moradores de Haneul",
+        "viajantes"
+      ],
+      "destinies": [
+        "manter o atendimento",
+        "fechar a casa para se recuperar"
+      ],
+      "apparel": {
+        "outer": "#83909c",
+        "tunic": "#dad0ba",
+        "sash": "#a68b66",
+        "trousers": "#596371"
+      },
+      "hair": {
+        "color": "#6c4734",
+        "style": "half_up"
+      },
+      "face": "young_chestnut",
+      "body_style": {
+        "width": 0.88,
+        "height": 0.91,
+        "depth": 0.91
+      },
+      "house_id": "TEA_HOUSE",
+      "face_path": "res://modules/village_life/npc_faces/young_chestnut.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "key",
+      "display_name": "Atendente da Casa de Chá",
+      "title": "Rumores da estrada",
+      "animation_profile": "serve"
+    },
+    {
+      "id": "family_main_hall_01",
+      "label": "Discípulo · Family Main Hall 1",
+      "role": "discípulo",
+      "house_id": "FAMILY_MAIN_HALL",
+      "hp": 115,
+      "home": [
+        -44.0,
+        -44.6
+      ],
+      "route": [
+        [
+          -44.0,
+          -44.6
+        ],
+        [
+          -48,
+          -31
+        ],
+        [
+          -55,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#53677b",
+        "tunic": "#aeb8b7",
+        "sash": "#78838a",
+        "trousers": "#3e4c5e"
+      },
+      "hair": {
+        "color": "#30343b",
+        "style": "half_up"
+      },
+      "face": "young_ash",
+      "body_style": {
+        "width": 0.88,
+        "height": 0.91,
+        "depth": 0.91
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_ash.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_main_hall_02",
+      "label": "Discípulo · Family Main Hall 2",
+      "role": "discípulo",
+      "house_id": "FAMILY_MAIN_HALL",
+      "hp": 115,
+      "home": [
+        -42.3,
+        -47.4
+      ],
+      "route": [
+        [
+          -42.3,
+          -47.4
+        ],
+        [
+          -45,
+          -31
+        ],
+        [
+          -52,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#716b82",
+        "tunic": "#bbb2bd",
+        "sash": "#79738a",
+        "trousers": "#484958"
+      },
+      "hair": {
+        "color": "#6c4734",
+        "style": "swept"
+      },
+      "face": "young_chestnut",
+      "body_style": {
+        "width": 0.905,
+        "height": 0.965,
+        "depth": 0.945
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_chestnut.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_main_hall_03",
+      "label": "Discípulo · Family Main Hall 3",
+      "role": "discípulo",
+      "house_id": "FAMILY_MAIN_HALL",
+      "hp": 115,
+      "home": [
+        -40.6,
+        -44.6
+      ],
+      "route": [
+        [
+          -40.6,
+          -44.6
+        ],
+        [
+          -42,
+          -31
+        ],
+        [
+          -49,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#53677b",
+        "tunic": "#aeb8b7",
+        "sash": "#78838a",
+        "trousers": "#3e4c5e"
+      },
+      "hair": {
+        "color": "#252a33",
+        "style": "long_tail"
+      },
+      "face": "young_black",
+      "body_style": {
+        "width": 0.93,
+        "height": 1.02,
+        "depth": 0.91
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_black.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_left_wing_01",
+      "label": "Discípulo · Family Left Wing 1",
+      "role": "discípulo",
+      "house_id": "FAMILY_LEFT_WING",
+      "hp": 115,
+      "home": [
+        -61.0,
+        -31.6
+      ],
+      "route": [
+        [
+          -61.0,
+          -31.6
+        ],
+        [
+          -48,
+          -31
+        ],
+        [
+          -55,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#716b82",
+        "tunic": "#bbb2bd",
+        "sash": "#79738a",
+        "trousers": "#484958"
+      },
+      "hair": {
+        "color": "#35373d",
+        "style": "compact_tail"
+      },
+      "face": "scholar",
+      "body_style": {
+        "width": 0.88,
+        "height": 1.17,
+        "depth": 0.945
+      },
+      "face_path": "res://modules/village_life/npc_faces/scholar.png",
+      "age_band": "adult",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_left_wing_02",
+      "label": "Discípulo · Family Left Wing 2",
+      "role": "discípulo",
+      "house_id": "FAMILY_LEFT_WING",
+      "hp": 115,
+      "home": [
+        -59.3,
+        -34.4
+      ],
+      "route": [
+        [
+          -59.3,
+          -34.4
+        ],
+        [
+          -45,
+          -31
+        ],
+        [
+          -52,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#53677b",
+        "tunic": "#aeb8b7",
+        "sash": "#78838a",
+        "trousers": "#3e4c5e"
+      },
+      "hair": {
+        "color": "#70443d",
+        "style": "loose_short"
+      },
+      "face": "adult_auburn",
+      "body_style": {
+        "width": 1.015,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_auburn.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_right_wing_01",
+      "label": "Discípulo · Family Right Wing 1",
+      "role": "discípulo",
+      "house_id": "FAMILY_RIGHT_WING",
+      "hp": 115,
+      "home": [
+        -27.0,
+        -31.6
+      ],
+      "route": [
+        [
+          -27.0,
+          -31.6
+        ],
+        [
+          -48,
+          -31
+        ],
+        [
+          -55,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#716b82",
+        "tunic": "#bbb2bd",
+        "sash": "#79738a",
+        "trousers": "#484958"
+      },
+      "hair": {
+        "color": "#252a33",
+        "style": "cropped"
+      },
+      "face": "young_black",
+      "body_style": {
+        "width": 0.93,
+        "height": 0.965,
+        "depth": 0.945
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_black.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "family_right_wing_02",
+      "label": "Discípulo · Family Right Wing 2",
+      "role": "discípulo",
+      "house_id": "FAMILY_RIGHT_WING",
+      "hp": 115,
+      "home": [
+        -25.3,
+        -34.4
+      ],
+      "route": [
+        [
+          -25.3,
+          -34.4
+        ],
+        [
+          -45,
+          -31
+        ],
+        [
+          -52,
+          -25
+        ]
+      ],
+      "dialogue": "Treinamos o qi no pátio; primeiro vem o controle da respiração.",
+      "objective": "cultivar qi no pátio",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#53677b",
+        "tunic": "#aeb8b7",
+        "sash": "#78838a",
+        "trousers": "#3e4c5e"
+      },
+      "hair": {
+        "color": "#343139",
+        "style": "low_tail"
+      },
+      "face": "adult_black",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.12,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_black.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Discípulo",
+      "title": "",
+      "animation_profile": "martial"
+    },
+    {
+      "id": "farm_home_a_01",
+      "label": "Lavrador · Farm Home A 1",
+      "role": "lavrador",
+      "house_id": "FARM_HOME_A",
+      "hp": 65,
+      "home": [
+        -43.0,
+        54.4
+      ],
+      "route": [
+        [
+          -43.0,
+          54.4
+        ],
+        [
+          -73,
+          54
+        ],
+        [
+          -68,
+          65
+        ]
+      ],
+      "dialogue": "O campo e o treino pedem constância.",
+      "objective": "trabalhar no campo",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8b8460",
+        "tunic": "#bdb18b",
+        "sash": "#8d7658",
+        "trousers": "#585c4b"
+      },
+      "hair": {
+        "color": "#493a33",
+        "style": "low_tail"
+      },
+      "face": "weathered",
+      "body_style": {
+        "width": 1.12,
+        "height": 1.01,
+        "depth": 1.09
+      },
+      "face_path": "res://modules/village_life/npc_faces/weathered.png",
+      "age_band": "adult",
+      "physique": "strong",
+      "importance": "ordinary",
+      "display_name": "Lavrador",
+      "title": "",
+      "animation_profile": "field"
+    },
+    {
+      "id": "farm_home_a_02",
+      "label": "Lavrador · Farm Home A 2",
+      "role": "lavrador",
+      "house_id": "FARM_HOME_A",
+      "hp": 65,
+      "home": [
+        -41.3,
+        51.6
+      ],
+      "route": [
+        [
+          -41.3,
+          51.6
+        ],
+        [
+          -69,
+          60
+        ],
+        [
+          -65,
+          68
+        ]
+      ],
+      "dialogue": "O campo e o treino pedem constância.",
+      "objective": "trabalhar no campo",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#a07c62",
+        "tunic": "#c6b090",
+        "sash": "#80644b",
+        "trousers": "#64625a"
+      },
+      "hair": {
+        "color": "#524034",
+        "style": "half_up"
+      },
+      "face": "adult_brown",
+      "body_style": {
+        "width": 1.015,
+        "height": 1.065,
+        "depth": 1.035
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_brown.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Lavrador",
+      "title": "",
+      "animation_profile": "field"
+    },
+    {
+      "id": "farm_home_b_01",
+      "label": "Lavrador · Farm Home B 1",
+      "role": "lavrador",
+      "house_id": "FARM_HOME_B",
+      "hp": 65,
+      "home": [
+        -19.0,
+        59.4
+      ],
+      "route": [
+        [
+          -19.0,
+          59.4
+        ],
+        [
+          -73,
+          54
+        ],
+        [
+          -68,
+          65
+        ]
+      ],
+      "dialogue": "O campo e o treino pedem constância.",
+      "objective": "trabalhar no campo",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8b8460",
+        "tunic": "#bdb18b",
+        "sash": "#8d7658",
+        "trousers": "#585c4b"
+      },
+      "hair": {
+        "color": "#474344",
+        "style": "swept"
+      },
+      "face": "river_tan",
+      "body_style": {
+        "width": 1.04,
+        "height": 1.12,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/river_tan.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Lavrador",
+      "title": "",
+      "animation_profile": "field"
+    },
+    {
+      "id": "farm_home_b_02",
+      "label": "Lavrador · Farm Home B 2",
+      "role": "lavrador",
+      "house_id": "FARM_HOME_B",
+      "hp": 65,
+      "home": [
+        -17.3,
+        56.6
+      ],
+      "route": [
+        [
+          -17.3,
+          56.6
+        ],
+        [
+          -69,
+          60
+        ],
+        [
+          -65,
+          68
+        ]
+      ],
+      "dialogue": "O campo e o treino pedem constância.",
+      "objective": "trabalhar no campo",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#a07c62",
+        "tunic": "#c6b090",
+        "sash": "#80644b",
+        "trousers": "#64625a"
+      },
+      "hair": {
+        "color": "#858684",
+        "style": "long_tail"
+      },
+      "face": "elder_ash",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.125,
+        "depth": 1.035
+      },
+      "face_path": "res://modules/village_life/npc_faces/elder_ash.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Lavrador",
+      "title": "",
+      "animation_profile": "field"
+    },
+    {
+      "id": "house_gate_01",
+      "label": "Vigia · House Gate 1",
+      "role": "vigia",
+      "house_id": "HOUSE_GATE",
+      "hp": 65,
+      "home": [
+        16.0,
+        -57.6
+      ],
+      "route": [
+        [
+          16.0,
+          -57.6
+        ],
+        [
+          18.0,
+          -55.6
+        ],
+        [
+          14.0,
+          -56.6
+        ]
+      ],
+      "dialogue": "A estrada está calma hoje.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#4c6572",
+        "tunic": "#8799a0",
+        "sash": "#897861",
+        "trousers": "#374752"
+      },
+      "hair": {
+        "color": "#2c3032",
+        "style": "compact_tail"
+      },
+      "face": "guard_broad",
+      "body_style": {
+        "width": 1.12,
+        "height": 1.01,
+        "depth": 1.09
+      },
+      "face_path": "res://modules/village_life/npc_faces/guard_broad.png",
+      "age_band": "adult",
+      "physique": "strong",
+      "importance": "ordinary",
+      "display_name": "Vigia",
+      "title": "",
+      "animation_profile": "guard"
+    },
+    {
+      "id": "house_gate_02",
+      "label": "Vigia · House Gate 2",
+      "role": "vigia",
+      "house_id": "HOUSE_GATE",
+      "hp": 65,
+      "home": [
+        17.7,
+        -60.4
+      ],
+      "route": [
+        [
+          17.7,
+          -60.4
+        ],
+        [
+          19.7,
+          -58.4
+        ],
+        [
+          15.7,
+          -59.4
+        ]
+      ],
+      "dialogue": "A estrada está calma hoje.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#4c6572",
+        "tunic": "#8799a0",
+        "sash": "#897861",
+        "trousers": "#374752"
+      },
+      "hair": {
+        "color": "#343139",
+        "style": "loose_short"
+      },
+      "face": "adult_black",
+      "body_style": {
+        "width": 1.145,
+        "height": 1.065,
+        "depth": 1.125
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_black.png",
+      "age_band": "adult",
+      "physique": "strong",
+      "importance": "ordinary",
+      "display_name": "Vigia",
+      "title": "",
+      "animation_profile": "guard"
+    },
+    {
+      "id": "house_center_01",
+      "label": "Artesão · House Center 1",
+      "role": "artesão",
+      "house_id": "HOUSE_CENTER",
+      "hp": 65,
+      "home": [
+        8.0,
+        30.4
+      ],
+      "route": [
+        [
+          8.0,
+          30.4
+        ],
+        [
+          10.0,
+          32.4
+        ],
+        [
+          6.0,
+          31.4
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8b7668",
+        "tunic": "#c2ae9a",
+        "sash": "#8b7265",
+        "trousers": "#5d5b59"
+      },
+      "hair": {
+        "color": "#524034",
+        "style": "cropped"
+      },
+      "face": "adult_brown",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_brown.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Artesão",
+      "title": "",
+      "animation_profile": "trade"
+    },
+    {
+      "id": "house_center_02",
+      "label": "Artesão · House Center 2",
+      "role": "artesão",
+      "house_id": "HOUSE_CENTER",
+      "hp": 65,
+      "home": [
+        9.7,
+        27.6
+      ],
+      "route": [
+        [
+          9.7,
+          27.6
+        ],
+        [
+          11.7,
+          29.6
+        ],
+        [
+          7.699999999999999,
+          28.6
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8b7668",
+        "tunic": "#c2ae9a",
+        "sash": "#8b7265",
+        "trousers": "#5d5b59"
+      },
+      "hair": {
+        "color": "#b8b7a9",
+        "style": "silver_bun"
+      },
+      "face": "elder_silver",
+      "body_style": {
+        "width": 1.015,
+        "height": 1.015,
+        "depth": 1.035
+      },
+      "face_path": "res://modules/village_life/npc_faces/elder_silver.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Artesão",
+      "title": "",
+      "animation_profile": "trade"
+    },
+    {
+      "id": "store_front_01",
+      "label": "Comerciante · Store Front 1",
+      "role": "comerciante",
+      "house_id": "STORE_FRONT",
+      "hp": 65,
+      "home": [
+        -26.0,
+        24.4
+      ],
+      "route": [
+        [
+          -26.0,
+          24.4
+        ],
+        [
+          -24.0,
+          26.4
+        ],
+        [
+          -28.0,
+          25.4
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#657878",
+        "tunic": "#c8b9a0",
+        "sash": "#b29a75",
+        "trousers": "#505d60"
+      },
+      "hair": {
+        "color": "#70443d",
+        "style": "long_tail"
+      },
+      "face": "adult_auburn",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_auburn.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Comerciante",
+      "title": "",
+      "animation_profile": "trade"
+    },
+    {
+      "id": "house_se_01",
+      "label": "Morador · House Se 1",
+      "role": "morador",
+      "house_id": "HOUSE_SE",
+      "hp": 65,
+      "home": [
+        12.0,
+        66.4
+      ],
+      "route": [
+        [
+          12.0,
+          66.4
+        ],
+        [
+          14.0,
+          68.4
+        ],
+        [
+          10.0,
+          67.4
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8e7274",
+        "tunic": "#c5ada8",
+        "sash": "#907a74",
+        "trousers": "#595661"
+      },
+      "hair": {
+        "color": "#858684",
+        "style": "long_tail"
+      },
+      "face": "elder_ash",
+      "body_style": {
+        "width": 0.99,
+        "height": 0.96,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/elder_ash.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Morador",
+      "title": "",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "house_se_02",
+      "label": "Morador · House Se 2",
+      "role": "morador",
+      "house_id": "HOUSE_SE",
+      "hp": 65,
+      "home": [
+        13.7,
+        63.6
+      ],
+      "route": [
+        [
+          13.7,
+          63.6
+        ],
+        [
+          15.7,
+          65.6
+        ],
+        [
+          11.7,
+          64.6
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8e7274",
+        "tunic": "#c5ada8",
+        "sash": "#907a74",
+        "trousers": "#595661"
+      },
+      "hair": {
+        "color": "#6c4734",
+        "style": "low_tail"
+      },
+      "face": "young_chestnut",
+      "body_style": {
+        "width": 0.905,
+        "height": 0.965,
+        "depth": 0.945
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_chestnut.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Morador",
+      "title": "",
+      "animation_profile": "resident"
+    },
+    {
+      "id": "riverside_inn_01",
+      "label": "Estalajadeiro · Riverside Inn 1",
+      "role": "estalajadeiro",
+      "house_id": "RIVERSIDE_INN",
+      "hp": 65,
+      "home": [
+        32.0,
+        -9.6
+      ],
+      "route": [
+        [
+          32.0,
+          -9.6
+        ],
+        [
+          34.0,
+          -7.6
+        ],
+        [
+          30.0,
+          -8.6
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#697f88",
+        "tunic": "#c4bbaa",
+        "sash": "#af906d",
+        "trousers": "#545f69"
+      },
+      "hair": {
+        "color": "#524034",
+        "style": "loose_short"
+      },
+      "face": "adult_brown",
+      "body_style": {
+        "width": 0.99,
+        "height": 1.01,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/adult_brown.png",
+      "age_band": "adult",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Estalajadeiro",
+      "title": "",
+      "animation_profile": "serve"
+    },
+    {
+      "id": "riverside_inn_02",
+      "label": "Estalajadeiro · Riverside Inn 2",
+      "role": "estalajadeiro",
+      "house_id": "RIVERSIDE_INN",
+      "hp": 65,
+      "home": [
+        33.7,
+        -12.4
+      ],
+      "route": [
+        [
+          33.7,
+          -12.4
+        ],
+        [
+          35.7,
+          -10.4
+        ],
+        [
+          31.700000000000003,
+          -11.4
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#697f88",
+        "tunic": "#c4bbaa",
+        "sash": "#af906d",
+        "trousers": "#545f69"
+      },
+      "hair": {
+        "color": "#b8b7a9",
+        "style": "silver_bun"
+      },
+      "face": "elder_silver",
+      "body_style": {
+        "width": 1.015,
+        "height": 1.015,
+        "depth": 1.035
+      },
+      "face_path": "res://modules/village_life/npc_faces/elder_silver.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "ordinary",
+      "display_name": "Estalajadeiro",
+      "title": "",
+      "animation_profile": "serve"
+    },
+    {
+      "id": "farm_hut_01",
+      "label": "Lavrador · Farm Hut 1",
+      "role": "lavrador",
+      "house_id": "FARM_HUT",
+      "hp": 65,
+      "home": [
+        -66.0,
+        77.4
+      ],
+      "route": [
+        [
+          -66.0,
+          77.4
+        ],
+        [
+          -73,
+          54
+        ],
+        [
+          -68,
+          65
+        ]
+      ],
+      "dialogue": "O campo e o treino pedem constância.",
+      "objective": "trabalhar no campo",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#8b8460",
+        "tunic": "#bdb18b",
+        "sash": "#8d7658",
+        "trousers": "#585c4b"
+      },
+      "hair": {
+        "color": "#6c4734",
+        "style": "compact_tail"
+      },
+      "face": "young_chestnut",
+      "body_style": {
+        "width": 0.905,
+        "height": 0.91,
+        "depth": 0.91
+      },
+      "face_path": "res://modules/village_life/npc_faces/young_chestnut.png",
+      "age_band": "young",
+      "physique": "slim",
+      "importance": "ordinary",
+      "display_name": "Lavrador",
+      "title": "",
+      "animation_profile": "field"
+    },
+    {
+      "id": "herbalist_01",
+      "label": "Herborista · Herbalist 1",
+      "role": "herborista",
+      "house_id": "HERBALIST",
+      "hp": 65,
+      "home": [
+        12.0,
+        -26.6
+      ],
+      "route": [
+        [
+          12.0,
+          -26.6
+        ],
+        [
+          14.0,
+          -24.6
+        ],
+        [
+          10.0,
+          -25.6
+        ]
+      ],
+      "dialogue": "Cada casa tem seus afazeres. A vila segue viva.",
+      "objective": "cuidar da casa e da vila",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#68836d",
+        "tunic": "#b4bda2",
+        "sash": "#9a8960",
+        "trousers": "#485d55"
+      },
+      "hair": {
+        "color": "#979185",
+        "style": "silver_bun"
+      },
+      "face": "herbalist_grey",
+      "body_style": {
+        "width": 0.99,
+        "height": 0.96,
+        "depth": 1.0
+      },
+      "face_path": "res://modules/village_life/npc_faces/herbalist_grey.png",
+      "age_band": "elder",
+      "physique": "average",
+      "importance": "key",
+      "display_name": "Herborista de Haneul",
+      "title": "Ervas e remédios",
+      "animation_profile": "trade"
+    },
+    {
+      "id": "estate_master_weak",
+      "label": "Mestre de Pátio",
+      "role": "mestre de cultivo",
+      "house_id": "FAMILY_MAIN_HALL",
+      "hp": 330,
+      "home": [
+        -49,
+        -31
+      ],
+      "route": [
+        [
+          -49,
+          -31
+        ],
+        [
+          -48,
+          -29
+        ]
+      ],
+      "dialogue": "Respire. Conduza o qi antes de querer vencê-lo.",
+      "objective": "orientar cultivo marcial",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#343f62",
+        "tunic": "#b5b8bb",
+        "sash": "#b19b68",
+        "trousers": "#303647"
+      },
+      "hair": {
+        "color": "#c3c1b0",
+        "style": "swept"
+      },
+      "face": "elder_beard",
+      "body_style": {
+        "width": 1.12,
+        "height": 0.96,
+        "depth": 1.09
+      },
+      "cultivation_site": "ESTATE_COURTYARD",
+      "cultivation_tier": 2,
+      "cultivation_stage": "refinamento inicial",
+      "counter_damage": 18,
+      "face_path": "res://modules/village_life/npc_faces/elder_beard.png",
+      "age_band": "elder",
+      "physique": "strong",
+      "importance": "master",
+      "display_name": "Mestre do Pátio",
+      "title": "Cultivo · Refinamento inicial",
+      "animation_profile": "master"
+    },
+    {
+      "id": "terrace_master_weak",
+      "label": "Mestre das Terraças",
+      "role": "mestre de cultivo",
+      "house_id": "FAMILY_MAIN_HALL",
+      "hp": 330,
+      "home": [
+        -66,
+        42
+      ],
+      "route": [
+        [
+          -66,
+          42
+        ],
+        [
+          -65,
+          44
+        ]
+      ],
+      "dialogue": "Respire. Conduza o qi antes de querer vencê-lo.",
+      "objective": "orientar cultivo marcial",
+      "relations": [
+        "moradores de Haneul"
+      ],
+      "destinies": [
+        "manter rotina",
+        "buscar abrigo se ferido"
+      ],
+      "apparel": {
+        "outer": "#52706d",
+        "tunic": "#c9c5b1",
+        "sash": "#967c58",
+        "trousers": "#384f51"
+      },
+      "hair": {
+        "color": "#b8b7a9",
+        "style": "silver_bun"
+      },
+      "face": "elder_silver",
+      "body_style": {
+        "width": 1.145,
+        "height": 1.015,
+        "depth": 1.125
+      },
+      "cultivation_site": "TERRACE_CLEARING",
+      "cultivation_tier": 2,
+      "cultivation_stage": "refinamento inicial",
+      "counter_damage": 18,
+      "face_path": "res://modules/village_life/npc_faces/elder_silver.png",
+      "age_band": "elder",
+      "physique": "strong",
+      "importance": "master",
+      "display_name": "Mestra das Terraças",
+      "title": "Cultivo · Refinamento inicial",
+      "animation_profile": "master"
+    }
+  ],
+  "households": [
+    {
+      "house_id": "FAMILY_LEFT_WING",
+      "residents": [
+        "family_left_wing_01",
+        "family_left_wing_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "FAMILY_MAIN_HALL",
+      "residents": [
+        "family_main_hall_01",
+        "family_main_hall_02",
+        "family_main_hall_03",
+        "estate_master_weak",
+        "terrace_master_weak"
+      ],
+      "count": 5
+    },
+    {
+      "house_id": "FAMILY_RIGHT_WING",
+      "residents": [
+        "family_right_wing_01",
+        "family_right_wing_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "FARM_HOME_A",
+      "residents": [
+        "farm_home_a_01",
+        "farm_home_a_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "FARM_HOME_B",
+      "residents": [
+        "farm_home_b_01",
+        "farm_home_b_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "FARM_HUT",
+      "residents": [
+        "farm_hut_01"
+      ],
+      "count": 1
+    },
+    {
+      "house_id": "FISHERS_01",
+      "residents": [
+        "ji_wol",
+        "fisher_west"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "FISHERS_02",
+      "residents": [
+        "fisher_jetty"
+      ],
+      "count": 1
+    },
+    {
+      "house_id": "HERBALIST",
+      "residents": [
+        "herbalist_01"
+      ],
+      "count": 1
+    },
+    {
+      "house_id": "HOUSE_CENTER",
+      "residents": [
+        "square_local",
+        "house_center_01",
+        "house_center_02"
+      ],
+      "count": 3
+    },
+    {
+      "house_id": "HOUSE_GATE",
+      "residents": [
+        "house_gate_01",
+        "house_gate_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "HOUSE_SE",
+      "residents": [
+        "house_se_01",
+        "house_se_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "RIVERSIDE_INN",
+      "residents": [
+        "riverside_inn_01",
+        "riverside_inn_02"
+      ],
+      "count": 2
+    },
+    {
+      "house_id": "STORE_FRONT",
+      "residents": [
+        "store_front_01"
+      ],
+      "count": 1
+    },
+    {
+      "house_id": "TEA_HOUSE",
+      "residents": [
+        "tea_worker"
+      ],
+      "count": 1
+    }
+  ],
+  "cultivation_sites": [
+    {
+      "id": "ESTATE_COURTYARD",
+      "position": [
+        -48,
+        -31
+      ],
+      "teacher": "estate_master_weak",
+      "radius": 9
+    },
+    {
+      "id": "TERRACE_CLEARING",
+      "position": [
+        -66,
+        42
+      ],
+      "teacher": "terrace_master_weak",
+      "radius": 7
+    }
+  ]
+}

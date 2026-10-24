@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"fist_rupture"
+display_name = "Punho da Ruptura"
+school = "Punho"
+delivery = "fist"
+description = "Um passo curto e um golpe direto. Acerta pela trajetória do punho; a aproximação e o tempo do impacto importam."
+animation = &"Skill_Fist_Rupture"
+damage = 24
+qi_cost = 8.0
+cooldown = 2
+active_start = 0.3
+active_end = 0.57
+query_radius = 0.16
+lunge_distance = 0.42

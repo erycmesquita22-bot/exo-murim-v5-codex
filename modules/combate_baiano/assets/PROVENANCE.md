@@ -1,0 +1,1 @@
+Blade mesh and sounds authored specifically for Combate baiano. No external assets. Blade generated from explicitly authored vertices by source/build_training_sword.py; all three WAVs synthesized from seeded noise and oscillators. The approved V4 character mesh, grip, textures and skeleton are unchanged. Editable blade Blender file included.

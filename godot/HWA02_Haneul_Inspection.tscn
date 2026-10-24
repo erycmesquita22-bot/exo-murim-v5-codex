@@ -1,0 +1,71 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://godot/HWA02_Inspection.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://model/HWA02_Nature_And_TerrainCollision_S02.glb" id="2_base"]
+[ext_resource type="PackedScene" path="res://model/HWA02_Family_Wong.glb" id="3_wong"]
+[ext_resource type="PackedScene" path="res://model/HWA02_Family_Wudong.glb" id="4_wudong"]
+[ext_resource type="PackedScene" path="res://architecture_sprint02/HWA02_Architecture_Sprint02.glb" id="5_arch"]
+[ext_resource type="PackedScene" path="res://infrastructure_sprint05/HWA02_Terrain_S05.glb" id="6_terrain"]
+[ext_resource type="PackedScene" path="res://props_sprint03/HWA02_Props_Vegetation_S03.glb" id="7_props"]
+
+[ext_resource type="PackedScene" path="res://infrastructure_sprint05/HWA02_Infraestrutura_S05.glb" id="8_infra"]
+
+[ext_resource type="PackedScene" path="res://infrastructure_sprint05/HWA02_River_S05.glb" id="9_river"]
+
+[sub_resource type="Environment" id="Environment_1"]
+background_mode = 1
+background_color = Color(0.74, 0.84, 0.82, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.92, 0.91, 0.81, 1)
+ambient_light_energy = 0.65
+reflected_light_source = 1
+
+[node name="HWA02_Environment_Inspection" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="TerrainAndArchitecture" parent="." instance=ExtResource("2_base")]
+
+[node name="TerrainSprint05Approaches" parent="." instance=ExtResource("6_terrain")]
+
+[node name="RiverSprint05" parent="." instance=ExtResource("9_river")]
+
+[node name="ArchitectureSprint02" parent="." instance=ExtResource("5_arch")]
+
+[node name="PropsSprint03" parent="." instance=ExtResource("7_props")]
+
+[node name="InfrastructureSprint05" parent="." instance=ExtResource("8_infra")]
+
+[node name="FamilyWong" parent="." instance=ExtResource("3_wong")]
+visible = false
+
+[node name="FamilyWudong" parent="." instance=ExtResource("4_wudong")]
+visible = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.98, -0.5, 0.0)
+light_color = Color(1.0, 0.94, 0.83, 1.0)
+light_energy = 0.76
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+current = true
+fov = 65.0
+near = 0.1
+far = 750.0
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Help" type="Label" parent="UI"]
+offset_left = 25.0
+offset_top = 20.0
+offset_right = 1060.0
+offset_bottom = 135.0
+theme_override_colors/font_color = Color(0.98, 0.97, 0.87, 1.0)
+theme_override_colors/font_shadow_color = Color(0.07, 0.12, 0.12, 1.0)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 17
+text = "EXO-MURIM HWA-02 - INSPECAO SEM PERSONAGEM"

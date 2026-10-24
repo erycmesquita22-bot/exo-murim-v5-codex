@@ -1,0 +1,9 @@
+{
+  "id": "exo_climate_atmosphere_forge_01",
+  "name": "EXO Climate & Atmosphere Forge 01",
+  "version": "1.0.0",
+  "entrypoint": "res://modules/exo_climate_atmosphere_forge_01/runtime/climate_forge.gd",
+  "description": "Rain, wind, falling leaves, waterfall, mist, night lighting and weather presets for EXO.",
+  "dependencies": ["exo_shader_forge_01"],
+  "compatibility": {"godot": "4.7.x", "renderer": "gl_compatibility"}
+}

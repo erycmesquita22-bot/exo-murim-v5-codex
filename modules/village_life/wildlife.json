@@ -1,0 +1,17 @@
+{
+  "schema": "exo.village_life.wildlife.v1",
+  "rig_contracts": {
+    "grazer": {"base": "Cow.gltf", "clips": ["Idle", "Walk", "Eating", "Gallop", "Idle_HitReact1", "Death"], "compatible_future_example": "Bull; validate bone names before skin swap"},
+    "pack": {"base": "Donkey.gltf", "clips": ["Idle", "Walk", "Eating", "Gallop", "Idle_HitReact1", "Death"], "compatible_future_example": "Horse; validate bone names before skin swap"},
+    "predator": {"base": "Wolf.gltf", "clips": ["Idle", "Walk", "Gallop", "Attack", "Idle_HitReact1", "Death"], "compatible_future_example": "Husky; validate bone names before skin swap"},
+    "horned": {"base": "Stag.gltf", "clips": ["Idle", "Walk", "Gallop", "Attack_Headbutt", "Attack_Kick", "Idle_HitReact1", "Death"], "compatible_future_example": "Deer; validate bone names before skin swap"}
+  },
+  "spawns": [
+    {"id":"field_cow_a","kind":"animal","rig":"grazer","label":"Gado do Campo","at":[-78,68],"scale":0.44,"hp":80,"home_radius":10},
+    {"id":"field_cow_b","kind":"animal","rig":"grazer","label":"Gado do Campo","at":[-84,58],"scale":0.39,"hp":80,"home_radius":9},
+    {"id":"field_donkey","kind":"animal","rig":"pack","label":"Animal de Carga","at":[-59,70],"scale":0.48,"hp":95,"home_radius":8},
+    {"id":"ash_wolf_a","kind":"beast","rig":"predator","label":"Lobo de Cinza · Fera","at":[-95,-77],"scale":0.56,"hp":175,"damage":15,"aggro":13,"leash":21,"combo":["Attack","Attack"],"windup":[0.37,0.22],"hit_time":[0.31,0.28]},
+    {"id":"ash_wolf_b","kind":"beast","rig":"predator","label":"Lobo de Cinza · Fera","at":[-86,-86],"scale":0.51,"hp":150,"damage":12,"aggro":11,"leash":19,"combo":["Attack","Attack"],"windup":[0.42,0.27],"hit_time":[0.32,0.27]},
+    {"id":"moon_stag","kind":"beast","rig":"horned","label":"Cervo de Lua · Fera","at":[84,-74],"scale":0.52,"hp":220,"damage":19,"aggro":10,"leash":18,"combo":["Attack_Headbutt","Attack_Kick"],"windup":[0.55,0.35],"hit_time":[0.34,0.37]}
+  ]
+}

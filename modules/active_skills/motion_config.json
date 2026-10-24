@@ -1,0 +1,14 @@
+{
+  "Skill_Fist_Rupture": {
+    "duration": 0.88,
+    "loop": false
+  },
+  "Skill_Qi_Pulse": {
+    "duration": 1.1,
+    "loop": false
+  },
+  "Skill_Sword_Crescent": {
+    "duration": 1.12,
+    "loop": false
+  }
+}

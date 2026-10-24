@@ -1,0 +1,84 @@
+{
+  "project": "EXO-Murim Haneul",
+  "version": "V11-title-menu-03",
+  "world": "HWA-02 fixed geography",
+  "active_modules": {
+    "character_core": "4.4-authored-motion",
+    "haneul_environment": "0.2",
+    "architecture_sprint02": "1.0.0",
+    "props_sprint03": "1.0.0",
+    "terrain_sprint05": "1.0.0",
+    "infrastructure_sprint05": "1.0.0",
+    "interiors_sprint06": "1.0.0",
+    "combate_baiano": "1.2-test",
+    "motion_core_03": "3.0-test",
+    "active_skills": "1.0-test",
+    "murim_footwork": "1.0-test",
+    "sword_frenzy": "1.0-test",
+    "world_sprint07": "1.0-route",
+    "exo_climate_atmosphere_forge_01": "1.0.0",
+    "integration_v11": "1.0-test",
+    "coracao_01": "1.1-reference-menu",
+    "village_npcs": "1.2-custom-looks",
+    "character_customization": "1.0-presets",
+    "title_flow": "3.0-layered-submenus"
+  },
+  "character_source_zip_sha256": "378fa7181e1fcb3b098f26140d336164c24af48ff6f1ffbc45b57ccfd8b71716",
+  "character_glb_sha256": "fc8af84dc28bd3c5e1a308df7a72efe702558824e924b52ac5d49ea75d11e557",
+  "gltf_original_untouched": true,
+  "note": "V11 source scenery preserved; cumulative combat/controller plus integration adapter. Original climate module retained with a map-specific subclass.",
+  "legacy_geometry_removed": true,
+  "sprint03_assets": "props_sprint03/manifest_sprint03.json",
+  "sprint04_assets": "terrain_sprint04/manifest_sprint04.json",
+  "notes_sprint04": "terrain rendering normals smoothed and painted pathways authored; collisions and terrain vertices unchanged. Install clean. No player controller edits.",
+  "sprint05_assets": "infrastructure_sprint05/data/manifest_sprint05.json",
+  "notes_sprint05": "15 marked outdoor doors preserved, stone thresholds and river bridge retained",
+  "sprint06_assets": "interiors_sprint06/data/rooms_manifest.json",
+  "sprint06_entry_script": "godot/S06_Haneul_InteriorController.gd",
+  "notes_sprint06": "15 packed separate interiors, manual F door entry/exit with overlay and collisions; no NPC simulation, no functional vendors, no save integration yet; roofs cut away in interior scenes for 3rd person camera",
+  "integration_v11": {
+    "scene": "res://modules/integration_v11/Integrated_V11.tscn",
+    "source_zip_sha256": "0fc03726a9cfdbc6f50eb7e416b268a29aa4d685b35c863adfef5307986bbf0b",
+    "climate_missing_dependency": "exo_shader_forge_01",
+    "fallback": "native weather particles, environment fog and lights; shader-forge sky/wind not validated"
+  },
+  "coracao_01": {
+    "scene": "res://modules/coracao_01/Heart_V11.tscn",
+    "save": "user://exo_coracao_01.json",
+    "art": "User-provided approved concept image as interactive main-menu composition; real player status overlays fictional concept card",
+    "scope": "menu, local save, navigation, training catalog, progress, test shop, challenge, options"
+  },
+  "village_npcs": {
+    "scene": "res://modules/village_npcs/VillageNPCs_V11.tscn",
+    "region": "HWA-02",
+    "roster": "res://modules/village_npcs/roster.json",
+    "save": "user://exo_village_npcs_01.json",
+    "lore_source": "EXO-Murim Biblia do Jianghu V0.1 section 6.5 and data/HWA02_manifest.json",
+    "asset_policy": "Approved V4 GLB/rig/UV untouched; authored face derivatives and segmented appearance profiles for NPCs"
+  },
+  "character_customization": {
+    "catalog": "res://modules/character_customization/catalog.json",
+    "script": "res://modules/character_customization/appearance.gd",
+    "faces": "res://modules/character_customization/faces/",
+    "player_default": "original V4 unchanged",
+    "scope": "NPC visual presets and reusable runtime contract; no player editor"
+  },
+  "title_flow": {
+    "entry": "res://modules/village_npcs/VillageNPCs_V11.tscn",
+    "script": "res://modules/title_flow/title_flow.gd",
+    "screens": [
+      "title",
+      "play",
+      "slots",
+      "creator",
+      "settings"
+    ],
+    "character_slots": 3,
+    "save_pattern": "user://exo_character_slot_%d.json",
+    "npc_save_pattern": "user://exo_village_npcs_slot_%d.json",
+    "legacy_migration": "legacy heart/NPC save offered through slot 1",
+    "art_source": "Edited supplied 1280x720 Murim Baiano screenshot: original preserved in source/user_reference.jpg; generated clean plate preserves village composition; runtime title/buttons/icons layered over it",
+    "fonts": "Permanent Marker (Apache-2.0), Kalam and Kaushan Script (SIL OFL 1.1); licenses in modules/title_flow/fonts",
+    "submenu_visuals": "Nine-slice copper/wood relief panel; raised interactive plaques and styled fields; 3D viewport frame"
+  }
+}

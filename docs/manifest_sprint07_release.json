@@ -1,0 +1,22 @@
+{
+  "release": "Haneul V1.1 Sprint07",
+  "engine": "Godot 4.7.2",
+  "base": "Haneul V1.0 Sprint06",
+  "role": "World expansion ROAD-02-01",
+  "package_install": "replace entire project",
+  "HWA01_city": "STAGING_ONLY",
+  "modules_untouched": [
+    "character_core_v3",
+    "interiors_sprint06",
+    "architecture_sprint02",
+    "props_sprint03",
+    "terrain_sprint04",
+    "infrastructure_sprint05"
+  ],
+  "test_ref": "qa/sprint07/QA_S07_results.json",
+  "terrain_glb_sha256": "7ac39c6c888a513e27424114bd6df21f4dacce2fba44a2619ea97d15fd4bc5ef",
+  "route_controller_sha256": "73b636a9c710d1b9d6e90980a91266ead0dda71eb2efc177f44032805d953fa0",
+  "route_scene_sha256": "dea19240948867f62d2bea5680d21ef29a55fd8eb029d9aaa47d1998198b06f0",
+  "qa_final_status": "GODOT_HEADLESS_PASS_2_FAMILIES",
+  "manual_walk": "NOT_RUN"
+}

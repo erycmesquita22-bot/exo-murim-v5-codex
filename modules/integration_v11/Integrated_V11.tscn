@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/integration_v11/integrated_v11.gd" id="1"]
+[node name="V11CombatClimate" type="Node3D"]
+script = ExtResource("1")

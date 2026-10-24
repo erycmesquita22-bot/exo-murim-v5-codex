@@ -1,0 +1,14 @@
+{
+  "Skill_Sword_Footwork_Novice": {
+    "duration": 1.95,
+    "loop": false
+  },
+  "Skill_Sword_Footwork_Trained": {
+    "duration": 1.45,
+    "loop": false
+  },
+  "Skill_Qi_Palm": {
+    "duration": 0.72,
+    "loop": false
+  }
+}

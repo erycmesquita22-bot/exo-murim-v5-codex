@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"sword_frenzy"
+display_name = "Três Cortes do Vento"
+school = "Espada"
+delivery = "blade"
+description = "Diagonal, retorno ascendente e finalizador lateral. Segure o ataque ou clique durante a recuperação para ligar os cortes. A lâmina prepara e sai por fora do corpo."
+animation = &"Skill_Sword_Frenzy_01"
+damage = 22
+qi_cost = 0.0
+cooldown = 0.08
+active_start = 0.30
+active_end = 0.650
+query_radius = 0.14
+lunge_distance = 0.0

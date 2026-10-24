@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source": "EXO V4 approved UV/rig",
+  "face_ids": [
+    "original",
+    "river_watch",
+    "river_worker",
+    "jetty_keeper",
+    "market_local",
+    "tea_attendant"
+  ],
+  "hair_styles": [
+    "cropped",
+    "loose_short",
+    "low_tail",
+    "compact_tail",
+    "high_tail"
+  ],
+  "body_limits": {
+    "width": [
+      0.92,
+      1.08
+    ],
+    "height": [
+      0.94,
+      1.06
+    ],
+    "depth": [
+      0.93,
+      1.07
+    ]
+  },
+  "apparel_slots": [
+    "outer",
+    "tunic",
+    "sash",
+    "trousers"
+  ],
+  "contract": "Use appearance.gd apply_to_visual on a V4 rig instance; use proportions for CharacterBody3D capsule/hurtbox sizing. Original player face and GLB are immutable."
+}

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"qi_palm"
+display_name = "Sopro de Qi"
+school = "Qi"
+delivery = "projectile"
+description = "Uma palma breve libera pressão e rastros de tinta. Sem concentração prolongada entre as mãos. O pulso colide com o cenário."
+animation = &"Skill_Qi_Palm"
+damage = 22
+qi_cost = 14.0
+cooldown = 3
+active_start = 0.33
+active_end = 0.48
+query_radius = 0.18
+lunge_distance = 0
+projectile_speed = 18.0
+projectile_range = 10.0

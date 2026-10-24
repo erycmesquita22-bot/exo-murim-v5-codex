@@ -1,0 +1,62 @@
+{
+  "Idle": {
+    "duration": 2.4,
+    "loop": true
+  },
+  "Walk": {
+    "duration": 1,
+    "loop": true
+  },
+  "Run": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Idle": {
+    "duration": 2.4,
+    "loop": true
+  },
+  "Walk_Armed": {
+    "duration": 1,
+    "loop": true
+  },
+  "Run_Armed": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Back": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Left": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Right": {
+    "duration": 1,
+    "loop": true
+  },
+  "Sword_Draw": {
+    "duration": 1.15,
+    "loop": false
+  },
+  "Sword_Sheath": {
+    "duration": 1.15,
+    "loop": false
+  },
+  "Sword_Attack_01": {
+    "duration": 0.72,
+    "loop": false
+  },
+  "Sword_Attack_02": {
+    "duration": 0.74,
+    "loop": false
+  },
+  "Dodge": {
+    "duration": 0.5,
+    "loop": false
+  },
+  "Hit_Reaction": {
+    "duration": 0.42,
+    "loop": false
+  }
+}

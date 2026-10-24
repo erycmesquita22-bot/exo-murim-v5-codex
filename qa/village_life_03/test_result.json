@@ -1,0 +1,40 @@
+{
+	"animals": 3,
+	"aura_runtime": true,
+	"beast_clips": true,
+	"beast_damage": true,
+	"beast_states": [
+		"STRIKE",
+		1
+	],
+	"beasts": 3,
+	"cultivation_clip": true,
+	"dodge_avoids_hit": true,
+	"face_variants": 14,
+	"fps": 145.0,
+	"hair_colors": 14,
+	"height_span": 0.26,
+	"household_census": true,
+	"households": 15,
+	"key_badges": true,
+	"loaded_face_textures": 14,
+	"master_defense": true,
+	"motion_clips": true,
+	"night_neon_gain": true,
+	"qi_phases": [
+		"gather",
+		"circulate",
+		"release",
+		"settle"
+	],
+	"residents": 29,
+	"scheduled_work_plays": true,
+	"silver_hair_texture": true,
+	"skeletons": {
+		"grazer": 42,
+		"horned": 38,
+		"pack": 50,
+		"predator": 51
+	},
+	"tier_refraction_scales": true
+}

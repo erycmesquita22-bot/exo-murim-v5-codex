@@ -1,0 +1,7 @@
+# NPCs de Haneul 01
+
+Cena inicial: `res://modules/village_npcs/VillageNPCs_V11.tscn` (herda o Coração 01 e o V11). Cinco moradores de HWA-02: Ji Wol, barqueira do Vau, e quatro moradores por função. Posições usam `data/HWA02_manifest.json`. A referência narrativa é a Bíblia EXO-Murim V0.1, seção 6.5, recuperada do histórico compartilhado. Baek, Yeon e mestres de outras regiões não foram deslocados para Haneul.
+
+Todos usam o GLB/rig/UV V4 original. Cada morador tem paleta própria de túnica, sobreposição, faixa e calça, além de combinação de peças de cabelo e cor. O rosto ilustrado é intocado. A espada embutida no GLB fica oculta para civis. Eles têm colisão, Idle/Walk/Hit_Reaction/Defeat, trajetos curtos, retorno ao abrigo após dano e recolhimento noturno. T perto de um morador abre uma fala curta. Sua vida é atingida por consultas de área da espada/arte de lâmina, uma vez por golpe. O estado de vida, posição e relógio ficam em `user://exo_village_npcs_01.json`; Começar nova jornada reinicia os moradores. NPCs são suspensos na estrada e em interiores.
+
+As aparências são variantes das peças e do atlas V4, sem novos cortes de malha nem rostos próprios. Não há rotinas econômicas, missão de balsa, travessia funcional, voz ou IA de combate para esses civis. Os cinco modelos compartilham o rosto aprovado V4 enquanto texturas próprias são produzidas. O catálogo em `roster.json` define identidade, papel, objetivo, relações e destinos possíveis para evolução posterior.

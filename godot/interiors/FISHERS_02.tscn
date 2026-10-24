@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://godot/S06_InteriorRoom.gd" id="1"]
+[ext_resource type="PackedScene" path="res://interiors_sprint06/models/FISHERS_02.glb" id="2"]
+
+[node name="S06_FISHERS_02" type="Node3D"]
+script = ExtResource("1")
+room_id = "FISHERS_02"
+room_kind = "FISHER"
+room_width = 10
+room_depth = 9.5
+
+[node name="Visual" parent="." instance=ExtResource("2")]

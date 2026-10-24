@@ -1,0 +1,56 @@
+{
+  "schema": "exo.village_life.npc_appearance.v2",
+  "source_glb": "res://modules/character_core_v3/assets/EXO_Character_Core01.glb",
+  "source_uv_atlas": "res://modules/character_core_v3/assets/EXO_Murim_Skin_64UV_x16.png",
+  "face_paths": {
+    "adult_black": "res://modules/village_life/npc_faces/adult_black.png",
+    "weathered": "res://modules/village_life/npc_faces/weathered.png",
+    "river_tan": "res://modules/village_life/npc_faces/river_tan.png",
+    "elder_ash": "res://modules/village_life/npc_faces/elder_ash.png",
+    "young_chestnut": "res://modules/village_life/npc_faces/young_chestnut.png",
+    "young_ash": "res://modules/village_life/npc_faces/young_ash.png",
+    "young_black": "res://modules/village_life/npc_faces/young_black.png",
+    "scholar": "res://modules/village_life/npc_faces/scholar.png",
+    "adult_auburn": "res://modules/village_life/npc_faces/adult_auburn.png",
+    "adult_brown": "res://modules/village_life/npc_faces/adult_brown.png",
+    "guard_broad": "res://modules/village_life/npc_faces/guard_broad.png",
+    "elder_silver": "res://modules/village_life/npc_faces/elder_silver.png",
+    "herbalist_grey": "res://modules/village_life/npc_faces/herbalist_grey.png",
+    "elder_beard": "res://modules/village_life/npc_faces/elder_beard.png"
+  },
+  "hair_styles_used": [
+    "compact_tail",
+    "cropped",
+    "half_up",
+    "long_tail",
+    "loose_short",
+    "low_tail",
+    "silver_bun",
+    "swept"
+  ],
+  "age_bands": [
+    "young",
+    "adult",
+    "elder"
+  ],
+  "physiques": [
+    "slim",
+    "average",
+    "strong"
+  ],
+  "body_ranges_used": {
+    "width": [
+      0.88,
+      1.145
+    ],
+    "height": [
+      0.91,
+      1.17
+    ],
+    "depth": [
+      0.91,
+      1.125
+    ]
+  },
+  "runtime_contract": "Appearance.apply_to_visual accepts face_path, hair style/color, apparel, body_style. NPC actor scales collider and hurtbox. Preserve V4 GLB/UV."
+}

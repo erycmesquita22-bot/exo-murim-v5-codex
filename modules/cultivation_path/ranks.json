@@ -1,0 +1,17 @@
+{
+  "source": "Biblia EXO, secao 4.1; camadas do mundo nao sao reinos marciais",
+  "stages": ["Inicial", "Intermediario", "Avancado"],
+  "realms": [
+    {"id": "common", "name": "Comum", "description": "Sem controle consciente de Qi", "playable": true},
+    {"id": "third", "name": "Terceira Classe", "description": "Base corporal, postura e primeiros ciclos de respiração", "playable": true},
+    {"id": "second", "name": "Segunda Classe", "description": "Qi aplicado consistentemente ao corpo e às armas", "playable": true},
+    {"id": "first", "name": "Primeira Classe", "description": "Técnicas consolidadas, circulação estavel e dominio de combate", "playable": false},
+    {"id": "peak", "name": "Pico Marcial", "description": "Expressão externa refinada do Qi; mestre reconhecido", "playable": false},
+    {"id": "transcendent", "name": "Transcendente", "description": "Controle superior e percepção marcial excepcional", "playable": false},
+    {"id": "supreme", "name": "Supremo", "description": "Síntese de arte, corpo, mente e intencao", "playable": false},
+    {"id": "profound", "name": "Profundo", "description": "Técnicas além dos limites da prática comum", "playable": false},
+    {"id": "harmony", "name": "Harmonia", "description": "Intenção, ambiente e Qi em fluxo integrado", "playable": false},
+    {"id": "nature", "name": "Natureza", "description": "Maestria quase lendaria", "playable": false},
+    {"id": "martial_heaven", "name": "Céu Marcial", "description": "Limite teórico dos textos antigos", "playable": false}
+  ]
+}

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"sword_footwork"
+display_name = "Passo da Andorinha"
+school = "Espada"
+delivery = "blade"
+description = "Entrar, cortar e recuar para fora da linha. Variante iniciante ou treinada conforme a prévia de maestria (M). B compara o ataque básico antigo."
+animation = &"Skill_Sword_Footwork_Novice"
+damage = 20
+qi_cost = 0.0
+cooldown = 0.25
+active_start = 0.30
+active_end = 0.60
+query_radius = 0.14
+lunge_distance = 0.0

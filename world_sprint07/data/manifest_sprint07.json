@@ -1,0 +1,87 @@
+{
+  "schema": "exo.world.s07.1",
+  "base": "EXO Haneul V1.0 Sprint 6",
+  "status": "IMPLEMENTED_AUTOMATED_GODOT_QA_PASS_MANUAL_UNTESTED",
+  "atlas_source": "EXO_Murim_Atlas_HWA01_V0_1",
+  "route_id": "ROAD-02-01",
+  "regions": [
+    "HWA-02",
+    "ROAD-02-01",
+    "HWA-01_OUTSKIRTS_STAGING"
+  ],
+  "extent_local_m": {
+    "width": 128,
+    "length": 720
+  },
+  "scene_position_isolated": [
+    1200,
+    0,
+    -1200
+  ],
+  "route_entry_local": [
+    -0.9429811102852925,
+    1.3575522274055853,
+    340
+  ],
+  "route_return_local": [
+    -0.45166373866317855,
+    1.4152843145918856,
+    328
+  ],
+  "route_terminal_local": [
+    -3.1012004587221136,
+    4.17248242223131,
+    -328
+  ],
+  "route_waypoints": [
+    {
+      "id": "S07_WAYMARK_VILLAGE",
+      "kind": "village_departure",
+      "local": [
+        -0.30240846378537345,
+        0.9513527798589814,
+        321
+      ]
+    },
+    {
+      "id": "S07_POI_PINE_CROSSING",
+      "kind": "pine_trail",
+      "local": [
+        -1.6958397018628437,
+        1.4482176968093259,
+        240
+      ]
+    },
+    {
+      "id": "S07_POI_ROADSIDE_SHRINE",
+      "kind": "shrine",
+      "local": [
+        11.298685961739318,
+        2.3484282946726407,
+        65
+      ]
+    },
+    {
+      "id": "S07_POI_CARAVAN_REST",
+      "kind": "rest",
+      "local": [
+        -8.830945722907652,
+        2.6537460746660844,
+        -80
+      ]
+    },
+    {
+      "id": "S07_POI_PROVINCIAL_WALL",
+      "kind": "city_outskirts",
+      "local": [
+        -4.1125682304288445,
+        3.621781004759097,
+        -318
+      ]
+    }
+  ],
+  "implemented_city": false,
+  "no_new_npc_ai": true,
+  "notes": "HWA01 city is a visible gateway and arrival staging only, not a full authored city.",
+  "vegetation_instances_measured": null
+}

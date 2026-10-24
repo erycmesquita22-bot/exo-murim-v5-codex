@@ -1,0 +1,435 @@
+{
+  "release": "EXO Haneul V0.4 + Character Core V3 Motion",
+  "files": [
+    {
+      "path": "ABRIR_GODOT_LINUX.sh",
+      "sha256": "eb6ecbc991e847de87b1d765bba9fd2c69ba53c4d4ebdc205141bd5909c7d046",
+      "bytes": 405
+    },
+    {
+      "path": "ABRIR_GODOT_WINDOWS.bat",
+      "sha256": "c68328b44c779ca7d927dfc2851490052f3c4f45e6243951c86cbb08d1d2d700",
+      "bytes": 49
+    },
+    {
+      "path": "README.md",
+      "sha256": "9f7c6c91e545dcfe72002f81adab4354574879c6229f5214726a6ad8fcbe3d43",
+      "bytes": 1352
+    },
+    {
+      "path": "data/HWA02_family_variants.json",
+      "sha256": "6f91bb5a04b574432a3489a410364dbad0748e57eefe76addd7124bdf3593e14",
+      "bytes": 963
+    },
+    {
+      "path": "data/HWA02_manifest.json",
+      "sha256": "f2404d78385bb1bb2a57f2ee299e5c54b3f32fdd3596a8037e89dfb0d426d1d8",
+      "bytes": 7750
+    },
+    {
+      "path": "data/HWA02_pois.json",
+      "sha256": "151437573300b44f696039074c6ffa36d4dcb56089dd73f3e1c10dc4be063671",
+      "bytes": 1417
+    },
+    {
+      "path": "docs/HIERARQUIA_CHARACTER_V3.md",
+      "sha256": "6925cbb6ebba62218a9112e7d2e36f10facefc124b930692100bdd98c17bb8d1",
+      "bytes": 3136
+    },
+    {
+      "path": "docs/RELATORIO_INTEGRACAO_V4.md",
+      "sha256": "1ab43cf35a62e2d33a1f1106f1775e2c227c419360a3fc272c93789728b570bd",
+      "bytes": 3358
+    },
+    {
+      "path": "docs/RELATORIO_ORIGINAL_CHARACTER_V3.md",
+      "sha256": "aba8d97f346657cdb2e2ca867fe19096da77fe5693a103edba8396edb0832312",
+      "bytes": 10155
+    },
+    {
+      "path": "docs/VARIACAO_FAMILIAS_E_MAPA_FIXO.md",
+      "sha256": "c60e498704bc2542a1d035137bcabf65bfcaa4279ecc338813a28bbd86908e1d",
+      "bytes": 2813
+    },
+    {
+      "path": "docs/bone_contract_v3.json",
+      "sha256": "24d52eb85595820146f04754ff3a5c5d040f8cd443da879d97c239e03bfd0110",
+      "bytes": 4773
+    },
+    {
+      "path": "docs/history_v03/HASHES_SHA256.json",
+      "sha256": "d2047e5f60d046a74785ecabc2494b797248df62733b59e1f862c7619ce04a1f",
+      "bytes": 914
+    },
+    {
+      "path": "docs/history_v03/QA_INTEGRACAO_V02.json",
+      "sha256": "9b3b51cc053845f77c5206127d80909eb77a9d67681732721a1bd99694a3bddc",
+      "bytes": 3799
+    },
+    {
+      "path": "docs/history_v03/QA_estrutural.json",
+      "sha256": "ad4cc7d1fdc46a1d2a4a745bd52b6ef97484052ca46f94bca0cd024b6c23c790",
+      "bytes": 2408
+    },
+    {
+      "path": "docs/history_v03/README_HISTORICO_V02.md",
+      "sha256": "5032650ed21408150857afce6afba0159810e877684d366d959ef09703356219",
+      "bytes": 3783
+    },
+    {
+      "path": "docs/history_v03/RELEASE_NOTES_V02.md",
+      "sha256": "59b40c6776c80791c5b65895d26424b7b28a473e67cb135268fa94545e427ebf",
+      "bytes": 1885
+    },
+    {
+      "path": "docs/history_v03/SHA256_V02.json",
+      "sha256": "e85453bd4fa4e928280e0b098ac994d3c93d02c5f3b4ce1bef7e832a85946d6c",
+      "bytes": 1243
+    },
+    {
+      "path": "docs/manifest_files_SHA256.json",
+      "sha256": "12e578ef5608bf122c76a29258113879caca4d6125cbaf43010cde5dfd52c5e9",
+      "bytes": 14043
+    },
+    {
+      "path": "godot/HWA02_Haneul_Inspection.tscn",
+      "sha256": "7fe55d2f105954fcf80d60b1673c9679514469fba93f06b8f5456a29dc1e0686",
+      "bytes": 1851
+    },
+    {
+      "path": "godot/HWA02_Inspection.gd",
+      "sha256": "d126d93e9a09d16e44398ca38ccb13852abdda1efc09fba887b76678fa578ab9",
+      "bytes": 3264
+    },
+    {
+      "path": "godot/HWA02_Integrated_Motion_V3.tscn",
+      "sha256": "67e45f6467c6384c2b993f13d432a0eadd82cee15348570f5e2e6153f09ce70a",
+      "bytes": 187
+    },
+    {
+      "path": "godot/HWA02_Motion_V3.gd",
+      "sha256": "b89d103f48c0a0f5a1883fd4b73be224eafe1521835a78df23267767bcfcdfcf",
+      "bytes": 5644
+    },
+    {
+      "path": "kit/Haneul_House_Standard.glb",
+      "sha256": "096ecd26fdd41d073daf36566d00baf17e7f1b977aa6ca748ceecc564558d389",
+      "bytes": 305628
+    },
+    {
+      "path": "kit/Haneul_House_Standard_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "kit/Haneul_Manor_Hall.glb",
+      "sha256": "37f17de6c4b5407c28bb9ec103d6f089852e2d383bed2cd0a67b8da4ef170994",
+      "bytes": 357412
+    },
+    {
+      "path": "kit/Haneul_Manor_Hall_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "kit/Haneul_Shrine.glb",
+      "sha256": "87b8b9db24b7e34dd2c5e8738d127470ea0a887870b456ce0424441c0fa11f3d",
+      "bytes": 271916
+    },
+    {
+      "path": "kit/Haneul_Shrine_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "kit/Haneul_Storehouse.glb",
+      "sha256": "e63970d54cb1cf55edc1b54596daae9cf2d238303f40d4a8b4b8a47072a4a925",
+      "bytes": 310404
+    },
+    {
+      "path": "kit/Haneul_Storehouse_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "kit/Haneul_Teahouse.glb",
+      "sha256": "ee0ea7819bf5ac3c2b5d059289a06a2b67c7ce7916aff15fedf7e2ef96598ee7",
+      "bytes": 346176
+    },
+    {
+      "path": "kit/Haneul_Teahouse_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "model/HWA02_Family_Wong.glb",
+      "sha256": "c135810d59b57178b0f6f7b79d84d1bcbb7a0007a1ef0344aa1a560a9ea4b085",
+      "bytes": 163544
+    },
+    {
+      "path": "model/HWA02_Family_Wong_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "model/HWA02_Family_Wudong.glb",
+      "sha256": "41f0daacc72f935df5641ee113635317b18a1d8f26314e76d96073d898948def",
+      "bytes": 163548
+    },
+    {
+      "path": "model/HWA02_Family_Wudong_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "model/HWA02_Haneul_Base.glb",
+      "sha256": "b015b88e278a90cb81c300bfc8ab7444606d116483fa50e78486b793ecf644c3",
+      "bytes": 4621360
+    },
+    {
+      "path": "model/HWA02_Haneul_Base_0.png",
+      "sha256": "5d996040b4dd53ae885f77877c12be0efd451b3d9183187858be49ca65469179",
+      "bytes": 157864
+    },
+    {
+      "path": "module.json",
+      "sha256": "7eccd9b7e26bdf19f5028d0837aef46a616592c93effe7bbb29180e95e4f5c87",
+      "bytes": 502
+    },
+    {
+      "path": "modules/character_core_v3/V3_Controller.gd",
+      "sha256": "efe9a8009fee677f15bc5c34b5f07593878998ca4e03379e54f15d09d55ce850",
+      "bytes": 30422
+    },
+    {
+      "path": "modules/character_core_v3/assets/EXO_Character_Core01.glb",
+      "sha256": "fc8af84dc28bd3c5e1a308df7a72efe702558824e924b52ac5d49ea75d11e557",
+      "bytes": 602592
+    },
+    {
+      "path": "modules/character_core_v3/assets/EXO_Character_Core01_EXO_Murim_Skin_64UV_x16.png",
+      "sha256": "9e8a956f10bddd67070a52e593222f203650f235368b7b26d5095c166264fbb9",
+      "bytes": 47815
+    },
+    {
+      "path": "modules/character_core_v3/assets/EXO_Murim_Skin_64UV_x16.png",
+      "sha256": "9e8a956f10bddd67070a52e593222f203650f235368b7b26d5095c166264fbb9",
+      "bytes": 47815
+    },
+    {
+      "path": "modules/character_core_v3/assets/Reference_No_Scabbard_0.png",
+      "sha256": "ab0306ccf143a0a45329747424d7a09399a46359044a63f962c59a26c5e910d8",
+      "bytes": 47816
+    },
+    {
+      "path": "modules/character_core_v3/equipment_slots.gd",
+      "sha256": "c88fe8db668b60c2f4b5ac1404491863f2d41f0e13d1c2b3f13a3174860b8daf",
+      "bytes": 1481
+    },
+    {
+      "path": "modules/character_core_v3/motion_config.json",
+      "sha256": "67865b3949d625762172f99cff4c6ccb3a2cf2e8446d09d07321066b0381233e",
+      "bytes": 908
+    },
+    {
+      "path": "previews/00_quadros_modelo_real.png",
+      "sha256": "fc91b0c50c4fbd2435a36147ae233aeb98a8d3bf594a0fe355e32614e7053659",
+      "bytes": 2219027
+    },
+    {
+      "path": "previews/01_panorama_3d.png",
+      "sha256": "e4397a3a7791f0cd325dd6feabdc8e78874a247eef114497162a8024ee1a0408",
+      "bytes": 1101160
+    },
+    {
+      "path": "previews/02_vila_3d.png",
+      "sha256": "e355bc56ebd7e12fa370b2be94685709a4bc3a0ceebfc7f8d2f3fa4fc9e65c18",
+      "bytes": 1434309
+    },
+    {
+      "path": "previews/03_solar_3d.png",
+      "sha256": "382485c128eeb504b53eac42e48e91e27a78f4d89238fa9e9b416729a2c420d8",
+      "bytes": 1481162
+    },
+    {
+      "path": "previews/04_topo_real_3d.png",
+      "sha256": "b703548a6b020993cd72d83cad5c3d40b04984828bb11ca21d97112f35c465f0",
+      "bytes": 1127253
+    },
+    {
+      "path": "previews/05_planta_tecnica_HWA02.png",
+      "sha256": "ffd8d2808b1ca367526e88810d764dc4215855ad5b3d924b40b0df19dc70c3c4",
+      "bytes": 368680
+    },
+    {
+      "path": "previews/05_planta_tecnica_HWA02.svg",
+      "sha256": "e4734bf87ddd06718d3de2841479ca76d6c976c0f28a7a6c3f94e77ff5fe5bfc",
+      "bytes": 402803
+    },
+    {
+      "path": "previews/06_solar_Wong.png",
+      "sha256": "102a1edf02db1d7165d8006ae60c9cc69357c0867f346799f9130fa60487e087",
+      "bytes": 1105919
+    },
+    {
+      "path": "previews/06_solar_Wudong.png",
+      "sha256": "053f65f7c8fa3d179b71036fefe5e5208beccea320c0804a4ffdee07f41ef123",
+      "bytes": 1106323
+    },
+    {
+      "path": "previews/07_casa_vista_jogador.png",
+      "sha256": "c4f18ec10e11c1083ffd4b6536439dd1df2cade8a76b7431f2eebfc54b060cb6",
+      "bytes": 634648
+    },
+    {
+      "path": "previews/08_casa_beiral_de_baixo.png",
+      "sha256": "5b095a3e831728ba2d021a383e9c83af91e5f4d31cebd2c2ce1044177644ceb9",
+      "bytes": 622689
+    },
+    {
+      "path": "previews/09_after_house.png",
+      "sha256": "c0175da74c498c7138ae759aef18398e60d8d68a96c451f14758744471d12dcf",
+      "bytes": 429286
+    },
+    {
+      "path": "previews/09_before_house.png",
+      "sha256": "ba7787f2aa7fff264c1ed3fad91f337c2c5f4f1ffac8c9907dbb03dd77e47c6a",
+      "bytes": 459905
+    },
+    {
+      "path": "previews/09_comparativo_telhadov1_v2.png",
+      "sha256": "4f27eb228da3b55cd54eb616333b7111367ec629d44dd8687930c23f4de3ba15",
+      "bytes": 543988
+    },
+    {
+      "path": "previews/10_variacoes_texturas_paredes.png",
+      "sha256": "5218c6d38f3e6aa0637f04625ab585f8422bc3f92ca328894dcd74e2873520ce",
+      "bytes": 26251
+    },
+    {
+      "path": "project.godot",
+      "sha256": "2149711ec489996e1a7d74df591621e486b9d118cbf74ffdf84d2b0bfe635920",
+      "bytes": 598
+    },
+    {
+      "path": "qa/capture_v04.gd",
+      "sha256": "175db1e2c7f09266c47a3a930a33fc4f6f223bab4c500623e8104c3a577e7f96",
+      "bytes": 827
+    },
+    {
+      "path": "qa/reference/Reference_No_Scabbard.glb",
+      "sha256": "a43c4163cf2ca7a4f3714b5d4e180e2f97a42f2d2e470d039bce2da9609a6de4",
+      "bytes": 68984
+    },
+    {
+      "path": "qa/reports/01_import_472.log",
+      "sha256": "9f7de1900b27c1dd91c6d4f525f91f31afc2193456270165302b22c30c34dd70",
+      "bytes": 13312
+    },
+    {
+      "path": "qa/reports/01b_import_472.log",
+      "sha256": "d6b0c94fc8dd0440b594520206c603740acb9dce2614191505385fb2e3005ed9",
+      "bytes": 1543
+    },
+    {
+      "path": "qa/reports/02_boot_472.log",
+      "sha256": "9abc6864f38dd27b0b93276071b1b94c54a9ade0a66abbde528dd30f66215285",
+      "bytes": 5119
+    },
+    {
+      "path": "qa/reports/03_smoke_v04.json",
+      "sha256": "3598f47dec60a8e165dbf396fdd154ec64b43a1cc2e07d7440ad58d9e891848f",
+      "bytes": 921
+    },
+    {
+      "path": "qa/reports/03_smoke_v04.log",
+      "sha256": "3df4bb6cc8a8d519ce0a2eb2a0b99b51170df11bbc8b17886466b6ef17a12a5e",
+      "bytes": 12301
+    },
+    {
+      "path": "qa/reports/04_graphical_capture.log",
+      "sha256": "9c94a268dc724e43f0e72cd20df9f927167f28fda60458a82901b0c252710946",
+      "bytes": 10926
+    },
+    {
+      "path": "qa/reports/05_fresh_import.log",
+      "sha256": "28a80bf8f8bb6470aca81295585e47452a4faac32c822339ef54b9a2a18e5882",
+      "bytes": 13705
+    },
+    {
+      "path": "qa/reports/06_fresh_smoke.log",
+      "sha256": "4840539abcb45e4797374fc3f6aa245ec5c47d35ab6e74d179f82c9e055128fc",
+      "bytes": 12052
+    },
+    {
+      "path": "qa/screenshots/haneul_character_v3_wong.png",
+      "sha256": "7a43455ffb3df65ec7f4d42da1f1a8476a8f1baac2c57bf0fb7fdc8dfbeb30c0",
+      "bytes": 740176
+    },
+    {
+      "path": "qa/screenshots/haneul_character_v3_wudong.png",
+      "sha256": "7138ab8788467088b1c8efe4c7ca8a60f10870b089638f6a6941f0048d092cc8",
+      "bytes": 740914
+    },
+    {
+      "path": "qa/smoke_v04.gd",
+      "sha256": "d6429c7864caab53673b6f65bb5d9ee9d3b1c0be7e8e9dfdb20785651482d5b8",
+      "bytes": 5014
+    },
+    {
+      "path": "source/EXO_Character_Core_V3_Blender_Source.zip",
+      "sha256": "ea43caa226cbb107937d892bb89aee4e50b025de9bb5309abeeb64449572f57f",
+      "bytes": 1591373
+    },
+    {
+      "path": "source/build_haneul.py",
+      "sha256": "56c270f5b90a48b5f1a1facb33f54a42152832d0a975eaba89b47da2d6d7b974",
+      "bytes": 28414
+    },
+    {
+      "path": "source/character_core_v3_tools/audit_final.py",
+      "sha256": "40da6b303ca83309de5d3802a0dbdb36fd6cade094b18d5f839b472a9c8e6f71",
+      "bytes": 3841
+    },
+    {
+      "path": "source/character_core_v3_tools/motion_authoring.py",
+      "sha256": "7f3e93acade52d4ff6eb558b05391006d8a2b7cdcb9842f4ca1797d4fd98b2fd",
+      "bytes": 9099
+    },
+    {
+      "path": "source/character_core_v3_tools/prepare.py",
+      "sha256": "07f4f273825ef7bcb7100e195678d753823eed7c8cf5422a684b08f1158a5a29",
+      "bytes": 10947
+    },
+    {
+      "path": "source/character_core_v3_tools/reference_without_scabbard.py",
+      "sha256": "55c84943d13c5f2d7c701c7e4bd5cfe4c13bb620ebbfe7ade8fa2f414afe7631",
+      "bytes": 957
+    },
+    {
+      "path": "source/draw_technical_map.py",
+      "sha256": "edae8a29e4aa8290ee99a2fcd3e1ba898bdc2f7db9ceb987c71359f9d819ee79",
+      "bytes": 5192
+    },
+    {
+      "path": "source/render_haneul.py",
+      "sha256": "45c428ca43142690bc0fe6d0afdc171b384e49f8b4c333decd9fa95463046207",
+      "bytes": 4107
+    },
+    {
+      "path": "source/validate_haneul.py",
+      "sha256": "cf9fc77140f1e96f13645be6b90fce70468e1279f1e73a543b2ef370f7393741",
+      "bytes": 4067
+    },
+    {
+      "path": "source/validate_integration.py",
+      "sha256": "567fd37a254738baaa03d546abc06a6d9740ad8e9f0f3ed91b9a53de56a90942",
+      "bytes": 5416
+    },
+    {
+      "path": "textures/Haneul_Murim_Atlas_1024x640.png",
+      "sha256": "7299a7cf8a3f553ce752ba7267bc08bfbd9cf8ae1801339ace73bf22efcf369f",
+      "bytes": 157862
+    }
+  ]
+}

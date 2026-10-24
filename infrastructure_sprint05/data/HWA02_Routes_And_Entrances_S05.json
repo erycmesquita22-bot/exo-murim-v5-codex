@@ -1,0 +1,499 @@
+{
+  "schema": "exo.hwa02.infrastructure.s05",
+  "world_map": "HWA02",
+  "coordinate_frame": "Godot x east, y up, z south, local relative to HWA02",
+  "maps_immutable": true,
+  "connections": [
+    {
+      "id": "S05_HWA02_PEDESTRIAN_BRIDGE",
+      "kind": "pedestrian_bridge",
+      "status": "geometry_and_physics_tested",
+      "walkable_world_points_xz": [
+        [
+          57,
+          35
+        ],
+        [
+          61,
+          35
+        ],
+        [
+          63,
+          35
+        ],
+        [
+          70,
+          35
+        ],
+        [
+          80,
+          35
+        ],
+        [
+          88,
+          35
+        ],
+        [
+          91,
+          35
+        ],
+        [
+          94,
+          35
+        ]
+      ],
+      "terrain_bank_landings": [
+        [
+          57,
+          35
+        ],
+        [
+          94,
+          35
+        ]
+      ],
+      "destination": "HWA02_EAST_BANK"
+    },
+    {
+      "id": "FERRY_VAU_01",
+      "kind": "ferry_dock",
+      "status": "landing_only_no_transport",
+      "position_xz": [
+        47,
+        -9
+      ],
+      "destination_future": "HWA04"
+    },
+    {
+      "id": "FERRY_BANK_EAST",
+      "kind": "ferry_dock",
+      "status": "landing_only_no_transport",
+      "position_xz": [
+        88,
+        -9
+      ],
+      "destination_future": "HWA04"
+    },
+    {
+      "id": "HWA01_NORTHERN_GATE",
+      "kind": "region_transition",
+      "status": "reserved_no_loading",
+      "position_xz": [
+        -14,
+        -94
+      ],
+      "destination_future": "HWA01"
+    }
+  ],
+  "interiors": [
+    {
+      "id": "FAMILY_MAIN_HALL",
+      "door_center": [
+        -48.0,
+        0.165,
+        -46.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FAMILY_LEFT_WING",
+      "door_center": [
+        -65.0,
+        0.708,
+        -34.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FAMILY_RIGHT_WING",
+      "door_center": [
+        -31.0,
+        -0.004,
+        -34.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "TEA_HOUSE",
+      "door_center": [
+        -6.181,
+        0.274,
+        -5.582
+      ],
+      "outward_normal": [
+        0.14944,
+        0,
+        0.98877
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HERBALIST",
+      "door_center": [
+        6.935,
+        0.053,
+        -29.648
+      ],
+      "outward_normal": [
+        -0.2377,
+        0,
+        0.97134
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FISHERS_01",
+      "door_center": [
+        28.892,
+        0.399,
+        19.341
+      ],
+      "outward_normal": [
+        -0.2474,
+        0,
+        0.96891
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FISHERS_02",
+      "door_center": [
+        31.209,
+        0.088,
+        42.175
+      ],
+      "outward_normal": [
+        0.04998,
+        0,
+        0.99875
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HOME_A",
+      "door_center": [
+        -46.602,
+        0.285,
+        51.964
+      ],
+      "outward_normal": [
+        0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HOME_B",
+      "door_center": [
+        -23.358,
+        0.213,
+        56.466
+      ],
+      "outward_normal": [
+        -0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_GATE",
+      "door_center": [
+        12.447,
+        0.378,
+        -60.542
+      ],
+      "outward_normal": [
+        0.09983,
+        0,
+        0.995
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_CENTER",
+      "door_center": [
+        3.503,
+        0.16,
+        27.955
+      ],
+      "outward_normal": [
+        -0.09983,
+        0,
+        0.995
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "STORE_FRONT",
+      "door_center": [
+        -30.0,
+        -0.12,
+        21.98
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_SE",
+      "door_center": [
+        9.324,
+        0.508,
+        63.28
+      ],
+      "outward_normal": [
+        0.29552,
+        0,
+        0.95534
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "RIVERSIDE_INN",
+      "door_center": [
+        28.493,
+        0.329,
+        -11.542
+      ],
+      "outward_normal": [
+        0.08988,
+        0,
+        0.99595
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HUT",
+      "door_center": [
+        -69.682,
+        1.045,
+        73.967
+      ],
+      "outward_normal": [
+        0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    }
+  ],
+  "doorway_policy": "solid doors not modified; Area3D reservations at doorways have NO enter/exit logic",
+  "road_approaches_s04": [
+    {
+      "from": "FAMILY_MAIN_HALL",
+      "door": [
+        -48.0,
+        -45.85
+      ],
+      "road": [
+        -47.99,
+        -21.0
+      ],
+      "distance_m": 24.9
+    },
+    {
+      "from": "FAMILY_LEFT_WING",
+      "door": [
+        -65.0,
+        -33.85
+      ],
+      "road": [
+        -48.0,
+        -21.0
+      ],
+      "distance_m": 21.3
+    },
+    {
+      "from": "FAMILY_RIGHT_WING",
+      "door": [
+        -31.0,
+        -33.85
+      ],
+      "road": [
+        -33.01,
+        -20.69
+      ],
+      "distance_m": 13.3
+    },
+    {
+      "from": "TEA_HOUSE",
+      "door": [
+        -6.16,
+        -5.41
+      ],
+      "road": [
+        -11.0,
+        -5.41
+      ],
+      "distance_m": 4.8
+    },
+    {
+      "from": "HERBALIST",
+      "door": [
+        6.89,
+        -29.48
+      ],
+      "road": [
+        12.41,
+        -34.56
+      ],
+      "distance_m": 7.5
+    },
+    {
+      "from": "FISHERS_01",
+      "door": [
+        28.85,
+        19.51
+      ],
+      "road": [
+        28.18,
+        20.18
+      ],
+      "distance_m": 1.0
+    },
+    {
+      "from": "FISHERS_02",
+      "door": [
+        31.22,
+        42.34
+      ],
+      "road": [
+        38.9,
+        37.84
+      ],
+      "distance_m": 8.9
+    },
+    {
+      "from": "FARM_HOME_A",
+      "door": [
+        -46.59,
+        52.13
+      ],
+      "road": [
+        -42.37,
+        57.85
+      ],
+      "distance_m": 7.1
+    },
+    {
+      "from": "FARM_HOME_B",
+      "door": [
+        -23.37,
+        56.64
+      ],
+      "road": [
+        -29.48,
+        48.35
+      ],
+      "distance_m": 10.3
+    },
+    {
+      "from": "HOUSE_GATE",
+      "door": [
+        12.46,
+        -60.37
+      ],
+      "road": [
+        4.0,
+        -53.0
+      ],
+      "distance_m": 11.2
+    },
+    {
+      "from": "HOUSE_CENTER",
+      "door": [
+        3.49,
+        28.12
+      ],
+      "road": [
+        -13.89,
+        29.04
+      ],
+      "distance_m": 17.4
+    },
+    {
+      "from": "STORE_FRONT",
+      "door": [
+        -30.0,
+        22.15
+      ],
+      "road": [
+        -13.64,
+        24.5
+      ],
+      "distance_m": 16.5
+    },
+    {
+      "from": "HOUSE_SE",
+      "door": [
+        9.37,
+        63.44
+      ],
+      "road": [
+        -9.57,
+        66.6
+      ],
+      "distance_m": 19.2
+    },
+    {
+      "from": "RIVERSIDE_INN",
+      "door": [
+        28.51,
+        -11.37
+      ],
+      "road": [
+        32.0,
+        -17.2
+      ],
+      "distance_m": 6.8
+    },
+    {
+      "from": "FARM_HUT",
+      "door": [
+        -69.67,
+        74.14
+      ],
+      "road": [
+        -62.51,
+        79.93
+      ],
+      "distance_m": 9.2
+    }
+  ],
+  "approved_art_no_changes": "Character Core V3, Haneul Architecture Sprint02, Props Sprint03"
+}

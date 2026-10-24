@@ -1,0 +1,22 @@
+{
+  "resolution": [
+    1280,
+    800
+  ],
+  "aura_roi_xyxy": [
+    430,
+    240,
+    850,
+    620
+  ],
+  "aura_mean_rgb_delta": 9.362,
+  "aura_pixels_delta_gt12": 13592,
+  "far_roi_xyxy": [
+    0,
+    0,
+    250,
+    150
+  ],
+  "far_mean_rgb_delta": 0.0,
+  "far_pixels_delta_gt12": 0
+}

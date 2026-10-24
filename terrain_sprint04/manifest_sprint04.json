@@ -1,0 +1,199 @@
+{
+  "sprint": "04",
+  "ground_mesh_preserved_exactly": true,
+  "ground_vertices": 24320,
+  "ground_triangles": 12160,
+  "architecture_count": 15,
+  "connected_entrances": 15,
+  "approaches": [
+    {
+      "from": "FAMILY_MAIN_HALL",
+      "door": [
+        -48.0,
+        -45.85
+      ],
+      "road": [
+        -47.99,
+        -21.0
+      ],
+      "distance_m": 24.9
+    },
+    {
+      "from": "FAMILY_LEFT_WING",
+      "door": [
+        -65.0,
+        -33.85
+      ],
+      "road": [
+        -48.0,
+        -21.0
+      ],
+      "distance_m": 21.3
+    },
+    {
+      "from": "FAMILY_RIGHT_WING",
+      "door": [
+        -31.0,
+        -33.85
+      ],
+      "road": [
+        -33.01,
+        -20.69
+      ],
+      "distance_m": 13.3
+    },
+    {
+      "from": "TEA_HOUSE",
+      "door": [
+        -6.16,
+        -5.41
+      ],
+      "road": [
+        -11.0,
+        -5.41
+      ],
+      "distance_m": 4.8
+    },
+    {
+      "from": "HERBALIST",
+      "door": [
+        6.89,
+        -29.48
+      ],
+      "road": [
+        12.41,
+        -34.56
+      ],
+      "distance_m": 7.5
+    },
+    {
+      "from": "FISHERS_01",
+      "door": [
+        28.85,
+        19.51
+      ],
+      "road": [
+        28.18,
+        20.18
+      ],
+      "distance_m": 1.0
+    },
+    {
+      "from": "FISHERS_02",
+      "door": [
+        31.22,
+        42.34
+      ],
+      "road": [
+        38.9,
+        37.84
+      ],
+      "distance_m": 8.9
+    },
+    {
+      "from": "FARM_HOME_A",
+      "door": [
+        -46.59,
+        52.13
+      ],
+      "road": [
+        -42.37,
+        57.85
+      ],
+      "distance_m": 7.1
+    },
+    {
+      "from": "FARM_HOME_B",
+      "door": [
+        -23.37,
+        56.64
+      ],
+      "road": [
+        -29.48,
+        48.35
+      ],
+      "distance_m": 10.3
+    },
+    {
+      "from": "HOUSE_GATE",
+      "door": [
+        12.46,
+        -60.37
+      ],
+      "road": [
+        4.0,
+        -53.0
+      ],
+      "distance_m": 11.2
+    },
+    {
+      "from": "HOUSE_CENTER",
+      "door": [
+        3.49,
+        28.12
+      ],
+      "road": [
+        -13.89,
+        29.04
+      ],
+      "distance_m": 17.4
+    },
+    {
+      "from": "STORE_FRONT",
+      "door": [
+        -30.0,
+        22.15
+      ],
+      "road": [
+        -13.64,
+        24.5
+      ],
+      "distance_m": 16.5
+    },
+    {
+      "from": "HOUSE_SE",
+      "door": [
+        9.37,
+        63.44
+      ],
+      "road": [
+        -9.57,
+        66.6
+      ],
+      "distance_m": 19.2
+    },
+    {
+      "from": "RIVERSIDE_INN",
+      "door": [
+        28.51,
+        -11.37
+      ],
+      "road": [
+        32.0,
+        -17.2
+      ],
+      "distance_m": 6.8
+    },
+    {
+      "from": "FARM_HUT",
+      "door": [
+        -69.67,
+        74.14
+      ],
+      "road": [
+        -62.51,
+        79.93
+      ],
+      "distance_m": 9.2
+    }
+  ],
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "textures": {
+    "world": "terrain_sprint04/EXO_Haneul_Ground_Polished_S04_2048.png",
+    "glb": "terrain_sprint04/HWA02_Terrain_Murim_Polished_S04.glb"
+  },
+  "source_provenance": "original procedural authoring, no borrowed art"
+}

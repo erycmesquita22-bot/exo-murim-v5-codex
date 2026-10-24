@@ -1,0 +1,327 @@
+{
+  "generator": "EXO_Murim_Architecture_Sprint02",
+  "architecture_count": 15,
+  "groups": [
+    {
+      "name": "ARCH_FAMILY_MAIN_HALL",
+      "triangles": 3432,
+      "vertices": 6864
+    },
+    {
+      "name": "ARCH_FAMILY_LEFT_WING",
+      "triangles": 2592,
+      "vertices": 5184
+    },
+    {
+      "name": "ARCH_FAMILY_RIGHT_WING",
+      "triangles": 2568,
+      "vertices": 5136
+    },
+    {
+      "name": "ARCH_TEA_HOUSE",
+      "triangles": 2784,
+      "vertices": 5568
+    },
+    {
+      "name": "ARCH_HERBALIST",
+      "triangles": 2316,
+      "vertices": 4632
+    },
+    {
+      "name": "ARCH_FISHERS_01",
+      "triangles": 2220,
+      "vertices": 4440
+    },
+    {
+      "name": "ARCH_FISHERS_02",
+      "triangles": 2196,
+      "vertices": 4392
+    },
+    {
+      "name": "ARCH_FARM_HOME_A",
+      "triangles": 2388,
+      "vertices": 4776
+    },
+    {
+      "name": "ARCH_FARM_HOME_B",
+      "triangles": 2196,
+      "vertices": 4392
+    },
+    {
+      "name": "ARCH_HOUSE_GATE",
+      "triangles": 2220,
+      "vertices": 4440
+    },
+    {
+      "name": "ARCH_HOUSE_CENTER",
+      "triangles": 2364,
+      "vertices": 4728
+    },
+    {
+      "name": "ARCH_STORE_FRONT",
+      "triangles": 2436,
+      "vertices": 4872
+    },
+    {
+      "name": "ARCH_HOUSE_SE",
+      "triangles": 2196,
+      "vertices": 4392
+    },
+    {
+      "name": "ARCH_RIVERSIDE_INN",
+      "triangles": 2784,
+      "vertices": 5568
+    },
+    {
+      "name": "ARCH_FARM_HUT",
+      "triangles": 2196,
+      "vertices": 4392
+    },
+    {
+      "name": "ARCH_FAMILY_COURTYARD_FENCE",
+      "triangles": 1008,
+      "vertices": 2016
+    },
+    {
+      "name": "ARCH_FAMILY_COURTYARD_GATE",
+      "triangles": 1536,
+      "vertices": 3072
+    }
+  ],
+  "triangles": 39432,
+  "kit_models": 8,
+  "texture": "textures/EXO_Murim_Architecture_InkAtlas_1536.png",
+  "source": "100% newly generated mesh and texture, historically inspired not extracted",
+  "placements": [
+    {
+      "id": "FAMILY_MAIN_HALL",
+      "kind": "manor",
+      "wall_variant": "wall_warm",
+      "x": -48,
+      "z": -52,
+      "yaw": 0,
+      "height": 4.55,
+      "dimensions": [
+        16,
+        10
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FAMILY_LEFT_WING",
+      "kind": "manor",
+      "wall_variant": "wall_cool",
+      "x": -65,
+      "z": -39,
+      "yaw": 0,
+      "height": 3.35,
+      "dimensions": [
+        10,
+        8
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FAMILY_RIGHT_WING",
+      "kind": "manor",
+      "wall_variant": "wall_sand",
+      "x": -31,
+      "z": -39,
+      "yaw": 0,
+      "height": 3.35,
+      "dimensions": [
+        10,
+        8
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "TEA_HOUSE",
+      "kind": "tea",
+      "wall_variant": "wall_sand",
+      "x": -7,
+      "z": -11,
+      "yaw": 0.15,
+      "height": 3.35,
+      "dimensions": [
+        11,
+        9
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "HERBALIST",
+      "kind": "clinic",
+      "wall_variant": "wall_cream",
+      "x": 8,
+      "z": -34,
+      "yaw": -0.24,
+      "height": 3.2,
+      "dimensions": [
+        8,
+        7
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FISHERS_01",
+      "kind": "house",
+      "wall_variant": "wall_moss",
+      "x": 30,
+      "z": 15,
+      "yaw": -0.25,
+      "height": 3.06,
+      "dimensions": [
+        8,
+        7
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FISHERS_02",
+      "kind": "house",
+      "wall_variant": "wall_cream",
+      "x": 31,
+      "z": 38,
+      "yaw": 0.05,
+      "height": 3.06,
+      "dimensions": [
+        7.2,
+        6.4
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FARM_HOME_A",
+      "kind": "house",
+      "wall_variant": "wall_sand",
+      "x": -47,
+      "z": 47,
+      "yaw": 0.08,
+      "height": 3.06,
+      "dimensions": [
+        9,
+        8
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FARM_HOME_B",
+      "kind": "house",
+      "wall_variant": "wall_warm",
+      "x": -23,
+      "z": 52,
+      "yaw": -0.08,
+      "height": 3.06,
+      "dimensions": [
+        8,
+        7
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "HOUSE_GATE",
+      "kind": "house",
+      "wall_variant": "wall_warm",
+      "x": 12,
+      "z": -65,
+      "yaw": 0.1,
+      "height": 3.06,
+      "dimensions": [
+        8,
+        7
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "HOUSE_CENTER",
+      "kind": "house",
+      "wall_variant": "wall_warm",
+      "x": 4,
+      "z": 23,
+      "yaw": -0.1,
+      "height": 3.06,
+      "dimensions": [
+        8,
+        8
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "STORE_FRONT",
+      "kind": "store",
+      "wall_variant": "wall_cream",
+      "x": -30,
+      "z": 17,
+      "yaw": 0,
+      "height": 3.2,
+      "dimensions": [
+        10,
+        8
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "HOUSE_SE",
+      "kind": "house",
+      "wall_variant": "wall_cream",
+      "x": 8,
+      "z": 59,
+      "yaw": 0.3,
+      "height": 3.06,
+      "dimensions": [
+        8,
+        7
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "RIVERSIDE_INN",
+      "kind": "inn",
+      "wall_variant": "wall_moss",
+      "x": 28,
+      "z": -17,
+      "yaw": 0.09,
+      "height": 3.35,
+      "dimensions": [
+        10,
+        9
+      ],
+      "roof_supported": true
+    },
+    {
+      "id": "FARM_HUT",
+      "kind": "house",
+      "wall_variant": "wall_cream",
+      "x": -70,
+      "z": 70,
+      "yaw": 0.08,
+      "height": 3.06,
+      "dimensions": [
+        7,
+        6
+      ],
+      "roof_supported": true
+    }
+  ],
+  "roof_policy": "closed gables, volumetric roof, eave beams and rafter braces joined to wall headers",
+  "family_geometry_static": true,
+  "engine_tested": false,
+  "qa_engine": "Godot 4.7.2 stable Compatibility",
+  "qa_ran": [
+    "fresh_import",
+    "runtime_structural_2_variants",
+    "main_boot",
+    "graphics_4_captures"
+  ],
+  "existing_terrain_preserved": true,
+  "existing_character_preserved": true,
+  "critical_hashes": {
+    "architecture_sprint02/HWA02_Architecture_Sprint02.glb": "51397e493b9492bac852da46ad2fb297c2a42ba18de4a0dbfa57ef9fe76746ad",
+    "architecture_sprint02/textures/EXO_Murim_Architecture_InkAtlas_1536.png": "c981a4e9d20224315112f636d52e93c0ab69e6112b53f6a6946407882d02204e",
+    "model/HWA02_Nature_And_TerrainCollision_S02.glb": "7220945d187eb967a643655dbec2c6fc57d9b43dee8c707b2ab5c03a922bb3cc",
+    "terrain_sprint01/HWA02_Terrain_Murim_Sprint01.glb": "0f2e7936e3c120356d30ea1f933d25c83710854882d60ff5e3511a1e6160ff7a",
+    "modules/character_core_v3/assets/EXO_Character_Core01.glb": "fc8af84dc28bd3c5e1a308df7a72efe702558824e924b52ac5d49ea75d11e557",
+    "project.godot": "6e8b04f23dde0fa40682da9439b42433a5580f065dc402b13c7f5eb310f1b83a"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "sprint": "05",
+  "bridge": {
+    "name": "Ponte do Vau Pequeno",
+    "z": 35,
+    "west_x": 57,
+    "east_x": 94,
+    "width_m": 3.1,
+    "end_heights_y": [
+      0.109,
+      0.559
+    ],
+    "max_deck_y": 1.48,
+    "crossing_real_geometry": true,
+    "bridge_end_reserved_region": true
+  },
+  "terrain_modified": "diffuse texture only; identical vertices and triangle indices",
+  "buildings_moved": false,
+  "interiors_functional": false,
+  "npc_ai_implemented": false,
+  "traversal_purpose": "pedestrian bridge; ferry docks remain separate transport point",
+  "entrance_anchors": [
+    {
+      "id": "FAMILY_MAIN_HALL",
+      "door_center": [
+        -48.0,
+        0.165,
+        -46.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FAMILY_LEFT_WING",
+      "door_center": [
+        -65.0,
+        0.708,
+        -34.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FAMILY_RIGHT_WING",
+      "door_center": [
+        -31.0,
+        -0.004,
+        -34.02
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "TEA_HOUSE",
+      "door_center": [
+        -6.181,
+        0.274,
+        -5.582
+      ],
+      "outward_normal": [
+        0.14944,
+        0,
+        0.98877
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HERBALIST",
+      "door_center": [
+        6.935,
+        0.053,
+        -29.648
+      ],
+      "outward_normal": [
+        -0.2377,
+        0,
+        0.97134
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FISHERS_01",
+      "door_center": [
+        28.892,
+        0.399,
+        19.341
+      ],
+      "outward_normal": [
+        -0.2474,
+        0,
+        0.96891
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FISHERS_02",
+      "door_center": [
+        31.209,
+        0.088,
+        42.175
+      ],
+      "outward_normal": [
+        0.04998,
+        0,
+        0.99875
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HOME_A",
+      "door_center": [
+        -46.602,
+        0.285,
+        51.964
+      ],
+      "outward_normal": [
+        0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HOME_B",
+      "door_center": [
+        -23.358,
+        0.213,
+        56.466
+      ],
+      "outward_normal": [
+        -0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_GATE",
+      "door_center": [
+        12.447,
+        0.378,
+        -60.542
+      ],
+      "outward_normal": [
+        0.09983,
+        0,
+        0.995
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_CENTER",
+      "door_center": [
+        3.503,
+        0.16,
+        27.955
+      ],
+      "outward_normal": [
+        -0.09983,
+        0,
+        0.995
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "STORE_FRONT",
+      "door_center": [
+        -30.0,
+        -0.12,
+        21.98
+      ],
+      "outward_normal": [
+        0.0,
+        0,
+        1.0
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "HOUSE_SE",
+      "door_center": [
+        9.324,
+        0.508,
+        63.28
+      ],
+      "outward_normal": [
+        0.29552,
+        0,
+        0.95534
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "RIVERSIDE_INN",
+      "door_center": [
+        28.493,
+        0.329,
+        -11.542
+      ],
+      "outward_normal": [
+        0.08988,
+        0,
+        0.99595
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    },
+    {
+      "id": "FARM_HUT",
+      "door_center": [
+        -69.682,
+        1.045,
+        73.967
+      ],
+      "outward_normal": [
+        0.07991,
+        0,
+        0.9968
+      ],
+      "trigger_radius_m": 1.35,
+      "status": "reserved_no_interior_scene"
+    }
+  ],
+  "geometry_faces": {
+    "INFRA_WALK_PedestrianBridge": 444,
+    "INFRA_COLLIDE_BridgeRailings": 504,
+    "INFRA_DECOR_BridgeBracing": 1164,
+    "INFRA_WALK_Landings": 48,
+    "INFRA_WALK_Thresholds": 90,
+    "INFRA_DECOR_BankProtection": 144
+  },
+  "provenance": "original generated model and handpainted texture, no third-party assets",
+  "godot_qa": "import + 2-family physics and motion regression + bridge traversal capsule tested in Godot 4.7.2; manual inspection pending",
+  "river_uv_fix": {
+    "replaced_old_visual": true,
+    "same_geometry_as_original": false,
+    "uv_mapping": "new water ribbon with world XZ UV and consistently upward face normals",
+    "new_visual": "infrastructure_sprint05/HWA02_River_S05.glb",
+    "water_surface_y": -0.52,
+    "boat_travel": "not implemented",
+    "shoreline_policy": "10.5m visible water ribbon stays inside existing terrain channel to prevent triangulated shoreline artifacts"
+  }
+}

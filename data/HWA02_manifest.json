@@ -1,0 +1,415 @@
+{
+  "schema": "exo.hwa02.environment.v0.9-sprint05",
+  "status": "SPRINT05_ENGINE_AUTOMATED_TESTED_VISUAL_NOT_HOMOLOGATED",
+  "world": "Vale de Hwaeun",
+  "region": "HWA-02 Vila do Vau de Haneul",
+  "local_origin_global_atlas_xy_m": [
+    1675,
+    520
+  ],
+  "world_axis": "X east, Y up, Z south",
+  "local_extent_m": [
+    -118,
+    118,
+    -112,
+    112
+  ],
+  "render": "GLB textured single original atlas; no character",
+  "module_id": "exo.environment.hwa02",
+  "semantic_slots": {
+    "VILLAGE_DYNASTY": {
+      "geometry_static": true,
+      "variable_data": [
+        "name",
+        "crest",
+        "npc_population",
+        "behavior",
+        "techniques",
+        "economy",
+        "quests",
+        "reputation"
+      ],
+      "variants": {
+        "WONG": {
+          "estate_slot": "VILLAGE_DYNASTY",
+          "crest_model": "HWA02_Family_Wong.glb",
+          "principle": "força e obediência",
+          "alignment": "rigoroso, autoritário",
+          "combat": "Qi físico, impacto, punhos e resistência",
+          "decision_rules": [
+            "cobra pedágio elevado",
+            "recompensa disciplina",
+            "pune desobediência"
+          ],
+          "npc_archetypes": [
+            "patriarca austero",
+            "instrutor de punho",
+            "cobrador",
+            "discípulo de Qi"
+          ]
+        },
+        "WUDONG": {
+          "estate_slot": "VILLAGE_DYNASTY",
+          "crest_model": "HWA02_Family_Wudong.glb",
+          "principle": "justiça e disciplina",
+          "alignment": "honrada, mediadora",
+          "combat": "espada, técnica e precisão",
+          "decision_rules": [
+            "protege habitantes",
+            "recompensa mérito",
+            "intervém em abusos"
+          ],
+          "npc_archetypes": [
+            "matriarca honrada",
+            "espadachim",
+            "discípula de seita",
+            "mediador"
+          ]
+        }
+      }
+    }
+  },
+  "placements": [
+    {
+      "id": "FAMILY_MAIN_HALL",
+      "class": "manor",
+      "wall_texture": "plaster_ochre",
+      "position_xz": [
+        -48,
+        -52
+      ],
+      "yaw_rad": 0,
+      "dimensions_wd": [
+        16,
+        10
+      ]
+    },
+    {
+      "id": "FAMILY_LEFT_WING",
+      "class": "manor",
+      "wall_texture": "plaster_cool",
+      "position_xz": [
+        -65,
+        -39
+      ],
+      "yaw_rad": 0,
+      "dimensions_wd": [
+        10,
+        8
+      ]
+    },
+    {
+      "id": "FAMILY_RIGHT_WING",
+      "class": "manor",
+      "wall_texture": "plaster_pale",
+      "position_xz": [
+        -31,
+        -39
+      ],
+      "yaw_rad": 0,
+      "dimensions_wd": [
+        10,
+        8
+      ]
+    },
+    {
+      "id": "TEA_HOUSE",
+      "class": "tea",
+      "wall_texture": "plaster_pale",
+      "position_xz": [
+        -7,
+        -11
+      ],
+      "yaw_rad": 0.15,
+      "dimensions_wd": [
+        11,
+        9
+      ]
+    },
+    {
+      "id": "HERBALIST",
+      "class": "store",
+      "wall_texture": "plaster",
+      "position_xz": [
+        8,
+        -34
+      ],
+      "yaw_rad": -0.24,
+      "dimensions_wd": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "FISHERS_01",
+      "class": "house",
+      "wall_texture": "plaster_speck",
+      "position_xz": [
+        30,
+        15
+      ],
+      "yaw_rad": -0.25,
+      "dimensions_wd": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "FISHERS_02",
+      "class": "house",
+      "wall_texture": "plaster",
+      "position_xz": [
+        31,
+        38
+      ],
+      "yaw_rad": 0.05,
+      "dimensions_wd": [
+        7.2,
+        6.4
+      ]
+    },
+    {
+      "id": "FARM_HOME_A",
+      "class": "house",
+      "wall_texture": "plaster_pale",
+      "position_xz": [
+        -47,
+        47
+      ],
+      "yaw_rad": 0.08,
+      "dimensions_wd": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "FARM_HOME_B",
+      "class": "house",
+      "wall_texture": "plaster_ochre",
+      "position_xz": [
+        -23,
+        52
+      ],
+      "yaw_rad": -0.08,
+      "dimensions_wd": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "HOUSE_GATE",
+      "class": "house",
+      "wall_texture": "plaster_ochre",
+      "position_xz": [
+        12,
+        -65
+      ],
+      "yaw_rad": 0.1,
+      "dimensions_wd": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "HOUSE_CENTER",
+      "class": "house",
+      "wall_texture": "plaster_ochre",
+      "position_xz": [
+        4,
+        23
+      ],
+      "yaw_rad": -0.1,
+      "dimensions_wd": [
+        8,
+        8
+      ]
+    },
+    {
+      "id": "STORE_FRONT",
+      "class": "store",
+      "wall_texture": "plaster",
+      "position_xz": [
+        -30,
+        17
+      ],
+      "yaw_rad": 0,
+      "dimensions_wd": [
+        10,
+        8
+      ]
+    },
+    {
+      "id": "HOUSE_SE",
+      "class": "house",
+      "wall_texture": "plaster",
+      "position_xz": [
+        8,
+        59
+      ],
+      "yaw_rad": 0.3,
+      "dimensions_wd": [
+        8,
+        7
+      ]
+    },
+    {
+      "id": "RIVERSIDE_INN",
+      "class": "tea",
+      "wall_texture": "plaster_speck",
+      "position_xz": [
+        28,
+        -17
+      ],
+      "yaw_rad": 0.09,
+      "dimensions_wd": [
+        10,
+        9
+      ]
+    },
+    {
+      "id": "FARM_HUT",
+      "class": "house",
+      "wall_texture": "plaster",
+      "position_xz": [
+        -70,
+        70
+      ],
+      "yaw_rad": 0.08,
+      "dimensions_wd": [
+        7,
+        6
+      ]
+    }
+  ],
+  "points_of_interest": [
+    {
+      "id": "VILLAGE_SPAWN",
+      "position": [
+        -12,
+        0.87,
+        65
+      ],
+      "kind": "start_area"
+    },
+    {
+      "id": "NORTHERN_GATE",
+      "position": [
+        -14,
+        0.48,
+        -94
+      ],
+      "kind": "transition_hwa01"
+    },
+    {
+      "id": "FERRY_VAU_01",
+      "position": [
+        46,
+        0.63,
+        -9
+      ],
+      "kind": "boat_travel_hwa04"
+    },
+    {
+      "id": "FISHING_JETTY",
+      "position": [
+        46,
+        0.42,
+        44
+      ],
+      "kind": "fishing"
+    },
+    {
+      "id": "MAIN_SQUARE",
+      "position": [
+        -11,
+        0.71,
+        5
+      ],
+      "kind": "social_hub"
+    },
+    {
+      "id": "FAMILY_ESTATE",
+      "position": [
+        -48,
+        0.67,
+        -43
+      ],
+      "kind": "dynasty_seat"
+    },
+    {
+      "id": "TEA_HOUSE",
+      "position": [
+        -7,
+        0.71,
+        -11
+      ],
+      "kind": "interior_future"
+    },
+    {
+      "id": "WELL",
+      "position": [
+        -11,
+        0.69,
+        7
+      ],
+      "kind": "village_water"
+    },
+    {
+      "id": "SHRINE",
+      "position": [
+        -9,
+        0.81,
+        79
+      ],
+      "kind": "spiritual_poi"
+    },
+    {
+      "id": "RICE_TERRACES",
+      "position": [
+        -74,
+        2.39,
+        56
+      ],
+      "kind": "farm_collect"
+    },
+    {
+      "id": "HERBALIST",
+      "position": [
+        8,
+        0.56,
+        -34
+      ],
+      "kind": "apothecary"
+    },
+    {
+      "id": "FERRY_BANK_EAST",
+      "position": [
+        88,
+        0.52,
+        -9
+      ],
+      "kind": "reserved_hwa04"
+    }
+  ],
+  "meshes_triangles": {
+    "Terrain": 12160,
+    "River": 146,
+    "Rice_and_Gardens": 1104,
+    "Wood_Structures": 4340,
+    "Trees_and_Bamboo": 15264,
+    "Props_and_Detail": 2896
+  },
+  "design_notes": "Map fixed, ownership and NPC behavior selected by seed; names can be fictional placeholders. No generator can shuffle houses or river. River crossing via ferry, no bridge at HWA-02.",
+  "authorship": "All procedural meshes and painted atlas originally created in this package, no external textures or models.",
+  "active_architecture": "res://architecture_sprint02/HWA02_Architecture_Sprint02.glb",
+  "active_nature": "res://model/HWA02_Nature_And_TerrainCollision_S02.glb",
+  "active_terrain": "res://terrain_sprint01/HWA02_Terrain_Murim_Sprint01.glb",
+  "retired_groups": [
+    "Houses",
+    "Main_Family_Estate",
+    "Roads"
+  ],
+  "architecture_generator": "source/build_architecture_sprint02.py",
+  "note_sprint02": "Deprecated geometry removed from active imported scene. Architecture uses separate original S02 mesh. Family crest data unchanged.",
+  "infrastructure_sprint05": "infrastructure_sprint05/data/manifest_sprint05.json"
+}

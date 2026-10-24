@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=5 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/catalog_definition.gd" id="1"]
+[ext_resource type="Resource" path="res://modules/active_skills/definitions/fist_rupture.tres" id="2"]
+[ext_resource type="Resource" path="res://modules/active_skills/definitions/qi_pulse.tres" id="3"]
+[ext_resource type="Resource" path="res://modules/active_skills/definitions/sword_crescent.tres" id="4"]
+[resource]
+script = ExtResource("1")
+entries = Array[Resource]([ExtResource("2"), ExtResource("3"), ExtResource("4")])

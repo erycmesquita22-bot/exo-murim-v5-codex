@@ -1,0 +1,1004 @@
+{
+  "schema": "exo.hwa02.interiors.s06",
+  "stage_origin": [
+    680,
+    0,
+    680
+  ],
+  "entrances_fixed": true,
+  "roof_presentation": "open-top for third person camera, roof of exterior unchanged",
+  "rooms": [
+    {
+      "id": "FAMILY_MAIN_HALL",
+      "kind": "MANOR_HALL",
+      "width": 22,
+      "depth": 17,
+      "triangles": 2320,
+      "collision_furniture": [
+        {
+          "center": [
+            0,
+            1.02,
+            -4.42
+          ],
+          "size": [
+            2.7,
+            0.16,
+            1.0
+          ]
+        },
+        {
+          "center": [
+            -3.9,
+            0.55,
+            -2.6
+          ],
+          "size": [
+            1.3,
+            0.16,
+            0.84
+          ]
+        },
+        {
+          "center": [
+            -3.9,
+            0.55,
+            0.4
+          ],
+          "size": [
+            1.3,
+            0.16,
+            0.84
+          ]
+        },
+        {
+          "center": [
+            3.9,
+            0.55,
+            -2.6
+          ],
+          "size": [
+            1.3,
+            0.16,
+            0.84
+          ]
+        },
+        {
+          "center": [
+            3.9,
+            0.55,
+            0.4
+          ],
+          "size": [
+            1.3,
+            0.16,
+            0.84
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FAMILY_MAIN_HALL.tscn"
+    },
+    {
+      "id": "FAMILY_LEFT_WING",
+      "kind": "MANOR_TRAINING",
+      "width": 15,
+      "depth": 12,
+      "triangles": 1828,
+      "collision_furniture": [
+        {
+          "center": [
+            -5.6,
+            1.08,
+            -2.5
+          ],
+          "size": [
+            2.35,
+            2.16,
+            0.3
+          ]
+        },
+        {
+          "center": [
+            -5.6,
+            1.08,
+            1.4
+          ],
+          "size": [
+            2.35,
+            2.16,
+            0.3
+          ]
+        },
+        {
+          "center": [
+            5.6,
+            1.08,
+            -2.5
+          ],
+          "size": [
+            2.35,
+            2.16,
+            0.3
+          ]
+        },
+        {
+          "center": [
+            5.6,
+            1.08,
+            1.4
+          ],
+          "size": [
+            2.35,
+            2.16,
+            0.3
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.62,
+            -3.4799999999999995
+          ],
+          "size": [
+            2.1,
+            0.16,
+            0.8
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FAMILY_LEFT_WING.tscn"
+    },
+    {
+      "id": "FAMILY_RIGHT_WING",
+      "kind": "MANOR_LIBRARY",
+      "width": 15,
+      "depth": 12,
+      "triangles": 2152,
+      "collision_furniture": [
+        {
+          "center": [
+            0,
+            0.71,
+            -0.6
+          ],
+          "size": [
+            3.1,
+            0.16,
+            1.35
+          ]
+        },
+        {
+          "center": [
+            -6.4,
+            1.2,
+            -3.2
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        },
+        {
+          "center": [
+            -6.4,
+            1.2,
+            -0.4
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        },
+        {
+          "center": [
+            -6.4,
+            1.2,
+            2.5
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        },
+        {
+          "center": [
+            6.4,
+            1.2,
+            -3.2
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        },
+        {
+          "center": [
+            6.4,
+            1.2,
+            -0.4
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        },
+        {
+          "center": [
+            6.4,
+            1.2,
+            2.5
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FAMILY_RIGHT_WING.tscn"
+    },
+    {
+      "id": "TEA_HOUSE",
+      "kind": "TEAHOUSE",
+      "width": 16,
+      "depth": 13,
+      "triangles": 2220,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.6,
+            0.5,
+            -2.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            -3.6,
+            0.5,
+            1.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.5,
+            -2.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.5,
+            1.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            3.6,
+            0.5,
+            -2.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            3.6,
+            0.5,
+            1.5
+          ],
+          "size": [
+            1.48,
+            0.16,
+            0.95
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.8,
+            -5.0
+          ],
+          "size": [
+            5,
+            1.6,
+            1.0
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/TEA_HOUSE.tscn"
+    },
+    {
+      "id": "HERBALIST",
+      "kind": "HEALER",
+      "width": 13,
+      "depth": 11,
+      "triangles": 1704,
+      "collision_furniture": [
+        {
+          "center": [
+            0,
+            0.83,
+            -4.1
+          ],
+          "size": [
+            3.5,
+            1.65,
+            1.1
+          ]
+        },
+        {
+          "center": [
+            -3.0,
+            1.15,
+            -4.5
+          ],
+          "size": [
+            2.1,
+            2.3,
+            0.52
+          ]
+        },
+        {
+          "center": [
+            3.0,
+            1.15,
+            -4.5
+          ],
+          "size": [
+            2.1,
+            2.3,
+            0.52
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.72,
+            0
+          ],
+          "size": [
+            2.45,
+            0.16,
+            1.15
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/HERBALIST.tscn"
+    },
+    {
+      "id": "FISHERS_01",
+      "kind": "FISHER",
+      "width": 10.5,
+      "depth": 9,
+      "triangles": 1188,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.55,
+            0.31,
+            -2.9
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1.2,
+            0.59,
+            -0.8
+          ],
+          "size": [
+            1.4,
+            0.16,
+            0.9
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FISHERS_01.tscn"
+    },
+    {
+      "id": "FISHERS_02",
+      "kind": "FISHER",
+      "width": 10,
+      "depth": 9.5,
+      "triangles": 1188,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.3,
+            0.31,
+            -3.15
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1.2,
+            0.59,
+            -0.8
+          ],
+          "size": [
+            1.4,
+            0.16,
+            0.9
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FISHERS_02.tscn"
+    },
+    {
+      "id": "FARM_HOME_A",
+      "kind": "FARMHOUSE",
+      "width": 11.5,
+      "depth": 10,
+      "triangles": 1272,
+      "collision_furniture": [
+        {
+          "center": [
+            -4.05,
+            0.31,
+            -3.2
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1.1,
+            0.55,
+            -1.1
+          ],
+          "size": [
+            1.55,
+            0.16,
+            1.05
+          ]
+        },
+        {
+          "center": [
+            4.5,
+            1.15,
+            0
+          ],
+          "size": [
+            1.45,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FARM_HOME_A.tscn"
+    },
+    {
+      "id": "FARM_HOME_B",
+      "kind": "FARMHOUSE",
+      "width": 11,
+      "depth": 10.5,
+      "triangles": 1272,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.8,
+            0.31,
+            -3.45
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1.1,
+            0.55,
+            -1.1
+          ],
+          "size": [
+            1.55,
+            0.16,
+            1.05
+          ]
+        },
+        {
+          "center": [
+            4.25,
+            1.15,
+            0
+          ],
+          "size": [
+            1.45,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FARM_HOME_B.tscn"
+    },
+    {
+      "id": "HOUSE_GATE",
+      "kind": "RURAL",
+      "width": 11,
+      "depth": 9,
+      "triangles": 1428,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.9,
+            0.31,
+            -2.8
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1,
+            0.6,
+            0
+          ],
+          "size": [
+            1.5,
+            0.16,
+            1
+          ]
+        },
+        {
+          "center": [
+            2.1,
+            0.35,
+            0.2
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            4.35,
+            1.15,
+            -3.05
+          ],
+          "size": [
+            1.35,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/HOUSE_GATE.tscn"
+    },
+    {
+      "id": "HOUSE_CENTER",
+      "kind": "RURAL",
+      "width": 12,
+      "depth": 10,
+      "triangles": 1440,
+      "collision_furniture": [
+        {
+          "center": [
+            -4.4,
+            0.31,
+            -3.3
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1,
+            0.6,
+            0
+          ],
+          "size": [
+            1.5,
+            0.16,
+            1
+          ]
+        },
+        {
+          "center": [
+            2.1,
+            0.35,
+            0.2
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            4.85,
+            1.15,
+            -3.55
+          ],
+          "size": [
+            1.35,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/HOUSE_CENTER.tscn"
+    },
+    {
+      "id": "STORE_FRONT",
+      "kind": "STORE",
+      "width": 13,
+      "depth": 11,
+      "triangles": 1380,
+      "collision_furniture": [
+        {
+          "center": [
+            0,
+            0.82,
+            -4.45
+          ],
+          "size": [
+            4.1,
+            1.64,
+            1.25
+          ]
+        },
+        {
+          "center": [
+            -3,
+            1.15,
+            0
+          ],
+          "size": [
+            2.0,
+            2.3,
+            0.52
+          ]
+        },
+        {
+          "center": [
+            3,
+            1.15,
+            0
+          ],
+          "size": [
+            2.0,
+            2.3,
+            0.52
+          ]
+        },
+        {
+          "center": [
+            -3.1,
+            0.34,
+            3.0
+          ],
+          "size": [
+            1.0,
+            0.68,
+            0.9
+          ]
+        },
+        {
+          "center": [
+            -1.6,
+            0.34,
+            3.0
+          ],
+          "size": [
+            1.0,
+            0.68,
+            0.9
+          ]
+        },
+        {
+          "center": [
+            1.6,
+            0.34,
+            3.0
+          ],
+          "size": [
+            1.0,
+            0.68,
+            0.9
+          ]
+        },
+        {
+          "center": [
+            3.1,
+            0.34,
+            3.0
+          ],
+          "size": [
+            1.0,
+            0.68,
+            0.9
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/STORE_FRONT.tscn"
+    },
+    {
+      "id": "HOUSE_SE",
+      "kind": "RURAL",
+      "width": 10,
+      "depth": 9,
+      "triangles": 1428,
+      "collision_furniture": [
+        {
+          "center": [
+            -3.4,
+            0.31,
+            -2.8
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1,
+            0.6,
+            0
+          ],
+          "size": [
+            1.5,
+            0.16,
+            1
+          ]
+        },
+        {
+          "center": [
+            2.1,
+            0.35,
+            0.2
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            3.85,
+            1.15,
+            -3.05
+          ],
+          "size": [
+            1.35,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/HOUSE_SE.tscn"
+    },
+    {
+      "id": "RIVERSIDE_INN",
+      "kind": "INN",
+      "width": 18,
+      "depth": 14,
+      "triangles": 1932,
+      "collision_furniture": [
+        {
+          "center": [
+            0,
+            0.86,
+            -5.9
+          ],
+          "size": [
+            4.4,
+            1.7,
+            1.15
+          ]
+        },
+        {
+          "center": [
+            -4.3,
+            0.57,
+            1.8
+          ],
+          "size": [
+            1.6,
+            0.16,
+            1.12
+          ]
+        },
+        {
+          "center": [
+            -4.3,
+            0.35,
+            0.75
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            -4.3,
+            0.35,
+            2.85
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.57,
+            1.8
+          ],
+          "size": [
+            1.6,
+            0.16,
+            1.12
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.35,
+            0.75
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            0,
+            0.35,
+            2.85
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            4.3,
+            0.57,
+            1.8
+          ],
+          "size": [
+            1.6,
+            0.16,
+            1.12
+          ]
+        },
+        {
+          "center": [
+            4.3,
+            0.35,
+            0.75
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            4.3,
+            0.35,
+            2.85
+          ],
+          "size": [
+            0.7,
+            0.25,
+            0.62
+          ]
+        },
+        {
+          "center": [
+            5.8,
+            1.15,
+            -6.0
+          ],
+          "size": [
+            1.5,
+            2.3,
+            0.52
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/RIVERSIDE_INN.tscn"
+    },
+    {
+      "id": "FARM_HUT",
+      "kind": "HUT",
+      "width": 9,
+      "depth": 8,
+      "triangles": 1092,
+      "collision_furniture": [
+        {
+          "center": [
+            -1,
+            0.31,
+            -0.6
+          ],
+          "size": [
+            2.2,
+            0.62,
+            1.55
+          ]
+        },
+        {
+          "center": [
+            1.1,
+            0.45,
+            -1.8
+          ],
+          "size": [
+            1.2,
+            0.16,
+            0.7
+          ]
+        }
+      ],
+      "scene": "res://godot/interiors/FARM_HUT.tscn"
+    }
+  ],
+  "family_variants": "shared geometry; Wong/Wudong swap painted banners only",
+  "interaction": "F near entrance; F near exit; E remains equip/unequip"
+}

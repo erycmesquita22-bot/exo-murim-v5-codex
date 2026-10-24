@@ -1,0 +1,19 @@
+{
+  "project": "EXO-Murim HWA-02",
+  "sprint": "Terrain Sprint 01",
+  "engine": "Godot 4.7.2 Compatibility",
+  "texture_tiles_count": 16,
+  "tile_size": 512,
+  "world_albedo": [
+    2048,
+    2048
+  ],
+  "physical_geom_unchanged": true,
+  "triangles_old": 12160,
+  "triangles_new": 12160,
+  "sha256_world_albedo": "7a0990126613e120b70c97923017480ea74b0910906abaffb964a8ade1a86681",
+  "sha256_GLb": "0f2e7936e3c120356d30ea1f933d25c83710854882d60ff5e3511a1e6160ff7a",
+  "source_base_v04_sha256": "b015b88e278a90cb81c300bfc8ab7444606d116483fa50e78486b793ecf644c3",
+  "comment": "No combat/movement or house modifications",
+  "world_paint_final_finish": "softened 1.15px microbrush; slightly darkened for Murim ink palette"
+}

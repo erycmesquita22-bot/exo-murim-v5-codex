@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"qi_pulse"
+display_name = "Pulso de Qi"
+school = "Qi"
+delivery = "projectile"
+description = "Concentre qi entre as mãos e lance um pulso em linha reta. O projétil para ao atingir o cenário ou um adversário."
+animation = &"Skill_Qi_Pulse"
+damage = 28
+qi_cost = 24.0
+cooldown = 5
+active_start = 0.46
+active_end = 0.58
+query_radius = 0.18
+lunge_distance = 0

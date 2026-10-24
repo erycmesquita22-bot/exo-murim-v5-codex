@@ -1,0 +1,38 @@
+{
+  "WONG": {
+    "estate_slot": "VILLAGE_DYNASTY",
+    "crest_model": "HWA02_Family_Wong.glb",
+    "principle": "força e obediência",
+    "alignment": "rigoroso, autoritário",
+    "combat": "Qi físico, impacto, punhos e resistência",
+    "decision_rules": [
+      "cobra pedágio elevado",
+      "recompensa disciplina",
+      "pune desobediência"
+    ],
+    "npc_archetypes": [
+      "patriarca austero",
+      "instrutor de punho",
+      "cobrador",
+      "discípulo de Qi"
+    ]
+  },
+  "WUDONG": {
+    "estate_slot": "VILLAGE_DYNASTY",
+    "crest_model": "HWA02_Family_Wudong.glb",
+    "principle": "justiça e disciplina",
+    "alignment": "honrada, mediadora",
+    "combat": "espada, técnica e precisão",
+    "decision_rules": [
+      "protege habitantes",
+      "recompensa mérito",
+      "intervém em abusos"
+    ],
+    "npc_archetypes": [
+      "matriarca honrada",
+      "espadachim",
+      "discípula de seita",
+      "mediador"
+    ]
+  }
+}

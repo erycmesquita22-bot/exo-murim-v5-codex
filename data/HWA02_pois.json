@@ -1,0 +1,110 @@
+[
+  {
+    "id": "VILLAGE_SPAWN",
+    "position": [
+      -12,
+      0.87,
+      65
+    ],
+    "kind": "start_area"
+  },
+  {
+    "id": "NORTHERN_GATE",
+    "position": [
+      -14,
+      0.48,
+      -94
+    ],
+    "kind": "transition_hwa01"
+  },
+  {
+    "id": "FERRY_VAU_01",
+    "position": [
+      46,
+      0.63,
+      -9
+    ],
+    "kind": "boat_travel_hwa04"
+  },
+  {
+    "id": "FISHING_JETTY",
+    "position": [
+      46,
+      0.42,
+      44
+    ],
+    "kind": "fishing"
+  },
+  {
+    "id": "MAIN_SQUARE",
+    "position": [
+      -11,
+      0.71,
+      5
+    ],
+    "kind": "social_hub"
+  },
+  {
+    "id": "FAMILY_ESTATE",
+    "position": [
+      -48,
+      0.67,
+      -43
+    ],
+    "kind": "dynasty_seat"
+  },
+  {
+    "id": "TEA_HOUSE",
+    "position": [
+      -7,
+      0.71,
+      -11
+    ],
+    "kind": "interior_future"
+  },
+  {
+    "id": "WELL",
+    "position": [
+      -11,
+      0.69,
+      7
+    ],
+    "kind": "village_water"
+  },
+  {
+    "id": "SHRINE",
+    "position": [
+      -9,
+      0.81,
+      79
+    ],
+    "kind": "spiritual_poi"
+  },
+  {
+    "id": "RICE_TERRACES",
+    "position": [
+      -74,
+      2.39,
+      56
+    ],
+    "kind": "farm_collect"
+  },
+  {
+    "id": "HERBALIST",
+    "position": [
+      8,
+      0.56,
+      -34
+    ],
+    "kind": "apothecary"
+  },
+  {
+    "id": "FERRY_BANK_EAST",
+    "position": [
+      88,
+      0.52,
+      -9
+    ],
+    "kind": "reserved_hwa04"
+  }
+]

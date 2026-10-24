@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://godot/S06_InteriorRoom.gd" id="1"]
+[ext_resource type="PackedScene" path="res://interiors_sprint06/models/HOUSE_GATE.glb" id="2"]
+
+[node name="S06_HOUSE_GATE" type="Node3D"]
+script = ExtResource("1")
+room_id = "HOUSE_GATE"
+room_kind = "RURAL"
+room_width = 11
+room_depth = 9
+
+[node name="Visual" parent="." instance=ExtResource("2")]

@@ -1,0 +1,126 @@
+{
+  "Sword_Draw": {
+    "duration": 1.15,
+    "loop": false
+  },
+  "Sword_Sheath": {
+    "duration": 1.15,
+    "loop": false
+  },
+  "Combat_Idle": {
+    "duration": 2.4,
+    "loop": true
+  },
+  "Sword_Attack_01": {
+    "duration": 0.82,
+    "loop": false
+  },
+  "Sword_Attack_02": {
+    "duration": 0.76,
+    "loop": false
+  },
+  "Sword_Attack_03": {
+    "duration": 0.8,
+    "loop": false
+  },
+  "Travel_Run": {
+    "duration": 0.7,
+    "loop": true
+  },
+  "Walk_Armed": {
+    "duration": 1,
+    "loop": true
+  },
+  "Run_Armed": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Back": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Left": {
+    "duration": 1,
+    "loop": true
+  },
+  "Combat_Right": {
+    "duration": 1,
+    "loop": true
+  },
+  "Guard_Loop": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "Parry": {
+    "duration": 0.32,
+    "loop": false
+  },
+  "Dodge_Left": {
+    "duration": 0.5,
+    "loop": false
+  },
+  "Dodge_Right": {
+    "duration": 0.5,
+    "loop": false
+  },
+  "Dodge_Back": {
+    "duration": 0.5,
+    "loop": false
+  },
+  "Dodge_Forward": {
+    "duration": 0.5,
+    "loop": false
+  },
+  "Jump_Start": {
+    "duration": 0.25,
+    "loop": false
+  },
+  "Jump_Air": {
+    "duration": 0.7,
+    "loop": true
+  },
+  "Land": {
+    "duration": 0.3,
+    "loop": false
+  },
+  "Defeat": {
+    "duration": 1.1,
+    "loop": false
+  },
+  "Sword_Attack_04": {
+    "duration": 0.9,
+    "loop": false
+  },
+  "Sword_Attack_05": {
+    "duration": 1.05,
+    "loop": false
+  },
+  "Hit_Reaction": {
+    "duration": 0.55,
+    "loop": false
+  },
+  "Hit_Left": {
+    "duration": 0.55,
+    "loop": false
+  },
+  "Hit_Right": {
+    "duration": 0.55,
+    "loop": false
+  },
+  "Block_Recoil": {
+    "duration": 0.38,
+    "loop": false
+  },
+  "Jump_Armed": {
+    "duration": 0.7,
+    "loop": true
+  },
+  "Land_Armed": {
+    "duration": 0.38,
+    "loop": false
+  },
+  "Hit_Unarmed": {
+    "duration": 0.42,
+    "loop": false
+  }
+}

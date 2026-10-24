@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://modules/active_skills/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+skill_id = &"sword_crescent"
+display_name = "Corte da Lua"
+school = "Espada"
+delivery = "blade"
+description = "Um corte crescente amplo com transferência de peso. Usa a lâmina real; se necessário, saca a espada antes de iniciar."
+animation = &"Skill_Sword_Crescent"
+damage = 42
+qi_cost = 18.0
+cooldown = 3.5
+active_start = 0.3
+active_end = 0.64
+query_radius = 0.14
+lunge_distance = 0.62
